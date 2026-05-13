@@ -1,5 +1,6 @@
 __pycache__/
 *.py[cod]
 
-output/*
+output/_cache/
+output/_silence/
 !output/.gitkeep
