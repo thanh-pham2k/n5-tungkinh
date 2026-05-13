@@ -34,6 +34,7 @@ extractor/
     _cache/                # Downloaded Sound of Text MP3 cache
     _silence/              # Reusable silent MP3 clips
   index.html               # Static mobile-friendly audio looper
+  docs/                    # GitHub Pages copy of the static web player
   make_vocab_audio.py
 ```
 
@@ -69,5 +70,5 @@ This repo is a static site and does not need GitHub Actions. Enable GitHub Pages
 Settings -> Pages -> Build and deployment
 Source: Deploy from a branch
 Branch: main
-Folder: / (root)
+Folder: /docs
 ```
