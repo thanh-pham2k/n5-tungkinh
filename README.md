@@ -2,6 +2,16 @@
 
 Japanese-Vietnamese vocabulary audio generator for N5 study.
 
+## Web player
+
+After GitHub Pages deploys, open:
+
+```text
+https://thanh-pham2k.github.io/n5-tungkinh/
+```
+
+On mobile, open the page, choose a local MP3 file from the phone, then use Play, Pause, Restart, and speed control.
+
 ## Folder structure
 
 ```text
@@ -9,6 +19,12 @@ extractor/
   input/
     17.txt                 # Vocabulary source file
   output/
+    16/
+      16_group_01.mp3
+      16_group_02.mp3
+      16_group_03.mp3
+      16_group_04.mp3
+      16_group_05.mp3
     17/
       17_group_01.mp3      # Audio for group 1 in input/17.txt
       17_group_02.mp3
@@ -16,6 +32,7 @@ extractor/
       17_group_04.mp3
     _cache/                # Downloaded Sound of Text MP3 cache
     _silence/              # Reusable silent MP3 clips
+  index.html               # Static mobile-friendly audio looper
   make_vocab_audio.py
 ```
 
@@ -41,4 +58,14 @@ python .\make_vocab_audio.py --input .\input\18.txt
 
 Each group separated by `---` becomes one audio file in `output\<input-file-name>\`.
 
-Generated MP3 files, TTS cache, and silence clips are ignored by Git by default.
+Generated lesson MP3 files are committed so they can be downloaded on another device. TTS cache and silence clips are ignored by Git.
+
+## Deployment
+
+This repo deploys `index.html` to GitHub Pages with GitHub Actions on every push to `main`.
+
+If Pages is not active yet, enable it once in GitHub:
+
+```text
+Settings -> Pages -> Build and deployment -> Source: GitHub Actions
+```
