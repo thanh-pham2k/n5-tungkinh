@@ -292,7 +292,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     configure_console()
     args = parse_args()
-    groups = read_groups(args.input)
+    groups = list(enumerate(read_groups(args.input), start=1))
     if args.only_group is not None:
         if args.only_group < 1 or args.only_group > len(groups):
             print(f"--only-group must be between 1 and {len(groups)}", file=sys.stderr)
@@ -300,11 +300,11 @@ def main() -> int:
         groups = [groups[args.only_group - 1]]
 
     if args.max_items is not None:
-        groups = [group[: args.max_items] for group in groups]
+        groups = [(group_index, group[: args.max_items]) for group_index, group in groups]
 
     print(f"Input: {args.input}")
     print(f"Groups: {len(groups)}")
-    for group_index, group in enumerate(groups, start=1):
+    for group_index, group in groups:
         print(f"Group {group_index}: {len(group)} items")
         if args.dry_run:
             for item in group:
@@ -324,8 +324,8 @@ def main() -> int:
         silence_dir / f"pause_{args.pause_after_pair:.2f}s_24000hz.mp3", args.pause_after_pair
     )
 
-    for group_index, group in enumerate(groups, start=1):
-        print(f"Building group {group_index}/{len(groups)}")
+    for group_index, group in groups:
+        print(f"Building group {group_index}")
         try:
             output_path = build_group_audio(
                 group=group,
