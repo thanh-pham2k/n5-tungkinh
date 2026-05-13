@@ -76,6 +76,25 @@
       display: block;
     }
 
+    .controls-row {
+      display: grid;
+      grid-template-columns: 1fr 130px;
+      gap: 12px;
+      align-items: end;
+      margin-top: 14px;
+    }
+
+    select {
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--text);
+      padding: 0 10px;
+      font-weight: 700;
+    }
+
     .toolbar {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -130,6 +149,10 @@
       .toolbar {
         grid-template-columns: 1fr;
       }
+
+      .controls-row {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
@@ -142,6 +165,21 @@
     <input type="file" id="looper-file" accept="audio/*">
 
     <audio id="looper-audio" controls loop></audio>
+
+    <div class="controls-row">
+      <div>
+        <label for="looper-speed">Tốc độ</label>
+        <select id="looper-speed">
+          <option value="0.5">0.5x</option>
+          <option value="0.75">0.75x</option>
+          <option value="1" selected>1x</option>
+          <option value="1.25">1.25x</option>
+          <option value="1.5">1.5x</option>
+          <option value="1.75">1.75x</option>
+          <option value="2">2x</option>
+        </select>
+      </div>
+    </div>
 
     <div class="toolbar">
       <button class="primary" id="looper-play" type="button">Play</button>
@@ -156,8 +194,14 @@
     (() => {
       const fileInput = document.getElementById("looper-file");
       const audio = document.getElementById("looper-audio");
+      const speed = document.getElementById("looper-speed");
       const status = document.getElementById("looper-status");
       let objectUrl = "";
+
+      const applySpeed = () => {
+        audio.playbackRate = Number(speed.value);
+        audio.defaultPlaybackRate = Number(speed.value);
+      };
 
       fileInput.addEventListener("change", () => {
         const file = fileInput.files[0];
@@ -170,10 +214,16 @@
         objectUrl = URL.createObjectURL(file);
         audio.src = objectUrl;
         audio.loop = true;
+        applySpeed();
         status.textContent = `Đang phát lặp: ${file.name}`;
         audio.play().catch(() => {
           status.textContent = `Đã chọn: ${file.name}. Bấm Play để phát.`;
         });
+      });
+
+      speed.addEventListener("change", () => {
+        applySpeed();
+        status.textContent = `Tốc độ hiện tại: ${speed.value}x`;
       });
 
       document.getElementById("looper-play").addEventListener("click", () => {
@@ -181,6 +231,7 @@
           status.textContent = "Vui lòng chọn file MP3 trước.";
           return;
         }
+        applySpeed();
         audio.play();
       });
 
@@ -194,6 +245,7 @@
           return;
         }
         audio.currentTime = 0;
+        applySpeed();
         audio.play();
       });
 
