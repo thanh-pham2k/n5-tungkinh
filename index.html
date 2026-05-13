@@ -61,6 +61,35 @@
       margin-bottom: 8px;
     }
 
+    section {
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    .lesson {
+      margin-top: 14px;
+    }
+
+    .lesson-title {
+      margin-bottom: 8px;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .lesson-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
     input[type="file"] {
       width: 100%;
       border: 1px solid var(--line);
@@ -129,6 +158,12 @@
       color: #fff;
     }
 
+    button.active {
+      border-color: var(--primary);
+      background: #eaf2ff;
+      color: var(--primary-dark);
+    }
+
     .status {
       margin-top: 12px;
       color: var(--muted);
@@ -153,16 +188,27 @@
       .controls-row {
         grid-template-columns: 1fr;
       }
+
+      .lesson-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
   <main>
     <h1>Audio Looper</h1>
-    <p>Chọn file MP3 từ máy của bạn, audio sẽ phát lặp liên tục.</p>
+    <p>Chọn audio có sẵn hoặc chọn file MP3 từ máy của bạn, audio sẽ phát lặp liên tục.</p>
 
-    <label for="looper-file">File MP3</label>
-    <input type="file" id="looper-file" accept="audio/*">
+    <section>
+      <h2>Audio public</h2>
+      <div id="lesson-list"></div>
+    </section>
+
+    <section>
+      <label for="looper-file">File MP3 local</label>
+      <input type="file" id="looper-file" accept="audio/*">
+    </section>
 
     <audio id="looper-audio" controls loop></audio>
 
@@ -192,24 +238,102 @@
 
   <script>
     (() => {
+      const lessons = [
+        {
+          title: "Bài 16",
+          tracks: [
+            { label: "Nhóm 1", src: "output/16/16_group_01.mp3" },
+            { label: "Nhóm 2", src: "output/16/16_group_02.mp3" },
+            { label: "Nhóm 3", src: "output/16/16_group_03.mp3" },
+            { label: "Nhóm 4", src: "output/16/16_group_04.mp3" },
+            { label: "Nhóm 5", src: "output/16/16_group_05.mp3" },
+          ],
+        },
+        {
+          title: "Bài 17",
+          tracks: [
+            { label: "Nhóm 1", src: "output/17/17_group_01.mp3" },
+            { label: "Nhóm 2", src: "output/17/17_group_02.mp3" },
+            { label: "Nhóm 3", src: "output/17/17_group_03.mp3" },
+            { label: "Nhóm 4", src: "output/17/17_group_04.mp3" },
+          ],
+        },
+      ];
+
+      const lessonList = document.getElementById("lesson-list");
       const fileInput = document.getElementById("looper-file");
       const audio = document.getElementById("looper-audio");
       const speed = document.getElementById("looper-speed");
       const status = document.getElementById("looper-status");
       let objectUrl = "";
+      let activeTrackButton = null;
 
       const applySpeed = () => {
         audio.playbackRate = Number(speed.value);
         audio.defaultPlaybackRate = Number(speed.value);
       };
 
+      const revokeLocalUrl = () => {
+        if (objectUrl) {
+          URL.revokeObjectURL(objectUrl);
+          objectUrl = "";
+        }
+      };
+
+      const setActiveTrackButton = (button) => {
+        if (activeTrackButton) {
+          activeTrackButton.classList.remove("active");
+        }
+        activeTrackButton = button;
+        if (activeTrackButton) {
+          activeTrackButton.classList.add("active");
+        }
+      };
+
+      const playSource = (src, label, button = null) => {
+        revokeLocalUrl();
+        setActiveTrackButton(button);
+        audio.src = src;
+        audio.loop = true;
+        applySpeed();
+        status.textContent = `Đang phát lặp: ${label}`;
+        audio.play().catch(() => {
+          status.textContent = `Đã chọn: ${label}. Bấm Play để phát.`;
+        });
+      };
+
+      lessons.forEach((lesson) => {
+        const lessonBox = document.createElement("div");
+        lessonBox.className = "lesson";
+
+        const title = document.createElement("div");
+        title.className = "lesson-title";
+        title.textContent = lesson.title;
+        lessonBox.appendChild(title);
+
+        const grid = document.createElement("div");
+        grid.className = "lesson-grid";
+
+        lesson.tracks.forEach((track) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.textContent = track.label;
+          button.addEventListener("click", () => {
+            playSource(track.src, `${lesson.title} - ${track.label}`, button);
+          });
+          grid.appendChild(button);
+        });
+
+        lessonBox.appendChild(grid);
+        lessonList.appendChild(lessonBox);
+      });
+
       fileInput.addEventListener("change", () => {
         const file = fileInput.files[0];
         if (!file) return;
 
-        if (objectUrl) {
-          URL.revokeObjectURL(objectUrl);
-        }
+        revokeLocalUrl();
+        setActiveTrackButton(null);
 
         objectUrl = URL.createObjectURL(file);
         audio.src = objectUrl;
@@ -250,9 +374,7 @@
       });
 
       window.addEventListener("beforeunload", () => {
-        if (objectUrl) {
-          URL.revokeObjectURL(objectUrl);
-        }
+        revokeLocalUrl();
       });
     })();
   </script>

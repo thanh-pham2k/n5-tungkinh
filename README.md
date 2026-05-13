@@ -11,6 +11,7 @@ https://thanh-pham2k.github.io/n5-tungkinh/
 ```
 
 On mobile, open the page, choose a local MP3 file from the phone, then use Play, Pause, Restart, and speed control.
+You can also choose the public lesson audio directly from the page without downloading it first.
 
 ## Folder structure
 
@@ -60,12 +61,13 @@ Each group separated by `---` becomes one audio file in `output\<input-file-name
 
 Generated lesson MP3 files are committed so they can be downloaded on another device. TTS cache and silence clips are ignored by Git.
 
-## Deployment
+## Deployment without GitHub Actions
 
-This repo deploys `index.html` to GitHub Pages with GitHub Actions on every push to `main`.
-
-If Pages is not active yet, enable it once in GitHub:
+This repo is a static site and does not need GitHub Actions. Enable GitHub Pages from the branch instead:
 
 ```text
-Settings -> Pages -> Build and deployment -> Source: GitHub Actions
+Settings -> Pages -> Build and deployment
+Source: Deploy from a branch
+Branch: main
+Folder: / (root)
 ```
