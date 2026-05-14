@@ -33,8 +33,8 @@ extractor/
       17_group_04.mp3
     _cache/                # Downloaded Sound of Text MP3 cache
     _silence/              # Reusable silent MP3 clips
-  index.html               # Static mobile-friendly audio looper
-  docs/                    # GitHub Pages copy of the static web player
+  docs/
+    index.html             # Static mobile-friendly audio looper for GitHub Pages
   make_vocab_audio.py
 ```
 

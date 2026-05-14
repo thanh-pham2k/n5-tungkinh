@@ -14,7 +14,6 @@
       --line: #dbe2ee;
       --primary: #1665d8;
       --primary-dark: #0f4ca4;
-      --danger: #b42318;
       --shadow: 0 18px 50px rgba(23, 32, 51, 0.14);
     }
 
@@ -34,7 +33,7 @@
     }
 
     main {
-      width: min(520px, 100%);
+      width: min(980px, 100%);
       background: var(--panel);
       border: 1px solid var(--line);
       border-radius: 8px;
@@ -46,7 +45,6 @@
       margin: 0 0 6px;
       font-size: 24px;
       line-height: 1.2;
-      letter-spacing: 0;
     }
 
     p {
@@ -71,11 +69,34 @@
       margin: 0 0 10px;
       font-size: 18px;
       line-height: 1.25;
-      letter-spacing: 0;
     }
 
     .lesson {
       margin-top: 14px;
+    }
+
+    .public-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.55fr) minmax(280px, 1fr);
+      gap: 16px;
+      align-items: stretch;
+    }
+
+    .public-column {
+      min-width: 0;
+    }
+
+    .lesson-switcher {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .lesson-switcher button {
+      min-height: 38px;
+      padding: 0 14px;
+      border-radius: 999px;
     }
 
     .lesson-title {
@@ -88,6 +109,56 @@
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 8px;
+    }
+
+    .track-panel {
+      padding: 12px 0 0;
+      min-height: 220px;
+    }
+
+    .vocab-panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #f8fbff;
+      padding: 16px;
+      height: 420px;
+      position: sticky;
+      top: 16px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .vocab-meta {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .vocab-list {
+      margin: 0;
+      padding-left: 22px;
+      display: grid;
+      gap: 10px;
+      flex: 1;
+      min-height: 0;
+      overflow: auto;
+    }
+
+    .vocab-item {
+      line-height: 1.45;
+      overflow-wrap: anywhere;
+    }
+
+    .vocab-term {
+      font-weight: 700;
+      color: var(--text);
+      margin-right: 8px;
+    }
+
+    .vocab-meaning {
+      color: var(--muted);
     }
 
     input[type="file"] {
@@ -162,6 +233,13 @@
       border-color: var(--primary);
       background: #eaf2ff;
       color: var(--primary-dark);
+      box-shadow: inset 0 0 0 1px rgba(22, 101, 216, 0.2);
+    }
+
+    .hint {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 14px;
     }
 
     .status {
@@ -192,6 +270,15 @@
       .lesson-grid {
         grid-template-columns: 1fr;
       }
+
+      .public-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .vocab-panel {
+        position: static;
+        height: 320px;
+      }
     }
   </style>
 </head>
@@ -202,7 +289,21 @@
 
     <section>
       <h2>Audio public</h2>
-      <div id="lesson-list"></div>
+      <p class="hint">Track đang chọn sẽ được tô nền xanh.</p>
+      <div class="public-layout">
+        <div class="public-column">
+          <div class="lesson-switcher" id="lesson-switcher"></div>
+          <div class="track-panel">
+            <div class="lesson-title" id="selected-lesson-title"></div>
+            <div class="lesson-grid" id="track-grid"></div>
+          </div>
+        </div>
+        <aside class="vocab-panel" aria-live="polite">
+          <h2>Danh sách từ / nghĩa</h2>
+          <div class="vocab-meta" id="vocab-meta">Chọn một nhóm để xem danh sách từ/câu.</div>
+          <ol class="vocab-list" id="vocab-list"></ol>
+        </aside>
+      </div>
     </section>
 
     <section>
@@ -260,13 +361,134 @@
         },
       ];
 
-      const lessonList = document.getElementById("lesson-list");
+      const lessonSwitcher = document.getElementById("lesson-switcher");
+      const selectedLessonTitle = document.getElementById("selected-lesson-title");
+      const trackGrid = document.getElementById("track-grid");
+      const vocabMeta = document.getElementById("vocab-meta");
+      const vocabList = document.getElementById("vocab-list");
       const fileInput = document.getElementById("looper-file");
       const audio = document.getElementById("looper-audio");
       const speed = document.getElementById("looper-speed");
       const status = document.getElementById("looper-status");
       let objectUrl = "";
       let activeTrackButton = null;
+      let currentSource = "";
+      let selectedLessonIndex = 0;
+
+      const trackVocabulary = {
+        "output/16/16_group_01.mp3": [
+          { japanese: "のります", vietnamese: "lên, đi phương tiện" },
+          { japanese: "おります", vietnamese: "xuống phương tiện" },
+          { japanese: "のりかえます", vietnamese: "chuyển, đổi tuyến xe" },
+          { japanese: "あびます", vietnamese: "tắm, dội" },
+          { japanese: "いれます", vietnamese: "cho vào, bỏ vào" },
+          { japanese: "だします", vietnamese: "lấy ra, nộp, gửi" },
+          { japanese: "はいります", vietnamese: "vào" },
+          { japanese: "でます", vietnamese: "ra, tốt nghiệp" },
+          { japanese: "やめます", vietnamese: "nghỉ, bỏ" },
+          { japanese: "おします", vietnamese: "bấm, nhấn" },
+        ],
+        "output/16/16_group_02.mp3": [
+          { japanese: "わかい", vietnamese: "trẻ" },
+          { japanese: "ながい", vietnamese: "dài" },
+          { japanese: "みじかい", vietnamese: "ngắn" },
+          { japanese: "あかるい", vietnamese: "sáng" },
+          { japanese: "くらい", vietnamese: "tối" },
+          { japanese: "せが たかい", vietnamese: "cao" },
+          { japanese: "あたまが いい", vietnamese: "thông minh" },
+          { japanese: "からだ", vietnamese: "cơ thể" },
+          { japanese: "あたま", vietnamese: "đầu" },
+          { japanese: "かみ", vietnamese: "tóc" },
+        ],
+        "output/16/16_group_03.mp3": [
+          { japanese: "かお", vietnamese: "mặt" },
+          { japanese: "め", vietnamese: "mắt" },
+          { japanese: "みみ", vietnamese: "tai" },
+          { japanese: "くち", vietnamese: "miệng" },
+          { japanese: "は", vietnamese: "răng" },
+          { japanese: "おなか", vietnamese: "bụng" },
+          { japanese: "あし", vietnamese: "chân" },
+          { japanese: "サービス", vietnamese: "dịch vụ" },
+          { japanese: "ジョギング", vietnamese: "chạy bộ" },
+          { japanese: "シャワー", vietnamese: "vòi sen, tắm vòi sen" },
+        ],
+        "output/16/16_group_04.mp3": [
+          { japanese: "みどり", vietnamese: "màu xanh lá, cây xanh" },
+          { japanese: "おてら", vietnamese: "chùa" },
+          { japanese: "じんじゃ", vietnamese: "đền thần đạo" },
+          { japanese: "りゅうがくせい", vietnamese: "du học sinh" },
+          { japanese: "ばん", vietnamese: "số, lượt" },
+          { japanese: "どうやって", vietnamese: "bằng cách nào" },
+          { japanese: "どの", vietnamese: "cái nào" },
+          { japanese: "どれ", vietnamese: "cái nào" },
+          { japanese: "まず", vietnamese: "trước tiên" },
+          { japanese: "つぎに", vietnamese: "tiếp theo" },
+        ],
+        "output/16/16_group_05.mp3": [
+          { japanese: "それから", vietnamese: "sau đó" },
+          { japanese: "さいごに", vietnamese: "cuối cùng" },
+          { japanese: "すごいですね", vietnamese: "tuyệt quá, ghê quá" },
+          { japanese: "いいえ、まだまだです", vietnamese: "không, tôi còn kém lắm" },
+          { japanese: "おひきだしですか", vietnamese: "anh chị rút tiền phải không" },
+          {
+            japanese: "まず キャッシュカードを いれてください",
+            vietnamese: "đầu tiên hãy cho thẻ vào",
+          },
+          { japanese: "あんしょうばんごう", vietnamese: "mã PIN" },
+          { japanese: "きんがく", vietnamese: "số tiền" },
+          { japanese: "かくにん", vietnamese: "xác nhận" },
+          { japanese: "ボタン", vietnamese: "nút bấm" },
+        ],
+        "output/17/17_group_01.mp3": [
+          { japanese: "おぼえます", vietnamese: "nhớ, ghi nhớ" },
+          { japanese: "わすれます", vietnamese: "quên" },
+          { japanese: "なくします", vietnamese: "làm mất" },
+          { japanese: "はらいます", vietnamese: "trả tiền" },
+          { japanese: "かえします", vietnamese: "trả lại" },
+          { japanese: "でかけます", vietnamese: "ra ngoài" },
+          { japanese: "ぬぎます", vietnamese: "cởi" },
+          { japanese: "もっていきます", vietnamese: "mang đi" },
+          { japanese: "もってきます", vietnamese: "mang đến" },
+          { japanese: "しんぱいします", vietnamese: "lo lắng" },
+        ],
+        "output/17/17_group_02.mp3": [
+          { japanese: "ざんぎょうします", vietnamese: "làm thêm giờ" },
+          { japanese: "しゅっちょうします", vietnamese: "đi công tác" },
+          { japanese: "のみます", vietnamese: "uống" },
+          { japanese: "はいります", vietnamese: "vào" },
+          { japanese: "たいせつ", vietnamese: "quan trọng" },
+          { japanese: "だいじょうぶ", vietnamese: "ổn, không sao" },
+          { japanese: "あぶない", vietnamese: "nguy hiểm" },
+          { japanese: "もんだい", vietnamese: "vấn đề, câu hỏi" },
+          { japanese: "こたえ", vietnamese: "câu trả lời" },
+          { japanese: "きんえん", vietnamese: "cấm hút thuốc" },
+        ],
+        "output/17/17_group_03.mp3": [
+          { japanese: "ほけんしょう", vietnamese: "thẻ bảo hiểm" },
+          { japanese: "かぜ", vietnamese: "cảm lạnh" },
+          { japanese: "ねつ", vietnamese: "sốt" },
+          { japanese: "びょうき", vietnamese: "bệnh" },
+          { japanese: "くすり", vietnamese: "thuốc" },
+          { japanese: "おふろ", vietnamese: "bồn tắm, tắm" },
+          { japanese: "うわぎ", vietnamese: "áo khoác" },
+          { japanese: "したぎ", vietnamese: "đồ lót" },
+          { japanese: "せんせい", vietnamese: "bác sĩ, giáo viên" },
+          { japanese: "びょういん", vietnamese: "bệnh viện" },
+        ],
+        "output/17/17_group_04.mp3": [
+          { japanese: "じかん", vietnamese: "thời gian" },
+          { japanese: "〜までに", vietnamese: "trước hạn, trước lúc" },
+          { japanese: "〜まで", vietnamese: "đến, cho đến" },
+          { japanese: "ですから", vietnamese: "vì vậy, cho nên" },
+          { japanese: "どうしましたか", vietnamese: "bị sao vậy?" },
+          { japanese: "のど", vietnamese: "cổ họng" },
+          { japanese: "いたい", vietnamese: "đau" },
+          { japanese: "のどが いたいです", vietnamese: "đau họng" },
+          { japanese: "かぜを ひきました", vietnamese: "bị cảm" },
+          { japanese: "それから", vietnamese: "sau đó, ngoài ra" },
+          { japanese: "おだいじに", vietnamese: "giữ gìn sức khỏe nhé" },
+        ],
+      };
 
       const applySpeed = () => {
         audio.playbackRate = Number(speed.value);
@@ -290,42 +512,99 @@
         }
       };
 
+      const clearVocabulary = (message = "Chọn một nhóm để xem danh sách từ/câu.") => {
+        vocabMeta.textContent = message;
+        vocabList.replaceChildren();
+      };
+
+      const renderVocabulary = (src, label) => {
+        const items = trackVocabulary[src] || [];
+        if (!items.length) {
+          clearVocabulary(`Không có dữ liệu từ/câu cho ${label}.`);
+          return;
+        }
+
+        vocabMeta.textContent = `Nội dung của ${label} (${items.length} dòng)`;
+        const fragment = document.createDocumentFragment();
+        items.forEach((item, index) => {
+          const li = document.createElement("li");
+          li.className = "vocab-item";
+
+          const term = document.createElement("span");
+          term.className = "vocab-term";
+          term.textContent = item.japanese;
+
+          const meaning = document.createElement("span");
+          meaning.className = "vocab-meaning";
+          meaning.textContent = item.vietnamese;
+
+          li.appendChild(term);
+          li.appendChild(meaning);
+          fragment.appendChild(li);
+        });
+        vocabList.replaceChildren(fragment);
+      };
+
+      const renderTracks = () => {
+        const lesson = lessons[selectedLessonIndex];
+        selectedLessonTitle.textContent = lesson ? lesson.title : "";
+        trackGrid.replaceChildren();
+
+        if (!lesson) {
+          return;
+        }
+
+        lesson.tracks.forEach((track) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.textContent = track.label;
+          if (track.src === currentSource) {
+            button.classList.add("active");
+          }
+          button.addEventListener("click", () => {
+            playSource(track.src, `${lesson.title} - ${track.label}`, button);
+          });
+          trackGrid.appendChild(button);
+        });
+
+        const activeTrack = lesson.tracks.find((track) => track.src === currentSource);
+        if (activeTrack) {
+          renderVocabulary(activeTrack.src, `${lesson.title} - ${activeTrack.label}`);
+        } else {
+          clearVocabulary();
+        }
+      };
+
+      const selectLesson = (index) => {
+        selectedLessonIndex = index;
+        lessonSwitcher.querySelectorAll("button").forEach((button, buttonIndex) => {
+          button.classList.toggle("active", buttonIndex === index);
+        });
+        renderTracks();
+      };
+
       const playSource = (src, label, button = null) => {
         revokeLocalUrl();
         setActiveTrackButton(button);
+        currentSource = src;
         audio.src = src;
         audio.loop = true;
         applySpeed();
+        renderVocabulary(src, label);
         status.textContent = `Đang phát lặp: ${label}`;
         audio.play().catch(() => {
           status.textContent = `Đã chọn: ${label}. Bấm Play để phát.`;
         });
       };
 
-      lessons.forEach((lesson) => {
-        const lessonBox = document.createElement("div");
-        lessonBox.className = "lesson";
-
-        const title = document.createElement("div");
-        title.className = "lesson-title";
-        title.textContent = lesson.title;
-        lessonBox.appendChild(title);
-
-        const grid = document.createElement("div");
-        grid.className = "lesson-grid";
-
-        lesson.tracks.forEach((track) => {
-          const button = document.createElement("button");
-          button.type = "button";
-          button.textContent = track.label;
-          button.addEventListener("click", () => {
-            playSource(track.src, `${lesson.title} - ${track.label}`, button);
-          });
-          grid.appendChild(button);
+      lessons.forEach((lesson, index) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = lesson.title;
+        button.addEventListener("click", () => {
+          selectLesson(index);
         });
-
-        lessonBox.appendChild(grid);
-        lessonList.appendChild(lessonBox);
+        lessonSwitcher.appendChild(button);
       });
 
       fileInput.addEventListener("change", () => {
@@ -334,6 +613,8 @@
 
         revokeLocalUrl();
         setActiveTrackButton(null);
+        currentSource = "";
+        clearVocabulary("File local không có danh sách từ/câu đi kèm.");
 
         objectUrl = URL.createObjectURL(file);
         audio.src = objectUrl;
@@ -376,6 +657,8 @@
       window.addEventListener("beforeunload", () => {
         revokeLocalUrl();
       });
+
+      selectLesson(0);
     })();
   </script>
 </body>
