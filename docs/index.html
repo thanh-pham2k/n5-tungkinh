@@ -342,6 +342,7 @@
       const lessons = [
         {
           title: "Bài 16",
+          inputSrc: "input/16.txt",
           tracks: [
             { label: "Nhóm 1", src: "output/16/16_group_01.mp3" },
             { label: "Nhóm 2", src: "output/16/16_group_02.mp3" },
@@ -352,6 +353,7 @@
         },
         {
           title: "Bài 17",
+          inputSrc: "input/17.txt",
           tracks: [
             { label: "Nhóm 1", src: "output/17/17_group_01.mp3" },
             { label: "Nhóm 2", src: "output/17/17_group_02.mp3" },
@@ -360,6 +362,12 @@
           ],
         },
       ];
+
+      lessons.forEach((lesson) => {
+        lesson.tracks.forEach((track, index) => {
+          track.groupIndex = index + 1;
+        });
+      });
 
       const lessonSwitcher = document.getElementById("lesson-switcher");
       const selectedLessonTitle = document.getElementById("selected-lesson-title");
@@ -374,121 +382,7 @@
       let activeTrackButton = null;
       let currentSource = "";
       let selectedLessonIndex = 0;
-
-      const trackVocabulary = {
-        "output/16/16_group_01.mp3": [
-          { japanese: "のります", vietnamese: "lên, đi phương tiện" },
-          { japanese: "おります", vietnamese: "xuống phương tiện" },
-          { japanese: "のりかえます", vietnamese: "chuyển, đổi tuyến xe" },
-          { japanese: "あびます", vietnamese: "tắm, dội" },
-          { japanese: "いれます", vietnamese: "cho vào, bỏ vào" },
-          { japanese: "だします", vietnamese: "lấy ra, nộp, gửi" },
-          { japanese: "はいります", vietnamese: "vào" },
-          { japanese: "でます", vietnamese: "ra, tốt nghiệp" },
-          { japanese: "やめます", vietnamese: "nghỉ, bỏ" },
-          { japanese: "おします", vietnamese: "bấm, nhấn" },
-        ],
-        "output/16/16_group_02.mp3": [
-          { japanese: "わかい", vietnamese: "trẻ" },
-          { japanese: "ながい", vietnamese: "dài" },
-          { japanese: "みじかい", vietnamese: "ngắn" },
-          { japanese: "あかるい", vietnamese: "sáng" },
-          { japanese: "くらい", vietnamese: "tối" },
-          { japanese: "せが たかい", vietnamese: "cao" },
-          { japanese: "あたまが いい", vietnamese: "thông minh" },
-          { japanese: "からだ", vietnamese: "cơ thể" },
-          { japanese: "あたま", vietnamese: "đầu" },
-          { japanese: "かみ", vietnamese: "tóc" },
-        ],
-        "output/16/16_group_03.mp3": [
-          { japanese: "かお", vietnamese: "mặt" },
-          { japanese: "め", vietnamese: "mắt" },
-          { japanese: "みみ", vietnamese: "tai" },
-          { japanese: "くち", vietnamese: "miệng" },
-          { japanese: "は", vietnamese: "răng" },
-          { japanese: "おなか", vietnamese: "bụng" },
-          { japanese: "あし", vietnamese: "chân" },
-          { japanese: "サービス", vietnamese: "dịch vụ" },
-          { japanese: "ジョギング", vietnamese: "chạy bộ" },
-          { japanese: "シャワー", vietnamese: "vòi sen, tắm vòi sen" },
-        ],
-        "output/16/16_group_04.mp3": [
-          { japanese: "みどり", vietnamese: "màu xanh lá, cây xanh" },
-          { japanese: "おてら", vietnamese: "chùa" },
-          { japanese: "じんじゃ", vietnamese: "đền thần đạo" },
-          { japanese: "りゅうがくせい", vietnamese: "du học sinh" },
-          { japanese: "ばん", vietnamese: "số, lượt" },
-          { japanese: "どうやって", vietnamese: "bằng cách nào" },
-          { japanese: "どの", vietnamese: "cái nào" },
-          { japanese: "どれ", vietnamese: "cái nào" },
-          { japanese: "まず", vietnamese: "trước tiên" },
-          { japanese: "つぎに", vietnamese: "tiếp theo" },
-        ],
-        "output/16/16_group_05.mp3": [
-          { japanese: "それから", vietnamese: "sau đó" },
-          { japanese: "さいごに", vietnamese: "cuối cùng" },
-          { japanese: "すごいですね", vietnamese: "tuyệt quá, ghê quá" },
-          { japanese: "いいえ、まだまだです", vietnamese: "không, tôi còn kém lắm" },
-          { japanese: "おひきだしですか", vietnamese: "anh chị rút tiền phải không" },
-          {
-            japanese: "まず キャッシュカードを いれてください",
-            vietnamese: "đầu tiên hãy cho thẻ vào",
-          },
-          { japanese: "あんしょうばんごう", vietnamese: "mã PIN" },
-          { japanese: "きんがく", vietnamese: "số tiền" },
-          { japanese: "かくにん", vietnamese: "xác nhận" },
-          { japanese: "ボタン", vietnamese: "nút bấm" },
-        ],
-        "output/17/17_group_01.mp3": [
-          { japanese: "おぼえます", vietnamese: "nhớ, ghi nhớ" },
-          { japanese: "わすれます", vietnamese: "quên" },
-          { japanese: "なくします", vietnamese: "làm mất" },
-          { japanese: "はらいます", vietnamese: "trả tiền" },
-          { japanese: "かえします", vietnamese: "trả lại" },
-          { japanese: "でかけます", vietnamese: "ra ngoài" },
-          { japanese: "ぬぎます", vietnamese: "cởi" },
-          { japanese: "もっていきます", vietnamese: "mang đi" },
-          { japanese: "もってきます", vietnamese: "mang đến" },
-          { japanese: "しんぱいします", vietnamese: "lo lắng" },
-        ],
-        "output/17/17_group_02.mp3": [
-          { japanese: "ざんぎょうします", vietnamese: "làm thêm giờ" },
-          { japanese: "しゅっちょうします", vietnamese: "đi công tác" },
-          { japanese: "のみます", vietnamese: "uống" },
-          { japanese: "はいります", vietnamese: "vào" },
-          { japanese: "たいせつ", vietnamese: "quan trọng" },
-          { japanese: "だいじょうぶ", vietnamese: "ổn, không sao" },
-          { japanese: "あぶない", vietnamese: "nguy hiểm" },
-          { japanese: "もんだい", vietnamese: "vấn đề, câu hỏi" },
-          { japanese: "こたえ", vietnamese: "câu trả lời" },
-          { japanese: "きんえん", vietnamese: "cấm hút thuốc" },
-        ],
-        "output/17/17_group_03.mp3": [
-          { japanese: "ほけんしょう", vietnamese: "thẻ bảo hiểm" },
-          { japanese: "かぜ", vietnamese: "cảm lạnh" },
-          { japanese: "ねつ", vietnamese: "sốt" },
-          { japanese: "びょうき", vietnamese: "bệnh" },
-          { japanese: "くすり", vietnamese: "thuốc" },
-          { japanese: "おふろ", vietnamese: "bồn tắm, tắm" },
-          { japanese: "うわぎ", vietnamese: "áo khoác" },
-          { japanese: "したぎ", vietnamese: "đồ lót" },
-          { japanese: "せんせい", vietnamese: "bác sĩ, giáo viên" },
-          { japanese: "びょういん", vietnamese: "bệnh viện" },
-        ],
-        "output/17/17_group_04.mp3": [
-          { japanese: "じかん", vietnamese: "thời gian" },
-          { japanese: "〜までに", vietnamese: "trước hạn, trước lúc" },
-          { japanese: "〜まで", vietnamese: "đến, cho đến" },
-          { japanese: "ですから", vietnamese: "vì vậy, cho nên" },
-          { japanese: "どうしましたか", vietnamese: "bị sao vậy?" },
-          { japanese: "のど", vietnamese: "cổ họng" },
-          { japanese: "いたい", vietnamese: "đau" },
-          { japanese: "のどが いたいです", vietnamese: "đau họng" },
-          { japanese: "かぜを ひきました", vietnamese: "bị cảm" },
-          { japanese: "それから", vietnamese: "sau đó, ngoài ra" },
-          { japanese: "おだいじに", vietnamese: "giữ gìn sức khỏe nhé" },
-        ],
-      };
+      const lessonVocabulary = new Map();
 
       const applySpeed = () => {
         audio.playbackRate = Number(speed.value);
@@ -517,8 +411,59 @@
         vocabList.replaceChildren();
       };
 
-      const renderVocabulary = (src, label) => {
-        const items = trackVocabulary[src] || [];
+      const parseVocabularyGroups = (text) => {
+        const groups = [];
+        let current = [];
+
+        text.split(/\r?\n/).forEach((rawLine) => {
+          const line = rawLine.trim();
+          if (!line) {
+            return;
+          }
+
+          if (line === "---") {
+            if (current.length) {
+              groups.push(current);
+              current = [];
+            }
+            return;
+          }
+
+          const separatorIndex = line.indexOf("\t");
+          if (separatorIndex === -1) {
+            return;
+          }
+
+          const japanese = line.slice(0, separatorIndex).trim();
+          const vietnamese = line.slice(separatorIndex + 1).trim();
+          if (japanese && vietnamese) {
+            current.push({ japanese, vietnamese });
+          }
+        });
+
+        if (current.length) {
+          groups.push(current);
+        }
+
+        return groups;
+      };
+
+      const loadLessonVocabulary = async (lesson) => {
+        if (lessonVocabulary.has(lesson.inputSrc)) {
+          return lessonVocabulary.get(lesson.inputSrc);
+        }
+
+        const response = await fetch(lesson.inputSrc, { cache: "no-cache" });
+        if (!response.ok) {
+          throw new Error(`Cannot load ${lesson.inputSrc}: ${response.status}`);
+        }
+
+        const groups = parseVocabularyGroups(await response.text());
+        lessonVocabulary.set(lesson.inputSrc, groups);
+        return groups;
+      };
+
+      const renderVocabularyItems = (items, label) => {
         if (!items.length) {
           clearVocabulary(`Không có dữ liệu từ/câu cho ${label}.`);
           return;
@@ -545,6 +490,18 @@
         vocabList.replaceChildren(fragment);
       };
 
+      const renderVocabulary = async (lesson, track, label) => {
+        clearVocabulary(`Đang tải danh sách từ/câu cho ${label}...`);
+        try {
+          const groups = await loadLessonVocabulary(lesson);
+          const items = groups[track.groupIndex - 1] || [];
+          renderVocabularyItems(items, label);
+        } catch (error) {
+          clearVocabulary(`Không tải được danh sách từ/câu cho ${label}.`);
+          console.error(error);
+        }
+      };
+
       const renderTracks = () => {
         const lesson = lessons[selectedLessonIndex];
         selectedLessonTitle.textContent = lesson ? lesson.title : "";
@@ -569,7 +526,7 @@
 
         const activeTrack = lesson.tracks.find((track) => track.src === currentSource);
         if (activeTrack) {
-          renderVocabulary(activeTrack.src, `${lesson.title} - ${activeTrack.label}`);
+          renderVocabulary(lesson, activeTrack, `${lesson.title} - ${activeTrack.label}`);
         } else {
           clearVocabulary();
         }
@@ -590,7 +547,11 @@
         audio.src = src;
         audio.loop = true;
         applySpeed();
-        renderVocabulary(src, label);
+        const lesson = lessons[selectedLessonIndex];
+        const track = lesson.tracks.find((item) => item.src === src);
+        if (lesson && track) {
+          renderVocabulary(lesson, track, label);
+        }
         status.textContent = `Đang phát lặp: ${label}`;
         audio.play().catch(() => {
           status.textContent = `Đã chọn: ${label}. Bấm Play để phát.`;
