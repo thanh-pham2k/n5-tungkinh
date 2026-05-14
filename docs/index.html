@@ -384,6 +384,9 @@
       let selectedLessonIndex = 0;
       const lessonVocabulary = new Map();
 
+      const assetBasePath = window.location.hostname.endsWith("github.io") ? "/n5-tungkinh/" : "";
+      const assetUrl = (path) => `${assetBasePath}${path}`;
+
       const applySpeed = () => {
         audio.playbackRate = Number(speed.value);
         audio.defaultPlaybackRate = Number(speed.value);
@@ -453,7 +456,7 @@
           return lessonVocabulary.get(lesson.inputSrc);
         }
 
-        const response = await fetch(lesson.inputSrc, { cache: "no-cache" });
+        const response = await fetch(assetUrl(lesson.inputSrc), { cache: "no-cache" });
         if (!response.ok) {
           throw new Error(`Cannot load ${lesson.inputSrc}: ${response.status}`);
         }
@@ -544,7 +547,7 @@
         revokeLocalUrl();
         setActiveTrackButton(button);
         currentSource = src;
-        audio.src = src;
+        audio.src = assetUrl(src);
         audio.loop = true;
         applySpeed();
         const lesson = lessons[selectedLessonIndex];
