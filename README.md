@@ -33,11 +33,12 @@ extractor/
       17_group_02.mp3
       17_group_03.mp3
       17_group_04.mp3
-    _cache/                # Downloaded Sound of Text MP3 cache
-    _silence/              # Reusable silent MP3 clips
+  _cache/                # Downloaded Sound of Text MP3 cache
+  _silence/              # Reusable silent MP3 clips
   docs/
     index.html             # Static mobile-friendly audio looper for GitHub Pages
-    input/                 # Vocabulary text files read by the web player
+    data/
+      lesson-mapper.json   # Generated mapper read by the web player
   make_vocab_audio.py
 ```
 
@@ -63,7 +64,7 @@ python .\make_vocab_audio.py --input .\input\18.txt
 
 Each group separated by `---` becomes one audio file in `output\<input-file-name>\`.
 
-Generated lesson MP3 files are committed so they can be downloaded on another device. TTS cache and silence clips are ignored by Git. The web player reads vocabulary rows from `docs/input/*.txt` instead of hardcoding them in JavaScript.
+Generated lesson MP3 files are committed so they can be downloaded on another device. TTS cache and silence clips are ignored by Git. The web player reads `docs/data/lesson-mapper.json`, which is generated from `input/*.txt` by `make_vocab_audio.py`.
 
 ## Deployment without GitHub Actions
 

@@ -64,6 +64,50 @@ def read_groups(path: Path) -> list[list[VocabItem]]:
     return groups
 
 
+def lesson_title_from_stem(stem: str) -> str:
+    if stem.isdigit():
+        return f"Bài {stem}"
+    return stem
+
+
+def build_web_mapper(input_dir: Path, mapper_path: Path) -> None:
+    lessons: list[dict] = []
+
+    for input_path in sorted(input_dir.glob("*.txt")):
+        lesson_slug = clean_filename(input_path.stem)
+        groups = read_groups(input_path)
+        lesson_tracks: list[dict] = []
+
+        for group_index, group in enumerate(groups, start=1):
+            lesson_tracks.append(
+                {
+                    "label": f"Nhóm {group_index}",
+                    "src": f"output/{lesson_slug}/{lesson_slug}_group_{group_index:02d}.mp3",
+                    "items": [
+                        {
+                            "japanese": item.japanese,
+                            "vietnamese": item.vietnamese,
+                        }
+                        for item in group
+                    ],
+                }
+            )
+
+        lessons.append(
+            {
+                "title": lesson_title_from_stem(input_path.stem),
+                "inputSrc": f"input/{input_path.name}",
+                "tracks": lesson_tracks,
+            }
+        )
+
+    mapper_path.parent.mkdir(parents=True, exist_ok=True)
+    mapper_path.write_text(
+        json.dumps({"lessons": lessons}, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
 def post_json(url: str, payload: dict, timeout: int) -> dict:
     data = json.dumps(payload).encode("utf-8")
     request = Request(
@@ -346,6 +390,10 @@ def main() -> int:
             print(f"Failed group {group_index}: {exc}", file=sys.stderr)
             return 1
         print(f"Created: {output_path}")
+
+    mapper_path = Path(__file__).resolve().parent / "docs" / "data" / "lesson-mapper.json"
+    build_web_mapper(args.input.parent, mapper_path)
+    print(f"Mapper updated: {mapper_path}")
 
     return 0
 

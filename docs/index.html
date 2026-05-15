@@ -339,35 +339,9 @@
 
   <script>
     (() => {
-      const lessons = [
-        {
-          title: "Bài 16",
-          inputSrc: "input/16.txt",
-          tracks: [
-            { label: "Nhóm 1", src: "output/16/16_group_01.mp3" },
-            { label: "Nhóm 2", src: "output/16/16_group_02.mp3" },
-            { label: "Nhóm 3", src: "output/16/16_group_03.mp3" },
-            { label: "Nhóm 4", src: "output/16/16_group_04.mp3" },
-            { label: "Nhóm 5", src: "output/16/16_group_05.mp3" },
-          ],
-        },
-        {
-          title: "Bài 17",
-          inputSrc: "input/17.txt",
-          tracks: [
-            { label: "Nhóm 1", src: "output/17/17_group_01.mp3" },
-            { label: "Nhóm 2", src: "output/17/17_group_02.mp3" },
-            { label: "Nhóm 3", src: "output/17/17_group_03.mp3" },
-            { label: "Nhóm 4", src: "output/17/17_group_04.mp3" },
-          ],
-        },
-      ];
-
-      lessons.forEach((lesson) => {
-        lesson.tracks.forEach((track, index) => {
-          track.groupIndex = index + 1;
-        });
-      });
+      const assetBasePath = window.location.hostname.endsWith("github.io") ? "/n5-tungkinh/" : "";
+      const assetUrl = (path) => `${assetBasePath}${path}`;
+      const mapperUrl = assetUrl("data/lesson-mapper.json");
 
       const lessonSwitcher = document.getElementById("lesson-switcher");
       const selectedLessonTitle = document.getElementById("selected-lesson-title");
@@ -378,14 +352,12 @@
       const audio = document.getElementById("looper-audio");
       const speed = document.getElementById("looper-speed");
       const status = document.getElementById("looper-status");
+
+      let lessons = [];
       let objectUrl = "";
       let activeTrackButton = null;
       let currentSource = "";
       let selectedLessonIndex = 0;
-      const lessonVocabulary = new Map();
-
-      const assetBasePath = window.location.hostname.endsWith("github.io") ? "/n5-tungkinh/" : "";
-      const assetUrl = (path) => `${assetBasePath}${path}`;
 
       const applySpeed = () => {
         audio.playbackRate = Number(speed.value);
@@ -414,58 +386,6 @@
         vocabList.replaceChildren();
       };
 
-      const parseVocabularyGroups = (text) => {
-        const groups = [];
-        let current = [];
-
-        text.split(/\r?\n/).forEach((rawLine) => {
-          const line = rawLine.trim();
-          if (!line) {
-            return;
-          }
-
-          if (line === "---") {
-            if (current.length) {
-              groups.push(current);
-              current = [];
-            }
-            return;
-          }
-
-          const separatorIndex = line.indexOf("\t");
-          if (separatorIndex === -1) {
-            return;
-          }
-
-          const japanese = line.slice(0, separatorIndex).trim();
-          const vietnamese = line.slice(separatorIndex + 1).trim();
-          if (japanese && vietnamese) {
-            current.push({ japanese, vietnamese });
-          }
-        });
-
-        if (current.length) {
-          groups.push(current);
-        }
-
-        return groups;
-      };
-
-      const loadLessonVocabulary = async (lesson) => {
-        if (lessonVocabulary.has(lesson.inputSrc)) {
-          return lessonVocabulary.get(lesson.inputSrc);
-        }
-
-        const response = await fetch(assetUrl(lesson.inputSrc), { cache: "no-cache" });
-        if (!response.ok) {
-          throw new Error(`Cannot load ${lesson.inputSrc}: ${response.status}`);
-        }
-
-        const groups = parseVocabularyGroups(await response.text());
-        lessonVocabulary.set(lesson.inputSrc, groups);
-        return groups;
-      };
-
       const renderVocabularyItems = (items, label) => {
         if (!items.length) {
           clearVocabulary(`Không có dữ liệu từ/câu cho ${label}.`);
@@ -474,7 +394,7 @@
 
         vocabMeta.textContent = `Nội dung của ${label} (${items.length} dòng)`;
         const fragment = document.createDocumentFragment();
-        items.forEach((item, index) => {
+        items.forEach((item) => {
           const li = document.createElement("li");
           li.className = "vocab-item";
 
@@ -493,16 +413,8 @@
         vocabList.replaceChildren(fragment);
       };
 
-      const renderVocabulary = async (lesson, track, label) => {
-        clearVocabulary(`Đang tải danh sách từ/câu cho ${label}...`);
-        try {
-          const groups = await loadLessonVocabulary(lesson);
-          const items = groups[track.groupIndex - 1] || [];
-          renderVocabularyItems(items, label);
-        } catch (error) {
-          clearVocabulary(`Không tải được danh sách từ/câu cho ${label}.`);
-          console.error(error);
-        }
+      const renderVocabulary = (track, label) => {
+        renderVocabularyItems(track.items || [], label);
       };
 
       const renderTracks = () => {
@@ -522,14 +434,14 @@
             button.classList.add("active");
           }
           button.addEventListener("click", () => {
-            playSource(track.src, `${lesson.title} - ${track.label}`, button);
+            playSource(track, button);
           });
           trackGrid.appendChild(button);
         });
 
         const activeTrack = lesson.tracks.find((track) => track.src === currentSource);
         if (activeTrack) {
-          renderVocabulary(lesson, activeTrack, `${lesson.title} - ${activeTrack.label}`);
+          renderVocabulary(activeTrack, `${lesson.title} - ${activeTrack.label}`);
         } else {
           clearVocabulary();
         }
@@ -543,33 +455,65 @@
         renderTracks();
       };
 
-      const playSource = (src, label, button = null) => {
+      const playSource = (track, button = null) => {
+        const lesson = lessons[selectedLessonIndex];
         revokeLocalUrl();
         setActiveTrackButton(button);
-        currentSource = src;
-        audio.src = assetUrl(src);
+        currentSource = track.src;
+        audio.src = assetUrl(track.src);
         audio.loop = true;
         applySpeed();
-        const lesson = lessons[selectedLessonIndex];
-        const track = lesson.tracks.find((item) => item.src === src);
-        if (lesson && track) {
-          renderVocabulary(lesson, track, label);
+        if (lesson) {
+          renderVocabulary(track, `${lesson.title} - ${track.label}`);
         }
-        status.textContent = `Đang phát lặp: ${label}`;
+        status.textContent = `Đang phát lặp: ${lesson ? `${lesson.title} - ${track.label}` : track.label}`;
         audio.play().catch(() => {
-          status.textContent = `Đã chọn: ${label}. Bấm Play để phát.`;
+          status.textContent = `Đã chọn: ${lesson ? `${lesson.title} - ${track.label}` : track.label}. Bấm Play để phát.`;
         });
       };
 
-      lessons.forEach((lesson, index) => {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.textContent = lesson.title;
-        button.addEventListener("click", () => {
-          selectLesson(index);
+      const renderLessonButtons = () => {
+        lessonSwitcher.replaceChildren();
+        lessons.forEach((lesson, index) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.textContent = lesson.title;
+          button.addEventListener("click", () => {
+            selectLesson(index);
+          });
+          lessonSwitcher.appendChild(button);
         });
-        lessonSwitcher.appendChild(button);
-      });
+      };
+
+      const loadLessons = async () => {
+        const response = await fetch(mapperUrl, { cache: "no-cache" });
+        if (!response.ok) {
+          throw new Error(`Cannot load mapper: ${response.status}`);
+        }
+
+        const payload = await response.json();
+        return Array.isArray(payload.lessons) ? payload.lessons : [];
+      };
+
+      const init = async () => {
+        clearVocabulary("Đang tải mapper bài học...");
+        try {
+          lessons = await loadLessons();
+          renderLessonButtons();
+          if (!lessons.length) {
+            selectedLessonTitle.textContent = "";
+            clearVocabulary("Không có bài học nào trong mapper.");
+            return;
+          }
+          selectLesson(0);
+        } catch (error) {
+          console.error(error);
+          selectedLessonTitle.textContent = "";
+          lessonSwitcher.replaceChildren();
+          clearVocabulary("Không tải được mapper bài học.");
+          status.textContent = "Không tải được dữ liệu bài học.";
+        }
+      };
 
       fileInput.addEventListener("change", () => {
         const file = fileInput.files[0];
@@ -622,7 +566,7 @@
         revokeLocalUrl();
       });
 
-      selectLesson(0);
+      init();
     })();
   </script>
 </body>
