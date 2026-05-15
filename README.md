@@ -2,6 +2,8 @@
 
 Japanese-Vietnamese vocabulary audio generator for N5 study.
 
+Live site: [https://thanh-pham2k.github.io/n5-tungkinh/](https://thanh-pham2k.github.io/n5-tungkinh/)
+
 ## Web player
 
 After GitHub Pages deploys, open:
