@@ -70,10 +70,16 @@ def lesson_title_from_stem(stem: str) -> str:
     return stem
 
 
+def lesson_sort_key(path: Path) -> tuple[int, int | str]:
+    if path.stem.isdigit():
+        return (0, int(path.stem))
+    return (1, path.stem)
+
+
 def build_web_mapper(input_dir: Path, mapper_path: Path) -> None:
     lessons: list[dict] = []
 
-    for input_path in sorted(input_dir.glob("*.txt")):
+    for input_path in sorted(input_dir.glob("*.txt"), key=lesson_sort_key):
         lesson_slug = clean_filename(input_path.stem)
         groups = read_groups(input_path)
         lesson_tracks: list[dict] = []

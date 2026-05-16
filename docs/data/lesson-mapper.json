@@ -1,6 +1,3312 @@
 {
   "lessons": [
     {
+      "title": "Bài 1",
+      "inputSrc": "input/1.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/1/1_group_01.mp3",
+          "items": [
+            {
+              "japanese": "わたし",
+              "vietnamese": "tôi"
+            },
+            {
+              "japanese": "わたしたち",
+              "vietnamese": "chúng tôi / chúng ta"
+            },
+            {
+              "japanese": "あなた",
+              "vietnamese": "bạn"
+            },
+            {
+              "japanese": "あのひと",
+              "vietnamese": "người kia"
+            },
+            {
+              "japanese": "あのかた",
+              "vietnamese": "vị kia"
+            },
+            {
+              "japanese": "みなさん",
+              "vietnamese": "mọi người"
+            },
+            {
+              "japanese": "〜さん",
+              "vietnamese": "anh/chị/ông/bà..."
+            },
+            {
+              "japanese": "〜ちゃん",
+              "vietnamese": "bé / em"
+            },
+            {
+              "japanese": "〜くん",
+              "vietnamese": "em/cậu"
+            },
+            {
+              "japanese": "〜じん",
+              "vietnamese": "người nước..."
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/1/1_group_02.mp3",
+          "items": [
+            {
+              "japanese": "せんせい",
+              "vietnamese": "giáo viên / thầy cô"
+            },
+            {
+              "japanese": "きょうし",
+              "vietnamese": "giáo viên"
+            },
+            {
+              "japanese": "がくせい",
+              "vietnamese": "học sinh / sinh viên"
+            },
+            {
+              "japanese": "かいしゃいん",
+              "vietnamese": "nhân viên công ty"
+            },
+            {
+              "japanese": "しゃいん",
+              "vietnamese": "nhân viên của công ty..."
+            },
+            {
+              "japanese": "ぎんこういん",
+              "vietnamese": "nhân viên ngân hàng"
+            },
+            {
+              "japanese": "いしゃ",
+              "vietnamese": "bác sĩ"
+            },
+            {
+              "japanese": "けんきゅうしゃ",
+              "vietnamese": "nhà nghiên cứu"
+            },
+            {
+              "japanese": "エンジニア",
+              "vietnamese": "kỹ sư"
+            },
+            {
+              "japanese": "だいがく",
+              "vietnamese": "đại học"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/1/1_group_03.mp3",
+          "items": [
+            {
+              "japanese": "びょういん",
+              "vietnamese": "bệnh viện"
+            },
+            {
+              "japanese": "でんき",
+              "vietnamese": "điện / đèn"
+            },
+            {
+              "japanese": "だれ",
+              "vietnamese": "ai"
+            },
+            {
+              "japanese": "どなた",
+              "vietnamese": "vị nào / ai"
+            },
+            {
+              "japanese": "〜さい",
+              "vietnamese": "... tuổi"
+            },
+            {
+              "japanese": "なんさい",
+              "vietnamese": "mấy tuổi"
+            },
+            {
+              "japanese": "おいくつ",
+              "vietnamese": "bao nhiêu tuổi"
+            },
+            {
+              "japanese": "はい",
+              "vietnamese": "vâng"
+            },
+            {
+              "japanese": "いいえ",
+              "vietnamese": "không"
+            },
+            {
+              "japanese": "しつれいですが",
+              "vietnamese": "xin lỗi / thất lễ nhưng..."
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/1/1_group_04.mp3",
+          "items": [
+            {
+              "japanese": "おなまえは",
+              "vietnamese": "tên của anh/chị là...?"
+            },
+            {
+              "japanese": "はじめまして",
+              "vietnamese": "rất vui được gặp lần đầu"
+            },
+            {
+              "japanese": "どうぞ よろしく",
+              "vietnamese": "rất mong được giúp đỡ"
+            },
+            {
+              "japanese": "こちらは〜さんです",
+              "vietnamese": "đây là anh/chị..."
+            },
+            {
+              "japanese": "〜から きました",
+              "vietnamese": "đến từ..."
+            },
+            {
+              "japanese": "アメリカ",
+              "vietnamese": "Mỹ"
+            },
+            {
+              "japanese": "イギリス",
+              "vietnamese": "Anh"
+            },
+            {
+              "japanese": "インド",
+              "vietnamese": "Ấn Độ"
+            },
+            {
+              "japanese": "インドネシア",
+              "vietnamese": "Indonesia"
+            },
+            {
+              "japanese": "かんこく",
+              "vietnamese": "Hàn Quốc"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/1/1_group_05.mp3",
+          "items": [
+            {
+              "japanese": "タイ",
+              "vietnamese": "Thái Lan"
+            },
+            {
+              "japanese": "ちゅうごく",
+              "vietnamese": "Trung Quốc"
+            },
+            {
+              "japanese": "ドイツ",
+              "vietnamese": "Đức"
+            },
+            {
+              "japanese": "にほん",
+              "vietnamese": "Nhật Bản"
+            },
+            {
+              "japanese": "フランス",
+              "vietnamese": "Pháp"
+            },
+            {
+              "japanese": "ブラジル",
+              "vietnamese": "Brazil"
+            },
+            {
+              "japanese": "ベトナム",
+              "vietnamese": "Việt Nam"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 2",
+      "inputSrc": "input/2.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/2/2_group_01.mp3",
+          "items": [
+            {
+              "japanese": "これ",
+              "vietnamese": "cái này / đây"
+            },
+            {
+              "japanese": "それ",
+              "vietnamese": "cái đó / đó"
+            },
+            {
+              "japanese": "あれ",
+              "vietnamese": "cái kia / kia"
+            },
+            {
+              "japanese": "この",
+              "vietnamese": "này"
+            },
+            {
+              "japanese": "その",
+              "vietnamese": "đó"
+            },
+            {
+              "japanese": "あの",
+              "vietnamese": "kia"
+            },
+            {
+              "japanese": "ほん",
+              "vietnamese": "sách"
+            },
+            {
+              "japanese": "じしょ",
+              "vietnamese": "từ điển"
+            },
+            {
+              "japanese": "ざっし",
+              "vietnamese": "tạp chí"
+            },
+            {
+              "japanese": "しんぶん",
+              "vietnamese": "báo"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/2/2_group_02.mp3",
+          "items": [
+            {
+              "japanese": "ノート",
+              "vietnamese": "vở"
+            },
+            {
+              "japanese": "てちょう",
+              "vietnamese": "sổ tay"
+            },
+            {
+              "japanese": "めいし",
+              "vietnamese": "danh thiếp"
+            },
+            {
+              "japanese": "カード",
+              "vietnamese": "thẻ"
+            },
+            {
+              "japanese": "テレホンカード",
+              "vietnamese": "thẻ điện thoại"
+            },
+            {
+              "japanese": "えんぴつ",
+              "vietnamese": "bút chì"
+            },
+            {
+              "japanese": "ボールペン",
+              "vietnamese": "bút bi"
+            },
+            {
+              "japanese": "シャープペンシル",
+              "vietnamese": "bút chì kim"
+            },
+            {
+              "japanese": "かぎ",
+              "vietnamese": "chìa khóa"
+            },
+            {
+              "japanese": "とけい",
+              "vietnamese": "đồng hồ"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/2/2_group_03.mp3",
+          "items": [
+            {
+              "japanese": "かさ",
+              "vietnamese": "ô / dù"
+            },
+            {
+              "japanese": "かばん",
+              "vietnamese": "cặp / túi xách"
+            },
+            {
+              "japanese": "カセットテープ",
+              "vietnamese": "băng cassette"
+            },
+            {
+              "japanese": "テープレコーダー",
+              "vietnamese": "máy ghi âm"
+            },
+            {
+              "japanese": "テレビ",
+              "vietnamese": "tivi"
+            },
+            {
+              "japanese": "ラジオ",
+              "vietnamese": "radio"
+            },
+            {
+              "japanese": "カメラ",
+              "vietnamese": "máy ảnh"
+            },
+            {
+              "japanese": "コンピューター",
+              "vietnamese": "máy tính"
+            },
+            {
+              "japanese": "じどうしゃ",
+              "vietnamese": "ô tô / xe hơi"
+            },
+            {
+              "japanese": "つくえ",
+              "vietnamese": "bàn"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/2/2_group_04.mp3",
+          "items": [
+            {
+              "japanese": "いす",
+              "vietnamese": "ghế"
+            },
+            {
+              "japanese": "チョコレート",
+              "vietnamese": "sô cô la"
+            },
+            {
+              "japanese": "コーヒー",
+              "vietnamese": "cà phê"
+            },
+            {
+              "japanese": "えいご",
+              "vietnamese": "tiếng Anh"
+            },
+            {
+              "japanese": "にほんご",
+              "vietnamese": "tiếng Nhật"
+            },
+            {
+              "japanese": "〜ご",
+              "vietnamese": "tiếng..."
+            },
+            {
+              "japanese": "なん",
+              "vietnamese": "cái gì"
+            },
+            {
+              "japanese": "そう",
+              "vietnamese": "vậy / như vậy"
+            },
+            {
+              "japanese": "ちがいます",
+              "vietnamese": "không phải / sai rồi"
+            },
+            {
+              "japanese": "そうですか",
+              "vietnamese": "vậy à"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/2/2_group_05.mp3",
+          "items": [
+            {
+              "japanese": "あのう",
+              "vietnamese": "à... / ừm..."
+            },
+            {
+              "japanese": "ほんの きもちです",
+              "vietnamese": "chỉ là chút lòng thành"
+            },
+            {
+              "japanese": "どうぞ",
+              "vietnamese": "xin mời / xin nhận"
+            },
+            {
+              "japanese": "どうも",
+              "vietnamese": "cảm ơn / rất"
+            },
+            {
+              "japanese": "ありがとうございます",
+              "vietnamese": "cảm ơn"
+            },
+            {
+              "japanese": "そうです",
+              "vietnamese": "đúng vậy"
+            },
+            {
+              "japanese": "これから おせわに なります",
+              "vietnamese": "từ nay mong được giúp đỡ"
+            },
+            {
+              "japanese": "こちらこそ よろしく",
+              "vietnamese": "chính tôi mới mong được giúp đỡ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 3",
+      "inputSrc": "input/3.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/3/3_group_01.mp3",
+          "items": [
+            {
+              "japanese": "ここ",
+              "vietnamese": "chỗ này / ở đây"
+            },
+            {
+              "japanese": "そこ",
+              "vietnamese": "chỗ đó / ở đó"
+            },
+            {
+              "japanese": "あそこ",
+              "vietnamese": "chỗ kia / ở kia"
+            },
+            {
+              "japanese": "どこ",
+              "vietnamese": "ở đâu"
+            },
+            {
+              "japanese": "こちら",
+              "vietnamese": "phía này / đây"
+            },
+            {
+              "japanese": "そちら",
+              "vietnamese": "phía đó / đó"
+            },
+            {
+              "japanese": "あちら",
+              "vietnamese": "phía kia / kia"
+            },
+            {
+              "japanese": "どちら",
+              "vietnamese": "phía nào / ở đâu"
+            },
+            {
+              "japanese": "きょうしつ",
+              "vietnamese": "lớp học / phòng học"
+            },
+            {
+              "japanese": "しょくどう",
+              "vietnamese": "nhà ăn"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/3/3_group_02.mp3",
+          "items": [
+            {
+              "japanese": "じむしょ",
+              "vietnamese": "văn phòng"
+            },
+            {
+              "japanese": "かいぎしつ",
+              "vietnamese": "phòng họp"
+            },
+            {
+              "japanese": "うけつけ",
+              "vietnamese": "quầy tiếp tân"
+            },
+            {
+              "japanese": "ロビー",
+              "vietnamese": "sảnh"
+            },
+            {
+              "japanese": "へや",
+              "vietnamese": "phòng"
+            },
+            {
+              "japanese": "トイレ",
+              "vietnamese": "nhà vệ sinh"
+            },
+            {
+              "japanese": "おてあらい",
+              "vietnamese": "nhà vệ sinh"
+            },
+            {
+              "japanese": "かいだん",
+              "vietnamese": "cầu thang"
+            },
+            {
+              "japanese": "エレベーター",
+              "vietnamese": "thang máy"
+            },
+            {
+              "japanese": "エスカレーター",
+              "vietnamese": "thang cuốn"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/3/3_group_03.mp3",
+          "items": [
+            {
+              "japanese": "くに",
+              "vietnamese": "nước / quốc gia"
+            },
+            {
+              "japanese": "かいしゃ",
+              "vietnamese": "công ty"
+            },
+            {
+              "japanese": "うち",
+              "vietnamese": "nhà"
+            },
+            {
+              "japanese": "でんわ",
+              "vietnamese": "điện thoại"
+            },
+            {
+              "japanese": "くつ",
+              "vietnamese": "giày"
+            },
+            {
+              "japanese": "ネクタイ",
+              "vietnamese": "cà vạt"
+            },
+            {
+              "japanese": "ワイン",
+              "vietnamese": "rượu vang"
+            },
+            {
+              "japanese": "たばこ",
+              "vietnamese": "thuốc lá"
+            },
+            {
+              "japanese": "うりば",
+              "vietnamese": "quầy bán hàng"
+            },
+            {
+              "japanese": "ちか",
+              "vietnamese": "tầng hầm"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/3/3_group_04.mp3",
+          "items": [
+            {
+              "japanese": "〜かい",
+              "vietnamese": "tầng ..."
+            },
+            {
+              "japanese": "なんがい",
+              "vietnamese": "tầng mấy"
+            },
+            {
+              "japanese": "〜えん",
+              "vietnamese": "... yên"
+            },
+            {
+              "japanese": "いくら",
+              "vietnamese": "bao nhiêu tiền"
+            },
+            {
+              "japanese": "ひゃく",
+              "vietnamese": "một trăm"
+            },
+            {
+              "japanese": "せん",
+              "vietnamese": "một nghìn"
+            },
+            {
+              "japanese": "まん",
+              "vietnamese": "mười nghìn"
+            },
+            {
+              "japanese": "すみません",
+              "vietnamese": "xin lỗi / làm phiền"
+            },
+            {
+              "japanese": "どうも",
+              "vietnamese": "cảm ơn / rất"
+            },
+            {
+              "japanese": "どうも すみません",
+              "vietnamese": "rất xin lỗi / cảm ơn"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/3/3_group_05.mp3",
+          "items": [
+            {
+              "japanese": "いらっしゃいませ",
+              "vietnamese": "kính chào quý khách"
+            },
+            {
+              "japanese": "みせてください",
+              "vietnamese": "xin cho xem"
+            },
+            {
+              "japanese": "じゃ",
+              "vietnamese": "vậy thì"
+            },
+            {
+              "japanese": "これを ください",
+              "vietnamese": "cho tôi cái này"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 4",
+      "inputSrc": "input/4.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/4/4_group_01.mp3",
+          "items": [
+            {
+              "japanese": "おきます",
+              "vietnamese": "thức dậy"
+            },
+            {
+              "japanese": "ねます",
+              "vietnamese": "ngủ"
+            },
+            {
+              "japanese": "はたらきます",
+              "vietnamese": "làm việc"
+            },
+            {
+              "japanese": "やすみます",
+              "vietnamese": "nghỉ"
+            },
+            {
+              "japanese": "べんきょうします",
+              "vietnamese": "học"
+            },
+            {
+              "japanese": "おわります",
+              "vietnamese": "kết thúc"
+            },
+            {
+              "japanese": "デパート",
+              "vietnamese": "trung tâm thương mại"
+            },
+            {
+              "japanese": "ぎんこう",
+              "vietnamese": "ngân hàng"
+            },
+            {
+              "japanese": "ゆうびんきょく",
+              "vietnamese": "bưu điện"
+            },
+            {
+              "japanese": "としょかん",
+              "vietnamese": "thư viện"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/4/4_group_02.mp3",
+          "items": [
+            {
+              "japanese": "びじゅつかん",
+              "vietnamese": "bảo tàng mỹ thuật"
+            },
+            {
+              "japanese": "いま",
+              "vietnamese": "bây giờ"
+            },
+            {
+              "japanese": "〜じ",
+              "vietnamese": "... giờ"
+            },
+            {
+              "japanese": "〜ふん / 〜ぷん",
+              "vietnamese": "... phút"
+            },
+            {
+              "japanese": "はん",
+              "vietnamese": "rưỡi / nửa"
+            },
+            {
+              "japanese": "なんじ",
+              "vietnamese": "mấy giờ"
+            },
+            {
+              "japanese": "なんぷん",
+              "vietnamese": "mấy phút"
+            },
+            {
+              "japanese": "ごぜん",
+              "vietnamese": "buổi sáng / AM"
+            },
+            {
+              "japanese": "ごご",
+              "vietnamese": "buổi chiều / PM"
+            },
+            {
+              "japanese": "あさ",
+              "vietnamese": "buổi sáng"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/4/4_group_03.mp3",
+          "items": [
+            {
+              "japanese": "ひる",
+              "vietnamese": "buổi trưa"
+            },
+            {
+              "japanese": "ばん / よる",
+              "vietnamese": "buổi tối / đêm"
+            },
+            {
+              "japanese": "おととい",
+              "vietnamese": "hôm kia"
+            },
+            {
+              "japanese": "きのう",
+              "vietnamese": "hôm qua"
+            },
+            {
+              "japanese": "きょう",
+              "vietnamese": "hôm nay"
+            },
+            {
+              "japanese": "あした",
+              "vietnamese": "ngày mai"
+            },
+            {
+              "japanese": "あさって",
+              "vietnamese": "ngày kia"
+            },
+            {
+              "japanese": "けさ",
+              "vietnamese": "sáng nay"
+            },
+            {
+              "japanese": "こんばん",
+              "vietnamese": "tối nay"
+            },
+            {
+              "japanese": "やすみ",
+              "vietnamese": "nghỉ / ngày nghỉ"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/4/4_group_04.mp3",
+          "items": [
+            {
+              "japanese": "ひるやすみ",
+              "vietnamese": "nghỉ trưa"
+            },
+            {
+              "japanese": "まいあさ",
+              "vietnamese": "mỗi sáng"
+            },
+            {
+              "japanese": "まいばん",
+              "vietnamese": "mỗi tối"
+            },
+            {
+              "japanese": "まいにち",
+              "vietnamese": "mỗi ngày"
+            },
+            {
+              "japanese": "げつようび",
+              "vietnamese": "thứ Hai"
+            },
+            {
+              "japanese": "かようび",
+              "vietnamese": "thứ Ba"
+            },
+            {
+              "japanese": "すいようび",
+              "vietnamese": "thứ Tư"
+            },
+            {
+              "japanese": "もくようび",
+              "vietnamese": "thứ Năm"
+            },
+            {
+              "japanese": "きんようび",
+              "vietnamese": "thứ Sáu"
+            },
+            {
+              "japanese": "どようび",
+              "vietnamese": "thứ Bảy"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/4/4_group_05.mp3",
+          "items": [
+            {
+              "japanese": "にちようび",
+              "vietnamese": "Chủ nhật"
+            },
+            {
+              "japanese": "なんようび",
+              "vietnamese": "thứ mấy"
+            },
+            {
+              "japanese": "〜から",
+              "vietnamese": "từ..."
+            },
+            {
+              "japanese": "〜まで",
+              "vietnamese": "đến..."
+            },
+            {
+              "japanese": "〜と〜",
+              "vietnamese": "... và ..."
+            },
+            {
+              "japanese": "たいへんですね",
+              "vietnamese": "vất vả nhỉ"
+            },
+            {
+              "japanese": "ばんごう",
+              "vietnamese": "số"
+            },
+            {
+              "japanese": "なんばん",
+              "vietnamese": "số mấy"
+            },
+            {
+              "japanese": "そちら",
+              "vietnamese": "phía đó / bên đó"
+            },
+            {
+              "japanese": "ニューヨーク",
+              "vietnamese": "New York"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 6",
+          "src": "output/4/4_group_06.mp3",
+          "items": [
+            {
+              "japanese": "ペキン",
+              "vietnamese": "Bắc Kinh"
+            },
+            {
+              "japanese": "ロンドン",
+              "vietnamese": "London"
+            },
+            {
+              "japanese": "バンコク",
+              "vietnamese": "Bangkok"
+            },
+            {
+              "japanese": "ロサンゼルス",
+              "vietnamese": "Los Angeles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 5",
+      "inputSrc": "input/5.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/5/5_group_01.mp3",
+          "items": [
+            {
+              "japanese": "いきます",
+              "vietnamese": "đi"
+            },
+            {
+              "japanese": "きます",
+              "vietnamese": "đến"
+            },
+            {
+              "japanese": "かえります",
+              "vietnamese": "về"
+            },
+            {
+              "japanese": "がっこう",
+              "vietnamese": "trường học"
+            },
+            {
+              "japanese": "スーパー",
+              "vietnamese": "siêu thị"
+            },
+            {
+              "japanese": "えき",
+              "vietnamese": "nhà ga"
+            },
+            {
+              "japanese": "ひこうき",
+              "vietnamese": "máy bay"
+            },
+            {
+              "japanese": "ふね",
+              "vietnamese": "tàu thuyền"
+            },
+            {
+              "japanese": "でんしゃ",
+              "vietnamese": "tàu điện"
+            },
+            {
+              "japanese": "ちかてつ",
+              "vietnamese": "tàu điện ngầm"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/5/5_group_02.mp3",
+          "items": [
+            {
+              "japanese": "しんかんせん",
+              "vietnamese": "tàu Shinkansen"
+            },
+            {
+              "japanese": "バス",
+              "vietnamese": "xe buýt"
+            },
+            {
+              "japanese": "タクシー",
+              "vietnamese": "taxi"
+            },
+            {
+              "japanese": "じてんしゃ",
+              "vietnamese": "xe đạp"
+            },
+            {
+              "japanese": "あるいて",
+              "vietnamese": "đi bộ"
+            },
+            {
+              "japanese": "ひと",
+              "vietnamese": "người"
+            },
+            {
+              "japanese": "ともだち",
+              "vietnamese": "bạn bè"
+            },
+            {
+              "japanese": "かれ",
+              "vietnamese": "anh ấy / bạn trai"
+            },
+            {
+              "japanese": "かのじょ",
+              "vietnamese": "cô ấy / bạn gái"
+            },
+            {
+              "japanese": "かぞく",
+              "vietnamese": "gia đình"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/5/5_group_03.mp3",
+          "items": [
+            {
+              "japanese": "ひとりで",
+              "vietnamese": "một mình"
+            },
+            {
+              "japanese": "せんしゅう",
+              "vietnamese": "tuần trước"
+            },
+            {
+              "japanese": "こんしゅう",
+              "vietnamese": "tuần này"
+            },
+            {
+              "japanese": "らいしゅう",
+              "vietnamese": "tuần sau"
+            },
+            {
+              "japanese": "せんげつ",
+              "vietnamese": "tháng trước"
+            },
+            {
+              "japanese": "こんげつ",
+              "vietnamese": "tháng này"
+            },
+            {
+              "japanese": "らいげつ",
+              "vietnamese": "tháng sau"
+            },
+            {
+              "japanese": "きょねん",
+              "vietnamese": "năm ngoái"
+            },
+            {
+              "japanese": "ことし",
+              "vietnamese": "năm nay"
+            },
+            {
+              "japanese": "らいねん",
+              "vietnamese": "năm sau"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/5/5_group_04.mp3",
+          "items": [
+            {
+              "japanese": "なんねん",
+              "vietnamese": "năm nào"
+            },
+            {
+              "japanese": "なんがつ",
+              "vietnamese": "tháng mấy"
+            },
+            {
+              "japanese": "なんにち",
+              "vietnamese": "ngày mấy"
+            },
+            {
+              "japanese": "いつ",
+              "vietnamese": "khi nào"
+            },
+            {
+              "japanese": "たんじょうび",
+              "vietnamese": "sinh nhật"
+            },
+            {
+              "japanese": "ふつか",
+              "vietnamese": "ngày mùng 2 / 2 ngày"
+            },
+            {
+              "japanese": "みっか",
+              "vietnamese": "ngày mùng 3 / 3 ngày"
+            },
+            {
+              "japanese": "よっか",
+              "vietnamese": "ngày mùng 4 / 4 ngày"
+            },
+            {
+              "japanese": "いつか",
+              "vietnamese": "ngày mùng 5 / 5 ngày"
+            },
+            {
+              "japanese": "むいか",
+              "vietnamese": "ngày mùng 6 / 6 ngày"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/5/5_group_05.mp3",
+          "items": [
+            {
+              "japanese": "なのか",
+              "vietnamese": "ngày mùng 7 / 7 ngày"
+            },
+            {
+              "japanese": "ようか",
+              "vietnamese": "ngày mùng 8 / 8 ngày"
+            },
+            {
+              "japanese": "ここのか",
+              "vietnamese": "ngày mùng 9 / 9 ngày"
+            },
+            {
+              "japanese": "とおか",
+              "vietnamese": "ngày mùng 10 / 10 ngày"
+            },
+            {
+              "japanese": "はつか",
+              "vietnamese": "ngày 20 / 20 ngày"
+            },
+            {
+              "japanese": "ついたち",
+              "vietnamese": "ngày mùng 1"
+            },
+            {
+              "japanese": "じゅうよっか",
+              "vietnamese": "ngày 14"
+            },
+            {
+              "japanese": "にじゅうよっか",
+              "vietnamese": "ngày 24"
+            },
+            {
+              "japanese": "ふつう",
+              "vietnamese": "thường / thường xuyên"
+            },
+            {
+              "japanese": "きゅうこう",
+              "vietnamese": "tàu nhanh"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 6",
+          "src": "output/5/5_group_06.mp3",
+          "items": [
+            {
+              "japanese": "とっきゅう",
+              "vietnamese": "tàu tốc hành đặc biệt"
+            },
+            {
+              "japanese": "つぎ",
+              "vietnamese": "tiếp theo"
+            },
+            {
+              "japanese": "ありがとう ございました",
+              "vietnamese": "cảm ơn rất nhiều"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 6",
+      "inputSrc": "input/6.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/6/6_group_01.mp3",
+          "items": [
+            {
+              "japanese": "たべます",
+              "vietnamese": "ăn"
+            },
+            {
+              "japanese": "のみます",
+              "vietnamese": "uống"
+            },
+            {
+              "japanese": "すいます",
+              "vietnamese": "hút"
+            },
+            {
+              "japanese": "みます",
+              "vietnamese": "xem / nhìn"
+            },
+            {
+              "japanese": "ききます",
+              "vietnamese": "nghe"
+            },
+            {
+              "japanese": "よみます",
+              "vietnamese": "đọc"
+            },
+            {
+              "japanese": "かきます",
+              "vietnamese": "viết"
+            },
+            {
+              "japanese": "かいます",
+              "vietnamese": "mua"
+            },
+            {
+              "japanese": "とります",
+              "vietnamese": "chụp / lấy"
+            },
+            {
+              "japanese": "します",
+              "vietnamese": "làm"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/6/6_group_02.mp3",
+          "items": [
+            {
+              "japanese": "あいます",
+              "vietnamese": "gặp"
+            },
+            {
+              "japanese": "ごはん",
+              "vietnamese": "cơm / bữa ăn"
+            },
+            {
+              "japanese": "あさごはん",
+              "vietnamese": "bữa sáng"
+            },
+            {
+              "japanese": "ひるごはん",
+              "vietnamese": "bữa trưa"
+            },
+            {
+              "japanese": "ばんごはん",
+              "vietnamese": "bữa tối"
+            },
+            {
+              "japanese": "パン",
+              "vietnamese": "bánh mì"
+            },
+            {
+              "japanese": "たまご",
+              "vietnamese": "trứng"
+            },
+            {
+              "japanese": "にく",
+              "vietnamese": "thịt"
+            },
+            {
+              "japanese": "さかな",
+              "vietnamese": "cá"
+            },
+            {
+              "japanese": "やさい",
+              "vietnamese": "rau"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/6/6_group_03.mp3",
+          "items": [
+            {
+              "japanese": "くだもの",
+              "vietnamese": "trái cây"
+            },
+            {
+              "japanese": "みず",
+              "vietnamese": "nước"
+            },
+            {
+              "japanese": "おちゃ",
+              "vietnamese": "trà"
+            },
+            {
+              "japanese": "こうちゃ",
+              "vietnamese": "trà đen"
+            },
+            {
+              "japanese": "ぎゅうにゅう",
+              "vietnamese": "sữa bò"
+            },
+            {
+              "japanese": "ジュース",
+              "vietnamese": "nước ép"
+            },
+            {
+              "japanese": "ビール",
+              "vietnamese": "bia"
+            },
+            {
+              "japanese": "おさけ",
+              "vietnamese": "rượu"
+            },
+            {
+              "japanese": "たばこ",
+              "vietnamese": "thuốc lá"
+            },
+            {
+              "japanese": "てがみ",
+              "vietnamese": "thư"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/6/6_group_04.mp3",
+          "items": [
+            {
+              "japanese": "レポート",
+              "vietnamese": "báo cáo"
+            },
+            {
+              "japanese": "しゃしん",
+              "vietnamese": "ảnh"
+            },
+            {
+              "japanese": "ビデオ",
+              "vietnamese": "video"
+            },
+            {
+              "japanese": "みせ",
+              "vietnamese": "cửa hàng"
+            },
+            {
+              "japanese": "レストラン",
+              "vietnamese": "nhà hàng"
+            },
+            {
+              "japanese": "にわ",
+              "vietnamese": "vườn"
+            },
+            {
+              "japanese": "しゅくだい",
+              "vietnamese": "bài tập về nhà"
+            },
+            {
+              "japanese": "テニス",
+              "vietnamese": "tennis"
+            },
+            {
+              "japanese": "サッカー",
+              "vietnamese": "bóng đá"
+            },
+            {
+              "japanese": "おはなみ",
+              "vietnamese": "ngắm hoa"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/6/6_group_05.mp3",
+          "items": [
+            {
+              "japanese": "なに",
+              "vietnamese": "cái gì"
+            },
+            {
+              "japanese": "いっしょに",
+              "vietnamese": "cùng nhau"
+            },
+            {
+              "japanese": "ちょっと",
+              "vietnamese": "một chút / hơi..."
+            },
+            {
+              "japanese": "いつも",
+              "vietnamese": "luôn luôn"
+            },
+            {
+              "japanese": "ときどき",
+              "vietnamese": "thỉnh thoảng"
+            },
+            {
+              "japanese": "それから",
+              "vietnamese": "sau đó"
+            },
+            {
+              "japanese": "ええ",
+              "vietnamese": "vâng"
+            },
+            {
+              "japanese": "いいですね",
+              "vietnamese": "hay đấy"
+            },
+            {
+              "japanese": "わかりました",
+              "vietnamese": "tôi hiểu rồi"
+            },
+            {
+              "japanese": "なんですか",
+              "vietnamese": "là cái gì?"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 6",
+          "src": "output/6/6_group_06.mp3",
+          "items": [
+            {
+              "japanese": "じゃ、また",
+              "vietnamese": "vậy nhé / hẹn gặp lại"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 7",
+      "inputSrc": "input/7.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/7/7_group_01.mp3",
+          "items": [
+            {
+              "japanese": "きります",
+              "vietnamese": "cắt"
+            },
+            {
+              "japanese": "おくります",
+              "vietnamese": "gửi"
+            },
+            {
+              "japanese": "あげます",
+              "vietnamese": "cho / tặng"
+            },
+            {
+              "japanese": "もらいます",
+              "vietnamese": "nhận"
+            },
+            {
+              "japanese": "かします",
+              "vietnamese": "cho mượn"
+            },
+            {
+              "japanese": "かります",
+              "vietnamese": "mượn"
+            },
+            {
+              "japanese": "おしえます",
+              "vietnamese": "dạy / chỉ cho biết"
+            },
+            {
+              "japanese": "ならいます",
+              "vietnamese": "học"
+            },
+            {
+              "japanese": "かけます",
+              "vietnamese": "gọi điện thoại"
+            },
+            {
+              "japanese": "て",
+              "vietnamese": "tay"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/7/7_group_02.mp3",
+          "items": [
+            {
+              "japanese": "はし",
+              "vietnamese": "đũa"
+            },
+            {
+              "japanese": "スプーン",
+              "vietnamese": "muỗng"
+            },
+            {
+              "japanese": "ナイフ",
+              "vietnamese": "dao"
+            },
+            {
+              "japanese": "フォーク",
+              "vietnamese": "nĩa"
+            },
+            {
+              "japanese": "はさみ",
+              "vietnamese": "kéo"
+            },
+            {
+              "japanese": "パソコン",
+              "vietnamese": "máy tính cá nhân"
+            },
+            {
+              "japanese": "ケータイ",
+              "vietnamese": "điện thoại di động"
+            },
+            {
+              "japanese": "メール",
+              "vietnamese": "email"
+            },
+            {
+              "japanese": "ねんがじょう",
+              "vietnamese": "thiệp năm mới"
+            },
+            {
+              "japanese": "パンチ",
+              "vietnamese": "cái bấm lỗ"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/7/7_group_03.mp3",
+          "items": [
+            {
+              "japanese": "ホッチキス",
+              "vietnamese": "đồ bấm kim"
+            },
+            {
+              "japanese": "セロテープ",
+              "vietnamese": "băng keo trong"
+            },
+            {
+              "japanese": "けしゴム",
+              "vietnamese": "cục tẩy"
+            },
+            {
+              "japanese": "かみ",
+              "vietnamese": "giấy"
+            },
+            {
+              "japanese": "はな",
+              "vietnamese": "hoa"
+            },
+            {
+              "japanese": "シャツ",
+              "vietnamese": "áo sơ mi"
+            },
+            {
+              "japanese": "プレゼント",
+              "vietnamese": "quà tặng"
+            },
+            {
+              "japanese": "にもつ",
+              "vietnamese": "hành lý"
+            },
+            {
+              "japanese": "おかね",
+              "vietnamese": "tiền"
+            },
+            {
+              "japanese": "きっぷ",
+              "vietnamese": "vé"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/7/7_group_04.mp3",
+          "items": [
+            {
+              "japanese": "クリスマス",
+              "vietnamese": "Giáng sinh"
+            },
+            {
+              "japanese": "ちち",
+              "vietnamese": "bố tôi"
+            },
+            {
+              "japanese": "はは",
+              "vietnamese": "mẹ tôi"
+            },
+            {
+              "japanese": "おとうさん",
+              "vietnamese": "bố"
+            },
+            {
+              "japanese": "おかあさん",
+              "vietnamese": "mẹ"
+            },
+            {
+              "japanese": "もう",
+              "vietnamese": "đã... rồi"
+            },
+            {
+              "japanese": "まだ",
+              "vietnamese": "chưa"
+            },
+            {
+              "japanese": "これから",
+              "vietnamese": "từ bây giờ / sau đây"
+            },
+            {
+              "japanese": "すてきですね",
+              "vietnamese": "đẹp quá / tuyệt quá"
+            },
+            {
+              "japanese": "ごめんください",
+              "vietnamese": "xin phép / có ai ở nhà không"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/7/7_group_05.mp3",
+          "items": [
+            {
+              "japanese": "いらっしゃい",
+              "vietnamese": "mời vào / chào mừng"
+            },
+            {
+              "japanese": "どうぞ おあがりください",
+              "vietnamese": "xin mời vào nhà"
+            },
+            {
+              "japanese": "しつれいします",
+              "vietnamese": "xin phép / thất lễ"
+            },
+            {
+              "japanese": "いただきます",
+              "vietnamese": "mời ăn / tôi xin nhận"
+            },
+            {
+              "japanese": "ごちそうさまでした",
+              "vietnamese": "cảm ơn vì bữa ăn"
+            },
+            {
+              "japanese": "にほんご",
+              "vietnamese": "tiếng Nhật"
+            },
+            {
+              "japanese": "えいご",
+              "vietnamese": "tiếng Anh"
+            },
+            {
+              "japanese": "かんこくご",
+              "vietnamese": "tiếng Hàn"
+            },
+            {
+              "japanese": "ちゅうごくご",
+              "vietnamese": "tiếng Trung"
+            },
+            {
+              "japanese": "なんで",
+              "vietnamese": "bằng gì"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 6",
+          "src": "output/7/7_group_06.mp3",
+          "items": [
+            {
+              "japanese": "だれに",
+              "vietnamese": "cho ai / từ ai"
+            },
+            {
+              "japanese": "だれから",
+              "vietnamese": "từ ai"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 8",
+      "inputSrc": "input/8.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/8/8_group_01.mp3",
+          "items": [
+            {
+              "japanese": "ハンサム",
+              "vietnamese": "đẹp trai"
+            },
+            {
+              "japanese": "きれい",
+              "vietnamese": "đẹp / sạch"
+            },
+            {
+              "japanese": "しずか",
+              "vietnamese": "yên tĩnh"
+            },
+            {
+              "japanese": "にぎやか",
+              "vietnamese": "nhộn nhịp"
+            },
+            {
+              "japanese": "ゆうめい",
+              "vietnamese": "nổi tiếng"
+            },
+            {
+              "japanese": "しんせつ",
+              "vietnamese": "tử tế"
+            },
+            {
+              "japanese": "げんき",
+              "vietnamese": "khỏe / năng động"
+            },
+            {
+              "japanese": "ひま",
+              "vietnamese": "rảnh"
+            },
+            {
+              "japanese": "べんり",
+              "vietnamese": "tiện lợi"
+            },
+            {
+              "japanese": "すてき",
+              "vietnamese": "tuyệt / đẹp"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/8/8_group_02.mp3",
+          "items": [
+            {
+              "japanese": "おおきい",
+              "vietnamese": "to / lớn"
+            },
+            {
+              "japanese": "ちいさい",
+              "vietnamese": "nhỏ / bé"
+            },
+            {
+              "japanese": "あたらしい",
+              "vietnamese": "mới"
+            },
+            {
+              "japanese": "ふるい",
+              "vietnamese": "cũ"
+            },
+            {
+              "japanese": "いい / よい",
+              "vietnamese": "tốt"
+            },
+            {
+              "japanese": "わるい",
+              "vietnamese": "xấu / không tốt"
+            },
+            {
+              "japanese": "あつい",
+              "vietnamese": "nóng"
+            },
+            {
+              "japanese": "さむい",
+              "vietnamese": "lạnh"
+            },
+            {
+              "japanese": "つめたい",
+              "vietnamese": "lạnh"
+            },
+            {
+              "japanese": "むずかしい",
+              "vietnamese": "khó"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/8/8_group_03.mp3",
+          "items": [
+            {
+              "japanese": "やさしい",
+              "vietnamese": "dễ / hiền"
+            },
+            {
+              "japanese": "たかい",
+              "vietnamese": "cao / đắt"
+            },
+            {
+              "japanese": "やすい",
+              "vietnamese": "rẻ"
+            },
+            {
+              "japanese": "ひくい",
+              "vietnamese": "thấp"
+            },
+            {
+              "japanese": "おもしろい",
+              "vietnamese": "thú vị"
+            },
+            {
+              "japanese": "おいしい",
+              "vietnamese": "ngon"
+            },
+            {
+              "japanese": "いそがしい",
+              "vietnamese": "bận"
+            },
+            {
+              "japanese": "たのしい",
+              "vietnamese": "vui"
+            },
+            {
+              "japanese": "しろい",
+              "vietnamese": "trắng"
+            },
+            {
+              "japanese": "くろい",
+              "vietnamese": "đen"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/8/8_group_04.mp3",
+          "items": [
+            {
+              "japanese": "あかい",
+              "vietnamese": "đỏ"
+            },
+            {
+              "japanese": "あおい",
+              "vietnamese": "xanh dương"
+            },
+            {
+              "japanese": "さくら",
+              "vietnamese": "hoa anh đào"
+            },
+            {
+              "japanese": "やま",
+              "vietnamese": "núi"
+            },
+            {
+              "japanese": "まち",
+              "vietnamese": "thành phố / khu phố"
+            },
+            {
+              "japanese": "たべもの",
+              "vietnamese": "đồ ăn"
+            },
+            {
+              "japanese": "ところ",
+              "vietnamese": "nơi chốn"
+            },
+            {
+              "japanese": "りょう",
+              "vietnamese": "ký túc xá"
+            },
+            {
+              "japanese": "べんきょう",
+              "vietnamese": "việc học"
+            },
+            {
+              "japanese": "せいかつ",
+              "vietnamese": "cuộc sống"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/8/8_group_05.mp3",
+          "items": [
+            {
+              "japanese": "しごと",
+              "vietnamese": "công việc"
+            },
+            {
+              "japanese": "どう",
+              "vietnamese": "như thế nào"
+            },
+            {
+              "japanese": "どんな",
+              "vietnamese": "như thế nào / kiểu gì"
+            },
+            {
+              "japanese": "どれ",
+              "vietnamese": "cái nào"
+            },
+            {
+              "japanese": "とても",
+              "vietnamese": "rất"
+            },
+            {
+              "japanese": "あまり",
+              "vietnamese": "không... lắm"
+            },
+            {
+              "japanese": "そして",
+              "vietnamese": "và / hơn nữa"
+            },
+            {
+              "japanese": "が",
+              "vietnamese": "nhưng"
+            },
+            {
+              "japanese": "おげんきですか",
+              "vietnamese": "bạn khỏe không?"
+            },
+            {
+              "japanese": "そうですね",
+              "vietnamese": "ừm / đúng vậy nhỉ"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 6",
+          "src": "output/8/8_group_06.mp3",
+          "items": [
+            {
+              "japanese": "なれましたか",
+              "vietnamese": "đã quen chưa?"
+            },
+            {
+              "japanese": "もういっぱい いかがですか",
+              "vietnamese": "thêm một ly nữa không?"
+            },
+            {
+              "japanese": "いいえ、けっこうです",
+              "vietnamese": "không, đủ rồi"
+            },
+            {
+              "japanese": "もう 〜 です",
+              "vietnamese": "đã ~ rồi"
+            },
+            {
+              "japanese": "そろそろ しつれいします",
+              "vietnamese": "tôi xin phép về"
+            },
+            {
+              "japanese": "また いらっしゃってください",
+              "vietnamese": "lần sau lại đến nhé"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 9",
+      "inputSrc": "input/9.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/9/9_group_01.mp3",
+          "items": [
+            {
+              "japanese": "わかります",
+              "vietnamese": "hiểu"
+            },
+            {
+              "japanese": "あります",
+              "vietnamese": "có"
+            },
+            {
+              "japanese": "すき",
+              "vietnamese": "thích"
+            },
+            {
+              "japanese": "きらい",
+              "vietnamese": "ghét / không thích"
+            },
+            {
+              "japanese": "じょうず",
+              "vietnamese": "giỏi"
+            },
+            {
+              "japanese": "へた",
+              "vietnamese": "kém / dở"
+            },
+            {
+              "japanese": "りょうり",
+              "vietnamese": "món ăn / nấu ăn"
+            },
+            {
+              "japanese": "のみもの",
+              "vietnamese": "đồ uống"
+            },
+            {
+              "japanese": "スポーツ",
+              "vietnamese": "thể thao"
+            },
+            {
+              "japanese": "やきゅう",
+              "vietnamese": "bóng chày"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/9/9_group_02.mp3",
+          "items": [
+            {
+              "japanese": "ダンス",
+              "vietnamese": "khiêu vũ / nhảy"
+            },
+            {
+              "japanese": "おんがく",
+              "vietnamese": "âm nhạc"
+            },
+            {
+              "japanese": "うた",
+              "vietnamese": "bài hát / ca hát"
+            },
+            {
+              "japanese": "クラシック",
+              "vietnamese": "nhạc cổ điển"
+            },
+            {
+              "japanese": "ジャズ",
+              "vietnamese": "nhạc jazz"
+            },
+            {
+              "japanese": "コンサート",
+              "vietnamese": "buổi hòa nhạc"
+            },
+            {
+              "japanese": "カラオケ",
+              "vietnamese": "karaoke"
+            },
+            {
+              "japanese": "かぶき",
+              "vietnamese": "Kabuki"
+            },
+            {
+              "japanese": "え",
+              "vietnamese": "tranh"
+            },
+            {
+              "japanese": "じ",
+              "vietnamese": "chữ"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/9/9_group_03.mp3",
+          "items": [
+            {
+              "japanese": "かんじ",
+              "vietnamese": "chữ Kanji"
+            },
+            {
+              "japanese": "ひらがな",
+              "vietnamese": "chữ Hiragana"
+            },
+            {
+              "japanese": "かたかな",
+              "vietnamese": "chữ Katakana"
+            },
+            {
+              "japanese": "ローマじ",
+              "vietnamese": "chữ Roman"
+            },
+            {
+              "japanese": "こまかい おかね",
+              "vietnamese": "tiền lẻ"
+            },
+            {
+              "japanese": "チケット",
+              "vietnamese": "vé"
+            },
+            {
+              "japanese": "じかん",
+              "vietnamese": "thời gian"
+            },
+            {
+              "japanese": "ようじ",
+              "vietnamese": "việc bận / việc riêng"
+            },
+            {
+              "japanese": "やくそく",
+              "vietnamese": "cuộc hẹn / lời hứa"
+            },
+            {
+              "japanese": "ごしゅじん",
+              "vietnamese": "chồng người khác"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/9/9_group_04.mp3",
+          "items": [
+            {
+              "japanese": "おっと",
+              "vietnamese": "chồng tôi"
+            },
+            {
+              "japanese": "おくさん",
+              "vietnamese": "vợ người khác"
+            },
+            {
+              "japanese": "つま",
+              "vietnamese": "vợ tôi"
+            },
+            {
+              "japanese": "こども",
+              "vietnamese": "con / trẻ em"
+            },
+            {
+              "japanese": "よく",
+              "vietnamese": "tốt / rõ / thường"
+            },
+            {
+              "japanese": "だいたい",
+              "vietnamese": "đại khái / hầu như"
+            },
+            {
+              "japanese": "たくさん",
+              "vietnamese": "nhiều"
+            },
+            {
+              "japanese": "すこし",
+              "vietnamese": "một chút"
+            },
+            {
+              "japanese": "ぜんぜん",
+              "vietnamese": "hoàn toàn không"
+            },
+            {
+              "japanese": "はやく",
+              "vietnamese": "sớm / nhanh"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/9/9_group_05.mp3",
+          "items": [
+            {
+              "japanese": "から",
+              "vietnamese": "vì / bởi vì"
+            },
+            {
+              "japanese": "どうして",
+              "vietnamese": "tại sao"
+            },
+            {
+              "japanese": "ざんねんです",
+              "vietnamese": "tiếc quá"
+            },
+            {
+              "japanese": "すみません",
+              "vietnamese": "xin lỗi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 10",
+      "inputSrc": "input/10.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/10/10_group_01.mp3",
+          "items": [
+            {
+              "japanese": "あります",
+              "vietnamese": "có / ở"
+            },
+            {
+              "japanese": "います",
+              "vietnamese": "có / ở"
+            },
+            {
+              "japanese": "いろいろ",
+              "vietnamese": "nhiều loại / đa dạng"
+            },
+            {
+              "japanese": "おとこのひと",
+              "vietnamese": "người đàn ông"
+            },
+            {
+              "japanese": "おんなのひと",
+              "vietnamese": "người phụ nữ"
+            },
+            {
+              "japanese": "おとこのこ",
+              "vietnamese": "bé trai"
+            },
+            {
+              "japanese": "おんなのこ",
+              "vietnamese": "bé gái"
+            },
+            {
+              "japanese": "いぬ",
+              "vietnamese": "chó"
+            },
+            {
+              "japanese": "ねこ",
+              "vietnamese": "mèo"
+            },
+            {
+              "japanese": "パンダ",
+              "vietnamese": "gấu trúc"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/10/10_group_02.mp3",
+          "items": [
+            {
+              "japanese": "ぞう",
+              "vietnamese": "voi"
+            },
+            {
+              "japanese": "き",
+              "vietnamese": "cây"
+            },
+            {
+              "japanese": "もの",
+              "vietnamese": "đồ vật"
+            },
+            {
+              "japanese": "でんち",
+              "vietnamese": "pin"
+            },
+            {
+              "japanese": "はこ",
+              "vietnamese": "hộp"
+            },
+            {
+              "japanese": "スイッチ",
+              "vietnamese": "công tắc"
+            },
+            {
+              "japanese": "れいぞうこ",
+              "vietnamese": "tủ lạnh"
+            },
+            {
+              "japanese": "テーブル",
+              "vietnamese": "bàn"
+            },
+            {
+              "japanese": "ベッド",
+              "vietnamese": "giường"
+            },
+            {
+              "japanese": "たな",
+              "vietnamese": "kệ"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/10/10_group_03.mp3",
+          "items": [
+            {
+              "japanese": "ドア",
+              "vietnamese": "cửa"
+            },
+            {
+              "japanese": "まど",
+              "vietnamese": "cửa sổ"
+            },
+            {
+              "japanese": "ポスト",
+              "vietnamese": "hòm thư"
+            },
+            {
+              "japanese": "ビル",
+              "vietnamese": "tòa nhà"
+            },
+            {
+              "japanese": "こうえん",
+              "vietnamese": "công viên"
+            },
+            {
+              "japanese": "きっさてん",
+              "vietnamese": "quán cà phê"
+            },
+            {
+              "japanese": "ほんや",
+              "vietnamese": "hiệu sách"
+            },
+            {
+              "japanese": "のりば",
+              "vietnamese": "bến / điểm lên xe"
+            },
+            {
+              "japanese": "けん",
+              "vietnamese": "tỉnh"
+            },
+            {
+              "japanese": "うえ",
+              "vietnamese": "trên"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/10/10_group_04.mp3",
+          "items": [
+            {
+              "japanese": "した",
+              "vietnamese": "dưới"
+            },
+            {
+              "japanese": "まえ",
+              "vietnamese": "trước"
+            },
+            {
+              "japanese": "うしろ",
+              "vietnamese": "sau"
+            },
+            {
+              "japanese": "みぎ",
+              "vietnamese": "bên phải"
+            },
+            {
+              "japanese": "ひだり",
+              "vietnamese": "bên trái"
+            },
+            {
+              "japanese": "なか",
+              "vietnamese": "bên trong"
+            },
+            {
+              "japanese": "そと",
+              "vietnamese": "bên ngoài"
+            },
+            {
+              "japanese": "となり",
+              "vietnamese": "bên cạnh"
+            },
+            {
+              "japanese": "ちかく",
+              "vietnamese": "gần"
+            },
+            {
+              "japanese": "あいだ",
+              "vietnamese": "giữa"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/10/10_group_05.mp3",
+          "items": [
+            {
+              "japanese": "いちばん うえ",
+              "vietnamese": "trên cùng"
+            },
+            {
+              "japanese": "いちばん した",
+              "vietnamese": "dưới cùng"
+            },
+            {
+              "japanese": "いちばん まえ",
+              "vietnamese": "trước nhất"
+            },
+            {
+              "japanese": "いちばん うしろ",
+              "vietnamese": "sau cùng"
+            },
+            {
+              "japanese": "えき",
+              "vietnamese": "ga"
+            },
+            {
+              "japanese": "きょうしつ",
+              "vietnamese": "lớp học"
+            },
+            {
+              "japanese": "へや",
+              "vietnamese": "phòng"
+            },
+            {
+              "japanese": "うち",
+              "vietnamese": "nhà"
+            },
+            {
+              "japanese": "かいしゃ",
+              "vietnamese": "công ty"
+            },
+            {
+              "japanese": "がっこう",
+              "vietnamese": "trường học"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 6",
+          "src": "output/10/10_group_06.mp3",
+          "items": [
+            {
+              "japanese": "みせ",
+              "vietnamese": "cửa hàng"
+            },
+            {
+              "japanese": "どこ",
+              "vietnamese": "ở đâu"
+            },
+            {
+              "japanese": "なに",
+              "vietnamese": "cái gì"
+            },
+            {
+              "japanese": "だれ",
+              "vietnamese": "ai"
+            },
+            {
+              "japanese": "〜や 〜など",
+              "vietnamese": "... và ..., v.v."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 11",
+      "inputSrc": "input/11.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/11/11_group_01.mp3",
+          "items": [
+            {
+              "japanese": "います",
+              "vietnamese": "có / ở"
+            },
+            {
+              "japanese": "あります",
+              "vietnamese": "có / ở"
+            },
+            {
+              "japanese": "かかります",
+              "vietnamese": "mất / tốn"
+            },
+            {
+              "japanese": "やすみます",
+              "vietnamese": "nghỉ"
+            },
+            {
+              "japanese": "ひとつ",
+              "vietnamese": "một cái"
+            },
+            {
+              "japanese": "ふたつ",
+              "vietnamese": "hai cái"
+            },
+            {
+              "japanese": "みっつ",
+              "vietnamese": "ba cái"
+            },
+            {
+              "japanese": "よっつ",
+              "vietnamese": "bốn cái"
+            },
+            {
+              "japanese": "いつつ",
+              "vietnamese": "năm cái"
+            },
+            {
+              "japanese": "むっつ",
+              "vietnamese": "sáu cái"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/11/11_group_02.mp3",
+          "items": [
+            {
+              "japanese": "ななつ",
+              "vietnamese": "bảy cái"
+            },
+            {
+              "japanese": "やっつ",
+              "vietnamese": "tám cái"
+            },
+            {
+              "japanese": "ここのつ",
+              "vietnamese": "chín cái"
+            },
+            {
+              "japanese": "とお",
+              "vietnamese": "mười cái"
+            },
+            {
+              "japanese": "いくつ",
+              "vietnamese": "bao nhiêu cái"
+            },
+            {
+              "japanese": "ひとり",
+              "vietnamese": "một người"
+            },
+            {
+              "japanese": "ふたり",
+              "vietnamese": "hai người"
+            },
+            {
+              "japanese": "～にん",
+              "vietnamese": "... người"
+            },
+            {
+              "japanese": "～だい",
+              "vietnamese": "... cái / chiếc"
+            },
+            {
+              "japanese": "～まい",
+              "vietnamese": "... tờ / cái mỏng"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/11/11_group_03.mp3",
+          "items": [
+            {
+              "japanese": "～かい",
+              "vietnamese": "... lần"
+            },
+            {
+              "japanese": "りんご",
+              "vietnamese": "táo"
+            },
+            {
+              "japanese": "みかん",
+              "vietnamese": "quýt"
+            },
+            {
+              "japanese": "サンドイッチ",
+              "vietnamese": "bánh sandwich"
+            },
+            {
+              "japanese": "カレーライス",
+              "vietnamese": "cơm cà ri"
+            },
+            {
+              "japanese": "アイスクリーム",
+              "vietnamese": "kem"
+            },
+            {
+              "japanese": "きって",
+              "vietnamese": "tem"
+            },
+            {
+              "japanese": "はがき",
+              "vietnamese": "bưu thiếp"
+            },
+            {
+              "japanese": "ふうとう",
+              "vietnamese": "phong bì"
+            },
+            {
+              "japanese": "そくたつ",
+              "vietnamese": "chuyển phát nhanh"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/11/11_group_04.mp3",
+          "items": [
+            {
+              "japanese": "かきとめ",
+              "vietnamese": "thư bảo đảm"
+            },
+            {
+              "japanese": "エアメール",
+              "vietnamese": "thư hàng không"
+            },
+            {
+              "japanese": "こうくうびん",
+              "vietnamese": "thư hàng không"
+            },
+            {
+              "japanese": "ふなびん",
+              "vietnamese": "thư đường biển"
+            },
+            {
+              "japanese": "りょうしん",
+              "vietnamese": "bố mẹ"
+            },
+            {
+              "japanese": "きょうだい",
+              "vietnamese": "anh chị em"
+            },
+            {
+              "japanese": "あに",
+              "vietnamese": "anh trai tôi"
+            },
+            {
+              "japanese": "おにいさん",
+              "vietnamese": "anh trai"
+            },
+            {
+              "japanese": "あね",
+              "vietnamese": "chị gái tôi"
+            },
+            {
+              "japanese": "おねえさん",
+              "vietnamese": "chị gái"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/11/11_group_05.mp3",
+          "items": [
+            {
+              "japanese": "おとうと",
+              "vietnamese": "em trai tôi"
+            },
+            {
+              "japanese": "おとうとさん",
+              "vietnamese": "em trai người khác"
+            },
+            {
+              "japanese": "いもうと",
+              "vietnamese": "em gái tôi"
+            },
+            {
+              "japanese": "いもうとさん",
+              "vietnamese": "em gái người khác"
+            },
+            {
+              "japanese": "がいこく",
+              "vietnamese": "nước ngoài"
+            },
+            {
+              "japanese": "～じかん",
+              "vietnamese": "... tiếng"
+            },
+            {
+              "japanese": "～しゅうかん",
+              "vietnamese": "... tuần"
+            },
+            {
+              "japanese": "～かげつ",
+              "vietnamese": "... tháng"
+            },
+            {
+              "japanese": "～ねん",
+              "vietnamese": "... năm"
+            },
+            {
+              "japanese": "～ぐらい",
+              "vietnamese": "khoảng / chừng"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 6",
+          "src": "output/11/11_group_06.mp3",
+          "items": [
+            {
+              "japanese": "どのくらい",
+              "vietnamese": "bao lâu / khoảng bao nhiêu"
+            },
+            {
+              "japanese": "ぜんぶで",
+              "vietnamese": "tổng cộng"
+            },
+            {
+              "japanese": "みんな",
+              "vietnamese": "tất cả mọi người"
+            },
+            {
+              "japanese": "～だけ",
+              "vietnamese": "chỉ / chỉ có"
+            },
+            {
+              "japanese": "かしこまりました",
+              "vietnamese": "tôi hiểu rồi / vâng ạ"
+            },
+            {
+              "japanese": "いい おてんきですね",
+              "vietnamese": "thời tiết đẹp nhỉ"
+            },
+            {
+              "japanese": "おでかけですか",
+              "vietnamese": "anh/chị đi ra ngoài à?"
+            },
+            {
+              "japanese": "ちょっと ～まで",
+              "vietnamese": "đi đến... một chút"
+            },
+            {
+              "japanese": "いってらっしゃい",
+              "vietnamese": "anh/chị đi nhé"
+            },
+            {
+              "japanese": "いってまいります",
+              "vietnamese": "tôi đi đây"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 7",
+          "src": "output/11/11_group_07.mp3",
+          "items": [
+            {
+              "japanese": "いってきます",
+              "vietnamese": "tôi đi đây"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 12",
+      "inputSrc": "input/12.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/12/12_group_01.mp3",
+          "items": [
+            {
+              "japanese": "かんたん",
+              "vietnamese": "đơn giản / dễ"
+            },
+            {
+              "japanese": "ちかい",
+              "vietnamese": "gần"
+            },
+            {
+              "japanese": "とおい",
+              "vietnamese": "xa"
+            },
+            {
+              "japanese": "はやい",
+              "vietnamese": "nhanh / sớm"
+            },
+            {
+              "japanese": "おそい",
+              "vietnamese": "chậm / muộn"
+            },
+            {
+              "japanese": "おおい",
+              "vietnamese": "nhiều"
+            },
+            {
+              "japanese": "すくない",
+              "vietnamese": "ít"
+            },
+            {
+              "japanese": "あたたかい",
+              "vietnamese": "ấm"
+            },
+            {
+              "japanese": "すずしい",
+              "vietnamese": "mát mẻ"
+            },
+            {
+              "japanese": "あまい",
+              "vietnamese": "ngọt"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/12/12_group_02.mp3",
+          "items": [
+            {
+              "japanese": "からい",
+              "vietnamese": "cay"
+            },
+            {
+              "japanese": "おもい",
+              "vietnamese": "nặng"
+            },
+            {
+              "japanese": "かるい",
+              "vietnamese": "nhẹ"
+            },
+            {
+              "japanese": "いい",
+              "vietnamese": "tốt"
+            },
+            {
+              "japanese": "きせつ",
+              "vietnamese": "mùa"
+            },
+            {
+              "japanese": "はる",
+              "vietnamese": "mùa xuân"
+            },
+            {
+              "japanese": "なつ",
+              "vietnamese": "mùa hè"
+            },
+            {
+              "japanese": "あき",
+              "vietnamese": "mùa thu"
+            },
+            {
+              "japanese": "ふゆ",
+              "vietnamese": "mùa đông"
+            },
+            {
+              "japanese": "てんき",
+              "vietnamese": "thời tiết"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/12/12_group_03.mp3",
+          "items": [
+            {
+              "japanese": "あめ",
+              "vietnamese": "mưa"
+            },
+            {
+              "japanese": "ゆき",
+              "vietnamese": "tuyết"
+            },
+            {
+              "japanese": "くもり",
+              "vietnamese": "trời nhiều mây"
+            },
+            {
+              "japanese": "ホテル",
+              "vietnamese": "khách sạn"
+            },
+            {
+              "japanese": "くうこう",
+              "vietnamese": "sân bay"
+            },
+            {
+              "japanese": "うみ",
+              "vietnamese": "biển"
+            },
+            {
+              "japanese": "せかい",
+              "vietnamese": "thế giới"
+            },
+            {
+              "japanese": "パーティー",
+              "vietnamese": "tiệc"
+            },
+            {
+              "japanese": "まつり",
+              "vietnamese": "lễ hội"
+            },
+            {
+              "japanese": "すきやき",
+              "vietnamese": "món sukiyaki"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/12/12_group_04.mp3",
+          "items": [
+            {
+              "japanese": "さしみ",
+              "vietnamese": "sashimi"
+            },
+            {
+              "japanese": "すし",
+              "vietnamese": "sushi"
+            },
+            {
+              "japanese": "てんぷら",
+              "vietnamese": "tempura"
+            },
+            {
+              "japanese": "いけばな",
+              "vietnamese": "nghệ thuật cắm hoa"
+            },
+            {
+              "japanese": "もみじ",
+              "vietnamese": "lá đỏ mùa thu"
+            },
+            {
+              "japanese": "どちら",
+              "vietnamese": "cái nào / bên nào trong 2"
+            },
+            {
+              "japanese": "どちらも",
+              "vietnamese": "cả hai đều"
+            },
+            {
+              "japanese": "ずっと",
+              "vietnamese": "hơn nhiều / suốt"
+            },
+            {
+              "japanese": "はじめて",
+              "vietnamese": "lần đầu tiên"
+            },
+            {
+              "japanese": "ただいま",
+              "vietnamese": "tôi đã về"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/12/12_group_05.mp3",
+          "items": [
+            {
+              "japanese": "おかえりなさい",
+              "vietnamese": "mừng anh/chị về"
+            },
+            {
+              "japanese": "すごいですね",
+              "vietnamese": "tuyệt quá / ghê quá"
+            },
+            {
+              "japanese": "でも",
+              "vietnamese": "nhưng"
+            },
+            {
+              "japanese": "つかれました",
+              "vietnamese": "mệt rồi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 13",
+      "inputSrc": "input/13.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/13/13_group_01.mp3",
+          "items": [
+            {
+              "japanese": "あそびます",
+              "vietnamese": "chơi"
+            },
+            {
+              "japanese": "およぎます",
+              "vietnamese": "bơi"
+            },
+            {
+              "japanese": "むかえます",
+              "vietnamese": "đón"
+            },
+            {
+              "japanese": "つかれます",
+              "vietnamese": "mệt"
+            },
+            {
+              "japanese": "だします",
+              "vietnamese": "gửi / nộp / lấy ra"
+            },
+            {
+              "japanese": "はいります",
+              "vietnamese": "vào"
+            },
+            {
+              "japanese": "でます",
+              "vietnamese": "ra / rời khỏi"
+            },
+            {
+              "japanese": "けっこんします",
+              "vietnamese": "kết hôn"
+            },
+            {
+              "japanese": "かいものします",
+              "vietnamese": "mua sắm"
+            },
+            {
+              "japanese": "しょくじします",
+              "vietnamese": "dùng bữa / ăn"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/13/13_group_02.mp3",
+          "items": [
+            {
+              "japanese": "さんぽします",
+              "vietnamese": "đi dạo"
+            },
+            {
+              "japanese": "たいへん",
+              "vietnamese": "vất vả / khó khăn"
+            },
+            {
+              "japanese": "ほしい",
+              "vietnamese": "muốn có"
+            },
+            {
+              "japanese": "ひろい",
+              "vietnamese": "rộng"
+            },
+            {
+              "japanese": "せまい",
+              "vietnamese": "hẹp"
+            },
+            {
+              "japanese": "プール",
+              "vietnamese": "hồ bơi"
+            },
+            {
+              "japanese": "かわ",
+              "vietnamese": "sông"
+            },
+            {
+              "japanese": "けいざい",
+              "vietnamese": "kinh tế"
+            },
+            {
+              "japanese": "びじゅつ",
+              "vietnamese": "mỹ thuật / nghệ thuật"
+            },
+            {
+              "japanese": "つり",
+              "vietnamese": "câu cá"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/13/13_group_03.mp3",
+          "items": [
+            {
+              "japanese": "スキー",
+              "vietnamese": "trượt tuyết"
+            },
+            {
+              "japanese": "かいぎ",
+              "vietnamese": "cuộc họp"
+            },
+            {
+              "japanese": "とうろく",
+              "vietnamese": "đăng ký"
+            },
+            {
+              "japanese": "しゅうまつ",
+              "vietnamese": "cuối tuần"
+            },
+            {
+              "japanese": "〜ごろ",
+              "vietnamese": "khoảng..."
+            },
+            {
+              "japanese": "なにか",
+              "vietnamese": "cái gì đó"
+            },
+            {
+              "japanese": "どこか",
+              "vietnamese": "nơi nào đó"
+            },
+            {
+              "japanese": "おなかが すきました",
+              "vietnamese": "đói bụng"
+            },
+            {
+              "japanese": "おなかが いっぱいです",
+              "vietnamese": "no bụng"
+            },
+            {
+              "japanese": "のどが かわきました",
+              "vietnamese": "khát nước"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/13/13_group_04.mp3",
+          "items": [
+            {
+              "japanese": "そうですね",
+              "vietnamese": "để xem nào / đúng nhỉ"
+            },
+            {
+              "japanese": "そうしましょう",
+              "vietnamese": "làm vậy đi"
+            },
+            {
+              "japanese": "ごちゅうもんは",
+              "vietnamese": "quý khách gọi món gì?"
+            },
+            {
+              "japanese": "ていしょく",
+              "vietnamese": "suất ăn phần"
+            },
+            {
+              "japanese": "ぎゅうどん",
+              "vietnamese": "cơm bò"
+            },
+            {
+              "japanese": "しょうしょう おまちください",
+              "vietnamese": "xin chờ một chút"
+            },
+            {
+              "japanese": "べつべつに",
+              "vietnamese": "riêng ra"
+            },
+            {
+              "japanese": "とうきょう",
+              "vietnamese": "Tokyo"
+            },
+            {
+              "japanese": "おおさか",
+              "vietnamese": "Osaka"
+            },
+            {
+              "japanese": "こうべ",
+              "vietnamese": "Kobe"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bài 14",
+      "inputSrc": "input/14.txt",
+      "tracks": [
+        {
+          "label": "Nhóm 1",
+          "src": "output/14/14_group_01.mp3",
+          "items": [
+            {
+              "japanese": "つけます",
+              "vietnamese": "bật"
+            },
+            {
+              "japanese": "けします",
+              "vietnamese": "tắt / xóa"
+            },
+            {
+              "japanese": "あけます",
+              "vietnamese": "mở"
+            },
+            {
+              "japanese": "しめます",
+              "vietnamese": "đóng"
+            },
+            {
+              "japanese": "いそぎます",
+              "vietnamese": "vội / gấp"
+            },
+            {
+              "japanese": "まちます",
+              "vietnamese": "chờ"
+            },
+            {
+              "japanese": "とめます",
+              "vietnamese": "dừng / đỗ"
+            },
+            {
+              "japanese": "まがります",
+              "vietnamese": "rẽ"
+            },
+            {
+              "japanese": "もちます",
+              "vietnamese": "cầm / mang"
+            },
+            {
+              "japanese": "とります",
+              "vietnamese": "lấy / đưa / chụp"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 2",
+          "src": "output/14/14_group_02.mp3",
+          "items": [
+            {
+              "japanese": "てつだいます",
+              "vietnamese": "giúp đỡ"
+            },
+            {
+              "japanese": "よびます",
+              "vietnamese": "gọi"
+            },
+            {
+              "japanese": "はなします",
+              "vietnamese": "nói chuyện"
+            },
+            {
+              "japanese": "みせます",
+              "vietnamese": "cho xem"
+            },
+            {
+              "japanese": "おしえます",
+              "vietnamese": "chỉ / dạy / cho biết"
+            },
+            {
+              "japanese": "はじめます",
+              "vietnamese": "bắt đầu"
+            },
+            {
+              "japanese": "ふります",
+              "vietnamese": "rơi"
+            },
+            {
+              "japanese": "コピーします",
+              "vietnamese": "photo / sao chép"
+            },
+            {
+              "japanese": "エアコン",
+              "vietnamese": "máy lạnh / điều hòa"
+            },
+            {
+              "japanese": "パスポート",
+              "vietnamese": "hộ chiếu"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 3",
+          "src": "output/14/14_group_03.mp3",
+          "items": [
+            {
+              "japanese": "なまえ",
+              "vietnamese": "tên"
+            },
+            {
+              "japanese": "じゅうしょ",
+              "vietnamese": "địa chỉ"
+            },
+            {
+              "japanese": "ちず",
+              "vietnamese": "bản đồ"
+            },
+            {
+              "japanese": "しお",
+              "vietnamese": "muối"
+            },
+            {
+              "japanese": "さとう",
+              "vietnamese": "đường"
+            },
+            {
+              "japanese": "よみかた",
+              "vietnamese": "cách đọc"
+            },
+            {
+              "japanese": "〜かた",
+              "vietnamese": "cách..."
+            },
+            {
+              "japanese": "ゆっくり",
+              "vietnamese": "chậm / thong thả"
+            },
+            {
+              "japanese": "すぐ",
+              "vietnamese": "ngay lập tức"
+            },
+            {
+              "japanese": "また",
+              "vietnamese": "lại / nữa"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 4",
+          "src": "output/14/14_group_04.mp3",
+          "items": [
+            {
+              "japanese": "あとで",
+              "vietnamese": "sau đó / lát nữa"
+            },
+            {
+              "japanese": "もう すこし",
+              "vietnamese": "thêm một chút nữa"
+            },
+            {
+              "japanese": "もう",
+              "vietnamese": "thêm / đã"
+            },
+            {
+              "japanese": "いいですよ",
+              "vietnamese": "được chứ / được thôi"
+            },
+            {
+              "japanese": "さあ",
+              "vietnamese": "ừm / nào"
+            },
+            {
+              "japanese": "あれ？",
+              "vietnamese": "ủa? / ô?"
+            },
+            {
+              "japanese": "まっすぐ",
+              "vietnamese": "thẳng"
+            },
+            {
+              "japanese": "みぎ",
+              "vietnamese": "bên phải"
+            },
+            {
+              "japanese": "ひだり",
+              "vietnamese": "bên trái"
+            },
+            {
+              "japanese": "これで おねがいします",
+              "vietnamese": "xin dùng cái này"
+            }
+          ]
+        },
+        {
+          "label": "Nhóm 5",
+          "src": "output/14/14_group_05.mp3",
+          "items": [
+            {
+              "japanese": "おつり",
+              "vietnamese": "tiền thối lại"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Bài 15",
       "inputSrc": "input/15.txt",
       "tracks": [
