@@ -1,0 +1,66 @@
+たべます	ăn
+のみます	uống
+すいます	hút
+みます	xem / nhìn
+ききます	nghe
+よみます	đọc
+かきます	viết
+かいます	mua
+とります	chụp / lấy
+します	làm
+
+---
+
+あいます	gặp
+ごはん	cơm / bữa ăn
+あさごはん	bữa sáng
+ひるごはん	bữa trưa
+ばんごはん	bữa tối
+パン	bánh mì
+たまご	trứng
+にく	thịt
+さかな	cá
+やさい	rau
+
+---
+
+くだもの	trái cây
+みず	nước
+おちゃ	trà
+こうちゃ	trà đen
+ぎゅうにゅう	sữa bò
+ジュース	nước ép
+ビール	bia
+おさけ	rượu
+たばこ	thuốc lá
+てがみ	thư
+
+---
+
+レポート	báo cáo
+しゃしん	ảnh
+ビデオ	video
+みせ	cửa hàng
+レストラン	nhà hàng
+にわ	vườn
+しゅくだい	bài tập về nhà
+テニス	tennis
+サッカー	bóng đá
+おはなみ	ngắm hoa
+
+---
+
+なに	cái gì
+いっしょに	cùng nhau
+ちょっと	một chút / hơi...
+いつも	luôn luôn
+ときどき	thỉnh thoảng
+それから	sau đó
+ええ	vâng
+いいですね	hay đấy
+わかりました	tôi hiểu rồi
+なんですか	là cái gì?
+
+---
+
+じゃ、また	vậy nhé / hẹn gặp lại

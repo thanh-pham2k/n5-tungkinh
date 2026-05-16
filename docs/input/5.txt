@@ -1,0 +1,68 @@
+いきます	đi
+きます	đến
+かえります	về
+がっこう	trường học
+スーパー	siêu thị
+えき	nhà ga
+ひこうき	máy bay
+ふね	tàu thuyền
+でんしゃ	tàu điện
+ちかてつ	tàu điện ngầm
+
+---
+
+しんかんせん	tàu Shinkansen
+バス	xe buýt
+タクシー	taxi
+じてんしゃ	xe đạp
+あるいて	đi bộ
+ひと	người
+ともだち	bạn bè
+かれ	anh ấy / bạn trai
+かのじょ	cô ấy / bạn gái
+かぞく	gia đình
+
+---
+
+ひとりで	một mình
+せんしゅう	tuần trước
+こんしゅう	tuần này
+らいしゅう	tuần sau
+せんげつ	tháng trước
+こんげつ	tháng này
+らいげつ	tháng sau
+きょねん	năm ngoái
+ことし	năm nay
+らいねん	năm sau
+
+---
+
+なんねん	năm nào
+なんがつ	tháng mấy
+なんにち	ngày mấy
+いつ	khi nào
+たんじょうび	sinh nhật
+ふつか	ngày mùng 2 / 2 ngày
+みっか	ngày mùng 3 / 3 ngày
+よっか	ngày mùng 4 / 4 ngày
+いつか	ngày mùng 5 / 5 ngày
+むいか	ngày mùng 6 / 6 ngày
+
+---
+
+なのか	ngày mùng 7 / 7 ngày
+ようか	ngày mùng 8 / 8 ngày
+ここのか	ngày mùng 9 / 9 ngày
+とおか	ngày mùng 10 / 10 ngày
+はつか	ngày 20 / 20 ngày
+ついたち	ngày mùng 1
+じゅうよっか	ngày 14
+にじゅうよっか	ngày 24
+ふつう	thường / thường xuyên
+きゅうこう	tàu nhanh
+
+---
+
+とっきゅう	tàu tốc hành đặc biệt
+つぎ	tiếp theo
+ありがとう ございました	cảm ơn rất nhiều

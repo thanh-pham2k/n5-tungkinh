@@ -1,0 +1,69 @@
+おきます	thức dậy
+ねます	ngủ
+はたらきます	làm việc
+やすみます	nghỉ
+べんきょうします	học
+おわります	kết thúc
+デパート	trung tâm thương mại
+ぎんこう	ngân hàng
+ゆうびんきょく	bưu điện
+としょかん	thư viện
+
+---
+
+びじゅつかん	bảo tàng mỹ thuật
+いま	bây giờ
+〜じ	... giờ
+〜ふん / 〜ぷん	... phút
+はん	rưỡi / nửa
+なんじ	mấy giờ
+なんぷん	mấy phút
+ごぜん	buổi sáng / AM
+ごご	buổi chiều / PM
+あさ	buổi sáng
+
+---
+
+ひる	buổi trưa
+ばん / よる	buổi tối / đêm
+おととい	hôm kia
+きのう	hôm qua
+きょう	hôm nay
+あした	ngày mai
+あさって	ngày kia
+けさ	sáng nay
+こんばん	tối nay
+やすみ	nghỉ / ngày nghỉ
+
+---
+
+ひるやすみ	nghỉ trưa
+まいあさ	mỗi sáng
+まいばん	mỗi tối
+まいにち	mỗi ngày
+げつようび	thứ Hai
+かようび	thứ Ba
+すいようび	thứ Tư
+もくようび	thứ Năm
+きんようび	thứ Sáu
+どようび	thứ Bảy
+
+---
+
+にちようび	Chủ nhật
+なんようび	thứ mấy
+〜から	từ...
+〜まで	đến...
+〜と〜	... và ...
+たいへんですね	vất vả nhỉ
+ばんごう	số
+なんばん	số mấy
+そちら	phía đó / bên đó
+ニューヨーク	New York
+
+---
+
+ペキン	Bắc Kinh
+ロンドン	London
+バンコク	Bangkok
+ロサンゼルス	Los Angeles

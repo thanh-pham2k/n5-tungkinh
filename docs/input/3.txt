@@ -1,0 +1,56 @@
+ここ	chỗ này / ở đây
+そこ	chỗ đó / ở đó
+あそこ	chỗ kia / ở kia
+どこ	ở đâu
+こちら	phía này / đây
+そちら	phía đó / đó
+あちら	phía kia / kia
+どちら	phía nào / ở đâu
+きょうしつ	lớp học / phòng học
+しょくどう	nhà ăn
+
+---
+
+じむしょ	văn phòng
+かいぎしつ	phòng họp
+うけつけ	quầy tiếp tân
+ロビー	sảnh
+へや	phòng
+トイレ	nhà vệ sinh
+おてあらい	nhà vệ sinh
+かいだん	cầu thang
+エレベーター	thang máy
+エスカレーター	thang cuốn
+
+---
+
+くに	nước / quốc gia
+かいしゃ	công ty
+うち	nhà
+でんわ	điện thoại
+くつ	giày
+ネクタイ	cà vạt
+ワイン	rượu vang
+たばこ	thuốc lá
+うりば	quầy bán hàng
+ちか	tầng hầm
+
+---
+
+〜かい	tầng ...
+なんがい	tầng mấy
+〜えん	... yên
+いくら	bao nhiêu tiền
+ひゃく	một trăm
+せん	một nghìn
+まん	mười nghìn
+すみません	xin lỗi / làm phiền
+どうも	cảm ơn / rất
+どうも すみません	rất xin lỗi / cảm ơn
+
+---
+
+いらっしゃいませ	kính chào quý khách
+みせてください	xin cho xem
+じゃ	vậy thì
+これを ください	cho tôi cái này

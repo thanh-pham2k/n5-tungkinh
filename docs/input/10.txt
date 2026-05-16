@@ -1,0 +1,70 @@
+あります	có / ở
+います	có / ở
+いろいろ	nhiều loại / đa dạng
+おとこのひと	người đàn ông
+おんなのひと	người phụ nữ
+おとこのこ	bé trai
+おんなのこ	bé gái
+いぬ	chó
+ねこ	mèo
+パンダ	gấu trúc
+
+---
+
+ぞう	voi
+き	cây
+もの	đồ vật
+でんち	pin
+はこ	hộp
+スイッチ	công tắc
+れいぞうこ	tủ lạnh
+テーブル	bàn
+ベッド	giường
+たな	kệ
+
+---
+
+ドア	cửa
+まど	cửa sổ
+ポスト	hòm thư
+ビル	tòa nhà
+こうえん	công viên
+きっさてん	quán cà phê
+ほんや	hiệu sách
+のりば	bến / điểm lên xe
+けん	tỉnh
+うえ	trên
+
+---
+
+した	dưới
+まえ	trước
+うしろ	sau
+みぎ	bên phải
+ひだり	bên trái
+なか	bên trong
+そと	bên ngoài
+となり	bên cạnh
+ちかく	gần
+あいだ	giữa
+
+---
+
+いちばん うえ	trên cùng
+いちばん した	dưới cùng
+いちばん まえ	trước nhất
+いちばん うしろ	sau cùng
+えき	ga
+きょうしつ	lớp học
+へや	phòng
+うち	nhà
+かいしゃ	công ty
+がっこう	trường học
+
+---
+
+みせ	cửa hàng
+どこ	ở đâu
+なに	cái gì
+だれ	ai
+〜や 〜など	... và ..., v.v.
