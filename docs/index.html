@@ -75,6 +75,51 @@
       margin-top: 14px;
     }
 
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .tab-button {
+      min-height: 42px;
+      padding: 0 16px;
+    }
+
+    .tab-button[aria-selected="true"] {
+      border-color: var(--primary);
+      background: #eaf2ff;
+      color: var(--primary-dark);
+      box-shadow: inset 0 0 0 1px rgba(22, 101, 216, 0.2);
+    }
+
+    .tab-panel {
+      display: none;
+    }
+
+    .tab-panel.active {
+      display: block;
+    }
+
+    .grammar-layout {
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+      gap: 16px;
+      align-items: start;
+    }
+
+    .grammar-selector {
+      display: grid;
+      gap: 8px;
+    }
+
+    .grammar-content {
+      min-width: 0;
+    }
+
     .grammar-list {
       display: grid;
       gap: 16px;
@@ -312,6 +357,15 @@
         grid-template-columns: 1fr;
       }
 
+      .tabs {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .grammar-layout {
+        grid-template-columns: 1fr;
+      }
+
       .lesson-grid {
         grid-template-columns: 1fr;
       }
@@ -338,133 +392,12 @@
     <h1>Audio Looper</h1>
     <p>Chọn audio có sẵn hoặc chọn file MP3 từ máy của bạn, audio sẽ phát lặp liên tục.</p>
 
-    <section id="grammar">
-      <h2>Grammar</h2>
-      <div class="grammar-list">
-        <article class="grammar-topic">
-          <h3>Minna no Nihongo Bài 14: thể て, Vてください, Vています, Vましょうか</h3>
-          <p class="grammar-note">Trọng tâm bài 14 là cách chia thể て và dùng thể này để yêu cầu, diễn tả hành động đang diễn ra, đề nghị giúp đỡ, hoặc mô tả hiện tượng tự nhiên.</p>
-          <table class="grammar-table">
-            <thead>
-              <tr>
-                <th>Nội dung</th>
-                <th>Ý nghĩa ngắn gọn</th>
-                <th>Ví dụ</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Thể て</td>
-                <td>Dạng chia quan trọng của động từ</td>
-                <td>たべます → たべて</td>
-              </tr>
-              <tr>
-                <td>Vてください</td>
-                <td>Hãy / xin hãy làm gì</td>
-                <td>まってください</td>
-              </tr>
-              <tr>
-                <td>Vています</td>
-                <td>Đang làm gì</td>
-                <td>たべています</td>
-              </tr>
-              <tr>
-                <td>Vましょうか</td>
-                <td>Để tôi làm giúp nhé?</td>
-                <td>もちましょうか</td>
-              </tr>
-              <tr>
-                <td>NがVています</td>
-                <td>Mô tả hiện tượng tự nhiên / sự việc khách quan</td>
-                <td>あめが ふっています</td>
-              </tr>
-            </tbody>
-          </table>
-        </article>
+    <div class="tabs" role="tablist" aria-label="Nội dung học">
+      <button class="tab-button" id="tab-audio" type="button" role="tab" aria-selected="true" aria-controls="audio-panel" data-tab-target="audio-panel">Audio public</button>
+      <button class="tab-button" id="tab-grammar" type="button" role="tab" aria-selected="false" aria-controls="grammar-panel" data-tab-target="grammar-panel">Grammar</button>
+    </div>
 
-        <article class="grammar-topic">
-          <h3>Cách chia thể て</h3>
-          <table class="grammar-table">
-            <thead>
-              <tr>
-                <th>Nhóm</th>
-                <th>Quy tắc</th>
-                <th>Ví dụ</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Nhóm 1</td>
-                <td>い・ち・り → って</td>
-                <td>かいます → かって</td>
-              </tr>
-              <tr>
-                <td>Nhóm 1</td>
-                <td>み・び・に → んで</td>
-                <td>のみます → のんで</td>
-              </tr>
-              <tr>
-                <td>Nhóm 1</td>
-                <td>き → いて / ぎ → いで / し → して</td>
-                <td>かきます → かいて、いそぎます → いそいで、はなします → はなして</td>
-              </tr>
-              <tr>
-                <td>Đặc biệt</td>
-                <td>いきます → いって</td>
-                <td>えきへ いってください。</td>
-              </tr>
-              <tr>
-                <td>Nhóm 2</td>
-                <td>Bỏ ます + て</td>
-                <td>たべます → たべて、みます → みて、おきます → おきて</td>
-              </tr>
-              <tr>
-                <td>Nhóm 3</td>
-                <td>します → して、きます → きて</td>
-                <td>べんきょうします → べんきょうして</td>
-              </tr>
-            </tbody>
-          </table>
-        </article>
-
-        <article class="grammar-topic">
-          <h3>Mẫu câu chính</h3>
-          <table class="grammar-table">
-            <thead>
-              <tr>
-                <th>Mẫu</th>
-                <th>Nghĩa</th>
-                <th>Ví dụ</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Vて + ください</td>
-                <td>Hãy / xin hãy làm gì</td>
-                <td>なまえを かいてください。 = Hãy viết tên.</td>
-              </tr>
-              <tr>
-                <td>Vて + います</td>
-                <td>Đang làm gì</td>
-                <td>にほんごを べんきょうしています。 = Đang học tiếng Nhật.</td>
-              </tr>
-              <tr>
-                <td>Vます bỏ ます + ましょうか</td>
-                <td>Để tôi làm giúp nhé?</td>
-                <td>にもつを もちましょうか。 = Để tôi mang hành lý giúp nhé?</td>
-              </tr>
-              <tr>
-                <td>N が Vています</td>
-                <td>Mô tả hiện tượng tự nhiên / sự việc khách quan</td>
-                <td>あめが ふっています。 = Trời đang mưa.</td>
-              </tr>
-            </tbody>
-          </table>
-        </article>
-      </div>
-    </section>
-
-    <section>
+    <section class="tab-panel active" id="audio-panel" role="tabpanel" aria-labelledby="tab-audio">
       <h2>Audio public</h2>
       <p class="hint">Track đang chọn sẽ được tô nền xanh.</p>
       <div class="public-layout">
@@ -481,37 +414,172 @@
           <ol class="vocab-list" id="vocab-list"></ol>
         </aside>
       </div>
-    </section>
 
-    <section>
-      <label for="looper-file">File MP3 local</label>
-      <input type="file" id="looper-file" accept="audio/*">
-    </section>
+      <section>
+        <label for="looper-file">File MP3 local</label>
+        <input type="file" id="looper-file" accept="audio/*">
+      </section>
 
-    <audio id="looper-audio" controls loop></audio>
+      <audio id="looper-audio" controls loop></audio>
 
-    <div class="controls-row">
-      <div>
-        <label for="looper-speed">Tốc độ</label>
-        <select id="looper-speed">
-          <option value="0.5">0.5x</option>
-          <option value="0.75">0.75x</option>
-          <option value="1" selected>1x</option>
-          <option value="1.25">1.25x</option>
-          <option value="1.5">1.5x</option>
-          <option value="1.75">1.75x</option>
-          <option value="2">2x</option>
-        </select>
+      <div class="controls-row">
+        <div>
+          <label for="looper-speed">Tốc độ</label>
+          <select id="looper-speed">
+            <option value="0.5">0.5x</option>
+            <option value="0.75">0.75x</option>
+            <option value="1" selected>1x</option>
+            <option value="1.25">1.25x</option>
+            <option value="1.5">1.5x</option>
+            <option value="1.75">1.75x</option>
+            <option value="2">2x</option>
+          </select>
+        </div>
       </div>
-    </div>
 
-    <div class="toolbar">
-      <button class="primary" id="looper-play" type="button">Play</button>
-      <button id="looper-pause" type="button">Pause</button>
-      <button id="looper-restart" type="button">Restart</button>
-    </div>
+      <div class="toolbar">
+        <button class="primary" id="looper-play" type="button">Play</button>
+        <button id="looper-pause" type="button">Pause</button>
+        <button id="looper-restart" type="button">Restart</button>
+      </div>
 
-    <div class="status" id="looper-status">Chưa chọn file.</div>
+      <div class="status" id="looper-status">Chưa chọn file.</div>
+    </section>
+
+    <section class="tab-panel" id="grammar-panel" role="tabpanel" aria-labelledby="tab-grammar">
+      <h2>Grammar</h2>
+      <div class="grammar-layout">
+        <div class="grammar-selector" id="grammar-lesson-list" aria-label="Danh sách bài ngữ pháp"></div>
+        <div class="grammar-content" id="grammar-content">
+          <p class="hint">Chọn một bài để xem nội dung ngữ pháp.</p>
+        </div>
+      </div>
+
+      <template id="grammar-lesson-14-template">
+        <div class="grammar-list">
+          <article class="grammar-topic">
+            <h3>Minna no Nihongo Bài 14: thể て, Vてください, Vています, Vましょうか</h3>
+            <p class="grammar-note">Trọng tâm bài 14 là cách chia thể て và dùng thể này để yêu cầu, diễn tả hành động đang diễn ra, đề nghị giúp đỡ, hoặc mô tả hiện tượng tự nhiên.</p>
+            <table class="grammar-table">
+              <thead>
+                <tr>
+                  <th>Nội dung</th>
+                  <th>Ý nghĩa ngắn gọn</th>
+                  <th>Ví dụ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Thể て</td>
+                  <td>Dạng chia quan trọng của động từ</td>
+                  <td>たべます → たべて</td>
+                </tr>
+                <tr>
+                  <td>Vてください</td>
+                  <td>Hãy / xin hãy làm gì</td>
+                  <td>まってください</td>
+                </tr>
+                <tr>
+                  <td>Vています</td>
+                  <td>Đang làm gì</td>
+                  <td>たべています</td>
+                </tr>
+                <tr>
+                  <td>Vましょうか</td>
+                  <td>Để tôi làm giúp nhé?</td>
+                  <td>もちましょうか</td>
+                </tr>
+                <tr>
+                  <td>NがVています</td>
+                  <td>Mô tả hiện tượng tự nhiên / sự việc khách quan</td>
+                  <td>あめが ふっています</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+
+          <article class="grammar-topic">
+            <h3>Cách chia thể て</h3>
+            <table class="grammar-table">
+              <thead>
+                <tr>
+                  <th>Nhóm</th>
+                  <th>Quy tắc</th>
+                  <th>Ví dụ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Nhóm 1</td>
+                  <td>い・ち・り → って</td>
+                  <td>かいます → かって</td>
+                </tr>
+                <tr>
+                  <td>Nhóm 1</td>
+                  <td>み・び・に → んで</td>
+                  <td>のみます → のんで</td>
+                </tr>
+                <tr>
+                  <td>Nhóm 1</td>
+                  <td>き → いて / ぎ → いで / し → して</td>
+                  <td>かきます → かいて、いそぎます → いそいで、はなします → はなして</td>
+                </tr>
+                <tr>
+                  <td>Đặc biệt</td>
+                  <td>いきます → いって</td>
+                  <td>えきへ いってください。</td>
+                </tr>
+                <tr>
+                  <td>Nhóm 2</td>
+                  <td>Bỏ ます + て</td>
+                  <td>たべます → たべて、みます → みて、おきます → おきて</td>
+                </tr>
+                <tr>
+                  <td>Nhóm 3</td>
+                  <td>します → して、きます → きて</td>
+                  <td>べんきょうします → べんきょうして</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+
+          <article class="grammar-topic">
+            <h3>Mẫu câu chính</h3>
+            <table class="grammar-table">
+              <thead>
+                <tr>
+                  <th>Mẫu</th>
+                  <th>Nghĩa</th>
+                  <th>Ví dụ</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Vて + ください</td>
+                  <td>Hãy / xin hãy làm gì</td>
+                  <td>なまえを かいてください。 = Hãy viết tên.</td>
+                </tr>
+                <tr>
+                  <td>Vて + います</td>
+                  <td>Đang làm gì</td>
+                  <td>にほんごを べんきょうしています。 = Đang học tiếng Nhật.</td>
+                </tr>
+                <tr>
+                  <td>Vます bỏ ます + ましょうか</td>
+                  <td>Để tôi làm giúp nhé?</td>
+                  <td>にもつを もちましょうか。 = Để tôi mang hành lý giúp nhé?</td>
+                </tr>
+                <tr>
+                  <td>N が Vています</td>
+                  <td>Mô tả hiện tượng tự nhiên / sự việc khách quan</td>
+                  <td>あめが ふっています。 = Trời đang mưa.</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+      </template>
+    </section>
   </main>
 
   <script>
@@ -529,12 +597,23 @@
       const audio = document.getElementById("looper-audio");
       const speed = document.getElementById("looper-speed");
       const status = document.getElementById("looper-status");
+      const tabButtons = document.querySelectorAll("[data-tab-target]");
+      const tabPanels = document.querySelectorAll(".tab-panel");
+      const grammarLessonList = document.getElementById("grammar-lesson-list");
+      const grammarContent = document.getElementById("grammar-content");
 
       let lessons = [];
       let objectUrl = "";
       let activeTrackButton = null;
       let currentSource = "";
       let selectedLessonIndex = 0;
+
+      const grammarLessons = [
+        {
+          title: "Bài 14",
+          templateId: "grammar-lesson-14-template",
+        },
+      ];
 
       const applySpeed = () => {
         audio.playbackRate = Number(speed.value);
@@ -546,6 +625,50 @@
           URL.revokeObjectURL(objectUrl);
           objectUrl = "";
         }
+      };
+
+      const selectTab = (targetId) => {
+        tabButtons.forEach((button) => {
+          const isSelected = button.dataset.tabTarget === targetId;
+          button.setAttribute("aria-selected", String(isSelected));
+        });
+
+        tabPanels.forEach((panel) => {
+          panel.classList.toggle("active", panel.id === targetId);
+        });
+      };
+
+      const selectGrammarLesson = (lessonIndex) => {
+        const lesson = grammarLessons[lessonIndex];
+        if (!lesson) {
+          return;
+        }
+
+        grammarLessonList.querySelectorAll("button").forEach((button, buttonIndex) => {
+          button.classList.toggle("active", buttonIndex === lessonIndex);
+        });
+
+        const template = document.getElementById(lesson.templateId);
+        if (!template) {
+          grammarContent.replaceChildren();
+          grammarContent.textContent = "Không tìm thấy nội dung ngữ pháp của bài này.";
+          return;
+        }
+
+        grammarContent.replaceChildren(template.content.cloneNode(true));
+      };
+
+      const renderGrammarLessonButtons = () => {
+        grammarLessonList.replaceChildren();
+        grammarLessons.forEach((lesson, index) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.textContent = lesson.title;
+          button.addEventListener("click", () => {
+            selectGrammarLesson(index);
+          });
+          grammarLessonList.appendChild(button);
+        });
       };
 
       const setActiveTrackButton = (button) => {
@@ -673,6 +796,7 @@
       };
 
       const init = async () => {
+        renderGrammarLessonButtons();
         clearVocabulary("Đang tải mapper bài học...");
         try {
           lessons = await loadLessons();
@@ -691,6 +815,12 @@
           status.textContent = "Không tải được dữ liệu bài học.";
         }
       };
+
+      tabButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          selectTab(button.dataset.tabTarget);
+        });
+      });
 
       fileInput.addEventListener("change", () => {
         const file = fileInput.files[0];
