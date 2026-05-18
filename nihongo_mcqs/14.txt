@@ -1,0 +1,1505 @@
+Nội dung dựa trên bài Minna no Nihongo Bài 14: thể て, Vてください, Vています, Vましょうか, NがVています.
+
+Minna no Nihongo Bài 14 — Tổng hợp + Bài tập trắc nghiệm
+1. Trọng tâm bài 14
+Nội dung	Ý nghĩa ngắn gọn	Ví dụ
+Thể て	Dạng chia quan trọng của động từ	たべます → たべて
+Vてください	Hãy / xin hãy làm gì	まってください
+Vています	Đang làm gì	たべています
+Vましょうか	Để tôi làm giúp nhé?	もちましょうか
+NがVています	Mô tả hiện tượng tự nhiên	あめが ふっています
+2. Cách chia thể て
+A. Động từ nhóm 1
+Âm trước ます	Đổi sang	Ví dụ
+い・ち・り	って	かいます → かって
+み・び・に	んで	のみます → のんで
+き	いて	かきます → かいて
+ぎ	いで	いそぎます → いそいで
+し	して	はなします → はなして
+いきます	いって	đặc biệt
+B. Động từ nhóm 2
+
+Cách chia:
+
+Bỏ ます + て
+
+Ví dụ:
+
+Động từ	Thể て
+たべます	たべて
+みます	みて
+おきます	おきて
+あびます	あびて
+かります	かりて
+C. Động từ nhóm 3
+Động từ	Thể て
+します	して
+きます	きて
+べんきょうします	べんきょうして
+コピーします	コピーして
+3. Ngữ pháp chính
+3.1. Vてください
+Công thức
+Vて + ください
+Nghĩa
+
+Hãy / xin hãy làm gì
+
+Ví dụ:
+
+Câu	Nghĩa
+たべてください。	Hãy ăn đi.
+まってください。	Xin hãy đợi.
+かいてください。	Hãy viết.
+よんでください。	Hãy đọc.
+3.2. Vています
+Công thức
+Vて + います
+Nghĩa
+
+Đang làm gì
+
+Ví dụ:
+
+Câu	Nghĩa
+ごはんを たべています。	Đang ăn cơm.
+にほんごを べんきょうしています。	Đang học tiếng Nhật.
+ほんを よんでいます。	Đang đọc sách.
+テレビを みています。	Đang xem TV.
+3.3. Vましょうか
+Công thức
+Vます bỏ ます + ましょうか
+Nghĩa
+
+Để tôi làm giúp nhé?
+
+Ví dụ:
+
+Câu	Nghĩa
+もちましょうか。	Để tôi cầm giúp nhé?
+てつだいましょうか。	Để tôi giúp nhé?
+エアコンを つけましょうか。	Để tôi bật máy lạnh nhé?
+3.4. NがVています
+Nghĩa
+
+Dùng để mô tả hiện tượng tự nhiên / sự việc khách quan.
+
+Ví dụ:
+
+Câu	Nghĩa
+あめが ふっています。	Trời đang mưa.
+ゆきが ふっています。	Tuyết đang rơi.
+かぜが ふいています。	Gió đang thổi.
+
+
+
+
+Pasted markdown(4).md
+File
+Tôi muốn học nội dung này.
+
+Thought for a few seconds
+Được Thanh. Mình sẽ học theo kiểu từng bước + hỏi đáp ngắn, không học dồn.
+
+Nội dung này là Minna no Nihongo Bài 14, trọng tâm gồm: thể て, Vてください, Vています, Vましょうか, NがVています 
+
+
+Bước 1: Nắm “thể て” trước
+TL;DR:
+Thể て là dạng nối rất quan trọng của động từ.
+
+Ví dụ:
+
+Thể ます	Thể て
+たべます	たべて
+のみます	のんで
+かきます	かいて
+いきます	いって
+Mẹo nhớ nhóm 1:
+
+い・ち・り → って
+み・び・に → んで
+き → いて
+ぎ → いで
+し → して
+いきます → いって
+Bây giờ mình kiểm tra 1 câu trước nhé.
+
+Câu 1:
+のみます chuyển sang thể て là gì?
+
+A. のみて
+B. のんで
+C. のって
+D. のいて
+
+
+B
+
+Thought for a couple of seconds
+Đúng rồi ✅
+
+のみます → のんで
+
+Vì のみます kết thúc bằng み, mà nhóm 1 có quy tắc:
+
+み・び・に → んで
+Ví dụ thêm:
+
+Thể ます	Thể て
+よみます	よんで
+あそびます	あそんで
+しにます	しんで
+Câu 2:
+かきます chuyển sang thể て là gì?
+
+A. かって
+B. かんで
+C. かいて
+D. かして
+
+
+C
+
+Thought for a couple of seconds
+Đúng rồi ✅
+
+かきます → かいて
+
+Vì かきます kết thúc bằng き, quy tắc là:
+
+き → いて
+Ví dụ:
+
+Thể ます	Thể て
+かきます	かいて
+ききます	きいて
+はたらきます	はたらいて
+Câu 3:
+いきます chuyển sang thể て là gì?
+
+A. いいて
+B. いきて
+C. いって
+D. いんで
+
+
+C
+
+Thought for a second
+Đúng rồi ✅
+
+いきます → いって
+
+Đây là trường hợp đặc biệt. Bình thường き → いて, nhưng riêng:
+
+いきます → いって
+Trong tài liệu cũng ghi いきます là dạng đặc biệt khi chia thể て. 
+
+
+Câu 4:
+まちます chuyển sang thể て là gì?
+
+A. まちて
+B. まって
+C. まんで
+D. まいて
+
+
+B
+
+Thought for a second
+Đúng rồi ✅
+
+まちます → まって
+
+Vì まちます kết thúc bằng ち, quy tắc là:
+
+い・ち・り → って
+Ví dụ:
+
+Thể ます	Thể て
+まちます	まって
+かいます	かって
+かえります	かえって
+Câu 5:
+かえります chuyển sang thể て là gì?
+
+A. かえりて
+B. かえって
+C. かえんで
+D. かえいて
+
+
+B
+
+Thought for a second
+Đúng rồi ✅
+
+かえります → かえって
+
+Vì かえります kết thúc bằng り, quy tắc là:
+
+い・ち・り → って
+Mini-review đến giờ:
+
+Động từ	Thể て
+のみます	のんで
+かきます	かいて
+いきます	いって
+まちます	まって
+かえります	かえって
+Câu 6:
+はなします chuyển sang thể て là gì?
+
+A. はなして
+B. はなんで
+C. はなって
+D. はないて
+
+
+A
+
+Thought for a second
+Đúng rồi ✅
+
+はなします → はなして
+
+Vì はなします kết thúc bằng し, quy tắc là:
+
+し → して
+Ví dụ:
+
+Thể ます	Thể て
+はなします	はなして
+かします	かして
+だします	だして
+Như tài liệu bài 14 ghi: nhóm 1 có quy tắc し → して. 
+
+
+Câu 7:
+みます chuyển sang thể て là gì?
+
+A. みって
+B. みんで
+C. みて
+D. みいて
+
+
+C
+
+Thought for a couple of seconds
+Đúng rồi ✅
+
+みます → みて
+
+Vì みます là động từ nhóm 2.
+
+Quy tắc nhóm 2:
+
+Bỏ ます + て
+Ví dụ:
+
+Thể ます	Thể て
+みます	みて
+たべます	たべて
+おきます	おきて
+Câu 8:
+おきます chuyển sang thể て là gì?
+
+A. おいて
+B. おきて
+C. おって
+D. おんで
+
+
+B
+
+Đúng rồi ✅
+
+おきます → おきて
+
+Vì おきます là nhóm 2:
+
+bỏ ます + て
+Câu 9:
+します chuyển sang thể て là gì?
+
+A. して
+B. しって
+C. しんで
+D. しいて
+
+
+A
+
+Đúng rồi ✅
+
+します → して
+
+Vì します là nhóm 3.
+
+Nhóm 3 cần nhớ:
+
+Thể ます	Thể て
+します	して
+きます	きて
+べんきょうします	べんきょうして
+Câu 10:
+きます chuyển sang thể て là gì?
+
+A. きて
+B. きって
+C. きいて
+D. きんで
+
+
+A
+
+Đúng rồi ✅
+
+きます → きて
+
+Vì きます là nhóm 3, cần nhớ riêng.
+
+Câu 11:
+べんきょうします chuyển sang thể て là gì?
+
+A. べんきょうして
+B. べんきょうしって
+C. べんきょうしてています
+D. べんきょうきて
+
+
+A
+
+Đúng rồi ✅
+
+べんきょうします → べんきょうして
+
+Vì dạng N + します chuyển thành:
+
+N + して
+Mini-review:
+
+します → して
+きます → きて
+べんきょうします → べんきょうして
+Câu 12:
+たべます thuộc nhóm nào?
+
+A. Nhóm 1
+B. Nhóm 2
+C. Nhóm 3
+D. Danh từ
+
+
+B
+
+Đúng rồi ✅
+
+たべます là động từ nhóm 2.
+
+Mẹo nhận biết nhanh nhóm 2:
+
+Thường có dạng:
+
+～えます
+～います
+Ví dụ:
+
+Nhóm 2
+たべます
+みます
+おきます
+あびます
+⚠️ Nhưng nhớ: không phải cứ います là nhóm 2.
+
+Ví dụ:
+
+Động từ	Nhóm
+かえります	Nhóm 1
+はいります	Nhóm 1
+Câu 13:
+のみます thuộc nhóm nào?
+
+A. Nhóm 1
+B. Nhóm 2
+C. Nhóm 3
+D. Tính từ
+
+
+A
+
+Đúng rồi ✅
+
+のみます là nhóm 1.
+
+Dấu hiệu: み trước ます → khi chia thể て thành:
+
+のみます → のんで
+Câu 14:
+します thuộc nhóm nào?
+
+A. Nhóm 1
+B. Nhóm 2
+C. Nhóm 3
+D. Tính từ
+
+
+C
+
+Thought for a few seconds
+Đúng rồi ✅
+
+します là nhóm 3.
+
+Nhóm 3 chỉ cần nhớ riêng:
+
+します → して
+きます → きて
+N + します → N + して
+Trong bài 14, tài liệu cũng liệt kê します / きます / べんきょうします là nhóm 3. 
+
+
+Câu 15:
+きます thuộc nhóm nào?
+
+A. Nhóm 1
+B. Nhóm 2
+C. Nhóm 3
+D. Trợ từ
+
+
+C
+
+Thought for a few seconds
+Đúng rồi ✅
+
+きます là nhóm 3.
+
+Cặp cần nhớ:
+
+きます → きて
+します → して
+Câu 16:
+みます thuộc nhóm nào?
+
+A. Nhóm 1
+B. Nhóm 2
+C. Nhóm 3
+D. Không xác định
+
+
+B
+
+Thought for a couple of seconds
+Đúng rồi ✅
+
+みます là nhóm 2.
+
+Quy tắc nhóm 2 rất gọn:
+
+bỏ ます + て
+Nên:
+
+みます → みて
+Câu 17:
+はなします thuộc nhóm nào?
+
+A. Nhóm 1
+B. Nhóm 2
+C. Nhóm 3
+D. Tính từ đuôi い
+
+
+A
+
+Đúng rồi ✅
+
+はなします là nhóm 1.
+
+Vì nhóm 1 có quy tắc:
+
+し → して
+Nên:
+
+はなします → はなして
+Câu 18:
+べんきょうします thuộc nhóm nào?
+
+A. Nhóm 1
+B. Nhóm 2
+C. Nhóm 3
+D. Nhóm đặc biệt của tính từ
+
+
+C
+
+Đúng rồi ✅
+
+べんきょうします là nhóm 3.
+
+Vì dạng này là:
+
+Danh từ + します
+Nên chia thể て:
+
+べんきょうします → べんきょうして
+Câu 19:
+かきます thuộc nhóm nào?
+
+A. Nhóm 1
+B. Nhóm 2
+C. Nhóm 3
+D. Danh từ
+
+
+A
+
+Thought for a few seconds
+Đúng rồi ✅
+
+かきます là nhóm 1.
+
+Vì khi chia thể て:
+
+かきます → かいて
+Nhóm 1 trong bài có quy tắc き → いて. 
+
+
+Xong phần nhận diện nhóm động từ rồi.
+
+Câu 20:
+“Hãy ăn cơm” là câu nào?
+
+A. ごはんを たべます。
+B. ごはんを たべてください。
+C. ごはんを たべています。
+D. ごはんを たべましょうか。
+
+
+B
+
+Đúng rồi ✅
+
+ごはんを たべてください。
+= Hãy ăn cơm.
+
+Mẫu câu:
+
+Vて + ください
+= Hãy / xin hãy làm gì
+Ví dụ:
+
+たべてください = Hãy ăn
+まってください = Hãy đợi
+かいてください = Hãy viết
+Câu 21:
+“Hãy đợi một chút” là câu nào?
+
+A. ちょっと まちます。
+B. ちょっと まってください。
+C. ちょっと まっています。
+D. ちょっと ましょうか。
+
+
+B
+
+Đúng rồi ✅
+
+ちょっと まってください。
+= Hãy đợi một chút.
+
+Vì:
+
+まちます → まって
+まって + ください → まってください
+Câu 22:
+“Hãy viết tên” là câu nào?
+
+A. なまえを かきます。
+B. なまえを かいてください。
+C. なまえを かっています。
+D. なまえを かきましょうか。
+
+
+B
+
+Đúng rồi ✅
+
+なまえを かいてください。
+= Hãy viết tên.
+
+Vì:
+
+かきます → かいて
+かいて + ください → かいてください
+Câu 23:
+“Hãy đọc sách” là câu nào?
+
+A. ほんを よみます。
+B. ほんを よんでください。
+C. ほんを よんでいます。
+D. ほんを よみましょうか。
+
+
+B
+
+Đúng rồi ✅
+
+ほんを よんでください。
+= Hãy đọc sách.
+
+Vì:
+
+よみます → よんで
+よんで + ください → よんでください
+Câu 24:
+“Hãy xem TV” là câu nào?
+
+A. テレビを みてください。
+B. テレビを みます。
+C. テレビを みています。
+D. テレビを みましょうか。
+
+
+A
+
+Đúng rồi ✅
+
+テレビを みてください。
+= Hãy xem TV.
+
+Vì:
+
+みます → みて
+みて + ください → みてください
+Câu 25:
+“Hãy nói tiếng Nhật” là câu nào?
+
+A. にほんごを はなします。
+B. にほんごを はなしてください。
+C. にほんごを はなしています。
+D. にほんごを はなしましょうか。
+
+
+B
+
+Thought for a couple of seconds
+Đúng rồi ✅
+
+にほんごを はなしてください。
+= Hãy nói tiếng Nhật.
+
+Vì:
+
+はなします → はなして
+はなして + ください → はなしてください
+Mẫu Vてください trong bài 14 nghĩa là “hãy / xin hãy làm gì”. 
+
+
+Câu 26:
+“Hãy uống nước” là câu nào?
+
+A. みずを のみます。
+B. みずを のんでください。
+C. みずを のんでいます。
+D. みずを のみましょうか。
+
+
+B
+
+Đúng rồi ✅
+
+みずを のんでください。
+= Hãy uống nước.
+
+Vì:
+
+のみます → のんで
+のんで + ください → のんでください
+Câu 27:
+“Hãy đến đây” là câu nào?
+
+A. ここへ きます。
+B. ここへ きてください。
+C. ここへ きています。
+D. ここへ きましょうか。
+
+
+B
+
+Đúng rồi ✅
+
+ここへ きてください。
+= Hãy đến đây.
+
+Vì:
+
+きます → きて
+きて + ください → きてください
+Xong phần Vてください rồi.
+
+Câu 28:
+“Tôi đang ăn cơm” là câu nào?
+
+A. ごはんを たべます。
+B. ごはんを たべてください。
+C. ごはんを たべています。
+D. ごはんを たべましょうか。
+
+
+C
+
+Đúng rồi ✅
+
+ごはんを たべています。
+= Tôi đang ăn cơm.
+
+Mẫu mới:
+
+Vて + います
+= đang làm gì
+Ví dụ:
+
+たべています = đang ăn
+よんでいます = đang đọc
+みています = đang xem
+Câu 29:
+“Tôi đang uống trà” là câu nào?
+
+A. おちゃを のみます。
+B. おちゃを のんでいます。
+C. おちゃを のんでください。
+D. おちゃを のみましょうか。
+
+
+B
+
+Đúng rồi ✅
+
+おちゃを のんでいます。
+= Tôi đang uống trà.
+
+Vì:
+
+のみます → のんで
+のんで + います → のんでいます
+Câu 30:
+“Anh Miller đang đọc sách” là câu nào?
+
+A. ミラーさんは ほんを よみます。
+B. ミラーさんは ほんを よんでいます。
+C. ミラーさんは ほんを よんでください。
+D. ミラーさんは ほんを よみましょうか。
+
+
+B
+
+Đúng rồi ✅
+
+ミラーさんは ほんを よんでいます。
+= Anh Miller đang đọc sách.
+
+Vì:
+
+よみます → よんで
+よんで + います → よんでいます
+Câu 31:
+“Mẹ đang nấu ăn” là câu nào?
+
+A. ははは りょうりします。
+B. ははは りょうりしてください。
+C. ははは りょうりしています。
+D. ははは りょうりしましょうか。
+
+
+C
+
+Đúng rồi ✅
+
+ははは りょうりしています。
+= Mẹ đang nấu ăn.
+
+Vì:
+
+りょうりします → りょうりして
+りょうりして + います → りょうりしています
+Câu 32:
+“Bạn đang làm gì?” là câu nào?
+
+A. なにを しますか。
+B. なにを していますか。
+C. なにを してください。
+D. なにを しましょうか。
+
+
+B
+
+Đúng rồi ✅
+
+なにを していますか。
+= Bạn đang làm gì?
+
+Vì:
+
+しています = đang làm
+So sánh nhanh:
+
+Câu	Nghĩa
+なにを しますか。	Bạn sẽ/làm gì?
+なにを していますか。	Bạn đang làm gì?
+Câu 33:
+“Tôi đang học tiếng Nhật” là câu nào?
+
+A. にほんごを べんきょうします。
+B. にほんごを べんきょうしてください。
+C. にほんごを べんきょうしています。
+D. にほんごを べんきょうしましょうか。
+
+
+C
+
+Thought for a couple of seconds
+Đúng rồi ✅
+
+にほんごを べんきょうしています。
+= Tôi đang học tiếng Nhật.
+
+Vì:
+
+べんきょうします → べんきょうして
+べんきょうして + います → べんきょうしています
+Tài liệu bài 14 ghi mẫu Vています = đang làm gì. 
+
+
+Câu 34:
+“Em trai đang xem TV” là câu nào?
+
+A. おとうとは テレビを みます。
+B. おとうとは テレビを みてください。
+C. おとうとは テレビを みています。
+D. おとうとは テレビを みましょうか。
+
+
+C
+
+Đúng rồi ✅
+
+おとうとは テレビを みています。
+= Em trai đang xem TV.
+
+Vì:
+
+みます → みて
+みて + います → みています
+Câu 35:
+“Bố đang làm việc” là câu nào?
+
+A. ちちは はたらきます。
+B. ちちは はたらいています。
+C. ちちは はたらいてください。
+D. ちちは はたらきましょうか。
+
+
+B
+
+Đúng rồi ✅
+
+ちちは はたらいています。
+= Bố đang làm việc.
+
+Vì:
+
+はたらきます → はたらいて
+はたらいて + います → はたらいています
+Xong phần Vています rồi.
+
+Câu 36:
+“Để tôi cầm giúp nhé?” là câu nào?
+
+A. もちます。
+B. もってください。
+C. もっています。
+D. もちましょうか。
+
+
+D
+
+Thought for a few seconds
+Đúng rồi ✅
+
+もちましょうか。
+= Để tôi cầm giúp nhé?
+
+Mẫu mới:
+
+Vます bỏ ます + ましょうか
+= Để tôi làm giúp nhé?
+Ví dụ:
+
+もちます → もちましょうか
+てつだいます → てつだいましょうか
+あけます → あけましょうか
+Câu 37:
+“Để tôi giúp nhé?” là câu nào?
+
+A. てつだいます。
+B. てつだってください。
+C. てつだっています。
+D. てつだいましょうか。
+
+
+D
+
+Đúng rồi ✅
+
+てつだいましょうか。
+= Để tôi giúp nhé?
+
+Vì:
+
+てつだいます → bỏ ます → てつだい
+てつだい + ましょうか → てつだいましょうか
+Câu 38:
+“Để tôi mở cửa sổ nhé?” là câu nào?
+
+A. まどを あけます。
+B. まどを あけてください。
+C. まどを あけています。
+D. まどを あけましょうか。
+
+
+D
+
+Đúng rồi ✅
+
+まどを あけましょうか。
+= Để tôi mở cửa sổ nhé?
+
+Vì:
+
+あけます → bỏ ます → あけ
+あけ + ましょうか → あけましょうか
+Câu 39:
+“Để tôi bật máy lạnh nhé?” là câu nào?
+
+A. エアコンを つけます。
+B. エアコンを つけてください。
+C. エアコンを つけています。
+D. エアコンを つけましょうか。
+
+
+D
+
+Đúng rồi ✅
+
+エアコンを つけましょうか。
+= Để tôi bật máy lạnh nhé?
+
+Vì:
+
+つけます → bỏ ます → つけ
+つけ + ましょうか → つけましょうか
+Câu 40:
+“Để tôi gọi taxi nhé?” là câu nào?
+
+A. タクシーを よびます。
+B. タクシーを よんでください。
+C. タクシーを よんでいます。
+D. タクシーを よびましょうか。
+
+
+D
+
+Đúng rồi ✅
+
+タクシーを よびましょうか。
+= Để tôi gọi taxi nhé?
+
+Vì mẫu Vましょうか dùng dạng bỏ ます:
+
+よびます → よび
+よび + ましょうか → よびましょうか
+Mini-review:
+
+Nghĩa	Mẫu
+Hãy làm	Vてください
+Đang làm	Vています
+Để tôi làm giúp nhé?	Vましょうか
+Câu 41:
+Khi người khác đề nghị giúp và mình đồng ý, câu nào phù hợp?
+
+A. いいえ、けっこうです。
+B. すみません。おねがいします。
+C. ありがとうございます。でも、だいじょうぶです。
+D. いいえ、ちがいます。
+
+
+B
+
+Đúng rồi ✅
+
+すみません。おねがいします。
+= Phiền bạn. Nhờ bạn giúp nhé.
+
+Dùng khi mình đồng ý nhận sự giúp đỡ.
+
+So sánh nhanh:
+
+Câu	Ý nghĩa
+すみません。おねがいします。	Vâng, nhờ bạn giúp
+いいえ、けっこうです。	Không, cảm ơn / không cần đâu
+Câu 42:
+Khi người khác đề nghị giúp và mình từ chối lịch sự, câu nào phù hợp?
+
+A. すみません。おねがいします。
+B. はい、そうです。
+C. いいえ、けっこうです。
+D. どうぞ よろしく。
+
+
+C
+
+Đúng rồi ✅
+
+いいえ、けっこうです。
+= Không, cảm ơn / không cần đâu.
+
+Dùng khi từ chối lịch sự lời đề nghị giúp đỡ.
+
+Xong phần Vましょうか rồi.
+
+Câu 43:
+Điền trợ từ đúng:
+
+あめ___ふっています。
+
+A. を
+B. が
+C. に
+D. で
+
+
+B
+
+Đúng rồi ✅
+
+あめが ふっています。
+= Trời đang mưa.
+
+Với hiện tượng tự nhiên, thường dùng:
+
+N が Vています
+Ví dụ:
+
+あめが ふっています。
+ゆきが ふっています。
+かぜが ふいています。
+Câu 44:
+Điền trợ từ đúng:
+
+ごはん___たべています。
+
+A. を
+B. が
+C. に
+D. へ
+
+
+A
+
+Đúng rồi ✅
+
+ごはんを たべています。
+= Đang ăn cơm.
+
+Với tân ngữ của hành động như ăn/uống/đọc/xem, thường dùng:
+
+N を Vています
+Ví dụ:
+
+ごはんを たべています。
+みずを のんでいます。
+ほんを よんでいます。
+テレビを みています。
+Câu 45:
+Điền trợ từ đúng:
+
+ゆき___ふっています。
+
+A. を
+B. が
+C. で
+D. と
+
+
+B
+
+Thought for a couple of seconds
+Đúng rồi ✅
+
+ゆきが ふっています。
+= Tuyết đang rơi.
+
+Vì đây là hiện tượng tự nhiên, dùng:
+
+N が Vています
+Ví dụ trong bài:
+
+あめが ふっています。
+ゆきが ふっています。
+かぜが ふいています。
+Mẫu này nằm trong phần NがVています của bài 14. 
+
+
+Câu 46:
+Điền trợ từ đúng:
+
+ほん___よんでいます。
+
+A. が
+B. を
+C. に
+D. へ
+
+
+B
+
+Đúng rồi ✅
+
+ほんを よんでいます。
+= Đang đọc sách.
+
+Vì ほん là tân ngữ của hành động よみます, nên dùng:
+
+N を Vています
+Câu 47:
+Điền trợ từ đúng:
+
+かぜ___ふいています。
+
+A. を
+B. が
+C. に
+D. で
+
+
+B
+
+Đúng rồi ✅
+
+かぜが ふいています。
+= Gió đang thổi.
+
+Vì đây là hiện tượng tự nhiên, dùng:
+
+N が Vています
+Mini-review:
+
+Câu	Nghĩa
+あめが ふっています	Trời đang mưa
+ゆきが ふっています	Tuyết đang rơi
+かぜが ふいています	Gió đang thổi
+Câu 48:
+Điền trợ từ đúng:
+
+みず___のんでいます。
+
+A. が
+B. を
+C. に
+D. へ
+
+
+B
+
+Đúng rồi ✅
+
+みずを のんでいます。
+= Đang uống nước.
+
+Vì みず là tân ngữ của hành động のむ, nên dùng:
+
+N を Vています
+Câu 49:
+Điền trợ từ đúng:
+
+でんわ___かけています。
+
+A. が
+B. を
+C. に
+D. で
+
+
+B
+
+Đúng rồi ✅
+
+でんわを かけています。
+= Đang gọi điện thoại.
+
+Vì でんわを かけます là cụm cố định thường học ở N5:
+
+でんわを かけます
+= gọi điện thoại
+Xong phần が / を rồi.
+
+Câu 50:
+たべてください。 nghĩa là gì?
+
+A. Tôi đang ăn.
+B. Hãy ăn đi.
+C. Để tôi ăn giúp nhé?
+D. Tôi đã ăn rồi.
+
+
+B
+
+Đúng rồi ✅
+
+たべてください。
+= Hãy ăn đi.
+
+Vì:
+
+Vて + ください
+= Hãy / xin hãy làm gì
+So sánh nhanh:
+
+Câu	Nghĩa
+たべてください	Hãy ăn
+たべています	Đang ăn
+たべましょうか	Để tôi ăn giúp nhé?
+Câu 51:
+たべています。 nghĩa là gì?
+
+A. Hãy ăn đi.
+B. Đang ăn.
+C. Để tôi ăn nhé?
+D. Không ăn.
+
+
+B
+
+Thought for a couple of seconds
+Đúng rồi ✅
+
+たべています。
+= Đang ăn.
+
+Vì:
+
+Vて + います
+= đang làm gì
+Mẫu này là trọng tâm bài 14: Vています = đang làm gì. 
+
+
+Câu 52:
+たべましょうか。 nghĩa là gì?
+
+A. Hãy ăn đi.
+B. Đang ăn.
+C. Để tôi ăn giúp nhé?
+D. Đã ăn rồi.
+
+
+C
+
+Đúng rồi ✅
+
+たべましょうか。
+= Để tôi ăn giúp nhé?
+
+Vì:
+
+Vます bỏ ます + ましょうか
+= Để tôi làm giúp nhé?
+Câu 53:
+あめが ふっています。 nghĩa là gì?
+
+A. Tôi đang uống nước.
+B. Trời đang mưa.
+C. Tôi đang đọc sách.
+D. Hãy mưa đi.
+
+
+B
+
+Đúng rồi ✅
+
+あめが ふっています。
+= Trời đang mưa.
+
+Vì:
+
+あめ = mưa
+ふっています = đang rơi / đang mưa
+Câu 54:
+なにを していますか。 nghĩa là gì?
+
+A. Bạn làm gì mỗi ngày?
+B. Bạn đang làm gì?
+C. Bạn đã làm gì?
+D. Bạn sẽ làm gì?
+
+
+B
+
+Đúng rồi ✅
+
+なにを していますか。
+= Bạn đang làm gì?
+
+Vì:
+
+しています = đang làm
+Mini-review:
+
+Mẫu	Nghĩa
+Vてください	Hãy làm
+Vています	Đang làm
+Vましょうか	Để tôi làm giúp nhé?
+NがVています	Hiện tượng đang xảy ra
+Câu 55:
+Muốn nói “Xin hãy viết tên vào đây”, chọn câu nào?
+
+A. ここに なまえを かきます。
+B. ここに なまえを かいてください。
+C. ここに なまえを かいています。
+D. ここに なまえを かきましょうか。
+
+
+B
+
+Đúng rồi ✅
+
+ここに なまえを かいてください。
+= Xin hãy viết tên vào đây.
+
+Vì:
+
+かきます → かいて
+Vて + ください → hãy / xin hãy
+Câu 56:
+Muốn nói “Tôi đang viết báo cáo”, chọn câu nào?
+
+A. レポートを かきます。
+B. レポートを かいてください。
+C. レポートを かいています。
+D. レポートを かきましょうか。
+
+
+C
+
+Đúng rồi ✅
+
+レポートを かいています。
+= Tôi đang viết báo cáo.
+
+Vì:
+
+かきます → かいて
+かいて + います → かいています
+Câu 57:
+Muốn nói “Để tôi mang hành lý giúp nhé?”, chọn câu nào?
+
+A. にもつを もちます。
+B. にもつを もってください。
+C. にもつを もっています。
+D. にもつを もちましょうか。
+
+
+D
+
+Đúng rồi ✅
+
+にもつを もちましょうか。
+= Để tôi mang hành lý giúp nhé?
+
+Vì:
+
+もちます → bỏ ます → もち
+もち + ましょうか → もちましょうか
+Câu 58:
+Muốn nói “Tuyết đang rơi”, chọn câu nào?
+
+A. ゆきを ふっています。
+B. ゆきが ふっています。
+C. ゆきで ふっています。
+D. ゆきに ふっています。
+
+
+B
+
+Đúng rồi ✅
+
+ゆきが ふっています。
+= Tuyết đang rơi.
+
+Vì hiện tượng tự nhiên dùng:
+
+N が Vています
+Ví dụ:
+
+あめが ふっています。
+ゆきが ふっています。
+かぜが ふいています。
+Câu 59:
+Muốn nói “Anh Miller đang gọi điện thoại”, chọn câu nào?
+
+A. ミラーさんは でんわを かけます。
+B. ミラーさんは でんわを かけてください。
+C. ミラーさんは でんわを かけています。
+D. ミラーさんは でんわを かけましょうか。
+
+
+C
+
+Thought for a couple of seconds
+Đúng rồi ✅
+
+ミラーさんは でんわを かけています。
+= Anh Miller đang gọi điện thoại.
+
+Vì:
+
+でんわを かけます → gọi điện thoại
+かけます → かけて
+かけて + います → かけています
+🎉 Hoàn thành bài luyện Bài 14 rồi.
+
+Tổng kết cực ngắn
+Mẫu	Nghĩa	Ví dụ
+Vてください	Hãy làm	まってください
+Vています	Đang làm	たべています
+Vましょうか	Để tôi làm giúp nhé?	もちましょうか
+NがVています	Hiện tượng đang xảy ra	あめが ふっています
+Câu ôn cuối:
+Thanh thử tự nói 1 câu với mẫu Vています nhé. Ví dụ: “Tôi đang học tiếng Nhật.”
+
+
+にほんごをべんきょうしています
+
+Rất tốt ✅
+
+Câu của Thanh đúng:
+
+にほんごを べんきょうしています。
+= Tôi đang học tiếng Nhật.
+
+Chỉnh nhẹ về khoảng cách cho dễ đọc:
+
+にほんごを　べんきょうしています。
+Mini-review bài 14
+Mẫu	Nghĩa	Ví dụ
+Vてください	Hãy làm	まってください
+Vています	Đang làm	べんきょうしています
+Vましょうか	Để tôi làm giúp nhé?	もちましょうか
+NがVています	Hiện tượng đang xảy ra	あめが ふっています
+Câu tiếp theo:
+Thanh thử nói: “Tôi đang uống nước.” bằng tiếng Nhật.
+
+

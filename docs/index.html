@@ -75,6 +75,51 @@
       margin-top: 14px;
     }
 
+    .grammar-list {
+      display: grid;
+      gap: 16px;
+    }
+
+    .grammar-topic {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfdff;
+      padding: 16px;
+    }
+
+    .grammar-topic h3 {
+      margin: 0 0 10px;
+      font-size: 17px;
+      line-height: 1.3;
+    }
+
+    .grammar-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0 14px;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .grammar-table th,
+    .grammar-table td {
+      border: 1px solid var(--line);
+      padding: 8px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .grammar-table th {
+      background: #eef4fc;
+      color: var(--text);
+    }
+
+    .grammar-note {
+      margin: 6px 0 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
     .public-layout {
       display: grid;
       grid-template-columns: minmax(0, 1.55fr) minmax(280px, 1fr);
@@ -279,6 +324,12 @@
         position: static;
         height: 320px;
       }
+
+      .grammar-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
     }
   </style>
 </head>
@@ -286,6 +337,132 @@
   <main>
     <h1>Audio Looper</h1>
     <p>Chọn audio có sẵn hoặc chọn file MP3 từ máy của bạn, audio sẽ phát lặp liên tục.</p>
+
+    <section id="grammar">
+      <h2>Grammar</h2>
+      <div class="grammar-list">
+        <article class="grammar-topic">
+          <h3>Minna no Nihongo Bài 14: thể て, Vてください, Vています, Vましょうか</h3>
+          <p class="grammar-note">Trọng tâm bài 14 là cách chia thể て và dùng thể này để yêu cầu, diễn tả hành động đang diễn ra, đề nghị giúp đỡ, hoặc mô tả hiện tượng tự nhiên.</p>
+          <table class="grammar-table">
+            <thead>
+              <tr>
+                <th>Nội dung</th>
+                <th>Ý nghĩa ngắn gọn</th>
+                <th>Ví dụ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Thể て</td>
+                <td>Dạng chia quan trọng của động từ</td>
+                <td>たべます → たべて</td>
+              </tr>
+              <tr>
+                <td>Vてください</td>
+                <td>Hãy / xin hãy làm gì</td>
+                <td>まってください</td>
+              </tr>
+              <tr>
+                <td>Vています</td>
+                <td>Đang làm gì</td>
+                <td>たべています</td>
+              </tr>
+              <tr>
+                <td>Vましょうか</td>
+                <td>Để tôi làm giúp nhé?</td>
+                <td>もちましょうか</td>
+              </tr>
+              <tr>
+                <td>NがVています</td>
+                <td>Mô tả hiện tượng tự nhiên / sự việc khách quan</td>
+                <td>あめが ふっています</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="grammar-topic">
+          <h3>Cách chia thể て</h3>
+          <table class="grammar-table">
+            <thead>
+              <tr>
+                <th>Nhóm</th>
+                <th>Quy tắc</th>
+                <th>Ví dụ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Nhóm 1</td>
+                <td>い・ち・り → って</td>
+                <td>かいます → かって</td>
+              </tr>
+              <tr>
+                <td>Nhóm 1</td>
+                <td>み・び・に → んで</td>
+                <td>のみます → のんで</td>
+              </tr>
+              <tr>
+                <td>Nhóm 1</td>
+                <td>き → いて / ぎ → いで / し → して</td>
+                <td>かきます → かいて、いそぎます → いそいで、はなします → はなして</td>
+              </tr>
+              <tr>
+                <td>Đặc biệt</td>
+                <td>いきます → いって</td>
+                <td>えきへ いってください。</td>
+              </tr>
+              <tr>
+                <td>Nhóm 2</td>
+                <td>Bỏ ます + て</td>
+                <td>たべます → たべて、みます → みて、おきます → おきて</td>
+              </tr>
+              <tr>
+                <td>Nhóm 3</td>
+                <td>します → して、きます → きて</td>
+                <td>べんきょうします → べんきょうして</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="grammar-topic">
+          <h3>Mẫu câu chính</h3>
+          <table class="grammar-table">
+            <thead>
+              <tr>
+                <th>Mẫu</th>
+                <th>Nghĩa</th>
+                <th>Ví dụ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Vて + ください</td>
+                <td>Hãy / xin hãy làm gì</td>
+                <td>なまえを かいてください。 = Hãy viết tên.</td>
+              </tr>
+              <tr>
+                <td>Vて + います</td>
+                <td>Đang làm gì</td>
+                <td>にほんごを べんきょうしています。 = Đang học tiếng Nhật.</td>
+              </tr>
+              <tr>
+                <td>Vます bỏ ます + ましょうか</td>
+                <td>Để tôi làm giúp nhé?</td>
+                <td>にもつを もちましょうか。 = Để tôi mang hành lý giúp nhé?</td>
+              </tr>
+              <tr>
+                <td>N が Vています</td>
+                <td>Mô tả hiện tượng tự nhiên / sự việc khách quan</td>
+                <td>あめが ふっています。 = Trời đang mưa.</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </div>
+    </section>
 
     <section>
       <h2>Audio public</h2>
