@@ -1,0 +1,1375 @@
+Nội dung dựa trên file bạn gửi về Ngữ pháp Minna 1 - Bài 1, trọng tâm gồm: câu danh từ khẳng định, phủ định, nghi vấn, cách xưng hô, trợ từ も, trợ từ の.
+
+Minna no Nihongo Bài 1 — Tổng hợp + Bài tập trắc nghiệm
+1. Trọng tâm bài 1
+Nội dung	Mẫu câu	Nghĩa
+Câu khẳng định	N1 は N2 です	N1 là N2
+Câu phủ định	N1 は N2 じゃありません	N1 không phải là N2
+Câu nghi vấn	N1 は N2 ですか	N1 là N2 phải không?
+Hỏi “ai”	だれ / どなた	ai / vị nào
+Hỏi tuổi	なんさい / おいくつ	bao nhiêu tuổi
+Trợ từ も	N1 も N2 です	N1 cũng là N2
+Trợ từ の	N1 の N2	N2 của N1
+2. Cách xưng hô cơ bản
+Tiếng Nhật	Nghĩa	Ghi chú
+わたし	tôi / em / mình / tớ	Dùng để nói về bản thân
+あなた	bạn / anh / chị / cô / chú	Ít dùng nếu đã biết tên người kia
+～さん	anh/chị/cô/chú…	Gắn sau tên người khác
+～ちゃん	bé / bạn thân	Thân mật, thường dùng với trẻ em/nữ
+～くん	bạn nam / em nam	Thân mật, thường dùng với nam nhỏ tuổi
+
+Ví dụ:
+
+Tiếng Việt	Tiếng Nhật
+Anh Tanaka	たなかさん
+Chị Sato	さとうさん
+Ông Yamada	やまださん
+Tôi	わたし
+
+Lưu ý:
+
+わたしさん ❌
+たなかさん ✅
+
+Không thêm さん sau tên của mình.
+
+3. Câu khẳng định: N1 は N2 です
+Công thức
+N1 は N2 です
+Nghĩa
+
+N1 là N2
+
+Trong câu, は đọc là wa, không đọc là ha.
+
+Ví dụ
+Câu	Nghĩa
+わたしは ナムです。	Tôi là Nam.
+わたしは がくせいです。	Tôi là học sinh.
+わたしは ベトナムじんです。	Tôi là người Việt Nam.
+たなかさんは いしゃです。	Anh Tanaka là bác sĩ.
+やまださんは かいしゃいんです。	Anh Yamada là nhân viên công ty.
+4. Câu phủ định: N1 は N2 じゃありません
+Công thức
+N1 は N2 じゃありません
+Nghĩa
+
+N1 không phải là N2
+
+Có 2 cách nói:
+
+Cách nói	Mức độ
+じゃありません	thông dụng, văn nói
+ではありません	lịch sự/trang trọng hơn
+Ví dụ
+Câu	Nghĩa
+わたしは がくせいじゃありません。	Tôi không phải là học sinh.
+わたしは いしゃじゃありません。	Tôi không phải là bác sĩ.
+あのひとは ナムさんじゃありません。	Người kia không phải là anh Nam.
+キムさんは せんせいじゃありません。	Anh Kim không phải là giáo viên.
+5. Câu nghi vấn: N1 は N2 ですか
+Công thức
+N1 は N2 ですか
+Nghĩa
+
+N1 là N2 phải không? / N1 là N2 à?
+
+Ví dụ
+Câu	Nghĩa
+あなたは がくせいですか。	Bạn là học sinh phải không?
+たなかさんは いしゃですか。	Anh Tanaka là bác sĩ phải không?
+ベトナムじんですか。	Bạn là người Việt Nam à?
+せんせいですか。	Bạn là giáo viên à?
+
+Khi đang nói trực tiếp với người đối diện, có thể bỏ あなたは.
+
+あなたは がくせいですか。✅
+がくせいですか。✅ tự nhiên hơn
+6. Cách trả lời câu hỏi đúng/sai
+Khi đúng
+はい、Nです。
+
+Ví dụ:
+
+がくせいですか。
+はい、がくせいです。
+
+= Bạn là học sinh à?
+= Vâng, tôi là học sinh.
+
+Khi sai
+いいえ、Nじゃありません。Nです。
+
+Ví dụ:
+
+せんせいですか。
+いいえ、せんせいじゃありません。がくせいです。
+
+= Bạn là giáo viên à?
+= Không, tôi không phải giáo viên. Tôi là học sinh.
+
+Có thể nói ngắn gọn:
+
+いいえ、がくせいです。
+
+= Không, tôi là học sinh.
+
+7. Từ để hỏi: だれ / どなた
+Từ	Nghĩa	Mức độ
+だれ	ai	thông thường
+どなた	vị nào / ai	lịch sự hơn
+Ví dụ
+Câu	Nghĩa
+あのひとは だれですか。	Người kia là ai?
+あのかたは どなたですか。	Vị kia là ai ạ?
+たなかさんです。	Là anh Tanaka.
+8. Hỏi tuổi: なんさい / おいくつ
+Từ	Nghĩa	Mức độ
+なんさい	bao nhiêu tuổi	thông thường
+おいくつ	bao nhiêu tuổi	lịch sự hơn
+Ví dụ
+Câu	Nghĩa
+なんさいですか。	Bạn bao nhiêu tuổi?
+おいくつですか。	Bạn bao nhiêu tuổi ạ?
+23さいです。	Tôi 23 tuổi.
+9. Trợ từ も: cũng
+Công thức
+N1 も N2 です
+Nghĩa
+
+N1 cũng là N2
+
+も thay cho は khi muốn nói “cũng”.
+
+Ví dụ
+Câu	Nghĩa
+わたしは がくせいです。	Tôi là học sinh.
+わたしも がくせいです。	Tôi cũng là học sinh.
+ミラーさんは かいしゃいんです。	Anh Miller là nhân viên công ty.
+やまださんも かいしゃいんです。	Anh Yamada cũng là nhân viên công ty.
+10. Trợ từ の: của / thuộc về
+Công thức
+N1 の N2
+Nghĩa
+
+N2 của N1
+
+Dịch từ sau ra trước.
+
+Ví dụ
+Câu	Nghĩa
+ミナトの がくせい	học sinh của Minato
+ABCの しゃいん	nhân viên của công ty ABC
+さくらびょういんの いしゃ	bác sĩ của bệnh viện Sakura
+IMCの かいしゃいん	nhân viên công ty IMC
+
+Ví dụ câu đầy đủ:
+
+わたしは ミナトの がくせいです。
+
+= Tôi là học sinh của Minato.
+
+1. Công thức chính
+Mẫu	Nghĩa	Ví dụ
+N1 は N2 です	N1 là N2	わたしは ナムです。= Tôi là Nam.
+N1 は N2 じゃありません	N1 không phải N2	わたしは がくせいじゃありません。
+N1 は N2 ですか	N1 là N2 phải không?	がくせいですか。= Bạn là học sinh à?
+N1 も N2 です	N1 cũng là N2	わたしも がくせいです。
+N1 の N2	N2 của N1	ミナトの がくせい = học sinh của Minato
+Lưu ý: は trong câu đọc là wa, không đọc là ha.
+
+2. Ví dụ cực dễ nhớ
+Khẳng định
+わたしは がくせいです。
+Tôi là học sinh.
+Phủ định
+わたしは せんせいじゃありません。
+Tôi không phải là giáo viên.
+Nghi vấn
+がくせいですか。
+Bạn là học sinh à?
+Trả lời
+はい、がくせいです。
+Vâng, tôi là học sinh.
+いいえ、がくせいじゃありません。
+Không, tôi không phải là học sinh.
+3. Từ quan trọng
+Từ	Nghĩa
+わたし	tôi
+あなた	bạn
+～さん	anh/chị/cô/chú…
+だれ	ai
+どなた	vị nào / ai, lịch sự hơn
+なんさい	bao nhiêu tuổi
+おいくつ	bao nhiêu tuổi, lịch sự hơn
+がくせい	học sinh/sinh viên
+せんせい	giáo viên
+いしゃ	bác sĩ
+かいしゃいん	nhân viên công ty
+ベトナムじん	người Việt Nam
+にほんじん	người Nhật
+4. Học nhanh trong 10 phút
+Bước 1: Nhớ 3 câu lõi
+わたしは ナムです。
+Tôi là Nam.
+わたしは ナムじゃありません。
+Tôi không phải Nam.
+ナムさんですか。
+Bạn là anh Nam phải không?
+Bước 2: Thay từ
+わたしは がくせいです。
+わたしは せんせいです。
+わたしは ベトナムじんです。
+Bước 3: Thêm も và の
+わたしも がくせいです。
+Tôi cũng là học sinh.
+ミナトの がくせいです。
+Tôi là học sinh của Minato.
+5. Mini test trắc nghiệm
+1. わたし nghĩa là gì?
+A. Bạn
+B. Tôi
+C. Giáo viên
+D. Người kia
+
+2. わたしは ナムです。 nghĩa là gì?
+A. Tôi là Nam
+B. Tôi không phải Nam
+C. Bạn là Nam à?
+D. Tôi cũng là Nam
+
+3. がくせいですか。 nghĩa là gì?
+A. Tôi là học sinh
+B. Bạn là học sinh à?
+C. Tôi không phải học sinh
+D. Học sinh của tôi
+
+4. じゃありません nghĩa là gì?
+A. Là
+B. Cũng là
+C. Không phải là
+D. Của
+
+5. わたしも がくせいです。 nghĩa là gì?
+A. Tôi là học sinh
+B. Tôi cũng là học sinh
+C. Tôi không phải học sinh
+D. Bạn là học sinh à?
+
+Trả lời 5 câu bằng dạng: 1B 2A 3B..., mình sẽ chấm và giải thích cực ngắn.
+
+
+
+Pasted markdown(9).md
+File
+Tôi muốn học nội dung phần này
+
+Thought for a few seconds
+Được Thanh. Mình sẽ học theo kiểu từng bước + làm trắc nghiệm ngay, không học lan man.
+
+Nội dung phần này là Minna no Nihongo Bài 1:
+N1 は N2 です / じゃありません / ですか, cách xưng hô, も, の, hỏi だれ / どなた, hỏi tuổi なんさい / おいくつ. 
+
+
+Bước 1: Nhớ 3 mẫu chính
+Mẫu	Nghĩa	Ví dụ
+N1 は N2 です	N1 là N2	わたしは がくせいです。
+N1 は N2 じゃありません	N1 không phải N2	わたしは せんせいじゃありません。
+N1 は N2 ですか	N1 là N2 phải không?	がくせいですか。
+Ghi nhớ nhanh:
+
+です = là
+じゃありません = không phải là
+ですか = là ... phải không?
+Câu hỏi 1
+わたしは がくせいです。 nghĩa là gì?
+
+A. Tôi là học sinh
+B. Tôi không phải học sinh
+C. Bạn là học sinh à?
+D. Tôi cũng là học sinh
+
+Trả lời A/B/C/D thôi nhé.
+
+
+A
+
+Thought for 5s
+Đúng rồi ✅
+
+わたしは がくせいです。
+= Tôi là học sinh/sinh viên.
+
+Nhớ cấu trúc:
+
+わたし = tôi
+は = thì/là, đọc là "wa"
+がくせい = học sinh/sinh viên
+です = là
+Câu hỏi 2
+わたしは せんせいじゃありません。 nghĩa là gì?
+
+A. Tôi là giáo viên
+B. Tôi không phải là giáo viên
+C. Bạn là giáo viên à?
+D. Tôi cũng là giáo viên
+
+
+B
+
+Thought for 10s
+Đúng rồi ✅
+
+わたしは せんせいじゃありません。
+= Tôi không phải là giáo viên.
+
+Ghi nhớ:
+
+じゃありません = không phải là
+Trong bài này, đây là mẫu câu phủ định danh từ. 
+
+
+Câu hỏi 3
+がくせいですか。 nghĩa là gì?
+
+A. Tôi là học sinh
+B. Tôi không phải học sinh
+C. Bạn là học sinh à?
+D. Tôi cũng là học sinh
+
+
+C
+
+Đúng rồi ✅
+
+がくせいですか。
+= Bạn là học sinh à?
+
+Mẹo nhớ:
+
+です = là
+ですか = là ... phải không?
+か = dấu hỏi
+Câu hỏi 4
+わたしも がくせいです。 nghĩa là gì?
+
+A. Tôi là học sinh
+B. Tôi cũng là học sinh
+C. Tôi không phải học sinh
+D. Bạn là học sinh à?
+
+
+B
+
+Thought for 5s
+Đúng rồi ✅
+
+わたしも がくせいです。
+= Tôi cũng là học sinh.
+
+Nhớ nhanh:
+
+も = cũng
+わたしも = tôi cũng
+Câu hỏi 5
+ミナトの がくせいです。 nghĩa là gì?
+
+A. Tôi là Minato
+B. Học sinh của Minato
+C. Minato là học sinh
+D. Minato cũng là học sinh
+
+
+B
+
+Thought for 9s
+Đúng rồi ✅
+
+ミナトの がくせいです。
+= Học sinh của Minato.
+
+Mẹo nhớ:
+
+N1 の N2 = N2 của N1
+ミナトの がくせい = học sinh của Minato
+Câu hỏi 6
+あのひとは だれですか。 nghĩa là gì?
+
+A. Người kia là ai?
+B. Người kia bao nhiêu tuổi?
+C. Người kia là học sinh à?
+D. Người kia không phải giáo viên.
+
+
+A
+
+Thought for 11s
+Đúng rồi ✅
+
+あのひとは だれですか。
+= Người kia là ai?
+
+Nhớ nhanh:
+
+あのひと = người kia
+だれ = ai
+ですか = là ... phải không?
+Câu hỏi 7
+なんさいですか。 nghĩa là gì?
+
+A. Bạn là ai?
+B. Bạn bao nhiêu tuổi?
+C. Bạn là học sinh à?
+D. Bạn là người Việt Nam à?
+
+
+B
+
+Thought for 10s
+Đúng rồi ✅
+
+なんさいですか。
+= Bạn bao nhiêu tuổi?
+
+Nhớ nhanh:
+
+なんさい = bao nhiêu tuổi
+おいくつ = bao nhiêu tuổi ạ / lịch sự hơn
+Phần này nằm trong nhóm hỏi tuổi của Bài 1. 
+
+
+Câu hỏi 8
+あなたは ベトナムじんですか。 nghĩa là gì?
+
+A. Bạn là người Việt Nam à?
+B. Bạn là người Nhật à?
+C. Tôi là người Việt Nam
+D. Tôi không phải người Việt Nam
+
+
+A
+
+Thought for 11s
+Đúng rồi ✅
+
+あなたは ベトナムじんですか。
+= Bạn là người Việt Nam à?
+
+Nhớ nhanh:
+
+あなた = bạn
+ベトナムじん = người Việt Nam
+ですか = là ... à?
+Câu hỏi 9
+いいえ、せんせいじゃありません。がくせいです。 nghĩa là gì?
+
+A. Vâng, tôi là giáo viên
+B. Không, tôi không phải giáo viên. Tôi là học sinh
+C. Vâng, tôi là học sinh
+D. Không, tôi không phải học sinh
+
+
+B
+
+Thought for 5s
+Đúng rồi ✅
+
+いいえ、せんせいじゃありません。がくせいです。
+= Không, tôi không phải giáo viên. Tôi là học sinh.
+
+Mẫu trả lời phủ định:
+
+いいえ、Nじゃありません。Nです。
+Không, không phải N. Là N.
+Câu hỏi 10
+たなかさんは いしゃですか。 nghĩa là gì?
+
+A. Anh Tanaka là bác sĩ phải không?
+B. Anh Tanaka không phải bác sĩ
+C. Anh Tanaka cũng là bác sĩ
+D. Anh Tanaka là giáo viên
+
+
+A
+
+Thought for 4s
+Đúng rồi ✅
+
+たなかさんは いしゃですか。
+= Anh Tanaka là bác sĩ phải không?
+
+Bạn đã đúng 10/10 câu 🎉
+Nắm được lõi Bài 1 rồi: です / じゃありません / ですか / も / の / だれ / なんさい. 
+
+
+Câu hỏi 11
+わたしは にほんじんじゃありません。ベトナムじんです。 nghĩa là gì?
+
+A. Tôi là người Nhật. Tôi là người Việt Nam
+B. Tôi không phải người Nhật. Tôi là người Việt Nam
+C. Tôi cũng là người Nhật
+D. Bạn là người Việt Nam à?
+
+
+B
+
+Thought for 12s
+Đúng rồi ✅
+
+わたしは にほんじんじゃありません。ベトナムじんです。
+= Tôi không phải người Nhật. Tôi là người Việt Nam.
+
+Mẫu nhớ:
+
+Nじゃありません = không phải N
+Nです = là N
+Câu hỏi 12
+たなかさんも いしゃです。 nghĩa là gì?
+
+A. Anh Tanaka là bác sĩ
+B. Anh Tanaka cũng là bác sĩ
+C. Anh Tanaka không phải bác sĩ
+D. Anh Tanaka là bác sĩ phải không?
+
+
+B
+
+Thought for 9s
+Đúng rồi ✅
+
+たなかさんも いしゃです。
+= Anh Tanaka cũng là bác sĩ.
+
+Nhớ nhanh:
+
+も = cũng
+たなかさんも = anh Tanaka cũng
+Câu hỏi 13
+わたしは ミナトの がくせいです。 nghĩa là gì?
+
+A. Tôi là Minato
+B. Tôi là học sinh của Minato
+C. Minato là học sinh của tôi
+D. Tôi cũng là học sinh của Minato
+
+
+B
+
+Thought for 8s
+Đúng rồi ✅
+
+わたしは ミナトの がくせいです。
+= Tôi là học sinh của Minato.
+
+Nhớ nhanh:
+
+N1 の N2 = N2 của N1
+ミナトの がくせい = học sinh của Minato
+Câu hỏi 14
+あのかたは どなたですか。 nghĩa là gì?
+
+A. Người kia bao nhiêu tuổi?
+B. Vị kia là ai ạ?
+C. Người kia là học sinh à?
+D. Người kia cũng là bác sĩ?
+
+
+B
+
+Thought for 9s
+Đúng rồi ✅
+
+あのかたは どなたですか。
+= Vị kia là ai ạ?
+
+Nhớ nhanh:
+
+だれ = ai
+どなた = vị nào / ai ạ, lịch sự hơn
+Phần này thuộc mẫu hỏi だれ / どなた trong Bài 1. 
+
+
+Câu hỏi 15
+おいくつですか。 nghĩa là gì?
+
+A. Bạn là ai?
+B. Bạn bao nhiêu tuổi ạ?
+C. Bạn là học sinh à?
+D. Bạn là người Nhật à?
+
+
+B
+
+Thought for 33s
+Đúng rồi ✅
+
+おいくつですか。
+= Bạn bao nhiêu tuổi ạ?
+
+Nhớ nhanh:
+
+なんさいですか = bao nhiêu tuổi?
+おいくつですか = bao nhiêu tuổi ạ? lịch sự hơn
+Câu hỏi 16
+わたしは ベトナムじんです。 nghĩa là gì?
+
+A. Tôi là người Nhật
+B. Tôi là người Việt Nam
+C. Tôi không phải người Việt Nam
+D. Bạn là người Việt Nam à?
+
+
+B
+
+Thought for 9s
+Đúng rồi ✅
+
+わたしは ベトナムじんです。
+= Tôi là người Việt Nam.
+
+Nhớ nhanh:
+
+ベトナム = Việt Nam
+ベトナムじん = người Việt Nam
+Bạn đang đúng 16/16 câu 🎉
+
+Câu hỏi 17
+わたしは ベトナムじんじゃありません。 nghĩa là gì?
+
+A. Tôi là người Việt Nam
+B. Tôi không phải người Việt Nam
+C. Tôi cũng là người Việt Nam
+D. Bạn là người Việt Nam à?
+
+
+B
+
+Đúng rồi ✅
+
+わたしは ベトナムじんじゃありません。
+= Tôi không phải người Việt Nam.
+
+Mẫu nhớ:
+
+Nです = là N
+Nじゃありません = không phải N
+Câu hỏi 18
+あなたは にほんじんですか。 nghĩa là gì?
+
+A. Tôi là người Nhật
+B. Bạn là người Nhật à?
+C. Bạn không phải người Nhật
+D. Tôi cũng là người Nhật
+
+
+B
+
+Đúng rồi ✅
+
+あなたは にほんじんですか。
+= Bạn là người Nhật à?
+
+Nhớ nhanh:
+
+あなた = bạn
+にほんじん = người Nhật
+ですか = là ... à?
+Câu hỏi 19
+はい、ベトナムじんです。 nghĩa là gì?
+
+A. Vâng, tôi là người Việt Nam
+B. Không, tôi không phải người Việt Nam
+C. Vâng, tôi là người Nhật
+D. Bạn là người Việt Nam à?
+
+
+A
+
+Thought for 10s
+Đúng rồi ✅
+
+はい、ベトナムじんです。
+= Vâng, tôi là người Việt Nam.
+
+Nhớ nhanh:
+
+はい = vâng / đúng
+いいえ = không
+Câu hỏi 20
+いいえ、にほんじんじゃありません。 nghĩa là gì?
+
+A. Vâng, tôi là người Nhật
+B. Không, tôi không phải người Nhật
+C. Tôi cũng là người Nhật
+D. Bạn là người Nhật à?
+
+
+B
+
+Thought for 6s
+Đúng rồi ✅
+
+いいえ、にほんじんじゃありません。
+= Không, tôi không phải người Nhật.
+
+Bạn đã đúng 20/20 câu 🎉
+Phần Bài 1 này bạn đã nắm rất chắc: です / じゃありません / ですか / も / の / だれ / どなた / なんさい / おいくつ. 
+
+
+Câu hỏi 21
+わたしも ベトナムじんです。 nghĩa là gì?
+
+A. Tôi là người Việt Nam
+B. Tôi cũng là người Việt Nam
+C. Tôi không phải người Việt Nam
+D. Bạn là người Việt Nam à?
+
+
+B
+
+Đúng rồi ✅
+
+わたしも ベトナムじんです。
+= Tôi cũng là người Việt Nam.
+
+Nhớ nhanh:
+
+も = cũng
+わたしも = tôi cũng
+Câu hỏi 22
+ABCの しゃいんです。 nghĩa là gì?
+
+A. Tôi là công ty ABC
+B. Nhân viên của công ty ABC
+C. Công ty ABC là nhân viên
+D. Nhân viên cũng là ABC
+
+
+B
+
+Thought for 40s
+Đúng rồi ✅
+
+ABCの しゃいんです。
+= Nhân viên của công ty ABC.
+
+Nhớ nhanh:
+
+N1 の N2 = N2 của N1
+ABCの しゃいん = nhân viên của ABC
+Câu hỏi 23
+さくらびょういんの いしゃです。 nghĩa là gì?
+
+A. Bác sĩ của bệnh viện Sakura
+B. Bệnh viện Sakura là bác sĩ
+C. Tôi là bệnh viện Sakura
+D. Bác sĩ cũng là Sakura
+
+
+A
+
+Đúng rồi ✅
+
+さくらびょういんの いしゃです。
+= Bác sĩ của bệnh viện Sakura.
+
+Nhớ nhanh:
+
+N1 の N2 = N2 của N1
+さくらびょういんの いしゃ = bác sĩ của bệnh viện Sakura
+Bạn đang đúng 23/23 câu 🎉
+
+Câu hỏi 24
+IMCの かいしゃいんです。 nghĩa là gì?
+
+A. Nhân viên công ty IMC
+B. IMC là nhân viên công ty
+C. Tôi không phải IMC
+D. IMC cũng là học sinh
+
+
+A
+
+Thought for 4s
+Đúng rồi ✅
+
+IMCの かいしゃいんです。
+= Nhân viên công ty IMC.
+
+Nhớ nhanh:
+
+N1 の N2 = N2 của N1
+IMCの かいしゃいん = nhân viên của IMC
+Câu hỏi 25
+わたしは がくせいですか。 nghĩa là gì?
+
+A. Tôi là học sinh
+B. Tôi không phải học sinh
+C. Tôi là học sinh phải không?
+D. Tôi cũng là học sinh
+
+
+C
+
+Thought for a few seconds
+Đúng rồi ✅
+
+わたしは がくせいですか。
+= Tôi là học sinh phải không?
+
+Lưu ý nhỏ: câu này hỏi về “tôi”, nên dịch là “Tôi là học sinh phải không?”.
+Nếu muốn hỏi “Bạn là học sinh à?” thì thường nói:
+
+あなたは がくせいですか。
+hoặc tự nhiên hơn:
+
+がくせいですか。
+Câu hỏi 26
+あなたは せんせいですか。 nghĩa là gì?
+
+A. Tôi là giáo viên
+B. Bạn là giáo viên à?
+C. Bạn không phải giáo viên
+D. Tôi cũng là giáo viên
+
+
+b
+
+Thought for 8s
+Đúng rồi ✅
+
+あなたは せんせいですか。
+= Bạn là giáo viên à?
+
+Nhớ nhanh:
+
+あなた = bạn
+せんせい = giáo viên
+ですか = là ... à?
+Câu hỏi 27
+キムさんは せんせいじゃありません。 nghĩa là gì?
+
+A. Anh Kim là giáo viên
+B. Anh Kim là học sinh
+C. Anh Kim không phải là giáo viên
+D. Anh Kim cũng là giáo viên
+
+
+c
+
+Thought for 4s
+Đúng rồi ✅
+
+キムさんは せんせいじゃありません。
+= Anh Kim không phải là giáo viên.
+
+Nhớ nhanh:
+
+Nじゃありません = không phải N
+Câu hỏi 28
+あのひとは ナムさんじゃありません。 nghĩa là gì?
+
+A. Người kia là anh Nam
+B. Người kia là ai?
+C. Người kia không phải là anh Nam
+D. Người kia cũng là anh Nam
+
+
+c
+
+Thought for 38s
+Đúng rồi ✅
+
+あのひとは ナムさんじゃありません。
+= Người kia không phải là anh Nam.
+
+Nhớ nhanh:
+
+あのひと = người kia
+Nじゃありません = không phải N
+Bạn đang đúng 28/28 câu 🎉
+
+Câu hỏi 29
+やまださんは かいしゃいんです。 nghĩa là gì?
+
+A. Anh Yamada là nhân viên công ty
+B. Anh Yamada không phải nhân viên công ty
+C. Anh Yamada là bác sĩ
+D. Anh Yamada cũng là học sinh
+
+
+A
+
+Thought for a couple of seconds
+Đúng rồi ✅
+
+やまださんは かいしゃいんです。
+= Anh Yamada là nhân viên công ty.
+
+Nhớ nhanh:
+
+かいしゃ = công ty
+かいしゃいん = nhân viên công ty
+Câu hỏi 30
+たなかさんは いしゃじゃありません。 nghĩa là gì?
+
+A. Anh Tanaka là bác sĩ
+B. Anh Tanaka là giáo viên
+C. Anh Tanaka không phải là bác sĩ
+D. Anh Tanaka cũng là bác sĩ
+
+
+c
+
+Thought for 6s
+Đúng rồi ✅
+
+たなかさんは いしゃじゃありません。
+= Anh Tanaka không phải là bác sĩ.
+
+Bạn đã đúng 30/30 câu 🎉
+Giờ chuyển sang câu tổng hợp khó hơn một chút.
+
+Câu hỏi 31
+ミラーさんは かいしゃいんです。やまださんも かいしゃいんです。
+
+Nghĩa là gì?
+
+A. Miller là nhân viên công ty. Yamada cũng là nhân viên công ty
+B. Miller không phải nhân viên công ty. Yamada là bác sĩ
+C. Miller là học sinh. Yamada cũng là học sinh
+D. Miller là bác sĩ. Yamada không phải bác sĩ
+
+
+a
+
+Thought for 9s
+Đúng rồi ✅
+
+Câu tổng hợp:
+
+ミラーさんは かいしゃいんです。やまださんも かいしゃいんです。
+= Miller là nhân viên công ty. Yamada cũng là nhân viên công ty.
+
+Nhớ nhanh:
+
+も = cũng
+やまださんも = anh Yamada cũng
+Mẫu も = cũng là trọng tâm trong Bài 1. 
+
+
+Câu hỏi 32
+わたしは ABCの しゃいんです。
+
+A. Tôi là nhân viên của công ty ABC
+B. Tôi không phải nhân viên ABC
+C. ABC là công ty của tôi
+D. Tôi cũng là nhân viên ABC
+
+
+a
+
+Thought for a few seconds
+Đúng rồi ✅
+
+わたしは ABCの しゃいんです。
+= Tôi là nhân viên của công ty ABC.
+
+Nhớ nhanh:
+
+ABCの しゃいん = nhân viên của ABC
+わたしは〜です = Tôi là〜
+Câu hỏi 33
+わたしは ABCの しゃいんじゃありません。
+
+A. Tôi là nhân viên ABC
+B. Tôi không phải nhân viên ABC
+C. Tôi cũng là nhân viên ABC
+D. ABC là công ty của tôi
+
+
+b
+
+Thought for 4s
+Đúng rồi ✅
+
+わたしは ABCの しゃいんじゃありません。
+= Tôi không phải nhân viên ABC.
+
+Nhớ nhanh:
+
+ABCの しゃいん = nhân viên ABC
+じゃありません = không phải
+Câu hỏi 34
+やまださんは がくせいですか。
+
+A. Anh Yamada là học sinh
+B. Anh Yamada không phải học sinh
+C. Anh Yamada là học sinh phải không?
+D. Anh Yamada cũng là học sinh
+
+
+c
+
+Thought for 5s
+Đúng rồi ✅
+
+やまださんは がくせいですか。
+= Anh Yamada là học sinh phải không?
+
+Nhớ nhanh:
+
+ですか = là ... phải không?
+Câu hỏi 35
+いいえ、がくせいじゃありません。かいしゃいんです。
+
+A. Vâng, tôi là học sinh
+B. Không, tôi không phải học sinh. Tôi là nhân viên công ty
+C. Không, tôi không phải nhân viên công ty
+D. Tôi cũng là học sinh
+
+
+b
+
+Thought for 33s
+Đúng rồi ✅
+
+いいえ、がくせいじゃありません。かいしゃいんです。
+= Không, tôi không phải học sinh. Tôi là nhân viên công ty.
+
+Bạn đang đúng 35/35 câu 🎉
+
+Câu hỏi 36
+あのひとは だれですか。たなかさんです。
+
+A. Người kia bao nhiêu tuổi? 23 tuổi
+B. Người kia là ai? Là anh Tanaka
+C. Người kia là học sinh à? Không phải
+D. Người kia cũng là Tanaka
+
+
+b
+
+Thought for 5s
+Đúng rồi ✅
+
+あのひとは だれですか。たなかさんです。
+= Người kia là ai? Là anh Tanaka.
+
+Nhớ nhanh:
+
+だれですか = là ai?
+〜さんです = là anh/chị/cô... ~
+Câu hỏi 37
+なんさいですか。23さいです。
+
+A. Bạn là ai? Tôi là Tanaka
+B. Bạn bao nhiêu tuổi? Tôi 23 tuổi
+C. Bạn là học sinh à? Vâng
+D. Bạn là người Nhật à? Không phải
+
+
+b
+
+Thought for a couple of seconds
+Đúng rồi ✅
+
+なんさいですか。23さいです。
+= Bạn bao nhiêu tuổi? Tôi 23 tuổi.
+
+Nhớ nhanh:
+
+なんさい = bao nhiêu tuổi
+23さい = 23 tuổi
+Câu hỏi 38
+おいくつですか。
+
+A. Bạn là ai?
+B. Bạn bao nhiêu tuổi ạ?
+C. Bạn là học sinh à?
+D. Bạn là người Nhật à?
+
+
+b
+
+Thought for 4s
+Đúng rồi ✅
+
+おいくつですか。
+= Bạn bao nhiêu tuổi ạ?
+
+Nhớ nhanh:
+
+なんさいですか = bao nhiêu tuổi?
+おいくつですか = bao nhiêu tuổi ạ? lịch sự hơn
+Câu hỏi 39
+あのかたは どなたですか。
+
+A. Vị kia là ai ạ?
+B. Người kia bao nhiêu tuổi?
+C. Người kia là học sinh à?
+D. Người kia không phải bác sĩ.
+
+
+a
+
+Thought for a couple of seconds
+Đúng rồi ✅
+
+あのかたは どなたですか。
+= Vị kia là ai ạ?
+
+Nhớ nhanh:
+
+あのひと = người kia
+あのかた = vị kia, lịch sự hơn
+だれ = ai
+どなた = ai ạ / vị nào
+Câu hỏi 40
+わたしも ミナトの がくせいです。
+
+A. Tôi là học sinh của Minato
+B. Tôi cũng là học sinh của Minato
+C. Minato cũng là học sinh
+D. Tôi không phải học sinh của Minato
+
+
+b
+
+Thought for 12s
+Đúng rồi ✅
+
+わたしも ミナトの がくせいです。
+= Tôi cũng là học sinh của Minato.
+
+Bạn đã đúng 40/40 câu 🎉
+Bài 1 rất ổn rồi.
+
+Câu hỏi 41
+はじめまして。わたしは ナムです。
+
+A. Xin chào lần đầu gặp. Tôi là Nam
+B. Tạm biệt. Tôi là Nam
+C. Cảm ơn. Tôi là Nam
+D. Xin lỗi. Tôi là Nam
+
+
+a
+
+Thought for 6s
+Đúng rồi ✅
+
+はじめまして。わたしは ナムです。
+= Xin chào lần đầu gặp. Tôi là Nam.
+
+Nhớ nhanh:
+
+はじめまして = rất vui được gặp bạn / lần đầu gặp
+わたしは ナムです = tôi là Nam
+Câu hỏi 42
+わたしは にほんじんじゃありません。ベトナムじんです。
+
+A. Tôi là người Nhật. Tôi là người Việt Nam
+B. Tôi không phải người Nhật. Tôi là người Việt Nam
+C. Tôi cũng là người Nhật
+D. Bạn là người Việt Nam à?
+
+
+b
+
+Thought for 8s
+Đúng rồi ✅
+
+わたしは にほんじんじゃありません。ベトナムじんです。
+= Tôi không phải người Nhật. Tôi là người Việt Nam.
+
+Bạn đang đúng 42/42 câu 🎉
+
+Câu hỏi 43
+たなかさんですか。
+
+A. Là anh Tanaka phải không?
+B. Không phải anh Tanaka
+C. Anh Tanaka cũng vậy
+D. Anh Tanaka là học sinh
+
+
+a
+
+Thought for 4s
+Đúng rồi ✅
+
+たなかさんですか。
+= Là anh Tanaka phải không?
+
+Câu này đã lược bỏ chủ ngữ, rất tự nhiên trong hội thoại.
+
+たなかさんですか。
+= Anh/chị là Tanaka phải không?
+Câu hỏi 44
+あのひとは なんさいですか。
+
+A. Người kia là ai?
+B. Người kia bao nhiêu tuổi?
+C. Người kia là học sinh à?
+D. Người kia không phải bác sĩ.
+
+
+b
+
+Thought for 4s
+Đúng rồi ✅
+
+あのひとは なんさいですか。
+= Người kia bao nhiêu tuổi?
+
+Nhớ nhanh:
+
+だれですか = là ai?
+なんさいですか = bao nhiêu tuổi?
+Bạn đang đúng 44/44 câu 🎉
+
+Câu hỏi 45
+わたしは がくせいです。わたしも ミナトの がくせいです。
+
+A. Tôi là học sinh. Tôi cũng là học sinh của Minato
+B. Tôi không phải học sinh. Tôi là Minato
+C. Tôi là Minato. Tôi cũng là học sinh
+D. Tôi là giáo viên. Tôi cũng là học sinh
+
+
+a
+
+Thought for 9s
+Đúng rồi ✅
+
+わたしは がくせいです。わたしも ミナトの がくせいです。
+= Tôi là học sinh. Tôi cũng là học sinh của Minato.
+
+Nhớ nhanh:
+
+わたしは = tôi là / tôi thì
+わたしも = tôi cũng
+N1のN2 = N2 của N1
+Câu hỏi 46
+はじめまして。わたしは ベトナムじんです。
+
+A. Rất vui được gặp bạn. Tôi là người Việt Nam
+B. Tạm biệt. Tôi là người Việt Nam
+C. Xin lỗi. Tôi là người Nhật
+D. Cảm ơn. Tôi là học sinh
+
+
+a
+
+Thought for 4s
+Đúng rồi ✅
+
+はじめまして。わたしは ベトナムじんです。
+= Rất vui được gặp bạn. Tôi là người Việt Nam.
+
+Bạn đúng 46/46 câu 🎉
+
+Câu hỏi 47
+わたしは にほんじんじゃありません。ベトナムじんです。
+
+A. Tôi là người Nhật. Tôi là người Việt Nam
+B. Tôi không phải người Nhật. Tôi là người Việt Nam
+C. Tôi cũng là người Nhật
+D. Bạn là người Việt Nam à?
+
+
+b
+
+Thought for 5s
+Đúng rồi ✅
+
+わたしは にほんじんじゃありません。ベトナムじんです。
+= Tôi không phải người Nhật. Tôi là người Việt Nam.
+
+Mẫu này thuộc phần Nじゃありません = không phải là N trong Bài 1. 
+
+
+Câu hỏi 48
+たなかさんですか。
+
+A. Là anh Tanaka phải không?
+B. Không phải anh Tanaka
+C. Anh Tanaka cũng vậy
+D. Anh Tanaka là học sinh
+
+
+a
+
+Thought for 5s
+Đúng rồi ✅
+
+たなかさんですか。
+= Là anh Tanaka phải không?
+
+Bạn đang đúng 48/48 câu 🎉
+
+Câu hỏi 49
+あのひとは だれですか。
+
+A. Người kia bao nhiêu tuổi?
+B. Người kia là ai?
+C. Người kia là học sinh à?
+D. Người kia không phải giáo viên.
+
+
+b
+
+Thought for 7s
+Đúng rồi ✅
+
+あのひとは だれですか。
+= Người kia là ai?
+
+Nhớ nhanh:
+
+だれ = ai
+だれですか = là ai?
+Phần だれ / どなた là trọng tâm hỏi “ai” trong Bài 1. 
+
+
+Câu hỏi 50
+わたしも ミナトの がくせいです。
+
+A. Tôi là học sinh của Minato
+B. Tôi cũng là học sinh của Minato
+C. Minato là học sinh của tôi
+D. Tôi không phải học sinh của Minato
+
+
+b
+
+Đúng rồi ✅
+
+わたしも ミナトの がくせいです。
+= Tôi cũng là học sinh của Minato.
+
+Bạn đã hoàn thành 50/50 câu — đúng 100% 🎉
+
+Tổng kết Bài 1
+Bạn đã nắm được:
+
+N1 は N2 です = N1 là N2
+N1 は N2 じゃありません = N1 không phải N2
+N1 は N2 ですか = N1 là N2 phải không?
+N1 も N2 です = N1 cũng là N2
+N1 の N2 = N2 của N1
+Mini nhớ nhanh:
+
+です = là
+じゃありません = không phải là
+ですか = là ... phải không?
+も = cũng
+の = của
+だれ = ai
+どなた = ai ạ / vị nào
+なんさい = bao nhiêu tuổi
+おいくつ = bao nhiêu tuổi ạ
+Tiếp theo mình có thể cho bạn làm 10 câu ôn tập không có gợi ý để kiểm tra nhớ thật.
+
+
