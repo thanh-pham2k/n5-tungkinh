@@ -268,12 +268,13 @@
 
     .controls-row {
       display: grid;
-      grid-template-columns: 1fr 130px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 12px;
       align-items: end;
       margin-top: 14px;
     }
 
+    input[type="number"],
     select {
       width: 100%;
       min-height: 42px;
@@ -433,6 +434,17 @@
             <option value="1.5">1.5x</option>
             <option value="1.75">1.75x</option>
             <option value="2">2x</option>
+          </select>
+        </div>
+        <div>
+          <label for="repeat-before-advance">Số lần lặp</label>
+          <input type="number" id="repeat-before-advance" min="1" step="1" value="5">
+        </div>
+        <div>
+          <label for="advance-mode">Chuyển nhóm</label>
+          <select id="advance-mode">
+            <option value="sequential" selected>Tuần tự</option>
+            <option value="random">Random</option>
           </select>
         </div>
       </div>
@@ -756,6 +768,8 @@
       const fileInput = document.getElementById("looper-file");
       const audio = document.getElementById("looper-audio");
       const speed = document.getElementById("looper-speed");
+      const repeatInput = document.getElementById("repeat-before-advance");
+      const advanceModeSelect = document.getElementById("advance-mode");
       const status = document.getElementById("looper-status");
       const tabButtons = document.querySelectorAll("[data-tab-target]");
       const tabPanels = document.querySelectorAll(".tab-panel");
@@ -767,6 +781,12 @@
       let activeTrackButton = null;
       let currentSource = "";
       let selectedLessonIndex = 0;
+      let currentLessonIndex = -1;
+      let currentTrackIndex = -1;
+      let completedRepeats = 0;
+      let repeatBeforeAdvance = 5;
+      let advanceMode = "sequential";
+      let isPublicTrack = false;
 
       const grammarLessons = [
         {
@@ -782,6 +802,34 @@
       const applySpeed = () => {
         audio.playbackRate = Number(speed.value);
         audio.defaultPlaybackRate = Number(speed.value);
+      };
+
+      const readRepeatBeforeAdvance = () => {
+        const value = Number.parseInt(repeatInput.value, 10);
+        repeatBeforeAdvance = Number.isFinite(value) && value >= 1 ? value : 1;
+        repeatInput.value = String(repeatBeforeAdvance);
+        return repeatBeforeAdvance;
+      };
+
+      const resetRepeatCounter = () => {
+        completedRepeats = 0;
+      };
+
+      const getCurrentPublicLabel = () => {
+        const lesson = lessons[currentLessonIndex];
+        const track = lesson && lesson.tracks[currentTrackIndex];
+        if (!lesson || !track) {
+          return "";
+        }
+        return `${lesson.title} - ${track.label}`;
+      };
+
+      const updatePublicStatus = (prefix = "Đang phát") => {
+        const label = getCurrentPublicLabel();
+        if (!label) {
+          return;
+        }
+        status.textContent = `${prefix}: ${label}. Lượt ${completedRepeats + 1}/${repeatBeforeAdvance}.`;
       };
 
       const revokeLocalUrl = () => {
@@ -881,6 +929,30 @@
         renderVocabularyItems(track.items || [], label);
       };
 
+      const getTrackButton = (trackIndex) => {
+        return trackGrid.querySelector(`[data-track-index="${trackIndex}"]`);
+      };
+
+      const getNextTrackIndex = (lesson) => {
+        if (!lesson || !lesson.tracks.length) {
+          return -1;
+        }
+
+        if (advanceMode === "random") {
+          if (lesson.tracks.length === 1) {
+            return 0;
+          }
+
+          let nextIndex = currentTrackIndex;
+          while (nextIndex === currentTrackIndex) {
+            nextIndex = Math.floor(Math.random() * lesson.tracks.length);
+          }
+          return nextIndex;
+        }
+
+        return (currentTrackIndex + 1) % lesson.tracks.length;
+      };
+
       const renderTracks = () => {
         const lesson = lessons[selectedLessonIndex];
         selectedLessonTitle.textContent = lesson ? lesson.title : "";
@@ -890,20 +962,23 @@
           return;
         }
 
-        lesson.tracks.forEach((track) => {
+        lesson.tracks.forEach((track, trackIndex) => {
           const button = document.createElement("button");
           button.type = "button";
+          button.dataset.trackIndex = String(trackIndex);
           button.textContent = track.label;
-          if (track.src === currentSource) {
+          if (selectedLessonIndex === currentLessonIndex && track.src === currentSource) {
             button.classList.add("active");
           }
           button.addEventListener("click", () => {
-            playSource(track, button);
+            playSource(track, button, trackIndex);
           });
           trackGrid.appendChild(button);
         });
 
-        const activeTrack = lesson.tracks.find((track) => track.src === currentSource);
+        const activeTrack = selectedLessonIndex === currentLessonIndex
+          ? lesson.tracks.find((track) => track.src === currentSource)
+          : null;
         if (activeTrack) {
           renderVocabulary(activeTrack, `${lesson.title} - ${activeTrack.label}`);
         } else {
@@ -919,21 +994,65 @@
         renderTracks();
       };
 
-      const playSource = (track, button = null) => {
+      const playSource = (track, button = null, trackIndex = -1) => {
         const lesson = lessons[selectedLessonIndex];
+        const resolvedTrackIndex = trackIndex >= 0 && trackIndex < (lesson?.tracks.length || 0)
+          ? trackIndex
+          : lesson?.tracks.findIndex((candidate) => candidate.src === track.src) ?? -1;
         revokeLocalUrl();
-        setActiveTrackButton(button);
+        currentLessonIndex = selectedLessonIndex;
+        currentTrackIndex = resolvedTrackIndex;
+        resetRepeatCounter();
+        readRepeatBeforeAdvance();
+        isPublicTrack = true;
+        setActiveTrackButton(button || getTrackButton(currentTrackIndex));
         currentSource = track.src;
         audio.src = assetUrl(track.src);
-        audio.loop = true;
+        audio.loop = false;
         applySpeed();
         if (lesson) {
           renderVocabulary(track, `${lesson.title} - ${track.label}`);
         }
-        status.textContent = `Đang phát lặp: ${lesson ? `${lesson.title} - ${track.label}` : track.label}`;
+        updatePublicStatus();
         audio.play().catch(() => {
-          status.textContent = `Đã chọn: ${lesson ? `${lesson.title} - ${track.label}` : track.label}. Bấm Play để phát.`;
+          updatePublicStatus("Đã chọn");
         });
+      };
+
+      const handlePublicTrackEnded = () => {
+        if (!isPublicTrack) {
+          return;
+        }
+
+        const lesson = lessons[currentLessonIndex];
+        if (!lesson || currentTrackIndex < 0) {
+          return;
+        }
+
+        completedRepeats += 1;
+        readRepeatBeforeAdvance();
+
+        if (completedRepeats < repeatBeforeAdvance) {
+          audio.currentTime = 0;
+          applySpeed();
+          updatePublicStatus();
+          audio.play().catch(() => {
+            updatePublicStatus("Đã chọn");
+          });
+          return;
+        }
+
+        const nextTrackIndex = getNextTrackIndex(lesson);
+        if (nextTrackIndex < 0) {
+          return;
+        }
+
+        selectedLessonIndex = currentLessonIndex;
+        lessonSwitcher.querySelectorAll("button").forEach((button, buttonIndex) => {
+          button.classList.toggle("active", buttonIndex === selectedLessonIndex);
+        });
+        renderTracks();
+        playSource(lesson.tracks[nextTrackIndex], getTrackButton(nextTrackIndex), nextTrackIndex);
       };
 
       const renderLessonButtons = () => {
@@ -986,6 +1105,22 @@
         });
       });
 
+      repeatInput.addEventListener("change", () => {
+        readRepeatBeforeAdvance();
+        if (isPublicTrack) {
+          updatePublicStatus();
+        }
+      });
+
+      advanceModeSelect.addEventListener("change", () => {
+        advanceMode = advanceModeSelect.value;
+        if (isPublicTrack) {
+          updatePublicStatus();
+        }
+      });
+
+      audio.addEventListener("ended", handlePublicTrackEnded);
+
       fileInput.addEventListener("change", () => {
         const file = fileInput.files[0];
         if (!file) return;
@@ -993,6 +1128,10 @@
         revokeLocalUrl();
         setActiveTrackButton(null);
         currentSource = "";
+        currentLessonIndex = -1;
+        currentTrackIndex = -1;
+        resetRepeatCounter();
+        isPublicTrack = false;
         clearVocabulary("File local không có danh sách từ/câu đi kèm.");
 
         objectUrl = URL.createObjectURL(file);
@@ -1007,6 +1146,10 @@
 
       speed.addEventListener("change", () => {
         applySpeed();
+        if (isPublicTrack) {
+          updatePublicStatus();
+          return;
+        }
         status.textContent = `Tốc độ hiện tại: ${speed.value}x`;
       });
 
@@ -1016,6 +1159,9 @@
           return;
         }
         applySpeed();
+        if (isPublicTrack) {
+          updatePublicStatus();
+        }
         audio.play();
       });
 
@@ -1029,7 +1175,13 @@
           return;
         }
         audio.currentTime = 0;
+        if (isPublicTrack) {
+          resetRepeatCounter();
+        }
         applySpeed();
+        if (isPublicTrack) {
+          updatePublicStatus();
+        }
         audio.play();
       });
 
