@@ -1,0 +1,1527 @@
+Minna no Nihongo Bài 4 — Tổng hợp + Bài tập trắc nghiệm
+1. Tổng quan bài 4
+Nội dung	Mẫu	Nghĩa
+Hỏi giờ	いま なんじですか	Bây giờ là mấy giờ?
+Địa điểm + giờ	東京は いま なんじですか	Ở Tokyo bây giờ là mấy giờ?
+Động từ thể ます	Vます	Làm V
+Phủ định hiện tại/tương lai	Vません	Không làm V
+Quá khứ khẳng định	Vました	Đã làm V
+Quá khứ phủ định	Vませんでした	Đã không làm V
+Thời gian + に	7じに おきます	Thức dậy lúc 7 giờ
+から〜まで	9じから 5じまで	Từ 9 giờ đến 5 giờ
+NとN	土ようびと 日ようび	Thứ bảy và chủ nhật
+ね	〜ですね	Nhỉ / nhé / xác nhận
+2. Cách nói giờ
+Công thức
+Số + じ
+
+Ví dụ:
+
+Giờ	Tiếng Nhật
+1 giờ	いちじ
+2 giờ	にじ
+3 giờ	さんじ
+5 giờ	ごじ
+6 giờ	ろくじ
+8 giờ	はちじ
+10 giờ	じゅうじ
+12 giờ	じゅうにじ
+Các giờ đặc biệt
+Giờ	Cách đọc
+0 giờ	れいじ
+4 giờ	よじ
+7 giờ	しちじ
+9 giờ	くじ
+3. Cách nói phút
+Nhóm đọc là ふん
+Phút	Cách đọc
+2 phút	にふん
+5 phút	ごふん
+7 phút	ななふん
+9 phút	きゅうふん
+Nhóm đọc là ぷん
+Phút	Cách đọc
+1 phút	いっぷん
+3 phút	さんぷん
+4 phút	よんぷん
+6 phút	ろっぷん
+8 phút	はっぷん
+10 phút	じゅっぷん / じっぷん
+30 phút / rưỡi
+Cách nói	Nghĩa
+さんじゅっぷん	30 phút
+はん	rưỡi
+
+Ví dụ:
+
+1じ30ぷん = 1じはん
+
+= 1 giờ rưỡi.
+
+4. Sáng / chiều / tối
+Tiếng Nhật	Nghĩa
+ごぜん	AM / buổi sáng
+ごご	PM / buổi chiều, tối
+
+Ví dụ:
+
+Câu	Nghĩa
+ごぜん 7じ	7 giờ sáng
+ごご 7じ	7 giờ tối
+ごご 4じはん	4 giờ rưỡi chiều
+5. Hỏi giờ
+Công thức
+いま なんじですか。
+Nghĩa
+
+Bây giờ là mấy giờ?
+
+Ví dụ:
+
+Câu	Nghĩa
+いま なんじですか。	Bây giờ là mấy giờ?
+9じです。	9 giờ.
+4じはんです。	4 giờ rưỡi.
+6. Hỏi giờ ở địa điểm
+Công thức
+Địa điểm は いま なんじですか。
+Nghĩa
+
+Ở địa điểm đó bây giờ là mấy giờ?
+
+Ví dụ:
+
+Câu	Nghĩa
+東京は いま なんじですか。	Ở Tokyo bây giờ là mấy giờ?
+ベトナムは いま なんじですか。	Ở Việt Nam bây giờ là mấy giờ?
+ロンドンは いま なんじですか。	Ở London bây giờ là mấy giờ?
+7. Động từ thể ます
+Ý nghĩa
+
+Động từ thể ます là dạng lịch sự của động từ.
+
+Ví dụ:
+
+Động từ	Nghĩa
+おきます	thức dậy
+ねます	ngủ
+はたらきます	làm việc
+やすみます	nghỉ
+べんきょうします	học bài
+おわります	kết thúc
+8. Chia động từ thể ます
+Thì / thể	Đuôi	Nghĩa	Ví dụ
+Hiện tại / tương lai khẳng định	ます	làm	はたらきます
+Hiện tại / tương lai phủ định	ません	không làm	はたらきません
+Quá khứ khẳng định	ました	đã làm	はたらきました
+Quá khứ phủ định	ませんでした	đã không làm	はたらきませんでした
+
+Ví dụ với べんきょうします:
+
+Câu	Nghĩa
+べんきょうします	học bài
+べんきょうしません	không học bài
+べんきょうしました	đã học bài
+べんきょうしませんでした	đã không học bài
+9. Nは Vます / Vました
+Công thức
+N は Vます。
+N は Vました。
+Nghĩa
+
+N làm V / N đã làm V
+
+Ví dụ:
+
+Câu	Nghĩa
+わたしは べんきょうします。	Tôi học bài.
+わたしは べんきょうしました。	Tôi đã học bài.
+ミラーさんは はたらきます。	Anh Miller làm việc.
+たろうくんは ねました。	Bé Taro đã ngủ.
+10. Nは Vません / Vませんでした
+Công thức
+N は Vません。
+N は Vませんでした。
+Nghĩa
+
+N không làm V / N đã không làm V
+
+Ví dụ:
+
+Câu	Nghĩa
+わたしは べんきょうしません。	Tôi không học bài.
+わたしは べんきょうしませんでした。	Tôi đã không học bài.
+たなかさんは はたらきません。	Anh Tanaka không làm việc.
+たろうくんは ねませんでした。	Bé Taro đã không ngủ.
+11. Câu hỏi với động từ
+Hiện tại / tương lai
+N は Vますか。
+
+= N có làm V không?
+
+Ví dụ:
+
+あした はたらきますか。
+
+= Ngày mai bạn có làm việc không?
+
+Quá khứ
+N は Vましたか。
+
+= N đã làm V chưa?
+
+Ví dụ:
+
+きのう べんきょうしましたか。
+
+= Hôm qua bạn đã học bài chưa?
+
+12. Thời gian + に + động từ
+Công thức
+Thời gian に Vます。
+Nghĩa
+
+Làm V vào lúc / vào ngày...
+
+Dùng に với mốc thời gian cụ thể như giờ, ngày, tháng.
+
+Ví dụ:
+
+Câu	Nghĩa
+7じに おきます。	Thức dậy lúc 7 giờ.
+10じはんに ねます。	Ngủ lúc 10 giờ rưỡi.
+4じはんに おわりました。	Đã kết thúc lúc 4 giờ rưỡi.
+
+Không dùng に với thời gian chung chung:
+
+Có に	Không dùng に
+7じに	あした
+10じに	きのう
+4じはんに	まいにち
+13. Hỏi “lúc mấy giờ”
+Công thức
+なんじに Vますか。
+なんじに Vましたか。
+Nghĩa
+
+Làm V lúc mấy giờ? / Đã làm V lúc mấy giờ?
+
+Ví dụ:
+
+Câu	Nghĩa
+なんじに おきますか。	Bạn thức dậy lúc mấy giờ?
+なんじに ねますか。	Bạn ngủ lúc mấy giờ?
+けさ なんじに おきましたか。	Sáng nay bạn đã thức dậy lúc mấy giờ?
+14. から〜まで
+Công thức
+N1 から N2 まで
+Nghĩa
+
+Từ N1 đến N2
+
+Dùng cho thời gian, địa điểm, phạm vi.
+
+Ví dụ:
+
+Câu	Nghĩa
+9じから 5じまで はたらきます。	Làm việc từ 9 giờ đến 5 giờ.
+7じから 11じまで べんきょうしました。	Đã học từ 7 giờ đến 11 giờ.
+ハノイから ホーチミンまで	từ Hà Nội đến Hồ Chí Minh
+
+Có thể dùng riêng:
+
+Mẫu	Nghĩa
+9じから	từ 9 giờ
+5じまで	đến 5 giờ
+15. NとN
+Công thức
+N1 と N2
+Nghĩa
+
+N1 và N2
+
+Ví dụ:
+
+Câu	Nghĩa
+土ようびと 日ようび	Thứ bảy và chủ nhật
+日本と ベトナム	Nhật Bản và Việt Nam
+わたしと あなた	Tôi và bạn
+けしゴムと ペン	Cục tẩy và bút
+16. ね
+Công thức
+Câu + ね
+Nghĩa
+
+Nhỉ / nhé / đúng không
+
+Dùng để xác nhận, đồng cảm, tạo cảm giác mềm hơn.
+
+Ví dụ:
+
+Câu	Nghĩa
+500えんですね。	500 yên nhỉ.
+土ようびと 日ようびですね。	Thứ bảy và chủ nhật nhỉ.
+そうですね。	Đúng vậy nhỉ.
+
+
+
+TL;DR Bài 4
+1. Hỏi giờ
+いま なんじですか。
+= Bây giờ là mấy giờ?
+
+Ví dụ:
+
+いま 9じです。
+= Bây giờ là 9 giờ.
+
+2. Giờ đặc biệt cần nhớ
+Số giờ	Cách đọc
+4 giờ	よじ
+7 giờ	しちじ
+9 giờ	くじ
+0 giờ	れいじ
+Mẹo nhớ: 4-7-9 là nhóm dễ sai.
+
+3. Phút đặc biệt
+Phút	Cách đọc
+1 phút	いっぷん
+3 phút	さんぷん
+4 phút	よんぷん
+6 phút	ろっぷん
+8 phút	はっぷん
+10 phút	じゅっぷん / じっぷん
+Ví dụ:
+
+4じ30ぷん = 4じはん
+= 4 giờ rưỡi.
+
+4. Động từ thể ます
+Dạng	Nghĩa	Ví dụ
+Vます	làm	はたらきます
+Vません	không làm	はたらきません
+Vました	đã làm	はたらきました
+Vませんでした	đã không làm	はたらきませんでした
+Ví dụ:
+
+べんきょうします
+= học bài
+
+べんきょうしました
+= đã học bài
+
+5. Thời gian + に
+7じに おきます。
+= Thức dậy lúc 7 giờ.
+
+Dùng に với thời gian cụ thể:
+
+7じに
+10じはんに
+Không dùng に với:
+
+きのう
+あした
+まいにち
+6. から〜まで
+9じから 5じまで はたらきます。
+= Làm việc từ 9 giờ đến 5 giờ.
+
+Từ	Nghĩa
+から	từ
+まで	đến
+7. NとN
+土ようびと 日ようび
+= Thứ bảy và chủ nhật.
+
+と = và
+
+Luyện nhanh — Câu 1
+Chọn đáp án đúng:
+
+4 giờ đọc là gì?
+
+A. よんじ
+B. よじ
+C. しじ
+D. よんぷん
+
+
+b
+
+Đúng rồi ✅ B. よじ
+
+4 giờ = よじ
+Không đọc là よんじ.
+
+Câu tiếp theo:
+
+7 giờ đọc là gì?
+
+A. ななじ
+B. しちじ
+C. ななふん
+D. しちふん
+
+
+b
+
+Thought for a few seconds
+Đúng rồi ✅ B. しちじ
+
+7 giờ = しちじ
+Không đọc là ななじ trong bài này.
+
+Câu tiếp theo:
+
+9 giờ đọc là gì?
+
+A. きゅうじ
+B. くじ
+C. きゅうふん
+D. くふん
+
+
+b
+
+Thought for a second
+Đúng rồi ✅ B. くじ
+
+9 giờ = くじ
+Không đọc là きゅうじ.
+
+Câu tiếp theo:
+
+0 giờ đọc là gì?
+
+A. ゼロじ
+B. れいじ
+C. れいふん
+D. ぜんじ
+
+
+b
+
+Đúng rồi ✅ B. れいじ
+
+0 giờ = れいじ
+れいふん là “0 phút” kiểu sai trong câu hỏi này.
+
+Câu tiếp theo:
+
+12 giờ đọc là gì?
+
+A. じゅうにじ
+B. にじゅうじ
+C. じゅうにふん
+D. にじ
+
+
+a
+
+Đúng rồi ✅ A. じゅうにじ
+
+12 giờ = じゅうにじ
+
+Mini-review nhanh:
+
+Giờ	Đọc
+4 giờ	よじ
+7 giờ	しちじ
+9 giờ	くじ
+0 giờ	れいじ
+12 giờ	じゅうにじ
+Câu tiếp theo:
+
+1 phút đọc là gì?
+
+A. いちふん
+B. いっぷん
+C. いちぷん
+D. いふん
+
+
+b
+
+Thought for a second
+Đúng rồi ✅ B. いっぷん
+
+1 phút = いっぷん
+
+Mẹo nhớ: 1, 6, 8, 10 phút thường bị biến âm mạnh:
+
+Phút	Đọc
+1 phút	いっぷん
+6 phút	ろっぷん
+8 phút	はっぷん
+10 phút	じゅっぷん / じっぷん
+Câu tiếp theo:
+
+3 phút đọc là gì?
+
+A. さんふん
+B. さんぷん
+C. みっぷん
+D. さふん
+
+
+b
+
+Thought for a second
+Đúng rồi ✅ B. さんぷん
+
+3 phút = さんぷん
+
+Câu tiếp theo:
+
+6 phút đọc là gì?
+
+A. ろくふん
+B. ろっぷん
+C. ろくぷん
+D. ろふん
+
+
+b
+
+Thought for a couple of seconds
+Đúng rồi ✅ B. ろっぷん
+
+6 phút = ろっぷん
+
+Câu tiếp theo:
+
+8 phút đọc là gì?
+
+A. はちふん
+B. はちぷん
+C. はっぷん
+D. はふん
+
+
+c
+
+Thought for a couple of seconds
+Đúng rồi ✅ C. はっぷん
+
+8 phút = はっぷん
+
+Câu tiếp theo:
+
+10 phút đọc là gì?
+
+A. じゅうふん
+B. じゅっぷん / じっぷん
+C. とおふん
+D. じゅうぷんだけ
+
+
+b
+
+Thought for a couple of seconds
+Đúng rồi ✅ B. じゅっぷん / じっぷん
+
+10 phút = じゅっぷん hoặc じっぷん
+
+Mini-review phút khó:
+
+Phút	Đọc
+1	いっぷん
+3	さんぷん
+6	ろっぷん
+8	はっぷん
+10	じゅっぷん / じっぷん
+Câu tiếp theo:
+
+ごぜん nghĩa là gì?
+
+A. Buổi sáng / AM
+B. Buổi chiều tối / PM
+C. Hôm qua
+D. Ngày mai
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. Buổi sáng / AM
+
+ごぜん = AM / buổi sáng
+
+Câu tiếp theo:
+
+ごご nghĩa là gì?
+
+A. Buổi sáng / AM
+B. Buổi chiều tối / PM
+C. Hôm nay
+D. Hàng ngày
+
+
+b
+
+Thought for a second
+Đúng rồi ✅ B. Buổi chiều tối / PM
+
+ごご = PM / buổi chiều, tối
+
+Câu tiếp theo:
+
+いま なんじですか。 nghĩa là gì?
+
+A. Bây giờ là mấy giờ?
+B. Hôm nay là ngày mấy?
+C. Bạn bao nhiêu tuổi?
+D. Cái này bao nhiêu tiền?
+
+
+a\
+
+Thought for a second
+Đúng rồi ✅ A. Bây giờ là mấy giờ?
+
+いま なんじですか。
+= Bây giờ là mấy giờ? 
+
+
+Câu tiếp theo:
+
+いくらですか。 nghĩa là gì?
+
+A. Ở đâu?
+B. Bao nhiêu tuổi?
+C. Bao nhiêu tiền?
+D. Mấy giờ?
+
+
+c
+
+Thought for a second
+Đúng rồi ✅ C. Bao nhiêu tiền?
+
+いくらですか。
+= Bao nhiêu tiền?
+
+Câu tiếp theo:
+
+ね trong câu 500えんですね。 nghĩa gần nhất là gì?
+
+A. À / Nhỉ / Đúng không
+B. Không phải
+C. Ở đâu
+D. Bao nhiêu
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. À / Nhỉ / Đúng không
+
+500えんですね。
+= 500 yên nhỉ.
+
+Câu tiếp theo:
+
+“Bây giờ là mấy giờ?” là câu nào?
+
+A. いま なんじですか。
+B. いま いくらですか。
+C. いま どこですか。
+D. いま だれですか。
+
+
+a
+
+Thought for a couple of seconds
+Đúng rồi ✅ A. いま なんじですか。
+
+Câu tiếp theo:
+
+“Ở Tokyo bây giờ là mấy giờ?” là câu nào?
+
+A. 東京は いま なんじですか。
+B. 東京は いま いくらですか。
+C. 東京は どこのですか。
+D. 東京は だれですか。
+
+
+a
+
+Thought for 4s
+Đúng rồi ✅ A. 東京は いま なんじですか。
+
+= Ở Tokyo bây giờ là mấy giờ?
+
+Câu tiếp theo:
+
+“Ở Việt Nam bây giờ là mấy giờ?” là câu nào?
+
+A. ベトナムは いま なんじですか。
+B. ベトナムは いま なんさいですか。
+C. ベトナムは いま いくらですか。
+D. ベトナムは どちらですか。
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. ベトナムは いま なんじですか。
+
+= Ở Việt Nam bây giờ là mấy giờ?
+
+Câu tiếp theo:
+
+いま なんじですか。
+“9 giờ” trả lời thế nào?
+
+A. 9じです。
+B. 9えんです。
+C. 9さいです。
+D. 9かいです。
+
+
+A
+
+Thought for a second
+Đúng rồi ✅ A. 9じです。
+
+= 9 giờ.
+
+Câu tiếp theo:
+
+“4 giờ rưỡi” là câu nào?
+
+A. よじはんです。
+B. よんじはんです。
+C. よじさんぷんです。
+D. よんぷんです。
+
+
+A
+
+Thought for a second
+Đúng rồi ✅ A. よじはんです。
+
+= 4 giờ rưỡi.
+
+Nhớ: 4 giờ = よじ, nên 4 giờ rưỡi = よじはん.
+
+Câu tiếp theo:
+
+はたらきます nghĩa là gì?
+
+A. Làm việc
+B. Nghỉ
+C. Ngủ
+D. Kết thúc
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. Làm việc
+
+はたらきます = làm việc
+Câu tiếp theo:
+
+やすみます nghĩa là gì?
+
+A. Học bài
+B. Nghỉ
+C. Thức dậy
+D. Làm việc
+
+
+b
+
+Thought for a second
+Đúng rồi ✅ B. Nghỉ
+
+やすみます = nghỉ
+Câu tiếp theo:
+
+ねます nghĩa là gì?
+
+A. Ngủ
+B. Dậy
+C. Kết thúc
+D. Hỏi
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. Ngủ
+
+ねます = ngủ
+Câu tiếp theo:
+
+おきます nghĩa là gì?
+
+A. Ngủ
+B. Thức dậy
+C. Nghỉ
+D. Học bài
+
+
+b
+
+Thought for a second
+Đúng rồi ✅ B. Thức dậy
+
+おきます = thức dậy
+Câu tiếp theo:
+
+べんきょうします nghĩa là gì?
+
+A. Làm việc
+B. Nghỉ
+C. Học bài
+D. Kết thúc
+
+
+c
+
+Thought for a second
+Đúng rồi ✅ C. Học bài
+
+べんきょうします = học bài
+Câu tiếp theo:
+
+Vます là gì?
+
+A. Khẳng định hiện tại / tương lai
+B. Phủ định hiện tại / tương lai
+C. Quá khứ khẳng định
+D. Quá khứ phủ định
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. Khẳng định hiện tại / tương lai
+
+Vます = làm / sẽ làm
+Ví dụ:
+
+はたらきます
+= làm việc / sẽ làm việc
+
+Câu tiếp theo:
+
+Vません là gì?
+
+A. Khẳng định hiện tại / tương lai
+B. Phủ định hiện tại / tương lai
+C. Quá khứ khẳng định
+D. Quá khứ phủ định
+
+
+b
+
+Đúng rồi ✅ B. Phủ định hiện tại / tương lai
+
+Vません = không làm / sẽ không làm
+Ví dụ:
+
+はたらきません
+= không làm việc / sẽ không làm việc
+
+Câu tiếp theo:
+
+Vました là gì?
+
+A. Khẳng định hiện tại / tương lai
+B. Phủ định hiện tại / tương lai
+C. Quá khứ khẳng định
+D. Quá khứ phủ định
+
+
+c
+
+Thought for a couple of seconds
+Đúng rồi ✅ C. Quá khứ khẳng định
+
+Vました = đã làm
+Ví dụ:
+
+はたらきました
+= đã làm việc
+
+Câu tiếp theo:
+
+Vませんでした là gì?
+
+A. Khẳng định hiện tại / tương lai
+B. Phủ định hiện tại / tương lai
+C. Quá khứ khẳng định
+D. Quá khứ phủ định
+
+
+d
+
+Thought for 19s
+Đúng rồi ✅ D. Quá khứ phủ định
+
+Vませんでした = đã không làm
+Ví dụ:
+
+べんきょうしませんでした
+= đã không học bài 
+
+
+Câu tiếp theo:
+
+“Đã học bài” là câu nào?
+
+A. べんきょうします
+B. べんきょうしません
+C. べんきょうしました
+D. べんきょうしませんでした
+
+
+c
+
+Thought for a second
+Đúng rồi ✅ C. べんきょうしました
+
+べんきょうしました = đã học bài
+Nhớ nhanh:
+
+Dạng	Nghĩa
+べんきょうします	học / sẽ học
+べんきょうしません	không học
+べんきょうしました	đã học
+べんきょうしませんでした	đã không học
+Câu tiếp theo:
+
+“Tôi học bài” là câu nào?
+
+A. わたしは べんきょうします。
+B. わたしは べんきょうしません。
+C. わたしは べんきょうしました。
+D. わたしは べんきょうしませんでした。
+
+
+a
+
+Thought for a couple of seconds
+Đúng rồi ✅ A. わたしは べんきょうします。
+
+= Tôi học bài.
+
+Câu tiếp theo:
+
+“Tôi đã học bài” là câu nào?
+
+A. わたしは べんきょうします。
+B. わたしは べんきょうしません。
+C. わたしは べんきょうしました。
+D. わたしは べんきょうしませんでした。
+
+
+c
+
+Thought for 5s
+Đúng rồi ✅ C. わたしは べんきょうしました。
+
+= Tôi đã học bài.
+
+Câu tiếp theo:
+
+“Tôi không học bài” là câu nào?
+
+A. わたしは べんきょうします。
+B. わたしは べんきょうしません。
+C. わたしは べんきょうしました。
+D. わたしは べんきょうしませんでした。
+
+
+b
+
+Thought for a second
+Đúng rồi ✅ B. わたしは べんきょうしません。
+
+= Tôi không học bài.
+
+Câu tiếp theo:
+
+“Tôi đã không học bài” là câu nào?
+
+A. わたしは べんきょうします。
+B. わたしは べんきょうしません。
+C. わたしは べんきょうしました。
+D. わたしは べんきょうしませんでした。
+
+
+d
+
+Thought for a second
+Đúng rồi ✅ D. わたしは べんきょうしませんでした。
+
+= Tôi đã không học bài.
+
+Câu tiếp theo:
+
+“Anh Tanaka không làm việc” là câu nào?
+
+A. たなかさんは はたらきます。
+B. たなかさんは はたらきません。
+C. たなかさんは はたらきました。
+D. たなかさんは はたらきませんでした。
+
+
+b
+
+Thought for a couple of seconds
+Đúng rồi ✅ B. たなかさんは はたらきません。
+
+= Anh Tanaka không làm việc.
+
+Mini-review:
+
+Câu	Nghĩa
+はたらきます	làm việc
+はたらきません	không làm việc
+はたらきました	đã làm việc
+はたらきませんでした	đã không làm việc
+Câu tiếp theo:
+
+“Ngày mai bạn có làm việc không?” là câu nào?
+
+A. あした はたらきますか。
+B. あした はたらきましたか。
+C. あした はたらきませんでしたか。
+D. あした はたらきですか。
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. あした はたらきますか。
+
+= Ngày mai bạn có làm việc không?
+
+Câu tiếp theo:
+
+“Hôm qua bạn đã học bài chưa?” là câu nào?
+
+A. きのう べんきょうしますか。
+B. きのう べんきょうしましたか。
+C. きのう べんきょうしませんか。
+D. きのう べんきょうですか。
+
+
+b
+
+Thought for a couple of seconds
+Đúng rồi ✅ B. きのう べんきょうしましたか。
+
+= Hôm qua bạn đã học bài chưa?
+
+Câu tiếp theo:
+
+“Bạn đã thức dậy chưa?” là câu nào?
+
+A. おきますか。
+B. おきませんか。
+C. おきましたか。
+D. おきませんでした。
+
+
+c
+
+Thought for a second
+Đúng rồi ✅ C. おきましたか。
+
+= Bạn đã thức dậy chưa?
+
+Câu tiếp theo:
+
+“Bạn có nghỉ không?” là câu nào?
+
+A. やすみますか。
+B. やすみましたか。
+C. やすみませんでしたか。
+D. やすみですか。
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. やすみますか。
+
+= Bạn có nghỉ không?
+
+Câu tiếp theo:
+
+“Bạn đã ngủ chưa?” là câu nào?
+
+A. ねますか。
+B. ねましたか。
+C. ねません。
+D. ねませんでした。
+
+
+b
+
+Thought for a second
+Đúng rồi ✅ B. ねましたか。
+
+= Bạn đã ngủ chưa?
+
+Câu tiếp theo:
+
+“Tôi thức dậy lúc 7 giờ” là câu nào?
+
+A. わたしは 7じに おきます。
+B. わたしは 7じ おきます。
+C. わたしは 7じで おきます。
+D. わたしは 7じを おきます。
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. わたしは 7じに おきます。
+
+= Tôi thức dậy lúc 7 giờ.
+
+Nhớ: giờ cụ thể + に + động từ
+
+Câu tiếp theo:
+
+“Tôi ngủ lúc 10 giờ rưỡi” là câu nào?
+
+A. わたしは 10じはんに ねます。
+B. わたしは 10じはんで ねます。
+C. わたしは 10じはんを ねます。
+D. わたしは 10じはんは ねます。
+
+
+a
+
+Đúng rồi ✅ A. わたしは 10じはんに ねます。
+
+= Tôi ngủ lúc 10 giờ rưỡi.
+
+Câu tiếp theo:
+
+“Buổi học đã kết thúc lúc 4 giờ rưỡi” là câu nào?
+
+A. じゅぎょうは 4じはんに おわります。
+B. じゅぎょうは 4じはんに おわりました。
+C. じゅぎょうは 4じはんで おわりました。
+D. じゅぎょうは 4じはんを おわりました。
+
+
+b
+
+Thought for a couple of seconds
+Đúng rồi ✅ B. じゅぎょうは 4じはんに おわりました。
+
+= Buổi học đã kết thúc lúc 4 giờ rưỡi.
+
+Nhớ:
+
+おわります = kết thúc
+おわりました = đã kết thúc
+Câu tiếp theo:
+
+Câu nào dùng に đúng?
+
+A. あしたに はたらきます。
+B. まいにちに べんきょうします。
+C. 7じに おきます。
+D. きのうに ねました。
+
+
+c
+
+Thought for a second
+Đúng rồi ✅ C. 7じに おきます。
+
+Vì 7じ là thời gian cụ thể nên dùng に.
+
+Sai thường gặp:
+
+あしたに ❌
+まいにちに ❌
+きのうに ❌
+Câu tiếp theo:
+
+“Sáng nay bạn đã thức dậy lúc mấy giờ?” là câu nào?
+
+A. けさ なんじに おきましたか。
+B. けさ なんじに おきますか。
+C. けさ いくらに おきましたか。
+D. けさ どこに おきましたか。
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. けさ なんじに おきましたか。
+
+= Sáng nay bạn đã thức dậy lúc mấy giờ?
+
+Câu tiếp theo:
+
+から nghĩa là gì?
+
+A. Từ
+B. Đến
+C. Và
+D. Nhỉ
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. Từ
+
+から = từ
+まで = đến
+Ví dụ:
+
+9じから
+= từ 9 giờ
+
+Câu tiếp theo:
+
+まで nghĩa là gì?
+
+A. Từ
+B. Đến
+C. Và
+D. Ở đâu
+
+
+b
+
+Thought for a second
+Đúng rồi ✅ B. Đến
+
+まで = đến
+Ví dụ:
+
+5じまで
+= đến 5 giờ
+
+Câu tiếp theo:
+
+“Từ 9 giờ đến 5 giờ” là câu nào?
+
+A. 9じから 5じまで
+B. 9じまで 5じから
+C. 9じと 5じ
+D. 9じに 5じまで
+
+
+a
+
+Thought for a couple of seconds
+Đúng rồi ✅ A. 9じから 5じまで
+
+= Từ 9 giờ đến 5 giờ 
+
+
+Câu tiếp theo:
+
+“Tôi làm việc từ 9 giờ đến 5 giờ” là câu nào?
+
+A. わたしは 9じから 5じまで はたらきます。
+B. わたしは 9じに 5じまで はたらきます。
+C. わたしは 9じと 5じ はたらきます。
+D. わたしは 9じまで 5じから はたらきます。
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. わたしは 9じから 5じまで はたらきます。
+
+= Tôi làm việc từ 9 giờ đến 5 giờ.
+
+Câu tiếp theo:
+
+“Tôi đã học từ 7 giờ đến 11 giờ” là câu nào?
+
+A. わたしは 7じから 11じまで べんきょうしました。
+B. わたしは 7じに 11じまで べんきょうします。
+C. わたしは 7じと 11じ べんきょうしました。
+D. わたしは 7じまで 11じから べんきょうしました。
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. わたしは 7じから 11じまで べんきょうしました。
+
+= Tôi đã học từ 7 giờ đến 11 giờ.
+
+Câu tiếp theo:
+
+と nghĩa là gì?
+
+A. Và
+B. Từ
+C. Đến
+D. Lúc
+
+
+a
+
+Đúng rồi ✅ A. Và
+
+と = và
+Ví dụ:
+
+土ようびと 日ようび
+= Thứ bảy và chủ nhật
+
+Câu tiếp theo:
+
+“Thứ bảy và chủ nhật” là câu nào?
+
+A. 土ようびと 日ようび
+B. 土ようびから 日ようび
+C. 土ようびまで 日ようび
+D. 土ようびに 日ようび
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. 土ようびと 日ようび
+
+= Thứ bảy và chủ nhật.
+
+Câu tiếp theo:
+
+“Nhật Bản và Việt Nam” là câu nào?
+
+A. 日本と ベトナム
+B. 日本から ベトナム
+C. 日本まで ベトナム
+D. 日本に ベトナム
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. 日本と ベトナム
+
+= Nhật Bản và Việt Nam.
+
+Câu tiếp theo:
+
+“Tôi và bạn” là câu nào?
+
+A. わたしと あなた
+B. わたしから あなた
+C. わたしまで あなた
+D. わたしに あなた
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. わたしと あなた
+
+= Tôi và bạn.
+
+Câu tiếp theo:
+
+“Cục tẩy và bút” là câu nào?
+
+A. けしゴムと ペン
+B. けしゴムから ペン
+C. けしゴムまで ペン
+D. けしゴムに ペン
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. けしゴムと ペン
+
+= Cục tẩy và bút.
+
+Câu tiếp theo:
+
+いま 9じです。 nghĩa là gì?
+
+A. Bây giờ là 9 giờ.
+B. Bây giờ là 9 yên.
+C. Bây giờ là tầng 9.
+D. Bây giờ là ngày 9.
+
+
+a
+
+Đúng rồi ✅ A. Bây giờ là 9 giờ.
+
+Câu tiếp theo:
+
+東京は いま ごぜん 7じ15ふんです。 nghĩa là gì?
+
+A. Ở Tokyo bây giờ là 7:15 sáng.
+B. Ở Tokyo bây giờ là 7:15 tối.
+C. Tokyo giá 7:15.
+D. Tokyo ở tầng 7.
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. Ở Tokyo bây giờ là 7:15 sáng.
+
+Câu tiếp theo:
+
+わたしは まいにち 10じはんに ねます。 nghĩa là gì?
+
+A. Tôi ngủ lúc 10 giờ rưỡi mỗi ngày.
+B. Tôi đã ngủ lúc 10 giờ rưỡi hôm qua.
+C. Tôi không ngủ lúc 10 giờ rưỡi.
+D. Tôi học lúc 10 giờ rưỡi.
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. Tôi ngủ lúc 10 giờ rưỡi mỗi ngày.
+
+Câu tiếp theo:
+
+きのう べんきょうしましたか。 nghĩa là gì?
+
+A. Hôm qua bạn đã học bài chưa?
+B. Ngày mai bạn có học bài không?
+C. Hôm nay bạn học ở đâu?
+D. Bạn học lúc mấy giờ?
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. Hôm qua bạn đã học bài chưa?
+
+きのう = hôm qua
+べんきょうしましたか = đã học bài chưa?
+Câu tiếp theo:
+
+いいえ、べんきょうしませんでした。 nghĩa là gì?
+
+A. Không, tôi đã không học bài.
+B. Không, tôi không học bài.
+C. Vâng, tôi đã học bài.
+D. Vâng, tôi học bài.
+
+
+a
+
+Đúng rồi ✅ A. Không, tôi đã không học bài.
+
+Câu tiếp theo:
+
+9じから 5じまで はたらきます。 nghĩa là gì?
+
+A. Làm việc từ 9 giờ đến 5 giờ.
+B. Làm việc lúc 9 giờ và 5 giờ.
+C. Làm việc đến 9 giờ từ 5 giờ.
+D. Làm việc lúc 9 giờ.
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. Làm việc từ 9 giờ đến 5 giờ.
+
+Câu tiếp theo:
+
+土ようびと 日ようびですね。 nghĩa là gì?
+
+A. Thứ bảy và chủ nhật nhỉ.
+B. Từ thứ bảy đến chủ nhật.
+C. Thứ bảy ở đâu?
+D. Chủ nhật mấy giờ?
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. Thứ bảy và chủ nhật nhỉ.
+
+ね = nhỉ / đúng không
+Câu tiếp theo:
+
+たろうくんは きのう ねませんでした。 nghĩa là gì?
+
+A. Bé Taro hôm qua đã không ngủ.
+B. Bé Taro hôm qua ngủ.
+C. Bé Taro ngày mai ngủ.
+D. Bé Taro không học bài.
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. Bé Taro hôm qua đã không ngủ.
+
+ねませんでした = đã không ngủ
+Câu tiếp theo:
+
+なんじに おきますか。 nghĩa là gì?
+
+A. Bạn thức dậy lúc mấy giờ?
+B. Bạn ngủ ở đâu?
+C. Bạn học lúc mấy giờ?
+D. Bạn đi đâu?
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. Bạn thức dậy lúc mấy giờ?
+
+Câu cuối bài 4:
+
+500えんですね。 nghĩa là gì?
+
+A. 500 yên nhỉ.
+B. 500 tuổi nhỉ.
+C. 500 tầng nhỉ.
+D. 500 phút nhỉ.
+
+
+a
+
+Thought for a second
+Đúng rồi ✅ A. 500えんですね。
+
+= 500 yên nhỉ.
+
+Hoàn thành Bài 4 🎉
+Thanh đã ôn xong các phần chính:
+
+Nội dung	Nhớ nhanh
+Giờ/phút	4じ = よじ, 9じ = くじ
+Vます	làm / sẽ làm
+Vません	không làm
+Vました	đã làm
+Vませんでした	đã không làm
+時間 + に	7じに おきます
+から〜まで	từ〜đến
+と	và
+ね	nhỉ / đúng không
+Câu tiếp theo, mình chuyển sang Bài 14: thể て nhé.
+
+たべます → thể て là gì?
+
+A. たべって
+B. たべて
+C. たべんで
+D. たべいて
+
+
