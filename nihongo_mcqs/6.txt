@@ -1,0 +1,2594 @@
+Dạ được. Dưới đây là bản **tổng hợp Minna no Nihongo Bài 6** + **bài tập 100% trắc nghiệm**, không kèm đáp án để bạn tự ôn.
+
+Nội dung dựa trên file bạn gửi về **Ngữ pháp Minna 1 - Bài 6**, trọng tâm gồm: **NをVます**, **Nをします**, **なにをしますか**, **địa điểmでVます**, **どこでVますか**, **Vませんか**, **Vましょう**, và trợ từ cuối câu **ね / よ / そうですか**. 
+
+---
+
+# Minna no Nihongo Bài 6 — Tổng hợp + Bài tập trắc nghiệm
+
+## 1. Tổng quan bài 6
+
+| Nội dung            | Mẫu           | Nghĩa                |
+| ------------------- | ------------- | -------------------- |
+| Tân ngữ + động từ   | Nを Vます        | Làm V tác động vào N |
+| Làm/chơi/tổ chức    | Nを します        | Làm/chơi/tổ chức N   |
+| Hỏi làm gì          | なにを しますか      | Làm gì?              |
+| Phủ định hoàn toàn  | なにも Vません      | Không làm gì cả      |
+| Địa điểm hành động  | Địa điểmで Vます | Làm V ở địa điểm     |
+| Hỏi ở đâu           | どこで Vますか      | Làm V ở đâu?         |
+| Rủ rê lịch sự       | Vませんか         | Cùng làm V không?    |
+| Đề nghị tích cực    | Vましょう         | Cùng làm V nhé       |
+| Tiếp nhận thông tin | そうですか         | Vậy à                |
+
+---
+
+# 2. Danh từ を Động từ
+
+## Công thức
+
+```text
+N を Vます
+```
+
+## Nghĩa
+
+**Làm hành động V tác động vào danh từ N.**
+
+Ví dụ:
+
+| Câu          | Nghĩa              |
+| ------------ | ------------------ |
+| あさごはんを たべます。 | Ăn cơm sáng.       |
+| ほんを よみます。    | Đọc sách.          |
+| ジュースを のみます。  | Uống nước hoa quả. |
+| えいがを みます。    | Xem phim.          |
+| たばこを すいます。   | Hút thuốc.         |
+
+## Ghi nhớ nhanh
+
+Khi **động từ tác động trực tiếp vào danh từ**, dùng trợ từ **を**.
+
+Ví dụ:
+
+```text
+ほんを よみます。
+```
+
+= Đọc sách.
+
+Trong đó:
+
+| Thành phần | Vai trò                 |
+| ---------- | ----------------------- |
+| ほん         | danh từ chịu tác động   |
+| を          | trợ từ đánh dấu tân ngữ |
+| よみます       | động từ                 |
+
+---
+
+# 3. Câu khẳng định với NをVます
+
+## Công thức
+
+```text
+S は N を Vます。
+```
+
+## Nghĩa
+
+**S làm V với N.**
+
+Ví dụ:
+
+| Câu                   | Nghĩa                        |
+| --------------------- | ---------------------------- |
+| ランさんは にほんごを べんきょうします。 | Bạn Lan học tiếng Nhật.      |
+| わたしは たまごと やさいを たべました。 | Tôi đã ăn trứng và rau.      |
+| ちちは まいにち たばこを すいます。   | Bố tôi hút thuốc mỗi ngày.   |
+| きのう ダオさんは ほんを よみました。  | Hôm qua bạn Đào đã đọc sách. |
+| けさ コーヒーを のみました。       | Sáng nay tôi đã uống cà phê. |
+
+---
+
+# 4. Câu phủ định với NをVません
+
+## Công thức
+
+```text
+S は N を Vません。
+S は N を Vませんでした。
+```
+
+## Nghĩa
+
+| Mẫu     | Nghĩa          |
+| ------- | -------------- |
+| Vません    | Không làm V    |
+| Vませんでした | Đã không làm V |
+
+Ví dụ:
+
+| Câu                 | Nghĩa                              |
+| ------------------- | ---------------------------------- |
+| ナムさんは たばこを すいません。   | Bạn Nam không hút thuốc.           |
+| おさけを のみません。         | Tôi không uống rượu.               |
+| にくを たべません。          | Tôi không ăn thịt.                 |
+| けさ しんぶんを よみませんでした。  | Sáng nay tôi đã không đọc báo.     |
+| きのう レポートを かきませんでした。 | Hôm qua tôi đã không viết báo cáo. |
+
+---
+
+# 5. Câu hỏi xác nhận với NをVますか
+
+## Công thức
+
+```text
+N を Vますか。
+N を Vましたか。
+```
+
+## Nghĩa
+
+**Có làm V không? / Đã làm V chưa?**
+
+Ví dụ:
+
+| Câu               | Nghĩa                         |
+| ----------------- | ----------------------------- |
+| さしみを たべますか。       | Bạn có ăn sashimi không?      |
+| コーヒーを のみますか。      | Bạn có uống cà phê không?     |
+| きのう えいがを みましたか。   | Hôm qua bạn đã xem phim chưa? |
+| にほんごを べんきょうしましたか。 | Bạn đã học tiếng Nhật chưa?   |
+
+## Cách trả lời
+
+| Câu hỏi      | Trả lời khẳng định | Trả lời phủ định |
+| ------------ | ------------------ | ---------------- |
+| さしみを たべますか。  | はい、たべます。           | いいえ、たべません。       |
+| コーヒーを のみますか。 | はい、のみます。           | いいえ、のみません。       |
+| えいがを みましたか。  | はい、みました。           | いいえ、みませんでした。     |
+
+---
+
+# 6. なにをVますか — Làm gì?
+
+## Công thức
+
+```text
+なにを Vますか。
+なにを Vましたか。
+```
+
+## Nghĩa
+
+**Làm gì? / Đã làm gì?**
+
+Ví dụ:
+
+| Câu             | Nghĩa                 |
+| --------------- | --------------------- |
+| なにを たべますか。      | Bạn ăn gì?            |
+| きのう なにを たべましたか。 | Hôm qua bạn đã ăn gì? |
+| なにを のみますか。      | Bạn uống gì?          |
+| なにを みましたか。      | Bạn đã xem gì?        |
+| なにを べんきょうしますか。  | Bạn học gì?           |
+
+Ví dụ trả lời:
+
+```text
+きのう なにを たべましたか。
+にくと さかなを たべました。
+```
+
+= Hôm qua bạn đã ăn gì?
+= Tôi đã ăn thịt và cá.
+
+---
+
+# 7. Nをします
+
+## Công thức
+
+```text
+N を します
+```
+
+## Nghĩa
+
+Tùy danh từ đi trước, **します** có thể dịch là **làm / chơi / tổ chức**.
+
+---
+
+## 7.1. Chơi N
+
+Thường dùng với **môn thể thao**.
+
+| Câu        | Nghĩa           |
+| ---------- | --------------- |
+| サッカーを します。 | Chơi bóng đá.   |
+| テニスを します。  | Chơi tennis.    |
+| やきゅうを します。 | Chơi bóng chày. |
+
+---
+
+## 7.2. Làm N
+
+Thường dùng với **công việc / bài tập / việc nhà**.
+
+| Câu         | Nghĩa         |
+| ----------- | ------------- |
+| しゅくだいを します。 | Làm bài tập.  |
+| しごとを します。   | Làm việc.     |
+| かじを します。    | Làm việc nhà. |
+
+---
+
+## 7.3. Tổ chức N
+
+Thường dùng với **sự kiện / cuộc họp / bữa tiệc**.
+
+| Câu         | Nghĩa         |
+| ----------- | ------------- |
+| パーティーを します。 | Tổ chức tiệc. |
+| かいぎを します。   | Tổ chức họp.  |
+
+---
+
+## 7.4. Một số cụm đặc biệt
+
+| Câu         | Nghĩa        |
+| ----------- | ------------ |
+| おはなみを します。  | Đi ngắm hoa. |
+| ジョギングを します。 | Chạy bộ.     |
+
+---
+
+# 8. Phủ định hoàn toàn: なにもVません
+
+## Công thức
+
+```text
+なにも Vません。
+なにも Vませんでした。
+```
+
+## Nghĩa
+
+**Không làm gì cả / đã không làm gì cả**
+
+Ví dụ:
+
+| Câu              | Nghĩa                       |
+| ---------------- | --------------------------- |
+| なにも たべません。       | Không ăn gì cả.             |
+| なにも のみません。       | Không uống gì cả.           |
+| なにも しません。        | Không làm gì cả.            |
+| なにも みませんでした。     | Đã không xem gì cả.         |
+| きのう なにも しませんでした。 | Hôm qua đã không làm gì cả. |
+
+So sánh nhanh:
+
+| Mẫu       | Nghĩa          |
+| --------- | -------------- |
+| なにを たべますか | Ăn gì?         |
+| なにも たべません | Không ăn gì cả |
+
+---
+
+# 9. Địa điểmでVます
+
+## Công thức
+
+```text
+Địa điểm で Vます
+```
+
+## Nghĩa
+
+**Làm hành động V ở địa điểm nào đó.**
+
+Ví dụ:
+
+| Câu                   | Nghĩa                    |
+| --------------------- | ------------------------ |
+| スーパーで パンを かいます。       | Mua bánh mì ở siêu thị.  |
+| がっこうで にほんごを べんきょうします。 | Học tiếng Nhật ở trường. |
+| レストランで ひるごはんを たべます。   | Ăn trưa ở nhà hàng.      |
+| うちで しゅくだいを します。       | Làm bài tập ở nhà.       |
+| としょかんで ほんを よみます。      | Đọc sách ở thư viện.     |
+
+## Ghi nhớ
+
+| Danh từ phía trước        | Trợ từ |
+| ------------------------- | ------ |
+| Địa điểm di chuyển đến    | へ      |
+| Địa điểm xảy ra hành động | で      |
+| Phương tiện               | で      |
+| Người đi cùng             | と      |
+| Tân ngữ bị tác động       | を      |
+
+---
+
+# 10. どこでVますか — Làm ở đâu?
+
+## Công thức
+
+```text
+どこで Vますか。
+どこで Vましたか。
+```
+
+## Nghĩa
+
+**Làm V ở đâu? / Đã làm V ở đâu?**
+
+Ví dụ:
+
+| Câu                  | Nghĩa                     |
+| -------------------- | ------------------------- |
+| どこで パンを かいましたか。      | Bạn đã mua bánh mì ở đâu? |
+| どこで にほんごを べんきょうしますか。 | Bạn học tiếng Nhật ở đâu? |
+| どこで ひるごはんを たべますか。    | Bạn ăn trưa ở đâu?        |
+| どこで たばこを すいますか。      | Hút thuốc ở đâu?          |
+| どこで えいがを みますか。       | Xem phim ở đâu?           |
+
+Phân biệt:
+
+| Mẫu           | Nghĩa      |
+| ------------- | ---------- |
+| どこへ いきますか     | Đi đâu?    |
+| どこで べんきょうしますか | Học ở đâu? |
+
+---
+
+# 11. Vませんか — Rủ rê lịch sự
+
+## Công thức
+
+```text
+Vませんか。
+```
+
+## Nghĩa
+
+**Cùng làm V không?**
+
+Dùng để mời/rủ người khác một cách lịch sự, mềm mại.
+
+Ví dụ:
+
+| Câu            | Nghĩa                    |
+| -------------- | ------------------------ |
+| えいがを みませんか。    | Cùng xem phim không?     |
+| ひるごはんを たべませんか。 | Cùng ăn trưa không?      |
+| サッカーを しませんか。   | Cùng chơi bóng đá không? |
+| コーヒーを のみませんか。  | Cùng uống cà phê không?  |
+| にほんへ いきませんか。   | Cùng đi Nhật không?      |
+
+## Cách trả lời
+
+| Đồng ý     | Từ chối           |
+| ---------- | ----------------- |
+| ええ、いいですね。  | すみません、ちょっと…。      |
+| ええ、いきましょう。 | すみません、きょうは ちょっと…。 |
+
+---
+
+# 12. Vましょう — Cùng làm V nhé
+
+## Công thức
+
+```text
+Vましょう。
+```
+
+## Nghĩa
+
+**Cùng làm V nhé / Nào, làm V thôi.**
+
+Dùng khi người nói **chủ động đề xuất mạnh hơn** hoặc **đáp lại lời rủ rê**.
+
+Ví dụ:
+
+| Câu            | Nghĩa              |
+| -------------- | ------------------ |
+| やすみましょう。       | Cùng nghỉ nhé.     |
+| はじめましょう。       | Bắt đầu nào.       |
+| いきましょう。        | Đi thôi.           |
+| ひるごはんを たべましょう。 | Cùng ăn trưa nhé.  |
+| ビールを のみましょう。   | Cùng uống bia nhé. |
+
+So sánh:
+
+| Mẫu   | Cảm giác                                 |
+| ----- | ---------------------------------------- |
+| Vませんか | Rủ rê nhẹ nhàng, lịch sự                 |
+| Vましょう | Đề xuất tích cực hơn / hưởng ứng lời mời |
+
+---
+
+# 13. そうですね / そうですか / よ
+
+## そうですか
+
+Dùng khi người nghe nhận được thông tin mới.
+
+```text
+そうですか。
+```
+
+= Vậy à.
+
+Ví dụ:
+
+```text
+きのう ホーグオムへ いきました。
+そうですか。
+```
+
+= Hôm qua tôi đã đi Hồ Gươm.
+= Vậy à.
+
+---
+
+## よ
+
+Dùng để nhấn mạnh thông tin người nói nghĩ người nghe chưa biết.
+
+```text
+じてんしゃで きましたよ。
+```
+
+= Tôi đã đến bằng xe đạp đấy.
+
+---
+
+# Minna no Nihongo Bài 6 — Tổng hợp + Bài tập trắc nghiệm
+
+## 1. Tổng quan bài 6
+
+| Nội dung            | Mẫu           | Nghĩa                |
+| ------------------- | ------------- | -------------------- |
+| Tân ngữ + động từ   | Nを Vます        | Làm V tác động vào N |
+| Làm/chơi/tổ chức    | Nを します        | Làm/chơi/tổ chức N   |
+| Hỏi làm gì          | なにを しますか      | Làm gì?              |
+| Phủ định hoàn toàn  | なにも Vません      | Không làm gì cả      |
+| Địa điểm hành động  | Địa điểmで Vます | Làm V ở địa điểm     |
+| Hỏi ở đâu           | どこで Vますか      | Làm V ở đâu?         |
+| Rủ rê lịch sự       | Vませんか         | Cùng làm V không?    |
+| Đề nghị tích cực    | Vましょう         | Cùng làm V nhé       |
+| Tiếp nhận thông tin | そうですか         | Vậy à                |
+
+---
+
+# 2. Danh từ を Động từ
+
+## Công thức
+
+
+text
+N を Vます
+
+
+## Nghĩa
+
+**Làm hành động V tác động vào danh từ N.**
+
+Ví dụ:
+
+| Câu          | Nghĩa              |
+| ------------ | ------------------ |
+| あさごはんを たべます。 | Ăn cơm sáng.       |
+| ほんを よみます。    | Đọc sách.          |
+| ジュースを のみます。  | Uống nước hoa quả. |
+| えいがを みます。    | Xem phim.          |
+| たばこを すいます。   | Hút thuốc.         |
+
+## Ghi nhớ nhanh
+
+Khi **động từ tác động trực tiếp vào danh từ**, dùng trợ từ **を**.
+
+Ví dụ:
+
+
+text
+ほんを よみます。
+
+
+= Đọc sách.
+
+Trong đó:
+
+| Thành phần | Vai trò                 |
+| ---------- | ----------------------- |
+| ほん         | danh từ chịu tác động   |
+| を          | trợ từ đánh dấu tân ngữ |
+| よみます       | động từ                 |
+
+---
+
+# 3. Câu khẳng định với NをVます
+
+## Công thức
+
+
+text
+S は N を Vます。
+
+
+## Nghĩa
+
+**S làm V với N.**
+
+Ví dụ:
+
+| Câu                   | Nghĩa                        |
+| --------------------- | ---------------------------- |
+| ランさんは にほんごを べんきょうします。 | Bạn Lan học tiếng Nhật.      |
+| わたしは たまごと やさいを たべました。 | Tôi đã ăn trứng và rau.      |
+| ちちは まいにち たばこを すいます。   | Bố tôi hút thuốc mỗi ngày.   |
+| きのう ダオさんは ほんを よみました。  | Hôm qua bạn Đào đã đọc sách. |
+| けさ コーヒーを のみました。       | Sáng nay tôi đã uống cà phê. |
+
+---
+
+# 4. Câu phủ định với NをVません
+
+## Công thức
+
+
+text
+S は N を Vません。
+S は N を Vませんでした。
+
+
+## Nghĩa
+
+| Mẫu     | Nghĩa          |
+| ------- | -------------- |
+| Vません    | Không làm V    |
+| Vませんでした | Đã không làm V |
+
+Ví dụ:
+
+| Câu                 | Nghĩa                              |
+| ------------------- | ---------------------------------- |
+| ナムさんは たばこを すいません。   | Bạn Nam không hút thuốc.           |
+| おさけを のみません。         | Tôi không uống rượu.               |
+| にくを たべません。          | Tôi không ăn thịt.                 |
+| けさ しんぶんを よみませんでした。  | Sáng nay tôi đã không đọc báo.     |
+| きのう レポートを かきませんでした。 | Hôm qua tôi đã không viết báo cáo. |
+
+---
+
+# 5. Câu hỏi xác nhận với NをVますか
+
+## Công thức
+
+
+text
+N を Vますか。
+N を Vましたか。
+
+
+## Nghĩa
+
+**Có làm V không? / Đã làm V chưa?**
+
+Ví dụ:
+
+| Câu               | Nghĩa                         |
+| ----------------- | ----------------------------- |
+| さしみを たべますか。       | Bạn có ăn sashimi không?      |
+| コーヒーを のみますか。      | Bạn có uống cà phê không?     |
+| きのう えいがを みましたか。   | Hôm qua bạn đã xem phim chưa? |
+| にほんごを べんきょうしましたか。 | Bạn đã học tiếng Nhật chưa?   |
+
+## Cách trả lời
+
+| Câu hỏi      | Trả lời khẳng định | Trả lời phủ định |
+| ------------ | ------------------ | ---------------- |
+| さしみを たべますか。  | はい、たべます。           | いいえ、たべません。       |
+| コーヒーを のみますか。 | はい、のみます。           | いいえ、のみません。       |
+| えいがを みましたか。  | はい、みました。           | いいえ、みませんでした。     |
+
+---
+
+# 6. なにをVますか — Làm gì?
+
+## Công thức
+
+
+text
+なにを Vますか。
+なにを Vましたか。
+
+
+## Nghĩa
+
+**Làm gì? / Đã làm gì?**
+
+Ví dụ:
+
+| Câu             | Nghĩa                 |
+| --------------- | --------------------- |
+| なにを たべますか。      | Bạn ăn gì?            |
+| きのう なにを たべましたか。 | Hôm qua bạn đã ăn gì? |
+| なにを のみますか。      | Bạn uống gì?          |
+| なにを みましたか。      | Bạn đã xem gì?        |
+| なにを べんきょうしますか。  | Bạn học gì?           |
+
+Ví dụ trả lời:
+
+
+text
+きのう なにを たべましたか。
+にくと さかなを たべました。
+
+
+= Hôm qua bạn đã ăn gì?
+= Tôi đã ăn thịt và cá.
+
+---
+
+# 7. Nをします
+
+## Công thức
+
+
+text
+N を します
+
+
+## Nghĩa
+
+Tùy danh từ đi trước, **します** có thể dịch là **làm / chơi / tổ chức**.
+
+---
+
+## 7.1. Chơi N
+
+Thường dùng với **môn thể thao**.
+
+| Câu        | Nghĩa           |
+| ---------- | --------------- |
+| サッカーを します。 | Chơi bóng đá.   |
+| テニスを します。  | Chơi tennis.    |
+| やきゅうを します。 | Chơi bóng chày. |
+
+---
+
+## 7.2. Làm N
+
+Thường dùng với **công việc / bài tập / việc nhà**.
+
+| Câu         | Nghĩa         |
+| ----------- | ------------- |
+| しゅくだいを します。 | Làm bài tập.  |
+| しごとを します。   | Làm việc.     |
+| かじを します。    | Làm việc nhà. |
+
+---
+
+## 7.3. Tổ chức N
+
+Thường dùng với **sự kiện / cuộc họp / bữa tiệc**.
+
+| Câu         | Nghĩa         |
+| ----------- | ------------- |
+| パーティーを します。 | Tổ chức tiệc. |
+| かいぎを します。   | Tổ chức họp.  |
+
+---
+
+## 7.4. Một số cụm đặc biệt
+
+| Câu         | Nghĩa        |
+| ----------- | ------------ |
+| おはなみを します。  | Đi ngắm hoa. |
+| ジョギングを します。 | Chạy bộ.     |
+
+---
+
+# 8. Phủ định hoàn toàn: なにもVません
+
+## Công thức
+
+
+text
+なにも Vません。
+なにも Vませんでした。
+
+
+## Nghĩa
+
+**Không làm gì cả / đã không làm gì cả**
+
+Ví dụ:
+
+| Câu              | Nghĩa                       |
+| ---------------- | --------------------------- |
+| なにも たべません。       | Không ăn gì cả.             |
+| なにも のみません。       | Không uống gì cả.           |
+| なにも しません。        | Không làm gì cả.            |
+| なにも みませんでした。     | Đã không xem gì cả.         |
+| きのう なにも しませんでした。 | Hôm qua đã không làm gì cả. |
+
+So sánh nhanh:
+
+| Mẫu       | Nghĩa          |
+| --------- | -------------- |
+| なにを たべますか | Ăn gì?         |
+| なにも たべません | Không ăn gì cả |
+
+---
+
+# 9. Địa điểmでVます
+
+## Công thức
+
+
+text
+Địa điểm で Vます
+
+
+## Nghĩa
+
+**Làm hành động V ở địa điểm nào đó.**
+
+Ví dụ:
+
+| Câu                   | Nghĩa                    |
+| --------------------- | ------------------------ |
+| スーパーで パンを かいます。       | Mua bánh mì ở siêu thị.  |
+| がっこうで にほんごを べんきょうします。 | Học tiếng Nhật ở trường. |
+| レストランで ひるごはんを たべます。   | Ăn trưa ở nhà hàng.      |
+| うちで しゅくだいを します。       | Làm bài tập ở nhà.       |
+| としょかんで ほんを よみます。      | Đọc sách ở thư viện.     |
+
+## Ghi nhớ
+
+| Danh từ phía trước        | Trợ từ |
+| ------------------------- | ------ |
+| Địa điểm di chuyển đến    | へ      |
+| Địa điểm xảy ra hành động | で      |
+| Phương tiện               | で      |
+| Người đi cùng             | と      |
+| Tân ngữ bị tác động       | を      |
+
+---
+
+# 10. どこでVますか — Làm ở đâu?
+
+## Công thức
+
+
+text
+どこで Vますか。
+どこで Vましたか。
+
+
+## Nghĩa
+
+**Làm V ở đâu? / Đã làm V ở đâu?**
+
+Ví dụ:
+
+| Câu                  | Nghĩa                     |
+| -------------------- | ------------------------- |
+| どこで パンを かいましたか。      | Bạn đã mua bánh mì ở đâu? |
+| どこで にほんごを べんきょうしますか。 | Bạn học tiếng Nhật ở đâu? |
+| どこで ひるごはんを たべますか。    | Bạn ăn trưa ở đâu?        |
+| どこで たばこを すいますか。      | Hút thuốc ở đâu?          |
+| どこで えいがを みますか。       | Xem phim ở đâu?           |
+
+Phân biệt:
+
+| Mẫu           | Nghĩa      |
+| ------------- | ---------- |
+| どこへ いきますか     | Đi đâu?    |
+| どこで べんきょうしますか | Học ở đâu? |
+
+---
+
+# 11. Vませんか — Rủ rê lịch sự
+
+## Công thức
+
+
+text
+Vませんか。
+
+
+## Nghĩa
+
+**Cùng làm V không?**
+
+Dùng để mời/rủ người khác một cách lịch sự, mềm mại.
+
+Ví dụ:
+
+| Câu            | Nghĩa                    |
+| -------------- | ------------------------ |
+| えいがを みませんか。    | Cùng xem phim không?     |
+| ひるごはんを たべませんか。 | Cùng ăn trưa không?      |
+| サッカーを しませんか。   | Cùng chơi bóng đá không? |
+| コーヒーを のみませんか。  | Cùng uống cà phê không?  |
+| にほんへ いきませんか。   | Cùng đi Nhật không?      |
+
+## Cách trả lời
+
+| Đồng ý     | Từ chối           |
+| ---------- | ----------------- |
+| ええ、いいですね。  | すみません、ちょっと…。      |
+| ええ、いきましょう。 | すみません、きょうは ちょっと…。 |
+
+---
+
+# 12. Vましょう — Cùng làm V nhé
+
+## Công thức
+
+
+text
+Vましょう。
+
+
+## Nghĩa
+
+**Cùng làm V nhé / Nào, làm V thôi.**
+
+Dùng khi người nói **chủ động đề xuất mạnh hơn** hoặc **đáp lại lời rủ rê**.
+
+Ví dụ:
+
+| Câu            | Nghĩa              |
+| -------------- | ------------------ |
+| やすみましょう。       | Cùng nghỉ nhé.     |
+| はじめましょう。       | Bắt đầu nào.       |
+| いきましょう。        | Đi thôi.           |
+| ひるごはんを たべましょう。 | Cùng ăn trưa nhé.  |
+| ビールを のみましょう。   | Cùng uống bia nhé. |
+
+So sánh:
+
+| Mẫu   | Cảm giác                                 |
+| ----- | ---------------------------------------- |
+| Vませんか | Rủ rê nhẹ nhàng, lịch sự                 |
+| Vましょう | Đề xuất tích cực hơn / hưởng ứng lời mời |
+
+---
+
+# 13. そうですね / そうですか / よ
+
+## そうですか
+
+Dùng khi người nghe nhận được thông tin mới.
+
+
+text
+そうですか。
+
+
+= Vậy à.
+
+Ví dụ:
+
+
+text
+きのう ホーグオムへ いきました。
+そうですか。
+
+
+= Hôm qua tôi đã đi Hồ Gươm.
+= Vậy à.
+
+---
+
+## よ
+
+Dùng để nhấn mạnh thông tin người nói nghĩ người nghe chưa biết.
+
+
+text
+じてんしゃで きましたよ。
+
+
+= Tôi đã đến bằng xe đạp đấy.
+
+---
+
+# 14. Bài tập trắc nghiệm
+
+## Phần A. Chọn nghĩa đúng
+
+### 1. NをVます dùng khi nào?
+
+A. Khi hành động tác động vào danh từ
+B. Khi nói địa điểm đến
+C. Khi nói đi cùng ai
+D. Khi nói thời gian
+
+### 2. を trong ほんを よみます biểu thị gì?
+
+A. Chủ ngữ
+B. Tân ngữ chịu tác động
+C. Địa điểm
+D. Phương tiện
+
+### 3. たべます nghĩa là gì?
+
+A. Uống
+B. Ăn
+C. Đọc
+D. Viết
+
+### 4. よみます nghĩa là gì?
+
+A. Đọc
+B. Ăn
+C. Uống
+D. Chơi
+
+### 5. のみます nghĩa là gì?
+
+A. Uống
+B. Đọc
+C. Viết
+D. Mua
+
+---
+
+## Phần B. Chọn câu đúng với NをVます
+
+### 6. “Ăn cơm sáng” là câu nào?
+
+A. あさごはんを たべます。
+B. あさごはんで たべます。
+C. あさごはんへ たべます。
+D. あさごはんと たべます。
+
+### 7. “Đọc sách” là câu nào?
+
+A. ほんで よみます。
+B. ほんを よみます。
+C. ほんへ よみます。
+D. ほんと よみます。
+
+### 8. “Uống nước hoa quả” là câu nào?
+
+A. ジュースを のみます。
+B. ジュースで のみます。
+C. ジュースへ のみます。
+D. ジュースと のみます。
+
+### 9. “Xem phim” là câu nào?
+
+A. えいがを みます。
+B. えいがで みます。
+C. えいがへ みます。
+D. えいがと みます。
+
+### 10. “Hút thuốc” là câu nào?
+
+A. たばこを すいます。
+B. たばこで すいます。
+C. たばこへ すいます。
+D. たばこと すいます。
+
+---
+
+## Phần C. Chọn câu khẳng định đúng
+
+### 11. “Bạn Lan học tiếng Nhật” là câu nào?
+
+A. ランさんは にほんごを べんきょうします。
+B. ランさんは にほんごで べんきょうします。
+C. ランさんは にほんごへ べんきょうします。
+D. ランさんは にほんごと べんきょうします。
+
+### 12. “Tôi đã ăn trứng và rau” là câu nào?
+
+A. たまごと やさいを たべます。
+B. たまごと やさいを たべました。
+C. たまごと やさいで たべました。
+D. たまごと やさいへ たべました。
+
+### 13. “Bố tôi hút thuốc mỗi ngày” là câu nào?
+
+A. ちちは まいにち たばこを すいます。
+B. ちちは まいにち たばこで すいます。
+C. ちちは まいにち たばこへ すいます。
+D. ちちは まいにち たばこと すいます。
+
+### 14. “Hôm qua bạn Đào đã đọc sách” là câu nào?
+
+A. きのう ダオさんは ほんを よみます。
+B. きのう ダオさんは ほんを よみました。
+C. きのう ダオさんは ほんで よみました。
+D. きのう ダオさんは ほんへ よみました。
+
+### 15. “Sáng nay tôi đã uống cà phê” là câu nào?
+
+A. けさ コーヒーを のみます。
+B. けさ コーヒーを のみました。
+C. けさ コーヒーで のみました。
+D. けさ コーヒーへ のみました。
+
+---
+
+## Phần D. Chọn câu phủ định đúng
+
+### 16. “Bạn Nam không hút thuốc” là câu nào?
+
+A. ナムさんは たばこを すいます。
+B. ナムさんは たばこを すいません。
+C. ナムさんは たばこを すいました。
+D. ナムさんは たばこを すいませんでした。
+
+### 17. “Tôi không uống rượu” là câu nào?
+
+A. おさけを のみます。
+B. おさけを のみません。
+C. おさけを のみました。
+D. おさけを のみませんでした。
+
+### 18. “Tôi không ăn thịt” là câu nào?
+
+A. にくを たべません。
+B. にくを たべます。
+C. にくを たべました。
+D. にくを たべませんでした。
+
+### 19. “Sáng nay tôi đã không đọc báo” là câu nào?
+
+A. けさ しんぶんを よみます。
+B. けさ しんぶんを よみません。
+C. けさ しんぶんを よみました。
+D. けさ しんぶんを よみませんでした。
+
+### 20. “Hôm qua tôi đã không viết báo cáo” là câu nào?
+
+A. きのう レポートを かきます。
+B. きのう レポートを かきません。
+C. きのう レポートを かきました。
+D. きのう レポートを かきませんでした。
+
+---
+
+## Phần E. Câu hỏi xác nhận
+
+### 21. “Bạn có ăn sashimi không?” là câu nào?
+
+A. さしみを たべますか。
+B. さしみを たべましたか。
+C. さしみを たべませんでしたか。
+D. さしみで たべますか。
+
+### 22. “Bạn có uống cà phê không?” là câu nào?
+
+A. コーヒーを のみますか。
+B. コーヒーを のみましたか。
+C. コーヒーで のみますか。
+D. コーヒーへ のみますか。
+
+### 23. “Tối qua bạn đã xem phim chưa?” là câu nào?
+
+A. きのうのばん えいがを みますか。
+B. きのうのばん えいがを みましたか。
+C. きのうのばん えいがを みませんか。
+D. きのうのばん えいがで みましたか。
+
+### 24. “Bạn đã học tiếng Nhật chưa?” là câu nào?
+
+A. にほんごを べんきょうしますか。
+B. にほんごを べんきょうしましたか。
+C. にほんごで べんきょうしましたか。
+D. にほんごへ べんきょうしましたか。
+
+### 25. さしみを たべますか。 Nếu không ăn, trả lời thế nào?
+
+A. はい、たべます。
+B. いいえ、たべません。
+C. はい、たべません。
+D. いいえ、たべます。
+
+---
+
+## Phần F. なにをVますか
+
+### 26. “Bạn ăn gì?” là câu nào?
+
+A. なにを たべますか。
+B. どこで たべますか。
+C. だれと たべますか。
+D. いつ たべますか。
+
+### 27. “Hôm qua bạn đã ăn gì?” là câu nào?
+
+A. きのう なにを たべますか。
+B. きのう なにを たべましたか。
+C. きのう なにも たべましたか。
+D. きのう どこで たべましたか。
+
+### 28. “Bạn uống gì?” là câu nào?
+
+A. なにを のみますか。
+B. どこで のみますか。
+C. だれと のみますか。
+D. いつ のみますか。
+
+### 29. “Bạn học gì?” là câu nào?
+
+A. なにを べんきょうしますか。
+B. どこで べんきょうしますか。
+C. だれと べんきょうしますか。
+D. いつ べんきょうしますか。
+
+### 30. きのう なにを たべましたか。
+
+“Đã ăn thịt và cá” là câu nào?
+
+A. にくと さかなを たべました。
+B. にくと さかなで たべました。
+C. にくと さかなへ たべました。
+D. にくと さかなと たべました。
+
+---
+
+## Phần G. Nをします
+
+### 31. “Chơi bóng đá” là câu nào?
+
+A. サッカーを します。
+B. サッカーを たべます。
+C. サッカーを のみます。
+D. サッカーを よみます。
+
+### 32. “Chơi tennis” là câu nào?
+
+A. テニスを します。
+B. テニスを みます。
+C. テニスを かきます。
+D. テニスを かいます。
+
+### 33. “Làm bài tập” là câu nào?
+
+A. しゅくだいを します。
+B. しゅくだいを たべます。
+C. しゅくだいを のみます。
+D. しゅくだいを みます。
+
+### 34. “Làm việc” là câu nào?
+
+A. しごとを します。
+B. しごとを たべます。
+C. しごとを のみます。
+D. しごとを よみます。
+
+### 35. “Tổ chức tiệc” là câu nào?
+
+A. パーティーを します。
+B. パーティーを たべます。
+C. パーティーを のみます。
+D. パーティーを よみます。
+
+---
+
+## Phần H. なにもVません
+
+### 36. “Không ăn gì cả” là câu nào?
+
+A. なにを たべます。
+B. なにも たべません。
+C. なにも たべます。
+D. なにを たべませんでした。
+
+### 37. “Không uống gì cả” là câu nào?
+
+A. なにも のみません。
+B. なにを のみます。
+C. なにも のみます。
+D. どこも のみません。
+
+### 38. “Không làm gì cả” là câu nào?
+
+A. なにも します。
+B. なにを しません。
+C. なにも しません。
+D. どこも しません。
+
+### 39. “Hôm qua tôi đã không làm gì cả” là câu nào?
+
+A. きのう なにも します。
+B. きのう なにも しません。
+C. きのう なにも しました。
+D. きのう なにも しませんでした。
+
+### 40. なにも thường đi với dạng nào?
+
+A. Khẳng định
+B. Phủ định
+C. Mệnh lệnh
+D. Danh từ
+
+---
+
+## Phần I. Địa điểmでVます
+
+### 41. “Tôi mua bánh mì ở siêu thị” là câu nào?
+
+A. スーパーで パンを かいます。
+B. スーパーへ パンを かいます。
+C. スーパーと パンを かいます。
+D. スーパーを パンで かいます。
+
+### 42. “Tôi học tiếng Nhật ở trường” là câu nào?
+
+A. がっこうで にほんごを べんきょうします。
+B. がっこうへ にほんごを べんきょうします。
+C. がっこうと にほんごを べんきょうします。
+D. がっこうを にほんごで べんきょうします。
+
+### 43. “Tôi ăn trưa ở nhà hàng” là câu nào?
+
+A. レストランで ひるごはんを たべます。
+B. レストランへ ひるごはんを たべます。
+C. レストランと ひるごはんを たべます。
+D. レストランを ひるごはんで たべます。
+
+### 44. “Tôi làm bài tập ở thư viện” là câu nào?
+
+A. としょかんで しゅくだいを します。
+B. としょかんへ しゅくだいを します。
+C. としょかんと しゅくだいを します。
+D. としょかんを しゅくだいで します。
+
+### 45. で trong スーパーで パンを かいます biểu thị gì?
+
+A. Địa điểm xảy ra hành động
+B. Phương hướng di chuyển
+C. Người đi cùng
+D. Tân ngữ
+
+---
+
+## Phần J. どこでVますか
+
+### 46. “Bạn đã mua bánh mì ở đâu?” là câu nào?
+
+A. どこで パンを かいましたか。
+B. どこへ パンを かいましたか。
+C. だれと パンを かいましたか。
+D. いつ パンを かいましたか。
+
+### 47. “Bạn học tiếng Nhật ở đâu?” là câu nào?
+
+A. どこで にほんごを べんきょうしますか。
+B. どこへ にほんごを べんきょうしますか。
+C. なんで にほんごを べんきょうしますか。
+D. だれと にほんごを べんきょうしますか。
+
+### 48. “Bạn ăn trưa ở đâu?” là câu nào?
+
+A. どこで ひるごはんを たべますか。
+B. どこへ ひるごはんを たべますか。
+C. だれと ひるごはんを たべますか。
+D. いつ ひるごはんを たべますか。
+
+### 49. “Hút thuốc ở đâu?” là câu nào?
+
+A. どこで たばこを すいますか。
+B. どこへ たばこを すいますか。
+C. だれと たばこを すいますか。
+D. いつ たばこを すいますか。
+
+### 50. “Xem phim ở đâu?” là câu nào?
+
+A. どこで えいがを みますか。
+B. どこへ えいがを みますか。
+C. だれと えいがを みますか。
+D. いつ えいがを みますか。
+
+---
+
+## Phần K. Vませんか
+
+### 51. Vませんか dùng để làm gì?
+
+A. Rủ rê / mời làm gì đó
+B. Ra lệnh
+C. Phủ định quá khứ
+D. Hỏi giá tiền
+
+### 52. “Cùng xem phim không?” là câu nào?
+
+A. えいがを みませんか。
+B. えいがを みますか。
+C. えいがを みましたか。
+D. えいがを みませんでした。
+
+### 53. “Cùng ăn trưa không?” là câu nào?
+
+A. ひるごはんを たべませんか。
+B. ひるごはんを たべますか。
+C. ひるごはんを たべましたか。
+D. ひるごはんを たべませんでした。
+
+### 54. “Cùng chơi bóng đá không?” là câu nào?
+
+A. サッカーを しませんか。
+B. サッカーを しますか。
+C. サッカーを しましたか。
+D. サッカーを しませんでした。
+
+### 55. Khi đồng ý lời mời, câu nào phù hợp?
+
+A. ええ、いいですね。
+B. いいえ、そうです。
+C. どこですか。
+D. なにも しません。
+
+---
+
+## Phần L. Vましょう
+
+### 56. Vましょう nghĩa là gì?
+
+A. Cùng làm V nhé
+B. Không làm V
+C. Đã làm V
+D. Đang làm V
+
+### 57. “Cùng nghỉ nhé” là câu nào?
+
+A. やすみましょう。
+B. やすみません。
+C. やすみました。
+D. やすみますか。
+
+### 58. “Bắt đầu nào” là câu nào?
+
+A. はじめましょう。
+B. はじめません。
+C. はじめました。
+D. はじめますか。
+
+### 59. “Đi thôi” là câu nào?
+
+A. いきましょう。
+B. いきません。
+C. いきました。
+D. いきますか。
+
+### 60. “Cùng uống bia nhé” là câu nào?
+
+A. ビールを のみましょう。
+B. ビールを のみません。
+C. ビールを のみました。
+D. ビールを のみますか。
+
+---
+
+## Phần M. Mini test tổng hợp
+
+### 61. まいにち ほんを よみます。
+
+A. Hằng ngày tôi đọc sách.
+B. Hằng ngày tôi mua sách.
+C. Hằng ngày tôi viết sách.
+D. Hằng ngày tôi không đọc sách.
+
+### 62. きのう なにを しましたか。
+
+A. Hôm qua bạn đã làm gì?
+B. Hôm nay bạn làm gì?
+C. Ngày mai bạn làm gì?
+D. Bạn làm ở đâu?
+
+### 63. けさ なにも たべませんでした。
+
+A. Sáng nay tôi đã không ăn gì cả.
+B. Sáng nay tôi ăn sáng.
+C. Sáng nay tôi không uống gì cả.
+D. Sáng nay tôi đã ăn cá.
+
+### 64. レストランで ともだちと おちゃを のみます。
+
+A. Tôi uống trà với bạn ở nhà hàng.
+B. Tôi đi nhà hàng với bạn.
+C. Tôi mua trà ở nhà hàng.
+D. Tôi không uống trà.
+
+### 65. どこで にほんごを べんきょうしますか。
+
+A. Bạn học tiếng Nhật ở đâu?
+B. Bạn đi Nhật khi nào?
+C. Bạn học tiếng Nhật với ai?
+D. Bạn học gì?
+
+### 66. コーヒーを のみませんか。
+
+A. Cùng uống cà phê không?
+B. Bạn đã uống cà phê chưa?
+C. Tôi không uống cà phê.
+D. Bạn uống cà phê ở đâu?
+
+### 67. ええ、のみましょう。
+
+A. Vâng, cùng uống nhé.
+B. Không, tôi không uống.
+C. Tôi đã uống rồi.
+D. Bạn uống gì?
+
+### 68. スーパーで くだものを かいました。
+
+A. Tôi đã mua hoa quả ở siêu thị.
+B. Tôi mua hoa quả ở trường.
+C. Tôi không mua hoa quả.
+D. Tôi đã ăn hoa quả.
+
+### 69. そうですか。
+
+A. Vậy à.
+B. Đúng vậy nhỉ.
+C. Không phải.
+D. Cùng đi nhé.
+
+### 70. いっしょに ひるごはんを たべませんか。
+
+A. Cùng ăn trưa không?
+B. Bạn đã ăn trưa chưa?
+C. Tôi không ăn trưa.
+D. Bạn ăn trưa ở đâu?
+Thought for 11s
+
+Được Thanh. Mình sẽ cho bạn ôn Bài 6 bằng 70 câu quiz, làm từng câu một để nhớ chắc hơn.
+
+Cách học: bạn chỉ cần trả lời A/B/C/D. Mình sẽ sửa ngay nếu sai, rồi chuyển câu tiếp theo.
+
+Câu 1/70
+
+NをVます dùng khi nào?
+
+A. Khi hành động tác động vào danh từ
+B. Khi nói địa điểm đến
+C. Khi nói đi cùng ai
+D. Khi nói thời gian
+
+a
+Thought for a couple of seconds
+
+Đúng ✅
+
+NをVます = hành động tác động trực tiếp vào danh từ.
+Ví dụ: ほんを よみます = đọc sách.
+
+Câu 2/70
+
+を trong ほんを よみます biểu thị gì?
+
+A. Chủ ngữ
+B. Tân ngữ chịu tác động
+C. Địa điểm
+D. Phương tiện
+
+b
+Thought for 4s
+
+Đúng ✅
+
+を đánh dấu tân ngữ chịu tác động.
+Ví dụ: ほんを よみます = đọc sách.
+
+Câu 3/70
+
+たべます nghĩa là gì?
+
+A. Uống
+B. Ăn
+C. Đọc
+D. Viết
+
+b
+Thought for a second
+
+Đúng ✅
+
+たべます = ăn.
+
+Câu 4/70
+
+よみます nghĩa là gì?
+
+A. Đọc
+B. Ăn
+C. Uống
+D. Chơi
+
+A
+Đã suy nghĩ trong 5s
+
+Đúng ✅
+
+よみます = đọc.
+
+Câu 5/70
+
+のみます nghĩa là gì?
+
+A. Uống
+B. Đọc
+C. Viết
+D. Mua
+
+A
+Đã suy nghĩ trong 1 giây
+
+Đúng ✅
+
+のみます = uống.
+
+Câu 6/70
+
+“Ăn cơm sáng” là câu nào?
+
+A. あさごはんを たべます。
+B. あさごはんで たべます。
+C. あさごはんへ たべます。
+D. あさごはんと たべます。
+
+A
+Đã suy nghĩ trong 1 giây
+
+Đúng ✅
+
+あさごはんを たべます。 = ăn cơm sáng.
+
+Câu 7/70
+
+“Đọc sách” là câu nào?
+
+A. ほんで よみます。
+B. ほんを よみます。
+C. ほんへ よみます。
+D. ほんと よみます。
+
+b
+Thought for a second
+
+Đúng ✅
+
+ほんを よみます。 = đọc sách.
+
+Câu 8/70
+
+“Uống nước hoa quả” là câu nào?
+
+A. ジュースを のみます。
+B. ジュースで のみます。
+C. ジュースへ のみます。
+D. ジュースと のみます。
+
+a
+Thought for a couple of seconds
+
+Đúng ✅
+
+ジュースを のみます。 = uống nước hoa quả.
+
+Câu 9/70
+
+“Xem phim” là câu nào?
+
+A. えいがを みます。
+B. えいがで みます。
+C. えいがへ みます。
+D. えいがと みます。
+
+a
+Thought for a couple of seconds
+
+Đúng ✅
+
+えいがを みます。 = xem phim.
+
+Câu 10/70
+
+“Hút thuốc” là câu nào?
+
+A. たばこを すいます。
+B. たばこで すいます。
+C. たばこへ すいます。
+D. たばこと すいます。
+
+a
+Thought for a second
+
+Đúng ✅
+
+たばこを すいます。 = hút thuốc.
+
+Câu 11/70
+
+“Bạn Lan học tiếng Nhật” là câu nào?
+
+A. ランさんは にほんごを べんきょうします。
+B. ランさんは にほんごで べんきょうします。
+C. ランさんは にほんごへ べんきょうします。
+D. ランさんは にほんごと べんきょうします。
+
+a
+Thought for a second
+
+Đúng ✅
+
+にほんごを べんきょうします = học tiếng Nhật.
+
+Câu 12/70
+
+“Tôi đã ăn trứng và rau” là câu nào?
+
+A. たまごと やさいを たべます。
+B. たまごと やさいを たべました。
+C. たまごと やさいで たべました。
+D. たまごと やさいへ たべました。
+
+b
+Thought for a second
+
+Đúng ✅
+
+たべました = đã ăn.
+
+Câu 13/70
+
+“Bố tôi hút thuốc mỗi ngày” là câu nào?
+
+A. ちちは まいにち たばこを すいます。
+B. ちちは まいにち たばこで すいます。
+C. ちちは まいにち たばこへ すいます。
+D. ちちは まいにち たばこと すいます。
+
+a
+Thought for a couple of seconds
+
+Đúng ✅
+
+まいにち = mỗi ngày.
+
+Câu 14/70
+
+“Hôm qua bạn Đào đã đọc sách” là câu nào?
+
+A. きのう ダオさんは ほんを よみます。
+B. きのう ダオさんは ほんを よみました。
+C. きのう ダオさんは ほんで よみました。
+D. きのう ダオさんは ほんへ よみました。
+
+b
+Thought for a few seconds
+
+Đúng ✅
+
+きのう = hôm qua → dùng よみました = đã đọc.
+
+Câu 15/70
+
+“Sáng nay tôi đã uống cà phê” là câu nào?
+
+A. けさ コーヒーを のみます。
+B. けさ コーヒーを のみました。
+C. けさ コーヒーで のみました。
+D. けさ コーヒーへ のみました。
+
+b
+Thought for 5s
+
+Đúng ✅
+
+けさ = sáng nay → dùng のみました = đã uống.
+
+Câu 16/70
+
+“Bạn Nam không hút thuốc” là câu nào?
+
+A. ナムさんは たばこを すいます。
+B. ナムさんは たばこを すいません。
+C. ナムさんは たばこを すいました。
+D. ナムさんは たばこを すいませんでした。
+
+b
+Thought for a second
+
+Đúng ✅
+
+すいません = không hút.
+
+Câu 17/70
+
+“Tôi không uống rượu” là câu nào?
+
+A. おさけを のみます。
+B. おさけを のみません。
+C. おさけを のみました。
+D. おさけを のみませんでした。
+
+b
+Thought for a second
+
+Đúng ✅
+
+のみません = không uống.
+
+Câu 18/70
+
+“Tôi không ăn thịt” là câu nào?
+
+A. にくを たべません。
+B. にくを たべます。
+C. にくを たべました。
+D. にくを たべませんでした。
+
+a
+Thought for a couple of seconds
+
+Đúng ✅
+
+たべません = không ăn.
+
+Câu 19/70
+
+“Sáng nay tôi đã không đọc báo” là câu nào?
+
+A. けさ しんぶんを よみます。
+B. けさ しんぶんを よみません。
+C. けさ しんぶんを よみました。
+D. けさ しんぶんを よみませんでした。
+
+d
+Thought for a second
+
+Đúng ✅
+
+よみませんでした = đã không đọc.
+
+Câu 20/70
+
+“Hôm qua tôi đã không viết báo cáo” là câu nào?
+
+A. きのう レポートを かきます。
+B. きのう レポートを かきません。
+C. きのう レポートを かきました。
+D. きのう レポートを かきませんでした。
+
+d
+Thought for a second
+
+Đúng ✅
+
+かきませんでした = đã không viết.
+
+Câu 21/70
+
+“Bạn có ăn sashimi không?” là câu nào?
+
+A. さしみを たべますか。
+B. さしみを たべましたか。
+C. さしみを たべませんでしたか。
+D. さしみで たべますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+たべますか = có ăn không?
+
+Câu 22/70
+
+“Bạn có uống cà phê không?” là câu nào?
+
+A. コーヒーを のみますか。
+B. コーヒーを のみましたか。
+C. コーヒーで のみますか。
+D. コーヒーへ のみますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+のみますか = có uống không?
+
+Câu 23/70
+
+“Tối qua bạn đã xem phim chưa?” là câu nào?
+
+A. きのうのばん えいがを みますか。
+B. きのうのばん えいがを みましたか。
+C. きのうのばん えいがを みませんか。
+D. きのうのばん えいがで みましたか。
+
+b
+Thought for a second
+
+Đúng ✅
+
+きのうのばん = tối qua → みましたか = đã xem chưa?
+
+Câu 24/70
+
+“Bạn đã học tiếng Nhật chưa?” là câu nào?
+
+A. にほんごを べんきょうしますか。
+B. にほんごを べんきょうしましたか。
+C. にほんごで べんきょうしましたか。
+D. にほんごへ べんきょうしましたか。
+
+b
+Thought for a second
+
+Đúng ✅
+
+べんきょうしましたか = đã học chưa?
+
+Câu 25/70
+
+さしみを たべますか。 Nếu không ăn, trả lời thế nào?
+
+A. はい、たべます。
+B. いいえ、たべません。
+C. はい、たべません。
+D. いいえ、たべます。
+
+b
+Thought for a second
+
+Đúng ✅
+
+いいえ、たべません。 = Không, tôi không ăn.
+
+Câu 26/70
+
+“Bạn ăn gì?” là câu nào?
+
+A. なにを たべますか。
+B. どこで たべますか。
+C. だれと たべますか。
+D. いつ たべますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+なにを = cái gì / gì.
+
+Câu 27/70
+
+“Hôm qua bạn đã ăn gì?” là câu nào?
+
+A. きのう なにを たべますか。
+B. きのう なにを たべましたか。
+C. きのう なにも たべましたか。
+D. きのう どこで たべましたか。
+
+b
+Thought for a second
+
+Đúng ✅
+
+きのう = hôm qua → たべましたか = đã ăn chưa / đã ăn gì?
+
+Câu 28/70
+
+“Bạn uống gì?” là câu nào?
+
+A. なにを のみますか。
+B. どこで のみますか。
+C. だれと のみますか。
+D. いつ のみますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+なにを のみますか。 = Bạn uống gì?
+
+Câu 29/70
+
+“Bạn học gì?” là câu nào?
+
+A. なにを べんきょうしますか。
+B. どこで べんきょうしますか。
+C. だれと べんきょうしますか。
+D. いつ べんきょうしますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+なにを べんきょうしますか。 = Bạn học gì?
+
+Câu 30/70
+
+きのう なにを たべましたか。
+“Đã ăn thịt và cá” là câu nào?
+
+A. にくと さかなを たべました。
+B. にくと さかなで たべました。
+C. にくと さかなへ たべました。
+D. にくと さかなと たべました。
+
+a
+Thought for a second
+
+Đúng ✅
+
+にくと さかなを たべました。 = đã ăn thịt và cá.
+
+Câu 31/70
+
+“Chơi bóng đá” là câu nào?
+
+A. サッカーを します。
+B. サッカーを たべます。
+C. サッカーを のみます。
+D. サッカーを よみます。
+
+a
+Thought for a second
+
+Đúng ✅
+
+サッカーを します。 = chơi bóng đá.
+
+Câu 32/70
+
+“Chơi tennis” là câu nào?
+
+A. テニスを します。
+B. テニスを みます。
+C. テニスを かきます。
+D. テニスを かいます。
+
+a
+Thought for a few seconds
+
+Đúng ✅
+
+テニスを します。 = chơi tennis.
+
+Câu 33/70
+
+“Làm bài tập” là câu nào?
+
+A. しゅくだいを します。
+B. しゅくだいを たべます。
+C. しゅくだいを のみます。
+D. しゅくだいを みます。
+
+a
+Thought for a second
+
+Đúng ✅
+
+しゅくだいを します。 = làm bài tập.
+
+Câu 34/70
+
+“Làm việc” là câu nào?
+
+A. しごとを します。
+B. しごとを たべます。
+C. しごとを のみます。
+D. しごとを よみます。
+
+a
+Thought for a second
+
+Đúng ✅
+
+しごとを します。 = làm việc.
+
+Câu 35/70
+
+“Tổ chức tiệc” là câu nào?
+
+A. パーティーを します。
+B. パーティーを たべます。
+C. パーティーを のみます。
+D. パーティーを よみます。
+
+a
+Thought for a second
+
+Đúng ✅
+
+パーティーを します。 = tổ chức tiệc.
+
+Câu 36/70
+
+“Không ăn gì cả” là câu nào?
+
+A. なにを たべます。
+B. なにも たべません。
+C. なにも たべます。
+D. なにを たべませんでした。
+
+b
+Thought for a second
+
+Đúng ✅
+
+なにも + phủ định = không ... gì cả.
+
+Câu 37/70
+
+“Không uống gì cả” là câu nào?
+
+A. なにも のみません。
+B. なにを のみます。
+C. なにも のみます。
+D. どこも のみません。
+
+a
+Thought for a second
+
+Đúng ✅
+
+なにも のみません。 = không uống gì cả.
+
+Câu 38/70
+
+“Không làm gì cả” là câu nào?
+
+A. なにも します。
+B. なにを しません。
+C. なにも しません。
+D. どこも しません。
+
+c
+Thought for a couple of seconds
+
+Đúng ✅
+
+なにも しません。 = không làm gì cả.
+
+Câu 39/70
+
+“Hôm qua tôi đã không làm gì cả” là câu nào?
+
+A. きのう なにも します。
+B. きのう なにも しません。
+C. きのう なにも しました。
+D. きのう なにも しませんでした。
+
+d
+Thought for a second
+
+Đúng ✅
+
+きのう + しませんでした = hôm qua đã không làm.
+
+Câu 40/70
+
+なにも thường đi với dạng nào?
+
+A. Khẳng định
+B. Phủ định
+C. Mệnh lệnh
+D. Danh từ
+
+b
+Thought for a second
+
+Đúng ✅
+
+なにも thường đi với dạng phủ định.
+Ví dụ: なにも たべません = không ăn gì cả.
+
+Câu 41/70
+
+“Tôi mua bánh mì ở siêu thị” là câu nào?
+
+A. スーパーで パンを かいます。
+B. スーパーへ パンを かいます。
+C. スーパーと パンを かいます。
+D. スーパーを パンで かいます。
+
+a
+Thought for a second
+
+Đúng ✅
+
+スーパーで = ở siêu thị / tại siêu thị.
+
+Câu 42/70
+
+“Tôi học tiếng Nhật ở trường” là câu nào?
+
+A. がっこうで にほんごを べんきょうします。
+B. がっこうへ にほんごを べんきょうします。
+C. がっこうと にほんごを べんきょうします。
+D. がっこうを にほんごで べんきょうします。
+
+a
+Thought for a second
+
+Đúng ✅
+
+がっこうで = ở trường / tại trường.
+
+Câu 43/70
+
+“Tôi ăn trưa ở nhà hàng” là câu nào?
+
+A. レストランで ひるごはんを たべます。
+B. レストランへ ひるごはんを たべます。
+C. レストランと ひるごはんを たべます。
+D. レストランを ひるごはんで たべます。
+
+a
+Thought for a second
+
+Đúng ✅
+
+レストランで = ở nhà hàng.
+
+Câu 44/70
+
+“Tôi làm bài tập ở thư viện” là câu nào?
+
+A. としょかんで しゅくだいを します。
+B. としょかんへ しゅくだいを します。
+C. としょかんと しゅくだいを します。
+D. としょかんを しゅくだいで します。
+
+a
+Thought for a second
+
+Đúng ✅
+
+としょかんで = ở thư viện.
+
+Câu 45/70
+
+で trong スーパーで パンを かいます biểu thị gì?
+
+A. Địa điểm xảy ra hành động
+B. Phương hướng di chuyển
+C. Người đi cùng
+D. Tân ngữ
+
+a
+Thought for a second
+
+Đúng ✅
+
+で ở đây biểu thị địa điểm xảy ra hành động.
+
+Câu 46/70
+
+“Bạn đã mua bánh mì ở đâu?” là câu nào?
+
+A. どこで パンを かいましたか。
+B. どこへ パンを かいましたか。
+C. だれと パンを かいましたか。
+D. いつ パンを かいましたか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+どこで = ở đâu / tại đâu.
+
+Câu 47/70
+
+“Bạn học tiếng Nhật ở đâu?” là câu nào?
+
+A. どこで にほんごを べんきょうしますか。
+B. どこへ にほんごを べんきょうしますか。
+C. なんで にほんごを べんきょうしますか。
+D. だれと にほんごを べんきょうしますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+どこで にほんごを べんきょうしますか。 = Bạn học tiếng Nhật ở đâu?
+
+Câu 48/70
+
+“Bạn ăn trưa ở đâu?” là câu nào?
+
+A. どこで ひるごはんを たべますか。
+B. どこへ ひるごはんを たべますか。
+C. だれと ひるごはんを たべますか。
+D. いつ ひるごはんを たべますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+どこで = ở đâu.
+
+Câu 49/70
+
+“Hút thuốc ở đâu?” là câu nào?
+
+A. どこで たばこを すいますか。
+B. どこへ たばこを すいますか。
+C. だれと たばこを すいますか。
+D. いつ たばこを すいますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+どこで たばこを すいますか。 = Hút thuốc ở đâu?
+
+Câu 50/70
+
+“Xem phim ở đâu?” là câu nào?
+
+A. どこで えいがを みますか。
+B. どこへ えいがを みますか。
+C. だれと えいがを みますか。
+D. いつ えいがを みますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+どこで えいがを みますか。 = Xem phim ở đâu?
+
+Câu 51/70
+
+Vませんか dùng để làm gì?
+
+A. Rủ rê / mời làm gì đó
+B. Ra lệnh
+C. Phủ định quá khứ
+D. Hỏi giá tiền
+
+a
+Thought for a second
+
+Đúng ✅
+
+Vませんか = rủ rê / mời làm gì đó một cách lịch sự.
+
+Câu 52/70
+
+“Cùng xem phim không?” là câu nào?
+
+A. えいがを みませんか。
+B. えいがを みますか。
+C. えいがを みましたか。
+D. えいがを みませんでした。
+
+a
+Thought for a second
+
+Đúng ✅
+
+えいがを みませんか。 = Cùng xem phim không?
+
+Câu 53/70
+
+“Cùng ăn trưa không?” là câu nào?
+
+A. ひるごはんを たべませんか。
+B. ひるごはんを たべますか。
+C. ひるごはんを たべましたか。
+D. ひるごはんを たべませんでした。
+
+a
+Thought for a second
+
+Đúng ✅
+
+ひるごはんを たべませんか。 = Cùng ăn trưa không?
+
+Câu 54/70
+
+“Cùng chơi bóng đá không?” là câu nào?
+
+A. サッカーを しませんか。
+B. サッカーを しますか。
+C. サッカーを しましたか。
+D. サッカーを しませんでした。
+
+a
+Thought for a second
+
+Đúng ✅
+
+サッカーを しませんか。 = Cùng chơi bóng đá không?
+
+Câu 55/70
+
+Khi đồng ý lời mời, câu nào phù hợp?
+
+A. ええ、いいですね。
+B. いいえ、そうです。
+C. どこですか。
+D. なにも しません。
+
+a
+Thought for a second
+
+Đúng ✅
+
+ええ、いいですね。 = Vâng, hay đấy / được đấy.
+
+Câu 56/70
+
+Vましょう nghĩa là gì?
+
+A. Cùng làm V nhé
+B. Không làm V
+C. Đã làm V
+D. Đang làm V
+
+a
+Thought for a second
+
+Đúng ✅
+
+Vましょう = cùng làm V nhé / làm thôi.
+
+Câu 57/70
+
+“Cùng nghỉ nhé” là câu nào?
+
+A. やすみましょう。
+B. やすみません。
+C. やすみました。
+D. やすみますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+やすみましょう。 = Cùng nghỉ nhé.
+
+Câu 58/70
+
+“Bắt đầu nào” là câu nào?
+
+A. はじめましょう。
+B. はじめません。
+C. はじめました。
+D. はじめますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+はじめましょう。 = Bắt đầu nào.
+
+Câu 59/70
+
+“Đi thôi” là câu nào?
+
+A. いきましょう。
+B. いきません。
+C. いきました。
+D. いきますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+いきましょう。 = Đi thôi.
+
+Câu 60/70
+
+“Cùng uống bia nhé” là câu nào?
+
+A. ビールを のみましょう。
+B. ビールを のみません。
+C. ビールを のみました。
+D. ビールを のみますか。
+
+a
+Thought for a second
+
+Đúng ✅
+
+ビールを のみましょう。 = Cùng uống bia nhé.
+
+Câu 61/70
+
+まいにち ほんを よみます。
+
+A. Hằng ngày tôi đọc sách.
+B. Hằng ngày tôi mua sách.
+C. Hằng ngày tôi viết sách.
+D. Hằng ngày tôi không đọc sách.
+
+a
+Thought for a second
+
+Đúng ✅
+
+まいにち = hằng ngày.
+ほんを よみます = đọc sách.
+
+Câu 62/70
+
+きのう なにを しましたか。
+
+A. Hôm qua bạn đã làm gì?
+B. Hôm nay bạn làm gì?
+C. Ngày mai bạn làm gì?
+D. Bạn làm ở đâu?
+
+a
+Thought for a second
+
+Đúng ✅
+
+きのう = hôm qua.
+なにを しましたか = đã làm gì?
+
+Câu 63/70
+
+けさ なにも たべませんでした。
+
+A. Sáng nay tôi đã không ăn gì cả.
+B. Sáng nay tôi ăn sáng.
+C. Sáng nay tôi không uống gì cả.
+D. Sáng nay tôi đã ăn cá.
+
+a
+Thought for a second
+
+Đúng ✅
+
+なにも たべませんでした = đã không ăn gì cả.
+
+Câu 64/70
+
+レストランで ともだちと おちゃを のみます。
+
+A. Tôi uống trà với bạn ở nhà hàng.
+B. Tôi đi nhà hàng với bạn.
+C. Tôi mua trà ở nhà hàng.
+D. Tôi không uống trà.
+
+a
+Thought for a second
+
+Đúng ✅
+
+レストランで = ở nhà hàng.
+ともだちと = với bạn.
+
+Câu 65/70
+
+どこで にほんごを べんきょうしますか。
+
+A. Bạn học tiếng Nhật ở đâu?
+B. Bạn đi Nhật khi nào?
+C. Bạn học tiếng Nhật với ai?
+D. Bạn học gì?
+
+a
+Thought for a second
+
+Đúng ✅
+
+どこで = ở đâu.
+にほんごを べんきょうします = học tiếng Nhật.
+
+Câu 66/70
+
+コーヒーを のみませんか。
+
+A. Cùng uống cà phê không?
+B. Bạn đã uống cà phê chưa?
+C. Tôi không uống cà phê.
+D. Bạn uống cà phê ở đâu?
+
+a
+Thought for a second
+
+Đúng ✅
+
+Vませんか trong câu này là lời mời: “Cùng uống cà phê không?”
+
+Câu 67/70
+
+ええ、のみましょう。
+
+A. Vâng, cùng uống nhé.
+B. Không, tôi không uống.
+C. Tôi đã uống rồi.
+D. Bạn uống gì?
+
+a
+Thought for a second
+
+Đúng ✅
+
+ええ、のみましょう。 = Vâng, cùng uống nhé.
+
+Câu 68/70
+
+スーパーで くだものを かいました。
+
+A. Tôi đã mua hoa quả ở siêu thị.
+B. Tôi mua hoa quả ở trường.
+C. Tôi không mua hoa quả.
+D. Tôi đã ăn hoa quả.
+
+a
+Thought for a couple of seconds
+
+Đúng ✅
+
+スーパーで = ở siêu thị.
+かいました = đã mua.
+
+Câu 69/70
+
+そうですか。
+
+A. Vậy à.
+B. Đúng vậy nhỉ.
+C. Không phải.
+D. Cùng đi nhé.
+
+a
+Thought for a second
+
+Đúng ✅
+
+そうですか。 = Vậy à / thế à.
+
+Câu 70/70
+
+いっしょに ひるごはんを たべませんか。
+
+A. Cùng ăn trưa không?
+B. Bạn đã ăn trưa chưa?
+C. Tôi không ăn trưa.
+D. Bạn ăn trưa ở đâu?
+
+a
+Thought for a second
+
+Đúng ✅
+
+いっしょに ひるごはんを たべませんか。
+= Cùng ăn trưa không?
+
+Kết quả ôn tập Bài 6
+
+Bạn làm đúng 70/70 câu 🎉
+
+Bạn đã nắm tốt các điểm chính:
+
+NをVます: ほんを よみます
+Nをします: サッカーを します
+なにも + phủ định: なにも たべません
+Địa điểmでVます: レストランで たべます
+Vませんか: lời mời
+Vましょう: cùng làm nhé
+そうですか: vậy à
+
+Bài 6 như vậy là ôn khá đầy đủ rồi.
