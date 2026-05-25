@@ -1,0 +1,1368 @@
+Dạ được. Dưới đây là bản **tổng hợp Minna no Nihongo Bài 7** + **bài tập 100% trắc nghiệm**, không kèm đáp án để bạn tự ôn.
+
+Nội dung dựa trên file bạn gửi về **Ngữ pháp Minna 1 - Bài 7**, trọng tâm gồm: **NでVます**, **あげます**, **もらいます**, **だれに / だれから**, và **もうVましたか**. 
+
+---
+
+# Minna no Nihongo Bài 7 — Tổng hợp + Bài tập trắc nghiệm
+
+## 1. Tổng quan bài 7
+
+| Nội dung              | Mẫu                  | Nghĩa                  |
+| --------------------- | -------------------- | ---------------------- |
+| Công cụ / phương tiện | Nで Vます               | Làm V bằng N           |
+| Hỏi bằng gì           | なんで Vますか             | Làm V bằng gì?         |
+| Hỏi cách nói          | Aは Bごで なんですか         | A trong tiếng B là gì? |
+| Cho / tặng            | Aは Bに Nを あげます        | A cho B N              |
+| Nhận                  | Bは Aに / から Nを もらいます  | B nhận N từ A          |
+| Hỏi cho ai            | だれに Nを あげますか         | Cho ai N?              |
+| Hỏi nhận từ ai        | だれに / だれから Nを もらいますか | Nhận từ ai?            |
+| Đã làm chưa           | もう Vましたか             | Đã làm V chưa?         |
+| Chưa làm              | まだです / まだ Vていません     | Vẫn chưa               |
+
+---
+
+# 2. NでVます — Làm bằng công cụ / cách thức
+
+## Công thức
+
+```text
+N で Vます
+```
+
+## Nghĩa
+
+**Làm hành động V bằng N.**
+
+N có thể là:
+
+| Loại danh từ         | Ví dụ            | Nghĩa                    |
+| -------------------- | ---------------- | ------------------------ |
+| Công cụ              | はし, ナイフ, はさみ, ペン | đũa, dao, kéo, bút       |
+| Phương tiện          | バス, じてんしゃ, ひこうき  | xe buýt, xe đạp, máy bay |
+| Cách thức / ngôn ngữ | にほんご, えいご        | tiếng Nhật, tiếng Anh    |
+
+Ví dụ:
+
+| Câu              | Nghĩa                       |
+| ---------------- | --------------------------- |
+| はしで ごはんを たべます。   | Ăn cơm bằng đũa.            |
+| はさみで かみを きります。   | Cắt giấy bằng kéo.          |
+| ナイフで やさいを きります。  | Cắt rau bằng dao.           |
+| にほんごで てがみを かきます。 | Viết thư bằng tiếng Nhật.   |
+| でんわで はなします。      | Nói chuyện bằng điện thoại. |
+
+---
+
+# 3. なんでVますか — Làm bằng gì?
+
+## Công thức
+
+```text
+なんで Vますか。
+なんで Vましたか。
+```
+
+## Nghĩa
+
+**Làm V bằng gì?**
+
+Ví dụ:
+
+| Câu hỏi           | Trả lời     |
+| ----------------- | ----------- |
+| なんで ごはんを たべますか。   | はしで たべます。   |
+| なんで しゃしんを とりますか。  | けいたいで とります。 |
+| なんで おんがくを ききますか。  | ラジオで ききます。  |
+| なんで レポートを かきましたか。 | えいごで かきました。 |
+
+Lưu ý: **なんで** cũng có thể nghĩa là “tại sao”, tùy ngữ cảnh.
+
+---
+
+# 4. “A trong tiếng B là gì?”
+
+## Công thức
+
+```text
+A は Bごで なんですか。
+```
+
+## Nghĩa
+
+**A trong tiếng B là gì?**
+
+Ví dụ:
+
+| Câu                            | Nghĩa                                    |
+| ------------------------------ | ---------------------------------------- |
+| 「Cảm ơn」は にほんごで なんですか。         | “Cảm ơn” trong tiếng Nhật là gì?         |
+| 「Xin chào」は えいごで なんですか。        | “Xin chào” trong tiếng Anh là gì?        |
+| “I love you” は ベトナムごで なんですか。   | “I love you” trong tiếng Việt là gì?     |
+| 「Chào buổi sáng」は にほんごで なんですか。 | “Chào buổi sáng” trong tiếng Nhật là gì? |
+
+Ví dụ trả lời:
+
+```text
+「Cảm ơn」は にほんごで ありがとうです。
+```
+
+= “Cảm ơn” trong tiếng Nhật là ありがとう.
+
+---
+
+# 5. AはBにNをあげます — Cho / tặng
+
+## Công thức
+
+```text
+A は B に N を あげます
+```
+
+## Nghĩa
+
+**A cho / tặng B cái N.**
+
+Trong đó:
+
+| Thành phần | Vai trò      |
+| ---------- | ------------ |
+| A          | người cho    |
+| B          | người nhận   |
+| N          | vật được cho |
+| あげます       | cho / tặng   |
+
+Ví dụ:
+
+| Câu                     | Nghĩa                               |
+| ----------------------- | ----------------------------------- |
+| わたしは ははに はなを あげます。      | Tôi tặng hoa cho mẹ.                |
+| ナムさんは ランさんに はなを あげました。  | Nam đã tặng hoa cho Lan.            |
+| ははは ちちに シャツを あげました。     | Mẹ đã tặng áo sơ mi cho bố.         |
+| リンさんは こいびとに てがみを かきました。 | Chị Linh đã viết thư cho người yêu. |
+
+---
+
+## Một số động từ “cho đi”
+
+| Động từ   | Nghĩa         |
+| --------- | ------------- |
+| あげます      | cho / tặng    |
+| かします      | cho mượn      |
+| おしえます     | dạy / chỉ cho |
+| おくります     | gửi cho       |
+| かきます      | viết cho      |
+| でんわを かけます | gọi điện cho  |
+
+Ví dụ:
+
+| Câu                         | Nghĩa                               |
+| --------------------------- | ----------------------------------- |
+| たなかせんせいは ナムさんに にほんごを おしえます。 | Thầy Tanaka dạy tiếng Nhật cho Nam. |
+| ナムさんは アンさんに ほんを かしました。      | Nam đã cho An mượn sách.            |
+| わたしは キムラさんに レポートを おくります。    | Tôi gửi báo cáo cho chị Kimura.     |
+| わたしは ははに でんわを かけます。         | Tôi gọi điện cho mẹ.                |
+
+---
+
+# 6. BはAに / からNをもらいます — Nhận từ ai
+
+## Công thức
+
+```text
+B は A に N を もらいます
+B は A から N を もらいます
+```
+
+## Nghĩa
+
+**B nhận N từ A.**
+
+Trong đó:
+
+| Thành phần | Vai trò       |
+| ---------- | ------------- |
+| B          | người nhận    |
+| A          | người cho     |
+| N          | vật được nhận |
+| もらいます      | nhận          |
+
+Ví dụ:
+
+| Câu                          | Nghĩa                                |
+| ---------------------------- | ------------------------------------ |
+| わたしは ははに はなを もらいました。         | Tôi đã nhận hoa từ mẹ.               |
+| トランさんは やまだせんせいに にほんごを ならいます。 | Trang học tiếng Nhật từ thầy Yamada. |
+| わたしは タロウさんに おかねを かりました。      | Tôi đã vay tiền từ Taro.             |
+| わたしは がくせいから プレゼントを もらいました。   | Tôi đã nhận quà từ học sinh.         |
+| わたしは ぎんこうから おかねを かりました。      | Tôi đã vay tiền từ ngân hàng.        |
+
+Lưu ý:
+
+| Người cho là…                          | Dùng   |
+| -------------------------------------- | ------ |
+| Người cụ thể                           | に / から |
+| Tổ chức / công ty / trường / ngân hàng | から     |
+
+---
+
+## Một số động từ “nhận”
+
+| Động từ | Nghĩa      |
+| ------- | ---------- |
+| もらいます   | nhận       |
+| ならいます   | học từ ai  |
+| かります    | vay / mượn |
+
+---
+
+# 7. Hỏi “cho ai / nhận từ ai / cho cái gì / nhận cái gì”
+
+## 7.1. Hỏi cho ai
+
+```text
+だれに Nを あげますか。
+```
+
+Ví dụ:
+
+| Câu hỏi          | Nghĩa               |
+| ---------------- | ------------------- |
+| だれに はなを あげますか。   | Tặng hoa cho ai?    |
+| だれに てがみを かきましたか。 | Đã viết thư cho ai? |
+| だれに でんわを かけますか。  | Gọi điện cho ai?    |
+
+---
+
+## 7.2. Hỏi tặng / cho cái gì
+
+```text
+なにを あげますか。
+```
+
+Ví dụ:
+
+| Câu hỏi          | Nghĩa              |
+| ---------------- | ------------------ |
+| ランさんに なにを あげますか。 | Tặng gì cho Lan?   |
+| ははに なにを あげましたか。  | Đã tặng gì cho mẹ? |
+
+---
+
+## 7.3. Hỏi nhận từ ai
+
+```text
+だれに / だれから Nを もらいますか。
+```
+
+Ví dụ:
+
+| Câu hỏi           | Nghĩa                  |
+| ----------------- | ---------------------- |
+| だれに はなを もらいましたか。  | Đã nhận hoa từ ai?     |
+| だれから じしょを かりましたか。 | Đã mượn từ điển từ ai? |
+
+---
+
+## 7.4. Hỏi nhận cái gì
+
+```text
+なにを もらいましたか。
+```
+
+Ví dụ:
+
+| Câu hỏi                | Nghĩa                   |
+| ---------------------- | ----------------------- |
+| ははに なにを もらいましたか。       | Đã nhận gì từ mẹ?       |
+| ゆうびんきょくから なにを もらいましたか。 | Đã nhận gì từ bưu điện? |
+
+---
+
+# 8. もうVましたか — Đã làm chưa?
+
+## Công thức
+
+```text
+もう Vましたか。
+```
+
+## Nghĩa
+
+**Đã làm V chưa?**
+
+Ví dụ:
+
+| Câu                  | Nghĩa                        |
+| -------------------- | ---------------------------- |
+| もう ひるごはんを たべましたか。    | Đã ăn trưa chưa?             |
+| もう レポートを かきましたか。     | Đã viết báo cáo chưa?        |
+| もう にほんごの ほんを かいましたか。 | Đã mua sách tiếng Nhật chưa? |
+| もう しゅくだいを しましたか。     | Đã làm bài tập chưa?         |
+
+## Cách trả lời
+
+| Trường hợp | Mẫu trả lời    |
+| ---------- | -------------- |
+| Đã rồi     | はい、もう Vました。    |
+| Chưa       | いいえ、まだです。      |
+| Chưa làm   | いいえ、まだ Vていません。 |
+
+Ví dụ:
+
+| Câu hỏi           | Trả lời             |
+| ----------------- | ------------------- |
+| もう ひるごはんを たべましたか。 | はい、もう たべました。        |
+| もう くすりを のみましたか。   | いいえ、まだです。これから のみます。 |
+| もう しゅくだいを しましたか。  | いいえ、まだ していません。      |
+
+Lưu ý:
+
+```text
+いいえ、まだです。✅
+いいえ、まだ Vていません。✅
+いいえ、Vませんでした。❌ nếu muốn nói “chưa”
+```
+
+---
+
+
+TL;DR — Bài 7 học gì?
+Mẫu	Nghĩa cực ngắn	Ví dụ
+Nで Vます	Làm V bằng N	はしで ごはんを たべます。
+なんで Vますか	Làm bằng gì?	なんで たべますか。
+Aは Bに Nを あげます	A cho B N	わたしは ははに はなを あげます。
+Bは Aに/から Nを もらいます	B nhận N từ A	わたしは ははに はなを もらいました。
+もう Vましたか	Đã làm V chưa?	もう ひるごはんを たべましたか。
+まだです / まだVていません	Chưa	いいえ、まだです。
+Cách học hôm nay
+
+Mình sẽ chia thành 5 phần nhỏ:
+
+Công cụ/phương tiện: NでVます
+Hỏi “bằng gì”: なんでVますか
+Cho/tặng: あげます
+Nhận từ ai: もらいます
+Đã làm chưa: もうVましたか
+
+Ta học từng phần, rồi làm quiz ngay để nhớ.
+
+Bắt đầu phần 1: NでVます
+
+Công thức:
+
+N で Vます
+
+Nghĩa: Làm hành động bằng N.
+
+Ví dụ:
+
+はしで ごはんを たべます。
+
+= Ăn cơm bằng đũa.
+
+にほんごで てがみを かきます。
+
+= Viết thư bằng tiếng Nhật.
+
+Câu kiểm tra 1
+
+“Viết thư bằng tiếng Nhật” chọn câu nào?
+
+A. にほんごで てがみを かきます。
+B. にほんごに てがみを かきます。
+C. にほんごを てがみで かきます。
+D. にほんごへ てがみを かきます。
+
+a
+
+Đúng rồi ✅ A
+
+にほんごで = bằng tiếng Nhật
+てがみを かきます = viết thư
+
+にほんごで てがみを かきます。
+= Viết thư bằng tiếng Nhật.
+
+Câu 2
+
+“Ăn cơm bằng đũa” chọn câu nào?
+
+A. はしに ごはんを たべます。
+B. はしで ごはんを たべます。
+C. はしを ごはんで たべます。
+D. はしへ ごはんを たべます。
+
+b
+Thought for a few seconds
+
+Đúng rồi ✅ B
+
+はしで = bằng đũa
+ごはんを たべます = ăn cơm
+
+はしで ごはんを たべます。
+= Ăn cơm bằng đũa.
+
+Câu 3
+
+“Cắt rau bằng dao” chọn câu nào?
+
+A. ナイフに やさいを きります。
+B. ナイフを やさいで きります。
+C. ナイフで やさいを きります。
+D. ナイフへ やさいを きります。
+
+c
+Thought for a second
+
+Đúng rồi ✅ C
+
+ナイフで = bằng dao
+やさいを きります = cắt rau
+
+ナイフで やさいを きります。
+= Cắt rau bằng dao.
+
+Câu 4
+
+“Nói chuyện bằng điện thoại” chọn câu nào?
+
+A. でんわに はなします。
+B. でんわを はなします。
+C. でんわへ はなします。
+D. でんわで はなします。
+
+d
+Thought for a couple of seconds
+
+Đúng rồi ✅ D
+
+でんわで = bằng điện thoại
+はなします = nói chuyện
+
+でんわで はなします。
+= Nói chuyện bằng điện thoại.
+
+Mini-review phần 1
+
+Nで Vます = làm gì bằng N
+
+Ví dụ:
+
+はしで たべます。
+ナイフで きります。
+にほんごで かきます。
+でんわで はなします。
+Câu 5
+
+なんで Vますか dùng để hỏi gì?
+
+A. Làm ở đâu?
+B. Làm bằng gì?
+C. Làm với ai?
+D. Làm khi nào?
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+なんで Vますか = Làm bằng gì?
+
+Ví dụ:
+
+なんで ごはんを たべますか。
+はしで たべます。
+
+= Bạn ăn cơm bằng gì?
+= Ăn bằng đũa.
+
+Sang phần 2: あげます
+
+Aは Bに Nを あげます
+= A cho/tặng B cái N
+
+Câu 6
+
+“Tôi tặng hoa cho mẹ” chọn câu nào?
+
+A. わたしは ははから はなを あげます。
+B. わたしは ははで はなを あげます。
+C. わたしは ははに はなを あげます。
+D. わたしは ははへ はなを あげます。
+
+c
+Thought for a couple of seconds
+
+Đúng rồi ✅ C
+
+ははに = cho mẹ
+はなを あげます = tặng hoa
+
+わたしは ははに はなを あげます。
+= Tôi tặng hoa cho mẹ.
+
+Câu 7
+
+“Nam tặng hoa cho Lan” chọn câu nào?
+
+A. ランさんは ナムさんに はなを あげます。
+B. ナムさんは ランさんに はなを あげます。
+C. ナムさんは ランさんから はなを あげます。
+D. ナムさんは ランさんで はなを あげます。
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+ナムさんは = Nam là người cho
+ランさんに = cho Lan
+はなを あげます = tặng hoa
+
+ナムさんは ランさんに はなを あげます。
+= Nam tặng hoa cho Lan.
+
+Câu 8
+
+“Mẹ đã tặng áo sơ mi cho bố” chọn câu nào?
+
+A. ちちは ははに シャツを あげました。
+B. ははは ちちから シャツを あげました。
+C. ははは ちちで シャツを あげました。
+D. ははは ちちに シャツを あげました。
+
+d
+Thought for a second
+
+Đúng rồi ✅ D
+
+ははは = mẹ là người cho
+ちちに = cho bố
+シャツを あげました = đã tặng áo sơ mi
+
+ははは ちちに シャツを あげました。
+= Mẹ đã tặng áo sơ mi cho bố.
+
+Mini-review: あげます
+Aは Bに Nを あげます
+
+= A cho/tặng B cái N
+
+Nhớ nhanh:
+
+に = cho ai
+を = cho cái gì
+Câu 9
+
+“Thầy Tanaka dạy tiếng Nhật cho Nam” chọn câu nào?
+
+A. たなかせんせいは ナムさんに にほんごを おしえます。
+B. ナムさんは たなかせんせいに にほんごを おしえます。
+C. たなかせんせいは ナムさんから にほんごを おしえます。
+D. たなかせんせいは ナムさんで にほんごを おしえます。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+たなかせんせいは = thầy Tanaka là người dạy
+ナムさんに = cho Nam / tới Nam
+にほんごを おしえます = dạy tiếng Nhật
+
+たなかせんせいは ナムさんに にほんごを おしえます。
+= Thầy Tanaka dạy tiếng Nhật cho Nam.
+
+Sang phần 3: もらいます
+Bは Aに / から Nを もらいます
+
+= B nhận N từ A
+
+Câu 10
+
+“Tôi đã nhận hoa từ mẹ” chọn câu nào?
+
+A. わたしは ははに はなを あげました。
+B. わたしは ははに はなを もらいました。
+C. ははは わたしに はなを もらいました。
+D. わたしは ははで はなを もらいました。
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+わたしは = tôi là người nhận
+ははに = từ mẹ
+はなを もらいました = đã nhận hoa
+
+わたしは ははに はなを もらいました。
+= Tôi đã nhận hoa từ mẹ.
+
+Câu 11
+
+“Trang học tiếng Nhật từ thầy Yamada” chọn câu nào?
+
+A. トランさんは やまだせんせいに にほんごを ならいます。
+B. やまだせんせいは トランさんに にほんごを ならいます。
+C. トランさんは やまだせんせいで にほんごを ならいます。
+D. トランさんは やまだせんせいを にほんごに ならいます。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+トランさんは = Trang là người học/nhận kiến thức
+やまだせんせいに = từ thầy Yamada
+にほんごを ならいます = học tiếng Nhật
+
+トランさんは やまだせんせいに にほんごを ならいます。
+= Trang học tiếng Nhật từ thầy Yamada.
+
+Câu 12
+
+“Tôi đã vay tiền từ Taro” chọn câu nào?
+
+A. わたしは タロウさんに おかねを かしました。
+B. わたしは タロウさんに おかねを かりました。
+C. タロウさんは わたしに おかねを かりました。
+D. わたしは タロウさんで おかねを かりました。
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+かります = vay / mượn
+かします = cho mượn
+
+わたしは タロウさんに おかねを かりました。
+= Tôi đã vay tiền từ Taro.
+
+Mini-review: もらいます
+Bは Aに / から Nを もらいます
+
+= B nhận N từ A
+
+Nhớ nhanh:
+
+あげます = cho đi
+もらいます = nhận về
+かします = cho mượn
+かります = mượn / vay
+Câu 13
+
+“Nhận quà từ học sinh” chọn câu nào?
+
+A. がくせいに プレゼントを あげます。
+B. がくせいで プレゼントを もらいます。
+C. がくせいから プレゼントを もらいます。
+D. がくせいを プレゼントに もらいます。
+
+c
+Thought for a second
+
+Đúng rồi ✅ C
+
+がくせいから = từ học sinh
+プレゼントを もらいます = nhận quà
+
+がくせいから プレゼントを もらいます。
+= Nhận quà từ học sinh.
+
+Câu 14
+
+Khi người cho là ngân hàng / công ty / trường học, thường dùng trợ từ nào?
+
+A. に
+B. で
+C. から
+D. を
+
+c
+Thought for a second
+
+Đúng rồi ✅ C
+
+Với tổ chức / công ty / trường học / ngân hàng, thường dùng:
+
+から
+
+Ví dụ:
+
+ぎんこうから おかねを かりました。
+
+= Tôi đã vay tiền từ ngân hàng.
+
+Câu 15
+
+“Đã nhận hoa từ ai?” chọn câu nào?
+
+A. だれに はなを あげましたか。
+B. だれに はなを もらいましたか。
+C. だれで はなを もらいましたか。
+D. なんで はなを もらいましたか。
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+だれに / だれから = từ ai
+はなを もらいましたか = đã nhận hoa chưa/từ ai?
+
+だれに はなを もらいましたか。
+= Đã nhận hoa từ ai?
+
+Sang phần 4: もうVましたか
+もう Vましたか
+
+= Đã làm V chưa?
+
+Trả lời:
+
+はい、もう Vました。
+いいえ、まだです。
+いいえ、まだ Vていません。
+Câu 16
+
+“Bạn đã ăn trưa chưa?” chọn câu nào?
+
+A. もう ひるごはんを たべましたか。
+B. まだ ひるごはんを たべましたか。
+C. もう ひるごはんを たべますか。
+D. ひるごはんを たべませんでしたか。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+もう = đã / rồi
+Vましたか = đã làm V chưa?
+
+もう ひるごはんを たべましたか。
+= Bạn đã ăn trưa chưa?
+
+Câu 17
+
+Nếu muốn trả lời “Vâng, tôi ăn rồi”, chọn câu nào?
+
+A. はい、まだです。
+B. はい、もう たべました。
+C. いいえ、もう たべました。
+D. いいえ、たべませんでした。
+
+b
+Thought for a few seconds
+
+Đúng rồi ✅ B
+
+はい、もう たべました。
+= Vâng, tôi ăn rồi.
+
+Câu 18
+
+Nếu muốn trả lời “Chưa, tôi chưa ăn”, câu nào tự nhiên nhất?
+
+A. いいえ、まだです。
+B. はい、まだです。
+C. いいえ、もう たべました。
+D. はい、たべませんでした。
+
+a
+Thought for a couple of seconds
+
+Đúng rồi ✅ A
+
+いいえ、まだです。
+= Chưa, vẫn chưa.
+
+Lưu ý: Khi hỏi もう Vましたか, nếu chưa thì không nên trả lời Vませんでした.
+
+Mini-review: もう
+もう Vましたか。
+
+= Đã làm V chưa?
+
+はい、もう Vました。
+
+= Rồi.
+
+いいえ、まだです。
+
+= Chưa.
+
+Câu 19
+
+“Bạn đã làm bài tập chưa?” chọn câu nào?
+
+A. もう しゅくだいを しましたか。
+B. まだ しゅくだいを しましたか。
+C. もう しゅくだいを しますか。
+D. しゅくだいを しませんでしたか。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+もう しゅくだいを しましたか。
+= Bạn đã làm bài tập chưa?
+
+Câu 20
+
+Nếu trả lời: “Chưa, tôi chưa làm bài tập”, chọn câu nào?
+
+A. はい、もう しました。
+B. いいえ、まだ していません。
+C. いいえ、しました。
+D. はい、まだです。
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+いいえ、まだ していません。
+= Chưa, tôi chưa làm.
+
+Tổng kết nhanh Bài 7
+
+Bạn đã nắm được 4 nhóm chính:
+
+Mẫu	Nghĩa
+Nで Vます	Làm V bằng N
+AはBにNをあげます	A cho B N
+BはAに/からNをもらいます	B nhận N từ A
+もうVましたか	Đã làm V chưa?
+Câu 21 — Ôn tổng hợp
+
+“Anh Nam cho chị Lan mượn sách” chọn câu nào?
+
+A. ナムさんは ランさんに ほんを かしました。
+B. ランさんは ナムさんに ほんを かしました。
+C. ナムさんは ランさんから ほんを かしました。
+D. ナムさんは ランさんで ほんを かしました。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+かします = cho mượn
+ナムさんは = Nam là người cho mượn
+ランさんに = cho Lan
+ほんを = sách
+
+ナムさんは ランさんに ほんを かしました。
+= Anh Nam cho chị Lan mượn sách.
+
+Câu 22 — Ôn tổng hợp
+
+“Chị Lan mượn sách từ anh Nam” chọn câu nào?
+
+A. ランさんは ナムさんに ほんを かしました。
+B. ランさんは ナムさんに ほんを かりました。
+C. ナムさんは ランさんに ほんを かりました。
+D. ランさんは ナムさんで ほんを かりました。
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+かります = mượn / vay
+ランさんは = Lan là người mượn
+ナムさんに = từ Nam
+ほんを かりました = đã mượn sách
+
+ランさんは ナムさんに ほんを かりました。
+= Chị Lan mượn sách từ anh Nam.
+
+Câu 23 — Ôn tổng hợp
+
+“Bạn đã mua sách tiếng Nhật chưa?” chọn câu nào?
+
+A. もう にほんごの ほんを かいましたか。
+B. まだ にほんごの ほんを かいましたか。
+C. にほんごで ほんを かいましたか。
+D. もう にほんごの ほんを かいますか。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+もう にほんごの ほんを かいましたか。
+= Bạn đã mua sách tiếng Nhật chưa?
+
+もう + Vましたか = đã làm V chưa?
+
+Câu 24 — Ôn tổng hợp
+
+“Bạn đã viết báo cáo bằng tiếng Nhật à?” chọn câu nào?
+
+A. にほんごに レポートを かきましたか。
+B. にほんごを レポートで かきましたか。
+C. にほんごで レポートを かきましたか。
+D. にほんごへ レポートを かきましたか。
+
+c
+Thought for a second
+
+Đúng rồi ✅ C
+
+にほんごで = bằng tiếng Nhật
+レポートを かきましたか = đã viết báo cáo à?
+
+にほんごで レポートを かきましたか。
+= Bạn đã viết báo cáo bằng tiếng Nhật à?
+
+Câu 25 — Ôn tổng hợp
+
+“Bạn chụp ảnh bằng gì?” chọn câu nào?
+
+A. どこで しゃしんを とりますか。
+B. なんで しゃしんを とりますか。
+C. だれに しゃしんを とりますか。
+D. いつ しゃしんを とりますか。
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+なんで しゃしんを とりますか。
+= Bạn chụp ảnh bằng gì?
+
+なんで = bằng gì
+しゃしんを とります = chụp ảnh
+
+Câu 26 — Ôn tổng hợp
+
+“Cảm ơn trong tiếng Nhật là gì?” chọn câu nào?
+
+A. 「Cảm ơn」は にほんごで なんですか。
+B. 「Cảm ơn」は にほんごに なんですか。
+C. 「Cảm ơn」は にほんごを なんですか。
+D. 「Cảm ơn」は にほんごへ なんですか。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+「Cảm ơn」は にほんごで なんですか。
+= “Cảm ơn” trong tiếng Nhật là gì?
+
+Mẫu nhớ nhanh:
+
+A は Bごで なんですか。
+
+= A trong tiếng B là gì?
+
+Câu 27
+
+「Chào buổi sáng」は にほんごで なんですか。
+Câu trả lời đúng là?
+
+A. こんにちは。
+B. ありがとう。
+C. おはようございます。
+D. さようなら。
+
+c
+Thought for a second
+
+Đúng rồi ✅ C
+
+おはようございます。
+= Chào buổi sáng.
+
+Câu 28 — Ôn tổng hợp
+
+“Anh Kimura gửi báo cáo cho tôi” chọn câu nào?
+
+A. キムラさんは わたしに レポートを おくります。
+B. わたしは キムラさんに レポートを おくります。
+C. キムラさんは わたしから レポートを おくります。
+D. キムラさんは わたしで レポートを おくります。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+キムラさんは = anh Kimura là người gửi
+わたしに = cho tôi
+レポートを おくります = gửi báo cáo
+
+キムラさんは わたしに レポートを おくります。
+= Anh Kimura gửi báo cáo cho tôi.
+
+Câu 29 — Ôn tổng hợp
+
+“Tôi nhận báo cáo từ anh Kimura” chọn câu nào?
+
+A. わたしは キムラさんに レポートを あげます。
+B. わたしは キムラさんに レポートを もらいます。
+C. キムラさんは わたしに レポートを もらいます。
+D. わたしは キムラさんで レポートを もらいます。
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+わたしは = tôi là người nhận
+キムラさんに = từ anh Kimura
+レポートを もらいます = nhận báo cáo
+
+わたしは キムラさんに レポートを もらいます。
+= Tôi nhận báo cáo từ anh Kimura.
+
+Câu 30 — Ôn tổng hợp
+
+“Tôi gọi điện cho mẹ” chọn câu nào?
+
+A. わたしは ははに でんわを かけます。
+B. わたしは ははから でんわを かけます。
+C. わたしは ははで でんわを かけます。
+D. ははは わたしに でんわを かけます。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+ははに = cho mẹ
+でんわを かけます = gọi điện
+
+わたしは ははに でんわを かけます。
+= Tôi gọi điện cho mẹ.
+
+Câu 31 — Ôn tổng hợp
+
+“Bạn đã nhận gì từ mẹ?” chọn câu nào?
+
+A. ははに なにを あげましたか。
+B. ははに なにを もらいましたか。
+C. ははで なにを もらいましたか。
+D. ははから なにを あげましたか。
+
+b
+Thought for a couple of seconds
+
+Đúng rồi ✅ B
+
+ははに = từ mẹ
+なにを もらいましたか = đã nhận cái gì?
+
+ははに なにを もらいましたか。
+= Bạn đã nhận gì từ mẹ?
+
+Câu 32 — Ôn tổng hợp
+
+“Bạn tặng gì cho mẹ?” chọn câu nào?
+
+A. ははに なにを あげますか。
+B. ははに なにを もらいますか。
+C. ははから なにを あげますか。
+D. ははで なにを あげますか。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+ははに = cho mẹ
+なにを あげますか = tặng cái gì?
+
+ははに なにを あげますか。
+= Bạn tặng gì cho mẹ?
+
+Câu 33 — Ôn tổng hợp
+
+“Bạn đã mượn từ điển từ ai?” chọn câu nào?
+
+A. だれに じしょを かしましたか。
+B. だれから じしょを かりましたか。
+C. だれで じしょを かりましたか。
+D. なんで じしょを かりましたか。
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+だれから = từ ai
+じしょを かりましたか = đã mượn từ điển?
+
+だれから じしょを かりましたか。
+= Bạn đã mượn từ điển từ ai?
+
+Câu 34 — Ôn tổng hợp
+
+“Bạn đã nhận quà từ ai?” chọn câu nào?
+
+A. だれに プレゼントを あげましたか。
+B. だれで プレゼントを もらいましたか。
+C. だれから プレゼントを もらいましたか。
+D. なんで プレゼントを もらいましたか。
+
+c
+Thought for a second
+
+Đúng rồi ✅ C
+
+だれから = từ ai
+プレゼントを もらいましたか = đã nhận quà?
+
+だれから プレゼントを もらいましたか。
+= Bạn đã nhận quà từ ai?
+
+Câu 35 — Ôn tổng hợp
+
+“Bạn đã uống thuốc chưa?” chọn câu nào?
+
+A. もう くすりを のみましたか。
+B. まだ くすりを のみましたか。
+C. もう くすりを のみますか。
+D. くすりを のみませんでしたか。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+もう くすりを のみましたか。
+= Bạn đã uống thuốc chưa?
+
+Câu 36 — Ôn tổng hợp
+
+Nếu trả lời: “Chưa, lát nữa tôi sẽ uống”, chọn câu nào?
+
+A. はい、もう のみました。
+B. いいえ、まだです。これから のみます。
+C. いいえ、のみませんでした。
+D. はい、まだ のんでいません。
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+いいえ、まだです。これから のみます。
+= Chưa, lát nữa tôi sẽ uống.
+
+これから = từ bây giờ / lát nữa sẽ
+
+Câu 37 — Ôn tổng hợp
+
+Câu nào sai khi muốn nói “Chưa làm”?
+
+A. いいえ、まだです。
+B. いいえ、まだ していません。
+C. いいえ、しませんでした。
+D. いいえ、まだ かいていません。
+
+c
+Thought for a second
+
+Đúng rồi ✅ C
+
+Vì khi hỏi:
+
+もう Vましたか。
+
+Nếu muốn nói “chưa”, dùng:
+
+いいえ、まだです。
+いいえ、まだ Vていません。
+
+Không dùng:
+
+いいえ、しませんでした。❌
+Câu 38 — Ôn tổng hợp
+
+“Bạn đã viết thư chưa?” chọn câu nào?
+
+A. もう てがみを かきましたか。
+B. まだ てがみを かきましたか。
+C. もう てがみを かきますか。
+D. てがみを かきませんでしたか。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+もう てがみを かきましたか。
+= Bạn đã viết thư chưa?
+
+Câu 39 — Ôn tổng hợp
+
+Nếu trả lời: “Chưa, tôi chưa viết”, chọn câu nào?
+
+A. はい、もう かきました。
+B. いいえ、まだ かいていません。
+C. いいえ、かきました。
+D. はい、まだです。
+
+b
+Thought for a couple of seconds
+
+Đúng rồi ✅ B
+
+いいえ、まだ かいていません。
+= Chưa, tôi chưa viết.
+
+まだ + Vていません = vẫn chưa làm V.
+
+Câu 40 — Ôn tổng hợp
+
+“Bạn đã gửi báo cáo chưa?” chọn câu nào?
+
+A. もう レポートを おくりましたか。
+B. まだ レポートを おくりましたか。
+C. もう レポートを おくりますか。
+D. レポートを おくりませんでしたか。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+もう レポートを おくりましたか。
+= Bạn đã gửi báo cáo chưa?
+
+Câu 41 — Ôn tổng hợp
+
+Nếu trả lời: “Vâng, tôi gửi rồi”, chọn câu nào?
+
+A. はい、もう おくりました。
+B. いいえ、まだです。
+C. はい、まだ おくっていません。
+D. いいえ、おくりました。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+はい、もう おくりました。
+= Vâng, tôi gửi rồi.
+
+Câu 42 — Ôn tổng hợp
+
+“Bạn đã mua quà chưa?” chọn câu nào?
+
+A. もう プレゼントを かいましたか。
+B. まだ プレゼントを かいましたか。
+C. もう プレゼントを かいますか。
+D. プレゼントを かいませんでしたか。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+もう プレゼントを かいましたか。
+= Bạn đã mua quà chưa?
+
+Câu 43 — Ôn tổng hợp
+
+Nếu trả lời: “Chưa, tôi chưa mua”, chọn câu nào?
+
+A. はい、もう かいました。
+B. いいえ、まだ かっていません。
+C. いいえ、かいました。
+D. はい、まだです。
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+いいえ、まだ かっていません。
+= Chưa, tôi chưa mua.
+
+かいます → かって → かっていません
+
+Câu 44 — Ôn tổng hợp
+
+“Bạn đã chụp ảnh chưa?” chọn câu nào?
+
+A. もう しゃしんを とりましたか。
+B. まだ しゃしんを とりましたか。
+C. もう しゃしんを とりますか。
+D. しゃしんを とりませんでしたか。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+もう しゃしんを とりましたか。
+= Bạn đã chụp ảnh chưa?
+
+Câu 45 — Ôn tổng hợp
+
+Nếu trả lời: “Vâng, tôi chụp rồi”, chọn câu nào?
+
+A. はい、もう とりました。
+B. いいえ、まだ とっていません。
+C. はい、まだです。
+D. いいえ、とりました。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+はい、もう とりました。
+= Vâng, tôi chụp rồi.
+
+Câu 46 — Ôn tổng hợp
+
+“Bạn đã học tiếng Nhật từ ai?” chọn câu nào?
+
+A. だれに にほんごを おしえましたか。
+B. だれに にほんごを ならいましたか。
+C. だれで にほんごを ならいましたか。
+D. なんで にほんごを ならいましたか。
+
+b
+Thought for a second
+
+Đúng rồi ✅ B
+
+ならいます = học từ ai
+だれに = từ ai / với ai
+
+だれに にほんごを ならいましたか。
+= Bạn đã học tiếng Nhật từ ai?
+
+Câu 47 — Ôn tổng hợp
+
+“Bạn đã dạy tiếng Nhật cho ai?” chọn câu nào?
+
+A. だれに にほんごを おしえましたか。
+B. だれから にほんごを おしえましたか。
+C. だれで にほんごを おしえましたか。
+D. なんで にほんごを おしえましたか。
+
+a
+Thought for a second
+
+Đúng rồi ✅ A
+
+おしえます = dạy / chỉ cho
+だれに = cho ai
+
+だれに にほんごを おしえましたか。
+= Bạn đã dạy tiếng Nhật cho ai?
