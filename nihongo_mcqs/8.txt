@@ -1,0 +1,1520 @@
+Dạ được. Dưới đây là bản tổng hợp Minna no Nihongo Bài 8 + bài tập 100% trắc nghiệm, không kèm đáp án để bạn tự ôn.
+
+Nội dung dựa trên file bạn gửi về Ngữ pháp Minna 1 - Bài 8, trọng tâm gồm: tính từ đuôi い / な, câu khẳng định/phủ định/nghi vấn với tính từ, tính từ bổ nghĩa cho danh từ, とても / あまり, どうですか, どんなN, が / そして, và そうですね.
+
+Minna no Nihongo Bài 8 — Tổng hợp + Bài tập trắc nghiệm
+1. Tổng quan bài 8
+Nội dung	Mẫu	Nghĩa
+Tính từ đuôi い	おおきい / ちいさい	to / nhỏ
+Tính từ đuôi な	しずか / べんり	yên tĩnh / tiện lợi
+Câu khẳng định	Nは Adjです	N thì Adj
+Phủ định tính từ い	い → くないです	Không Adj
+Phủ định tính từ な	な bỏ đi + じゃありません	Không Adj
+Tính từ bổ nghĩa danh từ	Adj + N	N có tính chất Adj
+とても	とても Adjです	Rất Adj
+あまり	あまり Adj phủ định	Không Adj lắm
+どうですか	Nはどうですか	N thì thế nào?
+どんなN	どんなNですか	Là N như thế nào?
+が	Câu 1 が、Câu 2	Nhưng
+そして	Câu 1。そして Câu 2	Và / hơn nữa
+そうですね	Ừ nhỉ / để xem nào	Đồng ý hoặc đang suy nghĩ
+2. Tính từ đuôi い và tính từ đuôi な
+2.1. Tính từ đuôi い
+
+Là tính từ thường kết thúc bằng い.
+
+Tính từ	Nghĩa
+おおきい	to
+ちいさい	nhỏ
+あたらしい	mới
+ふるい	cũ
+あつい	nóng
+さむい	lạnh
+おいしい	ngon
+たかい	đắt / cao
+やすい	rẻ
+おもしろい	thú vị
+
+Ví dụ:
+
+この ほんは おもしろいです。
+
+= Quyển sách này thú vị.
+
+2.2. Tính từ đuôi な
+
+Là tính từ khi bổ nghĩa cho danh từ thì thêm な.
+
+Tính từ	Nghĩa
+しずか	yên tĩnh
+にぎやか	náo nhiệt
+べんり	tiện lợi
+きれい	đẹp / sạch
+ゆうめい	nổi tiếng
+しんせつ	tốt bụng
+ハンサム	đẹp trai
+げんき	khỏe mạnh
+すてき	tuyệt vời
+ひま	rảnh
+
+Ví dụ:
+
+ハノイは にぎやかです。
+
+= Hà Nội náo nhiệt.
+
+2.3. Tính từ đặc biệt cần nhớ
+
+Một số từ kết thúc bằng い nhưng là tính từ な.
+
+Từ	Nghĩa	Loại
+きれい	đẹp / sạch	な-adj
+ゆうめい	nổi tiếng	な-adj
+きらい	ghét	な-adj
+
+Ghi nhớ nhanh:
+
+きれい・ゆうめい・きらい
+
+Dù có đuôi い, vẫn chia như tính từ な.
+
+3. Tính từ làm vị ngữ
+3.1. Câu khẳng định
+Công thức
+N は いAdj です。
+N は なAdj です。
+
+Với tính từ な, khi đứng cuối câu thì không thêm な.
+
+Câu	Nghĩa
+ふじさんは きれいです。	Núi Phú Sĩ đẹp.
+がっこうは あたらしいです。	Trường học mới.
+ハノイは にぎやかです。	Hà Nội náo nhiệt.
+ナムさんは ハンサムです。	Nam đẹp trai.
+しんかんせんは たかいです。	Tàu Shinkansen đắt.
+でんしゃは べんりです。	Tàu điện tiện lợi.
+3.2. とても + tính từ
+Công thức
+とても + Adj です
+Nghĩa
+
+Rất / cực kỳ
+
+Câu	Nghĩa
+にほんの たべものは とても ゆうめいです。	Đồ ăn Nhật rất nổi tiếng.
+この へやは とても しずかです。	Căn phòng này rất yên tĩnh.
+ベトナムの コーヒーは とても おいしいです。	Cà phê Việt Nam rất ngon.
+せんせいは とても ハンサムです。	Thầy giáo rất đẹp trai.
+4. Phủ định của tính từ
+4.1. Tính từ đuôi い
+Công thức
+いAdj: bỏ い + くないです
+Khẳng định	Phủ định	Nghĩa
+おいしいです	おいしくないです	không ngon
+たかいです	たかくないです	không đắt
+やすいです	やすくないです	không rẻ
+あついです	あつくないです	không nóng
+さむいです	さむくないです	không lạnh
+
+Ví dụ:
+
+やさいは おいしくないです。
+
+= Rau không ngon.
+
+4.2. Tính từ đuôi な
+Công thức
+なAdj: bỏ な + じゃありません
+Khẳng định	Phủ định	Nghĩa
+きれいです	きれいじゃありません	không đẹp / không sạch
+しずかです	しずかじゃありません	không yên tĩnh
+べんりです	べんりじゃありません	không tiện lợi
+げんきです	げんきじゃありません	không khỏe
+しんせつです	しんせつじゃありません	không tốt bụng
+
+Ví dụ:
+
+この へやは きれいじゃありません。
+
+= Căn phòng này không sạch.
+
+4.3. あまり + phủ định
+Công thức
+あまり + Adj phủ định
+Nghĩa
+
+Không Adj lắm
+
+Câu	Nghĩa
+この コンピューターは あまり べんりじゃありません。	Máy tính này không tiện lợi lắm.
+たなかさんの くるまは あまり きれいじゃありません。	Xe của Tanaka không đẹp lắm.
+この えいがは あまり おもしろくないです。	Bộ phim này không thú vị lắm.
+この おちゃは あまり おいしくないです。	Trà này không ngon lắm.
+5. Câu hỏi với tính từ
+Công thức
+N は Adj ですか。
+Nghĩa
+
+N có Adj không? / N thì Adj không?
+
+Câu hỏi	Nghĩa
+ベトナムは あついですか。	Việt Nam có nóng không?
+ティエップせんせいは ハンサムですか。	Thầy Tiệp có đẹp trai không?
+ホーチミンしは しずかですか。	TP.HCM có yên tĩnh không?
+ベトナムの コーヒーは おいしいですか。	Cà phê Việt Nam có ngon không?
+Cách trả lời
+Trả lời	Ví dụ
+Có	はい、あついです。
+Rất	はい、とても あついです。
+Không	いいえ、あつくないです。
+Không lắm	いいえ、あまり あつくないです。
+6. Tính từ bổ nghĩa cho danh từ
+6.1. Tính từ い + danh từ
+Công thức
+いAdj + N
+Cụm	Nghĩa
+おもしろい えいが	bộ phim thú vị
+たかい やま	ngọn núi cao
+あたらしい がっこう	trường học mới
+おいしい たべもの	món ăn ngon
+やすい くるま	xe rẻ
+6.2. Tính từ な + danh từ
+Công thức
+なAdj + な + N
+Cụm	Nghĩa
+しんせつな せんせい	giáo viên tốt bụng
+きれいな ひと	người đẹp
+にぎやかな まち	thành phố náo nhiệt
+べんりな でんしゃ	tàu điện tiện lợi
+ゆうめいな やま	ngọn núi nổi tiếng
+
+Ví dụ:
+
+ふじさんは たかい やまです。
+
+= Núi Phú Sĩ là ngọn núi cao.
+
+マイさんは しんせつな ひとです。
+
+= Bạn Mai là người tốt bụng.
+
+すしは おいしい たべものです。
+
+= Sushi là món ăn ngon.
+
+7. Nはどうですか
+Công thức
+N は どうですか。
+Nghĩa
+
+N thì thế nào?
+
+Dùng để hỏi cảm tưởng / ý kiến / ấn tượng về thứ người nghe đã biết, đã trải nghiệm hoặc đang trải nghiệm.
+
+Câu hỏi	Nghĩa
+フーコックは どうですか。	Phú Quốc thế nào?
+この えいがは どうですか。	Bộ phim này thế nào?
+ブンチャーは どうですか。	Bún chả thế nào?
+にほんの せいかつは どうですか。	Cuộc sống ở Nhật thế nào?
+
+Ví dụ trả lời:
+
+きれいです。
+
+= Đẹp.
+
+とても おいしいです。
+
+= Rất ngon.
+
+あまり おもしろくないです。
+
+= Không thú vị lắm.
+
+8. NはどんなNですか
+Công thức
+N1 は どんな N2 ですか。
+Nghĩa
+
+N1 là N2 như thế nào?
+
+Dùng khi người hỏi chưa rõ về đối tượng và muốn người nghe mô tả cụ thể hơn.
+
+Câu hỏi	Nghĩa
+ハノイは どんな まちですか。	Hà Nội là thành phố như thế nào?
+やまださんは どんな ひとですか。	Anh Yamada là người như thế nào?
+フォーは どんな りょうりですか。	Phở là món ăn như thế nào?
+とうきょうは どんな まちですか。	Tokyo là thành phố như thế nào?
+
+Ví dụ trả lời:
+
+ハノイは にぎやかな まちです。
+
+= Hà Nội là thành phố náo nhiệt.
+
+やまださんは おもしろい ひとです。
+
+= Anh Yamada là người thú vị.
+
+フォーは おいしい りょうりです。
+
+= Phở là món ăn ngon.
+
+9. が — nhưng
+Công thức
+Câu 1 が、Câu 2
+Nghĩa
+
+Câu 1 nhưng Câu 2
+
+Dùng để nối 2 ý trái ngược nhau.
+
+Câu	Nghĩa
+この ドレスは きれいですが、たかいです。	Cái váy này đẹp nhưng đắt.
+にほんごは むずかしいですが、おもしろいです。	Tiếng Nhật khó nhưng thú vị.
+かれは ハンサムですが、しんせつじゃありません。	Anh ấy đẹp trai nhưng không tốt bụng.
+10. そして — và / hơn nữa
+Công thức
+Câu 1。そして Câu 2。
+Nghĩa
+
+Và / hơn nữa
+
+Dùng để nối 2 ý cùng chiều: tốt + tốt, xấu + xấu.
+
+Câu	Nghĩa
+わたしの うちは ちいさいです。そして ふるいです。	Nhà tôi nhỏ và cũ.
+ベトナムの たべものは やすいです。そして おいしいです。	Đồ ăn Việt Nam rẻ và ngon.
+この コンピューターは あたらしいです。そして べんりです。	Máy tính này mới và tiện lợi.
+11. どれ — cái nào
+Công thức
+N は どれですか。
+Nghĩa
+
+N là cái nào?
+
+Dùng khi chọn trong từ 3 vật trở lên.
+
+Câu hỏi	Nghĩa
+あなたの かさは どれですか。	Ô của bạn là cái nào?
+ミラーさんの かさは どれですか。	Ô của Miller là cái nào?
+あなたの じてんしゃは どれですか。	Xe đạp của bạn là cái nào?
+
+Ví dụ trả lời:
+
+あの あおい かさです。
+
+= Là cái ô màu xanh kia.
+
+くろい じてんしゃです。
+
+= Là xe đạp màu đen.
+
+12. そうですね
+Ý nghĩa 1: Đồng ý / đồng cảm
+そうですね。
+
+= Ừ nhỉ / đúng vậy nhỉ.
+
+Ví dụ:
+
+きょうは いい てんきですね。
+そうですね。
+
+= Hôm nay thời tiết đẹp nhỉ.
+= Ừ nhỉ.
+
+Ý nghĩa 2: Đang suy nghĩ
+そうですね……
+
+= À… để xem nào…
+
+Ví dụ:
+
+しごとは どうですか。
+そうですね…… あまり いそがしくないです。
+
+= Công việc thế nào?
+= À… không bận lắm.
+
+
+
+Mình hỏi từng câu một.
+Bạn trả lời A/B/C/D.
+Mình sửa ngắn gọn rồi chuyển câu tiếp theo.
+
+Câu 1
+
+おおきい là loại tính từ nào?
+
+A. Tính từ い
+B. Tính từ な
+C. Danh từ
+D. Động từ
+
+a
+Thought for 4s
+
+✅ Đúng. おおきい là tính từ い.
+
+Câu 2
+
+ちいさい là loại tính từ nào?
+
+A. Tính từ い
+B. Tính từ な
+C. Danh từ
+D. Trợ từ
+
+a
+Thought for 6s
+
+✅ Đúng. ちいさい là tính từ い.
+
+Câu 3
+
+しずか là loại tính từ nào?
+
+A. Tính từ い
+B. Tính từ な
+C. Động từ
+D. Phó từ
+
+b
+Thought for a second
+
+✅ Đúng. しずか là tính từ な.
+Mẹo nhớ: しずかな へや = căn phòng yên tĩnh.
+
+Câu 4
+
+べんり là loại tính từ nào?
+
+A. Tính từ い
+B. Tính từ な
+C. Danh từ chỉ người
+D. Động từ
+
+b
+Thought for 7s
+
+✅ Đúng. べんり là tính từ な.
+Ví dụ: べんりな でんしゃ = tàu điện tiện lợi.
+
+Câu 5
+
+きれい là loại tính từ nào?
+
+A. Tính từ い
+B. Tính từ な
+C. Động từ
+D. Trợ từ
+
+b
+Thought for 4s
+
+✅ Đúng. きれい là tính từ な.
+Dù kết thúc bằng い, nhưng là ngoại lệ: きれいな ひと.
+
+Câu 6
+
+ゆうめい là loại tính từ nào?
+
+A. Tính từ い
+B. Tính từ な
+C. Động từ
+D. Danh từ chỉ nơi chốn
+
+b
+
+✅ Đúng. ゆうめい là tính từ な.
+Mẹo nhớ: ゆうめいな ひと = người nổi tiếng.
+
+Câu 7
+
+きらい là loại tính từ nào?
+
+A. Tính từ い
+B. Tính từ な
+C. Động từ
+D. Trợ từ
+
+b
+Thought for a second
+
+✅ Đúng. きらい là tính từ な.
+Mẹo nhớ 3 ngoại lệ: きれい・ゆうめい・きらい đều là な-adj.
+
+Câu 8
+
+おおきい nghĩa là gì?
+
+A. To
+B. Nhỏ
+C. Mới
+D. Cũ
+
+a
+Thought for a second
+
+✅ Đúng. おおきい = to / lớn.
+
+Câu 9
+
+ちいさい nghĩa là gì?
+
+A. To
+B. Nhỏ
+C. Nóng
+D. Lạnh
+
+b
+Thought for a second
+
+✅ Đúng. ちいさい = nhỏ.
+
+Câu 10
+
+あたらしい nghĩa là gì?
+
+A. Cũ
+B. Mới
+C. Đắt
+D. Rẻ
+
+b
+Thought for a second
+
+✅ Đúng. あたらしい = mới.
+
+Câu 11
+
+ふるい nghĩa là gì?
+
+A. Mới
+B. Cũ
+C. Ngon
+D. Náo nhiệt
+
+b
+Thought for a second
+
+✅ Đúng. ふるい = cũ.
+
+Câu 12
+
+おいしい nghĩa là gì?
+
+A. Ngon
+B. Đắt
+C. Khó
+D. Dễ
+
+a
+Thought for a second
+
+✅ Đúng. おいしい = ngon.
+
+Câu 13
+
+たかい nghĩa là gì?
+
+A. Đắt / cao
+B. Rẻ
+C. Nhỏ
+D. Yên tĩnh
+
+a
+
+✅ Đúng. たかい = đắt / cao.
+
+Câu 14
+
+にぎやか nghĩa là gì?
+
+A. Yên tĩnh
+B. Náo nhiệt
+C. Tiện lợi
+D. Khỏe
+
+b
+
+✅ Đúng. にぎやか = náo nhiệt.
+
+Câu 15
+
+しんせつ nghĩa là gì?
+
+A. Tốt bụng
+B. Nổi tiếng
+C. Sạch
+D. Rảnh
+
+a
+Thought for a second
+
+✅ Đúng. しんせつ = tốt bụng.
+
+Câu 16
+
+“Núi Phú Sĩ đẹp” là câu nào?
+
+A. ふじさんは きれいです。
+B. ふじさんは きれいなです。
+C. ふじさんは きれくないです。
+D. ふじさんは きれいじゃありません。
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. ふじさんは きれいです。
+Lưu ý: きれい đứng cuối câu thì không thêm な.
+
+Câu 17
+
+“Trường học mới” là câu nào?
+
+A. がっこうは あたらしいです。
+B. がっこうは あたらしです。
+C. がっこうは あたらしいなです。
+D. がっこうは あたらしくないです。
+
+a
+
+✅ Đúng. がっこうは あたらしいです。
+Vì あたらしい là tính từ い, đứng cuối câu giữ nguyên い + です.
+
+Câu 18
+
+“Hà Nội náo nhiệt” là câu nào?
+
+A. ハノイは にぎやかです。
+B. ハノイは にぎやかなです。
+C. ハノイは にぎやかいです。
+D. ハノイは にぎやかくないです。
+
+a
+
+✅ Đúng. ハノイは にぎやかです。
+Vì にぎやか là tính từ な, nhưng đứng cuối câu thì không thêm な.
+
+Câu 19
+
+“Nam đẹp trai” là câu nào?
+
+A. ナムさんは ハンサムです。
+B. ナムさんは ハンサムなです。
+C. ナムさんは ハンサムいです。
+D. ナムさんは ハンサムくないです。
+
+a
+Thought for 6s
+
+✅ Đúng. ナムさんは ハンサムです。
+ハンサム là tính từ な, nhưng đứng cuối câu thì không thêm な.
+
+Câu 20
+
+“Tàu Shinkansen đắt” là câu nào?
+
+A. しんかんせんは たかいです。
+B. しんかんせんは たかです。
+C. しんかんせんは たかくないです。
+D. しんかんせんは たかなです。
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. しんかんせんは たかいです。
+たかい = đắt / cao, là tính từ い.
+
+Câu 21
+
+とても nghĩa là gì?
+
+A. Rất
+B. Không lắm
+C. Nhưng
+D. Và
+
+a
+
+✅ Đúng. とても = rất.
+
+Ví dụ: とても おいしいです = rất ngon.
+
+Câu 22
+
+“Đồ ăn Nhật rất nổi tiếng” là câu nào?
+
+A. にほんの たべものは とても ゆうめいです。
+B. にほんの たべものは とても ゆうめいなです。
+C. にほんの たべものは あまり ゆうめいです。
+D. にほんの たべものは ゆうめいじゃありません。
+
+a
+Thought for a second
+
+✅ Đúng. にほんの たべものは とても ゆうめいです。
+ゆうめい đứng cuối câu thì không thêm な.
+
+Câu 23
+
+“Căn phòng này rất yên tĩnh” là câu nào?
+
+A. この へやは とても しずかです。
+B. この へやは とても しずかなです。
+C. この へやは あまり しずかです。
+D. この へやは しずかくないです。
+
+a
+Thought for a second
+
+✅ Đúng. この へやは とても しずかです。
+しずか đứng cuối câu thì không thêm な.
+
+Câu 24
+
+“Cà phê Việt Nam rất ngon” là câu nào?
+
+A. ベトナムの コーヒーは とても おいしいです。
+B. ベトナムの コーヒーは とても おいしです。
+C. ベトナムの コーヒーは あまり おいしいです。
+D. ベトナムの コーヒーは おいしいじゃありません。
+
+a
+Thought for a second
+
+✅ Đúng. ベトナムの コーヒーは とても おいしいです。
+おいしい = ngon, tính từ い.
+
+Câu 25
+
+おいしい phủ định là gì?
+
+A. おいしくないです
+B. おいしいじゃありません
+C. おいしないです
+D. おいしいくないです
+
+a
+Thought for a second
+
+✅ Đúng. おいしい → おいしくないです.
+Mẫu: い-adj bỏ い + くないです.
+
+Câu 26
+
+たかい phủ định là gì?
+
+A. たかくないです
+B. たかいじゃありません
+C. たかじゃありません
+D. たかいくないです
+
+a
+Thought for a second
+
+✅ Đúng. たかい → たかくないです.
+Mẫu: bỏ い + くないです.
+
+Câu 27
+
+しずか phủ định là gì?
+
+A. しずかじゃありません
+B. しずかくないです
+C. しずかいじゃありません
+D. しずかないです
+
+a
+
+✅ Đúng. しずか → しずかじゃありません.
+Mẫu: な-adj + じゃありません.
+
+Câu 28
+
+べんり phủ định là gì?
+
+A. べんりじゃありません
+B. べんりくないです
+C. べんりいです
+D. べんりないです
+
+a
+Thought for a second
+
+✅ Đúng. べんり → べんりじゃありません.
+べんり là tính từ な.
+
+Câu 29
+
+きれい phủ định là gì?
+
+A. きれいじゃありません
+B. きれくないです
+C. きれいくないです
+D. きれいないです
+
+a
+Thought for a second
+
+✅ Đúng. きれい → きれいじゃありません.
+Dù có い, nhưng きれい là tính từ な.
+
+Câu 30
+
+“Rau không ngon” là câu nào?
+
+A. やさいは おいしくないです。
+B. やさいは おいしいじゃありません。
+C. やさいは おいしないです。
+D. やさいは おいしいくないです。
+
+a
+Thought for 5s
+
+✅ Đúng. やさいは おいしくないです。
+Vì おいしい là tính từ い → おいしくないです.
+
+Câu 31
+
+この コンピューターは あまり べんりじゃありません。 nghĩa là gì?
+
+A. Máy tính này không tiện lợi lắm
+B. Máy tính này rất tiện lợi
+C. Máy tính này mới
+D. Máy tính này đắt
+
+a
+Thought for a second
+
+✅ Đúng. あまり + phủ định = không ... lắm.
+
+Câu 32
+
+“Bộ phim này không thú vị lắm” là câu nào?
+
+A. この えいがは あまり おもしろくないです。
+B. この えいがは とても おもしろいです。
+C. この えいがは おもしろいじゃありません。
+D. この えいがは あまり おもしろいです。
+
+a
+Thought for 8s
+
+✅ Đúng. この えいがは あまり おもしろくないです。
+おもしろい → おもしろくないです.
+
+Câu 33
+
+あまり thường đi với dạng nào?
+
+A. Khẳng định
+B. Phủ định
+C. Mệnh lệnh
+D. Quá khứ
+
+b
+Thought for 8s
+
+✅ Đúng. あまり thường đi với phủ định.
+Mẫu: あまり + Adj phủ định = không ... lắm.
+
+Câu 34
+
+“Trà này không ngon lắm” là câu nào?
+
+A. この おちゃは あまり おいしくないです。
+B. この おちゃは とても おいしいです。
+C. この おちゃは おいしいじゃありません。
+D. この おちゃは あまり おいしいです。
+
+a
+Thought for 6s
+
+✅ Đúng. この おちゃは あまり おいしくないです。
+あまり + phủ định = không ... lắm.
+
+Câu 35
+
+ベトナムは あついですか。 nghĩa là gì?
+
+A. Việt Nam có nóng không?
+B. Việt Nam có lạnh không?
+C. Việt Nam có đẹp không?
+D. Việt Nam có nổi tiếng không?
+
+a
+Thought for 8s
+
+✅ Đúng. ベトナムは あついですか。 = Việt Nam có nóng không?
+
+Câu 36
+
+ホーチミンしは しずかですか。 nghĩa là gì?
+
+A. TP.HCM có yên tĩnh không?
+B. TP.HCM có náo nhiệt không?
+C. TP.HCM có ngon không?
+D. TP.HCM có đắt không?
+
+a
+Thought for a second
+
+✅ Đúng. ホーチミンしは しずかですか。 = TP.HCM có yên tĩnh không?
+
+Câu 37
+
+ベトナムの コーヒーは おいしいですか。 nghĩa là gì?
+
+A. Cà phê Việt Nam có ngon không?
+B. Cà phê Việt Nam có đắt không?
+C. Cà phê Việt Nam có mới không?
+D. Cà phê Việt Nam có yên tĩnh không?
+
+a
+Thought for a second
+
+✅ Đúng. ベトナムの コーヒーは おいしいですか。 = Cà phê Việt Nam có ngon không?
+
+Câu 38
+
+“Việt Nam có nóng không?” là câu nào?
+
+A. ベトナムは あついですか。
+B. ベトナムは さむいですか。
+C. ベトナムは きれいですか。
+D. ベトナムは ゆうめいですか。
+
+a
+Thought for a second
+
+✅ Đúng. ベトナムは あついですか。 = Việt Nam có nóng không?
+
+Câu 39
+
+“Thầy Tiệp có đẹp trai không?” là câu nào?
+
+A. ティエップせんせいは ハンサムですか。
+B. ティエップせんせいは しずかですか。
+C. ティエップせんせいは おいしいですか。
+D. ティエップせんせいは たかいですか。
+
+a
+
+✅ Đúng. ティエップせんせいは ハンサムですか。 = Thầy Tiệp có đẹp trai không?
+
+Câu 40
+
+“TP.HCM có yên tĩnh không?” là câu nào?
+
+A. ホーチミンしは しずかですか。
+B. ホーチミンしは にぎやかですか。
+C. ホーチミンしは おいしいですか。
+D. ホーチミンしは たかいですか。
+
+a
+Thought for a second
+
+✅ Đúng. ホーチミンしは しずかですか。 = TP.HCM có yên tĩnh không?
+
+Câu 41
+
+“Cà phê Việt Nam có ngon không?” là câu nào?
+
+A. ベトナムの コーヒーは おいしいですか。
+B. ベトナムの コーヒーは たかいですか。
+C. ベトナムの コーヒーは ふるいですか。
+D. ベトナムの コーヒーは しずかですか。
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. ベトナムの コーヒーは おいしいですか。 = Cà phê Việt Nam có ngon không?
+
+Câu 42
+
+はい、とても あついです。 nghĩa là gì?
+
+A. Vâng, rất nóng
+B. Không, không nóng
+C. Vâng, rất lạnh
+D. Không, không đẹp
+
+a
+Thought for 10s
+
+✅ Đúng. はい、とても あついです。 = Vâng, rất nóng.
+
+Câu 43
+
+いいえ、あつくないです。 nghĩa là gì?
+
+A. Không, không nóng
+B. Vâng, rất nóng
+C. Không, không lạnh
+D. Vâng, rất đẹp
+
+a
+Thought for a second
+
+✅ Đúng. いいえ、あつくないです。 = Không, không nóng.
+
+Câu 44
+
+いいえ、あまり あつくないです。 nghĩa là gì?
+
+A. Không, không nóng lắm
+B. Vâng, rất nóng
+C. Không, rất lạnh
+D. Vâng, không đẹp lắm
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. いいえ、あまり あつくないです。 = Không, không nóng lắm.
+
+Câu 45
+
+おもしろい えいが nghĩa là gì?
+
+A. Bộ phim thú vị
+B. Bộ phim đắt
+C. Bộ phim yên tĩnh
+D. Bộ phim mới
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. おもしろい えいが = bộ phim thú vị.
+
+Câu 46
+
+たかい やま nghĩa là gì?
+
+A. Ngọn núi cao
+B. Ngọn núi rẻ
+C. Ngọn núi yên tĩnh
+D. Ngọn núi mới
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. たかい やま = ngọn núi cao.
+
+Câu 47
+
+あたらしい がっこう nghĩa là gì?
+
+A. Trường học mới
+B. Trường học cũ
+C. Trường học yên tĩnh
+D. Trường học nổi tiếng
+
+a
+Thought for a second
+
+✅ Đúng. あたらしい がっこう = trường học mới.
+
+Câu 48
+
+おいしい たべもの nghĩa là gì?
+
+A. Món ăn ngon
+B. Món ăn đắt
+C. Món ăn cũ
+D. Món ăn yên tĩnh
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. おいしい たべもの = món ăn ngon.
+
+Câu 49
+
+しんせつな せんせい nghĩa là gì?
+
+A. Giáo viên tốt bụng
+B. Giáo viên nổi tiếng
+C. Giáo viên yên tĩnh
+D. Giáo viên mới
+
+a
+Thought for a second
+
+✅ Đúng. しんせつな せんせい = giáo viên tốt bụng.
+
+Câu 50
+
+きれいな ひと nghĩa là gì?
+
+A. Người đẹp
+B. Người rẻ
+C. Người cũ
+D. Người nóng
+
+a
+
+✅ Đúng. きれいな ひと = người đẹp.
+Mẫu nhớ: な-adj + な + danh từ.
+
+Câu 51
+
+にぎやかな まち nghĩa là gì?
+
+A. Thành phố náo nhiệt
+B. Thành phố yên tĩnh
+C. Thành phố đắt
+D. Thành phố lạnh
+
+a
+Thought for a second
+
+✅ Đúng. にぎやかな まち = thành phố náo nhiệt.
+Mẫu: にぎやか là な-adj → にぎやかな + N.
+
+Câu 52
+
+べんりな でんしゃ nghĩa là gì?
+
+A. Tàu điện tiện lợi
+B. Tàu điện đắt
+C. Tàu điện cũ
+D. Tàu điện lạnh
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. べんりな でんしゃ = tàu điện tiện lợi.
+
+Câu 53
+
+ゆうめいな やま nghĩa là gì?
+
+A. Ngọn núi nổi tiếng
+B. Ngọn núi cao
+C. Ngọn núi yên tĩnh
+D. Ngọn núi cũ
+
+a
+Thought for a second
+
+✅ Đúng. ゆうめいな やま = ngọn núi nổi tiếng.
+
+Câu 54
+
+ふじさんは たかい やまです。 nghĩa là gì?
+
+A. Núi Phú Sĩ là ngọn núi cao
+B. Núi Phú Sĩ là ngọn núi rẻ
+C. Núi Phú Sĩ là thành phố náo nhiệt
+D. Núi Phú Sĩ là người tốt bụng
+
+a
+Thought for a second
+
+✅ Đúng. ふじさんは たかい やまです。 = Núi Phú Sĩ là ngọn núi cao.
+
+Câu 55
+
+マイさんは しんせつな ひとです。 nghĩa là gì?
+
+A. Mai là người tốt bụng
+B. Mai là người nổi tiếng
+C. Mai là người cũ
+D. Mai là người đắt
+
+a
+Thought for a second
+
+✅ Đúng. マイさんは しんせつな ひとです。 = Mai là người tốt bụng.
+
+Câu 56
+
+すしは おいしい たべものです。 nghĩa là gì?
+
+A. Sushi là món ăn ngon
+B. Sushi là món ăn đắt
+C. Sushi là món ăn cũ
+D. Sushi là món ăn yên tĩnh
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. すしは おいしい たべものです。 = Sushi là món ăn ngon.
+
+Câu 57
+
+フーコックは どうですか。 nghĩa là gì?
+
+A. Phú Quốc thế nào?
+B. Phú Quốc ở đâu?
+C. Phú Quốc bao nhiêu tiền?
+D. Phú Quốc là ai?
+
+a
+Thought for 6s
+
+✅ Đúng. フーコックは どうですか。 = Phú Quốc thế nào?
+
+Câu 58
+
+この えいがは どうですか。 nghĩa là gì?
+
+A. Bộ phim này thế nào?
+B. Bộ phim này ở đâu?
+C. Bộ phim này bao nhiêu tiền?
+D. Bộ phim này là ai?
+
+a
+
+✅ Đúng. この えいがは どうですか。 = Bộ phim này thế nào?
+
+Câu 59
+
+ブンチャーは どうですか。 nghĩa là gì?
+
+A. Bún chả thế nào?
+B. Bún chả ở đâu?
+C. Bún chả bao nhiêu tiền?
+D. Bún chả là ai?
+
+a
+Thought for 4s
+
+✅ Đúng. ブンチャーは どうですか。 = Bún chả thế nào?
+
+Câu 60
+
+にほんの せいかつは どうですか。 nghĩa là gì?
+
+A. Cuộc sống ở Nhật thế nào?
+B. Nhật Bản ở đâu?
+C. Đồ ăn Nhật bao nhiêu tiền?
+D. Người Nhật là ai?
+
+a
+Thought for a second
+
+✅ Đúng. にほんの せいかつは どうですか。 = Cuộc sống ở Nhật thế nào?
+
+Câu 61
+
+きれいです。 dùng để trả lời câu hỏi nào hợp lý nhất?
+
+A. フーコックは どうですか。
+B. いま なんじですか。
+C. これは いくらですか。
+D. あのひとは だれですか。
+
+a
+Thought for a second
+
+✅ Đúng. きれいです。 = Đẹp → trả lời hợp lý cho フーコックは どうですか。
+
+Câu 62
+
+とても おいしいです。 dùng để trả lời câu hỏi nào hợp lý nhất?
+
+A. ブンチャーは どうですか。
+B. いま なんじですか。
+C. これは だれですか。
+D. どこへ いきますか。
+
+a
+Thought for a second
+
+✅ Đúng. とても おいしいです。 = Rất ngon → hợp lý để trả lời ブンチャーは どうですか。
+
+Câu 63
+
+あまり おもしろくないです。 nghĩa là gì?
+
+A. Không thú vị lắm
+B. Rất thú vị
+C. Không ngon lắm
+D. Rất yên tĩnh
+
+a
+Thought for a second
+
+✅ Đúng. あまり おもしろくないです。 = Không thú vị lắm.
+
+Câu 64
+
+ハノイは どんな まちですか。 nghĩa là gì?
+
+A. Hà Nội là thành phố như thế nào?
+B. Hà Nội ở đâu?
+C. Hà Nội bao nhiêu tiền?
+D. Hà Nội có nóng không?
+
+a
+Thought for a second
+
+✅ Đúng. ハノイは どんな まちですか。 = Hà Nội là thành phố như thế nào?
+
+Câu 65
+
+やまださんは どんな ひとですか。 nghĩa là gì?
+
+A. Anh Yamada là người như thế nào?
+B. Anh Yamada ở đâu?
+C. Anh Yamada bao nhiêu tuổi?
+D. Anh Yamada là giáo viên à?
+
+a
+Thought for a second
+
+✅ Đúng. やまださんは どんな ひとですか。 = Anh Yamada là người như thế nào?
+
+Câu 66
+
+フォーは どんな りょうりですか。 nghĩa là gì?
+
+A. Phở là món ăn như thế nào?
+B. Phở ở đâu?
+C. Phở bao nhiêu tiền?
+D. Phở có yên tĩnh không?
+
+a
+Thought for a second
+
+✅ Đúng. フォーは どんな りょうりですか。 = Phở là món ăn như thế nào?
+
+Câu 67
+
+とうきょうは どんな まちですか。 nghĩa là gì?
+
+A. Tokyo là thành phố như thế nào?
+B. Tokyo ở đâu?
+C. Tokyo bao nhiêu tiền?
+D. Tokyo có ngon không?
+
+a
+Thought for a second
+
+✅ Đúng. とうきょうは どんな まちですか。 = Tokyo là thành phố như thế nào?
+
+Câu 68
+
+ハノイは にぎやかな まちです。 nghĩa là gì?
+
+A. Hà Nội là thành phố náo nhiệt
+B. Hà Nội là thành phố yên tĩnh
+C. Hà Nội là thành phố cũ
+D. Hà Nội là thành phố đắt
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. ハノイは にぎやかな まちです。 = Hà Nội là thành phố náo nhiệt.
+
+Câu 69
+
+やまださんは おもしろい ひとです。 nghĩa là gì?
+
+A. Anh Yamada là người thú vị
+B. Anh Yamada là người yên tĩnh
+C. Anh Yamada là người nổi tiếng
+D. Anh Yamada là người cũ
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. やまださんは おもしろい ひとです。 = Anh Yamada là người thú vị.
+
+Câu 70
+
+フォーは おいしい りょうりです。 nghĩa là gì?
+
+A. Phở là món ăn ngon
+B. Phở là món ăn đắt
+C. Phở là thành phố náo nhiệt
+D. Phở là người thú vị
+
+a
+Thought for a second
+
+✅ Đúng. フォーは おいしい りょうりです。 = Phở là món ăn ngon.
+
+Câu 71
+
+この ドレスは きれいですが、たかいです。 nghĩa là gì?
+
+A. Cái váy này đẹp nhưng đắt
+B. Cái váy này rẻ và đẹp
+C. Cái váy này không đẹp lắm
+D. Cái váy này cũ nhưng ngon
+
+a
+Thought for a second
+
+✅ Đúng. この ドレスは きれいですが、たかいです。 = Cái váy này đẹp nhưng đắt.
+
+Câu 72
+
+にほんごは むずかしいですが、おもしろいです。 nghĩa là gì?
+
+A. Tiếng Nhật khó nhưng thú vị
+B. Tiếng Nhật dễ và rẻ
+C. Tiếng Nhật không thú vị lắm
+D. Tiếng Nhật đẹp nhưng đắt
+
+a
+Thought for a second
+
+✅ Đúng. にほんごは むずかしいですが、おもしろいです。 = Tiếng Nhật khó nhưng thú vị.
+
+Câu 73
+
+かれは ハンサムですが、しんせつじゃありません。 nghĩa là gì?
+
+A. Anh ấy đẹp trai nhưng không tốt bụng
+B. Anh ấy tốt bụng và đẹp trai
+C. Anh ấy không đẹp trai lắm
+D. Anh ấy nổi tiếng nhưng rảnh
+
+a
+Thought for a second
+
+✅ Đúng. かれは ハンサムですが、しんせつじゃありません。
+= Anh ấy đẹp trai nhưng không tốt bụng.
+
+Câu 74
+
+わたしの うちは ちいさいです。そして ふるいです。 nghĩa là gì?
+
+A. Nhà tôi nhỏ và cũ
+B. Nhà tôi to nhưng mới
+C. Nhà tôi yên tĩnh nhưng đắt
+D. Nhà tôi không đẹp lắm
+
+a
+Thought for a second
+
+✅ Đúng. わたしの うちは ちいさいです。そして ふるいです。
+= Nhà tôi nhỏ và cũ.
+
+Câu 75
+
+ベトナムの たべものは やすいです。そして おいしいです。 nghĩa là gì?
+
+A. Đồ ăn Việt Nam rẻ và ngon
+B. Đồ ăn Việt Nam đắt nhưng ngon
+C. Đồ ăn Việt Nam không ngon lắm
+D. Đồ ăn Việt Nam cũ và lạnh
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. ベトナムの たべものは やすいです。そして おいしいです。
+= Đồ ăn Việt Nam rẻ và ngon.
+
+Câu 76
+
+この コンピューターは あたらしいです。そして べんりです。 nghĩa là gì?
+
+A. Máy tính này mới và tiện lợi
+B. Máy tính này cũ nhưng rẻ
+C. Máy tính này không tiện lợi lắm
+D. Máy tính này nóng và đắt
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. この コンピューターは あたらしいです。そして べんりです。
+= Máy tính này mới và tiện lợi.
+
+Câu 77
+
+あなたの かさは どれですか。 nghĩa là gì?
+
+A. Ô của bạn là cái nào?
+B. Ô của bạn ở đâu?
+C. Ô của bạn bao nhiêu tiền?
+D. Ô của bạn có đẹp không?
+
+a
+Thought for a couple of seconds
+
+✅ Đúng. あなたの かさは どれですか。
+= Ô của bạn là cái nào?
+
+Câu 78
+
+ミラーさんの かさは どれですか。 nghĩa là gì?
+
+A. Ô của anh Miller là cái nào?
+B. Ô của anh Miller ở đâu?
+C. Ô của anh Miller bao nhiêu tiền?
+D. Anh Miller là ai?
+
+a
+Thought for 5s
+
+✅ Đúng. ミラーさんの かさは どれですか。
+= Ô của anh Miller là cái nào?
+
+Câu 79
+
+あなたの じてんしゃは どれですか。 nghĩa là gì?
+
+A. Xe đạp của bạn là cái nào?
+B. Xe đạp của bạn ở đâu?
+C. Xe đạp của bạn bao nhiêu tiền?
+D. Xe đạp của bạn có mới không?
+
+a
+Thought for 13s
+
+✅ Đúng. あなたの じてんしゃは どれですか。
+= Xe đạp của bạn là cái nào?
+
+Câu 80
+
+あの あおい かさです。 nghĩa là gì?
+
+A. Là cái ô màu xanh kia
+B. Là cái ô màu đen kia
+C. Là xe đạp màu xanh
+D. Là cái ô của Miller
+
+a
+Thought for a second
+
+✅ Đúng. あの あおい かさです。
+= Là cái ô màu xanh kia.
+
+Câu 81
+
+くろい じてんしゃです。 nghĩa là gì?
+
+A. Là xe đạp màu đen
+B. Là ô màu đen
+C. Là xe đạp màu xanh
+D. Là cái ô kia
+
+a
+Thought for a second
+
+✅ Đúng. くろい じてんしゃです。
+= Là xe đạp màu đen.
+
+Tổng kết nhanh Bài 8
+
+Bạn đã ôn đủ các phần chính:
+
+Tính từ い: おいしい、たかい、あつい…
+Tính từ な: しずか、べんり、きれい、ゆうめい…
+Phủ định:
+い-adj → おいしくないです
+な-adj → しずかじゃありません
+とても = rất
+あまり + phủ định = không… lắm
+どうですか = thế nào?
+どんな N = N như thế nào?
+が = nhưng
+そして = và / hơn nữa
+どれ = cái nào
