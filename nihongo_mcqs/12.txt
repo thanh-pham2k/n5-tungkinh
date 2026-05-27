@@ -1,0 +1,1049 @@
+Dạ được. Dưới đây là bản **tổng hợp Minna no Nihongo Bài 12** + **bài tập 100% trắc nghiệm**, không kèm đáp án để bạn tự ôn.
+
+Nội dung trong file là **Ngữ pháp Minna 1 - Bài 12**, trọng tâm gồm: **quá khứ của tính từ/danh từ**, **so sánh hơn**, **so sánh lựa chọn**, **so sánh nhất**, và **tính từ + の**. 
+
+---
+
+# Minna no Nihongo Bài 12 — Tổng hợp + Bài tập trắc nghiệm
+
+## 1. Tổng quan bài 12
+
+| Nội dung                | Mẫu                            | Nghĩa                                        |
+| ----------------------- | ------------------------------ | -------------------------------------------- |
+| Quá khứ tính từ な       | なAdj / N でした                   | Đã là / đã...                                |
+| Quá khứ phủ định なAdj/N | なAdj / N じゃありませんでした            | Đã không...                                  |
+| Quá khứ tính từ い       | いAdj bỏ い + かったです              | Đã...                                        |
+| Quá khứ phủ định いAdj   | いAdj bỏ い + くなかったです            | Đã không...                                  |
+| Hỏi cảm nhận quá khứ    | Nは どうでしたか                      | N đã thế nào?                                |
+| So sánh hơn             | N1は N2より Adjです                 | N1 Adj hơn N2                                |
+| Hỏi lựa chọn            | N1と N2と どちらが Adjですか            | N1 và N2 cái nào Adj hơn?                    |
+| So sánh nhất            | Nの中で なに/どこ/だれ/いつ が いちばん Adjですか | Trong N, cái gì/nơi nào/ai/khi nào Adj nhất? |
+| Tính từ + の             | Adj + の                        | Cái Adj / người Adj                          |
+
+---
+
+# 2. Quá khứ của tính từ な và danh từ
+
+## 2.1. Khẳng định quá khứ
+
+### Công thức
+
+```text
+なAdj / N + でした
+```
+
+| Hiện tại | Quá khứ | Nghĩa            |
+| -------- | ------- | ---------------- |
+| きれいです    | きれいでした  | Đã đẹp / đã sạch |
+| ひまです     | ひまでした   | Đã rảnh          |
+| しずかです    | しずかでした  | Đã yên tĩnh      |
+| 雨です      | 雨でした    | Đã mưa           |
+| 雪です      | 雪でした    | Đã có tuyết      |
+
+Ví dụ:
+
+| Câu              | Nghĩa                          |
+| ---------------- | ------------------------------ |
+| きのうは ひまでした。      | Hôm qua tôi đã rảnh.           |
+| むかし、この町は しずかでした。 | Ngày xưa khu phố này yên tĩnh. |
+| きのうは 雨でした。       | Hôm qua trời mưa.              |
+| 先週は 雪でした。        | Tuần trước có tuyết.           |
+
+---
+
+## 2.2. Phủ định quá khứ
+
+### Công thức
+
+```text
+なAdj / N + じゃありませんでした
+```
+
+| Hiện tại phủ định | Quá khứ phủ định | Nghĩa                   |
+| ----------------- | ---------------- | ----------------------- |
+| ひまじゃありません         | ひまじゃありませんでした     | Đã không rảnh           |
+| しずかじゃありません        | しずかじゃありませんでした    | Đã không yên tĩnh       |
+| げんきじゃありません        | げんきじゃありませんでした    | Đã không khỏe           |
+| 雨じゃありません          | 雨じゃありませんでした      | Đã không mưa            |
+| 町じゃありません          | 町じゃありませんでした      | Đã không phải thành phố |
+
+Ví dụ:
+
+| Câu                  | Nghĩa                                  |
+| -------------------- | -------------------------------------- |
+| きのうは ひまじゃありませんでした。   | Hôm qua tôi đã không rảnh.             |
+| けさは げんきじゃありませんでした。   | Sáng nay tôi đã không khỏe.            |
+| おとといは 雨じゃありませんでした。   | Hôm kia trời đã không mưa.             |
+| むかし、ここは 町じゃありませんでした。 | Ngày xưa chỗ này không phải thành phố. |
+
+---
+
+# 3. Quá khứ của tính từ い
+
+## 3.1. Khẳng định quá khứ
+
+### Công thức
+
+```text
+いAdj bỏ い + かったです
+```
+
+| Hiện tại | Quá khứ  | Nghĩa   |
+| -------- | -------- | ------- |
+| あついです    | あつかったです  | Đã nóng |
+| たのしいです   | たのしかったです | Đã vui  |
+| おいしいです   | おいしかったです | Đã ngon |
+| たかいです    | たかかったです  | Đã đắt  |
+| いいです     | よかったです   | Đã tốt  |
+
+Ví dụ:
+
+| Câu               | Nghĩa                        |
+| ----------------- | ---------------------------- |
+| 先月は あつかったです。      | Tháng trước đã nóng.         |
+| きのうは たのしかったです。    | Hôm qua đã vui.              |
+| すしは とても おいしかったです。 | Sushi đã rất ngon.           |
+| 先月、ぶた肉は たかかったです。  | Tháng trước thịt lợn đã đắt. |
+
+Lưu ý đặc biệt:
+
+```text
+いいです → よかったです
+```
+
+Không nói:
+
+```text
+いかったです ❌
+```
+
+---
+
+## 3.2. Phủ định quá khứ
+
+### Công thức
+
+```text
+いAdj bỏ い + くなかったです
+```
+
+| Hiện tại phủ định | Quá khứ phủ định | Nghĩa         |
+| ----------------- | ---------------- | ------------- |
+| あつくないです           | あつくなかったです        | Đã không nóng |
+| おいしくないです          | おいしくなかったです       | Đã không ngon |
+| たのしくないです          | たのしくなかったです       | Đã không vui  |
+| たかくないです           | たかくなかったです        | Đã không đắt  |
+| よくないです            | よくなかったです         | Đã không tốt  |
+
+Ví dụ:
+
+| Câu                    | Nghĩa                         |
+| ---------------------- | ----------------------------- |
+| けさは あつくなかったです。         | Sáng nay đã không nóng.       |
+| きのうの料理は おいしくなかったです。    | Món ăn hôm qua đã không ngon. |
+| 天気は あまり よくなかったです。      | Thời tiết đã không tốt lắm.   |
+| パーティーは あまり たのしくなかったです。 | Bữa tiệc đã không vui lắm.    |
+
+---
+
+# 4. Nはどうでしたか — hỏi cảm nhận quá khứ
+
+## Công thức
+
+```text
+N は どうでしたか。
+```
+
+## Nghĩa
+
+**N đã thế nào?**
+
+Dùng để hỏi cảm nhận về việc đã xảy ra trong quá khứ.
+
+| Câu hỏi         | Nghĩa                            |
+| --------------- | -------------------------------- |
+| 日本は どうでしたか。     | Nhật Bản đã thế nào?             |
+| 東京は どうでしたか。     | Tokyo đã thế nào?                |
+| きのうは どうでしたか。    | Hôm qua thế nào?                 |
+| 先週のテストは どうでしたか。 | Bài kiểm tra tuần trước thế nào? |
+
+Ví dụ trả lời:
+
+| Câu           | Nghĩa          |
+| ------------- | -------------- |
+| きれいでした。       | Đã đẹp.        |
+| たのしかったです。     | Đã vui.        |
+| あまり よくなかったです。 | Không tốt lắm. |
+| かんたんでした。      | Đã đơn giản.   |
+
+---
+
+# 5. So sánh hơn: N1はN2よりAdjです
+
+## Công thức
+
+```text
+N1 は N2 より Adj です。
+```
+
+## Nghĩa
+
+**N1 thì Adj hơn N2.**
+
+Trong đó:
+
+| Thành phần | Vai trò           |
+| ---------- | ----------------- |
+| N1         | Đối tượng hơn     |
+| N2         | Đối tượng kém hơn |
+| より         | hơn / so với      |
+| Adj        | Tính chất so sánh |
+
+Ví dụ:
+
+| Câu                     | Nghĩa                            |
+| ----------------------- | -------------------------------- |
+| 牛肉は 豚肉より 高いです。          | Thịt bò đắt hơn thịt lợn.        |
+| このかばんは あのかばんより きれいです。   | Cái cặp này đẹp hơn cái cặp kia. |
+| ナムさんは アンさんより テニスが 上手です。 | Nam chơi tennis giỏi hơn An.     |
+| 日本は ベトナムより 便利です。        | Nhật Bản tiện lợi hơn Việt Nam.  |
+
+---
+
+## 5.1. ずっと — hơn hẳn / hơn rất nhiều
+
+```text
+N1 は N2 より ずっと Adj です。
+```
+
+Ví dụ:
+
+| Câu                   | Nghĩa                                        |
+| --------------------- | -------------------------------------------- |
+| 日本は ベトナムより ずっと 便利です。  | Nhật Bản tiện lợi hơn Việt Nam rất nhiều.    |
+| ロシアは ベトナムより ずっと 広いです。 | Nga rộng hơn Việt Nam rất nhiều.             |
+| 町は 田舎より ずっと にぎやかです。   | Thành phố náo nhiệt hơn nông thôn rất nhiều. |
+
+---
+
+# 6. So sánh lựa chọn: N1とN2とどちらがAdjですか
+
+## Công thức
+
+```text
+N1 と N2 と どちらが Adj ですか。
+```
+
+## Nghĩa
+
+**Giữa N1 và N2, cái nào Adj hơn?**
+
+Cách trả lời:
+
+```text
+N のほうが Adj です。
+```
+
+= N thì Adj hơn.
+
+Ví dụ:
+
+| Câu hỏi               | Trả lời        |
+| --------------------- | -------------- |
+| 春と秋と どちらが 好きですか。      | 秋のほうが 好きです。    |
+| ごはんと フォーと どちらが 好きですか。 | ごはんのほうが 好きです。  |
+| ベトナムと 日本と どちらが いいですか。 | ベトナムのほうが いいです。 |
+| 英語と 日本語と どちらが 難しいですか。 | 日本語のほうが 難しいです。 |
+
+---
+
+## 6.1. どちらもAdjです
+
+Nếu cả hai đều có cùng tính chất:
+
+```text
+どちらも Adj です。
+```
+
+Ví dụ:
+
+| Câu          | Nghĩa             |
+| ------------ | ----------------- |
+| どちらも 難しいです。  | Cái nào cũng khó. |
+| どちらも きれいです。  | Cái nào cũng đẹp. |
+| どちらも あついです。  | Cả hai đều nóng.  |
+| どちらも おいしいです。 | Cả hai đều ngon.  |
+
+---
+
+# 7. So sánh nhất
+
+## Công thức
+
+```text
+N の中で なに / どこ / だれ / いつ が いちばん Adj ですか。
+```
+
+## Nghĩa
+
+**Trong phạm vi N, cái gì / nơi nào / ai / khi nào là Adj nhất?**
+
+| Từ hỏi | Dùng để hỏi |
+| ------ | ----------- |
+| なに     | Cái gì      |
+| どこ     | Nơi nào     |
+| だれ     | Ai          |
+| いつ     | Khi nào     |
+
+Ví dụ:
+
+| Câu hỏi                 | Nghĩa                                          |
+| ----------------------- | ---------------------------------------------- |
+| 家族の中で だれが いちばん 背が高いですか。 | Trong gia đình, ai cao nhất?                   |
+| 日本で どこが いちばん きれいですか。    | Ở Nhật, nơi nào đẹp nhất?                      |
+| 1年で いつが いちばん 好きですか。     | Trong 1 năm, bạn thích mùa/thời điểm nào nhất? |
+| 果物の中で なにが いちばん おいしいですか。 | Trong các loại trái cây, quả nào ngon nhất?    |
+
+Cách trả lời:
+
+```text
+N が いちばん Adj です。
+```
+
+Ví dụ:
+
+| Câu               | Nghĩa                   |
+| ----------------- | ----------------------- |
+| 父が いちばん 背が高いです。   | Bố tôi cao nhất.        |
+| 京都が いちばん きれいです。   | Kyoto đẹp nhất.         |
+| 秋が いちばん 好きです。     | Tôi thích mùa thu nhất. |
+| すいかが いちばん おいしいです。 | Dưa hấu ngon nhất.      |
+
+---
+
+# 8. Tính từ + の
+
+## Công thức
+
+```text
+Adj + の
+```
+
+## Nghĩa
+
+**Cái Adj / người Adj**
+
+Dùng khi danh từ phía sau đã rõ, không cần lặp lại.
+
+Ví dụ:
+
+| Câu đầy đủ | Rút gọn |
+| ---------- | ------- |
+| 赤いかばんです。   | 赤いのです。  |
+| 小さいボールです。  | 小さいのです。 |
+| 青いペンです。    | 青いのです。  |
+| 新しい車です。    | 新しいのです。 |
+
+Ví dụ hội thoại:
+
+```text
+マイさんのかばんは どれですか。
+赤いのです。
+```
+
+= Cặp của Mai là cái nào?
+= Là cái màu đỏ.
+
+```text
+青いペンと 赤いペンと どちらが 好きですか。
+赤いのが 好きです。
+```
+
+= Bút xanh và bút đỏ, bạn thích cái nào hơn?
+= Tôi thích cái màu đỏ hơn.
+
+---
+
+# 9. Bài tập trắc nghiệm
+
+## Phần A. Chọn nghĩa đúng
+
+### 1. きれいでした nghĩa là gì?
+
+A. Đẹp / sạch
+B. Đã đẹp / đã sạch
+C. Không đẹp
+D. Đã không đẹp
+
+### 2. ひまじゃありませんでした nghĩa là gì?
+
+A. Rảnh
+B. Đã rảnh
+C. Không rảnh
+D. Đã không rảnh
+
+### 3. おいしかったです nghĩa là gì?
+
+A. Ngon
+B. Đã ngon
+C. Không ngon
+D. Đã không ngon
+
+### 4. おいしくなかったです nghĩa là gì?
+
+A. Ngon
+B. Đã ngon
+C. Không ngon
+D. Đã không ngon
+
+### 5. どうでしたか nghĩa là gì?
+
+A. Thế nào?
+B. Đã thế nào?
+C. Cái nào?
+D. Bao lâu?
+
+---
+
+## Phần B. Chọn dạng quá khứ đúng của tính từ な / danh từ
+
+### 6. きれいです → quá khứ là gì?
+
+A. きれいでした
+B. きれかったです
+C. きれいかったです
+D. きれいじゃありません
+
+### 7. ひまです → quá khứ là gì?
+
+A. ひまでした
+B. ひまかったです
+C. ひまくなかったです
+D. ひまじゃありません
+
+### 8. 雨です → quá khứ là gì?
+
+A. 雨でした
+B. 雨かったです
+C. 雨くなかったです
+D. 雨じゃありません
+
+### 9. しずかです → quá khứ là gì?
+
+A. しずかでした
+B. しずかかったです
+C. しずかくなかったです
+D. しずかなでした
+
+### 10. 学生です → quá khứ là gì?
+
+A. 学生でした
+B. 学生かったです
+C. 学生くなかったです
+D. 学生なでした
+
+---
+
+## Phần C. Phủ định quá khứ của tính từ な / danh từ
+
+### 11. げんきです → phủ định quá khứ là gì?
+
+A. げんきじゃありませんでした
+B. げんきくなかったです
+C. げんきかったです
+D. げんきでした
+
+### 12. ひまです → phủ định quá khứ là gì?
+
+A. ひまじゃありませんでした
+B. ひまくなかったです
+C. ひまかったです
+D. ひまでした
+
+### 13. 雪です → phủ định quá khứ là gì?
+
+A. 雪じゃありませんでした
+B. 雪くなかったです
+C. 雪かったです
+D. 雪でした
+
+### 14. 町です → phủ định quá khứ là gì?
+
+A. 町じゃありませんでした
+B. 町くなかったです
+C. 町かったです
+D. 町でした
+
+### 15. “Hôm qua tôi đã không rảnh” là câu nào?
+
+A. きのうは ひまでした。
+B. きのうは ひまじゃありませんでした。
+C. きのうは ひまくなかったです。
+D. きのうは ひまです。
+
+---
+
+## Phần D. Quá khứ của tính từ い
+
+### 16. あついです → quá khứ là gì?
+
+A. あつかったです
+B. あついでした
+C. あつくなかったです
+D. あついかったです
+
+### 17. たのしいです → quá khứ là gì?
+
+A. たのしかったです
+B. たのしいでした
+C. たのしくなかったです
+D. たのしいかったです
+
+### 18. おいしいです → quá khứ là gì?
+
+A. おいしかったです
+B. おいしいでした
+C. おいしくなかったです
+D. おいしいかったです
+
+### 19. たかいです → quá khứ là gì?
+
+A. たかかったです
+B. たかいでした
+C. たかくなかったです
+D. たかいかったです
+
+### 20. いいです → quá khứ là gì?
+
+A. よかったです
+B. いかったです
+C. いいかったです
+D. よくなかったです
+
+---
+
+## Phần E. Phủ định quá khứ của tính từ い
+
+### 21. あついです → phủ định quá khứ là gì?
+
+A. あつくなかったです
+B. あついじゃありませんでした
+C. あつかったです
+D. あついでした
+
+### 22. おいしいです → phủ định quá khứ là gì?
+
+A. おいしくなかったです
+B. おいしいじゃありませんでした
+C. おいしかったです
+D. おいしいでした
+
+### 23. たのしいです → phủ định quá khứ là gì?
+
+A. たのしくなかったです
+B. たのしいじゃありませんでした
+C. たのしかったです
+D. たのしいでした
+
+### 24. いいです → phủ định quá khứ là gì?
+
+A. よくなかったです
+B. いくなかったです
+C. いいくなかったです
+D. よかったです
+
+### 25. “Món ăn hôm qua đã không ngon” là câu nào?
+
+A. きのうの料理は おいしかったです。
+B. きのうの料理は おいしくなかったです。
+C. きのうの料理は おいしいでした。
+D. きのうの料理は おいしいじゃありませんでした。
+
+---
+
+## Phần F. Nはどうでしたか
+
+### 26. “Nhật Bản đã thế nào?” là câu nào?
+
+A. 日本は どうですか。
+B. 日本は どうでしたか。
+C. 日本は どちらですか。
+D. 日本は どれですか。
+
+### 27. “Tokyo đã thế nào?” là câu nào?
+
+A. 東京は どうでしたか。
+B. 東京は どうですか。
+C. 東京は どこですか。
+D. 東京は いくらですか。
+
+### 28. “Bài kiểm tra tuần trước thế nào?” là câu nào?
+
+A. 先週のテストは どうでしたか。
+B. 先週のテストは どうですか。
+C. 先週のテストは どこでしたか。
+D. 先週のテストは なんでしたか。
+
+### 29. 東京は どうでしたか。
+
+Nếu trả lời “đã đẹp”, chọn câu đúng.
+
+A. きれいでした。
+B. きれいです。
+C. きれいかったです。
+D. きれくなかったです。
+
+### 30. きのうは どうでしたか。
+
+Nếu trả lời “đã không khỏe”, chọn câu đúng.
+
+A. げんきじゃありませんでした。
+B. げんきです。
+C. げんきでした。
+D. げんきくなかったです。
+
+---
+
+## Phần G. So sánh hơn: N1はN2よりAdjです
+
+### 31. N1はN2よりAdjです nghĩa là gì?
+
+A. N1 Adj hơn N2
+B. N1 và N2 đều Adj
+C. N1 không Adj bằng N2
+D. N1 là N2
+
+### 32. “Thịt bò đắt hơn thịt lợn” là câu nào?
+
+A. 牛肉は 豚肉より 高いです。
+B. 豚肉は 牛肉より 高いです。
+C. 牛肉と 豚肉は 高いです。
+D. 牛肉は 豚肉が 高いです。
+
+### 33. “Cái cặp này đẹp hơn cái cặp kia” là câu nào?
+
+A. このかばんは あのかばんより きれいです。
+B. あのかばんは このかばんより きれいです。
+C. このかばんと あのかばんは きれいです。
+D. このかばんは あのかばんが きれいです。
+
+### 34. “Nam chơi tennis giỏi hơn An” là câu nào?
+
+A. ナムさんは アンさんより テニスが 上手です。
+B. アンさんは ナムさんより テニスが 上手です。
+C. ナムさんと アンさんは テニスが 上手です。
+D. ナムさんは テニスより アンさんが 上手です。
+
+### 35. “Nhật Bản tiện lợi hơn Việt Nam” là câu nào?
+
+A. 日本は ベトナムより 便利です。
+B. ベトナムは 日本より 便利です。
+C. 日本と ベトナムは 便利です。
+D. 日本は ベトナムが 便利です。
+
+---
+
+## Phần H. ずっと
+
+### 36. ずっと trong so sánh nghĩa là gì?
+
+A. Hơn hẳn / hơn rất nhiều
+B. Một chút
+C. Không lắm
+D. Cũng
+
+### 37. “Nhật Bản tiện lợi hơn Việt Nam rất nhiều” là câu nào?
+
+A. 日本は ベトナムより ずっと 便利です。
+B. 日本は ベトナムより あまり 便利です。
+C. 日本は ベトナムと ずっと 便利です。
+D. 日本は ベトナムが ずっと 便利です。
+
+### 38. “Nga rộng hơn Việt Nam rất nhiều” là câu nào?
+
+A. ロシアは ベトナムより ずっと 広いです。
+B. ベトナムは ロシアより ずっと 広いです。
+C. ロシアと ベトナムは 広いです。
+D. ロシアは ベトナムが 広いです。
+
+### 39. “Thành phố náo nhiệt hơn nông thôn rất nhiều” là câu nào?
+
+A. 町は 田舎より ずっと にぎやかです。
+B. 田舎は 町より ずっと にぎやかです。
+C. 町と 田舎は にぎやかです。
+D. 町は 田舎が にぎやかです。
+
+---
+
+## Phần I. So sánh lựa chọn
+
+### 40. “Mùa xuân và mùa thu, bạn thích mùa nào hơn?” là câu nào?
+
+A. 春と秋と どちらが 好きですか。
+B. 春は秋より 好きですか。
+C. 春と秋は 好きですか。
+D. 春が秋と 好きですか。
+
+### 41. “Cơm và phở, bạn thích cái nào hơn?” là câu nào?
+
+A. ごはんと フォーと どちらが 好きですか。
+B. ごはんは フォーより 好きですか。
+C. ごはんと フォーは 好きですか。
+D. ごはんが フォーと 好きですか。
+
+### 42. “Tiếng Anh và tiếng Nhật, cái nào khó hơn?” là câu nào?
+
+A. 英語と 日本語と どちらが 難しいですか。
+B. 英語は 日本語より 難しいですか。
+C. 英語と 日本語は 難しいですか。
+D. 英語が 日本語と 難しいですか。
+
+### 43. 春と秋と どちらが 好きですか。
+
+“Tôi thích mùa thu hơn” là câu nào?
+
+A. 秋のほうが 好きです。
+B. 春のほうが 好きです。
+C. どちらも 好きです。
+D. 秋より 好きです。
+
+### 44. 英語と 日本語と どちらが 難しいですか。
+
+“Tiếng Nhật khó hơn” là câu nào?
+
+A. 日本語のほうが 難しいです。
+B. 英語のほうが 難しいです。
+C. どちらも 難しいです。
+D. 日本語より 難しいです。
+
+---
+
+## Phần J. どちらも
+
+### 45. どちらも nghĩa là gì?
+
+A. Cả hai đều
+B. Cái nào
+C. Không cái nào
+D. Một cái
+
+### 46. “Cả hai đều khó” là câu nào?
+
+A. どちらも 難しいです。
+B. どちらが 難しいです。
+C. どれも 難しいですか。
+D. どちらも 難しくないですか。
+
+### 47. “Cả hai đều ngon” là câu nào?
+
+A. どちらも おいしいです。
+B. どちらが おいしいです。
+C. どれも おいしいですか。
+D. どちらも おいしくないですか。
+
+### 48. “Cả hai đều đẹp” là câu nào?
+
+A. どちらも きれいです。
+B. どちらが きれいです。
+C. どれも きれいですか。
+D. どちらも きれいじゃありません。
+
+---
+
+## Phần K. So sánh nhất
+
+### 49. いちばん nghĩa là gì?
+
+A. Nhất
+B. Hơn
+C. Cả hai
+D. Khoảng
+
+### 50. “Trong gia đình, ai cao nhất?” là câu nào?
+
+A. 家族の中で だれが いちばん 背が高いですか。
+B. 家族と だれが 背が高いですか。
+C. 家族より だれが 背が高いですか。
+D. 家族は だれより 背が高いですか。
+
+### 51. “Ở Nhật, nơi nào đẹp nhất?” là câu nào?
+
+A. 日本で どこが いちばん きれいですか。
+B. 日本と どこが きれいですか。
+C. 日本より どこが きれいですか。
+D. 日本は どこより きれいですか。
+
+### 52. “Trong 1 năm, bạn thích mùa nào nhất?” là câu nào?
+
+A. 1年で いつが いちばん 好きですか。
+B. 1年と いつが 好きですか。
+C. 1年より いつが 好きですか。
+D. 1年は いつより 好きですか。
+
+### 53. “Trong các loại trái cây, quả nào ngon nhất?” là câu nào?
+
+A. 果物の中で なにが いちばん おいしいですか。
+B. 果物と なにが おいしいですか。
+C. 果物より なにが おいしいですか。
+D. 果物は なにより おいしいですか。
+
+---
+
+## Phần L. Trả lời so sánh nhất
+
+### 54. 家族の中で だれが いちばん 背が高いですか。
+
+“Bố tôi cao nhất” là câu nào?
+
+A. 父が いちばん 背が高いです。
+B. 父より 背が高いです。
+C. 父のほうが 背が高いです。
+D. 父と 背が高いです。
+
+### 55. 日本で どこが いちばん きれいですか。
+
+“Kyoto đẹp nhất” là câu nào?
+
+A. 京都が いちばん きれいです。
+B. 京都より きれいです。
+C. 京都のほうが きれいです。
+D. 京都と きれいです。
+
+### 56. 果物の中で なにが いちばん おいしいですか。
+
+“Dưa hấu ngon nhất” là câu nào?
+
+A. すいかが いちばん おいしいです。
+B. すいかより おいしいです。
+C. すいかのほうが おいしいです。
+D. すいかと おいしいです。
+
+---
+
+## Phần M. Tính từ + の
+
+### 57. Adj + の dùng để làm gì?
+
+A. Thay cho danh từ đã rõ
+B. Chỉ quá khứ
+C. Chỉ phủ định
+D. Chỉ so sánh nhất
+
+### 58. 赤いのです nghĩa là gì?
+
+A. Là cái màu đỏ
+B. Là cái màu xanh
+C. Là cái mới
+D. Là cái nhỏ
+
+### 59. 小さいのです nghĩa là gì?
+
+A. Là cái nhỏ
+B. Là cái to
+C. Là cái cũ
+D. Là cái đẹp
+
+### 60. マイさんのかばんは どれですか。
+
+“Là cái màu đỏ” trả lời thế nào?
+
+A. 赤いのです。
+B. 赤いです。
+C. 赤いかばんは どれです。
+D. 赤いよりです。
+
+### 61. 青いペンと 赤いペンと どちらが 好きですか。
+
+“Tôi thích cái màu đỏ hơn” là câu nào?
+
+A. 赤いのが 好きです。
+B. 赤いが 好きです。
+C. 赤いペンより 好きです。
+D. 赤いです。
+
+---
+
+## Phần N. Mini test tổng hợp
+
+### 62. きのうは たのしかったです。
+
+A. Hôm qua đã vui.
+B. Hôm qua không vui.
+C. Hôm qua đã không vui.
+D. Hôm qua đẹp.
+
+### 63. パーティーは あまり たのしくなかったです。
+
+A. Bữa tiệc không vui lắm.
+B. Bữa tiệc rất vui.
+C. Bữa tiệc đã vui.
+D. Bữa tiệc đẹp.
+
+### 64. 先週のテストは かんたんでした。
+
+A. Bài kiểm tra tuần trước đã dễ.
+B. Bài kiểm tra tuần trước không dễ.
+C. Bài kiểm tra tuần trước khó.
+D. Bài kiểm tra tuần trước đắt.
+
+### 65. 日本語は 英語より 難しいです。
+
+A. Tiếng Nhật khó hơn tiếng Anh.
+B. Tiếng Anh khó hơn tiếng Nhật.
+C. Tiếng Nhật và tiếng Anh đều khó.
+D. Tiếng Nhật dễ hơn tiếng Anh.
+
+### 66. ごはんと フォーと どちらが 好きですか。
+
+A. Cơm và phở, bạn thích cái nào hơn?
+B. Cơm ngon hơn phở.
+C. Cơm và phở đều ngon.
+D. Bạn ăn cơm hay phở chưa?
+
+### 67. どちらも おいしいです。
+
+A. Cả hai đều ngon.
+B. Cái nào ngon hơn?
+C. Không cái nào ngon.
+D. Cái này ngon hơn.
+
+### 68. 日本で どこが いちばん きれいですか。
+
+A. Ở Nhật, nơi nào đẹp nhất?
+B. Nhật đẹp hơn nơi nào?
+C. Nhật và nơi nào đẹp hơn?
+D. Nhật đã đẹp không?
+
+### 69. 京都が いちばん きれいです。
+
+A. Kyoto đẹp nhất.
+B. Kyoto đẹp hơn.
+C. Kyoto không đẹp.
+D. Kyoto đã không đẹp.
+
+### 70. 赤いのが 好きです。
+
+A. Tôi thích cái màu đỏ.
+B. Tôi thích cái màu xanh.
+C. Tôi không thích màu đỏ.
+D. Cái màu đỏ đã đẹp.
+
+Dựa trên file bài tập Minna no Nihongo Bài 12 bạn gửi. Nội dung trọng tâm gồm quá khứ tính từ/danh từ, so sánh hơn, lựa chọn, so sánh nhất và tính từ + の. 
+
+## Đáp án nhanh
+
+```text
+1.B  2.D  3.B  4.D  5.B
+6.A  7.A  8.A  9.A  10.A
+11.A 12.A 13.A 14.A 15.B
+16.A 17.A 18.A 19.A 20.A
+21.A 22.A 23.A 24.A 25.B
+26.B 27.A 28.A 29.A 30.A
+31.A 32.A 33.A 34.A 35.A
+36.A 37.A 38.A 39.A
+40.A 41.A 42.A 43.A 44.A
+45.A 46.A 47.A 48.A
+49.A 50.A 51.A 52.A 53.A
+54.A 55.A 56.A
+57.A 58.A 59.A 60.A 61.A
+62.A 63.A 64.A 65.A 66.A
+67.A 68.A 69.A 70.A
+```
+
+---
+
+## Giải thích từng câu
+
+| Câu | Đáp án | Dịch nghĩa                                  | Giải thích ngắn                     | Từ vựng                                |
+| --- | ------ | ------------------------------------------- | ----------------------------------- | -------------------------------------- |
+| 1   | B      | Đã đẹp / đã sạch                            | きれい là tính từ な → quá khứ: きれいでした  | きれい: đẹp/sạch                          |
+| 2   | D      | Đã không rảnh                               | なAdj phủ định quá khứ: じゃありませんでした   | ひま: rảnh                               |
+| 3   | B      | Đã ngon                                     | いAdj bỏ い + かったです                   | おいしい: ngon                             |
+| 4   | D      | Đã không ngon                               | いAdj bỏ い + くなかったです                 | おいしい: ngon                             |
+| 5   | B      | Đã thế nào?                                 | どうでしたか hỏi cảm nhận quá khứ         | どう: thế nào                            |
+| 6   | A      | きれいです → đã đẹp                              | なAdj + でした                          | きれい: đẹp/sạch                          |
+| 7   | A      | ひまです → đã rảnh                              | なAdj + でした                          | ひま: rảnh                               |
+| 8   | A      | 雨(あめ)です → đã mưa                            | Danh từ + でした                       | 雨(あめ): mưa                             |
+| 9   | A      | しずかです → đã yên tĩnh                         | なAdj + でした                          | しずか: yên tĩnh                          |
+| 10  | A      | 学生(がくせい)です → đã là học sinh                 | Danh từ + でした                       | 学生(がくせい): học sinh/sinh viên           |
+| 11  | A      | Đã không khỏe                               | なAdj phủ định quá khứ               | げんき: khỏe                              |
+| 12  | A      | Đã không rảnh                               | ひま là なAdj                          | ひま: rảnh                               |
+| 13  | A      | Đã không có tuyết                           | 雪 là danh từ → じゃありませんでした           | 雪(ゆき): tuyết                           |
+| 14  | A      | Đã không phải thành phố                     | 町 là danh từ                        | 町(まち): thành phố/khu phố               |
+| 15  | B      | Hôm qua tôi đã không rảnh                   | ひまじゃありませんでした = đã không rảnh        | きのう: hôm qua                           |
+| 16  | A      | あついです → đã nóng                             | あつい → あつかったです                       | あつい: nóng                              |
+| 17  | A      | たのしいです → đã vui                             | たのしい → たのしかったです                     | たのしい: vui                              |
+| 18  | A      | おいしいです → đã ngon                            | おいしい → おいしかったです                     | おいしい: ngon                             |
+| 19  | A      | たかいです → đã đắt/cao                          | たかい → たかかったです                       | 高(たか)い: cao/đắt                        |
+| 20  | A      | いいです → đã tốt                               | いい đặc biệt: よかったです                 | いい/よい: tốt                             |
+| 21  | A      | Đã không nóng                               | あつい → あつくなかったです                     | あつい: nóng                              |
+| 22  | A      | Đã không ngon                               | おいしい → おいしくなかったです                   | おいしい: ngon                             |
+| 23  | A      | Đã không vui                                | たのしい → たのしくなかったです                   | たのしい: vui                              |
+| 24  | A      | Đã không tốt                                | いい phủ định quá khứ: よくなかったです       | いい/よい: tốt                             |
+| 25  | B      | Món ăn hôm qua đã không ngon                | 料理(りょうり) + おいしくなかったです               | 料理(りょうり): món ăn                       |
+| 26  | B      | Nhật Bản đã thế nào?                        | Quá khứ dùng どうでしたか                 | 日本(にほん): Nhật Bản                      |
+| 27  | A      | Tokyo đã thế nào?                           | 東京はどうでしたか                           | 東京(とうきょう): Tokyo                       |
+| 28  | A      | Bài kiểm tra tuần trước thế nào?            | 先週のテスト + どうでしたか                     | 先週(せんしゅう): tuần trước                  |
+| 29  | A      | Đã đẹp                                      | きれい là なAdj → きれいでした                | 東京(とうきょう): Tokyo                       |
+| 30  | A      | Đã không khỏe                               | げんき là なAdj → じゃありませんでした            | きのう: hôm qua                           |
+| 31  | A      | N1 Adj hơn N2                               | Mẫu so sánh: N1はN2よりAdjです           | より: hơn/so với                         |
+| 32  | A      | Thịt bò đắt hơn thịt lợn                    | 牛肉は豚肉より高いです                         | 牛肉(ぎゅうにく): thịt bò; 豚肉(ぶたにく): thịt lợn |
+| 33  | A      | Cái cặp này đẹp hơn cái cặp kia             | この〜は あの〜より                          | かばん: cặp/túi                           |
+| 34  | A      | Nam chơi tennis giỏi hơn An                 | N1はN2より + テニスが上手                    | 上手(じょうず): giỏi                         |
+| 35  | A      | Nhật Bản tiện lợi hơn Việt Nam              | 日本はベトナムより便利です                       | 便利(べんり): tiện lợi                      |
+| 36  | A      | Hơn hẳn / hơn rất nhiều                     | ずっと nhấn mạnh mức độ so sánh        | ずっと: hơn nhiều                         |
+| 37  | A      | Nhật tiện lợi hơn Việt Nam rất nhiều        | より ずっと 便利です                         | 便利(べんり): tiện lợi                      |
+| 38  | A      | Nga rộng hơn Việt Nam rất nhiều             | ロシアはベトナムよりずっと広いです                   | 広(ひろ)い: rộng                           |
+| 39  | A      | Thành phố náo nhiệt hơn nông thôn rất nhiều | 町は田舎よりずっとにぎやかです                     | 田舎(いなか): nông thôn                     |
+| 40  | A      | Xuân và thu, bạn thích mùa nào hơn?         | N1とN2とどちらが好きですか                     | 春(はる): xuân; 秋(あき): thu                |
+| 41  | A      | Cơm và phở, bạn thích cái nào hơn?          | どちらが好きですか                           | ごはん: cơm                               |
+| 42  | A      | Tiếng Anh và tiếng Nhật, cái nào khó hơn?   | どちらが難しいですか                          | 英語(えいご); 日本語(にほんご)                     |
+| 43  | A      | Tôi thích mùa thu hơn                       | Nのほうが好きです                           | 秋(あき): mùa thu                         |
+| 44  | A      | Tiếng Nhật khó hơn                          | Nのほうが難しいです                          | 難(むずか)しい: khó                          |
+| 45  | A      | Cả hai đều                                  | どちらも = cả hai đều                   | どちらも: cả hai                           |
+| 46  | A      | Cả hai đều khó                              | どちらも + Adjです                        | 難(むずか)しい: khó                          |
+| 47  | A      | Cả hai đều ngon                             | どちらもおいしいです                          | おいしい: ngon                             |
+| 48  | A      | Cả hai đều đẹp                              | きれい là なAdj                         | きれい: đẹp/sạch                          |
+| 49  | A      | Nhất                                        | いちばん = nhất                         | いちばん: nhất                             |
+| 50  | A      | Trong gia đình, ai cao nhất?                | Nの中で だれが いちばん〜                      | 家族(かぞく): gia đình                      |
+| 51  | A      | Ở Nhật, nơi nào đẹp nhất?                   | 日本でどこがいちばん〜                         | どこ: nơi nào                            |
+| 52  | A      | Trong 1 năm, khi nào thích nhất?            | 1年でいつがいちばん〜                         | 1年(いちねん): một năm                      |
+| 53  | A      | Trong trái cây, quả nào ngon nhất?          | 果物の中でなにがいちばん〜                       | 果物(くだもの): trái cây                     |
+| 54  | A      | Bố tôi cao nhất                             | 父がいちばん背が高いです                        | 父(ちち): bố tôi; 背(せ)が高(たか)い: cao        |
+| 55  | A      | Kyoto đẹp nhất                              | 京都がいちばんきれいです                        | 京都(きょうと): Kyoto                        |
+| 56  | A      | Dưa hấu ngon nhất                           | すいかがいちばんおいしいです                      | すいか: dưa hấu                           |
+| 57  | A      | Thay cho danh từ đã rõ                      | Adj + の = cái/người có tính chất đó | の: cái/người thay danh từ              |
+| 58  | A      | Là cái màu đỏ                               | 赤いの = cái màu đỏ                    | 赤(あか)い: đỏ                             |
+| 59  | A      | Là cái nhỏ                                  | 小さいの = cái nhỏ                      | 小(ちい)さい: nhỏ                           |
+| 60  | A      | Là cái màu đỏ                               | Hỏi どれ → trả lời 赤いのです              | どれ: cái nào                            |
+| 61  | A      | Tôi thích cái màu đỏ hơn                    | 赤いのが好きです                            | 青(あお)い: xanh; 赤(あか)い: đỏ               |
+| 62  | A      | Hôm qua đã vui                              | たのしかったです = đã vui                   | きのう: hôm qua                           |
+| 63  | A      | Bữa tiệc không vui lắm                      | あまり + phủ định = không… lắm         | パーティー: tiệc                            |
+| 64  | A      | Bài kiểm tra tuần trước đã dễ               | かんたんでした = đã dễ                     | 簡単(かんたん): dễ/đơn giản                  |
+| 65  | A      | Tiếng Nhật khó hơn tiếng Anh                | 日本語は英語より難しいです                       | より: hơn                                |
+| 66  | A      | Cơm và phở, bạn thích cái nào hơn?          | どちらが好きですか                           | 好(す)き: thích                           |
+| 67  | A      | Cả hai đều ngon                             | どちらもおいしいです                          | どちらも: cả hai                           |
+| 68  | A      | Ở Nhật, nơi nào đẹp nhất?                   | どこがいちばんきれいですか                       | 日本(にほん): Nhật                          |
+| 69  | A      | Kyoto đẹp nhất                              | いちばんきれいです                           | 京都(きょうと): Kyoto                        |
+| 70  | A      | Tôi thích cái màu đỏ                        | 赤いの = cái màu đỏ                    | 赤(あか)い: đỏ                             |
+
+---
+
+## Ghi nhớ cực ngắn
+
+```text
+なAdj / N quá khứ:      でした
+なAdj / N phủ định QK: じゃありませんでした
+
+いAdj quá khứ:          bỏ い + かったです
+いAdj phủ định QK:      bỏ い + くなかったです
+
+いいです → よかったです
+よくないです → よくなかったです
+
+N1はN2よりAdjです = N1 hơn N2
+NのほうがAdjです = N thì hơn
+どちらもAdjです = cả hai đều
+いちばん = nhất
+Adj + の = cái/người Adj
+```
