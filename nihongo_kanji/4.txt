@@ -1,0 +1,430 @@
+## TL;DR
+
+Bài này là **Kanji N5 – Bài 4**, dạy **8 chữ Hán/Kanji**:
+**本、人、今、寺、時、半、刀、分**.
+Nội dung chính gồm: **âm Hán Việt, nghĩa, cách đọc, cách liên tưởng và cách viết**. 
+
+---
+
+# 1. Tổng hợp chữ Hán trong bài
+
+| Kanji | Âm Hán Việt | Hiragana     | Romaji           | Nghĩa              |
+| ----- | ----------- | ------------ | ---------------- | ------------------ |
+| 本     | Bản         | ほん           | hon              | sách / gốc / bản   |
+| 人     | Nhân        | ひと / じん / にん | hito / jin / nin | người              |
+| 今     | Kim         | いま           | ima              | bây giờ / hiện tại |
+| 寺     | Tự          | てら           | tera             | chùa               |
+| 時     | Thời        | じ            | ji               | giờ / thời gian    |
+| 半     | Bán         | はん           | han              | một nửa            |
+| 刀     | Đao         | かたな          | katana           | dao / kiếm         |
+| 分     | Phân        | ふん / ぷん      | fun / pun        | phút / phần / chia |
+
+---
+
+# 2. Ghi nhớ nhanh
+
+| Kanji | Cách nhớ ngắn                           |
+| ----- | --------------------------------------- |
+| 本     | 木 thêm 1 nét → cây thành sách           |
+| 人     | Hình người đang đứng                    |
+| 今     | Người dưới mái nhà → hiện tại           |
+| 寺     | Đất + đo lường → chùa                   |
+| 時     | 日 + 寺 → nhìn mặt trời ở chùa để xem giờ |
+| 半     | Chia thành 2 nửa                        |
+| 刀     | Hình con dao / kiếm                     |
+| 分     | 八 + 刀 → dao chia ra nhiều phần          |
+
+---
+
+# 3. Từ vựng ví dụ
+
+| Từ  | Hiragana | Romaji    | Nghĩa      |
+| --- | -------- | --------- | ---------- |
+| 本   | ほん       | hon       | sách       |
+| 日本  | にほん      | nihon     | Nhật Bản   |
+| 人   | ひと       | hito      | người      |
+| 日本人 | にほんじん    | nihonjin  | người Nhật |
+| 今   | いま       | ima       | bây giờ    |
+| 寺   | てら       | tera      | chùa       |
+| 時間  | じかん      | jikan     | thời gian  |
+| 三時  | さんじ      | sanji     | 3 giờ      |
+| 半分  | はんぶん     | hanbun    | một nửa    |
+| 刀   | かたな      | katana    | kiếm Nhật  |
+| 分   | ふん / ぷん  | fun / pun | phút       |
+
+---
+
+# 4. Bài tập trắc nghiệm: Kanji → Nghĩa
+
+## Câu 1
+
+**本** nghĩa là gì?
+
+A. sách
+B. người
+C. bây giờ
+D. chùa
+
+## Câu 2
+
+**人** nghĩa là gì?
+
+A. dao
+B. người
+C. giờ
+D. phút
+
+## Câu 3
+
+**今** nghĩa là gì?
+
+A. hôm qua
+B. ngày mai
+C. bây giờ
+D. tháng sau
+
+## Câu 4
+
+**寺** nghĩa là gì?
+
+A. trường học
+B. nhà ga
+C. chùa
+D. công ty
+
+## Câu 5
+
+**時** nghĩa là gì?
+
+A. sách
+B. giờ / thời gian
+C. một nửa
+D. dao
+
+## Câu 6
+
+**半** nghĩa là gì?
+
+A. một nửa
+B. một người
+C. một quyển sách
+D. một phút
+
+## Câu 7
+
+**刀** nghĩa là gì?
+
+A. nước
+B. lửa
+C. dao / kiếm
+D. cây
+
+## Câu 8
+
+**分** nghĩa là gì?
+
+A. ngày
+B. phút / phần / chia
+C. tiền
+D. mắt
+
+---
+
+# 5. Bài tập trắc nghiệm: Kanji → Cách đọc
+
+## Câu 9
+
+**本** đọc là gì?
+
+A. ほん
+B. ひと
+C. いま
+D. てら
+
+## Câu 10
+
+**人** đọc là gì khi đứng một mình?
+
+A. ほん
+B. ひと
+C. じ
+D. はん
+
+## Câu 11
+
+**今** đọc là gì?
+
+A. いま
+B. てら
+C. ふん
+D. かたな
+
+## Câu 12
+
+**寺** đọc là gì?
+
+A. じ
+B. てら
+C. はん
+D. にん
+
+## Câu 13
+
+**時** trong **三時** đọc là gì?
+
+A. じ
+B. ほん
+C. いま
+D. てら
+
+## Câu 14
+
+**半** đọc là gì?
+
+A. ほん
+B. はん
+C. ふん
+D. じん
+
+## Câu 15
+
+**刀** đọc là gì?
+
+A. かたな
+B. ひと
+C. ぷん
+D. いま
+
+## Câu 16
+
+**分** có cách đọc nào đúng?
+
+A. ふん
+B. ほん
+C. てら
+D. かたな
+
+---
+
+# 6. Bài tập trắc nghiệm: Hiragana → Kanji
+
+## Câu 17
+
+**ほん** là Kanji nào?
+
+A. 本
+B. 人
+C. 今
+D. 寺
+
+## Câu 18
+
+**ひと** là Kanji nào?
+
+A. 半
+B. 人
+C. 刀
+D. 分
+
+## Câu 19
+
+**いま** là Kanji nào?
+
+A. 時
+B. 今
+C. 本
+D. 寺
+
+## Câu 20
+
+**てら** là Kanji nào?
+
+A. 寺
+B. 時
+C. 半
+D. 分
+
+## Câu 21
+
+**じ** là Kanji nào?
+
+A. 人
+B. 本
+C. 時
+D. 刀
+
+## Câu 22
+
+**はん** là Kanji nào?
+
+A. 半
+B. 今
+C. 寺
+D. 人
+
+## Câu 23
+
+**かたな** là Kanji nào?
+
+A. 分
+B. 刀
+C. 本
+D. 時
+
+## Câu 24
+
+**ふん** là Kanji nào?
+
+A. 本
+B. 人
+C. 分
+D. 今
+
+---
+
+# 7. Bài tập tổng hợp
+
+## Câu 25
+
+**日本** nghĩa là gì?
+
+A. Nhật Bản
+B. Trung Quốc
+C. Việt Nam
+D. Hàn Quốc
+
+## Câu 26
+
+**日本人** nghĩa là gì?
+
+A. sách tiếng Nhật
+B. người Nhật
+C. chùa Nhật
+D. giờ Nhật
+
+## Câu 27
+
+**三時** nghĩa là gì?
+
+A. 3 phút
+B. 3 giờ
+C. 3 người
+D. 3 quyển sách
+
+## Câu 28
+
+**三時半** nghĩa là gì?
+
+A. 3 giờ đúng
+B. 3 giờ rưỡi
+C. 3 phút rưỡi
+D. 30 phút
+
+## Câu 29
+
+**半分** nghĩa là gì?
+
+A. hiện tại
+B. một nửa
+C. con dao
+D. quyển sách
+
+## Câu 30
+
+**時間** nghĩa là gì?
+
+A. thời gian
+B. chùa
+C. người
+D. sách
+
+## Câu 31
+
+Chữ nào có nghĩa là **bây giờ**?
+
+A. 今
+B. 本
+C. 人
+D. 刀
+
+## Câu 32
+
+Chữ nào có nghĩa là **dao / kiếm**?
+
+A. 分
+B. 半
+C. 刀
+D. 寺
+
+---
+
+# 8. Đáp án
+
+```text
+1A  2B  3C  4C  5B  6A  7C  8B
+9A  10B 11A 12B 13A 14B 15A 16A
+17A 18B 19B 20A 21C 22A 23B 24C
+25A 26B 27B 28B 29B 30A 31A 32C
+```
+## TL;DR — Đáp án nhanh
+
+```text
+1A  2B  3C  4C  5B  6A  7C  8B
+9A  10B 11A 12B 13A 14B 15A 16A
+17A 18B 19B 20A 21C 22A 23B 24C
+25A 26B 27B 28B 29B 30A 31A 32C
+```
+
+---
+
+## Bảng đáp án + giải thích ngắn gọn
+
+| Câu | Đáp án | Giải thích ngắn gọn                                 |
+| --- | ------ | --------------------------------------------------- |
+| 1   | A      | **本** = ほん / *hon* = sách / gốc / bản               |
+| 2   | B      | **人** = ひと / *hito* = người                         |
+| 3   | C      | **今** = いま / *ima* = bây giờ                        |
+| 4   | C      | **寺** = てら / *tera* = chùa                          |
+| 5   | B      | **時** = じ / *ji* = giờ / thời gian                  |
+| 6   | A      | **半** = はん / *han* = một nửa                        |
+| 7   | C      | **刀** = かたな / *katana* = dao / kiếm                 |
+| 8   | B      | **分** = ふん / *fun*, ぷん / *pun* = phút / phần / chia |
+| 9   | A      | **本** đọc là ほん / *hon*                             |
+| 10  | B      | **人** đứng một mình đọc là ひと / *hito*              |
+| 11  | A      | **今** đọc là いま / *ima*                             |
+| 12  | B      | **寺** đọc là てら / *tera*                            |
+| 13  | A      | **時** trong **三時** đọc là じ / *ji*                  |
+| 14  | B      | **半** đọc là はん / *han*                             |
+| 15  | A      | **刀** đọc là かたな / *katana*                         |
+| 16  | A      | **分** có cách đọc là ふん / *fun*                     |
+| 17  | A      | ほん / *hon* = **本**                                  |
+| 18  | B      | ひと / *hito* = **人**                                 |
+| 19  | B      | いま / *ima* = **今**                                  |
+| 20  | A      | てら / *tera* = **寺**                                 |
+| 21  | C      | じ / *ji* = **時**                                    |
+| 22  | A      | はん / *han* = **半**                                  |
+| 23  | B      | かたな / *katana* = **刀**                              |
+| 24  | C      | ふん / *fun* = **分**                                  |
+| 25  | A      | **日本** = にほん / *nihon* = Nhật Bản                   |
+| 26  | B      | **日本人** = にほんじん / *nihonjin* = người Nhật           |
+| 27  | B      | **三時** = さんじ / *sanji* = 3 giờ                      |
+| 28  | B      | **三時半** = さんじはん / *sanji han* = 3 giờ rưỡi          |
+| 29  | B      | **半分** = はんぶん / *hanbun* = một nửa                  |
+| 30  | A      | **時間** = じかん / *jikan* = thời gian                  |
+| 31  | A      | **今** = いま / *ima* = bây giờ                        |
+| 32  | C      | **刀** = かたな / *katana* = dao / kiếm                 |
+
+---
+
+## Ghi nhớ cực ngắn
+
+| Kanji | Hiragana     | Romaji           | Nghĩa              |
+| ----- | ------------ | ---------------- | ------------------ |
+| 本     | ほん           | hon              | sách / gốc / bản   |
+| 人     | ひと / じん / にん | hito / jin / nin | người              |
+| 今     | いま           | ima              | bây giờ            |
+| 寺     | てら           | tera             | chùa               |
+| 時     | じ            | ji               | giờ / thời gian    |
+| 半     | はん           | han              | một nửa            |
+| 刀     | かたな          | katana           | dao / kiếm         |
+| 分     | ふん / ぷん      | fun / pun        | phút / phần / chia |

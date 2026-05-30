@@ -1,0 +1,411 @@
+## TL;DR
+
+Bài này là **Kanji N5 – Bài 2**, dạy tiếp **8 chữ Hán/Kanji** sau bài 1:
+**九、十、百、千、万、円、口、目**.
+Nội dung chính gồm: **âm Hán Việt, nghĩa, cách đọc tiếng Nhật, cách liên tưởng và cách viết**. 
+
+---
+
+# 1. Tổng hợp chữ Hán trong bài
+
+| Kanji | Âm Hán Việt | Hiragana | Romaji    | Nghĩa           |
+| ----- | ----------- | -------- | --------- | --------------- |
+| 九     | Cửu         | きゅう / く  | kyuu / ku | số 9            |
+| 十     | Thập        | じゅう      | juu       | số 10           |
+| 百     | Bách        | ひゃく      | hyaku     | 100             |
+| 千     | Thiên       | せん       | sen       | 1.000           |
+| 万     | Vạn         | まん       | man       | 10.000          |
+| 円     | Viên        | えん       | en        | yên / hình tròn |
+| 口     | Khẩu        | くち       | kuchi     | miệng           |
+| 目     | Mục         | め        | me        | mắt             |
+
+---
+
+# 2. Ghi nhớ nhanh
+
+| Kanji | Cách nhớ ngắn                                 |
+| ----- | --------------------------------------------- |
+| 九     | Cửu Long = số 9                               |
+| 十     | Giống dấu cộng / chữ thập                     |
+| 百     | Trăm năm hạnh phúc = bách niên                |
+| 千     | Một nghìn = thiên                             |
+| 万     | Vạn tuế = rất nhiều / 10.000                  |
+| 円     | Đồng Yên Nhật, đọc là **えん**, không đọc “yên” |
+| 口     | Khẩu nghiệp = miệng                           |
+| 目     | Mắt nhìn = mục                                |
+
+---
+
+# 3. Từ vựng ví dụ
+
+| Từ  | Hiragana | Romaji     | Nghĩa      |
+| --- | -------- | ---------- | ---------- |
+| 九月  | くがつ      | kugatsu    | tháng 9    |
+| 十月  | じゅうがつ    | juugatsu   | tháng 10   |
+| 百円  | ひゃくえん    | hyaku en   | 100 yên    |
+| 千円  | せんえん     | sen en     | 1.000 yên  |
+| 一万円 | いちまんえん   | ichiman en | 10.000 yên |
+| 口   | くち       | kuchi      | miệng      |
+| 目   | め        | me         | mắt        |
+
+---
+
+# 4. Bài tập trắc nghiệm: Kanji → Nghĩa
+
+## Câu 1
+
+**九** nghĩa là gì?
+
+A. số 9
+B. số 10
+C. 100
+D. 1.000
+
+## Câu 2
+
+**十** nghĩa là gì?
+
+A. số 8
+B. số 9
+C. số 10
+D. 100
+
+## Câu 3
+
+**百** nghĩa là gì?
+
+A. 10
+B. 100
+C. 1.000
+D. 10.000
+
+## Câu 4
+
+**千** nghĩa là gì?
+
+A. 100
+B. 1.000
+C. 10.000
+D. 1.000.000
+
+## Câu 5
+
+**万** nghĩa là gì?
+
+A. 100
+B. 1.000
+C. 10.000
+D. 100.000
+
+## Câu 6
+
+**円** nghĩa là gì?
+
+A. miệng
+B. mắt
+C. yên / hình tròn
+D. số 9
+
+## Câu 7
+
+**口** nghĩa là gì?
+
+A. mắt
+B. tai
+C. tay
+D. miệng
+
+## Câu 8
+
+**目** nghĩa là gì?
+
+A. mắt
+B. miệng
+C. chân
+D. tay
+
+---
+
+# 5. Bài tập trắc nghiệm: Kanji → Cách đọc
+
+## Câu 9
+
+**九** đọc là gì?
+
+A. きゅう
+B. じゅう
+C. ひゃく
+D. せん
+
+## Câu 10
+
+**十** đọc là gì?
+
+A. く
+B. じゅう
+C. まん
+D. えん
+
+## Câu 11
+
+**百** đọc là gì?
+
+A. せん
+B. まん
+C. ひゃく
+D. くち
+
+## Câu 12
+
+**千** đọc là gì?
+
+A. せん
+B. め
+C. えん
+D. きゅう
+
+## Câu 13
+
+**万** đọc là gì?
+
+A. ひゃく
+B. せん
+C. まん
+D. じゅう
+
+## Câu 14
+
+**円** đọc là gì?
+
+A. えん
+B. め
+C. くち
+D. く
+
+## Câu 15
+
+**口** đọc là gì?
+
+A. め
+B. くち
+C. まん
+D. せん
+
+## Câu 16
+
+**目** đọc là gì?
+
+A. えん
+B. きゅう
+C. め
+D. くち
+
+---
+
+# 6. Bài tập trắc nghiệm: Hiragana → Kanji
+
+## Câu 17
+
+**きゅう** là Kanji nào?
+
+A. 九
+B. 十
+C. 百
+D. 千
+
+## Câu 18
+
+**じゅう** là Kanji nào?
+
+A. 九
+B. 十
+C. 万
+D. 円
+
+## Câu 19
+
+**ひゃく** là Kanji nào?
+
+A. 千
+B. 万
+C. 百
+D. 目
+
+## Câu 20
+
+**せん** là Kanji nào?
+
+A. 千
+B. 百
+C. 十
+D. 円
+
+## Câu 21
+
+**まん** là Kanji nào?
+
+A. 円
+B. 万
+C. 口
+D. 九
+
+## Câu 22
+
+**えん** là Kanji nào?
+
+A. 円
+B. 目
+C. 口
+D. 十
+
+## Câu 23
+
+**くち** là Kanji nào?
+
+A. 目
+B. 百
+C. 口
+D. 千
+
+## Câu 24
+
+**め** là Kanji nào?
+
+A. 口
+B. 目
+C. 円
+D. 万
+
+---
+
+# 7. Bài tập tổng hợp
+
+## Câu 25
+
+Chọn dãy đúng từ **9 đến 10**.
+
+A. 九 十
+B. 十 九
+C. 百 十
+D. 九 百
+
+## Câu 26
+
+Chọn dãy đúng từ **100 → 1.000 → 10.000**.
+
+A. 百 千 万
+B. 千 百 万
+C. 万 千 百
+D. 百 万 千
+
+## Câu 27
+
+**一万円** nghĩa là gì?
+
+A. 100 yên
+B. 1.000 yên
+C. 10.000 yên
+D. 100.000 yên
+
+## Câu 28
+
+**百円** đọc là gì?
+
+A. ひゃくえん
+B. せんえん
+C. まんえん
+D. じゅうえん
+
+## Câu 29
+
+**千円** đọc là gì?
+
+A. ひゃくえん
+B. せんえん
+C. きゅうえん
+D. まんえん
+
+## Câu 30
+
+Kanji nào có nghĩa là **mắt**?
+
+A. 口
+B. 円
+C. 目
+D. 万
+
+---
+
+# 8. Đáp án
+
+```text
+1A  2C  3B  4B  5C
+6C  7D  8A  9A  10B
+11C 12A 13C 14A 15B
+16C 17A 18B 19C 20A
+21B 22A 23C 24B 25A
+26A 27C 28A 29B 30C
+```
+
+## TL;DR — Đáp án nhanh
+
+```text
+1A  2C  3B  4B  5C
+6C  7D  8A  9A  10B
+11C 12A 13C 14A 15B
+16C 17A 18B 19C 20A
+21B 22A 23C 24B 25A
+26A 27C 28A 29B 30C
+```
+
+---
+
+## Bảng đáp án + giải thích ngắn gọn
+
+| Câu | Đáp án | Giải thích ngắn gọn                          |
+| --- | ------ | -------------------------------------------- |
+| 1   | A      | **九** = きゅう / *kyuu*, く / *ku* = số 9        |
+| 2   | C      | **十** = じゅう / *juu* = số 10                  |
+| 3   | B      | **百** = ひゃく / *hyaku* = 100                  |
+| 4   | B      | **千** = せん / *sen* = 1.000                   |
+| 5   | C      | **万** = まん / *man* = 10.000                  |
+| 6   | C      | **円** = えん / *en* = yên / hình tròn          |
+| 7   | D      | **口** = くち / *kuchi* = miệng                 |
+| 8   | A      | **目** = め / *me* = mắt                       |
+| 9   | A      | **九** đọc là きゅう / *kyuu*                    |
+| 10  | B      | **十** đọc là じゅう / *juu*                     |
+| 11  | C      | **百** đọc là ひゃく / *hyaku*                   |
+| 12  | A      | **千** đọc là せん / *sen*                      |
+| 13  | C      | **万** đọc là まん / *man*                      |
+| 14  | A      | **円** đọc là えん / *en*                       |
+| 15  | B      | **口** đọc là くち / *kuchi*                    |
+| 16  | C      | **目** đọc là め / *me*                        |
+| 17  | A      | きゅう / *kyuu* = **九**                         |
+| 18  | B      | じゅう / *juu* = **十**                          |
+| 19  | C      | ひゃく / *hyaku* = **百**                        |
+| 20  | A      | せん / *sen* = **千**                           |
+| 21  | B      | まん / *man* = **万**                           |
+| 22  | A      | えん / *en* = **円**                            |
+| 23  | C      | くち / *kuchi* = **口**                         |
+| 24  | B      | め / *me* = **目**                             |
+| 25  | A      | Thứ tự 9 → 10 là **九 十**                     |
+| 26  | A      | 100 → 1.000 → 10.000 là **百 千 万**            |
+| 27  | C      | **一万円** = いちまんえん / *ichiman en* = 10.000 yên |
+| 28  | A      | **百円** = ひゃくえん / *hyaku en* = 100 yên        |
+| 29  | B      | **千円** = せんえん / *sen en* = 1.000 yên         |
+| 30  | C      | **目** = め / *me* = mắt                       |
+
+---
+
+## Ghi nhớ cực ngắn
+
+| Kanji | Hiragana | Romaji    | Nghĩa           |
+| ----- | -------- | --------- | --------------- |
+| 九     | きゅう / く  | kyuu / ku | số 9            |
+| 十     | じゅう      | juu       | số 10           |
+| 百     | ひゃく      | hyaku     | 100             |
+| 千     | せん       | sen       | 1.000           |
+| 万     | まん       | man       | 10.000          |
+| 円     | えん       | en        | yên / hình tròn |
+| 口     | くち       | kuchi     | miệng           |
+| 目     | め        | me        | mắt             |
