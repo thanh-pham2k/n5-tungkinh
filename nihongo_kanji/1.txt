@@ -1,0 +1,435 @@
+## TL;DR
+
+Bài này dạy **8 chữ Hán/Kanji đầu tiên trong N5**, là các số từ **1 đến 8**:
+**一、二、三、四、五、六、七、八**. Nội dung bài nhấn mạnh cách học Kanji qua **hình ảnh liên tưởng, âm Hán Việt, nghĩa, cách đọc và cách viết theo nét**. 
+
+---
+
+# 1. Tổng hợp chữ Hán trong bài
+
+| Kanji | Âm Hán Việt | Cách đọc N5 | Nghĩa   | Ghi nhớ nhanh              |
+| ----- | ----------- | ----------- | ------- | -------------------------- |
+| 一     | Nhất        | いち          | 1 / một | 1 nét ngang                |
+| 二     | Nhị         | に           | 2 / hai | 2 nét ngang                |
+| 三     | Tam         | さん          | 3 / ba  | 3 nét ngang                |
+| 四     | Tứ          | よん / し      | 4 / bốn | hình có 4 cạnh             |
+| 五     | Ngũ         | ご           | 5 / năm | liên tưởng số 5            |
+| 六     | Lục         | ろく          | 6 / sáu | lục = số 6                 |
+| 七     | Thất        | なな / しち     | 7 / bảy | xoay nhẹ giống số 7        |
+| 八     | Bát         | はち          | 8 / tám | giống chữ ハ trong Katakana |
+
+---
+
+# 2. Thứ tự học đề xuất
+
+## Nhóm 1: Siêu dễ
+
+| Kanji | Đọc |
+| ----- | --- |
+| 一     | いち  |
+| 二     | に   |
+| 三     | さん  |
+
+Ví dụ:
+
+```text
+一 = いち = một
+二 = に = hai
+三 = さん = ba
+```
+
+---
+
+## Nhóm 2: Cần nhớ thêm cách đọc phụ
+
+| Kanji | Đọc chính | Đọc khác |
+| ----- | --------- | -------- |
+| 四     | よん        | し        |
+| 七     | なな        | しち       |
+
+Ví dụ:
+
+```text
+四月 = しがつ = tháng 4
+七月 = しちがつ = tháng 7
+```
+
+---
+
+## Nhóm 3: Số thường gặp
+
+| Kanji | Đọc |
+| ----- | --- |
+| 五     | ご   |
+| 六     | ろく  |
+| 八     | はち  |
+
+Ví dụ:
+
+```text
+五時 = ごじ = 5 giờ
+六時 = ろくじ = 6 giờ
+八時 = はちじ = 8 giờ
+```
+
+---
+
+# 3. Bài tập trắc nghiệm Kanji → Nghĩa
+
+## Câu 1
+
+**一** nghĩa là gì?
+
+A. một
+B. hai
+C. ba
+D. bốn
+
+## Câu 2
+
+**二** nghĩa là gì?
+
+A. ba
+B. hai
+C. năm
+D. tám
+
+## Câu 3
+
+**三** nghĩa là gì?
+
+A. một
+B. bốn
+C. ba
+D. sáu
+
+## Câu 4
+
+**四** nghĩa là gì?
+
+A. năm
+B. bảy
+C. bốn
+D. tám
+
+## Câu 5
+
+**五** nghĩa là gì?
+
+A. năm
+B. sáu
+C. ba
+D. hai
+
+## Câu 6
+
+**六** nghĩa là gì?
+
+A. tám
+B. sáu
+C. bảy
+D. bốn
+
+## Câu 7
+
+**七** nghĩa là gì?
+
+A. một
+B. chín
+C. bảy
+D. năm
+
+## Câu 8
+
+**八** nghĩa là gì?
+
+A. tám
+B. sáu
+C. bốn
+D. hai
+
+---
+
+# 4. Bài tập trắc nghiệm Kanji → Cách đọc
+
+## Câu 9
+
+**一** đọc là gì?
+
+A. いち
+B. に
+C. さん
+D. ご
+
+## Câu 10
+
+**二** đọc là gì?
+
+A. よん
+B. に
+C. ろく
+D. はち
+
+## Câu 11
+
+**三** đọc là gì?
+
+A. さん
+B. しち
+C. ご
+D. なな
+
+## Câu 12
+
+**四** có cách đọc nào đúng?
+
+A. いち
+B. さん
+C. よん
+D. はち
+
+## Câu 13
+
+**五** đọc là gì?
+
+A. ご
+B. ろく
+C. なな
+D. に
+
+## Câu 14
+
+**六** đọc là gì?
+
+A. はち
+B. ろく
+C. し
+D. さん
+
+## Câu 15
+
+**七** có cách đọc nào đúng?
+
+A. いち
+B. なな
+C. ご
+D. ろく
+
+## Câu 16
+
+**八** đọc là gì?
+
+A. はち
+B. よん
+C. しち
+D. さん
+
+---
+
+# 5. Bài tập trắc nghiệm Hiragana → Kanji
+
+## Câu 17
+
+**いち** là Kanji nào?
+
+A. 一
+B. 二
+C. 三
+D. 四
+
+## Câu 18
+
+**に** là Kanji nào?
+
+A. 三
+B. 二
+C. 五
+D. 六
+
+## Câu 19
+
+**さん** là Kanji nào?
+
+A. 一
+B. 八
+C. 三
+D. 七
+
+## Câu 20
+
+**よん** là Kanji nào?
+
+A. 四
+B. 五
+C. 六
+D. 七
+
+## Câu 21
+
+**ご** là Kanji nào?
+
+A. 二
+B. 五
+C. 八
+D. 三
+
+## Câu 22
+
+**ろく** là Kanji nào?
+
+A. 六
+B. 七
+C. 四
+D. 一
+
+## Câu 23
+
+**なな** là Kanji nào?
+
+A. 五
+B. 八
+C. 七
+D. 三
+
+## Câu 24
+
+**はち** là Kanji nào?
+
+A. 六
+B. 八
+C. 四
+D. 二
+
+---
+
+# 6. Bài tập tổng hợp
+
+## Câu 25
+
+Chọn dãy đúng từ **1 đến 4**.
+
+A. 一 二 三 四
+B. 二 一 三 四
+C. 一 三 二 四
+D. 四 三 二 一
+
+## Câu 26
+
+Chọn dãy đúng từ **5 đến 8**.
+
+A. 五 六 七 八
+B. 六 五 七 八
+C. 五 七 六 八
+D. 八 七 六 五
+
+## Câu 27
+
+**七** có âm Hán Việt là gì?
+
+A. Nhất
+B. Tứ
+C. Thất
+D. Bát
+
+## Câu 28
+
+**八** có âm Hán Việt là gì?
+
+A. Lục
+B. Bát
+C. Ngũ
+D. Nhị
+
+## Câu 29
+
+**六** có âm Hán Việt là gì?
+
+A. Lục
+B. Thất
+C. Tam
+D. Tứ
+
+## Câu 30
+
+Kanji nào nghĩa là **số 5**?
+
+A. 四
+B. 五
+C. 六
+D. 八
+
+---
+
+# 7. Đáp án
+
+```text
+1A  2B  3C  4C  5A
+6B  7C  8A  9A  10B
+11A 12C 13A 14B 15B
+16A 17A 18B 19C 20A
+21B 22A 23C 24B 25A
+26A 27C 28B 29A 30B
+```
+
+## TL;DR — Đáp án nhanh
+
+```text
+1A  2B  3C  4C  5A
+6B  7C  8A  9A  10B
+11A 12C 13A 14B 15B
+16A 17A 18B 19C 20A
+21B 22A 23C 24B 25A
+26A 27C 28B 29A 30B
+```
+
+---
+
+## Bảng đáp án + giải thích ngắn gọn
+
+| Câu | Đáp án | Giải thích ngắn gọn                      |
+| --- | ------ | ---------------------------------------- |
+| 1   | A      | **一** = いち / *ichi* = một                |
+| 2   | B      | **二** = に / *ni* = hai                   |
+| 3   | C      | **三** = さん / *san* = ba                  |
+| 4   | C      | **四** = よん / *yon*, し / *shi* = bốn      |
+| 5   | A      | **五** = ご / *go* = năm                   |
+| 6   | B      | **六** = ろく / *roku* = sáu                |
+| 7   | C      | **七** = なな / *nana*, しち / *shichi* = bảy |
+| 8   | A      | **八** = はち / *hachi* = tám               |
+| 9   | A      | **一** đọc là いち / *ichi*                 |
+| 10  | B      | **二** đọc là に / *ni*                    |
+| 11  | A      | **三** đọc là さん / *san*                  |
+| 12  | C      | **四** có cách đọc đúng là よん / *yon*     |
+| 13  | A      | **五** đọc là ご / *go*                    |
+| 14  | B      | **六** đọc là ろく / *roku*                 |
+| 15  | B      | **七** có cách đọc đúng là なな / *nana*    |
+| 16  | A      | **八** đọc là はち / *hachi*                |
+| 17  | A      | いち / *ichi* = **一**                      |
+| 18  | B      | に / *ni* = **二**                         |
+| 19  | C      | さん / *san* = **三**                       |
+| 20  | A      | よん / *yon* = **四**                       |
+| 21  | B      | ご / *go* = **五**                         |
+| 22  | A      | ろく / *roku* = **六**                      |
+| 23  | C      | なな / *nana* = **七**                      |
+| 24  | B      | はち / *hachi* = **八**                     |
+| 25  | A      | Thứ tự 1 → 4 là **一 二 三 四**              |
+| 26  | A      | Thứ tự 5 → 8 là **五 六 七 八**              |
+| 27  | C      | **七** âm Hán Việt là **Thất**            |
+| 28  | B      | **八** âm Hán Việt là **Bát**             |
+| 29  | A      | **六** âm Hán Việt là **Lục**             |
+| 30  | B      | Số 5 là **五** = ご / *go*                 |
+
+---
+
+## Ghi nhớ cực ngắn
+
+| Kanji | Hiragana | Romaji        | Nghĩa |
+| ----- | -------- | ------------- | ----- |
+| 一     | いち       | ichi          | một   |
+| 二     | に        | ni            | hai   |
+| 三     | さん       | san           | ba    |
+| 四     | よん / し   | yon / shi     | bốn   |
+| 五     | ご        | go            | năm   |
+| 六     | ろく       | roku          | sáu   |
+| 七     | なな / しち  | nana / shichi | bảy   |
+| 八     | はち       | hachi         | tám   |

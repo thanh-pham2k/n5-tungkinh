@@ -396,6 +396,7 @@
     <div class="tabs" role="tablist" aria-label="Nội dung học">
       <button class="tab-button" id="tab-audio" type="button" role="tab" aria-selected="true" aria-controls="audio-panel" data-tab-target="audio-panel">Audio public</button>
       <button class="tab-button" id="tab-grammar" type="button" role="tab" aria-selected="false" aria-controls="grammar-panel" data-tab-target="grammar-panel">Grammar</button>
+      <button class="tab-button" id="tab-kanji" type="button" role="tab" aria-selected="false" aria-controls="kanji-panel" data-tab-target="kanji-panel">Kanji</button>
     </div>
 
     <section class="tab-panel active" id="audio-panel" role="tabpanel" aria-labelledby="tab-audio">
@@ -467,6 +468,16 @@
         </div>
       </div>
     </section>
+
+    <section class="tab-panel" id="kanji-panel" role="tabpanel" aria-labelledby="tab-kanji">
+      <h2>Kanji</h2>
+      <div class="grammar-layout">
+        <div class="grammar-selector" id="kanji-lesson-list" aria-label="Danh sách bài Kanji"></div>
+        <div class="grammar-content" id="kanji-content">
+          <p class="hint">Chọn một bài để xem nội dung Kanji.</p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <script>
@@ -490,6 +501,8 @@
       const tabPanels = document.querySelectorAll(".tab-panel");
       const grammarLessonList = document.getElementById("grammar-lesson-list");
       const grammarContent = document.getElementById("grammar-content");
+      const kanjiLessonList = document.getElementById("kanji-lesson-list");
+      const kanjiContent = document.getElementById("kanji-content");
 
       let lessons = [];
       let objectUrl = "";
@@ -520,8 +533,13 @@
         { title: "Bài 14", path: "grammar/lesson-14.html" },
         { title: "Bài 15", path: "grammar/lesson-15.html" },
       ];
+      const kanjiLessons = [
+        { title: "Bài 1", path: "kanji/lesson-01.html" },
+      ];
       const grammarContentCache = new Map();
       let grammarRequestId = 0;
+      const kanjiContentCache = new Map();
+      let kanjiRequestId = 0;
 
       const applySpeed = () => {
         audio.playbackRate = Number(speed.value);
@@ -633,6 +651,69 @@
             selectGrammarLesson(index);
           });
           grammarLessonList.appendChild(button);
+        });
+      };
+
+      const renderKanjiHtml = (html) => {
+        const template = document.createElement("template");
+        template.innerHTML = html.trim();
+        kanjiContent.replaceChildren(template.content.cloneNode(true));
+      };
+
+      const selectKanjiLesson = async (lessonIndex) => {
+        const lesson = kanjiLessons[lessonIndex];
+        if (!lesson) {
+          return;
+        }
+
+        const requestId = ++kanjiRequestId;
+        kanjiLessonList.querySelectorAll("button").forEach((button, buttonIndex) => {
+          button.classList.toggle("active", buttonIndex === lessonIndex);
+        });
+
+        const cachedHtml = kanjiContentCache.get(lesson.path);
+        if (cachedHtml) {
+          renderKanjiHtml(cachedHtml);
+          return;
+        }
+
+        kanjiContent.replaceChildren();
+        kanjiContent.textContent = "Đang tải nội dung Kanji...";
+
+        try {
+          const response = await fetch(assetUrl(lesson.path), { cache: "no-cache" });
+          if (!response.ok) {
+            throw new Error(`Cannot load kanji lesson: ${response.status}`);
+          }
+
+          const html = await response.text();
+          kanjiContentCache.set(lesson.path, html);
+          if (requestId !== kanjiRequestId) {
+            return;
+          }
+
+          renderKanjiHtml(html);
+        } catch (error) {
+          if (requestId !== kanjiRequestId) {
+            return;
+          }
+
+          console.error(error);
+          kanjiContent.replaceChildren();
+          kanjiContent.textContent = "Không tải được nội dung Kanji của bài này.";
+        }
+      };
+
+      const renderKanjiLessonButtons = () => {
+        kanjiLessonList.replaceChildren();
+        kanjiLessons.forEach((lesson, index) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.textContent = lesson.title;
+          button.addEventListener("click", () => {
+            selectKanjiLesson(index);
+          });
+          kanjiLessonList.appendChild(button);
         });
       };
 
@@ -833,6 +914,7 @@
 
       const init = async () => {
         renderGrammarLessonButtons();
+        renderKanjiLessonButtons();
         clearVocabulary("Đang tải mapper bài học...");
         try {
           lessons = await loadLessons();
