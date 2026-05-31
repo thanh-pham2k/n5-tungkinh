@@ -1,0 +1,1087 @@
+Dạ được. Dưới đây là bản **tổng hợp Minna no Nihongo Bài 18** + **bài tập 100% trắc nghiệm**, không kèm đáp án để bạn tự ôn.
+
+Nội dung trong file là **Ngữ pháp Minna 1 - Bài 18**, trọng tâm gồm: **thể từ điển / thể nguyên dạng Vる**, **N / Vることができます**, **趣味はN / Vることです**, **Vる前に / Nの前に / khoảng thời gian前に**, **なかなかVません**, và **ぜひ**. 
+
+---
+
+# Minna no Nihongo Bài 18 — Tổng hợp + Bài tập trắc nghiệm
+
+## 1. Tổng quan bài 18
+
+| Nội dung               | Mẫu             | Nghĩa                    |
+| ---------------------- | --------------- | ------------------------ |
+| Thể từ điển            | Vる              | Dạng gốc của động từ     |
+| Có thể làm N           | Nができます          | Có thể làm N             |
+| Có thể làm V           | Vることができます       | Có thể làm V             |
+| Không thể làm V        | Vることができません      | Không thể làm V          |
+| Sở thích là N          | 趣味は Nです         | Sở thích là N            |
+| Sở thích là làm V      | 趣味は Vることです      | Sở thích là làm V        |
+| Trước khi làm V        | Vる前に、V2         | Trước khi V thì V2       |
+| Trước N                | Nの前に、V          | Trước N thì V            |
+| Khoảng thời gian trước | 時間 + 前に、V       | Cách đây...              |
+| Mãi mà không V         | なかなか Vません       | Mãi mà không V           |
+| Nhất định / rất mong   | ぜひ Vたい / Vてください | Rất muốn / nhất định hãy |
+
+---
+
+# 2. Thể từ điển / thể nguyên dạng Vる
+
+## Ý nghĩa
+
+**Thể từ điển** là dạng gốc của động từ, dùng để:
+
+| Công dụng             | Ví dụ      |
+| --------------------- | ---------- |
+| Tra từ điển           | 食べます → 食べる |
+| Nói thân mật          | ごはんを食べる    |
+| Tạo mẫu ngữ pháp khác | 食べることができます |
+
+Ví dụ:
+
+| Thể ます | Thể từ điển | Nghĩa |
+| ------ | ----------- | ----- |
+| 食べます   | 食べる         | ăn    |
+| 飲みます   | 飲む          | uống  |
+| 書きます   | 書く          | viết  |
+| 読みます   | 読む          | đọc   |
+| 来ます    | 来る          | đến   |
+| します    | する          | làm   |
+
+---
+
+# 3. Cách chia thể từ điển
+
+## 3.1. Nhóm 1
+
+Quy tắc:
+
+```text
+Âm trước ます thuộc cột い → chuyển sang cột う
+```
+
+| Vます  | Vる | Nghĩa    |
+| ---- | -- | -------- |
+| 書きます | 書く | viết     |
+| 読みます | 読む | đọc      |
+| 取ります | 取る | lấy      |
+| 行きます | 行く | đi       |
+| 吸います | 吸う | hút      |
+| 遊びます | 遊ぶ | chơi     |
+| 待ちます | 待つ | đợi      |
+| 貸します | 貸す | cho mượn |
+| 思います | 思う | nghĩ     |
+| 探します | 探す | tìm kiếm |
+
+---
+
+## 3.2. Nhóm 2
+
+Quy tắc:
+
+```text
+Bỏ ます + る
+```
+
+| Vます  | Vる  | Nghĩa    |
+| ---- | --- | -------- |
+| 食べます | 食べる | ăn       |
+| 見ます  | 見る  | xem      |
+| 寝ます  | 寝る  | ngủ      |
+| 起きます | 起きる | thức dậy |
+| 借ります | 借りる | mượn     |
+| 降ります | 降りる | xuống    |
+| 浴びます | 浴びる | tắm      |
+| できます | できる | có thể   |
+
+---
+
+## 3.3. Nhóm 3
+
+| Vます   | Vる     | Nghĩa   |
+| ----- | ------ | ------- |
+| します   | する     | làm     |
+| 勉強します | 勉強する   | học     |
+| 散歩します | 散歩する   | đi dạo  |
+| 結婚します | 結婚する   | kết hôn |
+| 来ます   | 来る（くる） | đến     |
+
+---
+
+# 4. Nができます — Có thể làm N
+
+## Công thức
+
+```text
+N が できます。
+```
+
+## Nghĩa
+
+**Có thể làm N.**
+
+Danh từ thường là:
+
+| Loại N                | Ví dụ             |
+| --------------------- | ----------------- |
+| Hành động / hoạt động | 運転, 買い物, スキー      |
+| Kỹ năng               | 日本語, 英語, ピアノ, ギター |
+
+Ví dụ:
+
+| Câu             | Nghĩa                      |
+| --------------- | -------------------------- |
+| ランさんは 日本語ができます。 | Lan có thể nói tiếng Nhật. |
+| 運転ができます。        | Tôi có thể lái xe.         |
+| ナムさんは ギターができます。 | Nam có thể chơi guitar.    |
+| 料理ができます。        | Tôi có thể nấu ăn.         |
+| スキーができます。       | Tôi có thể trượt tuyết.    |
+
+---
+
+## Phủ định / nghi vấn
+
+| Mẫu     | Nghĩa               |
+| ------- | ------------------- |
+| Nができます  | Có thể làm N        |
+| Nができません | Không thể làm N     |
+| Nができますか | Có thể làm N không? |
+
+Ví dụ:
+
+| Câu        | Nghĩa                    |
+| ---------- | ------------------------ |
+| ギターができません。 | Không thể chơi guitar.   |
+| 料理ができますか。  | Bạn có thể nấu ăn không? |
+| はい、できます。   | Vâng, có thể.            |
+| いいえ、できません。 | Không, không thể.        |
+
+---
+
+# 5. Vることができます — Có thể làm V
+
+## Công thức
+
+```text
+Vる + ことができます。
+```
+
+## Nghĩa
+
+**Có thể làm V.**
+
+Lưu ý: phải có **こと**, vì **Vること** biến động từ thành cụm danh từ.
+
+Ví dụ:
+
+| Câu                 | Nghĩa                     |
+| ------------------- | ------------------------- |
+| タイさんは 泳ぐことができます。    | Tài có thể bơi.           |
+| アンさんは 漢字を読むことができます。 | An có thể đọc Kanji.      |
+| カードで払うことができます。      | Có thể trả bằng thẻ.      |
+| 日本料理を作ることができます。     | Có thể nấu món Nhật.      |
+| 50メートルぐらい泳ぐことができます。 | Có thể bơi khoảng 50 mét. |
+
+---
+
+## Phủ định / nghi vấn
+
+| Mẫu        | Nghĩa               |
+| ---------- | ------------------- |
+| Vることができます  | Có thể làm V        |
+| Vることができません | Không thể làm V     |
+| Vることができますか | Có thể làm V không? |
+
+Ví dụ:
+
+| Câu              | Nghĩa                          |
+| ---------------- | ------------------------------ |
+| 泳ぐことができません。      | Không thể bơi.                 |
+| 日本料理を作ることができますか。 | Bạn có thể nấu món Nhật không? |
+| いいえ、できません。       | Không, không thể.              |
+
+---
+
+# 6. 趣味はNです / 趣味はVることです
+
+## 6.1. 趣味はNです
+
+```text
+趣味は N です。
+```
+
+= Sở thích của tôi là N.
+
+Ví dụ:
+
+| Câu         | Nghĩa                        |
+| ----------- | ---------------------------- |
+| 趣味は サッカーです。 | Sở thích của tôi là bóng đá. |
+| 趣味は 料理です。   | Sở thích của tôi là nấu ăn.  |
+| 趣味は 旅行です。   | Sở thích của tôi là du lịch. |
+| 趣味は 買い物です。  | Sở thích của tôi là mua sắm. |
+
+---
+
+## 6.2. 趣味はVることです
+
+```text
+趣味は Vることです。
+```
+
+= Sở thích của tôi là làm V.
+
+Ví dụ:
+
+| Câu            | Nghĩa                          |
+| -------------- | ------------------------------ |
+| 趣味は 絵を描くことです。  | Sở thích của tôi là vẽ tranh.  |
+| 趣味は 写真を撮ることです。 | Sở thích của tôi là chụp ảnh.  |
+| 趣味は 音楽を聞くことです。 | Sở thích của tôi là nghe nhạc. |
+| 趣味は 本を読むことです。  | Sở thích của tôi là đọc sách.  |
+| 趣味は 映画を見ることです。 | Sở thích của tôi là xem phim.  |
+
+---
+
+## 6.3. Hỏi sở thích
+
+```text
+趣味は なんですか。
+```
+
+= Sở thích của bạn là gì?
+
+Ví dụ trả lời:
+
+| Câu            | Nghĩa                                      |
+| -------------- | ------------------------------------------ |
+| 趣味は 音楽を聞くことです。 | Sở thích của tôi là nghe nhạc.             |
+| 趣味は 旅行や買い物です。  | Sở thích của tôi là du lịch, mua sắm,...   |
+| 趣味は 友達と話すことです。 | Sở thích của tôi là nói chuyện với bạn bè. |
+
+---
+
+# 7. Vる前に、V2 — Trước khi làm V
+
+## Công thức
+
+```text
+Vる + 前に、V2
+```
+
+## Nghĩa
+
+**Trước khi làm V1 thì làm V2.**
+
+Lưu ý:
+
+| Điểm cần nhớ          | Giải thích                     |
+| --------------------- | ------------------------------ |
+| V1 luôn ở thể từ điển | Không chia quá khứ             |
+| Thì của câu nằm ở V2  | V2 quyết định hiện tại/quá khứ |
+
+Ví dụ:
+
+| Câu                    | Nghĩa                                      |
+| ---------------------- | ------------------------------------------ |
+| 日本へ来る前に、日本語を勉強しました。    | Trước khi đến Nhật, tôi đã học tiếng Nhật. |
+| 寝る前に、本を読みます。           | Trước khi ngủ, tôi đọc sách.               |
+| キスする前に、歯を磨かなければなりません。  | Trước khi hôn, phải đánh răng.             |
+| 薬を飲む前に、ごはんを食べます。       | Trước khi uống thuốc, ăn cơm.              |
+| 会社へ行く前に、朝ごはんを食べませんでした。 | Trước khi đi làm, tôi đã không ăn sáng.    |
+
+---
+
+# 8. Nの前に、V — Trước N thì V
+
+## Công thức
+
+```text
+N の 前に、V
+```
+
+## Nghĩa
+
+**Trước N thì làm V.**
+
+N thường là danh từ chỉ hành động / sự kiện.
+
+Ví dụ:
+
+| Câu                  | Nghĩa                                     |
+| -------------------- | ----------------------------------------- |
+| 食事の前に、手を洗わなければなりません。 | Trước bữa ăn, phải rửa tay.               |
+| 会議の前に、資料を準備しました。     | Trước cuộc họp, tôi đã chuẩn bị tài liệu. |
+| 買い物の前に、お金を下ろします。     | Trước khi mua sắm, tôi rút tiền.          |
+| 旅行の前に、何をしますか。        | Trước khi đi du lịch, bạn làm gì?         |
+| パーティーの前に、歌いましょう。     | Trước bữa tiệc, cùng hát nhé.             |
+
+---
+
+# 9. Khoảng thời gian + 前に — Cách đây...
+
+## Công thức
+
+```text
+Khoảng thời gian + 前に、V
+```
+
+## Nghĩa
+
+**Cách đây... đã làm V.**
+
+Không thêm **の** sau khoảng thời gian.
+
+Ví dụ:
+
+| Câu               | Nghĩa                               |
+| ----------------- | ----------------------------------- |
+| 2時間前に 帰りました。      | Tôi đã về cách đây 2 tiếng.         |
+| 2年前に 日本へ来ました。     | Tôi đã đến Nhật cách đây 2 năm.     |
+| 3年前に 結婚しました。      | Tôi đã kết hôn cách đây 3 năm.      |
+| 1週間前に ベトナムへ帰りました。 | Tôi đã về Việt Nam cách đây 1 tuần. |
+
+---
+
+# 10. なかなかVません — Mãi mà không V
+
+## Công thức
+
+```text
+なかなか Vません。
+```
+
+## Nghĩa
+
+**Mãi mà không V / khó có thể V.**
+
+Động từ phía sau thường ở dạng phủ định.
+
+Ví dụ:
+
+| Câu                   | Nghĩa                                |
+| --------------------- | ------------------------------------ |
+| 仕事が多いですから、なかなか終わりません。 | Vì nhiều việc nên mãi mà không xong. |
+| 漢字をなかなか覚えません。         | Mãi mà không nhớ Kanji.              |
+| バスがなかなか来ません。          | Xe buýt mãi không đến.               |
+| 会議がなかなか終わりません。        | Cuộc họp mãi không kết thúc.         |
+| みんなの名前をなかなか覚えません。     | Mãi mà không nhớ tên mọi người.      |
+
+Có thể dùng với **Vることができません** để nhấn mạnh “khó có thể làm V”:
+
+| Câu                    | Nghĩa                                  |
+| ---------------------- | -------------------------------------- |
+| ベトナムで雪を見ることがなかなかできません。 | Ở Việt Nam khó có thể nhìn thấy tuyết. |
+| 家を買うことがなかなかできません。      | Khó có thể mua nhà.                    |
+
+---
+
+# 11. ぜひ — Nhất định / rất mong
+
+## Công thức thường gặp
+
+```text
+ぜひ Vたいです。
+ぜひ Vてください。
+```
+
+## Nghĩa
+
+**Nhất định / rất muốn / rất mong.**
+
+Dùng để nhấn mạnh mong muốn mạnh.
+
+Ví dụ:
+
+| Câu             | Nghĩa                           |
+| --------------- | ------------------------------- |
+| ぜひ 日本へ行きたいです。   | Tôi rất muốn đi Nhật.           |
+| ぜひ コーヒーを飲みましょう。 | Nhất định cùng uống cà phê nhé. |
+| ぜひ 来てください。      | Nhất định hãy đến nhé.          |
+| ぜひ 留学したいです。     | Tôi rất muốn đi du học.         |
+| ぜひ 恋人に会いたいです。   | Tôi rất muốn gặp người yêu.     |
+
+---
+
+# 12. Bài tập trắc nghiệm
+
+## Phần A. Chọn nghĩa đúng
+
+### 1. Thể từ điển dùng để làm gì?
+
+A. Tra từ điển và tạo mẫu ngữ pháp
+B. Chỉ quá khứ
+C. Chỉ phủ định
+D. Chỉ mệnh lệnh
+
+### 2. Vることができます nghĩa là gì?
+
+A. Có thể làm V
+B. Không làm V
+C. Phải làm V
+D. Muốn làm V
+
+### 3. 趣味はVることです nghĩa là gì?
+
+A. Sở thích là làm V
+B. Có thể làm V
+C. Trước khi làm V
+D. Không làm V
+
+### 4. Vる前に nghĩa là gì?
+
+A. Trước khi làm V
+B. Sau khi làm V
+C. Vì làm V
+D. Muốn làm V
+
+### 5. なかなかVません nghĩa là gì?
+
+A. Mãi mà không V
+B. Rất muốn V
+C. Phải V
+D. Có thể V
+
+---
+
+## Phần B. Chia thể từ điển — Nhóm 1
+
+### 6. 書きます → thể từ điển là gì?
+
+A. 書く
+B. 書きる
+C. 書かない
+D. 書いて
+
+### 7. 読みます → thể từ điển là gì?
+
+A. 読む
+B. 読みる
+C. 読まない
+D. 読んで
+
+### 8. 取ります → thể từ điển là gì?
+
+A. 取る
+B. 取りる
+C. 取らない
+D. 取って
+
+### 9. 行きます → thể từ điển là gì?
+
+A. 行く
+B. 行きる
+C. 行かない
+D. 行って
+
+### 10. 吸います → thể từ điển là gì?
+
+A. 吸う
+B. 吸いる
+C. 吸わない
+D. 吸って
+
+### 11. 遊びます → thể từ điển là gì?
+
+A. 遊ぶ
+B. 遊びる
+C. 遊ばない
+D. 遊んで
+
+---
+
+## Phần C. Chia thể từ điển — Nhóm 2 và 3
+
+### 12. 食べます → thể từ điển là gì?
+
+A. 食べる
+B. 食ぶ
+C. 食べない
+D. 食べて
+
+### 13. 見ます → thể từ điển là gì?
+
+A. 見る
+B. 見む
+C. 見ない
+D. 見て
+
+### 14. 寝ます → thể từ điển là gì?
+
+A. 寝る
+B. 寝む
+C. 寝ない
+D. 寝て
+
+### 15. 起きます → thể từ điển là gì?
+
+A. 起きる
+B. 起く
+C. 起きない
+D. 起きて
+
+### 16. します → thể từ điển là gì?
+
+A. する
+B. しる
+C. しない
+D. して
+
+### 17. 来ます → thể từ điển là gì?
+
+A. 来る（くる）
+B. 来る（きる）
+C. 来ない
+D. 来て
+
+### 18. 勉強します → thể từ điển là gì?
+
+A. 勉強する
+B. 勉強しる
+C. 勉強しない
+D. 勉強して
+
+---
+
+## Phần D. Nができます
+
+### 19. “Tôi có thể lái xe” là câu nào?
+
+A. 運転ができます。
+B. 運転をできます。
+C. 運転でできます。
+D. 運転にできます。
+
+### 20. “Lan có thể nói tiếng Nhật” là câu nào?
+
+A. ランさんは 日本語ができます。
+B. ランさんは 日本語をできます。
+C. ランさんは 日本語でできます。
+D. ランさんは 日本語にできます。
+
+### 21. “Nam có thể chơi guitar” là câu nào?
+
+A. ナムさんは ギターができます。
+B. ナムさんは ギターをできます。
+C. ナムさんは ギターでできます。
+D. ナムさんは ギターにできます。
+
+### 22. “Tôi không thể nấu ăn” là câu nào?
+
+A. 料理ができません。
+B. 料理ができます。
+C. 料理をできません。
+D. 料理でできません。
+
+### 23. “Bạn có thể nấu ăn không?” là câu nào?
+
+A. 料理ができますか。
+B. 料理をできますか。
+C. 料理でできますか。
+D. 料理にできますか。
+
+---
+
+## Phần E. Vることができます
+
+### 24. “Tài có thể bơi” là câu nào?
+
+A. タイさんは 泳ぐことができます。
+B. タイさんは 泳ぎことができます。
+C. タイさんは 泳ぐができます。
+D. タイさんは 泳ぎますことができます。
+
+### 25. “An có thể đọc Kanji” là câu nào?
+
+A. アンさんは 漢字を読むことができます。
+B. アンさんは 漢字を読みことができます。
+C. アンさんは 漢字が読むできます。
+D. アンさんは 漢字を読めますことです。
+
+### 26. “Có thể trả tiền bằng thẻ” là câu nào?
+
+A. カードで払うことができます。
+B. カードで払いことができます。
+C. カードを払うことができます。
+D. カードに払うことができます。
+
+### 27. “Tôi không thể bơi” là câu nào?
+
+A. 泳ぐことができません。
+B. 泳ぐことができます。
+C. 泳ぎことができません。
+D. 泳ぐができません。
+
+### 28. “Bạn có thể nấu món Nhật không?” là câu nào?
+
+A. 日本料理を作ることができますか。
+B. 日本料理を作りますことができますか。
+C. 日本料理が作るできますか。
+D. 日本料理に作ることができますか。
+
+---
+
+## Phần F. 趣味はNです
+
+### 29. 趣味 nghĩa là gì?
+
+A. Sở thích
+B. Khả năng
+C. Công việc
+D. Thời gian
+
+### 30. “Sở thích của tôi là bóng đá” là câu nào?
+
+A. 趣味は サッカーです。
+B. 趣味は サッカーができます。
+C. 趣味は サッカーをします。
+D. 趣味は サッカーに行きます。
+
+### 31. “Sở thích của tôi là nấu ăn” là câu nào?
+
+A. 趣味は 料理です。
+B. 趣味は 料理ができます。
+C. 趣味は 料理を食べます。
+D. 趣味は 料理に行きます。
+
+### 32. “Sở thích của tôi là du lịch” là câu nào?
+
+A. 趣味は 旅行です。
+B. 趣味は 旅行ができます。
+C. 趣味は 旅行を読みます。
+D. 趣味は 旅行にできます。
+
+---
+
+## Phần G. 趣味はVることです
+
+### 33. “Sở thích của tôi là vẽ tranh” là câu nào?
+
+A. 趣味は 絵を描くことです。
+B. 趣味は 絵を描きことです。
+C. 趣味は 絵が描くできます。
+D. 趣味は 絵を描きますことです。
+
+### 34. “Sở thích của tôi là chụp ảnh” là câu nào?
+
+A. 趣味は 写真を撮ることです。
+B. 趣味は 写真を撮りことです。
+C. 趣味は 写真が撮るできます。
+D. 趣味は 写真を撮りますことです。
+
+### 35. “Sở thích của tôi là nghe nhạc” là câu nào?
+
+A. 趣味は 音楽を聞くことです。
+B. 趣味は 音楽を聞きことです。
+C. 趣味は 音楽が聞くできます。
+D. 趣味は 音楽を聞きますことです。
+
+### 36. “Sở thích của tôi là đọc sách” là câu nào?
+
+A. 趣味は 本を読むことです。
+B. 趣味は 本を読みことです。
+C. 趣味は 本が読むできます。
+D. 趣味は 本を読みますことです。
+
+### 37. “Sở thích của bạn là gì?” là câu nào?
+
+A. 趣味は なんですか。
+B. 趣味は どこですか。
+C. 趣味は いつですか。
+D. 趣味は いくらですか。
+
+---
+
+## Phần H. Vる前に
+
+### 38. “Trước khi đến Nhật, tôi đã học tiếng Nhật” là câu nào?
+
+A. 日本へ来る前に、日本語を勉強しました。
+B. 日本へ来ました前に、日本語を勉強しました。
+C. 日本へ来て前に、日本語を勉強しました。
+D. 日本へ来ない前に、日本語を勉強しました。
+
+### 39. “Trước khi ngủ, tôi đọc sách” là câu nào?
+
+A. 寝る前に、本を読みます。
+B. 寝ます前に、本を読みます。
+C. 寝て前に、本を読みます。
+D. 寝ない前に、本を読みます。
+
+### 40. “Trước khi uống thuốc, ăn cơm” là câu nào?
+
+A. 薬を飲む前に、ごはんを食べます。
+B. 薬を飲みます前に、ごはんを食べます。
+C. 薬を飲んで前に、ごはんを食べます。
+D. 薬を飲まない前に、ごはんを食べます。
+
+### 41. Trong mẫu Vる前に, V1 chia thế nào?
+
+A. Thể từ điển
+B. Thể ます
+C. Thể て
+D. Thể ない
+
+### 42. Thì của câu Vる前に do phần nào quyết định?
+
+A. V2 cuối câu
+B. V1 trước 前に
+C. Danh từ
+D. Trợ từ に
+
+---
+
+## Phần I. Nの前に
+
+### 43. “Trước bữa ăn, phải rửa tay” là câu nào?
+
+A. 食事の前に、手を洗わなければなりません。
+B. 食事前に、手を洗わなければなりません。
+C. 食事に前、手を洗わなければなりません。
+D. 食事を前に、手を洗わなければなりません。
+
+### 44. “Trước cuộc họp, tôi đã chuẩn bị tài liệu” là câu nào?
+
+A. 会議の前に、資料を準備しました。
+B. 会議前に、資料を準備しました。
+C. 会議に前、資料を準備しました。
+D. 会議を前に、資料を準備しました。
+
+### 45. “Trước khi mua sắm, tôi rút tiền” là câu nào?
+
+A. 買い物の前に、お金を下ろします。
+B. 買い物前に、お金を下ろします。
+C. 買い物に前、お金を下ろします。
+D. 買い物を前に、お金を下ろします。
+
+### 46. Với danh từ, trước 前に thường dùng mẫu nào?
+
+A. Nの前に
+B. Nを前に
+C. Nで前に
+D. Nが前に
+
+---
+
+## Phần J. Khoảng thời gian + 前に
+
+### 47. “Tôi đã về cách đây 2 tiếng” là câu nào?
+
+A. 2時間前に 帰りました。
+B. 2時間の前に 帰りました。
+C. 2時前に 帰りました。
+D. 2時間までに 帰りました。
+
+### 48. “Tôi đã đến Nhật cách đây 2 năm” là câu nào?
+
+A. 2年前に 日本へ来ました。
+B. 2年の前に 日本へ来ました。
+C. 2時前に 日本へ来ました。
+D. 2年までに 日本へ来ました。
+
+### 49. “Tôi đã kết hôn cách đây 3 năm” là câu nào?
+
+A. 3年前に 結婚しました。
+B. 3年の前に 結婚しました。
+C. 3時前に 結婚しました。
+D. 3年までに 結婚しました。
+
+### 50. Với khoảng thời gian + 前に, có dùng の không?
+
+A. Không dùng の
+B. Luôn dùng の
+C. Dùng を
+D. Dùng で
+
+---
+
+## Phần K. なかなかVません
+
+### 51. “Xe buýt mãi không đến” là câu nào?
+
+A. バスがなかなか来ません。
+B. バスがぜひ来ません。
+C. バスがなかなか来ます。
+D. バスが前に来ません。
+
+### 52. “Cuộc họp mãi không kết thúc” là câu nào?
+
+A. 会議がなかなか終わりません。
+B. 会議がぜひ終わりません。
+C. 会議がなかなか終わります。
+D. 会議が前に終わります。
+
+### 53. “Mãi mà không nhớ Kanji” là câu nào?
+
+A. 漢字をなかなか覚えません。
+B. 漢字をぜひ覚えません。
+C. 漢字をなかなか覚えます。
+D. 漢字を前に覚えません。
+
+### 54. なかなか thường đi với dạng nào?
+
+A. Phủ định
+B. Khẳng định
+C. Mệnh lệnh
+D. Quá khứ khẳng định
+
+---
+
+## Phần L. ぜひ
+
+### 55. ぜひ nghĩa gần nhất là gì?
+
+A. Nhất định / rất mong
+B. Mãi mà không
+C. Trước khi
+D. Có thể
+
+### 56. “Tôi rất muốn đi Nhật” là câu nào?
+
+A. ぜひ 日本へ行きたいです。
+B. なかなか 日本へ行きたいです。
+C. 日本へ行くことができます。
+D. 日本へ行く前に。
+
+### 57. “Nhất định hãy đến nhé” là câu nào?
+
+A. ぜひ 来てください。
+B. なかなか 来てください。
+C. 来る前にください。
+D. 来ることができます。
+
+### 58. ぜひ thường đi với mẫu nào?
+
+A. Vたいです / Vてください
+B. Vません
+C. Vませんでした
+D. Nの前に
+
+---
+
+## Phần M. Mini test tổng hợp
+
+### 59. 日本語を話すことができます。
+
+A. Có thể nói tiếng Nhật.
+B. Không thể nói tiếng Nhật.
+C. Sở thích là tiếng Nhật.
+D. Trước khi nói tiếng Nhật.
+
+### 60. 趣味は写真を撮ることです。
+
+A. Sở thích là chụp ảnh.
+B. Có thể chụp ảnh.
+C. Không thể chụp ảnh.
+D. Trước khi chụp ảnh.
+
+### 61. 寝る前に、音楽を聞きます。
+
+A. Trước khi ngủ, tôi nghe nhạc.
+B. Sau khi ngủ, tôi nghe nhạc.
+C. Tôi có thể nghe nhạc.
+D. Sở thích là nghe nhạc.
+
+### 62. 会議の前に、資料を読みました。
+
+A. Trước cuộc họp, tôi đã đọc tài liệu.
+B. Sau cuộc họp, tôi đã đọc tài liệu.
+C. Tôi không đọc tài liệu.
+D. Tôi có thể đọc tài liệu.
+
+### 63. 1週間前に ベトナムへ帰りました。
+
+A. Tôi đã về Việt Nam cách đây 1 tuần.
+B. Tôi sẽ về Việt Nam sau 1 tuần.
+C. Tôi về Việt Nam trước khi học.
+D. Tôi có thể về Việt Nam.
+
+### 64. バスがなかなか来ません。
+
+A. Xe buýt mãi không đến.
+B. Xe buýt nhất định sẽ đến.
+C. Xe buýt đã đến.
+D. Xe buýt đến trước đó.
+
+### 65. ぜひ 留学したいです。
+
+A. Tôi rất muốn đi du học.
+B. Tôi không thể đi du học.
+C. Mãi mà không đi du học.
+D. Trước khi đi du học.
+
+Dưới đây là **bảng đáp án + dịch nghĩa + giải thích ngắn gọn + từ vựng** cho **Minna no Nihongo Bài 18**. Mình dựa trên nội dung bạn dán trong tin nhắn; file tìm được trong hệ thống đang là bài 17 nên mình không dùng file đó làm nguồn cho đáp án bài 18. 
+
+---
+
+# Phần A. Chọn nghĩa đúng
+
+| Câu | Đáp án | Dịch nghĩa / Ý chính                    | Giải thích ngắn                       | Từ vựng                |
+| --- | -----: | --------------------------------------- | ------------------------------------- | ---------------------- |
+| 1   |      A | Dùng để tra từ điển và tạo mẫu ngữ pháp | Thể từ điển là dạng gốc của động từ   | 辞書形 = thể từ điển      |
+| 2   |      A | Có thể làm V                            | `Vることができます` = có thể làm việc gì      | できます = có thể          |
+| 3   |      A | Sở thích là làm V                       | `趣味は Vることです` = sở thích là làm V      | 趣味 = sở thích          |
+| 4   |      A | Trước khi làm V                         | `Vる前に` = trước khi làm V              | 前に = trước khi         |
+| 5   |      A | Mãi mà không V                          | `なかなか + Vません` = mãi mà không / khó mà | なかなか = mãi mà / khó mà |
+
+---
+
+# Phần B. Chia thể từ điển — Nhóm 1
+
+| Câu | Đáp án | Dịch nghĩa | Giải thích ngắn             | Từ vựng     |
+| --- | -----: | ---------- | --------------------------- | ----------- |
+| 6   |      A | 書きます → 書く  | Nhóm 1: âm `き` đổi sang `く` | 書きます = viết |
+| 7   |      A | 読みます → 読む  | `み` đổi sang `む`            | 読みます = đọc  |
+| 8   |      A | 取ります → 取る  | `り` đổi sang `る`            | 取ります = lấy  |
+| 9   |      A | 行きます → 行く  | `き` đổi sang `く`            | 行きます = đi   |
+| 10  |      A | 吸います → 吸う  | `い` đổi sang `う`            | 吸います = hút  |
+| 11  |      A | 遊びます → 遊ぶ  | `び` đổi sang `ぶ`            | 遊びます = chơi |
+
+---
+
+# Phần C. Chia thể từ điển — Nhóm 2 và 3
+
+| Câu | Đáp án | Dịch nghĩa   | Giải thích ngắn       | Từ vựng         |
+| --- | -----: | ------------ | --------------------- | --------------- |
+| 12  |      A | 食べます → 食べる   | Nhóm 2: bỏ `ます` + `る` | 食べます = ăn       |
+| 13  |      A | 見ます → 見る     | Bỏ `ます` + `る`         | 見ます = xem       |
+| 14  |      A | 寝ます → 寝る     | Bỏ `ます` + `る`         | 寝ます = ngủ       |
+| 15  |      A | 起きます → 起きる   | Bỏ `ます` + `る`         | 起きます = thức dậy |
+| 16  |      A | します → する     | Nhóm 3 bất quy tắc    | します = làm       |
+| 17  |      A | 来ます → 来る（くる） | Nhóm 3 bất quy tắc    | 来ます = đến       |
+| 18  |      A | 勉強します → 勉強する | `N + します` → `N + する`  | 勉強します = học     |
+
+---
+
+# Phần D. Nができます
+
+| Câu | Đáp án | Dịch nghĩa                | Giải thích ngắn                    | Từ vựng               |
+| --- | -----: | ------------------------- | ---------------------------------- | --------------------- |
+| 19  |      A | Tôi có thể lái xe         | Khả năng với danh từ dùng `Nができます` | 運転 = lái xe           |
+| 20  |      A | Lan có thể nói tiếng Nhật | Kỹ năng ngôn ngữ dùng `日本語ができます`   | 日本語 = tiếng Nhật      |
+| 21  |      A | Nam có thể chơi guitar    | Kỹ năng dùng `Nができます`              | ギター = đàn guitar      |
+| 22  |      A | Tôi không thể nấu ăn      | Phủ định: `Nができません`                | 料理 = nấu ăn           |
+| 23  |      A | Bạn có thể nấu ăn không?  | Câu hỏi: `Nができますか`                 | できますか = có thể không? |
+
+---
+
+# Phần E. Vることができます
+
+| Câu | Đáp án | Dịch nghĩa                     | Giải thích ngắn                   | Từ vựng           |
+| --- | -----: | ------------------------------ | --------------------------------- | ----------------- |
+| 24  |      A | Tài có thể bơi                 | `泳ぐことができます` = có thể bơi          | 泳ぎます = bơi        |
+| 25  |      A | An có thể đọc Kanji            | Động từ phải ở thể từ điển + `こと` | 漢字 = chữ Hán      |
+| 26  |      A | Có thể trả tiền bằng thẻ       | `カードで` = bằng thẻ                 | 払います = trả tiền   |
+| 27  |      A | Tôi không thể bơi              | Phủ định: `Vることができません`            | できません = không thể |
+| 28  |      A | Bạn có thể nấu món Nhật không? | Câu hỏi: `Vることができますか`             | 日本料理 = món Nhật   |
+
+---
+
+# Phần F. 趣味はNです
+
+| Câu | Đáp án | Dịch nghĩa                  | Giải thích ngắn             | Từ vựng        |
+| --- | -----: | --------------------------- | --------------------------- | -------------- |
+| 29  |      A | 趣味 = sở thích               | Đây là danh từ chỉ sở thích | 趣味 = sở thích  |
+| 30  |      A | Sở thích của tôi là bóng đá | `趣味は Nです` = sở thích là N   | サッカー = bóng đá |
+| 31  |      A | Sở thích của tôi là nấu ăn  | `料理` là danh từ hoạt động   | 料理 = nấu ăn    |
+| 32  |      A | Sở thích của tôi là du lịch | `旅行` là danh từ hoạt động   | 旅行 = du lịch   |
+
+---
+
+# Phần G. 趣味はVることです
+
+| Câu | Đáp án | Dịch nghĩa                    | Giải thích ngắn              | Từ vựng                |
+| --- | -----: | ----------------------------- | ---------------------------- | ---------------------- |
+| 33  |      A | Sở thích của tôi là vẽ tranh  | `描くこと` = việc vẽ             | 絵 = tranh / 描きます = vẽ  |
+| 34  |      A | Sở thích của tôi là chụp ảnh  | `撮ること` = việc chụp           | 写真 = ảnh / 撮ります = chụp |
+| 35  |      A | Sở thích của tôi là nghe nhạc | `聞くこと` = việc nghe           | 音楽 = âm nhạc           |
+| 36  |      A | Sở thích của tôi là đọc sách  | `読むこと` = việc đọc            | 本 = sách               |
+| 37  |      A | Sở thích của bạn là gì?       | Hỏi sở thích dùng `趣味はなんですか` | なん = cái gì            |
+
+---
+
+# Phần H. Vる前に
+
+| Câu | Đáp án | Dịch nghĩa                                | Giải thích ngắn              | Từ vựng           |
+| --- | -----: | ----------------------------------------- | ---------------------------- | ----------------- |
+| 38  |      A | Trước khi đến Nhật, tôi đã học tiếng Nhật | Trước `前に` dùng thể từ điển  | 来る = đến          |
+| 39  |      A | Trước khi ngủ, tôi đọc sách               | `寝る前に` = trước khi ngủ       | 寝ます = ngủ         |
+| 40  |      A | Trước khi uống thuốc, ăn cơm              | `飲む前に` = trước khi uống      | 薬 = thuốc         |
+| 41  |      A | V1 dùng thể từ điển                       | Mẫu đúng là `Vる前に`           | 辞書形 = thể từ điển |
+| 42  |      A | Thì của câu do V2 cuối câu quyết định     | V1 trước `前に` không chia thì | 読みます / 読みました      |
+
+---
+
+# Phần I. Nの前に
+
+| Câu | Đáp án | Dịch nghĩa                               | Giải thích ngắn               | Từ vựng                       |
+| --- | -----: | ---------------------------------------- | ----------------------------- | ----------------------------- |
+| 43  |      A | Trước bữa ăn, phải rửa tay               | Với danh từ dùng `Nの前に`       | 食事 = bữa ăn / 手 = tay         |
+| 44  |      A | Trước cuộc họp, tôi đã chuẩn bị tài liệu | `会議の前に` = trước cuộc họp      | 会議 = cuộc họp / 資料 = tài liệu |
+| 45  |      A | Trước khi mua sắm, tôi rút tiền          | `買い物の前に` = trước việc mua sắm | お金 = tiền / 下ろします = rút       |
+| 46  |      A | Với danh từ dùng `Nの前に`                  | Danh từ cần `の` trước `前に`    | 前に = trước                    |
+
+---
+
+# Phần J. Khoảng thời gian + 前に
+
+| Câu | Đáp án | Dịch nghĩa                     | Giải thích ngắn                         | Từ vựng                 |
+| --- | -----: | ------------------------------ | --------------------------------------- | ----------------------- |
+| 47  |      A | Tôi đã về cách đây 2 tiếng     | Khoảng thời gian + `前に`, không dùng `の` | 2時間 = 2 tiếng           |
+| 48  |      A | Tôi đã đến Nhật cách đây 2 năm | `2年前に` = cách đây 2 năm                 | 2年 = 2 năm              |
+| 49  |      A | Tôi đã kết hôn cách đây 3 năm  | `3年前に` = cách đây 3 năm                 | 結婚します = kết hôn         |
+| 50  |      A | Không dùng `の`                 | Khoảng thời gian trực tiếp + `前に`       | 1週間前に = cách đây 1 tuần |
+
+---
+
+# Phần K. なかなかVません
+
+| Câu | Đáp án | Dịch nghĩa                  | Giải thích ngắn               | Từ vựng        |
+| --- | -----: | --------------------------- | ----------------------------- | -------------- |
+| 51  |      A | Xe buýt mãi không đến       | `なかなか来ません` = mãi không đến    | バス = xe buýt   |
+| 52  |      A | Cuộc họp mãi không kết thúc | `なかなか終わりません` = mãi không xong | 会議 = cuộc họp  |
+| 53  |      A | Mãi mà không nhớ Kanji      | `なかなか覚えません` = mãi không nhớ   | 覚えます = nhớ     |
+| 54  |      A | なかなか thường đi với phủ định | Mẫu thường gặp: `なかなか Vません`   | Vません = không V |
+
+---
+
+# Phần L. ぜひ
+
+| Câu | Đáp án | Dịch nghĩa                        | Giải thích ngắn                     | Từ vựng             |
+| --- | -----: | --------------------------------- | ----------------------------------- | ------------------- |
+| 55  |      A | Nhất định / rất mong              | `ぜひ` nhấn mạnh mong muốn            | ぜひ = nhất định      |
+| 56  |      A | Tôi rất muốn đi Nhật              | `ぜひ + Vたいです`                        | 行きたいです = muốn đi    |
+| 57  |      A | Nhất định hãy đến nhé             | `ぜひ + Vてください`                       | 来てください = hãy đến    |
+| 58  |      A | ぜひ thường đi với `Vたいです / Vてください` | Diễn tả mong muốn mạnh hoặc lời mời | 留学したい = muốn du học |
+
+---
+
+# Phần M. Mini test tổng hợp
+
+| Câu | Đáp án | Dịch nghĩa                          | Giải thích ngắn            | Từ vựng             |
+| --- | -----: | ----------------------------------- | -------------------------- | ------------------- |
+| 59  |      A | Có thể nói tiếng Nhật               | `話すことができます` = có thể nói   | 話します = nói          |
+| 60  |      A | Sở thích là chụp ảnh                | `趣味は Vることです`               | 写真を撮ります = chụp ảnh  |
+| 61  |      A | Trước khi ngủ, tôi nghe nhạc        | `寝る前に` = trước khi ngủ     | 音楽を聞きます = nghe nhạc |
+| 62  |      A | Trước cuộc họp, tôi đã đọc tài liệu | `会議の前に` = trước cuộc họp   | 資料 = tài liệu       |
+| 63  |      A | Tôi đã về Việt Nam cách đây 1 tuần  | `1週間前に` = cách đây 1 tuần  | 帰りました = đã về       |
+| 64  |      A | Xe buýt mãi không đến               | `なかなか来ません` = mãi không đến | 来ます = đến           |
+| 65  |      A | Tôi rất muốn đi du học              | `ぜひ + Vたいです`               | 留学します = du học      |
+
+---
+
+# Tổng kết cực ngắn
+
+| Mẫu          | Nghĩa             | Ví dụ       |
+| ------------ | ----------------- | ----------- |
+| `Vる`         | thể từ điển       | 食べる、読む、書く   |
+| `Nができます`     | có thể làm N      | 日本語ができます    |
+| `Vることができます`  | có thể làm V      | 泳ぐことができます   |
+| `Vることができません` | không thể làm V   | 泳ぐことができません  |
+| `趣味はNです`     | sở thích là N     | 趣味は料理です     |
+| `趣味はVることです`  | sở thích là làm V | 趣味は本を読むことです |
+| `Vる前に`       | trước khi V       | 寝る前に、本を読みます |
+| `Nの前に`       | trước N           | 会議の前に       |
+| `時間 + 前に`    | cách đây…         | 2年前に        |
+| `なかなかVません`   | mãi mà không V    | バスがなかなか来ません |
+| `ぜひVたいです`    | rất muốn V        | ぜひ日本へ行きたいです |
+| `ぜひVてください`   | nhất định hãy V   | ぜひ来てください    |
