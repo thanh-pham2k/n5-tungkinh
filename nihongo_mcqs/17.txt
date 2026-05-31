@@ -1,0 +1,918 @@
+Dạ được. Dưới đây là bản **tổng hợp Minna no Nihongo Bài 17** + **bài tập 100% trắc nghiệm**, không kèm đáp án để bạn tự ôn.
+
+Nội dung trong file là **Ngữ pháp Minna 1 - Bài 17**, trọng tâm gồm: **thể ない**, **Vないでください**, **Vなければなりません**, **Vなくてもいいです**, **đưa tân ngữ lên làm chủ đề với は**, và **までに**. 
+
+---
+
+# Minna no Nihongo Bài 17 — Tổng hợp + Bài tập trắc nghiệm
+
+## 1. Tổng quan bài 17
+
+| Nội dung                  | Mẫu              | Nghĩa                     |
+| ------------------------- | ---------------- | ------------------------- |
+| Thể phủ định thông thường | Vない              | Không làm V               |
+| Xin đừng làm V            | Vないでください         | Xin đừng làm V            |
+| Phải làm V                | Vなければなりません       | Phải làm V                |
+| Không cần làm V           | Vなくてもいいです        | Không cần làm V cũng được |
+| Nhấn mạnh tân ngữ         | Nは Vます           | N thì…                    |
+| Hạn chót                  | Thời gianまでに Vます | Làm V trước hạn           |
+
+---
+
+# 2. Thể ない là gì?
+
+**Thể ない** là dạng phủ định thông thường của động từ.
+
+| Lịch sự | Thông thường |
+| ------- | ------------ |
+| 食べません   | 食べない         |
+| 行きません   | 行かない         |
+| 書きません   | 書かない         |
+| しません    | しない          |
+| 来ません    | 来ない          |
+
+Nghĩa chung: **không làm V**.
+
+Ví dụ:
+
+| Câu       | Nghĩa           |
+| --------- | --------------- |
+| ごはんを食べない。 | Không ăn cơm.   |
+| 学校へ行かない。  | Không đi học.   |
+| 本を読まない。   | Không đọc sách. |
+
+---
+
+# 3. Cách chia thể ない
+
+## 3.1. Nhóm 1
+
+Quy tắc:
+
+```text
+Âm trước ます thuộc cột い → chuyển sang cột あ + ない
+```
+
+| Vます  | Vない  | Nghĩa      |
+| ---- | ---- | ---------- |
+| 行きます | 行かない | không đi   |
+| 書きます | 書かない | không viết |
+| 読みます | 読まない | không đọc  |
+| 話します | 話さない | không nói  |
+| 取ります | 取らない | không lấy  |
+| 呼びます | 呼ばない | không gọi  |
+| 急ぎます | 急がない | không vội  |
+| 帰ります | 帰らない | không về   |
+
+### Trường hợp đặc biệt với âm い
+
+Nếu trước ます là **い**, đổi thành **わ + ない**.
+
+| Vます  | Vない  | Nghĩa          |
+| ---- | ---- | -------------- |
+| 言います | 言わない | không nói      |
+| 吸います | 吸わない | không hút      |
+| 払います | 払わない | không trả tiền |
+| 会います | 会わない | không gặp      |
+
+### Động từ đặc biệt
+
+| Vます  | Vない |
+| ---- | --- |
+| あります | ない  |
+
+---
+
+## 3.2. Nhóm 2
+
+Quy tắc:
+
+```text
+Bỏ ます + ない
+```
+
+| Vます  | Vない  | Nghĩa          |
+| ---- | ---- | -------------- |
+| 食べます | 食べない | không ăn       |
+| 見ます  | 見ない  | không xem      |
+| 寝ます  | 寝ない  | không ngủ      |
+| 起きます | 起きない | không thức dậy |
+| 借ります | 借りない | không mượn     |
+| 降ります | 降りない | không xuống    |
+| 浴びます | 浴びない | không tắm      |
+| できます | できない | không thể      |
+
+---
+
+## 3.3. Nhóm 3
+
+| Vます    | Vない            | Nghĩa          |
+| ------ | -------------- | -------------- |
+| します    | しない            | không làm      |
+| 勉強します  | 勉強しない          | không học      |
+| 心配します  | 心配しない          | không lo lắng  |
+| 来ます    | 来ない（こない）       | không đến      |
+| 持って来ます | 持って来ない（もってこない） | không mang đến |
+
+---
+
+# 4. Vないでください — Xin đừng làm V
+
+## Công thức
+
+```text
+Vないでください。
+```
+
+## Nghĩa
+
+**Xin đừng làm V.**
+
+Dùng để yêu cầu người khác **không làm việc gì đó**.
+
+Ví dụ:
+
+| Câu                | Nghĩa                     |
+| ------------------ | ------------------------- |
+| ここで たばこを吸わないでください。 | Xin đừng hút thuốc ở đây. |
+| 心配しないでください。        | Xin đừng lo lắng.         |
+| 私のことを忘れないでください。    | Xin đừng quên tôi.        |
+| ここに車を止めないでください。    | Xin đừng đỗ xe ở đây.     |
+| 本に書かないでください。       | Xin đừng viết vào sách.   |
+| このボタンを押さないでください。   | Xin đừng bấm nút này.     |
+
+---
+
+# 5. Vなければなりません — Phải làm V
+
+## Công thức
+
+```text
+Vない bỏ い + ければなりません。
+```
+
+## Nghĩa
+
+**Phải làm V.**
+
+Dùng khi việc đó là **bắt buộc**, không phụ thuộc vào ý muốn cá nhân.
+
+Ví dụ:
+
+| Câu                         | Nghĩa                                       |
+| --------------------------- | ------------------------------------------- |
+| レポートを書かなければなりません。           | Tôi phải viết báo cáo.                      |
+| 薬を飲まなければなりません。              | Tôi phải uống thuốc.                        |
+| 現金がありませんから、カードで払わなければなりません。 | Vì không có tiền mặt nên phải trả bằng thẻ. |
+| 金曜日までに終わらなければなりません。         | Phải xong trước thứ Sáu.                    |
+| 予約しなければなりません。               | Phải đặt chỗ trước.                         |
+| 保険証を持って行かなければなりません。         | Phải mang thẻ bảo hiểm đi.                  |
+
+Cách hiểu nhanh:
+
+```text
+書かない → 書かなければなりません
+飲まない → 飲まなければなりません
+しない → しなければなりません
+来ない → 来なければなりません
+```
+
+---
+
+# 6. Vなくてもいいです — Không cần làm V cũng được
+
+## Công thức
+
+```text
+Vない bỏ い + くてもいいです。
+```
+
+## Nghĩa
+
+**Không cần làm V cũng được.**
+
+Dùng để nói việc đó **không bắt buộc**.
+
+Ví dụ:
+
+| Câu                 | Nghĩa                                       |
+| ------------------- | ------------------------------------------- |
+| 明日 会社へ来なくてもいいです。    | Ngày mai không cần đến công ty cũng được.   |
+| 心配しなくてもいいです。        | Không cần lo lắng cũng được.                |
+| 傘を持って行かなくてもいいです。    | Không cần mang ô cũng được.                 |
+| 金曜日までに終わらなくてもいいですか。 | Không cần xong trước thứ Sáu cũng được chứ? |
+| 薬を飲まなくてもいいですか。      | Không cần uống thuốc cũng được chứ?         |
+| 靴を脱がなくてもいいです。       | Không cần cởi giày cũng được.               |
+| 名前を書かなくてもいいです。      | Không cần viết tên cũng được.               |
+
+Cách hiểu nhanh:
+
+```text
+書かない → 書かなくてもいいです
+飲まない → 飲まなくてもいいです
+しない → しなくてもいいです
+来ない → 来なくてもいいです
+```
+
+---
+
+# 7. Đưa tân ngữ lên làm chủ đề với は
+
+## Mẫu gốc
+
+```text
+Nを Vます。
+```
+
+Ví dụ:
+
+```text
+荷物をここに置かないでください。
+```
+
+= Xin đừng đặt hành lý ở đây.
+
+## Mẫu nhấn mạnh
+
+```text
+Nは Vます。
+```
+
+Ví dụ:
+
+```text
+荷物はここに置かないでください。
+```
+
+= Hành lý thì xin đừng đặt ở đây.
+
+Mẫu này dùng để **nhấn mạnh danh từ**.
+
+Ví dụ:
+
+| Câu               | Nghĩa                           |
+| ----------------- | ------------------------------- |
+| 昼ごはんは レストランで食べます。 | Cơm trưa thì tôi ăn ở nhà hàng. |
+| 車は ここに止めてください。    | Xe ô tô thì hãy đỗ ở đây.       |
+| 絵は 鉛筆で描きます。       | Tranh thì tôi vẽ bằng bút chì.  |
+| レポートは ファックスで送ります。 | Báo cáo thì tôi gửi bằng fax.   |
+
+---
+
+# 8. までに — trước hạn / chậm nhất là
+
+## Công thức
+
+```text
+Thời gian + までに + Vます。
+```
+
+## Nghĩa
+
+**Làm V trước thời điểm đó / chậm nhất là thời điểm đó.**
+
+Dùng cho **deadline / hạn chót**.
+
+Ví dụ:
+
+| Câu                      | Nghĩa                                 |
+| ------------------------ | ------------------------------------- |
+| 午後5時までに レポートを出してください。    | Hãy nộp báo cáo trước 5 giờ chiều.    |
+| 10時までに 会議が終わります。         | Cuộc họp sẽ kết thúc trước 10 giờ.    |
+| 今週の土曜日までに 本を返さなければなりません。 | Phải trả sách trước thứ Bảy tuần này. |
+| 11時までに 寝てください。           | Hãy đi ngủ trước 11 giờ.              |
+| 9時までに 帰らなければなりません。       | Phải về trước 9 giờ.                  |
+
+## Phân biệt まで và までに
+
+| Mẫu | Nghĩa                    | Ví dụ         |
+| --- | ------------------------ | ------------- |
+| まで  | đến / cho đến            | 8時から5時まで働きます。 |
+| までに | trước hạn / chậm nhất là | 5時までに出してください。 |
+
+Ghi nhớ:
+
+```text
+まで = kéo dài đến mốc đó
+までに = hoàn thành trước mốc đó
+```
+
+---
+
+# 9. Bài tập trắc nghiệm
+
+## Phần A. Chọn nghĩa đúng
+
+### 1. Vない nghĩa là gì?
+
+A. Không làm V
+B. Đã làm V
+C. Muốn làm V
+D. Đang làm V
+
+### 2. Vないでください nghĩa là gì?
+
+A. Xin đừng làm V
+B. Phải làm V
+C. Không cần làm V
+D. Muốn làm V
+
+### 3. Vなければなりません nghĩa là gì?
+
+A. Phải làm V
+B. Không cần làm V
+C. Xin đừng làm V
+D. Đã làm V
+
+### 4. Vなくてもいいです nghĩa là gì?
+
+A. Không cần làm V cũng được
+B. Phải làm V
+C. Xin đừng làm V
+D. Muốn làm V
+
+### 5. までに nghĩa là gì?
+
+A. Trước hạn / chậm nhất là
+B. Từ
+C. Đến / cho đến
+D. Ở đâu
+
+---
+
+## Phần B. Chia thể ない — Nhóm 1
+
+### 6. 行きます → thể ない là gì?
+
+A. 行かない
+B. 行きない
+C. 行こない
+D. 行ってない
+
+### 7. 書きます → thể ない là gì?
+
+A. 書かない
+B. 書きない
+C. 書こない
+D. 書いてない
+
+### 8. 読みます → thể ない là gì?
+
+A. 読まない
+B. 読みない
+C. 読めない
+D. 読んない
+
+### 9. 話します → thể ない là gì?
+
+A. 話さない
+B. 話しない
+C. 話せない
+D. 話してない
+
+### 10. 取ります → thể ない là gì?
+
+A. 取らない
+B. 取りない
+C. 取れない
+D. 取ってない
+
+### 11. 言います → thể ない là gì?
+
+A. 言わない
+B. 言いない
+C. 言あない
+D. 言ってない
+
+### 12. 吸います → thể ない là gì?
+
+A. 吸わない
+B. 吸いない
+C. 吸あない
+D. 吸ってない
+
+---
+
+## Phần C. Chia thể ない — Nhóm 2 và 3
+
+### 13. 食べます → thể ない là gì?
+
+A. 食べない
+B. 食べらない
+C. 食べません
+D. 食べてない
+
+### 14. 見ます → thể ない là gì?
+
+A. 見ない
+B. 見らない
+C. 見ません
+D. 見てない
+
+### 15. 起きます → thể ない là gì?
+
+A. 起きない
+B. 起かない
+C. 起こない
+D. 起きません
+
+### 16. 借ります → thể ない là gì?
+
+A. 借りない
+B. 借らない
+C. 借れない
+D. 借ません
+
+### 17. します → thể ない là gì?
+
+A. しない
+B. さない
+C. すない
+D. せない
+
+### 18. 来ます → thể ない là gì?
+
+A. 来ない（こない）
+B. 来ない（きない）
+C. 来らない
+D. 来ません
+
+### 19. 勉強します → thể ない là gì?
+
+A. 勉強しない
+B. 勉強さない
+C. 勉強すない
+D. 勉強できない
+
+---
+
+## Phần D. Vないでください
+
+### 20. “Xin đừng hút thuốc ở đây” là câu nào?
+
+A. ここで たばこを吸わないでください。
+B. ここで たばこを吸ってください。
+C. ここで たばこを吸わなければなりません。
+D. ここで たばこを吸いたいです。
+
+### 21. “Xin đừng lo lắng” là câu nào?
+
+A. 心配しないでください。
+B. 心配してください。
+C. 心配しなければなりません。
+D. 心配したいです。
+
+### 22. “Xin đừng viết vào sách” là câu nào?
+
+A. 本に書かないでください。
+B. 本を書かないでください。
+C. 本で書かないでください。
+D. 本へ書かないでください。
+
+### 23. “Xin đừng bấm nút này” là câu nào?
+
+A. このボタンを押さないでください。
+B. このボタンに押さないでください。
+C. このボタンで押さないでください。
+D. このボタンへ押さないでください。
+
+### 24. “Xin đừng đỗ xe ở đây” là câu nào?
+
+A. ここに車を止めないでください。
+B. ここで車を止めないでください。
+C. ここへ車を止めないでください。
+D. ここを車に止めないでください。
+
+---
+
+## Phần E. Vなければなりません
+
+### 25. “Tôi phải viết báo cáo” là câu nào?
+
+A. レポートを書かなければなりません。
+B. レポートを書かなくてもいいです。
+C. レポートを書かないでください。
+D. レポートを書きたいです。
+
+### 26. “Tôi phải uống thuốc” là câu nào?
+
+A. 薬を飲まなければなりません。
+B. 薬を飲まなくてもいいです。
+C. 薬を飲まないでください。
+D. 薬を飲みたいです。
+
+### 27. “Phải đặt chỗ trước” là câu nào?
+
+A. 予約しなければなりません。
+B. 予約しなくてもいいです。
+C. 予約しないでください。
+D. 予約したいです。
+
+### 28. “Phải mang thẻ bảo hiểm đi” là câu nào?
+
+A. 保険証を持って行かなければなりません。
+B. 保険証を持って行かなくてもいいです。
+C. 保険証を持って行かないでください。
+D. 保険証を持って行きたいです。
+
+### 29. “Phải xong trước thứ Sáu” là câu nào?
+
+A. 金曜日までに終わらなければなりません。
+B. 金曜日まで終わらなければなりません。
+C. 金曜日から終わらなければなりません。
+D. 金曜日で終わらなければなりません。
+
+---
+
+## Phần F. Vなくてもいいです
+
+### 30. “Ngày mai không cần đến công ty cũng được” là câu nào?
+
+A. 明日 会社へ来なくてもいいです。
+B. 明日 会社へ来なければなりません。
+C. 明日 会社へ来ないでください。
+D. 明日 会社へ来たいです。
+
+### 31. “Không cần lo lắng cũng được” là câu nào?
+
+A. 心配しなくてもいいです。
+B. 心配しなければなりません。
+C. 心配しないでください。
+D. 心配したいです。
+
+### 32. “Không cần mang ô cũng được” là câu nào?
+
+A. 傘を持って行かなくてもいいです。
+B. 傘を持って行かなければなりません。
+C. 傘を持って行かないでください。
+D. 傘を持って行きたいです。
+
+### 33. “Không cần cởi giày cũng được” là câu nào?
+
+A. 靴を脱がなくてもいいです。
+B. 靴を脱がなければなりません。
+C. 靴を脱がないでください。
+D. 靴を脱ぎたいです。
+
+### 34. “Không cần viết tên cũng được chứ?” là câu nào?
+
+A. 名前を書かなくてもいいですか。
+B. 名前を書かなければなりませんか。
+C. 名前を書かないでくださいか。
+D. 名前を書きたいですか。
+
+---
+
+## Phần G. Phân biệt ください / なければ / なくても
+
+### 35. 書かないでください nghĩa là gì?
+
+A. Xin đừng viết
+B. Phải viết
+C. Không cần viết
+D. Muốn viết
+
+### 36. 書かなければなりません nghĩa là gì?
+
+A. Phải viết
+B. Xin đừng viết
+C. Không cần viết
+D. Muốn viết
+
+### 37. 書かなくてもいいです nghĩa là gì?
+
+A. Không cần viết cũng được
+B. Phải viết
+C. Xin đừng viết
+D. Muốn viết
+
+### 38. “Xin đừng uống thuốc” là câu nào?
+
+A. 薬を飲まないでください。
+B. 薬を飲まなければなりません。
+C. 薬を飲まなくてもいいです。
+D. 薬を飲みたいです。
+
+### 39. “Không cần uống thuốc cũng được” là câu nào?
+
+A. 薬を飲まなくてもいいです。
+B. 薬を飲まなければなりません。
+C. 薬を飲まないでください。
+D. 薬を飲みたいです。
+
+### 40. “Phải uống thuốc” là câu nào?
+
+A. 薬を飲まなければなりません。
+B. 薬を飲まなくてもいいです。
+C. 薬を飲まないでください。
+D. 薬を飲みたいです。
+
+---
+
+## Phần H. Đưa tân ngữ lên làm chủ đề
+
+### 41. “Hành lý thì xin đừng đặt ở đây” là câu nào?
+
+A. 荷物は ここに置かないでください。
+B. 荷物を ここに置かないでください。
+C. 荷物で ここに置かないでください。
+D. 荷物に ここを置かないでください。
+
+### 42. “Cơm trưa thì tôi ăn ở nhà hàng” là câu nào?
+
+A. 昼ごはんは レストランで食べます。
+B. 昼ごはんを レストランで食べます。
+C. 昼ごはんで レストランを食べます。
+D. 昼ごはんに レストランで食べます。
+
+### 43. “Xe ô tô thì hãy đỗ ở đây” là câu nào?
+
+A. 車は ここに止めてください。
+B. 車を ここに止めてください。
+C. 車で ここに止めてください。
+D. 車に ここを止めてください。
+
+### 44. “Tranh thì tôi vẽ bằng bút chì” là câu nào?
+
+A. 絵は 鉛筆で描きます。
+B. 絵を 鉛筆で描きます。
+C. 絵で 鉛筆を描きます。
+D. 絵に 鉛筆で描きます。
+
+### 45. Khi muốn nhấn mạnh tân ngữ, を thường đổi thành gì?
+
+A. は
+B. に
+C. で
+D. と
+
+---
+
+## Phần I. までに
+
+### 46. “Hãy nộp báo cáo trước 5 giờ chiều” là câu nào?
+
+A. 午後5時までに レポートを出してください。
+B. 午後5時まで レポートを出してください。
+C. 午後5時から レポートを出してください。
+D. 午後5時で レポートを出してください。
+
+### 47. “Cuộc họp sẽ kết thúc trước 10 giờ” là câu nào?
+
+A. 10時までに 会議が終わります。
+B. 10時まで 会議が終わります。
+C. 10時から 会議が終わります。
+D. 10時で 会議が終わります。
+
+### 48. “Phải trả sách trước thứ Bảy tuần này” là câu nào?
+
+A. 今週の土曜日までに 本を返さなければなりません。
+B. 今週の土曜日まで 本を返さなければなりません。
+C. 今週の土曜日から 本を返さなければなりません。
+D. 今週の土曜日で 本を返さなければなりません。
+
+### 49. “Hãy đi ngủ trước 11 giờ” là câu nào?
+
+A. 11時までに 寝てください。
+B. 11時まで 寝てください。
+C. 11時から 寝てください。
+D. 11時で 寝てください。
+
+### 50. までに dùng cho ý nào?
+
+A. Deadline / hạn chót
+B. Địa điểm hành động
+C. Người đi cùng
+D. Phương tiện
+
+---
+
+## Phần J. Phân biệt まで và までに
+
+### 51. まで nghĩa chính là gì?
+
+A. Đến / cho đến
+B. Trước hạn
+C. Với ai
+D. Bằng gì
+
+### 52. までに nghĩa chính là gì?
+
+A. Trước hạn / chậm nhất là
+B. Từ
+C. Và
+D. Nhưng
+
+### 53. “Tôi làm việc từ 8 giờ đến 5 giờ” là câu nào?
+
+A. 8時から5時まで働きます。
+B. 8時から5時までに働きます。
+C. 8時に5時まで働きます。
+D. 8時で5時までに働きます。
+
+### 54. “Hãy nộp trước 5 giờ” là câu nào?
+
+A. 5時までに出してください。
+B. 5時まで出してください。
+C. 5時から出してください。
+D. 5時で出してください。
+
+### 55. まで thường diễn tả gì?
+
+A. Hành động/trạng thái kéo dài đến mốc đó
+B. Hạn chót phải hoàn thành
+C. Người nhận hành động
+D. Tân ngữ của câu
+
+---
+
+## Phần K. Mini test tổng hợp
+
+### 56. ここで写真を撮らないでください。
+
+A. Xin đừng chụp ảnh ở đây.
+B. Hãy chụp ảnh ở đây.
+C. Phải chụp ảnh ở đây.
+D. Không cần chụp ảnh ở đây.
+
+### 57. 明日までに宿題をしなければなりません。
+
+A. Phải làm bài tập trước ngày mai.
+B. Không cần làm bài tập trước ngày mai.
+C. Xin đừng làm bài tập.
+D. Muốn làm bài tập ngày mai.
+
+### 58. パスポートを持って来なくてもいいです。
+
+A. Không cần mang hộ chiếu đến cũng được.
+B. Phải mang hộ chiếu đến.
+C. Xin đừng mang hộ chiếu đến.
+D. Muốn mang hộ chiếu đến.
+
+### 59. 車はここに止めないでください。
+
+A. Xe thì xin đừng đỗ ở đây.
+B. Xe thì hãy mua ở đây.
+C. Xe thì phải đi ở đây.
+D. Xe thì không cần ở đây.
+
+### 60. 9時までに会社へ来てください。
+
+A. Hãy đến công ty trước 9 giờ.
+B. Hãy ở công ty đến 9 giờ.
+C. Hãy làm việc từ 9 giờ.
+D. Không cần đến công ty lúc 9 giờ.
+
+Dưới đây là **bảng đáp án + dịch nghĩa + giải thích ngắn gọn + từ vựng** cho bài **Minna no Nihongo Bài 17** trong file bạn gửi. 
+
+---
+
+# Phần A. Chọn nghĩa đúng
+
+| Câu | Đáp án | Dịch nghĩa / Ý chính      | Giải thích ngắn                         | Từ vựng                   |
+| --- | -----: | ------------------------- | --------------------------------------- | ------------------------- |
+| 1   |      A | Không làm V               | `Vない` là thể phủ định thông thường      | 食べない = không ăn           |
+| 2   |      A | Xin đừng làm V            | `Vないでください` dùng để yêu cầu không làm gì | ください = xin hãy            |
+| 3   |      A | Phải làm V                | `Vなければなりません` = bắt buộc phải làm        | なりません = không được / phải |
+| 4   |      A | Không cần làm V cũng được | `Vなくてもいいです` = không bắt buộc            | いいです = được               |
+| 5   |      A | Trước hạn / chậm nhất là  | `までに` dùng cho deadline                 | までに = trước hạn           |
+
+---
+
+# Phần B. Chia thể ない — Nhóm 1
+
+| Câu | Đáp án | Dịch nghĩa  | Giải thích ngắn          | Từ vựng     |
+| --- | -----: | ----------- | ------------------------ | ----------- |
+| 6   |      A | 行きます → 行かない | Nhóm 1: `き` → `か` + ない   | 行きます = đi   |
+| 7   |      A | 書きます → 書かない | `き` → `か` + ない           | 書きます = viết |
+| 8   |      A | 読みます → 読まない | `み` → `ま` + ない           | 読みます = đọc  |
+| 9   |      A | 話します → 話さない | `し` → `さ` + ない           | 話します = nói  |
+| 10  |      A | 取ります → 取らない | `り` → `ら` + ない           | 取ります = lấy  |
+| 11  |      A | 言います → 言わない | Đặc biệt: `い` → `わ` + ない | 言います = nói  |
+| 12  |      A | 吸います → 吸わない | Đặc biệt: `い` → `わ` + ない | 吸います = hút  |
+
+---
+
+# Phần C. Chia thể ない — Nhóm 2 và 3
+
+| Câu | Đáp án | Dịch nghĩa     | Giải thích ngắn                | Từ vựng         |
+| --- | -----: | -------------- | ------------------------------ | --------------- |
+| 13  |      A | 食べます → 食べない    | Nhóm 2: bỏ `ます` + `ない`         | 食べます = ăn       |
+| 14  |      A | 見ます → 見ない      | Bỏ `ます` + `ない`                 | 見ます = xem       |
+| 15  |      A | 起きます → 起きない    | Bỏ `ます` + `ない`                 | 起きます = thức dậy |
+| 16  |      A | 借ります → 借りない    | Nhóm 2 đặc biệt, giữ `借り` + ない | 借ります = mượn     |
+| 17  |      A | します → しない      | Nhóm 3 bất quy tắc             | します = làm       |
+| 18  |      A | 来ます → 来ない（こない） | Nhóm 3 bất quy tắc             | 来ます = đến       |
+| 19  |      A | 勉強します → 勉強しない  | Danh từ + します → N + しない        | 勉強します = học     |
+
+---
+
+# Phần D. Vないでください
+
+| Câu | Đáp án | Dịch nghĩa               | Giải thích ngắn            | Từ vựng                       |
+| --- | -----: | ------------------------ | -------------------------- | ----------------------------- |
+| 20  |      A | Xin đừng hút thuốc ở đây | `吸わないでください` = xin đừng hút | たばこ = thuốc lá                |
+| 21  |      A | Xin đừng lo lắng         | `心配しないでください` = xin đừng lo | 心配します = lo lắng               |
+| 22  |      A | Xin đừng viết vào sách   | `本に書く` = viết vào sách     | 本 = sách                      |
+| 23  |      A | Xin đừng bấm nút này     | Tân ngữ dùng `を`: `ボタンを押す` | ボタン = nút / 押します = bấm        |
+| 24  |      A | Xin đừng đỗ xe ở đây     | Nơi đặt/đỗ dùng `に`        | 車 = xe ô tô / 止めます = dừng, đỗ |
+
+---
+
+# Phần E. Vなければなりません
+
+| Câu | Đáp án | Dịch nghĩa                | Giải thích ngắn              | Từ vựng                      |
+| --- | -----: | ------------------------- | ---------------------------- | ---------------------------- |
+| 25  |      A | Tôi phải viết báo cáo     | `書かない` → `書かなければなりません`       | レポート = báo cáo               |
+| 26  |      A | Tôi phải uống thuốc       | `飲まない` → `飲まなければなりません`       | 薬 = thuốc                    |
+| 27  |      A | Phải đặt chỗ trước        | `予約しない` → `予約しなければなりません`     | 予約します = đặt chỗ              |
+| 28  |      A | Phải mang thẻ bảo hiểm đi | `持って行かない` → `持って行かなければなりません` | 保険証 = thẻ bảo hiểm           |
+| 29  |      A | Phải xong trước thứ Sáu   | Deadline dùng `までに`          | 金曜日 = thứ Sáu / 終わります = xong |
+
+---
+
+# Phần F. Vなくてもいいです
+
+| Câu | Đáp án | Dịch nghĩa                               | Giải thích ngắn             | Từ vựng                      |
+| --- | -----: | ---------------------------------------- | --------------------------- | ---------------------------- |
+| 30  |      A | Ngày mai không cần đến công ty cũng được | `来ない` → `来なくてもいいです`         | 明日 = ngày mai / 会社 = công ty |
+| 31  |      A | Không cần lo lắng cũng được              | `心配しない` → `心配しなくてもいいです`     | 心配 = lo lắng                 |
+| 32  |      A | Không cần mang ô cũng được               | `持って行かない` → `持って行かなくてもいいです` | 傘 = ô                        |
+| 33  |      A | Không cần cởi giày cũng được             | `脱がない` → `脱がなくてもいいです`       | 靴 = giày / 脱ぎます = cởi        |
+| 34  |      A | Không cần viết tên cũng được chứ?        | Câu hỏi: `〜なくてもいいですか`       | 名前 = tên                     |
+
+---
+
+# Phần G. Phân biệt ください / なければ / なくても
+
+| Câu | Đáp án | Dịch nghĩa                     | Giải thích ngắn               | Từ vựng                      |
+| --- | -----: | ------------------------------ | ----------------------------- | ---------------------------- |
+| 35  |      A | Xin đừng viết                  | `Vないでください` = xin đừng làm V   | 書きます = viết                  |
+| 36  |      A | Phải viết                      | `Vなければなりません` = phải làm V     | 書かなければ = nếu không viết thì… |
+| 37  |      A | Không cần viết cũng được       | `Vなくてもいいです` = không cần làm V | 書かなくても = dù không viết       |
+| 38  |      A | Xin đừng uống thuốc            | `飲まないでください` = xin đừng uống   | 飲みます = uống                  |
+| 39  |      A | Không cần uống thuốc cũng được | `飲まなくてもいいです` = không cần uống | 薬 = thuốc                    |
+| 40  |      A | Phải uống thuốc                | `飲まなければなりません` = phải uống     | なりません = phải                 |
+
+---
+
+# Phần H. Đưa tân ngữ lên làm chủ đề
+
+| Câu | Đáp án | Dịch nghĩa                                      | Giải thích ngắn                      | Từ vựng                  |
+| --- | -----: | ----------------------------------------------- | ------------------------------------ | ------------------------ |
+| 41  |      A | Hành lý thì xin đừng đặt ở đây                  | Nhấn mạnh tân ngữ: `荷物は`             | 荷物 = hành lý             |
+| 42  |      A | Cơm trưa thì tôi ăn ở nhà hàng                  | `昼ごはんは` = cơm trưa thì               | 昼ごはん = cơm trưa          |
+| 43  |      A | Xe ô tô thì hãy đỗ ở đây                        | Nhấn mạnh `車は`; vị trí đỗ dùng `ここに` | 車 = xe ô tô              |
+| 44  |      A | Tranh thì tôi vẽ bằng bút chì                   | Phương tiện/công cụ dùng `で`         | 絵 = tranh / 鉛筆 = bút chì |
+| 45  |      A | Khi nhấn mạnh tân ngữ, `を` thường đổi thành `は` | `Nを` → `Nは` để đưa lên làm chủ đề    | は = thì                  |
+
+---
+
+# Phần I. までに
+
+| Câu | Đáp án | Dịch nghĩa                           | Giải thích ngắn              | Từ vựng                      |
+| --- | -----: | ------------------------------------ | ---------------------------- | ---------------------------- |
+| 46  |      A | Hãy nộp báo cáo trước 5 giờ chiều    | Deadline dùng `午後5時までに`      | 午後 = buổi chiều / 出します = nộp |
+| 47  |      A | Cuộc họp sẽ kết thúc trước 10 giờ    | `10時までに` = trước 10 giờ      | 会議 = cuộc họp                |
+| 48  |      A | Phải trả sách trước thứ Bảy tuần này | `までに` + bắt buộc             | 返します = trả lại               |
+| 49  |      A | Hãy đi ngủ trước 11 giờ              | `11時までに` = trước 11 giờ      | 寝ます = ngủ                    |
+| 50  |      A | `までに` dùng cho deadline / hạn chót   | Khác với `まで` là kéo dài đến | 締切 = hạn chót                |
+
+---
+
+# Phần J. Phân biệt まで và までに
+
+| Câu | Đáp án | Dịch nghĩa                                           | Giải thích ngắn                 | Từ vựng           |
+| --- | -----: | ---------------------------------------------------- | ------------------------------- | ----------------- |
+| 51  |      A | `まで` = đến / cho đến                                 | Diễn tả kéo dài đến mốc đó      | まで = đến          |
+| 52  |      A | `までに` = trước hạn / chậm nhất là                     | Diễn tả deadline                | までに = trước hạn   |
+| 53  |      A | Tôi làm việc từ 8 giờ đến 5 giờ                      | Khoảng thời gian dùng `から〜まで`   | 働きます = làm việc   |
+| 54  |      A | Hãy nộp trước 5 giờ                                  | Hoàn thành trước hạn dùng `までに` | 出してください = hãy nộp |
+| 55  |      A | `まで` diễn tả hành động/trạng thái kéo dài đến mốc đó | Ví dụ: làm việc đến 5 giờ       | 働きます = làm việc   |
+
+---
+
+# Phần K. Mini test tổng hợp
+
+| Câu | Đáp án | Dịch nghĩa                            | Giải thích ngắn                     | Từ vựng                  |
+| --- | -----: | ------------------------------------- | ----------------------------------- | ------------------------ |
+| 56  |      A | Xin đừng chụp ảnh ở đây               | `撮らないでください` = xin đừng chụp         | 写真を撮ります = chụp ảnh       |
+| 57  |      A | Phải làm bài tập trước ngày mai       | `までに` + `しなければなりません`                | 宿題 = bài tập             |
+| 58  |      A | Không cần mang hộ chiếu đến cũng được | `持って来なくてもいいです` = không cần mang đến | パスポート = hộ chiếu         |
+| 59  |      A | Xe thì xin đừng đỗ ở đây              | `車は` nhấn mạnh tân ngữ              | 止めます = đỗ xe             |
+| 60  |      A | Hãy đến công ty trước 9 giờ           | Deadline: `9時までに`                   | 会社 = công ty / 来ます = đến |
+
+---
+
+# Tổng kết cực ngắn
+
+| Mẫu          | Nghĩa                    | Ví dụ        |
+| ------------ | ------------------------ | ------------ |
+| `Vない`        | không làm V              | 食べない         |
+| `Vないでください`   | xin đừng làm V           | 吸わないでください    |
+| `Vなければなりません` | phải làm V               | 書かなければなりません  |
+| `Vなくてもいいです`  | không cần làm V          | 来なくてもいいです    |
+| `Nは Vます`     | N thì… / nhấn mạnh N     | 荷物は置かないでください |
+| `時間までに Vます`  | làm V trước hạn          | 5時までに出してください |
+| `まで`         | đến / cho đến            | 8時から5時まで     |
+| `までに`        | trước hạn / chậm nhất là | 5時までに        |
