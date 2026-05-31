@@ -357,15 +357,6 @@ C. 刀
 D. 寺
 
 ---
-
-# 8. Đáp án
-
-```text
-1A  2B  3C  4C  5B  6A  7C  8B
-9A  10B 11A 12B 13A 14B 15A 16A
-17A 18B 19B 20A 21C 22A 23B 24C
-25A 26B 27B 28B 29B 30A 31A 32C
-```
 ## TL;DR — Đáp án nhanh
 
 ```text
@@ -377,54 +368,54 @@ D. 寺
 
 ---
 
-## Bảng đáp án + giải thích ngắn gọn
+## Danh sách đáp án + giải thích + ví dụ JLPT N5
 
-| Câu | Đáp án | Giải thích ngắn gọn                                 |
-| --- | ------ | --------------------------------------------------- |
-| 1   | A      | **本** = ほん / *hon* = sách / gốc / bản               |
-| 2   | B      | **人** = ひと / *hito* = người                         |
-| 3   | C      | **今** = いま / *ima* = bây giờ                        |
-| 4   | C      | **寺** = てら / *tera* = chùa                          |
-| 5   | B      | **時** = じ / *ji* = giờ / thời gian                  |
-| 6   | A      | **半** = はん / *han* = một nửa                        |
-| 7   | C      | **刀** = かたな / *katana* = dao / kiếm                 |
-| 8   | B      | **分** = ふん / *fun*, ぷん / *pun* = phút / phần / chia |
-| 9   | A      | **本** đọc là ほん / *hon*                             |
-| 10  | B      | **人** đứng một mình đọc là ひと / *hito*              |
-| 11  | A      | **今** đọc là いま / *ima*                             |
-| 12  | B      | **寺** đọc là てら / *tera*                            |
-| 13  | A      | **時** trong **三時** đọc là じ / *ji*                  |
-| 14  | B      | **半** đọc là はん / *han*                             |
-| 15  | A      | **刀** đọc là かたな / *katana*                         |
-| 16  | A      | **分** có cách đọc là ふん / *fun*                     |
-| 17  | A      | ほん / *hon* = **本**                                  |
-| 18  | B      | ひと / *hito* = **人**                                 |
-| 19  | B      | いま / *ima* = **今**                                  |
-| 20  | A      | てら / *tera* = **寺**                                 |
-| 21  | C      | じ / *ji* = **時**                                    |
-| 22  | A      | はん / *han* = **半**                                  |
-| 23  | B      | かたな / *katana* = **刀**                              |
-| 24  | C      | ふん / *fun* = **分**                                  |
-| 25  | A      | **日本** = にほん / *nihon* = Nhật Bản                   |
-| 26  | B      | **日本人** = にほんじん / *nihonjin* = người Nhật           |
-| 27  | B      | **三時** = さんじ / *sanji* = 3 giờ                      |
-| 28  | B      | **三時半** = さんじはん / *sanji han* = 3 giờ rưỡi          |
-| 29  | B      | **半分** = はんぶん / *hanbun* = một nửa                  |
-| 30  | A      | **時間** = じかん / *jikan* = thời gian                  |
-| 31  | A      | **今** = いま / *ima* = bây giờ                        |
-| 32  | C      | **刀** = かたな / *katana* = dao / kiếm                 |
+| Câu | Đáp án | Giải thích ngắn gọn                                                                             |
+| --- | ------ | ----------------------------------------------------------------------------------------------- |
+| 1   | A      | **本** = ほん / *hon* = sách / gốc / bản. Ví dụ: **本** = ほん / *hon* = quyển sách.                  |
+| 2   | B      | **人** = ひと / *hito* = người. Ví dụ: **日本人** = にほんじん / *nihonjin* = người Nhật.                  |
+| 3   | C      | **今** = いま / *ima* = bây giờ. Ví dụ: **今** = いま / *ima* = hiện tại / bây giờ.                   |
+| 4   | C      | **寺** = てら / *tera* = chùa. Ví dụ: **寺** = てら / *tera* = ngôi chùa.                             |
+| 5   | B      | **時** = じ / *ji* = giờ / thời gian. Ví dụ: **三時** = さんじ / *sanji* = 3 giờ.                      |
+| 6   | A      | **半** = はん / *han* = một nửa. Ví dụ: **三時半** = さんじはん / *sanji han* = 3 giờ rưỡi.                |
+| 7   | C      | **刀** = かたな / *katana* = dao / kiếm. Ví dụ: **刀** = かたな / *katana* = kiếm Nhật.                 |
+| 8   | B      | **分** = ふん / *fun*, ぷん / *pun* = phút / phần / chia. Ví dụ: **半分** = はんぶん / *hanbun* = một nửa. |
+| 9   | A      | **本** đọc là ほん / *hon*. Ví dụ: **日本** = にほん / *nihon* = Nhật Bản.                              |
+| 10  | B      | **人** đứng một mình đọc là ひと / *hito*. Ví dụ: **人** = ひと / *hito* = người.                     |
+| 11  | A      | **今** đọc là いま / *ima*. Ví dụ: **今何時** = いまなんじ / *ima nanji* = bây giờ mấy giờ?                |
+| 12  | B      | **寺** đọc là てら / *tera*. Ví dụ: **寺** = てら / *tera* = chùa.                                    |
+| 13  | A      | **時** trong **三時** đọc là じ / *ji*. Ví dụ: **三時** = さんじ / *sanji* = 3 giờ.                      |
+| 14  | B      | **半** đọc là はん / *han*. Ví dụ: **半分** = はんぶん / *hanbun* = một nửa.                             |
+| 15  | A      | **刀** đọc là かたな / *katana*. Ví dụ: **刀** = かたな / *katana* = dao / kiếm.                        |
+| 16  | A      | **分** có cách đọc là ふん / *fun*. Ví dụ: **五分** = ごふん / *gofun* = 5 phút.                        |
+| 17  | A      | ほん / *hon* là **本** = sách / bản. Ví dụ: **本** = ほん / *hon* = quyển sách.                       |
+| 18  | B      | ひと / *hito* là **人** = người. Ví dụ: **一人** = ひとり / *hitori* = một người.                       |
+| 19  | B      | いま / *ima* là **今** = bây giờ. Ví dụ: **今** = いま / *ima* = hiện tại.                            |
+| 20  | A      | てら / *tera* là **寺** = chùa. Ví dụ: **寺** = てら / *tera* = ngôi chùa.                            |
+| 21  | C      | じ / *ji* là **時** = giờ. Ví dụ: **七時** = しちじ / *shichiji* = 7 giờ.                              |
+| 22  | A      | はん / *han* là **半** = một nửa. Ví dụ: **六時半** = ろくじはん / *rokuji han* = 6 giờ rưỡi.              |
+| 23  | B      | かたな / *katana* là **刀** = dao / kiếm. Ví dụ: **刀** = かたな / *katana* = kiếm Nhật.                |
+| 24  | C      | ふん / *fun* là **分** = phút / phần. Ví dụ: **三分** = さんぷん / *sanpun* = 3 phút.                    |
+| 25  | A      | **日本** = にほん / *nihon* = Nhật Bản.                                                              |
+| 26  | B      | **日本人** = にほんじん / *nihonjin* = người Nhật.                                                      |
+| 27  | B      | **三時** = さんじ / *sanji* = 3 giờ.                                                                 |
+| 28  | B      | **三時半** = さんじはん / *sanji han* = 3 giờ rưỡi.                                                     |
+| 29  | B      | **半分** = はんぶん / *hanbun* = một nửa.                                                             |
+| 30  | A      | **時間** = じかん / *jikan* = thời gian.                                                             |
+| 31  | A      | **今** = いま / *ima* = bây giờ.                                                                   |
+| 32  | C      | **刀** = かたな / *katana* = dao / kiếm.                                                            |
 
 ---
 
-## Ghi nhớ cực ngắn
+## Ghi nhớ nhanh 8 chữ Hán
 
-| Kanji | Hiragana     | Romaji           | Nghĩa              |
-| ----- | ------------ | ---------------- | ------------------ |
-| 本     | ほん           | hon              | sách / gốc / bản   |
-| 人     | ひと / じん / にん | hito / jin / nin | người              |
-| 今     | いま           | ima              | bây giờ            |
-| 寺     | てら           | tera             | chùa               |
-| 時     | じ            | ji               | giờ / thời gian    |
-| 半     | はん           | han              | một nửa            |
-| 刀     | かたな          | katana           | dao / kiếm         |
-| 分     | ふん / ぷん      | fun / pun        | phút / phần / chia |
+| Kanji | Hiragana     | Romaji           | Nghĩa              | Ví dụ N5                               |
+| ----- | ------------ | ---------------- | ------------------ | -------------------------------------- |
+| 本     | ほん           | hon              | sách / gốc / bản   | 日本 = にほん / *nihon* = Nhật Bản          |
+| 人     | ひと / じん / にん | hito / jin / nin | người              | 日本人 = にほんじん / *nihonjin* = người Nhật  |
+| 今     | いま           | ima              | bây giờ            | 今 = いま / *ima* = bây giờ               |
+| 寺     | てら           | tera             | chùa               | 寺 = てら / *tera* = chùa                 |
+| 時     | じ            | ji               | giờ / thời gian    | 三時 = さんじ / *sanji* = 3 giờ             |
+| 半     | はん           | han              | một nửa            | 三時半 = さんじはん / *sanji han* = 3 giờ rưỡi |
+| 刀     | かたな          | katana           | dao / kiếm         | 刀 = かたな / *katana* = kiếm Nhật         |
+| 分     | ふん / ぷん      | fun / pun        | phút / phần / chia | 五分 = ごふん / *gofun* = 5 phút            |

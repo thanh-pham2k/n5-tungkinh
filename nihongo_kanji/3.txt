@@ -428,20 +428,6 @@ C. もくようび
 D. どようび
 
 ---
-
-# 9. Đáp án
-
-```text
-1A  2B  3C  4A  5B
-6C  7C  8A  9A  10A
-11A 12A 13A 14A 15A
-16A 17A 18B 19A 20C
-21A 22B 23C 24A 25A
-26B 27A 28B 29A 30C
-31C 32A 33B 34C 35B
-36A 37C 38A 39D 40A
-```
-
 ## TL;DR — Đáp án nhanh
 
 ```text
@@ -455,64 +441,66 @@ D. どようび
 36A 37C 38A 39D 40A
 ```
 
----
-
-## Bảng đáp án + giải thích ngắn gọn
-
-| Câu | Đáp án | Giải thích ngắn gọn                                                  |
-| --- | ------ | -------------------------------------------------------------------- |
-| 1   | A      | **日** = ひ / *hi*, にち / *nichi* = mặt trời / ngày                     |
-| 2   | B      | **月** = つき / *tsuki*, げつ / *getsu*, がつ / *gatsu* = mặt trăng / tháng |
-| 3   | C      | **火** = ひ / *hi*, か / *ka* = lửa                                     |
-| 4   | A      | **水** = みず / *mizu*, すい / *sui* = nước                               |
-| 5   | B      | **木** = き / *ki*, もく / *moku* = cây                                  |
-| 6   | C      | **土** = つち / *tsuchi*, ど / *do* = đất                                |
-| 7   | C      | **金** = かね / *kane*, きん / *kin* = tiền / vàng / kim loại             |
-| 8   | A      | **曜** = よう / *you* = ngày trong tuần                                 |
-| 9   | A      | **日** có cách đọc là ひ / *hi*                                        |
-| 10  | A      | **月** khi nghĩa “mặt trăng” đọc là つき / *tsuki*                      |
-| 11  | A      | **火** có cách đọc là か / *ka*                                        |
-| 12  | A      | **水** khi nghĩa “nước” đọc là みず / *mizu*                            |
-| 13  | A      | **木** khi nghĩa “cây” đọc là き / *ki*                                |
-| 14  | A      | **土** khi nghĩa “đất” đọc là つち / *tsuchi*                           |
-| 15  | A      | **金** khi nghĩa “tiền” đọc là かね / *kane*                            |
-| 16  | A      | **曜** đọc là よう / *you*                                              |
-| 17  | A      | ひ / *hi* = **日**                                                     |
-| 18  | B      | つき / *tsuki* = **月**                                                 |
-| 19  | A      | みず / *mizu* = **水**                                                  |
-| 20  | C      | き / *ki* = **木**                                                     |
-| 21  | A      | つち / *tsuchi* = **土**                                                |
-| 22  | B      | かね / *kane* = **金**                                                  |
-| 23  | C      | よう / *you* = **曜**                                                   |
-| 24  | A      | か / *ka* = **火**                                                     |
-| 25  | A      | **日曜日** = にちようび / *nichiyoubi* = Chủ nhật                            |
-| 26  | B      | **月曜日** = げつようび / *getsuyoubi* = Thứ hai                             |
-| 27  | A      | **火曜日** = かようび / *kayoubi* = Thứ ba                                  |
-| 28  | B      | **水曜日** = すいようび / *suiyoubi* = Thứ tư                                |
-| 29  | A      | **木曜日** = もくようび / *mokuyoubi* = Thứ năm                              |
-| 30  | C      | **金曜日** = きんようび / *kinyoubi* = Thứ sáu                               |
-| 31  | C      | **土曜日** = どようび / *doyoubi* = Thứ bảy                                 |
-| 32  | A      | **日** = mặt trời / ngày                                              |
-| 33  | B      | **月** = mặt trăng / tháng                                            |
-| 34  | C      | **火** = lửa                                                          |
-| 35  | B      | **水** = nước                                                         |
-| 36  | A      | **木** = cây                                                          |
-| 37  | C      | **土** = đất                                                          |
-| 38  | A      | **金** = tiền / vàng / kim loại                                       |
-| 39  | D      | **曜** thường dùng trong **曜日** = ngày trong tuần                     |
-| 40  | A      | **金曜日** đọc là きんようび / *kinyoubi*                                    |
+Nội dung dựa trên bài Kanji N5 Bài 3 trong file bạn gửi. 
 
 ---
 
-## Ghi nhớ cực ngắn
+## Danh sách đáp án + giải thích + ví dụ JLPT N5
 
-| Kanji | Hiragana     | Romaji                | Nghĩa                  |
-| ----- | ------------ | --------------------- | ---------------------- |
-| 日     | ひ / にち       | hi / nichi            | mặt trời / ngày        |
-| 月     | つき / げつ / がつ | tsuki / getsu / gatsu | mặt trăng / tháng      |
-| 火     | ひ / か        | hi / ka               | lửa                    |
-| 水     | みず / すい      | mizu / sui            | nước                   |
-| 木     | き / もく       | ki / moku             | cây                    |
-| 土     | つち / ど       | tsuchi / do           | đất                    |
-| 金     | かね / きん      | kane / kin            | tiền / vàng / kim loại |
-| 曜     | よう           | you                   | ngày trong tuần        |
+| Câu | Đáp án | Giải thích ngắn gọn                                                                                                    |
+| --- | ------ | ---------------------------------------------------------------------------------------------------------------------- |
+| 1   | A      | **日** = ひ / *hi*, にち / *nichi* = mặt trời / ngày. Ví dụ: **日曜日** = にちようび / *nichiyoubi* = Chủ nhật.                    |
+| 2   | B      | **月** = つき / *tsuki*, げつ / *getsu*, がつ / *gatsu* = mặt trăng / tháng. Ví dụ: **月曜日** = げつようび / *getsuyoubi* = Thứ hai. |
+| 3   | C      | **火** = ひ / *hi*, か / *ka* = lửa. Ví dụ: **火曜日** = かようび / *kayoubi* = Thứ ba.                                          |
+| 4   | A      | **水** = みず / *mizu*, すい / *sui* = nước. Ví dụ: **水曜日** = すいようび / *suiyoubi* = Thứ tư.                                  |
+| 5   | B      | **木** = き / *ki*, もく / *moku* = cây. Ví dụ: **木曜日** = もくようび / *mokuyoubi* = Thứ năm.                                   |
+| 6   | C      | **土** = つち / *tsuchi*, ど / *do* = đất. Ví dụ: **土曜日** = どようび / *doyoubi* = Thứ bảy.                                    |
+| 7   | C      | **金** = かね / *kane*, きん / *kin* = tiền / vàng / kim loại. Ví dụ: **金曜日** = きんようび / *kinyoubi* = Thứ sáu.               |
+| 8   | A      | **曜** = よう / *you* = ngày trong tuần. Ví dụ: **曜日** = ようび / *youbi* = thứ / ngày trong tuần.                           |
+| 9   | A      | **日** có cách đọc đúng là ひ / *hi*. Ví dụ: **日** = ひ / *hi* = ngày / mặt trời.                                         |
+| 10  | A      | **月** khi nghĩa “mặt trăng” đọc là つき / *tsuki*. Ví dụ: **月** = つき / *tsuki* = mặt trăng.                              |
+| 11  | A      | **火** có cách đọc đúng là か / *ka*. Ví dụ: **火曜日** = かようび / *kayoubi* = Thứ ba.                                        |
+| 12  | A      | **水** khi nghĩa “nước” đọc là みず / *mizu*. Ví dụ: **水** = みず / *mizu* = nước.                                          |
+| 13  | A      | **木** khi nghĩa “cây” đọc là き / *ki*. Ví dụ: **木** = き / *ki* = cây.                                                  |
+| 14  | A      | **土** khi nghĩa “đất” đọc là つち / *tsuchi*. Ví dụ: **土** = つち / *tsuchi* = đất.                                        |
+| 15  | A      | **金** khi nghĩa “tiền” đọc là かね / *kane*. Ví dụ: **お金** = おかね / *okane* = tiền.                                       |
+| 16  | A      | **曜** đọc là よう / *you*. Ví dụ: **曜日** = ようび / *youbi* = thứ trong tuần.                                               |
+| 17  | A      | ひ / *hi* là **日** = mặt trời / ngày. Ví dụ: **日曜日** = にちようび / *nichiyoubi* = Chủ nhật.                                 |
+| 18  | B      | つき / *tsuki* là **月** = mặt trăng. Ví dụ: **月** = つき / *tsuki* = mặt trăng.                                            |
+| 19  | A      | みず / *mizu* là **水** = nước. Ví dụ: **水曜日** = すいようび / *suiyoubi* = Thứ tư.                                             |
+| 20  | C      | き / *ki* là **木** = cây. Ví dụ: **木曜日** = もくようび / *mokuyoubi* = Thứ năm.                                               |
+| 21  | A      | つち / *tsuchi* là **土** = đất. Ví dụ: **土曜日** = どようび / *doyoubi* = Thứ bảy.                                             |
+| 22  | B      | かね / *kane* là **金** = tiền / vàng. Ví dụ: **お金** = おかね / *okane* = tiền.                                              |
+| 23  | C      | よう / *you* là **曜** = ngày trong tuần. Ví dụ: **曜日** = ようび / *youbi* = thứ trong tuần.                                 |
+| 24  | A      | か / *ka* là **火** = lửa. Ví dụ: **火曜日** = かようび / *kayoubi* = Thứ ba.                                                   |
+| 25  | A      | **日曜日** = にちようび / *nichiyoubi* = Chủ nhật.                                                                             |
+| 26  | B      | **月曜日** = げつようび / *getsuyoubi* = Thứ hai.                                                                              |
+| 27  | A      | **火曜日** = かようび / *kayoubi* = Thứ ba.                                                                                   |
+| 28  | B      | **水曜日** = すいようび / *suiyoubi* = Thứ tư.                                                                                 |
+| 29  | A      | **木曜日** = もくようび / *mokuyoubi* = Thứ năm.                                                                               |
+| 30  | C      | **金曜日** = きんようび / *kinyoubi* = Thứ sáu.                                                                                |
+| 31  | C      | **土曜日** = どようび / *doyoubi* = Thứ bảy.                                                                                  |
+| 32  | A      | **日** = ひ / *hi*, にち / *nichi* = mặt trời / ngày.                                                                      |
+| 33  | B      | **月** = つき / *tsuki*, げつ / *getsu* = mặt trăng / tháng.                                                                |
+| 34  | C      | **火** = ひ / *hi*, か / *ka* = lửa.                                                                                      |
+| 35  | B      | **水** = みず / *mizu*, すい / *sui* = nước.                                                                                |
+| 36  | A      | **木** = き / *ki*, もく / *moku* = cây.                                                                                   |
+| 37  | C      | **土** = つち / *tsuchi*, ど / *do* = đất.                                                                                 |
+| 38  | A      | **金** = かね / *kane*, きん / *kin* = tiền / vàng / kim loại.                                                              |
+| 39  | D      | **曜** = よう / *you*, thường dùng trong **曜日** = ようび / *youbi* = thứ trong tuần.                                         |
+| 40  | A      | **金曜日** đọc là きんようび / *kinyoubi* = Thứ sáu.                                                                           |
+
+---
+
+## Ghi nhớ nhanh 8 chữ Hán
+
+| Kanji | Hiragana     | Romaji                | Nghĩa                  | Ví dụ N5                              |
+| ----- | ------------ | --------------------- | ---------------------- | ------------------------------------- |
+| 日     | ひ / にち       | hi / nichi            | mặt trời / ngày        | 日曜日 = にちようび / *nichiyoubi* = Chủ nhật |
+| 月     | つき / げつ / がつ | tsuki / getsu / gatsu | mặt trăng / tháng      | 月曜日 = げつようび / *getsuyoubi* = Thứ hai  |
+| 火     | ひ / か        | hi / ka               | lửa                    | 火曜日 = かようび / *kayoubi* = Thứ ba       |
+| 水     | みず / すい      | mizu / sui            | nước                   | 水曜日 = すいようび / *suiyoubi* = Thứ tư     |
+| 木     | き / もく       | ki / moku             | cây                    | 木曜日 = もくようび / *mokuyoubi* = Thứ năm   |
+| 土     | つち / ど       | tsuchi / do           | đất                    | 土曜日 = どようび / *doyoubi* = Thứ bảy      |
+| 金     | かね / きん      | kane / kin            | tiền / vàng / kim loại | 金曜日 = きんようび / *kinyoubi* = Thứ sáu    |
+| 曜     | よう           | you                   | ngày trong tuần        | 曜日 = ようび / *youbi* = thứ trong tuần   |

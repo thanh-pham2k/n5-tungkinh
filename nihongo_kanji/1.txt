@@ -360,17 +360,6 @@ D. 八
 
 ---
 
-# 7. Đáp án
-
-```text
-1A  2B  3C  4C  5A
-6B  7C  8A  9A  10B
-11A 12C 13A 14B 15B
-16A 17A 18B 19C 20A
-21B 22A 23C 24B 25A
-26A 27C 28B 29A 30B
-```
-
 ## TL;DR — Đáp án nhanh
 
 ```text
@@ -384,52 +373,52 @@ D. 八
 
 ---
 
-## Bảng đáp án + giải thích ngắn gọn
+## Danh sách đáp án + giải thích + ví dụ JLPT N5
 
-| Câu | Đáp án | Giải thích ngắn gọn                      |
-| --- | ------ | ---------------------------------------- |
-| 1   | A      | **一** = いち / *ichi* = một                |
-| 2   | B      | **二** = に / *ni* = hai                   |
-| 3   | C      | **三** = さん / *san* = ba                  |
-| 4   | C      | **四** = よん / *yon*, し / *shi* = bốn      |
-| 5   | A      | **五** = ご / *go* = năm                   |
-| 6   | B      | **六** = ろく / *roku* = sáu                |
-| 7   | C      | **七** = なな / *nana*, しち / *shichi* = bảy |
-| 8   | A      | **八** = はち / *hachi* = tám               |
-| 9   | A      | **一** đọc là いち / *ichi*                 |
-| 10  | B      | **二** đọc là に / *ni*                    |
-| 11  | A      | **三** đọc là さん / *san*                  |
-| 12  | C      | **四** có cách đọc đúng là よん / *yon*     |
-| 13  | A      | **五** đọc là ご / *go*                    |
-| 14  | B      | **六** đọc là ろく / *roku*                 |
-| 15  | B      | **七** có cách đọc đúng là なな / *nana*    |
-| 16  | A      | **八** đọc là はち / *hachi*                |
-| 17  | A      | いち / *ichi* = **一**                      |
-| 18  | B      | に / *ni* = **二**                         |
-| 19  | C      | さん / *san* = **三**                       |
-| 20  | A      | よん / *yon* = **四**                       |
-| 21  | B      | ご / *go* = **五**                         |
-| 22  | A      | ろく / *roku* = **六**                      |
-| 23  | C      | なな / *nana* = **七**                      |
-| 24  | B      | はち / *hachi* = **八**                     |
-| 25  | A      | Thứ tự 1 → 4 là **一 二 三 四**              |
-| 26  | A      | Thứ tự 5 → 8 là **五 六 七 八**              |
-| 27  | C      | **七** âm Hán Việt là **Thất**            |
-| 28  | B      | **八** âm Hán Việt là **Bát**             |
-| 29  | A      | **六** âm Hán Việt là **Lục**             |
-| 30  | B      | Số 5 là **五** = ご / *go*                 |
+| Câu | Đáp án | Giải thích ngắn gọn                                                                       |
+| --- | ------ | ----------------------------------------------------------------------------------------- |
+| 1   | A      | **一** = いち / *ichi* = một. Ví dụ N5: **一人** = ひとり / *hitori* = một người.                 |
+| 2   | B      | **二** = に / *ni* = hai. Ví dụ: **二人** = ふたり / *futari* = hai người.                       |
+| 3   | C      | **三** = さん / *san* = ba. Ví dụ: **三時** = さんじ / *sanji* = 3 giờ.                           |
+| 4   | C      | **四** = よん / *yon*, し / *shi* = bốn. Ví dụ: **四月** = しがつ / *shigatsu* = tháng 4.          |
+| 5   | A      | **五** = ご / *go* = năm. Ví dụ: **五時** = ごじ / *goji* = 5 giờ.                              |
+| 6   | B      | **六** = ろく / *roku* = sáu. Ví dụ: **六時** = ろくじ / *rokuji* = 6 giờ.                        |
+| 7   | C      | **七** = なな / *nana*, しち / *shichi* = bảy. Ví dụ: **七月** = しちがつ / *shichigatsu* = tháng 7. |
+| 8   | A      | **八** = はち / *hachi* = tám. Ví dụ: **八時** = はちじ / *hachiji* = 8 giờ.                      |
+| 9   | A      | **一** đọc là いち / *ichi*. Ví dụ: **一月** = いちがつ / *ichigatsu* = tháng 1.                   |
+| 10  | B      | **二** đọc là に / *ni*. Ví dụ: **二月** = にがつ / *nigatsu* = tháng 2.                         |
+| 11  | A      | **三** đọc là さん / *san*. Ví dụ: **三月** = さんがつ / *sangatsu* = tháng 3.                     |
+| 12  | C      | **四** có cách đọc đúng là よん / *yon*. Ví dụ: **四人** = よにん / *yonin* = 4 người.            |
+| 13  | A      | **五** đọc là ご / *go*. Ví dụ: **五分** = ごふん / *gofun* = 5 phút.                            |
+| 14  | B      | **六** đọc là ろく / *roku*. Ví dụ: **六分** = ろっぷん / *roppun* = 6 phút.                       |
+| 15  | B      | **七** có cách đọc đúng là なな / *nana*. Ví dụ: **七つ** = ななつ / *nanatsu* = 7 cái.           |
+| 16  | A      | **八** đọc là はち / *hachi*. Ví dụ: **八分** = はっぷん / *happun* = 8 phút.                      |
+| 17  | A      | いち / *ichi* là **一** = một. Ví dụ: **一日** = ついたち / *tsuitachi* = ngày mùng 1.             |
+| 18  | B      | に / *ni* là **二** = hai. Ví dụ: **二日** = ふつか / *futsuka* = ngày mùng 2 / 2 ngày.          |
+| 19  | C      | さん / *san* là **三** = ba. Ví dụ: **三日** = みっか / *mikka* = ngày mùng 3 / 3 ngày.           |
+| 20  | A      | よん / *yon* là **四** = bốn. Ví dụ: **四日** = よっか / *yokka* = ngày mùng 4 / 4 ngày.          |
+| 21  | B      | ご / *go* là **五** = năm. Ví dụ: **五日** = いつか / *itsuka* = ngày mùng 5 / 5 ngày.           |
+| 22  | A      | ろく / *roku* là **六** = sáu. Ví dụ: **六日** = むいか / *muika* = ngày mùng 6 / 6 ngày.         |
+| 23  | C      | なな / *nana* là **七** = bảy. Ví dụ: **七日** = なのか / *nanoka* = ngày mùng 7 / 7 ngày.        |
+| 24  | B      | はち / *hachi* là **八** = tám. Ví dụ: **八日** = ようか / *youka* = ngày mùng 8 / 8 ngày.        |
+| 25  | A      | Dãy đúng 1 → 4 là **一 二 三 四** = いち・に・さん・よん / *ichi, ni, san, yon*.                        |
+| 26  | A      | Dãy đúng 5 → 8 là **五 六 七 八** = ご・ろく・なな・はち / *go, roku, nana, hachi*.                     |
+| 27  | C      | **七** âm Hán Việt là **Thất**. Cách đọc: なな / *nana*, しち / *shichi* = số 7.               |
+| 28  | B      | **八** âm Hán Việt là **Bát**. Cách đọc: はち / *hachi* = số 8.                              |
+| 29  | A      | **六** âm Hán Việt là **Lục**. Cách đọc: ろく / *roku* = số 6.                               |
+| 30  | B      | Kanji nghĩa là số 5 là **五** = ご / *go*. Ví dụ: **五円** = ごえん / *goen* = 5 yên.            |
 
 ---
 
-## Ghi nhớ cực ngắn
+## Ghi nhớ nhanh 8 chữ Hán
 
-| Kanji | Hiragana | Romaji        | Nghĩa |
-| ----- | -------- | ------------- | ----- |
-| 一     | いち       | ichi          | một   |
-| 二     | に        | ni            | hai   |
-| 三     | さん       | san           | ba    |
-| 四     | よん / し   | yon / shi     | bốn   |
-| 五     | ご        | go            | năm   |
-| 六     | ろく       | roku          | sáu   |
-| 七     | なな / しち  | nana / shichi | bảy   |
-| 八     | はち       | hachi         | tám   |
+| Kanji | Hiragana | Romaji        | Nghĩa | Ví dụ N5                            |
+| ----- | -------- | ------------- | ----- | ----------------------------------- |
+| 一     | いち       | ichi          | một   | 一月 = いちがつ / *ichigatsu* = tháng 1   |
+| 二     | に        | ni            | hai   | 二月 = にがつ / *nigatsu* = tháng 2      |
+| 三     | さん       | san           | ba    | 三時 = さんじ / *sanji* = 3 giờ          |
+| 四     | よん / し   | yon / shi     | bốn   | 四月 = しがつ / *shigatsu* = tháng 4     |
+| 五     | ご        | go            | năm   | 五時 = ごじ / *goji* = 5 giờ            |
+| 六     | ろく       | roku          | sáu   | 六時 = ろくじ / *rokuji* = 6 giờ         |
+| 七     | なな / しち  | nana / shichi | bảy   | 七月 = しちがつ / *shichigatsu* = tháng 7 |
+| 八     | はち       | hachi         | tám   | 八時 = はちじ / *hachiji* = 8 giờ        |
