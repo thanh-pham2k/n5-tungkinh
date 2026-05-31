@@ -341,34 +341,21 @@
       overflow-wrap: anywhere;
     }
 
-    @media (max-width: 420px) {
+    @media (max-width: 768px) {
       body {
-        padding: 14px;
+        padding: 16px;
       }
 
       main {
-        padding: 18px;
+        padding: 16px;
       }
 
-      .toolbar {
-        grid-template-columns: 1fr;
+      h1 {
+        font-size: 20px;
       }
 
-      .controls-row {
-        grid-template-columns: 1fr;
-      }
-
-      .tabs {
-        display: grid;
-        grid-template-columns: 1fr;
-      }
-
-      .grammar-layout {
-        grid-template-columns: 1fr;
-      }
-
-      .lesson-grid {
-        grid-template-columns: 1fr;
+      h2 {
+        font-size: 16px;
       }
 
       .public-layout {
@@ -377,13 +364,64 @@
 
       .vocab-panel {
         position: static;
-        height: 320px;
+        height: auto;
+        max-height: 50vh;
+        top: auto;
+      }
+
+      .lesson-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .grammar-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .controls-row {
+        grid-template-columns: 1fr;
+      }
+
+      .toolbar {
+        grid-template-columns: 1fr;
+      }
+
+      .tabs {
+        display: grid;
+        grid-template-columns: 1fr;
       }
 
       .grammar-table {
         display: block;
         overflow-x: auto;
         white-space: nowrap;
+      }
+    }
+
+    @media (max-width: 420px) {
+      body {
+        padding: 10px;
+      }
+
+      main {
+        padding: 12px;
+      }
+
+      h1 {
+        font-size: 18px;
+      }
+
+      h2 {
+        font-size: 15px;
+      }
+
+      .vocab-panel {
+        max-height: 45vh;
+      }
+
+      button,
+      input,
+      select {
+        font-size: 16px;
       }
     }
   </style>
@@ -544,6 +582,21 @@
         { title: "Bài 3", path: "kanji/lesson-03.html" },
         { title: "Bài 4", path: "kanji/lesson-04.html" },
         { title: "Bài 5", path: "kanji/lesson-05.html" },
+        { title: "Bài 6", path: "kanji/lesson-06.html" },
+        { title: "Bài 7", path: "kanji/lesson-07.html" },
+        { title: "Bài 8", path: "kanji/lesson-08.html" },
+        { title: "Bài 9", path: "kanji/lesson-09.html" },
+        { title: "Bài 10", path: "kanji/lesson-10.html" },
+        { title: "Bài 11", path: "kanji/lesson-11.html" },
+        { title: "Bài 12", path: "kanji/lesson-12.html" },
+        { title: "Bài 13", path: "kanji/lesson-13.html" },
+        { title: "Bài 14", path: "kanji/lesson-14.html" },
+        { title: "Bài 15", path: "kanji/lesson-15.html" },
+        { title: "Bài 16", path: "kanji/lesson-16.html" },
+        { title: "Bài 17", path: "kanji/lesson-17.html" },
+        { title: "Bài 18", path: "kanji/lesson-18.html" },
+        { title: "Bài 19", path: "kanji/lesson-19.html" },
+        { title: "Bài 20", path: "kanji/lesson-20.html" },
       ];
       const grammarContentCache = new Map();
       let grammarRequestId = 0;
