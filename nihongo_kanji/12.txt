@@ -1,0 +1,432 @@
+## TL;DR
+
+Bài này là **Kanji N5 – Bài 12**, dạy **8 chữ Hán/Kanji**:
+**多、少、広、早、長、明、好、友**.
+Nội dung chính gồm: **nhiều, ít, rộng, sớm/nhanh, dài, sáng, thích, bạn bè**. 
+
+---
+
+# 1. Tổng hợp chữ Hán trong bài
+
+| Kanji | Âm Hán Việt | Hiragana | Romaji  | Nghĩa       |
+| ----- | ----------- | -------- | ------- | ----------- |
+| 多     | Đa          | おおい      | ooi     | nhiều       |
+| 少     | Thiểu       | すくない     | sukunai | ít          |
+| 広     | Quảng       | ひろい      | hiroi   | rộng        |
+| 早     | Tảo         | はやい      | hayai   | sớm / nhanh |
+| 長     | Trường      | ながい      | nagai   | dài         |
+| 明     | Minh        | あかるい     | akarui  | sáng        |
+| 好     | Hảo         | すき       | suki    | thích       |
+| 友     | Hữu         | とも       | tomo    | bạn bè      |
+
+---
+
+# 2. Ghi nhớ nhanh
+
+| Kanji | Cách nhớ ngắn                       |
+| ----- | ----------------------------------- |
+| 多     | Nhiều chữ タ → nhiều                 |
+| 少     | 小 thêm nét → ít / thiểu số          |
+| 広     | Mái nhà rộng → rộng                 |
+| 早     | Chủ nhật ngủ tới 10 giờ vẫn còn sớm |
+| 長     | Tóc/chân dài → dài                  |
+| 明     | 日 + 月 → mặt trời + mặt trăng = sáng |
+| 好     | 女 + 子 → phụ nữ thích trẻ con        |
+| 友     | Hai bàn tay nắm nhau → bạn bè       |
+
+---
+
+# 3. Từ vựng ví dụ
+
+| Từ    | Hiragana | Romaji      | Nghĩa          |
+| ----- | -------- | ----------- | -------------- |
+| 多い    | おおい      | ooi         | nhiều          |
+| 少ない   | すくない     | sukunai     | ít             |
+| 広い    | ひろい      | hiroi       | rộng           |
+| 早い    | はやい      | hayai       | sớm / nhanh    |
+| 長い    | ながい      | nagai       | dài            |
+| 明るい   | あかるい     | akarui      | sáng           |
+| 好き    | すき       | suki        | thích          |
+| 友だち   | ともだち     | tomodachi   | bạn bè         |
+| 広い部屋  | ひろいへや    | hiroi heya  | căn phòng rộng |
+| 長い川   | ながいかわ    | nagai kawa  | con sông dài   |
+| 明るい部屋 | あかるいへや   | akarui heya | căn phòng sáng |
+
+---
+
+# 4. Bài tập trắc nghiệm: Kanji → Nghĩa
+
+## Câu 1
+
+**多** nghĩa là gì?
+
+A. nhiều
+B. ít
+C. rộng
+D. dài
+
+## Câu 2
+
+**少** nghĩa là gì?
+
+A. sáng
+B. thích
+C. ít
+D. bạn bè
+
+## Câu 3
+
+**広** nghĩa là gì?
+
+A. cao
+B. rộng
+C. mới
+D. cũ
+
+## Câu 4
+
+**早** nghĩa là gì?
+
+A. muộn
+B. dài
+C. sớm / nhanh
+D. nhỏ
+
+## Câu 5
+
+**長** nghĩa là gì?
+
+A. ngắn
+B. dài
+C. sáng
+D. rộng
+
+## Câu 6
+
+**明** nghĩa là gì?
+
+A. tối
+B. sáng
+C. nhiều
+D. ít
+
+## Câu 7
+
+**好** nghĩa là gì?
+
+A. thích
+B. ghét
+C. ăn
+D. uống
+
+## Câu 8
+
+**友** nghĩa là gì?
+
+A. cha
+B. mẹ
+C. bạn bè
+D. học sinh
+
+---
+
+# 5. Bài tập trắc nghiệm: Kanji → Cách đọc
+
+## Câu 9
+
+**多い** đọc là gì?
+
+A. おおい
+B. すくない
+C. ひろい
+D. ながい
+
+## Câu 10
+
+**少ない** đọc là gì?
+
+A. はやい
+B. すくない
+C. あかるい
+D. すき
+
+## Câu 11
+
+**広い** đọc là gì?
+
+A. ひろい
+B. ながい
+C. おおい
+D. とも
+
+## Câu 12
+
+**早い** đọc là gì?
+
+A. ながい
+B. はやい
+C. ひろい
+D. あかるい
+
+## Câu 13
+
+**長い** đọc là gì?
+
+A. ながい
+B. はやい
+C. すき
+D. ともだち
+
+## Câu 14
+
+**明るい** đọc là gì?
+
+A. ひろい
+B. あかるい
+C. おおい
+D. すくない
+
+## Câu 15
+
+**好き** đọc là gì?
+
+A. とも
+B. すき
+C. ながい
+D. はやい
+
+## Câu 16
+
+**友だち** đọc là gì?
+
+A. ともだち
+B. あかるい
+C. ひろい
+D. おおい
+
+---
+
+# 6. Bài tập trắc nghiệm: Hiragana → Kanji
+
+## Câu 17
+
+**おおい** là Kanji nào?
+
+A. 多い
+B. 少ない
+C. 長い
+D. 明るい
+
+## Câu 18
+
+**すくない** là Kanji nào?
+
+A. 広い
+B. 少ない
+C. 好き
+D. 友だち
+
+## Câu 19
+
+**ひろい** là Kanji nào?
+
+A. 早い
+B. 長い
+C. 広い
+D. 多い
+
+## Câu 20
+
+**はやい** là Kanji nào?
+
+A. 早い
+B. 明るい
+C. 少ない
+D. 友
+
+## Câu 21
+
+**ながい** là Kanji nào?
+
+A. 長い
+B. 広い
+C. 好き
+D. 多い
+
+## Câu 22
+
+**あかるい** là Kanji nào?
+
+A. 少ない
+B. 明るい
+C. 早い
+D. 長い
+
+## Câu 23
+
+**すき** là Kanji nào?
+
+A. 友
+B. 好き
+C. 広い
+D. 多い
+
+## Câu 24
+
+**とも** là Kanji nào?
+
+A. 友
+B. 好
+C. 明
+D. 長
+
+---
+
+# 7. Bài tập tổng hợp
+
+## Câu 25
+
+**人が多いです。** nghĩa là gì?
+
+A. Có nhiều người.
+B. Có ít người.
+C. Người đó cao.
+D. Người đó thích.
+
+## Câu 26
+
+**水が少ないです。** nghĩa là gì?
+
+A. Có nhiều nước.
+B. Có ít nước.
+C. Nước sáng.
+D. Nước dài.
+
+## Câu 27
+
+**広い部屋** nghĩa là gì?
+
+A. căn phòng rộng
+B. căn phòng nhỏ
+C. căn phòng sáng
+D. căn phòng cũ
+
+## Câu 28
+
+**早く行きます。** nghĩa là gì?
+
+A. Đi muộn.
+B. Đi sớm / đi nhanh.
+C. Đi dài.
+D. Đi rộng.
+
+## Câu 29
+
+**長い川** nghĩa là gì?
+
+A. con sông ngắn
+B. con sông dài
+C. con sông rộng
+D. con sông sáng
+
+## Câu 30
+
+**明るい部屋** nghĩa là gì?
+
+A. căn phòng tối
+B. căn phòng sáng
+C. căn phòng rộng
+D. căn phòng dài
+
+## Câu 31
+
+**日本語が好きです。** nghĩa là gì?
+
+A. Tôi thích tiếng Nhật.
+B. Tôi học tiếng Nhật.
+C. Tôi nói tiếng Nhật.
+D. Tôi nghe tiếng Nhật.
+
+## Câu 32
+
+**友だちに会います。** nghĩa là gì?
+
+A. Tôi gặp bạn.
+B. Tôi thích bạn.
+C. Tôi chờ bạn.
+D. Tôi nghe bạn nói.
+
+---
+
+# 8. Đáp án
+
+```text
+1A  2C  3B  4C  5B  6B  7A  8C
+9A  10B 11A 12B 13A 14B 15B 16A
+17A 18B 19C 20A 21A 22B 23B 24A
+25A 26B 27A 28B 29B 30B 31A 32A
+```
+## TL;DR — Đáp án nhanh
+
+```text
+1A  2C  3B  4C  5B  6B  7A  8C
+9A  10B 11A 12B 13A 14B 15B 16A
+17A 18B 19C 20A 21A 22B 23B 24A
+25A 26B 27A 28B 29B 30B 31A 32A
+```
+
+Nội dung dựa trên file Kanji N5 Bài 12 bạn gửi. 
+
+---
+
+## Danh sách đáp án + giải thích + ví dụ JLPT N5
+
+| Câu | Đáp án | Giải thích ngắn gọn                                                                                           |
+| --- | ------ | ------------------------------------------------------------------------------------------------------------- |
+| 1   | A      | **多** = おおい / *ooi* = nhiều. Ví dụ: **人が多い** = ひとがおおい / *hito ga ooi* = có nhiều người.                       |
+| 2   | C      | **少** = すくない / *sukunai* = ít. Ví dụ: **水が少ない** = みずがすくない / *mizu ga sukunai* = có ít nước.                   |
+| 3   | B      | **広** = ひろい / *hiroi* = rộng. Ví dụ: **広い部屋** = ひろいへや / *hiroi heya* = căn phòng rộng.                        |
+| 4   | C      | **早** = はやい / *hayai* = sớm / nhanh. Ví dụ: **早く行きます** = はやくいきます / *hayaku ikimasu* = đi sớm / đi nhanh.      |
+| 5   | B      | **長** = ながい / *nagai* = dài. Ví dụ: **長い川** = ながいかわ / *nagai kawa* = con sông dài.                            |
+| 6   | B      | **明** = あかるい / *akarui* = sáng. Ví dụ: **明るい部屋** = あかるいへや / *akarui heya* = căn phòng sáng.                   |
+| 7   | A      | **好** = すき / *suki* = thích. Ví dụ: **日本語が好きです** = にほんごがすきです / *nihongo ga suki desu* = tôi thích tiếng Nhật. |
+| 8   | C      | **友** = とも / *tomo* = bạn bè. Ví dụ: **友だち** = ともだち / *tomodachi* = bạn bè.                                   |
+| 9   | A      | **多い** = おおい / *ooi* = nhiều.                                                                                 |
+| 10  | B      | **少ない** = すくない / *sukunai* = ít.                                                                              |
+| 11  | A      | **広い** = ひろい / *hiroi* = rộng.                                                                                |
+| 12  | B      | **早い** = はやい / *hayai* = sớm / nhanh.                                                                         |
+| 13  | A      | **長い** = ながい / *nagai* = dài.                                                                                 |
+| 14  | B      | **明るい** = あかるい / *akarui* = sáng.                                                                             |
+| 15  | B      | **好き** = すき / *suki* = thích.                                                                                 |
+| 16  | A      | **友だち** = ともだち / *tomodachi* = bạn bè.                                                                        |
+| 17  | A      | おおい / *ooi* = **多い** = nhiều. Ví dụ: **人が多いです** = có nhiều người.                                             |
+| 18  | B      | すくない / *sukunai* = **少ない** = ít. Ví dụ: **水が少ないです** = có ít nước.                                             |
+| 19  | C      | ひろい / *hiroi* = **広い** = rộng. Ví dụ: **広い部屋** = căn phòng rộng.                                              |
+| 20  | A      | はやい / *hayai* = **早い** = sớm / nhanh.                                                                         |
+| 21  | A      | ながい / *nagai* = **長い** = dài. Ví dụ: **長い川** = con sông dài.                                                  |
+| 22  | B      | あかるい / *akarui* = **明るい** = sáng. Ví dụ: **明るい部屋** = căn phòng sáng.                                          |
+| 23  | B      | すき / *suki* = **好き** = thích.                                                                                 |
+| 24  | A      | とも / *tomo* = **友** = bạn bè. Ví dụ: **友だち** = ともだち / *tomodachi* = bạn bè.                                   |
+| 25  | A      | **人が多いです。** = ひとがおおいです / *hito ga ooi desu* = Có nhiều người.                                                 |
+| 26  | B      | **水が少ないです。** = みずがすくないです / *mizu ga sukunai desu* = Có ít nước.                                               |
+| 27  | A      | **広い部屋** = ひろいへや / *hiroi heya* = căn phòng rộng.                                                             |
+| 28  | B      | **早く行きます。** = はやくいきます / *hayaku ikimasu* = Đi sớm / đi nhanh.                                                 |
+| 29  | B      | **長い川** = ながいかわ / *nagai kawa* = con sông dài.                                                                |
+| 30  | B      | **明るい部屋** = あかるいへや / *akarui heya* = căn phòng sáng.                                                          |
+| 31  | A      | **日本語が好きです。** = にほんごがすきです / *nihongo ga suki desu* = Tôi thích tiếng Nhật.                                    |
+| 32  | A      | **友だちに会います。** = ともだちにあいます / *tomodachi ni aimasu* = Tôi gặp bạn.                                              |
+
+---
+
+## Ghi nhớ nhanh 8 chữ Hán
+
+| Kanji | Hiragana | Romaji  | Nghĩa       | Ví dụ N5                                             |
+| ----- | -------- | ------- | ----------- | ---------------------------------------------------- |
+| 多     | おおい      | ooi     | nhiều       | 人が多い = ひとがおおい / *hito ga ooi* = nhiều người          |
+| 少     | すくない     | sukunai | ít          | 水が少ない = みずがすくない / *mizu ga sukunai* = ít nước        |
+| 広     | ひろい      | hiroi   | rộng        | 広い部屋 = ひろいへや / *hiroi heya* = phòng rộng             |
+| 早     | はやい      | hayai   | sớm / nhanh | 早く行きます = はやくいきます / *hayaku ikimasu* = đi sớm / nhanh |
+| 長     | ながい      | nagai   | dài         | 長い川 = ながいかわ / *nagai kawa* = sông dài                |
+| 明     | あかるい     | akarui  | sáng        | 明るい部屋 = あかるいへや / *akarui heya* = phòng sáng          |
+| 好     | すき       | suki    | thích       | 好きです = すきです / *suki desu* = thích                    |
+| 友     | とも       | tomo    | bạn bè      | 友だち = ともだち / *tomodachi* = bạn bè                    |

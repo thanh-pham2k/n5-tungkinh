@@ -1,0 +1,431 @@
+## TL;DR
+
+Bài này là **Kanji N5 – Bài 11**, dạy **8 chữ Hán/Kanji**:
+**大、小、高、安、新、古、元、気**.
+Nội dung chính gồm: **to/lớn, nhỏ, cao/đắt, rẻ/an toàn, mới, cũ, nguyên, khí/tâm trạng**. 
+
+---
+
+# 1. Tổng hợp chữ Hán trong bài
+
+| Kanji | Âm Hán Việt | Hiragana   | Romaji         | Nghĩa                       |
+| ----- | ----------- | ---------- | -------------- | --------------------------- |
+| 大     | Đại         | おおきい / だい  | ookii / dai    | to / lớn                    |
+| 小     | Tiểu        | ちいさい / しょう | chiisai / shou | nhỏ                         |
+| 高     | Cao         | たかい        | takai          | cao / đắt                   |
+| 安     | An          | やすい        | yasui          | rẻ / an toàn                |
+| 新     | Tân         | あたらしい      | atarashii      | mới                         |
+| 古     | Cổ          | ふるい        | furui          | cũ                          |
+| 元     | Nguyên      | げん         | gen            | gốc / nguyên / ban đầu      |
+| 気     | Khí         | き          | ki             | khí / tinh thần / tâm trạng |
+
+---
+
+# 2. Ghi nhớ nhanh
+
+| Kanji | Cách nhớ ngắn                             |
+| ----- | ----------------------------------------- |
+| 大     | Người dang tay → to lớn                   |
+| 小     | Người co lại → nhỏ bé                     |
+| 高     | Tòa nhà cao                               |
+| 安     | Người phụ nữ trong nhà → an toàn / yên ổn |
+| 新     | Chặt cây để làm cái mới                   |
+| 古     | Câu chuyện nói nhiều lần → trở nên cũ     |
+| 元     | Nguyên bản / nguyên vẹn                   |
+| 気     | Hơi thở / không khí / tâm trạng           |
+
+---
+
+# 3. Từ vựng ví dụ
+
+| Từ  | Hiragana | Romaji     | Nghĩa                |
+| --- | -------- | ---------- | -------------------- |
+| 大きい | おおきい     | ookii      | to / lớn             |
+| 大学  | だいがく     | daigaku    | đại học              |
+| 小さい | ちいさい     | chiisai    | nhỏ                  |
+| 小学校 | しょうがっこう  | shougakkou | trường tiểu học      |
+| 高い  | たかい      | takai      | cao / đắt            |
+| 安い  | やすい      | yasui      | rẻ                   |
+| 新しい | あたらしい    | atarashii  | mới                  |
+| 古い  | ふるい      | furui      | cũ                   |
+| 元気  | げんき      | genki      | khỏe / khỏe mạnh     |
+| 気持ち | きもち      | kimochi    | cảm giác / tâm trạng |
+
+---
+
+# 4. Bài tập trắc nghiệm: Kanji → Nghĩa
+
+## Câu 1
+
+**大** nghĩa là gì?
+
+A. to / lớn
+B. nhỏ
+C. cao
+D. cũ
+
+## Câu 2
+
+**小** nghĩa là gì?
+
+A. mới
+B. nhỏ
+C. rẻ
+D. khí
+
+## Câu 3
+
+**高** nghĩa là gì?
+
+A. thấp
+B. rẻ
+C. cao / đắt
+D. cũ
+
+## Câu 4
+
+**安** nghĩa là gì?
+
+A. mới
+B. cũ
+C. rẻ / an toàn
+D. lớn
+
+## Câu 5
+
+**新** nghĩa là gì?
+
+A. mới
+B. cũ
+C. nhỏ
+D. cao
+
+## Câu 6
+
+**古** nghĩa là gì?
+
+A. mới
+B. cũ
+C. khí
+D. an toàn
+
+## Câu 7
+
+**元** nghĩa là gì?
+
+A. nguyên / gốc / ban đầu
+B. tuần
+C. tai
+D. nói chuyện
+
+## Câu 8
+
+**気** nghĩa là gì?
+
+A. đất nước
+B. khí / tinh thần / tâm trạng
+C. cha
+D. gạo
+
+---
+
+# 5. Bài tập trắc nghiệm: Kanji → Cách đọc
+
+## Câu 9
+
+**大きい** đọc là gì?
+
+A. おおきい
+B. ちいさい
+C. たかい
+D. やすい
+
+## Câu 10
+
+**小さい** đọc là gì?
+
+A. あたらしい
+B. ふるい
+C. ちいさい
+D. げんき
+
+## Câu 11
+
+**高い** đọc là gì?
+
+A. やすい
+B. たかい
+C. おおきい
+D. ふるい
+
+## Câu 12
+
+**安い** đọc là gì?
+
+A. やすい
+B. たかい
+C. ちいさい
+D. あたらしい
+
+## Câu 13
+
+**新しい** đọc là gì?
+
+A. ふるい
+B. あたらしい
+C. おおきい
+D. きもち
+
+## Câu 14
+
+**古い** đọc là gì?
+
+A. ふるい
+B. やすい
+C. たかい
+D. げんき
+
+## Câu 15
+
+**元気** đọc là gì?
+
+A. きもち
+B. げんき
+C. だいがく
+D. しょうがっこう
+
+## Câu 16
+
+**気持ち** đọc là gì?
+
+A. げんき
+B. きもち
+C. ふるい
+D. やすい
+
+---
+
+# 6. Bài tập trắc nghiệm: Hiragana → Kanji
+
+## Câu 17
+
+**おおきい** là Kanji nào?
+
+A. 大きい
+B. 小さい
+C. 高い
+D. 安い
+
+## Câu 18
+
+**ちいさい** là Kanji nào?
+
+A. 新しい
+B. 古い
+C. 小さい
+D. 気
+
+## Câu 19
+
+**たかい** là Kanji nào?
+
+A. 高い
+B. 安い
+C. 大きい
+D. 古い
+
+## Câu 20
+
+**やすい** là Kanji nào?
+
+A. 高い
+B. 安い
+C. 新しい
+D. 元気
+
+## Câu 21
+
+**あたらしい** là Kanji nào?
+
+A. 古い
+B. 新しい
+C. 小さい
+D. 大きい
+
+## Câu 22
+
+**ふるい** là Kanji nào?
+
+A. 古い
+B. 新しい
+C. 安い
+D. 高い
+
+## Câu 23
+
+**げんき** là Kanji nào?
+
+A. 元気
+B. 気持ち
+C. 大学
+D. 小学校
+
+## Câu 24
+
+**きもち** viết bằng Kanji nào?
+
+A. 元気
+B. 気持ち
+C. 高い
+D. 安い
+
+---
+
+# 7. Bài tập tổng hợp
+
+## Câu 25
+
+**大きい家** nghĩa là gì?
+
+A. ngôi nhà lớn
+B. ngôi nhà nhỏ
+C. ngôi nhà cũ
+D. ngôi nhà rẻ
+
+## Câu 26
+
+**小さい車** nghĩa là gì?
+
+A. xe lớn
+B. xe nhỏ
+C. xe mới
+D. xe đắt
+
+## Câu 27
+
+**高い時計** nghĩa là gì?
+
+A. đồng hồ rẻ
+B. đồng hồ mới
+C. đồng hồ đắt
+D. đồng hồ cũ
+
+## Câu 28
+
+**安いかばん** nghĩa là gì?
+
+A. cái cặp rẻ
+B. cái cặp cao
+C. cái cặp cũ
+D. cái cặp lớn
+
+## Câu 29
+
+**新しい本** nghĩa là gì?
+
+A. sách cũ
+B. sách mới
+C. sách nhỏ
+D. sách đắt
+
+## Câu 30
+
+**古いテレビ** nghĩa là gì?
+
+A. TV mới
+B. TV cũ
+C. TV đắt
+D. TV lớn
+
+## Câu 31
+
+**元気です** nghĩa là gì?
+
+A. Tôi khỏe
+B. Tôi đang học
+C. Tôi đang ăn
+D. Tôi đang chờ
+
+## Câu 32
+
+**大学** nghĩa là gì?
+
+A. tiểu học
+B. đại học
+C. trường học
+D. học sinh
+
+---
+
+# 8. Đáp án
+
+```text
+1A  2B  3C  4C  5A  6B  7A  8B
+9A  10C 11B 12A 13B 14A 15B 16B
+17A 18C 19A 20B 21B 22A 23A 24B
+25A 26B 27C 28A 29B 30B 31A 32B
+```
+## TL;DR — Đáp án nhanh
+
+```text
+1A  2B  3C  4C  5A  6B  7A  8B
+9A  10C 11B 12A 13B 14A 15B 16B
+17A 18C 19A 20B 21B 22A 23A 24B
+25A 26B 27C 28A 29B 30B 31A 32B
+```
+
+Nội dung dựa trên file Kanji N5 Bài 11 bạn gửi. 
+
+---
+
+## Danh sách đáp án + giải thích + ví dụ JLPT N5
+
+| Câu | Đáp án | Giải thích ngắn gọn                                                                                      |
+| --- | ------ | -------------------------------------------------------------------------------------------------------- |
+| 1   | A      | **大** = おおきい / *ookii*, だい / *dai* = to / lớn. Ví dụ: **大学** = だいがく / *daigaku* = đại học.               |
+| 2   | B      | **小** = ちいさい / *chiisai*, しょう / *shou* = nhỏ. Ví dụ: **小学校** = しょうがっこう / *shougakkou* = trường tiểu học. |
+| 3   | C      | **高** = たかい / *takai* = cao / đắt. Ví dụ: **高い時計** = たかいとけい / *takai tokei* = đồng hồ đắt.               |
+| 4   | C      | **安** = やすい / *yasui* = rẻ / an toàn. Ví dụ: **安いかばん** = やすいかばん / *yasui kaban* = cái cặp rẻ.            |
+| 5   | A      | **新** = あたらしい / *atarashii* = mới. Ví dụ: **新しい本** = あたらしいほん / *atarashii hon* = sách mới.               |
+| 6   | B      | **古** = ふるい / *furui* = cũ. Ví dụ: **古いテレビ** = ふるいテレビ / *furui terebi* = TV cũ.                          |
+| 7   | A      | **元** = げん / *gen* = gốc / nguyên / ban đầu. Ví dụ: **元気** = げんき / *genki* = khỏe mạnh.                  |
+| 8   | B      | **気** = き / *ki* = khí / tinh thần / tâm trạng. Ví dụ: **気持ち** = きもち / *kimochi* = cảm giác / tâm trạng. |
+| 9   | A      | **大きい** = おおきい / *ookii* = to / lớn.                                                                     |
+| 10  | C      | **小さい** = ちいさい / *chiisai* = nhỏ.                                                                        |
+| 11  | B      | **高い** = たかい / *takai* = cao / đắt.                                                                      |
+| 12  | A      | **安い** = やすい / *yasui* = rẻ.                                                                             |
+| 13  | B      | **新しい** = あたらしい / *atarashii* = mới.                                                                     |
+| 14  | A      | **古い** = ふるい / *furui* = cũ.                                                                             |
+| 15  | B      | **元気** = げんき / *genki* = khỏe / khỏe mạnh.                                                               |
+| 16  | B      | **気持ち** = きもち / *kimochi* = cảm giác / tâm trạng.                                                        |
+| 17  | A      | おおきい / *ookii* = **大きい** = to / lớn. Ví dụ: **大きい家** = おおきいいえ / *ookii ie* = nhà lớn.                    |
+| 18  | C      | ちいさい / *chiisai* = **小さい** = nhỏ. Ví dụ: **小さい車** = ちいさいくるま / *chiisai kuruma* = xe nhỏ.                 |
+| 19  | A      | たかい / *takai* = **高い** = cao / đắt.                                                                      |
+| 20  | B      | やすい / *yasui* = **安い** = rẻ.                                                                             |
+| 21  | B      | あたらしい / *atarashii* = **新しい** = mới.                                                                     |
+| 22  | A      | ふるい / *furui* = **古い** = cũ.                                                                             |
+| 23  | A      | げんき / *genki* = **元気** = khỏe mạnh.                                                                      |
+| 24  | B      | きもち / *kimochi* = **気持ち** = cảm giác / tâm trạng.                                                        |
+| 25  | A      | **大きい家** = おおきいいえ / *ookii ie* = ngôi nhà lớn.                                                           |
+| 26  | B      | **小さい車** = ちいさいくるま / *chiisai kuruma* = xe nhỏ.                                                          |
+| 27  | C      | **高い時計** = たかいとけい / *takai tokei* = đồng hồ đắt.                                                         |
+| 28  | A      | **安いかばん** = やすいかばん / *yasui kaban* = cái cặp rẻ.                                                         |
+| 29  | B      | **新しい本** = あたらしいほん / *atarashii hon* = sách mới.                                                         |
+| 30  | B      | **古いテレビ** = ふるいテレビ / *furui terebi* = TV cũ.                                                             |
+| 31  | A      | **元気です** = げんきです / *genki desu* = Tôi khỏe.                                                              |
+| 32  | B      | **大学** = だいがく / *daigaku* = đại học.                                                                     |
+
+---
+
+## Ghi nhớ nhanh 8 chữ Hán
+
+| Kanji | Hiragana   | Romaji         | Nghĩa                       | Ví dụ N5                                       |
+| ----- | ---------- | -------------- | --------------------------- | ---------------------------------------------- |
+| 大     | おおきい / だい  | ookii / dai    | to / lớn                    | 大学 = だいがく / *daigaku* = đại học                |
+| 小     | ちいさい / しょう | chiisai / shou | nhỏ                         | 小学校 = しょうがっこう / *shougakkou* = trường tiểu học |
+| 高     | たかい        | takai          | cao / đắt                   | 高い時計 = たかいとけい / *takai tokei* = đồng hồ đắt    |
+| 安     | やすい        | yasui          | rẻ / an toàn                | 安いかばん = やすいかばん / *yasui kaban* = cái cặp rẻ    |
+| 新     | あたらしい      | atarashii      | mới                         | 新しい本 = あたらしいほん / *atarashii hon* = sách mới    |
+| 古     | ふるい        | furui          | cũ                          | 古いテレビ = ふるいテレビ / *furui terebi* = TV cũ        |
+| 元     | げん         | gen            | gốc / nguyên / ban đầu      | 元気 = げんき / *genki* = khỏe mạnh                 |
+| 気     | き          | ki             | khí / tinh thần / tâm trạng | 気持ち = きもち / *kimochi* = cảm giác               |

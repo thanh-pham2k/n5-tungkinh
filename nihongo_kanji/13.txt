@@ -1,0 +1,432 @@
+## TL;DR
+
+Bài này là **Kanji N5 – Bài 13**, dạy **8 chữ Hán/Kanji**:
+**入、出、市、町、村、雨、電、車**.
+Nội dung chính gồm: **vào, ra, thành phố/chợ, thị trấn, làng, mưa, điện, xe**. 
+
+---
+
+# 1. Tổng hợp chữ Hán trong bài
+
+| Kanji | Âm Hán Việt | Hiragana | Romaji | Nghĩa              |
+| ----- | ----------- | -------- | ------ | ------------------ |
+| 入     | Nhập        | はいる      | hairu  | vào                |
+| 出     | Xuất        | でる       | deru   | ra / xuất hiện     |
+| 市     | Thị         | し        | shi    | thành phố / chợ    |
+| 町     | Đinh        | まち       | machi  | thị trấn / khu phố |
+| 村     | Thôn        | むら       | mura   | làng               |
+| 雨     | Vũ          | あめ       | ame    | mưa                |
+| 電     | Điện        | でん       | den    | điện               |
+| 車     | Xa          | くるま      | kuruma | xe                 |
+
+---
+
+# 2. Ghi nhớ nhanh
+
+| Kanji | Cách nhớ ngắn                      |
+| ----- | ---------------------------------- |
+| 入     | Người chui vào lều → vào           |
+| 出     | Mũi tên hướng ra ngoài → ra        |
+| 市     | Chợ Bến Thành / thành phố → 市      |
+| 町     | 田 + 丁 → thị trấn có ruộng và đường |
+| 村     | 木 + 寸 → sau cái cây là ngôi làng   |
+| 雨     | Hình cơn mưa rơi                   |
+| 電     | 雨 + điện/sấm sét → điện            |
+| 車     | Hình chiếc xe nhìn từ trên xuống   |
+
+---
+
+# 3. Từ vựng ví dụ
+
+| Từ     | Hiragana | Romaji          | Nghĩa                 |
+| ------ | -------- | --------------- | --------------------- |
+| 入ります   | はいります    | hairimasu       | vào                   |
+| 出ます    | でます      | demasu          | ra                    |
+| 市      | し        | shi             | thành phố             |
+| ホーチミン市 | ホーチミンし   | Hoochimin-shi   | Thành phố Hồ Chí Minh |
+| 町      | まち       | machi           | thị trấn / khu phố    |
+| 村      | むら       | mura            | làng                  |
+| 雨      | あめ       | ame             | mưa                   |
+| 雨が降ります | あめがふります  | ame ga furimasu | trời mưa              |
+| 電気     | でんき      | denki           | điện                  |
+| 電車     | でんしゃ     | densha          | tàu điện              |
+| 車      | くるま      | kuruma          | xe hơi / xe           |
+
+---
+
+# 4. Bài tập trắc nghiệm: Kanji → Nghĩa
+
+## Câu 1
+
+**入** nghĩa là gì?
+
+A. vào
+B. ra
+C. đi
+D. đến
+
+## Câu 2
+
+**出** nghĩa là gì?
+
+A. vào
+B. ra
+C. mưa
+D. xe
+
+## Câu 3
+
+**市** nghĩa là gì?
+
+A. làng
+B. thị trấn
+C. thành phố / chợ
+D. xe điện
+
+## Câu 4
+
+**町** nghĩa là gì?
+
+A. thị trấn / khu phố
+B. làng
+C. mưa
+D. điện
+
+## Câu 5
+
+**村** nghĩa là gì?
+
+A. thành phố
+B. làng
+C. chợ
+D. xe
+
+## Câu 6
+
+**雨** nghĩa là gì?
+
+A. nước
+B. mưa
+C. điện
+D. trời
+
+## Câu 7
+
+**電** nghĩa là gì?
+
+A. xe
+B. điện
+C. làng
+D. mưa
+
+## Câu 8
+
+**車** nghĩa là gì?
+
+A. xe
+B. điện
+C. thành phố
+D. thị trấn
+
+---
+
+# 5. Bài tập trắc nghiệm: Kanji → Cách đọc
+
+## Câu 9
+
+**入ります** đọc là gì?
+
+A. はいります
+B. でます
+C. いきます
+D. きます
+
+## Câu 10
+
+**出ます** đọc là gì?
+
+A. はいります
+B. でます
+C. みます
+D. のみます
+
+## Câu 11
+
+**市** đọc là gì?
+
+A. し
+B. まち
+C. むら
+D. あめ
+
+## Câu 12
+
+**町** đọc là gì?
+
+A. まち
+B. し
+C. くるま
+D. でん
+
+## Câu 13
+
+**村** đọc là gì?
+
+A. むら
+B. まち
+C. あめ
+D. し
+
+## Câu 14
+
+**雨** đọc là gì?
+
+A. あめ
+B. でん
+C. くるま
+D. むら
+
+## Câu 15
+
+**電気** đọc là gì?
+
+A. でんき
+B. でんしゃ
+C. くるま
+D. あめ
+
+## Câu 16
+
+**車** đọc là gì?
+
+A. でんしゃ
+B. くるま
+C. まち
+D. し
+
+---
+
+# 6. Bài tập trắc nghiệm: Hiragana → Kanji
+
+## Câu 17
+
+**はいります** là Kanji nào?
+
+A. 入ります
+B. 出ます
+C. 行きます
+D. 来ます
+
+## Câu 18
+
+**でます** là Kanji nào?
+
+A. 入ります
+B. 出ます
+C. 見ます
+D. 会います
+
+## Câu 19
+
+**し** là Kanji nào?
+
+A. 市
+B. 町
+C. 村
+D. 車
+
+## Câu 20
+
+**まち** là Kanji nào?
+
+A. 村
+B. 市
+C. 町
+D. 電
+
+## Câu 21
+
+**むら** là Kanji nào?
+
+A. 村
+B. 町
+C. 雨
+D. 出
+
+## Câu 22
+
+**あめ** là Kanji nào?
+
+A. 電
+B. 雨
+C. 車
+D. 市
+
+## Câu 23
+
+**でんき** viết bằng Kanji nào?
+
+A. 電気
+B. 電車
+C. 雨
+D. 車
+
+## Câu 24
+
+**くるま** là Kanji nào?
+
+A. 車
+B. 電
+C. 市
+D. 町
+
+---
+
+# 7. Bài tập tổng hợp
+
+## Câu 25
+
+**部屋に入ります。** nghĩa là gì?
+
+A. Tôi vào phòng.
+B. Tôi ra khỏi phòng.
+C. Tôi đi đến thành phố.
+D. Tôi lái xe.
+
+## Câu 26
+
+**部屋を出ます。** nghĩa là gì?
+
+A. Tôi vào phòng.
+B. Tôi ra khỏi phòng.
+C. Tôi nghe nhạc.
+D. Tôi uống nước.
+
+## Câu 27
+
+**ホーチミン市** nghĩa là gì?
+
+A. Thành phố Hồ Chí Minh
+B. Làng Hồ Chí Minh
+C. Thị trấn Hồ Chí Minh
+D. Ga Hồ Chí Minh
+
+## Câu 28
+
+**雨が降ります。** nghĩa là gì?
+
+A. Trời nắng.
+B. Trời mưa.
+C. Có điện.
+D. Có xe.
+
+## Câu 29
+
+**電車** nghĩa là gì?
+
+A. xe hơi
+B. tàu điện
+C. điện thoại
+D. mưa
+
+## Câu 30
+
+**車で行きます。** nghĩa là gì?
+
+A. Tôi đi bằng xe.
+B. Tôi đi bộ.
+C. Tôi vào xe.
+D. Tôi ra khỏi xe.
+
+## Câu 31
+
+**町** gần nghĩa với từ nào nhất?
+
+A. thị trấn / khu phố
+B. làng nhỏ
+C. quốc gia
+D. trường học
+
+## Câu 32
+
+Chữ nào có nghĩa là **mưa**?
+
+A. 電
+B. 雨
+C. 車
+D. 市
+
+---
+
+# 8. Đáp án
+
+```text
+1A  2B  3C  4A  5B  6B  7B  8A
+9A  10B 11A 12A 13A 14A 15A 16B
+17A 18B 19A 20C 21A 22B 23A 24A
+25A 26B 27A 28B 29B 30A 31A 32B
+```
+## TL;DR — Đáp án nhanh
+
+```text
+1A  2B  3C  4A  5B  6B  7B  8A
+9A  10B 11A 12A 13A 14A 15A 16B
+17A 18B 19A 20C 21A 22B 23A 24A
+25A 26B 27A 28B 29B 30A 31A 32B
+```
+
+Nội dung dựa trên file Kanji N5 Bài 13 bạn gửi. 
+
+---
+
+## Danh sách đáp án + giải thích + ví dụ JLPT N5
+
+| Câu | Đáp án | Giải thích ngắn gọn                                                                                  |
+| --- | ------ | ---------------------------------------------------------------------------------------------------- |
+| 1   | A      | **入** = はいる / *hairu* = vào. Ví dụ: **部屋に入ります** = へやにはいります / *heya ni hairimasu* = vào phòng.        |
+| 2   | B      | **出** = でる / *deru* = ra / xuất hiện. Ví dụ: **部屋を出ます** = へやをでます / *heya o demasu* = ra khỏi phòng.  |
+| 3   | C      | **市** = し / *shi* = thành phố / chợ. Ví dụ: **ホーチミン市** = ホーチミンし / *Hoochimin-shi* = TP. Hồ Chí Minh. |
+| 4   | A      | **町** = まち / *machi* = thị trấn / khu phố. Ví dụ: **町** = まち / *machi* = khu phố.                    |
+| 5   | B      | **村** = むら / *mura* = làng. Ví dụ: **村** = むら / *mura* = ngôi làng.                                  |
+| 6   | B      | **雨** = あめ / *ame* = mưa. Ví dụ: **雨が降ります** = あめがふります / *ame ga furimasu* = trời mưa.                |
+| 7   | B      | **電** = でん / *den* = điện. Ví dụ: **電気** = でんき / *denki* = điện.                                     |
+| 8   | A      | **車** = くるま / *kuruma* = xe. Ví dụ: **車で行きます** = くるまでいきます / *kuruma de ikimasu* = đi bằng xe.        |
+| 9   | A      | **入ります** = はいります / *hairimasu* = vào.                                                                |
+| 10  | B      | **出ます** = でます / *demasu* = ra.                                                                       |
+| 11  | A      | **市** đọc là し / *shi* = thành phố.                                                                  |
+| 12  | A      | **町** đọc là まち / *machi* = thị trấn / khu phố.                                                      |
+| 13  | A      | **村** đọc là むら / *mura* = làng.                                                                     |
+| 14  | A      | **雨** đọc là あめ / *ame* = mưa.                                                                       |
+| 15  | A      | **電気** = でんき / *denki* = điện.                                                                       |
+| 16  | B      | **車** đọc là くるま / *kuruma* = xe.                                                                    |
+| 17  | A      | はいります / *hairimasu* = **入ります** = vào.                                                                |
+| 18  | B      | でます / *demasu* = **出ます** = ra.                                                                       |
+| 19  | A      | し / *shi* = **市** = thành phố / chợ.                                                                 |
+| 20  | C      | まち / *machi* = **町** = thị trấn / khu phố.                                                           |
+| 21  | A      | むら / *mura* = **村** = làng.                                                                          |
+| 22  | B      | あめ / *ame* = **雨** = mưa.                                                                            |
+| 23  | A      | でんき / *denki* = **電気** = điện.                                                                       |
+| 24  | A      | くるま / *kuruma* = **車** = xe.                                                                         |
+| 25  | A      | **部屋に入ります。** = へやにはいります / *heya ni hairimasu* = Tôi vào phòng.                                       |
+| 26  | B      | **部屋を出ます。** = へやをでます / *heya o demasu* = Tôi ra khỏi phòng.                                          |
+| 27  | A      | **ホーチミン市** = ホーチミンし / *Hoochimin-shi* = Thành phố Hồ Chí Minh.                                       |
+| 28  | B      | **雨が降ります。** = あめがふります / *ame ga furimasu* = Trời mưa.                                                |
+| 29  | B      | **電車** = でんしゃ / *densha* = tàu điện.                                                                 |
+| 30  | A      | **車で行きます。** = くるまでいきます / *kuruma de ikimasu* = Tôi đi bằng xe.                                       |
+| 31  | A      | **町** = まち / *machi* = thị trấn / khu phố.                                                           |
+| 32  | B      | Chữ nghĩa là mưa là **雨** = あめ / *ame* = mưa.                                                        |
+
+---
+
+## Ghi nhớ nhanh 8 chữ Hán
+
+| Kanji | Hiragana | Romaji | Nghĩa              | Ví dụ N5                                |
+| ----- | -------- | ------ | ------------------ | --------------------------------------- |
+| 入     | はいる      | hairu  | vào                | 入ります = はいります / *hairimasu* = vào        |
+| 出     | でる       | deru   | ra / xuất hiện     | 出ます = でます / *demasu* = ra               |
+| 市     | し        | shi    | thành phố / chợ    | ホーチミン市 = ホーチミンし / *Hoochimin-shi*       |
+| 町     | まち       | machi  | thị trấn / khu phố | 町 = まち / *machi* = khu phố              |
+| 村     | むら       | mura   | làng               | 村 = むら / *mura* = làng                  |
+| 雨     | あめ       | ame    | mưa                | 雨が降ります = あめがふります / *ame ga furimasu*    |
+| 電     | でん       | den    | điện               | 電気 = でんき / *denki* = điện               |
+| 車     | くるま      | kuruma | xe                 | 車で行きます = くるまでいきます / *kuruma de ikimasu* |

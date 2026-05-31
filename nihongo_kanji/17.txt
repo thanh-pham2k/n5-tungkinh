@@ -1,0 +1,432 @@
+## TL;DR
+
+Bài này là **Kanji N5 – Bài 17**, dạy **8 chữ Hán/Kanji**:
+**春、夏、秋、冬、朝、昼、夕、方**.
+Nội dung chính gồm: **4 mùa, buổi sáng, buổi trưa, buổi chiều/tối, phương hướng/người**. 
+
+---
+
+# 1. Tổng hợp chữ Hán trong bài
+
+| Kanji | Âm Hán Việt | Hiragana | Romaji     | Nghĩa                     |
+| ----- | ----------- | -------- | ---------- | ------------------------- |
+| 春     | Xuân        | はる       | haru       | mùa xuân                  |
+| 夏     | Hạ          | なつ       | natsu      | mùa hè                    |
+| 秋     | Thu         | あき       | aki        | mùa thu                   |
+| 冬     | Đông        | ふゆ       | fuyu       | mùa đông                  |
+| 朝     | Triều       | あさ       | asa        | buổi sáng                 |
+| 昼     | Trú         | ひる       | hiru       | buổi trưa                 |
+| 夕     | Tịch        | ゆう       | yuu        | chiều / tối               |
+| 方     | Phương      | ほう / かた  | hou / kata | phương hướng / vị / người |
+
+---
+
+# 2. Ghi nhớ nhanh
+
+| Kanji | Cách nhớ ngắn                                 |
+| ----- | --------------------------------------------- |
+| 春     | Mùng 3 Tết đi chơi → mùa xuân                 |
+| 夏     | Trời nóng, người mệt → mùa hè                 |
+| 秋     | Cây lúa + lửa → lá đỏ mùa thu                 |
+| 冬     | Đường trơn tuyết → mùa đông                   |
+| 朝     | Ngày 10 tháng 10, buổi sáng có thủy triều     |
+| 昼     | Mặt trời như ở trong nhà → buổi trưa rất nóng |
+| 夕     | Chim bay dưới trăng → chiều/tối               |
+| 方     | Người cầm cờ chỉ hướng → phương hướng         |
+
+---
+
+# 3. Từ vựng ví dụ
+
+| Từ   | Hiragana | Romaji    | Nghĩa              |
+| ---- | -------- | --------- | ------------------ |
+| 春    | はる       | haru      | mùa xuân           |
+| 夏    | なつ       | natsu     | mùa hè             |
+| 秋    | あき       | aki       | mùa thu            |
+| 冬    | ふゆ       | fuyu      | mùa đông           |
+| 朝    | あさ       | asa       | buổi sáng          |
+| 昼    | ひる       | hiru      | buổi trưa          |
+| 夕方   | ゆうがた     | yuugata   | buổi chiều         |
+| 方向   | ほうこう     | houkou    | phương hướng       |
+| この方  | このかた     | kono kata | vị này / người này |
+| 朝ごはん | あさごはん    | asagohan  | cơm sáng           |
+| 昼ごはん | ひるごはん    | hirugohan | cơm trưa           |
+
+---
+
+# 4. Bài tập trắc nghiệm: Kanji → Nghĩa
+
+## Câu 1
+
+**春** nghĩa là gì?
+
+A. mùa xuân
+B. mùa hè
+C. mùa thu
+D. mùa đông
+
+## Câu 2
+
+**夏** nghĩa là gì?
+
+A. mùa xuân
+B. mùa hè
+C. buổi sáng
+D. buổi trưa
+
+## Câu 3
+
+**秋** nghĩa là gì?
+
+A. mùa đông
+B. mùa thu
+C. buổi chiều
+D. phương hướng
+
+## Câu 4
+
+**冬** nghĩa là gì?
+
+A. mùa xuân
+B. mùa hè
+C. mùa thu
+D. mùa đông
+
+## Câu 5
+
+**朝** nghĩa là gì?
+
+A. buổi sáng
+B. buổi trưa
+C. buổi chiều
+D. buổi tối
+
+## Câu 6
+
+**昼** nghĩa là gì?
+
+A. buổi sáng
+B. buổi trưa
+C. mùa hè
+D. mùa đông
+
+## Câu 7
+
+**夕** nghĩa là gì?
+
+A. mùa xuân
+B. buổi trưa
+C. chiều / tối
+D. phương hướng
+
+## Câu 8
+
+**方** nghĩa là gì?
+
+A. phương hướng / vị / người
+B. mùa thu
+C. buổi sáng
+D. mùa đông
+
+---
+
+# 5. Bài tập trắc nghiệm: Kanji → Cách đọc
+
+## Câu 9
+
+**春** đọc là gì?
+
+A. はる
+B. なつ
+C. あき
+D. ふゆ
+
+## Câu 10
+
+**夏** đọc là gì?
+
+A. あさ
+B. なつ
+C. ひる
+D. ゆう
+
+## Câu 11
+
+**秋** đọc là gì?
+
+A. はる
+B. ふゆ
+C. あき
+D. ほう
+
+## Câu 12
+
+**冬** đọc là gì?
+
+A. ふゆ
+B. なつ
+C. あさ
+D. かた
+
+## Câu 13
+
+**朝** đọc là gì?
+
+A. あさ
+B. ひる
+C. ゆう
+D. あき
+
+## Câu 14
+
+**昼** đọc là gì?
+
+A. はる
+B. ひる
+C. ふゆ
+D. ほう
+
+## Câu 15
+
+**夕方** đọc là gì?
+
+A. ゆうがた
+B. あさがた
+C. ひるがた
+D. ほうこう
+
+## Câu 16
+
+**方向** đọc là gì?
+
+A. ほうこう
+B. ゆうがた
+C. あさ
+D. ひる
+
+---
+
+# 6. Bài tập trắc nghiệm: Hiragana → Kanji
+
+## Câu 17
+
+**はる** là Kanji nào?
+
+A. 春
+B. 夏
+C. 秋
+D. 冬
+
+## Câu 18
+
+**なつ** là Kanji nào?
+
+A. 春
+B. 夏
+C. 朝
+D. 方
+
+## Câu 19
+
+**あき** là Kanji nào?
+
+A. 秋
+B. 冬
+C. 昼
+D. 夕
+
+## Câu 20
+
+**ふゆ** là Kanji nào?
+
+A. 春
+B. 夏
+C. 秋
+D. 冬
+
+## Câu 21
+
+**あさ** là Kanji nào?
+
+A. 朝
+B. 昼
+C. 夕
+D. 方
+
+## Câu 22
+
+**ひる** là Kanji nào?
+
+A. 春
+B. 朝
+C. 昼
+D. 冬
+
+## Câu 23
+
+**ゆう** là Kanji nào?
+
+A. 夕
+B. 方
+C. 秋
+D. 夏
+
+## Câu 24
+
+**ほう** là Kanji nào?
+
+A. 朝
+B. 方
+C. 昼
+D. 冬
+
+---
+
+# 7. Bài tập tổng hợp
+
+## Câu 25
+
+**春に花が咲きます。** nghĩa là gì?
+
+A. Hoa nở vào mùa xuân.
+B. Hoa nở vào mùa hè.
+C. Hoa nở vào mùa thu.
+D. Hoa nở vào mùa đông.
+
+## Câu 26
+
+**夏は暑いです。** nghĩa là gì?
+
+A. Mùa xuân lạnh.
+B. Mùa hè nóng.
+C. Mùa thu mát.
+D. Mùa đông lạnh.
+
+## Câu 27
+
+**秋に紅葉を見ます。** nghĩa là gì?
+
+A. Tôi ngắm lá đỏ vào mùa thu.
+B. Tôi ngắm tuyết vào mùa đông.
+C. Tôi ngắm hoa vào mùa xuân.
+D. Tôi đi biển vào mùa hè.
+
+## Câu 28
+
+**冬は寒いです。** nghĩa là gì?
+
+A. Mùa đông lạnh.
+B. Mùa hè nóng.
+C. Buổi sáng lạnh.
+D. Buổi trưa nóng.
+
+## Câu 29
+
+**朝ごはんを食べます。** nghĩa là gì?
+
+A. Tôi ăn sáng.
+B. Tôi ăn trưa.
+C. Tôi ăn tối.
+D. Tôi uống nước.
+
+## Câu 30
+
+**昼ごはんを食べます。** nghĩa là gì?
+
+A. Tôi ăn sáng.
+B. Tôi ăn trưa.
+C. Tôi ăn tối.
+D. Tôi ăn nhẹ.
+
+## Câu 31
+
+**夕方に帰ります。** nghĩa là gì?
+
+A. Tôi về vào buổi sáng.
+B. Tôi về vào buổi trưa.
+C. Tôi về vào buổi chiều.
+D. Tôi về vào mùa xuân.
+
+## Câu 32
+
+**方向** nghĩa là gì?
+
+A. phương hướng
+B. mùa đông
+C. buổi sáng
+D. mùa hè
+
+---
+
+# 8. Đáp án
+
+```text
+1A  2B  3B  4D  5A  6B  7C  8A
+9A  10B 11C 12A 13A 14B 15A 16A
+17A 18B 19A 20D 21A 22C 23A 24B
+25A 26B 27A 28A 29A 30B 31C 32A
+```
+## TL;DR — Đáp án nhanh
+
+```text
+1A  2B  3B  4D  5A  6B  7C  8A
+9A  10B 11C 12A 13A 14B 15A 16A
+17A 18B 19A 20D 21A 22C 23A 24B
+25A 26B 27A 28A 29A 30B 31C 32A
+```
+
+Nội dung dựa trên file Kanji N5 Bài 17 bạn gửi. 
+
+---
+
+## Danh sách đáp án + giải thích + ví dụ JLPT N5
+
+| Câu | Đáp án | Giải thích ngắn gọn                                                                                                  |
+| --- | ------ | -------------------------------------------------------------------------------------------------------------------- |
+| 1   | A      | **春** = はる / *haru* = mùa xuân. Ví dụ: **春に花が咲きます** = はるにはながさきます / *haru ni hana ga sakimasu* = hoa nở vào mùa xuân. |
+| 2   | B      | **夏** = なつ / *natsu* = mùa hè. Ví dụ: **夏は暑いです** = なつはあついです / *natsu wa atsui desu* = mùa hè nóng.                   |
+| 3   | B      | **秋** = あき / *aki* = mùa thu. Ví dụ: **秋に紅葉を見ます** = あきにこうようをみます / *aki ni kouyou o mimasu* = ngắm lá đỏ vào mùa thu. |
+| 4   | D      | **冬** = ふゆ / *fuyu* = mùa đông. Ví dụ: **冬は寒いです** = ふゆはさむいです / *fuyu wa samui desu* = mùa đông lạnh.                 |
+| 5   | A      | **朝** = あさ / *asa* = buổi sáng. Ví dụ: **朝ごはん** = あさごはん / *asagohan* = cơm sáng.                                     |
+| 6   | B      | **昼** = ひる / *hiru* = buổi trưa. Ví dụ: **昼ごはん** = ひるごはん / *hirugohan* = cơm trưa.                                   |
+| 7   | C      | **夕** = ゆう / *yuu* = chiều / tối. Ví dụ: **夕方** = ゆうがた / *yuugata* = buổi chiều.                                     |
+| 8   | A      | **方** = ほう / *hou*, かた / *kata* = phương hướng / vị / người. Ví dụ: **方向** = ほうこう / *houkou* = phương hướng.         |
+| 9   | A      | **春** đọc là はる / *haru* = mùa xuân.                                                                                 |
+| 10  | B      | **夏** đọc là なつ / *natsu* = mùa hè.                                                                                  |
+| 11  | C      | **秋** đọc là あき / *aki* = mùa thu.                                                                                   |
+| 12  | A      | **冬** đọc là ふゆ / *fuyu* = mùa đông.                                                                                 |
+| 13  | A      | **朝** đọc là あさ / *asa* = buổi sáng.                                                                                 |
+| 14  | B      | **昼** đọc là ひる / *hiru* = buổi trưa.                                                                                |
+| 15  | A      | **夕方** = ゆうがた / *yuugata* = buổi chiều.                                                                              |
+| 16  | A      | **方向** = ほうこう / *houkou* = phương hướng.                                                                             |
+| 17  | A      | はる / *haru* = **春** = mùa xuân.                                                                                      |
+| 18  | B      | なつ / *natsu* = **夏** = mùa hè.                                                                                       |
+| 19  | A      | あき / *aki* = **秋** = mùa thu.                                                                                        |
+| 20  | D      | ふゆ / *fuyu* = **冬** = mùa đông.                                                                                      |
+| 21  | A      | あさ / *asa* = **朝** = buổi sáng.                                                                                      |
+| 22  | C      | ひる / *hiru* = **昼** = buổi trưa.                                                                                     |
+| 23  | A      | ゆう / *yuu* = **夕** = chiều / tối.                                                                                    |
+| 24  | B      | ほう / *hou* = **方** = phương hướng / vị / người.                                                                      |
+| 25  | A      | **春に花が咲きます。** = はるにはながさきます / *haru ni hana ga sakimasu* = Hoa nở vào mùa xuân.                                       |
+| 26  | B      | **夏は暑いです。** = なつはあついです / *natsu wa atsui desu* = Mùa hè nóng.                                                        |
+| 27  | A      | **秋に紅葉を見ます。** = あきにこうようをみます / *aki ni kouyou o mimasu* = Tôi ngắm lá đỏ vào mùa thu.                                 |
+| 28  | A      | **冬は寒いです。** = ふゆはさむいです / *fuyu wa samui desu* = Mùa đông lạnh.                                                       |
+| 29  | A      | **朝ごはんを食べます。** = あさごはんをたべます / *asagohan o tabemasu* = Tôi ăn sáng.                                                   |
+| 30  | B      | **昼ごはんを食べます。** = ひるごはんをたべます / *hirugohan o tabemasu* = Tôi ăn trưa.                                                  |
+| 31  | C      | **夕方に帰ります。** = ゆうがたにかえります / *yuugata ni kaerimasu* = Tôi về vào buổi chiều.                                          |
+| 32  | A      | **方向** = ほうこう / *houkou* = phương hướng.                                                                             |
+
+---
+
+## Ghi nhớ nhanh 8 chữ Hán
+
+| Kanji | Hiragana | Romaji     | Nghĩa                     | Ví dụ N5                         |
+| ----- | -------- | ---------- | ------------------------- | -------------------------------- |
+| 春     | はる       | haru       | mùa xuân                  | 春 = はる / *haru*                  |
+| 夏     | なつ       | natsu      | mùa hè                    | 夏は暑い = なつはあつい / *natsu wa atsui* |
+| 秋     | あき       | aki        | mùa thu                   | 秋 = あき / *aki*                   |
+| 冬     | ふゆ       | fuyu       | mùa đông                  | 冬は寒い = ふゆはさむい / *fuyu wa samui*  |
+| 朝     | あさ       | asa        | buổi sáng                 | 朝ごはん = あさごはん / *asagohan*        |
+| 昼     | ひる       | hiru       | buổi trưa                 | 昼ごはん = ひるごはん / *hirugohan*       |
+| 夕     | ゆう       | yuu        | chiều / tối               | 夕方 = ゆうがた / *yuugata*            |
+| 方     | ほう / かた  | hou / kata | phương hướng / vị / người | 方向 = ほうこう / *houkou*             |

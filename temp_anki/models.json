@@ -1,0 +1,198 @@
+{
+  "1400010018": {
+    "css": "\n.card { font-family: Arial, sans-serif; font-size: 18px; text-align: left; color: #172033; background: #f5f7fb; margin: 0; padding: 0; }\n*, *::before, *::after { box-sizing: border-box; }\n.mcq-card { width: min(760px, 100%); max-width: 100%; margin: 0 auto; background: #fff; border: 1px solid #dbe2ee; border-radius: 8px; padding: 18px; overflow: hidden; }\n.meta { color: #42506a; font-size: 14px; font-weight: 700; margin-bottom: 12px; line-height: 1.35; }\n.question { white-space: pre-wrap; line-height: 1.55; font-size: 21px; margin-bottom: 16px; overflow-wrap: anywhere; }\n.options { width: 100%; display: grid; gap: 10px; }\n.option { width: 100%; max-width: 100%; }\n.option input { position: absolute; opacity: 0; pointer-events: none; }\n.choice { box-sizing: border-box; width: 100%; max-width: 100%; display: grid; grid-template-columns: 38px minmax(0, 1fr); gap: 10px; align-items: center; text-align: left; min-height: 46px; border: 1px solid #dbe2ee; border-radius: 8px; background: #fff; color: #172033; padding: 8px 12px; margin: 0; cursor: pointer; overflow: hidden; }\n.choice bdi { min-width: 0; overflow-wrap: anywhere; word-break: break-word; white-space: normal; }\n.choice span { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 999px; background: #edf3fb; font-weight: 700; }\n.option input:checked + .choice { border-color: #1665d8; box-shadow: inset 0 0 0 1px #1665d8; }\n.option input:checked + .choice.correct { border-color: #1f8a4c; background: #edf9f2; box-shadow: inset 0 0 0 1px #1f8a4c; }\n.option input:checked + .choice.wrong { border-color: #c93535; background: #fff0f0; box-shadow: inset 0 0 0 1px #c93535; }\n.feedback { display: none; margin: 7px 0 0 48px; font-size: 15px; font-weight: 700; overflow-wrap: anywhere; }\n.feedback.correct { color: #1f8a4c; }\n.feedback.wrong { color: #c93535; }\n.option input:checked ~ .feedback { display: block; }\n.hint { margin-top: 14px; color: #42506a; font-weight: 700; overflow-wrap: anywhere; }\n.answer-box { width: min(760px, 100%); max-width: 100%; margin: 12px auto 0; background: #fff; border: 1px solid #dbe2ee; border-radius: 8px; padding: 16px; line-height: 1.55; overflow-wrap: anywhere; }\n.explanation { white-space: pre-wrap; margin-top: 10px; }\n@media (max-width: 480px) { .card { font-size: 16px; } .mcq-card, .answer-box { padding: 14px; } .question { font-size: 18px; } .choice { grid-template-columns: 34px minmax(0, 1fr); padding: 8px 10px; } .feedback { margin-left: 44px; } }\n",
+    "did": 1400010019,
+    "flds": [
+      {
+        "name": "Number",
+        "ord": 0,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "Question",
+        "ord": 1,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "A",
+        "ord": 2,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "B",
+        "ord": 3,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "C",
+        "ord": 4,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "D",
+        "ord": 5,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "Answer",
+        "ord": 6,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "Explanation",
+        "ord": 7,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "ClassA",
+        "ord": 8,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "ClassB",
+        "ord": 9,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "ClassC",
+        "ord": 10,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "ClassD",
+        "ord": 11,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "FeedbackA",
+        "ord": 12,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "FeedbackB",
+        "ord": 13,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "FeedbackC",
+        "ord": 14,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      },
+      {
+        "name": "FeedbackD",
+        "ord": 15,
+        "font": "Liberation Sans",
+        "media": [],
+        "rtl": false,
+        "size": 20,
+        "sticky": false
+      }
+    ],
+    "id": "1400010018",
+    "latexPost": "\\end{document}",
+    "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+    "latexsvg": false,
+    "mod": 1779213089,
+    "name": "Nihongo MCQ Radio A-D No JS Bai 1",
+    "req": [
+      [
+        0,
+        "any",
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      ]
+    ],
+    "sortf": 0,
+    "tags": [],
+    "tmpls": [
+      {
+        "name": "MCQ",
+        "qfmt": "\n<div class=\"mcq-card\">\n  <div class=\"meta\">Minna no Nihongo - Bai 1 - Cau {{Number}}</div>\n  <div class=\"question\">{{Question}}</div>\n  <div class=\"options\">\n    <div class=\"option\"><input id=\"q1{{Number}}A\" name=\"q1{{Number}}\" type=\"radio\"><label for=\"q1{{Number}}A\" class=\"choice {{ClassA}}\"><span>A</span><bdi>{{A}}</bdi></label><div class=\"feedback {{ClassA}}\">{{FeedbackA}}</div></div>\n    <div class=\"option\"><input id=\"q1{{Number}}B\" name=\"q1{{Number}}\" type=\"radio\"><label for=\"q1{{Number}}B\" class=\"choice {{ClassB}}\"><span>B</span><bdi>{{B}}</bdi></label><div class=\"feedback {{ClassB}}\">{{FeedbackB}}</div></div>\n    <div class=\"option\"><input id=\"q1{{Number}}C\" name=\"q1{{Number}}\" type=\"radio\"><label for=\"q1{{Number}}C\" class=\"choice {{ClassC}}\"><span>C</span><bdi>{{C}}</bdi></label><div class=\"feedback {{ClassC}}\">{{FeedbackC}}</div></div>\n    <div class=\"option\"><input id=\"q1{{Number}}D\" name=\"q1{{Number}}\" type=\"radio\"><label for=\"q1{{Number}}D\" class=\"choice {{ClassD}}\"><span>D</span><bdi>{{D}}</bdi></label><div class=\"feedback {{ClassD}}\">{{FeedbackD}}</div></div>\n  </div>\n  <div class=\"hint\">Chon A, B, C hoac D.</div>\n</div>\n",
+        "afmt": "\n{{FrontSide}}\n<hr>\n<div class=\"answer-box\">\n  <div><b>Dap an dung:</b> {{Answer}}</div>\n  <div class=\"explanation\">{{Explanation}}</div>\n</div>\n",
+        "ord": 0,
+        "bafmt": "",
+        "bqfmt": "",
+        "bfont": "",
+        "bsize": 0,
+        "did": null
+      }
+    ],
+    "type": 0,
+    "usn": -1,
+    "vers": []
+  }
+}

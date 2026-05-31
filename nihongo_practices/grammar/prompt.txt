@@ -1,0 +1,19 @@
+Cập nhật project để tạo bộ Anki ôn tập Kanji từ file:
+
+E:\UTILS\extractor\nihongo_practices\grammar\1.txt
+
+Chỉ dùng file đầu vào trên để lấy dữ liệu. Có thể tham khảo cấu trúc từ file mẫu:
+
+E:\UTILS\extractor\nihongo_mcqs\minna_bai_1_mcq.apkg
+
+Yêu cầu:
+- Deck cha: JLPT_GRAMMAR_N5
+- Deck con: đặt theo tên bài học lấy từ nội dung file 1.txt
+- Xuất file .apkg có cấu trúc tương tự file mẫu nhưng dữ liệu lấy từ 1.txt
+- Nội dung hiển thị dùng chữ thường
+- Không dùng style như bold, italic, underline hoặc CSS/HTML styling không cần thiết
+- Ngoại lệ: các chữ Hán/Kanji được yêu cầu trong câu hỏi thì được phép highlight
+- Highlight chỉ áp dụng cho Kanji mục tiêu trong câu hỏi, không áp dụng cho đáp án, giải thích hoặc nội dung khác
+- Không để thừa quá nhiều \n tránh để nhìn xấu
+- Khi chọn xong đáp án là biết đúng hay sai luôn thay vì phải show answer
+- Phần show answer phải bao gồm tất cả nội dung đáp án và giải thích mà tôi đã cung cấp.

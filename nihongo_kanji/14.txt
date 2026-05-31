@@ -1,0 +1,433 @@
+## TL;DR
+
+Bài này là **Kanji N5 – Bài 14**, dạy **8 chữ Hán/Kanji**:
+**馬、駅、社、校、店、銀、病、院**.
+Nội dung chính gồm: **ngựa, nhà ga, công ty/xã, trường học, cửa tiệm, bạc/ngân hàng, bệnh, viện**. 
+
+---
+
+# 1. Tổng hợp chữ Hán trong bài
+
+| Kanji | Âm Hán Việt | Hiragana | Romaji | Nghĩa               |
+| ----- | ----------- | -------- | ------ | ------------------- |
+| 馬     | Mã          | うま       | uma    | ngựa                |
+| 駅     | Dịch        | えき       | eki    | nhà ga              |
+| 社     | Xã          | しゃ       | sha    | công ty / xã / đền  |
+| 校     | Hiệu        | こう       | kou    | trường              |
+| 店     | Điếm        | みせ       | mise   | cửa tiệm / cửa hàng |
+| 銀     | Ngân        | ぎん       | gin    | bạc                 |
+| 病     | Bệnh        | びょう      | byou   | bệnh                |
+| 院     | Viện        | いん       | in     | viện                |
+
+---
+
+# 2. Ghi nhớ nhanh
+
+| Kanji | Cách nhớ ngắn                               |
+| ----- | ------------------------------------------- |
+| 馬     | Hình con ngựa                               |
+| 駅     | Ngựa + người/đồ → nơi di chuyển → nhà ga    |
+| 社     | Liên quan xã hội / công ty                  |
+| 校     | Người cha đợi con trước trường → trường học |
+| 店     | Mái nhà có đồ bày bán → cửa tiệm            |
+| 銀     | Kim loại quý → bạc / ngân                   |
+| 病     | Bộ bệnh + người bệnh → bệnh                 |
+| 院     | Nơi có người đến chữa bệnh → viện           |
+
+---
+
+# 3. Từ vựng ví dụ
+
+| Từ  | Hiragana | Romaji     | Nghĩa              |
+| --- | -------- | ---------- | ------------------ |
+| 馬   | うま       | uma        | ngựa               |
+| 駅   | えき       | eki        | nhà ga             |
+| 会社  | かいしゃ     | kaisha     | công ty            |
+| 社会  | しゃかい     | shakai     | xã hội             |
+| 学校  | がっこう     | gakkou     | trường học         |
+| 小学校 | しょうがっこう  | shougakkou | trường tiểu học    |
+| 店   | みせ       | mise       | cửa tiệm           |
+| 店員  | てんいん     | tenin      | nhân viên cửa tiệm |
+| 銀行  | ぎんこう     | ginkou     | ngân hàng          |
+| 病気  | びょうき     | byouki     | bệnh               |
+| 病院  | びょういん    | byouin     | bệnh viện          |
+| 入院  | にゅういん    | nyuuin     | nhập viện          |
+
+---
+
+# 4. Bài tập trắc nghiệm: Kanji → Nghĩa
+
+## Câu 1
+
+**馬** nghĩa là gì?
+
+A. ngựa
+B. xe
+C. nhà ga
+D. cửa hàng
+
+## Câu 2
+
+**駅** nghĩa là gì?
+
+A. trường học
+B. nhà ga
+C. công ty
+D. bệnh viện
+
+## Câu 3
+
+**社** nghĩa là gì?
+
+A. bạc
+B. bệnh
+C. công ty / xã
+D. cửa tiệm
+
+## Câu 4
+
+**校** nghĩa là gì?
+
+A. trường
+B. làng
+C. thị trấn
+D. ngựa
+
+## Câu 5
+
+**店** nghĩa là gì?
+
+A. bệnh
+B. cửa tiệm / cửa hàng
+C. nhà ga
+D. bạc
+
+## Câu 6
+
+**銀** nghĩa là gì?
+
+A. vàng
+B. bạc
+C. điện
+D. mưa
+
+## Câu 7
+
+**病** nghĩa là gì?
+
+A. bệnh
+B. viện
+C. trường học
+D. công ty
+
+## Câu 8
+
+**院** nghĩa là gì?
+
+A. viện
+B. ngựa
+C. cửa hàng
+D. nhà ga
+
+---
+
+# 5. Bài tập trắc nghiệm: Kanji → Cách đọc
+
+## Câu 9
+
+**馬** đọc là gì?
+
+A. うま
+B. えき
+C. みせ
+D. しゃ
+
+## Câu 10
+
+**駅** đọc là gì?
+
+A. しゃ
+B. こう
+C. えき
+D. ぎん
+
+## Câu 11
+
+**会社** đọc là gì?
+
+A. がっこう
+B. かいしゃ
+C. びょういん
+D. ぎんこう
+
+## Câu 12
+
+**学校** đọc là gì?
+
+A. がっこう
+B. みせ
+C. うま
+D. しゃかい
+
+## Câu 13
+
+**店** đọc là gì?
+
+A. えき
+B. みせ
+C. びょうき
+D. こう
+
+## Câu 14
+
+**銀行** đọc là gì?
+
+A. ぎんこう
+B. びょういん
+C. てんいん
+D. がっこう
+
+## Câu 15
+
+**病気** đọc là gì?
+
+A. びょうき
+B. びょういん
+C. にゅういん
+D. しゃかい
+
+## Câu 16
+
+**病院** đọc là gì?
+
+A. ぎんこう
+B. びょういん
+C. がっこう
+D. かいしゃ
+
+---
+
+# 6. Bài tập trắc nghiệm: Hiragana → Kanji
+
+## Câu 17
+
+**うま** là Kanji nào?
+
+A. 馬
+B. 駅
+C. 店
+D. 銀
+
+## Câu 18
+
+**えき** là Kanji nào?
+
+A. 社
+B. 駅
+C. 校
+D. 院
+
+## Câu 19
+
+**かいしゃ** viết bằng Kanji nào?
+
+A. 会社
+B. 学校
+C. 病院
+D. 銀行
+
+## Câu 20
+
+**がっこう** viết bằng Kanji nào?
+
+A. 店員
+B. 社会
+C. 学校
+D. 病気
+
+## Câu 21
+
+**みせ** là Kanji nào?
+
+A. 店
+B. 銀
+C. 病
+D. 院
+
+## Câu 22
+
+**ぎんこう** viết bằng Kanji nào?
+
+A. 病院
+B. 銀行
+C. 学校
+D. 会社
+
+## Câu 23
+
+**びょうき** viết bằng Kanji nào?
+
+A. 病気
+B. 病院
+C. 入院
+D. 社会
+
+## Câu 24
+
+**びょういん** viết bằng Kanji nào?
+
+A. 銀行
+B. 病院
+C. 学校
+D. 会社
+
+---
+
+# 7. Bài tập tổng hợp
+
+## Câu 25
+
+**駅へ行きます。** nghĩa là gì?
+
+A. Tôi đi đến nhà ga.
+B. Tôi đi đến trường.
+C. Tôi đi đến bệnh viện.
+D. Tôi đi đến cửa hàng.
+
+## Câu 26
+
+**会社で働きます。** nghĩa là gì?
+
+A. Tôi học ở công ty.
+B. Tôi làm việc ở công ty.
+C. Tôi ăn ở công ty.
+D. Tôi chờ ở công ty.
+
+## Câu 27
+
+**学校で勉強します。** nghĩa là gì?
+
+A. Tôi học ở trường.
+B. Tôi làm ở trường.
+C. Tôi mua đồ ở trường.
+D. Tôi nghe nhạc ở trường.
+
+## Câu 28
+
+**店で買います。** nghĩa là gì?
+
+A. Tôi mua ở cửa hàng.
+B. Tôi bán ở cửa hàng.
+C. Tôi học ở cửa hàng.
+D. Tôi chờ ở cửa hàng.
+
+## Câu 29
+
+**銀行へ行きます。** nghĩa là gì?
+
+A. Tôi đi đến bệnh viện.
+B. Tôi đi đến ngân hàng.
+C. Tôi đi đến công ty.
+D. Tôi đi đến nhà ga.
+
+## Câu 30
+
+**病院へ行きます。** nghĩa là gì?
+
+A. Tôi đi đến bệnh viện.
+B. Tôi đi đến trường học.
+C. Tôi đi đến ngân hàng.
+D. Tôi đi đến cửa hàng.
+
+## Câu 31
+
+**病気です。** nghĩa là gì?
+
+A. Tôi khỏe.
+B. Tôi bị bệnh.
+C. Tôi đi học.
+D. Tôi đi làm.
+
+## Câu 32
+
+Chữ nào có nghĩa là **nhà ga**?
+
+A. 馬
+B. 駅
+C. 店
+D. 院
+
+---
+
+# 8. Đáp án
+
+```text
+1A  2B  3C  4A  5B  6B  7A  8A
+9A  10C 11B 12A 13B 14A 15A 16B
+17A 18B 19A 20C 21A 22B 23A 24B
+25A 26B 27A 28A 29B 30A 31B 32B
+```
+## TL;DR — Đáp án nhanh
+
+```text
+1A  2B  3C  4A  5B  6B  7A  8A
+9A  10C 11B 12A 13B 14A 15A 16B
+17A 18B 19A 20C 21A 22B 23A 24B
+25A 26B 27A 28A 29B 30A 31B 32B
+```
+
+Nội dung dựa trên file Kanji N5 Bài 14 bạn gửi. 
+
+---
+
+## Danh sách đáp án + giải thích + ví dụ JLPT N5
+
+| Câu | Đáp án | Giải thích ngắn gọn                                                                                          |
+| --- | ------ | ------------------------------------------------------------------------------------------------------------ |
+| 1   | A      | **馬** = うま / *uma* = ngựa. Ví dụ: **馬** = うま / *uma* = con ngựa.                                             |
+| 2   | B      | **駅** = えき / *eki* = nhà ga. Ví dụ: **駅へ行きます** = えきへいきます / *eki e ikimasu* = đi đến nhà ga.                  |
+| 3   | C      | **社** = しゃ / *sha* = công ty / xã. Ví dụ: **会社** = かいしゃ / *kaisha* = công ty.                                |
+| 4   | A      | **校** = こう / *kou* = trường. Ví dụ: **学校** = がっこう / *gakkou* = trường học.                                   |
+| 5   | B      | **店** = みせ / *mise* = cửa tiệm / cửa hàng. Ví dụ: **店で買います** = みせでかいます / *mise de kaimasu* = mua ở cửa hàng. |
+| 6   | B      | **銀** = ぎん / *gin* = bạc. Ví dụ: **銀行** = ぎんこう / *ginkou* = ngân hàng.                                       |
+| 7   | A      | **病** = びょう / *byou* = bệnh. Ví dụ: **病気** = びょうき / *byouki* = bệnh / bị bệnh.                               |
+| 8   | A      | **院** = いん / *in* = viện. Ví dụ: **病院** = びょういん / *byouin* = bệnh viện.                                      |
+| 9   | A      | **馬** đọc là うま / *uma* = ngựa.                                                                              |
+| 10  | C      | **駅** đọc là えき / *eki* = nhà ga.                                                                            |
+| 11  | B      | **会社** = かいしゃ / *kaisha* = công ty.                                                                          |
+| 12  | A      | **学校** = がっこう / *gakkou* = trường học.                                                                       |
+| 13  | B      | **店** đọc là みせ / *mise* = cửa hàng.                                                                         |
+| 14  | A      | **銀行** = ぎんこう / *ginkou* = ngân hàng.                                                                        |
+| 15  | A      | **病気** = びょうき / *byouki* = bệnh.                                                                             |
+| 16  | B      | **病院** = びょういん / *byouin* = bệnh viện.                                                                       |
+| 17  | A      | うま / *uma* = **馬** = ngựa.                                                                                   |
+| 18  | B      | えき / *eki* = **駅** = nhà ga.                                                                                 |
+| 19  | A      | かいしゃ / *kaisha* = **会社** = công ty.                                                                          |
+| 20  | C      | がっこう / *gakkou* = **学校** = trường học.                                                                       |
+| 21  | A      | みせ / *mise* = **店** = cửa hàng.                                                                              |
+| 22  | B      | ぎんこう / *ginkou* = **銀行** = ngân hàng.                                                                        |
+| 23  | A      | びょうき / *byouki* = **病気** = bệnh.                                                                             |
+| 24  | B      | びょういん / *byouin* = **病院** = bệnh viện.                                                                       |
+| 25  | A      | **駅へ行きます。** = えきへいきます / *eki e ikimasu* = Tôi đi đến nhà ga.                                                 |
+| 26  | B      | **会社で働きます。** = かいしゃではたらきます / *kaisha de hatarakimasu* = Tôi làm việc ở công ty.                              |
+| 27  | A      | **学校で勉強します。** = がっこうでべんきょうします / *gakkou de benkyou shimasu* = Tôi học ở trường.                              |
+| 28  | A      | **店で買います。** = みせでかいます / *mise de kaimasu* = Tôi mua ở cửa hàng.                                              |
+| 29  | B      | **銀行へ行きます。** = ぎんこうへいきます / *ginkou e ikimasu* = Tôi đi đến ngân hàng.                                        |
+| 30  | A      | **病院へ行きます。** = びょういんへいきます / *byouin e ikimasu* = Tôi đi đến bệnh viện.                                       |
+| 31  | B      | **病気です。** = びょうきです / *byouki desu* = Tôi bị bệnh.                                                            |
+| 32  | B      | Chữ nghĩa là nhà ga là **駅** = えき / *eki*.                                                                   |
+
+---
+
+## Ghi nhớ nhanh 8 chữ Hán
+
+| Kanji | Hiragana | Romaji | Nghĩa        | Ví dụ N5                             |
+| ----- | -------- | ------ | ------------ | ------------------------------------ |
+| 馬     | うま       | uma    | ngựa         | 馬 = うま / *uma* = ngựa                |
+| 駅     | えき       | eki    | nhà ga       | 駅へ行きます = えきへいきます / *eki e ikimasu*   |
+| 社     | しゃ       | sha    | công ty / xã | 会社 = かいしゃ / *kaisha* = công ty       |
+| 校     | こう       | kou    | trường       | 学校 = がっこう / *gakkou* = trường học    |
+| 店     | みせ       | mise   | cửa hàng     | 店で買います = みせでかいます / *mise de kaimasu* |
+| 銀     | ぎん       | gin    | bạc          | 銀行 = ぎんこう / *ginkou* = ngân hàng     |
+| 病     | びょう      | byou   | bệnh         | 病気 = びょうき / *byouki* = bệnh          |
+| 院     | いん       | in     | viện         | 病院 = びょういん / *byouin* = bệnh viện    |

@@ -1,0 +1,432 @@
+## TL;DR
+
+Bài này là **Kanji N5 – Bài 18**, dạy **8 chữ Hán/Kanji**:
+**晩、夜、心、手、足、体、首、道**.
+Nội dung chính gồm: **buổi tối, ban đêm, tim/tâm, tay, chân, cơ thể, cổ/đầu, con đường/đạo**. 
+
+---
+
+# 1. Tổng hợp chữ Hán trong bài
+
+| Kanji | Âm Hán Việt | Hiragana | Romaji | Nghĩa           |
+| ----- | ----------- | -------- | ------ | --------------- |
+| 晩     | Vãn         | ばん       | ban    | buổi tối        |
+| 夜     | Dạ          | よる       | yoru   | đêm / ban đêm   |
+| 心     | Tâm         | こころ      | kokoro | tim / tâm trí   |
+| 手     | Thủ         | て        | te     | tay             |
+| 足     | Túc         | あし       | ashi   | chân            |
+| 体     | Thể         | からだ      | karada | cơ thể          |
+| 首     | Thủ         | くび       | kubi   | cổ / đầu        |
+| 道     | Đạo         | みち       | michi  | con đường / đạo |
+
+---
+
+# 2. Ghi nhớ nhanh
+
+| Kanji | Cách nhớ ngắn                  |
+| ----- | ------------------------------ |
+| 晩     | Mặt trời xuống → buổi tối      |
+| 夜     | Đêm khuya / ban đêm            |
+| 心     | Hình trái tim → tâm, cảm xúc   |
+| 手     | Hình bàn tay                   |
+| 足     | Miệng + chân → chân            |
+| 体     | 人 + 本 → thân thể / cơ thể      |
+| 首     | Phần đầu/cổ                    |
+| 道     | 首 + đường đi → con đường / đạo |
+
+---
+
+# 3. Từ vựng ví dụ
+
+| Từ   | Hiragana | Romaji   | Nghĩa              |
+| ---- | -------- | -------- | ------------------ |
+| 晩    | ばん       | ban      | buổi tối           |
+| 晩ごはん | ばんごはん    | bangohan | cơm tối            |
+| 夜    | よる       | yoru     | ban đêm            |
+| 夜中   | よなか      | yonaka   | nửa đêm            |
+| 心    | こころ      | kokoro   | trái tim / tâm hồn |
+| 手    | て        | te       | tay                |
+| 足    | あし       | ashi     | chân               |
+| 体    | からだ      | karada   | cơ thể             |
+| 首    | くび       | kubi     | cổ                 |
+| 道    | みち       | michi    | con đường          |
+| 茶道   | さどう      | sadou    | trà đạo            |
+
+---
+
+# 4. Bài tập trắc nghiệm: Kanji → Nghĩa
+
+## Câu 1
+
+**晩** nghĩa là gì?
+
+A. buổi sáng
+B. buổi tối
+C. buổi trưa
+D. mùa đông
+
+## Câu 2
+
+**夜** nghĩa là gì?
+
+A. ban đêm
+B. buổi sáng
+C. mùa xuân
+D. phương hướng
+
+## Câu 3
+
+**心** nghĩa là gì?
+
+A. tay
+B. chân
+C. tim / tâm trí
+D. cơ thể
+
+## Câu 4
+
+**手** nghĩa là gì?
+
+A. mắt
+B. tai
+C. tay
+D. chân
+
+## Câu 5
+
+**足** nghĩa là gì?
+
+A. tay
+B. chân
+C. cổ
+D. đường
+
+## Câu 6
+
+**体** nghĩa là gì?
+
+A. cơ thể
+B. trái tim
+C. con đường
+D. buổi tối
+
+## Câu 7
+
+**首** nghĩa là gì?
+
+A. cổ / đầu
+B. tay
+C. chân
+D. tim
+
+## Câu 8
+
+**道** nghĩa là gì?
+
+A. nhà
+B. trường
+C. con đường / đạo
+D. thị trấn
+
+---
+
+# 5. Bài tập trắc nghiệm: Kanji → Cách đọc
+
+## Câu 9
+
+**晩** đọc là gì?
+
+A. ばん
+B. よる
+C. て
+D. あし
+
+## Câu 10
+
+**夜** đọc là gì?
+
+A. こころ
+B. よる
+C. からだ
+D. みち
+
+## Câu 11
+
+**心** đọc là gì?
+
+A. て
+B. あし
+C. こころ
+D. くび
+
+## Câu 12
+
+**手** đọc là gì?
+
+A. て
+B. あし
+C. ばん
+D. よる
+
+## Câu 13
+
+**足** đọc là gì?
+
+A. みち
+B. あし
+C. からだ
+D. こころ
+
+## Câu 14
+
+**体** đọc là gì?
+
+A. くび
+B. て
+C. からだ
+D. ばん
+
+## Câu 15
+
+**首** đọc là gì?
+
+A. くび
+B. みち
+C. よる
+D. あし
+
+## Câu 16
+
+**道** đọc là gì?
+
+A. みち
+B. て
+C. こころ
+D. からだ
+
+---
+
+# 6. Bài tập trắc nghiệm: Hiragana → Kanji
+
+## Câu 17
+
+**ばん** là Kanji nào?
+
+A. 晩
+B. 夜
+C. 心
+D. 手
+
+## Câu 18
+
+**よる** là Kanji nào?
+
+A. 晩
+B. 夜
+C. 足
+D. 道
+
+## Câu 19
+
+**こころ** là Kanji nào?
+
+A. 手
+B. 足
+C. 心
+D. 首
+
+## Câu 20
+
+**て** là Kanji nào?
+
+A. 手
+B. 足
+C. 体
+D. 道
+
+## Câu 21
+
+**あし** là Kanji nào?
+
+A. 手
+B. 足
+C. 首
+D. 夜
+
+## Câu 22
+
+**からだ** là Kanji nào?
+
+A. 心
+B. 体
+C. 晩
+D. 道
+
+## Câu 23
+
+**くび** là Kanji nào?
+
+A. 首
+B. 足
+C. 手
+D. 夜
+
+## Câu 24
+
+**みち** là Kanji nào?
+
+A. 道
+B. 首
+C. 体
+D. 心
+
+---
+
+# 7. Bài tập tổng hợp
+
+## Câu 25
+
+**晩ごはんを食べます。** nghĩa là gì?
+
+A. Tôi ăn sáng.
+B. Tôi ăn trưa.
+C. Tôi ăn cơm tối.
+D. Tôi uống nước.
+
+## Câu 26
+
+**夜に勉強します。** nghĩa là gì?
+
+A. Tôi học vào ban đêm.
+B. Tôi học vào buổi sáng.
+C. Tôi nghỉ vào ban đêm.
+D. Tôi đi vào buổi sáng.
+
+## Câu 27
+
+**手を洗います。** nghĩa là gì?
+
+A. Rửa tay.
+B. Rửa chân.
+C. Rửa mặt.
+D. Rửa cổ.
+
+## Câu 28
+
+**足が痛いです。** nghĩa là gì?
+
+A. Tay đau.
+B. Chân đau.
+C. Cổ đau.
+D. Tim đau.
+
+## Câu 29
+
+**体が大きいです。** nghĩa là gì?
+
+A. Cơ thể to lớn.
+B. Con đường dài.
+C. Buổi tối lạnh.
+D. Cổ nhỏ.
+
+## Câu 30
+
+**道を歩きます。** nghĩa là gì?
+
+A. Tôi đi bộ trên đường.
+B. Tôi ăn tối.
+C. Tôi học ban đêm.
+D. Tôi rửa tay.
+
+## Câu 31
+
+**心** liên quan nhiều nhất đến gì?
+
+A. cảm xúc / tâm trí
+B. phương hướng
+C. trường học
+D. cửa hàng
+
+## Câu 32
+
+Chữ nào có nghĩa là **cơ thể**?
+
+A. 心
+B. 手
+C. 体
+D. 道
+
+---
+
+# 8. Đáp án
+
+```text
+1B  2A  3C  4C  5B  6A  7A  8C
+9A  10B 11C 12A 13B 14C 15A 16A
+17A 18B 19C 20A 21B 22B 23A 24A
+25C 26A 27A 28B 29A 30A 31A 32C
+```
+## TL;DR — Đáp án nhanh
+
+```text
+1B  2A  3C  4C  5B  6A  7A  8C
+9A  10B 11C 12A 13B 14C 15A 16A
+17A 18B 19C 20A 21B 22B 23A 24A
+25C 26A 27A 28B 29A 30A 31A 32C
+```
+
+Nội dung dựa trên file Kanji N5 Bài 18 bạn gửi.
+
+---
+
+## Danh sách đáp án + giải thích + ví dụ JLPT N5
+
+| Câu | Đáp án | Giải thích ngắn gọn                                                                                            |
+| --- | ------ | -------------------------------------------------------------------------------------------------------------- |
+| 1   | B      | **晩** = ばん / *ban* = buổi tối. Ví dụ: **晩ごはん** = ばんごはん / *bangohan* = cơm tối.                                 |
+| 2   | A      | **夜** = よる / *yoru* = ban đêm. Ví dụ: **夜に勉強します** = よるにべんきょうします / *yoru ni benkyou shimasu* = học vào ban đêm. |
+| 3   | C      | **心** = こころ / *kokoro* = tim / tâm trí. Ví dụ: **心** = こころ / *kokoro* = tâm hồn / cảm xúc.                     |
+| 4   | C      | **手** = て / *te* = tay. Ví dụ: **手を洗います** = てをあらいます / *te o araimasu* = rửa tay.                               |
+| 5   | B      | **足** = あし / *ashi* = chân. Ví dụ: **足が痛いです** = あしがいたいです / *ashi ga itai desu* = chân đau.                     |
+| 6   | A      | **体** = からだ / *karada* = cơ thể. Ví dụ: **体が大きいです** = からだがおおきいです / *karada ga ookii desu* = cơ thể to lớn.     |
+| 7   | A      | **首** = くび / *kubi* = cổ / đầu. Ví dụ: **首** = くび / *kubi* = cổ.                                               |
+| 8   | C      | **道** = みち / *michi* = con đường / đạo. Ví dụ: **道を歩きます** = みちをあるきます / *michi o arukimasu* = đi bộ trên đường. |
+| 9   | A      | **晩** đọc là ばん / *ban* = buổi tối.                                                                            |
+| 10  | B      | **夜** đọc là よる / *yoru* = ban đêm.                                                                            |
+| 11  | C      | **心** đọc là こころ / *kokoro* = tim / tâm trí.                                                                   |
+| 12  | A      | **手** đọc là て / *te* = tay.                                                                                   |
+| 13  | B      | **足** đọc là あし / *ashi* = chân.                                                                               |
+| 14  | C      | **体** đọc là からだ / *karada* = cơ thể.                                                                          |
+| 15  | A      | **首** đọc là くび / *kubi* = cổ.                                                                                 |
+| 16  | A      | **道** đọc là みち / *michi* = con đường.                                                                         |
+| 17  | A      | ばん / *ban* = **晩** = buổi tối.                                                                                 |
+| 18  | B      | よる / *yoru* = **夜** = ban đêm.                                                                                 |
+| 19  | C      | こころ / *kokoro* = **心** = tâm trí / trái tim.                                                                   |
+| 20  | A      | て / *te* = **手** = tay.                                                                                        |
+| 21  | B      | あし / *ashi* = **足** = chân.                                                                                    |
+| 22  | B      | からだ / *karada* = **体** = cơ thể.                                                                               |
+| 23  | A      | くび / *kubi* = **首** = cổ.                                                                                      |
+| 24  | A      | みち / *michi* = **道** = con đường.                                                                              |
+| 25  | C      | **晩ごはんを食べます。** = ばんごはんをたべます / *bangohan o tabemasu* = Tôi ăn cơm tối.                                          |
+| 26  | A      | **夜に勉強します。** = よるにべんきょうします / *yoru ni benkyou shimasu* = Tôi học vào ban đêm.                                  |
+| 27  | A      | **手を洗います。** = てをあらいます / *te o araimasu* = Rửa tay.                                                             |
+| 28  | B      | **足が痛いです。** = あしがいたいです / *ashi ga itai desu* = Chân đau.                                                       |
+| 29  | A      | **体が大きいです。** = からだがおおきいです / *karada ga ookii desu* = Cơ thể to lớn.                                            |
+| 30  | A      | **道を歩きます。** = みちをあるきます / *michi o arukimasu* = Tôi đi bộ trên đường.                                           |
+| 31  | A      | **心** = こころ / *kokoro* liên quan đến cảm xúc / tâm trí.                                                        |
+| 32  | C      | Chữ nghĩa là cơ thể là **体** = からだ / *karada*.                                                                 |
+
+---
+
+## Ghi nhớ nhanh 8 chữ Hán
+
+| Kanji | Hiragana | Romaji | Nghĩa           | Ví dụ N5                                |
+| ----- | -------- | ------ | --------------- | --------------------------------------- |
+| 晩     | ばん       | ban    | buổi tối        | 晩ごはん = ばんごはん / *bangohan* = cơm tối     |
+| 夜     | よる       | yoru   | ban đêm         | 夜 = よる / *yoru* = đêm                   |
+| 心     | こころ      | kokoro | tim / tâm trí   | 心 = こころ / *kokoro* = tâm hồn            |
+| 手     | て        | te     | tay             | 手を洗います = てをあらいます / *te o araimasu*      |
+| 足     | あし       | ashi   | chân            | 足が痛い = あしがいたい / *ashi ga itai*          |
+| 体     | からだ      | karada | cơ thể          | 体 = からだ / *karada*                      |
+| 首     | くび       | kubi   | cổ / đầu        | 首 = くび / *kubi* = cổ                    |
+| 道     | みち       | michi  | con đường / đạo | 道を歩きます = みちをあるきます / *michi o arukimasu* |

@@ -1,0 +1,435 @@
+## TL;DR
+
+Bài này là **Kanji N5 – Bài 8**, dạy **8 chữ Hán/Kanji**:
+**何、父、母、年、去、毎、王、国**.
+Nội dung chính gồm: **cái gì, cha, mẹ, năm, quá khứ/đi, mỗi, vua, đất nước**. 
+
+---
+
+# 1. Tổng hợp chữ Hán trong bài
+
+| Kanji | Âm Hán Việt | Hiragana | Romaji      | Nghĩa            |
+| ----- | ----------- | -------- | ----------- | ---------------- |
+| 何     | Hà          | なに / なん  | nani / nan  | cái gì           |
+| 父     | Phụ         | ちち       | chichi      | cha / bố         |
+| 母     | Mẫu         | はは       | haha        | mẹ               |
+| 年     | Niên        | とし / ねん  | toshi / nen | năm / tuổi       |
+| 去     | Khứ         | きょ / さる  | kyo / saru  | quá khứ / rời đi |
+| 毎     | Mỗi         | まい       | mai         | mỗi              |
+| 王     | Vương       | おう       | ou          | vua              |
+| 国     | Quốc        | くに / こく  | kuni / koku | đất nước         |
+
+---
+
+# 2. Ghi nhớ nhanh
+
+| Kanji | Cách nhớ ngắn                        |
+| ----- | ------------------------------------ |
+| 何     | Người đang hỏi: “cái gì?”            |
+| 父     | Hình người cha                       |
+| 母     | Hình người mẹ ôm con                 |
+| 年     | Một năm thu hoạch một lần            |
+| 去     | Chuyện đã qua → quá khứ              |
+| 毎     | Mẹ che chở mỗi ngày                  |
+| 王     | Vua đội vương miện                   |
+| 国     | Vua/ngọc ở trong lãnh thổ → đất nước |
+
+---
+
+# 3. Từ vựng ví dụ
+
+| Từ | Hiragana    | Romaji            | Nghĩa      |
+| -- | ----------- | ----------------- | ---------- |
+| 何  | なに          | nani              | cái gì     |
+| 何人 | なんにん        | nannin            | mấy người  |
+| 何時 | なんじ         | nanji             | mấy giờ    |
+| 父  | ちち          | chichi            | bố tôi     |
+| 母  | はは          | haha              | mẹ tôi     |
+| 年  | とし          | toshi             | năm / tuổi |
+| 今年 | ことし         | kotoshi           | năm nay    |
+| 去年 | きょねん        | kyonen            | năm ngoái  |
+| 毎日 | まいにち        | mainichi          | mỗi ngày   |
+| 毎年 | まいとし / まいねん | maitoshi / mainen | mỗi năm    |
+| 王  | おう          | ou                | vua        |
+| 国  | くに          | kuni              | đất nước   |
+| 中国 | ちゅうごく       | chuugoku          | Trung Quốc |
+| 外国 | がいこく        | gaikoku           | nước ngoài |
+
+---
+
+# 4. Bài tập trắc nghiệm: Kanji → Nghĩa
+
+## Câu 1
+
+**何** nghĩa là gì?
+
+A. cái gì
+B. ai
+C. ở đâu
+D. khi nào
+
+## Câu 2
+
+**父** nghĩa là gì?
+
+A. mẹ
+B. cha / bố
+C. con
+D. anh trai
+
+## Câu 3
+
+**母** nghĩa là gì?
+
+A. cha
+B. mẹ
+C. con gái
+D. giáo viên
+
+## Câu 4
+
+**年** nghĩa là gì?
+
+A. ngày
+B. tháng
+C. năm / tuổi
+D. giờ
+
+## Câu 5
+
+**去** nghĩa là gì?
+
+A. đến
+B. quá khứ / rời đi
+C. học
+D. sống
+
+## Câu 6
+
+**毎** nghĩa là gì?
+
+A. mỗi
+B. nhiều
+C. ít
+D. mới
+
+## Câu 7
+
+**王** nghĩa là gì?
+
+A. vua
+B. nước
+C. người
+D. ruộng
+
+## Câu 8
+
+**国** nghĩa là gì?
+
+A. cổng
+B. đất nước
+C. chùa
+D. trường học
+
+---
+
+# 5. Bài tập trắc nghiệm: Kanji → Cách đọc
+
+## Câu 9
+
+**何** đọc là gì?
+
+A. なに
+B. はは
+C. ちち
+D. まい
+
+## Câu 10
+
+**父** đọc là gì?
+
+A. はは
+B. ちち
+C. とし
+D. くに
+
+## Câu 11
+
+**母** đọc là gì?
+
+A. はは
+B. ちち
+C. なに
+D. おう
+
+## Câu 12
+
+**年** đọc là gì khi đứng một mình?
+
+A. とし
+B. まい
+C. くに
+D. なん
+
+## Câu 13
+
+**去年** đọc là gì?
+
+A. ことし
+B. きょねん
+C. まいにち
+D. ちゅうごく
+
+## Câu 14
+
+**毎** đọc là gì?
+
+A. まい
+B. なん
+C. ねん
+D. こく
+
+## Câu 15
+
+**王** đọc là gì?
+
+A. おう
+B. くに
+C. はは
+D. きょ
+
+## Câu 16
+
+**国** đọc là gì khi nghĩa là “đất nước”?
+
+A. くに
+B. まい
+C. ちち
+D. なに
+
+---
+
+# 6. Bài tập trắc nghiệm: Hiragana → Kanji
+
+## Câu 17
+
+**なに** là Kanji nào?
+
+A. 何
+B. 父
+C. 母
+D. 国
+
+## Câu 18
+
+**ちち** là Kanji nào?
+
+A. 母
+B. 父
+C. 王
+D. 年
+
+## Câu 19
+
+**はは** là Kanji nào?
+
+A. 父
+B. 母
+C. 毎
+D. 何
+
+## Câu 20
+
+**とし** là Kanji nào?
+
+A. 年
+B. 毎
+C. 去
+D. 王
+
+## Câu 21
+
+**まい** là Kanji nào?
+
+A. 国
+B. 毎
+C. 父
+D. 母
+
+## Câu 22
+
+**おう** là Kanji nào?
+
+A. 王
+B. 国
+C. 年
+D. 去
+
+## Câu 23
+
+**くに** là Kanji nào?
+
+A. 王
+B. 何
+C. 国
+D. 毎
+
+## Câu 24
+
+**きょねん** viết bằng Kanji nào?
+
+A. 今年
+B. 去年
+C. 毎年
+D. 中国
+
+---
+
+# 7. Bài tập tổng hợp
+
+## Câu 25
+
+**何時** nghĩa là gì?
+
+A. mấy giờ
+B. mấy người
+C. năm nào
+D. nước nào
+
+## Câu 26
+
+**何人** nghĩa là gì?
+
+A. mấy giờ
+B. mấy người
+C. người Nhật
+D. người lớn
+
+## Câu 27
+
+**今年** nghĩa là gì?
+
+A. năm ngoái
+B. năm sau
+C. năm nay
+D. mỗi năm
+
+## Câu 28
+
+**去年** nghĩa là gì?
+
+A. năm ngoái
+B. năm nay
+C. mỗi ngày
+D. đất nước
+
+## Câu 29
+
+**毎日** nghĩa là gì?
+
+A. mỗi ngày
+B. mỗi năm
+C. hôm nay
+D. hôm qua
+
+## Câu 30
+
+**中国** nghĩa là gì?
+
+A. nước ngoài
+B. Nhật Bản
+C. Trung Quốc
+D. đất nước
+
+## Câu 31
+
+**外国** nghĩa là gì?
+
+A. nước ngoài
+B. trong nước
+C. Trung Quốc
+D. vua
+
+## Câu 32
+
+Chữ nào có nghĩa là **vua**?
+
+A. 国
+B. 王
+C. 年
+D. 毎
+
+---
+
+# 8. Đáp án
+
+```text
+1A  2B  3B  4C  5B  6A  7A  8B
+9A  10B 11A 12A 13B 14A 15A 16A
+17A 18B 19B 20A 21B 22A 23C 24B
+25A 26B 27C 28A 29A 30C 31A 32B
+```
+## TL;DR — Đáp án nhanh
+
+```text
+1A  2B  3B  4C  5B  6A  7A  8B
+9A  10B 11A 12A 13B 14A 15A 16A
+17A 18B 19B 20A 21B 22A 23C 24B
+25A 26B 27C 28A 29A 30C 31A 32B
+```
+
+Nội dung dựa trên file Kanji N5 Bài 8 bạn gửi. 
+
+---
+
+## Danh sách đáp án + giải thích + ví dụ JLPT N5
+
+| Câu | Đáp án | Giải thích ngắn gọn                                                                              |
+| --- | ------ | ------------------------------------------------------------------------------------------------ |
+| 1   | A      | **何** = なに / *nani*, なん / *nan* = cái gì. Ví dụ: **何時** = なんじ / *nanji* = mấy giờ.               |
+| 2   | B      | **父** = ちち / *chichi* = cha / bố tôi. Ví dụ: **父** = ちち / *chichi* = bố tôi.                     |
+| 3   | B      | **母** = はは / *haha* = mẹ tôi. Ví dụ: **母** = はは / *haha* = mẹ tôi.                               |
+| 4   | C      | **年** = とし / *toshi*, ねん / *nen* = năm / tuổi. Ví dụ: **今年** = ことし / *kotoshi* = năm nay.        |
+| 5   | B      | **去** = きょ / *kyo*, さる / *saru* = quá khứ / rời đi. Ví dụ: **去年** = きょねん / *kyonen* = năm ngoái. |
+| 6   | A      | **毎** = まい / *mai* = mỗi. Ví dụ: **毎日** = まいにち / *mainichi* = mỗi ngày.                          |
+| 7   | A      | **王** = おう / *ou* = vua. Ví dụ: **王** = おう / *ou* = vua.                                         |
+| 8   | B      | **国** = くに / *kuni*, こく / *koku* = đất nước. Ví dụ: **外国** = がいこく / *gaikoku* = nước ngoài.      |
+| 9   | A      | **何** đọc là なに / *nani*. Ví dụ: **何人** = なんにん / *nannin* = mấy người.                           |
+| 10  | B      | **父** đọc là ちち / *chichi* = bố tôi.                                                             |
+| 11  | A      | **母** đọc là はは / *haha* = mẹ tôi.                                                               |
+| 12  | A      | **年** đứng một mình đọc là とし / *toshi* = năm / tuổi.                                            |
+| 13  | B      | **去年** = きょねん / *kyonen* = năm ngoái.                                                            |
+| 14  | A      | **毎** đọc là まい / *mai*. Ví dụ: **毎年** = まいとし / *maitoshi* = mỗi năm.                            |
+| 15  | A      | **王** đọc là おう / *ou* = vua.                                                                    |
+| 16  | A      | **国** khi nghĩa “đất nước” đọc là くに / *kuni*.                                                   |
+| 17  | A      | なに / *nani* = **何** = cái gì. Ví dụ: **何時** = なんじ / *nanji* = mấy giờ.                           |
+| 18  | B      | ちち / *chichi* = **父** = bố tôi.                                                                  |
+| 19  | B      | はは / *haha* = **母** = mẹ tôi.                                                                    |
+| 20  | A      | とし / *toshi* = **年** = năm / tuổi.                                                               |
+| 21  | B      | まい / *mai* = **毎** = mỗi. Ví dụ: **毎日** = まいにち / *mainichi* = mỗi ngày.                          |
+| 22  | A      | おう / *ou* = **王** = vua.                                                                         |
+| 23  | C      | くに / *kuni* = **国** = đất nước.                                                                  |
+| 24  | B      | **去年** = きょねん / *kyonen* = năm ngoái.                                                            |
+| 25  | A      | **何時** = なんじ / *nanji* = mấy giờ.                                                                |
+| 26  | B      | **何人** = なんにん / *nannin* = mấy người.                                                            |
+| 27  | C      | **今年** = ことし / *kotoshi* = năm nay.                                                              |
+| 28  | A      | **去年** = きょねん / *kyonen* = năm ngoái.                                                            |
+| 29  | A      | **毎日** = まいにち / *mainichi* = mỗi ngày.                                                           |
+| 30  | C      | **中国** = ちゅうごく / *chuugoku* = Trung Quốc.                                                        |
+| 31  | A      | **外国** = がいこく / *gaikoku* = nước ngoài.                                                          |
+| 32  | B      | Chữ nghĩa là vua là **王** = おう / *ou* = vua.                                                     |
+
+---
+
+## Ghi nhớ nhanh 8 chữ Hán
+
+| Kanji | Hiragana | Romaji      | Nghĩa            | Ví dụ N5                           |
+| ----- | -------- | ----------- | ---------------- | ---------------------------------- |
+| 何     | なに / なん  | nani / nan  | cái gì           | 何時 = なんじ / *nanji* = mấy giờ       |
+| 父     | ちち       | chichi      | cha / bố tôi     | 父 = ちち / *chichi* = bố tôi         |
+| 母     | はは       | haha        | mẹ tôi           | 母 = はは / *haha* = mẹ tôi           |
+| 年     | とし / ねん  | toshi / nen | năm / tuổi       | 今年 = ことし / *kotoshi* = năm nay     |
+| 去     | きょ / さる  | kyo / saru  | quá khứ / rời đi | 去年 = きょねん / *kyonen* = năm ngoái   |
+| 毎     | まい       | mai         | mỗi              | 毎日 = まいにち / *mainichi* = mỗi ngày  |
+| 王     | おう       | ou          | vua              | 王 = おう / *ou* = vua                |
+| 国     | くに / こく  | kuni / koku | đất nước         | 外国 = がいこく / *gaikoku* = nước ngoài |

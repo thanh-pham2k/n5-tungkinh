@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1779213089050,
+    "mid": 1400010018,
+    "fields": [
+      "1",
+      "わたしは がくせいです。 nghĩa là gì?",
+      "Tôi là học sinh",
+      "Tôi không phải học sinh",
+      "Bạn là học sinh à?",
+      "Tôi cũng là học sinh",
+      "A",
+      "Đúng rồi ✅\nわたしは がくせいです。\n= Tôi là học sinh/sinh viên.\nNhớ cấu trúc:\nわたし = tôi\nは = thì/là, đọc là \"wa\"\nがくせい = học sinh/sinh viên\nです = là",
+      "correct",
+      "wrong",
+      "wrong",
+      "wrong",
+      "Dung. Dap an la A.",
+      "Chua dung. Dap an dung la A.",
+      "Chua dung. Dap an dung la A.",
+      "Chua dung. Dap an dung la A."
+    ]
+  },
+  {
+    "id": 1779213089052,
+    "mid": 1400010018,
+    "fields": [
+      "2",
+      "わたしは せんせいじゃありません。 nghĩa là gì?",
+      "Tôi là giáo viên",
+      "Tôi không phải là giáo viên",
+      "Bạn là giáo viên à?",
+      "Tôi cũng là giáo viên",
+      "B",
+      "Đúng rồi ✅\nわたしは せんせいじゃありません。\n= Tôi không phải là giáo viên.\nGhi nhớ:\nじゃありません = không phải là\nTrong bài này, đây là mẫu câu phủ định danh từ.",
+      "wrong",
+      "correct",
+      "wrong",
+      "wrong",
+      "Chua dung. Dap an dung la B.",
+      "Dung. Dap an la B.",
+      "Chua dung. Dap an dung la B.",
+      "Chua dung. Dap an dung la B."
+    ]
+  },
+  {
+    "id": 1779213089054,
+    "mid": 1400010018,
+    "fields": [
+      "3",
+      "がくせいですか。 nghĩa là gì?",
+      "Tôi là học sinh",
+      "Tôi không phải học sinh",
+      "Bạn là học sinh à?",
+      "Tôi cũng là học sinh",
+      "C",
+      "Đúng rồi ✅\nがくせいですか。\n= Bạn là học sinh à?\nMẹo nhớ:\nです = là\nですか = là ... phải không?\nか = dấu hỏi",
+      "wrong",
+      "wrong",
+      "correct",
+      "wrong",
+      "Chua dung. Dap an dung la C.",
+      "Chua dung. Dap an dung la C.",
+      "Dung. Dap an la C.",
+      "Chua dung. Dap an dung la C."
+    ]
+  }
+]

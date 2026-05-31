@@ -1,0 +1,871 @@
+Dạ được. Dưới đây là bản **tổng hợp Minna no Nihongo Bài 21** + **bài tập 100% trắc nghiệm**, không kèm đáp án để bạn tự ôn.
+
+Nội dung trong file là **Ngữ pháp Minna 1 - Bài 21**, trọng tâm gồm: **～と思います**, **～と言います**, **でしょう？**, **NでNがあります**, **NでV**, **NでもV**, và **Vないと**. 
+
+---
+
+# Minna no Nihongo Bài 21 — Tổng hợp + Bài tập trắc nghiệm
+
+## 1. Tổng quan bài 21
+
+| Nội dung                     | Mẫu                      | Nghĩa                     |
+| ---------------------------- | ------------------------ | ------------------------- |
+| Bày tỏ suy nghĩ / phỏng đoán | Thể thông thường + と思います | Tôi nghĩ rằng…            |
+| Hỏi ý kiến                   | Nについてどう思いますか             | Bạn nghĩ thế nào về N?    |
+| Đồng ý                       | そう思います                   | Tôi cũng nghĩ vậy         |
+| Không đồng ý                 | そう思いません                  | Tôi không nghĩ vậy        |
+| Trích dẫn lời nói            | Câu + と言います / と言いました     | Nói rằng / đã nói rằng    |
+| Xác nhận / phỏng đoán        | Thể thông thường + でしょう？ | … phải không / nhỉ?       |
+| Sự kiện diễn ra ở đâu        | Địa điểmで Nがあります         | Ở địa điểm có/tổ chức N   |
+| Hành động trong sự kiện      | Nで V                     | Làm V trong/tại N         |
+| Gợi ý ví dụ                  | Nでも V                    | Làm gì đó như N chẳng hạn |
+| Phải làm                     | Vないと                     | Phải làm V                |
+
+---
+
+# 2. ～と思います — Tôi nghĩ rằng…
+
+## Công thức
+
+```text
+Thể thông thường + と思います
+```
+
+## Nghĩa
+
+**Tôi nghĩ rằng… / Tôi cho rằng…**
+
+Dùng để:
+
+| Cách dùng     | Nghĩa           |
+| ------------- | --------------- |
+| Phỏng đoán    | Tôi nghĩ có lẽ… |
+| Bày tỏ ý kiến | Theo tôi thì…   |
+
+Ví dụ:
+
+| Câu          | Nghĩa                       |
+| ------------ | --------------------------- |
+| あした 雨だと思います。 | Tôi nghĩ ngày mai trời mưa. |
+| 彼は結婚したと思います。 | Tôi nghĩ anh ấy đã kết hôn. |
+| 試験は簡単だと思います。 | Tôi nghĩ bài thi dễ.        |
+| 授業は楽しいと思います。 | Tôi nghĩ lớp học vui.       |
+
+---
+
+## Lưu ý quan trọng
+
+Trước **と思います** phải là **thể thông thường**.
+
+| Loại từ   | Ví dụ đúng |
+| --------- | ---------- |
+| Động từ   | 行くと思います    |
+| Tính từ い | 寒いと思います    |
+| Tính từ な | 便利だと思います   |
+| Danh từ   | 雨だと思います    |
+
+Ví dụ sai:
+
+```text
+雨ですと思います ❌
+```
+
+Đúng:
+
+```text
+雨だと思います。
+```
+
+---
+
+# 3. ～と思います với câu phủ định
+
+## 3.1. Tôi nghĩ là không…
+
+```text
+Thể thông thường phủ định + と思います
+```
+
+Ví dụ:
+
+| Câu              | Nghĩa                                |
+| ---------------- | ------------------------------------ |
+| 彼は学生じゃないと思います。   | Tôi nghĩ anh ấy không phải học sinh. |
+| あした 雨が降らないと思います。 | Tôi nghĩ ngày mai trời không mưa.    |
+| おいしくないと思います。     | Tôi nghĩ không ngon.                 |
+| 試験は簡単じゃないと思います。  | Tôi nghĩ bài thi không dễ.           |
+
+---
+
+## 3.2. Tôi không nghĩ là…
+
+```text
+Thể thông thường + と思いません
+```
+
+Ví dụ:
+
+| Câu             | Nghĩa                             |
+| --------------- | --------------------------------- |
+| 日曜日、雨が降ると思いません。 | Tôi không nghĩ Chủ nhật trời mưa. |
+| 試験は簡単だと思いません。   | Tôi không nghĩ bài thi dễ.        |
+| 彼は来ると思いません。     | Tôi không nghĩ anh ấy sẽ đến.     |
+
+---
+
+# 4. ～と思います — bày tỏ ý kiến
+
+Dùng để nêu quan điểm cá nhân.
+
+Ví dụ:
+
+| Câu                   | Nghĩa                           |
+| --------------------- | ------------------------------- |
+| 日本の車はとてもいいと思います。      | Tôi nghĩ xe Nhật rất tốt.       |
+| まじめに勉強しなければならないと思います。 | Tôi nghĩ phải học chăm chỉ.     |
+| 彼はとても頑張ったと思います。       | Tôi nghĩ anh ấy đã rất cố gắng. |
+| 日本語は難しくないと思います。       | Tôi nghĩ tiếng Nhật không khó.  |
+
+---
+
+# 5. Nについてどう思いますか
+
+## Công thức
+
+```text
+Nについて どう思いますか。
+```
+
+## Nghĩa
+
+**Bạn nghĩ thế nào về N?**
+
+Ví dụ:
+
+| Câu hỏi                | Nghĩa                                    |
+| ---------------------- | ---------------------------------------- |
+| 日本について どう思いますか。        | Bạn nghĩ thế nào về Nhật Bản?            |
+| ベトナムの交通について どう思いますか。   | Bạn nghĩ thế nào về giao thông Việt Nam? |
+| 日本人について どう思いますか。       | Bạn nghĩ thế nào về người Nhật?          |
+| この新しいパソコンについて どう思いますか。 | Bạn nghĩ thế nào về máy tính mới này?    |
+
+Ví dụ trả lời:
+
+| Câu                | Nghĩa                          |
+| ------------------ | ------------------------------ |
+| きれいですが、物価が高いと思います。 | Tôi nghĩ đẹp nhưng giá cả đắt. |
+| かなり危ないと思います。       | Tôi nghĩ khá nguy hiểm.        |
+| 日本人は親切だと思います。      | Tôi nghĩ người Nhật tốt bụng.  |
+| とても便利だと思います。       | Tôi nghĩ rất tiện lợi.         |
+
+---
+
+# 6. そう思います / そう思いません
+
+## Công thức
+
+```text
+そう思います。
+そう思いません。
+```
+
+## Nghĩa
+
+| Câu      | Nghĩa               |
+| -------- | ------------------- |
+| そう思います。  | Tôi cũng nghĩ vậy.  |
+| そう思いません。 | Tôi không nghĩ vậy. |
+
+Dạng thân mật:
+
+| Lịch sự | Thân mật |
+| ------- | -------- |
+| そう思います  | そう思う     |
+| そう思いません | そう思わない   |
+
+Ví dụ:
+
+| Câu A                  | Câu B    |
+| ---------------------- | -------- |
+| 駅の近くの店は便利ですね。          | そう思います。  |
+| ベトナム語は世界でいちばん難しいと思います。 | そう思いません。 |
+
+---
+
+# 7. ～と言います / ～と言いました
+
+## Công thức 1: Trích dẫn trực tiếp
+
+```text
+「Câu nguyên văn」と言いました。
+```
+
+## Nghĩa
+
+**Đã nói rằng “…”**
+
+Ví dụ:
+
+| Câu                            | Nghĩa                                  |
+| ------------------------------ | -------------------------------------- |
+| 彼女は「来月、結婚します」と言いました。           | Cô ấy nói: “Tháng sau tôi sẽ kết hôn.” |
+| アンさんは「12月のJLPTは難しかったです」と言いました。 | An nói: “JLPT tháng 12 khó.”           |
+| 先生は「あした休みです」と言いました。            | Thầy giáo nói: “Ngày mai nghỉ.”        |
+
+---
+
+## Công thức 2: Trích dẫn gián tiếp
+
+```text
+Thể thông thường + と言いました。
+```
+
+Ví dụ:
+
+| Câu                  | Nghĩa                                    |
+| -------------------- | ---------------------------------------- |
+| ミラーさんは来週日本へ行くと言いました。 | Miller nói tuần sau sẽ đi Nhật.          |
+| 彼女は私に忘れないでと言いました。    | Cô ấy nói với tôi: “Đừng quên em.”       |
+| 社長は今年休みがないと言いました。    | Giám đốc nói năm nay không có ngày nghỉ. |
+
+---
+
+# 8. Câu khẩu ngữ + と言います
+
+Dùng để nói **trong tình huống đó thường nói câu gì**.
+
+Ví dụ:
+
+| Câu                        | Nghĩa                                                      |
+| -------------------------- | ---------------------------------------------------------- |
+| 食べる前に「いただきます」と言います。        | Trước khi ăn thì nói “itadakimasu”.                        |
+| うちを出る前に「行ってきます」と言います。      | Trước khi ra khỏi nhà thì nói “ittekimasu”.                |
+| 寝る前に「おやすみなさい」と言います。        | Trước khi ngủ thì nói “oyasuminasai”.                      |
+| 仕事が終わったあとで「お疲れさまでした」と言います。 | Sau khi kết thúc công việc thì nói “otsukaresama deshita”. |
+
+---
+
+# 9. なんと言いますか / なんと言いましたか
+
+## Công thức
+
+```text
+Nは なんと言いますか。
+Nは なんと言いましたか。
+```
+
+## Nghĩa
+
+| Mẫu       | Nghĩa      |
+| --------- | ---------- |
+| なんと言いますか  | Nói là gì? |
+| なんと言いましたか | Đã nói gì? |
+
+Ví dụ:
+
+| Câu hỏi              | Nghĩa                     |
+| -------------------- | ------------------------- |
+| 食べる前に なんと言いますか。      | Trước khi ăn nói gì?      |
+| 仕事が終わったあとで なんと言いますか。 | Sau khi xong việc nói gì? |
+| 先生は なんと言いましたか。       | Thầy giáo đã nói gì?      |
+| 彼女は なんと言いましたか。       | Cô ấy đã nói gì?          |
+
+---
+
+# 10. でしょう？ — Phải không / nhỉ?
+
+## Công thức
+
+```text
+V / いAdj + でしょう？
+なAdj / N bỏ だ + でしょう？
+```
+
+## Nghĩa
+
+**… phải không? / … nhỉ?**
+
+Dùng để:
+
+| Cách dùng         | Nghĩa                         |
+| ----------------- | ----------------------------- |
+| Phỏng đoán        | Chắc là… nhỉ?                 |
+| Xác nhận          | Đúng không? / Phải không?     |
+| Kêu gọi đồng tình | Bạn cũng nghĩ vậy đúng không? |
+
+Ví dụ:
+
+| Câu                 | Nghĩa                                 |
+| ------------------- | ------------------------------------- |
+| ベトナムで豚肉は高いでしょう？     | Ở Việt Nam thịt lợn đắt phải không?   |
+| あした 晴れるでしょう？        | Ngày mai trời nắng nhỉ?               |
+| 日本語で漢字がいちばん難しいでしょう？ | Trong tiếng Nhật, Kanji khó nhất nhỉ? |
+| 今日の試験は簡単だったでしょう？    | Bài thi hôm nay dễ nhỉ?               |
+| あの女の人はきれいでしょう？      | Người phụ nữ kia đẹp nhỉ?             |
+| 来年、留学するでしょう？        | Năm sau bạn đi du học phải không?     |
+
+---
+
+# 11. Địa điểmで Nがあります
+
+## Công thức
+
+```text
+Địa điểmで Nがあります。
+```
+
+## Nghĩa
+
+**Ở địa điểm có/tổ chức/xảy ra N.**
+
+Dùng với:
+
+| Loại N  | Ví dụ         |
+| ------- | ------------- |
+| Sự kiện | パーティー, 会議, 祭り |
+| Biến cố | 地震, 火事, 事故    |
+
+Ví dụ:
+
+| Câu                   | Nghĩa                            |
+| --------------------- | -------------------------------- |
+| 2020年に東京でオリンピックがあります。 | Năm 2020 ở Tokyo có Olympic.     |
+| きのう大阪で地震がありました。       | Hôm qua ở Osaka có động đất.     |
+| きれいなレストランで忘年会があります。   | Ở nhà hàng đẹp có tiệc tất niên. |
+
+---
+
+# 12. Nで V — Làm V trong/tại N
+
+## Công thức
+
+```text
+Nで Vます。
+```
+
+## Nghĩa
+
+**Làm V trong/tại sự kiện/tình huống N.**
+
+N thường là: **会議, 祭り, パーティー, 結婚式**.
+
+Ví dụ:
+
+| Câu                   | Nghĩa                                   |
+| --------------------- | --------------------------------------- |
+| 友達の結婚式で彼は歌いました。       | Anh ấy đã hát trong lễ cưới của bạn.    |
+| 祭りで妻に初めて会いました。        | Tôi đã gặp vợ lần đầu ở lễ hội.         |
+| 会議で意見を言いました。          | Tôi đã phát biểu ý kiến trong cuộc họp. |
+| パーティーで彼はお酒をたくさん飲みました。 | Anh ấy đã uống nhiều rượu ở bữa tiệc.   |
+
+---
+
+# 13. Nでも V — Như N chẳng hạn
+
+## Công thức
+
+```text
+Nでも Vませんか / Vましょう / Vます
+```
+
+## Nghĩa
+
+**Làm gì đó như N chẳng hạn.**
+
+Dùng khi đề xuất nhẹ nhàng. N chỉ là ví dụ, không bắt buộc.
+
+Ví dụ:
+
+| Câu                 | Nghĩa                                |
+| ------------------- | ------------------------------------ |
+| 公園でも散歩しませんか。        | Đi dạo ở công viên hay đâu đó không? |
+| パンでも食べませんか。         | Ăn gì đó như bánh mì không?          |
+| 1年に1回、ダラットでも行きましょう。 | Một năm đi đâu đó như Đà Lạt nhé.    |
+| コーヒーでも飲みませんか。       | Uống gì đó như cà phê không?         |
+
+---
+
+# 14. Vないと — Phải làm V
+
+## Công thức
+
+```text
+Vない bỏ い + と
+```
+
+## Nghĩa
+
+**Phải làm V.**
+
+Là cách nói rút gọn của:
+
+```text
+Vないといけません
+```
+
+Ví dụ:
+
+| Câu                   | Nghĩa                                         |
+| --------------------- | --------------------------------------------- |
+| 来年留学しますから、日本語を勉強しないと。 | Vì năm sau đi du học nên phải học tiếng Nhật. |
+| 約束がありますから、早く帰らないと。    | Vì có hẹn nên phải về sớm.                    |
+| 今日はレポートを書かないと。        | Hôm nay phải viết báo cáo.                    |
+| 遅いですから、帰らないと。         | Vì muộn rồi nên phải về.                      |
+| 病気ですから、薬を飲まないと。       | Vì bị bệnh nên phải uống thuốc.               |
+| 今晩、残業しないと。            | Tối nay phải làm thêm giờ.                    |
+
+---
+
+# 15. Bài tập trắc nghiệm
+
+## Phần A. Chọn nghĩa đúng
+
+### 1. ～と思います nghĩa là gì?
+
+A. Tôi nghĩ rằng
+B. Đã nói rằng
+C. Phải không
+D. Phải làm
+
+### 2. ～と言いました nghĩa là gì?
+
+A. Đã nói rằng
+B. Tôi nghĩ rằng
+C. Phải không
+D. Không được làm
+
+### 3. でしょう？ nghĩa là gì?
+
+A. Phải không / nhỉ?
+B. Tôi nghĩ rằng
+C. Đã nói rằng
+D. Phải làm
+
+### 4. NでもV dùng để làm gì?
+
+A. Đề xuất nhẹ: như N chẳng hạn
+B. Nói bắt buộc
+C. Nói quá khứ
+D. Nói cấm đoán
+
+### 5. Vないと nghĩa là gì?
+
+A. Phải làm V
+B. Không làm V
+C. Đã làm V
+D. Muốn làm V
+
+---
+
+## Phần B. ～と思います
+
+### 6. “Tôi nghĩ ngày mai trời mưa” là câu nào?
+
+A. あした 雨だと思います。
+B. あした 雨ですと思います。
+C. あした 雨と思います。
+D. あした 雨に思います。
+
+### 7. “Tôi nghĩ anh ấy đã kết hôn” là câu nào?
+
+A. 彼は結婚したと思います。
+B. 彼は結婚しましたと思います。
+C. 彼は結婚しますと思います。
+D. 彼は結婚してと思います。
+
+### 8. “Tôi nghĩ bài kiểm tra dễ” là câu nào?
+
+A. 試験は簡単だと思います。
+B. 試験は簡単ですと思います。
+C. 試験は簡単と思います。
+D. 試験は簡単に思います。
+
+### 9. “Tôi nghĩ lớp học vui” là câu nào?
+
+A. 授業は楽しいと思います。
+B. 授業は楽しいですと思います。
+C. 授業は楽しいだと思います。
+D. 授業は楽しくと思います。
+
+### 10. Trước と思います phải dùng dạng nào?
+
+A. Thể thông thường
+B. Thể ます
+C. Thể て
+D. Thể mệnh lệnh
+
+---
+
+## Phần C. ～と思います phủ định
+
+### 11. “Tôi nghĩ anh ấy không phải học sinh” là câu nào?
+
+A. 彼は学生じゃないと思います。
+B. 彼は学生じゃありませんと思います。
+C. 彼は学生だと思いません。
+D. 彼は学生ではと思います。
+
+### 12. “Tôi nghĩ ngày mai trời không mưa” là câu nào?
+
+A. あした 雨が降らないと思います。
+B. あした 雨が降りませんと思います。
+C. あした 雨が降ると思いません。
+D. あした 雨ですと思いません。
+
+### 13. “Tôi không nghĩ Chủ nhật trời mưa” là câu nào?
+
+A. 日曜日、雨が降ると思いません。
+B. 日曜日、雨が降らないと思います。
+C. 日曜日、雨が降りますと思いません。
+D. 日曜日、雨と思いません。
+
+### 14. “Tôi nghĩ không ngon” là câu nào?
+
+A. おいしくないと思います。
+B. おいしくありませんと思います。
+C. おいしいと思いませんでした。
+D. おいしいですと思いません。
+
+### 15. “Tôi không nghĩ bài thi dễ” là câu nào?
+
+A. 試験は簡単だと思いません。
+B. 試験は簡単じゃないと思います。
+C. 試験は簡単ですと思いません。
+D. 試験は簡単と思いません。
+
+---
+
+## Phần D. Hỏi ý kiến
+
+### 16. “Bạn nghĩ thế nào về Nhật Bản?” là câu nào?
+
+A. 日本について どう思いますか。
+B. 日本で どう思いますか。
+C. 日本を どう思いますか。
+D. 日本に どう思いますか。
+
+### 17. “Bạn nghĩ thế nào về giao thông Việt Nam?” là câu nào?
+
+A. ベトナムの交通について どう思いますか。
+B. ベトナムの交通で どう思いますか。
+C. ベトナムの交通を どう思いますか。
+D. ベトナムの交通に どう思いますか。
+
+### 18. “Tôi nghĩ người Nhật tốt bụng” là câu nào?
+
+A. 日本人は親切だと思います。
+B. 日本人は親切ですと思います。
+C. 日本人は親切と思います。
+D. 日本人は親切に思います。
+
+### 19. “Tôi nghĩ khá nguy hiểm” là câu nào?
+
+A. かなり危ないと思います。
+B. かなり危ないですと思います。
+C. かなり危ないだと思います。
+D. かなり危なくと思います。
+
+### 20. “Tôi cũng nghĩ vậy” là câu nào?
+
+A. そう思います。
+B. そう言います。
+C. そうでしょう。
+D. そうあります。
+
+### 21. “Tôi không nghĩ vậy” là câu nào?
+
+A. そう思いません。
+B. そう言いません。
+C. そうでしょう。
+D. そうありません。
+
+---
+
+## Phần E. ～と言います / ～と言いました
+
+### 22. “Cô ấy nói: ‘Tháng sau tôi sẽ kết hôn’” là câu nào?
+
+A. 彼女は「来月、結婚します」と言いました。
+B. 彼女は来月、結婚しますと思いました。
+C. 彼女は「来月、結婚します」と思いました。
+D. 彼女は来月、結婚しましたと言います。
+
+### 23. “An nói: ‘JLPT tháng 12 khó’” là câu nào?
+
+A. アンさんは「12月のJLPTは難しかったです」と言いました。
+B. アンさんは「12月のJLPTは難しかったです」と思いました。
+C. アンさんは12月のJLPTは難しいでしょうと言いました。
+D. アンさんは12月のJLPTが難しいですと言います。
+
+### 24. “Miller nói tuần sau sẽ đi Nhật” là câu nào?
+
+A. ミラーさんは来週日本へ行くと言いました。
+B. ミラーさんは来週日本へ行きますと言います。
+C. ミラーさんは来週日本へ行くと思いました。
+D. ミラーさんは来週日本へ行きましたと言います。
+
+### 25. “Giám đốc nói năm nay không có ngày nghỉ” là câu nào?
+
+A. 社長は今年休みがないと言いました。
+B. 社長は今年休みがありませんと思いました。
+C. 社長は今年休みがありますと言いました。
+D. 社長は今年休みがないと思いました。
+
+---
+
+## Phần F. Câu khẩu ngữ
+
+### 26. “Trước khi ăn thì nói itadakimasu” là câu nào?
+
+A. 食べる前に「いただきます」と言います。
+B. 食べる前に「いただきます」と思います。
+C. 食べてから「いただきます」と言います。
+D. 食べる前に「いただきました」と言いました。
+
+### 27. “Trước khi ngủ thì nói oyasuminasai” là câu nào?
+
+A. 寝る前に「おやすみなさい」と言います。
+B. 寝る前に「おやすみなさい」と思います。
+C. 寝てから「おやすみなさい」と言います。
+D. 寝る前に「おはようございます」と言います。
+
+### 28. “Sau khi xong việc nói gì?” là câu nào?
+
+A. 仕事が終わったあとで なんと言いますか。
+B. 仕事が終わる前に なんと言いますか。
+C. 仕事が終わったあとで どう思いますか。
+D. 仕事が終わったあとで なんと思いますか。
+
+### 29. “Thầy giáo đã nói gì?” là câu nào?
+
+A. 先生は なんと言いましたか。
+B. 先生は なんと思いましたか。
+C. 先生は どう言いますか。
+D. 先生は どう思いますか。
+
+---
+
+## Phần G. でしょう？
+
+### 30. “Ở Việt Nam thịt lợn đắt phải không?” là câu nào?
+
+A. ベトナムで豚肉は高いでしょう？
+B. ベトナムで豚肉は高いですでしょう？
+C. ベトナムで豚肉は高いだでしょう？
+D. ベトナムで豚肉は高くでしょう？
+
+### 31. “Ngày mai trời nắng nhỉ?” là câu nào?
+
+A. あした 晴れるでしょう？
+B. あした 晴れますでしょう？
+C. あした 晴れたでしょう？
+D. あした 晴れないでしょうでした？
+
+### 32. “Bài thi hôm nay dễ nhỉ?” là câu nào?
+
+A. 今日の試験は簡単だったでしょう？
+B. 今日の試験は簡単だでしょう？
+C. 今日の試験は簡単ですでしょう？
+D. 今日の試験は簡単にでしょう？
+
+### 33. “Người phụ nữ kia đẹp nhỉ?” là câu nào?
+
+A. あの女の人はきれいでしょう？
+B. あの女の人はきれいだでしょう？
+C. あの女の人はきれいですでしょう？
+D. あの女の人はきれいにでしょう？
+
+### 34. “Năm sau bạn đi du học phải không?” là câu nào?
+
+A. 来年、留学するでしょう？
+B. 来年、留学しますでしょう？
+C. 来年、留学したでしょう？
+D. 来年、留学しませんでしょう？
+
+---
+
+## Phần H. Địa điểmで Nがあります
+
+### 35. “Ở Tokyo có Olympic” là câu nào?
+
+A. 東京でオリンピックがあります。
+B. 東京にオリンピックがあります。
+C. 東京をオリンピックがあります。
+D. 東京へオリンピックがあります。
+
+### 36. “Hôm qua ở Osaka có động đất” là câu nào?
+
+A. きのう大阪で地震がありました。
+B. きのう大阪に地震がありました。
+C. きのう大阪を地震がありました。
+D. きのう大阪へ地震がありました。
+
+### 37. “Ở nhà hàng đẹp có tiệc tất niên” là câu nào?
+
+A. きれいなレストランで忘年会があります。
+B. きれいなレストランに忘年会があります。
+C. きれいなレストランを忘年会があります。
+D. きれいなレストランへ忘年会があります。
+
+---
+
+## Phần I. Nで V
+
+### 38. “Anh ấy đã hát trong lễ cưới của bạn” là câu nào?
+
+A. 友達の結婚式で彼は歌いました。
+B. 友達の結婚式に彼は歌いました。
+C. 友達の結婚式を彼は歌いました。
+D. 友達の結婚式へ彼は歌いました。
+
+### 39. “Tôi đã gặp vợ lần đầu ở lễ hội” là câu nào?
+
+A. 祭りで妻に初めて会いました。
+B. 祭りに妻に初めて会いました。
+C. 祭りを妻に初めて会いました。
+D. 祭りへ妻に初めて会いました。
+
+### 40. “Tôi đã phát biểu ý kiến trong cuộc họp” là câu nào?
+
+A. 会議で意見を言いました。
+B. 会議に意見を言いました。
+C. 会議を意見を言いました。
+D. 会議へ意見を言いました。
+
+### 41. “Anh ấy uống nhiều rượu ở bữa tiệc” là câu nào?
+
+A. パーティーで彼はお酒をたくさん飲みました。
+B. パーティーに彼はお酒をたくさん飲みました。
+C. パーティーを彼はお酒をたくさん飲みました。
+D. パーティーへ彼はお酒をたくさん飲みました。
+
+---
+
+## Phần J. Nでも V
+
+### 42. “Đi dạo ở công viên hay đâu đó không?” là câu nào?
+
+A. 公園でも散歩しませんか。
+B. 公園で散歩しなければなりません。
+C. 公園だけ散歩しませんか。
+D. 公園に散歩しませんか。
+
+### 43. “Ăn gì đó như bánh mì không?” là câu nào?
+
+A. パンでも食べませんか。
+B. パンだけ食べませんか。
+C. パンで食べませんか。
+D. パンに食べませんか。
+
+### 44. “Uống gì đó như cà phê không?” là câu nào?
+
+A. コーヒーでも飲みませんか。
+B. コーヒーだけ飲みませんか。
+C. コーヒーで飲みませんか。
+D. コーヒーに飲みませんか。
+
+### 45. Nでも trong mẫu này có sắc thái gì?
+
+A. N chỉ là ví dụ gợi ý
+B. Bắt buộc phải là N
+C. Không được dùng N
+D. Chỉ dùng trong quá khứ
+
+---
+
+## Phần K. Vないと
+
+### 46. “Vì năm sau đi du học nên phải học tiếng Nhật” là câu nào?
+
+A. 来年留学しますから、日本語を勉強しないと。
+B. 来年留学しますから、日本語を勉強しなくてもいい。
+C. 来年留学しますから、日本語を勉強しないでください。
+D. 来年留学しますから、日本語を勉強したい。
+
+### 47. “Vì có hẹn nên phải về sớm” là câu nào?
+
+A. 約束がありますから、早く帰らないと。
+B. 約束がありますから、早く帰らなくてもいい。
+C. 約束がありますから、早く帰らないでください。
+D. 約束がありますから、早く帰りたい。
+
+### 48. “Hôm nay phải viết báo cáo” là câu nào?
+
+A. 今日はレポートを書かないと。
+B. 今日はレポートを書かなくてもいい。
+C. 今日はレポートを書かないでください。
+D. 今日はレポートを書きたい。
+
+### 49. “Vì bị bệnh nên phải uống thuốc” là câu nào?
+
+A. 病気ですから、薬を飲まないと。
+B. 病気ですから、薬を飲まなくてもいい。
+C. 病気ですから、薬を飲まないでください。
+D. 病気ですから、薬を飲みたい。
+
+### 50. Vないと là dạng rút gọn của mẫu nào?
+
+A. Vないといけません
+B. Vなくてもいいです
+C. Vないでください
+D. Vたいです
+
+---
+
+## Phần L. Mini test tổng hợp
+
+### 51. あした 雨だと思います。
+
+A. Tôi nghĩ ngày mai trời mưa.
+B. Tôi nói ngày mai trời mưa.
+C. Ngày mai trời mưa phải không?
+D. Ngày mai không mưa.
+
+### 52. 日本人は親切だと思います。
+
+A. Tôi nghĩ người Nhật tốt bụng.
+B. Người Nhật nói là tốt bụng.
+C. Người Nhật tốt bụng phải không?
+D. Người Nhật không tốt bụng.
+
+### 53. 先生は「あした休みです」と言いました。
+
+A. Thầy giáo nói: “Ngày mai nghỉ.”
+B. Tôi nghĩ ngày mai nghỉ.
+C. Ngày mai nghỉ phải không?
+D. Thầy giáo nghỉ ngày mai.
+
+### 54. ベトナムで豚肉は高いでしょう？
+
+A. Ở Việt Nam thịt lợn đắt phải không?
+B. Tôi nghĩ thịt lợn rẻ.
+C. Ở Việt Nam có thịt lợn.
+D. Thịt lợn không đắt.
+
+### 55. きのう大阪で地震がありました。
+
+A. Hôm qua ở Osaka có động đất.
+B. Hôm qua Osaka đẹp.
+C. Hôm qua tôi đi Osaka.
+D. Hôm qua Osaka không có gì.
+
+### 56. パーティーでお酒を飲みました。
+
+A. Tôi đã uống rượu ở bữa tiệc.
+B. Tôi đã tổ chức bữa tiệc.
+C. Tôi không uống rượu.
+D. Tôi muốn đi tiệc.
+
+### 57. コーヒーでも飲みませんか。
+
+A. Uống gì đó như cà phê không?
+B. Chỉ uống cà phê thôi.
+C. Không được uống cà phê.
+D. Phải uống cà phê.
+
+### 58. 早く帰らないと。
+
+A. Phải về sớm.
+B. Không cần về sớm.
+C. Đừng về sớm.
+D. Muốn về sớm.

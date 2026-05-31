@@ -1,0 +1,13 @@
+Cập nhật project theo yêu cầu, chỉ dùng file đầu vào sau (Phân tích kĩ và làm đúng mẫu giúp tôi nhé):
+    E:\UTILS\extractor\nihongo_kanji\6.txt 
+Yêu cầu:
+1. Tự xác định bài học từ nội dung file và thêm danh mục Kanji tương ứng vào `index.html`.
+   - Nội dung tóm tắt ngắn gọn.
+   - Không đưa câu hỏi trắc nghiệm vào index.
+
+2. Tạo bộ Anki ôn tập Kanji từ file trên.
+   - Tham khảo cấu trúc file mẫu:
+E:\UTILS\extractor\nihongo_kanji\kanji_bai_1.apkg
+   - Deck cha: `JLPT_QUIZ_KANJI`
+   - Deck con: đặt theo tên bài học lấy từ nội dung file
+   - Nội dung hiển thị chữ thường, không dùng style như bold, italic.

@@ -1,0 +1,433 @@
+## TL;DR
+
+Bài này là **Kanji N5 – Bài 20**, bài cuối cùng, dạy **8 chữ Hán/Kanji**:
+**天、赤、青、白、黒、色、魚、犬**.
+Nội dung chính gồm: **trời, màu đỏ, xanh, trắng, đen, màu sắc, cá, chó**. 
+
+---
+
+# 1. Tổng hợp chữ Hán trong bài
+
+| Kanji | Âm Hán Việt | Hiragana | Romaji         | Nghĩa     |
+| ----- | ----------- | -------- | -------------- | --------- |
+| 天     | Thiên       | てん       | ten            | trời      |
+| 赤     | Xích        | あか / あかい | aka / akai     | màu đỏ    |
+| 青     | Thanh       | あお / あおい | ao / aoi       | màu xanh  |
+| 白     | Bạch        | しろ / しろい | shiro / shiroi | màu trắng |
+| 黒     | Hắc         | くろ / くろい | kuro / kuroi   | màu đen   |
+| 色     | Sắc         | いろ       | iro            | màu sắc   |
+| 魚     | Ngư         | さかな      | sakana         | cá        |
+| 犬     | Khuyển      | いぬ       | inu            | chó       |
+
+---
+
+# 2. Ghi nhớ nhanh
+
+| Kanji | Cách nhớ ngắn                    |
+| ----- | -------------------------------- |
+| 天     | 大 thêm 1 nét trên đầu → trời     |
+| 赤     | Lửa làm mọi thứ đỏ lên → màu đỏ  |
+| 青     | Trăng thanh gió mát → màu xanh   |
+| 白     | Tòa nhà màu trắng → màu trắng    |
+| 黒     | Ruộng bị đốt lâu → thành màu đen |
+| 色     | Bản đồ/bát quái có màu → màu sắc |
+| 魚     | Hình con cá                      |
+| 犬     | 大 thêm 1 chấm → con chó          |
+
+---
+
+# 3. Từ vựng ví dụ
+
+| Từ | Hiragana | Romaji | Nghĩa     |
+| -- | -------- | ------ | --------- |
+| 天気 | てんき      | tenki  | thời tiết |
+| 赤  | あか       | aka    | màu đỏ    |
+| 赤い | あかい      | akai   | đỏ        |
+| 青  | あお       | ao     | màu xanh  |
+| 青い | あおい      | aoi    | xanh      |
+| 白  | しろ       | shiro  | màu trắng |
+| 白い | しろい      | shiroi | trắng     |
+| 黒  | くろ       | kuro   | màu đen   |
+| 黒い | くろい      | kuroi  | đen       |
+| 色  | いろ       | iro    | màu sắc   |
+| 魚  | さかな      | sakana | cá        |
+| 犬  | いぬ       | inu    | chó       |
+
+---
+
+# 4. Bài tập trắc nghiệm: Kanji → Nghĩa
+
+## Câu 1
+
+**天** nghĩa là gì?
+
+A. trời
+B. đất
+C. biển
+D. núi
+
+## Câu 2
+
+**赤** nghĩa là gì?
+
+A. màu xanh
+B. màu đỏ
+C. màu trắng
+D. màu đen
+
+## Câu 3
+
+**青** nghĩa là gì?
+
+A. màu đỏ
+B. màu đen
+C. màu xanh
+D. màu trắng
+
+## Câu 4
+
+**白** nghĩa là gì?
+
+A. màu trắng
+B. màu đen
+C. màu xanh
+D. màu đỏ
+
+## Câu 5
+
+**黒** nghĩa là gì?
+
+A. màu đỏ
+B. màu trắng
+C. màu xanh
+D. màu đen
+
+## Câu 6
+
+**色** nghĩa là gì?
+
+A. cá
+B. chó
+C. màu sắc
+D. trời
+
+## Câu 7
+
+**魚** nghĩa là gì?
+
+A. cá
+B. chó
+C. ngựa
+D. chim
+
+## Câu 8
+
+**犬** nghĩa là gì?
+
+A. mèo
+B. chó
+C. cá
+D. côn trùng
+
+---
+
+# 5. Bài tập trắc nghiệm: Kanji → Cách đọc
+
+## Câu 9
+
+**天気** đọc là gì?
+
+A. てんき
+B. でんき
+C. げんき
+D. ほんき
+
+## Câu 10
+
+**赤い** đọc là gì?
+
+A. あおい
+B. しろい
+C. あかい
+D. くろい
+
+## Câu 11
+
+**青い** đọc là gì?
+
+A. あおい
+B. あかい
+C. しろい
+D. くろい
+
+## Câu 12
+
+**白い** đọc là gì?
+
+A. くろい
+B. しろい
+C. あおい
+D. あかい
+
+## Câu 13
+
+**黒い** đọc là gì?
+
+A. あかい
+B. しろい
+C. くろい
+D. あおい
+
+## Câu 14
+
+**色** đọc là gì?
+
+A. いろ
+B. さかな
+C. いぬ
+D. てん
+
+## Câu 15
+
+**魚** đọc là gì?
+
+A. いぬ
+B. さかな
+C. むし
+D. うま
+
+## Câu 16
+
+**犬** đọc là gì?
+
+A. いぬ
+B. さかな
+C. うま
+D. むし
+
+---
+
+# 6. Bài tập trắc nghiệm: Hiragana → Kanji
+
+## Câu 17
+
+**てん** là Kanji nào?
+
+A. 天
+B. 赤
+C. 青
+D. 白
+
+## Câu 18
+
+**あか** là Kanji nào?
+
+A. 青
+B. 赤
+C. 黒
+D. 色
+
+## Câu 19
+
+**あお** là Kanji nào?
+
+A. 赤
+B. 青
+C. 白
+D. 魚
+
+## Câu 20
+
+**しろ** là Kanji nào?
+
+A. 黒
+B. 白
+C. 犬
+D. 色
+
+## Câu 21
+
+**くろ** là Kanji nào?
+
+A. 黒
+B. 白
+C. 青
+D. 赤
+
+## Câu 22
+
+**いろ** là Kanji nào?
+
+A. 魚
+B. 犬
+C. 色
+D. 天
+
+## Câu 23
+
+**さかな** là Kanji nào?
+
+A. 犬
+B. 魚
+C. 馬
+D. 虫
+
+## Câu 24
+
+**いぬ** là Kanji nào?
+
+A. 魚
+B. 犬
+C. 虫
+D. 馬
+
+---
+
+# 7. Bài tập tổng hợp
+
+## Câu 25
+
+**天気がいいです。** nghĩa là gì?
+
+A. Thời tiết đẹp.
+B. Trời mưa.
+C. Trời tối.
+D. Trời lạnh.
+
+## Câu 26
+
+**赤い花** nghĩa là gì?
+
+A. hoa xanh
+B. hoa đỏ
+C. hoa trắng
+D. hoa đen
+
+## Câu 27
+
+**青い空** nghĩa là gì?
+
+A. bầu trời đỏ
+B. bầu trời xanh
+C. bầu trời trắng
+D. bầu trời đen
+
+## Câu 28
+
+**白い犬** nghĩa là gì?
+
+A. con chó trắng
+B. con chó đen
+C. con chó đỏ
+D. con chó xanh
+
+## Câu 29
+
+**黒い車** nghĩa là gì?
+
+A. xe trắng
+B. xe đen
+C. xe đỏ
+D. xe xanh
+
+## Câu 30
+
+**魚を食べます。** nghĩa là gì?
+
+A. Tôi ăn cá.
+B. Tôi ăn thịt.
+C. Tôi uống nước.
+D. Tôi mua chó.
+
+## Câu 31
+
+**犬がいます。** nghĩa là gì?
+
+A. Có cá.
+B. Có chó.
+C. Có ngựa.
+D. Có côn trùng.
+
+## Câu 32
+
+Chữ nào có nghĩa là **màu sắc**?
+
+A. 天
+B. 色
+C. 魚
+D. 犬
+
+---
+
+# 8. Đáp án
+
+```text
+1A  2B  3C  4A  5D  6C  7A  8B
+9A  10C 11A 12B 13C 14A 15B 16A
+17A 18B 19B 20B 21A 22C 23B 24B
+25A 26B 27B 28A 29B 30A 31B 32B
+```
+## TL;DR — Đáp án nhanh
+
+```text
+1A  2B  3C  4A  5D  6C  7A  8B
+9A  10C 11A 12B 13C 14A 15B 16A
+17A 18B 19B 20B 21A 22C 23B 24B
+25A 26B 27B 28A 29B 30A 31B 32B
+```
+
+Nội dung dựa trên file Kanji N5 Bài 20 bạn gửi.
+
+---
+
+## Danh sách đáp án + giải thích + ví dụ JLPT N5
+
+| Câu | Đáp án | Giải thích ngắn gọn                                                                                              |
+| --- | ------ | ---------------------------------------------------------------------------------------------------------------- |
+| 1   | A      | **天** = てん / *ten* = trời. Ví dụ: **天気** = てんき / *tenki* = thời tiết.                                            |
+| 2   | B      | **赤** = あか / *aka*, あかい / *akai* = màu đỏ / đỏ. Ví dụ: **赤い花** = あかいはな / *akai hana* = hoa đỏ.                   |
+| 3   | C      | **青** = あお / *ao*, あおい / *aoi* = màu xanh / xanh. Ví dụ: **青い空** = あおいそら / *aoi sora* = bầu trời xanh.           |
+| 4   | A      | **白** = しろ / *shiro*, しろい / *shiroi* = màu trắng / trắng. Ví dụ: **白い犬** = しろいいぬ / *shiroi inu* = con chó trắng. |
+| 5   | D      | **黒** = くろ / *kuro*, くろい / *kuroi* = màu đen / đen. Ví dụ: **黒い車** = くろいくるま / *kuroi kuruma* = xe màu đen.       |
+| 6   | C      | **色** = いろ / *iro* = màu sắc. Ví dụ: **色** = いろ / *iro* = màu sắc.                                               |
+| 7   | A      | **魚** = さかな / *sakana* = cá. Ví dụ: **魚を食べます** = さかなをたべます / *sakana o tabemasu* = ăn cá.                         |
+| 8   | B      | **犬** = いぬ / *inu* = chó. Ví dụ: **犬がいます** = いぬがいます / *inu ga imasu* = có con chó.                               |
+| 9   | A      | **天気** = てんき / *tenki* = thời tiết.                                                                              |
+| 10  | C      | **赤い** = あかい / *akai* = đỏ.                                                                                      |
+| 11  | A      | **青い** = あおい / *aoi* = xanh.                                                                                     |
+| 12  | B      | **白い** = しろい / *shiroi* = trắng.                                                                                 |
+| 13  | C      | **黒い** = くろい / *kuroi* = đen.                                                                                    |
+| 14  | A      | **色** đọc là いろ / *iro* = màu sắc.                                                                               |
+| 15  | B      | **魚** đọc là さかな / *sakana* = cá.                                                                                |
+| 16  | A      | **犬** đọc là いぬ / *inu* = chó.                                                                                   |
+| 17  | A      | てん / *ten* = **天** = trời. Ví dụ: **天気** = thời tiết.                                                            |
+| 18  | B      | あか / *aka* = **赤** = màu đỏ.                                                                                     |
+| 19  | B      | あお / *ao* = **青** = màu xanh.                                                                                    |
+| 20  | B      | しろ / *shiro* = **白** = màu trắng.                                                                                |
+| 21  | A      | くろ / *kuro* = **黒** = màu đen.                                                                                   |
+| 22  | C      | いろ / *iro* = **色** = màu sắc.                                                                                    |
+| 23  | B      | さかな / *sakana* = **魚** = cá.                                                                                     |
+| 24  | B      | いぬ / *inu* = **犬** = chó.                                                                                        |
+| 25  | A      | **天気がいいです。** = てんきがいいです / *tenki ga ii desu* = Thời tiết đẹp.                                                    |
+| 26  | B      | **赤い花** = あかいはな / *akai hana* = hoa đỏ.                                                                          |
+| 27  | B      | **青い空** = あおいそら / *aoi sora* = bầu trời xanh.                                                                    |
+| 28  | A      | **白い犬** = しろいいぬ / *shiroi inu* = con chó trắng.                                                                  |
+| 29  | B      | **黒い車** = くろいくるま / *kuroi kuruma* = xe màu đen.                                                                  |
+| 30  | A      | **魚を食べます。** = さかなをたべます / *sakana o tabemasu* = Tôi ăn cá.                                                        |
+| 31  | B      | **犬がいます。** = いぬがいます / *inu ga imasu* = Có chó.                                                                   |
+| 32  | B      | Chữ nghĩa là màu sắc là **色** = いろ / *iro*.                                                                      |
+
+---
+
+## Ghi nhớ nhanh 8 chữ Hán
+
+| Kanji | Hiragana | Romaji         | Nghĩa   | Ví dụ N5                                |
+| ----- | -------- | -------------- | ------- | --------------------------------------- |
+| 天     | てん       | ten            | trời    | 天気 = てんき / *tenki* = thời tiết          |
+| 赤     | あか / あかい | aka / akai     | đỏ      | 赤い花 = あかいはな / *akai hana* = hoa đỏ      |
+| 青     | あお / あおい | ao / aoi       | xanh    | 青い空 = あおいそら / *aoi sora* = trời xanh    |
+| 白     | しろ / しろい | shiro / shiroi | trắng   | 白い犬 = しろいいぬ / *shiroi inu* = chó trắng  |
+| 黒     | くろ / くろい | kuro / kuroi   | đen     | 黒い車 = くろいくるま / *kuroi kuruma* = xe đen  |
+| 色     | いろ       | iro            | màu sắc | 色 = いろ / *iro* = màu sắc                |
+| 魚     | さかな      | sakana         | cá      | 魚を食べます = さかなをたべます / *sakana o tabemasu* |
+| 犬     | いぬ       | inu            | chó     | 犬がいます = いぬがいます / *inu ga imasu*         |

@@ -1,0 +1,729 @@
+Dạ được. Dưới đây là bản **tổng hợp Minna no Nihongo Bài 22** + **bài tập 100% trắc nghiệm**, không kèm đáp án để bạn tự ôn.
+
+Nội dung trong file là **Ngữ pháp Minna 1 - Bài 22**, trọng tâm gồm: **mệnh đề bổ nghĩa cho danh từ**, cách dùng mệnh đề bổ nghĩa làm **chủ ngữ / vị ngữ / tân ngữ**, các danh từ thường gặp như **時間・約束・用事**, và mẫu **Vましょうか** với nghĩa “cùng làm nhé”. 
+
+---
+
+# Minna no Nihongo Bài 22 — Tổng hợp + Bài tập trắc nghiệm
+
+## 1. Tổng quan bài 22
+
+| Nội dung                     | Mẫu                    | Nghĩa              |
+| ---------------------------- | ---------------------- | ------------------ |
+| Bổ nghĩa cho danh từ         | Từ / cụm từ + N        | Làm rõ nghĩa cho N |
+| Tính từ い bổ nghĩa N         | いAdj + N               | N có tính chất Adj |
+| Tính từ な bổ nghĩa N         | なAdj + N               | N có tính chất Adj |
+| Danh từ bổ nghĩa N           | N1のN2                  | N2 của N1          |
+| Động từ bổ nghĩa N           | V thể thông thường + N | N mà V             |
+| Mệnh đề bổ nghĩa làm chủ ngữ | [Mệnh đề + N] は/が…     | N mà… thì…         |
+| Mệnh đề bổ nghĩa làm vị ngữ  | Nは [mệnh đề + N] です    | N là cái/người mà… |
+| Mệnh đề bổ nghĩa làm tân ngữ | [mệnh đề + N] を V      | V cái/người mà…    |
+| Thời gian để làm gì          | Vる時間                   | Thời gian để V     |
+| Cuộc hẹn làm gì              | Vる約束                   | Cuộc hẹn để V      |
+| Việc bận làm gì              | Vる用事                   | Việc bận để V      |
+| Cùng làm nhé                 | Vます bỏ ます + ましょうか      | Cùng V nhé         |
+
+---
+
+# 2. Bổ nghĩa cho danh từ là gì?
+
+**Bổ nghĩa** là phần đứng trước danh từ để làm rõ danh từ đó.
+
+Ví dụ với **車**:
+
+| Cụm     | Nghĩa             |
+| ------- | ----------------- |
+| 私の車     | Xe của tôi        |
+| 新しい車    | Xe mới            |
+| きれいな車   | Xe đẹp            |
+| きのう買った車 | Xe đã mua hôm qua |
+
+Trong tiếng Nhật:
+
+```text
+Bổ nghĩa + Danh từ
+```
+
+Khác tiếng Việt:
+
+```text
+Danh từ + bổ nghĩa
+```
+
+Ví dụ:
+
+| Tiếng Việt               | Tiếng Nhật |
+| ------------------------ | ---------- |
+| Cái mũ màu xanh          | 青い帽子       |
+| Cái mũ đẹp               | きれいな帽子     |
+| Cái mũ của tôi           | 私の帽子       |
+| Cái mũ tôi đã mua ở Nhật | 日本で買った帽子   |
+
+---
+
+# 3. Các kiểu bổ nghĩa cơ bản
+
+## 3.1. Tính từ い + danh từ
+
+```text
+いAdj + N
+```
+
+Ví dụ:
+
+| Cụm    | Nghĩa           |
+| ------ | --------------- |
+| 青い帽子   | Cái mũ màu xanh |
+| おいしい料理 | Món ăn ngon     |
+| 高い時計   | Đồng hồ đắt     |
+| 小さい家   | Ngôi nhà nhỏ    |
+
+---
+
+## 3.2. Tính từ な + danh từ
+
+```text
+なAdj + N
+```
+
+Ví dụ:
+
+| Cụm    | Nghĩa                |
+| ------ | -------------------- |
+| きれいな帽子 | Cái mũ đẹp           |
+| 便利な町   | Thành phố tiện lợi   |
+| 親切な人   | Người tốt bụng       |
+| 有名な学校  | Trường học nổi tiếng |
+
+---
+
+## 3.3. Danh từ + の + danh từ
+
+```text
+N1 の N2
+```
+
+Ví dụ:
+
+| Cụm   | Nghĩa              |
+| ----- | ------------------ |
+| 私の帽子  | Cái mũ của tôi     |
+| 日本の料理 | Món ăn Nhật        |
+| 先生の本  | Sách của giáo viên |
+| 友達の家  | Nhà của bạn        |
+
+---
+
+# 4. Mệnh đề bổ nghĩa cho danh từ
+
+## Công thức chính
+
+```text
+V thể thông thường + N
+```
+
+## Nghĩa
+
+**N mà V / N được V / N đang V / N đã V**
+
+Động từ trước danh từ phải chia về **thể thông thường**.
+
+| Thể   | Ví dụ   | Nghĩa           |
+| ----- | ------- | --------------- |
+| Vる    | 住む家     | Nhà sẽ/đang ở   |
+| Vない   | 行かない人   | Người không đi  |
+| Vた    | 買った帽子   | Cái mũ đã mua   |
+| Vなかった | 行かなかった所 | Nơi đã không đi |
+
+---
+
+## Ví dụ
+
+| Cụm          | Nghĩa                           |
+| ------------ | ------------------------------- |
+| 私が愛している女の人   | Người phụ nữ tôi yêu            |
+| 日本で買った帽子     | Cái mũ tôi đã mua ở Nhật        |
+| タイさんから借りた雑誌  | Tạp chí tôi đã mượn từ Tài      |
+| コーヒーを飲んでいる人  | Người đang uống cà phê          |
+| 初めて彼女に会った所   | Nơi tôi gặp cô ấy lần đầu       |
+| 日本語を勉強したセンター | Trung tâm tôi đã học tiếng Nhật |
+
+---
+
+# 5. Lưu ý về chủ ngữ trong mệnh đề bổ nghĩa
+
+Trong mệnh đề bổ nghĩa, chủ ngữ phụ thường dùng **が**, không dùng **は**.
+
+Ví dụ:
+
+```text
+私が買った帽子
+```
+
+= Cái mũ tôi đã mua.
+
+Không nên nói:
+
+```text
+私は買った帽子 ❌
+```
+
+Ví dụ khác:
+
+| Đúng         | Nghĩa                         |
+| ------------ | ----------------------------- |
+| 母が作った料理      | Món ăn mẹ nấu                 |
+| 父が作ったいす      | Cái ghế bố làm                |
+| ミラーさんが住んでいる家 | Ngôi nhà anh Miller đang sống |
+| 友達が書いた手紙     | Lá thư bạn viết               |
+
+---
+
+# 6. Mệnh đề bổ nghĩa làm chủ ngữ
+
+## Công thức
+
+```text
+[Mệnh đề bổ nghĩa + N] は / が + vị ngữ
+```
+
+Ví dụ:
+
+| Câu                        | Nghĩa                                       |
+| -------------------------- | ------------------------------------------- |
+| 日本で買った帽子はとてもきれいです。         | Cái mũ tôi mua ở Nhật rất đẹp.              |
+| 日本語を勉強したセンターはとても有名です。      | Trung tâm tôi học tiếng Nhật rất nổi tiếng. |
+| 青いシャツを着て、眼鏡をかけている人は佐藤さんです。 | Người mặc áo xanh, đeo kính là anh Sato.    |
+| ミラーさんが住んでいる家はきれいです。        | Ngôi nhà anh Miller đang sống rất đẹp.      |
+
+---
+
+# 7. Mệnh đề bổ nghĩa làm vị ngữ
+
+## Công thức
+
+```text
+N は [mệnh đề bổ nghĩa + N] です
+```
+
+Ví dụ:
+
+| Câu                 | Nghĩa                                        |
+| ------------------- | -------------------------------------------- |
+| 私の彼女は髪が黒くて、背が高い人です。 | Bạn gái tôi là người tóc đen và cao.         |
+| 私の先生はコーヒーを飲んでいる人です。 | Giáo viên của tôi là người đang uống cà phê. |
+| それは父が作ったいすです。       | Đó là cái ghế bố tôi làm.                    |
+| 山田さんは歌っている人です。      | Anh Yamada là người đang hát.                |
+
+---
+
+# 8. Mệnh đề bổ nghĩa làm tân ngữ
+
+## Công thức
+
+```text
+[Mệnh đề bổ nghĩa + N] を Vます
+```
+
+Ví dụ:
+
+| Câu                     | Nghĩa                                    |
+| ----------------------- | ---------------------------------------- |
+| チーさんはナムさんから借りた本をなくしました。 | Chi đã làm mất cuốn sách mượn từ Nam.    |
+| 私は初めて夫に会った所を忘れました。      | Tôi đã quên nơi lần đầu gặp chồng.       |
+| 私は母がきのう作ったケーキを食べたいです。   | Tôi muốn ăn cái bánh mẹ làm hôm qua.     |
+| 私は父が作った家に住みたいです。        | Tôi muốn sống trong ngôi nhà bố tôi xây. |
+
+---
+
+# 9. Mệnh đề bổ nghĩa vừa làm chủ ngữ vừa làm vị ngữ
+
+Ví dụ:
+
+```text
+きのう私が捨てたシャツは、イエンさんが着ているシャツです。
+```
+
+= Cái áo tôi vứt hôm qua là cái áo Yến đang mặc.
+
+```text
+けさスーパーで会った人は、Thanhさんと結婚する人です。
+```
+
+= Người tôi gặp ở siêu thị sáng nay là người sẽ kết hôn với chị Thanh.
+
+---
+
+# 10. Các danh từ thường đi với mệnh đề bổ nghĩa
+
+## 10.1. Vる時間
+
+```text
+Vる + 時間
+```
+
+= Thời gian để làm V.
+
+Ví dụ:
+
+| Câu              | Nghĩa                            |
+| ---------------- | -------------------------------- |
+| 新聞を読む時間がありません。   | Tôi không có thời gian đọc báo.  |
+| 休む時間がほしいです。      | Tôi muốn có thời gian nghỉ ngơi. |
+| 日本語を勉強する時間があります。 | Tôi có thời gian học tiếng Nhật. |
+
+---
+
+## 10.2. Vる約束
+
+```text
+Vる + 約束
+```
+
+= Cuộc hẹn / lời hứa làm V.
+
+Ví dụ:
+
+| Câu                 | Nghĩa                                    |
+| ------------------- | ---------------------------------------- |
+| 今晩、彼女と映画を見る約束があります。 | Tối nay tôi có hẹn xem phim với bạn gái. |
+| 友達とごはんを食べる約束があります。  | Tôi có hẹn ăn cơm với bạn.               |
+| 先生に会う約束があります。       | Tôi có hẹn gặp giáo viên.                |
+
+---
+
+## 10.3. Vる用事
+
+```text
+Vる + 用事
+```
+
+= Việc bận phải làm V.
+
+Ví dụ:
+
+| Câu              | Nghĩa                           |
+| ---------------- | ------------------------------- |
+| 週末、東京へ行く用事があります。 | Cuối tuần tôi có việc đi Tokyo. |
+| 銀行へ行く用事があります。    | Tôi có việc đi ngân hàng.       |
+| 母に電話する用事があります。   | Tôi có việc gọi điện cho mẹ.    |
+
+---
+
+# 11. Vましょうか — Cùng làm nhé
+
+## Công thức
+
+```text
+Vます bỏ ます + ましょうか
+```
+
+## Nghĩa trong bài 22
+
+**Chúng ta cùng V nhé / cùng làm V nhé.**
+
+Ví dụ:
+
+| Câu                  | Nghĩa                         |
+| -------------------- | ----------------------------- |
+| 今日は一緒に帰りましょうか。       | Hôm nay cùng về nhé.          |
+| 今晩、映画を見に行きましょうか。     | Tối nay cùng đi xem phim nhé. |
+| 荷物が重いですね。一緒に持ちましょうか。 | Đồ nặng nhỉ. Cùng nâng nhé.   |
+
+Lưu ý: Bài 14 cũng có **Vましょうか** với nghĩa “để tôi giúp bạn V nhé”. Bài 22 nhấn mạnh nghĩa **đề nghị cùng làm**.
+
+---
+
+# 12. Bài tập trắc nghiệm
+
+## Phần A. Chọn nghĩa đúng
+
+### 1. Mệnh đề bổ nghĩa dùng để làm gì?
+
+A. Bổ sung nghĩa cho danh từ
+B. Chỉ phủ định
+C. Chỉ quá khứ
+D. Chỉ mệnh lệnh
+
+### 2. Trong tiếng Nhật, bổ nghĩa thường đứng ở đâu?
+
+A. Trước danh từ
+B. Sau danh từ
+C. Sau trợ từ を
+D. Cuối câu
+
+### 3. Vる + N nghĩa là gì?
+
+A. Danh từ mà V
+B. Không V
+C. Phải V
+D. Muốn V
+
+### 4. Chủ ngữ trong mệnh đề bổ nghĩa thường dùng trợ từ nào?
+
+A. が
+B. は
+C. を
+D. で
+
+### 5. Vましょうか trong bài này có nghĩa chính là gì?
+
+A. Cùng làm V nhé
+B. Không được làm V
+C. Phải làm V
+D. Đã từng làm V
+
+---
+
+## Phần B. Tính từ / danh từ bổ nghĩa
+
+### 6. “Cái mũ màu xanh” là câu nào?
+
+A. 青い帽子
+B. 青いの帽子
+C. 青く帽子
+D. 青いな帽子
+
+### 7. “Cái mũ đẹp” là câu nào?
+
+A. きれいな帽子
+B. きれい帽子
+C. きれいの帽子
+D. きれいで帽子
+
+### 8. “Cái mũ của tôi” là câu nào?
+
+A. 私の帽子
+B. 私が帽子
+C. 私を帽子
+D. 私で帽子
+
+### 9. “Món ăn ngon” là câu nào?
+
+A. おいしい料理
+B. おいしく料理
+C. おいしいな料理
+D. おいしいの料理
+
+### 10. “Món ăn Nhật” là câu nào?
+
+A. 日本の料理
+B. 日本が料理
+C. 日本を料理
+D. 日本で料理
+
+---
+
+## Phần C. Mệnh đề bổ nghĩa cơ bản
+
+### 11. “Cái mũ tôi đã mua ở Nhật” là câu nào?
+
+A. 日本で買った帽子
+B. 日本で買いました帽子
+C. 日本で買って帽子
+D. 日本で買う帽子でした
+
+### 12. “Người phụ nữ tôi yêu” là câu nào?
+
+A. 私が愛している女の人
+B. 私は愛している女の人
+C. 私を愛している女の人
+D. 私で愛している女の人
+
+### 13. “Tạp chí tôi đã mượn từ Tài” là câu nào?
+
+A. タイさんから借りた雑誌
+B. タイさんから借りました雑誌
+C. タイさんに借りた雑誌
+D. タイさんで借りた雑誌
+
+### 14. “Người đang uống cà phê” là câu nào?
+
+A. コーヒーを飲んでいる人
+B. コーヒーを飲みます人
+C. コーヒーを飲んだ人です
+D. コーヒーで飲んでいる人
+
+### 15. “Nơi tôi gặp cô ấy lần đầu” là câu nào?
+
+A. 初めて彼女に会った所
+B. 初めて彼女に会いました所
+C. 初めて彼女を会った所
+D. 初めて彼女で会った所
+
+---
+
+## Phần D. Chọn động từ đúng trước danh từ
+
+### 16. 買います + 帽子 → đúng là gì?
+
+A. 買う帽子
+B. 買います帽子
+C. 買って帽子
+D. 買い帽子
+
+### 17. 買いました + 帽子 → đúng là gì?
+
+A. 買った帽子
+B. 買いました帽子
+C. 買って帽子
+D. 買うた帽子
+
+### 18. 行きません + 人 → đúng là gì?
+
+A. 行かない人
+B. 行きません人
+C. 行っていない人
+D. 行きない人
+
+### 19. 飲んでいます + 人 → đúng là gì?
+
+A. 飲んでいる人
+B. 飲んでいます人
+C. 飲みている人
+D. 飲むています人
+
+### 20. 作りました + 料理 → đúng là gì?
+
+A. 作った料理
+B. 作りました料理
+C. 作って料理
+D. 作るました料理
+
+---
+
+## Phần E. Mệnh đề bổ nghĩa làm chủ ngữ
+
+### 21. “Cái mũ tôi mua ở Nhật rất đẹp” là câu nào?
+
+A. 日本で買った帽子はとてもきれいです。
+B. 日本で買いました帽子はとてもきれいです。
+C. 日本で買った帽子をとてもきれいです。
+D. 日本で買った帽子がとてもきれいをします。
+
+### 22. “Trung tâm tôi học tiếng Nhật rất nổi tiếng” là câu nào?
+
+A. 日本語を勉強したセンターはとても有名です。
+B. 日本語を勉強しましたセンターはとても有名です。
+C. 日本語を勉強したセンターを有名です。
+D. 日本語を勉強するセンターで有名です。
+
+### 23. “Người mặc áo xanh, đeo kính là anh Sato” là câu nào?
+
+A. 青いシャツを着て、眼鏡をかけている人は佐藤さんです。
+B. 青いシャツを着ます、眼鏡をかけています人は佐藤さんです。
+C. 青いシャツで着て、眼鏡をかけている人は佐藤さんです。
+D. 青いシャツを着て、眼鏡をかけます人は佐藤さんです。
+
+### 24. “Ngôi nhà anh Miller đang sống rất đẹp” là câu nào?
+
+A. ミラーさんが住んでいる家はきれいです。
+B. ミラーさんは住んでいる家はきれいです。
+C. ミラーさんが住んでいます家はきれいです。
+D. ミラーさんを住んでいる家はきれいです。
+
+---
+
+## Phần F. Mệnh đề bổ nghĩa làm vị ngữ
+
+### 25. “Giáo viên của tôi là người đang uống cà phê” là câu nào?
+
+A. 私の先生はコーヒーを飲んでいる人です。
+B. 私の先生はコーヒーを飲んでいます人です。
+C. 私の先生はコーヒーで飲んでいる人です。
+D. 私の先生がコーヒーを飲んでいる人です。
+
+### 26. “Đó là cái ghế bố tôi làm” là câu nào?
+
+A. それは父が作ったいすです。
+B. それは父は作ったいすです。
+C. それは父が作りましたいすです。
+D. それは父を作ったいすです。
+
+### 27. “Yamada là người đang hát” là câu nào?
+
+A. 山田さんは歌っている人です。
+B. 山田さんは歌っています人です。
+C. 山田さんが歌っている人です。
+D. 山田さんは歌うています人です。
+
+### 28. “Bạn gái tôi là người tóc đen và cao” là câu nào?
+
+A. 私の彼女は髪が黒くて、背が高い人です。
+B. 私の彼女は髪が黒いで、背が高い人です。
+C. 私の彼女は髪が黒くて、背が高いです人です。
+D. 私の彼女は髪を黒くて、背を高い人です。
+
+---
+
+## Phần G. Mệnh đề bổ nghĩa làm tân ngữ
+
+### 29. “Chi đã làm mất cuốn sách mượn từ Nam” là câu nào?
+
+A. チーさんはナムさんから借りた本をなくしました。
+B. チーさんはナムさんから借りました本をなくしました。
+C. チーさんはナムさんに借りた本がなくしました。
+D. チーさんはナムさんから借りた本でなくしました。
+
+### 30. “Tôi đã quên nơi lần đầu gặp chồng” là câu nào?
+
+A. 私は初めて夫に会った所を忘れました。
+B. 私は初めて夫に会いました所を忘れました。
+C. 私は初めて夫を会った所を忘れました。
+D. 私は初めて夫に会った所が忘れました。
+
+### 31. “Tôi muốn ăn cái bánh mẹ làm hôm qua” là câu nào?
+
+A. 私は母がきのう作ったケーキを食べたいです。
+B. 私は母はきのう作ったケーキを食べたいです。
+C. 私は母がきのう作りましたケーキを食べたいです。
+D. 私は母がきのう作ったケーキが食べたいです。
+
+### 32. “Tôi muốn sống trong ngôi nhà bố tôi xây” là câu nào?
+
+A. 私は父が作った家に住みたいです。
+B. 私は父は作った家に住みたいです。
+C. 私は父が作りました家に住みたいです。
+D. 私は父が作った家を住みたいです。
+
+---
+
+## Phần H. Vừa làm chủ ngữ vừa làm vị ngữ
+
+### 33. “Cái áo tôi vứt hôm qua là cái áo Yến đang mặc” là câu nào?
+
+A. きのう私が捨てたシャツは、イエンさんが着ているシャツです。
+B. きのう私は捨てたシャツは、イエンさんが着ていますシャツです。
+C. きのう私が捨てましたシャツは、イエンさんが着ているシャツです。
+D. きのう私が捨てたシャツを、イエンさんが着ているシャツです。
+
+### 34. “Người sáng nay tôi gặp ở siêu thị là người sẽ kết hôn với chị Thanh” là câu nào?
+
+A. けさスーパーで会った人は、Thanhさんと結婚する人です。
+B. けさスーパーで会いました人は、Thanhさんと結婚します人です。
+C. けさスーパーに会った人は、Thanhさんと結婚する人です。
+D. けさスーパーで会った人を、Thanhさんと結婚する人です。
+
+---
+
+## Phần I. Vる時間 / 約束 / 用事
+
+### 35. “Tôi không có thời gian đọc báo” là câu nào?
+
+A. 新聞を読む時間がありません。
+B. 新聞を読みます時間がありません。
+C. 新聞を読んだ時間がありません。
+D. 新聞で読む時間がありません。
+
+### 36. “Tôi muốn có thời gian nghỉ ngơi” là câu nào?
+
+A. 休む時間がほしいです。
+B. 休みます時間がほしいです。
+C. 休んだ時間がほしいです。
+D. 休みに時間がほしいです。
+
+### 37. “Tối nay tôi có hẹn xem phim với bạn gái” là câu nào?
+
+A. 今晩、彼女と映画を見る約束があります。
+B. 今晩、彼女と映画を見ます約束があります。
+C. 今晩、彼女と映画を見た約束があります。
+D. 今晩、彼女で映画を見る約束があります。
+
+### 38. “Cuối tuần tôi có việc đi Tokyo” là câu nào?
+
+A. 週末、東京へ行く用事があります。
+B. 週末、東京へ行きます用事があります。
+C. 週末、東京へ行った用事があります。
+D. 週末、東京で行く用事があります。
+
+### 39. “Tôi có việc gọi điện cho mẹ” là câu nào?
+
+A. 母に電話する用事があります。
+B. 母に電話します用事があります。
+C. 母で電話する用事があります。
+D. 母を電話する用事があります。
+
+---
+
+## Phần J. Vましょうか
+
+### 40. “Hôm nay cùng về nhé” là câu nào?
+
+A. 今日は一緒に帰りましょうか。
+B. 今日は一緒に帰りませんか。
+C. 今日は一緒に帰らなければなりません。
+D. 今日は一緒に帰ったことがあります。
+
+### 41. “Tối nay cùng đi xem phim nhé” là câu nào?
+
+A. 今晩、映画を見に行きましょうか。
+B. 今晩、映画を見に行きませんか。
+C. 今晩、映画を見に行かなければなりません。
+D. 今晩、映画を見に行ったことがあります。
+
+### 42. “Đồ nặng nhỉ. Cùng nâng nhé” là câu nào?
+
+A. 荷物が重いですね。一緒に持ちましょうか。
+B. 荷物が重いですね。一緒に持ちませんか。
+C. 荷物が重いですね。一緒に持たないでください。
+D. 荷物が重いですね。一緒に持たなければなりません。
+
+---
+
+## Phần K. Mini test tổng hợp
+
+### 43. 日本で買った帽子はとてもきれいです。
+
+A. Cái mũ tôi mua ở Nhật rất đẹp.
+B. Tôi mua cái mũ đẹp ở Nhật.
+C. Cái mũ Nhật đã đẹp.
+D. Tôi muốn mua cái mũ ở Nhật.
+
+### 44. 母が作った料理が好きです。
+
+A. Tôi thích món ăn mẹ nấu.
+B. Mẹ thích nấu ăn.
+C. Tôi thích mẹ nấu ăn.
+D. Mẹ đã ăn món đó.
+
+### 45. ミラーさんが住んでいる家に猫がいます。
+
+A. Trong ngôi nhà anh Miller đang sống có mèo.
+B. Anh Miller sống với mèo.
+C. Con mèo đang sống ở nhà Miller.
+D. Anh Miller có nhà đẹp.
+
+### 46. 白い靴を履いている人はだれですか。
+
+A. Người đang đi giày trắng là ai?
+B. Ai mua đôi giày trắng?
+C. Người kia có giày trắng không?
+D. Giày trắng ở đâu?
+
+### 47. 私が働きたい会社はサンゴです。
+
+A. Công ty tôi muốn làm việc là Sango.
+B. Tôi đang làm việc ở Sango.
+C. Tôi không muốn làm việc ở Sango.
+D. Công ty Sango rất đẹp.
+
+### 48. 読む時間がありません。
+
+A. Không có thời gian đọc.
+B. Không đọc được chữ.
+C. Không có sách đọc.
+D. Không muốn đọc.
+
+### 49. 友達と会う約束があります。
+
+A. Tôi có hẹn gặp bạn.
+B. Tôi đã gặp bạn.
+C. Tôi muốn gặp bạn.
+D. Tôi không gặp bạn.
+
+### 50. 東京へ行く用事があります。
+
+A. Tôi có việc đi Tokyo.
+B. Tôi muốn đi Tokyo.
+C. Tôi đã đi Tokyo.
+D. Tôi sống ở Tokyo.

@@ -1,0 +1,553 @@
+Dạ được. Dưới đây là bản **tổng hợp Minna no Nihongo Bài 25** + **bài tập 100% trắc nghiệm**, **không kèm đáp án** để bạn tự ôn.
+
+Nội dung file là **Ngữ pháp Minna 1 - Bài 25**, trọng tâm gồm: **～たら nếu… thì…**, **Vたら sau khi… thì…**, câu hỏi **～たら、どうしますか**, và mẫu **～ても / ～でも dù… thì cũng…**. 
+
+---
+
+# Minna no Nihongo Bài 25 — Tổng hợp + Bài tập trắc nghiệm
+
+## 1. Tổng quan bài 25
+
+| Nội dung       | Mẫu                          | Nghĩa                 |
+| -------------- | ---------------------------- | --------------------- |
+| Nếu… thì…      | Thể quá khứ thông thường + ら | Nếu… thì…             |
+| Sau khi V thì… | Vたら、V2                       | Sau khi V thì V2      |
+| Hỏi giả định   | ～たら、どうしますか                   | Nếu… thì làm thế nào? |
+| Dù… thì cũng…  | ～ても / ～でも                    | Cho dù… thì cũng…     |
+
+---
+
+# 2. ～たら — Nếu… thì…
+
+## Công thức chung
+
+```text
+Thể quá khứ thông thường + ら、Mệnh đề 2
+```
+
+## Cách chia
+
+| Loại từ          | Cách chia   | Ví dụ   |
+| ---------------- | ----------- | ------- |
+| Động từ          | Vた + ら      | 食べたら    |
+| Động từ phủ định | Vなかった + ら   | 食べなかったら |
+| Tính từ い        | Bỏ い + かったら | 暑かったら   |
+| Tính từ な        | Bỏ な + だったら | 暇だったら   |
+| Danh từ          | N + だったら    | 雨だったら   |
+
+## Nghĩa
+
+**Nếu mệnh đề 1 xảy ra thì mệnh đề 2 xảy ra.**
+
+Ví dụ:
+
+| Câu                  | Nghĩa                                 |
+| -------------------- | ------------------------------------- |
+| 暑かったら、エアコンをつけてください。  | Nếu nóng thì hãy bật điều hòa.        |
+| 好きだったら、言ってください。      | Nếu thích thì hãy nói ra.             |
+| 雨だったら、休んでもいいです。      | Nếu trời mưa thì nghỉ cũng được.      |
+| お金があったら、旅行したいです。     | Nếu có tiền, tôi muốn đi du lịch.     |
+| わからなかったら、先生に聞いてください。 | Nếu không hiểu thì hãy hỏi giáo viên. |
+
+---
+
+# 3. ～たら、どうしますか — Nếu… thì làm thế nào?
+
+## Công thức
+
+```text
+Thể quá khứ thông thường + ら、どうしますか。
+```
+
+## Nghĩa
+
+**Nếu tình huống đó xảy ra thì bạn sẽ làm gì / làm thế nào?**
+
+Ví dụ:
+
+| Câu hỏi                      | Nghĩa                                              |
+| ---------------------------- | -------------------------------------------------- |
+| スマホがなかったら、どうしますか。            | Nếu không có điện thoại thông minh thì bạn làm gì? |
+| 勉強しているとき、眠かったら、どうしますか。       | Khi đang học, nếu buồn ngủ thì làm gì?             |
+| 旅行しているとき、パスポートをなくしたら、どうしますか。 | Khi đang du lịch, nếu mất hộ chiếu thì làm gì?     |
+| 地震があったら、どうしますか。              | Nếu có động đất thì làm gì?                        |
+
+Ví dụ trả lời:
+
+| Câu       | Nghĩa                       |
+| --------- | --------------------------- |
+| 子どもと遊びます。 | Tôi sẽ chơi với con.        |
+| 寝ます。      | Tôi sẽ ngủ.                 |
+| 大使館へ行きます。 | Tôi sẽ đi đến đại sứ quán.  |
+| 机の下に入ります。 | Tôi sẽ chui xuống dưới bàn. |
+
+---
+
+# 4. Vたら、V2 — Sau khi V thì…
+
+## Công thức
+
+```text
+Vた + ら、V2
+```
+
+## Nghĩa
+
+**Sau khi V1 xảy ra / hoàn thành thì V2 xảy ra.**
+
+Ví dụ:
+
+| Câu                | Nghĩa                                 |
+| ------------------ | ------------------------------------- |
+| 授業が終わったら、食事に行きます。  | Sau khi giờ học kết thúc, tôi đi ăn.  |
+| 10時になったら、行きましょう。   | Đến 10 giờ thì cùng đi nhé.           |
+| うちへ帰ったら、シャワーを浴びます。 | Sau khi về nhà, tôi đi tắm.           |
+| 卒業したら、留学します。       | Sau khi tốt nghiệp, tôi sẽ đi du học. |
+| 駅に着いたら、電話してください。   | Sau khi đến ga, hãy gọi điện cho tôi. |
+| 60歳になったら、仕事を辞めます。  | Khi 60 tuổi, tôi sẽ nghỉ việc.        |
+
+---
+
+# 5. Phân biệt Vてから và Vたら
+
+| Mẫu     | Trọng tâm                                | Ví dụ                |
+| ------- | ---------------------------------------- | -------------------- |
+| Vてから、V2 | Nhấn mạnh V1 xong hẳn rồi mới làm V2     | レポートを書いてから、ごはんを食べます。 |
+| Vたら、V2  | V1 là thời điểm / điều kiện để V2 xảy ra | 7時になったら、ごはんを食べます。    |
+
+## Hiểu nhanh
+
+```text
+Vてから = sau khi làm xong V1 rồi mới V2
+Vたら = khi / sau khi điều kiện V1 xảy ra thì V2
+```
+
+Ví dụ:
+
+| Câu                  | Sắc thái                           |
+| -------------------- | ---------------------------------- |
+| レポートを書いてから、ごはんを食べます。 | Phải viết báo cáo xong rồi mới ăn. |
+| 7時になったら、ごはんを食べます。    | Đến 7 giờ thì ăn cơm.              |
+| 卒業してから、結婚します。        | Tốt nghiệp xong rồi mới kết hôn.   |
+| 25歳になったら、結婚します。      | Đến 25 tuổi thì kết hôn.           |
+
+---
+
+# 6. ～ても / ～でも — Dù… thì cũng…
+
+## Công thức
+
+| Loại từ          | Cách chia  | Ví dụ  |
+| ---------------- | ---------- | ------ |
+| Động từ          | Vて + も     | 行っても   |
+| Động từ phủ định | Vなくても      | 行かなくても |
+| Tính từ い        | Bỏ い + くても | 暑くても   |
+| Tính từ な        | Bỏ な + でも  | 便利でも   |
+| Danh từ          | N + でも     | 雨でも    |
+
+## Nghĩa
+
+**Cho dù… thì cũng…**
+
+Dùng khi kết quả ở mệnh đề 2 **trái với suy nghĩ thông thường** hoặc thể hiện **quyết tâm / bất chấp điều kiện**.
+
+Ví dụ:
+
+| Câu                | Nghĩa                                                 |
+| ------------------ | ----------------------------------------------------- |
+| お金がなくても、毎日楽しいです。   | Dù không có tiền, mỗi ngày vẫn vui.                   |
+| 休みでも、早く起きます。       | Dù là ngày nghỉ, tôi vẫn dậy sớm.                     |
+| デザインがきれいでも、買いません。  | Dù thiết kế đẹp, tôi cũng không mua.                  |
+| 雨でも、友達と遊びに行きます。    | Dù trời mưa, tôi vẫn đi chơi với bạn.                 |
+| 冬でも、アイスクリームを食べます。  | Dù mùa đông, tôi vẫn ăn kem.                          |
+| 有名人になっても、結婚しません。   | Dù trở thành người nổi tiếng, tôi cũng không kết hôn. |
+| 眠くても、勉強しなければなりません。 | Dù buồn ngủ, tôi vẫn phải học.                        |
+| 大変でも、頑張ります。        | Dù vất vả, tôi vẫn cố gắng.                           |
+
+---
+
+# 7. Bài tập trắc nghiệm
+
+## Phần A. Chọn nghĩa đúng
+
+### 1. ～たら nghĩa chính là gì?
+
+A. Nếu / sau khi
+B. Nhưng
+C. Vì
+D. Đang làm
+
+### 2. ～ても / ～でも nghĩa là gì?
+
+A. Dù… thì cũng…
+B. Nếu… thì…
+C. Sau khi…
+D. Trước khi…
+
+### 3. どうしますか nghĩa là gì?
+
+A. Làm thế nào / làm gì?
+B. Ở đâu?
+C. Khi nào?
+D. Bao nhiêu?
+
+### 4. Vてから nhấn mạnh điều gì?
+
+A. V1 xong hẳn rồi mới V2
+B. V1 chưa xảy ra
+C. V1 là sở thích
+D. V1 là lời mời
+
+### 5. Vたら trong nghĩa “sau khi” thường diễn tả gì?
+
+A. V1 là thời điểm / điều kiện để V2 xảy ra
+B. V1 là mệnh lệnh
+C. V1 là cấm đoán
+D. V1 là khả năng
+
+---
+
+## Phần B. Chia ～たら
+
+### 6. 暑い → nếu nóng là gì?
+
+A. 暑かったら
+B. 暑いだったら
+C. 暑くたら
+D. 暑いら
+
+### 7. 暇な → nếu rảnh là gì?
+
+A. 暇だったら
+B. 暇かったら
+C. 暇ならたら
+D. 暇でたら
+
+### 8. 雨 → nếu mưa là gì?
+
+A. 雨だったら
+B. 雨たら
+C. 雨ならたら
+D. 雨くたら
+
+### 9. 食べます → nếu ăn / sau khi ăn là gì?
+
+A. 食べたら
+B. 食べますたら
+C. 食べてら
+D. 食べるたら
+
+### 10. 食べません → nếu không ăn là gì?
+
+A. 食べなかったら
+B. 食べないたら
+C. 食べませんたら
+D. 食べなくたら
+
+---
+
+## Phần C. ～たら — Nếu… thì…
+
+### 11. “Nếu nóng thì hãy bật điều hòa” là câu nào?
+
+A. 暑かったら、エアコンをつけてください。
+B. 暑いだったら、エアコンをつけてください。
+C. 暑くても、エアコンをつけてください。
+D. 暑いとき、エアコンをつけました。
+
+### 12. “Nếu thích thì hãy nói ra” là câu nào?
+
+A. 好きだったら、言ってください。
+B. 好きかったら、言ってください。
+C. 好きならたら、言ってください。
+D. 好きても、言ってください。
+
+### 13. “Nếu trời mưa thì nghỉ cũng được” là câu nào?
+
+A. 雨だったら、休んでもいいです。
+B. 雨たら、休んでもいいです。
+C. 雨くても、休んでもいいです。
+D. 雨でから、休んでもいいです。
+
+### 14. “Nếu có tiền, tôi muốn đi du lịch” là câu nào?
+
+A. お金があったら、旅行したいです。
+B. お金がありますたら、旅行したいです。
+C. お金があるても、旅行したいです。
+D. お金があってから、旅行したいです。
+
+### 15. “Nếu không hiểu thì hãy hỏi giáo viên” là câu nào?
+
+A. わからなかったら、先生に聞いてください。
+B. わからないたら、先生に聞いてください。
+C. わかりませんたら、先生に聞いてください。
+D. わからなくても、先生に聞いてください。
+
+---
+
+## Phần D. ～たら、どうしますか
+
+### 16. “Nếu không có điện thoại thông minh thì bạn làm gì?” là câu nào?
+
+A. スマホがなかったら、どうしますか。
+B. スマホがないたら、どうしますか。
+C. スマホがなくても、どうしますか。
+D. スマホがありませんたら、どうしますか。
+
+### 17. “Nếu buồn ngủ khi đang học thì làm gì?” là câu nào?
+
+A. 勉強しているとき、眠かったら、どうしますか。
+B. 勉強しているとき、眠くても、どうしますか。
+C. 勉強しているとき、眠いだったら、どうしますか。
+D. 勉強しているとき、眠いら、どうしますか。
+
+### 18. “Nếu đang đi du lịch mà mất hộ chiếu thì làm gì?” là câu nào?
+
+A. 旅行しているとき、パスポートをなくしたら、どうしますか。
+B. 旅行しているとき、パスポートをなくすたら、どうしますか。
+C. 旅行しているとき、パスポートをなくしても、どうしますか。
+D. 旅行しているとき、パスポートをなくしますたら、どうしますか。
+
+### 19. “Nếu có động đất thì bạn làm gì?” là câu nào?
+
+A. 地震があったら、どうしますか。
+B. 地震がありますたら、どうしますか。
+C. 地震があっても、どうしますか。
+D. 地震だったても、どうしますか。
+
+### 20. “Tôi sẽ chui xuống dưới bàn” là câu nào?
+
+A. 机の下に入ります。
+B. 机の下で入ります。
+C. 机の下を入ります。
+D. 机の下へあります。
+
+---
+
+## Phần E. Vたら — Sau khi V thì…
+
+### 21. “Sau khi giờ học kết thúc, tôi đi ăn” là câu nào?
+
+A. 授業が終わったら、食事に行きます。
+B. 授業が終わってから、食事に行きました。
+C. 授業が終わるても、食事に行きます。
+D. 授業が終わりますたら、食事に行きます。
+
+### 22. “Đến 10 giờ thì cùng đi nhé” là câu nào?
+
+A. 10時になったら、行きましょう。
+B. 10時になってから、行きました。
+C. 10時になるても、行きましょう。
+D. 10時になりますたら、行きましょう。
+
+### 23. “Sau khi về nhà, tôi đi tắm” là câu nào?
+
+A. うちへ帰ったら、シャワーを浴びます。
+B. うちへ帰ってから、シャワーを浴びました。
+C. うちへ帰るても、シャワーを浴びます。
+D. うちへ帰りますたら、シャワーを浴びます。
+
+### 24. “Sau khi tốt nghiệp, tôi sẽ đi du học” là câu nào?
+
+A. 卒業したら、留学します。
+B. 卒業してから、留学しました。
+C. 卒業するても、留学します。
+D. 卒業しますたら、留学します。
+
+### 25. “Sau khi đến ga, hãy gọi điện cho tôi” là câu nào?
+
+A. 駅に着いたら、電話してください。
+B. 駅に着いてから、電話しました。
+C. 駅に着くても、電話してください。
+D. 駅に着きますたら、電話してください。
+
+---
+
+## Phần F. Phân biệt Vてから / Vたら
+
+### 26. Câu nào nhấn mạnh “viết báo cáo xong hẳn rồi mới ăn”?
+
+A. レポートを書いてから、ごはんを食べます。
+B. レポートを書いたら、ごはんを食べます。
+C. レポートを書いても、ごはんを食べます。
+D. レポートを書きながら、ごはんを食べます。
+
+### 27. Câu nào nghĩa là “đến 7 giờ thì ăn cơm”?
+
+A. 7時になったら、ごはんを食べます。
+B. 7時になってから、ごはんを食べました。
+C. 7時になっても、ごはんを食べます。
+D. 7時になる前に、ごはんを食べます。
+
+### 28. Vてから thường dùng khi nào?
+
+A. Muốn nhấn mạnh V1 xong rồi mới V2
+B. Muốn nói dù V1 vẫn V2
+C. Muốn nói hỏi giá tiền
+D. Muốn nói đang làm V
+
+### 29. Vたら thường dùng khi nào?
+
+A. V1 là điều kiện / thời điểm để V2 xảy ra
+B. V1 là người nhận hành động
+C. V1 là địa điểm
+D. V1 là mệnh lệnh phủ định
+
+### 30. Câu nào tự nhiên hơn với tình huống “đủ 60 tuổi thì nghỉ việc”?
+
+A. 60歳になったら、仕事を辞めます。
+B. 60歳になってから、仕事を辞めました。
+C. 60歳になっても、仕事を辞めました。
+D. 60歳になる前に、仕事を辞めました。
+
+---
+
+## Phần G. ～ても / ～でも
+
+### 31. “Dù không có tiền, mỗi ngày vẫn vui” là câu nào?
+
+A. お金がなくても、毎日楽しいです。
+B. お金がなかったら、毎日楽しいです。
+C. お金がないたら、毎日楽しいです。
+D. お金がありませんでも、毎日楽しいです。
+
+### 32. “Dù là ngày nghỉ, tôi vẫn dậy sớm” là câu nào?
+
+A. 休みでも、早く起きます。
+B. 休みたら、早く起きます。
+C. 休みくても、早く起きます。
+D. 休みだったら、早く起きます。
+
+### 33. “Dù thiết kế đẹp, tôi cũng không mua” là câu nào?
+
+A. デザインがきれいでも、買いません。
+B. デザインがきれいだったら、買いません。
+C. デザインがきれいくても、買いません。
+D. デザインがきれいならたら、買いません。
+
+### 34. “Dù trời mưa, tôi vẫn đi chơi với bạn” là câu nào?
+
+A. 雨でも、友達と遊びに行きます。
+B. 雨だったら、友達と遊びに行きます。
+C. 雨くても、友達と遊びに行きます。
+D. 雨たら、友達と遊びに行きます。
+
+### 35. “Dù mùa đông, tôi vẫn ăn kem” là câu nào?
+
+A. 冬でも、アイスクリームを食べます。
+B. 冬だったら、アイスクリームを食べます。
+C. 冬くても、アイスクリームを食べます。
+D. 冬たら、アイスクリームを食べます。
+
+---
+
+## Phần H. Chia ～ても / ～でも
+
+### 36. 暑い → dù nóng là gì?
+
+A. 暑くても
+B. 暑かったら
+C. 暑いでも
+D. 暑いも
+
+### 37. 眠い → dù buồn ngủ là gì?
+
+A. 眠くても
+B. 眠かったら
+C. 眠いでも
+D. 眠いも
+
+### 38. 大変な → dù vất vả là gì?
+
+A. 大変でも
+B. 大変くても
+C. 大変だったら
+D. 大変なても
+
+### 39. 雨 → dù trời mưa là gì?
+
+A. 雨でも
+B. 雨くても
+C. 雨だったら
+D. 雨ても
+
+### 40. 行きます → dù đi là gì?
+
+A. 行っても
+B. 行ったら
+C. 行きても
+D. 行くても
+
+---
+
+## Phần I. Mini test tổng hợp
+
+### 41. もし暑かったら、窓を開けてください。
+
+A. Nếu nóng thì hãy mở cửa sổ.
+B. Dù nóng thì hãy mở cửa sổ.
+C. Sau khi nóng thì hãy mở cửa sổ.
+D. Trước khi nóng thì hãy mở cửa sổ.
+
+### 42. 雨だったら、どこへも行きません。
+
+A. Nếu trời mưa thì tôi không đi đâu cả.
+B. Dù trời mưa thì tôi vẫn đi.
+C. Sau khi mưa thì tôi đi.
+D. Trời mưa rồi.
+
+### 43. 仕事が終わったら、うちへ帰ります。
+
+A. Sau khi công việc kết thúc, tôi về nhà.
+B. Dù công việc kết thúc, tôi về nhà.
+C. Trước khi làm việc, tôi về nhà.
+D. Nếu không làm việc, tôi về nhà.
+
+### 44. 日本へ行ったら、何をしたいですか。
+
+A. Nếu / khi đến Nhật, bạn muốn làm gì?
+B. Dù đến Nhật, bạn muốn làm gì?
+C. Trước khi đến Nhật, bạn làm gì?
+D. Bạn đã từng đến Nhật chưa?
+
+### 45. 勉強しても、わかりません。
+
+A. Dù học rồi cũng không hiểu.
+B. Nếu học thì hiểu.
+C. Sau khi học thì hiểu.
+D. Trước khi học thì không hiểu.
+
+### 46. 忙しくても、毎日日本語を勉強します。
+
+A. Dù bận, tôi vẫn học tiếng Nhật mỗi ngày.
+B. Nếu bận, tôi không học.
+C. Sau khi bận, tôi học.
+D. Khi rảnh, tôi học.
+
+### 47. 便利でも、値段が高かったら、買いません。
+
+A. Dù tiện lợi, nếu giá đắt thì tôi không mua.
+B. Nếu tiện lợi thì tôi mua ngay.
+C. Sau khi tiện lợi thì giá đắt.
+D. Vì tiện lợi nên tôi mua.
+
+### 48. 風邪をひいたら、薬を飲んでください。
+
+A. Nếu bị cảm thì hãy uống thuốc.
+B. Dù bị cảm thì hãy uống thuốc.
+C. Trước khi bị cảm thì uống thuốc.
+D. Sau khi uống thuốc thì bị cảm.
+
+### 49. 大変でも、頑張ります。
+
+A. Dù vất vả, tôi vẫn cố gắng.
+B. Nếu vất vả, tôi nghỉ.
+C. Sau khi vất vả, tôi ngủ.
+D. Vì vất vả nên tôi không làm.
+
+### 50. 何回聞いても、わかりません。
+
+A. Dù nghe bao nhiêu lần cũng không hiểu.
+B. Nếu nghe một lần thì hiểu.
+C. Sau khi nghe thì hiểu.
+D. Trước khi nghe thì không hiểu.

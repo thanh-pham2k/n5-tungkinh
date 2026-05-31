@@ -1,0 +1,647 @@
+Dạ được. Dưới đây là bản **tổng hợp Minna no Nihongo Bài 23** + **bài tập 100% trắc nghiệm**, **không kèm đáp án** để bạn tự ôn.
+
+---
+
+# Minna no Nihongo Bài 23 — Tổng hợp + Bài tập trắc nghiệm
+
+## 1. Tổng quan bài 23
+
+| Nội dung                       | Mẫu              | Nghĩa                 |
+| ------------------------------ | ---------------- | --------------------- |
+| Khi… thì…                      | V / Adj / N + とき | Khi…                  |
+| Khi gặp tình huống thì làm sao | ～とき、どうしますか       | Khi… thì làm thế nào? |
+| Hễ cứ… thì…                    | Vると、V2           | Hễ cứ V1 thì V2       |
+| Danh từ + tính từ              | Nが Adjです         | N có tính chất Adj    |
+| Đi qua / di chuyển trên        | Nを V di chuyển   | Đi qua / đi trên N    |
+
+---
+
+# 2. ～とき — Khi…
+
+## Công thức
+
+| Loại từ   | Cách nối với とき         | Ví dụ       |
+| --------- | ----------------------- | ----------- |
+| Tính từ い | いAdj + とき               | さびしいとき      |
+| Tính từ な | なAdj + な + とき           | ひまなとき       |
+| Danh từ   | N + の + とき              | 子どものとき      |
+| Động từ   | V thể thông thường + とき | 寝るとき / 寝たとき |
+
+## Nghĩa
+
+```text
+Khi A thì B
+```
+
+Ví dụ:
+
+| Câu                     | Nghĩa                                     |
+| ----------------------- | ----------------------------------------- |
+| 子どものとき、タイさんの家へ遊びに行きました。 | Khi còn nhỏ, tôi thường đến nhà Tài chơi. |
+| さびしいとき、彼氏に会いたいです。       | Khi cô đơn, tôi muốn gặp bạn trai.        |
+| 寝るとき、電気を消してください。        | Khi đi ngủ, hãy tắt đèn.                  |
+| わからないとき、先生に聞いてください。     | Khi không hiểu, hãy hỏi giáo viên.        |
+
+---
+
+# 3. Vるとき và Vたとき
+
+Đây là phần rất quan trọng.
+
+## 3.1. Vるとき
+
+Dùng khi hành động V1 **chưa xảy ra / chưa hoàn thành** tại thời điểm làm V2.
+
+Ví dụ:
+
+| Câu                      | Nghĩa                                  |
+| ------------------------ | -------------------------------------- |
+| 寝るとき、「おやすみなさい」と言います。     | Khi đi ngủ, nói “chúc ngủ ngon”.       |
+| 寝るとき、電気を消してください。         | Khi đi ngủ, hãy tắt đèn.               |
+| ごはんを食べるとき、「いただきます」と言います。 | Khi ăn cơm, nói “いただきます”.              |
+| うちへ帰るとき、アイスクリームを買いました。   | Khi về nhà, tôi mua kem trên đường về. |
+
+Hiểu đơn giản:
+
+```text
+寝るとき = trước / trong lúc chuẩn bị ngủ
+帰るとき = trên đường về, chưa về tới nơi
+```
+
+---
+
+## 3.2. Vたとき
+
+Dùng khi hành động V1 **đã xảy ra / đã hoàn thành** rồi mới làm V2.
+
+Ví dụ:
+
+| Câu                       | Nghĩa                                  |
+| ------------------------- | -------------------------------------- |
+| うちへ帰ったとき、「ただいま」と言います。     | Khi về đến nhà, nói “tôi về rồi”.      |
+| 会社へ来たとき、「おはようございます」と言います。 | Khi đến công ty, nói “chào buổi sáng”. |
+| ごはんを食べたとき、「ごちそうさま」と言います。  | Khi ăn xong, nói “ごちそうさま”.             |
+| パリへ行ったとき、このドレスを買いました。     | Khi đã đến Paris, tôi mua cái váy này. |
+
+Hiểu đơn giản:
+
+```text
+帰ったとき = sau khi đã về tới nơi
+食べたとき = sau khi đã ăn xong
+```
+
+---
+
+# 4. ～とき、どうしますか — Khi… thì làm thế nào?
+
+## Công thức
+
+```text
+V / Adj / N + とき、どうしますか。
+```
+
+## Nghĩa
+
+**Khi gặp tình huống đó thì làm thế nào?**
+
+Ví dụ:
+
+| Câu hỏi              | Nghĩa                                  |
+| -------------------- | -------------------------------------- |
+| お金が出ないとき、どうしますか。     | Khi tiền không ra thì làm thế nào?     |
+| 現金がないとき、どうしますか。      | Khi không có tiền mặt thì làm thế nào? |
+| 熱のとき、どうしますか。         | Khi bị sốt thì làm thế nào?            |
+| パスポートをなくしたとき、どうしますか。 | Khi làm mất hộ chiếu thì làm thế nào?  |
+
+Ví dụ trả lời:
+
+| Câu             | Nghĩa                   |
+| --------------- | ----------------------- |
+| 黄色いボタンを押してください。 | Hãy bấm nút màu vàng.   |
+| カードで払ってもいいです。   | Có thể trả bằng thẻ.    |
+| すぐ病院へ行ってください。   | Hãy đến bệnh viện ngay. |
+| 大使館へ行ってください。    | Hãy đến đại sứ quán.    |
+
+---
+
+# 5. Vると、V2 — Hễ cứ… thì…
+
+## Công thức
+
+```text
+Vる + と、V2
+```
+
+## Nghĩa
+
+**Hễ cứ V1 thì V2 xảy ra.**
+
+Dùng khi V2 là kết quả tự nhiên / chắc chắn xảy ra sau V1.
+
+## Thường dùng trong 3 trường hợp
+
+| Trường hợp                    | Ví dụ           |
+| ----------------------------- | --------------- |
+| Chỉ dẫn máy móc               | ここを押すと、切符が出ます。  |
+| Chỉ đường                     | 右へ曲がると、銀行があります。 |
+| Hiện tượng / phản xạ tự nhiên | 勉強すると、眠くなります。   |
+
+Ví dụ:
+
+| Câu                  | Nghĩa                                          |
+| -------------------- | ---------------------------------------------- |
+| このボタンを押すと、切符が出ます。    | Hễ bấm nút này thì vé sẽ ra.                   |
+| 左へ回すと、音が小さくなります。     | Hễ vặn sang trái thì âm thanh nhỏ đi.          |
+| その信号を右へ曲がると、銀行があります。 | Hễ rẽ phải ở đèn tín hiệu đó thì có ngân hàng. |
+| 勉強すると、眠くなります。        | Hễ học bài là buồn ngủ.                        |
+| 彼女に会うと、手をつなぎたくなります。  | Hễ gặp cô ấy là muốn nắm tay.                  |
+
+---
+
+# 6. Lưu ý với Vると
+
+Vế sau **không dùng ý chí / lời mời / mệnh lệnh**.
+
+Nên dùng cho kết quả tự nhiên:
+
+```text
+このボタンを押すと、切符が出ます。
+```
+
+Không dùng kiểu:
+
+```text
+このボタンを押すと、行きましょう。❌
+```
+
+Vì **行きましょう** là lời mời, không phải kết quả tự nhiên.
+
+---
+
+# 7. Nが Adjです — Danh từ có tính chất…
+
+## Công thức
+
+```text
+N が Adj です。
+```
+
+## Nghĩa
+
+Dùng để miêu tả tính chất của danh từ một cách khách quan.
+
+Ví dụ:
+
+| Câu            | Nghĩa                     |
+| -------------- | ------------------------- |
+| あの女の人は顔がきれいです。 | Người phụ nữ kia mặt đẹp. |
+| 音が小さいです。       | Âm thanh nhỏ.             |
+| この料理は味がおいしいです。 | Món này vị ngon.          |
+| 今日、天気が寒いです。    | Hôm nay thời tiết lạnh.   |
+| 部屋がきれいです。      | Phòng sạch.               |
+| 空が青いです。        | Bầu trời xanh.            |
+
+Ghi nhớ nhanh:
+
+```text
+Danh từ + が + tính từ
+```
+
+Ví dụ rất hay gặp:
+
+| Mẫu   | Nghĩa   |
+| ----- | ------- |
+| 背が高い  | Cao     |
+| 鼻が長い  | Mũi dài |
+| 髪が黒い  | Tóc đen |
+| 顔がきれい | Mặt đẹp |
+
+---
+
+# 8. Nを + động từ di chuyển
+
+## Công thức
+
+```text
+N を + động từ di chuyển
+```
+
+## Nghĩa
+
+**Đi qua / di chuyển trên / băng qua N.**
+
+Dùng với các động từ di chuyển như:
+
+| Động từ | Nghĩa    |
+| ------- | -------- |
+| 歩きます    | đi bộ    |
+| 散歩します   | đi dạo   |
+| 渡ります    | băng qua |
+| 曲がります   | rẽ       |
+| 飛びます    | bay      |
+
+Ví dụ:
+
+| Câu            | Nghĩa                       |
+| -------------- | --------------------------- |
+| 道を渡ります。        | Băng qua đường.             |
+| 公園を散歩します。      | Đi dạo trong công viên.     |
+| 道の右を歩きます。      | Đi bộ bên phải đường.       |
+| 飛行機が空を飛んでいます。  | Máy bay đang bay trên trời. |
+| 橋を渡って、右へ曲がります。 | Qua cầu rồi rẽ phải.        |
+
+Ghi nhớ:
+
+| Ý nghĩa                 | Trợ từ |
+| ----------------------- | ------ |
+| Đi đến nơi nào          | へ / に  |
+| Làm hành động ở đâu     | で      |
+| Đi qua / di chuyển trên | を      |
+
+---
+
+# 9. Bài tập trắc nghiệm
+
+## Phần A. Chọn nghĩa đúng
+
+### 1. とき nghĩa là gì?
+
+A. Khi
+B. Vì
+C. Nhưng
+D. Nếu
+
+### 2. Vると、V2 nghĩa là gì?
+
+A. Hễ cứ V1 thì V2
+B. Muốn làm V
+C. Phải làm V
+D. Đã từng làm V
+
+### 3. Nを渡ります nghĩa là gì?
+
+A. Băng qua N
+B. Đi đến N
+C. Ở tại N
+D. Có N
+
+### 4. どうしますか nghĩa là gì?
+
+A. Làm thế nào?
+B. Ở đâu?
+C. Khi nào?
+D. Bao nhiêu?
+
+### 5. NがAdjです dùng để làm gì?
+
+A. Miêu tả tính chất của N
+B. Hỏi giá tiền
+C. Nói mệnh lệnh
+D. Nói so sánh nhất
+
+---
+
+## Phần B. Chọn dạng đúng với とき
+
+### 6. “Khi cô đơn” là câu nào?
+
+A. さびしいとき
+B. さびしくとき
+C. さびしいなとき
+D. さびしいのとき
+
+### 7. “Khi rảnh” là câu nào?
+
+A. ひまなとき
+B. ひまとき
+C. ひまのとき
+D. ひまでとき
+
+### 8. “Khi còn nhỏ” là câu nào?
+
+A. 子どものとき
+B. 子どもなとき
+C. 子どもとき
+D. 子どもでとき
+
+### 9. “Khi đi ngủ” là câu nào?
+
+A. 寝るとき
+B. 寝ますとき
+C. 寝てとき
+D. 寝たときだけ
+
+### 10. “Khi không hiểu” là câu nào?
+
+A. わからないとき
+B. わかりませんとき
+C. わかってとき
+D. わからなくとき
+
+---
+
+## Phần C. ～とき — Dịch câu
+
+### 11. “Khi còn nhỏ, tôi thường đến nhà Tài chơi” là câu nào?
+
+A. 子どものとき、タイさんの家へ遊びに行きました。
+B. 子どもなとき、タイさんの家へ遊びに行きました。
+C. 子どもとき、タイさんの家へ遊びに行きました。
+D. 子どもでとき、タイさんの家へ遊びに行きました。
+
+### 12. “Khi cô đơn, tôi muốn gặp bạn trai” là câu nào?
+
+A. さびしいとき、彼氏に会いたいです。
+B. さびしくとき、彼氏に会いたいです。
+C. さびしいなとき、彼氏に会いたいです。
+D. さびしいのとき、彼氏に会いたいです。
+
+### 13. “Khi đi ngủ, hãy tắt đèn” là câu nào?
+
+A. 寝るとき、電気を消してください。
+B. 寝たとき、電気を消してください。
+C. 寝ますとき、電気を消してください。
+D. 寝てとき、電気を消してください。
+
+### 14. “Khi không hiểu, hãy hỏi giáo viên” là câu nào?
+
+A. わからないとき、先生に聞いてください。
+B. わかりませんとき、先生に聞いてください。
+C. わからなくとき、先生に聞いてください。
+D. わかってとき、先生に聞いてください。
+
+---
+
+## Phần D. Vるとき hay Vたとき
+
+### 15. “Khi đi ngủ, nói chúc ngủ ngon” là câu nào?
+
+A. 寝るとき、「おやすみなさい」と言います。
+B. 寝たとき、「おやすみなさい」と言います。
+C. 寝ますとき、「おやすみなさい」と言います。
+D. 寝てとき、「おやすみなさい」と言います。
+
+### 16. “Khi về đến nhà, nói ただいま” là câu nào?
+
+A. うちへ帰ったとき、「ただいま」と言います。
+B. うちへ帰るとき、「ただいま」と言います。
+C. うちへ帰りますとき、「ただいま」と言います。
+D. うちへ帰ってとき、「ただいま」と言います。
+
+### 17. “Khi ăn xong, nói ごちそうさま” là câu nào?
+
+A. ごはんを食べたとき、「ごちそうさま」と言います。
+B. ごはんを食べるとき、「ごちそうさま」と言います。
+C. ごはんを食べますとき、「ごちそうさま」と言います。
+D. ごはんを食べてとき、「ごちそうさま」と言います。
+
+### 18. “Khi về nhà, tôi mua kem trên đường về” là câu nào?
+
+A. うちへ帰るとき、アイスクリームを買いました。
+B. うちへ帰ったとき、アイスクリームを買いました。
+C. うちへ帰りますとき、アイスクリームを買いました。
+D. うちへ帰ってとき、アイスクリームを買いました。
+
+### 19. “Khi đã đến Paris, tôi mua cái váy này” là câu nào?
+
+A. パリへ行ったとき、このドレスを買いました。
+B. パリへ行くとき、このドレスを買いました。
+C. パリへ行きますとき、このドレスを買いました。
+D. パリへ行ってとき、このドレスを買いました。
+
+---
+
+## Phần E. ～とき、どうしますか
+
+### 20. “Khi tiền không ra thì làm thế nào?” là câu nào?
+
+A. お金が出ないとき、どうしますか。
+B. お金が出ませんとき、どうしますか。
+C. お金が出たとき、どうしますか。
+D. お金を出ないとき、どうしますか。
+
+### 21. “Khi không có tiền mặt thì làm thế nào?” là câu nào?
+
+A. 現金がないとき、どうしますか。
+B. 現金がありませんとき、どうしますか。
+C. 現金のないとき、どうしますか。
+D. 現金をないとき、どうしますか。
+
+### 22. “Khi bị sốt thì làm thế nào?” là câu nào?
+
+A. 熱のとき、どうしますか。
+B. 熱なとき、どうしますか。
+C. 熱とき、どうしますか。
+D. 熱でとき、どうしますか。
+
+### 23. “Khi làm mất hộ chiếu thì làm thế nào?” là câu nào?
+
+A. パスポートをなくしたとき、どうしますか。
+B. パスポートをなくすとき、どうしますか。
+C. パスポートがなくしたとき、どうしますか。
+D. パスポートでなくしたとき、どうしますか。
+
+### 24. “Hãy đến đại sứ quán” là câu nào?
+
+A. 大使館へ行ってください。
+B. 大使館で行ってください。
+C. 大使館を行ってください。
+D. 大使館に行きません。
+
+---
+
+## Phần F. Vると、V2
+
+### 25. “Hễ bấm nút này thì vé sẽ ra” là câu nào?
+
+A. このボタンを押すと、切符が出ます。
+B. このボタンを押して、切符が出ます。
+C. このボタンを押したとき、切符が出ます。
+D. このボタンを押すとき、切符が出ます。
+
+### 26. “Hễ vặn sang trái thì âm thanh nhỏ đi” là câu nào?
+
+A. 左へ回すと、音が小さくなります。
+B. 左へ回して、音が小さくなります。
+C. 左へ回したとき、音が小さくなります。
+D. 左へ回すとき、音が小さくなります。
+
+### 27. “Hễ rẽ phải ở đèn tín hiệu đó thì có ngân hàng” là câu nào?
+
+A. その信号を右へ曲がると、銀行があります。
+B. その信号に右へ曲がると、銀行があります。
+C. その信号で右へ曲がりますとき、銀行があります。
+D. その信号を右へ曲がったとき、銀行があります。
+
+### 28. “Hễ học bài là buồn ngủ” là câu nào?
+
+A. 勉強すると、眠くなります。
+B. 勉強したとき、眠くなります。
+C. 勉強するとき、眠くなります。
+D. 勉強して、眠くなります。
+
+### 29. “Hễ trời mưa là cô ấy lại buồn” là câu nào?
+
+A. 雨が降ると、彼女は悲しくなります。
+B. 雨が降ったとき、彼女は悲しくなります。
+C. 雨が降るとき、彼女は悲しくなります。
+D. 雨が降って、彼女は悲しくなります。
+
+---
+
+## Phần G. NがAdjです
+
+### 30. “Người phụ nữ kia mặt đẹp” là câu nào?
+
+A. あの女の人は顔がきれいです。
+B. あの女の人は顔をきれいです。
+C. あの女の人は顔できれいです。
+D. あの女の人は顔にきれいです。
+
+### 31. “Âm thanh nhỏ” là câu nào?
+
+A. 音が小さいです。
+B. 音を小さいです。
+C. 音で小さいです。
+D. 音に小さいです。
+
+### 32. “Món ăn này ngon” là câu nào?
+
+A. この料理は味がおいしいです。
+B. この料理は味をおいしいです。
+C. この料理は味でおいしいです。
+D. この料理は味においしいです。
+
+### 33. “Hôm nay trời lạnh” là câu nào?
+
+A. 今日、天気が寒いです。
+B. 今日、天気を寒いです。
+C. 今日、天気で寒いです。
+D. 今日、天気に寒いです。
+
+### 34. “Bầu trời xanh” là câu nào?
+
+A. 空が青いです。
+B. 空を青いです。
+C. 空で青いです。
+D. 空に青いです。
+
+---
+
+## Phần H. Nを + động từ di chuyển
+
+### 35. “Băng qua đường” là câu nào?
+
+A. 道を渡ります。
+B. 道に渡ります。
+C. 道で渡ります。
+D. 道へ渡ります。
+
+### 36. “Đi dạo trong công viên” là câu nào?
+
+A. 公園を散歩します。
+B. 公園で散歩します。
+C. 公園に散歩します。
+D. 公園へ散歩します。
+
+### 37. “Đi bộ bên phải đường” là câu nào?
+
+A. 道の右を歩きます。
+B. 道の右に歩きます。
+C. 道の右で歩きます。
+D. 道の右へ歩きます。
+
+### 38. “Máy bay đang bay trên trời” là câu nào?
+
+A. 飛行機が空を飛んでいます。
+B. 飛行機が空で飛んでいます。
+C. 飛行機が空に飛んでいます。
+D. 飛行機が空へ飛んでいます。
+
+### 39. “Qua cầu rồi rẽ phải” là câu nào?
+
+A. 橋を渡って、右へ曲がります。
+B. 橋に渡って、右へ曲がります。
+C. 橋で渡って、右へ曲がります。
+D. 橋へ渡って、右へ曲がります。
+
+---
+
+## Phần I. Mini test tổng hợp
+
+### 40. ひまなとき、私の家へ遊びに来てください。
+
+A. Khi rảnh, hãy đến nhà tôi chơi.
+B. Khi buồn, hãy về nhà.
+C. Khi không hiểu, hãy hỏi tôi.
+D. Khi ngủ, hãy tắt đèn.
+
+### 41. 妻が病気のとき、会社を休みます。
+
+A. Khi vợ ốm, tôi nghỉ làm.
+B. Khi vợ đi làm, tôi nghỉ học.
+C. Khi vợ rảnh, tôi đi công ty.
+D. Khi vợ ngủ, tôi làm việc.
+
+### 42. 病院へ行くとき、保険証を忘れないでください。
+
+A. Khi đi bệnh viện, đừng quên thẻ bảo hiểm.
+B. Khi đến bệnh viện rồi, hãy gọi điện.
+C. Khi bị sốt, hãy ngủ.
+D. Khi về nhà, hãy mua thuốc.
+
+### 43. 図書館で本を借りるとき、カードが要ります。
+
+A. Khi mượn sách ở thư viện, cần thẻ.
+B. Khi trả sách, không cần thẻ.
+C. Khi học ở thư viện, cần tiền.
+D. Khi mua sách, cần thẻ.
+
+### 44. 音楽を聞くと、踊りたくなります。
+
+A. Hễ nghe nhạc là muốn nhảy.
+B. Khi nghe nhạc xong thì ngủ.
+C. Trước khi nghe nhạc thì nhảy.
+D. Nghe nhạc ở đâu?
+
+### 45. お酒をたくさん飲むと、顔が赤くなります。
+
+A. Hễ uống nhiều rượu thì mặt đỏ lên.
+B. Khi uống rượu xong thì về nhà.
+C. Không được uống rượu.
+D. Muốn uống rượu.
+
+### 46. ATMカードをなくしたとき、銀行へ行ってください。
+
+A. Khi làm mất thẻ ATM, hãy đến ngân hàng.
+B. Khi có thẻ ATM, hãy đến ngân hàng.
+C. Khi rút tiền, hãy về nhà.
+D. Khi ngân hàng đóng cửa, hãy gọi điện.
+
+### 47. 風邪をひいたとき、病院へ行ってください。
+
+A. Khi bị cảm, hãy đến bệnh viện.
+B. Khi đi bệnh viện, hãy bị cảm.
+C. Khi khỏe, hãy nghỉ ngơi.
+D. Khi uống thuốc, hãy đi làm.
+
+### 48. 電気がつかないとき、電気会社へ電話してください。
+
+A. Khi điện không sáng, hãy gọi công ty điện.
+B. Khi trời sáng, hãy gọi công ty điện.
+C. Khi mất ví, hãy gọi công ty điện.
+D. Khi học bài, hãy gọi công ty điện.
+
+### 49. 公園を散歩しているとき、彼女に会いました。
+
+A. Khi đang đi dạo công viên, tôi gặp cô ấy.
+B. Khi đến công viên, tôi ngủ.
+C. Khi qua cầu, tôi gặp cô ấy.
+D. Khi ở công ty, tôi gọi cô ấy.
+
+### 50. ここを押すと、水が出ます。
+
+A. Hễ bấm vào đây thì nước chảy ra.
+B. Khi nước chảy thì bấm vào đây.
+C. Hãy bấm nước.
+D. Không được bấm vào đây.

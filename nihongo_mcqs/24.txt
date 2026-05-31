@@ -1,0 +1,682 @@
+Dạ được. Dưới đây là bản **tổng hợp Minna no Nihongo Bài 24** + **bài tập 100% trắc nghiệm**, **không kèm đáp án** để bạn tự ôn.
+
+---
+
+# Minna no Nihongo Bài 24 — Tổng hợp + Bài tập trắc nghiệm
+
+## 1. Tổng quan bài 24
+
+| Nội dung                              | Mẫu                | Nghĩa                           |
+| ------------------------------------- | ------------------ | ------------------------------- |
+| Làm gì đó cho ai                      | Aは Bに Nを Vてあげます    | A làm V cho B                   |
+| Nhận được ai làm gì cho mình          | Bは Aに Nを Vてもらいます   | B được A làm V cho              |
+| Ai đó cho tôi / người nhóm tôi        | Aは 私/家族に Nを くれます   | A cho tôi / người nhà tôi N     |
+| Ai đó làm gì cho tôi / người nhóm tôi | Aは 私/家族に Nを Vてくれます | A làm V cho tôi / người nhà tôi |
+| N do ai cho                           | Nは Aがくれました         | N này là A cho tôi              |
+| N do ai làm cho                       | Nは AがVてくれました       | N này là A làm cho tôi          |
+
+---
+
+# 2. Vてあげます — Làm gì đó cho ai
+
+## Công thức
+
+```text
+A は B に N を Vてあげます。
+```
+
+## Nghĩa
+
+**A làm V cho B.**
+
+Trong đó:
+
+| Thành phần | Vai trò                 |
+| ---------- | ----------------------- |
+| A          | Người làm hành động     |
+| Bに         | Người nhận sự giúp đỡ   |
+| Nを         | Đối tượng của hành động |
+| Vてあげます     | Làm V cho ai đó         |
+
+Ví dụ:
+
+| Câu                       | Nghĩa                                 |
+| ------------------------- | ------------------------------------- |
+| ナムさんはハーさんにプレゼントを買ってあげました。 | Nam đã mua quà cho Hà.                |
+| 彼はタイさんに彼女を紹介してあげました。      | Anh ấy đã giới thiệu bạn gái cho Tài. |
+| 私はソラちゃんに自転車を直してあげました。     | Tôi đã sửa xe đạp cho bé Sora.        |
+| 私は母に家を掃除してあげました。          | Tôi đã dọn nhà giúp mẹ.               |
+| 警察はおばあさんに道を教えてあげました。      | Cảnh sát đã chỉ đường cho bà cụ.      |
+
+---
+
+## Lưu ý với Vてあげます
+
+**Vてあげます** có sắc thái: “mình / ai đó làm việc tốt cho người khác”.
+
+Vì vậy, khi **người làm là mình**, không nên dùng với người lạ, cấp trên, khách hàng vì dễ nghe như đang khoe công.
+
+Ví dụ nên cẩn thận:
+
+```text
+私は社長にいろいろな仕事をしてあげました。
+```
+
+Câu này có thể nghe như: “Tôi đã làm nhiều việc tốt cho giám đốc đấy.”
+
+---
+
+# 3. Vてもらいます — Được ai đó làm gì cho mình
+
+## Công thức
+
+```text
+B は A に N を Vてもらいます。
+```
+
+## Nghĩa
+
+**B được A làm V cho.**
+
+Trong đó:
+
+| Thành phần | Vai trò                 |
+| ---------- | ----------------------- |
+| B          | Người nhận sự giúp đỡ   |
+| Aに         | Người làm hành động     |
+| Nを         | Đối tượng của hành động |
+| Vてもらいます    | Được làm V cho          |
+
+Ví dụ:
+
+| Câu                      | Nghĩa                                    |
+| ------------------------ | ---------------------------------------- |
+| 私はティエップ先生に日本語を教えてもらいました。 | Tôi được thầy Tiệp dạy tiếng Nhật.       |
+| マイさんは彼氏に駅まで送ってもらいました。    | Mai được bạn trai tiễn đến ga.           |
+| タイさんはナムさんに友達を紹介してもらいました。 | Tài được Nam giới thiệu bạn cho.         |
+| 私は兄に道を教えてもらいました。         | Tôi được anh trai chỉ đường.             |
+| 私は男の人に細かいお金を貸してもらいました。   | Tôi được người đàn ông cho mượn tiền lẻ. |
+
+---
+
+## So sánh Vてあげます và Vてもらいます
+
+| Mẫu         | Chủ ngữ là ai? | Nghĩa              |
+| ----------- | -------------- | ------------------ |
+| AはBにVてあげます  | Người làm      | A làm V cho B      |
+| BはAにVてもらいます | Người nhận     | B được A làm V cho |
+
+Ví dụ:
+
+| Câu               | Nghĩa                   |
+| ----------------- | ----------------------- |
+| 私は母に料理を作ってあげました。  | Tôi nấu ăn cho mẹ.      |
+| 私は母に料理を作ってもらいました。 | Tôi được mẹ nấu ăn cho. |
+
+---
+
+# 4. くれます — Ai đó cho tôi / người nhóm tôi
+
+## Công thức
+
+```text
+A は 私 / 私の家族 に N を くれます。
+```
+
+## Nghĩa
+
+**A cho tôi / người thuộc nhóm tôi N.**
+
+Dùng khi người nhận là:
+
+| Người nhận                           | Có dùng くれます không? |
+| ------------------------------------ | ------------------- |
+| 私                                    | Có                  |
+| 私の父 / 母 / 妹 / 兄                      | Có                  |
+| Người trong nhóm mình                | Có                  |
+| Người ngoài không liên quan đến mình | Không ưu tiên dùng  |
+
+Ví dụ:
+
+| Câu                | Nghĩa                          |
+| ------------------ | ------------------------------ |
+| ナムさんは私に本をくれました。    | Nam đã tặng sách cho tôi.      |
+| ナムさんは父に本をくれました。    | Nam đã tặng sách cho bố tôi.   |
+| 父は私に本をくれました。       | Bố đã tặng sách cho tôi.       |
+| 母は私に新しい携帯電話をくれました。 | Mẹ đã tặng tôi điện thoại mới. |
+| 先生は私に辞書をくれました。     | Thầy giáo đã tặng tôi từ điển. |
+
+---
+
+## Phân biệt あげます và くれます
+
+| Mẫu  | Hướng hành động                | Ví dụ        |
+| ---- | ------------------------------ | ------------ |
+| あげます | Tôi / ai đó cho người khác     | 私は父に本をあげました。 |
+| くれます | Ai đó cho tôi / người nhóm tôi | 父は私に本をくれました。 |
+
+Ghi nhớ nhanh:
+
+```text
+Tôi cho người khác → あげます
+Người khác cho tôi → くれます
+Tôi nhận từ người khác → もらいます
+```
+
+---
+
+# 5. Vてくれます — Ai đó làm gì cho tôi / người nhóm tôi
+
+## Công thức
+
+```text
+A は 私 / 私の家族 に N を Vてくれます。
+```
+
+## Nghĩa
+
+**A làm V cho tôi / người thuộc nhóm tôi.**
+
+Ví dụ:
+
+| Câu                      | Nghĩa                                             |
+| ------------------------ | ------------------------------------------------- |
+| ミラーさんは私に日本語を教えてくれました。    | Anh Miller đã dạy tiếng Nhật cho tôi.             |
+| 社長は兄に新しい仕事を紹介してくれました。    | Giám đốc đã giới thiệu công việc mới cho anh tôi. |
+| 母は私に好きな料理を作ってくれました。      | Mẹ đã nấu món tôi thích cho tôi.                  |
+| キムさんは日本を案内してくれました。       | Kim đã giới thiệu / dẫn tôi tham quan Nhật Bản.   |
+| ナムさんはパーティーの準備を手伝ってくれました。 | Nam đã giúp tôi chuẩn bị bữa tiệc.                |
+| 両親は空港まで送ってくれました。         | Bố mẹ đã tiễn tôi đến sân bay.                    |
+| 祖母はケーキを作ってくれました。         | Bà đã làm bánh cho tôi.                           |
+| カリナさんはCDを貸してくれました。       | Karina đã cho tôi mượn đĩa CD.                    |
+
+---
+
+## Khi người nhận là 私
+
+Nếu người nhận là **私に**, có thể lược bỏ.
+
+```text
+ミラーさんは私に日本語を教えてくれました。
+```
+
+Có thể nói:
+
+```text
+ミラーさんは日本語を教えてくれました。
+```
+
+= Miller đã dạy tiếng Nhật cho tôi.
+
+---
+
+# 6. Nは Aがくれました — Này là do A cho tôi
+
+## Công thức
+
+```text
+N は A が くれました。
+```
+
+## Nghĩa
+
+**N này là A cho tôi / tặng tôi.**
+
+Dùng khi đang nói về một món đồ, sau đó bổ sung thông tin “ai đã cho”.
+
+Ví dụ:
+
+| Hội thoại           | Nghĩa                           |
+| ------------------- | ------------------------------- |
+| すてきな車ですね。彼氏がくれました。  | Xe đẹp nhỉ. Bạn trai tặng đấy.  |
+| いい時計ですね。父がくれました。    | Đồng hồ đẹp nhỉ. Bố tặng đấy.   |
+| おもしろい本ですね。先生がくれました。 | Sách thú vị nhỉ. Thầy tặng đấy. |
+
+---
+
+# 7. Nは AがVてくれました — Này là do A làm cho tôi
+
+## Công thức
+
+```text
+N は A が Vてくれました。
+```
+
+## Nghĩa
+
+**N này là A làm V cho tôi.**
+
+Ví dụ:
+
+| Câu                 | Nghĩa                                    |
+| ------------------- | ---------------------------------------- |
+| このケーキは母が作ってくれました。   | Cái bánh này là mẹ làm cho tôi.          |
+| この資料は先輩がコピーしてくれました。 | Tài liệu này là tiền bối photo giúp tôi. |
+| この料理は母が作ってくれました。    | Món này là mẹ nấu cho tôi.               |
+
+---
+
+# 8. Bài tập trắc nghiệm
+
+## Phần A. Chọn nghĩa đúng
+
+### 1. Vてあげます nghĩa là gì?
+
+A. Làm V cho ai đó
+B. Được ai đó làm V cho
+C. Ai đó làm V cho tôi
+D. Không làm V
+
+### 2. Vてもらいます nghĩa là gì?
+
+A. Làm V cho ai đó
+B. Được ai đó làm V cho
+C. Cho tôi danh từ
+D. Muốn làm V
+
+### 3. くれます dùng khi nào?
+
+A. Ai đó cho tôi / người nhóm tôi
+B. Tôi cho người khác
+C. Tôi làm cho người khác
+D. Tôi muốn có gì đó
+
+### 4. Vてくれます nghĩa là gì?
+
+A. Ai đó làm V cho tôi / người nhóm tôi
+B. Tôi làm V cho ai đó
+C. Tôi nhận đồ vật từ ai đó
+D. Không cần làm V
+
+### 5. もらいます nhấn mạnh điều gì?
+
+A. Người nhận được sự giúp đỡ
+B. Người cho đi
+C. Địa điểm hành động
+D. Thời gian hành động
+
+---
+
+## Phần B. Vてあげます
+
+### 6. “Nam đã mua quà cho Hà” là câu nào?
+
+A. ナムさんはハーさんにプレゼントを買ってあげました。
+B. ナムさんはハーさんにプレゼントを買ってもらいました。
+C. ナムさんはハーさんにプレゼントをくれました。
+D. ナムさんはハーさんにプレゼントを買ってくれました。
+
+### 7. “Anh ấy đã giới thiệu bạn gái cho Tài” là câu nào?
+
+A. 彼はタイさんに彼女を紹介してあげました。
+B. 彼はタイさんに彼女を紹介してもらいました。
+C. 彼はタイさんに彼女を紹介してくれました。
+D. 彼はタイさんから彼女を紹介しました。
+
+### 8. “Tôi sửa xe đạp cho bé Sora” là câu nào?
+
+A. 私はソラちゃんに自転車を直してあげました。
+B. 私はソラちゃんに自転車を直してもらいました。
+C. 私はソラちゃんに自転車を直してくれました。
+D. ソラちゃんは私に自転車を直してあげました。
+
+### 9. “Tôi dọn nhà giúp mẹ” là câu nào?
+
+A. 私は母に家を掃除してあげました。
+B. 私は母に家を掃除してもらいました。
+C. 母は私に家を掃除してあげました。
+D. 母は私に家を掃除してもらいました。
+
+### 10. Trong mẫu Vてあげます, người nhận đi với trợ từ nào?
+
+A. に
+B. を
+C. が
+D. で
+
+---
+
+## Phần C. Vてもらいます
+
+### 11. “Tôi được thầy Tiệp dạy tiếng Nhật” là câu nào?
+
+A. 私はティエップ先生に日本語を教えてもらいました。
+B. 私はティエップ先生に日本語を教えてあげました。
+C. ティエップ先生は私に日本語を教えてもらいました。
+D. 私はティエップ先生に日本語を教えてくれました。
+
+### 12. “Mai được bạn trai tiễn đến ga” là câu nào?
+
+A. マイさんは彼氏に駅まで送ってもらいました。
+B. マイさんは彼氏に駅まで送ってあげました。
+C. 彼氏はマイさんに駅まで送ってもらいました。
+D. マイさんは彼氏に駅まで送ってくれました。
+
+### 13. “Tài được Nam giới thiệu bạn cho” là câu nào?
+
+A. タイさんはナムさんに友達を紹介してもらいました。
+B. タイさんはナムさんに友達を紹介してあげました。
+C. ナムさんはタイさんに友達を紹介してもらいました。
+D. タイさんはナムさんから友達を紹介します。
+
+### 14. “Tôi được anh trai chỉ đường” là câu nào?
+
+A. 私は兄に道を教えてもらいました。
+B. 私は兄に道を教えてあげました。
+C. 兄は私に道を教えてもらいました。
+D. 私は兄に道を教えてくれました。
+
+### 15. Trong mẫu Vてもらいます, chủ ngữ thường là ai?
+
+A. Người nhận sự giúp đỡ
+B. Người làm hành động
+C. Đồ vật
+D. Địa điểm
+
+---
+
+## Phần D. So sánh あげます / もらいます
+
+### 16. “Tôi nấu ăn cho mẹ” là câu nào?
+
+A. 私は母に料理を作ってあげました。
+B. 私は母に料理を作ってもらいました。
+C. 母は私に料理を作ってあげました。
+D. 母は私に料理を作ってもらいました。
+
+### 17. “Tôi được mẹ nấu ăn cho” là câu nào?
+
+A. 私は母に料理を作ってもらいました。
+B. 私は母に料理を作ってあげました。
+C. 母は私に料理を作ってもらいました。
+D. 私は母を料理してもらいました。
+
+### 18. “Tôi photo tài liệu cho anh Yamada” là câu nào?
+
+A. 私は山田さんに資料をコピーしてあげました。
+B. 私は山田さんに資料をコピーしてもらいました。
+C. 山田さんは私に資料をコピーしてあげました。
+D. 私は山田さんに資料をコピーしてくれました。
+
+### 19. “Tôi được người đàn ông cho mượn tiền lẻ” là câu nào?
+
+A. 私は男の人に細かいお金を貸してもらいました。
+B. 私は男の人に細かいお金を貸してあげました。
+C. 男の人は私に細かいお金を貸してもらいました。
+D. 私は男の人に細かいお金を借りてあげました。
+
+### 20. Khi muốn nói “tôi được ai đó làm gì cho”, dùng mẫu nào?
+
+A. Vてもらいます
+B. Vてあげます
+C. Vてください
+D. Vています
+
+---
+
+## Phần E. くれます
+
+### 21. “Nam đã tặng sách cho tôi” là câu nào?
+
+A. ナムさんは私に本をくれました。
+B. ナムさんは私に本をあげました。
+C. 私はナムさんに本をくれました。
+D. 私はナムさんに本をあげました。
+
+### 22. “Nam đã tặng sách cho bố tôi” là câu nào?
+
+A. ナムさんは父に本をくれました。
+B. ナムさんは父に本をあげました。
+C. 父はナムさんに本をくれました。
+D. 父はナムさんに本をあげました。
+
+### 23. “Bố đã tặng sách cho tôi” là câu nào?
+
+A. 父は私に本をくれました。
+B. 父は私に本をあげました。
+C. 私は父に本をくれました。
+D. 私は父に本をあげました。
+
+### 24. “Mẹ đã tặng tôi điện thoại mới” là câu nào?
+
+A. 母は私に新しい携帯電話をくれました。
+B. 母は私に新しい携帯電話をあげました。
+C. 私は母に新しい携帯電話をくれました。
+D. 私は母に新しい携帯電話をあげました。
+
+### 25. Khi người nhận là 私, nên dùng động từ nào?
+
+A. くれます
+B. あげます
+C. 行きます
+D. 来ます
+
+---
+
+## Phần F. Vてくれます
+
+### 26. “Miller đã dạy tiếng Nhật cho tôi” là câu nào?
+
+A. ミラーさんは私に日本語を教えてくれました。
+B. ミラーさんは私に日本語を教えてあげました。
+C. 私はミラーさんに日本語を教えてくれました。
+D. 私はミラーさんに日本語を教えてあげました。
+
+### 27. “Giám đốc đã giới thiệu công việc mới cho anh tôi” là câu nào?
+
+A. 社長は兄に新しい仕事を紹介してくれました。
+B. 社長は兄に新しい仕事を紹介してあげました。
+C. 兄は社長に新しい仕事を紹介してくれました。
+D. 兄は社長に新しい仕事を紹介してあげました。
+
+### 28. “Mẹ đã nấu món tôi thích cho tôi” là câu nào?
+
+A. 母は私に好きな料理を作ってくれました。
+B. 母は私に好きな料理を作ってあげました。
+C. 私は母に好きな料理を作ってくれました。
+D. 私は母に好きな料理を作ってあげました。
+
+### 29. “Kim đã giới thiệu / dẫn tôi tham quan Nhật Bản” là câu nào?
+
+A. キムさんは日本を案内してくれました。
+B. キムさんは日本を案内してあげました。
+C. 私はキムさんに日本を案内してくれました。
+D. キムさんは日本に案内してもらいました。
+
+### 30. “Nam đã giúp tôi chuẩn bị bữa tiệc” là câu nào?
+
+A. ナムさんはパーティーの準備を手伝ってくれました。
+B. ナムさんはパーティーの準備を手伝ってあげました。
+C. 私はナムさんにパーティーの準備を手伝ってくれました。
+D. ナムさんはパーティーの準備を手伝ってもらいました。
+
+---
+
+## Phần G. Lược bỏ 私に
+
+### 31. ミラーさんは日本語を教えてくれました nghĩa là gì?
+
+A. Miller đã dạy tiếng Nhật cho tôi.
+B. Tôi đã dạy tiếng Nhật cho Miller.
+C. Tôi được Miller nhận tiếng Nhật.
+D. Miller học tiếng Nhật.
+
+### 32. カリナさんはCDを貸してくれました nghĩa là gì?
+
+A. Karina đã cho tôi mượn CD.
+B. Tôi đã cho Karina mượn CD.
+C. Karina đã mượn CD của tôi.
+D. Tôi đã mượn CD cho Karina.
+
+### 33. 祖母はケーキを作ってくれました nghĩa là gì?
+
+A. Bà đã làm bánh cho tôi.
+B. Tôi đã làm bánh cho bà.
+C. Bà được tôi làm bánh cho.
+D. Bà muốn làm bánh.
+
+### 34. 両親は空港まで送ってくれました nghĩa là gì?
+
+A. Bố mẹ đã tiễn tôi đến sân bay.
+B. Tôi đã tiễn bố mẹ đến sân bay.
+C. Bố mẹ đã đi sân bay.
+D. Tôi được sân bay tiễn.
+
+### 35. Khi dùng Vてくれます, nếu người nhận là 私, có thể làm gì?
+
+A. Lược bỏ 私に
+B. Bắt buộc giữ 私に
+C. Đổi thành 私を
+D. Đổi thành 私で
+
+---
+
+## Phần H. NはAがくれました / Vてくれました
+
+### 36. “Đồng hồ này là bố tặng tôi” là câu nào?
+
+A. この時計は父がくれました。
+B. この時計は父にあげました。
+C. この時計は父にもらいました。
+D. この時計は父をくれました。
+
+### 37. “Cái bánh này là mẹ làm cho tôi” là câu nào?
+
+A. このケーキは母が作ってくれました。
+B. このケーキは母に作ってあげました。
+C. このケーキは母が作ってあげました。
+D. このケーキは母を作ってくれました。
+
+### 38. “Quyển sách này là thầy tặng tôi” là câu nào?
+
+A. この本は先生がくれました。
+B. この本は先生にあげました。
+C. この本は先生をくれました。
+D. この本は先生があげました。
+
+### 39. “Tài liệu này là tiền bối photo giúp tôi” là câu nào?
+
+A. この資料は先輩がコピーしてくれました。
+B. この資料は先輩にコピーしてあげました。
+C. この資料は先輩がコピーしてあげました。
+D. この資料は先輩をコピーしてくれました。
+
+### 40. Khi nói “N này là A cho tôi”, dùng mẫu nào?
+
+A. NはAがくれました
+B. NはAにあげました
+C. NはAをもらいました
+D. NはAでしました
+
+---
+
+## Phần I. Chọn mẫu đúng theo ngữ cảnh
+
+### 41. “Tôi chỉ cách nấu món Việt Nam cho giám đốc” là câu nào?
+
+A. 私は社長にベトナム料理の作り方を教えてあげました。
+B. 私は社長にベトナム料理の作り方を教えてくれました。
+C. 社長は私にベトナム料理の作り方を教えてあげました。
+D. 私は社長にベトナム料理の作り方を教えてもらいました。
+
+### 42. “Lan được Tài giới thiệu việc làm thêm” là câu nào?
+
+A. ランさんはタイさんにアルバイトを紹介してもらいました。
+B. ランさんはタイさんにアルバイトを紹介してあげました。
+C. タイさんはランさんにアルバイトを紹介してもらいました。
+D. ランさんはタイさんにアルバイトを紹介してくれました。
+
+### 43. “Anh ấy xách đồ cho tôi vì đồ nặng” là câu nào?
+
+A. 重いですから、彼は荷物を持ってくれました。
+B. 重いですから、私は彼に荷物を持ってあげました。
+C. 重いですから、彼は荷物を持ってもらいました。
+D. 重いですから、私は荷物を持ってくれました。
+
+### 44. “Anh Mira đã cho tôi cà phê” là câu nào?
+
+A. ミラーさんはコーヒーをくれました。
+B. ミラーさんはコーヒーをあげました。
+C. 私はミラーさんにコーヒーをくれました。
+D. ミラーさんは私にコーヒーをもらいました。
+
+### 45. “Tôi đã được bà kể chuyện cổ tích cho nghe” là câu nào?
+
+A. 私は祖母に昔話を話してもらいました。
+B. 私は祖母に昔話を話してあげました。
+C. 祖母は私に昔話を話してもらいました。
+D. 私は祖母に昔話を話してくれました。
+
+---
+
+## Phần J. Mini test tổng hợp
+
+### 46. ナムさんは私に本をくれました。
+
+A. Nam đã tặng sách cho tôi.
+B. Tôi đã tặng sách cho Nam.
+C. Tôi được Nam mượn sách.
+D. Nam đã tặng sách cho người khác.
+
+### 47. 私はナムさんに本をもらいました。
+
+A. Tôi đã nhận sách từ Nam.
+B. Tôi đã tặng sách cho Nam.
+C. Nam đã nhận sách từ tôi.
+D. Nam đã mua sách cho người khác.
+
+### 48. 私はナムさんに本を貸してあげました。
+
+A. Tôi đã cho Nam mượn sách.
+B. Nam đã cho tôi mượn sách.
+C. Tôi được Nam cho mượn sách.
+D. Nam tặng sách cho tôi.
+
+### 49. ナムさんは本を貸してくれました。
+
+A. Nam đã cho tôi mượn sách.
+B. Tôi đã cho Nam mượn sách.
+C. Nam được tôi cho mượn sách.
+D. Tôi đã tặng sách cho Nam.
+
+### 50. 母は好きな料理を作ってくれました。
+
+A. Mẹ đã nấu món tôi thích cho tôi.
+B. Tôi đã nấu món mẹ thích.
+C. Mẹ được tôi nấu ăn cho.
+D. Tôi muốn mẹ nấu ăn.
+
+### 51. 私は母に料理を作ってもらいました。
+
+A. Tôi được mẹ nấu ăn cho.
+B. Tôi nấu ăn cho mẹ.
+C. Mẹ được tôi nấu ăn cho.
+D. Mẹ cho tôi món ăn.
+
+### 52. 私は母に料理を作ってあげました。
+
+A. Tôi nấu ăn cho mẹ.
+B. Tôi được mẹ nấu ăn cho.
+C. Mẹ nấu ăn cho tôi.
+D. Mẹ tặng tôi món ăn.
+
+### 53. この車は彼氏がくれました。
+
+A. Chiếc xe này là bạn trai tặng tôi.
+B. Tôi tặng xe cho bạn trai.
+C. Bạn trai được tôi tặng xe.
+D. Tôi mua xe cho bạn trai.
+
+### 54. このケーキは母が作ってくれました。
+
+A. Cái bánh này là mẹ làm cho tôi.
+B. Tôi làm bánh cho mẹ.
+C. Mẹ mua bánh cho người khác.
+D. Tôi được bánh làm cho mẹ.
+
+### 55. 先生は私に辞書をくれました。
+
+A. Thầy đã tặng tôi từ điển.
+B. Tôi đã tặng thầy từ điển.
+C. Thầy được tôi tặng từ điển.
+D. Tôi cho thầy mượn từ điển.
