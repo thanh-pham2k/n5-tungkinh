@@ -1,0 +1,955 @@
+Dạ được. Dưới đây là bản **tổng hợp Minna no Nihongo Bài 16** + **bài tập 100% trắc nghiệm**, không kèm đáp án để bạn tự ôn.
+
+Nội dung trong file là **Ngữ pháp Minna 1 - Bài 16**, trọng tâm gồm: **nối động từ bằng thể て**, **nối tính từ い / な**, **nối danh từ**, **Vてから**, **Nを出ます / 降ります**, và **どうやって**. 
+
+---
+
+# Minna no Nihongo Bài 16 — Tổng hợp + Bài tập trắc nghiệm
+
+## 1. Tổng quan bài 16
+
+| Nội dung          | Mẫu               | Nghĩa                  |
+| ----------------- | ----------------- | ---------------------- |
+| Nối hành động     | V1て、V2て、V3ます      | Làm V1, rồi V2, rồi V3 |
+| Sau khi làm V     | Vてから、Vます          | Sau khi làm V thì…     |
+| Nối tính từ い     | いAdj bỏ い + くて    | Vừa… vừa…              |
+| Nối tính từ な     | なAdj bỏ な + で     | Vừa… vừa…              |
+| Nối danh từ       | Nで、Nです            | Là N và là N           |
+| Miêu tả bộ phận   | Nは bộ phậnが Adjです | N có bộ phận Adj       |
+| Ra khỏi địa điểm  | Địa điểmを 出ます     | Ra khỏi địa điểm       |
+| Xuống phương tiện | Phương tiệnを 降ります | Xuống khỏi phương tiện |
+| Hỏi cách làm      | どうやって Vますか        | Làm V bằng cách nào?   |
+
+---
+
+# 2. V1て、V2て、V3ます — Nối chuỗi hành động
+
+## Công thức
+
+```text
+V1て、V2て、V3ます。
+```
+
+## Nghĩa
+
+**Làm V1, rồi làm V2, rồi làm V3.**
+
+Dùng để liệt kê các hành động **theo đúng trình tự thời gian**.
+
+Ví dụ:
+
+| Câu                        | Nghĩa                                      |
+| -------------------------- | ------------------------------------------ |
+| 朝 起きて、歯を磨いて、朝ごはんを食べます。     | Buổi sáng thức dậy, đánh răng rồi ăn sáng. |
+| うちへ帰って、シャワーを浴びて、料理しました。    | Về nhà, tắm rồi nấu ăn.                    |
+| 9時に起きて、ジョギングして、シャワーを浴びました。 | Thức dậy lúc 9 giờ, chạy bộ rồi tắm.       |
+
+## Lưu ý quan trọng
+
+Động từ cuối câu quyết định **thì của cả câu**.
+
+| Câu       | Nghĩa             |
+| --------- | ----------------- |
+| 食べて、寝ます。  | Ăn rồi ngủ.       |
+| 食べて、寝ました。 | Đã ăn rồi ngủ.    |
+| 食べて、寝ません。 | Ăn rồi không ngủ. |
+
+---
+
+# 3. Vてから、Vます — Sau khi V thì…
+
+## Công thức
+
+```text
+Vてから、Vます。
+```
+
+## Nghĩa
+
+**Sau khi làm V1 xong thì làm V2.**
+
+Khác với nối hành động thông thường, mẫu này nhấn mạnh **V1 phải xong rồi mới làm V2**.
+
+Ví dụ:
+
+| Câu                    | Nghĩa                                     |
+| ---------------------- | ----------------------------------------- |
+| レポートを書いてから、ごはんを食べます。   | Viết báo cáo xong rồi ăn cơm.             |
+| お客さんに会ってから、社長に電話をかけます。 | Gặp khách hàng xong rồi gọi cho giám đốc. |
+| 宿題をしてから、寝ます。           | Làm bài tập xong rồi ngủ.                 |
+| ごはんを食べてから、薬を飲んでください。   | Ăn cơm xong rồi hãy uống thuốc.           |
+| 勉強してから、遊んでもいいです。       | Học xong rồi đi chơi cũng được.           |
+
+---
+
+# 4. Nối tính từ い
+
+## Công thức
+
+```text
+いAdj bỏ い + くて
+```
+
+## Nghĩa
+
+**Vừa Adj1 vừa Adj2.**
+
+Dùng khi các tính chất cùng hướng: cùng tốt hoặc cùng xấu.
+
+Ví dụ biến đổi:
+
+| Gốc | Nối câu |
+| --- | ------- |
+| 安い  | 安くて     |
+| 大きい | 大きくて    |
+| 小さい | 小さくて    |
+| 白い  | 白くて     |
+| いい  | よくて     |
+
+Ví dụ câu:
+
+| Câu                | Nghĩa                              |
+| ------------------ | ---------------------------------- |
+| このパンは 安くて、おいしいです。  | Bánh mì này rẻ và ngon.            |
+| このかばんは 大きくて、重いです。  | Cái cặp này to và nặng.            |
+| 東京は 人が多くて、物価が高いです。 | Tokyo đông người và giá cả đắt đỏ. |
+
+---
+
+# 5. Nối tính từ な
+
+## Công thức
+
+```text
+なAdj bỏ な + で
+```
+
+## Nghĩa
+
+**Vừa Adj1 vừa Adj2.**
+
+Ví dụ biến đổi:
+
+| Gốc   | Nối câu |
+| ----- | ------- |
+| きれいな  | きれいで    |
+| ハンサムな | ハンサムで   |
+| 便利な   | 便利で     |
+| 有名な   | 有名で     |
+| 親切な   | 親切で     |
+
+Ví dụ câu:
+
+| Câu                   | Nghĩa                             |
+| --------------------- | --------------------------------- |
+| 桜は きれいで、有名です。         | Hoa anh đào đẹp và nổi tiếng.     |
+| タイさんは ハンサムで、日本語が上手です。 | Tài đẹp trai và giỏi tiếng Nhật.  |
+| この町は 静かで、便利です。        | Khu phố này yên tĩnh và tiện lợi. |
+
+---
+
+# 6. Nối tính từ い và な trong cùng câu
+
+Nếu trong câu có cả tính từ **い** và **な**, tính từ nào cần nối thì chia theo đúng loại đó.
+
+Ví dụ:
+
+| Câu               | Nghĩa                                  |
+| ----------------- | -------------------------------------- |
+| このドレスは きれいで、安いです。 | Cái váy này đẹp và rẻ.                 |
+| ベトナム人は 親切で、優しいです。 | Người Việt Nam thân thiện và tốt bụng. |
+| 私のうちは 広くて、きれいです。  | Nhà tôi rộng và sạch.                  |
+
+---
+
+# 7. Khi tính chất trái ngược: dùng が
+
+Nếu một ý tốt và một ý xấu, không dùng nối thường. Dùng **が** = nhưng.
+
+```text
+Câu 1 が、Câu 2。
+```
+
+Ví dụ:
+
+| Câu                     | Nghĩa                              |
+| ----------------------- | ---------------------------------- |
+| この時計は きれいですが、高いです。      | Đồng hồ này đẹp nhưng đắt.         |
+| ナムさんは ハンサムですが、日本語が下手です。 | Nam đẹp trai nhưng kém tiếng Nhật. |
+| この料理は おいしいですが、高いです。     | Món này ngon nhưng đắt.            |
+
+---
+
+# 8. Nối danh từ
+
+## Công thức
+
+```text
+N1 で、N2 です。
+```
+
+## Nghĩa
+
+**Là N1 và là N2.**
+
+Ví dụ:
+
+| Câu                        | Nghĩa                                               |
+| -------------------------- | --------------------------------------------------- |
+| マイケルさんは アメリカ人で、さくら大学の先生です。 | Michael là người Mỹ và là giáo viên Đại học Sakura. |
+| アンさんは 22歳で、医者です。           | An 22 tuổi và là bác sĩ.                            |
+| 私は ベトナム人で、留学生です。           | Tôi là người Việt Nam và là du học sinh.            |
+| ゆきさんは ナムさんの友達で、銀行員です。      | Yuki là bạn của Nam và là nhân viên ngân hàng.      |
+
+---
+
+# 9. Nは bộ phậnが Adjです
+
+## Công thức
+
+```text
+N は bộ phận が Adj です。
+```
+
+## Nghĩa
+
+**N có bộ phận mang tính chất Adj.**
+
+Dùng để miêu tả một phần / đặc điểm của người, vật, địa điểm.
+
+Ví dụ:
+
+| Câu             | Nghĩa                    |
+| --------------- | ------------------------ |
+| チーさんは 肌が白いです。   | Bạn Chi có da trắng.     |
+| ハノイは 物価が高いです。   | Hà Nội có giá cả đắt đỏ. |
+| 日本は 食べ物がおいしいです。 | Nhật Bản có đồ ăn ngon.  |
+| ハロンは 海がきれいです。   | Hạ Long có biển đẹp.     |
+| 彼は 背が高いです。      | Anh ấy cao.              |
+
+---
+
+# 10. Địa điểmを出ます — Ra khỏi địa điểm
+
+## Công thức
+
+```text
+Địa điểm を 出ます。
+```
+
+## Nghĩa
+
+**Ra khỏi địa điểm.**
+
+Ví dụ:
+
+| Câu       | Nghĩa              |
+| --------- | ------------------ |
+| うちを 出ます。  | Ra khỏi nhà.       |
+| 事務所を 出ます。 | Ra khỏi văn phòng. |
+| 喫茶店を 出ます。 | Ra khỏi quán nước. |
+
+## Nghĩa mở rộng
+
+Nếu địa điểm là **trường học / công ty**, mẫu này có thể mang nghĩa:
+
+| Câu          | Nghĩa                              |
+| ------------ | ---------------------------------- |
+| 高校を 出ました。    | Đã tốt nghiệp cấp 3.               |
+| 大学を 出ます。     | Sẽ tốt nghiệp đại học.             |
+| 父は 会社を 出ました。 | Bố tôi đã nghỉ việc / rời công ty. |
+
+---
+
+# 11. Phương tiệnを降ります — Xuống khỏi phương tiện
+
+## Công thức
+
+```text
+Phương tiện を 降ります。
+```
+
+## Nghĩa
+
+**Xuống khỏi phương tiện.**
+
+Ví dụ:
+
+| Câu         | Nghĩa           |
+| ----------- | --------------- |
+| バスを 降ります。   | Xuống xe buýt.  |
+| 電車を 降ります。   | Xuống tàu điện. |
+| タクシーを 降ります。 | Xuống taxi.     |
+| 馬を 降ります。    | Xuống ngựa.     |
+
+Ghi nhớ nhanh:
+
+| Hành động       | Trợ từ |
+| --------------- | ------ |
+| Lên / vào       | に      |
+| Xuống / ra khỏi | を      |
+
+---
+
+# 12. どうやって — Bằng cách nào?
+
+## Công thức
+
+```text
+どうやって Vますか。
+```
+
+## Nghĩa
+
+**Làm V bằng cách nào? / Làm như thế nào?**
+
+Dùng để hỏi **cách làm / quy trình / cách sử dụng máy móc**.
+
+Ví dụ:
+
+| Câu                | Nghĩa                        |
+| ------------------ | ---------------------------- |
+| この機械は どうやって 使いますか。 | Máy này sử dụng như thế nào? |
+| どうやって 漢字を 勉強しますか。  | Học Kanji bằng cách nào?     |
+| どうやって 恋人が できますか。   | Làm thế nào để có người yêu? |
+
+Cách trả lời thường dùng chuỗi hành động thể て:
+
+```text
+スイッチを入れて、このボタンを押してください。
+```
+
+= Bật công tắc rồi hãy bấm nút này.
+
+---
+
+# 13. Bài tập trắc nghiệm
+
+## Phần A. Chọn nghĩa đúng
+
+### 1. V1て、V2て、V3ます dùng để làm gì?
+
+A. Liệt kê hành động theo trình tự
+B. Hỏi giá tiền
+C. Nói mong muốn
+D. So sánh hơn
+
+### 2. Vてから、Vます nghĩa là gì?
+
+A. Sau khi V xong thì làm hành động sau
+B. Đang làm V
+C. Muốn làm V
+D. Không làm V
+
+### 3. どうやって nghĩa là gì?
+
+A. Bằng cách nào
+B. Ở đâu
+C. Khi nào
+D. Bao nhiêu tiền
+
+### 4. Địa điểmを出ます nghĩa là gì?
+
+A. Ra khỏi địa điểm
+B. Đi vào địa điểm
+C. Có địa điểm
+D. Làm ở địa điểm
+
+### 5. 電車を降ります nghĩa là gì?
+
+A. Xuống tàu điện
+B. Lên tàu điện
+C. Đi bằng tàu điện
+D. Chờ tàu điện
+
+---
+
+## Phần B. Nối động từ bằng thể て
+
+### 6. “Thức dậy, đánh răng rồi ăn sáng” là câu nào?
+
+A. 起きて、歯を磨いて、朝ごはんを食べます。
+B. 起きます、歯を磨きます、朝ごはんを食べます。
+C. 起きたい、歯を磨きたい、朝ごはんを食べます。
+D. 起きてから、歯を磨きたいです。
+
+### 7. “Về nhà, tắm rồi nấu ăn” là câu nào?
+
+A. うちへ帰って、シャワーを浴びて、料理します。
+B. うちへ帰ります、シャワーを浴びます、料理します。
+C. うちへ帰りたい、シャワーを浴びたい、料理します。
+D. うちへ帰ってから、シャワーを浴びたいです。
+
+### 8. “Hôm qua tôi về nhà, tắm rồi nấu ăn” là câu nào?
+
+A. きのう うちへ帰って、シャワーを浴びて、料理しました。
+B. きのう うちへ帰って、シャワーを浴びて、料理します。
+C. きのう うちへ帰ります、シャワーを浴びます、料理しました。
+D. きのう うちへ帰りたい、シャワーを浴びたいです。
+
+### 9. Động từ cuối câu trong chuỗi Vて quyết định gì?
+
+A. Thì và thể của câu
+B. Chủ ngữ của câu
+C. Trợ từ của câu
+D. Danh từ của câu
+
+### 10. “Ăn cơm rồi ngủ” là câu nào?
+
+A. ごはんを食べて、寝ます。
+B. ごはんを食べます、寝ます。
+C. ごはんを食べたい、寝ます。
+D. ごはんを食べてから、寝たいです。
+
+---
+
+## Phần C. Vてから
+
+### 11. “Viết báo cáo xong rồi ăn cơm” là câu nào?
+
+A. レポートを書いてから、ごはんを食べます。
+B. レポートを書いて、ごはんを食べます。
+C. レポートを書きますから、ごはんを食べます。
+D. レポートを書きたいです。
+
+### 12. “Gặp khách hàng xong rồi gọi điện cho giám đốc” là câu nào?
+
+A. お客さんに会ってから、社長に電話をかけます。
+B. お客さんに会って、社長に電話をかけたいです。
+C. お客さんに会いますから、社長に電話をかけます。
+D. お客さんを会ってから、社長を電話します。
+
+### 13. “Làm bài tập xong rồi ngủ” là câu nào?
+
+A. 宿題をしてから、寝ます。
+B. 宿題をしますから、寝ます。
+C. 宿題をして、寝たいです。
+D. 宿題にしてから、寝ます。
+
+### 14. “Ăn cơm xong rồi hãy uống thuốc” là câu nào?
+
+A. ごはんを食べてから、薬を飲んでください。
+B. ごはんを食べますから、薬を飲んでください。
+C. ごはんを食べたいから、薬を飲みます。
+D. ごはんを食べて、薬がほしいです。
+
+### 15. Vてから nhấn mạnh điều gì?
+
+A. V1 xong rồi mới làm V2
+B. V1 và V2 xảy ra cùng lúc
+C. V1 không xảy ra
+D. V2 xảy ra trước V1
+
+---
+
+## Phần D. Nối tính từ い
+
+### 16. 安い → dạng nối là gì?
+
+A. 安くて
+B. 安いで
+C. 安かった
+D. 安いくて
+
+### 17. 大きい → dạng nối là gì?
+
+A. 大きくて
+B. 大きいで
+C. 大きかった
+D. 大きいて
+
+### 18. 白い → dạng nối là gì?
+
+A. 白くて
+B. 白いで
+C. 白かった
+D. 白いて
+
+### 19. いい → dạng nối là gì?
+
+A. よくて
+B. いくて
+C. いいで
+D. よいで
+
+### 20. “Bánh mì này rẻ và ngon” là câu nào?
+
+A. このパンは 安くて、おいしいです。
+B. このパンは 安いで、おいしいです。
+C. このパンは 安いですが、おいしいです。
+D. このパンは 安かった、おいしいです。
+
+---
+
+## Phần E. Nối tính từ な
+
+### 21. きれいな → dạng nối là gì?
+
+A. きれいで
+B. きれくて
+C. きれいなで
+D. きれいくて
+
+### 22. ハンサムな → dạng nối là gì?
+
+A. ハンサムで
+B. ハンサムくて
+C. ハンサムなで
+D. ハンサムいで
+
+### 23. 便利な → dạng nối là gì?
+
+A. 便利で
+B. 便利くて
+C. 便利なで
+D. 便利いで
+
+### 24. “Hoa anh đào đẹp và nổi tiếng” là câu nào?
+
+A. 桜は きれいで、有名です。
+B. 桜は きれくて、有名です。
+C. 桜は きれいなで、有名です。
+D. 桜は きれいですが、有名です。
+
+### 25. “Tài đẹp trai và giỏi tiếng Nhật” là câu nào?
+
+A. タイさんは ハンサムで、日本語が上手です。
+B. タイさんは ハンサムくて、日本語が上手です。
+C. タイさんは ハンサムなで、日本語が上手です。
+D. タイさんは ハンサムですが、日本語が上手です。
+
+---
+
+## Phần F. Nối tính từ hỗn hợp / dùng が
+
+### 26. “Cái váy này đẹp và rẻ” là câu nào?
+
+A. このドレスは きれいで、安いです。
+B. このドレスは きれくて、安いです。
+C. このドレスは きれいくて、安いです。
+D. このドレスは きれいですが、安いです。
+
+### 27. “Người Việt Nam thân thiện và tốt bụng” là câu nào?
+
+A. ベトナム人は 親切で、優しいです。
+B. ベトナム人は 親切くて、優しいです。
+C. ベトナム人は 親切なで、優しいです。
+D. ベトナム人は 親切ですが、優しいです。
+
+### 28. “Đồng hồ này đẹp nhưng đắt” là câu nào?
+
+A. この時計は きれいですが、高いです。
+B. この時計は きれいで、高いです。
+C. この時計は きれくて、高いです。
+D. この時計は きれいな、高いです。
+
+### 29. Khi hai tính chất trái ngược nhau, nên dùng gì?
+
+A. が
+B. で
+C. くて
+D. を
+
+### 30. “Món này ngon nhưng đắt” là câu nào?
+
+A. この料理は おいしいですが、高いです。
+B. この料理は おいしくて、高いです。
+C. この料理は おいしいで、高いです。
+D. この料理は おいしいくて、高いです。
+
+---
+
+## Phần G. Nối danh từ
+
+### 31. “Tôi là người Việt Nam và là du học sinh” là câu nào?
+
+A. 私は ベトナム人で、留学生です。
+B. 私は ベトナム人と、留学生です。
+C. 私は ベトナム人が、留学生です。
+D. 私は ベトナム人を、留学生です。
+
+### 32. “An 22 tuổi và là bác sĩ” là câu nào?
+
+A. アンさんは 22歳で、医者です。
+B. アンさんは 22歳と、医者です。
+C. アンさんは 22歳が、医者です。
+D. アンさんは 22歳を、医者です。
+
+### 33. “Michael là người Mỹ và là giáo viên” là câu nào?
+
+A. マイケルさんは アメリカ人で、先生です。
+B. マイケルさんは アメリカ人と、先生です。
+C. マイケルさんは アメリカ人が、先生です。
+D. マイケルさんは アメリカ人を、先生です。
+
+### 34. Danh từ khi nối câu thêm gì?
+
+A. で
+B. くて
+C. が
+D. を
+
+---
+
+## Phần H. Nは bộ phậnが Adjです
+
+### 35. “Bạn Chi có da trắng” là câu nào?
+
+A. チーさんは 肌が白いです。
+B. チーさんは 肌を白いです。
+C. チーさんは 肌で白いです。
+D. チーさんは 肌に白いです。
+
+### 36. “Hà Nội có giá cả đắt đỏ” là câu nào?
+
+A. ハノイは 物価が高いです。
+B. ハノイは 物価を高いです。
+C. ハノイは 物価で高いです。
+D. ハノイは 物価に高いです。
+
+### 37. “Nhật Bản có đồ ăn ngon” là câu nào?
+
+A. 日本は 食べ物がおいしいです。
+B. 日本は 食べ物をおいしいです。
+C. 日本は 食べ物でおいしいです。
+D. 日本は 食べ物においしいです。
+
+### 38. “Hạ Long có biển đẹp” là câu nào?
+
+A. ハロンは 海がきれいです。
+B. ハロンは 海をきれいです。
+C. ハロンは 海できれいです。
+D. ハロンは 海にきれいです。
+
+### 39. “Anh ấy cao” là câu nào?
+
+A. 彼は 背が高いです。
+B. 彼は 背を高いです。
+C. 彼は 背で高いです。
+D. 彼は 背に高いです。
+
+---
+
+## Phần I. Địa điểmを出ます
+
+### 40. “Ra khỏi nhà” là câu nào?
+
+A. うちを 出ます。
+B. うちに 出ます。
+C. うちで 出ます。
+D. うちへ 出ます。
+
+### 41. “Ra khỏi văn phòng” là câu nào?
+
+A. 事務所を 出ます。
+B. 事務所に 出ます。
+C. 事務所で 出ます。
+D. 事務所へ 出ます。
+
+### 42. “Ra khỏi quán nước” là câu nào?
+
+A. 喫茶店を 出ます。
+B. 喫茶店に 出ます。
+C. 喫茶店で 出ます。
+D. 喫茶店へ 出ます。
+
+### 43. “Đã tốt nghiệp cấp 3” là câu nào?
+
+A. 高校を 出ました。
+B. 高校に 出ました。
+C. 高校で 出ました。
+D. 高校へ 出ました。
+
+### 44. Khi nói “ra khỏi địa điểm”, dùng trợ từ nào?
+
+A. を
+B. に
+C. で
+D. と
+
+---
+
+## Phần J. Phương tiệnを降ります
+
+### 45. “Xuống xe buýt” là câu nào?
+
+A. バスを 降ります。
+B. バスに 降ります。
+C. バスで 降ります。
+D. バスへ 降ります。
+
+### 46. “Xuống tàu điện” là câu nào?
+
+A. 電車を 降ります。
+B. 電車に 降ります。
+C. 電車で 降ります。
+D. 電車へ 降ります。
+
+### 47. “Xuống taxi” là câu nào?
+
+A. タクシーを 降ります。
+B. タクシーに 降ります。
+C. タクシーで 降ります。
+D. タクシーへ 降ります。
+
+### 48. “Lên xe buýt” là câu nào?
+
+A. バスに 乗ります。
+B. バスを 乗ります。
+C. バスで 乗ります。
+D. バスへ 乗ります。
+
+### 49. Ghi nhớ đúng là gì?
+
+A. Vào/lên dùng に, ra/xuống dùng を
+B. Vào/lên dùng を, ra/xuống dùng に
+C. Cả hai đều dùng で
+D. Cả hai đều dùng と
+
+---
+
+## Phần K. どうやって
+
+### 50. “Máy này sử dụng như thế nào?” là câu nào?
+
+A. この機械は どうやって 使いますか。
+B. この機械は どこで 使いますか。
+C. この機械は いつ 使いますか。
+D. この機械は いくらですか。
+
+### 51. “Học Kanji bằng cách nào?” là câu nào?
+
+A. どうやって 漢字を 勉強しますか。
+B. どこで 漢字を 勉強しますか。
+C. いつ 漢字を 勉強しますか。
+D. いくら 漢字を 勉強しますか。
+
+### 52. “Bật công tắc rồi bấm nút này” là câu nào?
+
+A. スイッチを入れて、このボタンを押します。
+B. スイッチを入ります、このボタンを押します。
+C. スイッチを入れたい、このボタンを押します。
+D. スイッチを入れてから、ボタンがほしいです。
+
+### 53. Khi trả lời どうやって, thường dùng mẫu nào?
+
+A. V1て、V2て、V3ます
+B. Nがほしいです
+C. NよりAdjです
+D. Vたいです
+
+---
+
+## Phần L. Mini test tổng hợp
+
+### 54. 朝 起きて、歯を磨いて、学校へ行きます。
+
+A. Buổi sáng thức dậy, đánh răng rồi đi học.
+B. Buổi sáng muốn thức dậy và đi học.
+C. Buổi sáng không đi học.
+D. Buổi sáng đi học rồi đánh răng.
+
+### 55. ごはんを食べてから、薬を飲みます。
+
+A. Ăn cơm xong rồi uống thuốc.
+B. Uống thuốc xong rồi ăn cơm.
+C. Ăn cơm và uống thuốc cùng lúc.
+D. Không uống thuốc.
+
+### 56. このかばんは 大きくて、重いです。
+
+A. Cái cặp này to và nặng.
+B. Cái cặp này to nhưng nhẹ.
+C. Cái cặp này nhỏ và nhẹ.
+D. Cái cặp này đẹp nhưng đắt.
+
+### 57. 彼は ハンサムですが、日本語が下手です。
+
+A. Anh ấy đẹp trai nhưng kém tiếng Nhật.
+B. Anh ấy đẹp trai và giỏi tiếng Nhật.
+C. Anh ấy không đẹp trai nhưng giỏi tiếng Nhật.
+D. Anh ấy là người Nhật.
+
+### 58. 私は ベトナム人で、会社員です。
+
+A. Tôi là người Việt Nam và là nhân viên công ty.
+B. Tôi là người Việt Nam nhưng không đi làm.
+C. Tôi muốn làm nhân viên công ty.
+D. Tôi học tiếng Việt ở công ty.
+
+### 59. 日本は 食べ物がおいしいです。
+
+A. Nhật Bản có đồ ăn ngon.
+B. Nhật Bản ăn đồ ăn.
+C. Nhật Bản có người ngon.
+D. Nhật Bản không có đồ ăn.
+
+### 60. 事務所を 出て、バスに乗ります。
+
+A. Ra khỏi văn phòng rồi lên xe buýt.
+B. Vào văn phòng rồi xuống xe buýt.
+C. Ra khỏi xe buýt rồi vào văn phòng.
+D. Ở văn phòng có xe buýt.
+
+Dưới đây là **bảng đáp án + dịch nghĩa + giải thích ngắn gọn + từ vựng** cho bài **Minna no Nihongo Bài 16** trong file bạn gửi. 
+
+---
+
+# Phần A. Chọn nghĩa đúng
+
+| Câu | Đáp án | Dịch nghĩa / Ý chính                 | Giải thích ngắn                              | Từ vựng                      |
+| --- | -----: | ------------------------------------ | -------------------------------------------- | ---------------------------- |
+| 1   |      A | Liệt kê hành động theo trình tự      | `Vて、Vて、Vます` = làm V1 rồi V2 rồi V3           | 起きる = thức dậy               |
+| 2   |      A | Sau khi V xong thì làm hành động sau | `Vてから` nhấn mạnh làm xong V1 rồi mới V2      | 〜てから = sau khi               |
+| 3   |      A | Bằng cách nào                        | `どうやって` dùng để hỏi cách làm                 | どうやって = bằng cách nào        |
+| 4   |      A | Ra khỏi địa điểm                     | `Địa điểmを 出ます` = ra khỏi nơi nào đó         | 出ます = ra / rời khỏi          |
+| 5   |      A | Xuống tàu điện                       | `Phương tiệnを 降ります` = xuống khỏi phương tiện | 電車 = tàu điện / 降ります = xuống |
+
+---
+
+# Phần B. Nối động từ bằng thể て
+
+| Câu | Đáp án | Dịch nghĩa                                     | Giải thích ngắn                          | Từ vựng                              |
+| --- | -----: | ---------------------------------------------- | ---------------------------------------- | ------------------------------------ |
+| 6   |      A | Thức dậy, đánh răng rồi ăn sáng                | Các hành động nối bằng thể `て`           | 起きます = thức dậy / 歯を磨きます = đánh răng |
+| 7   |      A | Về nhà, tắm rồi nấu ăn                         | `帰って、浴びて、料理します` đúng chuỗi hành động     | 帰ります = về / シャワーを浴びます = tắm          |
+| 8   |      A | Hôm qua tôi về nhà, tắm rồi nấu ăn             | Cuối câu `料理しました` quyết định thì quá khứ | きのう = hôm qua / 料理します = nấu ăn       |
+| 9   |      A | Động từ cuối câu quyết định thì và thể của câu | Chuỗi `Vて` phụ thuộc vào động từ cuối    | 最後 = cuối cùng                       |
+| 10  |      A | Ăn cơm rồi ngủ                                 | `食べて、寝ます` = ăn rồi ngủ                   | ごはん = cơm / 寝ます = ngủ                |
+
+---
+
+# Phần C. Vてから
+
+| Câu | Đáp án | Dịch nghĩa                               | Giải thích ngắn                    | Từ vựng                           |
+| --- | -----: | ---------------------------------------- | ---------------------------------- | --------------------------------- |
+| 11  |      A | Viết báo cáo xong rồi ăn cơm             | `書いてから` = sau khi viết xong        | レポート = báo cáo                    |
+| 12  |      A | Gặp khách hàng xong rồi gọi cho giám đốc | `会ってから` = gặp xong rồi             | お客さん = khách hàng / 社長 = giám đốc |
+| 13  |      A | Làm bài tập xong rồi ngủ                 | `宿題をしてから` đúng mẫu                 | 宿題 = bài tập                      |
+| 14  |      A | Ăn cơm xong rồi hãy uống thuốc           | `Vてから、Vてください` = sau khi V thì hãy… | 薬 = thuốc / 飲みます = uống           |
+| 15  |      A | V1 xong rồi mới làm V2                   | `Vてから` nhấn mạnh thứ tự trước sau  | 〜てから = sau khi                    |
+
+---
+
+# Phần D. Nối tính từ い
+
+| Câu | Đáp án | Dịch nghĩa             | Giải thích ngắn            | Từ vựng                    |
+| --- | -----: | ---------------------- | -------------------------- | -------------------------- |
+| 16  |      A | 安い → 安くて               | Tính từ い: bỏ `い` + `くて`   | 安い = rẻ                    |
+| 17  |      A | 大きい → 大きくて             | Đúng quy tắc nối tính từ い | 大きい = to                   |
+| 18  |      A | 白い → 白くて               | `白い` bỏ `い` thành `白くて`    | 白い = trắng                 |
+| 19  |      A | いい → よくて               | `いい` là ngoại lệ: `よくて`    | いい = tốt                   |
+| 20  |      A | Bánh mì này rẻ và ngon | `安くて、おいしいです` = rẻ và ngon  | パン = bánh mì / おいしい = ngon |
+
+---
+
+# Phần E. Nối tính từ な
+
+| Câu | Đáp án | Dịch nghĩa                      | Giải thích ngắn        | Từ vựng                          |
+| --- | -----: | ------------------------------- | ---------------------- | -------------------------------- |
+| 21  |      A | きれいな → きれいで                     | Tính từ な bỏ `な` + `で` | きれい = đẹp / sạch                 |
+| 22  |      A | ハンサムな → ハンサムで                   | Tính từ な nối bằng `で` | ハンサム = đẹp trai                  |
+| 23  |      A | 便利な → 便利で                       | `便利で` = tiện lợi và…   | 便利 = tiện lợi                    |
+| 24  |      A | Hoa anh đào đẹp và nổi tiếng    | `きれいで、有名です` đúng mẫu   | 桜 = hoa anh đào / 有名 = nổi tiếng |
+| 25  |      A | Tài đẹp trai và giỏi tiếng Nhật | `ハンサムで、日本語が上手です`       | 上手 = giỏi                        |
+
+---
+
+# Phần F. Nối tính từ hỗn hợp / dùng が
+
+| Câu | Đáp án | Dịch nghĩa                            | Giải thích ngắn                        | Từ vựng                           |
+| --- | -----: | ------------------------------------- | -------------------------------------- | --------------------------------- |
+| 26  |      A | Cái váy này đẹp và rẻ                 | `きれいで` là tính từ な, `安い` là tính từ い | ドレス = váy / 安い = rẻ               |
+| 27  |      A | Người Việt Nam thân thiện và tốt bụng | `親切で、優しいです` đúng mẫu                   | 親切 = thân thiện / 優しい = hiền, tốt |
+| 28  |      A | Đồng hồ này đẹp nhưng đắt             | Ý trái ngược dùng `が`                  | 時計 = đồng hồ / 高い = đắt           |
+| 29  |      A | Khi hai tính chất trái ngược dùng が   | `が` = nhưng                            | が = nhưng                         |
+| 30  |      A | Món này ngon nhưng đắt                | `おいしいですが、高いです`                         | 料理 = món ăn                       |
+
+---
+
+# Phần G. Nối danh từ
+
+| Câu | Đáp án | Dịch nghĩa                              | Giải thích ngắn      | Từ vựng                                |
+| --- | -----: | --------------------------------------- | -------------------- | -------------------------------------- |
+| 31  |      A | Tôi là người Việt Nam và là du học sinh | Danh từ nối bằng `で` | ベトナム人 = người Việt / 留学生 = du học sinh |
+| 32  |      A | An 22 tuổi và là bác sĩ                 | `22歳で、医者です` đúng mẫu | 歳 = tuổi / 医者 = bác sĩ                 |
+| 33  |      A | Michael là người Mỹ và là giáo viên     | `アメリカ人で、先生です`        | アメリカ人 = người Mỹ                       |
+| 34  |      A | Danh từ khi nối câu thêm で              | `Nで、Nです`             | で = và / là… và…                       |
+
+---
+
+# Phần H. Nは bộ phậnが Adjです
+
+| Câu | Đáp án | Dịch nghĩa              | Giải thích ngắn           | Từ vựng             |
+| --- | -----: | ----------------------- | ------------------------- | ------------------- |
+| 35  |      A | Bạn Chi có da trắng     | Mẫu: `Nは bộ phậnが Adjです`  | 肌 = da / 白い = trắng |
+| 36  |      A | Hà Nội có giá cả đắt đỏ | `物価が高いです` = vật giá cao   | 物価 = vật giá        |
+| 37  |      A | Nhật Bản có đồ ăn ngon  | Bộ phận/đặc điểm dùng `が` | 食べ物 = đồ ăn         |
+| 38  |      A | Hạ Long có biển đẹp     | `海がきれいです`                 | 海 = biển            |
+| 39  |      A | Anh ấy cao              | `背が高いです` = vóc dáng cao   | 背 = chiều cao       |
+
+---
+
+# Phần I. Địa điểmを出ます
+
+| Câu | Đáp án | Dịch nghĩa              | Giải thích ngắn                   | Từ vựng           |
+| --- | -----: | ----------------------- | --------------------------------- | ----------------- |
+| 40  |      A | Ra khỏi nhà             | Ra khỏi địa điểm dùng `を`         | うち = nhà          |
+| 41  |      A | Ra khỏi văn phòng       | `事務所を 出ます` đúng mẫu               | 事務所 = văn phòng   |
+| 42  |      A | Ra khỏi quán nước       | `喫茶店を 出ます`                        | 喫茶店 = quán cà phê |
+| 43  |      A | Đã tốt nghiệp cấp 3     | `学校を 出ます` có thể nghĩa tốt nghiệp | 高校 = cấp 3        |
+| 44  |      A | Ra khỏi địa điểm dùng を | `Địa điểmを 出ます`                   | 出ます = ra khỏi     |
+
+---
+
+# Phần J. Phương tiệnを降ります
+
+| Câu | Đáp án | Dịch nghĩa                      | Giải thích ngắn             | Từ vựng       |
+| --- | -----: | ------------------------------- | --------------------------- | ------------- |
+| 45  |      A | Xuống xe buýt                   | Xuống phương tiện dùng `を`  | バス = xe buýt  |
+| 46  |      A | Xuống tàu điện                  | `電車を 降ります` đúng mẫu         | 電車 = tàu điện |
+| 47  |      A | Xuống taxi                      | `タクシーを 降ります`                | タクシー = taxi   |
+| 48  |      A | Lên xe buýt                     | Lên phương tiện dùng `に`    | 乗ります = lên xe |
+| 49  |      A | Vào/lên dùng に, ra/xuống dùng を | Cặp cần nhớ: `に乗る` / `を降りる` | 降ります = xuống  |
+
+---
+
+# Phần K. どうやって
+
+| Câu | Đáp án | Dịch nghĩa                                 | Giải thích ngắn                  | Từ vựng                      |
+| --- | -----: | ------------------------------------------ | -------------------------------- | ---------------------------- |
+| 50  |      A | Máy này sử dụng như thế nào?               | Hỏi cách dùng bằng `どうやって`       | 機械 = máy / 使います = dùng       |
+| 51  |      A | Học Kanji bằng cách nào?                   | `どうやって Vますか` = làm bằng cách nào | 漢字 = chữ Hán                 |
+| 52  |      A | Bật công tắc rồi bấm nút này               | Chuỗi hành động dùng thể `て`     | スイッチ = công tắc / 押します = bấm |
+| 53  |      A | Khi trả lời どうやって thường dùng V1て、V2て、V3ます | Trả lời bằng quy trình các bước  | 入れます = bật / cho vào         |
+
+---
+
+# Phần L. Mini test tổng hợp
+
+| Câu | Đáp án | Dịch nghĩa                                    | Giải thích ngắn                  | Từ vựng                     |
+| --- | -----: | --------------------------------------------- | -------------------------------- | --------------------------- |
+| 54  |      A | Buổi sáng thức dậy, đánh răng rồi đi học      | `起きて、磨いて、行きます` = chuỗi hành động | 朝 = buổi sáng / 学校 = trường |
+| 55  |      A | Ăn cơm xong rồi uống thuốc                    | `食べてから` = ăn xong rồi            | 薬 = thuốc                   |
+| 56  |      A | Cái cặp này to và nặng                        | `大きくて、重いです` = to và nặng         | 重い = nặng                   |
+| 57  |      A | Anh ấy đẹp trai nhưng kém tiếng Nhật          | Ý trái ngược dùng `が`            | 下手 = kém                    |
+| 58  |      A | Tôi là người Việt Nam và là nhân viên công ty | Danh từ nối bằng `で`             | 会社員 = nhân viên công ty     |
+| 59  |      A | Nhật Bản có đồ ăn ngon                        | Mẫu `Nは bộ phậnが Adjです`          | 日本 = Nhật Bản               |
+| 60  |      A | Ra khỏi văn phòng rồi lên xe buýt             | `事務所を出て、バスに乗ります`                 | 乗ります = lên xe               |
+
+---
+
+# Tổng kết cực ngắn
+
+| Mẫu              | Nghĩa                     | Ví dụ             |
+| ---------------- | ------------------------- | ----------------- |
+| `Vて、Vて、Vます`      | làm V1, rồi V2, rồi V3    | 起きて、歯を磨いて、学校へ行きます |
+| `Vてから、Vます`       | sau khi V xong thì…       | 食べてから、薬を飲みます      |
+| `いAdj bỏ い + くて` | tính từ い nối câu         | 安くて、おいしいです        |
+| `なAdj bỏ な + で`  | tính từ な nối câu         | きれいで、有名です         |
+| `Nで、Nです`         | là N và là N              | ベトナム人で、会社員です      |
+| `Nは 部分が Adjです`   | N có bộ phận/đặc điểm Adj | 日本は 食べ物がおいしいです    |
+| `場所を 出ます`        | ra khỏi địa điểm          | 事務所を 出ます          |
+| `乗り物を 降ります`      | xuống phương tiện         | 電車を 降ります          |
+| `乗り物に 乗ります`      | lên phương tiện           | バスに 乗ります          |
+| `どうやって`          | bằng cách nào             | どうやって 使いますか       |
