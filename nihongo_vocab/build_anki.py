@@ -18,7 +18,7 @@ OUTPUT_DIR = BASE_DIR / "anki"
 LESSON_COUNT = 25
 PARENT_DECK_NAME = "JLPT_NIHONGO_QUIZ"
 
-MODEL_ID = 2026060302
+MODEL_ID = 2026060303
 DECK_ID_BASE = 202606030100
 
 
@@ -270,6 +270,8 @@ function selectAnswer(button) {
   cursor: pointer;
   display: block;
   font: inherit;
+  font-size: 22px;
+  line-height: 1.35;
   margin: 0;
   min-height: 36px;
   padding: 7px 10px;

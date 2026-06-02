@@ -34,7 +34,7 @@ SOURCES = {
     },
 }
 
-MODEL_ID = 202606030203
+MODEL_ID = 202606030204
 
 
 @dataclass(frozen=True)
@@ -285,6 +285,8 @@ function selectAnswer(button) {
   cursor: pointer;
   display: block;
   font: inherit;
+  font-size: 24px;
+  line-height: 1.35;
   margin: 0;
   min-height: 36px;
   padding: 7px 10px;
