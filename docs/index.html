@@ -116,8 +116,26 @@
       gap: 8px;
     }
 
+    .lesson-select {
+      display: none;
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--text);
+      padding: 0 10px;
+      font-weight: 700;
+    }
+
     .grammar-content {
       min-width: 0;
+    }
+
+    .grammar-content,
+    .kana-card,
+    .vocab-panel {
+      overscroll-behavior-x: contain;
     }
 
     .grammar-list {
@@ -459,26 +477,17 @@
       }
 
       .grammar-selector {
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 6px;
-        margin-left: -14px;
-        margin-right: -14px;
-        overflow-x: auto;
-        padding: 0 14px 2px;
-        scrollbar-width: none;
-        -webkit-overflow-scrolling: touch;
+        display: block;
+        margin: 0;
+        padding: 0;
       }
 
-      .grammar-selector::-webkit-scrollbar {
+      .lesson-select {
+        display: block;
+      }
+
+      .lesson-button {
         display: none;
-      }
-
-      .grammar-selector button {
-        flex: 0 0 auto;
-        min-height: 38px;
-        min-width: 68px;
-        padding: 0 8px;
       }
 
       .kana-layout {
@@ -517,11 +526,46 @@
 
       .grammar-table {
         display: block;
+        max-width: 100%;
         overflow-x: auto;
+        overscroll-behavior-x: contain;
+        -webkit-overflow-scrolling: touch;
         white-space: nowrap;
       }
 
+      .grammar-content {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .grammar-content > * {
+        max-width: 100%;
+      }
+
+      .grammar-content table {
+        display: block;
+        max-width: 100%;
+        overflow-x: auto;
+        overscroll-behavior-x: contain;
+        -webkit-overflow-scrolling: touch;
+        white-space: nowrap;
+      }
+
+      .grammar-content pre,
+      .grammar-content code {
+        max-width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        white-space: pre;
+      }
+
+      .kana-card {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+
       .kana-table {
+        min-width: 430px;
         font-size: 13px;
       }
 
@@ -1042,6 +1086,10 @@
         grammarLessonList.querySelectorAll("button").forEach((button, buttonIndex) => {
           button.classList.toggle("active", buttonIndex === lessonIndex);
         });
+        const select = grammarLessonList.querySelector("select");
+        if (select) {
+          select.value = String(lessonIndex);
+        }
 
         const cachedHtml = grammarContentCache.get(lesson.path);
         if (cachedHtml) {
@@ -1077,9 +1125,24 @@
       };
       const renderGrammarLessonButtons = () => {
         grammarLessonList.replaceChildren();
+        const select = document.createElement("select");
+        select.className = "lesson-select";
+        select.setAttribute("aria-label", "Chọn bài ngữ pháp");
+        grammarLessons.forEach((lesson, index) => {
+          const option = document.createElement("option");
+          option.value = String(index);
+          option.textContent = lesson.title;
+          select.appendChild(option);
+        });
+        select.addEventListener("change", () => {
+          selectGrammarLesson(Number(select.value));
+        });
+        grammarLessonList.appendChild(select);
+
         grammarLessons.forEach((lesson, index) => {
           const button = document.createElement("button");
           button.type = "button";
+          button.className = "lesson-button";
           button.textContent = lesson.title;
           button.addEventListener("click", () => {
             selectGrammarLesson(index);
@@ -1104,6 +1167,10 @@
         kanjiLessonList.querySelectorAll("button").forEach((button, buttonIndex) => {
           button.classList.toggle("active", buttonIndex === lessonIndex);
         });
+        const select = kanjiLessonList.querySelector("select");
+        if (select) {
+          select.value = String(lessonIndex);
+        }
 
         const cachedHtml = kanjiContentCache.get(lesson.path);
         if (cachedHtml) {
@@ -1140,9 +1207,24 @@
 
       const renderKanjiLessonButtons = () => {
         kanjiLessonList.replaceChildren();
+        const select = document.createElement("select");
+        select.className = "lesson-select";
+        select.setAttribute("aria-label", "Chọn bài Kanji");
+        kanjiLessons.forEach((lesson, index) => {
+          const option = document.createElement("option");
+          option.value = String(index);
+          option.textContent = lesson.title;
+          select.appendChild(option);
+        });
+        select.addEventListener("change", () => {
+          selectKanjiLesson(Number(select.value));
+        });
+        kanjiLessonList.appendChild(select);
+
         kanjiLessons.forEach((lesson, index) => {
           const button = document.createElement("button");
           button.type = "button";
+          button.className = "lesson-button";
           button.textContent = lesson.title;
           button.addEventListener("click", () => {
             selectKanjiLesson(index);
