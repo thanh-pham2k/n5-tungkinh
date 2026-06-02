@@ -1,0 +1,202 @@
+| Câu   | Đáp án | Từ đúng                       | Hiragana               | Romaji                               | Nghĩa / giải thích ngắn |   |
+| ----- | ------ | ----------------------------- | ---------------------- | ------------------------------------ | ----------------------- | - |
+| 1.1   | A      | かんたん                          | かんたん                   | kantan                               | đơn giản / dễ           |   |
+| 1.2   | A      | 近い（ちかい）                       | ちかい                    | chikai                               | gần                     |   |
+| 1.3   | A      | 遠い（とおい）                       | とおい                    | tooi                                 | xa                      |   |
+| 1.4   | A      | 早い（はやい）                       | はやい                    | hayai                                | nhanh / sớm             |   |
+| 1.5   | A      | 遅い（おそい）                       | おそい                    | osoi                                 | chậm / muộn             |   |
+| 1.6   | A      | 多い（おおい）                       | おおい                    | ooi                                  | nhiều                   |   |
+| 1.7   | A      | 少ない（すくない）                     | すくない                   | sukunai                              | ít                      |   |
+| 1.8   | A      | あたたかい                         | あたたかい                  | atatakai                             | ấm                      |   |
+| 1.9   | A      | すずしい                          | すずしい                   | suzushii                             | mát mẻ                  |   |
+| 1.10  | A      | あまい                           | あまい                    | amai                                 | ngọt                    |   |
+| 2.1   | A      | からい                           | からい                    | karai                                | cay                     |   |
+| 2.2   | A      | 重い（おもい）                       | おもい                    | omoi                                 | nặng                    |   |
+| 2.3   | A      | 軽い（かるい）                       | かるい                    | karui                                | nhẹ                     |   |
+| 2.4   | A      | いい                            | いい                     | ii                                   | tốt                     |   |
+| 2.5   | A      | きせつ                           | きせつ                    | kisetsu                              | mùa                     |   |
+| 2.6   | A      | 春（はる）                         | はる                     | haru                                 | mùa xuân                |   |
+| 2.7   | A      | 夏（なつ）                         | なつ                     | natsu                                | mùa hè                  |   |
+| 2.8   | A      | 秋（あき）                         | あき                     | aki                                  | mùa thu                 |   |
+| 2.9   | A      | 冬（ふゆ）                         | ふゆ                     | fuyu                                 | mùa đông                |   |
+| 2.10  | A      | 天気（てんき）                       | てんき                    | tenki                                | thời tiết               |   |
+| 3.1   | A      | 雨（あめ）                         | あめ                     | ame                                  | mưa                     |   |
+| 3.2   | A      | 雪（ゆき）                         | ゆき                     | yuki                                 | tuyết                   |   |
+| 3.3   | A      | くもり                           | くもり                    | kumori                               | trời nhiều mây          |   |
+| 3.4   | A      | ホテル                           | ホテル                    | hoteru                               | khách sạn               |   |
+| 3.5   | A      | 空港（くうこう）                      | くうこう                   | kuukou                               | sân bay                 |   |
+| 3.6   | A      | 海（うみ）                         | うみ                     | umi                                  | biển                    |   |
+| 3.7   | A      | 世界（せかい）                       | せかい                    | sekai                                | thế giới                |   |
+| 3.8   | A      | パーティー                         | パーティー                  | paatii                               | tiệc                    |   |
+| 3.9   | A      | まつり                           | まつり                    | matsuri                              | lễ hội                  |   |
+| 3.10  | A      | ホテルは 空港（くうこう）の 近く（ちかく）です      | ホテルは くうこうの ちかくです       | hoteru wa kuukou no chikaku desu     | khách sạn gần sân bay   |   |
+| 4.1   | A      | すきやき                          | すきやき                   | sukiyaki                             | món sukiyaki            |   |
+| 4.2   | A      | さしみ                           | さしみ                    | sashimi                              | sashimi                 |   |
+| 4.3   | A      | すし                            | すし                     | sushi                                | sushi                   |   |
+| 4.4   | A      | てんぷら                          | てんぷら                   | tenpura                              | tempura                 |   |
+| 4.5   | A      | いけばな                          | いけばな                   | ikebana                              | nghệ thuật cắm hoa      |   |
+| 4.6   | A      | もみじ                           | もみじ                    | momiji                               | lá đỏ mùa thu           |   |
+| 4.7   | A      | すきやきは どうですか                   | すきやきは どうですか            | sukiyaki wa dou desu ka              | sukiyaki thế nào        |   |
+| 4.8   | A      | はじめて すしを 食べます（たべます）           | はじめて すしを たべます          | hajimete sushi o tabemasu            | lần đầu ăn sushi        |   |
+| 4.9   | A      | 秋（あき）の もみじは きれいです             | あきの もみじは きれいです         | aki no momiji wa kirei desu          | lá thu đẹp              |   |
+| 4.10  | A      | いけばなは かんたんですか                 | いけばなは かんたんですか          | ikebana wa kantan desu ka            | cắm hoa dễ không        |   |
+| 5.1   | A      | どちら                           | どちら                    | dochira                              | cái nào / bên nào       |   |
+| 5.2   | A      | どちらも                          | どちらも                   | dochira mo                           | cả hai đều              |   |
+| 5.3   | A      | ずっと                           | ずっと                    | zutto                                | hơn nhiều / suốt        |   |
+| 5.4   | A      | はじめて                          | はじめて                   | hajimete                             | lần đầu tiên            |   |
+| 5.5   | A      | ただいま                          | ただいま                   | tadaima                              | tôi đã về               |   |
+| 5.6   | A      | おかえりなさい                       | おかえりなさい                | okaerinasai                          | mừng anh/chị về         |   |
+| 5.7   | A      | すごいですね                        | すごいですね                 | sugoi desu ne                        | tuyệt quá               |   |
+| 5.8   | A      | でも                            | でも                     | demo                                 | nhưng                   |   |
+| 5.9   | A      | つかれました                        | つかれました                 | tsukaremashita                       | mệt rồi                 |   |
+| 5.10  | A      | どちらが いいですか                    | どちらが いいですか             | dochira ga ii desu ka                | cái nào tốt hơn         |   |
+| 6.1   | A      | かんたん                          | かんたん                   | kantan                               | đơn giản / dễ           |   |
+| 6.2   | A      | 近い（ちかい）                       | ちかい                    | chikai                               | gần                     |   |
+| 6.3   | A      | 遠い（とおい）                       | とおい                    | tooi                                 | xa                      |   |
+| 6.4   | A      | 早い（はやい）                       | はやい                    | hayai                                | nhanh / sớm             |   |
+| 6.5   | A      | 遅い（おそい）                       | おそい                    | osoi                                 | chậm / muộn             |   |
+| 6.6   | A      | 多い（おおい）                       | おおい                    | ooi                                  | nhiều                   |   |
+| 6.7   | A      | 少ない（すくない）                     | すくない                   | sukunai                              | ít                      |   |
+| 6.8   | A      | あたたかい                         | あたたかい                  | atatakai                             | ấm                      |   |
+| 6.9   | A      | すずしい                          | すずしい                   | suzushii                             | mát mẻ                  |   |
+| 6.10  | A      | あまい                           | あまい                    | amai                                 | ngọt                    |   |
+| 7.1   | A      | からい                           | からい                    | karai                                | cay                     |   |
+| 7.2   | A      | 重い（おもい）                       | おもい                    | omoi                                 | nặng                    |   |
+| 7.3   | A      | 軽い（かるい）                       | かるい                    | karui                                | nhẹ                     |   |
+| 7.4   | A      | いい                            | いい                     | ii                                   | tốt                     |   |
+| 7.5   | A      | きせつ                           | きせつ                    | kisetsu                              | mùa                     |   |
+| 7.6   | A      | 春（はる）                         | はる                     | haru                                 | mùa xuân                |   |
+| 7.7   | A      | 夏（なつ）                         | なつ                     | natsu                                | mùa hè                  |   |
+| 7.8   | A      | 秋（あき）                         | あき                     | aki                                  | mùa thu                 |   |
+| 7.9   | A      | 冬（ふゆ）                         | ふゆ                     | fuyu                                 | mùa đông                |   |
+| 7.10  | A      | 天気（てんき）                       | てんき                    | tenki                                | thời tiết               |   |
+| 8.1   | A      | 雨（あめ）                         | あめ                     | ame                                  | mưa                     |   |
+| 8.2   | A      | 雪（ゆき）                         | ゆき                     | yuki                                 | tuyết                   |   |
+| 8.3   | A      | くもり                           | くもり                    | kumori                               | trời nhiều mây          |   |
+| 8.4   | A      | ホテル                           | ホテル                    | hoteru                               | khách sạn               |   |
+| 8.5   | A      | 空港（くうこう）                      | くうこう                   | kuukou                               | sân bay                 |   |
+| 8.6   | A      | 海（うみ）                         | うみ                     | umi                                  | biển                    |   |
+| 8.7   | A      | 世界（せかい）                       | せかい                    | sekai                                | thế giới                |   |
+| 8.8   | A      | パーティー                         | パーティー                  | paatii                               | tiệc                    |   |
+| 8.9   | A      | まつり                           | まつり                    | matsuri                              | lễ hội                  |   |
+| 8.10  | A      | もみじ                           | もみじ                    | momiji                               | lá đỏ mùa thu           |   |
+| 9.1   | A      | すきやき                          | すきやき                   | sukiyaki                             | món sukiyaki            |   |
+| 9.2   | A      | さしみ                           | さしみ                    | sashimi                              | sashimi                 |   |
+| 9.3   | A      | すし                            | すし                     | sushi                                | sushi                   |   |
+| 9.4   | A      | てんぷら                          | てんぷら                   | tenpura                              | tempura                 |   |
+| 9.5   | A      | いけばな                          | いけばな                   | ikebana                              | nghệ thuật cắm hoa      |   |
+| 9.6   | A      | どちら                           | どちら                    | dochira                              | cái nào trong 2         |   |
+| 9.7   | A      | どちらも                          | どちらも                   | dochira mo                           | cả hai đều              |   |
+| 9.8   | A      | ずっと                           | ずっと                    | zutto                                | hơn nhiều / suốt        |   |
+| 9.9   | A      | はじめて                          | はじめて                   | hajimete                             | lần đầu tiên            |   |
+| 9.10  | A      | でも                            | でも                     | demo                                 | nhưng                   |   |
+| 10.1  | A      | かんたん                          | かんたん                   | kantan                               | đơn giản / dễ           |   |
+| 10.2  | A      | 近い（ちかい）                       | ちかい                    | chikai                               | gần                     |   |
+| 10.3  | A      | 遠い（とおい）                       | とおい                    | tooi                                 | xa                      |   |
+| 10.4  | A      | 早い（はやい）                       | はやい                    | hayai                                | nhanh / sớm             |   |
+| 10.5  | A      | 遅い（おそい）                       | おそい                    | osoi                                 | chậm / muộn             |   |
+| 10.6  | A      | 多い（おおい）                       | おおい                    | ooi                                  | nhiều                   |   |
+| 10.7  | A      | あまい                           | あまい                    | amai                                 | ngọt                    |   |
+| 10.8  | A      | からい                           | からい                    | karai                                | cay                     |   |
+| 10.9  | A      | 重い（おもい）                       | おもい                    | omoi                                 | nặng                    |   |
+| 10.10 | A      | 軽い（かるい）                       | かるい                    | karui                                | nhẹ                     |   |
+| 11.1  | A      | あたたかい                         | あたたかい                  | atatakai                             | ấm                      |   |
+| 11.2  | A      | すずしい                          | すずしい                   | suzushii                             | mát mẻ                  |   |
+| 11.3  | A      | さむい                           | さむい                    | samui                                | lạnh                    |   |
+| 11.4  | A      | いい                            | いい                     | ii                                   | tốt                     |   |
+| 11.5  | A      | 雨（あめ）                         | あめ                     | ame                                  | mưa                     |   |
+| 11.6  | A      | 雪（ゆき）                         | ゆき                     | yuki                                 | tuyết                   |   |
+| 11.7  | A      | くもり                           | くもり                    | kumori                               | trời nhiều mây          |   |
+| 11.8  | A      | いい                            | いい                     | ii                                   | tốt                     |   |
+| 11.9  | A      | 近い（ちかい）                       | ちかい                    | chikai                               | gần                     |   |
+| 11.10 | A      | すごい                           | すごい                    | sugoi                                | tuyệt / ghê             |   |
+| 12.1  | A      | どちら                           | どちら                    | dochira                              | cái nào                 |   |
+| 12.2  | A      | どちらも                          | どちらも                   | dochira mo                           | cả hai đều              |   |
+| 12.3  | A      | ずっと                           | ずっと                    | zutto                                | hơn nhiều               |   |
+| 12.4  | A      | はじめて                          | はじめて                   | hajimete                             | lần đầu tiên            |   |
+| 12.5  | A      | ただいま                          | ただいま                   | tadaima                              | tôi đã về               |   |
+| 12.6  | A      | おかえりなさい                       | おかえりなさい                | okaerinasai                          | mừng anh/chị về         |   |
+| 12.7  | A      | すごいですね                        | すごいですね                 | sugoi desu ne                        | tuyệt quá               |   |
+| 12.8  | A      | つかれました                        | つかれました                 | tsukaremashita                       | mệt rồi                 |   |
+| 12.9  | A      | でも                            | でも                     | demo                                 | nhưng                   |   |
+| 12.10 | A      | はい、はじめてです                     | はい、はじめてです              | hai, hajimete desu                   | vâng, lần đầu           |   |
+| 13.1  | A      | 近い（ちかい）                       | ちかい                    | chikai                               | gần                     |   |
+| 13.2  | A      | 遠い（とおい）                       | とおい                    | tooi                                 | xa                      |   |
+| 13.3  | A      | 早い（はやい）                       | はやい                    | hayai                                | nhanh / sớm             |   |
+| 13.4  | A      | 遅い（おそい）                       | おそい                    | osoi                                 | chậm / muộn             |   |
+| 13.5  | A      | 多い（おおい）                       | おおい                    | ooi                                  | nhiều                   |   |
+| 13.6  | A      | 少ない（すくない）                     | すくない                   | sukunai                              | ít                      |   |
+| 13.7  | A      | 重い（おもい）                       | おもい                    | omoi                                 | nặng                    |   |
+| 13.8  | A      | 軽い（かるい）                       | かるい                    | karui                                | nhẹ                     |   |
+| 13.9  | A      | 春（はる）                         | はる                     | haru                                 | mùa xuân                |   |
+| 13.10 | A      | 夏（なつ）                         | なつ                     | natsu                                | mùa hè                  |   |
+| 14.1  | A      | 秋（あき）                         | あき                     | aki                                  | mùa thu                 |   |
+| 14.2  | A      | 冬（ふゆ）                         | ふゆ                     | fuyu                                 | mùa đông                |   |
+| 14.3  | A      | 天気（てんき）                       | てんき                    | tenki                                | thời tiết               |   |
+| 14.4  | A      | 雨（あめ）                         | あめ                     | ame                                  | mưa                     |   |
+| 14.5  | A      | 雪（ゆき）                         | ゆき                     | yuki                                 | tuyết                   |   |
+| 14.6  | A      | 空港（くうこう）                      | くうこう                   | kuukou                               | sân bay                 |   |
+| 14.7  | A      | 海（うみ）                         | うみ                     | umi                                  | biển                    |   |
+| 14.8  | A      | 世界（せかい）                       | せかい                    | sekai                                | thế giới                |   |
+| 14.9  | A      | 食べます（たべます）                    | たべます                   | tabemasu                             | ăn                      |   |
+| 14.10 | A      | 富士山（ふじさん）                     | ふじさん                   | fujisan                              | núi Phú Sĩ              |   |
+| 15.1  | A      | 近い（ちかい）                       | ちかい                    | chikai                               | gần                     |   |
+| 15.2  | A      | 遠い（とおい）                       | とおい                    | tooi                                 | xa                      |   |
+| 15.3  | A      | 早い（はやい）                       | はやい                    | hayai                                | nhanh / sớm             |   |
+| 15.4  | A      | 遅い（おそい）                       | おそい                    | osoi                                 | chậm / muộn             |   |
+| 15.5  | A      | 多い（おおい）                       | おおい                    | ooi                                  | nhiều                   |   |
+| 15.6  | A      | 少ない（すくない）                     | すくない                   | sukunai                              | ít                      |   |
+| 15.7  | A      | 重い（おもい）                       | おもい                    | omoi                                 | nặng                    |   |
+| 15.8  | A      | 軽い（かるい）                       | かるい                    | karui                                | nhẹ                     |   |
+| 15.9  | A      | 春（はる）                         | はる                     | haru                                 | mùa xuân                |   |
+| 15.10 | A      | 夏（なつ）                         | なつ                     | natsu                                | mùa hè                  |   |
+| 16.1  | A      | 秋（あき）                         | あき                     | aki                                  | mùa thu                 |   |
+| 16.2  | A      | 冬（ふゆ）                         | ふゆ                     | fuyu                                 | mùa đông                |   |
+| 16.3  | A      | 天気（てんき）                       | てんき                    | tenki                                | thời tiết               |   |
+| 16.4  | A      | 雨（あめ）                         | あめ                     | ame                                  | mưa                     |   |
+| 16.5  | A      | 雪（ゆき）                         | ゆき                     | yuki                                 | tuyết                   |   |
+| 16.6  | A      | 空港（くうこう）                      | くうこう                   | kuukou                               | sân bay                 |   |
+| 16.7  | A      | 海（うみ）                         | うみ                     | umi                                  | biển                    |   |
+| 16.8  | A      | 世界（せかい）                       | せかい                    | sekai                                | thế giới                |   |
+| 16.9  | A      | 食べます（たべます）                    | たべます                   | tabemasu                             | ăn                      |   |
+| 16.10 | A      | 富士山（ふじさん）                     | ふじさん                   | fujisan                              | núi Phú Sĩ              |   |
+| 17.1  | A      | 近い（ちかい）                       | ちかい                    | chikai                               | khoảng cách             |   |
+| 17.2  | A      | 早い（はやい）                       | はやい                    | hayai                                | tốc độ                  |   |
+| 17.3  | A      | 多い（おおい）                       | おおい                    | ooi                                  | số lượng                |   |
+| 17.4  | A      | あたたかい                         | あたたかい                  | atatakai                             | nhiệt độ                |   |
+| 17.5  | A      | からい                           | からい                    | karai                                | vị giác                 |   |
+| 17.6  | A      | 冬（ふゆ）                         | ふゆ                     | fuyu                                 | mùa                     |   |
+| 17.7  | A      | くもり                           | くもり                    | kumori                               | thời tiết               |   |
+| 17.8  | A      | ホテル                           | ホテル                    | hoteru                               | địa điểm                |   |
+| 17.9  | A      | すし                            | すし                     | sushi                                | món Nhật                |   |
+| 17.10 | A      | ただいま                          | ただいま                   | tadaima                              | chào về nhà             |   |
+| 18.1  | A      | 近い（ちかい） / 遠い（とおい）             | ちかい / とおい              | chikai / tooi                        | gần / xa                |   |
+| 18.2  | A      | 早い（はやい） / 遅い（おそい）             | はやい / おそい              | hayai / osoi                         | nhanh / chậm            |   |
+| 18.3  | A      | 多い（おおい） / 少ない（すくない）           | おおい / すくない             | ooi / sukunai                        | nhiều / ít              |   |
+| 18.4  | A      | あたたかい / すずしい                  | あたたかい / すずしい           | atatakai / suzushii                  | ấm / mát                |   |
+| 18.5  | A      | あまい / からい                     | あまい / からい              | amai / karai                         | ngọt / cay              |   |
+| 18.6  | A      | 重い（おもい） / 軽い（かるい）             | おもい / かるい              | omoi / karui                         | nặng / nhẹ              |   |
+| 18.7  | A      | 春（はる） / 夏（なつ） / 秋（あき） / 冬（ふゆ） | はる / なつ / あき / ふゆ      | haru / natsu / aki / fuyu            | xuân / hè / thu / đông  |   |
+| 18.8  | A      | 雨（あめ） / 雪（ゆき） / くもり           | あめ / ゆき / くもり          | ame / yuki / kumori                  | mưa / tuyết / mây       |   |
+| 18.9  | A      | すきやき / さしみ / すし / てんぷら        | すきやき / さしみ / すし / てんぷら | sukiyaki / sashimi / sushi / tenpura | món Nhật khác nhau      |   |
+| 18.10 | A      | ただいま / おかえりなさい                | ただいま / おかえりなさい         | tadaima / okaerinasai                | tôi về / mừng về        |   |
+| 19.1  | A      | どちら / どちらも                    | どちら / どちらも             | dochira / dochira mo                 | cái nào / cả hai        |   |
+| 19.2  | A      | ずっと / はじめて                    | ずっと / はじめて             | zutto / hajimete                     | suốt / lần đầu          |   |
+| 19.3  | A      | でも / が                        | でも / が                 | demo / ga                            | nhưng đầu câu / nối câu |   |
+| 19.4  | A      | つかれました / すごいですね               | つかれました / すごいですね        | tsukaremashita / sugoi desu ne       | mệt / tuyệt quá         |   |
+| 19.5  | A      | ホテル / 空港（くうこう）                | ホテル / くうこう             | hoteru / kuukou                      | khách sạn / sân bay     |   |
+| 19.6  | A      | 海（うみ） / 世界（せかい）               | うみ / せかい               | umi / sekai                          | biển / thế giới         |   |
+| 19.7  | A      | パーティー / まつり                   | パーティー / まつり            | paatii / matsuri                     | tiệc / lễ hội           |   |
+| 19.8  | A      | いけばな / もみじ                    | いけばな / もみじ             | ikebana / momiji                     | cắm hoa / lá đỏ         |   |
+| 19.9  | A      | いい / すごいですね                   | いい / すごいですね            | ii / sugoi desu ne                   | tốt / tuyệt quá         |   |
+| 19.10 | A      | くもり / 天気（てんき）                 | くもり / てんき              | kumori / tenki                       | nhiều mây / thời tiết   |   |
+| 20.1  | A      | から                            | から                     | kara                                 | từ                      |   |
+| 20.2  | A      | から                            | から                     | kara                                 | từ                      |   |
+| 20.3  | A      | より                            | より                     | yori                                 | hơn                     |   |
+| 20.4  | A      | と                             | と                      | to                                   | và                      |   |
+| 20.5  | A      | も                             | も                      | mo                                   | cũng                    |   |
+| 20.6  | A      | ですか                           | ですか                    | desu ka                              | câu hỏi                 |   |
+| 20.7  | A      | です                            | です                     | desu                                 | là                      |   |
+| 20.8  | A      | です                            | です                     | desu                                 | là                      |   |
+| 20.9  | A      | ですか                           | ですか                    | desu ka                              | câu hỏi                 |   |
+| 20.10 | A      | でも                            | でも                     | demo                                 | nhưng                   |   |

@@ -1,0 +1,162 @@
+| Câu   | Đáp án | Từ đúng              | Hiragana             | Romaji                               | Nghĩa / giải thích ngắn |   |
+| ----- | ------ | -------------------- | -------------------- | ------------------------------------ | ----------------------- | - |
+| 1.1   | A      | たちます                 | たちます                 | tachimasu                            | đứng                    |   |
+| 1.2   | A      | すわります                | すわります                | suwarimasu                           | ngồi                    |   |
+| 1.3   | A      | つかいます                | つかいます                | tsukaimasu                           | dùng / sử dụng          |   |
+| 1.4   | A      | おきます                 | おきます                 | okimasu                              | đặt / để                |   |
+| 1.5   | A      | つくります                | つくります                | tsukurimasu                          | làm / chế tạo           |   |
+| 1.6   | A      | うります                 | うります                 | urimasu                              | bán                     |   |
+| 1.7   | A      | けんきゅうします             | けんきゅうします             | kenkyuu shimasu                      | nghiên cứu              |   |
+| 1.8   | A      | おもいだします              | おもいだします              | omoidasu                             | nhớ ra                  |   |
+| 1.9   | A      | いらっしゃいます             | いらっしゃいます             | irasshaimasu                         | có / ở / đi / đến       |   |
+| 1.10  | A      | ここで たちます             | ここで たちます             | koko de tachimasu                    | đứng ở đây              |   |
+| 2.1   | A      | しります                 | しります                 | shirimasu                            | biết                    |   |
+| 2.2   | A      | しっています               | しっています               | shitte imasu                         | biết                    |   |
+| 2.3   | A      | しりません                | しりません                | shirimasen                           | không biết              |   |
+| 2.4   | A      | すみます                 | すみます                 | sumimasu                             | sống / cư trú           |   |
+| 2.5   | A      | すんでいます               | すんでいます               | sunde imasu                          | đang sống               |   |
+| 2.6   | A      | おおさかに すんでいます         | おおさかに すんでいます         | oosaka ni sunde imasu                | sống ở Osaka            |   |
+| 2.7   | A      | 山田（やまだ）さんを しっています    | やまださんを しっています        | yamada san o shitte imasu            | biết Yamada             |   |
+| 2.8   | A      | いいえ、しりません            | いいえ、しりません            | iie, shirimasen                      | không biết              |   |
+| 2.9   | A      | どこに すんでいますか          | どこに すんでいますか          | doko ni sunde imasu ka               | sống ở đâu              |   |
+| 2.10  | A      | ここに すんでいます           | ここに すんでいます           | koko ni sunde imasu                  | sống ở đây              |   |
+| 3.1   | A      | しりょう                 | しりょう                 | shiryou                              | tài liệu                |   |
+| 3.2   | A      | カタログ                 | カタログ                 | katarogu                             | catalogue               |   |
+| 3.3   | A      | じこくひょう               | じこくひょう               | jikokuhyou                           | bảng giờ tàu            |   |
+| 3.4   | A      | ふく                   | ふく                   | fuku                                 | quần áo                 |   |
+| 3.5   | A      | せいひん                 | せいひん                 | seihin                               | sản phẩm                |   |
+| 3.6   | A      | ソフト                  | ソフト                  | sofuto                               | phần mềm                |   |
+| 3.7   | A      | でんしじしょ               | でんしじしょ               | denshi jisho                         | từ điển điện tử         |   |
+| 3.8   | A      | この ソフトを つかいます        | この ソフトを つかいます        | kono sofuto o tsukaimasu             | dùng phần mềm này       |   |
+| 3.9   | A      | カタログを みます            | カタログを みます            | katarogu o mimasu                    | xem catalogue           |   |
+| 3.10  | A      | しりょうを つくります          | しりょうを つくります          | shiryou o tsukurimasu                | làm tài liệu            |   |
+| 4.1   | A      | せんもん                 | せんもん                 | senmon                               | chuyên môn              |   |
+| 4.2   | A      | はいしゃ                 | はいしゃ                 | haisha                               | nha sĩ                  |   |
+| 4.3   | A      | かいしゃいん               | かいしゃいん               | kaishain                             | nhân viên công ty       |   |
+| 4.4   | A      | ごかぞく                 | ごかぞく                 | gokazoku                             | gia đình người khác     |   |
+| 4.5   | A      | どくしん                 | どくしん                 | dokushin                             | độc thân                |   |
+| 4.6   | A      | とこや                  | とこや                  | tokoya                               | tiệm cắt tóc            |   |
+| 4.7   | A      | プレイガイド               | プレイガイド               | pureigaido                           | quầy bán vé             |   |
+| 4.8   | A      | こうこう                 | こうこう                 | koukou                               | trường cấp 3            |   |
+| 4.9   | A      | にほんばし                | にほんばし                | nihonbashi                           | Nihonbashi              |   |
+| 4.10  | A      | せんもんは けいざいです         | せんもんは けいざいです         | senmon wa keizai desu                | chuyên môn kinh tế      |   |
+| 5.1   | A      | とくに                  | とくに                  | toku ni                              | đặc biệt là             |   |
+| 5.2   | A      | もう                   | もう                   | mou                                  | đã / nữa                |   |
+| 5.3   | A      | まだ                   | まだ                   | mada                                 | chưa                    |   |
+| 5.4   | A      | ここで                  | ここで                  | koko de                              | ở đây                   |   |
+| 5.5   | A      | たばこを すいます            | たばこを すいます            | tabako o suimasu                     | hút thuốc               |   |
+| 5.6   | A      | すってもいいです             | すってもいいです             | sutte mo ii desu                     | hút cũng được           |   |
+| 5.7   | A      | すってはいけません            | すってはいけません            | sutte wa ikemasen                    | không được hút          |   |
+| 5.8   | A      | いいですか                | いいですか                | ii desu ka                           | được không              |   |
+| 5.9   | A      | はい、いいです              | はい、いいです              | hai, ii desu                         | vâng, được              |   |
+| 5.10  | A      | だめです                 | だめです                 | dame desu                            | không được              |   |
+| 6.1   | A      | たちます                 | たちます                 | tachimasu                            | đứng                    |   |
+| 6.2   | A      | すわります                | すわります                | suwarimasu                           | ngồi                    |   |
+| 6.3   | A      | つかいます                | つかいます                | tsukaimasu                           | dùng / sử dụng          |   |
+| 6.4   | A      | おきます                 | おきます                 | okimasu                              | đặt / để                |   |
+| 6.5   | A      | つくります                | つくります                | tsukurimasu                          | làm / chế tạo           |   |
+| 6.6   | A      | うります                 | うります                 | urimasu                              | bán                     |   |
+| 6.7   | A      | けんきゅうします             | けんきゅうします             | kenkyuu shimasu                      | nghiên cứu              |   |
+| 6.8   | A      | おもいだします              | おもいだします              | omoidasu                             | nhớ ra                  |   |
+| 6.9   | A      | しっています               | しっています               | shitte imasu                         | biết                    |   |
+| 6.10  | A      | しりません                | しりません                | shirimasen                           | không biết              |   |
+| 7.1   | A      | すみます                 | すみます                 | sumimasu                             | sống / cư trú           |   |
+| 7.2   | A      | すんでいます               | すんでいます               | sunde imasu                          | đang sống               |   |
+| 7.3   | A      | しりょう                 | しりょう                 | shiryou                              | tài liệu                |   |
+| 7.4   | A      | カタログ                 | カタログ                 | katarogu                             | catalogue               |   |
+| 7.5   | A      | じこくひょう               | じこくひょう               | jikokuhyou                           | bảng giờ tàu            |   |
+| 7.6   | A      | ふく                   | ふく                   | fuku                                 | quần áo                 |   |
+| 7.7   | A      | せいひん                 | せいひん                 | seihin                               | sản phẩm                |   |
+| 7.8   | A      | ソフト                  | ソフト                  | sofuto                               | phần mềm                |   |
+| 7.9   | A      | でんしじしょ               | でんしじしょ               | denshi jisho                         | từ điển điện tử         |   |
+| 7.10  | A      | せんもん                 | せんもん                 | senmon                               | chuyên môn              |   |
+| 8.1   | A      | はいしゃ                 | はいしゃ                 | haisha                               | nha sĩ                  |   |
+| 8.2   | A      | かいしゃいん               | かいしゃいん               | kaishain                             | nhân viên công ty       |   |
+| 8.3   | A      | ごかぞく                 | ごかぞく                 | gokazoku                             | gia đình người khác     |   |
+| 8.4   | A      | どくしん                 | どくしん                 | dokushin                             | độc thân                |   |
+| 8.5   | A      | とこや                  | とこや                  | tokoya                               | tiệm cắt tóc            |   |
+| 8.6   | A      | プレイガイド               | プレイガイド               | pureigaido                           | quầy bán vé             |   |
+| 8.7   | A      | こうこう                 | こうこう                 | koukou                               | trường cấp 3            |   |
+| 8.8   | A      | にほんばし                | にほんばし                | nihonbashi                           | Nihonbashi              |   |
+| 8.9   | A      | とくに                  | とくに                  | toku ni                              | đặc biệt là             |   |
+| 8.10  | A      | ここで                  | ここで                  | koko de                              | ở đây                   |   |
+| 9.1   | A      | たちます                 | たちます                 | tachimasu                            | đứng                    |   |
+| 9.2   | A      | すわります                | すわります                | suwarimasu                           | ngồi                    |   |
+| 9.3   | A      | つかいます                | つかいます                | tsukaimasu                           | dùng                    |   |
+| 9.4   | A      | おきます                 | おきます                 | okimasu                              | đặt / để                |   |
+| 9.5   | A      | つくります                | つくります                | tsukurimasu                          | chế tạo                 |   |
+| 9.6   | A      | うります                 | うります                 | urimasu                              | bán                     |   |
+| 9.7   | A      | けんきゅうします             | けんきゅうします             | kenkyuu shimasu                      | nghiên cứu              |   |
+| 9.8   | A      | おもいだします              | おもいだします              | omoidasu                             | nhớ ra                  |   |
+| 9.9   | A      | しっています               | しっています               | shitte imasu                         | biết                    |   |
+| 9.10  | A      | すんでいます               | すんでいます               | sunde imasu                          | đang sống               |   |
+| 10.1  | A      | すってもいいですか            | すってもいいですか            | sutte mo ii desu ka                  | hút được không          |   |
+| 10.2  | A      | いいです                 | いいです                 | ii desu                              | được                    |   |
+| 10.3  | A      | すってはいけません            | すってはいけません            | sutte wa ikemasen                    | không được hút          |   |
+| 10.4  | A      | だめです                 | だめです                 | dame desu                            | không được              |   |
+| 10.5  | A      | すってはいけません            | すってはいけません            | sutte wa ikemasen                    | không được hút          |   |
+| 10.6  | A      | つかってもいいですか           | つかってもいいですか           | tsukatte mo ii desu ka               | dùng được không         |   |
+| 10.7  | A      | 見ても（みても）いいですか        | みてもいいですか             | mite mo ii desu ka                   | xem được không          |   |
+| 10.8  | A      | おいてもいいですか            | おいてもいいですか            | oite mo ii desu ka                   | đặt được không          |   |
+| 10.9  | A      | うってもいいですか            | うってもいいですか            | utte mo ii desu ka                   | bán được không          |   |
+| 10.10 | A      | すんでいますか              | すんでいますか              | sunde imasu ka                       | đang sống không         |   |
+| 11.1  | A      | 使います（つかいます）          | つかいます                | tsukaimasu                           | dùng / sử dụng          |   |
+| 11.2  | A      | 作ります（つくります）          | つくります                | tsukurimasu                          | làm / chế tạo           |   |
+| 11.3  | A      | 売ります（うります）           | うります                 | urimasu                              | bán                     |   |
+| 11.4  | A      | 知ります（しります）           | しります                 | shirimasu                            | biết                    |   |
+| 11.5  | A      | 知っています（しっています）       | しっています               | shitte imasu                         | đang biết               |   |
+| 11.6  | A      | 住みます（すみます）           | すみます                 | sumimasu                             | sống / cư trú           |   |
+| 11.7  | A      | 住んでいます（すんでいます）       | すんでいます               | sunde imasu                          | đang sống               |   |
+| 11.8  | A      | 大阪（おおさか）             | おおさか                 | oosaka                               | Osaka                   |   |
+| 11.9  | A      | 会社員（かいしゃいん）          | かいしゃいん               | kaishain                             | nhân viên công ty       |   |
+| 11.10 | A      | 高校（こうこう）             | こうこう                 | koukou                               | trường cấp 3            |   |
+| 12.1  | A      | 使います（つかいます）          | つかいます                | tsukaimasu                           | dùng / sử dụng          |   |
+| 12.2  | A      | 作ります（つくります）          | つくります                | tsukurimasu                          | làm / chế tạo           |   |
+| 12.3  | A      | 売ります（うります）           | うります                 | urimasu                              | bán                     |   |
+| 12.4  | A      | 知ります（しります）           | しります                 | shirimasu                            | biết                    |   |
+| 12.5  | A      | 知っています（しっています）       | しっています               | shitte imasu                         | đang biết               |   |
+| 12.6  | A      | 知りません（しりません）         | しりません                | shirimasen                           | không biết              |   |
+| 12.7  | A      | 住みます（すみます）           | すみます                 | sumimasu                             | sống / cư trú           |   |
+| 12.8  | A      | 住んでいます（すんでいます）       | すんでいます               | sunde imasu                          | đang sống               |   |
+| 12.9  | A      | 会社員（かいしゃいん）          | かいしゃいん               | kaishain                             | nhân viên công ty       |   |
+| 12.10 | A      | 高校（こうこう）             | こうこう                 | koukou                               | trường cấp 3            |   |
+| 13.1  | A      | たちます                 | たちます                 | tachimasu                            | động tác cơ thể         |   |
+| 13.2  | A      | うります                 | うります                 | urimasu                              | sản xuất / kinh doanh   |   |
+| 13.3  | A      | しっています               | しっています               | shitte imasu                         | tri thức / nhận biết    |   |
+| 13.4  | A      | すんでいます               | すんでいます               | sunde imasu                          | cư trú                  |   |
+| 13.5  | A      | しりょう                 | しりょう                 | shiryou                              | tài liệu / thông tin    |   |
+| 13.6  | A      | ソフト                  | ソフト                  | sofuto                               | công nghệ               |   |
+| 13.7  | A      | はいしゃ                 | はいしゃ                 | haisha                               | nghề nghiệp             |   |
+| 13.8  | A      | どくしん                 | どくしん                 | dokushin                             | tình trạng cá nhân      |   |
+| 13.9  | A      | とこや                  | とこや                  | tokoya                               | địa điểm / dịch vụ      |   |
+| 13.10 | A      | すってはいけません            | すってはいけません            | sutte wa ikemasen                    | cho phép / cấm          |   |
+| 14.1  | A      | しります / しっています        | しります / しっています        | shirimasu / shitte imasu             | biết / đang biết        |   |
+| 14.2  | A      | しっています / しりません       | しっています / しりません       | shitte imasu / shirimasen            | biết / không biết       |   |
+| 14.3  | A      | すみます / すんでいます        | すみます / すんでいます        | sumimasu / sunde imasu               | sống / đang sống        |   |
+| 14.4  | A      | たちます / すわります         | たちます / すわります         | tachimasu / suwarimasu               | đứng / ngồi             |   |
+| 14.5  | A      | つかいます / つくります        | つかいます / つくります        | tsukaimasu / tsukurimasu             | dùng / làm              |   |
+| 14.6  | A      | つくります / うります         | つくります / うります         | tsukurimasu / urimasu                | làm / bán               |   |
+| 14.7  | A      | しりょう / カタログ          | しりょう / カタログ          | shiryou / katarogu                   | tài liệu / catalogue    |   |
+| 14.8  | A      | ソフト / でんしじしょ         | ソフト / でんしじしょ         | sofuto / denshi jisho                | phần mềm / từ điển      |   |
+| 14.9  | A      | はいしゃ / かいしゃいん        | はいしゃ / かいしゃいん        | haisha / kaishain                    | nha sĩ / nhân viên      |   |
+| 14.10 | A      | もう / まだ              | もう / まだ              | mou / mada                           | đã / chưa               |   |
+| 15.1  | A      | すってもいいです / すってはいけません | すってもいいです / すってはいけません | sutte mo ii desu / sutte wa ikemasen | được hút / cấm hút      |   |
+| 15.2  | A      | いいですか / はい、いいです      | いいですか / はい、いいです      | ii desu ka / hai, ii desu            | được không / được       |   |
+| 15.3  | A      | だめです / いいです          | だめです / いいです          | dame desu / ii desu                  | không được / được       |   |
+| 15.4  | A      | ここで / にほんばし          | ここで / にほんばし          | koko de / nihonbashi                 | ở đây / Nihonbashi      |   |
+| 15.5  | A      | とくに / もう             | とくに / もう             | toku ni / mou                        | đặc biệt / đã           |   |
+| 15.6  | A      | とこや / プレイガイド         | とこや / プレイガイド         | tokoya / pureigaido                  | cắt tóc / bán vé        |   |
+| 15.7  | A      | せんもん / せいひん          | せんもん / せいひん          | senmon / seihin                      | chuyên môn / sản phẩm   |   |
+| 15.8  | A      | ごかぞく / どくしん          | ごかぞく / どくしん          | gokazoku / dokushin                  | gia đình / độc thân     |   |
+| 15.9  | A      | いらっしゃいます / います       | いらっしゃいます / います       | irasshaimasu / imasu                 | lịch sự / thường        |   |
+| 15.10 | A      | じこくひょう / しりょう        | じこくひょう / しりょう        | jikokuhyou / shiryou                 | bảng giờ / tài liệu     |   |
+| 16.1  | A      | に                    | に                    | ni                                   | vị trí đứng             |   |
+| 16.2  | A      | に                    | に                    | ni                                   | vị trí ngồi             |   |
+| 16.3  | A      | を                    | を                    | o                                    | chỉ đối tượng           |   |
+| 16.4  | A      | に                    | に                    | ni                                   | nơi đặt                 |   |
+| 16.5  | A      | を                    | を                    | o                                    | chỉ đối tượng           |   |
+| 16.6  | A      | で                    | で                    | de                                   | nơi hành động           |   |
+| 16.7  | A      | はいけません               | はいけません               | wa ikemasen                          | không được              |   |
+| 16.8  | A      | を                    | を                    | o                                    | chỉ đối tượng           |   |
+| 16.9  | A      | に                    | に                    | ni                                   | nơi sống                |   |
+| 16.10 | A      | に                    | に                    | ni                                   | nơi ở                   |   |

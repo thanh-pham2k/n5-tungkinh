@@ -1,0 +1,182 @@
+| Câu   | Đáp án | Từ đúng                  | Hiragana              | Romaji                          | Nghĩa / giải thích ngắn  |   |
+| ----- | ------ | ------------------------ | --------------------- | ------------------------------- | ------------------------ | - |
+| 1.1   | B      | 食べます（たべます）               | たべます                  | tabemasu                        | ăn                       |   |
+| 1.2   | B      | 飲みます（のみます）               | のみます                  | nomimasu                        | uống                     |   |
+| 1.3   | A      | すいます                     | すいます                  | suimasu                         | hút                      |   |
+| 1.4   | B      | 見ます（みます）                 | みます                   | mimasu                          | xem / nhìn               |   |
+| 1.5   | A      | 聞きます（ききます）               | ききます                  | kikimasu                        | nghe                     |   |
+| 1.6   | B      | 読みます（よみます）               | よみます                  | yomimasu                        | đọc                      |   |
+| 1.7   | B      | 書きます（かきます）               | かきます                  | kakimasu                        | viết                     |   |
+| 1.8   | A      | 買います（かいます）               | かいます                  | kaimasu                         | mua                      |   |
+| 1.9   | A      | とります                     | とります                  | torimasu                        | chụp / lấy               |   |
+| 1.10  | A      | します                      | します                   | shimasu                         | làm                      |   |
+| 2.1   | A      | あいます                     | あいます                  | aimasu                          | gặp                      |   |
+| 2.2   | A      | ごはんを 食べます（たべます）          | ごはんを たべます             | gohan o tabemasu                | ăn cơm                   |   |
+| 2.3   | A      | 水（みず）を 飲みます（のみます）        | みずを のみます              | mizu o nomimasu                 | uống nước                |   |
+| 2.4   | A      | たばこを すいます                | たばこを すいます             | tabako o suimasu                | hút thuốc lá             |   |
+| 2.5   | A      | ビデオを 見ます（みます）            | ビデオを みます              | bideo o mimasu                  | xem video                |   |
+| 2.6   | A      | テープを 聞きます（ききます）          | テープを ききます             | teepu o kikimasu                | nghe băng                |   |
+| 2.7   | A      | 手紙（てがみ）を 読みます（よみます）      | てがみを よみます             | tegami o yomimasu               | đọc thư                  |   |
+| 2.8   | A      | レポートを 書きます（かきます）         | レポートを かきます            | repooto o kakimasu              | viết báo cáo             |   |
+| 2.9   | A      | 写真（しゃしん）を とります           | しゃしんを とります            | shashin o torimasu              | chụp ảnh                 |   |
+| 2.10  | A      | ともだちに あいます               | ともだちに あいます            | tomodachi ni aimasu             | gặp bạn bè               |   |
+| 3.1   | A      | ごはん                      | ごはん                   | gohan                           | cơm / bữa ăn             |   |
+| 3.2   | A      | あさごはん                    | あさごはん                 | asagohan                        | bữa sáng                 |   |
+| 3.3   | A      | ひるごはん                    | ひるごはん                 | hirugohan                       | bữa trưa                 |   |
+| 3.4   | A      | ばんごはん                    | ばんごはん                 | bangohan                        | bữa tối                  |   |
+| 3.5   | A      | パン                       | パン                    | pan                             | bánh mì                  |   |
+| 3.6   | A      | たまご                      | たまご                   | tamago                          | trứng                    |   |
+| 3.7   | A      | にく                       | にく                    | niku                            | thịt                     |   |
+| 3.8   | A      | 魚（さかな）                   | さかな                   | sakana                          | cá                       |   |
+| 3.9   | A      | やさい                      | やさい                   | yasai                           | rau                      |   |
+| 3.10  | A      | くだもの                     | くだもの                  | kudamono                        | trái cây                 |   |
+| 4.1   | A      | 水（みず）                    | みず                    | mizu                            | nước                     |   |
+| 4.2   | A      | おちゃ                      | おちゃ                   | ocha                            | trà                      |   |
+| 4.3   | A      | こうちゃ                     | こうちゃ                  | koucha                          | trà đen                  |   |
+| 4.4   | A      | ぎゅうにゅう                   | ぎゅうにゅう                | gyuunyuu                        | sữa bò                   |   |
+| 4.5   | A      | ジュース                     | ジュース                  | juusu                           | nước ép                  |   |
+| 4.6   | A      | ビール                      | ビール                   | biiru                           | bia                      |   |
+| 4.7   | A      | おさけ                      | おさけ                   | osake                           | rượu                     |   |
+| 4.8   | A      | たばこ                      | たばこ                   | tabako                          | thuốc lá                 |   |
+| 4.9   | A      | おちゃを 飲みます（のみます）          | おちゃを のみます             | ocha o nomimasu                 | uống trà                 |   |
+| 4.10  | A      | たばこを すいません               | たばこを すいません            | tabako o suimasen               | không hút thuốc          |   |
+| 5.1   | A      | 手紙（てがみ）                  | てがみ                   | tegami                          | thư                      |   |
+| 5.2   | A      | レポート                     | レポート                  | repooto                         | báo cáo                  |   |
+| 5.3   | A      | 写真（しゃしん）                 | しゃしん                  | shashin                         | ảnh                      |   |
+| 5.4   | A      | ビデオ                      | ビデオ                   | bideo                           | video                    |   |
+| 5.5   | A      | みせ                       | みせ                    | mise                            | cửa hàng                 |   |
+| 5.6   | A      | レストラン                    | レストラン                 | resutoran                       | nhà hàng                 |   |
+| 5.7   | A      | にわ                       | にわ                    | niwa                            | vườn                     |   |
+| 5.8   | A      | しゅくだい                    | しゅくだい                 | shukudai                        | bài tập về nhà           |   |
+| 5.9   | A      | テニス                      | テニス                   | tenisu                          | tennis                   |   |
+| 5.10  | A      | サッカー                     | サッカー                  | sakkaa                          | bóng đá                  |   |
+| 6.1   | A      | おはなみ                     | おはなみ                  | ohanami                         | ngắm hoa                 |   |
+| 6.2   | A      | なに                       | なに                    | nani                            | cái gì                   |   |
+| 6.3   | A      | いっしょに                    | いっしょに                 | issho ni                        | cùng nhau                |   |
+| 6.4   | A      | ちょっと                     | ちょっと                  | chotto                          | một chút / hơi           |   |
+| 6.5   | A      | いつも                      | いつも                   | itsumo                          | luôn luôn                |   |
+| 6.6   | A      | ときどき                     | ときどき                  | tokidoki                        | thỉnh thoảng             |   |
+| 6.7   | A      | それから                     | それから                  | sorekara                        | sau đó                   |   |
+| 6.8   | A      | ええ                       | ええ                    | ee                              | vâng                     |   |
+| 6.9   | A      | いいですね                    | いいですね                 | ii desu ne                      | hay đấy                  |   |
+| 6.10  | A      | わかりました                   | わかりました                | wakarimashita                   | tôi hiểu rồi             |   |
+| 7.1   | A      | なんですか                    | なんですか                 | nan desu ka                     | là cái gì                |   |
+| 7.2   | A      | じゃ、また                    | じゃ、また                 | ja, mata                        | hẹn gặp lại              |   |
+| 7.3   | A      | いっしょに レストランへ 行きます（いきます）  | いっしょに レストランへ いきます     | issho ni resutoran e ikimasu    | cùng đi nhà hàng         |   |
+| 7.4   | A      | ときどき テニスを します            | ときどき テニスを します         | tokidoki tenisu o shimasu       | thỉnh thoảng chơi tennis |   |
+| 7.5   | A      | いつも あさごはんを 食べます（たべます）    | いつも あさごはんを たべます       | itsumo asagohan o tabemasu      | luôn ăn sáng             |   |
+| 7.6   | A      | それから 手紙（てがみ）を 書きます（かきます） | それから てがみを かきます        | sorekara tegami o kakimasu      | sau đó viết thư          |   |
+| 7.7   | A      | いいですね。いっしょに 行きます（いきます）   | いいですね。いっしょに いきます      | ii desu ne. issho ni ikimasu    | hay đấy cùng đi          |   |
+| 7.8   | A      | これは なんですか                | これは なんですか             | kore wa nan desu ka             | cái này là gì            |   |
+| 7.9   | A      | ちょっと 水（みず）を 飲みます（のみます）   | ちょっと みずを のみます         | chotto mizu o nomimasu          | uống chút nước           |   |
+| 7.10  | A      | じゃ、また あした                | じゃ、また あした             | ja, mata ashita                 | hẹn ngày mai             |   |
+| 8.1   | A      | 食べます（たべます）               | たべます                  | tabemasu                        | ăn                       |   |
+| 8.2   | A      | 飲みます（のみます）               | のみます                  | nomimasu                        | uống                     |   |
+| 8.3   | A      | すいます                     | すいます                  | suimasu                         | hút                      |   |
+| 8.4   | A      | 見ます（みます）                 | みます                   | mimasu                          | xem / nhìn               |   |
+| 8.5   | A      | 聞きます（ききます）               | ききます                  | kikimasu                        | nghe                     |   |
+| 8.6   | A      | 読みます（よみます）               | よみます                  | yomimasu                        | đọc                      |   |
+| 8.7   | A      | 書きます（かきます）               | かきます                  | kakimasu                        | viết                     |   |
+| 8.8   | A      | 買います（かいます）               | かいます                  | kaimasu                         | mua                      |   |
+| 8.9   | A      | とります                     | とります                  | torimasu                        | chụp / lấy               |   |
+| 8.10  | A      | します                      | します                   | shimasu                         | làm                      |   |
+| 9.1   | A      | あいます                     | あいます                  | aimasu                          | gặp                      |   |
+| 9.2   | A      | ごはん                      | ごはん                   | gohan                           | cơm / bữa ăn             |   |
+| 9.3   | A      | あさごはん                    | あさごはん                 | asagohan                        | bữa sáng                 |   |
+| 9.4   | A      | ひるごはん                    | ひるごはん                 | hirugohan                       | bữa trưa                 |   |
+| 9.5   | A      | ばんごはん                    | ばんごはん                 | bangohan                        | bữa tối                  |   |
+| 9.6   | A      | パン                       | パン                    | pan                             | bánh mì                  |   |
+| 9.7   | A      | たまご                      | たまご                   | tamago                          | trứng                    |   |
+| 9.8   | A      | にく                       | にく                    | niku                            | thịt                     |   |
+| 9.9   | A      | 魚（さかな）                   | さかな                   | sakana                          | cá                       |   |
+| 9.10  | A      | やさい                      | やさい                   | yasai                           | rau                      |   |
+| 10.1  | A      | くだもの                     | くだもの                  | kudamono                        | trái cây                 |   |
+| 10.2  | A      | 水（みず）                    | みず                    | mizu                            | nước                     |   |
+| 10.3  | A      | おちゃ                      | おちゃ                   | ocha                            | trà                      |   |
+| 10.4  | A      | こうちゃ                     | こうちゃ                  | koucha                          | trà đen                  |   |
+| 10.5  | A      | ぎゅうにゅう                   | ぎゅうにゅう                | gyuunyuu                        | sữa bò                   |   |
+| 10.6  | A      | ジュース                     | ジュース                  | juusu                           | nước ép                  |   |
+| 10.7  | A      | 手紙（てがみ）                  | てがみ                   | tegami                          | thư                      |   |
+| 10.8  | A      | レポート                     | レポート                  | repooto                         | báo cáo                  |   |
+| 10.9  | A      | 写真（しゃしん）                 | しゃしん                  | shashin                         | ảnh                      |   |
+| 10.10 | A      | ビデオ                      | ビデオ                   | bideo                           | video                    |   |
+| 11.1  | A      | みせ                       | みせ                    | mise                            | cửa hàng                 |   |
+| 11.2  | A      | レストラン                    | レストラン                 | resutoran                       | nhà hàng                 |   |
+| 11.3  | A      | にわ                       | にわ                    | niwa                            | vườn                     |   |
+| 11.4  | A      | しゅくだい                    | しゅくだい                 | shukudai                        | bài tập về nhà           |   |
+| 11.5  | A      | テニス                      | テニス                   | tenisu                          | tennis                   |   |
+| 11.6  | A      | サッカー                     | サッカー                  | sakkaa                          | bóng đá                  |   |
+| 11.7  | A      | おはなみ                     | おはなみ                  | ohanami                         | ngắm hoa                 |   |
+| 11.8  | A      | いっしょに                    | いっしょに                 | issho ni                        | cùng nhau                |   |
+| 11.9  | A      | いつも                      | いつも                   | itsumo                          | luôn luôn                |   |
+| 11.10 | A      | ときどき                     | ときどき                  | tokidoki                        | thỉnh thoảng             |   |
+| 12.1  | A      | 食べます（たべます）               | たべます                  | tabemasu                        | ăn                       |   |
+| 12.2  | A      | 飲みます（のみます）               | のみます                  | nomimasu                        | uống                     |   |
+| 12.3  | A      | すいます                     | すいます                  | suimasu                         | hút                      |   |
+| 12.4  | A      | 見ます（みます）                 | みます                   | mimasu                          | xem                      |   |
+| 12.5  | A      | 聞きます（ききます）               | ききます                  | kikimasu                        | nghe                     |   |
+| 12.6  | A      | 読みます（よみます）               | よみます                  | yomimasu                        | đọc                      |   |
+| 12.7  | A      | 書きます（かきます）               | かきます                  | kakimasu                        | viết                     |   |
+| 12.8  | A      | とります                     | とります                  | torimasu                        | chụp                     |   |
+| 12.9  | A      | します                      | します                   | shimasu                         | làm                      |   |
+| 12.10 | A      | あいます                     | あいます                  | aimasu                          | gặp                      |   |
+| 13.1  | A      | 食べます（たべます）               | たべます                  | tabemasu                        | ăn bữa sáng              |   |
+| 13.2  | A      | 飲みます（のみます）               | のみます                  | nomimasu                        | uống trà                 |   |
+| 13.3  | A      | 買います（かいます）               | かいます                  | kaimasu                         | mua bánh mì              |   |
+| 13.4  | A      | とります                     | とります                  | torimasu                        | chụp ảnh                 |   |
+| 13.5  | A      | 食べます（たべます）               | たべます                  | tabemasu                        | ăn bữa trưa              |   |
+| 13.6  | A      | します                      | します                   | shimasu                         | chơi tennis              |   |
+| 13.7  | A      | します                      | します                   | shimasu                         | chơi bóng đá             |   |
+| 13.8  | A      | 飲みます（のみます）               | のみます                  | nomimasu                        | uống nước ép             |   |
+| 13.9  | A      | 食べます（たべます）               | たべます                  | tabemasu                        | ăn trứng                 |   |
+| 13.10 | A      | 書きます（かきます）               | かきます                  | kakimasu                        | viết thư                 |   |
+| 14.1  | A      | 食べます（たべます）               | たべます                  | tabemasu                        | ăn                       |   |
+| 14.2  | A      | 飲みます（のみます）               | のみます                  | nomimasu                        | uống                     |   |
+| 14.3  | A      | 見ます（みます）                 | みます                   | mimasu                          | xem / nhìn               |   |
+| 14.4  | A      | 聞きます（ききます）               | ききます                  | kikimasu                        | nghe                     |   |
+| 14.5  | A      | 読みます（よみます）               | よみます                  | yomimasu                        | đọc                      |   |
+| 14.6  | A      | 書きます（かきます）               | かきます                  | kakimasu                        | viết                     |   |
+| 14.7  | A      | 買います（かいます）               | かいます                  | kaimasu                         | mua                      |   |
+| 14.8  | A      | 水（みず）                    | みず                    | mizu                            | nước                     |   |
+| 14.9  | A      | 魚（さかな）                   | さかな                   | sakana                          | cá                       |   |
+| 14.10 | A      | 手紙（てがみ）                  | てがみ                   | tegami                          | thư                      |   |
+| 15.1  | A      | 食べます（たべます）               | たべます                  | tabemasu                        | ăn                       |   |
+| 15.2  | A      | 飲みます（のみます）               | のみます                  | nomimasu                        | uống                     |   |
+| 15.3  | A      | 見ます（みます）                 | みます                   | mimasu                          | xem / nhìn               |   |
+| 15.4  | A      | 聞きます（ききます）               | ききます                  | kikimasu                        | nghe                     |   |
+| 15.5  | A      | 読みます（よみます）               | よみます                  | yomimasu                        | đọc                      |   |
+| 15.6  | A      | 書きます（かきます）               | かきます                  | kakimasu                        | viết                     |   |
+| 15.7  | A      | 買います（かいます）               | かいます                  | kaimasu                         | mua                      |   |
+| 15.8  | A      | 水（みず）                    | みず                    | mizu                            | nước                     |   |
+| 15.9  | A      | 魚（さかな）                   | さかな                   | sakana                          | cá                       |   |
+| 15.10 | A      | 手紙（てがみ）                  | てがみ                   | tegami                          | thư                      |   |
+| 16.1  | A      | 食べます（たべます）               | たべます                  | tabemasu                        | động từ ăn uống          |   |
+| 16.2  | A      | 読みます（よみます）               | よみます                  | yomimasu                        | đọc thông tin            |   |
+| 16.3  | A      | やさい                      | やさい                   | yasai                           | đồ ăn                    |   |
+| 16.4  | A      | ぎゅうにゅう                   | ぎゅうにゅう                | gyuunyuu                        | đồ uống                  |   |
+| 16.5  | A      | レポート                     | レポート                  | repooto                         | tài liệu                 |   |
+| 16.6  | A      | 写真（しゃしん）                 | しゃしん                  | shashin                         | hình ảnh                 |   |
+| 16.7  | A      | レストラン                    | レストラン                 | resutoran                       | địa điểm                 |   |
+| 16.8  | A      | サッカー                     | サッカー                  | sakkaa                          | thể thao                 |   |
+| 16.9  | A      | ときどき                     | ときどき                  | tokidoki                        | tần suất                 |   |
+| 16.10 | A      | わかりました                   | わかりました                | wakarimashita                   | câu phản hồi             |   |
+| 17.1  | A      | 食べます（たべます） / 飲みます（のみます）  | たべます / のみます           | tabemasu / nomimasu             | ăn / uống                |   |
+| 17.2  | A      | 見ます（みます） / 聞きます（ききます）    | みます / ききます            | mimasu / kikimasu               | xem / nghe               |   |
+| 17.3  | A      | 読みます（よみます） / 書きます（かきます）  | よみます / かきます           | yomimasu / kakimasu             | đọc / viết               |   |
+| 17.4  | A      | 買います（かいます） / 書きます（かきます）  | かいます / かきます           | kaimasu / kakimasu              | mua / viết               |   |
+| 17.5  | A      | あいます / します               | あいます / します            | aimasu / shimasu                | gặp / làm                |   |
+| 17.6  | A      | あさごはん / ひるごはん / ばんごはん    | あさごはん / ひるごはん / ばんごはん | asagohan / hirugohan / bangohan | sáng / trưa / tối        |   |
+| 17.7  | A      | おちゃ / こうちゃ               | おちゃ / こうちゃ            | ocha / koucha                   | trà / trà đen            |   |
+| 17.8  | A      | ビール / おさけ                | ビール / おさけ             | biiru / osake                   | bia / rượu               |   |
+| 17.9  | A      | いつも / ときどき               | いつも / ときどき            | itsumo / tokidoki               | luôn / thỉnh thoảng      |   |
+| 17.10 | A      | ちょっと / いっしょに             | ちょっと / いっしょに          | chotto / issho ni               | một chút / cùng nhau     |   |
+| 18.1  | A      | を                        | を                     | o                               | chỉ đối tượng            |   |
+| 18.2  | A      | を                        | を                     | o                               | chỉ đối tượng            |   |
+| 18.3  | A      | を                        | を                     | o                               | chỉ đối tượng            |   |
+| 18.4  | A      | を                        | を                     | o                               | chỉ đối tượng            |   |
+| 18.5  | A      | を                        | を                     | o                               | chỉ đối tượng            |   |
+| 18.6  | A      | を                        | を                     | o                               | chỉ đối tượng            |   |
+| 18.7  | A      | で                        | で                     | de                              | nơi hành động            |   |
+| 18.8  | A      | で                        | で                     | de                              | nơi hành động            |   |
+| 18.9  | A      | に                        | に                     | ni                              | đối tượng gặp            |   |
+| 18.10 | A      | に                        | に                     | ni                              | đi cùng nhau             |   |

@@ -1,0 +1,846 @@
+Vì danh sách chưa được dán cụ thể, mình dùng **đầy đủ bảng hiragana chuẩn**.
+
+# Block 1: âm đơn あ〜こ
+
+### 1. あ đọc là gì?
+
+A. e
+B. a
+C. o
+D. i
+
+### 2. い đọc là gì?
+
+A. u
+B. e
+C. i
+D. a
+
+### 3. う đọc là gì?
+
+A. u
+B. o
+C. a
+D. i
+
+### 4. え đọc là gì?
+
+A. i
+B. e
+C. a
+D. o
+
+### 5. お đọc là gì?
+
+A. o
+B. u
+C. e
+D. a
+
+### 6. ka viết là gì?
+
+A. き
+B. か
+C. こ
+D. け
+
+### 7. ki viết là gì?
+
+A. き
+B. さ
+C. ち
+D. く
+
+### 8. ku viết là gì?
+
+A. こ
+B. け
+C. く
+D. き
+
+### 9. ke viết là gì?
+
+A. け
+B. こ
+C. か
+D. き
+
+### 10. こ đọc là gì?
+
+A. ke
+B. ko
+C. ka
+D. ku
+
+---
+
+# Block 2: âm đơn さ〜と
+
+### 11. さ đọc là gì?
+
+A. chi
+B. sa
+C. shi
+D. ta
+
+### 12. し đọc là gì?
+
+A. shi
+B. si
+C. chi
+D. tsu
+
+### 13. su viết là gì?
+
+A. す
+B. せ
+C. そ
+D. し
+
+### 14. せ đọc là gì?
+
+A. se
+B. sa
+C. so
+D. su
+
+### 15. so viết là gì?
+
+A. し
+B. そ
+C. て
+D. ん
+
+### 16. た đọc là gì?
+
+A. ta
+B. na
+C. ha
+D. ma
+
+### 17. ち đọc là gì?
+
+A. sa
+B. chi
+C. tsu
+D. shi
+
+### 18. tsu viết là gì?
+
+A. つ
+B. し
+C. う
+D. く
+
+### 19. て đọc là gì?
+
+A. to
+B. te
+C. ta
+D. se
+
+### 20. to viết là gì?
+
+A. て
+B. と
+C. こ
+D. に
+
+---
+
+# Block 3: âm đơn な〜ほ
+
+### 21. な đọc là gì?
+
+A. na
+B. ma
+C. ha
+D. ta
+
+### 22. ni viết là gì?
+
+A. に
+B. い
+C. り
+D. こ
+
+### 23. ぬ đọc là gì?
+
+A. me
+B. nu
+C. ne
+D. mu
+
+### 24. ne viết là gì?
+
+A. わ
+B. ね
+C. れ
+D. め
+
+### 25. の đọc là gì?
+
+A. no
+B. nu
+C. mo
+D. ho
+
+### 26. は đọc là gì?
+
+A. ha
+B. ho
+C. ba
+D. pa
+
+### 27. hi viết là gì?
+
+A. ひ
+B. し
+C. い
+D. り
+
+### 28. ふ đọc là gì?
+
+A. fu
+B. hu
+C. bu
+D. pu
+
+### 29. he viết là gì?
+
+A. へ
+B. て
+C. そ
+D. く
+
+### 30. ほ đọc là gì?
+
+A. ha
+B. ho
+C. bo
+D. po
+
+---
+
+# Block 4: âm đơn ま〜ん
+
+### 31. ま đọc là gì?
+
+A. ma
+B. na
+C. ha
+D. ra
+
+### 32. mi viết là gì?
+
+A. み
+B. い
+C. に
+D. り
+
+### 33. む đọc là gì?
+
+A. mu
+B. nu
+C. su
+D. me
+
+### 34. め đọc là gì?
+
+A. nu
+B. me
+C. ne
+D. mo
+
+### 35. mo viết là gì?
+
+A. も
+B. ま
+C. め
+D. の
+
+### 36. や đọc là gì?
+
+A. ya
+B. yu
+C. yo
+D. wa
+
+### 37. yu viết là gì?
+
+A. や
+B. ゆ
+C. よ
+D. わ
+
+### 38. よ đọc là gì?
+
+A. yo
+B. yu
+C. ya
+D. o
+
+### 39. ら đọc là gì?
+
+A. ra
+B. ri
+C. ru
+D. wa
+
+### 40. ri viết là gì?
+
+A. り
+B. い
+C. に
+D. し
+
+---
+
+# Block 5: âm đơn る〜ん
+
+### 41. る đọc là gì?
+
+A. ro
+B. ru
+C. ra
+D. re
+
+### 42. re viết là gì?
+
+A. れ
+B. ね
+C. わ
+D. る
+
+### 43. ろ đọc là gì?
+
+A. ro
+B. ru
+C. ra
+D. re
+
+### 44. わ đọc là gì?
+
+A. ne
+B. wa
+C. re
+D. wo
+
+### 45. を đọc là gì?
+
+A. o
+B. wo
+C. wa
+D. no
+
+### 46. ん đọc là gì?
+
+A. n
+B. m
+C. no
+D. ne
+
+### 47. Hàng あ thiếu chữ nào: あ、い、う、え、？
+
+A. お
+B. こ
+C. そ
+D. の
+
+### 48. Hàng か thiếu chữ nào: か、き、く、け、？
+
+A. こ
+B. お
+C. さ
+D. け
+
+### 49. Hàng さ thiếu chữ nào: さ、し、す、せ、？
+
+A. と
+B. そ
+C. こ
+D. の
+
+### 50. Hàng た thiếu chữ nào: た、ち、つ、て、？
+
+A. と
+B. そ
+C. の
+D. ほ
+
+---
+
+# Block 6: âm đục
+
+### 51. が đọc là gì?
+
+A. ka
+B. ga
+C. za
+D. da
+
+### 52. gi viết là gì?
+
+A. ぎ
+B. き
+C. じ
+D. び
+
+### 53. ぐ đọc là gì?
+
+A. gu
+B. ku
+C. zu
+D. bu
+
+### 54. ge viết là gì?
+
+A. げ
+B. け
+C. ぜ
+D. べ
+
+### 55. ご đọc là gì?
+
+A. ko
+B. go
+C. zo
+D. do
+
+### 56. ざ đọc là gì?
+
+A. sa
+B. za
+C. ja
+D. da
+
+### 57. じ đọc là gì?
+
+A. ji
+B. shi
+C. chi
+D. zi
+
+### 58. zu viết là gì?
+
+A. ず
+B. す
+C. づ
+D. つ
+
+### 59. ぜ đọc là gì?
+
+A. se
+B. ze
+C. de
+D. be
+
+### 60. ぞ đọc là gì?
+
+A. so
+B. zo
+C. do
+D. go
+
+---
+
+# Block 7: âm đục và bán đục
+
+### 61. だ đọc là gì?
+
+A. ta
+B. da
+C. za
+D. ba
+
+### 62. ぢ đọc là gì?
+
+A. ji
+B. chi
+C. di
+D. zi
+
+### 63. づ đọc là gì?
+
+A. zu
+B. tsu
+C. du
+D. su
+
+### 64. で đọc là gì?
+
+A. te
+B. de
+C. ze
+D. be
+
+### 65. ど đọc là gì?
+
+A. to
+B. do
+C. zo
+D. go
+
+### 66. ば đọc là gì?
+
+A. ha
+B. ba
+C. pa
+D. da
+
+### 67. び đọc là gì?
+
+A. hi
+B. bi
+C. pi
+D. gi
+
+### 68. ぷ đọc là gì?
+
+A. pu
+B. bu
+C. fu
+D. gu
+
+### 69. ぺ đọc là gì?
+
+A. pe
+B. be
+C. he
+D. ge
+
+### 70. ぽ đọc là gì?
+
+A. po
+B. bo
+C. ho
+D. go
+
+---
+
+# Block 8: âm ghép nhỏ ゃゅょ
+
+### 71. きゃ đọc là gì?
+
+A. kya
+B. kyu
+C. kyo
+D. ka
+
+### 72. きゅ đọc là gì?
+
+A. kyu
+B. kya
+C. kyo
+D. ku
+
+### 73. きょ đọc là gì?
+
+A. kyo
+B. kya
+C. kyu
+D. ko
+
+### 74. しゃ đọc là gì?
+
+A. sha
+B. shu
+C. sho
+D. shi
+
+### 75. しゅ đọc là gì?
+
+A. shu
+B. sha
+C. sho
+D. su
+
+### 76. しょ đọc là gì?
+
+A. sho
+B. sha
+C. shu
+D. so
+
+### 77. ちゃ đọc là gì?
+
+A. cha
+B. chu
+C. cho
+D. chi
+
+### 78. ちゅ đọc là gì?
+
+A. chu
+B. cha
+C. cho
+D. tsu
+
+### 79. ちょ đọc là gì?
+
+A. cho
+B. cha
+C. chu
+D. to
+
+### 80. にゃ đọc là gì?
+
+A. nya
+B. nyu
+C. nyo
+D. na
+
+---
+
+# Block 9: âm ghép mở rộng
+
+### 81. ひゃ đọc là gì?
+
+A. hya
+B. hyu
+C. hyo
+D. hi
+
+### 82. みゅ đọc là gì?
+
+A. myu
+B. mya
+C. myo
+D. mu
+
+### 83. りょ đọc là gì?
+
+A. ryo
+B. ryu
+C. rya
+D. ro
+
+### 84. ぎゃ đọc là gì?
+
+A. gya
+B. gyu
+C. gyo
+D. ga
+
+### 85. じゃ đọc là gì?
+
+A. ja
+B. ju
+C. jo
+D. ji
+
+### 86. びゅ đọc là gì?
+
+A. byu
+B. bya
+C. byo
+D. bu
+
+### 87. ぴょ đọc là gì?
+
+A. pyo
+B. pyu
+C. pya
+D. po
+
+### 88. kyo viết là gì?
+
+A. きょ
+B. きゃ
+C. きゅ
+D. こ
+
+### 89. shu viết là gì?
+
+A. しゅ
+B. しゃ
+C. しょ
+D. す
+
+### 90. cho viết là gì?
+
+A. ちょ
+B. ちゃ
+C. ちゅ
+D. と
+
+---
+
+# Block 10: っ, ん, trường âm
+
+### 91. がっこう đọc là gì?
+
+A. gakkou
+B. gakou
+C. gankou
+D. gaakou
+
+### 92. きって đọc là gì?
+
+A. kitte
+B. kite
+C. kinte
+D. kiite
+
+### 93. ほん đọc là gì?
+
+A. hon
+B. hoon
+C. hot
+D. ho
+
+### 94. せんせい đọc là gì?
+
+A. sensei
+B. sesei
+C. sessei
+D. seesei
+
+### 95. おばあさん đọc là gì?
+
+A. obaasan
+B. obasan
+C. obassan
+D. obansan
+
+### 96. おにいさん đọc là gì?
+
+A. oniisan
+B. onisan
+C. onnissan
+D. ojiisan
+
+### 97. gakkou viết là gì?
+
+A. がっこう
+B. がこう
+C. がんこう
+D. があこう
+
+### 98. kitte viết là gì?
+
+A. きって
+B. きて
+C. きんて
+D. きいて
+
+### 99. sensei viết là gì?
+
+A. せんせい
+B. せせい
+C. せっせい
+D. せいせい
+
+### 100. obaasan viết là gì?
+
+A. おばあさん
+B. おばさん
+C. おばんさん
+D. おばっさん
+
+---
+
+# Bảng đáp án
+
+| Câu | Đáp án | Hiragana |  Romaji | Giải thích ngắn     |
+| --: | :----: | :------: | :-----: | ------------------- |
+|   1 |    B   |     あ    |    a    | Âm a cơ bản         |
+|   2 |    C   |     い    |    i    | Âm i cơ bản         |
+|   3 |    A   |     う    |    u    | Âm u cơ bản         |
+|   4 |    B   |     え    |    e    | Âm e cơ bản         |
+|   5 |    A   |     お    |    o    | Âm o cơ bản         |
+|   6 |    B   |     か    |    ka   | Hàng ka             |
+|   7 |    A   |     き    |    ki   | Hàng ka             |
+|   8 |    C   |     く    |    ku   | Hàng ka             |
+|   9 |    A   |     け    |    ke   | Hàng ka             |
+|  10 |    B   |     こ    |    ko   | Hàng ka             |
+|  11 |    B   |     さ    |    sa   | Dễ nhầm ち           |
+|  12 |    A   |     し    |   shi   | Âm shi đặc biệt     |
+|  13 |    A   |     す    |    su   | Hàng sa             |
+|  14 |    A   |     せ    |    se   | Hàng sa             |
+|  15 |    B   |     そ    |    so   | Dễ nhầm ん           |
+|  16 |    A   |     た    |    ta   | Hàng ta             |
+|  17 |    B   |     ち    |   chi   | Dễ nhầm さ           |
+|  18 |    A   |     つ    |   tsu   | Âm tsu đặc biệt     |
+|  19 |    B   |     て    |    te   | Hàng ta             |
+|  20 |    B   |     と    |    to   | Hàng ta             |
+|  21 |    A   |     な    |    na   | Hàng na             |
+|  22 |    A   |     に    |    ni   | Hàng na             |
+|  23 |    B   |     ぬ    |    nu   | Dễ nhầm め           |
+|  24 |    B   |     ね    |    ne   | Dễ nhầm わ           |
+|  25 |    A   |     の    |    no   | Hàng na             |
+|  26 |    A   |     は    |    ha   | Dễ nhầm ほ           |
+|  27 |    A   |     ひ    |    hi   | Hàng ha             |
+|  28 |    A   |     ふ    |    fu   | Âm fu đặc biệt      |
+|  29 |    A   |     へ    |    he   | Hàng ha             |
+|  30 |    B   |     ほ    |    ho   | Dễ nhầm は           |
+|  31 |    A   |     ま    |    ma   | Hàng ma             |
+|  32 |    A   |     み    |    mi   | Hàng ma             |
+|  33 |    A   |     む    |    mu   | Hàng ma             |
+|  34 |    B   |     め    |    me   | Dễ nhầm ぬ           |
+|  35 |    A   |     も    |    mo   | Hàng ma             |
+|  36 |    A   |     や    |    ya   | Hàng ya             |
+|  37 |    B   |     ゆ    |    yu   | Hàng ya             |
+|  38 |    A   |     よ    |    yo   | Hàng ya             |
+|  39 |    A   |     ら    |    ra   | Hàng ra             |
+|  40 |    A   |     り    |    ri   | Hàng ra             |
+|  41 |    B   |     る    |    ru   | Dễ nhầm ろ           |
+|  42 |    A   |     れ    |    re   | Dễ nhầm ね           |
+|  43 |    A   |     ろ    |    ro   | Dễ nhầm る           |
+|  44 |    B   |     わ    |    wa   | Dễ nhầm ね           |
+|  45 |    A   |     を    |    o    | Trợ âm o            |
+|  46 |    A   |     ん    |    n    | Âm cuối n           |
+|  47 |    A   |     お    |    o    | Cuối hàng あ         |
+|  48 |    A   |     こ    |    ko   | Cuối hàng か         |
+|  49 |    B   |     そ    |    so   | Cuối hàng さ         |
+|  50 |    A   |     と    |    to   | Cuối hàng た         |
+|  51 |    B   |     が    |    ga   | Đục của か           |
+|  52 |    A   |     ぎ    |    gi   | Đục của き           |
+|  53 |    A   |     ぐ    |    gu   | Đục của く           |
+|  54 |    A   |     げ    |    ge   | Đục của け           |
+|  55 |    B   |     ご    |    go   | Đục của こ           |
+|  56 |    B   |     ざ    |    za   | Đục của さ           |
+|  57 |    A   |     じ    |    ji   | Đục của し           |
+|  58 |    A   |     ず    |    zu   | Đục của す           |
+|  59 |    B   |     ぜ    |    ze   | Đục của せ           |
+|  60 |    B   |     ぞ    |    zo   | Đục của そ           |
+|  61 |    B   |     だ    |    da   | Đục của た           |
+|  62 |    A   |     ぢ    |    ji   | Đục của ち           |
+|  63 |    A   |     づ    |    zu   | Đục của つ           |
+|  64 |    B   |     で    |    de   | Đục của て           |
+|  65 |    B   |     ど    |    do   | Đục của と           |
+|  66 |    B   |     ば    |    ba   | Đục của は           |
+|  67 |    B   |     び    |    bi   | Đục của ひ           |
+|  68 |    A   |     ぷ    |    pu   | Bán đục ふ           |
+|  69 |    A   |     ぺ    |    pe   | Bán đục へ           |
+|  70 |    A   |     ぽ    |    po   | Bán đục ほ           |
+|  71 |    A   |    きゃ    |   kya   | き + ゃ               |
+|  72 |    A   |    きゅ    |   kyu   | き + ゅ               |
+|  73 |    A   |    きょ    |   kyo   | き + ょ               |
+|  74 |    A   |    しゃ    |   sha   | し + ゃ               |
+|  75 |    A   |    しゅ    |   shu   | し + ゅ               |
+|  76 |    A   |    しょ    |   sho   | し + ょ               |
+|  77 |    A   |    ちゃ    |   cha   | ち + ゃ               |
+|  78 |    A   |    ちゅ    |   chu   | ち + ゅ               |
+|  79 |    A   |    ちょ    |   cho   | ち + ょ               |
+|  80 |    A   |    にゃ    |   nya   | に + ゃ               |
+|  81 |    A   |    ひゃ    |   hya   | ひ + ゃ               |
+|  82 |    A   |    みゅ    |   myu   | み + ゅ               |
+|  83 |    A   |    りょ    |   ryo   | り + ょ               |
+|  84 |    A   |    ぎゃ    |   gya   | ぎ + ゃ               |
+|  85 |    A   |    じゃ    |    ja   | じ + ゃ               |
+|  86 |    A   |    びゅ    |   byu   | び + ゅ               |
+|  87 |    A   |    ぴょ    |   pyo   | ぴ + ょ               |
+|  88 |    A   |    きょ    |   kyo   | Âm ghép kyo         |
+|  89 |    A   |    しゅ    |   shu   | Âm ghép shu         |
+|  90 |    A   |    ちょ    |   cho   | Âm ghép cho         |
+|  91 |    A   |   がっこう   |  gakkou | Có âm ngắt っ        |
+|  92 |    A   |    きって   |  kitte  | っ nhân đôi t        |
+|  93 |    A   |    ほん    |   hon   | Có âm ん             |
+|  94 |    A   |   せんせい   |  sensei | Có âm ん             |
+|  95 |    A   |   おばあさん  | obaasan | Trường âm あ         |
+|  96 |    A   |   おにいさん  | oniisan | Trường âm い         |
+|  97 |    A   |   がっこう   |  gakkou | Viết đúng っ         |
+|  98 |    A   |    きって   |  kitte  | Viết đúng っ         |
+|  99 |    A   |   せんせい   |  sensei | Viết đúng ん         |
+| 100 |    A   |   おばあさん  | obaasan | Viết đúng trường âm |

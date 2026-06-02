@@ -1,0 +1,829 @@
+## Block 1: Đại từ / cách gọi người
+
+1. わたし nghĩa là gì?
+   A. bạn
+   B. tôi
+   C. mọi người
+   D. người kia
+
+2. わたしたち nghĩa là gì?
+   A. chúng tôi / chúng ta
+   B. bạn
+   C. vị kia
+   D. học sinh
+
+3. あなた nghĩa là gì?
+   A. tôi
+   B. bạn
+   C. mọi người
+   D. ai
+
+4. あのひと nghĩa là gì?
+   A. người kia
+   B. giáo viên
+   C. bác sĩ
+   D. kỹ sư
+
+5. あのかた nghĩa là gì?
+   A. bé / em
+   B. vị kia
+   C. mọi người
+   D. nhân viên
+
+6. みなさん nghĩa là gì?
+   A. ai
+   B. bạn
+   C. mọi người
+   D. chúng tôi
+
+7. 〜さん dùng để gọi ai?
+   A. anh/chị/ông/bà...
+   B. bé / em
+   C. người nước...
+   D. mấy tuổi
+
+8. 〜ちゃん nghĩa là gì?
+   A. anh/chị
+   B. bé / em
+   C. vị kia
+   D. nhân viên
+
+9. 〜くん nghĩa là gì?
+   A. em/cậu
+   B. mọi người
+   C. bác sĩ
+   D. giáo viên
+
+10. 〜じん nghĩa là gì?
+    A. người nước...
+    B. tuổi
+    C. tên
+    D. đại học
+
+---
+
+## Block 2: Nghề nghiệp / trường học
+
+1. 先生（せんせい） nghĩa là gì?
+   A. học sinh
+   B. giáo viên / thầy cô
+   C. bác sĩ
+   D. nhân viên công ty
+
+2. きょうし nghĩa là gì?
+   A. giáo viên
+   B. sinh viên
+   C. kỹ sư
+   D. nhà nghiên cứu
+
+3. 学生（がくせい） nghĩa là gì?
+   A. nhân viên ngân hàng
+   B. học sinh / sinh viên
+   C. bác sĩ
+   D. giáo viên
+
+4. かいしゃいん nghĩa là gì?
+   A. nhân viên công ty
+   B. nhân viên ngân hàng
+   C. nhà nghiên cứu
+   D. kỹ sư
+
+5. しゃいん nghĩa là gì?
+   A. nhân viên của công ty...
+   B. bác sĩ
+   C. giáo viên
+   D. sinh viên
+
+6. ぎんこういん nghĩa là gì?
+   A. nhân viên công ty
+   B. nhân viên ngân hàng
+   C. kỹ sư
+   D. nhà nghiên cứu
+
+7. いしゃ nghĩa là gì?
+   A. bác sĩ
+   B. giáo viên
+   C. nhân viên
+   D. sinh viên
+
+8. けんきゅうしゃ nghĩa là gì?
+   A. kỹ sư
+   B. nhà nghiên cứu
+   C. bác sĩ
+   D. nhân viên ngân hàng
+
+9. エンジニア nghĩa là gì?
+   A. giáo viên
+   B. kỹ sư
+   C. sinh viên
+   D. bác sĩ
+
+10. 大学（だいがく） nghĩa là gì?
+    A. bệnh viện
+    B. công ty
+    C. đại học
+    D. ngân hàng
+
+---
+
+## Block 3: Hỏi thông tin cá nhân
+
+1. びょういん nghĩa là gì?
+   A. đại học
+   B. bệnh viện
+   C. công ty
+   D. ngân hàng
+
+2. でんき nghĩa là gì?
+   A. điện / đèn
+   B. bác sĩ
+   C. đại học
+   D. tuổi
+
+3. だれ nghĩa là gì?
+   A. ai
+   B. bạn
+   C. tôi
+   D. mọi người
+
+4. どなた nghĩa là gì?
+   A. ai / vị nào
+   B. mấy tuổi
+   C. tên gì
+   D. từ đâu đến
+
+5. 〜さい nghĩa là gì?
+   A. ... tuổi
+   B. người nước...
+   C. anh/chị...
+   D. tên...
+
+6. なんさい nghĩa là gì?
+   A. ai
+   B. mấy tuổi
+   C. mọi người
+   D. người kia
+
+7. おいくつ nghĩa là gì?
+   A. bao nhiêu tuổi
+   B. tên là gì
+   C. đến từ đâu
+   D. vị nào
+
+8. はい nghĩa là gì?
+   A. không
+   B. vâng
+   C. xin lỗi
+   D. lần đầu gặp
+
+9. いいえ nghĩa là gì?
+   A. vâng
+   B. không
+   C. rất vui được gặp
+   D. xin lỗi
+
+10. しつれいですが nghĩa là gì?
+    A. xin lỗi / thất lễ nhưng...
+    B. rất mong được giúp đỡ
+    C. đây là anh/chị...
+    D. đến từ...
+
+---
+
+## Block 4: Câu chào / giới thiệu
+
+1. おなまえは nghĩa là gì?
+   A. Bạn bao nhiêu tuổi?
+   B. Tên của anh/chị là...?
+   C. Anh/chị đến từ đâu?
+   D. Đây là ai?
+
+2. はじめまして nghĩa là gì?
+   A. Rất vui được gặp lần đầu
+   B. Xin lỗi / thất lễ nhưng
+   C. Không phải
+   D. Đây là anh/chị...
+
+3. どうぞ よろしく nghĩa là gì?
+   A. Rất mong được giúp đỡ
+   B. Bạn bao nhiêu tuổi?
+   C. Tôi đến từ Mỹ
+   D. Đây là giáo viên
+
+4. こちらは〜さんです nghĩa là gì?
+   A. Tôi là...
+   B. Đây là anh/chị...
+   C. Anh/chị bao nhiêu tuổi?
+   D. Anh/chị là ai?
+
+5. 〜から きました nghĩa là gì?
+   A. đến từ...
+   B. tên là...
+   C. bao nhiêu tuổi
+   D. là giáo viên
+
+6. しつれいですが、おなまえは？ nghĩa là gì?
+   A. Xin lỗi, anh/chị tên là gì?
+   B. Xin lỗi, anh/chị mấy tuổi?
+   C. Đây là anh/chị phải không?
+   D. Anh/chị là giáo viên phải không?
+
+7. はじめまして。どうぞ よろしく。 nghĩa là gì?
+   A. Rất vui được gặp lần đầu. Mong được giúp đỡ.
+   B. Xin lỗi. Anh/chị tên là gì?
+   C. Tôi là học sinh.
+   D. Anh/chị đến từ Nhật Bản.
+
+8. こちらは 先生（せんせい）です。 nghĩa là gì?
+   A. Đây là giáo viên / thầy cô.
+   B. Tôi là giáo viên.
+   C. Kia là sinh viên.
+   D. Bạn là bác sĩ.
+
+9. わたしは ベトナムから きました。 nghĩa là gì?
+   A. Tôi đến từ Việt Nam.
+   B. Tôi đến từ Nhật Bản.
+   C. Tôi là người Việt Nam.
+   D. Tôi là sinh viên.
+
+10. あのかたは どなたですか。 nghĩa là gì?
+    A. Vị kia là ai?
+    B. Người kia bao nhiêu tuổi?
+    C. Bạn tên là gì?
+    D. Đây là ai?
+
+---
+
+## Block 5: Quốc gia
+
+1. アメリカ nghĩa là gì?
+   A. Anh
+   B. Mỹ
+   C. Đức
+   D. Pháp
+
+2. イギリス nghĩa là gì?
+   A. Mỹ
+   B. Anh
+   C. Ấn Độ
+   D. Brazil
+
+3. インド nghĩa là gì?
+   A. Ấn Độ
+   B. Indonesia
+   C. Thái Lan
+   D. Hàn Quốc
+
+4. インドネシア nghĩa là gì?
+   A. Ấn Độ
+   B. Indonesia
+   C. Trung Quốc
+   D. Đức
+
+5. 韓国（かんこく） nghĩa là gì?
+   A. Nhật Bản
+   B. Hàn Quốc
+   C. Trung Quốc
+   D. Thái Lan
+
+6. タイ nghĩa là gì?
+   A. Thái Lan
+   B. Pháp
+   C. Brazil
+   D. Anh
+
+7. 中国（ちゅうごく） nghĩa là gì?
+   A. Hàn Quốc
+   B. Trung Quốc
+   C. Nhật Bản
+   D. Việt Nam
+
+8. ドイツ nghĩa là gì?
+   A. Pháp
+   B. Đức
+   C. Mỹ
+   D. Anh
+
+9. 日本（にほん） nghĩa là gì?
+   A. Việt Nam
+   B. Nhật Bản
+   C. Hàn Quốc
+   D. Trung Quốc
+
+10. フランス nghĩa là gì?
+    A. Pháp
+    B. Đức
+    C. Mỹ
+    D. Thái Lan
+
+---
+
+## Block 6: Việt → Nhật
+
+1. “tôi” là từ nào?
+   A. わたし
+   B. あなた
+   C. みなさん
+   D. だれ
+
+2. “chúng tôi / chúng ta” là từ nào?
+   A. わたしたち
+   B. あのひと
+   C. あのかた
+   D. あなた
+
+3. “bạn” là từ nào?
+   A. わたし
+   B. あなた
+   C. だれ
+   D. どなた
+
+4. “mọi người” là từ nào?
+   A. みなさん
+   B. あのひと
+   C. わたしたち
+   D. どなた
+
+5. “giáo viên / thầy cô” là từ nào?
+   A. 学生（がくせい）
+   B. 先生（せんせい）
+   C. いしゃ
+   D. エンジニア
+
+6. “học sinh / sinh viên” là từ nào?
+   A. きょうし
+   B. 学生（がくせい）
+   C. しゃいん
+   D. けんきゅうしゃ
+
+7. “bác sĩ” là từ nào?
+   A. いしゃ
+   B. ぎんこういん
+   C. かいしゃいん
+   D. 先生（せんせい）
+
+8. “kỹ sư” là từ nào?
+   A. エンジニア
+   B. いしゃ
+   C. けんきゅうしゃ
+   D. しゃいん
+
+9. “đại học” là từ nào?
+   A. びょういん
+   B. 大学（だいがく）
+   C. でんき
+   D. かいしゃいん
+
+10. “bệnh viện” là từ nào?
+    A. 大学（だいがく）
+    B. びょういん
+    C. でんき
+    D. ぎんこう
+
+---
+
+## Block 7: Việt → Nhật / quốc gia
+
+1. “Mỹ” là từ nào?
+   A. アメリカ
+   B. イギリス
+   C. フランス
+   D. ドイツ
+
+2. “Anh” là từ nào?
+   A. アメリカ
+   B. イギリス
+   C. インド
+   D. タイ
+
+3. “Ấn Độ” là từ nào?
+   A. インド
+   B. インドネシア
+   C. 韓国（かんこく）
+   D. 中国（ちゅうごく）
+
+4. “Indonesia” là từ nào?
+   A. インド
+   B. インドネシア
+   C. タイ
+   D. ブラジル
+
+5. “Hàn Quốc” là từ nào?
+   A. 韓国（かんこく）
+   B. 中国（ちゅうごく）
+   C. 日本（にほん）
+   D. タイ
+
+6. “Thái Lan” là từ nào?
+   A. タイ
+   B. ドイツ
+   C. フランス
+   D. ブラジル
+
+7. “Trung Quốc” là từ nào?
+   A. 日本（にほん）
+   B. 中国（ちゅうごく）
+   C. 韓国（かんこく）
+   D. ベトナム
+
+8. “Đức” là từ nào?
+   A. ドイツ
+   B. フランス
+   C. イギリス
+   D. アメリカ
+
+9. “Nhật Bản” là từ nào?
+   A. 日本（にほん）
+   B. 中国（ちゅうごく）
+   C. 韓国（かんこく）
+   D. ベトナム
+
+10. “Việt Nam” là từ nào?
+    A. ブラジル
+    B. ベトナム
+    C. タイ
+    D. インド
+
+---
+
+## Block 8: Điền vào câu
+
+1. わたしは＿＿＿です。
+   A. 学生（がくせい）
+   B. だれ
+   C. はい
+   D. なんさい
+
+2. あのひとは＿＿＿です。
+   A. 先生（せんせい）
+   B. いいえ
+   C. おいくつ
+   D. みなさん
+
+3. こちらは＿＿＿です。
+   A. 田中（たなか）さん
+   B. なんさい
+   C. はい
+   D. でんき
+
+4. わたしは ベトナムから＿＿＿。
+   A. きました
+   B. だれ
+   C. いいえ
+   D. 〜さい
+
+5. しつれいですが、＿＿＿は？
+   A. おなまえ
+   B. はい
+   C. でんき
+   D. びょういん
+
+6. あなたは＿＿＿ですか。
+   A. エンジニア
+   B. はじめまして
+   C. どうぞ よろしく
+   D. 〜さん
+
+7. あのかたは＿＿＿ですか。
+   A. どなた
+   B. はい
+   C. いいえ
+   D. でんき
+
+8. 田中（たなか）さんは なん＿＿＿ですか。
+   A. さい
+   B. じん
+   C. さん
+   D. ちゃん
+
+9. わたしは 日本（にほん）＿＿＿ きました。
+   A. から
+   B. さん
+   C. さい
+   D. じん
+
+10. みなさん、＿＿＿。
+    A. はじめまして
+    B. なんさい
+    C. だれ
+    D. びょういん
+
+---
+
+## Block 9: Đọc kanji
+
+1. 先生 đọc là gì?
+   A. せんせい
+   B. せいせん
+   C. せんせ
+   D. せいせい
+
+2. 学生 đọc là gì?
+   A. がくせい
+   B. せんせい
+   C. がっこう
+   D. がくさい
+
+3. 大学 đọc là gì?
+   A. だいがく
+   B. たいがく
+   C. おおがく
+   D. だいかく
+
+4. 日本 đọc là gì?
+   A. にほん
+   B. ひほん
+   C. にちほん
+   D. にっほん
+
+5. 中国 đọc là gì?
+   A. ちゅうごく
+   B. ちゅごく
+   C. じゅうごく
+   D. ちゅうこく
+
+6. 韓国 đọc là gì?
+   A. かんこく
+   B. かんごく
+   C. からくに
+   D. かこく
+
+7. 人 đọc là gì?
+   A. ひと
+   B. いと
+   C. にと
+   D. じと
+
+8. 国 đọc là gì?
+   A. くに
+   B. こく
+   C. ぐに
+   D. こう
+
+9. 大 đọc là gì?
+   A. おお
+   B. だい
+   C. たい
+   D. しょう
+
+10. 学 đọc là gì?
+    A. がく
+    B. かく
+    C. せい
+    D. こう
+
+---
+
+## Block 10: Chọn kanji đúng
+
+1. “người” là kanji nào?
+   A. 人
+   B. 入
+   C. 大
+   D. 天
+
+2. “học” là kanji nào?
+   A. 学
+   B. 字
+   C. 生
+   D. 校
+
+3. “sinh / sống” là kanji nào?
+   A. 生
+   B. 先
+   C. 人
+   D. 国
+
+4. “lớn / đại” là kanji nào?
+   A. 大
+   B. 小
+   C. 中
+   D. 人
+
+5. “nước / quốc gia” là kanji nào?
+   A. 国
+   B. 円
+   C. 山
+   D. 川
+
+6. “Nhật Bản” viết bằng kanji nào?
+   A. 日本
+   B. 中国
+   C. 韓国
+   D. 大学
+
+7. “Trung Quốc” viết bằng kanji nào?
+   A. 日本
+   B. 中国
+   C. 韓国
+   D. 大学
+
+8. “Hàn Quốc” viết bằng kanji nào?
+   A. 韓国
+   B. 中国
+   C. 日本
+   D. 先生
+
+9. “giáo viên / thầy cô” viết bằng kanji nào?
+   A. 先生
+   B. 学生
+   C. 大学
+   D. 日本
+
+10. “học sinh / sinh viên” viết bằng kanji nào?
+    A. 学生
+    B. 先生
+    C. 大学
+    D. 中国
+
+---
+
+## Block 11: Chọn từ cùng nhóm chủ đề
+
+1. Từ nào thuộc nhóm “quốc gia”?
+   A. アメリカ
+   B. 先生（せんせい）
+   C. いしゃ
+   D. でんき
+
+2. Từ nào thuộc nhóm “nghề nghiệp”?
+   A. エンジニア
+   B. 日本（にほん）
+   C. ベトナム
+   D. なんさい
+
+3. Từ nào thuộc nhóm “cách gọi người”?
+   A. 〜さん
+   B. びょういん
+   C. 大学（だいがく）
+   D. でんき
+
+4. Từ nào thuộc nhóm “hỏi tuổi”?
+   A. なんさい
+   B. だれ
+   C. どなた
+   D. みなさん
+
+5. Từ nào thuộc nhóm “nơi chốn”?
+   A. びょういん
+   B. あなた
+   C. はい
+   D. いいえ
+
+6. Từ nào thuộc nhóm “lời chào / giới thiệu”?
+   A. はじめまして
+   B. ぎんこういん
+   C. ブラジル
+   D. 〜ちゃん
+
+7. Từ nào thuộc nhóm “nhân xưng”?
+   A. わたし
+   B. ドイツ
+   C. 大学（だいがく）
+   D. しつれいですが
+
+8. Từ nào thuộc nhóm “nghề nghiệp”?
+   A. けんきゅうしゃ
+   B. タイ
+   C. みなさん
+   D. おいくつ
+
+9. Từ nào thuộc nhóm “quốc gia châu Á”?
+   A. タイ
+   B. フランス
+   C. ドイツ
+   D. ブラジル
+
+10. Từ nào thuộc nhóm “trả lời có/không”?
+    A. はい
+    B. せんせい
+    C. がくせい
+    D. あのひと
+
+---
+
+## Block 12: Phân biệt từ dễ nhầm
+
+1. せんせい và きょうし khác nhau thế nào?
+   A. せんせい là cách gọi thầy cô; きょうし là nghề giáo viên
+   B. せんせい là học sinh; きょうし là bác sĩ
+   C. せんせい là kỹ sư; きょうし là nhân viên
+   D. せんせい là quốc gia; きょうし là đại học
+
+2. だれ và どなた khác nhau thế nào?
+   A. どなた lịch sự hơn だれ
+   B. だれ lịch sự hơn どなた
+   C. だれ nghĩa là bao nhiêu tuổi
+   D. どなた nghĩa là quốc gia
+
+3. あのひと và あのかた khác nhau thế nào?
+   A. あのかた lịch sự hơn あのひと
+   B. あのひと lịch sự hơn あのかた
+   C. あのかた nghĩa là bạn
+   D. あのひと nghĩa là tôi
+
+4. なんさい và おいくつ khác nhau thế nào?
+   A. おいくつ lịch sự hơn なんさい
+   B. なんさい lịch sự hơn おいくつ
+   C. おいくつ nghĩa là ai
+   D. なんさい nghĩa là tên
+
+5. かいしゃいん và しゃいん khác nhau thế nào?
+   A. かいしゃいん là nhân viên công ty nói chung; しゃいん là nhân viên của công ty cụ thể
+   B. かいしゃいん là bác sĩ; しゃいん là kỹ sư
+   C. かいしゃいん là sinh viên; しゃいん là giáo viên
+   D. かいしゃいん là ngân hàng; しゃいん là bệnh viện
+
+6. 〜さん và 〜ちゃん khác nhau thế nào?
+   A. 〜さん dùng lịch sự chung; 〜ちゃん dùng thân mật với bé/em
+   B. 〜ちゃん lịch sự hơn 〜さん
+   C. 〜さん chỉ dùng cho quốc gia
+   D. 〜ちゃん nghĩa là người nước...
+
+7. はい và いいえ khác nhau thế nào?
+   A. はい là vâng; いいえ là không
+   B. はい là không; いいえ là vâng
+   C. はい là xin lỗi; いいえ là cảm ơn
+   D. はい là tên; いいえ là tuổi
+
+8. インド và インドネシア khác nhau thế nào?
+   A. インド là Ấn Độ; インドネシア là Indonesia
+   B. インド là Indonesia; インドネシア là Ấn Độ
+   C. Cả hai đều là Nhật Bản
+   D. Cả hai đều là Trung Quốc
+
+9. アメリカ và イギリス khác nhau thế nào?
+   A. アメリカ là Mỹ; イギリス là Anh
+   B. アメリカ là Anh; イギリス là Mỹ
+   C. アメリカ là Pháp; イギリス là Đức
+   D. アメリカ là Brazil; イギリス là Thái Lan
+
+10. 韓国（かんこく） và 中国（ちゅうごく） khác nhau thế nào?
+    A. 韓国 là Hàn Quốc; 中国 là Trung Quốc
+    B. 韓国 là Trung Quốc; 中国 là Hàn Quốc
+    C. 韓国 là Nhật Bản; 中国 là Việt Nam
+    D. 韓国 là Thái Lan; 中国 là Ấn Độ
+
+---
+
+## Block 13: Chọn trợ từ / cụm phù hợp
+
+1. わたし＿＿＿ 学生（がくせい）です。
+   A. は
+   B. を
+   C. に
+   D. で
+
+2. こちら＿＿＿ 田中（たなか）さんです。
+   A. は
+   B. を
+   C. に
+   D. で
+
+3. わたしは ベトナム＿＿＿ きました。
+   A. から
+   B. は
+   C. を
+   D. に
+
+4. あのひと＿＿＿ だれですか。
+   A. は
+   B. を
+   C. に
+   D. で
+
+5. あなた＿＿＿ なんさいですか。
+   A. は
+   B. を
+   C. に
+   D. で
+
+6. わたしは エンジニア＿＿＿。
+   A. です
+   B. を
+   C. に
+   D. で
+
+7. 田中（たなか）さんは 日本（にほん）＿＿＿です。
+   A. じん
+   B. さん
+   C. さい
+   D. ちゃん
+
+8. 山田（やまだ）さんは 30＿＿＿です。
+   A. さい
+   B. じん
+   C. さん
+   D. くん
+
+9. ＿＿＿ですが、おなまえは？
+   A. しつれい
+   B. はじめまして
+   C. いいえ
+   D. はい
+
+10. はじめまして。どうぞ＿＿＿。
+    A. よろしく
+    B. なんさい
+    C. だれ
+    D. どなた

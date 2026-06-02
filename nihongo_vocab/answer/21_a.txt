@@ -1,0 +1,202 @@
+| Câu   | Đáp án | Từ đúng                             | Hiragana                   | Romaji                                             | Nghĩa / giải thích ngắn       |
+| ----- | ------ | ----------------------------------- | -------------------------- | -------------------------------------------------- | ----------------------------- |
+| 1.1   | A      | 思います（おもいます）                         | おもいます                      | omoimasu                                           | nghĩ                          |
+| 1.2   | A      | 言います（いいます）                          | いいます                       | iimasu                                             | nói                           |
+| 1.3   | A      | 意見（いけん）                             | いけん                        | iken                                               | ý kiến                        |
+| 1.4   | A      | 話（はなし）                              | はなし                        | hanashi                                            | câu chuyện                    |
+| 1.5   | A      | 本当（ほんとう）                            | ほんとう                       | hontou                                             | thật                          |
+| 1.6   | A      | うそ                                  | うそ                         | uso                                                | lời nói dối                   |
+| 1.7   | A      | 本当に（ほんとうに）                          | ほんとうに                      | hontou ni                                          | thật sự                       |
+| 1.8   | A      | 〜について                               | について                       | ni tsuite                                          | về / liên quan                |
+| 1.9   | A      | どう思いますか（どうおもいますか）                   | どうおもいますか                   | dou omoimasu ka                                    | bạn nghĩ thế nào              |
+| 1.10  | A      | 私（わたし）もそう思います（おもいます）                | わたしもそうおもいます                | watashi mo sou omoimasu                            | tôi cũng nghĩ vậy             |
+| 2.1   | A      | 私（わたし）はそう思いません（おもいません）              | わたしはそうおもいません               | watashi wa sou omoimasen                           | tôi không nghĩ vậy            |
+| 2.2   | A      | 足ります（たります）                          | たります                       | tarimasu                                           | đủ                            |
+| 2.3   | A      | 役に立ちます（やくにたちます）                     | やくにたちます                    | yaku ni tachimasu                                  | có ích                        |
+| 2.4   | A      | むだ                                  | むだ                         | muda                                               | lãng phí / vô ích             |
+| 2.5   | A      | 不便（ふべん）                             | ふべん                        | fuben                                              | bất tiện                      |
+| 2.6   | A      | すごい                                 | すごい                        | sugoi                                              | tuyệt vời / ghê               |
+| 2.7   | A      | 仕方がありません（しかたがありません）                 | しかたがありません                  | shikata ga arimasen                                | không còn cách khác           |
+| 2.8   | A      | もちろん                                | もちろん                       | mochiron                                           | tất nhiên                     |
+| 2.9   | A      | そんなに                                | そんなに                       | sonna ni                                           | đến mức vậy                   |
+| 2.10  | A      | たぶん                                 | たぶん                        | tabun                                              | có lẽ                         |
+| 3.1   | A      | きっと                                 | きっと                        | kitto                                              | chắc chắn                     |
+| 3.2   | A      | 最近（さいきん）                            | さいきん                       | saikin                                             | gần đây                       |
+| 3.3   | A      | しばらくですね                             | しばらくですね                    | shibaraku desu ne                                  | lâu rồi nhỉ                   |
+| 3.4   | A      | どうですか                               | どうですか                      | dou desu ka                                        | thế nào                       |
+| 3.5   | A      | もう帰らないと（もうかえらないと）                   | もうかえらないと                   | mou kaeranai to                                    | phải về rồi                   |
+| 3.6   | A      | たぶん 勝ちます（かちます）                      | たぶん かちます                   | tabun kachimasu                                    | có lẽ thắng                   |
+| 3.7   | A      | きっと 役に立ちます（やくにたちます）                 | きっと やくにたちます                | kitto yaku ni tachimasu                            | chắc chắn có ích              |
+| 3.8   | A      | 最近（さいきん）、どうですか                      | さいきん、どうですか                 | saikin, dou desu ka                                | gần đây thế nào               |
+| 3.9   | A      | これは 本当（ほんとう）ですか                     | これは ほんとうですか                | kore wa hontou desu ka                             | cái này thật à                |
+| 3.10  | A      | もう帰らないと（もうかえらないと）… また会いましょう（あいましょう） | もうかえらないと…またあいましょう          | mou kaeranai to, mata aimashou                     | phải về, hẹn gặp              |
+| 4.1   | A      | 勝ちます（かちます）                          | かちます                       | kachimasu                                          | thắng                         |
+| 4.2   | A      | 負けます（まけます）                          | まけます                       | makemasu                                           | thua                          |
+| 4.3   | A      | 試合（しあい）                             | しあい                        | shiai                                              | trận đấu                      |
+| 4.4   | A      | あります                                | あります                       | arimasu                                            | có / tổ chức                  |
+| 4.5   | A      | やめます                                | やめます                       | yamemasu                                           | nghỉ / bỏ / dừng              |
+| 4.6   | A      | 気をつけます（きをつけます）                      | きをつけます                     | ki o tsukemasu                                     | chú ý / cẩn thận              |
+| 4.7   | A      | うごきます                               | うごきます                      | ugokimasu                                          | chuyển động                   |
+| 4.8   | A      | じどうしゃ                               | じどうしゃ                      | jidousha                                           | ô tô                          |
+| 4.9   | A      | こうつう                                | こうつう                       | koutsuu                                            | giao thông                    |
+| 4.10  | A      | ぶっか                                 | ぶっか                        | bukka                                              | vật giá                       |
+| 5.1   | A      | ほうそう                                | ほうそう                       | housou                                             | phát sóng                     |
+| 5.2   | A      | ニュース                                | ニュース                       | nyuusu                                             | tin tức                       |
+| 5.3   | A      | アニメ                                 | アニメ                        | anime                                              | phim hoạt hình                |
+| 5.4   | A      | マンガ                                 | マンガ                        | manga                                              | truyện tranh                  |
+| 5.5   | A      | デザイン                                | デザイン                       | dezain                                             | thiết kế                      |
+| 5.6   | A      | ゆめ                                  | ゆめ                         | yume                                               | giấc mơ                       |
+| 5.7   | A      | てんさい                                | てんさい                       | tensai                                             | thiên tài                     |
+| 5.8   | A      | 地球（ちきゅう）                            | ちきゅう                       | chikyuu                                            | Trái Đất                      |
+| 5.9   | A      | 月（つき）                               | つき                         | tsuki                                              | mặt trăng                     |
+| 5.10  | A      | アニメについて 話します（はなします）                 | アニメについて はなします              | anime ni tsuite hanashimasu                        | nói về anime                  |
+| 6.1   | A      | 思います（おもいます）                         | おもいます                      | omoimasu                                           | nghĩ                          |
+| 6.2   | A      | 言います（いいます）                          | いいます                       | iimasu                                             | nói                           |
+| 6.3   | A      | 意見（いけん）                             | いけん                        | iken                                               | ý kiến                        |
+| 6.4   | A      | 話（はなし）                              | はなし                        | hanashi                                            | câu chuyện                    |
+| 6.5   | A      | 本当（ほんとう）                            | ほんとう                       | hontou                                             | thật                          |
+| 6.6   | A      | うそ                                  | うそ                         | uso                                                | lời nói dối                   |
+| 6.7   | A      | 本当に（ほんとうに）                          | ほんとうに                      | hontou ni                                          | thật sự                       |
+| 6.8   | A      | 〜について                               | について                       | ni tsuite                                          | về / liên quan                |
+| 6.9   | A      | どう思いますか（どうおもいますか）                   | どうおもいますか                   | dou omoimasu ka                                    | bạn nghĩ thế nào              |
+| 6.10  | A      | 私（わたし）もそう思います（おもいます）                | わたしもそうおもいます                | watashi mo sou omoimasu                            | tôi cũng nghĩ vậy             |
+| 7.1   | A      | 私（わたし）はそう思いません（おもいません）              | わたしはそうおもいません               | watashi wa sou omoimasen                           | tôi không nghĩ vậy            |
+| 7.2   | A      | 足ります（たります）                          | たります                       | tarimasu                                           | đủ                            |
+| 7.3   | A      | 役に立ちます（やくにたちます）                     | やくにたちます                    | yaku ni tachimasu                                  | có ích                        |
+| 7.4   | A      | むだ                                  | むだ                         | muda                                               | lãng phí / vô ích             |
+| 7.5   | A      | 不便（ふべん）                             | ふべん                        | fuben                                              | bất tiện                      |
+| 7.6   | A      | すごい                                 | すごい                        | sugoi                                              | tuyệt vời / ghê               |
+| 7.7   | A      | 仕方がありません（しかたがありません）                 | しかたがありません                  | shikata ga arimasen                                | không còn cách khác           |
+| 7.8   | A      | もちろん                                | もちろん                       | mochiron                                           | tất nhiên                     |
+| 7.9   | A      | たぶん                                 | たぶん                        | tabun                                              | có lẽ                         |
+| 7.10  | A      | きっと                                 | きっと                        | kitto                                              | chắc chắn                     |
+| 8.1   | A      | 最近（さいきん）                            | さいきん                       | saikin                                             | gần đây                       |
+| 8.2   | A      | しばらくですね                             | しばらくですね                    | shibaraku desu ne                                  | lâu rồi nhỉ                   |
+| 8.3   | A      | もう帰らないと（もうかえらないと）                   | もうかえらないと                   | mou kaeranai to                                    | phải về rồi                   |
+| 8.4   | A      | 勝ちます（かちます）                          | かちます                       | kachimasu                                          | thắng                         |
+| 8.5   | A      | 負けます（まけます）                          | まけます                       | makemasu                                           | thua                          |
+| 8.6   | A      | 試合（しあい）                             | しあい                        | shiai                                              | trận đấu                      |
+| 8.7   | A      | やめます                                | やめます                       | yamemasu                                           | nghỉ / bỏ / dừng              |
+| 8.8   | A      | 気をつけます（きをつけます）                      | きをつけます                     | ki o tsukemasu                                     | chú ý / cẩn thận              |
+| 8.9   | A      | じどうしゃ                               | じどうしゃ                      | jidousha                                           | ô tô                          |
+| 8.10  | A      | こうつう                                | こうつう                       | koutsuu                                            | giao thông                    |
+| 9.1   | A      | ぶっか                                 | ぶっか                        | bukka                                              | vật giá                       |
+| 9.2   | A      | ほうそう                                | ほうそう                       | housou                                             | phát sóng                     |
+| 9.3   | A      | ニュース                                | ニュース                       | nyuusu                                             | tin tức                       |
+| 9.4   | A      | アニメ                                 | アニメ                        | anime                                              | phim hoạt hình                |
+| 9.5   | A      | マンガ                                 | マンガ                        | manga                                              | truyện tranh                  |
+| 9.6   | A      | デザイン                                | デザイン                       | dezain                                             | thiết kế                      |
+| 9.7   | A      | ゆめ                                  | ゆめ                         | yume                                               | giấc mơ                       |
+| 9.8   | A      | てんさい                                | てんさい                       | tensai                                             | thiên tài                     |
+| 9.9   | A      | 地球（ちきゅう）                            | ちきゅう                       | chikyuu                                            | Trái Đất                      |
+| 9.10  | A      | 月（つき）                               | つき                         | tsuki                                              | mặt trăng                     |
+| 10.1  | A      | 思います（おもいます）                         | おもいます                      | omoimasu                                           | nghĩ                          |
+| 10.2  | A      | 言います（いいます）                          | いいます                       | iimasu                                             | nói                           |
+| 10.3  | A      | 思いますか（おもいますか）                       | おもいますか                     | omoimasu ka                                        | nghĩ thế nào                  |
+| 10.4  | A      | うそ                                  | うそ                         | uso                                                | lời nói dối                   |
+| 10.5  | A      | 思います（おもいます）                         | おもいます                      | omoimasu                                           | nghĩ vậy                      |
+| 10.6  | A      | 思いません（おもいません）                       | おもいません                     | omoimasen                                          | không nghĩ vậy                |
+| 10.7  | A      | 足ります（たります）                          | たります                       | tarimasu                                           | đủ                            |
+| 10.8  | A      | 役に立ちます（やくにたちます）                     | やくにたちます                    | yaku ni tachimasu                                  | có ích                        |
+| 10.9  | A      | むだ                                  | むだ                         | muda                                               | lãng phí / vô ích             |
+| 10.10 | A      | 不便（ふべん）                             | ふべん                        | fuben                                              | bất tiện                      |
+| 11.1  | A      | すごい                                 | すごい                        | sugoi                                              | tuyệt vời                     |
+| 11.2  | A      | 仕方がありません（しかたがありません）                 | しかたがありません                  | shikata ga arimasen                                | không còn cách khác           |
+| 11.3  | A      | もちろん                                | もちろん                       | mochiron                                           | tất nhiên                     |
+| 11.4  | A      | そんなに                                | そんなに                       | sonna ni                                           | đến mức vậy                   |
+| 11.5  | A      | たぶん                                 | たぶん                        | tabun                                              | có lẽ                         |
+| 11.6  | A      | きっと                                 | きっと                        | kitto                                              | chắc chắn                     |
+| 11.7  | A      | 最近（さいきん）                            | さいきん                       | saikin                                             | gần đây                       |
+| 11.8  | A      | そうですね                               | そうですね                      | sou desu ne                                        | đúng vậy nhỉ                  |
+| 11.9  | A      | 帰らないと（かえらないと）                       | かえらないと                     | kaeranai to                                        | phải về                       |
+| 11.10 | A      | 本当に（ほんとうに）                          | ほんとうに                      | hontou ni                                          | thật sự                       |
+| 12.1  | A      | あります                                | あります                       | arimasu                                            | có / tổ chức                  |
+| 12.2  | A      | 勝ちます（かちます）                          | かちます                       | kachimasu                                          | thắng                         |
+| 12.3  | A      | 負けます（まけます）                          | まけます                       | makemasu                                           | thua                          |
+| 12.4  | A      | やめます                                | やめます                       | yamemasu                                           | nghỉ / bỏ                     |
+| 12.5  | A      | 気をつけます（きをつけます）                      | きをつけます                     | ki o tsukemasu                                     | chú ý / cẩn thận              |
+| 12.6  | A      | うごきます                               | うごきます                      | ugokimasu                                          | chuyển động                   |
+| 12.7  | A      | 話します（はなします）                         | はなします                      | hanashimasu                                        | nói chuyện                    |
+| 12.8  | A      | 不便（ふべん）                             | ふべん                        | fuben                                              | bất tiện                      |
+| 12.9  | A      | 高い（たかい）です                           | たかいです                      | takai desu                                         | cao / đắt                     |
+| 12.10 | A      | 見ます（みます）                            | みます                        | mimasu                                             | xem                           |
+| 13.1  | A      | ほうそうします                             | ほうそうします                    | housou shimasu                                     | phát sóng                     |
+| 13.2  | A      | 読みます（よみます）                          | よみます                       | yomimasu                                           | đọc                           |
+| 13.3  | A      | すごい                                 | すごい                        | sugoi                                              | tuyệt vời                     |
+| 13.4  | A      | ゆめ                                  | ゆめ                         | yume                                               | ước mơ                        |
+| 13.5  | A      | てんさい                                | てんさい                       | tensai                                             | thiên tài                     |
+| 13.6  | A      | 地球（ちきゅう）                            | ちきゅう                       | chikyuu                                            | Trái Đất                      |
+| 13.7  | A      | 月（つき）                               | つき                         | tsuki                                              | mặt trăng                     |
+| 13.8  | A      | 思いますか（おもいますか）                       | おもいますか                     | omoimasu ka                                        | nghĩ thế nào                  |
+| 13.9  | A      | おもしろい                               | おもしろい                      | omoshiroi                                          | thú vị                        |
+| 13.10 | A      | 本当（ほんとう）                            | ほんとう                       | hontou                                             | thật                          |
+| 14.1  | A      | 思います（おもいます）                         | おもいます                      | omoimasu                                           | nghĩ                          |
+| 14.2  | A      | 言います（いいます）                          | いいます                       | iimasu                                             | nói                           |
+| 14.3  | A      | 意見（いけん）                             | いけん                        | iken                                               | ý kiến                        |
+| 14.4  | A      | 話（はなし）                              | はなし                        | hanashi                                            | câu chuyện                    |
+| 14.5  | A      | 本当（ほんとう）                            | ほんとう                       | hontou                                             | thật                          |
+| 14.6  | A      | 本当に（ほんとうに）                          | ほんとうに                      | hontou ni                                          | thật sự                       |
+| 14.7  | A      | 足ります（たります）                          | たります                       | tarimasu                                           | đủ                            |
+| 14.8  | A      | 役に立ちます（やくにたちます）                     | やくにたちます                    | yaku ni tachimasu                                  | có ích                        |
+| 14.9  | A      | 不便（ふべん）                             | ふべん                        | fuben                                              | bất tiện                      |
+| 14.10 | A      | 仕方がありません（しかたがありません）                 | しかたがありません                  | shikata ga arimasen                                | không còn cách khác           |
+| 15.1  | A      | 最近（さいきん）                            | さいきん                       | saikin                                             | gần đây                       |
+| 15.2  | A      | 帰らないと（かえらないと）                       | かえらないと                     | kaeranai to                                        | phải về                       |
+| 15.3  | A      | 勝ちます（かちます）                          | かちます                       | kachimasu                                          | thắng                         |
+| 15.4  | A      | 負けます（まけます）                          | まけます                       | makemasu                                           | thua                          |
+| 15.5  | A      | 試合（しあい）                             | しあい                        | shiai                                              | trận đấu                      |
+| 15.6  | A      | 気をつけます（きをつけます）                      | きをつけます                     | ki o tsukemasu                                     | chú ý / cẩn thận              |
+| 15.7  | A      | 地球（ちきゅう）                            | ちきゅう                       | chikyuu                                            | Trái Đất                      |
+| 15.8  | A      | 月（つき）                               | つき                         | tsuki                                              | mặt trăng                     |
+| 15.9  | A      | 私（わたし）                              | わたし                        | watashi                                            | tôi                           |
+| 15.10 | A      | 自動車（じどうしゃ）                          | じどうしゃ                      | jidousha                                           | ô tô                          |
+| 16.1  | A      | 思います（おもいます）                         | おもいます                      | omoimasu                                           | nghĩ                          |
+| 16.2  | A      | 言います（いいます）                          | いいます                       | iimasu                                             | nói                           |
+| 16.3  | A      | 意見（いけん）                             | いけん                        | iken                                               | ý kiến                        |
+| 16.4  | A      | 話（はなし）                              | はなし                        | hanashi                                            | câu chuyện                    |
+| 16.5  | A      | 本当（ほんとう）                            | ほんとう                       | hontou                                             | thật                          |
+| 16.6  | A      | 足ります（たります）                          | たります                       | tarimasu                                           | đủ                            |
+| 16.7  | A      | 役に立ちます（やくにたちます）                     | やくにたちます                    | yaku ni tachimasu                                  | có ích                        |
+| 16.8  | A      | 不便（ふべん）                             | ふべん                        | fuben                                              | bất tiện                      |
+| 16.9  | A      | 仕方がありません（しかたがありません）                 | しかたがありません                  | shikata ga arimasen                                | không còn cách khác           |
+| 16.10 | A      | 最近（さいきん）                            | さいきん                       | saikin                                             | gần đây                       |
+| 17.1  | A      | 勝ちます（かちます）                          | かちます                       | kachimasu                                          | thắng                         |
+| 17.2  | A      | 負けます（まけます）                          | まけます                       | makemasu                                           | thua                          |
+| 17.3  | A      | 試合（しあい）                             | しあい                        | shiai                                              | trận đấu                      |
+| 17.4  | A      | 気をつけます（きをつけます）                      | きをつけます                     | ki o tsukemasu                                     | chú ý / cẩn thận              |
+| 17.5  | A      | 地球（ちきゅう）                            | ちきゅう                       | chikyuu                                            | Trái Đất                      |
+| 17.6  | A      | 月（つき）                               | つき                         | tsuki                                              | mặt trăng                     |
+| 17.7  | A      | 私（わたし）                              | わたし                        | watashi                                            | tôi                           |
+| 17.8  | A      | 自動車（じどうしゃ）                          | じどうしゃ                      | jidousha                                           | ô tô                          |
+| 17.9  | A      | ニュース                                | ニュース                       | nyuusu                                             | tin tức                       |
+| 17.10 | A      | デザイン                                | デザイン                       | dezain                                             | thiết kế                      |
+| 18.1  | A      | 意見（いけん）                             | いけん                        | iken                                               | ý kiến / suy nghĩ             |
+| 18.2  | A      | 私（わたし）もそう思います（おもいます）                | わたしもそうおもいます                | watashi mo sou omoimasu                            | đồng ý                        |
+| 18.3  | A      | 役に立ちます（やくにたちます）                     | やくにたちます                    | yaku ni tachimasu                                  | đánh giá hữu ích              |
+| 18.4  | A      | たぶん                                 | たぶん                        | tabun                                              | dự đoán                       |
+| 18.5  | A      | 試合（しあい）                             | しあい                        | shiai                                              | thi đấu                       |
+| 18.6  | A      | じどうしゃ                               | じどうしゃ                      | jidousha                                           | giao thông                    |
+| 18.7  | A      | ニュース                                | ニュース                       | nyuusu                                             | truyền thông                  |
+| 18.8  | A      | マンガ                                 | マンガ                        | manga                                              | văn hóa hiện đại              |
+| 18.9  | A      | 月（つき）                               | つき                         | tsuki                                              | thiên nhiên / vũ trụ          |
+| 18.10 | A      | てんさい                                | てんさい                       | tensai                                             | năng lực đặc biệt             |
+| 19.1  | A      | 思います（おもいます） / 言います（いいます）            | おもいます / いいます               | omoimasu / iimasu                                  | nghĩ / nói                    |
+| 19.2  | A      | 本当（ほんとう） / うそ                       | ほんとう / うそ                  | hontou / uso                                       | thật / nói dối                |
+| 19.3  | A      | 私（わたし）もそう思います / 私（わたし）はそう思いません      | わたしもそうおもいます / わたしはそうおもいません | watashi mo sou omoimasu / watashi wa sou omoimasen | đồng ý / không đồng ý         |
+| 19.4  | A      | 足ります（たります） / 役に立ちます（やくにたちます）        | たります / やくにたちます             | tarimasu / yaku ni tachimasu                       | đủ / có ích                   |
+| 19.5  | A      | 役に立ちます（やくにたちます） / むだ                | やくにたちます / むだ               | yaku ni tachimasu / muda                           | có ích / vô ích               |
+| 19.6  | A      | たぶん / きっと                           | たぶん / きっと                  | tabun / kitto                                      | có lẽ / chắc chắn             |
+| 19.7  | A      | もちろん / たぶん                          | もちろん / たぶん                 | mochiron / tabun                                   | tất nhiên / có lẽ             |
+| 19.8  | A      | 勝ちます（かちます） / 負けます（まけます）             | かちます / まけます                | kachimasu / makemasu                               | thắng / thua                  |
+| 19.9  | A      | やめます / 気をつけます（きをつけます）               | やめます / きをつけます              | yamemasu / ki o tsukemasu                          | bỏ / cẩn thận                 |
+| 19.10 | A      | アニメ / マンガ                           | アニメ / マンガ                  | anime / manga                                      | phim hoạt hình / truyện tranh |
+| 20.1  | A      | 思います（おもいます）                         | おもいます                      | omoimasu                                           | nghĩ                          |
+| 20.2  | A      | と                                   | と                          | to                                                 | trích dẫn lời nói             |
+| 20.3  | A      | について                                | について                       | ni tsuite                                          | về / liên quan                |
+| 20.4  | A      | も                                   | も                          | mo                                                 | cũng                          |
+| 20.5  | A      | ません                                 | ません                        | masen                                              | phủ định                      |
+| 20.6  | A      | に                                   | に                          | ni                                                 | trong cụm có ích              |
+| 20.7  | A      | に                                   | に                          | ni                                                 | trong そんなに                    |
+| 20.8  | A      | が                                   | が                          | ga                                                 | có trận đấu                   |
+| 20.9  | A      | に                                   | に                          | ni                                                 | chú ý đến                     |
+| 20.10 | A      | と                                   | と                          | to                                                 | và                            |

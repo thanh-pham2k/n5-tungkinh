@@ -1,0 +1,60 @@
+着ます（きます）	mặc
+はきます	mặc / mang
+かぶります	đội
+かけます	đeo
+します	đeo / thắt
+服（ふく）	quần áo
+コート	áo khoác dài
+スーツ	bộ vest
+セーター	áo len
+ぼうし	mũ
+
+---
+
+めがね	kính
+ネクタイ	cà vạt
+くつ	giày
+ズボン	quần dài
+スカート	váy
+ワンピース	váy liền
+白い（しろい）	màu trắng
+黒い（くろい）	màu đen
+赤い（あかい）	màu đỏ
+青い（あおい）	màu xanh dương
+
+---
+
+黄色い（きいろい）	màu vàng
+ちゃいろい	màu nâu
+新しい（あたらしい）	mới
+古い（ふるい）	cũ
+すてき	đẹp / tuyệt
+かわいい	dễ thương
+安い（やすい）	rẻ
+高い（たかい）	đắt / cao
+背が高い（せがたかい）	dáng cao
+背が低い（せがひくい）	dáng thấp
+
+---
+
+かみが長い（かみがながい）	tóc dài
+かみが短い（かみがみじかい）	tóc ngắn
+よく	thường / rõ
+生まれます（うまれます）	sinh ra
+おめでとうございます	chúc mừng
+こちら	vị này / phía này
+どんな	như thế nào
+どの	cái/người nào
+誰（だれ）	ai
+いつ	khi nào
+
+---
+
+どこ	ở đâu
+やちん	tiền thuê nhà
+ダイニングキッチン	phòng ăn + bếp
+わしつ	phòng kiểu Nhật
+おしいれ	tủ âm tường
+ふとん	đệm futon
+アパート	căn hộ
+マンション	chung cư

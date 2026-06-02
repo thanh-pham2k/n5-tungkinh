@@ -1,0 +1,189 @@
+Hãy tạo bài tập trắc nghiệm ôn tập từ danh sách từ vựng Nhật–Việt dưới đây.
+
+Mục tiêu:
+- Giúp tôi ôn từ vựng tiếng Nhật dễ nhớ hơn.
+- Nội dung phù hợp trình độ sơ cấp / JLPT N5.
+- Ưu tiên cách học dễ nhớ, có ngữ cảnh, có phân biệt từ dễ nhầm.
+- Có thể dùng để học nhanh, kiểm tra nhanh, hoặc chuyển thành thẻ Anki.
+
+Yêu cầu về từ vựng:
+- Dùng từ vựng trong danh sách là chính.
+- Không thêm nhiều từ ngoài danh sách, trừ khi cần tạo câu ví dụ N5 đơn giản.
+- Giữ nguyên kana/kanji gốc nếu danh sách đã có.
+- Nếu từ nào có kanji thường gặp hoặc có thể xuất hiện trong JLPT N5, hãy viết bằng kanji kèm kana trong ngoặc.
+  Ví dụ:
+  日本（にほん）
+  人（ひと）
+  国（くに）
+  山（やま）
+  川（かわ）
+  学校（がっこう）
+  先生（せんせい）
+  行きます（いきます）
+  来ます（きます）
+  見ます（みます）
+  食べます（たべます）
+  飲みます（のみます）
+  書きます（かきます）
+  読みます（よみます）
+  聞きます（ききます）
+- Nếu không chắc kanji thuộc N5, hoặc kanji vượt N5, hãy giữ nguyên kana.
+- Với động từ, tính từ, danh từ có kanji N5, ưu tiên dùng dạng:
+  Kanji（kana）
+- Nghĩa tiếng Việt phải ngắn gọn, tự nhiên, dễ học.
+
+Yêu cầu về bài trắc nghiệm:
+- Tạo câu hỏi trắc nghiệm 4 đáp án A/B/C/D.
+- Chia thành các block khoảng 10 câu.
+- Ưu tiên chia block theo chủ đề hoặc nhóm từ gần nghĩa.
+- Các đáp án nhiễu phải là từ gần nghĩa, cùng chủ đề, cùng loại từ, hoặc dễ nhầm.
+- Không để đáp án đúng quá dễ đoán.
+- Câu hỏi và đáp án cần rõ ràng, dễ đọc.
+- Không ghi đáp án.
+- Không giải thích đáp án.
+- Không thêm giải thích dài ngoài bài tập.
+
+Các dạng câu hỏi cần có:
+1. Nhật → Việt
+   Ví dụ:
+   日本（にほん） nghĩa là gì?
+
+2. Việt → Nhật
+   Ví dụ:
+   “Nhật Bản” là từ nào?
+
+3. Điền từ vào câu ngắn
+   Ví dụ:
+   駅（えき）に＿＿＿。
+   A. 着きます（つきます）
+   B. 食べます（たべます）
+   C. 書きます（かきます）
+   D. 見ます（みます）
+
+4. Chọn từ cùng nhóm chủ đề
+   Ví dụ:
+   Từ nào thuộc nhóm “quần áo”?
+
+5. Phân biệt từ dễ nhầm
+   Ví dụ:
+   着ます（きます） và 来ます（きます） khác nhau thế nào?
+
+6. Chọn cách đọc kanji
+   Ví dụ:
+   日本 đọc là gì?
+   A. にほん
+   B. にちほん
+   C. ひほん
+   D. にっぽ
+
+7. Chọn kanji đúng
+   Ví dụ:
+   “người” là kanji nào?
+   A. 人
+   B. 入
+   C. 大
+   D. 天
+
+8. Chọn trợ từ hoặc cụm phù hợp trong câu đơn giản nếu cần
+   Ví dụ:
+   わたしは 学生（がくせい）＿＿＿。
+   A. です
+   B. を
+   C. に
+   D. で
+
+Yêu cầu về câu ví dụ:
+- Câu ví dụ phải ngắn, dễ hiểu, phù hợp trình độ JLPT N5.
+- Không dùng ngữ pháp vượt N5.
+- Ưu tiên dùng chính từ vựng trong danh sách.
+- Có thể thêm nghĩa tiếng Việt ngắn dưới câu nếu cần.
+- Với kanji N5 trong câu ví dụ, ghi kana trong ngoặc ở lần xuất hiện đầu tiên.
+  Ví dụ:
+  駅（えき）に着きます（つきます）。
+
+Yêu cầu cuối bài:
+- Không thêm mục đáp án.
+- Không thêm mục giải thích.
+- Không thêm “Ôn nhanh”.
+- Không thêm “Kanji N5 cần nhớ”.
+- Không thêm “Gợi ý tag Anki”.
+- Không chia thành nhiều deck nhỏ.
+- Chỉ xuất bài tập trắc nghiệm.
+
+Format mong muốn:
+
+## Block 1: Nhật → Việt
+
+1. 考えます（かんがえます） nghĩa là gì?
+A. đến / tới
+B. suy nghĩ
+C. cố gắng
+D. chuyển công tác
+
+2. 日本（にほん） nghĩa là gì?
+A. Việt Nam
+B. Nhật Bản
+C. Tokyo
+D. quê nhà
+
+---
+
+## Block 2: Việt → Nhật
+
+1. “cơ hội” là từ nào?
+A. チャンス
+B. こと
+C. もし
+D. 億（おく）
+
+2. “Nhật Bản” là từ nào?
+A. ベトナム
+B. 東京（とうきょう）
+C. 日本（にほん）
+D. 大阪（おおさか）
+
+---
+
+## Block 3: Điền vào câu
+
+1. 駅（えき）に＿＿＿。
+A. 着きます（つきます）
+B. 考えます（かんがえます）
+C. 足ります（たります）
+D. がんばります
+
+---
+
+## Block 4: Đọc kanji
+
+1. 日本 đọc là gì?
+A. にほん
+B. ひほん
+C. にちほん
+D. にっほん
+
+2. 人 đọc là gì?
+A. いと
+B. ひと
+C. にん
+D. じん
+
+---
+
+## Block 5: Chọn kanji đúng
+
+1. “người” là kanji nào?
+A. 人
+B. 入
+C. 大
+D. 天
+
+2. “nước / quốc gia” là kanji nào?
+A. 国
+B. 円
+C. 山
+D. 川
+
+---
+
+Đây là danh sách từ vựng:

@@ -1,0 +1,893 @@
+## Block 1: Nhật → Việt
+
+1. 考えます（かんがえます） nghĩa là gì?
+   A. suy nghĩ
+   B. đến / tới
+   C. đủ
+   D. cố gắng
+
+2. 着きます（つきます） nghĩa là gì?
+   A. đến / tới
+   B. suy nghĩ
+   C. chuyển công tác
+   D. có tuổi
+
+3. 取ります（とります） nghĩa là gì?
+   A. có tuổi / lấy
+   B. đủ
+   C. suy nghĩ
+   D. chuyển công tác
+
+4. 足ります（たります） nghĩa là gì?
+   A. đủ
+   B. thiếu
+   C. cố gắng
+   D. đến
+
+5. こと nghĩa là gì?
+   A. việc / chuyện
+   B. cơ hội
+   C. quê
+   D. một trăm triệu
+
+6. もし nghĩa là gì?
+   A. nếu như
+   B. dù bao nhiêu
+   C. cơ hội
+   D. cố gắng
+
+7. いくら nghĩa là gì?
+   A. dù bao nhiêu / bao nhiêu tiền
+   B. nếu như
+   C. một trăm triệu
+   D. cơ hội
+
+8. チャンス nghĩa là gì?
+   A. cơ hội
+   B. việc / chuyện
+   C. quê
+   D. chuyển công tác
+
+9. がんばります nghĩa là gì?
+   A. cố gắng
+   B. suy nghĩ
+   C. đến / tới
+   D. đủ
+
+10. 転勤（てんきん） nghĩa là gì?
+    A. chuyển công tác
+    B. cơ hội
+    C. quê / nông thôn
+    D. một trăm triệu
+
+---
+
+## Block 2: Nhật → Việt / địa danh và câu giao tiếp
+
+1. 田舎（いなか） nghĩa là gì?
+   A. quê / nông thôn
+   B. thành phố
+   C. Nhật Bản
+   D. Việt Nam
+
+2. 億（おく） nghĩa là gì?
+   A. một trăm triệu
+   B. một triệu
+   C. mười nghìn
+   D. một nghìn
+
+3. ベトナム nghĩa là gì?
+   A. Việt Nam
+   B. Nhật Bản
+   C. Tokyo
+   D. Osaka
+
+4. 日本（にほん） nghĩa là gì?
+   A. Nhật Bản
+   B. Việt Nam
+   C. Tokyo
+   D. Osaka
+
+5. 東京（とうきょう） nghĩa là gì?
+   A. Tokyo
+   B. Osaka
+   C. Nhật Bản
+   D. Việt Nam
+
+6. 大阪（おおさか） nghĩa là gì?
+   A. Osaka
+   B. Tokyo
+   C. Việt Nam
+   D. Nhật Bản
+
+7. いっぱい飲みましょう（いっぱいのみましょう） nghĩa là gì?
+   A. uống một ly nhé
+   B. cố gắng nhé
+   C. đến Tokyo nhé
+   D. về quê nhé
+
+8. いろいろお世話になりました（いろいろおせわになりました） nghĩa là gì?
+   A. cảm ơn vì đã giúp đỡ nhiều
+   B. chúc mạnh khỏe
+   C. uống một ly nhé
+   D. tôi chuyển công tác
+
+9. どうぞお元気で（どうぞおげんきで） nghĩa là gì?
+   A. chúc mạnh khỏe
+   B. cảm ơn nhiều
+   C. cố gắng nhé
+   D. xin chào
+
+10. 転勤（てんきん）で 大阪（おおさか）へ 行きます nghĩa là gì?
+    A. Chuyển công tác đi Osaka.
+    B. Đi du lịch Osaka.
+    C. Về quê ở Osaka.
+    D. Đến Tokyo làm việc.
+
+---
+
+## Block 3: Việt → Nhật
+
+1. “suy nghĩ” là từ nào?
+   A. 考えます（かんがえます）
+   B. 着きます（つきます）
+   C. 足ります（たります）
+   D. がんばります
+
+2. “đến / tới” là từ nào?
+   A. 着きます（つきます）
+   B. 考えます（かんがえます）
+   C. 取ります（とります）
+   D. 転勤（てんきん）
+
+3. “có tuổi / lấy” là từ nào?
+   A. 取ります（とります）
+   B. 足ります（たります）
+   C. 着きます（つきます）
+   D. がんばります
+
+4. “đủ” là từ nào?
+   A. 足ります（たります）
+   B. 取ります（とります）
+   C. こと
+   D. もし
+
+5. “việc / chuyện” là từ nào?
+   A. こと
+   B. チャンス
+   C. 田舎（いなか）
+   D. 億（おく）
+
+6. “nếu như” là từ nào?
+   A. もし
+   B. いくら
+   C. チャンス
+   D. こと
+
+7. “cơ hội” là từ nào?
+   A. チャンス
+   B. こと
+   C. もし
+   D. 億（おく）
+
+8. “cố gắng” là từ nào?
+   A. がんばります
+   B. 考えます（かんがえます）
+   C. 着きます（つきます）
+   D. 足ります（たります）
+
+9. “chuyển công tác” là từ nào?
+   A. 転勤（てんきん）
+   B. 田舎（いなか）
+   C. チャンス
+   D. こと
+
+10. “quê / nông thôn” là từ nào?
+    A. 田舎（いなか）
+    B. 東京（とうきょう）
+    C. 大阪（おおさか）
+    D. 日本（にほん）
+
+---
+
+## Block 4: Việt → Nhật / địa danh và câu giao tiếp
+
+1. “một trăm triệu” là từ nào?
+   A. 億（おく）
+   B. まん
+   C. せん
+   D. ひゃく
+
+2. “Việt Nam” là từ nào?
+   A. ベトナム
+   B. 日本（にほん）
+   C. 東京（とうきょう）
+   D. 大阪（おおさか）
+
+3. “Nhật Bản” là từ nào?
+   A. 日本（にほん）
+   B. ベトナム
+   C. 東京（とうきょう）
+   D. 大阪（おおさか）
+
+4. “Tokyo” là từ nào?
+   A. 東京（とうきょう）
+   B. 大阪（おおさか）
+   C. 日本（にほん）
+   D. ベトナム
+
+5. “Osaka” là từ nào?
+   A. 大阪（おおさか）
+   B. 東京（とうきょう）
+   C. ベトナム
+   D. 日本（にほん）
+
+6. “uống một ly nhé” là câu nào?
+   A. いっぱい飲みましょう（いっぱいのみましょう）
+   B. どうぞお元気で（どうぞおげんきで）
+   C. いろいろお世話になりました（いろいろおせわになりました）
+   D. がんばります
+
+7. “cảm ơn vì đã giúp đỡ nhiều” là câu nào?
+   A. いろいろお世話になりました（いろいろおせわになりました）
+   B. いっぱい飲みましょう（いっぱいのみましょう）
+   C. どうぞお元気で（どうぞおげんきで）
+   D. もし チャンスが あります
+
+8. “chúc mạnh khỏe” là câu nào?
+   A. どうぞお元気で（どうぞおげんきで）
+   B. いっぱい飲みましょう（いっぱいのみましょう）
+   C. いろいろお世話になりました（いろいろおせわになりました）
+   D. 東京（とうきょう）に 着きます（つきます）
+
+9. “dù bao nhiêu / bao nhiêu tiền” là từ nào?
+   A. いくら
+   B. もし
+   C. 億（おく）
+   D. チャンス
+
+10. “nếu có cơ hội” là cụm nào?
+    A. もし チャンスが あります
+    B. いくら 足ります
+    C. 田舎（いなか）に 着きます
+    D. 億（おく）を 取ります
+
+---
+
+## Block 5: Điền vào câu
+
+1. よく＿＿＿。
+   A. 考えます（かんがえます）
+   B. 着きます（つきます）
+   C. 転勤（てんきん）
+   D. 億（おく）
+
+2. 駅（えき）に＿＿＿。
+   A. 着きます（つきます）
+   B. 考えます（かんがえます）
+   C. 足ります（たります）
+   D. がんばります
+
+3. 年（とし）を＿＿＿。
+   A. 取ります（とります）
+   B. 足ります（たります）
+   C. 着きます（つきます）
+   D. 転勤（てんきん）
+
+4. お金（おかね）が＿＿＿。
+   A. 足ります（たります）
+   B. 取ります（とります）
+   C. 着きます（つきます）
+   D. こと
+
+5. これは 大切（たいせつ）な＿＿＿です。
+   A. こと
+   B. もし
+   C. チャンス
+   D. 億（おく）
+
+6. ＿＿＿ 時間（じかん）が あります。
+   A. もし
+   B. いくら
+   C. こと
+   D. 田舎（いなか）
+
+7. これは いい＿＿＿です。
+   A. チャンス
+   B. 田舎（いなか）
+   C. 億（おく）
+   D. いくら
+
+8. あしたも＿＿＿。
+   A. がんばります
+   B. 転勤（てんきん）
+   C. こと
+   D. 億（おく）
+
+9. 来月（らいげつ）、大阪（おおさか）へ＿＿＿します。
+   A. 転勤（てんきん）
+   B. 田舎（いなか）
+   C. チャンス
+   D. 億（おく）
+
+10. 私（わたし）の＿＿＿は 静か（しずか）です。
+    A. 田舎（いなか）
+    B. 億（おく）
+    C. チャンス
+    D. こと
+
+---
+
+## Block 6: Điền vào câu / địa danh và hội thoại
+
+1. 私（わたし）は＿＿＿から 来ました（きました）。
+   A. ベトナム
+   B. 億（おく）
+   C. こと
+   D. チャンス
+
+2. 来週（らいしゅう）、＿＿＿へ 行きます（いきます）。
+   A. 日本（にほん）
+   B. こと
+   C. もし
+   D. 足ります（たります）
+
+3. 新幹線（しんかんせん）は＿＿＿に 着きます（つきます）。
+   A. 東京（とうきょう）
+   B. 億（おく）
+   C. チャンス
+   D. いくら
+
+4. 友達（ともだち）は＿＿＿に 住んでいます（すんでいます）。
+   A. 大阪（おおさか）
+   B. もし
+   C. こと
+   D. 足ります（たります）
+
+5. ＿＿＿、もう 一杯（いっぱい） 飲みましょう（のみましょう）。
+   A. じゃ
+   B. 億（おく）
+   C. 田舎（いなか）
+   D. 転勤（てんきん）
+
+6. A: 来月（らいげつ）、転勤（てんきん）します。B: ＿＿＿。
+   A. どうぞお元気で（どうぞおげんきで）
+   B. いくらですか
+   C. 足ります（たります）
+   D. 億（おく）です
+
+7. A: いろいろ ありがとうございました。B: ＿＿＿。
+   A. どうぞお元気で（どうぞおげんきで）
+   B. 年（とし）を 取ります（とります）
+   C. 田舎（いなか）です
+   D. 東京（とうきょう）に 着きます（つきます）
+
+8. ＿＿＿お世話になりました（おせわになりました）。
+   A. いろいろ
+   B. もし
+   C. いくら
+   D. 億（おく）
+
+9. ＿＿＿ チャンスが あります。
+   A. もし
+   B. こと
+   C. 億（おく）
+   D. 田舎（いなか）
+
+10. いくら 考えて（かんがえて）も、＿＿＿。
+    A. わかりません
+    B. 着きます（つきます）
+    C. 転勤（てんきん）します
+    D. 飲みましょう（のみましょう）
+
+---
+
+## Block 7: Đọc kanji
+
+1. 考えます đọc là gì?
+   A. かんがえます
+   B. おもいます
+   C. ききます
+   D. いいます
+
+2. 着きます đọc là gì?
+   A. つきます
+   B. きます
+   C. はきます
+   D. つけます
+
+3. 取ります đọc là gì?
+   A. とります
+   B. たります
+   C. とまります
+   D. つきます
+
+4. 足ります đọc là gì?
+   A. たります
+   B. とります
+   C. あしります
+   D. あります
+
+5. 転勤 đọc là gì?
+   A. てんきん
+   B. てんき
+   C. でんきん
+   D. てんぎん
+
+6. 田舎 đọc là gì?
+   A. いなか
+   B. たなか
+   C. でんしゃ
+   D. いえなか
+
+7. 億 đọc là gì?
+   A. おく
+   B. まん
+   C. せん
+   D. ひゃく
+
+8. 日本 đọc là gì?
+   A. にほん
+   B. にちほん
+   C. ひほん
+   D. にっほん
+
+9. 東京 đọc là gì?
+   A. とうきょう
+   B. ときょう
+   C. とうきょ
+   D. とうけい
+
+10. 大阪 đọc là gì?
+    A. おおさか
+    B. おさか
+    C. だいさか
+    D. おおざか
+
+---
+
+## Block 8: Đọc kanji / câu giao tiếp
+
+1. 飲みましょう đọc là gì?
+   A. のみましょう
+   B. たべましょう
+   C. よみましょう
+   D. かきましょう
+
+2. お世話になりました đọc là gì?
+   A. おせわになりました
+   B. おせいわになりました
+   C. おせわにありました
+   D. おせわしました
+
+3. お元気で đọc là gì?
+   A. おげんきで
+   B. おげんぎで
+   C. おけんきで
+   D. おげんきです
+
+4. 一杯 đọc là gì?
+   A. いっぱい
+   B. いちはい
+   C. ひとはい
+   D. いっはい
+
+5. 来月 đọc là gì?
+   A. らいげつ
+   B. こんげつ
+   C. せんげつ
+   D. らいねん
+
+6. 駅 đọc là gì?
+   A. えき
+   B. いき
+   C. えぎ
+   D. うき
+
+7. 年 đọc là gì?
+   A. とし
+   B. ねん
+   C. どし
+   D. なん
+
+8. お金 đọc là gì?
+   A. おかね
+   B. おきん
+   C. おがね
+   D. かね
+
+9. 時間 đọc là gì?
+   A. じかん
+   B. じけん
+   C. ときかん
+   D. しがん
+
+10. 新幹線 đọc là gì?
+    A. しんかんせん
+    B. しんがんせん
+    C. しんかんぜん
+    D. しんせん
+
+---
+
+## Block 9: Chọn kanji đúng
+
+1. “suy nghĩ” viết bằng kanji nào?
+   A. 考えます
+   B. 思います
+   C. 言います
+   D. 聞きます
+
+2. “đến / tới” viết bằng kanji nào?
+   A. 着きます
+   B. 来ます
+   C. 行きます
+   D. 帰ります
+
+3. “có tuổi / lấy” viết bằng kanji nào?
+   A. 取ります
+   B. 足ります
+   C. 撮ります
+   D. 鳥ます
+
+4. “đủ” viết bằng kanji nào?
+   A. 足ります
+   B. 取ります
+   C. あります
+   D. 要ります
+
+5. “chuyển công tác” viết bằng kanji nào?
+   A. 転勤
+   B. 転校
+   C. 引っ越し
+   D. 出張
+
+6. “quê / nông thôn” viết bằng kanji nào?
+   A. 田舎
+   B. 都会
+   C. 町
+   D. 国
+
+7. “một trăm triệu” viết bằng kanji nào?
+   A. 億
+   B. 万
+   C. 千
+   D. 百
+
+8. “Nhật Bản” viết bằng kanji nào?
+   A. 日本
+   B. 中国
+   C. 韓国
+   D. 米国
+
+9. “Tokyo” viết bằng kanji nào?
+   A. 東京
+   B. 大阪
+   C. 京都
+   D. 神戸
+
+10. “Osaka” viết bằng kanji nào?
+    A. 大阪
+    B. 東京
+    C. 京都
+    D. 神戸
+
+---
+
+## Block 10: Chọn kanji đúng / câu
+
+1. “uống” viết bằng kanji nào?
+   A. 飲みます
+   B. 食べます
+   C. 読みます
+   D. 書きます
+
+2. “giúp đỡ / chăm sóc” trong お世話 viết bằng kanji nào?
+   A. 世話
+   B. 世界
+   C. 話
+   D. 説明
+
+3. “khỏe / năng động” trong お元気で viết bằng kanji nào?
+   A. 元気
+   B. 電気
+   C. 天気
+   D. 人気
+
+4. “một ly” viết bằng kanji nào?
+   A. 一杯
+   B. 一回
+   C. 一枚
+   D. 一人
+
+5. “tháng sau” viết bằng kanji nào?
+   A. 来月
+   B. 今月
+   C. 先月
+   D. 来年
+
+6. “ga” viết bằng kanji nào?
+   A. 駅
+   B. 道
+   C. 橋
+   D. 車
+
+7. “tuổi / năm” viết bằng kanji nào?
+   A. 年
+   B. 月
+   C. 日
+   D. 時
+
+8. “tiền” viết bằng kanji nào?
+   A. お金
+   B. お茶
+   C. お水
+   D. お酒
+
+9. “thời gian” viết bằng kanji nào?
+   A. 時間
+   B. 時計
+   C. 時
+   D. 間
+
+10. “tàu Shinkansen” viết bằng kanji nào?
+    A. 新幹線
+    B. 電車
+    C. 地下鉄
+    D. 飛行機
+
+---
+
+## Block 11: Chọn từ cùng nhóm chủ đề
+
+1. Từ nào thuộc nhóm “suy nghĩ”?
+   A. 考えます（かんがえます）
+   B. 着きます（つきます）
+   C. 億（おく）
+   D. ベトナム
+
+2. Từ nào thuộc nhóm “đến nơi”?
+   A. 着きます（つきます）
+   B. 足ります（たります）
+   C. チャンス
+   D. 田舎（いなか）
+
+3. Từ nào thuộc nhóm “số lượng lớn”?
+   A. 億（おく）
+   B. こと
+   C. もし
+   D. 東京（とうきょう）
+
+4. Từ nào thuộc nhóm “địa danh / quốc gia”?
+   A. ベトナム
+   B. チャンス
+   C. こと
+   D. 億（おく）
+
+5. Từ nào thuộc nhóm “thành phố Nhật Bản”?
+   A. 大阪（おおさか）
+   B. ベトナム
+   C. 日本（にほん）
+   D. チャンス
+
+6. Từ nào thuộc nhóm “điều kiện”?
+   A. もし
+   B. いくら
+   C. チャンス
+   D. 田舎（いなか）
+
+7. Từ nào thuộc nhóm “cơ hội”?
+   A. チャンス
+   B. こと
+   C. 億（おく）
+   D. 東京（とうきょう）
+
+8. Từ nào thuộc nhóm “chia tay / chúc sức khỏe”?
+   A. どうぞお元気で（どうぞおげんきで）
+   B. 着きます（つきます）
+   C. 足ります（たります）
+   D. 億（おく）
+
+9. Từ nào thuộc nhóm “cảm ơn khi chia tay”?
+   A. いろいろお世話になりました（いろいろおせわになりました）
+   B. いっぱい飲みましょう（いっぱいのみましょう）
+   C. チャンス
+   D. 田舎（いなか）
+
+10. Từ nào thuộc nhóm “rủ uống”?
+    A. いっぱい飲みましょう（いっぱいのみましょう）
+    B. どうぞお元気で（どうぞおげんきで）
+    C. 転勤（てんきん）
+    D. こと
+
+---
+
+## Block 12: Phân biệt từ dễ nhầm
+
+1. 考えます（かんがえます） và 思います（おもいます） khác nhau thế nào?
+   A. 考えます là suy nghĩ; 思います là nghĩ/cảm thấy
+   B. 考えます là đến; 思います là suy nghĩ sâu
+   C. Cả hai đều là chuyển công tác
+   D. Cả hai đều là đủ
+
+2. 着きます（つきます） và 来ます（きます） khác nhau thế nào?
+   A. 着きます là đến nơi; 来ます là đến
+   B. 着きます là mặc; 来ます là đến nơi
+   C. Cả hai đều là uống
+   D. Cả hai đều là đủ
+
+3. 取ります（とります） và 足ります（たります） khác nhau thế nào?
+   A. 取ります là lấy/có tuổi; 足ります là đủ
+   B. 取ります là đủ; 足ります là lấy
+   C. Cả hai đều là cơ hội
+   D. Cả hai đều là chuyển công tác
+
+4. こと và チャンス khác nhau thế nào?
+   A. こと là việc/chuyện; チャンス là cơ hội
+   B. こと là cơ hội; チャンス là việc/chuyện
+   C. Cả hai đều là quê
+   D. Cả hai đều là Nhật Bản
+
+5. もし và いくら khác nhau thế nào?
+   A. もし là nếu như; いくら là dù bao nhiêu / bao nhiêu tiền
+   B. もし là bao nhiêu tiền; いくら là nếu như
+   C. Cả hai đều là cơ hội
+   D. Cả hai đều là chuyển công tác
+
+6. 田舎（いなか） và 東京（とうきょう） khác nhau thế nào?
+   A. 田舎 là quê/nông thôn; 東京 là Tokyo
+   B. 田舎 là Tokyo; 東京 là quê
+   C. Cả hai đều là Việt Nam
+   D. Cả hai đều là cơ hội
+
+7. 日本（にほん） và ベトナム khác nhau thế nào?
+   A. 日本 là Nhật Bản; ベトナム là Việt Nam
+   B. 日本 là Việt Nam; ベトナム là Nhật Bản
+   C. Cả hai đều là thành phố
+   D. Cả hai đều là Osaka
+
+8. 東京（とうきょう） và 大阪（おおさか） khác nhau thế nào?
+   A. 東京 là Tokyo; 大阪 là Osaka
+   B. 東京 là Osaka; 大阪 là Tokyo
+   C. Cả hai đều là quốc gia
+   D. Cả hai đều là nông thôn
+
+9. 転勤（てんきん） và 出張（しゅっちょう） khác nhau thế nào?
+   A. 転勤 là chuyển công tác; 出張 là đi công tác
+   B. 転勤 là đi công tác ngắn ngày; 出張 là chuyển nơi làm
+   C. Cả hai đều là quê
+   D. Cả hai đều là cơ hội
+
+10. いろいろお世話になりました và どうぞお元気で khác nhau thế nào?
+    A. Câu đầu là cảm ơn vì được giúp đỡ; câu sau là chúc mạnh khỏe
+    B. Câu đầu là chúc mạnh khỏe; câu sau là rủ uống
+    C. Cả hai đều là “uống một ly nhé”
+    D. Cả hai đều là “nếu có cơ hội”
+
+---
+
+## Block 13: Chọn trợ từ / cụm phù hợp
+
+1. よく＿＿＿。
+   A. 考えます（かんがえます）
+   B. 着きます（つきます）
+   C. 田舎（いなか）
+   D. 億（おく）
+
+2. 東京（とうきょう）＿＿＿ 着きます（つきます）。
+   A. に
+   B. を
+   C. で
+   D. が
+
+3. 年（とし）＿＿＿ 取ります（とります）。
+   A. を
+   B. に
+   C. で
+   D. が
+
+4. お金（おかね）＿＿＿ 足ります（たります）。
+   A. が
+   B. を
+   C. に
+   D. で
+
+5. もし チャンス＿＿＿ あります。
+   A. が
+   B. を
+   C. に
+   D. で
+
+6. いくら 考えて（かんがえて）＿＿＿ わかりません。
+   A. も
+   B. を
+   C. に
+   D. で
+
+7. 大阪（おおさか）＿＿＿ 転勤（てんきん）します。
+   A. へ
+   B. を
+   C. で
+   D. が
+
+8. ベトナム＿＿＿ 来ました（きました）。
+   A. から
+   B. まで
+   C. を
+   D. が
+
+9. 田舎（いなか）＿＿＿ 帰ります（かえります）。
+   A. へ
+   B. を
+   C. で
+   D. が
+
+10. いっぱい 飲み（のみ）＿＿＿。
+    A. ましょう
+    B. ますか
+    C. ました
+    D. ません
+
+---
+
+## Block 14: Chọn trợ từ / cụm phù hợp / câu ngắn
+
+1. これは 大切（たいせつ）な＿＿＿です。
+   A. こと
+   B. もし
+   C. いくら
+   D. 億（おく）
+
+2. ＿＿＿ 東京（とうきょう）へ 行きます（いきます）か。
+   A. いつ
+   B. 億（おく）
+   C. こと
+   D. チャンス
+
+3. ＿＿＿ ですか。
+   A. いくら
+   B. もし
+   C. こと
+   D. 転勤（てんきん）
+
+4. 田舎（いなか）は 静か（しずか）＿＿＿。
+   A. です
+   B. ます
+   C. ください
+   D. でしたか
+
+5. 日本（にほん）＿＿＿ ベトナム、どちらが すきですか。
+   A. と
+   B. を
+   C. に
+   D. で
+
+6. 東京（とうきょう）は 日本（にほん）＿＿＿ あります。
+   A. に
+   B. を
+   C. で
+   D. が
+
+7. 大阪（おおさか）＿＿＿ 友達（ともだち）が います。
+   A. に
+   B. を
+   C. で
+   D. が
+
+8. いろいろ お世話（おせわ）＿＿＿ なりました。
+   A. に
+   B. を
+   C. で
+   D. が
+
+9. どうぞ お元気（おげんき）＿＿＿。
+   A. で
+   B. に
+   C. を
+   D. が
+
+10. 来月（らいげつ） 転勤（てんきん）します。＿＿＿、どうぞお元気で。
+    A. じゃ
+    B. もし
+    C. いくら
+    D. 億（おく）

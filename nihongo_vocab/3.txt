@@ -1,0 +1,893 @@
+## Block 1: Địa điểm / phương hướng
+
+1. ここ nghĩa là gì?
+   A. chỗ đó / ở đó
+   B. chỗ này / ở đây
+   C. chỗ kia / ở kia
+   D. ở đâu
+
+2. そこ nghĩa là gì?
+   A. chỗ này / ở đây
+   B. chỗ đó / ở đó
+   C. chỗ kia / ở kia
+   D. phía nào
+
+3. あそこ nghĩa là gì?
+   A. chỗ kia / ở kia
+   B. chỗ này / ở đây
+   C. chỗ đó / ở đó
+   D. ở đâu
+
+4. どこ nghĩa là gì?
+   A. ở đây
+   B. ở đó
+   C. ở kia
+   D. ở đâu
+
+5. こちら nghĩa là gì?
+   A. phía này / đây
+   B. phía đó / đó
+   C. phía kia / kia
+   D. phía nào
+
+6. そちら nghĩa là gì?
+   A. phía này / đây
+   B. phía đó / đó
+   C. phía kia / kia
+   D. ở đâu
+
+7. あちら nghĩa là gì?
+   A. phía này / đây
+   B. phía đó / đó
+   C. phía kia / kia
+   D. chỗ này
+
+8. どちら nghĩa là gì?
+   A. phía nào / ở đâu
+   B. chỗ này
+   C. chỗ đó
+   D. chỗ kia
+
+9. ここは どこですか。 nghĩa là gì?
+   A. Chỗ này là ở đâu?
+   B. Chỗ đó là ở đâu?
+   C. Chỗ kia là ở đâu?
+   D. Đây là ai?
+
+10. こちらは じむしょです。 nghĩa là gì?
+    A. Đây là văn phòng.
+    B. Đó là phòng họp.
+    C. Kia là nhà ăn.
+    D. Đây là cầu thang.
+
+---
+
+## Block 2: Phòng / khu vực trong tòa nhà
+
+1. きょうしつ nghĩa là gì?
+   A. lớp học / phòng học
+   B. phòng họp
+   C. văn phòng
+   D. nhà ăn
+
+2. しょくどう nghĩa là gì?
+   A. nhà ăn
+   B. văn phòng
+   C. sảnh
+   D. quầy tiếp tân
+
+3. じむしょ nghĩa là gì?
+   A. văn phòng
+   B. phòng học
+   C. nhà vệ sinh
+   D. cầu thang
+
+4. かいぎしつ nghĩa là gì?
+   A. phòng họp
+   B. văn phòng
+   C. nhà ăn
+   D. sảnh
+
+5. うけつけ nghĩa là gì?
+   A. quầy tiếp tân
+   B. phòng họp
+   C. tầng hầm
+   D. nhà vệ sinh
+
+6. ロビー nghĩa là gì?
+   A. sảnh
+   B. phòng
+   C. công ty
+   D. quầy bán hàng
+
+7. へや nghĩa là gì?
+   A. phòng
+   B. sảnh
+   C. nhà ăn
+   D. tầng hầm
+
+8. トイレ nghĩa là gì?
+   A. nhà vệ sinh
+   B. cầu thang
+   C. thang máy
+   D. thang cuốn
+
+9. おてあらい nghĩa là gì?
+   A. nhà vệ sinh
+   B. văn phòng
+   C. phòng học
+   D. sảnh
+
+10. かいだん nghĩa là gì?
+    A. cầu thang
+    B. thang máy
+    C. thang cuốn
+    D. tầng hầm
+
+---
+
+## Block 3: Phương tiện trong tòa nhà / nơi chốn
+
+1. エレベーター nghĩa là gì?
+   A. thang máy
+   B. thang cuốn
+   C. cầu thang
+   D. tầng hầm
+
+2. エスカレーター nghĩa là gì?
+   A. thang cuốn
+   B. thang máy
+   C. cầu thang
+   D. phòng họp
+
+3. 国（くに） nghĩa là gì?
+   A. nước / quốc gia
+   B. công ty
+   C. nhà
+   D. phòng
+
+4. かいしゃ nghĩa là gì?
+   A. công ty
+   B. nhà
+   C. văn phòng
+   D. phòng họp
+
+5. うち nghĩa là gì?
+   A. nhà
+   B. công ty
+   C. quốc gia
+   D. phòng học
+
+6. でんわ nghĩa là gì?
+   A. điện thoại
+   B. thang máy
+   C. giày
+   D. cà vạt
+
+7. うりば nghĩa là gì?
+   A. quầy bán hàng
+   B. quầy tiếp tân
+   C. văn phòng
+   D. nhà ăn
+
+8. ちか nghĩa là gì?
+   A. tầng hầm
+   B. tầng mấy
+   C. cầu thang
+   D. phòng
+
+9. ここは 会社（かいしゃ）です。 nghĩa là gì?
+   A. Đây là công ty.
+   B. Đây là nhà.
+   C. Đây là quốc gia.
+   D. Đây là nhà ăn.
+
+10. あそこは うけつけです。 nghĩa là gì?
+    A. Kia là quầy tiếp tân.
+    B. Đó là phòng học.
+    C. Đây là văn phòng.
+    D. Kia là nhà vệ sinh.
+
+---
+
+## Block 4: Đồ vật / mua sắm
+
+1. くつ nghĩa là gì?
+   A. giày
+   B. cà vạt
+   C. rượu vang
+   D. thuốc lá
+
+2. ネクタイ nghĩa là gì?
+   A. cà vạt
+   B. giày
+   C. điện thoại
+   D. quầy bán hàng
+
+3. ワイン nghĩa là gì?
+   A. rượu vang
+   B. thuốc lá
+   C. cà vạt
+   D. điện thoại
+
+4. たばこ nghĩa là gì?
+   A. thuốc lá
+   B. rượu vang
+   C. giày
+   D. cà vạt
+
+5. 〜かい nghĩa là gì?
+   A. tầng ...
+   B. ... yên
+   C. tầng mấy
+   D. bao nhiêu tiền
+
+6. なんがい nghĩa là gì?
+   A. tầng mấy
+   B. bao nhiêu tiền
+   C. tầng hầm
+   D. quầy bán hàng
+
+7. 〜えん nghĩa là gì?
+   A. ... yên
+   B. tầng ...
+   C. một trăm
+   D. một nghìn
+
+8. いくら nghĩa là gì?
+   A. bao nhiêu tiền
+   B. tầng mấy
+   C. ở đâu
+   D. phía nào
+
+9. ひゃく nghĩa là gì?
+   A. một trăm
+   B. một nghìn
+   C. mười nghìn
+   D. bao nhiêu tiền
+
+10. せん nghĩa là gì?
+    A. một nghìn
+    B. một trăm
+    C. mười nghìn
+    D. ... yên
+
+---
+
+## Block 5: Số tiền / câu giao tiếp
+
+1. まん nghĩa là gì?
+   A. mười nghìn
+   B. một nghìn
+   C. một trăm
+   D. bao nhiêu tiền
+
+2. すみません nghĩa là gì?
+   A. xin lỗi / làm phiền
+   B. kính chào quý khách
+   C. xin cho xem
+   D. cho tôi cái này
+
+3. どうも nghĩa là gì?
+   A. cảm ơn / rất
+   B. xin lỗi
+   C. vậy thì
+   D. bao nhiêu tiền
+
+4. どうも すみません nghĩa là gì?
+   A. rất xin lỗi / cảm ơn
+   B. kính chào quý khách
+   C. xin cho xem
+   D. vậy thì
+
+5. いらっしゃいませ nghĩa là gì?
+   A. kính chào quý khách
+   B. xin lỗi / làm phiền
+   C. cảm ơn / rất
+   D. cho tôi cái này
+
+6. みせてください nghĩa là gì?
+   A. xin cho xem
+   B. xin mời
+   C. bao nhiêu tiền
+   D. ở đâu
+
+7. じゃ nghĩa là gì?
+   A. vậy thì
+   B. xin lỗi
+   C. cảm ơn
+   D. ở đây
+
+8. これを ください nghĩa là gì?
+   A. cho tôi cái này
+   B. xin cho xem
+   C. kính chào quý khách
+   D. bao nhiêu tiền
+
+9. すみません、これは いくらですか。 nghĩa là gì?
+   A. Xin lỗi, cái này bao nhiêu tiền?
+   B. Xin lỗi, đây là tầng mấy?
+   C. Xin cho xem cái này.
+   D. Đây là quầy bán hàng.
+
+10. じゃ、これを ください。 nghĩa là gì?
+    A. Vậy thì, cho tôi cái này.
+    B. Xin lỗi, cái này ở đâu?
+    C. Cảm ơn rất nhiều.
+    D. Kính chào quý khách.
+
+---
+
+## Block 6: Việt → Nhật
+
+1. “chỗ này / ở đây” là từ nào?
+   A. ここ
+   B. そこ
+   C. あそこ
+   D. どこ
+
+2. “chỗ đó / ở đó” là từ nào?
+   A. そこ
+   B. ここ
+   C. あそこ
+   D. どちら
+
+3. “chỗ kia / ở kia” là từ nào?
+   A. あそこ
+   B. ここ
+   C. そこ
+   D. こちら
+
+4. “ở đâu” là từ nào?
+   A. どこ
+   B. ここ
+   C. そこ
+   D. あそこ
+
+5. “phía này / đây” là từ nào?
+   A. こちら
+   B. そちら
+   C. あちら
+   D. どちら
+
+6. “phía đó / đó” là từ nào?
+   A. そちら
+   B. こちら
+   C. あちら
+   D. どこ
+
+7. “phía kia / kia” là từ nào?
+   A. あちら
+   B. こちら
+   C. そちら
+   D. ここ
+
+8. “phía nào / ở đâu” là từ nào?
+   A. どちら
+   B. どこ
+   C. こちら
+   D. そこ
+
+9. “lớp học / phòng học” là từ nào?
+   A. きょうしつ
+   B. しょくどう
+   C. じむしょ
+   D. かいぎしつ
+
+10. “nhà ăn” là từ nào?
+    A. しょくどう
+    B. きょうしつ
+    C. うけつけ
+    D. ロビー
+
+---
+
+## Block 7: Việt → Nhật / địa điểm trong tòa nhà
+
+1. “văn phòng” là từ nào?
+   A. じむしょ
+   B. かいぎしつ
+   C. きょうしつ
+   D. しょくどう
+
+2. “phòng họp” là từ nào?
+   A. かいぎしつ
+   B. じむしょ
+   C. ロビー
+   D. へや
+
+3. “quầy tiếp tân” là từ nào?
+   A. うけつけ
+   B. うりば
+   C. しょくどう
+   D. かいだん
+
+4. “sảnh” là từ nào?
+   A. ロビー
+   B. へや
+   C. じむしょ
+   D. ちか
+
+5. “phòng” là từ nào?
+   A. へや
+   B. ロビー
+   C. しょくどう
+   D. かいしゃ
+
+6. “nhà vệ sinh” là từ nào?
+   A. トイレ
+   B. かいだん
+   C. エレベーター
+   D. エスカレーター
+
+7. “cầu thang” là từ nào?
+   A. かいだん
+   B. エレベーター
+   C. エスカレーター
+   D. ちか
+
+8. “thang máy” là từ nào?
+   A. エレベーター
+   B. エスカレーター
+   C. かいだん
+   D. うけつけ
+
+9. “thang cuốn” là từ nào?
+   A. エスカレーター
+   B. エレベーター
+   C. かいだん
+   D. ロビー
+
+10. “tầng hầm” là từ nào?
+    A. ちか
+    B. なんがい
+    C. 〜かい
+    D. うりば
+
+---
+
+## Block 8: Việt → Nhật / đồ vật và mua sắm
+
+1. “nước / quốc gia” là từ nào?
+   A. 国（くに）
+   B. かいしゃ
+   C. うち
+   D. へや
+
+2. “công ty” là từ nào?
+   A. かいしゃ
+   B. 国（くに）
+   C. じむしょ
+   D. かいぎしつ
+
+3. “nhà” là từ nào?
+   A. うち
+   B. かいしゃ
+   C. しょくどう
+   D. へや
+
+4. “điện thoại” là từ nào?
+   A. でんわ
+   B. くつ
+   C. ネクタイ
+   D. たばこ
+
+5. “giày” là từ nào?
+   A. くつ
+   B. ネクタイ
+   C. ワイン
+   D. でんわ
+
+6. “cà vạt” là từ nào?
+   A. ネクタイ
+   B. くつ
+   C. たばこ
+   D. ワイン
+
+7. “rượu vang” là từ nào?
+   A. ワイン
+   B. たばこ
+   C. でんわ
+   D. くつ
+
+8. “thuốc lá” là từ nào?
+   A. たばこ
+   B. ワイン
+   C. ネクタイ
+   D. くつ
+
+9. “quầy bán hàng” là từ nào?
+   A. うりば
+   B. うけつけ
+   C. ロビー
+   D. じむしょ
+
+10. “bao nhiêu tiền” là từ nào?
+    A. いくら
+    B. なんがい
+    C. どちら
+    D. どこ
+
+---
+
+## Block 9: Điền vào câu
+
+1. ここは＿＿＿です。
+   A. きょうしつ
+   B. いくら
+   C. じゃ
+   D. くつ
+
+2. そこは＿＿＿ですか。
+   A. じむしょ
+   B. どうも
+   C. まん
+   D. たばこ
+
+3. あそこは＿＿＿です。
+   A. しょくどう
+   B. すみません
+   C. これを ください
+   D. いくら
+
+4. トイレは＿＿＿ですか。
+   A. どこ
+   B. ここ
+   C. そこ
+   D. あそこ
+
+5. うけつけは＿＿＿です。
+   A. こちら
+   B. いくら
+   C. くつ
+   D. ひゃく
+
+6. くつの うりばは＿＿＿ですか。
+   A. どちら
+   B. どうも
+   C. せん
+   D. ワイン
+
+7. これは＿＿＿ですか。
+   A. いくら
+   B. どこ
+   C. こちら
+   D. あちら
+
+8. すみません。これを＿＿＿。
+   A. ください
+   B. どこ
+   C. かい
+   D. ひゃく
+
+9. すみません、ネクタイを＿＿＿。
+   A. みせてください
+   B. いらっしゃいませ
+   C. じゃ
+   D. どうも
+
+10. じゃ、＿＿＿を ください。
+    A. これ
+    B. どこ
+    C. なんがい
+    D. こちら
+
+---
+
+## Block 10: Đọc kanji
+
+1. 国 đọc là gì?
+   A. くに
+   B. こく
+   C. ぐに
+   D. こう
+
+2. 会社 đọc là gì?
+   A. かいしゃ
+   B. かいぎ
+   C. しゃかい
+   D. かしゃ
+
+3. 電話 đọc là gì?
+   A. でんわ
+   B. でんき
+   C. てんわ
+   D. でわ
+
+4. 円 đọc là gì?
+   A. えん
+   B. まん
+   C. せん
+   D. ひゃく
+
+5. 百 đọc là gì?
+   A. ひゃく
+   B. びゃく
+   C. せん
+   D. まん
+
+6. 千 đọc là gì?
+   A. せん
+   B. ひゃく
+   C. まん
+   D. えん
+
+7. 万 đọc là gì?
+   A. まん
+   B. せん
+   C. ひゃく
+   D. なん
+
+8. 何階 đọc là gì?
+   A. なんがい
+   B. なにかい
+   C. なんかい
+   D. どこかい
+
+9. 地下 đọc là gì?
+   A. ちか
+   B. じか
+   C. した
+   D. じげ
+
+10. 手洗い đọc là gì?
+    A. おてあらい
+    B. てあらい
+    C. おてらい
+    D. おあらい
+
+---
+
+## Block 11: Chọn kanji đúng
+
+1. “nước / quốc gia” là kanji nào?
+   A. 国
+   B. 円
+   C. 会
+   D. 社
+
+2. “công ty” viết bằng kanji nào?
+   A. 会社
+   B. 社会
+   C. 電話
+   D. 地下
+
+3. “điện thoại” viết bằng kanji nào?
+   A. 電話
+   B. 電気
+   C. 会社
+   D. 国
+
+4. “yên” viết bằng kanji nào?
+   A. 円
+   B. 百
+   C. 千
+   D. 万
+
+5. “một trăm” viết bằng kanji nào?
+   A. 百
+   B. 千
+   C. 万
+   D. 円
+
+6. “một nghìn” viết bằng kanji nào?
+   A. 千
+   B. 百
+   C. 万
+   D. 円
+
+7. “mười nghìn” viết bằng kanji nào?
+   A. 万
+   B. 千
+   C. 百
+   D. 円
+
+8. “tầng hầm” viết bằng kanji nào?
+   A. 地下
+   B. 会社
+   C. 電話
+   D. 国
+
+9. “tầng mấy” viết bằng kanji nào?
+   A. 何階
+   B. 何円
+   C. 何国
+   D. 何社
+
+10. “nhà vệ sinh” có thể viết bằng kanji nào?
+    A. お手洗い
+    B. お電話
+    C. お会社
+    D. お国
+
+---
+
+## Block 12: Chọn từ cùng nhóm chủ đề
+
+1. Từ nào thuộc nhóm “địa điểm trong trường / tòa nhà”?
+   A. きょうしつ
+   B. くつ
+   C. ワイン
+   D. ひゃく
+
+2. Từ nào thuộc nhóm “phương hướng / nơi chốn”?
+   A. ここ
+   B. でんわ
+   C. ネクタイ
+   D. まん
+
+3. Từ nào thuộc nhóm “thiết bị di chuyển trong tòa nhà”?
+   A. エレベーター
+   B. うけつけ
+   C. かいしゃ
+   D. くつ
+
+4. Từ nào thuộc nhóm “mua sắm”?
+   A. うりば
+   B. きょうしつ
+   C. じむしょ
+   D. へや
+
+5. Từ nào thuộc nhóm “số tiền”?
+   A. 〜えん
+   B. どこ
+   C. こちら
+   D. トイレ
+
+6. Từ nào thuộc nhóm “đồ vật mặc / dùng cá nhân”?
+   A. ネクタイ
+   B. かいだん
+   C. ロビー
+   D. ちか
+
+7. Từ nào thuộc nhóm “câu cửa hàng”?
+   A. いらっしゃいませ
+   B. かいぎしつ
+   C. くに
+   D. うち
+
+8. Từ nào thuộc nhóm “hỏi giá”?
+   A. いくら
+   B. どこ
+   C. どちら
+   D. なんがい
+
+9. Từ nào thuộc nhóm “tầng”?
+   A. なんがい
+   B. いくら
+   C. どうも
+   D. じゃ
+
+10. Từ nào thuộc nhóm “lời xin lỗi / cảm ơn”?
+    A. どうも すみません
+    B. エスカレーター
+    C. うりば
+    D. ワイン
+
+---
+
+## Block 13: Phân biệt từ dễ nhầm
+
+1. ここ・そこ・あそこ khác nhau thế nào?
+   A. ここ: ở đây, そこ: ở đó, あそこ: ở kia
+   B. ここ: ở kia, そこ: ở đây, あそこ: ở đó
+   C. ここ: ở đó, そこ: ở kia, あそこ: ở đây
+   D. Cả ba đều nghĩa là “ở đâu”
+
+2. どこ và どちら khác nhau thế nào?
+   A. どちら lịch sự hơn / cũng hỏi phía nào, ở đâu
+   B. どこ lịch sự hơn どちら
+   C. どちら chỉ hỏi giá tiền
+   D. どこ nghĩa là tầng mấy
+
+3. こちら・そちら・あちら khác nhau thế nào?
+   A. こちら: phía này, そちら: phía đó, あちら: phía kia
+   B. こちら: phía kia, そちら: phía này, あちら: phía đó
+   C. こちら: ở đâu, そちら: tầng mấy, あちら: bao nhiêu tiền
+   D. Cả ba đều chỉ đồ vật
+
+4. トイレ và おてあらい khác nhau thế nào?
+   A. おてあらい lịch sự hơn トイレ
+   B. トイレ lịch sự hơn おてあらい
+   C. トイレ là thang máy; おてあらい là cầu thang
+   D. Cả hai đều nghĩa là phòng họp
+
+5. エレベーター và エスカレーター khác nhau thế nào?
+   A. エレベーター là thang máy; エスカレーター là thang cuốn
+   B. エレベーター là thang cuốn; エスカレーター là thang máy
+   C. Cả hai đều là cầu thang
+   D. Cả hai đều là tầng hầm
+
+6. うけつけ và うりば khác nhau thế nào?
+   A. うけつけ là quầy tiếp tân; うりば là quầy bán hàng
+   B. うけつけ là quầy bán hàng; うりば là quầy tiếp tân
+   C. Cả hai đều là nhà ăn
+   D. Cả hai đều là văn phòng
+
+7. なんがい và いくら khác nhau thế nào?
+   A. なんがい hỏi tầng mấy; いくら hỏi bao nhiêu tiền
+   B. なんがい hỏi tiền; いくら hỏi tầng
+   C. Cả hai đều hỏi địa điểm
+   D. Cả hai đều hỏi người
+
+8. ひゃく・せん・まん khác nhau thế nào?
+   A. ひゃく: 100, せん: 1.000, まん: 10.000
+   B. ひゃく: 1.000, せん: 100, まん: 10.000
+   C. ひゃく: 10.000, せん: 1.000, まん: 100
+   D. Cả ba đều nghĩa là yên
+
+9. すみません và どうも すみません khác nhau thế nào?
+   A. どうも すみません nhấn mạnh hơn すみません
+   B. すみません nhấn mạnh hơn どうも すみません
+   C. すみません nghĩa là kính chào quý khách
+   D. どうも すみません nghĩa là cho tôi cái này
+
+10. みせてください và これを ください khác nhau thế nào?
+    A. みせてください: xin cho xem; これを ください: cho tôi cái này
+    B. みせてください: cho tôi cái này; これを ください: xin cho xem
+    C. Cả hai đều nghĩa là xin lỗi
+    D. Cả hai đều hỏi giá tiền
+
+---
+
+## Block 14: Chọn trợ từ / cụm phù hợp
+
+1. ここ＿＿＿ きょうしつです。
+   A. は
+   B. を
+   C. に
+   D. で
+
+2. トイレ＿＿＿ どこですか。
+   A. は
+   B. を
+   C. に
+   D. で
+
+3. うけつけは こちら＿＿＿。
+   A. です
+   B. ます
+   C. を
+   D. に
+
+4. くつの うりばは なんがい＿＿＿。
+   A. ですか
+   B. ますか
+   C. でした
+   D. ません
+
+5. これは いくら＿＿＿。
+   A. ですか
+   B. ますか
+   C. ください
+   D. みせて
+
+6. すみません、これ＿＿＿ ください。
+   A. を
+   B. は
+   C. に
+   D. で
+
+7. ワイン＿＿＿ みせてください。
+   A. を
+   B. は
+   C. に
+   D. で
+
+8. ここは 会社（かいしゃ）＿＿＿。
+   A. です
+   B. ます
+   C. を
+   D. に
+
+9. これは 1000円（せんえん）＿＿＿。
+   A. です
+   B. ます
+   C. を
+   D. に
+
+10. じゃ、これ＿＿＿ ください。
+    A. を
+    B. は
+    C. に
+    D. で

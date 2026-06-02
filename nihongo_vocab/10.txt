@@ -1,0 +1,1277 @@
+## Block 1: Động vật / người
+
+1. あります nghĩa là gì?
+   A. có / ở
+   B. đi
+   C. đến
+   D. ăn
+
+2. います nghĩa là gì?
+   A. có / ở
+   B. mua
+   C. đọc
+   D. viết
+
+3. いろいろ nghĩa là gì?
+   A. nhiều loại / đa dạng
+   B. một chút
+   C. hoàn toàn không
+   D. rất
+
+4. おとこのひと nghĩa là gì?
+   A. người đàn ông
+   B. người phụ nữ
+   C. bé trai
+   D. bé gái
+
+5. おんなのひと nghĩa là gì?
+   A. người phụ nữ
+   B. người đàn ông
+   C. bé gái
+   D. bé trai
+
+6. おとこのこ nghĩa là gì?
+   A. bé trai
+   B. bé gái
+   C. người đàn ông
+   D. người phụ nữ
+
+7. おんなのこ nghĩa là gì?
+   A. bé gái
+   B. bé trai
+   C. người phụ nữ
+   D. người đàn ông
+
+8. 犬（いぬ） nghĩa là gì?
+   A. chó
+   B. mèo
+   C. gấu trúc
+   D. voi
+
+9. ねこ nghĩa là gì?
+   A. mèo
+   B. chó
+   C. voi
+   D. gấu trúc
+
+10. パンダ nghĩa là gì?
+    A. gấu trúc
+    B. voi
+    C. mèo
+    D. chó
+
+---
+
+## Block 2: Đồ vật trong nhà
+
+1. ぞう nghĩa là gì?
+   A. voi
+   B. gấu trúc
+   C. chó
+   D. mèo
+
+2. 木（き） nghĩa là gì?
+   A. cây
+   B. hộp
+   C. pin
+   D. công tắc
+
+3. もの nghĩa là gì?
+   A. đồ vật
+   B. cây
+   C. hộp
+   D. cửa
+
+4. でんち nghĩa là gì?
+   A. pin
+   B. công tắc
+   C. tủ lạnh
+   D. kệ
+
+5. はこ nghĩa là gì?
+   A. hộp
+   B. pin
+   C. giường
+   D. bàn
+
+6. スイッチ nghĩa là gì?
+   A. công tắc
+   B. pin
+   C. tủ lạnh
+   D. cửa sổ
+
+7. れいぞうこ nghĩa là gì?
+   A. tủ lạnh
+   B. kệ
+   C. giường
+   D. cửa
+
+8. テーブル nghĩa là gì?
+   A. bàn
+   B. giường
+   C. kệ
+   D. cửa sổ
+
+9. ベッド nghĩa là gì?
+   A. giường
+   B. bàn
+   C. kệ
+   D. tủ lạnh
+
+10. たな nghĩa là gì?
+    A. kệ
+    B. hộp
+    C. bàn
+    D. giường
+
+---
+
+## Block 3: Địa điểm / vật cố định
+
+1. ドア nghĩa là gì?
+   A. cửa
+   B. cửa sổ
+   C. hòm thư
+   D. tòa nhà
+
+2. まど nghĩa là gì?
+   A. cửa sổ
+   B. cửa
+   C. kệ
+   D. công tắc
+
+3. ポスト nghĩa là gì?
+   A. hòm thư
+   B. hiệu sách
+   C. quán cà phê
+   D. bến xe
+
+4. ビル nghĩa là gì?
+   A. tòa nhà
+   B. công viên
+   C. cửa hàng
+   D. nhà
+
+5. こうえん nghĩa là gì?
+   A. công viên
+   B. tòa nhà
+   C. trường học
+   D. công ty
+
+6. きっさてん nghĩa là gì?
+   A. quán cà phê
+   B. hiệu sách
+   C. cửa hàng
+   D. bến xe
+
+7. ほんや nghĩa là gì?
+   A. hiệu sách
+   B. quán cà phê
+   C. công viên
+   D. lớp học
+
+8. のりば nghĩa là gì?
+   A. bến / điểm lên xe
+   B. ga
+   C. cửa hàng
+   D. phòng
+
+9. けん nghĩa là gì?
+   A. tỉnh
+   B. thành phố
+   C. trường học
+   D. tòa nhà
+
+10. 駅（えき） nghĩa là gì?
+    A. ga
+    B. lớp học
+    C. nhà
+    D. công ty
+
+---
+
+## Block 4: Vị trí
+
+1. 上（うえ） nghĩa là gì?
+   A. trên
+   B. dưới
+   C. trước
+   D. sau
+
+2. 下（した） nghĩa là gì?
+   A. dưới
+   B. trên
+   C. bên phải
+   D. bên trái
+
+3. 前（まえ） nghĩa là gì?
+   A. trước
+   B. sau
+   C. gần
+   D. giữa
+
+4. うしろ nghĩa là gì?
+   A. sau
+   B. trước
+   C. bên ngoài
+   D. bên trong
+
+5. 右（みぎ） nghĩa là gì?
+   A. bên phải
+   B. bên trái
+   C. trên
+   D. dưới
+
+6. 左（ひだり） nghĩa là gì?
+   A. bên trái
+   B. bên phải
+   C. trước
+   D. sau
+
+7. 中（なか） nghĩa là gì?
+   A. bên trong
+   B. bên ngoài
+   C. gần
+   D. bên cạnh
+
+8. 外（そと） nghĩa là gì?
+   A. bên ngoài
+   B. bên trong
+   C. giữa
+   D. gần
+
+9. となり nghĩa là gì?
+   A. bên cạnh
+   B. gần
+   C. giữa
+   D. trên cùng
+
+10. 近く（ちかく） nghĩa là gì?
+    A. gần
+    B. bên cạnh
+    C. giữa
+    D. dưới cùng
+
+---
+
+## Block 5: Vị trí đặc biệt / nơi chốn
+
+1. あいだ nghĩa là gì?
+   A. giữa
+   B. gần
+   C. bên cạnh
+   D. phía sau
+
+2. いちばん 上（うえ） nghĩa là gì?
+   A. trên cùng
+   B. dưới cùng
+   C. trước nhất
+   D. sau cùng
+
+3. いちばん 下（した） nghĩa là gì?
+   A. dưới cùng
+   B. trên cùng
+   C. trước nhất
+   D. sau cùng
+
+4. いちばん 前（まえ） nghĩa là gì?
+   A. trước nhất
+   B. sau cùng
+   C. trên cùng
+   D. dưới cùng
+
+5. いちばん うしろ nghĩa là gì?
+   A. sau cùng
+   B. trước nhất
+   C. gần nhất
+   D. bên cạnh
+
+6. 教室（きょうしつ） nghĩa là gì?
+   A. lớp học
+   B. phòng
+   C. nhà
+   D. công ty
+
+7. へや nghĩa là gì?
+   A. phòng
+   B. lớp học
+   C. trường học
+   D. cửa hàng
+
+8. うち nghĩa là gì?
+   A. nhà
+   B. công ty
+   C. trường học
+   D. cửa hàng
+
+9. 会社（かいしゃ） nghĩa là gì?
+   A. công ty
+   B. nhà
+   C. trường học
+   D. ga
+
+10. 学校（がっこう） nghĩa là gì?
+    A. trường học
+    B. công ty
+    C. cửa hàng
+    D. phòng
+
+---
+
+## Block 6: Câu hỏi / mẫu liệt kê
+
+1. みせ nghĩa là gì?
+   A. cửa hàng
+   B. công viên
+   C. tòa nhà
+   D. nhà
+
+2. どこ nghĩa là gì?
+   A. ở đâu
+   B. cái gì
+   C. ai
+   D. khi nào
+
+3. なに nghĩa là gì?
+   A. cái gì
+   B. ai
+   C. ở đâu
+   D. bao nhiêu
+
+4. だれ nghĩa là gì?
+   A. ai
+   B. cái gì
+   C. ở đâu
+   D. khi nào
+
+5. 〜や 〜など nghĩa là gì?
+   A. ... và ..., v.v.
+   B. từ... đến...
+   C. vì... nên...
+   D. cái này / cái kia
+
+6. へやに ねこが います nghĩa là gì?
+   A. Trong phòng có mèo.
+   B. Trong phòng có bàn.
+   C. Trên bàn có mèo.
+   D. Ngoài phòng có chó.
+
+7. つくえの 上（うえ）に 本（ほん）が あります nghĩa là gì?
+   A. Trên bàn có sách.
+   B. Dưới bàn có sách.
+   C. Trong bàn có sách.
+   D. Bên cạnh bàn có sách.
+
+8. こうえんに 犬（いぬ）が います nghĩa là gì?
+   A. Ở công viên có chó.
+   B. Ở công viên có cây.
+   C. Ở công ty có mèo.
+   D. Ở trường có voi.
+
+9. はこの 中（なか）に でんちが あります nghĩa là gì?
+   A. Trong hộp có pin.
+   B. Trên hộp có pin.
+   C. Dưới hộp có công tắc.
+   D. Bên cạnh hộp có pin.
+
+10. ドアの 右（みぎ）に スイッチが あります nghĩa là gì?
+    A. Bên phải cửa có công tắc.
+    B. Bên trái cửa có pin.
+    C. Trên cửa có công tắc.
+    D. Dưới cửa có hộp.
+
+---
+
+## Block 7: Việt → Nhật / người và động vật
+
+1. “có / ở” dùng cho đồ vật là từ nào?
+   A. あります
+   B. います
+   C. いろいろ
+   D. どこ
+
+2. “có / ở” dùng cho người, động vật là từ nào?
+   A. います
+   B. あります
+   C. なに
+   D. だれ
+
+3. “nhiều loại / đa dạng” là từ nào?
+   A. いろいろ
+   B. たくさん
+   C. すこし
+   D. ぜんぜん
+
+4. “người đàn ông” là từ nào?
+   A. おとこのひと
+   B. おんなのひと
+   C. おとこのこ
+   D. おんなのこ
+
+5. “người phụ nữ” là từ nào?
+   A. おんなのひと
+   B. おとこのひと
+   C. おんなのこ
+   D. おとこのこ
+
+6. “bé trai” là từ nào?
+   A. おとこのこ
+   B. おんなのこ
+   C. おとこのひと
+   D. おんなのひと
+
+7. “bé gái” là từ nào?
+   A. おんなのこ
+   B. おとこのこ
+   C. おんなのひと
+   D. おとこのひと
+
+8. “chó” là từ nào?
+   A. 犬（いぬ）
+   B. ねこ
+   C. パンダ
+   D. ぞう
+
+9. “mèo” là từ nào?
+   A. ねこ
+   B. 犬（いぬ）
+   C. ぞう
+   D. パンダ
+
+10. “voi” là từ nào?
+    A. ぞう
+    B. パンダ
+    C. ねこ
+    D. 犬（いぬ）
+
+---
+
+## Block 8: Việt → Nhật / đồ vật
+
+1. “gấu trúc” là từ nào?
+   A. パンダ
+   B. ぞう
+   C. 犬（いぬ）
+   D. ねこ
+
+2. “cây” là từ nào?
+   A. 木（き）
+   B. もの
+   C. はこ
+   D. たな
+
+3. “đồ vật” là từ nào?
+   A. もの
+   B. 木（き）
+   C. でんち
+   D. スイッチ
+
+4. “pin” là từ nào?
+   A. でんち
+   B. スイッチ
+   C. はこ
+   D. ポスト
+
+5. “hộp” là từ nào?
+   A. はこ
+   B. でんち
+   C. ドア
+   D. まど
+
+6. “công tắc” là từ nào?
+   A. スイッチ
+   B. でんち
+   C. れいぞうこ
+   D. たな
+
+7. “tủ lạnh” là từ nào?
+   A. れいぞうこ
+   B. テーブル
+   C. ベッド
+   D. たな
+
+8. “bàn” là từ nào?
+   A. テーブル
+   B. ベッド
+   C. たな
+   D. はこ
+
+9. “giường” là từ nào?
+   A. ベッド
+   B. テーブル
+   C. たな
+   D. ドア
+
+10. “kệ” là từ nào?
+    A. たな
+    B. ベッド
+    C. テーブル
+    D. まど
+
+---
+
+## Block 9: Việt → Nhật / địa điểm
+
+1. “cửa” là từ nào?
+   A. ドア
+   B. まど
+   C. ポスト
+   D. ビル
+
+2. “cửa sổ” là từ nào?
+   A. まど
+   B. ドア
+   C. たな
+   D. スイッチ
+
+3. “hòm thư” là từ nào?
+   A. ポスト
+   B. ドア
+   C. ほんや
+   D. のりば
+
+4. “tòa nhà” là từ nào?
+   A. ビル
+   B. こうえん
+   C. きっさてん
+   D. みせ
+
+5. “công viên” là từ nào?
+   A. こうえん
+   B. ビル
+   C. 学校（がっこう）
+   D. 会社（かいしゃ）
+
+6. “quán cà phê” là từ nào?
+   A. きっさてん
+   B. ほんや
+   C. こうえん
+   D. のりば
+
+7. “hiệu sách” là từ nào?
+   A. ほんや
+   B. きっさてん
+   C. みせ
+   D. ビル
+
+8. “bến / điểm lên xe” là từ nào?
+   A. のりば
+   B. 駅（えき）
+   C. ほんや
+   D. こうえん
+
+9. “tỉnh” là từ nào?
+   A. けん
+   B. まち
+   C. くに
+   D. ビル
+
+10. “cửa hàng” là từ nào?
+    A. みせ
+    B. うち
+    C. へや
+    D. 会社（かいしゃ）
+
+---
+
+## Block 10: Việt → Nhật / vị trí
+
+1. “trên” là từ nào?
+   A. 上（うえ）
+   B. 下（した）
+   C. 前（まえ）
+   D. うしろ
+
+2. “dưới” là từ nào?
+   A. 下（した）
+   B. 上（うえ）
+   C. 右（みぎ）
+   D. 左（ひだり）
+
+3. “trước” là từ nào?
+   A. 前（まえ）
+   B. うしろ
+   C. 中（なか）
+   D. 外（そと）
+
+4. “sau” là từ nào?
+   A. うしろ
+   B. 前（まえ）
+   C. となり
+   D. 近く（ちかく）
+
+5. “bên phải” là từ nào?
+   A. 右（みぎ）
+   B. 左（ひだり）
+   C. 上（うえ）
+   D. 下（した）
+
+6. “bên trái” là từ nào?
+   A. 左（ひだり）
+   B. 右（みぎ）
+   C. 前（まえ）
+   D. うしろ
+
+7. “bên trong” là từ nào?
+   A. 中（なか）
+   B. 外（そと）
+   C. あいだ
+   D. となり
+
+8. “bên ngoài” là từ nào?
+   A. 外（そと）
+   B. 中（なか）
+   C. 近く（ちかく）
+   D. 下（した）
+
+9. “bên cạnh” là từ nào?
+   A. となり
+   B. 近く（ちかく）
+   C. あいだ
+   D. いちばん 上（うえ）
+
+10. “giữa” là từ nào?
+    A. あいだ
+    B. となり
+    C. 近く（ちかく）
+    D. 外（そと）
+
+---
+
+## Block 11: Điền vào câu
+
+1. へやに 犬（いぬ）が＿＿＿。
+   A. います
+   B. あります
+   C. いろいろ
+   D. どこ
+
+2. つくえの 上（うえ）に 本（ほん）が＿＿＿。
+   A. あります
+   B. います
+   C. だれ
+   D. なに
+
+3. こうえんに おとこのこが＿＿＿。
+   A. います
+   B. あります
+   C. もの
+   D. はこ
+
+4. はこの 中（なか）に でんちが＿＿＿。
+   A. あります
+   B. います
+   C. だれ
+   D. どこ
+
+5. ドアの 右（みぎ）に スイッチが＿＿＿。
+   A. あります
+   B. います
+   C. いろいろ
+   D. だれ
+
+6. 木（き）の 下（した）に ねこが＿＿＿。
+   A. います
+   B. あります
+   C. なに
+   D. もの
+
+7. テーブルの 上（うえ）に はこが＿＿＿。
+   A. あります
+   B. います
+   C. だれ
+   D. いろいろ
+
+8. ビルの 前（まえ）に ポストが＿＿＿。
+   A. あります
+   B. います
+   C. だれ
+   D. どこ
+
+9. ほんやの となりに きっさてんが＿＿＿。
+   A. あります
+   B. います
+   C. なに
+   D. だれ
+
+10. こうえんの 近く（ちかく）に 学校（がっこう）が＿＿＿。
+    A. あります
+    B. います
+    C. どこ
+    D. だれ
+
+---
+
+## Block 12: Điền vào câu / ngữ cảnh
+
+1. ねこは ベッドの＿＿＿に います。
+   A. 下（した）
+   B. なに
+   C. だれ
+   D. もの
+
+2. パンダは 木（き）の＿＿＿に います。
+   A. 上（うえ）
+   B. あります
+   C. もの
+   D. はこ
+
+3. でんちは はこの＿＿＿に あります。
+   A. 中（なか）
+   B. だれ
+   C. どこ
+   D. いろいろ
+
+4. ドアは まどの＿＿＿に あります。
+   A. となり
+   B. います
+   C. なに
+   D. もの
+
+5. きっさてんは ほんやの＿＿＿に あります。
+   A. 近く（ちかく）
+   B. だれ
+   C. いろいろ
+   D. はこ
+
+6. テーブルの＿＿＿に いすが あります。
+   A. 前（まえ）
+   B. だれ
+   C. なに
+   D. います
+
+7. 会社（かいしゃ）の＿＿＿に ビルが あります。
+   A. うしろ
+   B. います
+   C. もの
+   D. だれ
+
+8. みせの＿＿＿に ポストが あります。
+   A. 外（そと）
+   B. います
+   C. なに
+   D. いろいろ
+
+9. 教室（きょうしつ）の＿＿＿に 学生（がくせい）が います。
+   A. 中（なか）
+   B. もの
+   C. はこ
+   D. あります
+
+10. のりばは 駅（えき）の＿＿＿に あります。
+    A. 前（まえ）
+    B. だれ
+    C. なに
+    D. います
+
+---
+
+## Block 13: Đọc kanji
+
+1. 犬 đọc là gì?
+   A. いぬ
+   B. ねこ
+   C. ぞう
+   D. き
+
+2. 木 đọc là gì?
+   A. き
+   B. ぎ
+   C. もく
+   D. ほん
+
+3. 上 đọc là gì?
+   A. うえ
+   B. した
+   C. まえ
+   D. なか
+
+4. 下 đọc là gì?
+   A. した
+   B. うえ
+   C. そと
+   D. みぎ
+
+5. 前 đọc là gì?
+   A. まえ
+   B. うしろ
+   C. となり
+   D. ちかく
+
+6. 右 đọc là gì?
+   A. みぎ
+   B. ひだり
+   C. うえ
+   D. した
+
+7. 左 đọc là gì?
+   A. ひだり
+   B. みぎ
+   C. まえ
+   D. うしろ
+
+8. 中 đọc là gì?
+   A. なか
+   B. そと
+   C. あいだ
+   D. となり
+
+9. 外 đọc là gì?
+   A. そと
+   B. なか
+   C. した
+   D. うえ
+
+10. 駅 đọc là gì?
+    A. えき
+    B. いき
+    C. えぎ
+    D. うき
+
+---
+
+## Block 14: Đọc kanji / nơi chốn
+
+1. 教室 đọc là gì?
+   A. きょうしつ
+   B. かいぎしつ
+   C. じむしょ
+   D. へや
+
+2. 会社 đọc là gì?
+   A. かいしゃ
+   B. がっこう
+   C. みせ
+   D. うち
+
+3. 学校 đọc là gì?
+   A. がっこう
+   B. かいしゃ
+   C. きょうしつ
+   D. ほんや
+
+4. 男の人 đọc là gì?
+   A. おとこのひと
+   B. おんなのひと
+   C. おとこのこ
+   D. おんなのこ
+
+5. 女の人 đọc là gì?
+   A. おんなのひと
+   B. おとこのひと
+   C. おんなのこ
+   D. おとこのこ
+
+6. 男の子 đọc là gì?
+   A. おとこのこ
+   B. おんなのこ
+   C. おとこのひと
+   D. おんなのひと
+
+7. 女の子 đọc là gì?
+   A. おんなのこ
+   B. おとこのこ
+   C. おんなのひと
+   D. おとこのひと
+
+8. 何 đọc là gì?
+   A. なに
+   B. だれ
+   C. どこ
+   D. なん
+
+9. 誰 đọc là gì?
+   A. だれ
+   B. なに
+   C. どこ
+   D. いつ
+
+10. 近く đọc là gì?
+    A. ちかく
+    B. となり
+    C. あいだ
+    D. うしろ
+
+---
+
+## Block 15: Chọn kanji đúng
+
+1. “chó” viết bằng kanji nào?
+   A. 犬
+   B. 猫
+   C. 木
+   D. 人
+
+2. “cây” viết bằng kanji nào?
+   A. 木
+   B. 本
+   C. 犬
+   D. 山
+
+3. “trên” viết bằng kanji nào?
+   A. 上
+   B. 下
+   C. 中
+   D. 外
+
+4. “dưới” viết bằng kanji nào?
+   A. 下
+   B. 上
+   C. 前
+   D. 後
+
+5. “trước” viết bằng kanji nào?
+   A. 前
+   B. 後
+   C. 右
+   D. 左
+
+6. “bên phải” viết bằng kanji nào?
+   A. 右
+   B. 左
+   C. 上
+   D. 下
+
+7. “bên trái” viết bằng kanji nào?
+   A. 左
+   B. 右
+   C. 前
+   D. 中
+
+8. “bên trong” viết bằng kanji nào?
+   A. 中
+   B. 外
+   C. 上
+   D. 下
+
+9. “bên ngoài” viết bằng kanji nào?
+   A. 外
+   B. 中
+   C. 前
+   D. 右
+
+10. “ga” viết bằng kanji nào?
+    A. 駅
+    B. 車
+    C. 電
+    D. 学校
+
+---
+
+## Block 16: Chọn kanji đúng / người và nơi chốn
+
+1. “lớp học” viết bằng kanji nào?
+   A. 教室
+   B. 学校
+   C. 会社
+   D. 駅
+
+2. “công ty” viết bằng kanji nào?
+   A. 会社
+   B. 学校
+   C. 教室
+   D. 家
+
+3. “trường học” viết bằng kanji nào?
+   A. 学校
+   B. 会社
+   C. 教室
+   D. 本屋
+
+4. “người đàn ông” viết bằng kanji nào?
+   A. 男の人
+   B. 女の人
+   C. 男の子
+   D. 女の子
+
+5. “người phụ nữ” viết bằng kanji nào?
+   A. 女の人
+   B. 男の人
+   C. 女の子
+   D. 男の子
+
+6. “bé trai” viết bằng kanji nào?
+   A. 男の子
+   B. 女の子
+   C. 男の人
+   D. 女の人
+
+7. “bé gái” viết bằng kanji nào?
+   A. 女の子
+   B. 男の子
+   C. 女の人
+   D. 男の人
+
+8. “cái gì” viết bằng kanji nào?
+   A. 何
+   B. 誰
+   C. 何処
+   D. 時間
+
+9. “ai” viết bằng kanji nào?
+   A. 誰
+   B. 何
+   C. 上
+   D. 中
+
+10. “gần” viết bằng kanji nào?
+    A. 近く
+    B. 中
+    C. 外
+    D. 前
+
+---
+
+## Block 17: Chọn từ cùng nhóm chủ đề
+
+1. Từ nào thuộc nhóm “người”?
+   A. おんなのひと
+   B. でんち
+   C. ポスト
+   D. たな
+
+2. Từ nào thuộc nhóm “động vật”?
+   A. パンダ
+   B. ドア
+   C. はこ
+   D. けん
+
+3. Từ nào thuộc nhóm “đồ vật trong nhà”?
+   A. ベッド
+   B. こうえん
+   C. きっさてん
+   D. のりば
+
+4. Từ nào thuộc nhóm “vật nhỏ / thiết bị”?
+   A. でんち
+   B. ビル
+   C. けん
+   D. うち
+
+5. Từ nào thuộc nhóm “địa điểm ngoài nhà”?
+   A. こうえん
+   B. テーブル
+   C. はこ
+   D. スイッチ
+
+6. Từ nào thuộc nhóm “cửa hàng / dịch vụ”?
+   A. ほんや
+   B. ぞう
+   C. 木（き）
+   D. たな
+
+7. Từ nào thuộc nhóm “vị trí”?
+   A. 右（みぎ）
+   B. パンダ
+   C. ビル
+   D. もの
+
+8. Từ nào thuộc nhóm “nơi học / làm việc”?
+   A. 学校（がっこう）
+   B. ぞう
+   C. ポスト
+   D. ベッド
+
+9. Từ nào thuộc nhóm “câu hỏi”?
+   A. どこ
+   B. となり
+   C. テーブル
+   D. ねこ
+
+10. Từ nào thuộc nhóm “liệt kê ví dụ”?
+    A. 〜や 〜など
+    B. だれ
+    C. なに
+    D. どこ
+
+---
+
+## Block 18: Phân biệt từ dễ nhầm
+
+1. あります và います khác nhau thế nào?
+   A. あります dùng cho đồ vật/cây; います dùng cho người/động vật
+   B. あります dùng cho người; います dùng cho đồ vật
+   C. Cả hai chỉ dùng cho đồ ăn
+   D. Cả hai chỉ dùng cho thời gian
+
+2. おとこのひと và おんなのひと khác nhau thế nào?
+   A. おとこのひと là người đàn ông; おんなのひと là người phụ nữ
+   B. おとこのひと là bé trai; おんなのひと là bé gái
+   C. Cả hai đều là trẻ em
+   D. Cả hai đều là động vật
+
+3. おとこのこ và おんなのこ khác nhau thế nào?
+   A. おとこのこ là bé trai; おんなのこ là bé gái
+   B. おとこのこ là người đàn ông; おんなのこ là người phụ nữ
+   C. Cả hai đều là người lớn
+   D. Cả hai đều là học sinh
+
+4. 犬（いぬ） và ねこ khác nhau thế nào?
+   A. 犬 là chó; ねこ là mèo
+   B. 犬 là mèo; ねこ là chó
+   C. Cả hai đều là voi
+   D. Cả hai đều là gấu trúc
+
+5. ドア và まど khác nhau thế nào?
+   A. ドア là cửa; まど là cửa sổ
+   B. ドア là cửa sổ; まど là cửa
+   C. Cả hai đều là hòm thư
+   D. Cả hai đều là tủ lạnh
+
+6. テーブル và ベッド khác nhau thế nào?
+   A. テーブル là bàn; ベッド là giường
+   B. テーブル là giường; ベッド là bàn
+   C. Cả hai đều là cửa
+   D. Cả hai đều là kệ
+
+7. きっさてん và ほんや khác nhau thế nào?
+   A. きっさてん là quán cà phê; ほんや là hiệu sách
+   B. きっさてん là hiệu sách; ほんや là quán cà phê
+   C. Cả hai đều là công viên
+   D. Cả hai đều là ga
+
+8. 上（うえ） và 下（した） khác nhau thế nào?
+   A. 上 là trên; 下 là dưới
+   B. 上 là dưới; 下 là trên
+   C. Cả hai đều là bên trong
+   D. Cả hai đều là bên ngoài
+
+9. 右（みぎ） và 左（ひだり） khác nhau thế nào?
+   A. 右 là bên phải; 左 là bên trái
+   B. 右 là bên trái; 左 là bên phải
+   C. Cả hai đều là trước
+   D. Cả hai đều là sau
+
+10. 中（なか） và 外（そと） khác nhau thế nào?
+    A. 中 là bên trong; 外 là bên ngoài
+    B. 中 là bên ngoài; 外 là bên trong
+    C. Cả hai đều là gần
+    D. Cả hai đều là giữa
+
+---
+
+## Block 19: Phân biệt từ dễ nhầm / vị trí
+
+1. 前（まえ） và うしろ khác nhau thế nào?
+   A. 前 là trước; うしろ là sau
+   B. 前 là sau; うしろ là trước
+   C. Cả hai đều là bên phải
+   D. Cả hai đều là bên trái
+
+2. となり và 近く（ちかく） khác nhau thế nào?
+   A. となり là bên cạnh; 近く là gần
+   B. となり là gần; 近く là giữa
+   C. Cả hai đều là bên trong
+   D. Cả hai đều là trên cùng
+
+3. いちばん 上（うえ） và いちばん 下（した） khác nhau thế nào?
+   A. いちばん 上 là trên cùng; いちばん 下 là dưới cùng
+   B. いちばん 上 là dưới cùng; いちばん 下 là trên cùng
+   C. Cả hai đều là trước nhất
+   D. Cả hai đều là sau cùng
+
+4. いちばん 前（まえ） và いちばん うしろ khác nhau thế nào?
+   A. いちばん 前 là trước nhất; いちばん うしろ là sau cùng
+   B. いちばん 前 là sau cùng; いちばん うしろ là trước nhất
+   C. Cả hai đều là trên cùng
+   D. Cả hai đều là dưới cùng
+
+5. 教室（きょうしつ） và へや khác nhau thế nào?
+   A. 教室 là lớp học; へや là phòng
+   B. 教室 là phòng; へや là lớp học
+   C. Cả hai đều là công ty
+   D. Cả hai đều là cửa hàng
+
+6. 会社（かいしゃ） và 学校（がっこう） khác nhau thế nào?
+   A. 会社 là công ty; 学校 là trường học
+   B. 会社 là trường học; 学校 là công ty
+   C. Cả hai đều là ga
+   D. Cả hai đều là nhà
+
+7. どこ・なに・だれ khác nhau thế nào?
+   A. どこ: ở đâu, なに: cái gì, だれ: ai
+   B. どこ: ai, なに: ở đâu, だれ: cái gì
+   C. どこ: cái gì, なに: ai, だれ: ở đâu
+   D. Cả ba đều hỏi vị trí
+
+8. ポスト và のりば khác nhau thế nào?
+   A. ポスト là hòm thư; のりば là bến / điểm lên xe
+   B. ポスト là bến xe; のりば là hòm thư
+   C. Cả hai đều là hiệu sách
+   D. Cả hai đều là công viên
+
+9. ビル và こうえん khác nhau thế nào?
+   A. ビル là tòa nhà; こうえん là công viên
+   B. ビル là công viên; こうえん là tòa nhà
+   C. Cả hai đều là quán cà phê
+   D. Cả hai đều là cửa hàng
+
+10. はこ và たな khác nhau thế nào?
+    A. はこ là hộp; たな là kệ
+    B. はこ là kệ; たな là hộp
+    C. Cả hai đều là giường
+    D. Cả hai đều là tủ lạnh
+
+---
+
+## Block 20: Chọn trợ từ / cụm phù hợp
+
+1. へや＿＿＿ ねこが います。
+   A. に
+   B. を
+   C. で
+   D. と
+
+2. つくえの 上（うえ）＿＿＿ 本（ほん）が あります。
+   A. に
+   B. を
+   C. で
+   D. と
+
+3. こうえん＿＿＿ 犬（いぬ）が います。
+   A. に
+   B. を
+   C. で
+   D. と
+
+4. はこの 中（なか）＿＿＿ でんちが あります。
+   A. に
+   B. を
+   C. で
+   D. と
+
+5. ドアの 右（みぎ）＿＿＿ スイッチが あります。
+   A. に
+   B. を
+   C. で
+   D. と
+
+6. ほんやの となり＿＿＿ きっさてんが あります。
+   A. に
+   B. を
+   C. で
+   D. と
+
+7. 会社（かいしゃ）の 近く（ちかく）＿＿＿ 駅（えき）が あります。
+   A. に
+   B. を
+   C. で
+   D. と
+
+8. へや＿＿＿ テーブルや ベッドなどが あります。
+   A. に
+   B. を
+   C. で
+   D. と
+
+9. こうえん＿＿＿ おとこのこや おんなのこなどが います。
+   A. に
+   B. を
+   C. で
+   D. と
+
+10. パンダは どこ＿＿＿ いますか。
+    A. に
+    B. を
+    C. で
+    D. と

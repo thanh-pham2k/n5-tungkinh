@@ -1,0 +1,182 @@
+| Câu   | Đáp án | Từ đúng                        | Hiragana             | Romaji                               | Nghĩa / giải thích ngắn |   |
+| ----- | ------ | ------------------------------ | -------------------- | ------------------------------------ | ----------------------- | - |
+| 1.1   | A      | 登ります（のぼります）                    | のぼります                | noborimasu                           | leo / trèo              |   |
+| 1.2   | A      | 泊まります（とまります）                   | とまります                | tomarimasu                           | trọ / ở lại             |   |
+| 1.3   | A      | 掃除します（そうじします）                  | そうじします               | souji shimasu                        | dọn dẹp                 |   |
+| 1.4   | A      | 洗濯します（せんたくします）                 | せんたくします              | sentaku shimasu                      | giặt giũ                |   |
+| 1.5   | A      | 練習します（れんしゅうします）                | れんしゅうします             | renshuu shimasu                      | luyện tập               |   |
+| 1.6   | A      | なります                           | なります                 | narimasu                             | trở nên / trở thành     |   |
+| 1.7   | A      | 富士山（ふじさん）に 登ります（のぼります）         | ふじさんに のぼります          | fujisan ni noborimasu                | leo núi Phú Sĩ          |   |
+| 1.8   | A      | ホテルに 泊まります（とまります）              | ホテルに とまります           | hoteru ni tomarimasu                 | ở lại khách sạn         |   |
+| 1.9   | A      | へやを 掃除します（そうじします）              | へやを そうじします           | heya o souji shimasu                 | dọn phòng               |   |
+| 1.10  | A      | ゴルフを 練習します（れんしゅうします）           | ゴルフを れんしゅうします        | gorufu o renshuu shimasu             | luyện tập golf          |   |
+| 2.1   | A      | ねむい                            | ねむい                  | nemui                                | buồn ngủ                |   |
+| 2.2   | A      | 強い（つよい）                        | つよい                  | tsuyoi                               | mạnh                    |   |
+| 2.3   | A      | 弱い（よわい）                        | よわい                  | yowai                                | yếu                     |   |
+| 2.4   | A      | げんき                            | げんき                  | genki                                | khỏe / năng động        |   |
+| 2.5   | A      | きれい                            | きれい                  | kirei                                | đẹp / sạch              |   |
+| 2.6   | A      | しずか                            | しずか                  | shizuka                              | yên tĩnh                |   |
+| 2.7   | A      | にぎやか                           | にぎやか                 | nigiyaka                             | náo nhiệt               |   |
+| 2.8   | A      | ひま                             | ひま                   | hima                                 | rảnh                    |   |
+| 2.9   | A      | べんり                            | べんり                  | benri                                | tiện lợi                |   |
+| 2.10  | A      | ゆうめい                           | ゆうめい                 | yuumei                               | nổi tiếng               |   |
+| 3.1   | A      | ちょうし                           | ちょうし                 | choushi                              | tình trạng / phong độ   |   |
+| 3.2   | A      | ちょうしが いい                       | ちょうしが いい             | choushi ga ii                        | tình trạng tốt          |   |
+| 3.3   | A      | ちょうしが わるい                      | ちょうしが わるい            | choushi ga warui                     | tình trạng xấu          |   |
+| 3.4   | A      | からだに いい                        | からだに いい              | karada ni ii                         | tốt cho sức khỏe        |   |
+| 3.5   | A      | ダイエット                          | ダイエット                | daietto                              | ăn kiêng / giảm cân     |   |
+| 3.6   | A      | むり                             | むり                   | muri                                 | quá sức / không thể     |   |
+| 3.7   | A      | おちゃは からだに いいです                 | おちゃは からだに いいです       | ocha wa karada ni ii desu            | trà tốt sức khỏe        |   |
+| 3.8   | A      | きょうは ちょうしが いいです                | きょうは ちょうしが いいです      | kyou wa choushi ga ii desu           | hôm nay khỏe            |   |
+| 3.9   | A      | ダイエットは むりです                    | ダイエットは むりです          | daietto wa muri desu                 | ăn kiêng quá sức        |   |
+| 3.10  | A      | ねむいです                          | ねむいです                | nemui desu                           | buồn ngủ                |   |
+| 4.1   | A      | ゴルフ                            | ゴルフ                  | gorufu                               | golf                    |   |
+| 4.2   | A      | すもう                            | すもう                  | sumou                                | sumo                    |   |
+| 4.3   | A      | パチンコ                           | パチンコ                 | pachinko                             | pachinko                |   |
+| 4.4   | A      | おちゃ                            | おちゃ                  | ocha                                 | trà                     |   |
+| 4.5   | A      | ケーキ                            | ケーキ                  | keeki                                | bánh kem                |   |
+| 4.6   | A      | 富士山（ふじさん）                      | ふじさん                 | fujisan                              | núi Phú Sĩ              |   |
+| 4.7   | A      | 日（ひ）                           | ひ                    | hi                                   | ngày                    |   |
+| 4.8   | A      | やまださん                          | やまださん                | yamada san                           | anh/chị Yamada          |   |
+| 4.9   | A      | たなかさん                          | たなかさん                | tanaka san                           | anh/chị Tanaka          |   |
+| 4.10  | A      | すもうは ゆうめいです                    | すもうは ゆうめいです          | sumou wa yuumei desu                 | sumo nổi tiếng          |   |
+| 5.1   | A      | だんだん                           | だんだん                 | dandan                               | dần dần                 |   |
+| 5.2   | A      | もうすぐ                           | もうすぐ                 | mou sugu                             | sắp / chẳng mấy nữa     |   |
+| 5.3   | A      | いちど                            | いちど                  | ichido                               | một lần                 |   |
+| 5.4   | A      | いちども                           | いちども                 | ichido mo                            | một lần cũng không      |   |
+| 5.5   | A      | いろいろ                           | いろいろ                 | iroiro                               | nhiều thứ / việc        |   |
+| 5.6   | A      | でも                             | でも                   | demo                                 | nhưng                   |   |
+| 5.7   | A      | しばらくですね                        | しばらくですね              | shibaraku desu ne                    | lâu rồi nhỉ             |   |
+| 5.8   | A      | かわりましたね                        | かわりましたね              | kawarimashita ne                     | thay đổi rồi nhỉ        |   |
+| 5.9   | A      | おげんきですか                        | おげんきですか              | ogenki desu ka                       | khỏe không              |   |
+| 5.10  | A      | かんぱい                           | かんぱい                 | kanpai                               | cạn ly                  |   |
+| 6.1   | A      | 登ります（のぼります）                    | のぼります                | noborimasu                           | leo / trèo              |   |
+| 6.2   | A      | 泊まります（とまります）                   | とまります                | tomarimasu                           | trọ / ở lại             |   |
+| 6.3   | A      | 掃除します（そうじします）                  | そうじします               | souji shimasu                        | dọn dẹp                 |   |
+| 6.4   | A      | 洗濯します（せんたくします）                 | せんたくします              | sentaku shimasu                      | giặt giũ                |   |
+| 6.5   | A      | 練習します（れんしゅうします）                | れんしゅうします             | renshuu shimasu                      | luyện tập               |   |
+| 6.6   | A      | なります                           | なります                 | narimasu                             | trở nên / trở thành     |   |
+| 6.7   | A      | ねむい                            | ねむい                  | nemui                                | buồn ngủ                |   |
+| 6.8   | A      | 強い（つよい）                        | つよい                  | tsuyoi                               | mạnh                    |   |
+| 6.9   | A      | 弱い（よわい）                        | よわい                  | yowai                                | yếu                     |   |
+| 6.10  | A      | げんき                            | げんき                  | genki                                | khỏe / năng động        |   |
+| 7.1   | A      | きれい                            | きれい                  | kirei                                | đẹp / sạch              |   |
+| 7.2   | A      | しずか                            | しずか                  | shizuka                              | yên tĩnh                |   |
+| 7.3   | A      | にぎやか                           | にぎやか                 | nigiyaka                             | náo nhiệt               |   |
+| 7.4   | A      | ひま                             | ひま                   | hima                                 | rảnh                    |   |
+| 7.5   | A      | べんり                            | べんり                  | benri                                | tiện lợi                |   |
+| 7.6   | A      | ゆうめい                           | ゆうめい                 | yuumei                               | nổi tiếng               |   |
+| 7.7   | A      | ちょうし                           | ちょうし                 | choushi                              | tình trạng / phong độ   |   |
+| 7.8   | A      | ちょうしが いい                       | ちょうしが いい             | choushi ga ii                        | tình trạng tốt          |   |
+| 7.9   | A      | からだに いい                        | からだに いい              | karada ni ii                         | tốt cho sức khỏe        |   |
+| 7.10  | A      | むり                             | むり                   | muri                                 | quá sức / không thể     |   |
+| 8.1   | A      | ゴルフ                            | ゴルフ                  | gorufu                               | golf                    |   |
+| 8.2   | A      | すもう                            | すもう                  | sumou                                | sumo                    |   |
+| 8.3   | A      | おちゃ                            | おちゃ                  | ocha                                 | trà                     |   |
+| 8.4   | A      | ケーキ                            | ケーキ                  | keeki                                | bánh kem                |   |
+| 8.5   | A      | 富士山（ふじさん）                      | ふじさん                 | fujisan                              | núi Phú Sĩ              |   |
+| 8.6   | A      | だんだん                           | だんだん                 | dandan                               | dần dần                 |   |
+| 8.7   | A      | もうすぐ                           | もうすぐ                 | mou sugu                             | sắp                     |   |
+| 8.8   | A      | いちど                            | いちど                  | ichido                               | một lần                 |   |
+| 8.9   | A      | いろいろ                           | いろいろ                 | iroiro                               | nhiều thứ / việc        |   |
+| 8.10  | A      | かんぱい                           | かんぱい                 | kanpai                               | cạn ly                  |   |
+| 9.1   | A      | 登ります（のぼります）                    | のぼります                | noborimasu                           | leo                     |   |
+| 9.2   | A      | 泊まります（とまります）                   | とまります                | tomarimasu                           | ở lại                   |   |
+| 9.3   | A      | 掃除します（そうじします）                  | そうじします               | souji shimasu                        | dọn dẹp                 |   |
+| 9.4   | A      | 洗濯します（せんたくします）                 | せんたくします              | sentaku shimasu                      | giặt giũ                |   |
+| 9.5   | A      | 練習します（れんしゅうします）                | れんしゅうします             | renshuu shimasu                      | luyện tập               |   |
+| 9.6   | A      | なります                           | なります                 | narimasu                             | trở nên                 |   |
+| 9.7   | A      | ねむい                            | ねむい                  | nemui                                | buồn ngủ                |   |
+| 9.8   | A      | 強い（つよい）                        | つよい                  | tsuyoi                               | mạnh                    |   |
+| 9.9   | A      | 弱い（よわい）                        | よわい                  | yowai                                | yếu                     |   |
+| 9.10  | A      | げんき                            | げんき                  | genki                                | khỏe                    |   |
+| 10.1  | A      | きれい                            | きれい                  | kirei                                | đẹp / sạch              |   |
+| 10.2  | A      | にぎやか                           | にぎやか                 | nigiyaka                             | náo nhiệt               |   |
+| 10.3  | A      | ひま                             | ひま                   | hima                                 | rảnh                    |   |
+| 10.4  | A      | べんり                            | べんり                  | benri                                | tiện lợi                |   |
+| 10.5  | A      | ゆうめい                           | ゆうめい                 | yuumei                               | nổi tiếng               |   |
+| 10.6  | A      | いいです                           | いいです                 | ii desu                              | tốt                     |   |
+| 10.7  | A      | わるいです                          | わるいです                | warui desu                           | xấu / không tốt         |   |
+| 10.8  | A      | いいです                           | いいです                 | ii desu                              | tốt                     |   |
+| 10.9  | A      | むり                             | むり                   | muri                                 | quá sức                 |   |
+| 10.10 | A      | なります                           | なります                 | narimasu                             | trở thành               |   |
+| 11.1  | A      | しばらく                           | しばらく                 | shibaraku                            | lâu rồi                 |   |
+| 11.2  | A      | かわりましたね                        | かわりましたね              | kawarimashita ne                     | thay đổi rồi            |   |
+| 11.3  | A      | おかげさまで                         | おかげさまで               | okage sama de                        | nhờ ơn trời             |   |
+| 11.4  | A      | そうですね                          | そうですね                | sou desu ne                          | để xem / đúng nhỉ       |   |
+| 11.5  | A      | じゃ                             | じゃ                   | ja                                   | vậy thì                 |   |
+| 11.6  | A      | いちど                            | いちど                  | ichido                               | một lần                 |   |
+| 11.7  | A      | いちども                           | いちども                 | ichido mo                            | một lần cũng không      |   |
+| 11.8  | A      | いろいろ                           | いろいろ                 | iroiro                               | nhiều việc              |   |
+| 11.9  | A      | でも                             | でも                   | demo                                 | nhưng                   |   |
+| 11.10 | A      | どう                             | どう                   | dou                                  | như thế nào             |   |
+| 12.1  | A      | 登ります（のぼります）                    | のぼります                | noborimasu                           | leo / trèo              |   |
+| 12.2  | A      | 泊まります（とまります）                   | とまります                | tomarimasu                           | trọ / ở lại             |   |
+| 12.3  | A      | 掃除します（そうじします）                  | そうじします               | souji shimasu                        | dọn dẹp                 |   |
+| 12.4  | A      | 洗濯します（せんたくします）                 | せんたくします              | sentaku shimasu                      | giặt giũ                |   |
+| 12.5  | A      | 練習します（れんしゅうします）                | れんしゅうします             | renshuu shimasu                      | luyện tập               |   |
+| 12.6  | A      | 強い（つよい）                        | つよい                  | tsuyoi                               | mạnh                    |   |
+| 12.7  | A      | 弱い（よわい）                        | よわい                  | yowai                                | yếu                     |   |
+| 12.8  | A      | 富士山（ふじさん）                      | ふじさん                 | fujisan                              | núi Phú Sĩ              |   |
+| 12.9  | A      | 日（ひ）                           | ひ                    | hi                                   | ngày                    |   |
+| 12.10 | A      | 体（からだ）                         | からだ                  | karada                               | cơ thể                  |   |
+| 13.1  | A      | 登ります（のぼります）                    | のぼります                | noborimasu                           | leo / trèo              |   |
+| 13.2  | A      | 泊まります（とまります）                   | とまります                | tomarimasu                           | trọ / ở lại             |   |
+| 13.3  | A      | 掃除します（そうじします）                  | そうじします               | souji shimasu                        | dọn dẹp                 |   |
+| 13.4  | A      | 洗濯します（せんたくします）                 | せんたくします              | sentaku shimasu                      | giặt giũ                |   |
+| 13.5  | A      | 練習します（れんしゅうします）                | れんしゅうします             | renshuu shimasu                      | luyện tập               |   |
+| 13.6  | A      | 強い（つよい）                        | つよい                  | tsuyoi                               | mạnh                    |   |
+| 13.7  | A      | 弱い（よわい）                        | よわい                  | yowai                                | yếu                     |   |
+| 13.8  | A      | 富士山（ふじさん）                      | ふじさん                 | fujisan                              | núi Phú Sĩ              |   |
+| 13.9  | A      | 日（ひ）                           | ひ                    | hi                                   | ngày                    |   |
+| 13.10 | A      | 体（からだ）                         | からだ                  | karada                               | cơ thể                  |   |
+| 14.1  | A      | 掃除します（そうじします）                  | そうじします               | souji shimasu                        | việc nhà                |   |
+| 14.2  | A      | 練習します（れんしゅうします）                | れんしゅうします             | renshuu shimasu                      | luyện tập               |   |
+| 14.3  | A      | 強い（つよい）                        | つよい                  | tsuyoi                               | tính từ sức mạnh        |   |
+| 14.4  | A      | ちょうし                           | ちょうし                 | choushi                              | tình trạng sức khỏe     |   |
+| 14.5  | A      | ゴルフ                            | ゴルフ                  | gorufu                               | môn thể thao            |   |
+| 14.6  | A      | ケーキ                            | ケーキ                  | keeki                                | đồ ăn                   |   |
+| 14.7  | A      | 富士山（ふじさん）                      | ふじさん                 | fujisan                              | địa danh / thiên nhiên  |   |
+| 14.8  | A      | だんだん                           | だんだん                 | dandan                               | trạng từ thay đổi       |   |
+| 14.9  | A      | いちども                           | いちども                 | ichido mo                            | phủ định trải nghiệm    |   |
+| 14.10 | A      | しばらくですね                        | しばらくですね              | shibaraku desu ne                    | chào lâu ngày           |   |
+| 15.1  | A      | 登ります（のぼります） / 泊まります（とまります）     | のぼります / とまります        | noborimasu / tomarimasu              | leo / ở lại             |   |
+| 15.2  | A      | 掃除します（そうじします） / 洗濯します（せんたくします） | そうじします / せんたくします     | souji shimasu / sentaku shimasu      | dọn / giặt              |   |
+| 15.3  | A      | げんき / ねむい                      | げんき / ねむい            | genki / nemui                        | khỏe / buồn ngủ         |   |
+| 15.4  | A      | 強い（つよい） / 弱い（よわい）              | つよい / よわい            | tsuyoi / yowai                       | mạnh / yếu              |   |
+| 15.5  | A      | しずか / にぎやか                     | しずか / にぎやか           | shizuka / nigiyaka                   | yên tĩnh / náo nhiệt    |   |
+| 15.6  | A      | ひま / べんり                       | ひま / べんり             | hima / benri                         | rảnh / tiện lợi         |   |
+| 15.7  | A      | ちょうしが いい / ちょうしが わるい           | ちょうしが いい / ちょうしが わるい | choushi ga ii / choushi ga warui     | tốt / xấu               |   |
+| 15.8  | A      | からだに いい / ちょうしが いい             | からだに いい / ちょうしが いい   | karada ni ii / choushi ga ii         | tốt sức khỏe / khỏe     |   |
+| 15.9  | A      | いちど / いちども                     | いちど / いちども           | ichido / ichido mo                   | một lần / không lần nào |   |
+| 15.10 | A      | だんだん / もうすぐ                    | だんだん / もうすぐ          | dandan / mou sugu                    | dần dần / sắp           |   |
+| 16.1  | A      | しばらくですね / かわりましたね              | しばらくですね / かわりましたね    | shibaraku desu ne / kawarimashita ne | lâu rồi / thay đổi      |   |
+| 16.2  | A      | おげんきですか / おかげさまで               | おげんきですか / おかげさまで     | ogenki desu ka / okage sama de       | khỏe không / nhờ ơn     |   |
+| 16.3  | A      | そうですね / かんぱい                   | そうですね / かんぱい         | sou desu ne / kanpai                 | đúng nhỉ / cạn ly       |   |
+| 16.4  | A      | ゴルフ / すもう                      | ゴルフ / すもう            | gorufu / sumou                       | golf / sumo             |   |
+| 16.5  | A      | おちゃ / ケーキ                      | おちゃ / ケーキ            | ocha / keeki                         | trà / bánh kem          |   |
+| 16.6  | A      | パチンコ / ゴルフ                     | パチンコ / ゴルフ           | pachinko / gorufu                    | pachinko / golf         |   |
+| 16.7  | A      | 富士山（ふじさん） / 山田（やまだ）さん          | ふじさん / やまださん         | fujisan / yamada san                 | núi / người             |   |
+| 16.8  | A      | きれい / げんき                      | きれい / げんき            | kirei / genki                        | đẹp sạch / khỏe         |   |
+| 16.9  | A      | むり / たいへん                      | むり / たいへん            | muri / taihen                        | không thể / vất vả      |   |
+| 16.10 | A      | でも / そして                       | でも / そして             | demo / soshite                       | nhưng / và              |   |
+| 17.1  | A      | に                              | に                    | ni                                   | hướng leo               |   |
+| 17.2  | A      | に                              | に                    | ni                                   | nơi ở lại               |   |
+| 17.3  | A      | を                              | を                    | o                                    | chỉ đối tượng           |   |
+| 17.4  | A      | を                              | を                    | o                                    | chỉ đối tượng           |   |
+| 17.5  | A      | を                              | を                    | o                                    | chỉ đối tượng           |   |
+| 17.6  | A      | に                              | に                    | ni                                   | trở nên                 |   |
+| 17.7  | A      | に                              | に                    | ni                                   | trở thành mùa xuân      |   |
+| 17.8  | A      | に                              | に                    | ni                                   | tốt cho                 |   |
+| 17.9  | A      | が                              | が                    | ga                                   | chủ thể trạng thái      |   |
+| 17.10 | A      | だけ                             | だけ                   | dake                                 | chỉ một lần             |   |
+| 18.1  | A      | も                              | も                    | mo                                   | cũng không              |   |
+| 18.2  | A      | あります                           | あります                 | arimasu                              | có trải nghiệm          |   |
+| 18.3  | A      | ありません                          | ありません                | arimasen                             | không có                |   |
+| 18.4  | A      | ですか                            | ですか                  | desu ka                              | câu hỏi                 |   |
+| 18.5  | A      | です                             | です                   | desu                                 | là                      |   |
+| 18.6  | A      | です                             | です                   | desu                                 | là                      |   |
+| 18.7  | A      | ですね                            | ですね                  | desu ne                              | nhỉ                     |   |
+| 18.8  | A      | さまで                            | さまで                  | sama de                              | nhờ ơn                  |   |
+| 18.9  | A      | かんぱい                           | かんぱい                 | kanpai                               | cạn ly                  |   |
+| 18.10 | A      | でも                             | でも                   | demo                                 | nhưng                   |   |

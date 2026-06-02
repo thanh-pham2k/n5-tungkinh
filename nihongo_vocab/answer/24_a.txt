@@ -1,0 +1,172 @@
+| Câu   | Đáp án | Từ đúng                           | Hiragana          | Romaji                           | Nghĩa / giải thích ngắn |
+| ----- | ------ | --------------------------------- | ----------------- | -------------------------------- | ----------------------- |
+| 1.1   | A      | くれます                              | くれます              | kuremasu                         | cho mình / tôi          |
+| 1.2   | A      | 連れて行きます（つれていきます）                  | つれていきます           | tsurete ikimasu                  | dẫn đi                  |
+| 1.3   | A      | 連れて来ます（つれてきます）                    | つれてきます            | tsurete kimasu                   | dẫn đến                 |
+| 1.4   | A      | 送ります（おくります）                       | おくります             | okurimasu                        | đưa / tiễn / gửi        |
+| 1.5   | A      | 紹介します（しょうかいします）                   | しょうかいします          | shoukai shimasu                  | giới thiệu              |
+| 1.6   | A      | 案内します（あんないします）                    | あんないします           | annai shimasu                    | hướng dẫn / dẫn đường   |
+| 1.7   | A      | 説明します（せつめいします）                    | せつめいします           | setsumei shimasu                 | giải thích              |
+| 1.8   | A      | 入れます（いれます）                        | いれます              | iremasu                          | pha / cho vào           |
+| 1.9   | A      | 手伝います（てつだいます）                     | てつだいます            | tetsudaimasu                     | giúp đỡ                 |
+| 1.10  | A      | 貸します（かします）                        | かします              | kashimasu                        | cho mượn                |
+| 2.1   | A      | 教えます（おしえます）                       | おしえます             | oshiemasu                        | dạy / chỉ               |
+| 2.2   | A      | 書きます（かきます）                        | かきます              | kakimasu                         | viết                    |
+| 2.3   | A      | 呼びます（よびます）                        | よびます              | yobimasu                         | gọi                     |
+| 2.4   | A      | 持ちます（もちます）                        | もちます              | mochimasu                        | cầm / mang              |
+| 2.5   | A      | おじいさん                             | おじいさん             | ojiisan                          | ông / cụ ông            |
+| 2.6   | A      | おじいちゃん                            | おじいちゃん            | ojiichan                         | ông                     |
+| 2.7   | A      | おばあさん                             | おばあさん             | obaasan                          | bà / cụ bà              |
+| 2.8   | A      | おばあちゃん                            | おばあちゃん            | obaachan                         | bà                      |
+| 2.9   | A      | 準備（じゅんび）                          | じゅんび              | junbi                            | chuẩn bị                |
+| 2.10  | A      | 引っ越し（ひっこし）                        | ひっこし              | hikkoshi                         | chuyển nhà              |
+| 3.1   | A      | おかし                               | おかし               | okashi                           | bánh kẹo                |
+| 3.2   | A      | お弁当（おべんとう）                        | おべんとう             | obentou                          | cơm hộp                 |
+| 3.3   | A      | プレゼント                             | プレゼント             | purezento                        | quà tặng                |
+| 3.4   | A      | 母の日（ははのひ）                         | ははのひ              | haha no hi                       | Ngày của Mẹ             |
+| 3.5   | A      | 全部（ぜんぶ）                           | ぜんぶ               | zenbu                            | toàn bộ / tất cả        |
+| 3.6   | A      | 自分で（じぶんで）                         | じぶんで              | jibun de                         | tự mình                 |
+| 3.7   | A      | ほかに                               | ほかに               | hoka ni                          | ngoài ra                |
+| 3.8   | A      | ワゴンしゃ                             | ワゴンしゃ             | wagon sha                        | xe wagon                |
+| 3.9   | A      | すてき                               | すてき               | suteki                           | đẹp / tuyệt             |
+| 3.10  | A      | すてきな プレゼント                        | すてきな プレゼント        | suteki na purezento              | món quà đẹp             |
+| 4.1   | A      | くれます                              | くれます              | kuremasu                         | cho mình / tôi          |
+| 4.2   | A      | 連れて行きます（つれていきます）                  | つれていきます           | tsurete ikimasu                  | dẫn đi                  |
+| 4.3   | A      | 連れて来ます（つれてきます）                    | つれてきます            | tsurete kimasu                   | dẫn đến                 |
+| 4.4   | A      | 送ります（おくります）                       | おくります             | okurimasu                        | đưa / tiễn / gửi        |
+| 4.5   | A      | 紹介します（しょうかいします）                   | しょうかいします          | shoukai shimasu                  | giới thiệu              |
+| 4.6   | A      | 案内します（あんないします）                    | あんないします           | annai shimasu                    | hướng dẫn / dẫn đường   |
+| 4.7   | A      | 説明します（せつめいします）                    | せつめいします           | setsumei shimasu                 | giải thích              |
+| 4.8   | A      | 入れます（いれます）                        | いれます              | iremasu                          | pha / cho vào           |
+| 4.9   | A      | 手伝います（てつだいます）                     | てつだいます            | tetsudaimasu                     | giúp đỡ                 |
+| 4.10  | A      | 貸します（かします）                        | かします              | kashimasu                        | cho mượn                |
+| 5.1   | A      | 教えます（おしえます）                       | おしえます             | oshiemasu                        | dạy / chỉ               |
+| 5.2   | A      | 書きます（かきます）                        | かきます              | kakimasu                         | viết                    |
+| 5.3   | A      | 呼びます（よびます）                        | よびます              | yobimasu                         | gọi                     |
+| 5.4   | A      | 持ちます（もちます）                        | もちます              | mochimasu                        | cầm / mang              |
+| 5.5   | A      | おじいさん                             | おじいさん             | ojiisan                          | ông / cụ ông            |
+| 5.6   | A      | おばあさん                             | おばあさん             | obaasan                          | bà / cụ bà              |
+| 5.7   | A      | 準備（じゅんび）                          | じゅんび              | junbi                            | chuẩn bị                |
+| 5.8   | A      | 引っ越し（ひっこし）                        | ひっこし              | hikkoshi                         | chuyển nhà              |
+| 5.9   | A      | おかし                               | おかし               | okashi                           | bánh kẹo                |
+| 5.10  | A      | お弁当（おべんとう）                        | おべんとう             | obentou                          | cơm hộp                 |
+| 6.1   | A      | プレゼント                             | プレゼント             | purezento                        | quà tặng                |
+| 6.2   | A      | 母の日（ははのひ）                         | ははのひ              | haha no hi                       | Ngày của Mẹ             |
+| 6.3   | A      | 全部（ぜんぶ）                           | ぜんぶ               | zenbu                            | toàn bộ / tất cả        |
+| 6.4   | A      | 自分で（じぶんで）                         | じぶんで              | jibun de                         | tự mình                 |
+| 6.5   | A      | ほかに                               | ほかに               | hoka ni                          | ngoài ra                |
+| 6.6   | A      | ワゴンしゃ                             | ワゴンしゃ             | wagon sha                        | xe wagon                |
+| 6.7   | A      | すてき                               | すてき               | suteki                           | đẹp / tuyệt             |
+| 6.8   | A      | すてきな プレゼント                        | すてきな プレゼント        | suteki na purezento              | món quà đẹp             |
+| 6.9   | A      | 引っ越し（ひっこし）の 準備（じゅんび）              | ひっこしの じゅんび        | hikkoshi no junbi                | chuẩn bị chuyển nhà     |
+| 6.10  | A      | お弁当（おべんとう）を 全部（ぜんぶ）               | おべんとうを ぜんぶ        | obentou o zenbu                  | toàn bộ cơm hộp         |
+| 7.1   | A      | くれました                             | くれました             | kuremashita                      | đã cho mình             |
+| 7.2   | A      | 連れて行きます（つれていきます）                  | つれていきます           | tsurete ikimasu                  | dẫn đi                  |
+| 7.3   | A      | 連れて来ます（つれてきます）                    | つれてきます            | tsurete kimasu                   | dẫn đến                 |
+| 7.4   | A      | 送ります（おくります）                       | おくります             | okurimasu                        | tiễn / đưa              |
+| 7.5   | A      | 紹介します（しょうかいします）                   | しょうかいします          | shoukai shimasu                  | giới thiệu              |
+| 7.6   | A      | 案内します（あんないします）                    | あんないします           | annai shimasu                    | hướng dẫn               |
+| 7.7   | A      | 説明します（せつめいします）                    | せつめいします           | setsumei shimasu                 | giải thích              |
+| 7.8   | A      | 入れます（いれます）                        | いれます              | iremasu                          | cho vào                 |
+| 7.9   | A      | 手伝います（てつだいます）                     | てつだいます            | tetsudaimasu                     | giúp đỡ                 |
+| 7.10  | A      | 貸します（かします）                        | かします              | kashimasu                        | cho mượn                |
+| 8.1   | A      | 教えます（おしえます）                       | おしえます             | oshiemasu                        | dạy / chỉ               |
+| 8.2   | A      | 書きます（かきます）                        | かきます              | kakimasu                         | viết                    |
+| 8.3   | A      | 呼びます（よびます）                        | よびます              | yobimasu                         | gọi                     |
+| 8.4   | A      | 持ちます（もちます）                        | もちます              | mochimasu                        | cầm / mang              |
+| 8.5   | A      | 準備（じゅんび）                          | じゅんび              | junbi                            | chuẩn bị                |
+| 8.6   | A      | プレゼント                             | プレゼント             | purezento                        | quà tặng                |
+| 8.7   | A      | 全部（ぜんぶ）                           | ぜんぶ               | zenbu                            | toàn bộ                 |
+| 8.8   | A      | 自分で（じぶんで）                         | じぶんで              | jibun de                         | tự mình                 |
+| 8.9   | A      | ほかに                               | ほかに               | hoka ni                          | ngoài ra                |
+| 8.10  | A      | すてき                               | すてき               | suteki                           | đẹp / tuyệt             |
+| 9.1   | A      | 連れて行きます（つれていきます）                  | つれていきます           | tsurete ikimasu                  | dẫn đi                  |
+| 9.2   | A      | 連れて来ます（つれてきます）                    | つれてきます            | tsurete kimasu                   | dẫn đến                 |
+| 9.3   | A      | 送ります（おくります）                       | おくります             | okurimasu                        | gửi / tiễn              |
+| 9.4   | A      | 紹介します（しょうかいします）                   | しょうかいします          | shoukai shimasu                  | giới thiệu              |
+| 9.5   | A      | 案内します（あんないします）                    | あんないします           | annai shimasu                    | hướng dẫn               |
+| 9.6   | A      | 説明します（せつめいします）                    | せつめいします           | setsumei shimasu                 | giải thích              |
+| 9.7   | A      | 入れます（いれます）                        | いれます              | iremasu                          | cho vào                 |
+| 9.8   | A      | 手伝います（てつだいます）                     | てつだいます            | tetsudaimasu                     | giúp đỡ                 |
+| 9.9   | A      | 貸します（かします）                        | かします              | kashimasu                        | cho mượn                |
+| 9.10  | A      | 教えます（おしえます）                       | おしえます             | oshiemasu                        | dạy / chỉ               |
+| 10.1  | A      | 書きます（かきます）                        | かきます              | kakimasu                         | viết                    |
+| 10.2  | A      | 呼びます（よびます）                        | よびます              | yobimasu                         | gọi                     |
+| 10.3  | A      | 持ちます（もちます）                        | もちます              | mochimasu                        | cầm / mang              |
+| 10.4  | A      | 準備（じゅんび）                          | じゅんび              | junbi                            | chuẩn bị                |
+| 10.5  | A      | 引っ越し（ひっこし）                        | ひっこし              | hikkoshi                         | chuyển nhà              |
+| 10.6  | A      | お弁当（おべんとう）                        | おべんとう             | obentou                          | cơm hộp                 |
+| 10.7  | A      | 母の日（ははのひ）                         | ははのひ              | haha no hi                       | Ngày của Mẹ             |
+| 10.8  | A      | 全部（ぜんぶ）                           | ぜんぶ               | zenbu                            | toàn bộ                 |
+| 10.9  | A      | 自分で（じぶんで）                         | じぶんで              | jibun de                         | tự mình                 |
+| 10.10 | A      | 何（なに）                             | なに                | nani                             | cái gì                  |
+| 11.1  | A      | 連れて行きます（つれていきます）                  | つれていきます           | tsurete ikimasu                  | dẫn đi                  |
+| 11.2  | A      | 連れて来ます（つれてきます）                    | つれてきます            | tsurete kimasu                   | dẫn đến                 |
+| 11.3  | A      | 送ります（おくります）                       | おくります             | okurimasu                        | đưa / tiễn / gửi        |
+| 11.4  | A      | 紹介します（しょうかいします）                   | しょうかいします          | shoukai shimasu                  | giới thiệu              |
+| 11.5  | A      | 案内します（あんないします）                    | あんないします           | annai shimasu                    | hướng dẫn               |
+| 11.6  | A      | 説明します（せつめいします）                    | せつめいします           | setsumei shimasu                 | giải thích              |
+| 11.7  | A      | 入れます（いれます）                        | いれます              | iremasu                          | pha / cho vào           |
+| 11.8  | A      | 手伝います（てつだいます）                     | てつだいます            | tetsudaimasu                     | giúp đỡ                 |
+| 11.9  | A      | 貸します（かします）                        | かします              | kashimasu                        | cho mượn                |
+| 11.10 | A      | 教えます（おしえます）                       | おしえます             | oshiemasu                        | dạy / chỉ               |
+| 12.1  | A      | 書きます（かきます）                        | かきます              | kakimasu                         | viết                    |
+| 12.2  | A      | 呼びます（よびます）                        | よびます              | yobimasu                         | gọi                     |
+| 12.3  | A      | 持ちます（もちます）                        | もちます              | mochimasu                        | cầm / mang              |
+| 12.4  | A      | 準備（じゅんび）                          | じゅんび              | junbi                            | chuẩn bị                |
+| 12.5  | A      | 引っ越し（ひっこし）                        | ひっこし              | hikkoshi                         | chuyển nhà              |
+| 12.6  | A      | お弁当（おべんとう）                        | おべんとう             | obentou                          | cơm hộp                 |
+| 12.7  | A      | 母の日（ははのひ）                         | ははのひ              | haha no hi                       | Ngày của Mẹ             |
+| 12.8  | A      | 全部（ぜんぶ）                           | ぜんぶ               | zenbu                            | toàn bộ                 |
+| 12.9  | A      | 自分で（じぶんで）                         | じぶんで              | jibun de                         | tự mình                 |
+| 12.10 | A      | 何（なに）                             | なに                | nani                             | cái gì                  |
+| 13.1  | A      | くれます                              | くれます              | kuremasu                         | cho / nhận              |
+| 13.2  | A      | 連れて行きます（つれていきます）                  | つれていきます           | tsurete ikimasu                  | dẫn người đi            |
+| 13.3  | A      | 紹介します（しょうかいします）                   | しょうかいします          | shoukai shimasu                  | giới thiệu              |
+| 13.4  | A      | 説明します（せつめいします）                    | せつめいします           | setsumei shimasu                 | giải thích              |
+| 13.5  | A      | 手伝います（てつだいます）                     | てつだいます            | tetsudaimasu                     | giúp đỡ                 |
+| 13.6  | A      | おばあさん                             | おばあさん             | obaasan                          | người thân lớn tuổi     |
+| 13.7  | A      | 引っ越し（ひっこし）                        | ひっこし              | hikkoshi                         | chuẩn bị / chuyển nhà   |
+| 13.8  | A      | お弁当（おべんとう）                        | おべんとう             | obentou                          | đồ ăn mang theo         |
+| 13.9  | A      | 母の日（ははのひ）                         | ははのひ              | haha no hi                       | dịp tặng quà            |
+| 13.10 | A      | 全部（ぜんぶ）                           | ぜんぶ               | zenbu                            | mức độ / phạm vi        |
+| 14.1  | A      | くれます / あげます                       | くれます / あげます       | kuremasu / agemasu               | cho mình / cho người    |
+| 14.2  | A      | 連れて行きます（つれていきます） / 連れて来ます（つれてきます） | つれていきます / つれてきます  | tsurete ikimasu / tsurete kimasu | dẫn đi / dẫn đến        |
+| 14.3  | A      | 送ります（おくります） / 紹介します（しょうかいします）     | おくります / しょうかいします  | okurimasu / shoukai shimasu      | gửi / giới thiệu        |
+| 14.4  | A      | 案内します（あんないします） / 説明します（せつめいします）   | あんないします / せつめいします | annai shimasu / setsumei shimasu | dẫn đường / giải thích  |
+| 14.5  | A      | 入れます（いれます） / 入ります（はいります）          | いれます / はいります      | iremasu / hairimasu              | cho vào / đi vào        |
+| 14.6  | A      | 手伝います（てつだいます） / 貸します（かします）        | てつだいます / かします     | tetsudaimasu / kashimasu         | giúp / cho mượn         |
+| 14.7  | A      | 教えます（おしえます） / 書きます（かきます）          | おしえます / かきます      | oshiemasu / kakimasu             | dạy / viết              |
+| 14.8  | A      | 呼びます（よびます） / 持ちます（もちます）           | よびます / もちます       | yobimasu / mochimasu             | gọi / cầm               |
+| 14.9  | A      | おじいさん / おばあさん                     | おじいさん / おばあさん     | ojiisan / obaasan                | ông / bà                |
+| 14.10 | A      | 準備（じゅんび） / 引っ越し（ひっこし）             | じゅんび / ひっこし       | junbi / hikkoshi                 | chuẩn bị / chuyển nhà   |
+| 15.1  | A      | おかし / お弁当（おべんとう）                  | おかし / おべんとう       | okashi / obentou                 | bánh kẹo / cơm hộp      |
+| 15.2  | A      | プレゼント / 母の日（ははのひ）                 | プレゼント / ははのひ      | purezento / haha no hi           | quà / Ngày của Mẹ       |
+| 15.3  | A      | 全部（ぜんぶ） / 自分で（じぶんで）               | ぜんぶ / じぶんで        | zenbu / jibun de                 | toàn bộ / tự mình       |
+| 15.4  | A      | ほかに / 全部（ぜんぶ）                     | ほかに / ぜんぶ         | hoka ni / zenbu                  | ngoài ra / toàn bộ      |
+| 15.5  | A      | ワゴンしゃ / 自動車（じどうしゃ）                | ワゴンしゃ / じどうしゃ     | wagon sha / jidousha             | wagon / ô tô            |
+| 15.6  | A      | すてき / かわいい                        | すてき / かわいい        | suteki / kawaii                  | đẹp tuyệt / dễ thương   |
+| 15.7  | A      | おじいさん / おじいちゃん                    | おじいさん / おじいちゃん    | ojiisan / ojiichan               | trung tính / thân mật   |
+| 15.8  | A      | おばあさん / おばあちゃん                    | おばあさん / おばあちゃん    | obaasan / obaachan               | trung tính / thân mật   |
+| 15.9  | A      | 貸します（かします） / 借ります（かります）           | かします / かります       | kashimasu / karimasu             | cho mượn / mượn         |
+| 15.10 | A      | 送ります（おくります） / 持ちます（もちます）          | おくります / もちます      | okurimasu / mochimasu            | gửi / cầm               |
+| 16.1  | A      | に                                 | に                 | ni                               | cho ai                  |
+| 16.2  | A      | を                                 | を                 | o                                | dẫn ai                  |
+| 16.3  | A      | を                                 | を                 | o                                | dẫn ai đến              |
+| 16.4  | A      | を                                 | を                 | o                                | tiễn ai                 |
+| 16.5  | A      | を                                 | を                 | o                                | giới thiệu ai           |
+| 16.6  | A      | を                                 | を                 | o                                | hướng dẫn nơi           |
+| 16.7  | A      | で                                 | で                 | de                               | bằng tiếng Nhật         |
+| 16.8  | A      | に                                 | に                 | ni                               | cho vào cà phê          |
+| 16.9  | A      | を                                 | を                 | o                                | giúp việc chuyển nhà    |
+| 16.10 | A      | に                                 | に                 | ni                               | cho bạn mượn            |
+| 17.1  | A      | を                                 | を                 | o                                | chỉ đối tượng           |
+| 17.2  | A      | を                                 | を                 | o                                | chỉ đối tượng           |
+| 17.3  | A      | を                                 | を                 | o                                | gọi taxi                |
+| 17.4  | A      | を                                 | を                 | o                                | cầm hành lý             |
+| 17.5  | A      | を                                 | を                 | o                                | làm chuẩn bị            |
+| 17.6  | A      | に                                 | に                 | ni                               | vào Ngày của Mẹ         |
+| 17.7  | A      | を                                 | を                 | o                                | ăn cơm hộp              |
+| 17.8  | A      | で                                 | で                 | de                               | tự mình làm             |
+| 17.9  | A      | に                                 | に                 | ni                               | ngoài ra                |
+| 17.10 | A      | です                                | です                | desu                             | là                      |

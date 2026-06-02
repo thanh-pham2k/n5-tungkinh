@@ -1,0 +1,893 @@
+## Block 1: Nhật → Việt
+
+1. これ nghĩa là gì?
+   A. cái đó / đó
+   B. cái này / đây
+   C. cái kia / kia
+   D. cái gì
+
+2. それ nghĩa là gì?
+   A. cái này / đây
+   B. cái đó / đó
+   C. cái kia / kia
+   D. như vậy
+
+3. あれ nghĩa là gì?
+   A. cái kia / kia
+   B. cái này / đây
+   C. cái đó / đó
+   D. cái gì
+
+4. この nghĩa là gì?
+   A. này
+   B. đó
+   C. kia
+   D. cái gì
+
+5. その nghĩa là gì?
+   A. này
+   B. đó
+   C. kia
+   D. như vậy
+
+6. あの nghĩa là gì?
+   A. này
+   B. đó
+   C. kia
+   D. cái này
+
+7. 本（ほん） nghĩa là gì?
+   A. báo
+   B. sách
+   C. tạp chí
+   D. từ điển
+
+8. じしょ nghĩa là gì?
+   A. sách
+   B. từ điển
+   C. vở
+   D. sổ tay
+
+9. ざっし nghĩa là gì?
+   A. báo
+   B. tạp chí
+   C. danh thiếp
+   D. thẻ
+
+10. しんぶん nghĩa là gì?
+    A. báo
+    B. sách
+    C. vở
+    D. từ điển
+
+---
+
+## Block 2: Đồ dùng học tập / văn phòng
+
+1. ノート nghĩa là gì?
+   A. sổ tay
+   B. vở
+   C. danh thiếp
+   D. thẻ
+
+2. てちょう nghĩa là gì?
+   A. vở
+   B. sổ tay
+   C. sách
+   D. báo
+
+3. めいし nghĩa là gì?
+   A. danh thiếp
+   B. thẻ
+   C. chìa khóa
+   D. đồng hồ
+
+4. カード nghĩa là gì?
+   A. thẻ
+   B. danh thiếp
+   C. bút bi
+   D. bút chì
+
+5. テレホンカード nghĩa là gì?
+   A. thẻ ngân hàng
+   B. thẻ điện thoại
+   C. danh thiếp
+   D. sổ tay
+
+6. えんぴつ nghĩa là gì?
+   A. bút bi
+   B. bút chì
+   C. bút chì kim
+   D. chìa khóa
+
+7. ボールペン nghĩa là gì?
+   A. bút chì
+   B. bút bi
+   C. bút chì kim
+   D. sổ tay
+
+8. シャープペンシル nghĩa là gì?
+   A. bút chì
+   B. bút chì kim
+   C. bút bi
+   D. danh thiếp
+
+9. かぎ nghĩa là gì?
+   A. đồng hồ
+   B. chìa khóa
+   C. ô / dù
+   D. túi xách
+
+10. とけい nghĩa là gì?
+    A. đồng hồ
+    B. chìa khóa
+    C. máy ảnh
+    D. radio
+
+---
+
+## Block 3: Đồ vật / thiết bị
+
+1. かさ nghĩa là gì?
+   A. ô / dù
+   B. túi xách
+   C. đồng hồ
+   D. chìa khóa
+
+2. かばん nghĩa là gì?
+   A. cặp / túi xách
+   B. ô / dù
+   C. bàn
+   D. ghế
+
+3. カセットテープ nghĩa là gì?
+   A. máy ghi âm
+   B. băng cassette
+   C. radio
+   D. tivi
+
+4. テープレコーダー nghĩa là gì?
+   A. băng cassette
+   B. máy ghi âm
+   C. máy ảnh
+   D. máy tính
+
+5. テレビ nghĩa là gì?
+   A. radio
+   B. tivi
+   C. máy ảnh
+   D. máy tính
+
+6. ラジオ nghĩa là gì?
+   A. radio
+   B. tivi
+   C. máy ghi âm
+   D. băng cassette
+
+7. カメラ nghĩa là gì?
+   A. máy ảnh
+   B. máy tính
+   C. tivi
+   D. radio
+
+8. コンピューター nghĩa là gì?
+   A. máy tính
+   B. máy ảnh
+   C. máy ghi âm
+   D. tivi
+
+9. じどうしゃ nghĩa là gì?
+   A. xe đạp
+   B. ô tô / xe hơi
+   C. bàn
+   D. ghế
+
+10. つくえ nghĩa là gì?
+    A. ghế
+    B. bàn
+    C. cặp
+    D. ô / dù
+
+---
+
+## Block 4: Từ khác / câu thông dụng
+
+1. いす nghĩa là gì?
+   A. bàn
+   B. ghế
+   C. cặp
+   D. ô / dù
+
+2. チョコレート nghĩa là gì?
+   A. cà phê
+   B. sô cô la
+   C. tiếng Anh
+   D. tiếng Nhật
+
+3. コーヒー nghĩa là gì?
+   A. sô cô la
+   B. cà phê
+   C. radio
+   D. tivi
+
+4. えいご nghĩa là gì?
+   A. tiếng Nhật
+   B. tiếng Anh
+   C. tiếng Việt
+   D. tiếng Pháp
+
+5. 日本語（にほんご） nghĩa là gì?
+   A. tiếng Anh
+   B. tiếng Nhật
+   C. tiếng Việt
+   D. tiếng Trung
+
+6. 〜ご nghĩa là gì?
+   A. tiếng...
+   B. cái...
+   C. người...
+   D. sách...
+
+7. なん nghĩa là gì?
+   A. ai
+   B. cái gì
+   C. ở đâu
+   D. bao nhiêu tuổi
+
+8. そう nghĩa là gì?
+   A. vậy / như vậy
+   B. không phải
+   C. cảm ơn
+   D. xin mời
+
+9. ちがいます nghĩa là gì?
+   A. đúng vậy
+   B. không phải / sai rồi
+   C. vậy à
+   D. cảm ơn
+
+10. そうですか nghĩa là gì?
+    A. đúng vậy
+    B. vậy à
+    C. không phải
+    D. xin mời
+
+---
+
+## Block 5: Lời nói lịch sự
+
+1. あのう nghĩa là gì?
+   A. à... / ừm...
+   B. xin mời
+   C. cảm ơn
+   D. đúng vậy
+
+2. ほんの きもちです nghĩa là gì?
+   A. Chỉ là chút lòng thành
+   B. Chính tôi mới mong được giúp đỡ
+   C. Từ nay mong được giúp đỡ
+   D. Vậy à
+
+3. どうぞ nghĩa là gì?
+   A. xin mời / xin nhận
+   B. cảm ơn
+   C. không phải
+   D. vậy à
+
+4. どうも nghĩa là gì?
+   A. cảm ơn / rất
+   B. xin lỗi
+   C. cái gì
+   D. đúng vậy
+
+5. ありがとうございます nghĩa là gì?
+   A. cảm ơn
+   B. xin mời
+   C. không phải
+   D. vậy à
+
+6. そうです nghĩa là gì?
+   A. đúng vậy
+   B. không phải
+   C. vậy à
+   D. cảm ơn
+
+7. これから おせわに なります nghĩa là gì?
+   A. Từ nay mong được giúp đỡ
+   B. Chỉ là chút lòng thành
+   C. Chính tôi mới mong được giúp đỡ
+   D. Xin mời
+
+8. こちらこそ よろしく nghĩa là gì?
+   A. Chính tôi mới mong được giúp đỡ
+   B. Từ nay mong được giúp đỡ
+   C. Chỉ là chút lòng thành
+   D. Không phải
+
+9. あのう、これは なんですか。 nghĩa là gì?
+   A. À..., cái này là cái gì?
+   B. Cái đó là sách phải không?
+   C. Đây là chút lòng thành.
+   D. Cảm ơn rất nhiều.
+
+10. どうぞ。ほんの きもちです。 nghĩa là gì?
+    A. Xin nhận. Chỉ là chút lòng thành.
+    B. Vậy à. Không phải.
+    C. Đây là sách.
+    D. Cảm ơn rất nhiều.
+
+---
+
+## Block 6: Việt → Nhật
+
+1. “cái này / đây” là từ nào?
+   A. これ
+   B. それ
+   C. あれ
+   D. なん
+
+2. “cái đó / đó” là từ nào?
+   A. これ
+   B. それ
+   C. あれ
+   D. そう
+
+3. “cái kia / kia” là từ nào?
+   A. あれ
+   B. これ
+   C. それ
+   D. この
+
+4. “này” là từ nào?
+   A. この
+   B. その
+   C. あの
+   D. これ
+
+5. “đó” là từ nào?
+   A. この
+   B. その
+   C. あの
+   D. それ
+
+6. “kia” là từ nào?
+   A. この
+   B. その
+   C. あの
+   D. あれ
+
+7. “sách” là từ nào?
+   A. 本（ほん）
+   B. じしょ
+   C. ざっし
+   D. しんぶん
+
+8. “từ điển” là từ nào?
+   A. 本（ほん）
+   B. じしょ
+   C. ノート
+   D. てちょう
+
+9. “tạp chí” là từ nào?
+   A. ざっし
+   B. しんぶん
+   C. 本（ほん）
+   D. めいし
+
+10. “báo” là từ nào?
+    A. しんぶん
+    B. ざっし
+    C. じしょ
+    D. ノート
+
+---
+
+## Block 7: Việt → Nhật / đồ dùng
+
+1. “vở” là từ nào?
+   A. ノート
+   B. てちょう
+   C. 本（ほん）
+   D. じしょ
+
+2. “sổ tay” là từ nào?
+   A. ノート
+   B. てちょう
+   C. めいし
+   D. カード
+
+3. “danh thiếp” là từ nào?
+   A. めいし
+   B. カード
+   C. テレホンカード
+   D. かぎ
+
+4. “thẻ” là từ nào?
+   A. カード
+   B. めいし
+   C. ノート
+   D. てちょう
+
+5. “bút chì” là từ nào?
+   A. えんぴつ
+   B. ボールペン
+   C. シャープペンシル
+   D. かぎ
+
+6. “bút bi” là từ nào?
+   A. ボールペン
+   B. えんぴつ
+   C. シャープペンシル
+   D. とけい
+
+7. “bút chì kim” là từ nào?
+   A. シャープペンシル
+   B. えんぴつ
+   C. ボールペン
+   D. カード
+
+8. “chìa khóa” là từ nào?
+   A. かぎ
+   B. とけい
+   C. かさ
+   D. かばん
+
+9. “đồng hồ” là từ nào?
+   A. とけい
+   B. かぎ
+   C. カメラ
+   D. ラジオ
+
+10. “ô / dù” là từ nào?
+    A. かさ
+    B. かばん
+    C. つくえ
+    D. いす
+
+---
+
+## Block 8: Việt → Nhật / thiết bị và đồ vật
+
+1. “cặp / túi xách” là từ nào?
+   A. かばん
+   B. かさ
+   C. つくえ
+   D. いす
+
+2. “băng cassette” là từ nào?
+   A. カセットテープ
+   B. テープレコーダー
+   C. ラジオ
+   D. テレビ
+
+3. “máy ghi âm” là từ nào?
+   A. テープレコーダー
+   B. カセットテープ
+   C. カメラ
+   D. コンピューター
+
+4. “tivi” là từ nào?
+   A. テレビ
+   B. ラジオ
+   C. カメラ
+   D. コンピューター
+
+5. “radio” là từ nào?
+   A. ラジオ
+   B. テレビ
+   C. カセットテープ
+   D. テープレコーダー
+
+6. “máy ảnh” là từ nào?
+   A. カメラ
+   B. コンピューター
+   C. テレビ
+   D. ラジオ
+
+7. “máy tính” là từ nào?
+   A. コンピューター
+   B. カメラ
+   C. テープレコーダー
+   D. テレビ
+
+8. “ô tô / xe hơi” là từ nào?
+   A. じどうしゃ
+   B. つくえ
+   C. いす
+   D. かばん
+
+9. “bàn” là từ nào?
+   A. つくえ
+   B. いす
+   C. かばん
+   D. かさ
+
+10. “ghế” là từ nào?
+    A. いす
+    B. つくえ
+    C. とけい
+    D. かぎ
+
+---
+
+## Block 9: Điền vào câu
+
+1. これは＿＿＿です。
+   A. 本（ほん）
+   B. そうですか
+   C. ちがいます
+   D. どうぞ
+
+2. それは＿＿＿ですか。
+   A. じしょ
+   B. どうも
+   C. そう
+   D. ありがとうございます
+
+3. あれは＿＿＿です。
+   A. カメラ
+   B. あのう
+   C. こちらこそ
+   D. ほんの きもちです
+
+4. この＿＿＿は わたしのです。
+   A. ノート
+   B. そうですか
+   C. ちがいます
+   D. どうも
+
+5. その＿＿＿は だれのですか。
+   A. かばん
+   B. そうです
+   C. なん
+   D. どうぞ
+
+6. あの＿＿＿は いすです。
+   A. つくえ
+   B. これ
+   C. なん
+   D. ちがいます
+
+7. これは なん＿＿＿。
+   A. ですか
+   B. そう
+   C. どうも
+   D. これ
+
+8. これは 日本語（にほんご）の＿＿＿です。
+   A. じしょ
+   B. コーヒー
+   C. チョコレート
+   D. かぎ
+
+9. どうぞ。＿＿＿です。
+   A. ほんの きもち
+   B. ちがいます
+   C. なん
+   D. そうですか
+
+10. ＿＿＿。ありがとうございます。
+    A. どうも
+    B. なん
+    C. あれ
+    D. その
+
+---
+
+## Block 10: Đọc kanji
+
+1. 本 đọc là gì?
+   A. ほん
+   B. ぼん
+   C. もと
+   D. はん
+
+2. 日本語 đọc là gì?
+   A. にほんご
+   B. にちほんご
+   C. ひほんご
+   D. にっぽんご
+
+3. 日本 đọc là gì?
+   A. にほん
+   B. ひほん
+   C. にちほん
+   D. にっほん
+
+4. 語 đọc là gì?
+   A. ご
+   B. こ
+   C. か
+   D. が
+
+5. 何 đọc là gì?
+   A. なん
+   B. なに
+   C. だれ
+   D. どれ
+
+6. 英語 đọc là gì?
+   A. えいご
+   B. えご
+   C. えいこ
+   D. えんご
+
+7. 英 đọc là gì?
+   A. えい
+   B. え
+   C. はな
+   D. ご
+
+8. 何語 đọc là gì?
+   A. なんご
+   B. なにご
+   C. どれご
+   D. だれご
+
+9. 本語 đọc là gì?
+   A. ほんご
+   B. にほんご
+   C. ぼんご
+   D. もとご
+
+10. 日本の本 đọc là gì?
+    A. にほんのほん
+    B. にちほんのほん
+    C. ひほんのぼん
+    D. にほんのぼん
+
+---
+
+## Block 11: Chọn kanji đúng
+
+1. “sách” là kanji nào?
+   A. 本
+   B. 木
+   C. 日
+   D. 語
+
+2. “tiếng Nhật” viết bằng kanji nào?
+   A. 日本語
+   B. 英語
+   C. 日本
+   D. 本
+
+3. “Nhật Bản” viết bằng kanji nào?
+   A. 日本
+   B. 本日
+   C. 英語
+   D. 日本語
+
+4. “tiếng Anh” viết bằng kanji nào?
+   A. 英語
+   B. 日本語
+   C. 本
+   D. 何
+
+5. “ngôn ngữ / tiếng...” là kanji nào?
+   A. 語
+   B. 本
+   C. 日
+   D. 英
+
+6. “cái gì” là kanji nào?
+   A. 何
+   B. 本
+   C. 人
+   D. 日
+
+7. “ngày / mặt trời” là kanji nào?
+   A. 日
+   B. 本
+   C. 語
+   D. 英
+
+8. “Anh / tiếng Anh” thường dùng kanji nào trong 英語?
+   A. 英
+   B. 語
+   C. 本
+   D. 日
+
+9. “日本語（にほんご）” có nghĩa là gì?
+   A. tiếng Nhật
+   B. Nhật Bản
+   C. sách Nhật
+   D. tiếng Anh
+
+10. “英語（えいご）” có nghĩa là gì?
+    A. tiếng Anh
+    B. tiếng Nhật
+    C. sách
+    D. từ điển
+
+---
+
+## Block 12: Chọn từ cùng nhóm chủ đề
+
+1. Từ nào thuộc nhóm “sách / tài liệu”?
+   A. ざっし
+   B. かさ
+   C. カメラ
+   D. コーヒー
+
+2. Từ nào thuộc nhóm “đồ dùng viết”?
+   A. ボールペン
+   B. テレビ
+   C. かばん
+   D. チョコレート
+
+3. Từ nào thuộc nhóm “thiết bị”?
+   A. コンピューター
+   B. えんぴつ
+   C. じしょ
+   D. めいし
+
+4. Từ nào thuộc nhóm “đồ uống / đồ ăn”?
+   A. コーヒー
+   B. ラジオ
+   C. とけい
+   D. ノート
+
+5. Từ nào thuộc nhóm “ngôn ngữ”?
+   A. 日本語（にほんご）
+   B. カメラ
+   C. つくえ
+   D. かぎ
+
+6. Từ nào thuộc nhóm “đồ vật trong phòng”?
+   A. いす
+   B. ありがとうございます
+   C. そうですか
+   D. ちがいます
+
+7. Từ nào thuộc nhóm “lời nói lịch sự”?
+   A. どうぞ
+   B. カード
+   C. しんぶん
+   D. かさ
+
+8. Từ nào thuộc nhóm “chỉ đồ vật”?
+   A. これ
+   B. えいご
+   C. コーヒー
+   D. とけい
+
+9. Từ nào thuộc nhóm “đồ dùng mang theo”?
+   A. かばん
+   B. テレビ
+   C. つくえ
+   D. いす
+
+10. Từ nào thuộc nhóm “máy móc / thiết bị nghe nhìn”?
+    A. テープレコーダー
+    B. じしょ
+    C. てちょう
+    D. めいし
+
+---
+
+## Block 13: Phân biệt từ dễ nhầm
+
+1. これ・それ・あれ khác nhau thế nào?
+   A. これ: cái này, それ: cái đó, あれ: cái kia
+   B. これ: cái kia, それ: cái này, あれ: cái đó
+   C. これ: cái đó, それ: cái kia, あれ: cái này
+   D. Cả ba đều nghĩa là “cái gì”
+
+2. この・その・あの khác nhau thế nào?
+   A. この: này, その: đó, あの: kia
+   B. この: cái này, その: cái đó, あの: cái kia
+   C. この: ai, その: cái gì, あの: ở đâu
+   D. Cả ba đều là danh từ
+
+3. これ và この khác nhau thế nào?
+   A. これ đứng một mình; この đứng trước danh từ
+   B. この đứng một mình; これ đứng trước danh từ
+   C. Cả hai đều chỉ người
+   D. Cả hai đều chỉ nơi chốn
+
+4. それ và その khác nhau thế nào?
+   A. それ đứng một mình; その đứng trước danh từ
+   B. その đứng một mình; それ đứng trước danh từ
+   C. それ nghĩa là cái kia; その nghĩa là cái này
+   D. Cả hai đều nghĩa là “ai”
+
+5. あれ và あの khác nhau thế nào?
+   A. あれ đứng một mình; あの đứng trước danh từ
+   B. あの đứng một mình; あれ đứng trước danh từ
+   C. あれ nghĩa là cái này; あの nghĩa là cái đó
+   D. Cả hai đều nghĩa là “cái gì”
+
+6. 本（ほん） và ノート khác nhau thế nào?
+   A. 本 là sách; ノート là vở
+   B. 本 là vở; ノート là sách
+   C. Cả hai đều là báo
+   D. Cả hai đều là từ điển
+
+7. じしょ và ざっし khác nhau thế nào?
+   A. じしょ là từ điển; ざっし là tạp chí
+   B. じしょ là tạp chí; ざっし là từ điển
+   C. Cả hai đều là báo
+   D. Cả hai đều là vở
+
+8. えんぴつ và ボールペン khác nhau thế nào?
+   A. えんぴつ là bút chì; ボールペン là bút bi
+   B. えんぴつ là bút bi; ボールペン là bút chì
+   C. Cả hai đều là thẻ
+   D. Cả hai đều là sổ tay
+
+9. カセットテープ và テープレコーダー khác nhau thế nào?
+   A. カセットテープ là băng cassette; テープレコーダー là máy ghi âm
+   B. カセットテープ là máy ghi âm; テープレコーダー là băng cassette
+   C. Cả hai đều là máy ảnh
+   D. Cả hai đều là máy tính
+
+10. そうです và そうですか khác nhau thế nào?
+    A. そうです là “đúng vậy”; そうですか là “vậy à”
+    B. そうです là “vậy à”; そうですか là “đúng vậy”
+    C. Cả hai đều nghĩa là “không phải”
+    D. Cả hai đều nghĩa là “cảm ơn”
+
+---
+
+## Block 14: Chọn trợ từ / cụm phù hợp
+
+1. これは 本（ほん）＿＿＿。
+   A. です
+   B. を
+   C. に
+   D. で
+
+2. それは なん＿＿＿。
+   A. ですか
+   B. ますか
+   C. でした
+   D. ません
+
+3. これは 日本語（にほんご）の じしょ＿＿＿。
+   A. です
+   B. を
+   C. に
+   D. で
+
+4. この ノート＿＿＿ わたしのです。
+   A. は
+   B. を
+   C. に
+   D. で
+
+5. その かばん＿＿＿ だれのですか。
+   A. は
+   B. を
+   C. に
+   D. で
+
+6. あれは カメラ＿＿＿。
+   A. です
+   B. を
+   C. に
+   D. で
+
+7. これは えいご＿＿＿ 本（ほん）です。
+   A. の
+   B. を
+   C. に
+   D. で
+
+8. これは わたし＿＿＿ かぎです。
+   A. の
+   B. を
+   C. に
+   D. で
+
+9. これは テレビです＿＿＿。
+   A. か
+   B. を
+   C. に
+   D. で
+
+10. いいえ、＿＿＿。
+    A. ちがいます
+    B. そうですか
+    C. ありがとうございます
+    D. どうぞ

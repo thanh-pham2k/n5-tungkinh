@@ -1,0 +1,202 @@
+| Câu   | Đáp án | Từ đúng                 | Hiragana           | Romaji                            | Nghĩa / giải thích ngắn |   |
+| ----- | ------ | ----------------------- | ------------------ | --------------------------------- | ----------------------- | - |
+| 1.1   | A      | あります                    | あります               | arimasu                           | có / ở đồ vật           |   |
+| 1.2   | A      | います                     | います                | imasu                             | có / ở người vật        |   |
+| 1.3   | A      | いろいろ                    | いろいろ               | iroiro                            | nhiều loại              |   |
+| 1.4   | A      | おとこのひと                  | おとこのひと             | otoko no hito                     | người đàn ông           |   |
+| 1.5   | A      | おんなのひと                  | おんなのひと             | onna no hito                      | người phụ nữ            |   |
+| 1.6   | A      | おとこのこ                   | おとこのこ              | otoko no ko                       | bé trai                 |   |
+| 1.7   | A      | おんなのこ                   | おんなのこ              | onna no ko                        | bé gái                  |   |
+| 1.8   | A      | 犬（いぬ）                   | いぬ                 | inu                               | chó                     |   |
+| 1.9   | A      | ねこ                      | ねこ                 | neko                              | mèo                     |   |
+| 1.10  | A      | パンダ                     | パンダ                | panda                             | gấu trúc                |   |
+| 2.1   | A      | ぞう                      | ぞう                 | zou                               | voi                     |   |
+| 2.2   | A      | 木（き）                    | き                  | ki                                | cây                     |   |
+| 2.3   | A      | もの                      | もの                 | mono                              | đồ vật                  |   |
+| 2.4   | A      | でんち                     | でんち                | denchi                            | pin                     |   |
+| 2.5   | A      | はこ                      | はこ                 | hako                              | hộp                     |   |
+| 2.6   | A      | スイッチ                    | スイッチ               | suicchi                           | công tắc                |   |
+| 2.7   | A      | れいぞうこ                   | れいぞうこ              | reizouko                          | tủ lạnh                 |   |
+| 2.8   | A      | テーブル                    | テーブル               | teeburu                           | bàn                     |   |
+| 2.9   | A      | ベッド                     | ベッド                | beddo                             | giường                  |   |
+| 2.10  | A      | たな                      | たな                 | tana                              | kệ                      |   |
+| 3.1   | A      | ドア                      | ドア                 | doa                               | cửa                     |   |
+| 3.2   | A      | まど                      | まど                 | mado                              | cửa sổ                  |   |
+| 3.3   | A      | ポスト                     | ポスト                | posuto                            | hòm thư                 |   |
+| 3.4   | A      | ビル                      | ビル                 | biru                              | tòa nhà                 |   |
+| 3.5   | A      | こうえん                    | こうえん               | kouen                             | công viên               |   |
+| 3.6   | A      | きっさてん                   | きっさてん              | kissaten                          | quán cà phê             |   |
+| 3.7   | A      | ほんや                     | ほんや                | honya                             | hiệu sách               |   |
+| 3.8   | A      | のりば                     | のりば                | noriba                            | bến lên xe              |   |
+| 3.9   | A      | けん                      | けん                 | ken                               | tỉnh                    |   |
+| 3.10  | A      | 駅（えき）                   | えき                 | eki                               | ga                      |   |
+| 4.1   | A      | 上（うえ）                   | うえ                 | ue                                | trên                    |   |
+| 4.2   | A      | 下（した）                   | した                 | shita                             | dưới                    |   |
+| 4.3   | A      | 前（まえ）                   | まえ                 | mae                               | trước                   |   |
+| 4.4   | A      | うしろ                     | うしろ                | ushiro                            | sau                     |   |
+| 4.5   | A      | 右（みぎ）                   | みぎ                 | migi                              | bên phải                |   |
+| 4.6   | A      | 左（ひだり）                  | ひだり                | hidari                            | bên trái                |   |
+| 4.7   | A      | 中（なか）                   | なか                 | naka                              | bên trong               |   |
+| 4.8   | A      | 外（そと）                   | そと                 | soto                              | bên ngoài               |   |
+| 4.9   | A      | となり                     | となり                | tonari                            | bên cạnh                |   |
+| 4.10  | A      | 近く（ちかく）                 | ちかく                | chikaku                           | gần                     |   |
+| 5.1   | A      | あいだ                     | あいだ                | aida                              | giữa                    |   |
+| 5.2   | A      | いちばん 上（うえ）              | いちばん うえ            | ichiban ue                        | trên cùng               |   |
+| 5.3   | A      | いちばん 下（した）              | いちばん した            | ichiban shita                     | dưới cùng               |   |
+| 5.4   | A      | いちばん 前（まえ）              | いちばん まえ            | ichiban mae                       | trước nhất              |   |
+| 5.5   | A      | いちばん うしろ                | いちばん うしろ           | ichiban ushiro                    | sau cùng                |   |
+| 5.6   | A      | 教室（きょうしつ）               | きょうしつ              | kyoushitsu                        | lớp học                 |   |
+| 5.7   | A      | へや                      | へや                 | heya                              | phòng                   |   |
+| 5.8   | A      | うち                      | うち                 | uchi                              | nhà                     |   |
+| 5.9   | A      | 会社（かいしゃ）                | かいしゃ               | kaisha                            | công ty                 |   |
+| 5.10  | A      | 学校（がっこう）                | がっこう               | gakkou                            | trường học              |   |
+| 6.1   | A      | みせ                      | みせ                 | mise                              | cửa hàng                |   |
+| 6.2   | A      | どこ                      | どこ                 | doko                              | ở đâu                   |   |
+| 6.3   | A      | なに                      | なに                 | nani                              | cái gì                  |   |
+| 6.4   | A      | だれ                      | だれ                 | dare                              | ai                      |   |
+| 6.5   | A      | 〜や 〜など                  | や / など             | ya / nado                         | và, v.v.                |   |
+| 6.6   | A      | へやに ねこが います             | へやに ねこが います        | heya ni neko ga imasu             | trong phòng có mèo      |   |
+| 6.7   | A      | つくえの 上（うえ）に 本（ほん）が あります | つくえの うえに ほんが あります  | tsukue no ue ni hon ga arimasu    | trên bàn có sách        |   |
+| 6.8   | A      | こうえんに 犬（いぬ）が います        | こうえんに いぬが います      | kouen ni inu ga imasu             | công viên có chó        |   |
+| 6.9   | A      | はこの 中（なか）に でんちが あります    | はこの なかに でんちが あります  | hako no naka ni denchi ga arimasu | trong hộp có pin        |   |
+| 6.10  | A      | ドアの 右（みぎ）に スイッチが あります   | ドアの みぎに スイッチが あります | doa no migi ni suicchi ga arimasu | phải cửa có công tắc    |   |
+| 7.1   | A      | あります                    | あります               | arimasu                           | có đồ vật               |   |
+| 7.2   | A      | います                     | います                | imasu                             | có người / vật          |   |
+| 7.3   | A      | いろいろ                    | いろいろ               | iroiro                            | nhiều loại              |   |
+| 7.4   | A      | おとこのひと                  | おとこのひと             | otoko no hito                     | người đàn ông           |   |
+| 7.5   | A      | おんなのひと                  | おんなのひと             | onna no hito                      | người phụ nữ            |   |
+| 7.6   | A      | おとこのこ                   | おとこのこ              | otoko no ko                       | bé trai                 |   |
+| 7.7   | A      | おんなのこ                   | おんなのこ              | onna no ko                        | bé gái                  |   |
+| 7.8   | A      | 犬（いぬ）                   | いぬ                 | inu                               | chó                     |   |
+| 7.9   | A      | ねこ                      | ねこ                 | neko                              | mèo                     |   |
+| 7.10  | A      | ぞう                      | ぞう                 | zou                               | voi                     |   |
+| 8.1   | A      | パンダ                     | パンダ                | panda                             | gấu trúc                |   |
+| 8.2   | A      | 木（き）                    | き                  | ki                                | cây                     |   |
+| 8.3   | A      | もの                      | もの                 | mono                              | đồ vật                  |   |
+| 8.4   | A      | でんち                     | でんち                | denchi                            | pin                     |   |
+| 8.5   | A      | はこ                      | はこ                 | hako                              | hộp                     |   |
+| 8.6   | A      | スイッチ                    | スイッチ               | suicchi                           | công tắc                |   |
+| 8.7   | A      | れいぞうこ                   | れいぞうこ              | reizouko                          | tủ lạnh                 |   |
+| 8.8   | A      | テーブル                    | テーブル               | teeburu                           | bàn                     |   |
+| 8.9   | A      | ベッド                     | ベッド                | beddo                             | giường                  |   |
+| 8.10  | A      | たな                      | たな                 | tana                              | kệ                      |   |
+| 9.1   | A      | ドア                      | ドア                 | doa                               | cửa                     |   |
+| 9.2   | A      | まど                      | まど                 | mado                              | cửa sổ                  |   |
+| 9.3   | A      | ポスト                     | ポスト                | posuto                            | hòm thư                 |   |
+| 9.4   | A      | ビル                      | ビル                 | biru                              | tòa nhà                 |   |
+| 9.5   | A      | こうえん                    | こうえん               | kouen                             | công viên               |   |
+| 9.6   | A      | きっさてん                   | きっさてん              | kissaten                          | quán cà phê             |   |
+| 9.7   | A      | ほんや                     | ほんや                | honya                             | hiệu sách               |   |
+| 9.8   | A      | のりば                     | のりば                | noriba                            | bến lên xe              |   |
+| 9.9   | A      | けん                      | けん                 | ken                               | tỉnh                    |   |
+| 9.10  | A      | みせ                      | みせ                 | mise                              | cửa hàng                |   |
+| 10.1  | A      | 上（うえ）                   | うえ                 | ue                                | trên                    |   |
+| 10.2  | A      | 下（した）                   | した                 | shita                             | dưới                    |   |
+| 10.3  | A      | 前（まえ）                   | まえ                 | mae                               | trước                   |   |
+| 10.4  | A      | うしろ                     | うしろ                | ushiro                            | sau                     |   |
+| 10.5  | A      | 右（みぎ）                   | みぎ                 | migi                              | bên phải                |   |
+| 10.6  | A      | 左（ひだり）                  | ひだり                | hidari                            | bên trái                |   |
+| 10.7  | A      | 中（なか）                   | なか                 | naka                              | bên trong               |   |
+| 10.8  | A      | 外（そと）                   | そと                 | soto                              | bên ngoài               |   |
+| 10.9  | A      | となり                     | となり                | tonari                            | bên cạnh                |   |
+| 10.10 | A      | あいだ                     | あいだ                | aida                              | giữa                    |   |
+| 11.1  | A      | います                     | います                | imasu                             | có động vật             |   |
+| 11.2  | A      | あります                    | あります               | arimasu                           | có đồ vật               |   |
+| 11.3  | A      | います                     | います                | imasu                             | có bé trai              |   |
+| 11.4  | A      | あります                    | あります               | arimasu                           | có pin                  |   |
+| 11.5  | A      | あります                    | あります               | arimasu                           | có công tắc             |   |
+| 11.6  | A      | います                     | います                | imasu                             | có mèo                  |   |
+| 11.7  | A      | あります                    | あります               | arimasu                           | có hộp                  |   |
+| 11.8  | A      | あります                    | あります               | arimasu                           | có hòm thư              |   |
+| 11.9  | A      | あります                    | あります               | arimasu                           | có quán cà phê          |   |
+| 11.10 | A      | あります                    | あります               | arimasu                           | có trường học           |   |
+| 12.1  | A      | 下（した）                   | した                 | shita                             | dưới                    |   |
+| 12.2  | A      | 上（うえ）                   | うえ                 | ue                                | trên                    |   |
+| 12.3  | A      | 中（なか）                   | なか                 | naka                              | bên trong               |   |
+| 12.4  | A      | となり                     | となり                | tonari                            | bên cạnh                |   |
+| 12.5  | A      | 近く（ちかく）                 | ちかく                | chikaku                           | gần                     |   |
+| 12.6  | A      | 前（まえ）                   | まえ                 | mae                               | trước                   |   |
+| 12.7  | A      | うしろ                     | うしろ                | ushiro                            | sau                     |   |
+| 12.8  | A      | 外（そと）                   | そと                 | soto                              | bên ngoài               |   |
+| 12.9  | A      | 中（なか）                   | なか                 | naka                              | bên trong               |   |
+| 12.10 | A      | 前（まえ）                   | まえ                 | mae                               | trước                   |   |
+| 13.1  | A      | 犬（いぬ）                   | いぬ                 | inu                               | chó                     |   |
+| 13.2  | A      | 木（き）                    | き                  | ki                                | cây                     |   |
+| 13.3  | A      | 上（うえ）                   | うえ                 | ue                                | trên                    |   |
+| 13.4  | A      | 下（した）                   | した                 | shita                             | dưới                    |   |
+| 13.5  | A      | 前（まえ）                   | まえ                 | mae                               | trước                   |   |
+| 13.6  | A      | 右（みぎ）                   | みぎ                 | migi                              | bên phải                |   |
+| 13.7  | A      | 左（ひだり）                  | ひだり                | hidari                            | bên trái                |   |
+| 13.8  | A      | 中（なか）                   | なか                 | naka                              | bên trong               |   |
+| 13.9  | A      | 外（そと）                   | そと                 | soto                              | bên ngoài               |   |
+| 13.10 | A      | 駅（えき）                   | えき                 | eki                               | ga                      |   |
+| 14.1  | A      | 教室（きょうしつ）               | きょうしつ              | kyoushitsu                        | lớp học                 |   |
+| 14.2  | A      | 会社（かいしゃ）                | かいしゃ               | kaisha                            | công ty                 |   |
+| 14.3  | A      | 学校（がっこう）                | がっこう               | gakkou                            | trường học              |   |
+| 14.4  | A      | 男の人（おとこのひと）             | おとこのひと             | otoko no hito                     | người đàn ông           |   |
+| 14.5  | A      | 女の人（おんなのひと）             | おんなのひと             | onna no hito                      | người phụ nữ            |   |
+| 14.6  | A      | 男の子（おとこのこ）              | おとこのこ              | otoko no ko                       | bé trai                 |   |
+| 14.7  | A      | 女の子（おんなのこ）              | おんなのこ              | onna no ko                        | bé gái                  |   |
+| 14.8  | A      | 何（なに）                   | なに                 | nani                              | cái gì                  |   |
+| 14.9  | A      | 誰（だれ）                   | だれ                 | dare                              | ai                      |   |
+| 14.10 | A      | 近く（ちかく）                 | ちかく                | chikaku                           | gần                     |   |
+| 15.1  | A      | 犬（いぬ）                   | いぬ                 | inu                               | chó                     |   |
+| 15.2  | A      | 木（き）                    | き                  | ki                                | cây                     |   |
+| 15.3  | A      | 上（うえ）                   | うえ                 | ue                                | trên                    |   |
+| 15.4  | A      | 下（した）                   | した                 | shita                             | dưới                    |   |
+| 15.5  | A      | 前（まえ）                   | まえ                 | mae                               | trước                   |   |
+| 15.6  | A      | 右（みぎ）                   | みぎ                 | migi                              | bên phải                |   |
+| 15.7  | A      | 左（ひだり）                  | ひだり                | hidari                            | bên trái                |   |
+| 15.8  | A      | 中（なか）                   | なか                 | naka                              | bên trong               |   |
+| 15.9  | A      | 外（そと）                   | そと                 | soto                              | bên ngoài               |   |
+| 15.10 | A      | 駅（えき）                   | えき                 | eki                               | ga                      |   |
+| 16.1  | A      | 教室（きょうしつ）               | きょうしつ              | kyoushitsu                        | lớp học                 |   |
+| 16.2  | A      | 会社（かいしゃ）                | かいしゃ               | kaisha                            | công ty                 |   |
+| 16.3  | A      | 学校（がっこう）                | がっこう               | gakkou                            | trường học              |   |
+| 16.4  | A      | 男の人（おとこのひと）             | おとこのひと             | otoko no hito                     | người đàn ông           |   |
+| 16.5  | A      | 女の人（おんなのひと）             | おんなのひと             | onna no hito                      | người phụ nữ            |   |
+| 16.6  | A      | 男の子（おとこのこ）              | おとこのこ              | otoko no ko                       | bé trai                 |   |
+| 16.7  | A      | 女の子（おんなのこ）              | おんなのこ              | onna no ko                        | bé gái                  |   |
+| 16.8  | A      | 何（なに）                   | なに                 | nani                              | cái gì                  |   |
+| 16.9  | A      | 誰（だれ）                   | だれ                 | dare                              | ai                      |   |
+| 16.10 | A      | 近く（ちかく）                 | ちかく                | chikaku                           | gần                     |   |
+| 17.1  | A      | おんなのひと                  | おんなのひと             | onna no hito                      | người                   |   |
+| 17.2  | A      | パンダ                     | パンダ                | panda                             | động vật                |   |
+| 17.3  | A      | ベッド                     | ベッド                | beddo                             | đồ vật trong nhà        |   |
+| 17.4  | A      | でんち                     | でんち                | denchi                            | vật nhỏ                 |   |
+| 17.5  | A      | こうえん                    | こうえん               | kouen                             | địa điểm ngoài nhà      |   |
+| 17.6  | A      | ほんや                     | ほんや                | honya                             | cửa hàng / dịch vụ      |   |
+| 17.7  | A      | 右（みぎ）                   | みぎ                 | migi                              | vị trí                  |   |
+| 17.8  | A      | 学校（がっこう）                | がっこう               | gakkou                            | nơi học                 |   |
+| 17.9  | A      | どこ                      | どこ                 | doko                              | câu hỏi                 |   |
+| 17.10 | A      | 〜や 〜など                  | や / など             | ya / nado                         | liệt kê ví dụ           |   |
+| 18.1  | A      | あります / います              | あります / います         | arimasu / imasu                   | đồ vật / sinh vật       |   |
+| 18.2  | A      | おとこのひと / おんなのひと         | おとこのひと / おんなのひと    | otoko no hito / onna no hito      | đàn ông / phụ nữ        |   |
+| 18.3  | A      | おとこのこ / おんなのこ           | おとこのこ / おんなのこ      | otoko no ko / onna no ko          | bé trai / bé gái        |   |
+| 18.4  | A      | 犬（いぬ） / ねこ              | いぬ / ねこ            | inu / neko                        | chó / mèo               |   |
+| 18.5  | A      | ドア / まど                 | ドア / まど            | doa / mado                        | cửa / cửa sổ            |   |
+| 18.6  | A      | テーブル / ベッド              | テーブル / ベッド         | teeburu / beddo                   | bàn / giường            |   |
+| 18.7  | A      | きっさてん / ほんや             | きっさてん / ほんや        | kissaten / honya                  | cà phê / sách           |   |
+| 18.8  | A      | 上（うえ） / 下（した）           | うえ / した            | ue / shita                        | trên / dưới             |   |
+| 18.9  | A      | 右（みぎ） / 左（ひだり）          | みぎ / ひだり           | migi / hidari                     | phải / trái             |   |
+| 18.10 | A      | 中（なか） / 外（そと）           | なか / そと            | naka / soto                       | trong / ngoài           |   |
+| 19.1  | A      | 前（まえ） / うしろ             | まえ / うしろ           | mae / ushiro                      | trước / sau             |   |
+| 19.2  | A      | となり / 近く（ちかく）           | となり / ちかく          | tonari / chikaku                  | bên cạnh / gần          |   |
+| 19.3  | A      | いちばん 上（うえ） / いちばん 下（した） | いちばん うえ / いちばん した  | ichiban ue / ichiban shita        | trên cùng / dưới cùng   |   |
+| 19.4  | A      | いちばん 前（まえ） / いちばん うしろ   | いちばん まえ / いちばん うしろ | ichiban mae / ichiban ushiro      | trước nhất / sau cùng   |   |
+| 19.5  | A      | 教室（きょうしつ） / へや          | きょうしつ / へや         | kyoushitsu / heya                 | lớp học / phòng         |   |
+| 19.6  | A      | 会社（かいしゃ） / 学校（がっこう）     | かいしゃ / がっこう        | kaisha / gakkou                   | công ty / trường        |   |
+| 19.7  | A      | どこ / なに / だれ            | どこ / なに / だれ       | doko / nani / dare                | đâu / gì / ai           |   |
+| 19.8  | A      | ポスト / のりば               | ポスト / のりば          | posuto / noriba                   | hòm thư / bến xe        |   |
+| 19.9  | A      | ビル / こうえん               | ビル / こうえん          | biru / kouen                      | tòa nhà / công viên     |   |
+| 19.10 | A      | はこ / たな                 | はこ / たな            | hako / tana                       | hộp / kệ                |   |
+| 20.1  | A      | に                       | に                  | ni                                | nơi tồn tại             |   |
+| 20.2  | A      | に                       | に                  | ni                                | vị trí tồn tại          |   |
+| 20.3  | A      | に                       | に                  | ni                                | nơi tồn tại             |   |
+| 20.4  | A      | に                       | に                  | ni                                | bên trong               |   |
+| 20.5  | A      | に                       | に                  | ni                                | bên phải                |   |
+| 20.6  | A      | に                       | に                  | ni                                | bên cạnh                |   |
+| 20.7  | A      | に                       | に                  | ni                                | gần                     |   |
+| 20.8  | A      | に                       | に                  | ni                                | trong phòng             |   |
+| 20.9  | A      | に                       | に                  | ni                                | ở công viên             |   |
+| 20.10 | A      | に                       | に                  | ni                                | ở đâu                   |   |

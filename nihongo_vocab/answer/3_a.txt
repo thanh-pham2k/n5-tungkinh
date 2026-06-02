@@ -1,0 +1,142 @@
+| Câu   | Đáp án | Từ đúng            | Hiragana           | Romaji                           | Nghĩa / giải thích ngắn |   |
+| ----- | ------ | ------------------ | ------------------ | -------------------------------- | ----------------------- | - |
+| 1.1   | B      | ここ                 | ここ                 | koko                             | chỗ này / ở đây         |   |
+| 1.2   | B      | そこ                 | そこ                 | soko                             | chỗ đó / ở đó           |   |
+| 1.3   | A      | あそこ                | あそこ                | asoko                            | chỗ kia / ở kia         |   |
+| 1.4   | D      | どこ                 | どこ                 | doko                             | ở đâu                   |   |
+| 1.5   | A      | こちら                | こちら                | kochira                          | phía này / đây          |   |
+| 1.6   | B      | そちら                | そちら                | sochira                          | phía đó / đó            |   |
+| 1.7   | C      | あちら                | あちら                | achira                           | phía kia / kia          |   |
+| 1.8   | A      | どちら                | どちら                | dochira                          | phía nào / ở đâu        |   |
+| 1.9   | A      | ここは どこですか          | ここは どこですか          | koko wa doko desu ka             | chỗ này ở đâu           |   |
+| 1.10  | A      | こちらは じむしょです        | こちらは じむしょです        | kochira wa jimusho desu          | đây là văn phòng        |   |
+| 2.1   | A      | きょうしつ              | きょうしつ              | kyoushitsu                       | lớp học / phòng học     |   |
+| 2.2   | A      | しょくどう              | しょくどう              | shokudou                         | nhà ăn                  |   |
+| 2.3   | A      | じむしょ               | じむしょ               | jimusho                          | văn phòng               |   |
+| 2.4   | A      | かいぎしつ              | かいぎしつ              | kaigishitsu                      | phòng họp               |   |
+| 2.5   | A      | うけつけ               | うけつけ               | uketsuke                         | quầy tiếp tân           |   |
+| 2.6   | A      | ロビー                | ロビー                | robii                            | sảnh                    |   |
+| 2.7   | A      | へや                 | へや                 | heya                             | phòng                   |   |
+| 2.8   | A      | トイレ                | トイレ                | toire                            | nhà vệ sinh             |   |
+| 2.9   | A      | おてあらい              | おてあらい              | otearai                          | nhà vệ sinh             |   |
+| 2.10  | A      | かいだん               | かいだん               | kaidan                           | cầu thang               |   |
+| 3.1   | A      | エレベーター             | エレベーター             | erebeetaa                        | thang máy               |   |
+| 3.2   | A      | エスカレーター            | エスカレーター            | esukareetaa                      | thang cuốn              |   |
+| 3.3   | A      | 国（くに）              | くに                 | kuni                             | nước / quốc gia         |   |
+| 3.4   | A      | かいしゃ               | かいしゃ               | kaisha                           | công ty                 |   |
+| 3.5   | A      | うち                 | うち                 | uchi                             | nhà                     |   |
+| 3.6   | A      | でんわ                | でんわ                | denwa                            | điện thoại              |   |
+| 3.7   | A      | うりば                | うりば                | uriba                            | quầy bán hàng           |   |
+| 3.8   | A      | ちか                 | ちか                 | chika                            | tầng hầm                |   |
+| 3.9   | A      | 会社（かいしゃ）           | かいしゃ               | kaisha                           | công ty                 |   |
+| 3.10  | A      | うけつけ               | うけつけ               | uketsuke                         | quầy tiếp tân           |   |
+| 4.1   | A      | くつ                 | くつ                 | kutsu                            | giày                    |   |
+| 4.2   | A      | ネクタイ               | ネクタイ               | nekutai                          | cà vạt                  |   |
+| 4.3   | A      | ワイン                | ワイン                | wain                             | rượu vang               |   |
+| 4.4   | A      | たばこ                | たばこ                | tabako                           | thuốc lá                |   |
+| 4.5   | A      | 〜かい                | かい                 | kai                              | tầng ...                |   |
+| 4.6   | A      | なんがい               | なんがい               | nangai                           | tầng mấy                |   |
+| 4.7   | A      | 〜えん                | えん                 | en                               | ... yên                 |   |
+| 4.8   | A      | いくら                | いくら                | ikura                            | bao nhiêu tiền          |   |
+| 4.9   | A      | ひゃく                | ひゃく                | hyaku                            | một trăm                |   |
+| 4.10  | A      | せん                 | せん                 | sen                              | một nghìn               |   |
+| 5.1   | A      | まん                 | まん                 | man                              | mười nghìn              |   |
+| 5.2   | A      | すみません              | すみません              | sumimasen                        | xin lỗi / làm phiền     |   |
+| 5.3   | A      | どうも                | どうも                | doumo                            | cảm ơn / rất            |   |
+| 5.4   | A      | どうも すみません          | どうも すみません          | doumo sumimasen                  | rất xin lỗi             |   |
+| 5.5   | A      | いらっしゃいませ           | いらっしゃいませ           | irasshaimase                     | kính chào quý khách     |   |
+| 5.6   | A      | みせてください            | みせてください            | misete kudasai                   | xin cho xem             |   |
+| 5.7   | A      | じゃ                 | じゃ                 | ja                               | vậy thì                 |   |
+| 5.8   | A      | これを ください           | これを ください           | kore o kudasai                   | cho tôi cái này         |   |
+| 5.9   | A      | すみません、これは いくらですか   | すみません、これは いくらですか   | sumimasen, kore wa ikura desu ka | cái này bao nhiêu       |   |
+| 5.10  | A      | じゃ、これを ください        | じゃ、これを ください        | ja, kore o kudasai               | vậy cho cái này         |   |
+| 6.1   | A      | ここ                 | ここ                 | koko                             | chỗ này / ở đây         |   |
+| 6.2   | A      | そこ                 | そこ                 | soko                             | chỗ đó / ở đó           |   |
+| 6.3   | A      | あそこ                | あそこ                | asoko                            | chỗ kia / ở kia         |   |
+| 6.4   | A      | どこ                 | どこ                 | doko                             | ở đâu                   |   |
+| 6.5   | A      | こちら                | こちら                | kochira                          | phía này / đây          |   |
+| 6.6   | A      | そちら                | そちら                | sochira                          | phía đó / đó            |   |
+| 6.7   | A      | あちら                | あちら                | achira                           | phía kia / kia          |   |
+| 6.8   | A      | どちら                | どちら                | dochira                          | phía nào / ở đâu        |   |
+| 6.9   | A      | きょうしつ              | きょうしつ              | kyoushitsu                       | lớp học / phòng học     |   |
+| 6.10  | A      | しょくどう              | しょくどう              | shokudou                         | nhà ăn                  |   |
+| 7.1   | A      | じむしょ               | じむしょ               | jimusho                          | văn phòng               |   |
+| 7.2   | A      | かいぎしつ              | かいぎしつ              | kaigishitsu                      | phòng họp               |   |
+| 7.3   | A      | うけつけ               | うけつけ               | uketsuke                         | quầy tiếp tân           |   |
+| 7.4   | A      | ロビー                | ロビー                | robii                            | sảnh                    |   |
+| 7.5   | A      | へや                 | へや                 | heya                             | phòng                   |   |
+| 7.6   | A      | トイレ                | トイレ                | toire                            | nhà vệ sinh             |   |
+| 7.7   | A      | かいだん               | かいだん               | kaidan                           | cầu thang               |   |
+| 7.8   | A      | エレベーター             | エレベーター             | erebeetaa                        | thang máy               |   |
+| 7.9   | A      | エスカレーター            | エスカレーター            | esukareetaa                      | thang cuốn              |   |
+| 7.10  | A      | ちか                 | ちか                 | chika                            | tầng hầm                |   |
+| 8.1   | A      | 国（くに）              | くに                 | kuni                             | nước / quốc gia         |   |
+| 8.2   | A      | かいしゃ               | かいしゃ               | kaisha                           | công ty                 |   |
+| 8.3   | A      | うち                 | うち                 | uchi                             | nhà                     |   |
+| 8.4   | A      | でんわ                | でんわ                | denwa                            | điện thoại              |   |
+| 8.5   | A      | くつ                 | くつ                 | kutsu                            | giày                    |   |
+| 8.6   | A      | ネクタイ               | ネクタイ               | nekutai                          | cà vạt                  |   |
+| 8.7   | A      | ワイン                | ワイン                | wain                             | rượu vang               |   |
+| 8.8   | A      | たばこ                | たばこ                | tabako                           | thuốc lá                |   |
+| 8.9   | A      | うりば                | うりば                | uriba                            | quầy bán hàng           |   |
+| 8.10  | A      | いくら                | いくら                | ikura                            | bao nhiêu tiền          |   |
+| 9.1   | A      | きょうしつ              | きょうしつ              | kyoushitsu                       | là phòng học            |   |
+| 9.2   | A      | じむしょ               | じむしょ               | jimusho                          | là văn phòng            |   |
+| 9.3   | A      | しょくどう              | しょくどう              | shokudou                         | là nhà ăn               |   |
+| 9.4   | A      | どこ                 | どこ                 | doko                             | ở đâu                   |   |
+| 9.5   | A      | こちら                | こちら                | kochira                          | phía này                |   |
+| 9.6   | A      | どちら                | どちら                | dochira                          | phía nào                |   |
+| 9.7   | A      | いくら                | いくら                | ikura                            | bao nhiêu tiền          |   |
+| 9.8   | A      | ください               | ください               | kudasai                          | xin cho                 |   |
+| 9.9   | A      | みせてください            | みせてください            | misete kudasai                   | xin cho xem             |   |
+| 9.10  | A      | これ                 | これ                 | kore                             | cái này                 |   |
+| 10.1  | A      | 国（くに）              | くに                 | kuni                             | nước / quốc gia         |   |
+| 10.2  | A      | 会社（かいしゃ）           | かいしゃ               | kaisha                           | công ty                 |   |
+| 10.3  | A      | 電話（でんわ）            | でんわ                | denwa                            | điện thoại              |   |
+| 10.4  | A      | 円（えん）              | えん                 | en                               | yên                     |   |
+| 10.5  | A      | 百（ひゃく）             | ひゃく                | hyaku                            | một trăm                |   |
+| 10.6  | A      | 千（せん）              | せん                 | sen                              | một nghìn               |   |
+| 10.7  | A      | 万（まん）              | まん                 | man                              | mười nghìn              |   |
+| 10.8  | A      | 何階（なんがい）           | なんがい               | nangai                           | tầng mấy                |   |
+| 10.9  | A      | 地下（ちか）             | ちか                 | chika                            | tầng hầm                |   |
+| 10.10 | A      | お手洗い（おてあらい）        | おてあらい              | otearai                          | nhà vệ sinh             |   |
+| 11.1  | A      | 国（くに）              | くに                 | kuni                             | nước / quốc gia         |   |
+| 11.2  | A      | 会社（かいしゃ）           | かいしゃ               | kaisha                           | công ty                 |   |
+| 11.3  | A      | 電話（でんわ）            | でんわ                | denwa                            | điện thoại              |   |
+| 11.4  | A      | 円（えん）              | えん                 | en                               | yên                     |   |
+| 11.5  | A      | 百（ひゃく）             | ひゃく                | hyaku                            | một trăm                |   |
+| 11.6  | A      | 千（せん）              | せん                 | sen                              | một nghìn               |   |
+| 11.7  | A      | 万（まん）              | まん                 | man                              | mười nghìn              |   |
+| 11.8  | A      | 地下（ちか）             | ちか                 | chika                            | tầng hầm                |   |
+| 11.9  | A      | 何階（なんがい）           | なんがい               | nangai                           | tầng mấy                |   |
+| 11.10 | A      | お手洗い（おてあらい）        | おてあらい              | otearai                          | nhà vệ sinh             |   |
+| 12.1  | A      | きょうしつ              | きょうしつ              | kyoushitsu                       | địa điểm tòa nhà        |   |
+| 12.2  | A      | ここ                 | ここ                 | koko                             | nơi chốn                |   |
+| 12.3  | A      | エレベーター             | エレベーター             | erebeetaa                        | thiết bị di chuyển      |   |
+| 12.4  | A      | うりば                | うりば                | uriba                            | mua sắm                 |   |
+| 12.5  | A      | 〜えん                | えん                 | en                               | số tiền                 |   |
+| 12.6  | A      | ネクタイ               | ネクタイ               | nekutai                          | đồ cá nhân              |   |
+| 12.7  | A      | いらっしゃいませ           | いらっしゃいませ           | irasshaimase                     | câu cửa hàng            |   |
+| 12.8  | A      | いくら                | いくら                | ikura                            | hỏi giá                 |   |
+| 12.9  | A      | なんがい               | なんがい               | nangai                           | hỏi tầng                |   |
+| 12.10 | A      | どうも すみません          | どうも すみません          | doumo sumimasen                  | xin lỗi / cảm ơn        |   |
+| 13.1  | A      | ここ / そこ / あそこ      | ここ / そこ / あそこ      | koko / soko / asoko              | đây / đó / kia          |   |
+| 13.2  | A      | どこ / どちら           | どこ / どちら           | doko / dochira                   | thường / lịch sự        |   |
+| 13.3  | A      | こちら / そちら / あちら    | こちら / そちら / あちら    | kochira / sochira / achira       | này / đó / kia          |   |
+| 13.4  | A      | トイレ / おてあらい        | トイレ / おてあらい        | toire / otearai                  | thường / lịch sự        |   |
+| 13.5  | A      | エレベーター / エスカレーター   | エレベーター / エスカレーター   | erebeetaa / esukareetaa          | thang máy / cuốn        |   |
+| 13.6  | A      | うけつけ / うりば         | うけつけ / うりば         | uketsuke / uriba                 | tiếp tân / bán hàng     |   |
+| 13.7  | A      | なんがい / いくら         | なんがい / いくら         | nangai / ikura                   | hỏi tầng / giá          |   |
+| 13.8  | A      | ひゃく / せん / まん      | ひゃく / せん / まん      | hyaku / sen / man                | 100 / 1000 / 10000      |   |
+| 13.9  | A      | すみません / どうも すみません  | すみません / どうも すみません  | sumimasen / doumo sumimasen      | nhẹ / nhấn mạnh         |   |
+| 13.10 | A      | みせてください / これを ください | みせてください / これを ください | misete kudasai / kore o kudasai  | xem / lấy cái này       |   |
+| 14.1  | A      | は                  | は                  | wa                               | nêu chủ đề              |   |
+| 14.2  | A      | は                  | は                  | wa                               | nêu chủ đề              |   |
+| 14.3  | A      | です                 | です                 | desu                             | là                      |   |
+| 14.4  | A      | ですか                | ですか                | desu ka                          | hỏi tầng                |   |
+| 14.5  | A      | ですか                | ですか                | desu ka                          | hỏi giá                 |   |
+| 14.6  | A      | を                  | を                  | o                                | chỉ đối tượng           |   |
+| 14.7  | A      | を                  | を                  | o                                | chỉ đối tượng           |   |
+| 14.8  | A      | です                 | です                 | desu                             | là                      |   |
+| 14.9  | A      | です                 | です                 | desu                             | là                      |   |
+| 14.10 | A      | を                  | を                  | o                                | chỉ đối tượng           |   |

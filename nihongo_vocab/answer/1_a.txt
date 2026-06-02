@@ -1,0 +1,132 @@
+| Câu   | Đáp án | Từ đúng              | Hiragana        | Romaji                         | Nghĩa / giải thích ngắn  |
+| ----- | ------ | -------------------- | --------------- | ------------------------------ | ------------------------ |
+| 1.1   | B      | わたし                  | わたし             | watashi                        | tôi                      |
+| 1.2   | A      | わたしたち                | わたしたち           | watashitachi                   | chúng tôi / chúng ta     |
+| 1.3   | B      | あなた                  | あなた             | anata                          | bạn                      |
+| 1.4   | A      | あのひと                 | あのひと            | ano hito                       | người kia                |
+| 1.5   | B      | あのかた                 | あのかた            | ano kata                       | vị kia                   |
+| 1.6   | C      | みなさん                 | みなさん            | minasan                        | mọi người                |
+| 1.7   | A      | 〜さん                  | さん              | san                            | gọi lịch sự              |
+| 1.8   | B      | 〜ちゃん                 | ちゃん             | chan                           | gọi thân mật             |
+| 1.9   | A      | 〜くん                  | くん              | kun                            | gọi nam nhỏ              |
+| 1.10  | A      | 〜じん                  | じん              | jin                            | người nước...            |
+| 2.1   | B      | 先生（せんせい）             | せんせい            | sensei                         | giáo viên / thầy cô      |
+| 2.2   | A      | きょうし                 | きょうし            | kyoushi                        | nghề giáo viên           |
+| 2.3   | B      | 学生（がくせい）             | がくせい            | gakusei                        | học sinh / sinh viên     |
+| 2.4   | A      | かいしゃいん               | かいしゃいん          | kaishain                       | nhân viên công ty        |
+| 2.5   | A      | しゃいん                 | しゃいん            | shain                          | nhân viên công ty cụ thể |
+| 2.6   | B      | ぎんこういん               | ぎんこういん          | ginkouin                       | nhân viên ngân hàng      |
+| 2.7   | A      | いしゃ                  | いしゃ             | isha                           | bác sĩ                   |
+| 2.8   | B      | けんきゅうしゃ              | けんきゅうしゃ         | kenkyuusha                     | nhà nghiên cứu           |
+| 2.9   | B      | エンジニア                | エンジニア           | enjinia                        | kỹ sư                    |
+| 2.10  | C      | 大学（だいがく）             | だいがく            | daigaku                        | đại học                  |
+| 3.1   | B      | びょういん                | びょういん           | byouin                         | bệnh viện                |
+| 3.2   | A      | でんき                  | でんき             | denki                          | điện / đèn               |
+| 3.3   | A      | だれ                   | だれ              | dare                           | ai                       |
+| 3.4   | A      | どなた                  | どなた             | donata                         | ai / vị nào              |
+| 3.5   | A      | 〜さい                  | さい              | sai                            | ... tuổi                 |
+| 3.6   | B      | なんさい                 | なんさい            | nansai                         | mấy tuổi                 |
+| 3.7   | A      | おいくつ                 | おいくつ            | oikutsu                        | bao nhiêu tuổi           |
+| 3.8   | B      | はい                   | はい              | hai                            | vâng                     |
+| 3.9   | B      | いいえ                  | いいえ             | iie                            | không                    |
+| 3.10  | A      | しつれいですが              | しつれいですが         | shitsurei desu ga              | xin lỗi nhưng            |
+| 4.1   | B      | おなまえは                | おなまえは           | onamae wa                      | tên là gì                |
+| 4.2   | A      | はじめまして               | はじめまして          | hajimemashite                  | lần đầu gặp              |
+| 4.3   | A      | どうぞ よろしく             | どうぞ よろしく        | douzo yoroshiku                | mong giúp đỡ             |
+| 4.4   | B      | こちらは〜さんです            | こちらは さんです       | kochira wa san desu            | đây là anh/chị           |
+| 4.5   | A      | 〜から きました             | から きました         | kara kimashita                 | đến từ...                |
+| 4.6   | A      | しつれいですが、おなまえは？       | しつれいですが、おなまえは   | shitsurei desu ga, onamae wa   | xin hỏi tên              |
+| 4.7   | A      | はじめまして。どうぞ よろしく。     | はじめまして。どうぞ よろしく | hajimemashite. douzo yoroshiku | chào lần đầu             |
+| 4.8   | A      | 先生（せんせい）             | せんせい            | sensei                         | giáo viên                |
+| 4.9   | A      | ベトナムから きました          | ベトナムから きました     | betonamu kara kimashita        | đến từ Việt Nam          |
+| 4.10  | A      | あのかたは どなたですか         | あのかたは どなたですか    | ano kata wa donata desu ka     | vị kia là ai             |
+| 5.1   | B      | アメリカ                 | アメリカ            | amerika                        | Mỹ                       |
+| 5.2   | B      | イギリス                 | イギリス            | igirisu                        | Anh                      |
+| 5.3   | A      | インド                  | インド             | indo                           | Ấn Độ                    |
+| 5.4   | B      | インドネシア               | インドネシア          | indoneshia                     | Indonesia                |
+| 5.5   | B      | 韓国（かんこく）             | かんこく            | kankoku                        | Hàn Quốc                 |
+| 5.6   | A      | タイ                   | タイ              | tai                            | Thái Lan                 |
+| 5.7   | B      | 中国（ちゅうごく）            | ちゅうごく           | chuugoku                       | Trung Quốc               |
+| 5.8   | B      | ドイツ                  | ドイツ             | doitsu                         | Đức                      |
+| 5.9   | B      | 日本（にほん）              | にほん             | nihon                          | Nhật Bản                 |
+| 5.10  | A      | フランス                 | フランス            | furansu                        | Pháp                     |
+| 6.1   | A      | わたし                  | わたし             | watashi                        | tôi                      |
+| 6.2   | A      | わたしたち                | わたしたち           | watashitachi                   | chúng tôi / chúng ta     |
+| 6.3   | B      | あなた                  | あなた             | anata                          | bạn                      |
+| 6.4   | A      | みなさん                 | みなさん            | minasan                        | mọi người                |
+| 6.5   | B      | 先生（せんせい）             | せんせい            | sensei                         | giáo viên                |
+| 6.6   | B      | 学生（がくせい）             | がくせい            | gakusei                        | học sinh / sinh viên     |
+| 6.7   | A      | いしゃ                  | いしゃ             | isha                           | bác sĩ                   |
+| 6.8   | A      | エンジニア                | エンジニア           | enjinia                        | kỹ sư                    |
+| 6.9   | B      | 大学（だいがく）             | だいがく            | daigaku                        | đại học                  |
+| 6.10  | B      | びょういん                | びょういん           | byouin                         | bệnh viện                |
+| 7.1   | A      | アメリカ                 | アメリカ            | amerika                        | Mỹ                       |
+| 7.2   | B      | イギリス                 | イギリス            | igirisu                        | Anh                      |
+| 7.3   | A      | インド                  | インド             | indo                           | Ấn Độ                    |
+| 7.4   | B      | インドネシア               | インドネシア          | indoneshia                     | Indonesia                |
+| 7.5   | A      | 韓国（かんこく）             | かんこく            | kankoku                        | Hàn Quốc                 |
+| 7.6   | A      | タイ                   | タイ              | tai                            | Thái Lan                 |
+| 7.7   | B      | 中国（ちゅうごく）            | ちゅうごく           | chuugoku                       | Trung Quốc               |
+| 7.8   | A      | ドイツ                  | ドイツ             | doitsu                         | Đức                      |
+| 7.9   | A      | 日本（にほん）              | にほん             | nihon                          | Nhật Bản                 |
+| 7.10  | B      | ベトナム                 | ベトナム            | betonamu                       | Việt Nam                 |
+| 8.1   | A      | 学生（がくせい）             | がくせい            | gakusei                        | là học sinh              |
+| 8.2   | A      | 先生（せんせい）             | せんせい            | sensei                         | là giáo viên             |
+| 8.3   | A      | 田中（たなか）さん            | たなかさん           | tanaka san                     | anh/chị Tanaka           |
+| 8.4   | A      | きました                 | きました            | kimashita                      | đã đến                   |
+| 8.5   | A      | おなまえ                 | おなまえ            | onamae                         | tên                      |
+| 8.6   | A      | エンジニア                | エンジニア           | enjinia                        | kỹ sư                    |
+| 8.7   | A      | どなた                  | どなた             | donata                         | vị nào                   |
+| 8.8   | A      | さい                   | さい              | sai                            | tuổi                     |
+| 8.9   | A      | から                   | から              | kara                           | từ                       |
+| 8.10  | A      | はじめまして               | はじめまして          | hajimemashite                  | chào lần đầu             |
+| 9.1   | A      | 先生（せんせい）             | せんせい            | sensei                         | thầy cô                  |
+| 9.2   | A      | 学生（がくせい）             | がくせい            | gakusei                        | học sinh                 |
+| 9.3   | A      | 大学（だいがく）             | だいがく            | daigaku                        | đại học                  |
+| 9.4   | A      | 日本（にほん）              | にほん             | nihon                          | Nhật Bản                 |
+| 9.5   | A      | 中国（ちゅうごく）            | ちゅうごく           | chuugoku                       | Trung Quốc               |
+| 9.6   | A      | 韓国（かんこく）             | かんこく            | kankoku                        | Hàn Quốc                 |
+| 9.7   | A      | 人（ひと）                | ひと              | hito                           | người                    |
+| 9.8   | A      | 国（くに）                | くに              | kuni                           | nước                     |
+| 9.9   | A      | 大（おお）                | おお              | oo                             | lớn                      |
+| 9.10  | A      | 学（がく）                | がく              | gaku                           | học                      |
+| 10.1  | A      | 人（ひと）                | ひと              | hito                           | người                    |
+| 10.2  | A      | 学（がく）                | がく              | gaku                           | học                      |
+| 10.3  | A      | 生（せい）                | せい              | sei                            | sinh / sống              |
+| 10.4  | A      | 大（だい）                | だい              | dai                            | lớn / đại                |
+| 10.5  | A      | 国（くに）                | くに              | kuni                           | nước / quốc gia          |
+| 10.6  | A      | 日本（にほん）              | にほん             | nihon                          | Nhật Bản                 |
+| 10.7  | B      | 中国（ちゅうごく）            | ちゅうごく           | chuugoku                       | Trung Quốc               |
+| 10.8  | A      | 韓国（かんこく）             | かんこく            | kankoku                        | Hàn Quốc                 |
+| 10.9  | A      | 先生（せんせい）             | せんせい            | sensei                         | giáo viên                |
+| 10.10 | A      | 学生（がくせい）             | がくせい            | gakusei                        | học sinh / sinh viên     |
+| 11.1  | A      | アメリカ                 | アメリカ            | amerika                        | quốc gia                 |
+| 11.2  | A      | エンジニア                | エンジニア           | enjinia                        | nghề nghiệp              |
+| 11.3  | A      | 〜さん                  | さん              | san                            | cách gọi                 |
+| 11.4  | A      | なんさい                 | なんさい            | nansai                         | hỏi tuổi                 |
+| 11.5  | A      | びょういん                | びょういん           | byouin                         | nơi chốn                 |
+| 11.6  | A      | はじめまして               | はじめまして          | hajimemashite                  | lời chào                 |
+| 11.7  | A      | わたし                  | わたし             | watashi                        | nhân xưng                |
+| 11.8  | A      | けんきゅうしゃ              | けんきゅうしゃ         | kenkyuusha                     | nghề nghiệp              |
+| 11.9  | A      | タイ                   | タイ              | tai                            | quốc gia châu Á          |
+| 11.10 | A      | はい                   | はい              | hai                            | trả lời có               |
+| 12.1  | A      | 先生（せんせい） / きょうし      | せんせい / きょうし     | sensei / kyoushi               | cách gọi / nghề          |
+| 12.2  | A      | だれ / どなた             | だれ / どなた        | dare / donata                  | thường / lịch sự         |
+| 12.3  | A      | あのひと / あのかた          | あのひと / あのかた     | ano hito / ano kata            | thường / lịch sự         |
+| 12.4  | A      | なんさい / おいくつ          | なんさい / おいくつ     | nansai / oikutsu               | thường / lịch sự         |
+| 12.5  | A      | かいしゃいん / しゃいん        | かいしゃいん / しゃいん   | kaishain / shain               | chung / cụ thể           |
+| 12.6  | A      | 〜さん / 〜ちゃん           | さん / ちゃん        | san / chan                     | lịch sự / thân mật       |
+| 12.7  | A      | はい / いいえ             | はい / いいえ        | hai / iie                      | vâng / không             |
+| 12.8  | A      | インド / インドネシア         | インド / インドネシア    | indo / indoneshia              | Ấn Độ / Indonesia        |
+| 12.9  | A      | アメリカ / イギリス          | アメリカ / イギリス     | amerika / igirisu              | Mỹ / Anh                 |
+| 12.10 | A      | 韓国（かんこく） / 中国（ちゅうごく） | かんこく / ちゅうごく    | kankoku / chuugoku             | Hàn / Trung              |
+| 13.1  | A      | は                    | は               | wa                             | nêu chủ đề               |
+| 13.2  | A      | は                    | は               | wa                             | nêu chủ đề               |
+| 13.3  | A      | から                   | から              | kara                           | từ                       |
+| 13.4  | A      | は                    | は               | wa                             | nêu chủ đề               |
+| 13.5  | A      | は                    | は               | wa                             | nêu chủ đề               |
+| 13.6  | A      | です                   | です              | desu                           | là                       |
+| 13.7  | A      | じん                   | じん              | jin                            | người nước...            |
+| 13.8  | A      | さい                   | さい              | sai                            | tuổi                     |
+| 13.9  | A      | しつれい                 | しつれい            | shitsurei                      | thất lễ                  |
+| 13.10 | A      | よろしく                 | よろしく            | yoroshiku                      | mong giúp đỡ             |
