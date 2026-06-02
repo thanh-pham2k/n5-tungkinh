@@ -407,11 +407,18 @@
 
     @media (max-width: 768px) {
       body {
-        padding: 16px;
+        display: block;
+        min-height: auto;
+        padding: 0;
       }
 
       main {
-        padding: 16px;
+        width: 100%;
+        min-height: 100vh;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 14px;
       }
 
       h1 {
@@ -420,6 +427,15 @@
 
       h2 {
         font-size: 16px;
+      }
+
+      p {
+        margin-bottom: 12px;
+      }
+
+      section {
+        margin-top: 14px;
+        padding-top: 14px;
       }
 
       .public-layout {
@@ -439,6 +455,30 @@
 
       .grammar-layout {
         grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .grammar-selector {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 6px;
+        margin-left: -14px;
+        margin-right: -14px;
+        overflow-x: auto;
+        padding: 0 14px 2px;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .grammar-selector::-webkit-scrollbar {
+        display: none;
+      }
+
+      .grammar-selector button {
+        flex: 0 0 auto;
+        min-height: 38px;
+        min-width: 68px;
+        padding: 0 8px;
       }
 
       .kana-layout {
@@ -454,8 +494,25 @@
       }
 
       .tabs {
-        display: grid;
-        grid-template-columns: 1fr;
+        flex-wrap: nowrap;
+        gap: 6px;
+        margin-left: -14px;
+        margin-right: -14px;
+        overflow-x: auto;
+        padding: 14px 14px 2px;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .tabs::-webkit-scrollbar {
+        display: none;
+      }
+
+      .tab-button {
+        flex: 0 0 auto;
+        min-height: 38px;
+        padding: 0 12px;
+        white-space: nowrap;
       }
 
       .grammar-table {
@@ -475,7 +532,7 @@
 
     @media (max-width: 420px) {
       body {
-        padding: 10px;
+        padding: 0;
       }
 
       main {
@@ -492,6 +549,26 @@
 
       .vocab-panel {
         max-height: 45vh;
+      }
+
+      .lesson-switcher button {
+        min-height: 34px;
+        padding: 0 10px;
+      }
+
+      .kana-card,
+      .grammar-topic,
+      .vocab-panel {
+        padding: 12px;
+      }
+
+      .kana-table th,
+      .kana-table td {
+        padding: 6px 4px;
+      }
+
+      .kana-char {
+        font-size: 22px;
       }
 
       button,
