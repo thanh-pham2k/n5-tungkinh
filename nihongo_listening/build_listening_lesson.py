@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import html
+import csv
+import io
 import json
 import re
 import shutil
@@ -165,6 +167,62 @@ def parse_timeline_rows(raw_text: str) -> list[TimelineRow]:
     return rows
 
 
+def parse_csv_segments(raw_text: str) -> list[Segment]:
+    if "Start time" not in raw_text or "End time" not in raw_text:
+        return []
+
+    reader = csv.DictReader(io.StringIO(raw_text))
+    required_columns = {"Start time", "End time", "Speaker", "Script segment"}
+    if not reader.fieldnames or not required_columns.issubset(set(reader.fieldnames)):
+        warn("segment_define có vẻ là CSV nhưng thiếu cột Start time/End time/Speaker/Script segment.")
+        return []
+
+    segments: list[Segment] = []
+    current_rows: list[TimelineRow] = []
+
+    def flush_current() -> None:
+        if not current_rows:
+            return
+        number = len(segments) + 1
+        start_ms = min(row.start_ms for row in current_rows)
+        end_ms = max(row.end_ms for row in current_rows)
+        text = "\n".join(row.text for row in current_rows)
+        segments.append(Segment(number, start_ms, end_ms, f"Đoạn {number}", text))
+        current_rows.clear()
+
+    for line_no, row in enumerate(reader, start=2):
+        script_segment = (row.get("Script segment") or "").strip()
+        speaker = (row.get("Speaker") or "").strip()
+        start_text = (row.get("Start time") or "").strip()
+        end_text = (row.get("End time") or "").strip()
+
+        if script_segment.startswith("Đáp án đúng"):
+            flush_current()
+            continue
+
+        if not start_text or not end_text:
+            if script_segment:
+                warn(f"Bỏ qua dòng CSV {line_no} vì thiếu Start/End: {script_segment}")
+            continue
+
+        try:
+            start_ms = parse_time_to_ms(start_text)
+            end_ms = parse_time_to_ms(end_text)
+        except ValueError as exc:
+            warn(f"Bỏ qua dòng CSV {line_no}: {exc}")
+            continue
+
+        if end_ms <= start_ms:
+            warn(f"Bỏ qua dòng CSV {line_no} vì End <= Start: {start_text} - {end_text}")
+            continue
+
+        label = f"{speaker}: {script_segment}" if speaker else script_segment
+        current_rows.append(TimelineRow(start_ms=start_ms, end_ms=end_ms, text=label))
+
+    flush_current()
+    return segments
+
+
 def is_short_leading_marker(row: TimelineRow) -> bool:
     text = row.text
     duration_ms = row.end_ms - row.start_ms
@@ -223,6 +281,10 @@ def fallback_rows_as_segments(rows: Iterable[TimelineRow]) -> list[Segment]:
 
 def parse_segments(segment_define_path: Path) -> list[Segment]:
     raw_text = read_text(segment_define_path)
+    csv_segments = parse_csv_segments(raw_text)
+    if csv_segments:
+        return csv_segments
+
     rows = parse_timeline_rows(raw_text)
     segments = group_rows_by_dialogue_marker(rows)
     if not segments:
@@ -307,6 +369,8 @@ def ensure_pydub_available():
 def cut_audio_segments(audio_path: Path, segments: list[Segment], output_audio_dir: Path) -> int:
     AudioSegment = ensure_pydub_available()
     output_audio_dir.mkdir(parents=True, exist_ok=True)
+    for old_file in output_audio_dir.glob("segment_*.mp3"):
+        old_file.unlink()
     audio = AudioSegment.from_file(audio_path)
     exported = 0
 
