@@ -1,0 +1,1183 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JLPT N5 Listening - Bài 3</title>
+  <style>
+    :root {
+      --bg: #f6f8fb; --panel: #fff; --text: #162033; --muted: #64748b;
+      --line: #dbe3ef; --primary: #0f766e; --primary-soft: #e1f4f1;
+      --ok: #147a3d; --bad: #b42318; --shadow: 0 12px 28px rgba(15,23,42,.08);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: Arial, sans-serif; line-height: 1.5; }
+    header { position: sticky; top: 0; z-index: 5; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.96); padding: 14px 16px; }
+    .header-inner { max-width: 960px; margin: 0 auto; display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { margin-bottom: 2px; font-size: clamp(20px, 4vw, 30px); }
+    .hint { margin: 0; color: var(--muted); }
+    .score { min-width: max-content; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 8px 10px; font-weight: 700; color: var(--muted); }
+    main { width: min(960px, 100%); margin: 0 auto; padding: 16px; display: grid; gap: 14px; }
+    .segment-card { border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); padding: 16px; }
+    .segment-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
+    .eyebrow { margin: 0 0 4px; color: var(--primary); font-size: 13px; font-weight: 800; text-transform: uppercase; }
+    h2 { margin-bottom: 0; font-size: clamp(18px, 3vw, 24px); }
+    .time { color: var(--muted); font-weight: 700; }
+    audio { width: 100%; display: block; margin: 12px 0; }
+    button { min-height: 42px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 8px 12px; font-weight: 700; cursor: pointer; }
+    button:hover { border-color: var(--primary); color: var(--primary); }
+    .toggle-script { margin-bottom: 12px; }
+    .script-text { width: 100%; margin: 0 0 14px; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 12px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 15px; }
+    .quiz { border-top: 1px solid var(--line); padding-top: 14px; }
+    .question { margin-bottom: 4px; font-weight: 800; font-size: 17px; }
+    .subline { margin: 0 0 6px; color: var(--muted); }
+    .options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 12px 0; }
+    .option { min-height: 68px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 10px; display: grid; grid-template-columns: 26px minmax(0, 1fr); column-gap: 8px; align-items: start; cursor: pointer; }
+    .option:has(input:checked) { border-color: var(--primary); background: var(--primary-soft); }
+    .option input { margin-top: 5px; }
+    .option-key { font-weight: 800; }
+    .option-text { font-weight: 800; overflow-wrap: anywhere; }
+    .option-meaning { grid-column: 2; color: var(--muted); font-size: 14px; overflow-wrap: anywhere; }
+    .check-answer { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .feedback { min-height: 24px; margin-top: 10px; font-weight: 800; }
+    .feedback.ok { color: var(--ok); }
+    .feedback.bad { color: var(--bad); }
+    .explanation { margin: 4px 0 0; color: var(--muted); }
+    @media (max-width: 640px) {
+      header { position: static; } .header-inner { align-items: flex-start; flex-direction: column; }
+      .score, button { width: 100%; } main { padding: 10px; } .segment-card { padding: 12px; }
+      .segment-head { flex-direction: column; } .time { width: 100%; } .options { grid-template-columns: 1fr; }
+      button { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1>JLPT N5 Listening - Bài 3</h1>
+        <p class="hint">Nghe từng đoạn, tự trả lời, rồi mới mở script để kiểm tra.</p>
+      </div>
+      <div class="score" id="score">0 / 15 câu đúng</div>
+    </div>
+  </header>
+  <main>
+            <article class="segment-card" data-segment="0" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 001</p>
+                  <h2>Đoạn 1</h2>
+                </div>
+                <div class="time">05:55.000 - 06:26.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_001.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>ここはAですか、Bですか。そこは、あそこは。
+Romaji: Koko wa A desu ka, B desu ka. Soko wa, asoko wa.
+Nghĩa: Đây là A hay B? Chỗ đó, chỗ kia là gì?
+
+カリナさん、ここは事務所です。
+Romaji: Karina-san, koko wa jimusho desu.
+Nghĩa: Karina, đây là văn phòng.
+
+そこはアジア研究センターです。
+Romaji: Soko wa Ajia kenkyuu sentaa desu.
+Nghĩa: Chỗ đó là Trung tâm nghiên cứu châu Á.
+
+あそこは大学の病院です。
+Romaji: Asoko wa daigaku no byouin desu.
+Nghĩa: Chỗ kia là bệnh viện của trường đại học.
+
+病院ですか。
+Romaji: Byouin desu ka.
+Nghĩa: Là bệnh viện à?</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">ここは何ですか。</p>
+                <p class="subline">Koko wa nan desu ka.</p>
+                <p class="subline">Đây là gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-0" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">事務所です</span>
+                  <span class="option-meaning">Là văn phòng</span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">アジア研究センターです</span>
+                  <span class="option-meaning">Là Trung tâm nghiên cứu châu Á</span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">大学の病院です</span>
+                  <span class="option-meaning">Là bệnh viện của trường đại học</span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">食堂です</span>
+                  <span class="option-meaning">Là nhà ăn</span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói chỉ vào ここ và nói ここは事務所です.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="1" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 002</p>
+                  <h2>Đoạn 2</h2>
+                </div>
+                <div class="time">06:26.000 - 06:40.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_002.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>カリナさん、1階です。
+Romaji: Karina-san, ikkai desu.
+Nghĩa: Karina, đây là tầng 1.
+
+ここは受付です。
+Romaji: Koko wa uketsuke desu.
+Nghĩa: Đây là quầy tiếp tân.
+
+そこはロビーです。
+Romaji: Soko wa robii desu.
+Nghĩa: Chỗ đó là sảnh.
+
+あそこは食堂です。
+Romaji: Asoko wa shokudou desu.
+Nghĩa: Chỗ kia là nhà ăn.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">1階のあそこは何ですか。</p>
+                <p class="subline">Ikkai no asoko wa nan desu ka.</p>
+                <p class="subline">Chỗ kia ở tầng 1 là gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-1" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">食堂です</span>
+                  <span class="option-meaning">Là nhà ăn</span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">受付です</span>
+                  <span class="option-meaning">Là quầy tiếp tân</span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">ロビーです</span>
+                  <span class="option-meaning">Là sảnh</span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">教室です</span>
+                  <span class="option-meaning">Là phòng học</span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói あそこは食堂です.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="2" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 003</p>
+                  <h2>Đoạn 3</h2>
+                </div>
+                <div class="time">06:40.000 - 06:59.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_003.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>2階ですね。
+Romaji: Nikai desu ne.
+Nghĩa: Là tầng 2 nhỉ.
+
+ここは教室ですか。
+Romaji: Koko wa kyoushitsu desu ka.
+Nghĩa: Đây là phòng học à?
+
+いいえ、会議室です。
+Romaji: Iie, kaigishitsu desu.
+Nghĩa: Không, là phòng họp.
+
+そこはコンピューターの部屋です。
+Romaji: Soko wa konpyuutaa no heya desu.
+Nghĩa: Chỗ đó là phòng máy tính.
+
+あそこは教室です。
+Romaji: Asoko wa kyoushitsu desu.
+Nghĩa: Chỗ kia là phòng học.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">ここは何ですか。</p>
+                <p class="subline">Koko wa nan desu ka.</p>
+                <p class="subline">Đây là gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-2" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">会議室です</span>
+                  <span class="option-meaning">Là phòng họp</span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">教室です</span>
+                  <span class="option-meaning">Là phòng học</span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">コンピューターの部屋です</span>
+                  <span class="option-meaning">Là phòng máy tính</span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">ロビーです</span>
+                  <span class="option-meaning">Là sảnh</span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người hỏi “ここは教室ですか”, người kia trả lời “いいえ、会議室です”.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="3" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 004</p>
+                  <h2>Đoạn 4</h2>
+                </div>
+                <div class="time">06:59.000 - 07:19.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_004.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>3階です。
+Romaji: Sangai desu.
+Nghĩa: Đây là tầng 3.
+
+ここは林先生の部屋です。
+Romaji: Koko wa Hayashi-sensei no heya desu.
+Nghĩa: Đây là phòng của thầy/cô Hayashi.
+
+そこはワット先生の部屋ですよ。
+Romaji: Soko wa Watto-sensei no heya desu yo.
+Nghĩa: Chỗ đó là phòng của thầy/cô Watt.
+
+アーマッド先生の部屋ですか。
+Romaji: Aamaddo-sensei no heya desu ka.
+Nghĩa: Là phòng của thầy/cô Ahmad à?</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">Nội dung chính của Đoạn 4 là gì?</p>
+                <p class="subline"></p>
+                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-3" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">3階です。</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">Hỏi đường đến nhà ga</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">Mua vé xem phim</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">Đặt phòng khách sạn</span>
+                  <span class="option-meaning"></span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="4" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 005</p>
+                  <h2>Đoạn 5</h2>
+                </div>
+                <div class="time">07:19.000 - 07:40.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_005.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>どこですか。
+Romaji: Doko desu ka.
+Nghĩa: Ở đâu?
+
+すみません。電話はどこですか。
+Romaji: Sumimasen. Denwa wa doko desu ka.
+Nghĩa: Xin lỗi. Điện thoại ở đâu?
+
+電話ですか。1階のロビーです。
+Romaji: Denwa desu ka. Ikkai no robii desu.
+Nghĩa: Điện thoại à? Ở sảnh tầng 1.
+
+そうですか。ありがとう。
+Romaji: Sou desu ka. Arigatou.
+Nghĩa: Vậy à. Cảm ơn.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">Nội dung chính của Đoạn 5 là gì?</p>
+                <p class="subline"></p>
+                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-4" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">どこですか。</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-4" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">Hỏi đường đến nhà ga</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-4" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">Mua vé xem phim</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-4" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">Đặt phòng khách sạn</span>
+                  <span class="option-meaning"></span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="5" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 006</p>
+                  <h2>Đoạn 6</h2>
+                </div>
+                <div class="time">07:40.000 - 07:54.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_006.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>先生、あの、教室はどこですか。
+Romaji: Sensei, ano, kyoushitsu wa doko desu ka.
+Nghĩa: Thưa thầy/cô, phòng học ở đâu ạ?
+
+4階です。403ですよ。
+Romaji: Yonkai desu. Yon zero san desu yo.
+Nghĩa: Ở tầng 4. Phòng 403 đấy.
+
+はい。403ですね。
+Romaji: Hai. Yon zero san desu ne.
+Nghĩa: Vâng. Phòng 403 nhỉ.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">Nội dung chính của Đoạn 6 là gì?</p>
+                <p class="subline"></p>
+                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-5" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">先生、あの、教室はどこですか。</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-5" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">Hỏi đường đến nhà ga</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-5" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">Mua vé xem phim</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-5" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">Đặt phòng khách sạn</span>
+                  <span class="option-meaning"></span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="6" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 007</p>
+                  <h2>Đoạn 7</h2>
+                </div>
+                <div class="time">07:54.000 - 08:07.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_007.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>始めましょう。
+Romaji: Hajimemashou.
+Nghĩa: Bắt đầu nào.
+
+ターポンさんは？
+Romaji: Taapon-san wa?
+Nghĩa: Anh/chị Tapon thì sao?
+
+ターポンさんはトイレです。
+Romaji: Taapon-san wa toire desu.
+Nghĩa: Tapon đang ở nhà vệ sinh.
+
+そうですか。
+Romaji: Sou desu ka.
+Nghĩa: Vậy à.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">Nội dung chính của Đoạn 7 là gì?</p>
+                <p class="subline"></p>
+                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-6" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">始めましょう。</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-6" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">Hỏi đường đến nhà ga</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-6" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">Mua vé xem phim</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-6" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">Đặt phòng khách sạn</span>
+                  <span class="option-meaning"></span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="7" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 008</p>
+                  <h2>Đoạn 8</h2>
+                </div>
+                <div class="time">08:07.000 - 08:20.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_008.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>すみません。小林先生はどこですか。
+Romaji: Sumimasen. Kobayashi-sensei wa doko desu ka.
+Nghĩa: Xin lỗi. Thầy/cô Kobayashi ở đâu?
+
+事務所ですよ。
+Romaji: Jimusho desu yo.
+Nghĩa: Ở văn phòng đấy.
+
+あの、事務所はどこですか。
+Romaji: Ano, jimusho wa doko desu ka.
+Nghĩa: À, văn phòng ở đâu?
+
+2階です。
+Romaji: Nikai desu.
+Nghĩa: Ở tầng 2.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">Nội dung chính của Đoạn 8 là gì?</p>
+                <p class="subline"></p>
+                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-7" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">すみません。小林先生はどこですか。</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">Hỏi đường đến nhà ga</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">Mua vé xem phim</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">Đặt phòng khách sạn</span>
+                  <span class="option-meaning"></span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="8" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 009</p>
+                  <h2>Đoạn 9</h2>
+                </div>
+                <div class="time">08:20.000 - 08:56.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_009.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>Aですか、Bですか。
+Romaji: A desu ka, B desu ka.
+Nghĩa: Là A hay B?
+
+こんにちは。はじめまして。
+Romaji: Konnichiwa. Hajimemashite.
+Nghĩa: Xin chào. Rất vui được gặp.
+
+お名前は。
+Romaji: Onamae wa.
+Nghĩa: Tên bạn là gì?
+
+カリナです。
+Romaji: Karina desu.
+Nghĩa: Tôi là Karina.
+
+カリナさんですか。
+Romaji: Karina-san desu ka.
+Nghĩa: Bạn là Karina à?
+
+お国はどちらですか。
+Romaji: Okuni wa dochira desu ka.
+Nghĩa: Bạn đến từ nước nào?
+
+インドネシアから来ました。富士大学の学生です。
+Romaji: Indoneshia kara kimashita. Fuji Daigaku no gakusei desu.
+Nghĩa: Tôi đến từ Indonesia. Tôi là sinh viên Đại học Fuji.
+
+そうですか。どうぞよろしく。
+Romaji: Sou desu ka. Douzo yoroshiku.
+Nghĩa: Vậy à. Rất mong được giúp đỡ.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">Nội dung chính của Đoạn 9 là gì?</p>
+                <p class="subline"></p>
+                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-8" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">Aですか、Bですか。</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-8" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">Hỏi đường đến nhà ga</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-8" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">Mua vé xem phim</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-8" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">Đặt phòng khách sạn</span>
+                  <span class="option-meaning"></span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="9" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 010</p>
+                  <h2>Đoạn 10</h2>
+                </div>
+                <div class="time">08:56.000 - 09:22.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_010.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>はじめまして。
+Romaji: Hajimemashite.
+Nghĩa: Rất vui được gặp.
+
+失礼ですが、お名前は。
+Romaji: Shitsurei desu ga, onamae wa.
+Nghĩa: Xin lỗi, tên bạn là gì?
+
+ケリーです。
+Romaji: Kerii desu.
+Nghĩa: Tôi là Kelly.
+
+お国はアメリカですか。
+Romaji: Okuni wa Amerika desu ka.
+Nghĩa: Bạn đến từ Mỹ à?
+
+いいえ、オーストラリアです。
+Romaji: Iie, Oosutoraria desu.
+Nghĩa: Không, là Úc.
+
+私は英語の教師です。
+Romaji: Watashi wa eigo no kyoushi desu.
+Nghĩa: Tôi là giáo viên tiếng Anh.
+
+そうですか。よろしくお願いします。
+Romaji: Sou desu ka. Yoroshiku onegai shimasu.
+Nghĩa: Vậy à. Rất mong được giúp đỡ.
+
+こちらこそ、どうぞよろしく。
+Romaji: Kochira koso, douzo yoroshiku.
+Nghĩa: Chính tôi cũng mong được giúp đỡ.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">Nội dung chính của Đoạn 10 là gì?</p>
+                <p class="subline"></p>
+                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-9" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">はじめまして。</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-9" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">Hỏi đường đến nhà ga</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-9" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">Mua vé xem phim</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-9" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">Đặt phòng khách sạn</span>
+                  <span class="option-meaning"></span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="10" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 011</p>
+                  <h2>Đoạn 11</h2>
+                </div>
+                <div class="time">09:22.000 - 09:52.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_011.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>失礼ですが、お名前は。
+Romaji: Shitsurei desu ga, onamae wa.
+Nghĩa: Xin lỗi, tên bạn là gì?
+
+パクです。
+Romaji: Paku desu.
+Nghĩa: Tôi là Park.
+
+お国はどちらですか。
+Romaji: Okuni wa dochira desu ka.
+Nghĩa: Bạn đến từ nước nào?
+
+韓国です。
+Romaji: Kankoku desu.
+Nghĩa: Hàn Quốc.
+
+会社はどちらですか。
+Romaji: Kaisha wa dochira desu ka.
+Nghĩa: Công ty của bạn là công ty nào?
+
+私はマーフーの社員です。
+Romaji: Watashi wa Maafuu no shain desu.
+Nghĩa: Tôi là nhân viên của Maafuu.
+
+何の会社ですか。
+Romaji: Nan no kaisha desu ka.
+Nghĩa: Công ty gì?
+
+コンピューターの会社です。
+Romaji: Konpyuutaa no kaisha desu.
+Nghĩa: Là công ty máy tính.
+
+そうですか。どうぞよろしく。
+Romaji: Sou desu ka. Douzo yoroshiku.
+Nghĩa: Vậy à. Rất mong được giúp đỡ.
+
+こちらこそ、よろしく。
+Romaji: Kochira koso, yoroshiku.
+Nghĩa: Tôi cũng rất mong được giúp đỡ.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">Nội dung chính của Đoạn 11 là gì?</p>
+                <p class="subline"></p>
+                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-10" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">失礼ですが、お名前は。</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-10" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">Hỏi đường đến nhà ga</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-10" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">Mua vé xem phim</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-10" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">Đặt phòng khách sạn</span>
+                  <span class="option-meaning"></span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="11" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 012</p>
+                  <h2>Đoạn 12</h2>
+                </div>
+                <div class="time">09:52.000 - 10:20.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_012.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>いくらですか。どこのですか。
+Romaji: Ikura desu ka. Doko no desu ka.
+Nghĩa: Bao nhiêu tiền? Của nước nào?
+
+すみません。このコーヒーはどこのですか。
+Romaji: Sumimasen. Kono koohii wa doko no desu ka.
+Nghĩa: Xin lỗi. Cà phê này của nước nào?
+
+インドネシアのです。
+Romaji: Indoneshia no desu.
+Nghĩa: Của Indonesia.
+
+いくらですか。
+Romaji: Ikura desu ka.
+Nghĩa: Bao nhiêu tiền?
+
+600円です。
+Romaji: Roppyaku en desu.
+Nghĩa: 600 yên.
+
+じゃ、これをください。
+Romaji: Ja, kore o kudasai.
+Nghĩa: Vậy cho tôi cái này.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">Nội dung chính của Đoạn 12 là gì?</p>
+                <p class="subline"></p>
+                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-11" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">いくらですか。どこのですか。</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-11" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">Hỏi đường đến nhà ga</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-11" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">Mua vé xem phim</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-11" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">Đặt phòng khách sạn</span>
+                  <span class="option-meaning"></span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="12" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 013</p>
+                  <h2>Đoạn 13</h2>
+                </div>
+                <div class="time">10:20.000 - 10:41.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_013.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>すみません。あのカバンを見せてください。
+Romaji: Sumimasen. Ano kaban o misete kudasai.
+Nghĩa: Xin lỗi. Cho tôi xem cái cặp kia.
+
+2,800円です。
+Romaji: Nisen happyaku en desu.
+Nghĩa: 2.800 yên.
+
+日本のですか。
+Romaji: Nihon no desu ka.
+Nghĩa: Của Nhật à?
+
+いいえ、インドのです。
+Romaji: Iie, Indo no desu.
+Nghĩa: Không, của Ấn Độ.
+
+そうですか。
+Romaji: Sou desu ka.
+Nghĩa: Vậy à.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">Nội dung chính của Đoạn 13 là gì?</p>
+                <p class="subline"></p>
+                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-12" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">すみません。あのカバンを見せてください。</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-12" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">Hỏi đường đến nhà ga</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-12" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">Mua vé xem phim</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-12" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">Đặt phòng khách sạn</span>
+                  <span class="option-meaning"></span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="13" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 014</p>
+                  <h2>Đoạn 14</h2>
+                </div>
+                <div class="time">10:41.000 - 11:02.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_014.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>すみません。
+Romaji: Sumimasen.
+Nghĩa: Xin lỗi.
+
+このコンピューターは日本のですか。
+Romaji: Kono konpyuutaa wa Nihon no desu ka.
+Nghĩa: Máy tính này của Nhật à?
+
+いいえ、韓国のです。
+Romaji: Iie, Kankoku no desu.
+Nghĩa: Không, của Hàn Quốc.
+
+いくらですか。
+Romaji: Ikura desu ka.
+Nghĩa: Bao nhiêu tiền?
+
+98,000円です。
+Romaji: Kyuuman hassen en desu.
+Nghĩa: 98.000 yên.
+
+98,000円。
+Romaji: Kyuuman hassen en.
+Nghĩa: 98.000 yên.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">Nội dung chính của Đoạn 14 là gì?</p>
+                <p class="subline"></p>
+                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-13" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">すみません。</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-13" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">Hỏi đường đến nhà ga</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-13" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">Mua vé xem phim</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-13" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">Đặt phòng khách sạn</span>
+                  <span class="option-meaning"></span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="14" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 015</p>
+                  <h2>Đoạn 15</h2>
+                </div>
+                <div class="time">11:02.000 - 11:42.102</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_015.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>このカメラはどこのですか。
+Romaji: Kono kamera wa doko no desu ka.
+Nghĩa: Máy ảnh này của nước nào?
+
+日本のです。
+Romaji: Nihon no desu.
+Nghĩa: Của Nhật.
+
+いくらですか。
+Romaji: Ikura desu ka.
+Nghĩa: Bao nhiêu tiền?
+
+56,000円です。
+Romaji: Goman rokusen en desu.
+Nghĩa: 56.000 yên.
+
+56,000円。じゃあ、あのカメラは。
+Romaji: Goman rokusen en. Jaa, ano kamera wa.
+Nghĩa: 56.000 yên. Vậy cái máy ảnh kia thì sao?
+
+あれですか。18,500円です。
+Romaji: Are desu ka. Ichiman hassen gohyaku en desu.
+Nghĩa: Cái kia à? 18.500 yên.
+
+中国のカメラです。
+Romaji: Chuugoku no kamera desu.
+Nghĩa: Là máy ảnh Trung Quốc.
+
+18,500円ですか。じゃ、これをください。
+Romaji: Ichiman hassen gohyaku en desu ka. Ja, kore o kudasai.
+Nghĩa: 18.500 yên à. Vậy cho tôi cái này.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">Nội dung chính của Đoạn 15 là gì?</p>
+                <p class="subline"></p>
+                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-14" value="A">
+                  <span class="option-key">A</span>
+                  <span class="option-text">このカメラはどこのですか。</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-14" value="B">
+                  <span class="option-key">B</span>
+                  <span class="option-text">Hỏi đường đến nhà ga</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-14" value="C">
+                  <span class="option-key">C</span>
+                  <span class="option-text">Mua vé xem phim</span>
+                  <span class="option-meaning"></span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-14" value="D">
+                  <span class="option-key">D</span>
+                  <span class="option-text">Đặt phòng khách sạn</span>
+                  <span class="option-meaning"></span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+              </section>
+            </article>
+            </main>
+  <script>
+    const totalSegments = 15;
+    const state = {};
+    function updateScore() {
+      const correct = Object.values(state).filter(Boolean).length;
+      document.getElementById("score").textContent = `${correct} / ${totalSegments} câu đúng`;
+    }
+    document.querySelectorAll(".toggle-script").forEach((button) => {
+      button.addEventListener("click", () => {
+        const script = button.nextElementSibling;
+        const isHidden = script.hasAttribute("hidden");
+        if (isHidden) { script.removeAttribute("hidden"); button.textContent = "Hide script"; }
+        else { script.setAttribute("hidden", ""); button.textContent = "Show script"; }
+      });
+    });
+    document.querySelectorAll(".check-answer").forEach((button) => {
+      button.addEventListener("click", () => {
+        const card = button.closest(".segment-card");
+        const selected = card.querySelector("input[type='radio']:checked");
+        const feedback = card.querySelector(".feedback");
+        const explanation = card.querySelector(".explanation");
+        const segmentIndex = card.dataset.segment;
+        feedback.className = "feedback";
+        explanation.hidden = true;
+        if (!selected) {
+          feedback.textContent = "Hãy chọn một đáp án trước.";
+          feedback.classList.add("bad");
+          state[segmentIndex] = false;
+          updateScore();
+          return;
+        }
+        if (selected.value === card.dataset.answer) {
+          feedback.textContent = "Đúng.";
+          feedback.classList.add("ok");
+          state[segmentIndex] = true;
+        } else {
+          feedback.textContent = "Chưa đúng.";
+          feedback.classList.add("bad");
+          state[segmentIndex] = false;
+        }
+        explanation.hidden = false;
+        updateScore();
+      });
+    });
+  </script>
+</body>
+</html>

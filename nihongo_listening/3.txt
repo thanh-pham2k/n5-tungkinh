@@ -1,0 +1,715 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[05:55] ここはAですか、Bですか。そこは、あそこは。
+Romaji: Koko wa A desu ka, B desu ka. Soko wa, asoko wa.
+Nghĩa: Đây là A hay B? Chỗ đó, chỗ kia là gì?
+
+[06:11] カリナさん、ここは事務所です。
+Romaji: Karina-san, koko wa jimusho desu.
+Nghĩa: Karina, đây là văn phòng.
+
+[06:15] そこはアジア研究センターです。
+Romaji: Soko wa Ajia kenkyuu sentaa desu.
+Nghĩa: Chỗ đó là Trung tâm nghiên cứu châu Á.
+
+[06:15] あそこは大学の病院です。
+Romaji: Asoko wa daigaku no byouin desu.
+Nghĩa: Chỗ kia là bệnh viện của trường đại học.
+
+[06:22] 病院ですか。
+Romaji: Byouin desu ka.
+Nghĩa: Là bệnh viện à?
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[05:55] 質問: ここは何ですか。
+Romaji: Koko wa nan desu ka.
+Nghĩa: Đây là gì?
+
+A. 事務所です
+Nghĩa: Là văn phòng
+B. アジア研究センターです
+Nghĩa: Là Trung tâm nghiên cứu châu Á
+C. 大学の病院です
+Nghĩa: Là bệnh viện của trường đại học
+D. 食堂です
+Nghĩa: Là nhà ăn
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói chỉ vào ここ và nói ここは事務所です.
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[06:26] カリナさん、1階です。
+Romaji: Karina-san, ikkai desu.
+Nghĩa: Karina, đây là tầng 1.
+
+[06:31] ここは受付です。
+Romaji: Koko wa uketsuke desu.
+Nghĩa: Đây là quầy tiếp tân.
+
+[06:31] そこはロビーです。
+Romaji: Soko wa robii desu.
+Nghĩa: Chỗ đó là sảnh.
+
+[06:35] あそこは食堂です。
+Romaji: Asoko wa shokudou desu.
+Nghĩa: Chỗ kia là nhà ăn.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 1階のあそこは何ですか。
+Romaji: Ikkai no asoko wa nan desu ka.
+Nghĩa: Chỗ kia ở tầng 1 là gì?
+
+A. 食堂です
+Nghĩa: Là nhà ăn
+B. 受付です
+Nghĩa: Là quầy tiếp tân
+C. ロビーです
+Nghĩa: Là sảnh
+D. 教室です
+Nghĩa: Là phòng học
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói あそこは食堂です.
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[06:40] 2階ですね。
+Romaji: Nikai desu ne.
+Nghĩa: Là tầng 2 nhỉ.
+
+[06:43] ここは教室ですか。
+Romaji: Koko wa kyoushitsu desu ka.
+Nghĩa: Đây là phòng học à?
+
+[06:43] いいえ、会議室です。
+Romaji: Iie, kaigishitsu desu.
+Nghĩa: Không, là phòng họp.
+
+[06:49] そこはコンピューターの部屋です。
+Romaji: Soko wa konpyuutaa no heya desu.
+Nghĩa: Chỗ đó là phòng máy tính.
+
+[06:53] あそこは教室です。
+Romaji: Asoko wa kyoushitsu desu.
+Nghĩa: Chỗ kia là phòng học.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: ここは何ですか。
+Romaji: Koko wa nan desu ka.
+Nghĩa: Đây là gì?
+
+A. 会議室です
+Nghĩa: Là phòng họp
+B. 教室です
+Nghĩa: Là phòng học
+C. コンピューターの部屋です
+Nghĩa: Là phòng máy tính
+D. ロビーです
+Nghĩa: Là sảnh
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người hỏi “ここは教室ですか”, người kia trả lời “いいえ、会議室です”.
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[06:59] 3階です。
+Romaji: Sangai desu.
+Nghĩa: Đây là tầng 3.
+
+[07:03] ここは林先生の部屋です。
+Romaji: Koko wa Hayashi-sensei no heya desu.
+Nghĩa: Đây là phòng của thầy/cô Hayashi.
+
+[07:08] そこはワット先生の部屋ですよ。
+Romaji: Soko wa Watto-sensei no heya desu yo.
+Nghĩa: Chỗ đó là phòng của thầy/cô Watt.
+
+[07:15] アーマッド先生の部屋ですか。
+Romaji: Aamaddo-sensei no heya desu ka.
+Nghĩa: Là phòng của thầy/cô Ahmad à?
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: ここは誰の部屋ですか。
+Romaji: Koko wa dare no heya desu ka.
+Nghĩa: Đây là phòng của ai?
+
+A. 林先生の部屋です
+Nghĩa: Là phòng của thầy/cô Hayashi
+B. ワット先生の部屋です
+Nghĩa: Là phòng của thầy/cô Watt
+C. アーマッド先生の部屋です
+D. 小林先生の部屋です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói ここは林先生の部屋です.
+
+## Đoạn hội thoại 5
+
+### 1. Script hội thoại
+
+[07:19] どこですか。
+Romaji: Doko desu ka.
+Nghĩa: Ở đâu?
+
+[07:29] すみません。電話はどこですか。
+Romaji: Sumimasen. Denwa wa doko desu ka.
+Nghĩa: Xin lỗi. Điện thoại ở đâu?
+
+[07:32] 電話ですか。1階のロビーです。
+Romaji: Denwa desu ka. Ikkai no robii desu.
+Nghĩa: Điện thoại à? Ở sảnh tầng 1.
+
+[07:36] そうですか。ありがとう。
+Romaji: Sou desu ka. Arigatou.
+Nghĩa: Vậy à. Cảm ơn.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 電話はどこですか。
+Romaji: Denwa wa doko desu ka.
+Nghĩa: Điện thoại ở đâu?
+
+A. 1階のロビーです
+Nghĩa: Ở sảnh tầng 1
+B. 2階の会議室です
+C. 3階の部屋です
+D. 4階の教室です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia trả lời 1階のロビーです.
+
+## Đoạn hội thoại 6
+
+### 1. Script hội thoại
+
+[07:40] 先生、あの、教室はどこですか。
+Romaji: Sensei, ano, kyoushitsu wa doko desu ka.
+Nghĩa: Thưa thầy/cô, phòng học ở đâu ạ?
+
+[07:44] 4階です。403ですよ。
+Romaji: Yonkai desu. Yon zero san desu yo.
+Nghĩa: Ở tầng 4. Phòng 403 đấy.
+
+[07:48] はい。403ですね。
+Romaji: Hai. Yon zero san desu ne.
+Nghĩa: Vâng. Phòng 403 nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 教室はどこですか。
+Romaji: Kyoushitsu wa doko desu ka.
+Nghĩa: Phòng học ở đâu?
+
+A. 4階の403です
+Nghĩa: Phòng 403 tầng 4
+B. 1階のロビーです
+C. 2階の事務所です
+D. 3階の林先生の部屋です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Giáo viên nói 4階です。403です.
+
+## Đoạn hội thoại 7
+
+### 1. Script hội thoại
+
+[07:54] 始めましょう。
+Romaji: Hajimemashou.
+Nghĩa: Bắt đầu nào.
+
+[07:57] ターポンさんは？
+Romaji: Taapon-san wa?
+Nghĩa: Anh/chị Tapon thì sao?
+
+[08:01] ターポンさんはトイレです。
+Romaji: Taapon-san wa toire desu.
+Nghĩa: Tapon đang ở nhà vệ sinh.
+
+[08:01] そうですか。
+Romaji: Sou desu ka.
+Nghĩa: Vậy à.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: ターポンさんはどこですか。
+Romaji: Taapon-san wa doko desu ka.
+Nghĩa: Tapon đang ở đâu?
+
+A. トイレです
+Nghĩa: Ở nhà vệ sinh
+B. 教室です
+C. 事務所です
+D. ロビーです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói ターポンさんはトイレです.
+
+## Đoạn hội thoại 8
+
+### 1. Script hội thoại
+
+[08:07] すみません。小林先生はどこですか。
+Romaji: Sumimasen. Kobayashi-sensei wa doko desu ka.
+Nghĩa: Xin lỗi. Thầy/cô Kobayashi ở đâu?
+
+[08:10] 事務所ですよ。
+Romaji: Jimusho desu yo.
+Nghĩa: Ở văn phòng đấy.
+
+[08:14] あの、事務所はどこですか。
+Romaji: Ano, jimusho wa doko desu ka.
+Nghĩa: À, văn phòng ở đâu?
+
+[08:14] 2階です。
+Romaji: Nikai desu.
+Nghĩa: Ở tầng 2.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 小林先生はどこですか。
+Romaji: Kobayashi-sensei wa doko desu ka.
+Nghĩa: Thầy/cô Kobayashi ở đâu?
+
+A. 2階の事務所です
+Nghĩa: Ở văn phòng tầng 2
+B. 1階のロビーです
+C. 4階の403です
+D. トイレです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kobayashi ở văn phòng, văn phòng ở tầng 2.
+
+## Đoạn hội thoại 9
+
+### 1. Script hội thoại
+
+[08:20] Aですか、Bですか。
+Romaji: A desu ka, B desu ka.
+Nghĩa: Là A hay B?
+
+[08:34] こんにちは。はじめまして。
+Romaji: Konnichiwa. Hajimemashite.
+Nghĩa: Xin chào. Rất vui được gặp.
+
+[08:34] お名前は。
+Romaji: Onamae wa.
+Nghĩa: Tên bạn là gì?
+
+[08:39] カリナです。
+Romaji: Karina desu.
+Nghĩa: Tôi là Karina.
+
+[08:39] カリナさんですか。
+Romaji: Karina-san desu ka.
+Nghĩa: Bạn là Karina à?
+
+[08:43] お国はどちらですか。
+Romaji: Okuni wa dochira desu ka.
+Nghĩa: Bạn đến từ nước nào?
+
+[08:43] インドネシアから来ました。富士大学の学生です。
+Romaji: Indoneshia kara kimashita. Fuji Daigaku no gakusei desu.
+Nghĩa: Tôi đến từ Indonesia. Tôi là sinh viên Đại học Fuji.
+
+[08:48] そうですか。どうぞよろしく。
+Romaji: Sou desu ka. Douzo yoroshiku.
+Nghĩa: Vậy à. Rất mong được giúp đỡ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: カリナさんはどこの人ですか。
+Romaji: Karina-san wa doko no hito desu ka.
+Nghĩa: Karina là người nước nào?
+
+A. インドネシアです
+Nghĩa: Indonesia
+B. オーストラリアです
+C. 韓国です
+D. 日本です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: カリナさん nói インドネシアから来ました.
+
+## Đoạn hội thoại 10
+
+### 1. Script hội thoại
+
+[08:56] はじめまして。
+Romaji: Hajimemashite.
+Nghĩa: Rất vui được gặp.
+
+[09:00] 失礼ですが、お名前は。
+Romaji: Shitsurei desu ga, onamae wa.
+Nghĩa: Xin lỗi, tên bạn là gì?
+
+[09:00] ケリーです。
+Romaji: Kerii desu.
+Nghĩa: Tôi là Kelly.
+
+[09:00] お国はアメリカですか。
+Romaji: Okuni wa Amerika desu ka.
+Nghĩa: Bạn đến từ Mỹ à?
+
+[09:07] いいえ、オーストラリアです。
+Romaji: Iie, Oosutoraria desu.
+Nghĩa: Không, là Úc.
+
+[09:10] 私は英語の教師です。
+Romaji: Watashi wa eigo no kyoushi desu.
+Nghĩa: Tôi là giáo viên tiếng Anh.
+
+[09:14] そうですか。よろしくお願いします。
+Romaji: Sou desu ka. Yoroshiku onegai shimasu.
+Nghĩa: Vậy à. Rất mong được giúp đỡ.
+
+[09:17] こちらこそ、どうぞよろしく。
+Romaji: Kochira koso, douzo yoroshiku.
+Nghĩa: Chính tôi cũng mong được giúp đỡ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: ケリーさんはどこの人ですか。
+Romaji: Kerii-san wa doko no hito desu ka.
+Nghĩa: Kelly là người nước nào?
+
+A. オーストラリアです
+Nghĩa: Úc
+B. アメリカです
+C. インドネシアです
+D. 韓国です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kelly nói không phải Mỹ, mà là オーストラリア.
+
+## Đoạn hội thoại 11
+
+### 1. Script hội thoại
+
+[09:22] 失礼ですが、お名前は。
+Romaji: Shitsurei desu ga, onamae wa.
+Nghĩa: Xin lỗi, tên bạn là gì?
+
+[09:26] パクです。
+Romaji: Paku desu.
+Nghĩa: Tôi là Park.
+
+[09:29] お国はどちらですか。
+Romaji: Okuni wa dochira desu ka.
+Nghĩa: Bạn đến từ nước nào?
+
+[09:29] 韓国です。
+Romaji: Kankoku desu.
+Nghĩa: Hàn Quốc.
+
+[09:33] 会社はどちらですか。
+Romaji: Kaisha wa dochira desu ka.
+Nghĩa: Công ty của bạn là công ty nào?
+
+[09:37] 私はマーフーの社員です。
+Romaji: Watashi wa Maafuu no shain desu.
+Nghĩa: Tôi là nhân viên của Maafuu.
+
+[09:42] 何の会社ですか。
+Romaji: Nan no kaisha desu ka.
+Nghĩa: Công ty gì?
+
+[09:42] コンピューターの会社です。
+Romaji: Konpyuutaa no kaisha desu.
+Nghĩa: Là công ty máy tính.
+
+[09:46] そうですか。どうぞよろしく。
+Romaji: Sou desu ka. Douzo yoroshiku.
+Nghĩa: Vậy à. Rất mong được giúp đỡ.
+
+[09:46] こちらこそ、よろしく。
+Romaji: Kochira koso, yoroshiku.
+Nghĩa: Tôi cũng rất mong được giúp đỡ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: パクさんはどこの人ですか。
+Romaji: Paku-san wa doko no hito desu ka.
+Nghĩa: Park là người nước nào?
+
+A. 韓国です
+Nghĩa: Hàn Quốc
+B. インドネシアです
+C. オーストラリアです
+D. アメリカです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: パクさん nói 韓国です.
+
+Câu 2:
+質問: パクさんの会社は何の会社ですか。
+Romaji: Paku-san no kaisha wa nan no kaisha desu ka.
+Nghĩa: Công ty của Park là công ty gì?
+
+A. コンピューターの会社です
+Nghĩa: Công ty máy tính
+B. 英語の会社です
+C. 大学の会社です
+D. コーヒーの会社です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: パクさん nói コンピューターの会社です.
+
+## Đoạn hội thoại 12
+
+### 1. Script hội thoại
+
+[09:52] いくらですか。どこのですか。
+Romaji: Ikura desu ka. Doko no desu ka.
+Nghĩa: Bao nhiêu tiền? Của nước nào?
+
+[10:07] すみません。このコーヒーはどこのですか。
+Romaji: Sumimasen. Kono koohii wa doko no desu ka.
+Nghĩa: Xin lỗi. Cà phê này của nước nào?
+
+[10:10] インドネシアのです。
+Romaji: Indoneshia no desu.
+Nghĩa: Của Indonesia.
+
+[10:10] いくらですか。
+Romaji: Ikura desu ka.
+Nghĩa: Bao nhiêu tiền?
+
+[10:14] 600円です。
+Romaji: Roppyaku en desu.
+Nghĩa: 600 yên.
+
+[10:14] じゃ、これをください。
+Romaji: Ja, kore o kudasai.
+Nghĩa: Vậy cho tôi cái này.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: コーヒーはどこのですか。
+Romaji: Koohii wa doko no desu ka.
+Nghĩa: Cà phê của nước nào?
+
+A. インドネシアのです
+Nghĩa: Của Indonesia
+B. 日本のです
+C. 韓国のです
+D. インドのです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người bán nói インドネシアのです.
+
+Câu 2:
+質問: コーヒーはいくらですか。
+Romaji: Koohii wa ikura desu ka.
+Nghĩa: Cà phê bao nhiêu tiền?
+
+A. 600円です
+Nghĩa: 600 yên
+B. 2,800円です
+C. 98,000円です
+D. 18,500円です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người bán nói 600円です.
+
+## Đoạn hội thoại 13
+
+### 1. Script hội thoại
+
+[10:20] すみません。あのカバンを見せてください。
+Romaji: Sumimasen. Ano kaban o misete kudasai.
+Nghĩa: Xin lỗi. Cho tôi xem cái cặp kia.
+
+[10:29] 2,800円です。
+Romaji: Nisen happyaku en desu.
+Nghĩa: 2.800 yên.
+
+[10:34] 日本のですか。
+Romaji: Nihon no desu ka.
+Nghĩa: Của Nhật à?
+
+[10:37] いいえ、インドのです。
+Romaji: Iie, Indo no desu.
+Nghĩa: Không, của Ấn Độ.
+
+[10:37] そうですか。
+Romaji: Sou desu ka.
+Nghĩa: Vậy à.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: カバンはどこのですか。
+Romaji: Kaban wa doko no desu ka.
+Nghĩa: Cái cặp của nước nào?
+
+A. インドのです
+Nghĩa: Của Ấn Độ
+B. 日本のです
+C. インドネシアのです
+D. 韓国のです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người bán nói không phải của Nhật, mà là インドのです.
+
+Câu 2:
+質問: カバンはいくらですか。
+Romaji: Kaban wa ikura desu ka.
+Nghĩa: Cái cặp bao nhiêu tiền?
+
+A. 2,800円です
+Nghĩa: 2.800 yên
+B. 600円です
+C. 56,000円です
+D. 18,500円です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người bán nói 2,800円です.
+
+## Đoạn hội thoại 14
+
+### 1. Script hội thoại
+
+[10:41] すみません。
+Romaji: Sumimasen.
+Nghĩa: Xin lỗi.
+
+[10:44] このコンピューターは日本のですか。
+Romaji: Kono konpyuutaa wa Nihon no desu ka.
+Nghĩa: Máy tính này của Nhật à?
+
+[10:44] いいえ、韓国のです。
+Romaji: Iie, Kankoku no desu.
+Nghĩa: Không, của Hàn Quốc.
+
+[10:50] いくらですか。
+Romaji: Ikura desu ka.
+Nghĩa: Bao nhiêu tiền?
+
+[10:50] 98,000円です。
+Romaji: Kyuuman hassen en desu.
+Nghĩa: 98.000 yên.
+
+[10:54] 98,000円。
+Romaji: Kyuuman hassen en.
+Nghĩa: 98.000 yên.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: コンピューターはどこのですか。
+Romaji: Konpyuutaa wa doko no desu ka.
+Nghĩa: Máy tính của nước nào?
+
+A. 韓国のです
+Nghĩa: Của Hàn Quốc
+B. 日本のです
+C. インドのです
+D. 中国のです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người bán nói 韓国のです.
+
+Câu 2:
+質問: コンピューターはいくらですか。
+Romaji: Konpyuutaa wa ikura desu ka.
+Nghĩa: Máy tính bao nhiêu tiền?
+
+A. 98,000円です
+Nghĩa: 98.000 yên
+B. 56,000円です
+C. 18,500円です
+D. 2,800円です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Giá là 98,000円.
+
+## Đoạn hội thoại 15
+
+### 1. Script hội thoại
+
+[11:02] このカメラはどこのですか。
+Romaji: Kono kamera wa doko no desu ka.
+Nghĩa: Máy ảnh này của nước nào?
+
+[11:02] 日本のです。
+Romaji: Nihon no desu.
+Nghĩa: Của Nhật.
+
+[11:07] いくらですか。
+Romaji: Ikura desu ka.
+Nghĩa: Bao nhiêu tiền?
+
+[11:07] 56,000円です。
+Romaji: Goman rokusen en desu.
+Nghĩa: 56.000 yên.
+
+[11:12] 56,000円。じゃあ、あのカメラは。
+Romaji: Goman rokusen en. Jaa, ano kamera wa.
+Nghĩa: 56.000 yên. Vậy cái máy ảnh kia thì sao?
+
+[11:16] あれですか。18,500円です。
+Romaji: Are desu ka. Ichiman hassen gohyaku en desu.
+Nghĩa: Cái kia à? 18.500 yên.
+
+[11:20] 中国のカメラです。
+Romaji: Chuugoku no kamera desu.
+Nghĩa: Là máy ảnh Trung Quốc.
+
+[11:25] 18,500円ですか。じゃ、これをください。
+Romaji: Ichiman hassen gohyaku en desu ka. Ja, kore o kudasai.
+Nghĩa: 18.500 yên à. Vậy cho tôi cái này.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 買うカメラはどこのですか。
+Romaji: Kau kamera wa doko no desu ka.
+Nghĩa: Máy ảnh sẽ mua là của nước nào?
+
+A. 中国のです
+Nghĩa: Của Trung Quốc
+B. 日本のです
+C. 韓国のです
+D. インドのです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người mua chọn máy ảnh 18,500円, đó là 中国のカメラ.
+
+Câu 2:
+質問: 買うカメラはいくらですか。
+Romaji: Kau kamera wa ikura desu ka.
+Nghĩa: Máy ảnh sẽ mua bao nhiêu tiền?
+
+A. 18,500円です
+Nghĩa: 18.500 yên
+B. 56,000円です
+C. 98,000円です
+D. 600円です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người mua nói 18,500円ですか。じゃ、これをください.

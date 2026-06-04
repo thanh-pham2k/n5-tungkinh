@@ -1,0 +1,562 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[00:22] A: 皆さん、おはようございます。
+Romaji: Minasan, ohayou gozaimasu.
+Nghĩa: Chào buổi sáng mọi người.
+
+[00:27] A: 昨日、どこへ行きましたか。ターポンさん。
+Romaji: Kinou, doko e ikimashita ka. Taapon-san.
+Nghĩa: Hôm qua bạn đã đi đâu? Bạn Taapon.
+
+[00:33] B: 図書館へ行きました。大阪の図書館です。
+Romaji: Toshokan e ikimashita. Oosaka no toshokan desu.
+Nghĩa: Tôi đã đi thư viện. Là thư viện ở Osaka.
+
+[00:44] A: エドさんは美術館へ行きました。京都の美術館です。
+Romaji: Edo-san wa bijutsukan e ikimashita. Kyouto no bijutsukan desu.
+Nghĩa: Bạn Ed đã đi bảo tàng mỹ thuật. Là bảo tàng mỹ thuật ở Kyoto.
+
+[00:57] A: リーさんはどこへ行きましたか。
+Romaji: Rii-san wa doko e ikimashita ka.
+Nghĩa: Bạn Lee đã đi đâu?
+
+[00:57] C: どこも行きませんでした。勉強しました。
+Romaji: Dokomo ikimasen deshita. Benkyou shimashita.
+Nghĩa: Tôi không đi đâu cả. Tôi đã học bài.
+
+[01:13] A: 先生はどこへ行きましたか。
+Romaji: Sensei wa doko e ikimashita ka.
+Nghĩa: Thầy/cô đã đi đâu?
+
+[01:17] D: 私は奈良の病院へ行きました。友達の病院です。友達は医者です。
+Romaji: Watashi wa Nara no byouin e ikimashita. Tomodachi no byouin desu. Tomodachi wa isha desu.
+Nghĩa: Tôi đã đi bệnh viện ở Nara. Đó là bệnh viện của bạn tôi. Bạn tôi là bác sĩ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[00:27] 質問: ターポンさんは昨日、どこへ行きましたか。
+Romaji: Taapon-san wa kinou, doko e ikimashita ka.
+Nghĩa: Hôm qua bạn Taapon đã đi đâu?
+
+A. 図書館
+Nghĩa: Thư viện
+B. 美術館
+Nghĩa: Bảo tàng mỹ thuật
+C. 病院
+Nghĩa: Bệnh viện
+D. 学校
+Nghĩa: Trường học
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Taapon nói 「図書館へ行きました」.
+
+Câu 2:
+[00:44] 質問: エドさんはどこへ行きましたか。
+Romaji: Edo-san wa doko e ikimashita ka.
+Nghĩa: Bạn Ed đã đi đâu?
+
+A. 京都の美術館
+Nghĩa: Bảo tàng mỹ thuật ở Kyoto
+B. 大阪の図書館
+Nghĩa: Thư viện ở Osaka
+C. 奈良の病院
+Nghĩa: Bệnh viện ở Nara
+D. 広島の学校
+Nghĩa: Trường học ở Hiroshima
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「京都の美術館です」.
+
+Câu 3:
+[00:57] 質問: リーさんはどこへ行きましたか。
+Romaji: Rii-san wa doko e ikimashita ka.
+Nghĩa: Bạn Lee đã đi đâu?
+
+A. どこも行きませんでした
+Nghĩa: Không đi đâu cả
+B. 図書館へ行きました
+Nghĩa: Đã đi thư viện
+C. 病院へ行きました
+Nghĩa: Đã đi bệnh viện
+D. 京都へ行きました
+Nghĩa: Đã đi Kyoto
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Lee nói 「どこも行きませんでした」.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[01:43] A: 明日から広島と松山へ行きます。
+Romaji: Ashita kara Hiroshima to Matsuyama e ikimasu.
+Nghĩa: Từ ngày mai chúng ta sẽ đi Hiroshima và Matsuyama.
+
+[01:49] A: 朝、学校から地下鉄の駅まで歩いて行きます。9時の地下鉄で新大阪まで行きます。
+Romaji: Asa, gakkou kara chikatetsu no eki made aruite ikimasu. Kuji no chikatetsu de Shin-Oosaka made ikimasu.
+Nghĩa: Buổi sáng, đi bộ từ trường đến ga tàu điện ngầm. Đi tàu điện ngầm lúc 9 giờ đến Shin-Osaka.
+
+[02:04] B: 大阪から新幹線で行きますか。
+Romaji: Oosaka kara shinkansen de ikimasu ka.
+Nghĩa: Từ Osaka sẽ đi bằng Shinkansen phải không?
+
+[02:04] A: はい。新大阪から9時40分の新幹線で広島へ行きます。
+Romaji: Hai. Shin-Oosaka kara kuji yonjuppun no shinkansen de Hiroshima e ikimasu.
+Nghĩa: Vâng. Từ Shin-Osaka đi Hiroshima bằng Shinkansen lúc 9 giờ 40 phút.
+
+[02:09] B: 広島からどこへ行きますか。
+Romaji: Hiroshima kara doko e ikimasu ka.
+Nghĩa: Từ Hiroshima sẽ đi đâu?
+
+[02:17] A: 広島から松山まで船で行きます。
+Romaji: Hiroshima kara Matsuyama made fune de ikimasu.
+Nghĩa: Từ Hiroshima đến Matsuyama sẽ đi bằng thuyền.
+
+[02:28] B: 大阪へ帰りますか。
+Romaji: Oosaka e kaerimasu ka.
+Nghĩa: Có trở về Osaka không?
+
+[02:28] A: 土曜日に帰ります。
+Romaji: Doyoubi ni kaerimasu.
+Nghĩa: Sẽ về vào thứ Bảy.
+
+[02:33] B: 新幹線ですか。
+Romaji: Shinkansen desu ka.
+Nghĩa: Bằng Shinkansen à?
+
+[02:33] A: いいえ。松山から大阪まで飛行機で帰ります。
+Romaji: Iie. Matsuyama kara Oosaka made hikouki de kaerimasu.
+Nghĩa: Không. Từ Matsuyama về Osaka bằng máy bay.
+
+[02:41] B: 学校まで何で帰りますか。
+Romaji: Gakkou made nan de kaerimasu ka.
+Nghĩa: Về đến trường bằng gì?
+
+[02:41] A: バスです。
+Romaji: Basu desu.
+Nghĩa: Bằng xe buýt.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[02:04] 質問: 新大阪から広島まで何で行きますか。
+Romaji: Shin-Oosaka kara Hiroshima made nan de ikimasu ka.
+Nghĩa: Từ Shin-Osaka đến Hiroshima đi bằng gì?
+
+A. 新幹線
+Nghĩa: Tàu Shinkansen
+B. 船
+Nghĩa: Thuyền
+C. 飛行機
+Nghĩa: Máy bay
+D. バス
+Nghĩa: Xe buýt
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「新幹線で広島へ行きます」.
+
+Câu 2:
+[02:17] 質問: 広島から松山まで何で行きますか。
+Romaji: Hiroshima kara Matsuyama made nan de ikimasu ka.
+Nghĩa: Từ Hiroshima đến Matsuyama đi bằng gì?
+
+A. 船
+Nghĩa: Thuyền
+B. 新幹線
+Nghĩa: Shinkansen
+C. 地下鉄
+Nghĩa: Tàu điện ngầm
+D. 自転車
+Nghĩa: Xe đạp
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「船で行きます」.
+
+Câu 3:
+[02:33] 質問: 松山から大阪まで何で帰りますか。
+Romaji: Matsuyama kara Oosaka made nan de kaerimasu ka.
+Nghĩa: Từ Matsuyama về Osaka bằng gì?
+
+A. 飛行機
+Nghĩa: Máy bay
+B. 新幹線
+Nghĩa: Shinkansen
+C. バス
+Nghĩa: Xe buýt
+D. 地下鉄
+Nghĩa: Tàu điện ngầm
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「飛行機で帰ります」.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[02:56] A: 来週の火曜日、京都へ行きます。
+Romaji: Raishuu no kayoubi, Kyouto e ikimasu.
+Nghĩa: Thứ Ba tuần sau tôi sẽ đi Kyoto.
+
+[03:01] B: 火曜日ですか。2月10日です。
+Romaji: Kayoubi desu ka. Nigatsu tooka desu.
+Nghĩa: Thứ Ba à? Là ngày 10 tháng 2.
+
+[03:07] A: 図書館の休みは何曜日ですか。
+Romaji: Toshokan no yasumi wa nan-youbi desu ka.
+Nghĩa: Ngày nghỉ của thư viện là thứ mấy?
+
+[03:12] B: 木曜日です。
+Romaji: Mokuyoubi desu.
+Nghĩa: Là thứ Năm.
+
+[03:21] A: 6日に行きます。2月6日、金曜日に図書館へ。
+Romaji: Muika ni ikimasu. Nigatsu muika, kin-youbi ni toshokan e.
+Nghĩa: Tôi sẽ đi vào ngày 6. Ngày 6 tháng 2, thứ Sáu, đến thư viện.
+
+[03:28] A: 元気病院は土曜日休みですか。
+Romaji: Genki byouin wa doyoubi yasumi desu ka.
+Nghĩa: Bệnh viện Genki nghỉ thứ Bảy phải không?
+
+[03:33] B: いいえ。土曜日は休みません。
+Romaji: Iie. Doyoubi wa yasumimasen.
+Nghĩa: Không. Thứ Bảy không nghỉ.
+
+[03:36] A: じゃ、土曜日に行きます。
+Romaji: Ja, doyoubi ni ikimasu.
+Nghĩa: Vậy tôi sẽ đi vào thứ Bảy.
+
+[03:47] A: 葵美術館のピカソはいつまでですか。
+Romaji: Aoi bijutsukan no Pikaso wa itsu made desu ka.
+Nghĩa: Triển lãm Picasso ở Bảo tàng Aoi đến khi nào?
+
+[03:53] B: 今月の27日までです。
+Romaji: Kongetsu no nijuu-shichinichi made desu.
+Nghĩa: Đến ngày 27 tháng này.
+
+[03:57] A: じゃあ、26日に行きます。
+Romaji: Jaa, nijuu-rokunichi ni ikimasu.
+Nghĩa: Vậy tôi sẽ đi vào ngày 26.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[03:07] 質問: 図書館の休みは何曜日ですか。
+Romaji: Toshokan no yasumi wa nan-youbi desu ka.
+Nghĩa: Ngày nghỉ của thư viện là thứ mấy?
+
+A. 木曜日
+Nghĩa: Thứ Năm
+B. 金曜日
+Nghĩa: Thứ Sáu
+C. 火曜日
+Nghĩa: Thứ Ba
+D. 土曜日
+Nghĩa: Thứ Bảy
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「木曜日です」.
+
+Câu 2:
+[03:28] 質問: 元気病院は土曜日休みですか。
+Romaji: Genki byouin wa doyoubi yasumi desu ka.
+Nghĩa: Bệnh viện Genki có nghỉ thứ Bảy không?
+
+A. いいえ、休みません
+Nghĩa: Không, không nghỉ
+B. はい、休みです
+Nghĩa: Có, nghỉ
+C. 木曜日休みです
+Nghĩa: Nghỉ thứ Năm
+D. 日曜日休みです
+Nghĩa: Nghỉ Chủ nhật
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「土曜日は休みません」.
+
+Câu 3:
+[03:47] 質問: 葵美術館のピカソはいつまでですか。
+Romaji: Aoi bijutsukan no Pikaso wa itsu made desu ka.
+Nghĩa: Triển lãm Picasso ở Bảo tàng Aoi đến khi nào?
+
+A. 今月の27日まで
+Nghĩa: Đến ngày 27 tháng này
+B. 今月の26日まで
+Nghĩa: Đến ngày 26 tháng này
+C. 2月6日まで
+Nghĩa: Đến ngày 6 tháng 2
+D. 2月10日まで
+Nghĩa: Đến ngày 10 tháng 2
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「今月の27日までです」.
+
+---
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[04:17] A: ミラーさん、日本へ来ましたか。
+Romaji: Miraa-san, Nihon e kimashita ka.
+Nghĩa: Anh Miller đã đến Nhật Bản phải không?
+
+[04:21] B: 12月です。
+Romaji: Juunigatsu desu.
+Nghĩa: Vào tháng 12.
+
+[04:21] A: 家族と来ましたか。
+Romaji: Kazoku to kimashita ka.
+Nghĩa: Anh đến cùng gia đình à?
+
+[04:25] B: いいえ。1人で来ました。
+Romaji: Iie. Hitori de kimashita.
+Nghĩa: Không. Tôi đến một mình.
+
+[04:30] A: 会社は何時からですか。
+Romaji: Kaisha wa nanji kara desu ka.
+Nghĩa: Công ty bắt đầu từ mấy giờ?
+
+[04:35] B: 8時半からです。
+Romaji: Hachiji han kara desu.
+Nghĩa: Từ 8 giờ rưỡi.
+
+[04:35] A: 毎晩、何時に家へ帰りますか。
+Romaji: Maiban, nanji ni ie e kaerimasu ka.
+Nghĩa: Mỗi tối, mấy giờ anh về nhà?
+
+[04:40] B: 9時に帰ります。
+Romaji: Kuji ni kaerimasu.
+Nghĩa: Tôi về lúc 9 giờ.
+
+[04:45] B: 10時に帰ります。
+Romaji: Juuji ni kaerimasu.
+Nghĩa: Tôi về lúc 10 giờ.
+
+[04:52] A: 毎日、会社へ何で行きますか。
+Romaji: Mainichi, kaisha e nan de ikimasu ka.
+Nghĩa: Mỗi ngày anh đi đến công ty bằng gì?
+
+[04:57] B: 駅まで自転車で行きます。地下鉄で新大阪まで行きます。
+Romaji: Eki made jitensha de ikimasu. Chikatetsu de Shin-Oosaka made ikimasu.
+Nghĩa: Tôi đi xe đạp đến ga. Sau đó đi tàu điện ngầm đến Shin-Osaka.
+
+[05:03] B: 新大阪から会社まで歩いて行きます。
+Romaji: Shin-Oosaka kara kaisha made aruite ikimasu.
+Nghĩa: Từ Shin-Osaka đến công ty tôi đi bộ.
+
+[05:14] A: 来週、東京へ行きますね。
+Romaji: Raishuu, Toukyou e ikimasu ne.
+Nghĩa: Tuần sau anh sẽ đi Tokyo nhỉ.
+
+[05:19] A: 金曜日に新幹線ですか。
+Romaji: Kin-youbi ni shinkansen desu ka.
+Nghĩa: Thứ Sáu đi bằng Shinkansen à?
+
+[05:19] B: いいえ。飛行機で。
+Romaji: Iie. Hikouki de.
+Nghĩa: Không. Bằng máy bay.
+
+[05:24] A: 誰と行きますか。
+Romaji: Dare to ikimasu ka.
+Nghĩa: Anh đi với ai?
+
+[05:27] B: 山田さんと。
+Romaji: Yamada-san to.
+Nghĩa: Với anh/chị Yamada.
+
+[05:27] A: 帰りますか。
+Romaji: Kaerimasu ka.
+Nghĩa: Có về không?
+
+[05:27] B: 金曜日の夜、帰ります。
+Romaji: Kin-youbi no yoru, kaerimasu.
+Nghĩa: Tôi về tối thứ Sáu.
+
+[05:34] A: 金曜日の朝行きます。夜帰ります。大変ですね。
+Romaji: Kin-youbi no asa ikimasu. Yoru kaerimasu. Taihen desu ne.
+Nghĩa: Sáng thứ Sáu đi, tối về. Vất vả nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[04:25] 質問: ミラーさんは誰と日本へ来ましたか。
+Romaji: Miraa-san wa dare to Nihon e kimashita ka.
+Nghĩa: Anh Miller đã đến Nhật Bản với ai?
+
+A. 1人で来ました
+Nghĩa: Đến một mình
+B. 家族と来ました
+Nghĩa: Đến cùng gia đình
+C. 山田さんと来ました
+Nghĩa: Đến cùng anh/chị Yamada
+D. 友達と来ました
+Nghĩa: Đến cùng bạn bè
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Miller nói 「1人で来ました」.
+
+Câu 2:
+[04:30] 質問: 会社は何時からですか。
+Romaji: Kaisha wa nanji kara desu ka.
+Nghĩa: Công ty bắt đầu từ mấy giờ?
+
+A. 8時半
+Nghĩa: 8 giờ rưỡi
+B. 9時
+Nghĩa: 9 giờ
+C. 10時
+Nghĩa: 10 giờ
+D. 12時
+Nghĩa: 12 giờ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Miller nói 「8時半からです」.
+
+Câu 3:
+[05:19] 質問: ミラーさんは東京へ何で行きますか。
+Romaji: Miraa-san wa Toukyou e nan de ikimasu ka.
+Nghĩa: Anh Miller đi Tokyo bằng gì?
+
+A. 飛行機
+Nghĩa: Máy bay
+B. 新幹線
+Nghĩa: Shinkansen
+C. 地下鉄
+Nghĩa: Tàu điện ngầm
+D. 自転車
+Nghĩa: Xe đạp
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Miller nói 「飛行機で」.
+
+Câu 4:
+[05:24] 質問: ミラーさんは誰と東京へ行きますか。
+Romaji: Miraa-san wa dare to Toukyou e ikimasu ka.
+Nghĩa: Anh Miller đi Tokyo với ai?
+
+A. 山田さん
+Nghĩa: Anh/chị Yamada
+B. 家族
+Nghĩa: Gia đình
+C. 先生
+Nghĩa: Giáo viên
+D. リーさん
+Nghĩa: Bạn Lee
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Miller nói 「山田さんと」.
+
+---
+
+## Đoạn hội thoại 5
+
+### 1. Script hội thoại
+
+[05:47] A: 黒澤明さん、誕生日はいつですか。
+Romaji: Kurosawa Akira-san, tanjoubi wa itsu desu ka.
+Nghĩa: Ông Kurosawa Akira, sinh nhật là khi nào?
+
+[05:52] B: 私の誕生日ですか。3月23日です。
+Romaji: Watashi no tanjoubi desu ka. Sangatsu nijuu-sannichi desu.
+Nghĩa: Sinh nhật của tôi à? Là ngày 23 tháng 3.
+
+[06:00] A: 津田梅子さん、誕生日はいつですか。
+Romaji: Tsuda Umeko-san, tanjoubi wa itsu desu ka.
+Nghĩa: Bà Tsuda Umeko, sinh nhật là khi nào?
+
+[06:06] B: 私の誕生日は12月8日です。
+Romaji: Watashi no tanjoubi wa juunigatsu youka desu.
+Nghĩa: Sinh nhật của tôi là ngày 8 tháng 12.
+
+[06:18] A: 小澤征爾さん、誕生日はいつですか。
+Romaji: Ozawa Seiji-san, tanjoubi wa itsu desu ka.
+Nghĩa: Ông Ozawa Seiji, sinh nhật là khi nào?
+
+[06:23] B: 9月1日です。
+Romaji: Kugatsu tsuitachi desu.
+Nghĩa: Là ngày 1 tháng 9.
+
+[06:31] A: すみません。ジョン・レノンさんの誕生日は何月何日ですか。
+Romaji: Sumimasen. Jon Renon-san no tanjoubi wa nangatsu nannichi desu ka.
+Nghĩa: Xin lỗi. Sinh nhật của ông John Lennon là ngày mấy tháng mấy?
+
+[06:38] B: 10月9日です。
+Romaji: Juugatsu kokonoka desu.
+Nghĩa: Là ngày 9 tháng 10.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[05:47] 質問: 黒澤明さんの誕生日はいつですか。
+Romaji: Kurosawa Akira-san no tanjoubi wa itsu desu ka.
+Nghĩa: Sinh nhật của ông Kurosawa Akira là khi nào?
+
+A. 3月23日
+Nghĩa: Ngày 23 tháng 3
+B. 12月8日
+Nghĩa: Ngày 8 tháng 12
+C. 9月1日
+Nghĩa: Ngày 1 tháng 9
+D. 10月9日
+Nghĩa: Ngày 9 tháng 10
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「3月23日です」.
+
+Câu 2:
+[06:00] 質問: 津田梅子さんの誕生日はいつですか。
+Romaji: Tsuda Umeko-san no tanjoubi wa itsu desu ka.
+Nghĩa: Sinh nhật của bà Tsuda Umeko là khi nào?
+
+A. 12月8日
+Nghĩa: Ngày 8 tháng 12
+B. 12月4日
+Nghĩa: Ngày 4 tháng 12
+C. 3月23日
+Nghĩa: Ngày 23 tháng 3
+D. 9月1日
+Nghĩa: Ngày 1 tháng 9
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「12月8日です」.
+
+Câu 3:
+[06:18] 質問: 小澤征爾さんの誕生日はいつですか。
+Romaji: Ozawa Seiji-san no tanjoubi wa itsu desu ka.
+Nghĩa: Sinh nhật của ông Ozawa Seiji là khi nào?
+
+A. 9月1日
+Nghĩa: Ngày 1 tháng 9
+B. 5月1日
+Nghĩa: Ngày 1 tháng 5
+C. 10月9日
+Nghĩa: Ngày 9 tháng 10
+D. 3月23日
+Nghĩa: Ngày 23 tháng 3
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「9月1日です」.
+
+Câu 4:
+[06:31] 質問: ジョン・レノンさんの誕生日は何月何日ですか。
+Romaji: Jon Renon-san no tanjoubi wa nangatsu nannichi desu ka.
+Nghĩa: Sinh nhật của ông John Lennon là ngày mấy tháng mấy?
+
+A. 10月9日
+Nghĩa: Ngày 9 tháng 10
+B. 9月1日
+Nghĩa: Ngày 1 tháng 9
+C. 12月8日
+Nghĩa: Ngày 8 tháng 12
+D. 3月23日
+Nghĩa: Ngày 23 tháng 3
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「10月9日です」.

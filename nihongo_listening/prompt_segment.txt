@@ -1,0 +1,141 @@
+Bạn là một coding assistant giỏi về Python, xử lý audio và tạo web học tập tĩnh.
+
+Nhiệm vụ:
+Tôi có 2 input chính cho một bài luyện nghe tiếng Nhật:
+
+1. File script đã có timestamp:
+   E:\UTILS\extractor\nihongo_listening\{SỐ_BÀI}.txt
+
+2. Audio gốc nằm trong thư mục:
+   E:\UTILS\extractor\nihongo_listening\raw_audio\
+
+File audio tương ứng có tên bắt đầu bằng:
+   #Bài {SỐ_BÀI} LUYỆN NGHE JLPT N5
+
+Hãy viết/điều chỉnh script để xử lý bài số {SỐ_BÀI}.
+
+Quan trọng:
+- Chỉ cần truyền/sửa số bài qua biến LESSON_NO ở đầu file.
+- Không dùng segment_define nữa.
+- Không đọc file:
+  E:\UTILS\extractor\nihongo_listening\segment_define\{SỐ_BÀI}.txt
+- Timestamp dùng để chia đoạn đã nằm trực tiếp trong file:
+  E:\UTILS\extractor\nihongo_listening\{SỐ_BÀI}.txt
+
+Input hiện tại:
+- SỐ_BÀI = 1
+- File script + timestamp:
+  E:\UTILS\extractor\nihongo_listening\1.txt
+- Audio folder:
+  E:\UTILS\extractor\nihongo_listening\raw_audio\
+- Audio file prefix:
+  #Bài 1 LUYỆN NGHE JLPT N5
+
+Yêu cầu xử lý script/timestamp:
+- Đọc file {SỐ_BÀI}.txt để lấy danh sách các đoạn nghe.
+- Mỗi đoạn gồm:
+  + thời gian bắt đầu
+  + thời gian kết thúc
+  + nội dung script tương ứng của đoạn đó
+- Parser timestamp phải linh hoạt, hỗ trợ các dạng phổ biến như:
+  00:01-00:05
+  00:01 --> 00:05
+  00:01.500 - 00:05.200
+  [00:01 - 00:05]
+  1:23 - 1:30
+  00:01
+  [00:01]
+- Nếu file chỉ có timestamp bắt đầu cho mỗi đoạn, hãy tự suy ra end time của đoạn hiện tại bằng start time của đoạn kế tiếp.
+- Với đoạn cuối, nếu không có end time rõ ràng thì dùng hết thời lượng audio gốc.
+- Nếu gặp dòng không parse được, hãy giữ dòng đó như một phần nội dung script của đoạn hiện tại nếu có thể.
+- Nếu có timestamp lỗi hoặc không xử lý được, hãy log warning nhưng không làm crash toàn bộ chương trình.
+
+Yêu cầu xử lý audio:
+- Tìm audio gốc trong thư mục:
+  E:\UTILS\extractor\nihongo_listening\raw_audio\
+- Audio gốc có tên bắt đầu bằng:
+  #Bài {SỐ_BÀI} LUYỆN NGHE JLPT N5
+- Nếu file audio gốc có đuôi khác nhau như .mp3, .wav, .m4a, .aac, .flac, hãy tự tìm file phù hợp trong thư mục raw_audio bằng prefix trên.
+- Dựa trên timestamp đọc được từ file {SỐ_BÀI}.txt, cắt audio gốc thành từng file audio riêng cho từng đoạn.
+- Output audio từng đoạn vào thư mục:
+  E:\UTILS\extractor\nihongo_listening\output\lesson_{SỐ_BÀI}\audio\
+- Tên file audio từng đoạn:
+  segment_001.mp3
+  segment_002.mp3
+  segment_003.mp3
+- Nếu một segment có end time <= start time, hãy bỏ qua segment đó và log warning.
+- Nếu timestamp vượt quá thời lượng audio, hãy tự clamp về thời lượng audio và log warning.
+
+Yêu cầu tạo index.html:
+- Tạo file:
+  E:\UTILS\extractor\nihongo_listening\output\lesson_{SỐ_BÀI}\index.html
+- Trang index.html dùng để ôn tập từng đoạn.
+- Mỗi segment hiển thị:
+  + Số thứ tự đoạn
+  + Timestamp của đoạn
+  + Audio player cho đoạn đó
+  + Nút “Show script” / “Hide script”
+  + Script của đoạn, mặc định bị ẩn; chỉ hiện khi click Show script
+  + Câu hỏi trắc nghiệm để chọn đáp án
+- Giao diện responsive, dùng tốt trên điện thoại nhỏ.
+- CSS viết trực tiếp trong index.html để tiện copy/mở offline.
+- Không cần backend, chỉ cần HTML/CSS/JS thuần.
+- Audio path trong HTML phải dùng relative path, ví dụ:
+  audio/segment_001.mp3
+
+Yêu cầu trắc nghiệm:
+- Với mỗi đoạn, tạo tối thiểu 1 câu hỏi trắc nghiệm dựa trên nội dung script của đoạn đó.
+- Mỗi câu có 4 lựa chọn A/B/C/D.
+- Có nút kiểm tra đáp án.
+- Khi chọn xong, hiển thị đúng/sai ngay trên trang.
+- Không hiện đáp án đúng trước khi bấm kiểm tra.
+- Nếu khó tự sinh câu hỏi tốt, hãy tạo dạng câu hỏi kiểm tra hiểu ý chính của đoạn.
+- Vì script chạy local, không gọi API AI bên ngoài.
+- Có thể tạo câu hỏi theo template đơn giản dựa trên nội dung đoạn, ví dụ:
+  “Nội dung chính của đoạn này là gì?”
+  Trong đó đáp án đúng là một câu tóm tắt/ngắn gọn lấy từ script đoạn đó, các đáp án sai lấy từ những đoạn khác hoặc tạo fallback an toàn.
+
+Yêu cầu script Python:
+- Viết code Python hoàn chỉnh, chạy được trực tiếp.
+- Có biến LESSON_NO ở đầu file, ví dụ:
+  LESSON_NO = 1
+- Lần sau tôi chỉ cần đổi LESSON_NO là script tự adapt.
+- Có biến BASE_DIR:
+  BASE_DIR = Path(r"E:\UTILS\extractor\nihongo_listening")
+- Không hard-code riêng bài 1 ngoài LESSON_NO.
+- Tự tạo thư mục output nếu chưa có.
+- In log rõ ràng:
+  + Đã tìm thấy file script/timestamp
+  + Không dùng segment_define
+  + Đã tìm thấy file audio gốc
+  + Thời lượng audio gốc
+  + Số segment parse được
+  + Số file audio đã export
+  + Đường dẫn index.html đã tạo
+- Ưu tiên dùng pydub để cắt audio.
+- Nếu thiếu pydub, báo hướng dẫn:
+  pip install pydub
+- Nếu thiếu ffmpeg hoặc pydub không đọc được audio, báo hướng dẫn dễ hiểu:
+  + Cài ffmpeg
+  + Thêm ffmpeg vào PATH
+  + Kiểm tra bằng lệnh ffmpeg -version
+- Code nên có cấu trúc hàm rõ ràng:
+  + find_audio_file()
+  + parse_timestamp_to_ms()
+  + parse_segments_from_script()
+  + load_script_with_timestamps()
+  + cut_audio_segments()
+  + build_quiz_items()
+  + generate_index_html()
+  + main()
+
+Yêu cầu chất lượng code:
+- Dùng pathlib.Path.
+- Dùng dataclass cho Segment nếu phù hợp.
+- Escape HTML đầy đủ khi đưa script vào index.html.
+- Không để chương trình crash chỉ vì một dòng timestamp lỗi.
+- Có log warning rõ ràng cho các segment bị bỏ qua.
+- Có xử lý encoding linh hoạt khi đọc file script, thử utf-8-sig trước, sau đó utf-8, cp932, shift_jis nếu cần.
+- Output cuối cùng phải cho biết có thể mở file index.html ở đâu.
+
+Hãy tạo cho tôi file Python hoàn chỉnh để chạy bài này.

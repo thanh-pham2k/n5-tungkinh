@@ -1,0 +1,601 @@
+## Đoạn hội thoại 1
+
+### 1. Script hội thoại
+
+[05:08] これは何ですか。
+Romaji: Kore wa nan desu ka.
+Nghĩa: Đây là cái gì?
+
+[05:08] それは何ですか。
+Romaji: Sore wa nan desu ka.
+Nghĩa: Đó là cái gì?
+
+[05:14] あれは何ですか。
+Romaji: Are wa nan desu ka.
+Nghĩa: Kia là cái gì?
+
+[05:26] これは何ですか。テレホンカードですか。
+Romaji: Kore wa nan desu ka. Terehon kaado desu ka.
+Nghĩa: Đây là cái gì? Là thẻ điện thoại à?
+
+[05:31] いいえ、鍵です。
+Romaji: Iie, kagi desu.
+Nghĩa: Không, là chìa khóa.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[05:08] 質問: これは何ですか。
+Romaji: Kore wa nan desu ka.
+Nghĩa: Đây là cái gì?
+
+A. 鍵です
+Nghĩa: Là chìa khóa
+B. テレホンカードです
+Nghĩa: Là thẻ điện thoại
+C. カメラです
+Nghĩa: Là máy ảnh
+D. チョコレートです
+Nghĩa: Là sô-cô-la
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia phủ nhận テレホンカード và trả lời 鍵です.
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[05:41] あれは日本語ですか。
+Romaji: Are wa Nihongo desu ka.
+Nghĩa: Kia là tiếng Nhật à?
+
+[05:47] いいえ、あれは韓国語です。
+Romaji: Iie, are wa Kankokugo desu.
+Nghĩa: Không, kia là tiếng Hàn.
+
+[05:50] 韓国語ですか。
+Romaji: Kankokugo desu ka.
+Nghĩa: Là tiếng Hàn à?
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: あれは何語ですか。
+Romaji: Are wa nanigo desu ka.
+Nghĩa: Kia là tiếng gì?
+
+A. 韓国語です
+Nghĩa: Là tiếng Hàn
+B. 日本語です
+Nghĩa: Là tiếng Nhật
+C. 英語です
+Nghĩa: Là tiếng Anh
+D. スペイン語です
+Nghĩa: Là tiếng Tây Ban Nha
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói あれは韓国語です.
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[06:00] あれはカメラですか。
+Romaji: Are wa kamera desu ka.
+Nghĩa: Kia là máy ảnh à?
+
+[06:00] はい、そうです。カメラです。
+Romaji: Hai, sou desu. Kamera desu.
+Nghĩa: Vâng, đúng vậy. Là máy ảnh.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: あれは何ですか。
+Romaji: Are wa nan desu ka.
+Nghĩa: Kia là cái gì?
+
+A. カメラです
+Nghĩa: Là máy ảnh
+B. 鍵です
+Nghĩa: Là chìa khóa
+C. 名刺です
+Nghĩa: Là danh thiếp
+D. 雑誌です
+Nghĩa: Là tạp chí
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia xác nhận カメラです.
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[06:13] これ、何ですか。
+Romaji: Kore, nan desu ka.
+Nghĩa: Cái này là gì?
+
+[06:13] チョコレートです。どうぞ。
+Romaji: Chokoreeto desu. Douzo.
+Nghĩa: Là sô-cô-la. Xin mời.
+
+[06:17] どうもありがとう。
+Romaji: Doumo arigatou.
+Nghĩa: Cảm ơn nhiều.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: これは何ですか。
+Romaji: Kore wa nan desu ka.
+Nghĩa: Đây là cái gì?
+
+A. チョコレートです
+Nghĩa: Là sô-cô-la
+B. カメラです
+Nghĩa: Là máy ảnh
+C. 鍵です
+Nghĩa: Là chìa khóa
+D. ボールペンです
+Nghĩa: Là bút bi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia trả lời チョコレートです.
+
+## Đoạn hội thoại 5
+
+### 1. Script hội thoại
+
+[06:33] はじめまして。中島です。
+Romaji: Hajimemashite. Nakajima desu.
+Nghĩa: Rất vui được gặp. Tôi là Nakajima.
+
+[06:36] これは名刺です。どうぞ。
+Romaji: Kore wa meishi desu. Douzo.
+Nghĩa: Đây là danh thiếp. Xin mời.
+
+[06:36] ありがとうございます。
+Romaji: Arigatou gozaimasu.
+Nghĩa: Cảm ơn.
+
+[06:42] お名前は中島さんですか。
+Romaji: Onamae wa Nakajima-san desu ka.
+Nghĩa: Tên anh/chị là Nakajima phải không?
+
+[06:48] 中島です。
+Romaji: Nakajima desu.
+Nghĩa: Tôi là Nakajima.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 名前は何ですか。
+Romaji: Namae wa nan desu ka.
+Nghĩa: Tên là gì?
+
+A. 中島です
+Nghĩa: Là Nakajima
+B. 林です
+Nghĩa: Là Hayashi
+C. ジャンです
+Nghĩa: Là Jean
+D. エドです
+Nghĩa: Là Ed
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người đó tự giới thiệu 中島です.
+
+## Đoạn hội thoại 6
+
+### 1. Script hội thoại
+
+[06:51] 会社の名前は123電気ですか。
+Romaji: Kaisha no namae wa ichi ni san denki desu ka.
+Nghĩa: Tên công ty là 123 Denki à?
+
+[06:55] ひふみ電気ですか。
+Romaji: Hifumi Denki desu ka.
+Nghĩa: Là Hifumi Denki à?
+
+[06:55] ひふみ電気です。
+Romaji: Hifumi Denki desu.
+Nghĩa: Là Hifumi Denki.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 会社の名前は何ですか。
+Romaji: Kaisha no namae wa nan desu ka.
+Nghĩa: Tên công ty là gì?
+
+A. ひふみ電気です
+Nghĩa: Là Hifumi Denki
+B. 123電気です
+Nghĩa: Là 123 Denki
+C. 中島電気です
+D. 高橋電気です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia xác nhận ひふみ電気です.
+
+## Đoạn hội thoại 7
+
+### 1. Script hội thoại
+
+[07:05] 電話は060-0603の890……。
+Romaji: Denwa wa zero roku zero, zero roku zero san no hachi kyuu zero...
+Nghĩa: Số điện thoại là 060-0603-890...
+
+[07:11] すみません。これは1ですか、7ですか。
+Romaji: Sumimasen. Kore wa ichi desu ka, nana desu ka.
+Nghĩa: Xin lỗi. Đây là số 1 hay số 7?
+
+[07:11] 1です。
+Romaji: Ichi desu.
+Nghĩa: Là số 1.
+
+[07:18] 8901ですね。
+Romaji: Hachi kyuu zero ichi desu ne.
+Nghĩa: Là 8901 đúng không?
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 電話番号の最後は何ですか。
+Romaji: Denwa bangou no saigo wa nan desu ka.
+Nghĩa: Phần cuối của số điện thoại là gì?
+
+A. 8901
+Nghĩa: 8901
+B. 8907
+Nghĩa: 8907
+C. 0603
+D. 1234
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói số cuối là 1, nên là 8901.
+
+## Đoạn hội thoại 8
+
+### 1. Script hội thoại
+
+[07:22] あの、これ、どうぞ。
+Romaji: Ano, kore, douzo.
+Nghĩa: À, cái này xin mời nhận.
+
+[07:26] ひふみ電気のほんの気持ちです。
+Romaji: Hifumi Denki no hon no kimochi desu.
+Nghĩa: Đây là chút tấm lòng của Hifumi Denki.
+
+[07:31] どうも。これ、ボールペンですか、シャープペンシルですか。
+Romaji: Doumo. Kore, boorupen desu ka, shaapu penshiru desu ka.
+Nghĩa: Cảm ơn. Đây là bút bi hay bút chì bấm?
+
+[07:33] シャープペンシルです。
+Romaji: Shaapu penshiru desu.
+Nghĩa: Là bút chì bấm.
+
+[07:39] これからお世話になります。どうぞよろしくお願いします。
+Romaji: Korekara osewa ni narimasu. Douzo yoroshiku onegai shimasu.
+Nghĩa: Từ nay mong được anh/chị giúp đỡ. Rất mong được giúp đỡ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: これは何ですか。
+Romaji: Kore wa nan desu ka.
+Nghĩa: Đây là cái gì?
+
+A. シャープペンシルです
+Nghĩa: Là bút chì bấm
+B. ボールペンです
+Nghĩa: Là bút bi
+C. 名刺です
+D. 鉛筆です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia trả lời シャープペンシルです.
+
+## Đoạn hội thoại 9
+
+### 1. Script hội thoại
+
+[07:44] それは何ですか。
+Romaji: Sore wa nan desu ka.
+Nghĩa: Đó là cái gì?
+
+[07:49] それは何ですか。
+Romaji: Sore wa nan desu ka.
+Nghĩa: Đó là cái gì?
+
+[07:53] 雑誌です。
+Romaji: Zasshi desu.
+Nghĩa: Là tạp chí.
+
+[07:53] 何の雑誌ですか。
+Romaji: Nan no zasshi desu ka.
+Nghĩa: Tạp chí về gì?
+
+[07:57] 自動車の雑誌です。
+Romaji: Jidousha no zasshi desu.
+Nghĩa: Là tạp chí ô tô.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: それは何の雑誌ですか。
+Romaji: Sore wa nan no zasshi desu ka.
+Nghĩa: Đó là tạp chí về gì?
+
+A. 自動車の雑誌です
+Nghĩa: Tạp chí ô tô
+B. 時計の雑誌です
+C. 病院の雑誌です
+D. スペイン語の雑誌です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói 自動車の雑誌です.
+
+## Đoạn hội thoại 10
+
+### 1. Script hội thoại
+
+[08:01] それは何ですか。
+Romaji: Sore wa nan desu ka.
+Nghĩa: Đó là cái gì?
+
+[08:05] これですか。カードです。
+Romaji: Kore desu ka. Kaado desu.
+Nghĩa: Cái này à? Là thẻ.
+
+[08:05] 何のカードですか。
+Romaji: Nan no kaado desu ka.
+Nghĩa: Thẻ gì?
+
+[08:10] 病院のカードです。
+Romaji: Byouin no kaado desu.
+Nghĩa: Là thẻ bệnh viện.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: これは何のカードですか。
+Romaji: Kore wa nan no kaado desu ka.
+Nghĩa: Đây là thẻ gì?
+
+A. 病院のカードです
+Nghĩa: Thẻ bệnh viện
+B. 会社のカードです
+C. 電話のカードです
+D. 銀行のカードです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói 病院のカードです.
+
+## Đoạn hội thoại 11
+
+### 1. Script hội thoại
+
+[08:14] それは本ですか。
+Romaji: Sore wa hon desu ka.
+Nghĩa: Đó là sách à?
+
+[08:18] 何の本ですか。
+Romaji: Nan no hon desu ka.
+Nghĩa: Sách về gì?
+
+[08:18] 時計の本です。
+Romaji: Tokei no hon desu.
+Nghĩa: Là sách về đồng hồ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: それは何の本ですか。
+Romaji: Sore wa nan no hon desu ka.
+Nghĩa: Đó là sách về gì?
+
+A. 時計の本です
+Nghĩa: Sách về đồng hồ
+B. 自動車の本です
+C. 病院の本です
+D. 日本語の本です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia trả lời 時計の本です.
+
+## Đoạn hội thoại 12
+
+### 1. Script hội thoại
+
+[08:23] これはイタリア語のノートですか。
+Romaji: Kore wa Itariago no nooto desu ka.
+Nghĩa: Đây là vở tiếng Ý à?
+
+[08:29] いいえ、スペイン語のノートです。
+Romaji: Iie, Supeingo no nooto desu.
+Nghĩa: Không, là vở tiếng Tây Ban Nha.
+
+[08:32] イタリア語はグラッチェですよ。
+Romaji: Itariago wa Guracche desu yo.
+Nghĩa: Tiếng Ý là “grazie” đấy.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: これは何語のノートですか。
+Romaji: Kore wa nanigo no nooto desu ka.
+Nghĩa: Đây là vở tiếng gì?
+
+A. スペイン語のノートです
+Nghĩa: Vở tiếng Tây Ban Nha
+B. イタリア語のノートです
+C. 日本語のノートです
+D. 韓国語のノートです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia phủ nhận tiếng Ý và nói スペイン語のノートです.
+
+## Đoạn hội thoại 13
+
+### 1. Script hội thoại
+
+[08:42] 誰のですか。
+Romaji: Dare no desu ka.
+Nghĩa: Là của ai?
+
+[09:02] この鉛筆はあなたのですか。
+Romaji: Kono enpitsu wa anata no desu ka.
+Nghĩa: Cây bút chì này là của bạn à?
+
+[09:02] いいえ、私のじゃありません。
+Romaji: Iie, watashi no ja arimasen.
+Nghĩa: Không, không phải của tôi.
+
+[09:09] 林さんのです。
+Romaji: Hayashi-san no desu.
+Nghĩa: Là của anh/chị Hayashi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: この鉛筆は誰のですか。
+Romaji: Kono enpitsu wa dare no desu ka.
+Nghĩa: Cây bút chì này là của ai?
+
+A. 林さんのです
+Nghĩa: Là của Hayashi
+B. 私のです
+C. ジャンさんのです
+D. 先生のです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói không phải của mình, là của 林さん.
+
+## Đoạn hội thoại 14
+
+### 1. Script hội thoại
+
+[09:13] この手帳は誰のですか。
+Romaji: Kono techou wa dare no desu ka.
+Nghĩa: Cuốn sổ tay này là của ai?
+
+[09:18] それはジャンさんのです。
+Romaji: Sore wa Jan-san no desu.
+Nghĩa: Cái đó là của Jean.
+
+[09:18] ジャンさんの手帳です。
+Romaji: Jan-san no techou desu.
+Nghĩa: Là sổ tay của Jean.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: この手帳は誰のですか。
+Romaji: Kono techou wa dare no desu ka.
+Nghĩa: Cuốn sổ tay này là của ai?
+
+A. ジャンさんのです
+Nghĩa: Là của Jean
+B. 林さんのです
+C. エドさんのです
+D. ターポンさんのです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói ジャンさんの手帳です.
+
+## Đoạn hội thoại 15
+
+### 1. Script hội thoại
+
+[09:24] このカバンもジャンさんのですか。
+Romaji: Kono kaban mo Jan-san no desu ka.
+Nghĩa: Cái cặp này cũng là của Jean à?
+
+[09:29] いいえ、そのカバンはエドさんのです。
+Romaji: Iie, sono kaban wa Edo-san no desu.
+Nghĩa: Không, cái cặp đó là của Ed.
+
+[09:33] エドさんの。
+Romaji: Edo-san no.
+Nghĩa: Của Ed à.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: そのカバンは誰のですか。
+Romaji: Sono kaban wa dare no desu ka.
+Nghĩa: Cái cặp đó là của ai?
+
+A. エドさんのです
+Nghĩa: Là của Ed
+B. ジャンさんのです
+C. 林さんのです
+D. 先生のです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói そのカバンはエドさんのです.
+
+## Đoạn hội thoại 16
+
+### 1. Script hội thoại
+
+[09:37] その辞書はターポンさんのですか。
+Romaji: Sono jisho wa Taapon-san no desu ka.
+Nghĩa: Cuốn từ điển đó là của Tapon à?
+
+[09:41] はい、そうです。
+Romaji: Hai, sou desu.
+Nghĩa: Vâng, đúng vậy.
+
+[09:45] 私の辞書です。
+Romaji: Watashi no jisho desu.
+Nghĩa: Là từ điển của tôi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: その辞書は誰のですか。
+Romaji: Sono jisho wa dare no desu ka.
+Nghĩa: Cuốn từ điển đó là của ai?
+
+A. ターポンさんのです
+Nghĩa: Là của Tapon
+B. エドさんのです
+C. ジャンさんのです
+D. 林さんのです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Tapon xác nhận đó là từ điển của mình.
+
+## Đoạn hội thoại 17
+
+### 1. Script hội thoại
+
+[09:48] あの傘は誰のですか。
+Romaji: Ano kasa wa dare no desu ka.
+Nghĩa: Cây ô kia là của ai?
+
+[09:53] あれは先生のです。
+Romaji: Are wa sensei no desu.
+Nghĩa: Cái kia là của giáo viên.
+
+[09:57] そうですね。
+Romaji: Sou desu ne.
+Nghĩa: Đúng vậy nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: あの傘は誰のですか。
+Romaji: Ano kasa wa dare no desu ka.
+Nghĩa: Cây ô kia là của ai?
+
+A. 先生のです
+Nghĩa: Là của giáo viên
+B. ターポンさんのです
+C. ジャンさんのです
+D. 私のです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói あれは先生のです.

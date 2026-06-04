@@ -1,0 +1,479 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[00:04] A: 今、何時ですか。
+Romaji: Ima, nanji desu ka.
+Nghĩa: Bây giờ là mấy giờ?
+
+[00:11] B: 今、何時ですか。6時20分です。
+Romaji: Ima, nanji desu ka. Rokuji nijuppun desu.
+Nghĩa: Bây giờ là mấy giờ? Là 6 giờ 20 phút.
+
+[00:18] A: 北京は今、何時半ですか。
+Romaji: Pekin wa ima, nanji han desu ka.
+Nghĩa: Bắc Kinh bây giờ là mấy giờ rưỡi?
+
+[00:23] B: 1時半です。
+Romaji: Ichiji han desu.
+Nghĩa: Là 1 giờ rưỡi.
+
+[00:33] A: 今、ロンドンは何時ですか。
+Romaji: Ima, Rondon wa nanji desu ka.
+Nghĩa: Bây giờ London là mấy giờ?
+
+[00:33] B: 午前7時15分です。
+Romaji: Gozen shichiji juugofun desu.
+Nghĩa: Là 7 giờ 15 phút sáng.
+
+[00:51] A: 先生、12時50分です。
+Romaji: Sensei, juu-niji gojuppun desu.
+Nghĩa: Thưa thầy/cô, 12 giờ 50 phút rồi ạ.
+
+[00:55] B: そうですね。じゃ、終わりましょう。
+Romaji: Sou desu ne. Ja, owarimashou.
+Nghĩa: Đúng vậy nhỉ. Vậy thì kết thúc thôi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[00:18] 質問: 北京は今、何時ですか。
+Romaji: Pekin wa ima, nanji desu ka.
+Nghĩa: Bắc Kinh bây giờ là mấy giờ?
+
+A. 1時半
+Nghĩa: 1 giờ rưỡi
+B. 2時半
+Nghĩa: 2 giờ rưỡi
+C. 6時20分
+Nghĩa: 6 giờ 20 phút
+D. 7時15分
+Nghĩa: 7 giờ 15 phút
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Trong hội thoại, người trả lời nói 「1時半です」.
+
+Câu 2:
+[00:33] 質問: ロンドンは今、何時ですか。
+Romaji: Rondon wa ima, nanji desu ka.
+Nghĩa: London bây giờ là mấy giờ?
+
+A. 午前7時15分
+Nghĩa: 7 giờ 15 phút sáng
+B. 午後7時15分
+Nghĩa: 7 giờ 15 phút chiều/tối
+C. 1時15分
+Nghĩa: 1 giờ 15 phút
+D. 12時50分
+Nghĩa: 12 giờ 50 phút
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「午前7時15分です」.
+
+Câu 3:
+[00:51] 質問: 何時に終わりますか。
+Romaji: Nanji ni owarimasu ka.
+Nghĩa: Mấy giờ thì kết thúc?
+
+A. 12時50分
+Nghĩa: 12 giờ 50 phút
+B. 11時半
+Nghĩa: 11 giờ rưỡi
+C. 6時20分
+Nghĩa: 6 giờ 20 phút
+D. 5時
+Nghĩa: 5 giờ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「12時50分です」 rồi sau đó 「終わりましょう」.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[01:14] A: はい、葵美術館です。
+Romaji: Hai, Aoi bijutsukan desu.
+Nghĩa: Vâng, đây là Bảo tàng mỹ thuật Aoi.
+
+[01:23] B: そちらは何時から何時までですか。
+Romaji: Sochira wa nanji kara nanji made desu ka.
+Nghĩa: Ở đó mở cửa từ mấy giờ đến mấy giờ?
+
+[01:23] A: 10時から5時までです。
+Romaji: Juuji kara goji made desu.
+Nghĩa: Từ 10 giờ đến 5 giờ.
+
+[01:29] B: 休みは何曜日ですか。
+Romaji: Yasumi wa nan-youbi desu ka.
+Nghĩa: Ngày nghỉ là thứ mấy?
+
+[01:29] A: 月曜日です。
+Romaji: Getsuyoubi desu.
+Nghĩa: Là thứ Hai.
+
+[01:44] A: はい、図書館です。
+Romaji: Hai, toshokan desu.
+Nghĩa: Vâng, đây là thư viện.
+
+[01:48] B: そちらは何時からですか。
+Romaji: Sochira wa nanji kara desu ka.
+Nghĩa: Ở đó bắt đầu từ mấy giờ?
+
+[01:48] A: 9時からです。
+Romaji: Kuji kara desu.
+Nghĩa: Từ 9 giờ.
+
+[01:52] B: 何時までですか。
+Romaji: Nanji made desu ka.
+Nghĩa: Đến mấy giờ?
+
+[01:52] A: 6時までです。
+Romaji: Rokuji made desu.
+Nghĩa: Đến 6 giờ.
+
+[01:56] B: 土曜日は休みですか。
+Romaji: Doyoubi wa yasumi desu ka.
+Nghĩa: Thứ Bảy có nghỉ không?
+
+[01:56] A: いいえ。休みは火曜日です。
+Romaji: Iie. Yasumi wa kayoubi desu.
+Nghĩa: Không. Ngày nghỉ là thứ Ba.
+
+[02:14] A: はい、元気病院です。
+Romaji: Hai, Genki byouin desu.
+Nghĩa: Vâng, đây là bệnh viện Genki.
+
+[02:17] B: そちらは何時から何時までですか。
+Romaji: Sochira wa nanji kara nanji made desu ka.
+Nghĩa: Ở đó làm việc từ mấy giờ đến mấy giờ?
+
+[02:17] A: 午前9時から12時までと、午後4時半から7時半までです。
+Romaji: Gozen kuji kara juu-niji made to, gogo yoji han kara shichiji han made desu.
+Nghĩa: Từ 9 giờ sáng đến 12 giờ, và từ 4 giờ rưỡi chiều đến 7 giờ rưỡi tối.
+
+[02:25] B: 土曜日は休みですか。
+Romaji: Doyoubi wa yasumi desu ka.
+Nghĩa: Thứ Bảy có nghỉ không?
+
+[02:25] A: いいえ。休みは日曜日です。
+Romaji: Iie. Yasumi wa nichiyoubi desu.
+Nghĩa: Không. Ngày nghỉ là Chủ nhật.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[01:23] 質問: 葵美術館は何時から何時までですか。
+Romaji: Aoi bijutsukan wa nanji kara nanji made desu ka.
+Nghĩa: Bảo tàng mỹ thuật Aoi mở từ mấy giờ đến mấy giờ?
+
+A. 10時から5時まで
+Nghĩa: Từ 10 giờ đến 5 giờ
+B. 9時から6時まで
+Nghĩa: Từ 9 giờ đến 6 giờ
+C. 9時から12時まで
+Nghĩa: Từ 9 giờ đến 12 giờ
+D. 4時半から7時半まで
+Nghĩa: Từ 4 giờ rưỡi đến 7 giờ rưỡi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Hội thoại nói 「10時から5時までです」.
+
+Câu 2:
+[01:56] 質問: 図書館の休みは何曜日ですか。
+Romaji: Toshokan no yasumi wa nan-youbi desu ka.
+Nghĩa: Ngày nghỉ của thư viện là thứ mấy?
+
+A. 火曜日
+Nghĩa: Thứ Ba
+B. 月曜日
+Nghĩa: Thứ Hai
+C. 土曜日
+Nghĩa: Thứ Bảy
+D. 日曜日
+Nghĩa: Chủ nhật
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「休みは火曜日です」.
+
+Câu 3:
+[02:17] 質問: 元気病院は午後、何時から何時半までですか。
+Romaji: Genki byouin wa gogo, nanji kara nanji han made desu ka.
+Nghĩa: Buổi chiều bệnh viện Genki làm từ mấy giờ đến mấy giờ rưỡi?
+
+A. 4時半から7時半まで
+Nghĩa: Từ 4 giờ rưỡi đến 7 giờ rưỡi
+B. 9時から12時まで
+Nghĩa: Từ 9 giờ đến 12 giờ
+C. 10時から5時まで
+Nghĩa: Từ 10 giờ đến 5 giờ
+D. 9時から6時まで
+Nghĩa: Từ 9 giờ đến 6 giờ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「午後4時半から7時半までです」.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[02:59] A: 先生、おはようございます。
+Romaji: Sensei, ohayou gozaimasu.
+Nghĩa: Chào thầy/cô buổi sáng ạ.
+
+[03:04] B: ターポンさん、昨日の晩、勉強しましたか。
+Romaji: Taapon-san, kinou no ban, benkyou shimashita ka.
+Nghĩa: Bạn Taapon, tối qua bạn có học không?
+
+[03:04] A: はい。8時から11時まで勉強しました。
+Romaji: Hai. Hachiji kara juuichiji made benkyou shimashita.
+Nghĩa: Có. Tôi đã học từ 8 giờ đến 11 giờ.
+
+[03:11] B: ミゲルさんは勉強しましたか。
+Romaji: Migeru-san wa benkyou shimashita ka.
+Nghĩa: Bạn Miguel có học không?
+
+[03:15] C: すみません。勉強しませんでした。
+Romaji: Sumimasen. Benkyou shimasen deshita.
+Nghĩa: Xin lỗi. Tôi đã không học.
+
+[03:23] B: リーさんは勉強しましたか。
+Romaji: Rii-san wa benkyou shimashita ka.
+Nghĩa: Bạn Lee có học không?
+
+[03:23] D: いいえ。昨日12時まで働きました。
+Romaji: Iie. Kinou juu-niji made hatarakimashita.
+Nghĩa: Không. Hôm qua tôi đã làm việc đến 12 giờ.
+
+[03:37] B: 武さんは勉強しましたか。
+Romaji: Take-san wa benkyou shimashita ka.
+Nghĩa: Bạn Take có học không?
+
+[03:37] E: はい。11時から11時半まで勉強しました。
+Romaji: Hai. Juuichiji kara juuichiji han made benkyou shimashita.
+Nghĩa: Có. Tôi đã học từ 11 giờ đến 11 giờ rưỡi.
+
+[03:55] B: エドさんは昨日の晩、勉強しませんでしたか。
+Romaji: Edo-san wa kinou no ban, benkyou shimasen deshita ka.
+Nghĩa: Bạn Ed tối qua đã không học à?
+
+[03:59] F: 6時に起きました。6時半から7時半まで勉強しました。
+Romaji: Rokuji ni okimashita. Rokuji han kara shichiji han made benkyou shimashita.
+Nghĩa: Tôi đã dậy lúc 6 giờ. Tôi học từ 6 giờ rưỡi đến 7 giờ rưỡi.
+
+[04:05] B: じゃ、皆さん、今から試験ですよ。
+Romaji: Ja, minasan, ima kara shiken desu yo.
+Nghĩa: Vậy thì mọi người, bây giờ bắt đầu kiểm tra nhé.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[03:04] 質問: ターポンさんは何時から何時まで勉強しましたか。
+Romaji: Taapon-san wa nanji kara nanji made benkyou shimashita ka.
+Nghĩa: Bạn Taapon đã học từ mấy giờ đến mấy giờ?
+
+A. 8時から11時まで
+Nghĩa: Từ 8 giờ đến 11 giờ
+B. 11時から11時半まで
+Nghĩa: Từ 11 giờ đến 11 giờ rưỡi
+C. 6時半から7時半まで
+Nghĩa: Từ 6 giờ rưỡi đến 7 giờ rưỡi
+D. 12時まで
+Nghĩa: Đến 12 giờ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Taapon nói 「8時から11時まで勉強しました」.
+
+Câu 2:
+[03:11] 質問: ミゲルさんは勉強しましたか。
+Romaji: Migeru-san wa benkyou shimashita ka.
+Nghĩa: Bạn Miguel có học không?
+
+A. いいえ、勉強しませんでした。
+Nghĩa: Không, đã không học
+B. はい、勉強しました。
+Nghĩa: Có, đã học
+C. 12時まで働きました。
+Nghĩa: Đã làm việc đến 12 giờ
+D. 6時に起きました。
+Nghĩa: Đã dậy lúc 6 giờ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Miguel nói 「勉強しませんでした」.
+
+Câu 3:
+[03:37] 質問: 武さんは何時から何時半まで勉強しましたか。
+Romaji: Take-san wa nanji kara nanji han made benkyou shimashita ka.
+Nghĩa: Bạn Take đã học từ mấy giờ đến mấy giờ rưỡi?
+
+A. 11時から11時半まで
+Nghĩa: Từ 11 giờ đến 11 giờ rưỡi
+B. 8時から11時まで
+Nghĩa: Từ 8 giờ đến 11 giờ
+C. 6時半から7時半まで
+Nghĩa: Từ 6 giờ rưỡi đến 7 giờ rưỡi
+D. 9時から12時まで
+Nghĩa: Từ 9 giờ đến 12 giờ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Take nói 「11時から11時半まで」.
+
+---
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[04:12] A: 林さんは何曜日に働きましたか。
+Romaji: Hayashi-san wa nan-youbi ni hatarakimashita ka.
+Nghĩa: Bạn Hayashi đã làm việc vào thứ mấy?
+
+[04:19] B: 月曜日と火曜日と木曜日に働きました。
+Romaji: Getsuyoubi to kayoubi to mokuyoubi ni hatarakimashita.
+Nghĩa: Tôi đã làm việc vào thứ Hai, thứ Ba và thứ Năm.
+
+[04:30] A: 水曜日は働きませんでしたか。
+Romaji: Suiyoubi wa hatarakimasen deshita ka.
+Nghĩa: Thứ Tư bạn không làm việc à?
+
+[04:33] B: 水曜日は休みました。
+Romaji: Suiyoubi wa yasumimashita.
+Nghĩa: Thứ Tư tôi đã nghỉ.
+
+[04:37] A: 金曜日は。
+Romaji: Kin-youbi wa.
+Nghĩa: Còn thứ Sáu thì sao?
+
+[04:37] B: 金曜日も働きませんでした。土曜日と日曜日は休みです。
+Romaji: Kin-youbi mo hatarakimasen deshita. Doyoubi to nichiyoubi wa yasumi desu.
+Nghĩa: Thứ Sáu cũng không làm việc. Thứ Bảy và Chủ nhật là ngày nghỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[04:12] 質問: 林さんは何曜日に働きましたか。
+Romaji: Hayashi-san wa nan-youbi ni hatarakimashita ka.
+Nghĩa: Bạn Hayashi đã làm việc vào thứ mấy?
+
+A. 月曜日と火曜日と木曜日
+Nghĩa: Thứ Hai, thứ Ba và thứ Năm
+B. 水曜日と金曜日
+Nghĩa: Thứ Tư và thứ Sáu
+C. 土曜日と日曜日
+Nghĩa: Thứ Bảy và Chủ nhật
+D. 月曜日と水曜日と金曜日
+Nghĩa: Thứ Hai, thứ Tư và thứ Sáu
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Hội thoại nói 「月曜日と火曜日と木曜日に働きました」.
+
+---
+
+## Đoạn hội thoại 5
+
+### 1. Script hội thoại
+
+[04:53] A: 田中さん、電話番号は何番ですか。
+Romaji: Tanaka-san, denwa bangou wa nanban desu ka.
+Nghĩa: Bạn Tanaka, số điện thoại là số mấy?
+
+[04:58] B: 03-3292-7148です。
+Romaji: Zero-san, san-ni-kyuu-ni, nana-ichi-yon-hachi desu.
+Nghĩa: Là 03-3292-7148.
+
+[05:11] A: 木村さんの電話は何番ですか。
+Romaji: Kimura-san no denwa wa nanban desu ka.
+Nghĩa: Số điện thoại của bạn Kimura là số mấy?
+
+[05:19] B: 090-9829-2470です。
+Romaji: Zero-kyuu-zero, kyuu-hachi-ni-kyuu, ni-yon-nana-zero desu.
+Nghĩa: Là 090-9829-2470.
+
+[05:41] A: 葵美術館は何番ですか。
+Romaji: Aoi bijutsukan wa nanban desu ka.
+Nghĩa: Số điện thoại của Bảo tàng mỹ thuật Aoi là số mấy?
+
+[05:57] B: お問い合わせの番号は078-4211-3168です。
+Romaji: O-toiawase no bangou wa zero-nana-hachi, yon-ni-ichi-ichi, san-ichi-roku-hachi desu.
+Nghĩa: Số liên hệ là 078-4211-3168.
+
+[06:15] A: パワー電気は何番ですか。
+Romaji: Pawaa Denki wa nanban desu ka.
+Nghĩa: Số điện thoại của Power Denki là số mấy?
+
+[06:28] B: 336-8080です。
+Romaji: San-san-roku, hachi-zero-hachi-zero desu.
+Nghĩa: Là 336-8080.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[04:53] 質問: 田中さんの電話番号は何番ですか。
+Romaji: Tanaka-san no denwa bangou wa nanban desu ka.
+Nghĩa: Số điện thoại của bạn Tanaka là số mấy?
+
+A. 03-3292-7148
+Nghĩa: 03-3292-7148
+B. 090-9829-2470
+Nghĩa: 090-9829-2470
+C. 078-4211-3168
+Nghĩa: 078-4211-3168
+D. 336-8080
+Nghĩa: 336-8080
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Tanaka nói số 「03-3292-7148」.
+
+Câu 2:
+[05:11] 質問: 木村さんの電話番号は何番ですか。
+Romaji: Kimura-san no denwa bangou wa nanban desu ka.
+Nghĩa: Số điện thoại của bạn Kimura là số mấy?
+
+A. 090-9829-2470
+Nghĩa: 090-9829-2470
+B. 03-3292-7148
+Nghĩa: 03-3292-7148
+C. 078-4211-3168
+Nghĩa: 078-4211-3168
+D. 336-8080
+Nghĩa: 336-8080
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Hội thoại nói 「090-9829-2470です」.
+
+Câu 3:
+[05:41] 質問: 葵美術館の電話番号は何番ですか。
+Romaji: Aoi bijutsukan no denwa bangou wa nanban desu ka.
+Nghĩa: Số điện thoại của Bảo tàng mỹ thuật Aoi là số mấy?
+
+A. 078-4211-3168
+Nghĩa: 078-4211-3168
+B. 090-9829-2470
+Nghĩa: 090-9829-2470
+C. 03-3292-7148
+Nghĩa: 03-3292-7148
+D. 336-8080
+Nghĩa: 336-8080
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「078-4211-3168です」.
+
+Câu 4:
+[06:15] 質問: パワー電気の電話番号は何番ですか。
+Romaji: Pawaa Denki no denwa bangou wa nanban desu ka.
+Nghĩa: Số điện thoại của Power Denki là số mấy?
+
+A. 336-8080
+Nghĩa: 336-8080
+B. 078-4211-3168
+Nghĩa: 078-4211-3168
+C. 090-9829-2470
+Nghĩa: 090-9829-2470
+D. 03-3292-7148
+Nghĩa: 03-3292-7148
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Hội thoại nói 「336-8080です」.
