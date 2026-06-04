@@ -957,10 +957,8 @@
     <section class="tab-panel" id="listening-panel" role="tabpanel" aria-labelledby="tab-listening">
       <h2>Listening</h2>
       <p class="hint">Bài nghe JLPT N5 được cắt thành từng đoạn, có script và câu hỏi trắc nghiệm.</p>
-      <div class="listening-toolbar">
-        <button class="active" type="button">Bài 1</button>
-      </div>
-      <iframe class="listening-frame" src="listening/lesson-01.html" title="JLPT N5 Listening - Bài 1"></iframe>
+      <div class="listening-toolbar" id="listening-lesson-list" aria-label="Danh sách bài Listening"></div>
+      <iframe class="listening-frame" id="listening-frame" src="listening/lesson-01.html" title="JLPT N5 Listening - Bài 1"></iframe>
     </section>
   </main>
 
@@ -987,6 +985,8 @@
       const grammarContent = document.getElementById("grammar-content");
       const kanjiLessonList = document.getElementById("kanji-lesson-list");
       const kanjiContent = document.getElementById("kanji-content");
+      const listeningLessonList = document.getElementById("listening-lesson-list");
+      const listeningFrame = document.getElementById("listening-frame");
 
       let lessons = [];
       let objectUrl = "";
@@ -999,6 +999,14 @@
       let repeatBeforeAdvance = 5;
       let advanceMode = "sequential";
       let isPublicTrack = false;
+
+      const listeningLessons = Array.from({ length: 25 }, (_, index) => {
+        const lessonNo = index + 1;
+        return {
+          title: `Bài ${lessonNo}`,
+          path: `listening/lesson-${String(lessonNo).padStart(2, "0")}.html`,
+        };
+      });
 
       const grammarLessons = [
         { title: "Bài 1", path: "grammar/lesson-01.html" },
@@ -1263,6 +1271,32 @@
         });
       };
 
+      const selectListeningLesson = (lessonIndex) => {
+        const lesson = listeningLessons[lessonIndex];
+        if (!lesson || !listeningFrame) {
+          return;
+        }
+        listeningFrame.src = lesson.path;
+        listeningFrame.title = `JLPT N5 Listening - ${lesson.title}`;
+        listeningLessonList.querySelectorAll("button").forEach((button, buttonIndex) => {
+          button.classList.toggle("active", buttonIndex === lessonIndex);
+        });
+      };
+
+      const renderListeningLessonButtons = () => {
+        listeningLessonList.replaceChildren();
+        listeningLessons.forEach((lesson, index) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.textContent = lesson.title;
+          button.addEventListener("click", () => {
+            selectListeningLesson(index);
+          });
+          listeningLessonList.appendChild(button);
+        });
+        selectListeningLesson(0);
+      };
+
       const setActiveTrackButton = (button) => {
         if (activeTrackButton) {
           activeTrackButton.classList.remove("active");
@@ -1461,6 +1495,7 @@
       const init = async () => {
         renderGrammarLessonButtons();
         renderKanjiLessonButtons();
+        renderListeningLessonButtons();
         clearVocabulary("Đang tải mapper bài học...");
         try {
           lessons = await loadLessons();

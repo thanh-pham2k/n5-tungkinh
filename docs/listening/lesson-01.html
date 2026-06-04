@@ -3,844 +3,1554 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>JLPT N5 Listening - Bai 1</title>
+  <title>JLPT N5 Listening - Bài 1</title>
   <style>
     :root {
-      color-scheme: light;
-      --bg: #f7f8fb;
-      --panel: #ffffff;
-      --ink: #1e293b;
+      --bg: #f6f8fb;
+      --panel: #fff;
+      --text: #162033;
       --muted: #64748b;
       --line: #dbe3ef;
       --primary: #0f766e;
-      --primary-soft: #d9f3ef;
+      --primary-soft: #e1f4f1;
       --ok: #147a3d;
       --bad: #b42318;
-      --warn: #b45309;
-      --shadow: 0 12px 30px rgba(15, 23, 42, .08);
+      --shadow: 0 8px 22px rgba(15,23,42,.07);
     }
-
-    * {
-      box-sizing: border-box;
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; overflow-x: hidden; background: var(--bg); color: var(--text); font-family: Arial, sans-serif; font-size: 15px; line-height: 1.45; }
+    h1, h2, h3, p { margin-top: 0; }
+    .app-header { position: sticky; top: 0; z-index: 20; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.97); backdrop-filter: blur(10px); }
+    .header-inner { max-width: 900px; margin: 0 auto; padding: 10px 12px; display: grid; gap: 8px; }
+    .header-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    h1 { margin: 0; font-size: 18px; line-height: 1.2; }
+    .score { flex: 0 0 auto; border: 1px solid var(--line); border-radius: 999px; background: #fff; padding: 5px 9px; font-size: 13px; font-weight: 800; color: var(--primary); }
+    .current-segment { margin: 0; color: var(--muted); font-size: 13px; font-weight: 700; }
+    main { width: min(900px, 100%); min-width: 0; margin: 0 auto; padding: 12px; display: grid; gap: 12px; }
+    .segment-nav { min-width: 0; display: flex; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain; padding-bottom: 2px; scrollbar-width: thin; }
+    .segment-pill { flex: 0 0 86px; min-height: 46px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 7px 9px; display: grid; align-content: center; gap: 2px; text-decoration: none; }
+    .segment-pill span { font-weight: 900; color: var(--primary); }
+    .segment-pill small { color: var(--muted); font-size: 12px; white-space: nowrap; }
+    .segment-pill.done { border-color: rgba(20,122,61,.35); background: #eefbf3; }
+    .segment-pill.wrong { border-color: rgba(180,35,24,.35); background: #fff1f0; }
+    .segment-card { min-width: 0; overflow: hidden; scroll-margin-top: 88px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); padding: 12px; }
+    .segment-head { margin-bottom: 8px; }
+    .eyebrow { margin: 0 0 2px; color: var(--primary); font-size: 11px; font-weight: 900; letter-spacing: .04em; text-transform: uppercase; }
+    h2 { margin: 0; font-size: 19px; line-height: 1.2; }
+    .time { margin: 4px 0 0; color: var(--muted); font-size: 12px; font-weight: 800; }
+    .audio-shell { min-width: 0; max-width: 100%; overflow: hidden; margin: 8px 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; padding: 6px; }
+    .audio-player { min-width: 0; display: grid; grid-template-columns: 38px 78px minmax(0, 1fr); gap: 8px; align-items: center; }
+    .play-audio { width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }
+    .audio-time { color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }
+    .audio-progress { width: 100%; min-width: 0; accent-color: var(--primary); }
+    audio { display: none; }
+    .quiz { padding-top: 2px; }
+    .quiz h3 { margin-bottom: 8px; font-size: 15px; }
+    .question { margin-bottom: 3px; font-weight: 900; font-size: 16px; line-height: 1.35; }
+    .subline { margin: 0 0 3px; color: var(--muted); font-size: 13px; }
+    .options { display: grid; grid-template-columns: 1fr; gap: 8px; margin: 10px 0; }
+    .option { min-height: 52px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 9px 10px; display: grid; grid-template-columns: 18px 28px minmax(0, 1fr); column-gap: 8px; align-items: start; cursor: pointer; }
+    .option:has(input:checked) { border-color: var(--primary); background: var(--primary-soft); }
+    .option input { margin: 3px 0 0; }
+    .option-letter { width: 26px; height: 26px; border-radius: 999px; background: #eef2f7; display: inline-grid; place-items: center; font-size: 13px; font-weight: 900; }
+    .option-body { min-width: 0; display: grid; gap: 2px; }
+    .option-text { min-width: 0; font-size: 15px; font-weight: 800; white-space: normal; word-break: normal; overflow-wrap: anywhere; line-break: strict; }
+    .option-meaning { color: var(--muted); font-size: 12px; white-space: normal; word-break: normal; overflow-wrap: anywhere; }
+    button { min-height: 40px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 8px 12px; font-weight: 800; cursor: pointer; }
+    button:hover { border-color: var(--primary); color: var(--primary); }
+    .check-answer { width: 100%; background: var(--primary); border-color: var(--primary); color: #fff; }
+    .check-answer:hover { color: #fff; }
+    .feedback { min-height: 20px; margin-top: 8px; font-weight: 900; }
+    .feedback.ok { color: var(--ok); }
+    .feedback.bad { color: var(--bad); }
+    .explanation { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+    .script-panel { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
+    .script-panel summary { min-height: 36px; color: var(--primary); font-weight: 900; cursor: pointer; }
+    .script-text { width: 100%; margin: 4px 0 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+    @media (min-width: 640px) {
+      body { font-size: 16px; }
+      .header-inner { padding: 12px 16px; }
+      h1 { font-size: 22px; }
+      main { padding: 16px; gap: 14px; }
+      .segment-nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; padding-bottom: 0; }
+      .segment-pill { min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+      .segment-card { padding: 16px; scroll-margin-top: 96px; }
+      .options { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+      .check-answer { width: auto; }
     }
-
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.5;
-      background: var(--bg);
-      color: var(--ink);
-    }
-
-    button,
-    input {
-      font: inherit;
-    }
-
-    .app-header {
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      border-bottom: 1px solid var(--line);
-      background: rgba(255, 255, 255, .95);
-      backdrop-filter: blur(10px);
-    }
-
-    .header-inner {
-      max-width: 1160px;
-      margin: 0 auto;
-      padding: 14px 18px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 14px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: clamp(1.15rem, 2.2vw, 1.75rem);
-      letter-spacing: 0;
-    }
-
-    .subtitle {
-      margin: 2px 0 0;
-      color: var(--muted);
-      font-size: .95rem;
-    }
-
-    .score {
-      min-width: max-content;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 8px 12px;
-      background: var(--panel);
-      color: var(--muted);
-      font-weight: 650;
-    }
-
-    main {
-      max-width: 1160px;
-      margin: 0 auto;
-      padding: 18px;
-      display: grid;
-      grid-template-columns: 280px minmax(0, 1fr);
-      gap: 18px;
-    }
-
-    .sidebar {
-      position: sticky;
-      top: 88px;
-      align-self: start;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: var(--panel);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-    }
-
-    .sidebar-title {
-      padding: 12px 14px;
-      border-bottom: 1px solid var(--line);
-      font-weight: 750;
-    }
-
-    .segment-list {
-      max-height: calc(100vh - 160px);
-      overflow: auto;
-    }
-
-    .segment-tab {
-      width: 100%;
-      min-height: 48px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 10px;
-      border: 0;
-      border-bottom: 1px solid var(--line);
-      padding: 10px 14px;
-      background: transparent;
-      color: var(--ink);
-      text-align: left;
-      cursor: pointer;
-    }
-
-    .segment-tab:hover,
-    .segment-tab.active {
-      background: var(--primary-soft);
-    }
-
-    .segment-tab .label {
-      display: block;
-      font-weight: 700;
-    }
-
-    .segment-tab .meta {
-      display: block;
-      color: var(--muted);
-      font-size: .82rem;
-    }
-
-    .status-dot {
-      width: 10px;
-      height: 10px;
-      flex: 0 0 10px;
-      border-radius: 999px;
-      background: #cbd5e1;
-    }
-
-    .segment-tab.correct .status-dot {
-      background: var(--ok);
-    }
-
-    .segment-tab.wrong .status-dot {
-      background: var(--bad);
-    }
-
-    .content {
-      min-width: 0;
-    }
-
-    .lesson-card {
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: var(--panel);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-    }
-
-    .lesson-head {
-      padding: 18px;
-      border-bottom: 1px solid var(--line);
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 14px;
-    }
-
-    .eyebrow {
-      margin: 0 0 4px;
-      color: var(--primary);
-      font-size: .85rem;
-      font-weight: 800;
-      text-transform: uppercase;
-    }
-
-    h2 {
-      margin: 0;
-      font-size: clamp(1.25rem, 2.4vw, 2rem);
-      letter-spacing: 0;
-    }
-
-    .time-range {
-      min-width: max-content;
-      color: var(--muted);
-      font-weight: 700;
-    }
-
-    .player-block {
-      padding: 18px;
-      border-bottom: 1px solid var(--line);
-      background: #fbfcfe;
-    }
-
-    audio {
-      width: 100%;
-      display: block;
-    }
-
-    .section {
-      padding: 18px;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .section:last-child {
-      border-bottom: 0;
-    }
-
-    h3 {
-      margin: 0 0 12px;
-      font-size: 1rem;
-      letter-spacing: 0;
-    }
-
-    .line {
-      padding: 12px 0;
-      border-top: 1px solid var(--line);
-    }
-
-    .line:first-of-type {
-      border-top: 0;
-      padding-top: 0;
-    }
-
-    .jp {
-      margin: 0;
-      font-size: 1.18rem;
-      font-weight: 750;
-    }
-
-    .romaji,
-    .vi,
-    .explain {
-      margin: 4px 0 0;
-      color: var(--muted);
-    }
-
-    .question {
-      margin: 0 0 14px;
-      font-size: 1.1rem;
-      font-weight: 750;
-    }
-
-    .options {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 10px;
-    }
-
-    .option {
-      min-height: 72px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 12px;
-      background: #fff;
-      text-align: left;
-      cursor: pointer;
-    }
-
-    .option:hover {
-      border-color: var(--primary);
-      background: #f4fbfa;
-    }
-
-    .option.selected {
-      border-color: var(--primary);
-      box-shadow: inset 0 0 0 1px var(--primary);
-    }
-
-    .option.correct {
-      border-color: var(--ok);
-      background: #ecfdf3;
-    }
-
-    .option.wrong {
-      border-color: var(--bad);
-      background: #fff1f0;
-    }
-
-    .option-key {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 26px;
-      height: 26px;
-      margin-right: 8px;
-      border-radius: 999px;
-      background: #eef2f7;
-      font-weight: 800;
-    }
-
-    .option-main {
-      font-weight: 800;
-      word-break: keep-all;
-      overflow-wrap: anywhere;
-    }
-
-    .option-meaning {
-      display: block;
-      margin-top: 4px;
-      color: var(--muted);
-      font-size: .93rem;
-    }
-
-    .feedback {
-      min-height: 28px;
-      margin-top: 14px;
-      font-weight: 750;
-    }
-
-    .feedback.ok {
-      color: var(--ok);
-    }
-
-    .feedback.bad {
-      color: var(--bad);
-    }
-
-    .controls {
-      padding: 14px 18px;
-      display: flex;
-      justify-content: space-between;
-      gap: 10px;
-      background: #fbfcfe;
-    }
-
-    .nav-button {
-      min-height: 44px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 9px 14px;
-      background: #fff;
-      color: var(--ink);
-      font-weight: 750;
-      cursor: pointer;
-    }
-
-    .nav-button.primary {
-      border-color: var(--primary);
-      background: var(--primary);
-      color: #fff;
-    }
-
-    .nav-button:disabled {
-      opacity: .45;
-      cursor: not-allowed;
-    }
-
-    @media (max-width: 820px) {
-      .header-inner {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-
-      .score {
-        width: 100%;
-      }
-
-      main {
-        grid-template-columns: 1fr;
-        padding: 12px;
-      }
-
-      .sidebar {
-        position: static;
-      }
-
-      .segment-list {
-        max-height: none;
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-      }
-
-      .segment-tab {
-        min-height: 54px;
-        border-right: 1px solid var(--line);
-      }
-
-      .segment-tab .meta {
-        display: none;
-      }
-
-      .lesson-head,
-      .controls {
-        flex-direction: column;
-      }
-
-      .time-range,
-      .nav-button {
-        width: 100%;
-      }
-
-      .options {
-        grid-template-columns: 1fr;
-      }
+    @media (min-width: 1024px) {
+      .header-inner, main { max-width: 900px; }
     }
   </style>
 </head>
 <body>
   <header class="app-header">
     <div class="header-inner">
-      <div>
+      <div class="header-row">
         <h1>JLPT N5 Listening - Bài 1</h1>
-        <p class="subtitle">Nghe từng đoạn, chọn đáp án, xem lại script Nhật - romaji - nghĩa Việt.</p>
+        <div class="score" id="score">0/16</div>
       </div>
-      <div class="score" id="score">0 / 16 câu đúng</div>
+      <p class="current-segment" id="current-segment">Đang ở đoạn 1/16</p>
     </div>
   </header>
-
   <main>
-    <aside class="sidebar" aria-label="Danh sách đoạn hội thoại">
-      <div class="sidebar-title">16 đoạn hội thoại</div>
-      <div class="segment-list" id="segmentList"></div>
-    </aside>
+    <nav class="segment-nav" aria-label="Danh sách đoạn hội thoại">
+            <a class="segment-pill" href="#segment-1" data-nav-segment="0">
+              <span>01</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-2" data-nav-segment="1">
+              <span>02</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-3" data-nav-segment="2">
+              <span>03</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-4" data-nav-segment="3">
+              <span>04</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-5" data-nav-segment="4">
+              <span>05</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-6" data-nav-segment="5">
+              <span>06</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-7" data-nav-segment="6">
+              <span>07</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-8" data-nav-segment="7">
+              <span>08</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-9" data-nav-segment="8">
+              <span>09</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-10" data-nav-segment="9">
+              <span>10</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-11" data-nav-segment="10">
+              <span>11</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-12" data-nav-segment="11">
+              <span>12</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-13" data-nav-segment="12">
+              <span>13</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-14" data-nav-segment="13">
+              <span>14</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-15" data-nav-segment="14">
+              <span>15</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-16" data-nav-segment="15">
+              <span>16</span>
+              <small>Chưa làm</small>
+            </a>
+            </nav>
+    
+            <article class="segment-card" id="segment-1" data-segment="0" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 001</p>
+                <h2>Đoạn 1</h2>
+                <p class="time">00:11.000 - 00:19.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_001.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">名前はAですか、Bですか。</p>
+                <p class="subline">Namae wa A desu ka, B desu ka.</p>
+                <p class="subline">Tên là A hay B?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-0" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">増田</span>
+                    <span class="option-meaning">Masuda</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">松田</span>
+                    <span class="option-meaning">Matsuda</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">佐野</span>
+                    <span class="option-meaning">Sano</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">鈴木</span>
+                    <span class="option-meaning">Suzuki</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói nói 「いいえ、増田です」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
 
-    <section class="content">
-      <article class="lesson-card">
-        <div class="lesson-head">
-          <div>
-            <p class="eyebrow" id="partName"></p>
-            <h2 id="segmentTitle"></h2>
-          </div>
-          <div class="time-range" id="timeRange"></div>
-        </div>
+A: はじめまして。増田です。
+Romaji: Hajimemashite. Masuda desu.
+Nghĩa: Rất vui được gặp bạn. Tôi là Masuda.
 
-        <div class="player-block">
-          <audio id="audioPlayer" controls preload="metadata"></audio>
-        </div>
+B: 松田さんですね。
+Romaji: Matsuda-san desu ne.
+Nghĩa: Bạn là Matsuda nhỉ.
 
-        <div class="section">
-          <h3>Script hội thoại</h3>
-          <div id="transcript"></div>
-        </div>
+A: いいえ、増田です。
+Romaji: Iie, Masuda desu.
+Nghĩa: Không, tôi là Masuda.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-2" data-segment="1" data-answer="B">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 002</p>
+                <h2>Đoạn 2</h2>
+                <p class="time">00:19.000 - 00:31.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_002.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">名前はAですか、Bですか。</p>
+                <p class="subline">Namae wa A desu ka, B desu ka.</p>
+                <p class="subline">Tên là A hay B?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-1" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">シャロ</span>
+                    <span class="option-meaning">Sharo</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">佐野</span>
+                    <span class="option-meaning">Sano</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">増田</span>
+                    <span class="option-meaning">Masuda</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">後藤</span>
+                    <span class="option-meaning">Gotou</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói nói 「いいえ、佐野です」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
 
-        <div class="section">
-          <h3>Câu hỏi trắc nghiệm</h3>
-          <p class="question" id="question"></p>
-          <p class="romaji" id="questionRomaji"></p>
-          <p class="vi" id="questionMeaning"></p>
-          <div class="options" id="options"></div>
-          <div class="feedback" id="feedback"></div>
-        </div>
+A: はじめまして。佐野です。どうぞよろしく。
+Romaji: Hajimemashite. Sano desu. Douzo yoroshiku.
+Nghĩa: Rất vui được gặp bạn. Tôi là Sano. Rất mong được giúp đỡ.
 
-        <div class="controls">
-          <button class="nav-button" id="prevBtn" type="button">← Đoạn trước</button>
-          <button class="nav-button primary" id="nextBtn" type="button">Đoạn tiếp →</button>
-        </div>
-      </article>
-    </section>
+B: シャロさんですか。
+Romaji: Sharo-san desu ka.
+Nghĩa: Bạn là Sharo phải không?
+
+A: いいえ、佐野です。
+Romaji: Iie, Sano desu.
+Nghĩa: Không, tôi là Sano.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-3" data-segment="2" data-answer="C">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 003</p>
+                <h2>Đoạn 3</h2>
+                <p class="time">00:31.000 - 00:40.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_003.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">名前はAですか、Bですか。</p>
+                <p class="subline">Namae wa A desu ka, B desu ka.</p>
+                <p class="subline">Tên là A hay B?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-2" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">佐野</span>
+                    <span class="option-meaning">Sano</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">松田</span>
+                    <span class="option-meaning">Matsuda</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">鈴木</span>
+                    <span class="option-meaning">Suzuki</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">後藤</span>
+                    <span class="option-meaning">Gotou</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói tự giới thiệu 「鈴木です」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: こんにちは。鈴木です。
+Romaji: Konnichiwa. Suzuki desu.
+Nghĩa: Xin chào. Tôi là Suzuki.
+
+B: ああ、鈴木さんですね。
+Romaji: Aa, Suzuki-san desu ne.
+Nghĩa: À, bạn là Suzuki nhỉ.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-4" data-segment="3" data-answer="B">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 004</p>
+                <h2>Đoạn 4</h2>
+                <p class="time">00:40.000 - 00:53.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_004.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">名前はAですか、Bですか。</p>
+                <p class="subline">Namae wa A desu ka, B desu ka.</p>
+                <p class="subline">Tên là A hay B?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-3" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">鼓動</span>
+                    <span class="option-meaning">Kodou</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">後藤</span>
+                    <span class="option-meaning">Gotou</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">鈴木</span>
+                    <span class="option-meaning">Suzuki</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">佐野</span>
+                    <span class="option-meaning">Sano</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói nói 「いいえ、後藤です」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: 失礼ですが、お名前は。
+Romaji: Shitsurei desu ga, onamae wa.
+Nghĩa: Xin lỗi, tên của bạn là gì?
+
+B: 後藤です。
+Romaji: Gotou desu.
+Nghĩa: Tôi là Gotou.
+
+A: 鼓動さんですか。
+Romaji: Kodou-san desu ka.
+Nghĩa: Bạn là Kodou phải không?
+
+B: いいえ、後藤です。
+Romaji: Iie, Gotou desu.
+Nghĩa: Không, tôi là Gotou.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-5" data-segment="4" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 005</p>
+                <h2>Đoạn 5</h2>
+                <p class="time">01:06.000 - 01:19.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_005.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">国はAですか、Bですか。</p>
+                <p class="subline">Kuni wa A desu ka, B desu ka.</p>
+                <p class="subline">Quốc gia là A hay B?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-4" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">中国</span>
+                    <span class="option-meaning">Trung Quốc</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-4" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">インド</span>
+                    <span class="option-meaning">Ấn Độ</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-4" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">フランス</span>
+                    <span class="option-meaning">Pháp</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-4" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">ドイツ</span>
+                    <span class="option-meaning">Đức</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói nói 「中国から来ました」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: はじめまして。王です。中国から来ました。どうぞよろしく。
+Romaji: Hajimemashite. Wan desu. Chuugoku kara kimashita. Douzo yoroshiku.
+Nghĩa: Rất vui được gặp bạn. Tôi là Vương. Tôi đến từ Trung Quốc. Rất mong được giúp đỡ.
+
+B: はじめまして。田中です。どうぞよろしく。
+Romaji: Hajimemashite. Tanaka desu. Douzo yoroshiku.
+Nghĩa: Rất vui được gặp bạn. Tôi là Tanaka. Rất mong được giúp đỡ.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-6" data-segment="5" data-answer="B">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 006</p>
+                <h2>Đoạn 6</h2>
+                <p class="time">01:19.000 - 01:32.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_006.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">国はAですか、Bですか。</p>
+                <p class="subline">Kuni wa A desu ka, B desu ka.</p>
+                <p class="subline">Quốc gia là A hay B?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-5" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">中国</span>
+                    <span class="option-meaning">Trung Quốc</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-5" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">インド</span>
+                    <span class="option-meaning">Ấn Độ</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-5" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">フランス</span>
+                    <span class="option-meaning">Pháp</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-5" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">アメリカ</span>
+                    <span class="option-meaning">Mỹ</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói nói 「インドから来ました」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: 皆さん、こちらは山さんです。
+Romaji: Minasan, kochira wa Yama-san desu.
+Nghĩa: Mọi người, đây là anh/chị Yama.
+
+B: はじめまして。センです。インドから来ました。どうぞよろしくお願いします。
+Romaji: Hajimemashite. Sen desu. Indo kara kimashita. Douzo yoroshiku onegaishimasu.
+Nghĩa: Rất vui được gặp mọi người. Tôi là Sen. Tôi đến từ Ấn Độ. Rất mong được giúp đỡ.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-7" data-segment="6" data-answer="C">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 007</p>
+                <h2>Đoạn 7</h2>
+                <p class="time">01:32.000 - 01:52.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_007.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">国はAですか、Bですか。</p>
+                <p class="subline">Kuni wa A desu ka, B desu ka.</p>
+                <p class="subline">Quốc gia là A hay B?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-6" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">インド</span>
+                    <span class="option-meaning">Ấn Độ</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-6" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">中国</span>
+                    <span class="option-meaning">Trung Quốc</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-6" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">フランス</span>
+                    <span class="option-meaning">Pháp</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-6" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">ドイツ</span>
+                    <span class="option-meaning">Đức</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>ジャン nói 「フランスから来ました」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: 佐藤さん、こんばんは。
+Romaji: Satou-san, konbanwa.
+Nghĩa: Chào buổi tối, anh/chị Satou.
+
+B: あっ、山田さん。
+Romaji: A, Yamada-san.
+Nghĩa: À, anh/chị Yamada.
+
+A: 佐藤さん、こちらはジャンさんです。
+Romaji: Satou-san, kochira wa Jan-san desu.
+Nghĩa: Anh/chị Satou, đây là anh Jan.
+
+C: ジャンです。フランスから来ました。どうぞよろしく。
+Romaji: Jan desu. Furansu kara kimashita. Douzo yoroshiku.
+Nghĩa: Tôi là Jan. Tôi đến từ Pháp. Rất mong được giúp đỡ.
+
+B: 佐藤です。よろしくお願いします。
+Romaji: Satou desu. Yoroshiku onegaishimasu.
+Nghĩa: Tôi là Satou. Rất mong được giúp đỡ.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-8" data-segment="7" data-answer="D">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 008</p>
+                <h2>Đoạn 8</h2>
+                <p class="time">01:52.000 - 02:07.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_008.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">国はAですか、Bですか。</p>
+                <p class="subline">Kuni wa A desu ka, B desu ka.</p>
+                <p class="subline">Quốc gia là A hay B?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-7" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">フランス</span>
+                    <span class="option-meaning">Pháp</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">アメリカ</span>
+                    <span class="option-meaning">Mỹ</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">イギリス</span>
+                    <span class="option-meaning">Anh</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">ドイツ</span>
+                    <span class="option-meaning">Đức</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói nói 「ドイツから来ました」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: はじめまして。コールです。
+Romaji: Hajimemashite. Kooru desu.
+Nghĩa: Rất vui được gặp bạn. Tôi là Cole.
+
+B: 金さんですか。
+Romaji: Kimu-san desu ka.
+Nghĩa: Bạn là Kim phải không?
+
+A: いいえ、コールです。ドイツから来ました。
+Romaji: Iie, Kooru desu. Doitsu kara kimashita.
+Nghĩa: Không, tôi là Cole. Tôi đến từ Đức.
+
+B: 私は山田です。よろしくお願いします。
+Romaji: Watashi wa Yamada desu. Yoroshiku onegaishimasu.
+Nghĩa: Tôi là Yamada. Rất mong được giúp đỡ.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-9" data-segment="8" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 009</p>
+                <h2>Đoạn 9</h2>
+                <p class="time">02:23.000 - 02:42.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_009.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">女の人の仕事はAですか、Bですか。</p>
+                <p class="subline">Onna no hito no shigoto wa A desu ka, B desu ka.</p>
+                <p class="subline">Nghề nghiệp của người phụ nữ là A hay B?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-8" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">教師</span>
+                    <span class="option-meaning">Giáo viên</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-8" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">医者</span>
+                    <span class="option-meaning">Bác sĩ</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-8" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">会社員</span>
+                    <span class="option-meaning">Nhân viên công ty</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-8" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">エンジニア</span>
+                    <span class="option-meaning">Kỹ sư</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người phụ nữ nói 「私はさくら大学の教師です」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: はじめまして。ワットです。イギリスから来ました。
+Romaji: Hajimemashite. Watto desu. Igirisu kara kimashita.
+Nghĩa: Rất vui được gặp bạn. Tôi là Watt. Tôi đến từ Anh.
+
+B: はじめまして。小林です。私はさくら大学の教師です。
+Romaji: Hajimemashite. Kobayashi desu. Watashi wa Sakura Daigaku no kyoushi desu.
+Nghĩa: Rất vui được gặp bạn. Tôi là Kobayashi. Tôi là giáo viên của Đại học Sakura.
+
+A: あ、私も教師です。富士大学です。どうぞよろしく。
+Romaji: A, watashi mo kyoushi desu. Fuji Daigaku desu. Douzo yoroshiku.
+Nghĩa: À, tôi cũng là giáo viên. Ở Đại học Fuji. Rất mong được giúp đỡ.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-10" data-segment="9" data-answer="B">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 010</p>
+                <h2>Đoạn 10</h2>
+                <p class="time">02:42.000 - 02:58.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_010.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">女の人の仕事はAですか、Bですか。</p>
+                <p class="subline">Onna no hito no shigoto wa A desu ka, B desu ka.</p>
+                <p class="subline">Nghề nghiệp của người phụ nữ là A hay B?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-9" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">先生</span>
+                    <span class="option-meaning">Giáo viên</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-9" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">医者</span>
+                    <span class="option-meaning">Bác sĩ</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-9" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">銀行員</span>
+                    <span class="option-meaning">Nhân viên ngân hàng</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-9" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">会社員</span>
+                    <span class="option-meaning">Nhân viên công ty</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>後藤 nói 「いいえ、医者です」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: はじめまして。
+Romaji: Hajimemashite.
+Nghĩa: Rất vui được gặp bạn.
+
+B: はじめまして。後藤です。
+Romaji: Hajimemashite. Gotou desu.
+Nghĩa: Rất vui được gặp bạn. Tôi là Gotou.
+
+A: 後藤さんは先生ですか。
+Romaji: Gotou-san wa sensei desu ka.
+Nghĩa: Anh/chị Gotou là giáo viên phải không?
+
+B: いいえ、医者です。
+Romaji: Iie, isha desu.
+Nghĩa: Không, tôi là bác sĩ.
+
+A: ああ、私も医者です。
+Romaji: Aa, watashi mo isha desu.
+Nghĩa: À, tôi cũng là bác sĩ.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-11" data-segment="10" data-answer="C">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 011</p>
+                <h2>Đoạn 11</h2>
+                <p class="time">02:58.000 - 03:16.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_011.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">女の人の仕事はAですか、Bですか。</p>
+                <p class="subline">Onna no hito no shigoto wa A desu ka, B desu ka.</p>
+                <p class="subline">Nghề nghiệp của người phụ nữ là A hay B?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-10" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">エンジニア</span>
+                    <span class="option-meaning">Kỹ sư</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-10" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">教師</span>
+                    <span class="option-meaning">Giáo viên</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-10" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">銀行員</span>
+                    <span class="option-meaning">Nhân viên ngân hàng</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-10" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">医者</span>
+                    <span class="option-meaning">Bác sĩ</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>山田 nói 「銀行員です」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: あの、シュミットさんですか。
+Romaji: Ano, Shumitto-san desu ka.
+Nghĩa: Xin hỏi, anh/chị là Schmidt phải không?
+
+B: はい、シュミットです。ドイツから来ました。
+Romaji: Hai, Shumitto desu. Doitsu kara kimashita.
+Nghĩa: Vâng, tôi là Schmidt. Tôi đến từ Đức.
+
+A: 私は山田です。銀行員です。
+Romaji: Watashi wa Yamada desu. Ginkouin desu.
+Nghĩa: Tôi là Yamada. Tôi là nhân viên ngân hàng.
+
+B: 私はエンジニアです。どうぞよろしく。
+Romaji: Watashi wa enjinia desu. Douzo yoroshiku.
+Nghĩa: Tôi là kỹ sư. Rất mong được giúp đỡ.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-12" data-segment="11" data-answer="D">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 012</p>
+                <h2>Đoạn 12</h2>
+                <p class="time">03:16.000 - 03:42.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_012.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">女の人の仕事はAですか、Bですか。</p>
+                <p class="subline">Onna no hito no shigoto wa A desu ka, B desu ka.</p>
+                <p class="subline">Nghề nghiệp của người phụ nữ là A hay B?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-11" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">教師</span>
+                    <span class="option-meaning">Giáo viên</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-11" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">医者</span>
+                    <span class="option-meaning">Bác sĩ</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-11" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">エンジニア</span>
+                    <span class="option-meaning">Kỹ sư</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-11" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">会社員</span>
+                    <span class="option-meaning">Nhân viên công ty</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>林 nói 「私も会社員です」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: 失礼ですが、お名前は。
+Romaji: Shitsurei desu ga, onamae wa.
+Nghĩa: Xin lỗi, tên của bạn là gì?
+
+B: ミラーです。アメリカから来ました。
+Romaji: Miraa desu. Amerika kara kimashita.
+Nghĩa: Tôi là Miller. Tôi đến từ Mỹ.
+
+A: 私は林です。ミラーさんは会社員ですか。
+Romaji: Watashi wa Hayashi desu. Miraa-san wa kaishain desu ka.
+Nghĩa: Tôi là Hayashi. Anh Miller là nhân viên công ty phải không?
+
+B: はい。IMCの社員です。どうぞよろしくお願いします。
+Romaji: Hai. IMC no shain desu. Douzo yoroshiku onegaishimasu.
+Nghĩa: Vâng. Tôi là nhân viên của IMC. Rất mong được giúp đỡ.
+
+A: 私も会社員です。パワー電機の社員です。どうぞよろしく。
+Romaji: Watashi mo kaishain desu. Pawaa Denki no shain desu. Douzo yoroshiku.
+Nghĩa: Tôi cũng là nhân viên công ty. Tôi là nhân viên của Power Electric. Rất mong được giúp đỡ.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-13" data-segment="12" data-answer="B">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 013</p>
+                <h2>Đoạn 13</h2>
+                <p class="time">03:47.000 - 03:58.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_013.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">何歳ですか。</p>
+                <p class="subline">Nansai desu ka.</p>
+                <p class="subline">Bao nhiêu tuổi?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-12" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">26歳</span>
+                    <span class="option-meaning">26 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-12" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">28歳</span>
+                    <span class="option-meaning">28 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-12" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">71歳</span>
+                    <span class="option-meaning">71 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-12" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">8歳</span>
+                    <span class="option-meaning">8 tuổi</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>ミラー nói 「28歳です」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: ミラーさん、失礼ですが、おいくつですか。
+Romaji: Miraa-san, shitsurei desu ga, oikutsu desu ka.
+Nghĩa: Anh Miller, xin lỗi, anh bao nhiêu tuổi?
+
+B: 28歳です。
+Romaji: Nijuu-hassai desu.
+Nghĩa: Tôi 28 tuổi.
+
+A: そうですか。私も28です。
+Romaji: Sou desu ka. Watashi mo nijuu-hachi desu.
+Nghĩa: Vậy à. Tôi cũng 28 tuổi.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-14" data-segment="13" data-answer="C">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 014</p>
+                <h2>Đoạn 14</h2>
+                <p class="time">03:58.000 - 04:13.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_014.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">何歳ですか。</p>
+                <p class="subline">Nansai desu ka.</p>
+                <p class="subline">Bao nhiêu tuổi?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-13" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">28歳</span>
+                    <span class="option-meaning">28 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-13" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">26歳</span>
+                    <span class="option-meaning">26 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-13" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">71歳</span>
+                    <span class="option-meaning">71 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-13" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">8歳</span>
+                    <span class="option-meaning">8 tuổi</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người trả lời nói 「71歳です」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: あの方はどなたですか。
+Romaji: Ano kata wa donata desu ka.
+Nghĩa: Vị kia là ai vậy?
+
+B: 増田さんです。神戸病院の医者です。
+Romaji: Masuda-san desu. Koube Byouin no isha desu.
+Nghĩa: Đó là anh/chị Masuda. Là bác sĩ của bệnh viện Kobe.
+
+A: おいくつですか。
+Romaji: Oikutsu desu ka.
+Nghĩa: Anh/chị ấy bao nhiêu tuổi?
+
+B: 71歳です。
+Romaji: Nanajuu-issai desu.
+Nghĩa: 71 tuổi.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-15" data-segment="14" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 015</p>
+                <h2>Đoạn 15</h2>
+                <p class="time">04:13.000 - 04:23.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_015.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">何歳ですか。</p>
+                <p class="subline">Nansai desu ka.</p>
+                <p class="subline">Bao nhiêu tuổi?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-14" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">8歳</span>
+                    <span class="option-meaning">8 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-14" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">26歳</span>
+                    <span class="option-meaning">26 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-14" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">28歳</span>
+                    <span class="option-meaning">28 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-14" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">71歳</span>
+                    <span class="option-meaning">71 tuổi</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>菜々子 nói 「私は8歳です」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: 菜々子ちゃんですか。
+Romaji: Nanako-chan desu ka.
+Nghĩa: Em là Nanako phải không?
+
+B: はい。
+Romaji: Hai.
+Nghĩa: Vâng.
+
+A: 菜々子ちゃんは何歳ですか。
+Romaji: Nanako-chan wa nansai desu ka.
+Nghĩa: Nanako bao nhiêu tuổi?
+
+B: 私は8歳です。
+Romaji: Watashi wa hassai desu.
+Nghĩa: Em 8 tuổi.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-16" data-segment="15" data-answer="D">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 016</p>
+                <h2>Đoạn 16</h2>
+                <p class="time">04:23.000 - 04:46.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-01/segment_016.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">何歳ですか。</p>
+                <p class="subline">Nansai desu ka.</p>
+                <p class="subline">Bao nhiêu tuổi?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-15" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">28歳</span>
+                    <span class="option-meaning">28 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-15" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">71歳</span>
+                    <span class="option-meaning">71 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-15" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">8歳</span>
+                    <span class="option-meaning">8 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-15" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">26歳</span>
+                    <span class="option-meaning">26 tuổi</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói nói 「26です」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">hội thoại
+
+A: あの方はケリーさんです。
+Romaji: Ano kata wa Kerii-san desu.
+Nghĩa: Vị kia là anh/chị Kelly.
+
+B: あの、おいくつですか。
+Romaji: Ano, oikutsu desu ka.
+Nghĩa: Xin hỏi, anh/chị ấy bao nhiêu tuổi?
+
+A: ケリーさんは、えっと、26です。
+Romaji: Kerii-san wa, etto, nijuu-roku desu.
+Nghĩa: Anh/chị Kelly thì, ừm, 26 tuổi.
+
+B: そうですか。
+Romaji: Sou desu ka.
+Nghĩa: Vậy à.</pre>
+              </details>
+            </article>
+            
   </main>
-
   <script>
-    const segments = [
-      {
-        part: "Phần 1: Tên",
-        title: "Đoạn 1 - Ví dụ",
-        time: "00:00:08 - 00:00:23",
-        audio: "audio/lesson-1/segment-01.mp3",
-        transcript: [
-          ["A", "はじめまして。増田です。", "Hajimemashite. Masuda desu.", "Rất vui được gặp bạn. Tôi là Masuda."],
-          ["B", "松田さんですね。", "Matsuda-san desu ne.", "Bạn là Matsuda nhỉ."],
-          ["A", "いいえ、増田です。", "Iie, Masuda desu.", "Không, tôi là Masuda."]
-        ],
-        question: ["名前はAですか、Bですか。", "Namae wa A desu ka, B desu ka.", "Tên là A hay B?"],
-        options: [["A", "増田", "Masuda"], ["B", "松田", "Matsuda"], ["C", "佐野", "Sano"], ["D", "鈴木", "Suzuki"]],
-        answer: "A",
-        explain: "Người nói nói 「いいえ、増田です」."
-      },
-      {
-        part: "Phần 1: Tên",
-        title: "Đoạn 2 - Câu 1",
-        time: "00:00:23 - 00:00:42",
-        audio: "audio/lesson-1/segment-02.mp3",
-        transcript: [
-          ["A", "はじめまして。佐野です。どうぞよろしく。", "Hajimemashite. Sano desu. Douzo yoroshiku.", "Rất vui được gặp bạn. Tôi là Sano. Rất mong được giúp đỡ."],
-          ["B", "シャロさんですか。", "Sharo-san desu ka.", "Bạn là Sharo phải không?"],
-          ["A", "いいえ、佐野です。", "Iie, Sano desu.", "Không, tôi là Sano."]
-        ],
-        question: ["名前はAですか、Bですか。", "Namae wa A desu ka, B desu ka.", "Tên là A hay B?"],
-        options: [["A", "シャロ", "Sharo"], ["B", "佐野", "Sano"], ["C", "増田", "Masuda"], ["D", "後藤", "Gotou"]],
-        answer: "B",
-        explain: "Người nói nói 「いいえ、佐野です」."
-      },
-      {
-        part: "Phần 1: Tên",
-        title: "Đoạn 3 - Câu 2",
-        time: "00:00:42 - 00:00:56",
-        audio: "audio/lesson-1/segment-03.mp3",
-        transcript: [
-          ["A", "こんにちは。鈴木です。", "Konnichiwa. Suzuki desu.", "Xin chào. Tôi là Suzuki."],
-          ["B", "ああ、鈴木さんですね。", "Aa, Suzuki-san desu ne.", "À, bạn là Suzuki nhỉ."]
-        ],
-        question: ["名前はAですか、Bですか。", "Namae wa A desu ka, B desu ka.", "Tên là A hay B?"],
-        options: [["A", "佐野", "Sano"], ["B", "松田", "Matsuda"], ["C", "鈴木", "Suzuki"], ["D", "後藤", "Gotou"]],
-        answer: "C",
-        explain: "Người nói tự giới thiệu 「鈴木です」."
-      },
-      {
-        part: "Phần 1: Tên",
-        title: "Đoạn 4 - Câu 3",
-        time: "00:00:56 - 00:01:19",
-        audio: "audio/lesson-1/segment-04.mp3",
-        transcript: [
-          ["A", "失礼ですが、お名前は。", "Shitsurei desu ga, onamae wa.", "Xin lỗi, tên của bạn là gì?"],
-          ["B", "後藤です。", "Gotou desu.", "Tôi là Gotou."],
-          ["A", "鼓動さんですか。", "Kodou-san desu ka.", "Bạn là Kodou phải không?"],
-          ["B", "いいえ、後藤です。", "Iie, Gotou desu.", "Không, tôi là Gotou."]
-        ],
-        question: ["名前はAですか、Bですか。", "Namae wa A desu ka, B desu ka.", "Tên là A hay B?"],
-        options: [["A", "鼓動", "Kodou"], ["B", "後藤", "Gotou"], ["C", "鈴木", "Suzuki"], ["D", "佐野", "Sano"]],
-        answer: "B",
-        explain: "Người nói nói 「いいえ、後藤です」."
-      },
-      {
-        part: "Phần 2: Quốc gia",
-        title: "Đoạn 5 - Ví dụ",
-        time: "00:01:26 - 00:01:47",
-        audio: "audio/lesson-1/segment-05.mp3",
-        transcript: [
-          ["A", "はじめまして。王です。中国から来ました。どうぞよろしく。", "Hajimemashite. Wan desu. Chuugoku kara kimashita. Douzo yoroshiku.", "Rất vui được gặp bạn. Tôi là Vương. Tôi đến từ Trung Quốc. Rất mong được giúp đỡ."],
-          ["B", "はじめまして。田中です。どうぞよろしく。", "Hajimemashite. Tanaka desu. Douzo yoroshiku.", "Rất vui được gặp bạn. Tôi là Tanaka. Rất mong được giúp đỡ."]
-        ],
-        question: ["国はAですか、Bですか。", "Kuni wa A desu ka, B desu ka.", "Quốc gia là A hay B?"],
-        options: [["A", "中国", "Trung Quốc"], ["B", "インド", "Ấn Độ"], ["C", "フランス", "Pháp"], ["D", "ドイツ", "Đức"]],
-        answer: "A",
-        explain: "Người nói nói 「中国から来ました」."
-      },
-      {
-        part: "Phần 2: Quốc gia",
-        title: "Đoạn 6 - Câu 1",
-        time: "00:01:47 - 00:02:03",
-        audio: "audio/lesson-1/segment-06.mp3",
-        transcript: [
-          ["A", "皆さん、こちらは山さんです。", "Minasan, kochira wa Yama-san desu.", "Mọi người, đây là anh/chị Yama."],
-          ["B", "はじめまして。センです。インドから来ました。どうぞよろしくお願いします。", "Hajimemashite. Sen desu. Indo kara kimashita. Douzo yoroshiku onegaishimasu.", "Rất vui được gặp mọi người. Tôi là Sen. Tôi đến từ Ấn Độ. Rất mong được giúp đỡ."]
-        ],
-        question: ["国はAですか、Bですか。", "Kuni wa A desu ka, B desu ka.", "Quốc gia là A hay B?"],
-        options: [["A", "中国", "Trung Quốc"], ["B", "インド", "Ấn Độ"], ["C", "フランス", "Pháp"], ["D", "アメリカ", "Mỹ"]],
-        answer: "B",
-        explain: "Người nói nói 「インドから来ました」."
-      },
-      {
-        part: "Phần 2: Quốc gia",
-        title: "Đoạn 7 - Câu 2",
-        time: "00:02:03 - 00:02:23",
-        audio: "audio/lesson-1/segment-07.mp3",
-        transcript: [
-          ["A", "佐藤さん、こんばんは。", "Satou-san, konbanwa.", "Chào buổi tối, anh/chị Satou."],
-          ["B", "あっ、山田さん。", "A, Yamada-san.", "À, anh/chị Yamada."],
-          ["A", "佐藤さん、こちらはジャンさんです。", "Satou-san, kochira wa Jan-san desu.", "Anh/chị Satou, đây là anh Jan."],
-          ["C", "ジャンです。フランスから来ました。どうぞよろしく。", "Jan desu. Furansu kara kimashita. Douzo yoroshiku.", "Tôi là Jan. Tôi đến từ Pháp. Rất mong được giúp đỡ."],
-          ["B", "佐藤です。よろしくお願いします。", "Satou desu. Yoroshiku onegaishimasu.", "Tôi là Satou. Rất mong được giúp đỡ."]
-        ],
-        question: ["国はAですか、Bですか。", "Kuni wa A desu ka, B desu ka.", "Quốc gia là A hay B?"],
-        options: [["A", "インド", "Ấn Độ"], ["B", "中国", "Trung Quốc"], ["C", "フランス", "Pháp"], ["D", "ドイツ", "Đức"]],
-        answer: "C",
-        explain: "ジャン nói 「フランスから来ました」."
-      },
-      {
-        part: "Phần 2: Quốc gia",
-        title: "Đoạn 8 - Câu 3",
-        time: "00:02:23 - 00:02:38",
-        audio: "audio/lesson-1/segment-08.mp3",
-        transcript: [
-          ["A", "はじめまして。コールです。", "Hajimemashite. Kooru desu.", "Rất vui được gặp bạn. Tôi là Cole."],
-          ["B", "金さんですか。", "Kimu-san desu ka.", "Bạn là Kim phải không?"],
-          ["A", "いいえ、コールです。ドイツから来ました。", "Iie, Kooru desu. Doitsu kara kimashita.", "Không, tôi là Cole. Tôi đến từ Đức."],
-          ["B", "私は山田です。よろしくお願いします。", "Watashi wa Yamada desu. Yoroshiku onegaishimasu.", "Tôi là Yamada. Rất mong được giúp đỡ."]
-        ],
-        question: ["国はAですか、Bですか。", "Kuni wa A desu ka, B desu ka.", "Quốc gia là A hay B?"],
-        options: [["A", "フランス", "Pháp"], ["B", "アメリカ", "Mỹ"], ["C", "イギリス", "Anh"], ["D", "ドイツ", "Đức"]],
-        answer: "D",
-        explain: "Người nói nói 「ドイツから来ました」."
-      },
-      {
-        part: "Phần 3: Nghề nghiệp",
-        title: "Đoạn 9 - Ví dụ",
-        time: "00:02:47 - 00:03:09",
-        audio: "audio/lesson-1/segment-09.mp3",
-        transcript: [
-          ["A", "はじめまして。ワットです。イギリスから来ました。", "Hajimemashite. Watto desu. Igirisu kara kimashita.", "Rất vui được gặp bạn. Tôi là Watt. Tôi đến từ Anh."],
-          ["B", "はじめまして。小林です。私はさくら大学の教師です。", "Hajimemashite. Kobayashi desu. Watashi wa Sakura Daigaku no kyoushi desu.", "Rất vui được gặp bạn. Tôi là Kobayashi. Tôi là giáo viên của Đại học Sakura."],
-          ["A", "あ、私も教師です。富士大学です。どうぞよろしく。", "A, watashi mo kyoushi desu. Fuji Daigaku desu. Douzo yoroshiku.", "À, tôi cũng là giáo viên. Ở Đại học Fuji. Rất mong được giúp đỡ."]
-        ],
-        question: ["女の人の仕事はAですか、Bですか。", "Onna no hito no shigoto wa A desu ka, B desu ka.", "Nghề nghiệp của người phụ nữ là A hay B?"],
-        options: [["A", "教師", "Giáo viên"], ["B", "医者", "Bác sĩ"], ["C", "会社員", "Nhân viên công ty"], ["D", "エンジニア", "Kỹ sư"]],
-        answer: "A",
-        explain: "Người phụ nữ nói 「私はさくら大学の教師です」."
-      },
-      {
-        part: "Phần 3: Nghề nghiệp",
-        title: "Đoạn 10 - Câu 1",
-        time: "00:03:09 - 00:03:25",
-        audio: "audio/lesson-1/segment-10.mp3",
-        transcript: [
-          ["A", "はじめまして。", "Hajimemashite.", "Rất vui được gặp bạn."],
-          ["B", "はじめまして。後藤です。", "Hajimemashite. Gotou desu.", "Rất vui được gặp bạn. Tôi là Gotou."],
-          ["A", "後藤さんは先生ですか。", "Gotou-san wa sensei desu ka.", "Anh/chị Gotou là giáo viên phải không?"],
-          ["B", "いいえ、医者です。", "Iie, isha desu.", "Không, tôi là bác sĩ."],
-          ["A", "ああ、私も医者です。", "Aa, watashi mo isha desu.", "À, tôi cũng là bác sĩ."]
-        ],
-        question: ["女の人の仕事はAですか、Bですか。", "Onna no hito no shigoto wa A desu ka, B desu ka.", "Nghề nghiệp của người phụ nữ là A hay B?"],
-        options: [["A", "先生", "Giáo viên"], ["B", "医者", "Bác sĩ"], ["C", "銀行員", "Nhân viên ngân hàng"], ["D", "会社員", "Nhân viên công ty"]],
-        answer: "B",
-        explain: "後藤 nói 「いいえ、医者です」."
-      },
-      {
-        part: "Phần 3: Nghề nghiệp",
-        title: "Đoạn 11 - Câu 2",
-        time: "00:03:25 - 00:03:42",
-        audio: "audio/lesson-1/segment-11.mp3",
-        transcript: [
-          ["A", "あの、シュミットさんですか。", "Ano, Shumitto-san desu ka.", "Xin hỏi, anh/chị là Schmidt phải không?"],
-          ["B", "はい、シュミットです。ドイツから来ました。", "Hai, Shumitto desu. Doitsu kara kimashita.", "Vâng, tôi là Schmidt. Tôi đến từ Đức."],
-          ["A", "私は山田です。銀行員です。", "Watashi wa Yamada desu. Ginkouin desu.", "Tôi là Yamada. Tôi là nhân viên ngân hàng."],
-          ["B", "私はエンジニアです。どうぞよろしく。", "Watashi wa enjinia desu. Douzo yoroshiku.", "Tôi là kỹ sư. Rất mong được giúp đỡ."]
-        ],
-        question: ["女の人の仕事はAですか、Bですか。", "Onna no hito no shigoto wa A desu ka, B desu ka.", "Nghề nghiệp của người phụ nữ là A hay B?"],
-        options: [["A", "エンジニア", "Kỹ sư"], ["B", "教師", "Giáo viên"], ["C", "銀行員", "Nhân viên ngân hàng"], ["D", "医者", "Bác sĩ"]],
-        answer: "C",
-        explain: "山田 nói 「銀行員です」."
-      },
-      {
-        part: "Phần 3: Nghề nghiệp",
-        title: "Đoạn 12 - Câu 3",
-        time: "00:03:42 - 00:04:00",
-        audio: "audio/lesson-1/segment-12.mp3",
-        transcript: [
-          ["A", "失礼ですが、お名前は。", "Shitsurei desu ga, onamae wa.", "Xin lỗi, tên của bạn là gì?"],
-          ["B", "ミラーです。アメリカから来ました。", "Miraa desu. Amerika kara kimashita.", "Tôi là Miller. Tôi đến từ Mỹ."],
-          ["A", "私は林です。ミラーさんは会社員ですか。", "Watashi wa Hayashi desu. Miraa-san wa kaishain desu ka.", "Tôi là Hayashi. Anh Miller là nhân viên công ty phải không?"],
-          ["B", "はい。IMCの社員です。どうぞよろしくお願いします。", "Hai. IMC no shain desu. Douzo yoroshiku onegaishimasu.", "Vâng. Tôi là nhân viên của IMC. Rất mong được giúp đỡ."],
-          ["A", "私も会社員です。パワー電機の社員です。どうぞよろしく。", "Watashi mo kaishain desu. Pawaa Denki no shain desu. Douzo yoroshiku.", "Tôi cũng là nhân viên công ty. Tôi là nhân viên của Power Electric. Rất mong được giúp đỡ."]
-        ],
-        question: ["女の人の仕事はAですか、Bですか。", "Onna no hito no shigoto wa A desu ka, B desu ka.", "Nghề nghiệp của người phụ nữ là A hay B?"],
-        options: [["A", "教師", "Giáo viên"], ["B", "医者", "Bác sĩ"], ["C", "エンジニア", "Kỹ sư"], ["D", "会社員", "Nhân viên công ty"]],
-        answer: "D",
-        explain: "林 nói 「私も会社員です」."
-      },
-      {
-        part: "Phần 4: Tuổi",
-        title: "Đoạn 13 - Ví dụ",
-        time: "00:04:07 - 00:04:20",
-        audio: "audio/lesson-1/segment-13.mp3",
-        transcript: [
-          ["A", "ミラーさん、失礼ですが、おいくつですか。", "Miraa-san, shitsurei desu ga, oikutsu desu ka.", "Anh Miller, xin lỗi, anh bao nhiêu tuổi?"],
-          ["B", "28歳です。", "Nijuu-hassai desu.", "Tôi 28 tuổi."],
-          ["A", "そうですか。私も28です。", "Sou desu ka. Watashi mo nijuu-hachi desu.", "Vậy à. Tôi cũng 28 tuổi."]
-        ],
-        question: ["何歳ですか。", "Nansai desu ka.", "Bao nhiêu tuổi?"],
-        options: [["A", "26歳", "26 tuổi"], ["B", "28歳", "28 tuổi"], ["C", "71歳", "71 tuổi"], ["D", "8歳", "8 tuổi"]],
-        answer: "B",
-        explain: "ミラー nói 「28歳です」."
-      },
-      {
-        part: "Phần 4: Tuổi",
-        title: "Đoạn 14 - Câu 1",
-        time: "00:04:20 - 00:04:38",
-        audio: "audio/lesson-1/segment-14.mp3",
-        transcript: [
-          ["A", "あの方はどなたですか。", "Ano kata wa donata desu ka.", "Vị kia là ai vậy?"],
-          ["B", "増田さんです。神戸病院の医者です。", "Masuda-san desu. Koube Byouin no isha desu.", "Đó là anh/chị Masuda. Là bác sĩ của bệnh viện Kobe."],
-          ["A", "おいくつですか。", "Oikutsu desu ka.", "Anh/chị ấy bao nhiêu tuổi?"],
-          ["B", "71歳です。", "Nanajuu-issai desu.", "71 tuổi."]
-        ],
-        question: ["何歳ですか。", "Nansai desu ka.", "Bao nhiêu tuổi?"],
-        options: [["A", "28歳", "28 tuổi"], ["B", "26歳", "26 tuổi"], ["C", "71歳", "71 tuổi"], ["D", "8歳", "8 tuổi"]],
-        answer: "C",
-        explain: "Người trả lời nói 「71歳です」."
-      },
-      {
-        part: "Phần 4: Tuổi",
-        title: "Đoạn 15 - Câu 2",
-        time: "00:04:38 - 00:04:51",
-        audio: "audio/lesson-1/segment-15.mp3",
-        transcript: [
-          ["A", "菜々子ちゃんですか。", "Nanako-chan desu ka.", "Em là Nanako phải không?"],
-          ["B", "はい。", "Hai.", "Vâng."],
-          ["A", "菜々子ちゃんは何歳ですか。", "Nanako-chan wa nansai desu ka.", "Nanako bao nhiêu tuổi?"],
-          ["B", "私は8歳です。", "Watashi wa hassai desu.", "Em 8 tuổi."]
-        ],
-        question: ["何歳ですか。", "Nansai desu ka.", "Bao nhiêu tuổi?"],
-        options: [["A", "8歳", "8 tuổi"], ["B", "26歳", "26 tuổi"], ["C", "28歳", "28 tuổi"], ["D", "71歳", "71 tuổi"]],
-        answer: "A",
-        explain: "菜々子 nói 「私は8歳です」."
-      },
-      {
-        part: "Phần 4: Tuổi",
-        title: "Đoạn 16 - Câu 3",
-        time: "00:04:51 - 00:05:04",
-        audio: "audio/lesson-1/segment-16.mp3",
-        transcript: [
-          ["A", "あの方はケリーさんです。", "Ano kata wa Kerii-san desu.", "Vị kia là anh/chị Kelly."],
-          ["B", "あの、おいくつですか。", "Ano, oikutsu desu ka.", "Xin hỏi, anh/chị ấy bao nhiêu tuổi?"],
-          ["A", "ケリーさんは、えっと、26です。", "Kerii-san wa, etto, nijuu-roku desu.", "Anh/chị Kelly thì, ừm, 26 tuổi."],
-          ["B", "そうですか。", "Sou desu ka.", "Vậy à."]
-        ],
-        question: ["何歳ですか。", "Nansai desu ka.", "Bao nhiêu tuổi?"],
-        options: [["A", "28歳", "28 tuổi"], ["B", "71歳", "71 tuổi"], ["C", "8歳", "8 tuổi"], ["D", "26歳", "26 tuổi"]],
-        answer: "D",
-        explain: "Người nói nói 「26です」."
-      }
-    ];
-
-    const state = {
-      current: 0,
-      answers: JSON.parse(localStorage.getItem("n5-listening-bai-1") || "{}")
-    };
-
-    const els = {
-      score: document.getElementById("score"),
-      segmentList: document.getElementById("segmentList"),
-      partName: document.getElementById("partName"),
-      segmentTitle: document.getElementById("segmentTitle"),
-      timeRange: document.getElementById("timeRange"),
-      audioPlayer: document.getElementById("audioPlayer"),
-      transcript: document.getElementById("transcript"),
-      question: document.getElementById("question"),
-      questionRomaji: document.getElementById("questionRomaji"),
-      questionMeaning: document.getElementById("questionMeaning"),
-      options: document.getElementById("options"),
-      feedback: document.getElementById("feedback"),
-      prevBtn: document.getElementById("prevBtn"),
-      nextBtn: document.getElementById("nextBtn")
-    };
-
-    function saveAnswers() {
-      localStorage.setItem("n5-listening-bai-1", JSON.stringify(state.answers));
+    const totalSegments = 16;
+    const state = {};
+    const currentSegment = document.getElementById("current-segment");
+    function formatTime(seconds) {
+      if (!Number.isFinite(seconds)) return "0:00";
+      const total = Math.max(0, Math.floor(seconds));
+      const mins = Math.floor(total / 60);
+      const secs = String(total % 60).padStart(2, "0");
+      return `${mins}:${secs}`;
     }
-
-    function answerStatus(index) {
-      const picked = state.answers[index];
-      if (!picked) return "";
-      return picked === segments[index].answer ? "correct" : "wrong";
-    }
-
-    function renderTabs() {
-      els.segmentList.innerHTML = "";
-      segments.forEach((segment, index) => {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = ["segment-tab", index === state.current ? "active" : "", answerStatus(index)].filter(Boolean).join(" ");
-        button.innerHTML = `
-          <span>
-            <span class="label">${index + 1}</span>
-            <span class="meta">${segment.part.replace("Phần ", "P")}</span>
-          </span>
-          <span class="status-dot" aria-hidden="true"></span>
-        `;
-        button.addEventListener("click", () => renderSegment(index));
-        els.segmentList.appendChild(button);
-      });
-    }
-
-    function renderTranscript(segment) {
-      els.transcript.innerHTML = "";
-      segment.transcript.forEach(([speaker, jp, romaji, vi]) => {
-        const line = document.createElement("div");
-        line.className = "line";
-        line.innerHTML = `
-          <p class="jp">${speaker}: ${jp}</p>
-          <p class="romaji">Romaji: ${romaji}</p>
-          <p class="vi">Nghĩa: ${vi}</p>
-        `;
-        els.transcript.appendChild(line);
-      });
-    }
-
-    function renderOptions(segment, index) {
-      els.options.innerHTML = "";
-      const picked = state.answers[index];
-      segment.options.forEach(([key, text, meaning]) => {
-        const button = document.createElement("button");
-        const classes = ["option"];
-        if (picked === key) classes.push("selected");
-        if (picked && key === segment.answer) classes.push("correct");
-        if (picked === key && picked !== segment.answer) classes.push("wrong");
-        button.type = "button";
-        button.className = classes.join(" ");
-        button.innerHTML = `
-          <span class="option-key">${key}</span>
-          <span class="option-main">${text}</span>
-          <span class="option-meaning">${meaning}</span>
-        `;
-        button.addEventListener("click", () => {
-          state.answers[index] = key;
-          saveAnswers();
-          renderSegment(index);
-        });
-        els.options.appendChild(button);
-      });
-
-      els.feedback.className = "feedback";
-      if (!picked) {
-        els.feedback.textContent = "";
-      } else if (picked === segment.answer) {
-        els.feedback.classList.add("ok");
-        els.feedback.textContent = `Đúng. ${segment.explain}`;
-      } else {
-        els.feedback.classList.add("bad");
-        els.feedback.textContent = `Chưa đúng. Đáp án đúng là ${segment.answer}. ${segment.explain}`;
-      }
-    }
-
     function updateScore() {
-      const correct = segments.filter((segment, index) => state.answers[index] === segment.answer).length;
-      els.score.textContent = `${correct} / ${segments.length} câu đúng`;
+      const correct = Object.values(state).filter(Boolean).length;
+      document.getElementById("score").textContent = `${correct}/${totalSegments}`;
     }
-
-    function renderSegment(index) {
-      state.current = Math.max(0, Math.min(index, segments.length - 1));
-      const segment = segments[state.current];
-      els.partName.textContent = segment.part;
-      els.segmentTitle.textContent = segment.title;
-      els.timeRange.textContent = segment.time;
-      els.audioPlayer.src = segment.audio;
-      els.question.textContent = segment.question[0];
-      els.questionRomaji.textContent = `Romaji: ${segment.question[1]}`;
-      els.questionMeaning.textContent = `Nghĩa: ${segment.question[2]}`;
-      renderTranscript(segment);
-      renderOptions(segment, state.current);
-      els.prevBtn.disabled = state.current === 0;
-      els.nextBtn.disabled = state.current === segments.length - 1;
-      renderTabs();
-      updateScore();
-    }
-
-    els.prevBtn.addEventListener("click", () => renderSegment(state.current - 1));
-    els.nextBtn.addEventListener("click", () => renderSegment(state.current + 1));
-
-    renderSegment(0);
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (!visible) return;
+      const index = Number(visible.target.dataset.segment) + 1;
+      currentSegment.textContent = `Đang ở đoạn ${index}/${totalSegments}`;
+    }, { rootMargin: "-90px 0px -55% 0px", threshold: [0.2, 0.45, 0.7] });
+    document.querySelectorAll(".segment-card").forEach((card) => observer.observe(card));
+    document.querySelectorAll(".audio-player").forEach((player) => {
+      const audio = player.querySelector("audio");
+      const playButton = player.querySelector(".play-audio");
+      const progress = player.querySelector(".audio-progress");
+      const time = player.querySelector(".audio-time");
+      playButton.addEventListener("click", () => {
+        document.querySelectorAll("audio").forEach((other) => {
+          if (other !== audio) other.pause();
+        });
+        if (audio.paused) audio.play();
+        else audio.pause();
+      });
+      audio.addEventListener("play", () => { playButton.textContent = "❚❚"; });
+      audio.addEventListener("pause", () => { playButton.textContent = "▶"; });
+      audio.addEventListener("loadedmetadata", () => {
+        time.textContent = `0:00 / ${formatTime(audio.duration)}`;
+      });
+      audio.addEventListener("timeupdate", () => {
+        if (audio.duration) progress.value = String((audio.currentTime / audio.duration) * 100);
+        time.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+      });
+      audio.addEventListener("ended", () => {
+        playButton.textContent = "▶";
+        progress.value = "0";
+      });
+      progress.addEventListener("input", () => {
+        if (!audio.duration) return;
+        audio.currentTime = (Number(progress.value) / 100) * audio.duration;
+      });
+    });
+    document.querySelectorAll(".check-answer").forEach((button) => {
+      button.addEventListener("click", () => {
+        const card = button.closest(".segment-card");
+        const selected = card.querySelector("input[type='radio']:checked");
+        const feedback = card.querySelector(".feedback");
+        const explanation = card.querySelector(".explanation");
+        const segmentIndex = card.dataset.segment;
+        const nav = document.querySelector(`[data-nav-segment="${segmentIndex}"]`);
+        feedback.className = "feedback";
+        explanation.hidden = true;
+        if (!selected) {
+          feedback.textContent = "Hãy chọn một đáp án trước.";
+          feedback.classList.add("bad");
+          state[segmentIndex] = false;
+          updateScore();
+          return;
+        }
+        nav.classList.remove("done", "wrong");
+        if (selected.value === card.dataset.answer) {
+          feedback.textContent = "Đúng.";
+          feedback.classList.add("ok");
+          nav.classList.add("done");
+          nav.querySelector("small").textContent = "Đúng";
+          state[segmentIndex] = true;
+        } else {
+          feedback.textContent = "Chưa đúng.";
+          feedback.classList.add("bad");
+          nav.classList.add("wrong");
+          nav.querySelector("small").textContent = "Sai";
+          state[segmentIndex] = false;
+        }
+        explanation.hidden = false;
+        updateScore();
+      });
+    });
   </script>
 </body>
 </html>

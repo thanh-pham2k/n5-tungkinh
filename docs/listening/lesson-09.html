@@ -1,0 +1,712 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JLPT N5 Listening - Bài 9</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --panel: #fff;
+      --text: #162033;
+      --muted: #64748b;
+      --line: #dbe3ef;
+      --primary: #0f766e;
+      --primary-soft: #e1f4f1;
+      --ok: #147a3d;
+      --bad: #b42318;
+      --shadow: 0 8px 22px rgba(15,23,42,.07);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; overflow-x: hidden; background: var(--bg); color: var(--text); font-family: Arial, sans-serif; font-size: 15px; line-height: 1.45; }
+    h1, h2, h3, p { margin-top: 0; }
+    .app-header { position: sticky; top: 0; z-index: 20; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.97); backdrop-filter: blur(10px); }
+    .header-inner { max-width: 900px; margin: 0 auto; padding: 10px 12px; display: grid; gap: 8px; }
+    .header-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    h1 { margin: 0; font-size: 18px; line-height: 1.2; }
+    .score { flex: 0 0 auto; border: 1px solid var(--line); border-radius: 999px; background: #fff; padding: 5px 9px; font-size: 13px; font-weight: 800; color: var(--primary); }
+    .current-segment { margin: 0; color: var(--muted); font-size: 13px; font-weight: 700; }
+    main { width: min(900px, 100%); min-width: 0; margin: 0 auto; padding: 12px; display: grid; gap: 12px; }
+    .segment-nav { min-width: 0; display: flex; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain; padding-bottom: 2px; scrollbar-width: thin; }
+    .segment-pill { flex: 0 0 86px; min-height: 46px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 7px 9px; display: grid; align-content: center; gap: 2px; text-decoration: none; }
+    .segment-pill span { font-weight: 900; color: var(--primary); }
+    .segment-pill small { color: var(--muted); font-size: 12px; white-space: nowrap; }
+    .segment-pill.done { border-color: rgba(20,122,61,.35); background: #eefbf3; }
+    .segment-pill.wrong { border-color: rgba(180,35,24,.35); background: #fff1f0; }
+    .segment-card { min-width: 0; overflow: hidden; scroll-margin-top: 88px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); padding: 12px; }
+    .segment-head { margin-bottom: 8px; }
+    .eyebrow { margin: 0 0 2px; color: var(--primary); font-size: 11px; font-weight: 900; letter-spacing: .04em; text-transform: uppercase; }
+    h2 { margin: 0; font-size: 19px; line-height: 1.2; }
+    .time { margin: 4px 0 0; color: var(--muted); font-size: 12px; font-weight: 800; }
+    .audio-shell { min-width: 0; max-width: 100%; overflow: hidden; margin: 8px 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; padding: 6px; }
+    .audio-player { min-width: 0; display: grid; grid-template-columns: 38px 78px minmax(0, 1fr); gap: 8px; align-items: center; }
+    .play-audio { width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }
+    .audio-time { color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }
+    .audio-progress { width: 100%; min-width: 0; accent-color: var(--primary); }
+    audio { display: none; }
+    .quiz { padding-top: 2px; }
+    .quiz h3 { margin-bottom: 8px; font-size: 15px; }
+    .question { margin-bottom: 3px; font-weight: 900; font-size: 16px; line-height: 1.35; }
+    .subline { margin: 0 0 3px; color: var(--muted); font-size: 13px; }
+    .options { display: grid; grid-template-columns: 1fr; gap: 8px; margin: 10px 0; }
+    .option { min-height: 52px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 9px 10px; display: grid; grid-template-columns: 18px 28px minmax(0, 1fr); column-gap: 8px; align-items: start; cursor: pointer; }
+    .option:has(input:checked) { border-color: var(--primary); background: var(--primary-soft); }
+    .option input { margin: 3px 0 0; }
+    .option-letter { width: 26px; height: 26px; border-radius: 999px; background: #eef2f7; display: inline-grid; place-items: center; font-size: 13px; font-weight: 900; }
+    .option-body { min-width: 0; display: grid; gap: 2px; }
+    .option-text { min-width: 0; font-size: 15px; font-weight: 800; white-space: normal; word-break: normal; overflow-wrap: anywhere; line-break: strict; }
+    .option-meaning { color: var(--muted); font-size: 12px; white-space: normal; word-break: normal; overflow-wrap: anywhere; }
+    button { min-height: 40px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 8px 12px; font-weight: 800; cursor: pointer; }
+    button:hover { border-color: var(--primary); color: var(--primary); }
+    .check-answer { width: 100%; background: var(--primary); border-color: var(--primary); color: #fff; }
+    .check-answer:hover { color: #fff; }
+    .feedback { min-height: 20px; margin-top: 8px; font-weight: 900; }
+    .feedback.ok { color: var(--ok); }
+    .feedback.bad { color: var(--bad); }
+    .explanation { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+    .script-panel { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
+    .script-panel summary { min-height: 36px; color: var(--primary); font-weight: 900; cursor: pointer; }
+    .script-text { width: 100%; margin: 4px 0 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+    @media (min-width: 640px) {
+      body { font-size: 16px; }
+      .header-inner { padding: 12px 16px; }
+      h1 { font-size: 22px; }
+      main { padding: 16px; gap: 14px; }
+      .segment-nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; padding-bottom: 0; }
+      .segment-pill { min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+      .segment-card { padding: 16px; scroll-margin-top: 96px; }
+      .options { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+      .check-answer { width: auto; }
+    }
+    @media (min-width: 1024px) {
+      .header-inner, main { max-width: 900px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="header-row">
+        <h1>JLPT N5 Listening - Bài 9</h1>
+        <div class="score" id="score">0/4</div>
+      </div>
+      <p class="current-segment" id="current-segment">Đang ở đoạn 1/4</p>
+    </div>
+  </header>
+  <main>
+    <nav class="segment-nav" aria-label="Danh sách đoạn hội thoại">
+            <a class="segment-pill" href="#segment-1" data-nav-segment="0">
+              <span>01</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-2" data-nav-segment="1">
+              <span>02</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-3" data-nav-segment="2">
+              <span>03</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-4" data-nav-segment="3">
+              <span>04</span>
+              <small>Chưa làm</small>
+            </a>
+            </nav>
+    
+            <article class="segment-card" id="segment-1" data-segment="0" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 001</p>
+                <h2>Đoạn 1</h2>
+                <p class="time">00:08.000 - 01:35.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-09/segment_001.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">キムさんはどんな料理が好きですか。</p>
+                <p class="subline">Kimu-san wa donna ryouri ga suki desu ka.</p>
+                <p class="subline">Bạn Kim thích món ăn nào?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-0" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">イタリア料理</span>
+                    <span class="option-meaning">Món Ý</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">日本料理</span>
+                    <span class="option-meaning">Món Nhật</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">中国料理</span>
+                    <span class="option-meaning">Món Trung Quốc</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">インド料理</span>
+                    <span class="option-meaning">Món Ấn Độ</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Kim nói 「イタリア料理、とても好きです」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">A: キムさん、いらっしゃい。こちらへどうぞ。
+Romaji: Kimu-san, irasshai. Kochira e douzo.
+Nghĩa: Bạn Kim, chào mừng bạn. Mời vào đây.
+
+A: 料理がたくさん。これ、いかがですか。日本料理です。
+Romaji: Ryouri ga takusan. Kore, ikaga desu ka. Nihon ryouri desu.
+Nghĩa: Có nhiều món ăn lắm. Món này thì sao? Đây là món Nhật.
+
+B: 私は日本料理があまり…。
+Romaji: Watashi wa Nihon ryouri ga amari...
+Nghĩa: Tôi thì không thích món Nhật lắm...
+
+A: じゃあ、これはいかがですか。イタリア料理です。
+Romaji: Jaa, kore wa ikaga desu ka. Itaria ryouri desu.
+Nghĩa: Vậy món này thì sao? Đây là món Ý.
+
+B: イタリア料理、とても好きです。いただきます。
+Romaji: Itaria ryouri, totemo suki desu. Itadakimasu.
+Nghĩa: Tôi rất thích món Ý. Tôi xin ăn.
+
+A: キムさんはどんな人が好きですか。
+Romaji: Kimu-san wa donna hito ga suki desu ka.
+Nghĩa: Bạn Kim thích kiểu người như thế nào?
+
+A: ハンサムな人が好きですか。
+Romaji: Hansamu na hito ga suki desu ka.
+Nghĩa: Bạn thích người đẹp trai à?
+
+B: いいえ。
+Romaji: Iie.
+Nghĩa: Không.
+
+A: 静かな人はどうですか。
+Romaji: Shizuka na hito wa dou desu ka.
+Nghĩa: Người trầm lặng thì sao?
+
+B: いいえ。私は元気な人が好きです。
+Romaji: Iie. Watashi wa genki na hito ga suki desu.
+Nghĩa: Không. Tôi thích người năng động.
+
+A: じゃ、私の友達に会いませんか。とても元気な人ですよ。
+Romaji: Ja, watashi no tomodachi ni aimasen ka. Totemo genki na hito desu yo.
+Nghĩa: Vậy bạn gặp bạn tôi nhé? Người đó rất năng động đấy.
+
+B: そうですか。お願いします。
+Romaji: Sou desu ka. Onegaishimasu.
+Nghĩa: Vậy à. Nhờ bạn nhé.
+
+A: キムさん、これから映画はどうですか。
+Romaji: Kimu-san, kore kara eiga wa dou desu ka.
+Nghĩa: Bạn Kim, từ bây giờ đi xem phim thì sao?
+
+B: 映画ですか。映画はあまり好きじゃありません。
+Romaji: Eiga desu ka. Eiga wa amari suki ja arimasen.
+Nghĩa: Phim à? Tôi không thích phim lắm.
+
+A: じゃ、カラオケはどうですか。楽しいですよ。
+Romaji: Ja, karaoke wa dou desu ka. Tanoshii desu yo.
+Nghĩa: Vậy karaoke thì sao? Vui lắm đấy.
+
+B: いいですね。私はカラオケが好きです。じゃ、行きましょう。
+Romaji: Ii desu ne. Watashi wa karaoke ga suki desu. Ja, ikimashou.
+Nghĩa: Hay đấy. Tôi thích karaoke. Vậy đi thôi.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-2" data-segment="1" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 002</p>
+                <h2>Đoạn 2</h2>
+                <p class="time">01:35.000 - 03:19.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-09/segment_002.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">愛子さんは何歳からテニスをしましたか。</p>
+                <p class="subline">Aiko-san wa nansai kara tenisu o shimashita ka.</p>
+                <p class="subline">Bạn Aiko chơi tennis từ mấy tuổi?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-1" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">3歳から</span>
+                    <span class="option-meaning">Từ 3 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">5歳から</span>
+                    <span class="option-meaning">Từ 5 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">7歳から</span>
+                    <span class="option-meaning">Từ 7 tuổi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">10歳から</span>
+                    <span class="option-meaning">Từ 10 tuổi</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Aiko nói 「3歳からです」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">A: 愛子さんはテニスがとても上手ですね。
+Romaji: Aiko-san wa tenisu ga totemo jouzu desu ne.
+Nghĩa: Bạn Aiko chơi tennis rất giỏi nhỉ.
+
+A: 何歳からしましたか。
+Romaji: Nansai kara shimashita ka.
+Nghĩa: Bạn chơi từ mấy tuổi?
+
+B: 3歳からです。
+Romaji: Sansai kara desu.
+Nghĩa: Từ 3 tuổi.
+
+A: 愛子さん、今、時間がありますか。
+Romaji: Aiko-san, ima, jikan ga arimasu ka.
+Nghĩa: Bạn Aiko, bây giờ có thời gian không?
+
+A: 金曜日はキムさんの誕生日です。一緒に誕生日カードをあげましょう。
+Romaji: Kin-youbi wa Kimu-san no tanjoubi desu. Issho ni tanjoubi kaado o agemashou.
+Nghĩa: Thứ Sáu là sinh nhật của Kim. Cùng tặng thiệp sinh nhật nhé.
+
+B: いいですね。
+Romaji: Ii desu ne.
+Nghĩa: Hay đấy.
+
+A: キムさん、誕生日おめでとう。
+Romaji: Kimu-san, tanjoubi omedetou.
+Nghĩa: Kim, chúc mừng sinh nhật.
+
+B: はい、書きました。ありがとう。
+Romaji: Hai, kakimashita. Arigatou.
+Nghĩa: Vâng, tôi đã viết rồi. Cảm ơn.
+
+A: 字がとても上手ですね。
+Romaji: Ji ga totemo jouzu desu ne.
+Nghĩa: Chữ viết rất đẹp nhỉ.
+
+A: ダンスをしましょう。
+Romaji: Dansu o shimashou.
+Nghĩa: Cùng nhảy nhé.
+
+B: あまり上手じゃありませんが。
+Romaji: Amari jouzu ja arimasen ga.
+Nghĩa: Tôi không giỏi lắm đâu.
+
+A: 愛子さん、これ、英語ですか。
+Romaji: Aiko-san, kore, eigo desu ka.
+Nghĩa: Aiko, cái này là tiếng Anh à?
+
+B: これはインドネシア語ですよ。
+Romaji: Kore wa Indoneshia-go desu yo.
+Nghĩa: Đây là tiếng Indonesia đấy.
+
+A: インドネシア語が分かりますか。
+Romaji: Indoneshia-go ga wakarimasu ka.
+Nghĩa: Bạn hiểu tiếng Indonesia à?
+
+B: だいたい分かります。
+Romaji: Daitai wakarimasu.
+Nghĩa: Tôi hiểu đại khái.
+
+A: 来週からイギリスへ行きますね。
+Romaji: Raishuu kara Igirisu e ikimasu ne.
+Nghĩa: Tuần sau bạn sẽ đi Anh nhỉ.
+
+B: うーん、ちょっと英語が…。
+Romaji: Uun, chotto eigo ga...
+Nghĩa: Ừm, tiếng Anh thì hơi...
+
+B: 英語があまり分かりません。
+Romaji: Eigo ga amari wakarimasen.
+Nghĩa: Tôi không hiểu tiếng Anh lắm.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-3" data-segment="2" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 003</p>
+                <h2>Đoạn 3</h2>
+                <p class="time">03:19.000 - 04:42.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-09/segment_003.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">佐藤さんはどうして映画へ行きませんか。</p>
+                <p class="subline">Satou-san wa doushite eiga e ikimasen ka.</p>
+                <p class="subline">Tại sao bạn Sato không đi xem phim?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-2" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">友達と約束がありますから</span>
+                    <span class="option-meaning">Vì có hẹn với bạn</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">お金がありませんから</span>
+                    <span class="option-meaning">Vì không có tiền</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">時間がありませんから</span>
+                    <span class="option-meaning">Vì không có thời gian</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">英語が分かりませんから</span>
+                    <span class="option-meaning">Vì không hiểu tiếng Anh</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Sato nói 「友達と約束がありますから」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">A: 佐藤さん、映画のチケットがあります。明日一緒にいかがですか。
+Romaji: Satou-san, eiga no chiketto ga arimasu. Ashita issho ni ikaga desu ka.
+Nghĩa: Bạn Sato, tôi có vé xem phim. Ngày mai đi cùng nhé?
+
+B: 明日ですか。
+Romaji: Ashita desu ka.
+Nghĩa: Ngày mai à?
+
+B: 明日はちょっと忙しいです。すみません。友達と約束がありますから。
+Romaji: Ashita wa chotto isogashii desu. Sumimasen. Tomodachi to yakusoku ga arimasu kara.
+Nghĩa: Ngày mai tôi hơi bận. Xin lỗi. Vì tôi có hẹn với bạn.
+
+A: 佐藤さん、これから地下のレストランでビールを飲みます。一緒にどうですか。
+Romaji: Satou-san, kore kara chika no resutoran de biiru o nomimasu. Issho ni dou desu ka.
+Nghĩa: Bạn Sato, từ bây giờ tôi sẽ uống bia ở nhà hàng tầng hầm. Đi cùng nhé?
+
+B: 今晩はちょっと用事がありますから。
+Romaji: Konban wa chotto youji ga arimasu kara.
+Nghĩa: Tối nay tôi có chút việc bận.
+
+A: そうですか。じゃ、また。
+Romaji: Sou desu ka. Ja, mata.
+Nghĩa: Vậy à. Hẹn gặp lại.
+
+A: このカバン、素敵ですよ。
+Romaji: Kono kaban, suteki desu yo.
+Nghĩa: Cái cặp/túi này đẹp đấy.
+
+B: そうですね。いいですね。
+Romaji: Sou desu ne. Ii desu ne.
+Nghĩa: Đúng vậy nhỉ. Đẹp nhỉ.
+
+A: いかがですか。
+Romaji: Ikaga desu ka.
+Nghĩa: Bạn thấy sao / mua không?
+
+B: 今、お金がありませんから。
+Romaji: Ima, okane ga arimasen kara.
+Nghĩa: Vì bây giờ tôi không có tiền.
+
+A: もう6時10分ですよ。コンサートは6時半からですね。
+Romaji: Mou rokuji juppun desu yo. Konsaato wa rokuji han kara desu ne.
+Nghĩa: Đã 6 giờ 10 rồi. Buổi hòa nhạc bắt đầu lúc 6 giờ rưỡi nhỉ.
+
+B: 時間がありませんね。じゃ、タクシーで行きませんか。
+Romaji: Jikan ga arimasen ne. Ja, takushii de ikimasen ka.
+Nghĩa: Không có thời gian nhỉ. Vậy đi taxi nhé?
+
+A: そうですね。
+Romaji: Sou desu ne.
+Nghĩa: Đúng vậy.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-4" data-segment="3" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 004</p>
+                <h2>Đoạn 4</h2>
+                <p class="time">04:42.000 - 12:30.631</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-09/segment_004.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">この人はどうしてQueen Beeのコンサートへ来ますか。</p>
+                <p class="subline">Kono hito wa doushite Queen Bee no konsaato e kimasu ka.</p>
+                <p class="subline">Người này vì sao đến concert của Queen Bee?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-3" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">とても楽しいですから</span>
+                    <span class="option-meaning">Vì rất vui</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">チケットをもらいましたから</span>
+                    <span class="option-meaning">Vì được cho vé</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">歌が上手ですから</span>
+                    <span class="option-meaning">Vì hát hay</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">ダンスが好きじゃありませんから</span>
+                    <span class="option-meaning">Vì không thích nhảy</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người đó nói 「とても楽しいですから」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">A: すみません。おはようテレビですが、今日はどうして来ましたか。
+Romaji: Sumimasen. Ohayou Terebi desu ga, kyou wa doushite kimashita ka.
+Nghĩa: Xin lỗi. Chúng tôi là Ohayou TV, hôm nay vì sao bạn đến đây?
+
+B: Queen Beeのコンサートはとても楽しいですから、いつも来ますよ。
+Romaji: Queen Bee no konsaato wa totemo tanoshii desu kara, itsumo kimasu yo.
+Nghĩa: Vì concert của Queen Bee rất vui nên tôi luôn đến.
+
+A: 失礼します。今日はどうして来ましたか。
+Romaji: Shitsurei shimasu. Kyou wa doushite kimashita ka.
+Nghĩa: Xin phép hỏi. Hôm nay vì sao bạn đến đây?
+
+C: Queen Beeのダンスはとても素敵ですから、時々テレビで見ますよ。
+Romaji: Queen Bee no dansu wa totemo suteki desu kara, tokidoki terebi de mimasu yo.
+Nghĩa: Vì điệu nhảy của Queen Bee rất đẹp nên thỉnh thoảng tôi xem trên tivi.
+
+A: ちょっとすみません。今日は彼と一緒に行きましたか。
+Romaji: Chotto sumimasen. Kyou wa kare to issho ni ikimashita ka.
+Nghĩa: Xin lỗi một chút. Hôm nay bạn đến cùng anh ấy à?
+
+D: はい。
+Romaji: Hai.
+Nghĩa: Vâng.
+
+A: Queen Beeが好きですか。
+Romaji: Queen Bee ga suki desu ka.
+Nghĩa: Bạn thích Queen Bee à?
+
+A: どうして来ましたか。
+Romaji: Doushite kimashita ka.
+Nghĩa: Vì sao bạn đến?
+
+D: 友達にチケットをもらいましたから。
+Romaji: Tomodachi ni chiketto o moraimashita kara.
+Nghĩa: Vì tôi được bạn cho vé.
+
+A: おはようテレビです。今日は一人で来ましたか。
+Romaji: Ohayou Terebi desu. Kyou wa hitori de kimashita ka.
+Nghĩa: Chúng tôi là Ohayou TV. Hôm nay bạn đến một mình à?
+
+E: いつも一人で来ます。
+Romaji: Itsumo hitori de kimasu.
+Nghĩa: Tôi luôn đến một mình.
+
+A: Queen Beeが好きですか。
+Romaji: Queen Bee ga suki desu ka.
+Nghĩa: Bạn thích Queen Bee à?
+
+E: はい、とても好きです。
+Romaji: Hai, totemo suki desu.
+Nghĩa: Vâng, tôi rất thích.
+
+E: Queen Beeは歌が上手ですから、毎日Queen BeeのCDを聞きますよ。
+Romaji: Queen Bee wa uta ga jouzu desu kara, mainichi Queen Bee no CD o kikimasu yo.
+Nghĩa: Vì Queen Bee hát hay nên mỗi ngày tôi nghe CD của Queen Bee.</pre>
+              </details>
+            </article>
+            
+  </main>
+  <script>
+    const totalSegments = 4;
+    const state = {};
+    const currentSegment = document.getElementById("current-segment");
+    function formatTime(seconds) {
+      if (!Number.isFinite(seconds)) return "0:00";
+      const total = Math.max(0, Math.floor(seconds));
+      const mins = Math.floor(total / 60);
+      const secs = String(total % 60).padStart(2, "0");
+      return `${mins}:${secs}`;
+    }
+    function updateScore() {
+      const correct = Object.values(state).filter(Boolean).length;
+      document.getElementById("score").textContent = `${correct}/${totalSegments}`;
+    }
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (!visible) return;
+      const index = Number(visible.target.dataset.segment) + 1;
+      currentSegment.textContent = `Đang ở đoạn ${index}/${totalSegments}`;
+    }, { rootMargin: "-90px 0px -55% 0px", threshold: [0.2, 0.45, 0.7] });
+    document.querySelectorAll(".segment-card").forEach((card) => observer.observe(card));
+    document.querySelectorAll(".audio-player").forEach((player) => {
+      const audio = player.querySelector("audio");
+      const playButton = player.querySelector(".play-audio");
+      const progress = player.querySelector(".audio-progress");
+      const time = player.querySelector(".audio-time");
+      playButton.addEventListener("click", () => {
+        document.querySelectorAll("audio").forEach((other) => {
+          if (other !== audio) other.pause();
+        });
+        if (audio.paused) audio.play();
+        else audio.pause();
+      });
+      audio.addEventListener("play", () => { playButton.textContent = "❚❚"; });
+      audio.addEventListener("pause", () => { playButton.textContent = "▶"; });
+      audio.addEventListener("loadedmetadata", () => {
+        time.textContent = `0:00 / ${formatTime(audio.duration)}`;
+      });
+      audio.addEventListener("timeupdate", () => {
+        if (audio.duration) progress.value = String((audio.currentTime / audio.duration) * 100);
+        time.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+      });
+      audio.addEventListener("ended", () => {
+        playButton.textContent = "▶";
+        progress.value = "0";
+      });
+      progress.addEventListener("input", () => {
+        if (!audio.duration) return;
+        audio.currentTime = (Number(progress.value) / 100) * audio.duration;
+      });
+    });
+    document.querySelectorAll(".check-answer").forEach((button) => {
+      button.addEventListener("click", () => {
+        const card = button.closest(".segment-card");
+        const selected = card.querySelector("input[type='radio']:checked");
+        const feedback = card.querySelector(".feedback");
+        const explanation = card.querySelector(".explanation");
+        const segmentIndex = card.dataset.segment;
+        const nav = document.querySelector(`[data-nav-segment="${segmentIndex}"]`);
+        feedback.className = "feedback";
+        explanation.hidden = true;
+        if (!selected) {
+          feedback.textContent = "Hãy chọn một đáp án trước.";
+          feedback.classList.add("bad");
+          state[segmentIndex] = false;
+          updateScore();
+          return;
+        }
+        nav.classList.remove("done", "wrong");
+        if (selected.value === card.dataset.answer) {
+          feedback.textContent = "Đúng.";
+          feedback.classList.add("ok");
+          nav.classList.add("done");
+          nav.querySelector("small").textContent = "Đúng";
+          state[segmentIndex] = true;
+        } else {
+          feedback.textContent = "Chưa đúng.";
+          feedback.classList.add("bad");
+          nav.classList.add("wrong");
+          nav.querySelector("small").textContent = "Sai";
+          state[segmentIndex] = false;
+        }
+        explanation.hidden = false;
+        updateScore();
+      });
+    });
+  </script>
+</body>
+</html>

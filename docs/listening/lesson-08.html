@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JLPT N5 Listening - Bài 8</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --panel: #fff;
+      --text: #162033;
+      --muted: #64748b;
+      --line: #dbe3ef;
+      --primary: #0f766e;
+      --primary-soft: #e1f4f1;
+      --ok: #147a3d;
+      --bad: #b42318;
+      --shadow: 0 8px 22px rgba(15,23,42,.07);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; overflow-x: hidden; background: var(--bg); color: var(--text); font-family: Arial, sans-serif; font-size: 15px; line-height: 1.45; }
+    h1, h2, h3, p { margin-top: 0; }
+    .app-header { position: sticky; top: 0; z-index: 20; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.97); backdrop-filter: blur(10px); }
+    .header-inner { max-width: 900px; margin: 0 auto; padding: 10px 12px; display: grid; gap: 8px; }
+    .header-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    h1 { margin: 0; font-size: 18px; line-height: 1.2; }
+    .score { flex: 0 0 auto; border: 1px solid var(--line); border-radius: 999px; background: #fff; padding: 5px 9px; font-size: 13px; font-weight: 800; color: var(--primary); }
+    .current-segment { margin: 0; color: var(--muted); font-size: 13px; font-weight: 700; }
+    main { width: min(900px, 100%); min-width: 0; margin: 0 auto; padding: 12px; display: grid; gap: 12px; }
+    .segment-nav { min-width: 0; display: flex; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain; padding-bottom: 2px; scrollbar-width: thin; }
+    .segment-pill { flex: 0 0 86px; min-height: 46px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 7px 9px; display: grid; align-content: center; gap: 2px; text-decoration: none; }
+    .segment-pill span { font-weight: 900; color: var(--primary); }
+    .segment-pill small { color: var(--muted); font-size: 12px; white-space: nowrap; }
+    .segment-pill.done { border-color: rgba(20,122,61,.35); background: #eefbf3; }
+    .segment-pill.wrong { border-color: rgba(180,35,24,.35); background: #fff1f0; }
+    .segment-card { min-width: 0; overflow: hidden; scroll-margin-top: 88px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); padding: 12px; }
+    .segment-head { margin-bottom: 8px; }
+    .eyebrow { margin: 0 0 2px; color: var(--primary); font-size: 11px; font-weight: 900; letter-spacing: .04em; text-transform: uppercase; }
+    h2 { margin: 0; font-size: 19px; line-height: 1.2; }
+    .time { margin: 4px 0 0; color: var(--muted); font-size: 12px; font-weight: 800; }
+    .audio-shell { min-width: 0; max-width: 100%; overflow: hidden; margin: 8px 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; padding: 6px; }
+    .audio-player { min-width: 0; display: grid; grid-template-columns: 38px 78px minmax(0, 1fr); gap: 8px; align-items: center; }
+    .play-audio { width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }
+    .audio-time { color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }
+    .audio-progress { width: 100%; min-width: 0; accent-color: var(--primary); }
+    audio { display: none; }
+    .quiz { padding-top: 2px; }
+    .quiz h3 { margin-bottom: 8px; font-size: 15px; }
+    .question { margin-bottom: 3px; font-weight: 900; font-size: 16px; line-height: 1.35; }
+    .subline { margin: 0 0 3px; color: var(--muted); font-size: 13px; }
+    .options { display: grid; grid-template-columns: 1fr; gap: 8px; margin: 10px 0; }
+    .option { min-height: 52px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 9px 10px; display: grid; grid-template-columns: 18px 28px minmax(0, 1fr); column-gap: 8px; align-items: start; cursor: pointer; }
+    .option:has(input:checked) { border-color: var(--primary); background: var(--primary-soft); }
+    .option input { margin: 3px 0 0; }
+    .option-letter { width: 26px; height: 26px; border-radius: 999px; background: #eef2f7; display: inline-grid; place-items: center; font-size: 13px; font-weight: 900; }
+    .option-body { min-width: 0; display: grid; gap: 2px; }
+    .option-text { min-width: 0; font-size: 15px; font-weight: 800; white-space: normal; word-break: normal; overflow-wrap: anywhere; line-break: strict; }
+    .option-meaning { color: var(--muted); font-size: 12px; white-space: normal; word-break: normal; overflow-wrap: anywhere; }
+    button { min-height: 40px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 8px 12px; font-weight: 800; cursor: pointer; }
+    button:hover { border-color: var(--primary); color: var(--primary); }
+    .check-answer { width: 100%; background: var(--primary); border-color: var(--primary); color: #fff; }
+    .check-answer:hover { color: #fff; }
+    .feedback { min-height: 20px; margin-top: 8px; font-weight: 900; }
+    .feedback.ok { color: var(--ok); }
+    .feedback.bad { color: var(--bad); }
+    .explanation { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+    .script-panel { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
+    .script-panel summary { min-height: 36px; color: var(--primary); font-weight: 900; cursor: pointer; }
+    .script-text { width: 100%; margin: 4px 0 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+    @media (min-width: 640px) {
+      body { font-size: 16px; }
+      .header-inner { padding: 12px 16px; }
+      h1 { font-size: 22px; }
+      main { padding: 16px; gap: 14px; }
+      .segment-nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; padding-bottom: 0; }
+      .segment-pill { min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+      .segment-card { padding: 16px; scroll-margin-top: 96px; }
+      .options { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+      .check-answer { width: auto; }
+    }
+    @media (min-width: 1024px) {
+      .header-inner, main { max-width: 900px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="header-row">
+        <h1>JLPT N5 Listening - Bài 8</h1>
+        <div class="score" id="score">0/3</div>
+      </div>
+      <p class="current-segment" id="current-segment">Đang ở đoạn 1/3</p>
+    </div>
+  </header>
+  <main>
+    <nav class="segment-nav" aria-label="Danh sách đoạn hội thoại">
+            <a class="segment-pill" href="#segment-1" data-nav-segment="0">
+              <span>01</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-2" data-nav-segment="1">
+              <span>02</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-3" data-nav-segment="2">
+              <span>03</span>
+              <small>Chưa làm</small>
+            </a>
+            </nav>
+    
+            <article class="segment-card" id="segment-1" data-segment="0" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 001</p>
+                <h2>Đoạn 1</h2>
+                <p class="time">00:15.000 - 02:06.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-08/segment_001.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">ターポンさんは寮の食べ物をどう思っていますか。</p>
+                <p class="subline">Taapon-san wa ryou no tabemono o dou omotte imasu ka.</p>
+                <p class="subline">Bạn Taapon nghĩ đồ ăn ở ký túc xá thế nào?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-0" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">とても美味しいです</span>
+                    <span class="option-meaning">Rất ngon</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">あまり美味しくないです</span>
+                    <span class="option-meaning">Không ngon lắm</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">とても高いです</span>
+                    <span class="option-meaning">Rất đắt</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">便利じゃありません</span>
+                    <span class="option-meaning">Không tiện</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Taapon nói 「とても美味しいです」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">A: 皆さん、寮の生活はどうですか。もう慣れましたか。ターポンさん。
+Romaji: Minasan, ryou no seikatsu wa dou desu ka. Mou naremashita ka. Taapon-san.
+Nghĩa: Mọi người, cuộc sống ở ký túc xá thế nào? Đã quen chưa? Bạn Taapon.
+
+B: はい、もう慣れました。
+Romaji: Hai, mou naremashita.
+Nghĩa: Vâng, tôi đã quen rồi.
+
+A: 寮の食べ物はどうですか。
+Romaji: Ryou no tabemono wa dou desu ka.
+Nghĩa: Đồ ăn ở ký túc xá thế nào?
+
+B: とても美味しいです。
+Romaji: Totemo oishii desu.
+Nghĩa: Rất ngon.
+
+A: 夜は何をしますか。
+Romaji: Yoru wa nani o shimasu ka.
+Nghĩa: Buổi tối bạn làm gì?
+
+B: ビデオを見ます。友達と一緒に。
+Romaji: Bideo o mimasu. Tomodachi to issho ni.
+Nghĩa: Tôi xem video cùng với bạn.
+
+B: 寮の生活はとても楽しいです。
+Romaji: Ryou no seikatsu wa totemo tanoshii desu.
+Nghĩa: Cuộc sống ở ký túc xá rất vui.
+
+A: エドさんはどうですか。
+Romaji: Edo-san wa dou desu ka.
+Nghĩa: Còn bạn Ed thì sao?
+
+C: うーん、大変です。食べ物、友達、日本語。
+Romaji: Uun, taihen desu. Tabemono, tomodachi, nihongo.
+Nghĩa: Ừm, vất vả lắm. Đồ ăn, bạn bè, tiếng Nhật.
+
+C: 食べ物はあまり美味しくないです。
+Romaji: Tabemono wa amari oishiku nai desu.
+Nghĩa: Đồ ăn không ngon lắm.
+
+C: 友達は親切ですが、いつも忙しいです。
+Romaji: Tomodachi wa shinsetsu desu ga, itsumo isogashii desu.
+Nghĩa: Bạn bè thì tốt bụng, nhưng lúc nào cũng bận.
+
+C: そして、友達の日本語は難しいです。分かりません。
+Romaji: Soshite, tomodachi no nihongo wa muzukashii desu. Wakarimasen.
+Nghĩa: Và tiếng Nhật của bạn bè thì khó. Tôi không hiểu.
+
+A: 林さん、寮の生活はどうですか。
+Romaji: Rin-san, ryou no seikatsu wa dou desu ka.
+Nghĩa: Bạn Rin, cuộc sống ở ký túc xá thế nào?
+
+D: この寮は古いですね。
+Romaji: Kono ryou wa furui desu ne.
+Nghĩa: Ký túc xá này cũ nhỉ.
+
+D: 部屋、エレベーター、トイレ、あまり便利じゃありません。
+Romaji: Heya, erebeetaa, toire, amari benri ja arimasen.
+Nghĩa: Phòng, thang máy, nhà vệ sinh không tiện lắm.
+
+A: 寮の友達はどうですか。
+Romaji: Ryou no tomodachi wa dou desu ka.
+Nghĩa: Bạn bè ở ký túc xá thì thế nào?
+
+D: 私は夜はいつも11時に寝ますが、友達は毎晩12時までテレビを見ます。
+Romaji: Watashi wa yoru wa itsumo juuichiji ni nemasu ga, tomodachi wa maiban juuniji made terebi o mimasu.
+Nghĩa: Tôi thường ngủ lúc 11 giờ tối, nhưng bạn bè mỗi tối xem tivi đến 12 giờ.
+
+D: 時々1時まで。にぎやかです。
+Romaji: Tokidoki ichiji made. Nigiyaka desu.
+Nghĩa: Thỉnh thoảng đến 1 giờ. Rất ồn ào.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-2" data-segment="1" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 002</p>
+                <h2>Đoạn 2</h2>
+                <p class="time">02:06.000 - 04:02.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-08/segment_002.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">グプタさんはインドのどこから来ましたか。</p>
+                <p class="subline">Gupta-san wa Indo no doko kara kimashita ka.</p>
+                <p class="subline">Anh Gupta đến từ đâu của Ấn Độ?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-1" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">アグラ</span>
+                    <span class="option-meaning">Agra</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">デリー</span>
+                    <span class="option-meaning">Delhi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">東京</span>
+                    <span class="option-meaning">Tokyo</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">大阪</span>
+                    <span class="option-meaning">Osaka</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Gupta nói 「インドのアグラです」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">A: ごめんください。
+Romaji: Gomen kudasai.
+Nghĩa: Xin chào / có ai ở nhà không?
+
+B: グプタさん、いらっしゃい。暑いですね。
+Romaji: Gupta-san, irasshai. Atsui desu ne.
+Nghĩa: Anh Gupta, chào mừng anh đến. Trời nóng nhỉ.
+
+B: 冷たいお茶です。どうぞ。
+Romaji: Tsumetai ocha desu. Douzo.
+Nghĩa: Đây là trà lạnh. Xin mời.
+
+A: ありがとうございます。美味しいお茶ですね。
+Romaji: Arigatou gozaimasu. Oishii ocha desu ne.
+Nghĩa: Cảm ơn. Trà ngon quá.
+
+B: グプタさんはインドのどちらから。
+Romaji: Gupta-san wa Indo no dochira kara.
+Nghĩa: Anh Gupta đến từ đâu của Ấn Độ?
+
+A: インドのアグラです。
+Romaji: Indo no Agura desu.
+Nghĩa: Tôi đến từ Agra của Ấn Độ.
+
+B: どんな町ですか。
+Romaji: Donna machi desu ka.
+Nghĩa: Đó là thành phố như thế nào?
+
+A: あまり大きくないですが、にぎやかな町です。
+Romaji: Amari ookiku nai desu ga, nigiyaka na machi desu.
+Nghĩa: Không lớn lắm, nhưng là thành phố nhộn nhịp.
+
+B: 会社はIMCですね。どんな会社ですか。
+Romaji: Kaisha wa IMC desu ne. Donna kaisha desu ka.
+Nghĩa: Công ty của anh là IMC nhỉ. Đó là công ty như thế nào?
+
+A: コンピューターの会社です。あまり有名じゃありませんが、良い会社です。
+Romaji: Konpyuutaa no kaisha desu. Amari yuumei ja arimasen ga, yoi kaisha desu.
+Nghĩa: Là công ty máy tính. Không nổi tiếng lắm, nhưng là công ty tốt.
+
+B: うちは素敵な町ですね。
+Romaji: Uchi wa suteki na machi desu ne.
+Nghĩa: Khu nhà / nơi này là một thành phố đẹp nhỉ.
+
+A: 町はいいですが、私のうちはあまり良くないです。
+Romaji: Machi wa ii desu ga, watashi no uchi wa amari yoku nai desu.
+Nghĩa: Thành phố thì tốt, nhưng nhà tôi không tốt lắm.
+
+B: そうですか。
+Romaji: Sou desu ka.
+Nghĩa: Vậy à.
+
+A: 古いです。そして、きれいじゃありません。
+Romaji: Furui desu. Soshite, kirei ja arimasen.
+Nghĩa: Cũ. Và không sạch/không đẹp.
+
+B: 日本語の先生はどんな人ですか。
+Romaji: Nihongo no sensei wa donna hito desu ka.
+Nghĩa: Giáo viên tiếng Nhật là người như thế nào?
+
+A: とても面白い先生です。
+Romaji: Totemo omoshiroi sensei desu.
+Nghĩa: Là giáo viên rất thú vị.
+
+A: あまりハンサムじゃありませんが。
+Romaji: Amari hansamu ja arimasen ga.
+Nghĩa: Nhưng không đẹp trai lắm.
+
+A: もう8時ですね。そろそろ失礼します。
+Romaji: Mou hachiji desu ne. Sorosoro shitsurei shimasu.
+Nghĩa: Đã 8 giờ rồi nhỉ. Tôi xin phép về.
+
+A: 今日はどうもありがとうございました。
+Romaji: Kyou wa doumo arigatou gozaimashita.
+Nghĩa: Hôm nay cảm ơn rất nhiều.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-3" data-segment="2" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 003</p>
+                <h2>Đoạn 3</h2>
+                <p class="time">04:02.000 - 11:37.307</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/lesson-08/segment_003.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">この人はどの傘を買いましたか。</p>
+                <p class="subline">Kono hito wa dono kasa o kaimashita ka.</p>
+                <p class="subline">Người này đã mua cái ô nào?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-2" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">白い傘</span>
+                    <span class="option-meaning">Ô màu trắng</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">黒い傘</span>
+                    <span class="option-meaning">Ô màu đen</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">青い傘</span>
+                    <span class="option-meaning">Ô màu xanh</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">赤い傘</span>
+                    <span class="option-meaning">Ô màu đỏ</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người mua nói 「その白い傘です」 và 「これをください」.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">A: いらっしゃいませ。
+Romaji: Irasshaimase.
+Nghĩa: Xin chào quý khách.
+
+B: その傘を見せてください。
+Romaji: Sono kasa o misete kudasai.
+Nghĩa: Cho tôi xem cái ô đó.
+
+A: どれですか。
+Romaji: Dore desu ka.
+Nghĩa: Cái nào ạ?
+
+B: その白い傘です。
+Romaji: Sono shiroi kasa desu.
+Nghĩa: Cái ô màu trắng đó.
+
+A: はい、どうぞ。
+Romaji: Hai, douzo.
+Nghĩa: Vâng, xin mời.
+
+B: いくらですか。
+Romaji: Ikura desu ka.
+Nghĩa: Bao nhiêu tiền?
+
+A: 2,000円です。
+Romaji: Nisen-en desu.
+Nghĩa: 2.000 yên.
+
+B: じゃ、これをください。
+Romaji: Ja, kore o kudasai.
+Nghĩa: Vậy cho tôi cái này.
+
+B: すみません。あの椅子、どこのですか。
+Romaji: Sumimasen. Ano isu, doko no desu ka.
+Nghĩa: Xin lỗi. Cái ghế kia là của nước nào?
+
+A: どれですか。
+Romaji: Dore desu ka.
+Nghĩa: Cái nào ạ?
+
+B: あの高い椅子です。
+Romaji: Ano takai isu desu.
+Nghĩa: Cái ghế cao kia.
+
+A: あれですか。アメリカのです。
+Romaji: Are desu ka. Amerika no desu.
+Nghĩa: Cái đó à? Là của Mỹ.
+
+B: 面白いですね。あれをください。
+Romaji: Omoshiroi desu ne. Are o kudasai.
+Nghĩa: Thú vị nhỉ. Cho tôi cái đó.
+
+B: きれいな靴ですね。
+Romaji: Kirei na kutsu desu ne.
+Nghĩa: Đôi giày đẹp nhỉ.
+
+A: イタリアのです。
+Romaji: Itaria no desu.
+Nghĩa: Là của Ý.
+
+B: ちょっと小さいですね。
+Romaji: Chotto chiisai desu ne.
+Nghĩa: Hơi nhỏ nhỉ.
+
+A: こちらの黒い靴はいかがですか。フランスのです。
+Romaji: Kochira no kuroi kutsu wa ikaga desu ka. Furansu no desu.
+Nghĩa: Đôi giày màu đen này thì thế nào? Là của Pháp.
+
+B: いいですね。これをください。
+Romaji: Ii desu ne. Kore o kudasai.
+Nghĩa: Được đấy. Cho tôi đôi này.
+
+B: 面白い車ですね。どこのですか。
+Romaji: Omoshiroi kuruma desu ne. Doko no desu ka.
+Nghĩa: Chiếc xe thú vị nhỉ. Của nước nào?
+
+A: 新しい車です。
+Romaji: Atarashii kuruma desu.
+Nghĩa: Là xe mới.
+
+B: 青いですね。白い車は。
+Romaji: Aoi desu ne. Shiroi kuruma wa.
+Nghĩa: Màu xanh nhỉ. Còn xe màu trắng thì sao?
+
+A: こちらへどうぞ。
+Romaji: Kochira e douzo.
+Nghĩa: Mời đi lối này.
+
+B: いいな。いくらですか。
+Romaji: Ii na. Ikura desu ka.
+Nghĩa: Tốt nhỉ. Bao nhiêu tiền?
+
+A: 98万円です。
+Romaji: Kyuujuu-hachi man-en desu.
+Nghĩa: 980.000 yên.
+
+B: あまり高くないですね。じゃあ、これをください。
+Romaji: Amari takaku nai desu ne. Jaa, kore o kudasai.
+Nghĩa: Không đắt lắm nhỉ. Vậy cho tôi chiếc này.
+
+A: はい、ありがとうございます。
+Romaji: Hai, arigatou gozaimasu.
+Nghĩa: Vâng, cảm ơn quý khách.</pre>
+              </details>
+            </article>
+            
+  </main>
+  <script>
+    const totalSegments = 3;
+    const state = {};
+    const currentSegment = document.getElementById("current-segment");
+    function formatTime(seconds) {
+      if (!Number.isFinite(seconds)) return "0:00";
+      const total = Math.max(0, Math.floor(seconds));
+      const mins = Math.floor(total / 60);
+      const secs = String(total % 60).padStart(2, "0");
+      return `${mins}:${secs}`;
+    }
+    function updateScore() {
+      const correct = Object.values(state).filter(Boolean).length;
+      document.getElementById("score").textContent = `${correct}/${totalSegments}`;
+    }
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (!visible) return;
+      const index = Number(visible.target.dataset.segment) + 1;
+      currentSegment.textContent = `Đang ở đoạn ${index}/${totalSegments}`;
+    }, { rootMargin: "-90px 0px -55% 0px", threshold: [0.2, 0.45, 0.7] });
+    document.querySelectorAll(".segment-card").forEach((card) => observer.observe(card));
+    document.querySelectorAll(".audio-player").forEach((player) => {
+      const audio = player.querySelector("audio");
+      const playButton = player.querySelector(".play-audio");
+      const progress = player.querySelector(".audio-progress");
+      const time = player.querySelector(".audio-time");
+      playButton.addEventListener("click", () => {
+        document.querySelectorAll("audio").forEach((other) => {
+          if (other !== audio) other.pause();
+        });
+        if (audio.paused) audio.play();
+        else audio.pause();
+      });
+      audio.addEventListener("play", () => { playButton.textContent = "❚❚"; });
+      audio.addEventListener("pause", () => { playButton.textContent = "▶"; });
+      audio.addEventListener("loadedmetadata", () => {
+        time.textContent = `0:00 / ${formatTime(audio.duration)}`;
+      });
+      audio.addEventListener("timeupdate", () => {
+        if (audio.duration) progress.value = String((audio.currentTime / audio.duration) * 100);
+        time.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+      });
+      audio.addEventListener("ended", () => {
+        playButton.textContent = "▶";
+        progress.value = "0";
+      });
+      progress.addEventListener("input", () => {
+        if (!audio.duration) return;
+        audio.currentTime = (Number(progress.value) / 100) * audio.duration;
+      });
+    });
+    document.querySelectorAll(".check-answer").forEach((button) => {
+      button.addEventListener("click", () => {
+        const card = button.closest(".segment-card");
+        const selected = card.querySelector("input[type='radio']:checked");
+        const feedback = card.querySelector(".feedback");
+        const explanation = card.querySelector(".explanation");
+        const segmentIndex = card.dataset.segment;
+        const nav = document.querySelector(`[data-nav-segment="${segmentIndex}"]`);
+        feedback.className = "feedback";
+        explanation.hidden = true;
+        if (!selected) {
+          feedback.textContent = "Hãy chọn một đáp án trước.";
+          feedback.classList.add("bad");
+          state[segmentIndex] = false;
+          updateScore();
+          return;
+        }
+        nav.classList.remove("done", "wrong");
+        if (selected.value === card.dataset.answer) {
+          feedback.textContent = "Đúng.";
+          feedback.classList.add("ok");
+          nav.classList.add("done");
+          nav.querySelector("small").textContent = "Đúng";
+          state[segmentIndex] = true;
+        } else {
+          feedback.textContent = "Chưa đúng.";
+          feedback.classList.add("bad");
+          nav.classList.add("wrong");
+          nav.querySelector("small").textContent = "Sai";
+          state[segmentIndex] = false;
+        }
+        explanation.hidden = false;
+        updateScore();
+      });
+    });
+  </script>
+</body>
+</html>
