@@ -2,594 +2,587 @@
 
 ### 1. Script hội thoại
 
-A: はじめまして。増田です。
+[04:48] 名前はAですか、Bですか。
+Romaji: Namae wa A desu ka, B desu ka.
+Nghĩa: Tên là A hay B?
+
+[04:55] はじめまして。益田です。
 Romaji: Hajimemashite. Masuda desu.
-Nghĩa: Rất vui được gặp bạn. Tôi là Masuda.
+Nghĩa: Rất vui được gặp. Tôi là Masuda.
 
-B: 松田さんですね。
-Romaji: Matsuda-san desu ne.
-Nghĩa: Bạn là Matsuda nhỉ.
+[05:00] 松田さんですか。
+Romaji: Matsuda-san desu ka.
+Nghĩa: Anh/chị là Matsuda phải không?
 
-A: いいえ、増田です。
+[05:00] いいえ、益田です。
 Romaji: Iie, Masuda desu.
 Nghĩa: Không, tôi là Masuda.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 名前はAですか、Bですか。
-Romaji: Namae wa A desu ka, B desu ka.
-Nghĩa: Tên là A hay B?
+[04:48] 質問: 名前は何ですか。
+Romaji: Namae wa nan desu ka.
+Nghĩa: Tên là gì?
 
-A. 増田
-Nghĩa: Masuda
-B. 松田
-Nghĩa: Matsuda
-C. 佐野
-Nghĩa: Sano
-D. 鈴木
-Nghĩa: Suzuki
+A. 益田です
+Nghĩa: Là Masuda
+B. 松田です
+Nghĩa: Là Matsuda
+C. 佐野です
+Nghĩa: Là Sano
+D. 鈴木です
+Nghĩa: Là Suzuki
 
-Đáp án đúng: A. 増田
-Giải thích ngắn gọn: Người nói nói 「いいえ、増田です」.
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói phủ nhận 松田 và nói 益田です.
 
 ## Đoạn hội thoại 2
 
 ### 1. Script hội thoại
 
-A: はじめまして。佐野です。どうぞよろしく。
-Romaji: Hajimemashite. Sano desu. Douzo yoroshiku.
-Nghĩa: Rất vui được gặp bạn. Tôi là Sano. Rất mong được giúp đỡ.
+[05:17] はじめまして。左脳です。
+Romaji: Hajimemashite. Sanou desu.
+Nghĩa: Rất vui được gặp. Tôi là Sanou.
 
-B: シャロさんですか。
-Romaji: Sharo-san desu ka.
-Nghĩa: Bạn là Sharo phải không?
+[05:17] 佐野さんですか。
+Romaji: Sano-san desu ka.
+Nghĩa: Anh/chị là Sano phải không?
 
-A: いいえ、佐野です。
-Romaji: Iie, Sano desu.
-Nghĩa: Không, tôi là Sano.
+[05:17] いいえ、左脳です。
+Romaji: Iie, Sanou desu.
+Nghĩa: Không, tôi là Sanou.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 名前はAですか、Bですか。
-Romaji: Namae wa A desu ka, B desu ka.
-Nghĩa: Tên là A hay B?
+質問: 名前は何ですか。
+Romaji: Namae wa nan desu ka.
+Nghĩa: Tên là gì?
 
-A. シャロ
-Nghĩa: Sharo
-B. 佐野
-Nghĩa: Sano
-C. 増田
-Nghĩa: Masuda
-D. 後藤
-Nghĩa: Gotou
+A. 左脳です
+Nghĩa: Là Sanou
+B. 佐野です
+Nghĩa: Là Sano
+C. 益田です
+D. 後藤です
 
-Đáp án đúng: B. 佐野
-Giải thích ngắn gọn: Người nói nói 「いいえ、佐野です」.
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói không phải 佐野 mà là 左脳.
 
 ## Đoạn hội thoại 3
 
 ### 1. Script hội thoại
 
-A: こんにちは。鈴木です。
+[05:17] こんにちは。鈴木です。
 Romaji: Konnichiwa. Suzuki desu.
 Nghĩa: Xin chào. Tôi là Suzuki.
 
-B: ああ、鈴木さんですね。
-Romaji: Aa, Suzuki-san desu ne.
-Nghĩa: À, bạn là Suzuki nhỉ.
+[05:21] 鈴木さんですね。
+Romaji: Suzuki-san desu ne.
+Nghĩa: Anh/chị là Suzuki nhỉ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 名前はAですか、Bですか。
-Romaji: Namae wa A desu ka, B desu ka.
-Nghĩa: Tên là A hay B?
+質問: 名前は何ですか。
+Romaji: Namae wa nan desu ka.
+Nghĩa: Tên là gì?
 
-A. 佐野
-Nghĩa: Sano
-B. 松田
-Nghĩa: Matsuda
-C. 鈴木
-Nghĩa: Suzuki
-D. 後藤
-Nghĩa: Gotou
+A. 鈴木です
+Nghĩa: Là Suzuki
+B. 佐野です
+C. 後藤です
+D. 松田です
 
-Đáp án đúng: C. 鈴木
-Giải thích ngắn gọn: Người nói tự giới thiệu 「鈴木です」.
+Đáp án đúng: A
+Giải thích ngắn gọn: Người đó tự giới thiệu là 鈴木です.
 
 ## Đoạn hội thoại 4
 
 ### 1. Script hội thoại
 
-A: 失礼ですが、お名前は。
+[05:28] 失礼ですが、お名前は。
 Romaji: Shitsurei desu ga, onamae wa.
-Nghĩa: Xin lỗi, tên của bạn là gì?
+Nghĩa: Xin lỗi, tên anh/chị là gì?
 
-B: 後藤です。
+[05:28] 後藤です。
 Romaji: Gotou desu.
-Nghĩa: Tôi là Gotou.
+Nghĩa: Tôi là Goto.
 
-A: 鼓動さんですか。
+[05:28] 古藤さんですか。
 Romaji: Kodou-san desu ka.
-Nghĩa: Bạn là Kodou phải không?
+Nghĩa: Anh/chị là Kodou phải không?
 
-B: いいえ、後藤です。
+[05:28] いいえ、後藤です。
 Romaji: Iie, Gotou desu.
-Nghĩa: Không, tôi là Gotou.
+Nghĩa: Không, tôi là Goto.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 名前はAですか、Bですか。
-Romaji: Namae wa A desu ka, B desu ka.
-Nghĩa: Tên là A hay B?
+質問: 名前は何ですか。
+Romaji: Namae wa nan desu ka.
+Nghĩa: Tên là gì?
 
-A. 鼓動
-Nghĩa: Kodou
-B. 後藤
-Nghĩa: Gotou
-C. 鈴木
-Nghĩa: Suzuki
-D. 佐野
-Nghĩa: Sano
+A. 後藤です
+Nghĩa: Là Goto
+B. 古藤です
+Nghĩa: Là Kodou
+C. 鈴木です
+D. 益田です
 
-Đáp án đúng: B. 後藤
-Giải thích ngắn gọn: Người nói nói 「いいえ、後藤です」.
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói phủ nhận 古藤 và nói 後藤です.
 
 ## Đoạn hội thoại 5
 
 ### 1. Script hội thoại
 
-A: はじめまして。王です。中国から来ました。どうぞよろしく。
-Romaji: Hajimemashite. Wan desu. Chuugoku kara kimashita. Douzo yoroshiku.
-Nghĩa: Rất vui được gặp bạn. Tôi là Vương. Tôi đến từ Trung Quốc. Rất mong được giúp đỡ.
+[05:40] お国はAですか、Bですか。
+Romaji: Okuni wa A desu ka, B desu ka.
+Nghĩa: Quốc gia của bạn là A hay B?
 
-B: はじめまして。田中です。どうぞよろしく。
-Romaji: Hajimemashite. Tanaka desu. Douzo yoroshiku.
-Nghĩa: Rất vui được gặp bạn. Tôi là Tanaka. Rất mong được giúp đỡ.
+[05:53] はじめまして。王です。中国から来ました。
+Romaji: Hajimemashite. Wan desu. Chuugoku kara kimashita.
+Nghĩa: Rất vui được gặp. Tôi là Wang. Tôi đến từ Trung Quốc.
+
+[05:55] はじめまして。田中です。よろしくお願いします。
+Romaji: Hajimemashite. Tanaka desu. Yoroshiku onegai shimasu.
+Nghĩa: Rất vui được gặp. Tôi là Tanaka. Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 国はAですか、Bですか。
-Romaji: Kuni wa A desu ka, B desu ka.
-Nghĩa: Quốc gia là A hay B?
+質問: 王さんはどこの人ですか。
+Romaji: Wan-san wa doko no hito desu ka.
+Nghĩa: Wang là người nước nào?
 
-A. 中国
+A. 中国です
 Nghĩa: Trung Quốc
-B. インド
-Nghĩa: Ấn Độ
-C. フランス
-Nghĩa: Pháp
-D. ドイツ
-Nghĩa: Đức
+B. インドです
+C. フランスです
+D. ドイツです
 
-Đáp án đúng: A. 中国
-Giải thích ngắn gọn: Người nói nói 「中国から来ました」.
+Đáp án đúng: A
+Giải thích ngắn gọn: 王さん nói 中国から来ました.
 
 ## Đoạn hội thoại 6
 
 ### 1. Script hội thoại
 
-A: 皆さん、こちらは山さんです。
-Romaji: Minasan, kochira wa Yama-san desu.
-Nghĩa: Mọi người, đây là anh/chị Yama.
+[06:18] みなさん、こちらはセンさんです。
+Romaji: Minasan, kochira wa Sen-san desu.
+Nghĩa: Mọi người, đây là Sen.
 
-B: はじめまして。センです。インドから来ました。どうぞよろしくお願いします。
-Romaji: Hajimemashite. Sen desu. Indo kara kimashita. Douzo yoroshiku onegaishimasu.
-Nghĩa: Rất vui được gặp mọi người. Tôi là Sen. Tôi đến từ Ấn Độ. Rất mong được giúp đỡ.
+[06:18] はじめまして。センです。インドから来ました。
+Romaji: Hajimemashite. Sen desu. Indo kara kimashita.
+Nghĩa: Rất vui được gặp. Tôi là Sen. Tôi đến từ Ấn Độ.
+
+[06:18] よろしくお願いします。
+Romaji: Yoroshiku onegai shimasu.
+Nghĩa: Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 国はAですか、Bですか。
-Romaji: Kuni wa A desu ka, B desu ka.
-Nghĩa: Quốc gia là A hay B?
+質問: センさんはどこの人ですか。
+Romaji: Sen-san wa doko no hito desu ka.
+Nghĩa: Sen là người nước nào?
 
-A. 中国
-Nghĩa: Trung Quốc
-B. インド
+A. インドです
 Nghĩa: Ấn Độ
-C. フランス
-Nghĩa: Pháp
-D. アメリカ
-Nghĩa: Mỹ
+B. 中国です
+C. フランスです
+D. ドイツです
 
-Đáp án đúng: B. インド
-Giải thích ngắn gọn: Người nói nói 「インドから来ました」.
+Đáp án đúng: A
+Giải thích ngắn gọn: センさん nói インドから来ました.
 
 ## Đoạn hội thoại 7
 
 ### 1. Script hội thoại
 
-A: 佐藤さん、こんばんは。
-Romaji: Satou-san, konbanwa.
-Nghĩa: Chào buổi tối, anh/chị Satou.
+[06:25] こんばんは、佐藤さん。
+Romaji: Konbanwa, Satou-san.
+Nghĩa: Chào buổi tối, anh/chị Sato.
 
-B: あっ、山田さん。
+[06:25] あ、山田さん。
 Romaji: A, Yamada-san.
-Nghĩa: À, anh/chị Yamada.
+Nghĩa: A, anh/chị Yamada.
 
-A: 佐藤さん、こちらはジャンさんです。
+[06:25] 佐藤さん、こちらはジャンさんです。
 Romaji: Satou-san, kochira wa Jan-san desu.
-Nghĩa: Anh/chị Satou, đây là anh Jan.
+Nghĩa: Anh/chị Sato, đây là Jean.
 
-C: ジャンです。フランスから来ました。どうぞよろしく。
-Romaji: Jan desu. Furansu kara kimashita. Douzo yoroshiku.
-Nghĩa: Tôi là Jan. Tôi đến từ Pháp. Rất mong được giúp đỡ.
+[06:25] ジャンです。フランスから来ました。
+Romaji: Jan desu. Furansu kara kimashita.
+Nghĩa: Tôi là Jean. Tôi đến từ Pháp.
 
-B: 佐藤です。よろしくお願いします。
-Romaji: Satou desu. Yoroshiku onegaishimasu.
-Nghĩa: Tôi là Satou. Rất mong được giúp đỡ.
+[06:31] はじめまして。佐藤です。よろしくお願いします。
+Romaji: Hajimemashite. Satou desu. Yoroshiku onegai shimasu.
+Nghĩa: Rất vui được gặp. Tôi là Sato. Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 国はAですか、Bですか。
-Romaji: Kuni wa A desu ka, B desu ka.
-Nghĩa: Quốc gia là A hay B?
+質問: ジャンさんはどこの人ですか。
+Romaji: Jan-san wa doko no hito desu ka.
+Nghĩa: Jean là người nước nào?
 
-A. インド
-Nghĩa: Ấn Độ
-B. 中国
-Nghĩa: Trung Quốc
-C. フランス
+A. フランスです
 Nghĩa: Pháp
-D. ドイツ
-Nghĩa: Đức
+B. インドです
+C. 中国です
+D. ドイツです
 
-Đáp án đúng: C. フランス
-Giải thích ngắn gọn: ジャン nói 「フランスから来ました」.
+Đáp án đúng: A
+Giải thích ngắn gọn: ジャンさん nói フランスから来ました.
 
 ## Đoạn hội thoại 8
 
 ### 1. Script hội thoại
 
-A: はじめまして。コールです。
+[06:38] はじめまして。コールです。
 Romaji: Hajimemashite. Kooru desu.
-Nghĩa: Rất vui được gặp bạn. Tôi là Cole.
+Nghĩa: Rất vui được gặp. Tôi là Cole.
 
-B: 金さんですか。
+[06:38] キムさんですか。
 Romaji: Kimu-san desu ka.
-Nghĩa: Bạn là Kim phải không?
+Nghĩa: Anh/chị là Kim phải không?
 
-A: いいえ、コールです。ドイツから来ました。
-Romaji: Iie, Kooru desu. Doitsu kara kimashita.
-Nghĩa: Không, tôi là Cole. Tôi đến từ Đức.
+[06:42] いいえ、コールです。
+Romaji: Iie, Kooru desu.
+Nghĩa: Không, tôi là Cole.
 
-B: 私は山田です。よろしくお願いします。
-Romaji: Watashi wa Yamada desu. Yoroshiku onegaishimasu.
+[06:45] ドイツから来ました。
+Romaji: Doitsu kara kimashita.
+Nghĩa: Tôi đến từ Đức.
+
+[06:47] 山田です。よろしくお願いします。
+Romaji: Yamada desu. Yoroshiku onegai shimasu.
 Nghĩa: Tôi là Yamada. Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 国はAですか、Bですか。
-Romaji: Kuni wa A desu ka, B desu ka.
-Nghĩa: Quốc gia là A hay B?
+質問: コールさんはどこの人ですか。
+Romaji: Kooru-san wa doko no hito desu ka.
+Nghĩa: Cole là người nước nào?
 
-A. フランス
-Nghĩa: Pháp
-B. アメリカ
-Nghĩa: Mỹ
-C. イギリス
-Nghĩa: Anh
-D. ドイツ
+A. ドイツです
 Nghĩa: Đức
+B. フランスです
+C. インドです
+D. 中国です
 
-Đáp án đúng: D. ドイツ
-Giải thích ngắn gọn: Người nói nói 「ドイツから来ました」.
+Đáp án đúng: A
+Giải thích ngắn gọn: コールさん nói ドイツから来ました.
 
 ## Đoạn hội thoại 9
 
 ### 1. Script hội thoại
 
-A: はじめまして。ワットです。イギリスから来ました。
+[06:54] 女の人の仕事は何ですか。
+Romaji: Onna no hito no shigoto wa nan desu ka.
+Nghĩa: Công việc của người phụ nữ là gì?
+
+[07:03] はじめまして。ワットです。イギリスから来ました。
 Romaji: Hajimemashite. Watto desu. Igirisu kara kimashita.
-Nghĩa: Rất vui được gặp bạn. Tôi là Watt. Tôi đến từ Anh.
+Nghĩa: Rất vui được gặp. Tôi là Watt. Tôi đến từ Anh.
 
-B: はじめまして。小林です。私はさくら大学の教師です。
-Romaji: Hajimemashite. Kobayashi desu. Watashi wa Sakura Daigaku no kyoushi desu.
-Nghĩa: Rất vui được gặp bạn. Tôi là Kobayashi. Tôi là giáo viên của Đại học Sakura.
+[07:12] はじめまして。小林です。さくら大学の教師です。
+Romaji: Hajimemashite. Kobayashi desu. Sakura Daigaku no kyoushi desu.
+Nghĩa: Rất vui được gặp. Tôi là Kobayashi. Tôi là giáo viên Đại học Sakura.
 
-A: あ、私も教師です。富士大学です。どうぞよろしく。
-Romaji: A, watashi mo kyoushi desu. Fuji Daigaku desu. Douzo yoroshiku.
-Nghĩa: À, tôi cũng là giáo viên. Ở Đại học Fuji. Rất mong được giúp đỡ.
+[07:18] あ、私も教師です。富士大学です。よろしくお願いします。
+Romaji: A, watashi mo kyoushi desu. Fuji Daigaku desu. Yoroshiku onegai shimasu.
+Nghĩa: À, tôi cũng là giáo viên. Tôi ở Đại học Fuji. Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 女の人の仕事はAですか、Bですか。
-Romaji: Onna no hito no shigoto wa A desu ka, B desu ka.
-Nghĩa: Nghề nghiệp của người phụ nữ là A hay B?
+[06:54] 質問: 女の人の仕事は何ですか。
+Romaji: Onna no hito no shigoto wa nan desu ka.
+Nghĩa: Công việc của người phụ nữ là gì?
 
-A. 教師
-Nghĩa: Giáo viên
-B. 医者
-Nghĩa: Bác sĩ
-C. 会社員
-Nghĩa: Nhân viên công ty
-D. エンジニア
-Nghĩa: Kỹ sư
+A. 教師です
+Nghĩa: Là giáo viên
+B. 医者です
+C. 銀行員です
+D. 会社員です
 
-Đáp án đúng: A. 教師
-Giải thích ngắn gọn: Người phụ nữ nói 「私はさくら大学の教師です」.
+Đáp án đúng: A
+Giải thích ngắn gọn: 小林さん nói mình là さくら大学の教師です.
 
 ## Đoạn hội thoại 10
 
 ### 1. Script hội thoại
 
-A: はじめまして。
+[07:28] はじめまして。
 Romaji: Hajimemashite.
-Nghĩa: Rất vui được gặp bạn.
+Nghĩa: Rất vui được gặp.
 
-B: はじめまして。後藤です。
-Romaji: Hajimemashite. Gotou desu.
-Nghĩa: Rất vui được gặp bạn. Tôi là Gotou.
+[07:33] 後藤です。
+Romaji: Gotou desu.
+Nghĩa: Tôi là Goto.
 
-A: 後藤さんは先生ですか。
-Romaji: Gotou-san wa sensei desu ka.
-Nghĩa: Anh/chị Gotou là giáo viên phải không?
+[07:36] 後藤さんは教師ですか。
+Romaji: Gotou-san wa kyoushi desu ka.
+Nghĩa: Anh/chị Goto là giáo viên à?
 
-B: いいえ、医者です。
+[07:40] いいえ、医者です。
 Romaji: Iie, isha desu.
 Nghĩa: Không, tôi là bác sĩ.
 
-A: ああ、私も医者です。
-Romaji: Aa, watashi mo isha desu.
+[07:42] あ、私も医者です。
+Romaji: A, watashi mo isha desu.
 Nghĩa: À, tôi cũng là bác sĩ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 女の人の仕事はAですか、Bですか。
-Romaji: Onna no hito no shigoto wa A desu ka, B desu ka.
-Nghĩa: Nghề nghiệp của người phụ nữ là A hay B?
+質問: 後藤さんの仕事は何ですか。
+Romaji: Gotou-san no shigoto wa nan desu ka.
+Nghĩa: Công việc của Goto là gì?
 
-A. 先生
-Nghĩa: Giáo viên
-B. 医者
-Nghĩa: Bác sĩ
-C. 銀行員
-Nghĩa: Nhân viên ngân hàng
-D. 会社員
-Nghĩa: Nhân viên công ty
+A. 医者です
+Nghĩa: Là bác sĩ
+B. 教師です
+C. 銀行員です
+D. 会社員です
 
-Đáp án đúng: B. 医者
-Giải thích ngắn gọn: 後藤 nói 「いいえ、医者です」.
+Đáp án đúng: A
+Giải thích ngắn gọn: 後藤さん nói không phải giáo viên mà là 医者.
 
 ## Đoạn hội thoại 11
 
 ### 1. Script hội thoại
 
-A: あの、シュミットさんですか。
-Romaji: Ano, Shumitto-san desu ka.
-Nghĩa: Xin hỏi, anh/chị là Schmidt phải không?
+[07:45] シュミットさんですか。
+Romaji: Shumitto-san desu ka.
+Nghĩa: Anh/chị là Schmidt phải không?
 
-B: はい、シュミットです。ドイツから来ました。
-Romaji: Hai, Shumitto desu. Doitsu kara kimashita.
-Nghĩa: Vâng, tôi là Schmidt. Tôi đến từ Đức.
+[07:47] はい、シュミットです。
+Romaji: Hai, Shumitto desu.
+Nghĩa: Vâng, tôi là Schmidt.
 
-A: 私は山田です。銀行員です。
-Romaji: Watashi wa Yamada desu. Ginkouin desu.
+[07:52] ドイツから来ました。
+Romaji: Doitsu kara kimashita.
+Nghĩa: Tôi đến từ Đức.
+
+[07:52] 山田です。銀行員です。
+Romaji: Yamada desu. Ginkouin desu.
 Nghĩa: Tôi là Yamada. Tôi là nhân viên ngân hàng.
 
-B: 私はエンジニアです。どうぞよろしく。
-Romaji: Watashi wa enjinia desu. Douzo yoroshiku.
+[07:55] エンジニアです。よろしくお願いします。
+Romaji: Enjinia desu. Yoroshiku onegai shimasu.
 Nghĩa: Tôi là kỹ sư. Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 女の人の仕事はAですか、Bですか。
-Romaji: Onna no hito no shigoto wa A desu ka, B desu ka.
-Nghĩa: Nghề nghiệp của người phụ nữ là A hay B?
+質問: シュミットさんの仕事は何ですか。
+Romaji: Shumitto-san no shigoto wa nan desu ka.
+Nghĩa: Công việc của Schmidt là gì?
 
-A. エンジニア
-Nghĩa: Kỹ sư
-B. 教師
-Nghĩa: Giáo viên
-C. 銀行員
-Nghĩa: Nhân viên ngân hàng
-D. 医者
-Nghĩa: Bác sĩ
+A. エンジニアです
+Nghĩa: Là kỹ sư
+B. 銀行員です
+C. 医者です
+D. 教師です
 
-Đáp án đúng: C. 銀行員
-Giải thích ngắn gọn: 山田 nói 「銀行員です」.
+Đáp án đúng: A
+Giải thích ngắn gọn: シュミットさん nói エンジニアです.
 
 ## Đoạn hội thoại 12
 
 ### 1. Script hội thoại
 
-A: 失礼ですが、お名前は。
+[08:05] 失礼ですが、お名前は。
 Romaji: Shitsurei desu ga, onamae wa.
-Nghĩa: Xin lỗi, tên của bạn là gì?
+Nghĩa: Xin lỗi, tên anh là gì?
 
-B: ミラーです。アメリカから来ました。
+[08:07] ミラーです。アメリカから来ました。
 Romaji: Miraa desu. Amerika kara kimashita.
 Nghĩa: Tôi là Miller. Tôi đến từ Mỹ.
 
-A: 私は林です。ミラーさんは会社員ですか。
-Romaji: Watashi wa Hayashi desu. Miraa-san wa kaishain desu ka.
-Nghĩa: Tôi là Hayashi. Anh Miller là nhân viên công ty phải không?
+[08:11] 林です。ミラーさんは会社員ですか。
+Romaji: Hayashi desu. Miraa-san wa kaishain desu ka.
+Nghĩa: Tôi là Hayashi. Anh Miller là nhân viên công ty à?
 
-B: はい。IMCの社員です。どうぞよろしくお願いします。
-Romaji: Hai. IMC no shain desu. Douzo yoroshiku onegaishimasu.
-Nghĩa: Vâng. Tôi là nhân viên của IMC. Rất mong được giúp đỡ.
+[08:16] はい、IMCの社員です。よろしくお願いします。
+Romaji: Hai, IMC no shain desu. Yoroshiku onegai shimasu.
+Nghĩa: Vâng, tôi là nhân viên của IMC. Rất mong được giúp đỡ.
 
-A: 私も会社員です。パワー電機の社員です。どうぞよろしく。
-Romaji: Watashi mo kaishain desu. Pawaa Denki no shain desu. Douzo yoroshiku.
+[08:21] 私も会社員です。パワー電気の社員です。よろしくお願いします。
+Romaji: Watashi mo kaishain desu. Pawaa Denki no shain desu. Yoroshiku onegai shimasu.
 Nghĩa: Tôi cũng là nhân viên công ty. Tôi là nhân viên của Power Electric. Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 女の人の仕事はAですか、Bですか。
-Romaji: Onna no hito no shigoto wa A desu ka, B desu ka.
-Nghĩa: Nghề nghiệp của người phụ nữ là A hay B?
+質問: ミラーさんの仕事は何ですか。
+Romaji: Miraa-san no shigoto wa nan desu ka.
+Nghĩa: Công việc của Miller là gì?
 
-A. 教師
-Nghĩa: Giáo viên
-B. 医者
-Nghĩa: Bác sĩ
-C. エンジニア
-Nghĩa: Kỹ sư
-D. 会社員
-Nghĩa: Nhân viên công ty
+A. 会社員です
+Nghĩa: Là nhân viên công ty
+B. 教師です
+C. 医者です
+D. 銀行員です
 
-Đáp án đúng: D. 会社員
-Giải thích ngắn gọn: 林 nói 「私も会社員です」.
+Đáp án đúng: A
+Giải thích ngắn gọn: ミラーさん nói mình là IMCの社員です.
 
 ## Đoạn hội thoại 13
 
 ### 1. Script hội thoại
 
-A: ミラーさん、失礼ですが、おいくつですか。
-Romaji: Miraa-san, shitsurei desu ga, oikutsu desu ka.
-Nghĩa: Anh Miller, xin lỗi, anh bao nhiêu tuổi?
+[08:30] 何歳ですか。
+Romaji: Nansai desu ka.
+Nghĩa: Bao nhiêu tuổi?
 
-B: 28歳です。
-Romaji: Nijuu-hassai desu.
-Nghĩa: Tôi 28 tuổi.
+[08:35] 失礼ですが、ミラーさんは何歳ですか。
+Romaji: Shitsurei desu ga, Miraa-san wa nansai desu ka.
+Nghĩa: Xin lỗi, anh Miller bao nhiêu tuổi?
 
-A: そうですか。私も28です。
-Romaji: Sou desu ka. Watashi mo nijuu-hachi desu.
+[08:39] 28歳です。
+Romaji: Nijuuhassai desu.
+Nghĩa: 28 tuổi.
+
+[08:39] そうですか。私も28歳です。
+Romaji: Sou desu ka. Watashi mo nijuuhassai desu.
 Nghĩa: Vậy à. Tôi cũng 28 tuổi.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 何歳ですか。
-Romaji: Nansai desu ka.
-Nghĩa: Bao nhiêu tuổi?
+[08:30] 質問: ミラーさんは何歳ですか。
+Romaji: Miraa-san wa nansai desu ka.
+Nghĩa: Miller bao nhiêu tuổi?
 
-A. 26歳
-Nghĩa: 26 tuổi
-B. 28歳
+A. 28歳です
 Nghĩa: 28 tuổi
-C. 71歳
-Nghĩa: 71 tuổi
-D. 8歳
-Nghĩa: 8 tuổi
+B. 26歳です
+C. 71歳です
+D. 8歳です
 
-Đáp án đúng: B. 28歳
-Giải thích ngắn gọn: ミラー nói 「28歳です」.
+Đáp án đúng: A
+Giải thích ngắn gọn: Miller nói 28歳です.
 
 ## Đoạn hội thoại 14
 
 ### 1. Script hội thoại
 
-A: あの方はどなたですか。
-Romaji: Ano kata wa donata desu ka.
-Nghĩa: Vị kia là ai vậy?
+[08:45] あの人は誰ですか。
+Romaji: Ano hito wa dare desu ka.
+Nghĩa: Người kia là ai?
 
-B: 増田さんです。神戸病院の医者です。
-Romaji: Masuda-san desu. Koube Byouin no isha desu.
-Nghĩa: Đó là anh/chị Masuda. Là bác sĩ của bệnh viện Kobe.
+[08:47] あの人は益田さんです。
+Romaji: Ano hito wa Masuda-san desu.
+Nghĩa: Người kia là Masuda.
 
-A: おいくつですか。
-Romaji: Oikutsu desu ka.
-Nghĩa: Anh/chị ấy bao nhiêu tuổi?
+[08:49] 神戸病院の医者です。
+Romaji: Koube Byouin no isha desu.
+Nghĩa: Là bác sĩ của bệnh viện Kobe.
 
-B: 71歳です。
-Romaji: Nanajuu-issai desu.
+[08:51] 何歳ですか。
+Romaji: Nansai desu ka.
+Nghĩa: Bao nhiêu tuổi?
+
+[08:56] 71歳です。
+Romaji: Nanajuuissai desu.
 Nghĩa: 71 tuổi.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 何歳ですか。
-Romaji: Nansai desu ka.
-Nghĩa: Bao nhiêu tuổi?
+質問: 益田さんは何歳ですか。
+Romaji: Masuda-san wa nansai desu ka.
+Nghĩa: Masuda bao nhiêu tuổi?
 
-A. 28歳
-Nghĩa: 28 tuổi
-B. 26歳
-Nghĩa: 26 tuổi
-C. 71歳
+A. 71歳です
 Nghĩa: 71 tuổi
-D. 8歳
-Nghĩa: 8 tuổi
+B. 28歳です
+C. 26歳です
+D. 8歳です
 
-Đáp án đúng: C. 71歳
-Giải thích ngắn gọn: Người trả lời nói 「71歳です」.
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói 71歳です.
 
 ## Đoạn hội thoại 15
 
 ### 1. Script hội thoại
 
-A: 菜々子ちゃんですか。
-Romaji: Nanako-chan desu ka.
-Nghĩa: Em là Nanako phải không?
+[09:00] あれは菜々子ちゃんですか。
+Romaji: Are wa Nanako-chan desu ka.
+Nghĩa: Kia là bé Nanako à?
 
-B: はい。
+[09:02] はい。
 Romaji: Hai.
 Nghĩa: Vâng.
 
-A: 菜々子ちゃんは何歳ですか。
+[09:04] 菜々子ちゃんは何歳ですか。
 Romaji: Nanako-chan wa nansai desu ka.
-Nghĩa: Nanako bao nhiêu tuổi?
+Nghĩa: Bé Nanako bao nhiêu tuổi?
 
-B: 私は8歳です。
-Romaji: Watashi wa hassai desu.
-Nghĩa: Em 8 tuổi.
+[09:04] 8歳です。
+Romaji: Hassai desu.
+Nghĩa: 8 tuổi.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 何歳ですか。
-Romaji: Nansai desu ka.
-Nghĩa: Bao nhiêu tuổi?
+質問: 菜々子ちゃんは何歳ですか。
+Romaji: Nanako-chan wa nansai desu ka.
+Nghĩa: Bé Nanako bao nhiêu tuổi?
 
-A. 8歳
+A. 8歳です
 Nghĩa: 8 tuổi
-B. 26歳
-Nghĩa: 26 tuổi
-C. 28歳
-Nghĩa: 28 tuổi
-D. 71歳
-Nghĩa: 71 tuổi
+B. 26歳です
+C. 28歳です
+D. 71歳です
 
-Đáp án đúng: A. 8歳
-Giải thích ngắn gọn: 菜々子 nói 「私は8歳です」.
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia trả lời 8歳です.
 
 ## Đoạn hội thoại 16
 
 ### 1. Script hội thoại
 
-A: あの方はケリーさんです。
-Romaji: Ano kata wa Kerii-san desu.
-Nghĩa: Vị kia là anh/chị Kelly.
+[09:10] あの人はケリーさんですか。
+Romaji: Ano hito wa Kerii-san desu ka.
+Nghĩa: Người kia là Kelly à?
 
-B: あの、おいくつですか。
-Romaji: Ano, oikutsu desu ka.
-Nghĩa: Xin hỏi, anh/chị ấy bao nhiêu tuổi?
+[09:13] あの人はケリーさんです。
+Romaji: Ano hito wa Kerii-san desu.
+Nghĩa: Người kia là Kelly.
 
-A: ケリーさんは、えっと、26です。
-Romaji: Kerii-san wa, etto, nijuu-roku desu.
-Nghĩa: Anh/chị Kelly thì, ừm, 26 tuổi.
+[09:13] 何歳ですか。
+Romaji: Nansai desu ka.
+Nghĩa: Bao nhiêu tuổi?
 
-B: そうですか。
+[09:18] ケリーさんは……ええと……26歳です。
+Romaji: Kerii-san wa... eeto... nijuurokusai desu.
+Nghĩa: Kelly thì... ừm... 26 tuổi.
+
+[09:20] そうですか。
 Romaji: Sou desu ka.
 Nghĩa: Vậy à.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
-質問: 何歳ですか。
-Romaji: Nansai desu ka.
-Nghĩa: Bao nhiêu tuổi?
+質問: ケリーさんは何歳ですか。
+Romaji: Kerii-san wa nansai desu ka.
+Nghĩa: Kelly bao nhiêu tuổi?
 
-A. 28歳
-Nghĩa: 28 tuổi
-B. 71歳
-Nghĩa: 71 tuổi
-C. 8歳
-Nghĩa: 8 tuổi
-D. 26歳
+A. 26歳です
 Nghĩa: 26 tuổi
+B. 28歳です
+C. 71歳です
+D. 8歳です
 
-Đáp án đúng: D. 26歳
-Giải thích ngắn gọn: Người nói nói 「26です」.
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói ケリーさんは26歳です.

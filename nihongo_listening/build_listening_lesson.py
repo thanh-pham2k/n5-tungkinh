@@ -361,13 +361,20 @@ def parse_segments_from_segment_define(
 
 def load_script_with_timestamps(script_path: Path, audio_duration_ms: int) -> tuple[list[Segment], list[QuizItem]]:
     text = read_text_flexible(script_path)
+    block_count = len(iter_script_blocks(text))
+    segment_define_path = script_path.parent / "segment_define" / script_path.name
     segments, quiz_items = parse_segments_from_script(text, audio_duration_ms)
-    if segments:
+    if segments and len(segments) >= block_count:
         return segments, quiz_items
 
-    segment_define_path = script_path.parent / "segment_define" / script_path.name
     if segment_define_path.exists():
-        warn(f"{script_path.name}: dùng fallback timing từ {segment_define_path}.")
+        if segments:
+            warn(
+                f"{script_path.name}: parse được {len(segments)}/{block_count} segment; "
+                f"dùng fallback timing từ {segment_define_path}."
+            )
+        else:
+            warn(f"{script_path.name}: dùng fallback timing từ {segment_define_path}.")
         return parse_segments_from_segment_define(text, segment_define_path, audio_duration_ms)
 
     return segments, quiz_items
