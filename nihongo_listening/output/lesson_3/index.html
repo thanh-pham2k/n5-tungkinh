@@ -33,12 +33,14 @@
     .question { margin-bottom: 4px; font-weight: 800; font-size: 17px; }
     .subline { margin: 0 0 6px; color: var(--muted); }
     .options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 12px 0; }
-    .option { min-height: 68px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 10px; display: grid; grid-template-columns: 26px minmax(0, 1fr); column-gap: 8px; align-items: start; cursor: pointer; }
+    .option { min-height: 68px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 12px; display: grid; grid-template-columns: 24px minmax(0, 1fr); column-gap: 10px; align-items: start; cursor: pointer; }
     .option:has(input:checked) { border-color: var(--primary); background: var(--primary-soft); }
-    .option input { margin-top: 5px; }
-    .option-key { font-weight: 800; }
-    .option-text { font-weight: 800; overflow-wrap: anywhere; }
-    .option-meaning { grid-column: 2; color: var(--muted); font-size: 14px; overflow-wrap: anywhere; }
+    .option input { margin-top: 4px; }
+    .option-body { min-width: 0; display: grid; gap: 4px; }
+    .option-line { display: flex; gap: 8px; align-items: baseline; min-width: 0; }
+    .option-key { flex: 0 0 auto; font-weight: 800; }
+    .option-text { min-width: 0; font-weight: 800; white-space: normal; word-break: normal; overflow-wrap: break-word; line-break: strict; }
+    .option-meaning { color: var(--muted); font-size: 14px; white-space: normal; word-break: normal; overflow-wrap: break-word; }
     .check-answer { background: var(--primary); border-color: var(--primary); color: #fff; }
     .feedback { min-height: 24px; margin-top: 10px; font-weight: 800; }
     .feedback.ok { color: var(--ok); }
@@ -100,30 +102,34 @@ Nghĩa: Là bệnh viện à?</pre>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-0" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">事務所です</span>
-                  <span class="option-meaning">Là văn phòng</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">事務所です</span></span>
+                    <span class="option-meaning">Là văn phòng</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-0" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">アジア研究センターです</span>
-                  <span class="option-meaning">Là Trung tâm nghiên cứu châu Á</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">アジア研究センターです</span></span>
+                    <span class="option-meaning">Là Trung tâm nghiên cứu châu Á</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-0" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">大学の病院です</span>
-                  <span class="option-meaning">Là bệnh viện của trường đại học</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">大学の病院です</span></span>
+                    <span class="option-meaning">Là bệnh viện của trường đại học</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-0" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">食堂です</span>
-                  <span class="option-meaning">Là nhà ăn</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">食堂です</span></span>
+                    <span class="option-meaning">Là nhà ăn</span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
@@ -165,30 +171,34 @@ Nghĩa: Chỗ kia là nhà ăn.</pre>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-1" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">食堂です</span>
-                  <span class="option-meaning">Là nhà ăn</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">食堂です</span></span>
+                    <span class="option-meaning">Là nhà ăn</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-1" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">受付です</span>
-                  <span class="option-meaning">Là quầy tiếp tân</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">受付です</span></span>
+                    <span class="option-meaning">Là quầy tiếp tân</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-1" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">ロビーです</span>
-                  <span class="option-meaning">Là sảnh</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">ロビーです</span></span>
+                    <span class="option-meaning">Là sảnh</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-1" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">教室です</span>
-                  <span class="option-meaning">Là phòng học</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">教室です</span></span>
+                    <span class="option-meaning">Là phòng học</span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
@@ -234,30 +244,34 @@ Nghĩa: Chỗ kia là phòng học.</pre>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-2" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">会議室です</span>
-                  <span class="option-meaning">Là phòng họp</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">会議室です</span></span>
+                    <span class="option-meaning">Là phòng họp</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-2" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">教室です</span>
-                  <span class="option-meaning">Là phòng học</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">教室です</span></span>
+                    <span class="option-meaning">Là phòng học</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-2" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">コンピューターの部屋です</span>
-                  <span class="option-meaning">Là phòng máy tính</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">コンピューターの部屋です</span></span>
+                    <span class="option-meaning">Là phòng máy tính</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-2" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">ロビーです</span>
-                  <span class="option-meaning">Là sảnh</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">ロビーです</span></span>
+                    <span class="option-meaning">Là sảnh</span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
@@ -293,41 +307,45 @@ Romaji: Aamaddo-sensei no heya desu ka.
 Nghĩa: Là phòng của thầy/cô Ahmad à?</pre>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">Nội dung chính của Đoạn 4 là gì?</p>
-                <p class="subline"></p>
-                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <p class="question">ここは誰の部屋ですか。</p>
+                <p class="subline">Koko wa dare no heya desu ka.</p>
+                <p class="subline">Đây là phòng của ai?</p>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-3" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">3階です。</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">林先生の部屋です</span></span>
+                    <span class="option-meaning">Là phòng của thầy/cô Hayashi</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-3" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">Hỏi đường đến nhà ga</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">ワット先生の部屋です</span></span>
+                    <span class="option-meaning">Là phòng của thầy/cô Watt</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-3" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">Mua vé xem phim</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">アーマッド先生の部屋です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-3" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">Đặt phòng khách sạn</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">小林先生の部屋です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+                <p class="explanation" hidden>Người nói ここは林先生の部屋です.</p>
               </section>
             </article>
             
@@ -358,41 +376,45 @@ Romaji: Sou desu ka. Arigatou.
 Nghĩa: Vậy à. Cảm ơn.</pre>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">Nội dung chính của Đoạn 5 là gì?</p>
-                <p class="subline"></p>
-                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <p class="question">電話はどこですか。</p>
+                <p class="subline">Denwa wa doko desu ka.</p>
+                <p class="subline">Điện thoại ở đâu?</p>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-4" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">どこですか。</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">1階のロビーです</span></span>
+                    <span class="option-meaning">Ở sảnh tầng 1</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-4" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">Hỏi đường đến nhà ga</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">2階の会議室です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-4" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">Mua vé xem phim</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">3階の部屋です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-4" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">Đặt phòng khách sạn</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">4階の教室です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+                <p class="explanation" hidden>Người kia trả lời 1階のロビーです.</p>
               </section>
             </article>
             
@@ -419,41 +441,45 @@ Romaji: Hai. Yon zero san desu ne.
 Nghĩa: Vâng. Phòng 403 nhỉ.</pre>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">Nội dung chính của Đoạn 6 là gì?</p>
-                <p class="subline"></p>
-                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <p class="question">教室はどこですか。</p>
+                <p class="subline">Kyoushitsu wa doko desu ka.</p>
+                <p class="subline">Phòng học ở đâu?</p>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-5" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">先生、あの、教室はどこですか。</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">4階の403です</span></span>
+                    <span class="option-meaning">Phòng 403 tầng 4</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-5" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">Hỏi đường đến nhà ga</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">1階のロビーです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-5" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">Mua vé xem phim</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">2階の事務所です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-5" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">Đặt phòng khách sạn</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">3階の林先生の部屋です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+                <p class="explanation" hidden>Giáo viên nói 4階です。403です.</p>
               </section>
             </article>
             
@@ -484,41 +510,45 @@ Romaji: Sou desu ka.
 Nghĩa: Vậy à.</pre>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">Nội dung chính của Đoạn 7 là gì?</p>
-                <p class="subline"></p>
-                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <p class="question">ターポンさんはどこですか。</p>
+                <p class="subline">Taapon-san wa doko desu ka.</p>
+                <p class="subline">Tapon đang ở đâu?</p>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-6" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">始めましょう。</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">トイレです</span></span>
+                    <span class="option-meaning">Ở nhà vệ sinh</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-6" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">Hỏi đường đến nhà ga</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">教室です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-6" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">Mua vé xem phim</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">事務所です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-6" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">Đặt phòng khách sạn</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">ロビーです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+                <p class="explanation" hidden>Người kia nói ターポンさんはトイレです.</p>
               </section>
             </article>
             
@@ -549,41 +579,45 @@ Romaji: Nikai desu.
 Nghĩa: Ở tầng 2.</pre>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">Nội dung chính của Đoạn 8 là gì?</p>
-                <p class="subline"></p>
-                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <p class="question">小林先生はどこですか。</p>
+                <p class="subline">Kobayashi-sensei wa doko desu ka.</p>
+                <p class="subline">Thầy/cô Kobayashi ở đâu?</p>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-7" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">すみません。小林先生はどこですか。</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">2階の事務所です</span></span>
+                    <span class="option-meaning">Ở văn phòng tầng 2</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-7" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">Hỏi đường đến nhà ga</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">1階のロビーです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-7" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">Mua vé xem phim</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">4階の403です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-7" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">Đặt phòng khách sạn</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">トイレです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+                <p class="explanation" hidden>Kobayashi ở văn phòng, văn phòng ở tầng 2.</p>
               </section>
             </article>
             
@@ -630,41 +664,45 @@ Romaji: Sou desu ka. Douzo yoroshiku.
 Nghĩa: Vậy à. Rất mong được giúp đỡ.</pre>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">Nội dung chính của Đoạn 9 là gì?</p>
-                <p class="subline"></p>
-                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <p class="question">カリナさんはどこの人ですか。</p>
+                <p class="subline">Karina-san wa doko no hito desu ka.</p>
+                <p class="subline">Karina là người nước nào?</p>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-8" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">Aですか、Bですか。</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">インドネシアです</span></span>
+                    <span class="option-meaning">Indonesia</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-8" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">Hỏi đường đến nhà ga</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">オーストラリアです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-8" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">Mua vé xem phim</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">韓国です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-8" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">Đặt phòng khách sạn</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">日本です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+                <p class="explanation" hidden>カリナさん nói インドネシアから来ました.</p>
               </section>
             </article>
             
@@ -711,41 +749,45 @@ Romaji: Kochira koso, douzo yoroshiku.
 Nghĩa: Chính tôi cũng mong được giúp đỡ.</pre>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">Nội dung chính của Đoạn 10 là gì?</p>
-                <p class="subline"></p>
-                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <p class="question">ケリーさんはどこの人ですか。</p>
+                <p class="subline">Kerii-san wa doko no hito desu ka.</p>
+                <p class="subline">Kelly là người nước nào?</p>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-9" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">はじめまして。</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">オーストラリアです</span></span>
+                    <span class="option-meaning">Úc</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-9" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">Hỏi đường đến nhà ga</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">アメリカです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-9" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">Mua vé xem phim</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">インドネシアです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-9" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">Đặt phòng khách sạn</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">韓国です</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+                <p class="explanation" hidden>Kelly nói không phải Mỹ, mà là オーストラリア.</p>
               </section>
             </article>
             
@@ -800,41 +842,45 @@ Romaji: Kochira koso, yoroshiku.
 Nghĩa: Tôi cũng rất mong được giúp đỡ.</pre>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">Nội dung chính của Đoạn 11 là gì?</p>
-                <p class="subline"></p>
-                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <p class="question">パクさんはどこの人ですか。</p>
+                <p class="subline">Paku-san wa doko no hito desu ka.</p>
+                <p class="subline">Park là người nước nào?</p>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-10" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">失礼ですが、お名前は。</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">韓国です</span></span>
+                    <span class="option-meaning">Hàn Quốc</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-10" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">Hỏi đường đến nhà ga</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">インドネシアです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-10" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">Mua vé xem phim</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">オーストラリアです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-10" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">Đặt phòng khách sạn</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">アメリカです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+                <p class="explanation" hidden>パクさん nói 韓国です.</p>
               </section>
             </article>
             
@@ -873,41 +919,45 @@ Romaji: Ja, kore o kudasai.
 Nghĩa: Vậy cho tôi cái này.</pre>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">Nội dung chính của Đoạn 12 là gì?</p>
-                <p class="subline"></p>
-                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <p class="question">コーヒーはどこのですか。</p>
+                <p class="subline">Koohii wa doko no desu ka.</p>
+                <p class="subline">Cà phê của nước nào?</p>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-11" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">いくらですか。どこのですか。</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">インドネシアのです</span></span>
+                    <span class="option-meaning">Của Indonesia</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-11" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">Hỏi đường đến nhà ga</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">日本のです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-11" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">Mua vé xem phim</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">韓国のです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-11" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">Đặt phòng khách sạn</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">インドのです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+                <p class="explanation" hidden>Người bán nói インドネシアのです.</p>
               </section>
             </article>
             
@@ -942,41 +992,45 @@ Romaji: Sou desu ka.
 Nghĩa: Vậy à.</pre>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">Nội dung chính của Đoạn 13 là gì?</p>
-                <p class="subline"></p>
-                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <p class="question">カバンはどこのですか。</p>
+                <p class="subline">Kaban wa doko no desu ka.</p>
+                <p class="subline">Cái cặp của nước nào?</p>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-12" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">すみません。あのカバンを見せてください。</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">インドのです</span></span>
+                    <span class="option-meaning">Của Ấn Độ</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-12" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">Hỏi đường đến nhà ga</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">日本のです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-12" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">Mua vé xem phim</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">インドネシアのです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-12" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">Đặt phòng khách sạn</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">韓国のです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+                <p class="explanation" hidden>Người bán nói không phải của Nhật, mà là インドのです.</p>
               </section>
             </article>
             
@@ -1015,41 +1069,45 @@ Romaji: Kyuuman hassen en.
 Nghĩa: 98.000 yên.</pre>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">Nội dung chính của Đoạn 14 là gì?</p>
-                <p class="subline"></p>
-                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <p class="question">コンピューターはどこのですか。</p>
+                <p class="subline">Konpyuutaa wa doko no desu ka.</p>
+                <p class="subline">Máy tính của nước nào?</p>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-13" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">すみません。</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">韓国のです</span></span>
+                    <span class="option-meaning">Của Hàn Quốc</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-13" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">Hỏi đường đến nhà ga</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">日本のです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-13" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">Mua vé xem phim</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">インドのです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-13" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">Đặt phòng khách sạn</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">中国のです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+                <p class="explanation" hidden>Người bán nói 韓国のです.</p>
               </section>
             </article>
             
@@ -1096,41 +1154,45 @@ Romaji: Ichiman hassen gohyaku en desu ka. Ja, kore o kudasai.
 Nghĩa: 18.500 yên à. Vậy cho tôi cái này.</pre>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">Nội dung chính của Đoạn 15 là gì?</p>
-                <p class="subline"></p>
-                <p class="subline">Chọn nội dung phù hợp nhất với đoạn vừa nghe.</p>
+                <p class="question">買うカメラはどこのですか。</p>
+                <p class="subline">Kau kamera wa doko no desu ka.</p>
+                <p class="subline">Máy ảnh sẽ mua là của nước nào?</p>
                 <div class="options">
                 <label class="option">
                   <input type="radio" name="answer-14" value="A">
-                  <span class="option-key">A</span>
-                  <span class="option-text">このカメラはどこのですか。</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">中国のです</span></span>
+                    <span class="option-meaning">Của Trung Quốc</span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-14" value="B">
-                  <span class="option-key">B</span>
-                  <span class="option-text">Hỏi đường đến nhà ga</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">日本のです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-14" value="C">
-                  <span class="option-key">C</span>
-                  <span class="option-text">Mua vé xem phim</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">韓国のです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 
                 <label class="option">
                   <input type="radio" name="answer-14" value="D">
-                  <span class="option-key">D</span>
-                  <span class="option-text">Đặt phòng khách sạn</span>
-                  <span class="option-meaning"></span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">インドのです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Câu hỏi fallback được tạo từ nội dung script của đoạn.</p>
+                <p class="explanation" hidden>Người mua chọn máy ảnh 18,500円, đó là 中国のカメラ.</p>
               </section>
             </article>
             </main>

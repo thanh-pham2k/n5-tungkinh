@@ -157,16 +157,23 @@ def explicit_range_ms(text: str) -> tuple[int, int] | None:
 
 def parse_options(block: str) -> list[dict[str, str]]:
     option_pattern = re.compile(
-        r"^([ABCD])\.\s*(.+?)\s*\nNghĩa:\s*(.+?)(?=\n[ABCD]\.\s|\n\nĐáp án đúng:|\Z)",
+        r"^([ABCD])\.\s*(.*?)(?=^\s*[ABCD]\.\s|^Đáp án đúng:|\Z)",
         re.MULTILINE | re.DOTALL,
     )
     options: list[dict[str, str]] = []
     for match in option_pattern.finditer(block):
+        body = match.group(2).strip()
+        meaning = ""
+        text = body
+        meaning_match = re.search(r"\nNghĩa:\s*(.+)", body, flags=re.DOTALL)
+        if meaning_match:
+            text = body[: meaning_match.start()].strip()
+            meaning = meaning_match.group(1).strip()
         options.append(
             {
                 "key": match.group(1).strip(),
-                "text": re.sub(r"\s+", " ", strip_timestamps(match.group(2))).strip(),
-                "meaning": re.sub(r"\s+", " ", strip_timestamps(match.group(3))).strip(),
+                "text": re.sub(r"\s+", " ", strip_timestamps(text)).strip(),
+                "meaning": re.sub(r"\s+", " ", strip_timestamps(meaning)).strip(),
             }
         )
     return options
@@ -355,9 +362,10 @@ def generate_index_html(
                 f"""
                 <label class="option">
                   <input type="radio" name="answer-{index}" value="{key}">
-                  <span class="option-key">{key}</span>
-                  <span class="option-text">{text}</span>
-                  <span class="option-meaning">{meaning}</span>
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">{key}</span><span class="option-text">{text}</span></span>
+                    <span class="option-meaning">{meaning}</span>
+                  </span>
                 </label>
                 """
             )
@@ -425,12 +433,14 @@ def generate_index_html(
     .question {{ margin-bottom: 4px; font-weight: 800; font-size: 17px; }}
     .subline {{ margin: 0 0 6px; color: var(--muted); }}
     .options {{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 12px 0; }}
-    .option {{ min-height: 68px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 10px; display: grid; grid-template-columns: 26px minmax(0, 1fr); column-gap: 8px; align-items: start; cursor: pointer; }}
+    .option {{ min-height: 68px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 12px; display: grid; grid-template-columns: 24px minmax(0, 1fr); column-gap: 10px; align-items: start; cursor: pointer; }}
     .option:has(input:checked) {{ border-color: var(--primary); background: var(--primary-soft); }}
-    .option input {{ margin-top: 5px; }}
-    .option-key {{ font-weight: 800; }}
-    .option-text {{ font-weight: 800; overflow-wrap: anywhere; }}
-    .option-meaning {{ grid-column: 2; color: var(--muted); font-size: 14px; overflow-wrap: anywhere; }}
+    .option input {{ margin-top: 4px; }}
+    .option-body {{ min-width: 0; display: grid; gap: 4px; }}
+    .option-line {{ display: flex; gap: 8px; align-items: baseline; min-width: 0; }}
+    .option-key {{ flex: 0 0 auto; font-weight: 800; }}
+    .option-text {{ min-width: 0; font-weight: 800; white-space: normal; word-break: normal; overflow-wrap: break-word; line-break: strict; }}
+    .option-meaning {{ color: var(--muted); font-size: 14px; white-space: normal; word-break: normal; overflow-wrap: break-word; }}
     .check-answer {{ background: var(--primary); border-color: var(--primary); color: #fff; }}
     .feedback {{ min-height: 24px; margin-top: 10px; font-weight: 800; }}
     .feedback.ok {{ color: var(--ok); }}
