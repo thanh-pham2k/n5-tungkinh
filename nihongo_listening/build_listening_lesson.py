@@ -168,13 +168,101 @@ def parse_timeline_rows(raw_text: str) -> list[TimelineRow]:
 
 
 def parse_csv_segments(raw_text: str) -> list[Segment]:
-    if "Start time" not in raw_text or "End time" not in raw_text:
+    if not raw_text.lstrip("\ufeff\r\n ").lower().startswith("stt,"):
         return []
 
     reader = csv.DictReader(io.StringIO(raw_text))
-    required_columns = {"Start time", "End time", "Speaker", "Script segment"}
-    if not reader.fieldnames or not required_columns.issubset(set(reader.fieldnames)):
-        warn("segment_define có vẻ là CSV nhưng thiếu cột Start time/End time/Speaker/Script segment.")
+    if not reader.fieldnames:
+        warn("segment_define có vẻ là CSV nhưng không có header.")
+        return []
+
+    field_map = {field.strip().lower(): field for field in reader.fieldnames if field}
+
+    def get(row: dict[str, str], *names: str) -> str:
+        for name in names:
+            field = field_map.get(name.lower())
+            if field:
+                return (row.get(field) or "").strip()
+        return ""
+
+    rows = list(reader)
+    grouped_by_dialogue: dict[int, list[TimelineRow]] = {}
+    has_dialogue_ids = False
+    dialogue_rounds = []
+
+    for row in rows:
+        segment_id = get(row, "segment_id")
+        segment_type = get(row, "segment_type")
+        repeat_round = get(row, "repeat_round")
+        if segment_type and segment_type.lower() != "dialogue":
+            continue
+        if re.search(r"\bD\d{1,3}\b", segment_id, flags=re.IGNORECASE) and repeat_round.isdigit():
+            dialogue_rounds.append(int(repeat_round))
+
+    target_repeat_round = min(dialogue_rounds) if dialogue_rounds else None
+
+    for line_no, row in enumerate(rows, start=2):
+        segment_id = get(row, "segment_id")
+        segment_type = get(row, "segment_type")
+        repeat_round = get(row, "repeat_round")
+        if segment_type and segment_type.lower() != "dialogue":
+            continue
+        if target_repeat_round is not None and repeat_round.isdigit() and int(repeat_round) != target_repeat_round:
+            continue
+
+        match = re.search(r"\bD(\d{1,3})\b", segment_id, flags=re.IGNORECASE)
+        if not match:
+            continue
+        has_dialogue_ids = True
+
+        start_text = get(row, "start_time", "start time")
+        end_text = get(row, "end_time", "end time")
+        script_segment = get(row, "script_segment", "script segment")
+        speaker = get(row, "speaker")
+        if not start_text or not end_text:
+            warn(f"Bỏ qua dòng CSV {line_no} vì thiếu start_time/end_time: {segment_id}")
+            continue
+
+        try:
+            start_ms = parse_time_to_ms(start_text)
+            end_ms = parse_time_to_ms(end_text)
+        except ValueError as exc:
+            warn(f"Bỏ qua dòng CSV {line_no}: {exc}")
+            continue
+
+        if end_ms <= start_ms:
+            warn(f"Bỏ qua dòng CSV {line_no} vì End <= Start: {start_text} - {end_text}")
+            continue
+
+        dialogue_no = int(match.group(1))
+        label = f"{speaker}: {script_segment}" if speaker else script_segment
+        grouped_by_dialogue.setdefault(dialogue_no, []).append(
+            TimelineRow(start_ms=start_ms, end_ms=end_ms, text=label)
+        )
+
+    if has_dialogue_ids:
+        segments = []
+        for dialogue_no in sorted(grouped_by_dialogue):
+            group_rows = grouped_by_dialogue[dialogue_no]
+            if not group_rows:
+                continue
+            segments.append(
+                Segment(
+                    number=dialogue_no,
+                    start_ms=min(row.start_ms for row in group_rows),
+                    end_ms=max(row.end_ms for row in group_rows),
+                    label=f"Đoạn {dialogue_no}",
+                    text="\n".join(row.text for row in group_rows),
+                )
+            )
+        return segments
+
+    required_columns = {"start time", "end time", "speaker", "script segment"}
+    if not required_columns.issubset(set(field_map)):
+        warn(
+            "segment_define có vẻ là CSV nhưng thiếu cột start/end/speaker/script "
+            "hoặc segment_id dạng D01."
+        )
         return []
 
     segments: list[Segment] = []
@@ -190,11 +278,11 @@ def parse_csv_segments(raw_text: str) -> list[Segment]:
         segments.append(Segment(number, start_ms, end_ms, f"Đoạn {number}", text))
         current_rows.clear()
 
-    for line_no, row in enumerate(reader, start=2):
-        script_segment = (row.get("Script segment") or "").strip()
-        speaker = (row.get("Speaker") or "").strip()
-        start_text = (row.get("Start time") or "").strip()
-        end_text = (row.get("End time") or "").strip()
+    for line_no, row in enumerate(rows, start=2):
+        script_segment = get(row, "script segment")
+        speaker = get(row, "speaker")
+        start_text = get(row, "start time")
+        end_text = get(row, "end time")
 
         if script_segment.startswith("Đáp án đúng"):
             flush_current()
