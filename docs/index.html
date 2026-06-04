@@ -301,6 +301,22 @@
       overflow: hidden;
     }
 
+    .listening-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0 14px;
+    }
+
+    .listening-frame {
+      width: 100%;
+      height: min(760px, 78vh);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      display: block;
+    }
+
     .vocab-meta {
       margin: 0 0 12px;
       color: var(--muted);
@@ -465,6 +481,10 @@
         height: auto;
         max-height: 50vh;
         top: auto;
+      }
+
+      .listening-frame {
+        height: 82vh;
       }
 
       .lesson-grid {
@@ -633,6 +653,7 @@
       <button class="tab-button" id="tab-kana" type="button" role="tab" aria-selected="false" aria-controls="kana-panel" data-tab-target="kana-panel">Kana</button>
       <button class="tab-button" id="tab-grammar" type="button" role="tab" aria-selected="false" aria-controls="grammar-panel" data-tab-target="grammar-panel">Grammar</button>
       <button class="tab-button" id="tab-kanji" type="button" role="tab" aria-selected="false" aria-controls="kanji-panel" data-tab-target="kanji-panel">Kanji</button>
+      <button class="tab-button" id="tab-listening" type="button" role="tab" aria-selected="false" aria-controls="listening-panel" data-tab-target="listening-panel">Listening</button>
     </div>
 
     <section class="tab-panel active" id="audio-panel" role="tabpanel" aria-labelledby="tab-audio">
@@ -931,6 +952,15 @@
           <p class="hint">Chọn một bài để xem nội dung Kanji.</p>
         </div>
       </div>
+    </section>
+
+    <section class="tab-panel" id="listening-panel" role="tabpanel" aria-labelledby="tab-listening">
+      <h2>Listening</h2>
+      <p class="hint">Bài nghe JLPT N5 được cắt thành từng đoạn, có script và câu hỏi trắc nghiệm.</p>
+      <div class="listening-toolbar">
+        <button class="active" type="button">Bài 1</button>
+      </div>
+      <iframe class="listening-frame" src="listening/lesson-01.html" title="JLPT N5 Listening - Bài 1"></iframe>
     </section>
   </main>
 
