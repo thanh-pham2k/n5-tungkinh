@@ -1,0 +1,546 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[00:08] A: キムさん、いらっしゃい。こちらへどうぞ。
+Romaji: Kimu-san, irasshai. Kochira e douzo.
+Nghĩa: Bạn Kim, chào mừng bạn. Mời vào đây.
+
+[00:15] A: 料理がたくさん。これ、いかがですか。日本料理です。
+Romaji: Ryouri ga takusan. Kore, ikaga desu ka. Nihon ryouri desu.
+Nghĩa: Có nhiều món ăn lắm. Món này thì sao? Đây là món Nhật.
+
+[00:18] B: 私は日本料理があまり…。
+Romaji: Watashi wa Nihon ryouri ga amari...
+Nghĩa: Tôi thì không thích món Nhật lắm...
+
+[00:23] A: じゃあ、これはいかがですか。イタリア料理です。
+Romaji: Jaa, kore wa ikaga desu ka. Itaria ryouri desu.
+Nghĩa: Vậy món này thì sao? Đây là món Ý.
+
+[00:28] B: イタリア料理、とても好きです。いただきます。
+Romaji: Itaria ryouri, totemo suki desu. Itadakimasu.
+Nghĩa: Tôi rất thích món Ý. Tôi xin ăn.
+
+[00:33] A: キムさんはどんな人が好きですか。
+Romaji: Kimu-san wa donna hito ga suki desu ka.
+Nghĩa: Bạn Kim thích kiểu người như thế nào?
+
+[00:40] A: ハンサムな人が好きですか。
+Romaji: Hansamu na hito ga suki desu ka.
+Nghĩa: Bạn thích người đẹp trai à?
+
+[00:40] B: いいえ。
+Romaji: Iie.
+Nghĩa: Không.
+
+[00:45] A: 静かな人はどうですか。
+Romaji: Shizuka na hito wa dou desu ka.
+Nghĩa: Người trầm lặng thì sao?
+
+[00:50] B: いいえ。私は元気な人が好きです。
+Romaji: Iie. Watashi wa genki na hito ga suki desu.
+Nghĩa: Không. Tôi thích người năng động.
+
+[00:54] A: じゃ、私の友達に会いませんか。とても元気な人ですよ。
+Romaji: Ja, watashi no tomodachi ni aimasen ka. Totemo genki na hito desu yo.
+Nghĩa: Vậy bạn gặp bạn tôi nhé? Người đó rất năng động đấy.
+
+[01:00] B: そうですか。お願いします。
+Romaji: Sou desu ka. Onegaishimasu.
+Nghĩa: Vậy à. Nhờ bạn nhé.
+
+[01:05] A: キムさん、これから映画はどうですか。
+Romaji: Kimu-san, kore kara eiga wa dou desu ka.
+Nghĩa: Bạn Kim, từ bây giờ đi xem phim thì sao?
+
+[01:10] B: 映画ですか。映画はあまり好きじゃありません。
+Romaji: Eiga desu ka. Eiga wa amari suki ja arimasen.
+Nghĩa: Phim à? Tôi không thích phim lắm.
+
+[01:14] A: じゃ、カラオケはどうですか。楽しいですよ。
+Romaji: Ja, karaoke wa dou desu ka. Tanoshii desu yo.
+Nghĩa: Vậy karaoke thì sao? Vui lắm đấy.
+
+[01:18] B: いいですね。私はカラオケが好きです。じゃ、行きましょう。
+Romaji: Ii desu ne. Watashi wa karaoke ga suki desu. Ja, ikimashou.
+Nghĩa: Hay đấy. Tôi thích karaoke. Vậy đi thôi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[00:23] 質問: キムさんはどんな料理が好きですか。
+Romaji: Kimu-san wa donna ryouri ga suki desu ka.
+Nghĩa: Bạn Kim thích món ăn nào?
+
+A. イタリア料理
+Nghĩa: Món Ý
+B. 日本料理
+Nghĩa: Món Nhật
+C. 中国料理
+Nghĩa: Món Trung Quốc
+D. インド料理
+Nghĩa: Món Ấn Độ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kim nói 「イタリア料理、とても好きです」.
+
+Câu 2:
+[00:33] 質問: キムさんはどんな人が好きですか。
+Romaji: Kimu-san wa donna hito ga suki desu ka.
+Nghĩa: Bạn Kim thích kiểu người như thế nào?
+
+A. 元気な人
+Nghĩa: Người năng động
+B. 静かな人
+Nghĩa: Người trầm lặng
+C. ハンサムな人
+Nghĩa: Người đẹp trai
+D. 忙しい人
+Nghĩa: Người bận rộn
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kim nói 「元気な人が好きです」.
+
+Câu 3:
+[01:05] 質問: キムさんは映画が好きですか。
+Romaji: Kimu-san wa eiga ga suki desu ka.
+Nghĩa: Bạn Kim có thích phim không?
+
+A. いいえ、あまり好きじゃありません
+Nghĩa: Không, không thích lắm
+B. はい、とても好きです
+Nghĩa: Có, rất thích
+C. はい、少し好きです
+Nghĩa: Có, thích một chút
+D. いいえ、見ません
+Nghĩa: Không, không xem
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kim nói 「映画はあまり好きじゃありません」.
+
+Câu 4:
+[01:14] 質問: キムさんはこれから何をしますか。
+Romaji: Kimu-san wa kore kara nani o shimasu ka.
+Nghĩa: Từ bây giờ bạn Kim sẽ làm gì?
+
+A. カラオケへ行きます
+Nghĩa: Đi karaoke
+B. 映画を見ます
+Nghĩa: Xem phim
+C. 料理を作ります
+Nghĩa: Nấu ăn
+D. 友達に会います
+Nghĩa: Gặp bạn
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kim nói 「カラオケが好きです。じゃ、行きましょう」.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[01:35] A: 愛子さんはテニスがとても上手ですね。
+Romaji: Aiko-san wa tenisu ga totemo jouzu desu ne.
+Nghĩa: Bạn Aiko chơi tennis rất giỏi nhỉ.
+
+[01:40] A: 何歳からしましたか。
+Romaji: Nansai kara shimashita ka.
+Nghĩa: Bạn chơi từ mấy tuổi?
+
+[01:40] B: 3歳からです。
+Romaji: Sansai kara desu.
+Nghĩa: Từ 3 tuổi.
+
+[01:52] A: 愛子さん、今、時間がありますか。
+Romaji: Aiko-san, ima, jikan ga arimasu ka.
+Nghĩa: Bạn Aiko, bây giờ có thời gian không?
+
+[01:55] A: 金曜日はキムさんの誕生日です。一緒に誕生日カードをあげましょう。
+Romaji: Kin-youbi wa Kimu-san no tanjoubi desu. Issho ni tanjoubi kaado o agemashou.
+Nghĩa: Thứ Sáu là sinh nhật của Kim. Cùng tặng thiệp sinh nhật nhé.
+
+[02:01] B: いいですね。
+Romaji: Ii desu ne.
+Nghĩa: Hay đấy.
+
+[02:06] A: キムさん、誕生日おめでとう。
+Romaji: Kimu-san, tanjoubi omedetou.
+Nghĩa: Kim, chúc mừng sinh nhật.
+
+[02:12] B: はい、書きました。ありがとう。
+Romaji: Hai, kakimashita. Arigatou.
+Nghĩa: Vâng, tôi đã viết rồi. Cảm ơn.
+
+[02:17] A: 字がとても上手ですね。
+Romaji: Ji ga totemo jouzu desu ne.
+Nghĩa: Chữ viết rất đẹp nhỉ.
+
+[02:23] A: ダンスをしましょう。
+Romaji: Dansu o shimashou.
+Nghĩa: Cùng nhảy nhé.
+
+[02:26] B: あまり上手じゃありませんが。
+Romaji: Amari jouzu ja arimasen ga.
+Nghĩa: Tôi không giỏi lắm đâu.
+
+[02:37] A: 愛子さん、これ、英語ですか。
+Romaji: Aiko-san, kore, eigo desu ka.
+Nghĩa: Aiko, cái này là tiếng Anh à?
+
+[02:43] B: これはインドネシア語ですよ。
+Romaji: Kore wa Indoneshia-go desu yo.
+Nghĩa: Đây là tiếng Indonesia đấy.
+
+[02:48] A: インドネシア語が分かりますか。
+Romaji: Indoneshia-go ga wakarimasu ka.
+Nghĩa: Bạn hiểu tiếng Indonesia à?
+
+[02:51] B: だいたい分かります。
+Romaji: Daitai wakarimasu.
+Nghĩa: Tôi hiểu đại khái.
+
+[02:58] A: 来週からイギリスへ行きますね。
+Romaji: Raishuu kara Igirisu e ikimasu ne.
+Nghĩa: Tuần sau bạn sẽ đi Anh nhỉ.
+
+[03:02] B: うーん、ちょっと英語が…。
+Romaji: Uun, chotto eigo ga...
+Nghĩa: Ừm, tiếng Anh thì hơi...
+
+[03:07] B: 英語があまり分かりません。
+Romaji: Eigo ga amari wakarimasen.
+Nghĩa: Tôi không hiểu tiếng Anh lắm.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[01:40] 質問: 愛子さんは何歳からテニスをしましたか。
+Romaji: Aiko-san wa nansai kara tenisu o shimashita ka.
+Nghĩa: Bạn Aiko chơi tennis từ mấy tuổi?
+
+A. 3歳から
+Nghĩa: Từ 3 tuổi
+B. 5歳から
+Nghĩa: Từ 5 tuổi
+C. 7歳から
+Nghĩa: Từ 7 tuổi
+D. 10歳から
+Nghĩa: Từ 10 tuổi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Aiko nói 「3歳からです」.
+
+Câu 2:
+[01:55] 質問: 金曜日は誰の誕生日ですか。
+Romaji: Kin-youbi wa dare no tanjoubi desu ka.
+Nghĩa: Thứ Sáu là sinh nhật của ai?
+
+A. キムさん
+Nghĩa: Bạn Kim
+B. 愛子さん
+Nghĩa: Bạn Aiko
+C. 佐藤さん
+Nghĩa: Bạn Sato
+D. ミラーさん
+Nghĩa: Anh Miller
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「金曜日はキムさんの誕生日です」.
+
+Câu 3:
+[02:43] 質問: これは何語ですか。
+Romaji: Kore wa nani-go desu ka.
+Nghĩa: Đây là tiếng gì?
+
+A. インドネシア語
+Nghĩa: Tiếng Indonesia
+B. 英語
+Nghĩa: Tiếng Anh
+C. 日本語
+Nghĩa: Tiếng Nhật
+D. イタリア語
+Nghĩa: Tiếng Ý
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Aiko nói 「これはインドネシア語ですよ」.
+
+Câu 4:
+[03:07] 質問: 愛子さんは英語が分かりますか。
+Romaji: Aiko-san wa eigo ga wakarimasu ka.
+Nghĩa: Bạn Aiko có hiểu tiếng Anh không?
+
+A. あまり分かりません
+Nghĩa: Không hiểu lắm
+B. よく分かります
+Nghĩa: Hiểu rõ
+C. だいたい分かります
+Nghĩa: Hiểu đại khái
+D. 全然分かりません
+Nghĩa: Hoàn toàn không hiểu
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Aiko nói 「英語があまり分かりません」.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[03:19] A: 佐藤さん、映画のチケットがあります。明日一緒にいかがですか。
+Romaji: Satou-san, eiga no chiketto ga arimasu. Ashita issho ni ikaga desu ka.
+Nghĩa: Bạn Sato, tôi có vé xem phim. Ngày mai đi cùng nhé?
+
+[03:24] B: 明日ですか。
+Romaji: Ashita desu ka.
+Nghĩa: Ngày mai à?
+
+[03:28] B: 明日はちょっと忙しいです。すみません。友達と約束がありますから。
+Romaji: Ashita wa chotto isogashii desu. Sumimasen. Tomodachi to yakusoku ga arimasu kara.
+Nghĩa: Ngày mai tôi hơi bận. Xin lỗi. Vì tôi có hẹn với bạn.
+
+[03:37] A: 佐藤さん、これから地下のレストランでビールを飲みます。一緒にどうですか。
+Romaji: Satou-san, kore kara chika no resutoran de biiru o nomimasu. Issho ni dou desu ka.
+Nghĩa: Bạn Sato, từ bây giờ tôi sẽ uống bia ở nhà hàng tầng hầm. Đi cùng nhé?
+
+[03:42] B: 今晩はちょっと用事がありますから。
+Romaji: Konban wa chotto youji ga arimasu kara.
+Nghĩa: Tối nay tôi có chút việc bận.
+
+[03:48] A: そうですか。じゃ、また。
+Romaji: Sou desu ka. Ja, mata.
+Nghĩa: Vậy à. Hẹn gặp lại.
+
+[03:53] A: このカバン、素敵ですよ。
+Romaji: Kono kaban, suteki desu yo.
+Nghĩa: Cái cặp/túi này đẹp đấy.
+
+[03:58] B: そうですね。いいですね。
+Romaji: Sou desu ne. Ii desu ne.
+Nghĩa: Đúng vậy nhỉ. Đẹp nhỉ.
+
+[04:01] A: いかがですか。
+Romaji: Ikaga desu ka.
+Nghĩa: Bạn thấy sao / mua không?
+
+[04:04] B: 今、お金がありませんから。
+Romaji: Ima, okane ga arimasen kara.
+Nghĩa: Vì bây giờ tôi không có tiền.
+
+[04:13] A: もう6時10分ですよ。コンサートは6時半からですね。
+Romaji: Mou rokuji juppun desu yo. Konsaato wa rokuji han kara desu ne.
+Nghĩa: Đã 6 giờ 10 rồi. Buổi hòa nhạc bắt đầu lúc 6 giờ rưỡi nhỉ.
+
+[04:18] B: 時間がありませんね。じゃ、タクシーで行きませんか。
+Romaji: Jikan ga arimasen ne. Ja, takushii de ikimasen ka.
+Nghĩa: Không có thời gian nhỉ. Vậy đi taxi nhé?
+
+[04:18] A: そうですね。
+Romaji: Sou desu ne.
+Nghĩa: Đúng vậy.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[03:28] 質問: 佐藤さんはどうして映画へ行きませんか。
+Romaji: Satou-san wa doushite eiga e ikimasen ka.
+Nghĩa: Tại sao bạn Sato không đi xem phim?
+
+A. 友達と約束がありますから
+Nghĩa: Vì có hẹn với bạn
+B. お金がありませんから
+Nghĩa: Vì không có tiền
+C. 時間がありませんから
+Nghĩa: Vì không có thời gian
+D. 英語が分かりませんから
+
+Nghĩa: Vì không hiểu tiếng Anh
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Sato nói 「友達と約束がありますから」.
+
+Câu 2:
+[03:42] 質問: 佐藤さんはどうしてビールを飲みに行きませんか。
+Romaji: Satou-san wa doushite biiru o nomi ni ikimasen ka.
+Nghĩa: Tại sao bạn Sato không đi uống bia?
+
+A. 用事がありますから
+Nghĩa: Vì có việc bận
+B. 友達と約束がありますから
+Nghĩa: Vì có hẹn với bạn
+C. お金がありませんから
+Nghĩa: Vì không có tiền
+D. カラオケが好きじゃありませんから
+Nghĩa: Vì không thích karaoke
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Sato nói 「用事がありますから」.
+
+Câu 3:
+[04:04] 質問: どうしてカバンを買いませんか。
+Romaji: Doushite kaban o kaimasen ka.
+Nghĩa: Tại sao không mua cái cặp/túi?
+
+A. お金がありませんから
+Nghĩa: Vì không có tiền
+B. 高いですから
+Nghĩa: Vì đắt
+C. 忙しいですから
+Nghĩa: Vì bận
+D. 好きじゃありませんから
+Nghĩa: Vì không thích
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「今、お金がありませんから」.
+
+Câu 4:
+[04:18] 質問: どうしてタクシーで行きますか。
+Romaji: Doushite takushii de ikimasu ka.
+Nghĩa: Tại sao đi bằng taxi?
+
+A. 時間がありませんから
+Nghĩa: Vì không có thời gian
+B. お金がありますから
+Nghĩa: Vì có tiền
+C. コンサートが好きですから
+Nghĩa: Vì thích buổi hòa nhạc
+D. レストランが遠いですから
+Nghĩa: Vì nhà hàng xa
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「時間がありませんね」.
+
+---
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[04:42] A: すみません。おはようテレビですが、今日はどうして来ましたか。
+Romaji: Sumimasen. Ohayou Terebi desu ga, kyou wa doushite kimashita ka.
+Nghĩa: Xin lỗi. Chúng tôi là Ohayou TV, hôm nay vì sao bạn đến đây?
+
+[04:48] B: Queen Beeのコンサートはとても楽しいですから、いつも来ますよ。
+Romaji: Queen Bee no konsaato wa totemo tanoshii desu kara, itsumo kimasu yo.
+Nghĩa: Vì concert của Queen Bee rất vui nên tôi luôn đến.
+
+[04:57] A: 失礼します。今日はどうして来ましたか。
+Romaji: Shitsurei shimasu. Kyou wa doushite kimashita ka.
+Nghĩa: Xin phép hỏi. Hôm nay vì sao bạn đến đây?
+
+[05:01] C: Queen Beeのダンスはとても素敵ですから、時々テレビで見ますよ。
+Romaji: Queen Bee no dansu wa totemo suteki desu kara, tokidoki terebi de mimasu yo.
+Nghĩa: Vì điệu nhảy của Queen Bee rất đẹp nên thỉnh thoảng tôi xem trên tivi.
+
+[05:16] A: ちょっとすみません。今日は彼と一緒に行きましたか。
+Romaji: Chotto sumimasen. Kyou wa kare to issho ni ikimashita ka.
+Nghĩa: Xin lỗi một chút. Hôm nay bạn đến cùng anh ấy à?
+
+[05:20] D: はい。
+Romaji: Hai.
+Nghĩa: Vâng.
+
+[05:20] A: Queen Beeが好きですか。
+Romaji: Queen Bee ga suki desu ka.
+Nghĩa: Bạn thích Queen Bee à?
+
+[05:29] A: どうして来ましたか。
+Romaji: Doushite kimashita ka.
+Nghĩa: Vì sao bạn đến?
+
+[05:33] D: 友達にチケットをもらいましたから。
+Romaji: Tomodachi ni chiketto o moraimashita kara.
+Nghĩa: Vì tôi được bạn cho vé.
+
+[05:39] A: おはようテレビです。今日は一人で来ましたか。
+Romaji: Ohayou Terebi desu. Kyou wa hitori de kimashita ka.
+Nghĩa: Chúng tôi là Ohayou TV. Hôm nay bạn đến một mình à?
+
+[05:46] E: いつも一人で来ます。
+Romaji: Itsumo hitori de kimasu.
+Nghĩa: Tôi luôn đến một mình.
+
+[05:49] A: Queen Beeが好きですか。
+Romaji: Queen Bee ga suki desu ka.
+Nghĩa: Bạn thích Queen Bee à?
+
+[05:49] E: はい、とても好きです。
+Romaji: Hai, totemo suki desu.
+Nghĩa: Vâng, tôi rất thích.
+
+[05:54] E: Queen Beeは歌が上手ですから、毎日Queen BeeのCDを聞きますよ。
+Romaji: Queen Bee wa uta ga jouzu desu kara, mainichi Queen Bee no CD o kikimasu yo.
+Nghĩa: Vì Queen Bee hát hay nên mỗi ngày tôi nghe CD của Queen Bee.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[04:48] 質問: この人はどうしてQueen Beeのコンサートへ来ますか。
+Romaji: Kono hito wa doushite Queen Bee no konsaato e kimasu ka.
+Nghĩa: Người này vì sao đến concert của Queen Bee?
+
+A. とても楽しいですから
+Nghĩa: Vì rất vui
+B. チケットをもらいましたから
+Nghĩa: Vì được cho vé
+C. 歌が上手ですから
+Nghĩa: Vì hát hay
+D. ダンスが好きじゃありませんから
+Nghĩa: Vì không thích nhảy
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người đó nói 「とても楽しいですから」.
+
+Câu 2:
+[05:01] 質問: この人はどうしてテレビでQueen Beeを見ますか。
+Romaji: Kono hito wa doushite terebi de Queen Bee o mimasu ka.
+Nghĩa: Người này vì sao xem Queen Bee trên tivi?
+
+A. ダンスはとても素敵ですから
+Nghĩa: Vì điệu nhảy rất đẹp
+B. 歌が上手ですから
+Nghĩa: Vì hát hay
+C. お金がありませんから
+Nghĩa: Vì không có tiền
+D. 忙しいですから
+Nghĩa: Vì bận
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「ダンスはとても素敵ですから」.
+
+Câu 3:
+[05:33] 質問: この人はどうして来ましたか。
+Romaji: Kono hito wa doushite kimashita ka.
+Nghĩa: Người này vì sao đến?
+
+A. 友達にチケットをもらいましたから
+Nghĩa: Vì được bạn cho vé
+B. Queen BeeのCDを聞きますから
+Nghĩa: Vì nghe CD của Queen Bee
+C. 彼と約束がありますから
+Nghĩa: Vì có hẹn với anh ấy
+D. コンサートが高いですから
+Nghĩa: Vì concert đắt
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người đó nói 「友達にチケットをもらいましたから」.
+
+Câu 4:
+[05:54] 質問: この人はどうして毎日Queen BeeのCDを聞きますか。
+Romaji: Kono hito wa doushite mainichi Queen Bee no CD o kikimasu ka.
+Nghĩa: Người này vì sao mỗi ngày nghe CD của Queen Bee?
+
+A. 歌が上手ですから
+Nghĩa: Vì hát hay
+B. ダンスが素敵ですから
+Nghĩa: Vì điệu nhảy đẹp
+C. チケットがありますから
+Nghĩa: Vì có vé
+D. 友達が好きですから
+Nghĩa: Vì bạn thích
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「歌が上手ですから」.

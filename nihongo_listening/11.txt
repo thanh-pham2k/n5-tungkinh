@@ -1,0 +1,615 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[06:11] 何をいくつ注文しましたか。
+Romaji: Nani o ikutsu chuumon shimashita ka.
+Nghĩa: Đã gọi món gì và bao nhiêu cái?
+
+[06:22] いらっしゃいませ。
+Romaji: Irasshaimase.
+Nghĩa: Xin chào quý khách.
+
+[06:25] コーヒー一つとミルク一つ。
+Romaji: Koohii hitotsu to miruku hitotsu.
+Nghĩa: Một cà phê và một sữa.
+
+[06:25] はい、かしこまりました。
+Romaji: Hai, kashikomarimashita.
+Nghĩa: Vâng, tôi hiểu rồi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[06:11] 質問: 何をいくつ注文しましたか。
+Romaji: Nani o ikutsu chuumon shimashita ka.
+Nghĩa: Đã gọi món gì và bao nhiêu cái?
+
+A. コーヒー一つとミルク一つ
+Nghĩa: Một cà phê và một sữa
+B. 紅茶一つとサンドイッチ一つ
+Nghĩa: Một trà đen và một bánh sandwich
+C. カレーライス二つ
+Nghĩa: Hai phần cơm cà ri
+D. ジュース二つ
+Nghĩa: Hai ly nước ép
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người khách gọi コーヒー一つ và ミルク一つ.
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[06:32] いらっしゃいませ。こちらへどうぞ。
+Romaji: Irasshaimase. Kochira e douzo.
+Nghĩa: Xin chào quý khách. Xin mời vào đây.
+
+[06:37] 私は紅茶とサンドイッチ。
+Romaji: Watashi wa koucha to sandoicchi.
+Nghĩa: Tôi lấy trà đen và bánh sandwich.
+
+[06:41] 私は、ビールがありますか。
+Romaji: Watashi wa, biiru ga arimasu ka.
+Nghĩa: Tôi thì... có bia không?
+
+[06:41] はい、あります。
+Romaji: Hai, arimasu.
+Nghĩa: Vâng, có.
+
+[06:47] じゃ、ビール。それから、私もサンドイッチください。
+Romaji: Ja, biiru. Sorekara, watashi mo sandoicchi kudasai.
+Nghĩa: Vậy cho tôi bia. Và tôi cũng lấy bánh sandwich.
+
+[06:52] はい、紅茶一つ、ビール一つ、サンドイッチ二つですね。
+Romaji: Hai, koucha hitotsu, biiru hitotsu, sandoicchi futatsu desu ne.
+Nghĩa: Vâng, một trà đen, một bia, hai bánh sandwich đúng không ạ?
+
+[06:57] かしこまりました。
+Romaji: Kashikomarimashita.
+Nghĩa: Tôi hiểu rồi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 何をいくつ注文しましたか。
+Romaji: Nani o ikutsu chuumon shimashita ka.
+Nghĩa: Đã gọi món gì và bao nhiêu cái?
+
+A. 紅茶一つ、ビール一つ、サンドイッチ二つ
+Nghĩa: Một trà đen, một bia, hai bánh sandwich
+B. コーヒー一つ、ミルク一つ
+Nghĩa: Một cà phê, một sữa
+C. カレーライス二つ、ジュース三つ
+Nghĩa: Hai cơm cà ri, ba nước ép
+D. ビール二つ、サンドイッチ一つ
+Nghĩa: Hai bia, một bánh sandwich
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Nhân viên xác nhận: 紅茶一つ、ビール一つ、サンドイッチ二つ.
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[07:01] いらっしゃいませ。
+Romaji: Irasshaimase.
+Nghĩa: Xin chào quý khách.
+
+[07:04] 私はカレーライス。
+Romaji: Watashi wa karee raisu.
+Nghĩa: Tôi lấy cơm cà ri.
+
+[07:08] 私も。
+Romaji: Watashi mo.
+Nghĩa: Tôi cũng vậy.
+
+[07:08] 私はサンドイッチ。
+Romaji: Watashi wa sandoicchi.
+Nghĩa: Tôi lấy bánh sandwich.
+
+[07:11] それから、ジュース。
+Romaji: Sorekara, juusu.
+Nghĩa: Thêm nước ép nữa.
+
+[07:11] 私も。
+Romaji: Watashi mo.
+Nghĩa: Tôi cũng vậy.
+
+[07:17] カレーライス二つとサンドイッチ一つ、ジュース三つですね。
+Romaji: Karee raisu futatsu to sandoicchi hitotsu, juusu mittsu desu ne.
+Nghĩa: Hai cơm cà ri, một bánh sandwich, ba nước ép đúng không ạ?
+
+[07:17] いいえ、ジュースは二つです。
+Romaji: Iie, juusu wa futatsu desu.
+Nghĩa: Không, nước ép là hai ly.
+
+[07:23] かしこまりました。
+Romaji: Kashikomarimashita.
+Nghĩa: Tôi hiểu rồi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 何をいくつ注文しましたか。
+Romaji: Nani o ikutsu chuumon shimashita ka.
+Nghĩa: Đã gọi món gì và bao nhiêu cái?
+
+A. カレーライス二つ、サンドイッチ一つ、ジュース二つ
+Nghĩa: Hai cơm cà ri, một bánh sandwich, hai nước ép
+B. カレーライス一つ、サンドイッチ二つ、ジュース二つ
+Nghĩa: Một cơm cà ri, hai bánh sandwich, hai nước ép
+C. カレーライス二つ、サンドイッチ一つ、ジュース三つ
+Nghĩa: Hai cơm cà ri, một bánh sandwich, ba nước ép
+D. コーヒー二つ、ジュース二つ
+Nghĩa: Hai cà phê, hai nước ép
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Nhân viên nói nhầm ジュース三つ, khách sửa lại là ジュース二つ.
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[07:29] 全部で何枚ありますか。
+Romaji: Zenbu de nanmai arimasu ka.
+Nghĩa: Tổng cộng có bao nhiêu tờ/đĩa?
+
+[07:41] 豊田さん、CDがありますね。何枚ありますか。
+Romaji: Toyoda-san, shiidii ga arimasu ne. Nanmai arimasu ka.
+Nghĩa: Anh Toyoda có CD nhỉ. Có bao nhiêu đĩa?
+
+[07:48] 日本の歌が100枚。
+Romaji: Nihon no uta ga hyakumai.
+Nghĩa: Nhạc Nhật có 100 đĩa.
+
+[07:48] クラシックが200枚。
+Romaji: Kurashikku ga nihyakumai.
+Nghĩa: Nhạc cổ điển có 200 đĩa.
+
+[07:52] ジャズが300枚です。
+Romaji: Jazu ga sanbyakumai desu.
+Nghĩa: Nhạc jazz có 300 đĩa.
+
+[07:52] 妻は音楽の教師ですから。
+Romaji: Tsuma wa ongaku no kyoushi desu kara.
+Nghĩa: Vì vợ tôi là giáo viên âm nhạc.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[07:29] 質問: 全部で何枚ありますか。
+Romaji: Zenbu de nanmai arimasu ka.
+Nghĩa: Tổng cộng có bao nhiêu đĩa?
+
+A. 600枚
+Nghĩa: 600 đĩa
+B. 300枚
+Nghĩa: 300 đĩa
+C. 500枚
+Nghĩa: 500 đĩa
+D. 100枚
+Nghĩa: 100 đĩa
+
+Đáp án đúng: A
+Giải thích ngắn gọn: 100枚 + 200枚 + 300枚 = 600枚.
+
+## Đoạn hội thoại 5
+
+### 1. Script hội thoại
+
+[07:59] これは家族の写真ですか。
+Romaji: Kore wa kazoku no shashin desu ka.
+Nghĩa: Đây là ảnh gia đình à?
+
+[08:04] はい。今年の1月1日に撮りました。
+Romaji: Hai. Kotoshi no ichigatsu tsuitachi ni torimashita.
+Nghĩa: Vâng. Chụp vào ngày 1 tháng 1 năm nay.
+
+[08:09] たくさんいますね。
+Romaji: Takusan imasu ne.
+Nghĩa: Đông người nhỉ.
+
+[08:09] 左から、私、妻、私の両親、妻の両親、そして後ろに子供が5人います。
+Romaji: Hidari kara, watashi, tsuma, watashi no ryoushin, tsuma no ryoushin, soshite ushiro ni kodomo ga gonin imasu.
+Nghĩa: Từ trái sang là tôi, vợ tôi, bố mẹ tôi, bố mẹ vợ tôi, và phía sau có 5 đứa trẻ.
+
+[08:22] 男の子が3人と女の子が2人です。
+Romaji: Otokonoko ga sannin to onnanoko ga futari desu.
+Nghĩa: Có 3 bé trai và 2 bé gái.
+
+[08:22] 家の中はいつも賑やかです。
+Romaji: Ie no naka wa itsumo nigiyaka desu.
+Nghĩa: Trong nhà lúc nào cũng náo nhiệt.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 全部で何人いますか。
+Romaji: Zenbu de nannin imasu ka.
+Nghĩa: Tổng cộng có bao nhiêu người?
+
+A. 11人
+Nghĩa: 11 người
+B. 5人
+Nghĩa: 5 người
+C. 6人
+Nghĩa: 6 người
+D. 9人
+Nghĩa: 9 người
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Tôi + vợ + bố mẹ tôi 2 người + bố mẹ vợ 2 người + 5 con = 11 người.
+
+## Đoạn hội thoại 6
+
+### 1. Script hội thoại
+
+[08:29] 豊田さんは旅行が好きですね。
+Romaji: Toyoda-san wa ryokou ga suki desu ne.
+Nghĩa: Anh Toyoda thích du lịch nhỉ.
+
+[08:34] 去年は何回外国へ行きましたか。
+Romaji: Kyonen wa nankai gaikoku e ikimashita ka.
+Nghĩa: Năm ngoái anh đã đi nước ngoài mấy lần?
+
+[08:39] 去年はアメリカへ3回、インドへ1回、ヨーロッパへ4回行きました。
+Romaji: Kyonen wa Amerika e sankai, Indo e ikkai, Yooroppa e yonkai ikimashita.
+Nghĩa: Năm ngoái tôi đi Mỹ 3 lần, Ấn Độ 1 lần, châu Âu 4 lần.
+
+[08:46] 韓国も2回行きました。
+Romaji: Kankoku mo nikai ikimashita.
+Nghĩa: Hàn Quốc cũng đi 2 lần.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 全部で何回外国へ行きましたか。
+Romaji: Zenbu de nankai gaikoku e ikimashita ka.
+Nghĩa: Tổng cộng đã đi nước ngoài mấy lần?
+
+A. 10回
+Nghĩa: 10 lần
+B. 8回
+Nghĩa: 8 lần
+C. 4回
+Nghĩa: 4 lần
+D. 3回
+Nghĩa: 3 lần
+
+Đáp án đúng: A
+Giải thích ngắn gọn: 3回 + 1回 + 4回 + 2回 = 10回.
+
+## Đoạn hội thoại 7
+
+### 1. Script hội thoại
+
+[08:55] これは豊田さんの車ですか。
+Romaji: Kore wa Toyoda-san no kuruma desu ka.
+Nghĩa: Đây là xe của anh Toyoda à?
+
+[08:55] この黒い車と白い車は私のです。
+Romaji: Kono kuroi kuruma to shiroi kuruma wa watashi no desu.
+Nghĩa: Chiếc xe màu đen và màu trắng này là của tôi.
+
+[09:03] あの赤い車は。
+Romaji: Ano akai kuruma wa.
+Nghĩa: Còn chiếc xe màu đỏ kia thì sao?
+
+[09:03] あれは妻のです。
+Romaji: Are wa tsuma no desu.
+Nghĩa: Cái đó là của vợ tôi.
+
+[09:07] あちらの小さい車は子供のです。
+Romaji: Achira no chiisai kuruma wa kodomo no desu.
+Nghĩa: Chiếc xe nhỏ ở đằng kia là của con tôi.
+
+[09:13] 全部で4台です。
+Romaji: Zenbu de yondai desu.
+Nghĩa: Tổng cộng là 4 chiếc.
+
+[09:13] 私は車が好きですから。
+Romaji: Watashi wa kuruma ga suki desu kara.
+Nghĩa: Vì tôi thích xe hơi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 全部で何台ですか。
+Romaji: Zenbu de nandai desu ka.
+Nghĩa: Tổng cộng có bao nhiêu chiếc xe?
+
+A. 4台
+Nghĩa: 4 chiếc
+B. 2台
+Nghĩa: 2 chiếc
+C. 3台
+Nghĩa: 3 chiếc
+D. 5台
+Nghĩa: 5 chiếc
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có xe đen, xe trắng, xe đỏ và xe nhỏ: tổng cộng 4台.
+
+## Đoạn hội thoại 8
+
+### 1. Script hội thoại
+
+[09:20] 女の人はどこにどのくらいいましたか。
+Romaji: Onna no hito wa doko ni dono kurai imashita ka.
+Nghĩa: Người phụ nữ đã ở đâu và trong bao lâu?
+
+[09:33] 皆さん、こんにちは。私はイギリスから来ました。
+Romaji: Minasan, konnichiwa. Watashi wa Igirisu kara kimashita.
+Nghĩa: Xin chào mọi người. Tôi đến từ Anh.
+
+[09:38] イギリスからエジプトまで飛行機で行きました。
+Romaji: Igirisu kara Ejiputo made hikouki de ikimashita.
+Nghĩa: Tôi đi từ Anh đến Ai Cập bằng máy bay.
+
+[09:42] エジプトからインドまで船で行きました。8日かかりました。
+Romaji: Ejiputo kara Indo made fune de ikimashita. Youka kakarimashita.
+Nghĩa: Tôi đi từ Ai Cập đến Ấn Độ bằng thuyền. Mất 8 ngày.
+
+[09:48] 船の中でいろいろな映画を見ました。
+Romaji: Fune no naka de iroiro na eiga o mimashita.
+Nghĩa: Trên thuyền, tôi đã xem nhiều bộ phim.
+
+[09:57] インドのニューデリーに4か月いました。
+Romaji: Indo no Nyuuderii ni yonkagetsu imashita.
+Nghĩa: Tôi đã ở New Delhi của Ấn Độ 4 tháng.
+
+[09:57] インドのダンスを習いました。
+Romaji: Indo no dansu o naraimashita.
+Nghĩa: Tôi đã học múa Ấn Độ.
+
+[10:15] それから、ベトナムへ来ました。5週間いました。
+Romaji: Sorekara, Betonamu e kimashita. Goshuukan imashita.
+Nghĩa: Sau đó, tôi đến Việt Nam. Tôi đã ở 5 tuần.
+
+[10:20] いろいろな町を見ました。
+Romaji: Iroiro na machi o mimashita.
+Nghĩa: Tôi đã tham quan nhiều thành phố.
+
+[10:28] それから、北京へ行きました。友達の家に1週間いました。
+Romaji: Sorekara, Pekin e ikimashita. Tomodachi no ie ni isshuukan imashita.
+Nghĩa: Sau đó, tôi đi Bắc Kinh. Tôi ở nhà bạn 1 tuần.
+
+[10:35] 中国語を勉強しました。それから、日本へ来ました。
+Romaji: Chuugokugo o benkyou shimashita. Sorekara, Nihon e kimashita.
+Nghĩa: Tôi đã học tiếng Trung. Sau đó, tôi đến Nhật Bản.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[09:20] 質問: 女の人はどこにどのくらいいましたか。
+Romaji: Onna no hito wa doko ni dono kurai imashita ka.
+Nghĩa: Người phụ nữ đã ở đâu và trong bao lâu?
+
+A. インドに4か月、ベトナムに5週間、北京に1週間
+Nghĩa: Ở Ấn Độ 4 tháng, Việt Nam 5 tuần, Bắc Kinh 1 tuần
+B. インドに5週間、ベトナムに4か月、北京に1週間
+Nghĩa: Ở Ấn Độ 5 tuần, Việt Nam 4 tháng, Bắc Kinh 1 tuần
+C. エジプトに8日、インドに1週間、北京に5週間
+Nghĩa: Ở Ai Cập 8 ngày, Ấn Độ 1 tuần, Bắc Kinh 5 tuần
+D. 日本に4か月、ベトナムに1週間、北京に5週間
+Nghĩa: Ở Nhật 4 tháng, Việt Nam 1 tuần, Bắc Kinh 5 tuần
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Bài nói nêu rõ インド4か月、ベトナム5週間、北京1週間.
+
+## Đoạn hội thoại 9
+
+### 1. Script hội thoại
+
+[10:43] 何で送りますか。
+Romaji: Nande okurimasu ka.
+Nghĩa: Gửi bằng gì?
+
+[10:48] どのくらいかかりますか。
+Romaji: Dono kurai kakarimasu ka.
+Nghĩa: Mất bao lâu?
+
+[10:53] すみません。この手紙、北京までエアメールでお願いします。
+Romaji: Sumimasen. Kono tegami, Pekin made eameeru de onegai shimasu.
+Nghĩa: Xin lỗi. Bức thư này gửi đến Bắc Kinh bằng đường hàng không giúp tôi.
+
+[11:00] どのくらいかかりますか。
+Romaji: Dono kurai kakarimasu ka.
+Nghĩa: Mất bao lâu?
+
+[11:00] 1週間ぐらいです。
+Romaji: Isshuukan gurai desu.
+Nghĩa: Khoảng 1 tuần.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 何で送りますか。
+Romaji: Nande okurimasu ka.
+Nghĩa: Gửi bằng gì?
+
+A. エアメール
+Nghĩa: Đường hàng không / airmail
+B. 船便
+Nghĩa: Đường biển
+C. 速達
+Nghĩa: Chuyển phát nhanh
+D. 電話
+Nghĩa: Điện thoại
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói yêu cầu エアメールでお願いします.
+
+Câu 2:
+質問: どのくらいかかりますか。
+Romaji: Dono kurai kakarimasu ka.
+Nghĩa: Mất bao lâu?
+
+A. 1週間ぐらい
+Nghĩa: Khoảng 1 tuần
+B. 3か月ぐらい
+Nghĩa: Khoảng 3 tháng
+C. 3日
+Nghĩa: 3 ngày
+D. 8日
+Nghĩa: 8 ngày
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Nhân viên trả lời 1週間ぐらいです.
+
+## Đoạn hội thoại 10
+
+### 1. Script hội thoại
+
+[11:06] すみません。
+Romaji: Sumimasen.
+Nghĩa: Xin lỗi.
+
+[11:09] この荷物、インドまでいくらですか。
+Romaji: Kono nimotsu, Indo made ikura desu ka.
+Nghĩa: Gói hàng này gửi đến Ấn Độ bao nhiêu tiền?
+
+[11:09] 船便ですか。航空便ですか。
+Romaji: Funabin desu ka. Koukuubin desu ka.
+Nghĩa: Gửi đường biển hay đường hàng không?
+
+[11:16] 船便でどのくらいかかりますか。
+Romaji: Funabin de dono kurai kakarimasu ka.
+Nghĩa: Gửi đường biển mất bao lâu?
+
+[11:16] 3か月ぐらいかかりますね。
+Romaji: Sankagetsu gurai kakarimasu ne.
+Nghĩa: Mất khoảng 3 tháng.
+
+[11:22] じゃ、航空便でどのくらいですか。
+Romaji: Ja, koukuubin de dono kurai desu ka.
+Nghĩa: Vậy gửi đường hàng không mất bao lâu?
+
+[11:27] 航空便で1週間です。
+Romaji: Koukuubin de isshuukan desu.
+Nghĩa: Gửi đường hàng không mất 1 tuần.
+
+[11:27] いくらですか。
+Romaji: Ikura desu ka.
+Nghĩa: Bao nhiêu tiền?
+
+[11:33] 2300円です。
+Romaji: Nisen sanbyaku en desu.
+Nghĩa: 2.300 yên.
+
+[11:37] じゃ、船便でお願いします。
+Romaji: Ja, funabin de onegai shimasu.
+Nghĩa: Vậy gửi đường biển giúp tôi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 何で送りますか。
+Romaji: Nande okurimasu ka.
+Nghĩa: Gửi bằng gì?
+
+A. 船便
+Nghĩa: Đường biển
+B. 航空便
+Nghĩa: Đường hàng không
+C. エアメール
+Nghĩa: Airmail
+D. 速達
+Nghĩa: Chuyển phát nhanh
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Cuối cùng người nói chọn 船便でお願いします.
+
+Câu 2:
+質問: 航空便でどのくらいかかりますか。
+Romaji: Koukuubin de dono kurai kakarimasu ka.
+Nghĩa: Gửi đường hàng không mất bao lâu?
+
+A. 1週間
+Nghĩa: 1 tuần
+B. 3か月
+Nghĩa: 3 tháng
+C. 3日
+Nghĩa: 3 ngày
+D. 5週間
+Nghĩa: 5 tuần
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Nhân viên nói 航空便で1週間です.
+
+## Đoạn hội thoại 11
+
+### 1. Script hội thoại
+
+[11:41] すみません。手紙と一緒にお金を送ります。
+Romaji: Sumimasen. Tegami to issho ni okane o okurimasu.
+Nghĩa: Xin lỗi. Tôi gửi tiền cùng với thư.
+
+[11:47] 日本ですか。外国ですか。
+Romaji: Nihon desu ka. Gaikoku desu ka.
+Nghĩa: Trong Nhật hay nước ngoài?
+
+[11:47] 北海道です。
+Romaji: Hokkaidou desu.
+Nghĩa: Hokkaido.
+
+[11:52] いくら送りますか。
+Romaji: Ikura okurimasu ka.
+Nghĩa: Gửi bao nhiêu tiền?
+
+[11:52] 5万円です。
+Romaji: Goman en desu.
+Nghĩa: 50.000 yên.
+
+[11:57] じゃあ、この封筒に名前をお願いします。
+Romaji: Jaa, kono fuutou ni namae o onegai shimasu.
+Nghĩa: Vậy xin hãy ghi tên vào phong bì này.
+
+[11:57] はい。
+Romaji: Hai.
+Nghĩa: Vâng.
+
+[12:03] どのくらいかかりますか。
+Romaji: Dono kurai kakarimasu ka.
+Nghĩa: Mất bao lâu?
+
+[12:03] 3日です。
+Romaji: Mikka desu.
+Nghĩa: 3 ngày.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: いくら送りますか。
+Romaji: Ikura okurimasu ka.
+Nghĩa: Gửi bao nhiêu tiền?
+
+A. 5万円
+Nghĩa: 50.000 yên
+B. 2300円
+Nghĩa: 2.300 yên
+C. 300円
+Nghĩa: 300 yên
+D. 1万円
+Nghĩa: 10.000 yên
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói trả lời 5万円です.
+
+Câu 2:
+質問: どのくらいかかりますか。
+Romaji: Dono kurai kakarimasu ka.
+Nghĩa: Mất bao lâu?
+
+A. 3日
+Nghĩa: 3 ngày
+B. 1週間
+Nghĩa: 1 tuần
+C. 3か月
+Nghĩa: 3 tháng
+D. 8日
+Nghĩa: 8 ngày
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Nhân viên trả lời 3日です.

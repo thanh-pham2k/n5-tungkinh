@@ -18,7 +18,7 @@ OUTPUT_DIR = BASE_DIR / "anki"
 LESSON_COUNT = 25
 PARENT_DECK_NAME = "JLPT_NIHONGO_QUIZ"
 
-MODEL_ID = 2026060303
+MODEL_ID = 2026060305
 DECK_ID_BASE = 202606030100
 
 
@@ -206,22 +206,48 @@ def make_model() -> genanki.Model:
 <div class="meta">Bài {{Lesson}} - Block {{Block}}: {{BlockTitle}}</div>
 <div class="question">{{Question}}</div>
 <div class="options" data-answer="{{Answer}}">
-  <button type="button" class="choice {{ClassA}}" onclick="selectAnswer(this)">A. {{OptionA}}</button>
-  <button type="button" class="choice {{ClassB}}" onclick="selectAnswer(this)">B. {{OptionB}}</button>
-  <button type="button" class="choice {{ClassC}}" onclick="selectAnswer(this)">C. {{OptionC}}</button>
-  <button type="button" class="choice {{ClassD}}" onclick="selectAnswer(this)">D. {{OptionD}}</button>
+  <label class="choice-row">
+    <input type="radio" name="answer-{{ID}}" value="A" data-correct="{{ClassA}}" onclick="selectAnswer(this)">
+    <span class="choice-text">A. {{OptionA}}</span>
+  </label>
+  <label class="choice-row">
+    <input type="radio" name="answer-{{ID}}" value="B" data-correct="{{ClassB}}" onclick="selectAnswer(this)">
+    <span class="choice-text">B. {{OptionB}}</span>
+  </label>
+  <label class="choice-row">
+    <input type="radio" name="answer-{{ID}}" value="C" data-correct="{{ClassC}}" onclick="selectAnswer(this)">
+    <span class="choice-text">C. {{OptionC}}</span>
+  </label>
+  <label class="choice-row">
+    <input type="radio" name="answer-{{ID}}" value="D" data-correct="{{ClassD}}" onclick="selectAnswer(this)">
+    <span class="choice-text">D. {{OptionD}}</span>
+  </label>
 </div>
+<div class="result" aria-live="polite"></div>
 <script>
-function selectAnswer(button) {
-  var container = button.parentElement;
-  var buttons = container.querySelectorAll(".choice");
-  for (var i = 0; i < buttons.length; i++) {
-    buttons[i].classList.remove("selected-correct", "selected-wrong");
+function answerText(root, text) {
+  var result = root.querySelector(".result");
+  if (result) {
+    result.textContent = text;
   }
-  if (button.classList.contains("correct")) {
-    button.classList.add("selected-correct");
+}
+function selectAnswer(input) {
+  var root = input.closest(".card") || document;
+  var rows = root.querySelectorAll(".choice-row");
+  for (var i = 0; i < rows.length; i++) {
+    rows[i].classList.remove("selected-correct", "selected-wrong");
+  }
+  var row = input.closest(".choice-row");
+  if (input.dataset.correct === "correct") {
+    if (row) {
+      row.classList.add("selected-correct");
+    }
+    answerText(root, "Đúng");
   } else {
-    button.classList.add("selected-wrong");
+    if (row) {
+      row.classList.add("selected-wrong");
+    }
+    answerText(root, "Sai");
   }
 }
 </script>
@@ -244,9 +270,10 @@ function selectAnswer(button) {
   background: #ffffff;
   color: #172033;
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 22px;
+  line-height: 1.45;
   text-align: left;
+  user-select: text;
 }
 .meta {
   color: #5c667a;
@@ -254,39 +281,42 @@ function selectAnswer(button) {
   margin-bottom: 10px;
 }
 .question {
-  font-size: 22px;
+  font-size: inherit;
   margin-bottom: 10px;
+  user-select: text;
 }
 .options {
   display: grid;
   gap: 4px;
+  margin-top: 8px;
 }
-.choice {
-  appearance: none;
-  background: #f7f8fb;
-  border: 1px solid #cfd6e4;
-  border-radius: 6px;
-  color: #172033;
+.choice-row {
+  align-items: baseline;
   cursor: pointer;
-  display: block;
-  font: inherit;
-  font-size: 22px;
-  line-height: 1.35;
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 18px minmax(0, 1fr);
   margin: 0;
-  min-height: 36px;
-  padding: 7px 10px;
-  text-align: left;
-  width: 100%;
+  padding: 1px 0;
 }
-.choice.selected-correct {
-  background: #e8f6ed;
-  border-color: #16833a;
-  color: #11602d;
+.choice-row input[type="radio"] {
+  margin: 0;
 }
-.choice.selected-wrong {
-  background: #fdecec;
-  border-color: #c92a2a;
-  color: #9f1c1c;
+.choice-text {
+  font-size: inherit;
+  line-height: inherit;
+  user-select: text;
+}
+.choice-row.selected-correct .choice-text {
+  background: #dff5e7;
+  color: #12662f;
+}
+.choice-row.selected-wrong .choice-text {
+  background: #fde2e2;
+  color: #9b1c1c;
+}
+.result {
+  margin-top: 8px;
 }
 hr {
   border: none;
@@ -296,6 +326,8 @@ hr {
 .back {
   display: grid;
   gap: 6px;
+  font-size: inherit;
+  user-select: text;
 }
 .label {
   color: #4d5b72;

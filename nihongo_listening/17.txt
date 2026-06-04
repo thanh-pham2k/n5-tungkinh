@@ -1,0 +1,647 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[07:50] 学生は旅行に行きます。何をしてはいけませんか。
+Romaji: Gakusei wa ryokou ni ikimasu. Nani o shite wa ikemasen ka.
+Nghĩa: Học sinh đi du lịch. Không được làm gì?
+
+[07:59] 皆さん、明日から旅行に行きます。
+Romaji: Minasan, ashita kara ryokou ni ikimasu.
+Nghĩa: Mọi người, từ ngày mai chúng ta sẽ đi du lịch.
+
+[07:59] パスポートや切符は大切ですから、なくさないでください。
+Romaji: Pasupooto ya kippu wa taisetsu desu kara, nakusanaide kudasai.
+Nghĩa: Hộ chiếu và vé rất quan trọng, nên đừng làm mất.
+
+[08:05] ホテルの部屋は禁煙ですから、部屋でタバコを吸わないでください。
+Romaji: Hoteru no heya wa kin’en desu kara, heya de tabako o suwanaide kudasai.
+Nghĩa: Phòng khách sạn cấm hút thuốc, nên đừng hút thuốc trong phòng.
+
+[08:09] それから、夜は一人で出かけないでください。
+Romaji: Sorekara, yoru wa hitori de dekakenaide kudasai.
+Nghĩa: Ngoài ra, buổi tối đừng đi ra ngoài một mình.
+
+[08:17] 分かりました。
+Romaji: Wakarimashita.
+Nghĩa: Đã hiểu.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[07:50] 質問: 何をしてはいけませんか。
+Romaji: Nani o shite wa ikemasen ka.
+Nghĩa: Không được làm gì?
+
+A. 部屋でタバコを吸ってはいけません
+Nghĩa: Không được hút thuốc trong phòng
+B. パスポートを持ってはいけません
+Nghĩa: Không được mang hộ chiếu
+C. 切符を買ってはいけません
+Nghĩa: Không được mua vé
+D. 朝、一人で出かけてはいけません
+Nghĩa: Không được ra ngoài một mình buổi sáng
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Vì phòng khách sạn cấm hút thuốc nên không được hút thuốc trong phòng.
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[08:26] 皆さん、今から飛行機に乗ります。
+Romaji: Minasan, ima kara hikouki ni norimasu.
+Nghĩa: Mọi người, bây giờ chúng ta sẽ lên máy bay.
+
+[08:26] 乗ってから10分ぐらいコンピューターや携帯電話を使わないでください。
+Romaji: Notte kara juppun gurai konpyuutaa ya keitai denwa o tsukawanaide kudasai.
+Nghĩa: Sau khi lên máy bay, khoảng 10 phút đừng dùng máy tính hay điện thoại.
+
+[08:32] 危ないですから、歩かないでください。
+Romaji: Abunai desu kara, arukanaide kudasai.
+Nghĩa: Vì nguy hiểm, đừng đi lại.
+
+[08:38] それから、トイレも行かないでください。
+Romaji: Sorekara, toire mo ikanaide kudasai.
+Nghĩa: Ngoài ra, cũng đừng đi vệ sinh.
+
+[08:43] 10分ぐらいですね。
+Romaji: Juppun gurai desu ne.
+Nghĩa: Khoảng 10 phút nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 飛行機に乗ってから、何をしてはいけませんか。
+Romaji: Hikouki ni notte kara, nani o shite wa ikemasen ka.
+Nghĩa: Sau khi lên máy bay, không được làm gì?
+
+A. コンピューターや携帯電話を使ってはいけません
+Nghĩa: Không được dùng máy tính hay điện thoại
+B. 水を飲んではいけません
+Nghĩa: Không được uống nước
+C. 本を読んではいけません
+Nghĩa: Không được đọc sách
+D. 寝てはいけません
+Nghĩa: Không được ngủ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người hướng dẫn nói không được dùng máy tính và điện thoại trong khoảng 10 phút.
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[08:49] 皆さん、ここは有名な美術館です。
+Romaji: Minasan, koko wa yuumei na bijutsukan desu.
+Nghĩa: Mọi người, đây là bảo tàng mỹ thuật nổi tiếng.
+
+[08:49] 写真は大切ですから、触らないでください。
+Romaji: Shashin wa taisetsu desu kara, sawaranaide kudasai.
+Nghĩa: Tranh/ảnh rất quan trọng nên đừng chạm vào.
+
+[08:59] 先生、写真を撮ってもいいですか。
+Romaji: Sensei, shashin o totte mo ii desu ka.
+Nghĩa: Thưa thầy/cô, chụp ảnh được không?
+
+[08:59] いいえ、写真も撮らないでください。
+Romaji: Iie, shashin mo toranaide kudasai.
+Nghĩa: Không, cũng đừng chụp ảnh.
+
+[09:04] はい、分かりました。
+Romaji: Hai, wakarimashita.
+Nghĩa: Vâng, em hiểu rồi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 美術館で何をしてはいけませんか。
+Romaji: Bijutsukan de nani o shite wa ikemasen ka.
+Nghĩa: Ở bảo tàng mỹ thuật không được làm gì?
+
+A. 写真に触ったり、写真を撮ったりしてはいけません
+Nghĩa: Không được chạm vào tranh/ảnh và không được chụp ảnh
+B. 先生に質問してはいけません
+Nghĩa: Không được hỏi giáo viên
+C. 美術館に入ってはいけません
+Nghĩa: Không được vào bảo tàng
+D. 静かに見てはいけません
+Nghĩa: Không được xem yên lặng
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người hướng dẫn nói không được chạm và không được chụp ảnh.
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[09:08] 皆さん、ここは国の図書館です。
+Romaji: Minasan, koko wa kuni no toshokan desu.
+Nghĩa: Mọi người, đây là thư viện quốc gia.
+
+[09:14] 大切な本がたくさんあります。
+Romaji: Taisetsu na hon ga takusan arimasu.
+Nghĩa: Có rất nhiều sách quan trọng.
+
+[09:18] 飲み物や食べ物はカバンの中に入れてください。
+Romaji: Nomimono ya tabemono wa kaban no naka ni irete kudasai.
+Nghĩa: Hãy cho đồ uống và đồ ăn vào trong cặp/túi.
+
+[09:22] 図書館の中で出さないでください。
+Romaji: Toshokan no naka de dasanaide kudasai.
+Nghĩa: Đừng lấy ra trong thư viện.
+
+[09:29] 中で話さないでくださいよ。
+Romaji: Naka de hanasanaide kudasai yo.
+Nghĩa: Đừng nói chuyện bên trong nhé.
+
+[09:36] みんな本を読んでいますから。
+Romaji: Minna hon o yonde imasu kara.
+Nghĩa: Vì mọi người đang đọc sách.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 図書館で何をしてはいけませんか。
+Romaji: Toshokan de nani o shite wa ikemasen ka.
+Nghĩa: Ở thư viện không được làm gì?
+
+A. 飲み物や食べ物を出したり、話したりしてはいけません
+Nghĩa: Không được lấy đồ ăn/uống ra và không được nói chuyện
+B. 本を読んではいけません
+Nghĩa: Không được đọc sách
+C. カバンを持ってはいけません
+Nghĩa: Không được mang túi
+D. 図書館に入ってはいけません
+Nghĩa: Không được vào thư viện
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người hướng dẫn yêu cầu cất đồ ăn/uống và không nói chuyện trong thư viện.
+
+## Đoạn hội thoại 5
+
+### 1. Script hội thoại
+
+[09:48] 女の人は何と言いますか。
+Romaji: Onna no hito wa nan to iimasu ka.
+Nghĩa: Người phụ nữ sẽ nói gì?
+
+[09:53] 佐藤さん、風邪はどうですか。もう大丈夫ですか。
+Romaji: Satou-san, kaze wa dou desu ka. Mou daijoubu desu ka.
+Nghĩa: Anh/chị Sato, cảm thế nào rồi? Đã ổn chưa?
+
+[10:00] たくさんありがとうございます。
+Romaji: Takusan arigatou gozaimasu.
+Nghĩa: Cảm ơn rất nhiều.
+
+[10:03] 昨日はテニスをしました。
+Romaji: Kinou wa tenisu o shimashita.
+Nghĩa: Hôm qua tôi đã chơi tennis.
+
+[10:07] テニス、大丈夫ですか。
+Romaji: Tenisu, daijoubu desu ka.
+Nghĩa: Tennis à, có ổn không?
+
+[10:07] もう元気ですから。
+Romaji: Mou genki desu kara.
+Nghĩa: Vì tôi đã khỏe rồi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[09:48] 質問: 女の人は何と言いますか。
+Romaji: Onna no hito wa nan to iimasu ka.
+Nghĩa: Người phụ nữ sẽ nói gì?
+
+A. 心配しないでください
+Nghĩa: Xin đừng lo lắng
+B. 心配してはいけません
+Nghĩa: Không được lo lắng
+C. 心配しません
+Nghĩa: Tôi không lo lắng
+D. テニスをしないでください
+Nghĩa: Xin đừng chơi tennis
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Sato nói đã khỏe rồi, nên câu phù hợp là “đừng lo”.
+
+## Đoạn hội thoại 6
+
+### 1. Script hội thoại
+
+[10:31] パクさん、お仕事はどうですか。
+Romaji: Paku-san, oshigoto wa dou desu ka.
+Nghĩa: Park, công việc thế nào?
+
+[10:35] 忙しいです。毎日残業です。
+Romaji: Isogashii desu. Mainichi zangyou desu.
+Nghĩa: Bận lắm. Ngày nào cũng tăng ca.
+
+[10:39] そうですか。大変ですね。
+Romaji: Sou desu ka. Taihen desu ne.
+Nghĩa: Vậy à. Vất vả quá nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 女の人は何と言いますか。
+Romaji: Onna no hito wa nan to iimasu ka.
+Nghĩa: Người phụ nữ sẽ nói gì?
+
+A. 週末はゆっくり休んでください
+Nghĩa: Cuối tuần hãy nghỉ ngơi thư thả
+B. 週末は休まないでください
+Nghĩa: Cuối tuần đừng nghỉ
+C. 週末は仕事をしてもいいですよ
+Nghĩa: Cuối tuần làm việc cũng được
+D. 毎日残業してください
+Nghĩa: Hãy tăng ca mỗi ngày
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Park rất bận và tăng ca mỗi ngày, nên nên khuyên nghỉ ngơi cuối tuần.
+
+## Đoạn hội thoại 7
+
+### 1. Script hội thoại
+
+[11:05] パクさん、来月国へ帰りますね。
+Romaji: Paku-san, raigetsu kuni e kaerimasu ne.
+Nghĩa: Park, tháng sau anh/chị về nước nhỉ.
+
+[11:05] もう少し日本にいたいですが、残念です。
+Romaji: Mou sukoshi Nihon ni itai desu ga, zannen desu.
+Nghĩa: Tôi muốn ở Nhật thêm chút nữa, nhưng tiếc quá.
+
+[11:13] 一緒にいろいろな所へ行って、お酒を飲みましたね。
+Romaji: Issho ni iroiro na tokoro e itte, osake o nomimashita ne.
+Nghĩa: Chúng ta đã cùng đi nhiều nơi và uống rượu nhỉ.
+
+[11:17] 楽しかったです。
+Romaji: Tanoshikatta desu.
+Nghĩa: Rất vui.
+
+[11:20] パクさんはお酒が好きですね。
+Romaji: Paku-san wa osake ga suki desu ne.
+Nghĩa: Park thích rượu nhỉ.
+
+[11:20] でも、体は大切ですから。
+Romaji: Demo, karada wa taisetsu desu kara.
+Nghĩa: Nhưng sức khỏe rất quan trọng.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 女の人は何と言いますか。
+Romaji: Onna no hito wa nan to iimasu ka.
+Nghĩa: Người phụ nữ sẽ nói gì?
+
+A. たくさん飲まないでくださいね
+Nghĩa: Đừng uống nhiều nhé
+B. たくさん飲んでくださいね
+Nghĩa: Hãy uống nhiều nhé
+C. たくさん飲みましょう
+Nghĩa: Cùng uống nhiều nhé
+D. お酒を買ってくださいね
+Nghĩa: Hãy mua rượu nhé
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Vì sức khỏe quan trọng, nên không nên uống nhiều.
+
+## Đoạn hội thoại 8
+
+### 1. Script hội thoại
+
+[11:44] パクさん、もう国に荷物を送りましたか。
+Romaji: Paku-san, mou kuni ni nimotsu o okurimashita ka.
+Nghĩa: Park, bạn đã gửi hành lý về nước chưa?
+
+[11:50] もう送りました。
+Romaji: Mou okurimashita.
+Nghĩa: Tôi gửi rồi.
+
+[11:50] たくさん手紙をくださいね。
+Romaji: Takusan tegami o kudasai ne.
+Nghĩa: Hãy gửi nhiều thư nhé.
+
+[11:57] 私、来年韓国へ行きます。
+Romaji: Watashi, rainen Kankoku e ikimasu.
+Nghĩa: Năm sau tôi sẽ đi Hàn Quốc.
+
+[11:57] パクさんに会って話したいですから。
+Romaji: Paku-san ni atte hanashitai desu kara.
+Nghĩa: Vì tôi muốn gặp Park và nói chuyện.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 女の人は何と言いますか。
+Romaji: Onna no hito wa nan to iimasu ka.
+Nghĩa: Người phụ nữ sẽ nói gì?
+
+A. 日本語を忘れないでくださいね
+Nghĩa: Đừng quên tiếng Nhật nhé
+B. 私を覚えてくださいね
+Nghĩa: Hãy nhớ tôi nhé
+C. 日本を思い出してくださいね
+Nghĩa: Hãy nhớ về Nhật nhé
+D. 韓国へ行かないでくださいね
+Nghĩa: Đừng đi Hàn Quốc nhé
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người phụ nữ muốn năm sau gặp và nói chuyện với Park, nên nhắc Park đừng quên tiếng Nhật.
+
+## Đoạn hội thoại 9
+
+### 1. Script hội thoại
+
+[12:26] サントスさんはどうして行きませんか。
+Romaji: Santosu-san wa doushite ikimasen ka.
+Nghĩa: Tại sao Santos không đi?
+
+[12:36] もう12時ですね。昼ごはんを食べに行きませんか。
+Romaji: Mou juuniji desu ne. Hirugohan o tabe ni ikimasen ka.
+Nghĩa: Đã 12 giờ rồi. Đi ăn trưa không?
+
+[12:40] すみません。このレポートを1時までにブラジルに送らなければなりません。
+Romaji: Sumimasen. Kono repooto o ichiji made ni Burajiru ni okuranakereba narimasen.
+Nghĩa: Xin lỗi. Tôi phải gửi báo cáo này đến Brazil trước 1 giờ.
+
+[12:44] そうですか。後で行きます。
+Romaji: Sou desu ka. Ato de ikimasu.
+Nghĩa: Vậy à. Tôi sẽ đi sau.
+
+[12:48] いつものレストランですね。
+Romaji: Itsumo no resutoran desu ne.
+Nghĩa: Nhà hàng thường đi nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[12:26] 質問: サントスさんはどうして行きませんか。
+Romaji: Santosu-san wa doushite ikimasen ka.
+Nghĩa: Tại sao Santos không đi?
+
+A. 1時までにレポートをブラジルに送らなければなりませんから
+Nghĩa: Vì phải gửi báo cáo đến Brazil trước 1 giờ
+B. 病院へ行かなければなりませんから
+Nghĩa: Vì phải đi bệnh viện
+C. 空港へ迎えに行かなければなりませんから
+D. ヨーロッパへ出張しなければなりませんから
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Santos phải gửi báo cáo đến Brazil trước 1 giờ.
+
+## Đoạn hội thoại 10
+
+### 1. Script hội thoại
+
+[12:53] 日曜日、サッカーを見に行きませんか。
+Romaji: Nichiyoubi, sakkaa o mi ni ikimasen ka.
+Nghĩa: Chủ Nhật đi xem bóng đá không?
+
+[12:59] 行きたいですが……。
+Romaji: Ikitai desu ga...
+Nghĩa: Tôi muốn đi nhưng...
+
+[13:03] 日曜日は国から妻の両親が来ますから、だめです。
+Romaji: Nichiyoubi wa kuni kara tsuma no ryoushin ga kimasu kara, dame desu.
+Nghĩa: Chủ Nhật bố mẹ vợ từ nước tôi đến nên không được.
+
+[13:08] 空港へ迎えに行かなければなりません。
+Romaji: Kuukou e mukae ni ikanakereba narimasen.
+Nghĩa: Tôi phải đi sân bay đón.
+
+[13:12] そうですか。残念です。また今度お願いします。
+Romaji: Sou desu ka. Zannen desu. Mata kondo onegai shimasu.
+Nghĩa: Vậy à. Tiếc quá. Lần sau nhé.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: サントスさんはどうして行きませんか。
+Romaji: Santosu-san wa doushite ikimasen ka.
+Nghĩa: Tại sao Santos không đi?
+
+A. 空港へ妻の両親を迎えに行かなければなりませんから
+Nghĩa: Vì phải đi sân bay đón bố mẹ vợ
+B. レポートを書かなければなりませんから
+Nghĩa: Vì phải viết báo cáo
+C. 日本語を勉強しなければなりませんから
+D. 病院へ行かなければなりませんから
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Santos nói Chủ Nhật phải đi sân bay đón bố mẹ vợ.
+
+## Đoạn hội thoại 11
+
+### 1. Script hội thoại
+
+[13:18] サントスさん、週末にスキーに行きませんか。マリアさんも一緒に。
+Romaji: Santosu-san, shuumatsu ni sukii ni ikimasen ka. Maria-san mo issho ni.
+Nghĩa: Santos, cuối tuần đi trượt tuyết không? Maria cũng đi cùng.
+
+[13:26] スキーですか。いいですね。
+Romaji: Sukii desu ka. Ii desu ne.
+Nghĩa: Trượt tuyết à? Hay đấy.
+
+[13:29] でも、来週の月曜日からヨーロッパへ出張しなければなりません。
+Romaji: Demo, raishuu no getsuyoubi kara Yooroppa e shutchou shinakereba narimasen.
+Nghĩa: Nhưng từ thứ Hai tuần sau tôi phải đi công tác châu Âu.
+
+[13:34] 行きたいですが。
+Romaji: Ikitai desu ga.
+Nghĩa: Tôi muốn đi nhưng...
+
+[13:38] そうですか。残念です。
+Romaji: Sou desu ka. Zannen desu.
+Nghĩa: Vậy à. Tiếc quá.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: サントスさんはどうして行きませんか。
+Romaji: Santosu-san wa doushite ikimasen ka.
+Nghĩa: Tại sao Santos không đi?
+
+A. 来週の月曜日からヨーロッパへ出張しなければなりませんから
+Nghĩa: Vì từ thứ Hai tuần sau phải đi công tác châu Âu
+B. 妻の両親を迎えに行きますから
+Nghĩa: Vì đi đón bố mẹ vợ
+C. レポートを送りますから
+Nghĩa: Vì gửi báo cáo
+D. 風邪ですから
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Santos phải đi công tác châu Âu từ thứ Hai tuần sau.
+
+## Đoạn hội thoại 12
+
+### 1. Script hội thoại
+
+[13:44] サントスさんは病院へ行きました。何をしなければなりませんか。
+Romaji: Santosu-san wa byouin e ikimashita. Nani o shinakereba narimasen ka.
+Nghĩa: Santos đã đi bệnh viện. Anh ấy phải làm gì?
+
+[13:56] ここに住所と名前を書いてください。
+Romaji: Koko ni juusho to namae o kaite kudasai.
+Nghĩa: Hãy viết địa chỉ và tên vào đây.
+
+[13:56] それから、この質問を読んで答えを書いてください。
+Romaji: Sorekara, kono shitsumon o yonde kotae o kaite kudasai.
+Nghĩa: Sau đó hãy đọc câu hỏi này và viết câu trả lời.
+
+[14:06] すみません。私は漢字が分かりません。
+Romaji: Sumimasen. Watashi wa kanji ga wakarimasen.
+Nghĩa: Xin lỗi. Tôi không hiểu Kanji.
+
+[14:11] じゃあ、書かなくてもいいです。
+Romaji: Jaa, kakanakute mo ii desu.
+Nghĩa: Vậy không viết cũng được.
+
+[14:11] 私が質問を読みますから、答えをお願いします。
+Romaji: Watashi ga shitsumon o yomimasu kara, kotae o onegai shimasu.
+Nghĩa: Tôi sẽ đọc câu hỏi, nên hãy trả lời giúp tôi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[13:44] 質問: サントスさんは何をしなければなりませんか。
+Romaji: Santosu-san wa nani o shinakereba narimasen ka.
+Nghĩa: Santos phải làm gì?
+
+A. 住所と名前を書かなければなりません
+Nghĩa: Phải viết địa chỉ và tên
+B. 漢字を書かなければなりません
+Nghĩa: Phải viết Kanji
+C. 質問を読まなければなりません
+D. 病院へ行かなくてもいいです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Ban đầu nhân viên yêu cầu viết địa chỉ và tên; phần câu hỏi thì nhân viên sẽ đọc giúp.
+
+## Đoạn hội thoại 13
+
+### 1. Script hội thoại
+
+[14:20] サントスさん、どうぞ。
+Romaji: Santosu-san, douzo.
+Nghĩa: Anh Santos, xin mời.
+
+[14:24] こちらで服を脱いでください。
+Romaji: Kochira de fuku o nuide kudasai.
+Nghĩa: Hãy cởi quần áo ở đây.
+
+[14:24] はい。あの、下着も脱ぎますか。
+Romaji: Hai. Ano, shitagi mo nugimasu ka.
+Nghĩa: Vâng. À, có cởi cả đồ lót không?
+
+[14:32] いいえ、下着は脱がなくてもいいです。
+Romaji: Iie, shitagi wa nuganakute mo ii desu.
+Nghĩa: Không, đồ lót không cần cởi cũng được.
+
+[14:32] 上のシャツだけ脱いでください。
+Romaji: Ue no shatsu dake nuide kudasai.
+Nghĩa: Chỉ cần cởi áo phía trên.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: サントスさんは何をしなければなりませんか。
+Romaji: Santosu-san wa nani o shinakereba narimasen ka.
+Nghĩa: Santos phải làm gì?
+
+A. 上のシャツだけ脱がなければなりません
+Nghĩa: Chỉ phải cởi áo phía trên
+B. 下着も脱がなければなりません
+Nghĩa: Phải cởi cả đồ lót
+C. 服を全部脱がなければなりません
+D. 何も脱がなくてもいいです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Nhân viên nói chỉ cần cởi áo phía trên.
+
+## Đoạn hội thoại 14
+
+### 1. Script hội thoại
+
+[14:41] この薬はいつ飲みますか。
+Romaji: Kono kusuri wa itsu nomimasu ka.
+Nghĩa: Thuốc này uống khi nào?
+
+[14:41] 白い薬は朝、昼、晩の3回。
+Romaji: Shiroi kusuri wa asa, hiru, ban no sankai.
+Nghĩa: Thuốc màu trắng uống 3 lần: sáng, trưa, tối.
+
+[14:47] 赤い薬は朝と晩だけ飲んでください。
+Romaji: Akai kusuri wa asa to ban dake nonde kudasai.
+Nghĩa: Thuốc màu đỏ chỉ uống buổi sáng và tối.
+
+[14:47] 昼は飲まなくてもいいです。
+Romaji: Hiru wa nomanakute mo ii desu.
+Nghĩa: Buổi trưa không uống cũng được.
+
+[14:53] はい。
+Romaji: Hai.
+Nghĩa: Vâng.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 赤い薬はいつ飲まなければなりませんか。
+Romaji: Akai kusuri wa itsu nomanakereba narimasen ka.
+Nghĩa: Thuốc màu đỏ phải uống khi nào?
+
+A. 朝と晩
+Nghĩa: Buổi sáng và buổi tối
+B. 朝、昼、晩
+Nghĩa: Sáng, trưa, tối
+C. 昼だけ
+D. 晩だけ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Thuốc đỏ chỉ cần uống buổi sáng và buổi tối.
+
+## Đoạn hội thoại 15
+
+### 1. Script hội thoại
+
+[14:56] すみません。明日も来なければなりませんか。
+Romaji: Sumimasen. Ashita mo konakereba narimasen ka.
+Nghĩa: Xin lỗi. Ngày mai tôi cũng phải đến à?
+
+[14:59] いいえ、明日は来なくてもいいです。
+Romaji: Iie, ashita wa konakute mo ii desu.
+Nghĩa: Không, ngày mai không cần đến cũng được.
+
+[15:05] 来週来てください。
+Romaji: Raishuu kite kudasai.
+Nghĩa: Tuần sau hãy đến.
+
+[15:05] 来週も健康保険証を持って来なければなりませんか。
+Romaji: Raishuu mo kenkou hokenshou o motte konakereba narimasen ka.
+Nghĩa: Tuần sau cũng phải mang thẻ bảo hiểm y tế đến à?
+
+[15:10] いいえ、今月は持って来なくてもいいです。
+Romaji: Iie, kongetsu wa motte konakute mo ii desu.
+Nghĩa: Không, tháng này không cần mang đến cũng được.
+
+[15:15] 来月持って来てください。
+Romaji: Raigetsu motte kite kudasai.
+Nghĩa: Tháng sau hãy mang đến.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: サントスさんは明日も来なければなりませんか。
+Romaji: Santosu-san wa ashita mo konakereba narimasen ka.
+Nghĩa: Santos ngày mai cũng phải đến à?
+
+A. いいえ、来なくてもいいです
+Nghĩa: Không, không cần đến cũng được
+B. はい、来なければなりません
+Nghĩa: Có, phải đến
+C. はい、保険証を持って来ます
+D. いいえ、来月来ます
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Nhân viên nói 明日は来なくてもいいです.

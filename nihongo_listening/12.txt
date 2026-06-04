@@ -1,0 +1,757 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[08:12] キムさんの1週間はどうでしたか。
+Romaji: Kimu-san no isshuukan wa dou deshita ka.
+Nghĩa: Một tuần của Kim thế nào?
+
+[08:18] キムさん、お元気ですか。
+Romaji: Kimu-san, ogenki desu ka.
+Nghĩa: Kim, bạn khỏe không?
+
+[08:22] 今週はとても忙しかったです。ちょっと疲れました。
+Romaji: Konshuu wa totemo isogashikatta desu. Chotto tsukaremashita.
+Nghĩa: Tuần này rất bận. Tôi hơi mệt.
+
+[08:27] 月曜日は漢字の試験でした。
+Romaji: Getsuyoubi wa kanji no shiken deshita.
+Nghĩa: Thứ Hai có bài kiểm tra Kanji.
+
+[08:32] とても難しかったです。
+Romaji: Totemo muzukashikatta desu.
+Nghĩa: Rất khó.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[08:12] 質問: キムさんの1週間はどうでしたか。
+Romaji: Kimu-san no isshuukan wa dou deshita ka.
+Nghĩa: Một tuần của Kim thế nào?
+
+A. とても忙しかったです
+Nghĩa: Rất bận
+B. とても暇でした
+Nghĩa: Rất rảnh
+C. とても静かでした
+Nghĩa: Rất yên tĩnh
+D. とても寒かったです
+Nghĩa: Rất lạnh
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kim nói 今週はとても忙しかったです.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[08:36] 火曜日は何をしましたか。
+Romaji: Kayoubi wa nani o shimashita ka.
+Nghĩa: Thứ Ba đã làm gì?
+
+[08:40] 6時まで図書館で勉強しました。
+Romaji: Rokuji made toshokan de benkyou shimashita.
+Nghĩa: Tôi học ở thư viện đến 6 giờ.
+
+[08:40] それから、マリアさんにブラジルのダンスを習いました。
+Romaji: Sorekara, Maria-san ni Burajiru no dansu o naraimashita.
+Nghĩa: Sau đó, tôi học điệu nhảy Brazil từ Maria.
+
+[08:47] ブラジルのダンスですか。
+Romaji: Burajiru no dansu desu ka.
+Nghĩa: Điệu nhảy Brazil à?
+
+[08:51] とても楽しかったです。
+Romaji: Totemo tanoshikatta desu.
+Nghĩa: Rất vui.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[08:36] 質問: 火曜日は何をしましたか。
+Romaji: Kayoubi wa nani o shimashita ka.
+Nghĩa: Thứ Ba đã làm gì?
+
+A. 図書館で勉強して、ブラジルのダンスを習いました
+Nghĩa: Học ở thư viện và học nhảy Brazil
+B. 京都でお祭りを見ました
+Nghĩa: Xem lễ hội ở Kyoto
+C. 本屋で働きました
+Nghĩa: Làm việc ở hiệu sách
+D. 映画を見ました
+Nghĩa: Xem phim
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kim học ở thư viện đến 6 giờ, sau đó học nhảy Brazil.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[08:56] 水曜日は休みでしたね。
+Romaji: Suiyoubi wa yasumi deshita ne.
+Nghĩa: Thứ Tư được nghỉ nhỉ.
+
+[09:00] 水曜日も忙しかったですか。
+Romaji: Suiyoubi mo isogashikatta desu ka.
+Nghĩa: Thứ Tư cũng bận à?
+
+[09:00] 友達と京都でお祭りを見ました。
+Romaji: Tomodachi to Kyouto de omatsuri o mimashita.
+Nghĩa: Tôi xem lễ hội ở Kyoto với bạn.
+
+[09:07] とても賑やかでした。でも、ちょっと疲れました。
+Romaji: Totemo nigiyaka deshita. Demo, chotto tsukaremashita.
+Nghĩa: Rất náo nhiệt. Nhưng tôi hơi mệt.
+
+[09:12] 夜、新幹線で帰りました。
+Romaji: Yoru, shinkansen de kaerimashita.
+Nghĩa: Buổi tối tôi về bằng Shinkansen.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 水曜日は何をしましたか。
+Romaji: Suiyoubi wa nani o shimashita ka.
+Nghĩa: Thứ Tư đã làm gì?
+
+A. 友達と京都でお祭りを見ました
+Nghĩa: Xem lễ hội ở Kyoto với bạn
+B. 図書館で勉強しました
+Nghĩa: Học ở thư viện
+C. 漢字の試験を受けました
+Nghĩa: Làm bài kiểm tra Kanji
+D. 本屋で働きました
+Nghĩa: Làm việc ở hiệu sách
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kim nói đã xem lễ hội ở Kyoto với bạn.
+
+---
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[09:20] 木曜日は何をしましたか。
+Romaji: Mokuyoubi wa nani o shimashita ka.
+Nghĩa: Thứ Năm đã làm gì?
+
+[09:25] 朝から4時までコンピューターの勉強をしました。
+Romaji: Asa kara yoji made konpyuutaa no benkyou o shimashita.
+Nghĩa: Tôi học máy tính từ sáng đến 4 giờ.
+
+[09:29] 夜、友達と映画を見ました。
+Romaji: Yoru, tomodachi to eiga o mimashita.
+Nghĩa: Buổi tối tôi xem phim với bạn.
+
+[09:29] どんな映画を見ましたか。
+Romaji: Donna eiga o mimashita ka.
+Nghĩa: Đã xem phim gì?
+
+[09:29] アメリカ映画です。
+Romaji: Amerika eiga desu.
+Nghĩa: Phim Mỹ.
+
+[09:37] でも、あまり面白くなかったです。
+Romaji: Demo, amari omoshiroku nakatta desu.
+Nghĩa: Nhưng không hay lắm.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 木曜日は何をしましたか。
+Romaji: Mokuyoubi wa nani o shimashita ka.
+Nghĩa: Thứ Năm đã làm gì?
+
+A. コンピューターを勉強して、映画を見ました
+Nghĩa: Học máy tính và xem phim
+B. ダンスを習いました
+Nghĩa: Học nhảy
+C. 京都へ行きました
+Nghĩa: Đi Kyoto
+D. レポートを書きました
+Nghĩa: Viết báo cáo
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kim học máy tính đến 4 giờ và buổi tối xem phim.
+
+---
+
+## Đoạn hội thoại 5
+
+### 1. Script hội thoại
+
+[09:42] 金曜日も忙しかったですか、キムさん。
+Romaji: Kinyoubi mo isogashikatta desu ka, Kimu-san.
+Nghĩa: Thứ Sáu cũng bận à, Kim?
+
+[09:47] 金曜日は本屋で働きました。
+Romaji: Kinyoubi wa honya de hatarakimashita.
+Nghĩa: Thứ Sáu tôi làm việc ở hiệu sách.
+
+[09:50] 仕事は暇でしたが、家で夜1時までレポートを書きました。
+Romaji: Shigoto wa hima deshita ga, ie de yoru ichiji made repooto o kakimashita.
+Nghĩa: Công việc thì rảnh, nhưng về nhà tôi viết báo cáo đến 1 giờ đêm.
+
+[09:57] 忙しい1週間でしたね。
+Romaji: Isogashii isshuukan deshita ne.
+Nghĩa: Đúng là một tuần bận rộn nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 金曜日は何をしましたか。
+Romaji: Kinyoubi wa nani o shimashita ka.
+Nghĩa: Thứ Sáu đã làm gì?
+
+A. 本屋で働いて、夜1時までレポートを書きました
+Nghĩa: Làm việc ở hiệu sách và viết báo cáo đến 1 giờ đêm
+B. 映画を見て、ダンスを習いました
+Nghĩa: Xem phim và học nhảy
+C. 京都でお祭りを見ました
+Nghĩa: Xem lễ hội ở Kyoto
+D. 図書館で寝ました
+Nghĩa: Ngủ ở thư viện
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kim làm ở hiệu sách và viết báo cáo đến 1 giờ đêm.
+
+---
+
+## Đoạn hội thoại 6
+
+### 1. Script hội thoại
+
+[10:05] どちらのスーパーで買いますか。
+Romaji: Dochira no suupaa de kaimasu ka.
+Nghĩa: Sẽ mua ở siêu thị nào?
+
+[10:10] 明日はパーティーですね。
+Romaji: Ashita wa paatii desu ne.
+Nghĩa: Ngày mai là tiệc nhỉ.
+
+[10:14] 食べ物を買いましょう。
+Romaji: Tabemono o kaimashou.
+Nghĩa: Cùng mua đồ ăn nhé.
+
+[10:22] 今日、若葉スーパーはとても安いですよ。
+Romaji: Kyou, Wakaba suupaa wa totemo yasui desu yo.
+Nghĩa: Hôm nay siêu thị Wakaba rất rẻ đấy.
+
+[10:26] 卵は100円ですよ。
+Romaji: Tamago wa hyaku en desu yo.
+Nghĩa: Trứng là 100 yên.
+
+[10:26] でも、丸谷スーパーのほうが安いですよ。
+Romaji: Demo, Maruya suupaa no hou ga yasui desu yo.
+Nghĩa: Nhưng siêu thị Maruya rẻ hơn.
+
+[10:32] 卵は72円です。
+Romaji: Tamago wa nanajuu ni en desu.
+Nghĩa: Trứng là 72 yên.
+
+[10:36] 丸谷は6つ72円ですよ。
+Romaji: Maruya wa muttsu nanajuu ni en desu yo.
+Nghĩa: Maruya bán 6 quả 72 yên.
+
+[10:43] 6つですか。じゃあ、若葉のほうが安いですね。
+Romaji: Muttsu desu ka. Jaa, Wakaba no hou ga yasui desu ne.
+Nghĩa: 6 quả à? Vậy Wakaba rẻ hơn nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 卵はどちらのスーパーで買いますか。
+Romaji: Tamago wa dochira no suupaa de kaimasu ka.
+Nghĩa: Trứng sẽ mua ở siêu thị nào?
+
+A. 若葉スーパー
+Nghĩa: Siêu thị Wakaba
+B. 丸谷スーパー
+Nghĩa: Siêu thị Maruya
+C. どちらでも買いません
+Nghĩa: Không mua ở siêu thị nào
+D. 本屋
+Nghĩa: Hiệu sách
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Maruya là 6 quả 72 yên, nên Wakaba rẻ hơn.
+
+---
+
+## Đoạn hội thoại 7
+
+### 1. Script hội thoại
+
+[10:50] 次はりんごです。
+Romaji: Tsugi wa ringo desu.
+Nghĩa: Tiếp theo là táo.
+
+[10:55] 若葉スーパーは高いですね。
+Romaji: Wakaba suupaa wa takai desu ne.
+Nghĩa: Siêu thị Wakaba đắt nhỉ.
+
+[11:02] 丸谷のりんごは時々古いですよ。
+Romaji: Maruya no ringo wa tokidoki furui desu yo.
+Nghĩa: Táo của Maruya thỉnh thoảng cũ đấy.
+
+[11:02] 今日は一つ100円ですが、若葉スーパーのほうが新しいですよ。
+Romaji: Kyou wa hitotsu hyaku en desu ga, Wakaba suupaa no hou ga atarashii desu yo.
+Nghĩa: Hôm nay một quả 100 yên, nhưng Wakaba mới hơn.
+
+[11:14] 少し高いですが、じゃ、りんごは若葉のほうがいいですね。
+Romaji: Sukoshi takai desu ga, ja, ringo wa Wakaba no hou ga ii desu ne.
+Nghĩa: Hơi đắt, nhưng vậy táo thì mua ở Wakaba tốt hơn.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: りんごはどちらのスーパーで買いますか。
+Romaji: Ringo wa dochira no suupaa de kaimasu ka.
+Nghĩa: Táo sẽ mua ở siêu thị nào?
+
+A. 若葉スーパー
+Nghĩa: Siêu thị Wakaba
+B. 丸谷スーパー
+Nghĩa: Siêu thị Maruya
+C. どちらでも買いません
+Nghĩa: Không mua ở đâu
+D. カバスーパー
+Nghĩa: Siêu thị Kaba
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Wakaba hơi đắt nhưng táo mới hơn.
+
+---
+
+## Đoạn hội thoại 8
+
+### 1. Script hội thoại
+
+[11:21] 肉も買いましょう。
+Romaji: Niku mo kaimashou.
+Nghĩa: Cũng mua thịt nhé.
+
+[11:25] どちらが安いですか。
+Romaji: Dochira ga yasui desu ka.
+Nghĩa: Bên nào rẻ hơn?
+
+[11:25] 若葉スーパーは273円です。
+Romaji: Wakaba suupaa wa nihyaku nanajuu san en desu.
+Nghĩa: Siêu thị Wakaba là 273 yên.
+
+[11:32] 丸谷スーパーは安いですよ。225円です。
+Romaji: Maruya suupaa wa yasui desu yo. Nihyaku nijuu go en desu.
+Nghĩa: Siêu thị Maruya rẻ đấy. 225 yên.
+
+[11:39] じゃ、安い店で買いましょう。
+Romaji: Ja, yasui mise de kaimashou.
+Nghĩa: Vậy mua ở cửa hàng rẻ nhé.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 肉はどちらのスーパーで買いますか。
+Romaji: Niku wa dochira no suupaa de kaimasu ka.
+Nghĩa: Thịt sẽ mua ở siêu thị nào?
+
+A. 丸谷スーパー
+Nghĩa: Siêu thị Maruya
+B. 若葉スーパー
+Nghĩa: Siêu thị Wakaba
+C. どちらでも買いません
+Nghĩa: Không mua ở đâu
+D. 京都スーパー
+Nghĩa: Siêu thị Kyoto
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Maruya rẻ hơn: 225円 so với 273円.
+
+---
+
+## Đoạn hội thoại 9
+
+### 1. Script hội thoại
+
+[11:45] 若葉スーパーで牛乳はいくらですか。
+Romaji: Wakaba suupaa de gyuunyuu wa ikura desu ka.
+Nghĩa: Ở siêu thị Wakaba, sữa bao nhiêu tiền?
+
+[11:50] 178円。
+Romaji: Hyaku nanajuu hachi en.
+Nghĩa: 178 yên.
+
+[11:53] 丸谷は193円です。若葉のほうが15円安いですね。
+Romaji: Maruya wa hyaku kyuujuu san en desu. Wakaba no hou ga juu go en yasui desu ne.
+Nghĩa: Maruya là 193 yên. Wakaba rẻ hơn 15 yên nhỉ.
+
+[12:00] でも、若葉スーパーの牛乳はあまりよくないですよ。
+Romaji: Demo, Wakaba suupaa no gyuunyuu wa amari yokunai desu yo.
+Nghĩa: Nhưng sữa của Wakaba không tốt lắm đâu.
+
+[12:04] 先週、若葉で買いましたが、おいしくなかったです。
+Romaji: Senshuu, Wakaba de kaimashita ga, oishikunakatta desu.
+Nghĩa: Tuần trước tôi mua ở Wakaba nhưng không ngon.
+
+[12:12] じゃあ、15円高いですが、こちらで買いましょう。
+Romaji: Jaa, juu go en takai desu ga, kochira de kaimashou.
+Nghĩa: Vậy dù đắt hơn 15 yên, mua ở bên này nhé.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 牛乳はどちらのスーパーで買いますか。
+Romaji: Gyuunyuu wa dochira no suupaa de kaimasu ka.
+Nghĩa: Sữa sẽ mua ở siêu thị nào?
+
+A. 丸谷スーパー
+Nghĩa: Siêu thị Maruya
+B. 若葉スーパー
+Nghĩa: Siêu thị Wakaba
+C. どちらでも買いません
+Nghĩa: Không mua ở đâu
+D. カバスーパー
+Nghĩa: Siêu thị Kaba
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Wakaba rẻ hơn nhưng sữa không ngon, nên chọn bên đắt hơn là Maruya.
+
+---
+
+## Đoạn hội thoại 10
+
+### 1. Script hội thoại
+
+[12:23] クイズの答えはどれですか。
+Romaji: Kuizu no kotae wa dore desu ka.
+Nghĩa: Đáp án của câu đố là cái nào?
+
+[12:32] クイズをしましょう。
+Romaji: Kuizu o shimashou.
+Nghĩa: Cùng làm câu đố nhé.
+
+[12:36] 日本人の名前でどんな名前が一番多いですか。
+Romaji: Nihonjin no namae de donna namae ga ichiban ooi desu ka.
+Nghĩa: Trong tên người Nhật, tên nào nhiều nhất?
+
+[12:41] 田中さんが一番多いです。
+Romaji: Tanaka-san ga ichiban ooi desu.
+Nghĩa: Tên Tanaka nhiều nhất.
+
+[12:47] いいえ、田中さんより鈴木さんのほうが多いですよ。
+Romaji: Iie, Tanaka-san yori Suzuki-san no hou ga ooi desu yo.
+Nghĩa: Không, Suzuki nhiều hơn Tanaka.
+
+[12:55] でも、佐藤さんは鈴木さんより多いですよ。
+Romaji: Demo, Satou-san wa Suzuki-san yori ooi desu yo.
+Nghĩa: Nhưng Sato nhiều hơn Suzuki.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 一番多い名前はどれですか。
+Romaji: Ichiban ooi namae wa dore desu ka.
+Nghĩa: Tên nào nhiều nhất?
+
+A. 佐藤
+Nghĩa: Sato
+B. 鈴木
+Nghĩa: Suzuki
+C. 田中
+Nghĩa: Tanaka
+D. 山田
+Nghĩa: Yamada
+
+Đáp án đúng: A
+Giải thích ngắn gọn: 佐藤さんは鈴木さんより多い, nên Sato nhiều nhất.
+
+---
+
+## Đoạn hội thoại 11
+
+### 1. Script hội thoại
+
+[13:06] 次の質問です。
+Romaji: Tsugi no shitsumon desu.
+Nghĩa: Câu hỏi tiếp theo.
+
+[13:10] 野球とサッカーと相撲と、日本人はどれが一番好きですか。
+Romaji: Yakyuu to sakkaa to sumou to, Nihonjin wa dore ga ichiban suki desu ka.
+Nghĩa: Người Nhật thích nhất bóng chày, bóng đá hay sumo?
+
+[13:15] 相撲が一番好きです。
+Romaji: Sumou ga ichiban suki desu.
+Nghĩa: Thích sumo nhất.
+
+[13:22] サッカーですよ。
+Romaji: Sakkaa desu yo.
+Nghĩa: Là bóng đá đấy.
+
+[13:24] 日本人は相撲よりサッカーのほうが好きですね。
+Romaji: Nihonjin wa sumou yori sakkaa no hou ga suki desu ne.
+Nghĩa: Người Nhật thích bóng đá hơn sumo nhỉ.
+
+[13:28] でも、サッカーより野球のほうが好きですよ。
+Romaji: Demo, sakkaa yori yakyuu no hou ga suki desu yo.
+Nghĩa: Nhưng thích bóng chày hơn bóng đá.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 日本人はどれが一番好きですか。
+Romaji: Nihonjin wa dore ga ichiban suki desu ka.
+Nghĩa: Người Nhật thích môn nào nhất?
+
+A. 野球
+Nghĩa: Bóng chày
+B. サッカー
+Nghĩa: Bóng đá
+C. 相撲
+Nghĩa: Sumo
+D. テニス
+Nghĩa: Tennis
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Bóng chày được nói là được thích hơn bóng đá.
+
+---
+
+## Đoạn hội thoại 12
+
+### 1. Script hội thoại
+
+[13:38] 日本で4月と6月と9月と、何月が一番雨が多いですか。
+Romaji: Nihon de shigatsu to rokugatsu to kugatsu to, nangatsu ga ichiban ame ga ooi desu ka.
+Nghĩa: Ở Nhật, trong tháng 4, 6 và 9, tháng nào mưa nhiều nhất?
+
+[13:43] 6月です。
+Romaji: Rokugatsu desu.
+Nghĩa: Tháng 6.
+
+[13:48] いいえ、4月です。
+Romaji: Iie, shigatsu desu.
+Nghĩa: Không, là tháng 4.
+
+[13:48] 4月より6月のほうが多いですね。
+Romaji: Shigatsu yori rokugatsu no hou ga ooi desu ne.
+Nghĩa: Tháng 6 nhiều hơn tháng 4 nhỉ.
+
+[13:56] でも、6月は9月より少ないですよ。
+Romaji: Demo, rokugatsu wa kugatsu yori sukunai desu yo.
+Nghĩa: Nhưng tháng 6 ít hơn tháng 9 đấy.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 何月が一番雨が多いですか。
+Romaji: Nangatsu ga ichiban ame ga ooi desu ka.
+Nghĩa: Tháng mấy mưa nhiều nhất?
+
+A. 9月
+Nghĩa: Tháng 9
+B. 6月
+Nghĩa: Tháng 6
+C. 4月
+Nghĩa: Tháng 4
+D. 12月
+Nghĩa: Tháng 12
+
+Đáp án đúng: A
+Giải thích ngắn gọn: 6月は9月より少ない, nên tháng 9 nhiều mưa nhất.
+
+---
+
+## Đoạn hội thoại 13
+
+### 1. Script hội thoại
+
+[14:07] カリナさんは旅行のアンケートをしました。
+Romaji: Karina-san wa ryokou no ankeeto o shimashita.
+Nghĩa: Karina đã làm khảo sát về du lịch.
+
+[14:13] 佐野さんの答えはどうでしたか。
+Romaji: Sano-san no kotae wa dou deshita ka.
+Nghĩa: Câu trả lời của ông/bà Sano thế nào?
+
+[14:20] これから旅行のアンケートをします。
+Romaji: Korekara ryokou no ankeeto o shimasu.
+Nghĩa: Bây giờ tôi sẽ làm khảo sát về du lịch.
+
+[14:28] 失礼ですが、お名前は。
+Romaji: Shitsurei desu ga, onamae wa.
+Nghĩa: Xin lỗi, tên của ông/bà là gì?
+
+[14:33] 佐野です。
+Romaji: Sano desu.
+Nghĩa: Tôi là Sano.
+
+[14:37] 失礼ですが、おいくつですか。
+Romaji: Shitsurei desu ga, oikutsu desu ka.
+Nghĩa: Xin hỏi ông/bà bao nhiêu tuổi?
+
+[14:37] 75歳です。
+Romaji: Nanajuu go sai desu.
+Nghĩa: 75 tuổi.
+
+[14:44] 佐野さんは今までどんな国へ行きましたか。
+Romaji: Sano-san wa ima made donna kuni e ikimashita ka.
+Nghĩa: Từ trước đến nay ông/bà Sano đã đi những nước nào?
+
+[14:49] 私はアジアが好きですから、アジアのいろいろな国へ行きました。
+Romaji: Watashi wa Ajia ga suki desu kara, Ajia no iroiro na kuni e ikimashita.
+Nghĩa: Vì tôi thích châu Á nên đã đi nhiều nước ở châu Á.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 佐野さんは何歳ですか。
+Romaji: Sano-san wa nansai desu ka.
+Nghĩa: Ông/bà Sano bao nhiêu tuổi?
+
+A. 75歳
+Nghĩa: 75 tuổi
+B. 65歳
+Nghĩa: 65 tuổi
+C. 70歳
+Nghĩa: 70 tuổi
+D. 85歳
+Nghĩa: 85 tuổi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Sano trả lời 75歳です.
+
+---
+
+## Đoạn hội thoại 14
+
+### 1. Script hội thoại
+
+[14:57] どこが一番きれいでしたか。
+Romaji: Doko ga ichiban kirei deshita ka.
+Nghĩa: Nơi nào đẹp nhất?
+
+[15:02] 韓国はとてもきれいでした。
+Romaji: Kankoku wa totemo kirei deshita.
+Nghĩa: Hàn Quốc rất đẹp.
+
+[15:07] シンガポールもきれいでした。
+Romaji: Shingapooru mo kirei deshita.
+Nghĩa: Singapore cũng đẹp.
+
+[15:07] でも、ベトナムが一番きれいでしたね。
+Romaji: Demo, Betonamu ga ichiban kirei deshita ne.
+Nghĩa: Nhưng Việt Nam là đẹp nhất.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[14:57] 質問: どこが一番きれいでしたか。
+Romaji: Doko ga ichiban kirei deshita ka.
+Nghĩa: Nơi nào đẹp nhất?
+
+A. ベトナム
+Nghĩa: Việt Nam
+B. 韓国
+Nghĩa: Hàn Quốc
+C. シンガポール
+Nghĩa: Singapore
+D. タイ
+Nghĩa: Thái Lan
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Sano nói ベトナムが一番きれいでした.
+
+---
+
+## Đoạn hội thoại 15
+
+### 1. Script hội thoại
+
+[15:15] どこの料理が一番おいしかったですか。
+Romaji: Doko no ryouri ga ichiban oishikatta desu ka.
+Nghĩa: Món ăn nước nào ngon nhất?
+
+[15:20] タイ料理ですか。中国料理ですか。
+Romaji: Tai ryouri desu ka. Chuugoku ryouri desu ka.
+Nghĩa: Món Thái hay món Trung Quốc?
+
+[15:28] 中国料理が一番好きですよ。
+Romaji: Chuugoku ryouri ga ichiban suki desu yo.
+Nghĩa: Tôi thích món Trung Quốc nhất.
+
+[15:33] 私は韓国の料理が一番おいしかったです。
+Romaji: Watashi wa Kankoku no ryouri ga ichiban oishikatta desu.
+Nghĩa: Tôi thấy món Hàn Quốc là ngon nhất.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[15:15] 質問: どこの料理が一番おいしかったですか。
+Romaji: Doko no ryouri ga ichiban oishikatta desu ka.
+Nghĩa: Món ăn nước nào ngon nhất?
+
+A. 韓国の料理
+Nghĩa: Món Hàn Quốc
+B. 中国料理
+Nghĩa: Món Trung Quốc
+C. タイ料理
+Nghĩa: Món Thái
+D. 日本料理
+Nghĩa: Món Nhật
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Sano nói 韓国の料理が一番おいしかったです.
+
+---
+
+## Đoạn hội thoại 16
+
+### 1. Script hội thoại
+
+[15:41] 佐野さん、いろいろなものを見ましたね。
+Romaji: Sano-san, iroiro na mono o mimashita ne.
+Nghĩa: Ông/bà Sano đã xem nhiều thứ nhỉ.
+
+[15:46] 何が一番面白かったですか。
+Romaji: Nani ga ichiban omoshirokatta desu ka.
+Nghĩa: Cái gì thú vị nhất?
+
+[15:52] たくさん見ましたからね。
+Romaji: Takusan mimashita kara ne.
+Nghĩa: Vì tôi đã xem rất nhiều thứ.
+
+[15:59] インドネシアのダンスが一番面白かったですね。
+Romaji: Indoneshia no dansu ga ichiban omoshirokatta desu ne.
+Nghĩa: Điệu nhảy Indonesia là thú vị nhất.
+
+[16:04] 音楽もよかったですよ。
+Romaji: Ongaku mo yokatta desu yo.
+Nghĩa: Âm nhạc cũng hay.
+
+[16:04] 今日はどうもありがとうございました。
+Romaji: Kyou wa doumo arigatou gozaimashita.
+Nghĩa: Hôm nay xin cảm ơn rất nhiều.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[15:46] 質問: 何が一番面白かったですか。
+Romaji: Nani ga ichiban omoshirokatta desu ka.
+Nghĩa: Cái gì thú vị nhất?
+
+A. インドネシアのダンス
+Nghĩa: Điệu nhảy Indonesia
+B. 韓国の料理
+Nghĩa: Món Hàn Quốc
+C. ベトナムの町
+Nghĩa: Thành phố ở Việt Nam
+D. シンガポールの音楽
+Nghĩa: Âm nhạc Singapore
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Sano nói インドネシアのダンスが一番面白かったです.

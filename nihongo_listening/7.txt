@@ -1,0 +1,512 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[00:23] A: すみません。これは何ですか。
+Romaji: Sumimasen. Kore wa nan desu ka.
+Nghĩa: Xin lỗi. Đây là cái gì?
+
+[00:27] B: スプーンです。昔の人はこれでご飯を食べました。
+Romaji: Supuun desu. Mukashi no hito wa kore de gohan o tabemashita.
+Nghĩa: Là cái thìa. Người ngày xưa dùng cái này để ăn cơm.
+
+[00:37] A: これはナイフですか。
+Romaji: Kore wa naifu desu ka.
+Nghĩa: Đây là dao phải không?
+
+[00:37] B: ハサミです。
+Romaji: Hasami desu.
+Nghĩa: Là cái kéo.
+
+[00:41] B: これで髪を切りました。
+Romaji: Kore de kami o kirimashita.
+Nghĩa: Người ta dùng cái này để cắt tóc.
+
+[00:47] A: これで水を飲みましたか。
+Romaji: Kore de mizu o nomimashita ka.
+Nghĩa: Người ta dùng cái này để uống nước phải không?
+
+[00:52] B: いいえ。たばこを吸いました。
+Romaji: Iie. Tabako o suimashita.
+Nghĩa: Không. Người ta dùng để hút thuốc.
+
+[00:55] B: これはパイプです。
+Romaji: Kore wa paipu desu.
+Nghĩa: Đây là cái tẩu.
+
+[01:06] A: これは何ですか。
+Romaji: Kore wa nan desu ka.
+Nghĩa: Đây là cái gì?
+
+[01:06] B: お金です。
+Romaji: Okane desu.
+Nghĩa: Là tiền.
+
+[01:10] A: これで何を買いましたか。
+Romaji: Kore de nani o kaimashita ka.
+Nghĩa: Người ta đã mua gì bằng cái này?
+
+[01:15] B: 何も買いませんでした。これはプレゼントです。友達にあげました。
+Romaji: Nani mo kaimasen deshita. Kore wa purezento desu. Tomodachi ni agemashita.
+Nghĩa: Không mua gì cả. Đây là quà tặng. Người ta đã tặng cho bạn.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[00:27] 質問: 昔の人はスプーンで何をしましたか。
+Romaji: Mukashi no hito wa supuun de nani o shimashita ka.
+Nghĩa: Người ngày xưa dùng thìa để làm gì?
+
+A. ご飯を食べました
+Nghĩa: Ăn cơm
+B. 髪を切りました
+Nghĩa: Cắt tóc
+C. 水を飲みました
+Nghĩa: Uống nước
+D. たばこを吸いました
+Nghĩa: Hút thuốc
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「これでご飯を食べました」.
+
+Câu 2:
+[00:37] 質問: これは何ですか。
+Romaji: Kore wa nan desu ka.
+Nghĩa: Đây là cái gì?
+
+A. ハサミ
+Nghĩa: Cái kéo
+B. ナイフ
+Nghĩa: Con dao
+C. スプーン
+Nghĩa: Cái thìa
+D. パイプ
+Nghĩa: Cái tẩu
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「ハサミです」.
+
+Câu 3:
+[00:52] 質問: 昔の人はパイプで何をしましたか。
+Romaji: Mukashi no hito wa paipu de nani o shimashita ka.
+Nghĩa: Người ngày xưa dùng tẩu để làm gì?
+
+A. たばこを吸いました
+Nghĩa: Hút thuốc
+B. 水を飲みました
+Nghĩa: Uống nước
+C. ご飯を食べました
+Nghĩa: Ăn cơm
+D. 髪を切りました
+Nghĩa: Cắt tóc
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「たばこを吸いました」.
+
+Câu 4:
+[01:15] 質問: これは何ですか。
+Romaji: Kore wa nan desu ka.
+Nghĩa: Đây là cái gì?
+
+A. プレゼント
+Nghĩa: Quà tặng
+B. お金
+Nghĩa: Tiền
+C. 切符
+Nghĩa: Vé
+D. 辞書
+Nghĩa: Từ điển
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「これはプレゼントです」.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[01:38] A: どうぞ。
+Romaji: Douzo.
+Nghĩa: Xin mời.
+
+[01:38] B: いただきます。
+Romaji: Itadakimasu.
+Nghĩa: Tôi xin nhận / mời ăn.
+
+[01:42] B: すみません。これは日本語で何ですか。
+Romaji: Sumimasen. Kore wa nihongo de nan desu ka.
+Nghĩa: Xin lỗi. Cái này tiếng Nhật là gì?
+
+[01:47] A: 箸置きですよ。
+Romaji: Hashioki desu yo.
+Nghĩa: Là đồ gác đũa đấy.
+
+[01:58] B: それは日本語で何ですか。
+Romaji: Sore wa nihongo de nan desu ka.
+Nghĩa: Cái đó tiếng Nhật là gì?
+
+[01:58] A: 醤油です。
+Romaji: Shouyu desu.
+Nghĩa: Là nước tương.
+
+[02:03] B: じゃ、醤油お願いします。
+Romaji: Ja, shouyu onegaishimasu.
+Nghĩa: Vậy cho tôi xin nước tương.
+
+[02:07] A: はい、どうぞ。
+Romaji: Hai, douzo.
+Nghĩa: Vâng, xin mời.
+
+[02:13] B: これは日本語で何ですか。
+Romaji: Kore wa nihongo de nan desu ka.
+Nghĩa: Cái này tiếng Nhật là gì?
+
+[02:13] A: コップです。
+Romaji: Koppu desu.
+Nghĩa: Là cái cốc.
+
+[02:25] A: 果物はいかがですか。
+Romaji: Kudamono wa ikaga desu ka.
+Nghĩa: Bạn dùng trái cây nhé?
+
+[02:29] B: ありがとうございます。その果物は日本語で何ですか。
+Romaji: Arigatou gozaimasu. Sono kudamono wa nihongo de nan desu ka.
+Nghĩa: Cảm ơn. Trái cây đó tiếng Nhật là gì?
+
+[02:36] A: ぶどうですよ。
+Romaji: Budou desu yo.
+Nghĩa: Là nho đấy.
+
+[02:40] A: どうぞ。
+Romaji: Douzo.
+Nghĩa: Xin mời.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[01:42] 質問: これは日本語で何ですか。
+Romaji: Kore wa nihongo de nan desu ka.
+Nghĩa: Cái này tiếng Nhật là gì?
+
+A. 箸置き
+Nghĩa: Đồ gác đũa
+B. 醤油
+Nghĩa: Nước tương
+C. コップ
+Nghĩa: Cái cốc
+D. ぶどう
+Nghĩa: Nho
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「箸置きです」.
+
+Câu 2:
+[01:58] 質問: それは日本語で何ですか。
+Romaji: Sore wa nihongo de nan desu ka.
+Nghĩa: Cái đó tiếng Nhật là gì?
+
+A. 醤油
+Nghĩa: Nước tương
+B. 箸置き
+Nghĩa: Đồ gác đũa
+C. コップ
+Nghĩa: Cái cốc
+D. お茶
+Nghĩa: Trà
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「醤油です」.
+
+Câu 3:
+[02:13] 質問: これは日本語で何ですか。
+Romaji: Kore wa nihongo de nan desu ka.
+Nghĩa: Cái này tiếng Nhật là gì?
+
+A. コップ
+Nghĩa: Cái cốc
+B. 醤油
+Nghĩa: Nước tương
+C. ぶどう
+Nghĩa: Nho
+D. 箸置き
+Nghĩa: Đồ gác đũa
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「コップです」.
+
+Câu 4:
+[02:29] 質問: その果物は日本語で何ですか。
+Romaji: Sono kudamono wa nihongo de nan desu ka.
+Nghĩa: Trái cây đó tiếng Nhật là gì?
+
+A. ぶどう
+Nghĩa: Nho
+B. りんご
+Nghĩa: Táo
+C. バナナ
+Nghĩa: Chuối
+D. みかん
+Nghĩa: Quýt
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「ぶどうです」.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[02:58] A: 陳さんは国で日本語を勉強しましたか。
+Romaji: Chin-san wa kuni de nihongo o benkyou shimashita ka.
+Nghĩa: Bạn Trần đã học tiếng Nhật ở nước mình chưa?
+
+[03:03] A: 一人で勉強しましたか。
+Romaji: Hitori de benkyou shimashita ka.
+Nghĩa: Bạn đã học một mình à?
+
+[03:03] B: いいえ。会社の人に習いました。
+Romaji: Iie. Kaisha no hito ni naraimashita.
+Nghĩa: Không. Tôi đã học từ người ở công ty.
+
+[03:13] A: 辞書を買いましたか。
+Romaji: Jisho o kaimashita ka.
+Nghĩa: Bạn đã mua từ điển chưa?
+
+[03:16] B: いいえ。ミラーさんにもらいました。
+Romaji: Iie. Miraa-san ni moraimashita.
+Nghĩa: Không. Tôi đã nhận từ anh Miller.
+
+[03:21] A: みんなの日本語。これもミラーさんにもらいましたか。
+Romaji: Minna no Nihongo. Kore mo Miraa-san ni moraimashita ka.
+Nghĩa: Sách Minna no Nihongo. Cái này cũng nhận từ anh Miller à?
+
+[03:30] B: いいえ。先生に借りました。
+Romaji: Iie. Sensei ni karimashita.
+Nghĩa: Không. Tôi đã mượn từ giáo viên.
+
+[03:38] A: それは何ですか。
+Romaji: Sore wa nan desu ka.
+Nghĩa: Cái đó là gì?
+
+[03:38] B: 手紙です。これから大学の先生に送ります。
+Romaji: Tegami desu. Kore kara daigaku no sensei ni okurimasu.
+Nghĩa: Là lá thư. Từ bây giờ tôi sẽ gửi cho giáo viên đại học.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[03:03] 質問: 陳さんは誰に日本語を習いましたか。
+Romaji: Chin-san wa dare ni nihongo o naraimashita ka.
+Nghĩa: Bạn Trần đã học tiếng Nhật từ ai?
+
+A. 会社の人
+Nghĩa: Người ở công ty
+B. 先生
+Nghĩa: Giáo viên
+C. ミラーさん
+Nghĩa: Anh Miller
+D. 友達
+
+Nghĩa: Bạn bè
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「会社の人に習いました」.
+
+Câu 2:
+[03:13] 質問: 陳さんは辞書を買いましたか。
+Romaji: Chin-san wa jisho o kaimashita ka.
+Nghĩa: Bạn Trần đã mua từ điển chưa?
+
+A. いいえ、ミラーさんにもらいました
+Nghĩa: Không, đã nhận từ anh Miller
+B. はい、買いました
+Nghĩa: Có, đã mua
+C. いいえ、先生に借りました
+Nghĩa: Không, đã mượn từ giáo viên
+D. はい、会社で買いました
+
+Nghĩa: Có, đã mua ở công ty
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「ミラーさんにもらいました」.
+
+Câu 3:
+[03:21] 質問: 「みんなの日本語」は誰に借りましたか。
+Romaji: “Minna no Nihongo” wa dare ni karimashita ka.
+Nghĩa: Sách “Minna no Nihongo” đã mượn từ ai?
+
+A. 先生
+Nghĩa: Giáo viên
+B. ミラーさん
+Nghĩa: Anh Miller
+C. 会社の人
+Nghĩa: Người ở công ty
+D. 陳さん
+
+Nghĩa: Bạn Trần
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「先生に借りました」.
+
+Câu 4:
+[03:38] 質問: 陳さんはこれから何を送りますか。
+Romaji: Chin-san wa kore kara nani o okurimasu ka.
+Nghĩa: Từ bây giờ bạn Trần sẽ gửi gì?
+
+A. 手紙
+Nghĩa: Lá thư
+B. 辞書
+Nghĩa: Từ điển
+C. 本
+Nghĩa: Sách
+D. プレゼント
+Nghĩa: Quà tặng
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「手紙です」.
+
+---
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[03:59] A: もう昼ご飯を食べましたか。
+Romaji: Mou hiru gohan o tabemashita ka.
+Nghĩa: Bạn đã ăn trưa chưa?
+
+[03:59] B: いいえ、まだです。
+Romaji: Iie, mada desu.
+Nghĩa: Chưa, vẫn chưa.
+
+[04:04] A: じゃ、一緒に食べませんか。
+Romaji: Ja, issho ni tabemasen ka.
+Nghĩa: Vậy cùng ăn không?
+
+[04:04] B: いいですね。
+Romaji: Ii desu ne.
+Nghĩa: Hay đấy.
+
+[04:09] A: もう5時半ですよ。帰りませんか。
+Romaji: Mou goji han desu yo. Kaerimasen ka.
+Nghĩa: Đã 5 giờ rưỡi rồi. Về thôi nhé?
+
+[04:16] B: すみません。ちょっと電話をかけます。
+Romaji: Sumimasen. Chotto denwa o kakemasu.
+Nghĩa: Xin lỗi. Tôi gọi điện thoại một chút.
+
+[04:22] A: 電話、もう終わりましたか。
+Romaji: Denwa, mou owarimashita ka.
+Nghĩa: Cuộc gọi đã xong chưa?
+
+[04:22] B: はい、終わりました。
+Romaji: Hai, owarimashita.
+Nghĩa: Vâng, xong rồi.
+
+[04:33] A: もう切符を買いましたか。
+Romaji: Mou kippu o kaimashita ka.
+Nghĩa: Bạn đã mua vé chưa?
+
+[04:36] B: すみません。まだです。切符売り場はどこですか。
+Romaji: Sumimasen. Mada desu. Kippu uriba wa doko desu ka.
+Nghĩa: Xin lỗi. Vẫn chưa. Quầy bán vé ở đâu?
+
+[04:36] A: あちらですよ。行きましょう。
+Romaji: Achira desu yo. Ikimashou.
+Nghĩa: Ở đằng kia. Đi thôi.
+
+[04:49] A: あの映画、もう見ましたか。
+Romaji: Ano eiga, mou mimashita ka.
+Nghĩa: Bạn đã xem bộ phim đó chưa?
+
+[04:49] B: いいえ、まだです。
+Romaji: Iie, mada desu.
+Nghĩa: Chưa, vẫn chưa.
+
+[04:49] A: 私もまだです。じゃあ、一緒に見ませんか。
+Romaji: Watashi mo mada desu. Jaa, issho ni mimasen ka.
+Nghĩa: Tôi cũng chưa. Vậy cùng xem nhé?
+
+[04:57] B: いいですね。
+Romaji: Ii desu ne.
+Nghĩa: Hay đấy.
+
+[04:59] A: 次の映画は7時半からですよ。
+Romaji: Tsugi no eiga wa shichiji han kara desu yo.
+Nghĩa: Suất phim tiếp theo bắt đầu từ 7 giờ rưỡi.
+
+[04:59] B: そうですか。じゃ、ちょっとお茶を飲みましょう。
+Romaji: Sou desu ka. Ja, chotto ocha o nomimashou.
+Nghĩa: Vậy à. Thế thì uống trà một chút nhé.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[03:59] 質問: この人はもう昼ご飯を食べましたか。
+Romaji: Kono hito wa mou hiru gohan o tabemashita ka.
+Nghĩa: Người này đã ăn trưa chưa?
+
+A. いいえ、まだです
+Nghĩa: Chưa, vẫn chưa
+B. はい、食べました
+Nghĩa: Vâng, đã ăn rồi
+C. いいえ、食べません
+Nghĩa: Không, không ăn
+D. はい、飲みました
+Nghĩa: Vâng, đã uống rồi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「いいえ、まだです」.
+
+Câu 2:
+[04:16] 質問: この人は何をしますか。
+Romaji: Kono hito wa nani o shimasu ka.
+Nghĩa: Người này sẽ làm gì?
+
+A. 電話をかけます
+Nghĩa: Gọi điện thoại
+B. 昼ご飯を食べます
+Nghĩa: Ăn trưa
+C. 切符を買います
+Nghĩa: Mua vé
+D. 映画を見ます
+Nghĩa: Xem phim
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người này nói 「電話をかけます」.
+
+Câu 3:
+[04:33] 質問: この人はもう切符を買いましたか。
+Romaji: Kono hito wa mou kippu o kaimashita ka.
+Nghĩa: Người này đã mua vé chưa?
+
+A. いいえ、まだです
+Nghĩa: Chưa, vẫn chưa
+B. はい、買いました
+Nghĩa: Vâng, đã mua rồi
+C. いいえ、見ませんでした
+Nghĩa: Không, đã không xem
+D. はい、終わりました
+Nghĩa: Vâng, đã xong rồi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「まだです」.
+
+Câu 4:
+[04:59] 質問: 次の映画は何時半からですか。
+Romaji: Tsugi no eiga wa nanji han kara desu ka.
+Nghĩa: Suất phim tiếp theo bắt đầu từ mấy giờ rưỡi?
+
+A. 7時半
+Nghĩa: 7 giờ rưỡi
+B. 5時半
+Nghĩa: 5 giờ rưỡi
+C. 6時半
+Nghĩa: 6 giờ rưỡi
+D. 8時半
+Nghĩa: 8 giờ rưỡi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「次の映画は7時半からです」.

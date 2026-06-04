@@ -1,0 +1,503 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[05:20] 日本でどんな経験をしましたか。
+Romaji: Nihon de donna keiken o shimashita ka.
+Nghĩa: Bạn đã có trải nghiệm gì ở Nhật?
+
+[05:31] 外国人のみなさんは日本でどんな経験をしましたか。
+Romaji: Gaikokujin no minasan wa Nihon de donna keiken o shimashita ka.
+Nghĩa: Các bạn người nước ngoài đã có trải nghiệm gì ở Nhật?
+
+[05:36] まず、カリナさんです。
+Romaji: Mazu, Karina-san desu.
+Nghĩa: Trước tiên là Karina.
+
+[05:38] カリナさんはインドネシアから来ました。こんにちは。
+Romaji: Karina-san wa Indoneshia kara kimashita. Konnichiwa.
+Nghĩa: Karina đến từ Indonesia. Xin chào.
+
+[05:43] カリナさんは生け花を習ったことがありますか。
+Romaji: Karina-san wa ikebana o naratta koto ga arimasu ka.
+Nghĩa: Karina đã từng học cắm hoa chưa?
+
+[05:43] いいえ。
+Romaji: Iie.
+Nghĩa: Chưa.
+
+[05:47] でも、私はお茶を習ったことがあります。
+Romaji: Demo, watashi wa ocha o naratta koto ga arimasu.
+Nghĩa: Nhưng tôi đã từng học trà đạo.
+
+[05:47] いつですか。
+Romaji: Itsu desu ka.
+Nghĩa: Khi nào?
+
+[05:52] 2年ぐらい前に友達のお姉さんに習いました。楽しかったです。
+Romaji: Ninen gurai mae ni tomodachi no oneesan ni naraimashita. Tanoshikatta desu.
+Nghĩa: Khoảng 2 năm trước, tôi học từ chị gái của bạn. Rất vui.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[05:20] 質問: 日本でどんな経験をしましたか。
+Romaji: Nihon de donna keiken o shimashita ka.
+Nghĩa: Bạn đã có trải nghiệm gì ở Nhật?
+
+A. お茶を習ったことがあります
+Nghĩa: Đã từng học trà đạo
+B. 生け花を習ったことがあります
+Nghĩa: Đã từng học cắm hoa
+C. 相撲をしたことがあります
+Nghĩa: Đã từng chơi sumo
+D. 馬に乗ったことがあります
+Nghĩa: Đã từng cưỡi ngựa
+
+Đáp án đúng: A
+Giải thích ngắn gọn: カリナさん nói đã từng học お茶, không phải 生け花.
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[06:00] エドさんはイギリスの方です。
+Romaji: Edo-san wa Igirisu no kata desu.
+Nghĩa: Anh Ed là người Anh.
+
+[06:05] こんにちは。私は相撲が好きです。
+Romaji: Konnichiwa. Watashi wa sumou ga suki desu.
+Nghĩa: Xin chào. Tôi thích sumo.
+
+[06:08] 相撲を見に行ったことがありますか。
+Romaji: Sumou o mi ni itta koto ga arimasu ka.
+Nghĩa: Anh đã từng đi xem sumo chưa?
+
+[06:08] 今まで3回行きました。
+Romaji: Ima made sankai ikimashita.
+Nghĩa: Đến nay tôi đã đi 3 lần.
+
+[06:14] 練習も見たことがありますよ。
+Romaji: Renshuu mo mita koto ga arimasu yo.
+Nghĩa: Tôi cũng đã từng xem buổi luyện tập.
+
+[06:14] 相撲をしたことがありますか。
+Romaji: Sumou o shita koto ga arimasu ka.
+Nghĩa: Anh đã từng chơi sumo chưa?
+
+[06:19] いいえ、ありません。
+Romaji: Iie, arimasen.
+Nghĩa: Không, chưa từng.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: エドさんは日本でどんな経験をしましたか。
+Romaji: Edo-san wa Nihon de donna keiken o shimashita ka.
+Nghĩa: Ed đã có trải nghiệm gì ở Nhật?
+
+A. 相撲を見に行ったことがあります
+Nghĩa: Đã từng đi xem sumo
+B. 相撲をしたことがあります
+Nghĩa: Đã từng chơi sumo
+C. お茶を習ったことがあります
+Nghĩa: Đã từng học trà đạo
+D. 阿波踊りをしたことがあります
+Nghĩa: Đã từng múa Awa Odori
+
+Đáp án đúng: A
+Giải thích ngắn gọn: エドさん đã đi xem sumo 3 lần và xem luyện tập, nhưng chưa từng chơi sumo.
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[06:23] マリアさんはブラジルの方ですね。
+Romaji: Maria-san wa Burajiru no kata desu ne.
+Nghĩa: Maria là người Brazil nhỉ.
+
+[06:28] 私はお祭りが好きです。
+Romaji: Watashi wa omatsuri ga suki desu.
+Nghĩa: Tôi thích lễ hội.
+
+[06:28] 四国のお祭りに行って、日本のダンスをしたことがありますよ。
+Romaji: Shikoku no omatsuri ni itte, Nihon no dansu o shita koto ga arimasu yo.
+Nghĩa: Tôi đã từng đi lễ hội ở Shikoku và nhảy điệu Nhật.
+
+[06:33] 阿波踊りですね。
+Romaji: Awa Odori desu ne.
+Nghĩa: Là điệu Awa Odori nhỉ.
+
+[06:38] 疲れましたが、楽しかったです。
+Romaji: Tsukaremashita ga, tanoshikatta desu.
+Nghĩa: Mệt nhưng rất vui.
+
+[06:38] 阿波踊りはブラジルのダンスより速くて面白いです。
+Romaji: Awa Odori wa Burajiru no dansu yori hayakute omoshiroi desu.
+Nghĩa: Awa Odori nhanh và thú vị hơn điệu nhảy Brazil.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: マリアさんは日本でどんな経験をしましたか。
+Romaji: Maria-san wa Nihon de donna keiken o shimashita ka.
+Nghĩa: Maria đã có trải nghiệm gì ở Nhật?
+
+A. 四国のお祭りで阿波踊りをしました
+Nghĩa: Đã múa Awa Odori ở lễ hội Shikoku
+B. 相撲を見ました
+Nghĩa: Đã xem sumo
+C. お茶を習いました
+Nghĩa: Đã học trà đạo
+D. 北海道で馬に乗りました
+Nghĩa: Đã cưỡi ngựa ở Hokkaido
+
+Đáp án đúng: A
+Giải thích ngắn gọn: マリアさん nói đã đi lễ hội ở Shikoku và múa 阿波踊り.
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[06:48] こちらはターポンさんです。タイから来ました。
+Romaji: Kochira wa Taapon-san desu. Tai kara kimashita.
+Nghĩa: Đây là Tapon. Anh ấy đến từ Thái Lan.
+
+[06:53] 去年の夏、北海道へ行きました。牧場で馬に乗りました。
+Romaji: Kyonen no natsu, Hokkaidou e ikimashita. Bokujou de uma ni norimashita.
+Nghĩa: Mùa hè năm ngoái, tôi đi Hokkaido. Tôi cưỡi ngựa ở nông trại.
+
+[06:59] 初めてですか。
+Romaji: Hajimete desu ka.
+Nghĩa: Lần đầu à?
+
+[06:59] 馬に乗ったことがありませんでしたから、ちょっと心配しました。
+Romaji: Uma ni notta koto ga arimasen deshita kara, chotto shinpai shimashita.
+Nghĩa: Vì tôi chưa từng cưỡi ngựa nên hơi lo.
+
+[07:03] どうでしたか。
+Romaji: Dou deshita ka.
+Nghĩa: Thế nào?
+
+[07:03] とても面白かったです。
+Romaji: Totemo omoshirokatta desu.
+Nghĩa: Rất thú vị.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: ターポンさんは日本でどんな経験をしましたか。
+Romaji: Taapon-san wa Nihon de donna keiken o shimashita ka.
+Nghĩa: Tapon đã có trải nghiệm gì ở Nhật?
+
+A. 北海道の牧場で馬に乗りました
+Nghĩa: Đã cưỡi ngựa ở nông trại tại Hokkaido
+B. 四国で踊りました
+Nghĩa: Đã nhảy ở Shikoku
+C. お茶を習いました
+Nghĩa: Đã học trà đạo
+D. 相撲の練習を見ました
+Nghĩa: Đã xem luyện tập sumo
+
+Đáp án đúng: A
+Giải thích ngắn gọn: ターポンさん nói đã đi Hokkaido và cưỡi ngựa ở 牧場.
+
+## Đoạn hội thoại 5
+
+### 1. Script hội thoại
+
+[07:14] 今年の夏休みはどうですか。
+Romaji: Kotoshi no natsuyasumi wa dou desu ka.
+Nghĩa: Kỳ nghỉ hè năm nay thế nào?
+
+[07:20] もうすぐ夏ですね。山田さんは夏休みに何をしますか。
+Romaji: Mousugu natsu desu ne. Yamada-san wa natsuyasumi ni nani o shimasu ka.
+Nghĩa: Sắp đến mùa hè rồi. Yamada sẽ làm gì trong kỳ nghỉ hè?
+
+[07:26] 夏休みですか。8月に1週間くらいありますが、いつも両親の家へ帰ります。
+Romaji: Natsuyasumi desu ka. Hachigatsu ni isshuukan kurai arimasu ga, itsumo ryoushin no ie e kaerimasu.
+Nghĩa: Nghỉ hè à? Tôi có khoảng 1 tuần vào tháng 8, thường về nhà bố mẹ.
+
+[07:31] 今年も帰りますか。
+Romaji: Kotoshi mo kaerimasu ka.
+Nghĩa: Năm nay cũng về à?
+
+[07:35] 子供と釣りに行ったり、山に登ったりします。
+Romaji: Kodomo to tsuri ni ittari, yama ni nobottari shimasu.
+Nghĩa: Tôi sẽ đi câu cá với con, leo núi, v.v.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[07:14] 質問: 今年の夏休みはどうですか。
+Romaji: Kotoshi no natsuyasumi wa dou desu ka.
+Nghĩa: Kỳ nghỉ hè năm nay thế nào?
+
+A. 8月に両親の家へ帰って、子供と釣りに行ったり山に登ったりします
+Nghĩa: Tháng 8 về nhà bố mẹ, đi câu cá với con và leo núi
+B. 9月にバリへ行って、海で泳ぎます
+Nghĩa: Tháng 9 đi Bali và bơi ở biển
+C. 北海道へ馬に乗りに行きます
+Nghĩa: Đi Hokkaido để cưỡi ngựa
+D. 四国のお祭りへ行きます
+Nghĩa: Đi lễ hội ở Shikoku
+
+Đáp án đúng: A
+Giải thích ngắn gọn: 山田さん nói tháng 8 về nhà bố mẹ, đi câu cá và leo núi với con.
+
+## Đoạn hội thoại 6
+
+### 1. Script hội thoại
+
+[07:40] クララさんの夏休みはどうですか。
+Romaji: Kurara-san no natsuyasumi wa dou desu ka.
+Nghĩa: Kỳ nghỉ hè của Clara thì thế nào?
+
+[07:40] 今年は9月に家族とインドネシアのバリへ行きます。
+Romaji: Kotoshi wa kugatsu ni kazoku to Indoneshia no Bari e ikimasu.
+Nghĩa: Năm nay, tháng 9 tôi đi Bali, Indonesia với gia đình.
+
+[07:46] 小さい家を借りて、3週間ゆっくり休みます。
+Romaji: Chiisai ie o karite, sanshuukan yukkuri yasumimasu.
+Nghĩa: Thuê một căn nhà nhỏ và nghỉ ngơi thong thả trong 3 tuần.
+
+[07:51] 海で泳いだり、本を読んだりしたいです。
+Romaji: Umi de oyoidari, hon o yondari shitai desu.
+Nghĩa: Tôi muốn bơi ở biển, đọc sách, v.v.
+
+[07:56] 3週間ですか。いいですね。
+Romaji: Sanshuukan desu ka. Ii desu ne.
+Nghĩa: 3 tuần à? Tuyệt nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: クララさんの今年の夏休みはどうですか。
+Romaji: Kurara-san no kotoshi no natsuyasumi wa dou desu ka.
+Nghĩa: Kỳ nghỉ hè năm nay của Clara thế nào?
+
+A. 9月に家族とバリへ行って、3週間休みます
+Nghĩa: Tháng 9 đi Bali với gia đình và nghỉ 3 tuần
+B. 8月に両親の家へ帰ります
+Nghĩa: Tháng 8 về nhà bố mẹ
+C. 子供と釣りに行きます
+Nghĩa: Đi câu cá với con
+D. 北海道へ行きます
+Nghĩa: Đi Hokkaido
+
+Đáp án đúng: A
+Giải thích ngắn gọn: クララさん nói tháng 9 đi Bali với gia đình và nghỉ 3 tuần.
+
+## Đoạn hội thoại 7
+
+### 1. Script hội thoại
+
+[08:10] ホームステイに入って、日本人のお母さんと一緒に写真を見ます。
+Romaji: Hoomusutei ni haitte, Nihonjin no okaasan to issho ni shashin o mimasu.
+Nghĩa: Tham gia homestay và xem ảnh cùng mẹ người Nhật.
+
+[08:16] 今はどうですか。
+Romaji: Ima wa dou desu ka.
+Nghĩa: Bây giờ thì thế nào?
+
+[08:21] この写真、どこですか。
+Romaji: Kono shashin, doko desu ka.
+Nghĩa: Bức ảnh này ở đâu vậy?
+
+[08:26] この町ですよ。30年前に撮りました。
+Romaji: Kono machi desu yo. Sanjuunen mae ni torimashita.
+Nghĩa: Là thành phố này đấy. Chụp 30 năm trước.
+
+[08:30] 木がたくさんありましたね。
+Romaji: Ki ga takusan arimashita ne.
+Nghĩa: Có nhiều cây nhỉ.
+
+[08:34] ここに川がありましたね。
+Romaji: Koko ni kawa ga arimashita ne.
+Nghĩa: Ở đây từng có dòng sông nhỉ.
+
+[08:38] 今はありません。
+Romaji: Ima wa arimasen.
+Nghĩa: Bây giờ không còn nữa.
+
+[08:41] 高いビルが多くなって、木は少なくなりました。
+Romaji: Takai biru ga ooku natte, ki wa sukunaku narimashita.
+Nghĩa: Nhà cao tầng nhiều hơn, cây cối ít đi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[08:16] 質問: 今はどうですか。
+Romaji: Ima wa dou desu ka.
+Nghĩa: Bây giờ thì thế nào?
+
+A. 高いビルが多くなって、木が少なくなりました
+Nghĩa: Nhà cao tầng nhiều hơn, cây cối ít đi
+B. 木が多くなって、ビルが少なくなりました
+Nghĩa: Cây nhiều hơn, nhà cao tầng ít đi
+C. 川が大きくなりました
+Nghĩa: Dòng sông lớn hơn
+D. 30年前と同じです
+Nghĩa: Giống 30 năm trước
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người mẹ nói bây giờ có nhiều nhà cao tầng hơn và cây ít đi.
+
+## Đoạn hội thoại 8
+
+### 1. Script hội thoại
+
+[08:48] これ、ご主人ですか。
+Romaji: Kore, goshujin desu ka.
+Nghĩa: Đây là chồng cô à?
+
+[08:53] ええ。結婚する前に撮りました。
+Romaji: Ee. Kekkon suru mae ni torimashita.
+Nghĩa: Vâng. Chụp trước khi kết hôn.
+
+[08:57] ハンサムでしたね。髪も長くて。
+Romaji: Hansamu deshita ne. Kami mo nagakute.
+Nghĩa: Đẹp trai nhỉ. Tóc cũng dài.
+
+[09:01] でも、今は髪は全然ありませんよ。
+Romaji: Demo, ima wa kami wa zenzen arimasen yo.
+Nghĩa: Nhưng bây giờ thì tóc không còn chút nào.
+
+[09:01] それに、目が悪くなって、お腹も大きくなって。
+Romaji: Sore ni, me ga waruku natte, onaka mo ookiku natte.
+Nghĩa: Hơn nữa, mắt kém đi và bụng cũng to ra.
+
+[09:09] そうですか。残念ですね。
+Romaji: Sou desu ka. Zannen desu ne.
+Nghĩa: Vậy à. Tiếc nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: ご主人は今どうですか。
+Romaji: Goshujin wa ima dou desu ka.
+Nghĩa: Chồng cô bây giờ thế nào?
+
+A. 髪がなくなって、目が悪くなって、お腹も大きくなりました
+Nghĩa: Tóc không còn, mắt kém đi, bụng cũng to ra
+B. 髪が長くなって、ハンサムになりました
+Nghĩa: Tóc dài hơn và đẹp trai hơn
+C. 背が高くなりました
+Nghĩa: Cao hơn
+D. 若くなりました
+Nghĩa: Trẻ hơn
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người mẹ nói bây giờ chồng không còn tóc, mắt kém và bụng to.
+
+## Đoạn hội thoại 9
+
+### 1. Script hội thoại
+
+[09:15] これ、ご主人の会社ですか。
+Romaji: Kore, goshujin no kaisha desu ka.
+Nghĩa: Đây là công ty của chồng cô à?
+
+[09:20] 有名なコンピュータソフトの会社ですね。
+Romaji: Yuumei na konpyuuta sofuto no kaisha desu ne.
+Nghĩa: Là công ty phần mềm máy tính nổi tiếng nhỉ.
+
+[09:26] 10年前に作りました。
+Romaji: Juunen mae ni tsukurimashita.
+Nghĩa: Đã thành lập 10 năm trước.
+
+[09:29] とても小さい会社でした。社員は2人だけでした。
+Romaji: Totemo chiisai kaisha deshita. Shain wa futari dake deshita.
+Nghĩa: Lúc đó là công ty rất nhỏ. Chỉ có 2 nhân viên.
+
+[09:34] 今は100人になりました。
+Romaji: Ima wa hyakunin ni narimashita.
+Nghĩa: Bây giờ đã thành 100 người.
+
+[09:34] 新しい製品、デルソフトはすごいですね。
+Romaji: Atarashii seihin, Deru Sofuto wa sugoi desu ne.
+Nghĩa: Sản phẩm mới, Del Soft, thật tuyệt nhỉ.
+
+[09:41] デルソフトはとても有名になりました。
+Romaji: Deru Sofuto wa totemo yuumei ni narimashita.
+Nghĩa: Del Soft đã trở nên rất nổi tiếng.
+
+[09:45] みんな知っていますよ。
+Romaji: Minna shitte imasu yo.
+Nghĩa: Ai cũng biết.
+
+[09:49] でも、忙しくなりましたよ。
+Romaji: Demo, isogashiku narimashita yo.
+Nghĩa: Nhưng đã trở nên bận rộn hơn.
+
+[09:49] 夫は休みが全然ありません。
+Romaji: Otto wa yasumi ga zenzen arimasen.
+Nghĩa: Chồng tôi hoàn toàn không có ngày nghỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: ご主人の会社は今どうですか。
+Romaji: Goshujin no kaisha wa ima dou desu ka.
+Nghĩa: Công ty của chồng cô bây giờ thế nào?
+
+A. 有名になって、社員が100人になりました
+Nghĩa: Đã nổi tiếng và nhân viên tăng lên 100 người
+B. 小さくなって、社員が2人になりました
+Nghĩa: Nhỏ lại và còn 2 nhân viên
+C. 休みが多くなりました
+Nghĩa: Có nhiều ngày nghỉ hơn
+D. 製品がなくなりました
+Nghĩa: Không còn sản phẩm
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Công ty từ 2 nhân viên đã thành 100 người và sản phẩm trở nên nổi tiếng.
+
+## Đoạn hội thoại 10
+
+### 1. Script hội thoại
+
+[09:56] これは20年前に近くの公園で撮りました。
+Romaji: Kore wa nijuu nen mae ni chikaku no kouen de torimashita.
+Nghĩa: Đây là ảnh chụp ở công viên gần đây 20 năm trước.
+
+[10:04] これ、太郎さんですね。
+Romaji: Kore, Tarou-san desu ne.
+Nghĩa: Đây là Taro nhỉ.
+
+[10:06] たくさん子供がいますね。
+Romaji: Takusan kodomo ga imasu ne.
+Nghĩa: Có nhiều trẻ con nhỉ.
+
+[10:06] 公園はいつもとても賑やかでしたよ。
+Romaji: Kouen wa itsumo totemo nigiyaka deshita yo.
+Nghĩa: Công viên lúc nào cũng rất náo nhiệt.
+
+[10:12] でも、今は小さい子供をあまり見ませんね。
+Romaji: Demo, ima wa chiisai kodomo o amari mimasen ne.
+Nghĩa: Nhưng bây giờ không thấy nhiều trẻ nhỏ.
+
+[10:18] 子供が少なくなりましたからね。
+Romaji: Kodomo ga sukunaku narimashita kara ne.
+Nghĩa: Vì trẻ em đã ít đi.
+
+[10:22] これから日本は大変ですよ。
+Romaji: Korekara Nihon wa taihen desu yo.
+Nghĩa: Từ nay Nhật Bản sẽ khó khăn đấy.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 今の公園はどうですか。
+Romaji: Ima no kouen wa dou desu ka.
+Nghĩa: Công viên bây giờ thế nào?
+
+A. 小さい子供が少なくなりました
+Nghĩa: Trẻ nhỏ đã ít đi
+B. 子供が多くなりました
+Nghĩa: Trẻ con nhiều hơn
+C. いつも賑やかです
+D. 公園がなくなりました
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người mẹ nói bây giờ ít thấy trẻ nhỏ vì trẻ em đã ít đi.

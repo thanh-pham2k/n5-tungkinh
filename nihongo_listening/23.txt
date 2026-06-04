@@ -1,0 +1,531 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[00:11] A: 明日からアメリカ出張だね。
+Romaji: Ashita kara Amerika shucchou da ne.
+Nghĩa: Từ ngày mai đi công tác Mỹ nhỉ.
+
+[00:16] B: 荷物は、わあ、たくさん薬を持って行くね。
+Romaji: Nimotsu wa, waa, takusan kusuri o motte iku ne.
+Nghĩa: Hành lý này, oa, mang nhiều thuốc quá nhỉ.
+
+[00:19] A: この赤い薬は疲れた時。この白いのは頭が痛い時。
+Romaji: Kono akai kusuri wa tsukareta toki. Kono shiroi no wa atama ga itai toki.
+Nghĩa: Thuốc đỏ này dùng khi mệt. Cái màu trắng này dùng khi đau đầu.
+
+[00:31] B: メガネもたくさんあるね。黒いの、小さいの、大きいの。どんな時かけるの。
+Romaji: Megane mo takusan aru ne. Kuroi no, chiisai no, ookii no. Donna toki kakeru no.
+Nghĩa: Kính cũng nhiều nhỉ. Cái đen, cái nhỏ, cái lớn. Dùng khi nào vậy?
+
+[00:35] A: この黒いメガネは飛行機で寝る時。
+Romaji: Kono kuroi megane wa hikouki de neru toki.
+Nghĩa: Kính đen này dùng khi ngủ trên máy bay.
+
+[00:43] A: この小さいのはパソコンを使う時。
+Romaji: Kono chiisai no wa pasokon o tsukau toki.
+Nghĩa: Cái nhỏ này dùng khi dùng máy tính.
+
+[00:49] A: この大きいのは、街を歩く時。素敵でしょう。
+Romaji: Kono ookii no wa, machi o aruku toki. Suteki deshou.
+Nghĩa: Cái lớn này dùng khi đi bộ trong phố. Đẹp đúng không?
+
+[01:05] B: 帽子も要るでしょう。
+Romaji: Boushi mo iru deshou.
+Nghĩa: Cũng cần mũ đúng không?
+
+[01:09] A: この小さいのは雨の時。軽いから便利。
+Romaji: Kono chiisai no wa ame no toki. Karui kara benri.
+Nghĩa: Cái nhỏ này dùng khi trời mưa. Vì nhẹ nên tiện.
+
+[01:15] A: その白いのは大きいね。これはパーティーの時。きれいでしょう。
+Romaji: Sono shiroi no wa ookii ne. Kore wa paatii no toki. Kirei deshou.
+Nghĩa: Cái màu trắng đó lớn nhỉ. Cái này dùng khi đi tiệc. Đẹp đúng không?
+
+[01:24] A: この青いのは、ニューヨークで野球を見に行くから。
+Romaji: Kono aoi no wa, Nyuu Yooku de yakyuu o mi ni iku kara.
+Nghĩa: Cái màu xanh này vì tôi sẽ đi xem bóng chày ở New York.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[00:19] 質問: 赤い薬はどんな時に使いますか。
+Romaji: Akai kusuri wa donna toki ni tsukaimasu ka.
+Nghĩa: Thuốc màu đỏ dùng khi nào?
+
+A. 疲れた時
+Nghĩa: Khi mệt
+B. 頭が痛い時
+Nghĩa: Khi đau đầu
+C. 雨の時
+Nghĩa: Khi trời mưa
+D. 寝る時
+Nghĩa: Khi ngủ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「赤い薬は疲れた時」.
+
+Câu 2:
+[00:35] 質問: 黒いメガネはどんな時に使いますか。
+Romaji: Kuroi megane wa donna toki ni tsukaimasu ka.
+Nghĩa: Kính đen dùng khi nào?
+
+A. 飛行機で寝る時
+Nghĩa: Khi ngủ trên máy bay
+B. パソコンを使う時
+Nghĩa: Khi dùng máy tính
+C. 街を歩く時
+Nghĩa: Khi đi bộ trong phố
+D. 野球を見る時
+Nghĩa: Khi xem bóng chày
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói nói 「飛行機で寝る時」.
+
+Câu 3:
+[00:43] 質問: 小さいメガネはどんな時に使いますか。
+Romaji: Chiisai megane wa donna toki ni tsukaimasu ka.
+Nghĩa: Kính nhỏ dùng khi nào?
+
+A. パソコンを使う時
+Nghĩa: Khi dùng máy tính
+B. 飛行機で寝る時
+Nghĩa: Khi ngủ trên máy bay
+C. 街を歩く時
+Nghĩa: Khi đi bộ trong phố
+D. パーティーの時
+
+Nghĩa: Khi đi tiệc
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「パソコンを使う時」.
+
+Câu 4:
+[01:09] 質問: 小さい帽子はどんな時に使いますか。
+Romaji: Chiisai boushi wa donna toki ni tsukaimasu ka.
+Nghĩa: Mũ nhỏ dùng khi nào?
+
+A. 雨の時
+Nghĩa: Khi trời mưa
+B. パーティーの時
+Nghĩa: Khi đi tiệc
+C. 野球を見る時
+Nghĩa: Khi xem bóng chày
+D. 頭が痛い時
+
+Nghĩa: Khi đau đầu
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói nói 「雨の時」.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[01:48] A: マザーテレサは1910年にヨーロッパの古い町スコピエで生まれました。
+Romaji: Mazaa Teresa wa sen kyuu-hyaku juu-nen ni Yooroppa no furui machi Sukopie de umaremashita.
+Nghĩa: Mẹ Teresa sinh năm 1910 tại Skopje, một thành phố cổ ở châu Âu.
+
+[01:54] A: 子供の時、両親と一緒によく教会へ行きました。
+Romaji: Kodomo no toki, ryoushin to issho ni yoku kyoukai e ikimashita.
+Nghĩa: Khi còn nhỏ, bà thường đi nhà thờ cùng bố mẹ.
+
+[02:08] A: テレサは15歳ぐらいの時、教会の人からインドについていろいろ聞きました。
+Romaji: Teresa wa juugo-sai gurai no toki, kyoukai no hito kara Indo ni tsuite iroiro kikimashita.
+Nghĩa: Khoảng 15 tuổi, Teresa nghe nhiều điều về Ấn Độ từ người trong nhà thờ.
+
+[02:16] A: そしてインドへ行きたいと思いました。
+Romaji: Soshite Indo e ikitai to omoimashita.
+Nghĩa: Và bà nghĩ muốn đi Ấn Độ.
+
+[02:16] A: インドへ行って、病気の人やお金がない人の役に立ちたいと思いました。
+Romaji: Indo e itte, byouki no hito ya okane ga nai hito no yaku ni tachitai to omoimashita.
+Nghĩa: Bà muốn đến Ấn Độ để giúp người bệnh và người không có tiền.
+
+[02:28] A: 1928年、18歳の時、インドへ行きました。
+Romaji: Sen kyuu-hyaku nijuu-hachi-nen, juuhassai no toki, Indo e ikimashita.
+Nghĩa: Năm 1928, khi 18 tuổi, bà đi Ấn Độ.
+
+[02:36] A: 1931年から1948年までインドの学校で教えました。
+Romaji: Sen kyuu-hyaku sanjuu-ichi-nen kara sen kyuu-hyaku yonjuu-hachi-nen made Indo no gakkou de oshiemashita.
+Nghĩa: Từ năm 1931 đến năm 1948, bà dạy học tại trường ở Ấn Độ.
+
+[02:44] A: 1948年に教師を辞めて、それから病気の人や両親がいない子どもの家を作りました。
+Romaji: Sen kyuu-hyaku yonjuu-hachi-nen ni kyoushi o yamete, sore kara byouki no hito ya ryoushin ga inai kodomo no ie o tsukurimashita.
+Nghĩa: Năm 1948, bà nghỉ dạy, sau đó lập nhà cho người bệnh và trẻ em không có cha mẹ.
+
+[02:55] A: 1979年12月、69歳の時、テレサはノーベル賞をもらいました。
+Romaji: Sen kyuu-hyaku nanajuu-kyuu-nen juuni-gatsu, rokujuu-kyuu-sai no toki, Teresa wa Nooberu-shou o moraimashita.
+Nghĩa: Tháng 12 năm 1979, khi 69 tuổi, Teresa nhận giải Nobel.
+
+[03:05] A: マザーテレサは3回日本へ来たことがあります。71歳と72歳と74歳の時です。
+Romaji: Mazaa Teresa wa sankai Nihon e kita koto ga arimasu. Nanajuu-issai to nanajuu-ni-sai to nanajuu-yon-sai no toki desu.
+Nghĩa: Mẹ Teresa từng đến Nhật 3 lần, khi 71, 72 và 74 tuổi.
+
+[03:16] A: 2回目に日本へ来た時、長崎へ行ってお祈りをしました。
+Romaji: Nikai-me ni Nihon e kita toki, Nagasaki e itte oinori o shimashita.
+Nghĩa: Lần thứ hai đến Nhật, bà đến Nagasaki và cầu nguyện.
+
+[03:23] A: 1997年に亡くなりました。87歳でした。
+Romaji: Sen kyuu-hyaku kyuujuu-nana-nen ni nakunarimashita. Hachijuu-nana-sai deshita.
+Nghĩa: Bà mất năm 1997, hưởng thọ 87 tuổi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[01:48] 質問: マザーテレサはいつ生まれましたか。
+Romaji: Mazaa Teresa wa itsu umaremashita ka.
+Nghĩa: Mẹ Teresa sinh khi nào?
+
+A. 1910年
+Nghĩa: Năm 1910
+B. 1928年
+Nghĩa: Năm 1928
+C. 1948年
+Nghĩa: Năm 1948
+D. 1979年
+
+Nghĩa: Năm 1979
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「1910年に…生まれました」.
+
+Câu 2:
+[02:28] 質問: マザーテレサは何歳の時、インドへ行きましたか。
+Romaji: Mazaa Teresa wa nansai no toki, Indo e ikimashita ka.
+Nghĩa: Mẹ Teresa đi Ấn Độ khi bao nhiêu tuổi?
+
+A. 18歳
+Nghĩa: 18 tuổi
+B. 15歳
+Nghĩa: 15 tuổi
+C. 69歳
+Nghĩa: 69 tuổi
+D. 87歳
+
+Nghĩa: 87 tuổi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「18歳の時、インドへ行きました」.
+
+Câu 3:
+[02:36] 質問: 1931年から1948年まで何をしましたか。
+Romaji: Sen kyuu-hyaku sanjuu-ichi-nen kara sen kyuu-hyaku yonjuu-hachi-nen made nani o shimashita ka.
+Nghĩa: Từ năm 1931 đến 1948 bà đã làm gì?
+
+A. 学校で教えました
+Nghĩa: Dạy học ở trường
+B. ノーベル賞をもらいました
+Nghĩa: Nhận giải Nobel
+C. 日本へ来ました
+Nghĩa: Đến Nhật
+D. 長崎でお祈りをしました
+
+Nghĩa: Cầu nguyện ở Nagasaki
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「インドの学校で教えました」.
+
+Câu 4:
+[03:23] 質問: マザーテレサは何歳で亡くなりましたか。
+Romaji: Mazaa Teresa wa nansai de nakunarimashita ka.
+Nghĩa: Mẹ Teresa mất khi bao nhiêu tuổi?
+
+A. 87歳
+Nghĩa: 87 tuổi
+B. 69歳
+Nghĩa: 69 tuổi
+C. 74歳
+Nghĩa: 74 tuổi
+D. 71歳
+
+Nghĩa: 71 tuổi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「87歳でした」.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[03:48] A: 馬ですね。どうやって乗りますか。
+Romaji: Uma desu ne. Dou yatte norimasu ka.
+Nghĩa: Là con ngựa nhỉ. Cưỡi như thế nào?
+
+[03:52] B: ここに座って、左の耳を持つと動きます。
+Romaji: Koko ni suwatte, hidari no mimi o motsu to ugokimasu.
+Nghĩa: Ngồi ở đây, nếu cầm tai trái thì nó sẽ di chuyển.
+
+[04:01] A: 全然動きません。
+Romaji: Zenzen ugokimasen.
+Nghĩa: Nó hoàn toàn không di chuyển.
+
+[04:01] B: それは右の耳ですよ。左の耳を持ってください。
+Romaji: Sore wa migi no mimi desu yo. Hidari no mimi o motte kudasai.
+Nghĩa: Đó là tai phải. Hãy cầm tai trái.
+
+[04:19] A: トイレの電気のスイッチはどこですか。
+Romaji: Toire no denki no suicchi wa doko desu ka.
+Nghĩa: Công tắc đèn nhà vệ sinh ở đâu?
+
+[04:19] B: スイッチはありません。中に入ると明るくなります。
+Romaji: Suicchi wa arimasen. Naka ni hairu to akaruku narimasu.
+Nghĩa: Không có công tắc. Khi vào bên trong thì đèn sẽ sáng.
+
+[04:33] A: コーヒーを買いたい時、どうしますか。
+Romaji: Koohii o kaitai toki, dou shimasu ka.
+Nghĩa: Khi muốn mua cà phê thì làm thế nào?
+
+[04:33] B: まず、ここにお金を入れます。
+Romaji: Mazu, koko ni okane o iremasu.
+Nghĩa: Trước tiên, bỏ tiền vào đây.
+
+[04:39] A: 砂糖を入れますか。甘いのがいいです。ミルクも入れたいです。
+Romaji: Satou o iremasu ka. Amai no ga ii desu. Miruku mo iretai desu.
+Nghĩa: Có cho đường không? Tôi muốn cà phê ngọt. Tôi cũng muốn cho sữa.
+
+[04:42] B: じゃ、この砂糖とミルクのボタンを押して、それからコーヒーのボタンを押すと、ほら、出ました。
+Romaji: Ja, kono satou to miruku no botan o oshite, sore kara koohii no botan o osu to, hora, demashita.
+Nghĩa: Vậy hãy bấm nút đường và sữa này, rồi bấm nút cà phê, nhìn này, cà phê ra rồi.
+
+[05:07] A: これ何ですか。
+Romaji: Kore nan desu ka.
+Nghĩa: Đây là gì?
+
+[05:11] B: 掃除君です。掃除する機械です。
+Romaji: Souji-kun desu. Souji suru kikai desu.
+Nghĩa: Là Souji-kun. Đây là máy dọn dẹp.
+
+[05:15] A: 使い方は簡単ですか。
+Romaji: Tsukaikata wa kantan desu ka.
+Nghĩa: Cách sử dụng có đơn giản không?
+
+[05:21] B: はい、とても簡単ですよ。頭にちょっと触ると掃除を始めます。
+Romaji: Hai, totemo kantan desu yo. Atama ni chotto sawaru to souji o hajimemasu.
+Nghĩa: Vâng, rất đơn giản. Khi chạm nhẹ vào đầu thì nó bắt đầu dọn dẹp.
+
+[05:27] B: もう一回触ると30分働きます。
+Romaji: Mou ikkai sawaru to sanjuppun hatarakimasu.
+Nghĩa: Nếu chạm thêm một lần nữa, nó sẽ làm việc 30 phút.
+
+[05:37] A: うわ、便利。欲しいな。
+Romaji: Uwa, benri. Hoshii na.
+Nghĩa: Oa, tiện quá. Tôi muốn có một cái.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[03:52] 質問: 馬はどうすると動きますか。
+Romaji: Uma wa dou suru to ugokimasu ka.
+Nghĩa: Con ngựa sẽ di chuyển khi làm gì?
+
+A. 左の耳を持つ
+Nghĩa: Cầm tai trái
+B. 右の耳を持つ
+Nghĩa: Cầm tai phải
+C. 頭に触る
+Nghĩa: Chạm vào đầu
+D. ボタンを押す
+
+Nghĩa: Bấm nút
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói nói 「左の耳を持つと動きます」.
+
+Câu 2:
+[04:19] 質問: トイレの電気はどうすると明るくなりますか。
+Romaji: Toire no denki wa dou suru to akaruku narimasu ka.
+Nghĩa: Đèn nhà vệ sinh sáng lên khi làm gì?
+
+A. 中に入る
+Nghĩa: Đi vào bên trong
+B. スイッチを押す
+Nghĩa: Bấm công tắc
+C. お金を入れる
+Nghĩa: Cho tiền vào
+D. 耳を持つ
+
+Nghĩa: Cầm tai
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「中に入ると明るくなります」.
+
+Câu 3:
+[04:42] 質問: 甘いコーヒーを買いたい時、何のボタンを押しますか。
+Romaji: Amai koohii o kaitai toki, nan no botan o oshimasu ka.
+Nghĩa: Khi muốn mua cà phê ngọt thì bấm nút gì?
+
+A. 砂糖とミルクのボタン
+Nghĩa: Nút đường và sữa
+B. 水のボタン
+Nghĩa: Nút nước
+C. 電気のボタン
+Nghĩa: Nút điện
+D. 掃除のボタン
+
+Nghĩa: Nút dọn dẹp
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói chỉ bấm 「砂糖とミルクのボタン」 rồi bấm nút cà phê.
+
+Câu 4:
+[05:21] 質問: 掃除君はどうすると掃除を始めますか。
+Romaji: Souji-kun wa dou suru to souji o hajimemasu ka.
+Nghĩa: Souji-kun bắt đầu dọn dẹp khi làm gì?
+
+A. 頭にちょっと触る
+Nghĩa: Chạm nhẹ vào đầu
+B. 耳を持つ
+Nghĩa: Cầm tai
+C. 中に入る
+Nghĩa: Đi vào trong
+D. お金を入れる
+
+Nghĩa: Cho tiền vào
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「頭にちょっと触ると掃除を始めます」.
+
+---
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[05:56] A: すみません。レストランマミーはどこですか。
+Romaji: Sumimasen. Resutoran Mamii wa doko desu ka.
+Nghĩa: Xin lỗi. Nhà hàng Mamy ở đâu?
+
+[06:01] B: あそこに信号がありますね。
+Romaji: Asoko ni shingou ga arimasu ne.
+Nghĩa: Ở kia có đèn giao thông đúng không?
+
+[06:05] B: あの信号を右へ曲がって、50メートルぐらい行くと左にありますよ。
+Romaji: Ano shingou o migi e magatte, gojuu meetoru gurai iku to hidari ni arimasu yo.
+Nghĩa: Rẽ phải ở đèn giao thông đó, đi khoảng 50 mét thì nó ở bên trái.
+
+[06:11] A: どうもありがとうございました。
+Romaji: Doumo arigatou gozaimashita.
+Nghĩa: Xin cảm ơn nhiều.
+
+[06:19] A: この近くに有名な歯医者がありますね。
+Romaji: Kono chikaku ni yuumei na haisha ga arimasu ne.
+Nghĩa: Gần đây có nha sĩ nổi tiếng đúng không?
+
+[06:28] B: ああ、寿デンタルね。
+Romaji: Aa, Kotobuki Dentaru ne.
+Nghĩa: À, Kotobuki Dental nhỉ.
+
+[06:28] B: 寿デンタルはこの道をまっすぐ行って、二つ目の角を左へ曲がってください。
+Romaji: Kotobuki Dentaru wa kono michi o massugu itte, futatsu-me no kado o hidari e magatte kudasai.
+Nghĩa: Đến Kotobuki Dental thì đi thẳng đường này, rẽ trái ở góc thứ hai.
+
+[06:39] B: 左へ曲がって少し行くと古い橋があります。
+Romaji: Hidari e magatte sukoshi iku to furui hashi ga arimasu.
+Nghĩa: Sau khi rẽ trái và đi một chút sẽ có cây cầu cũ.
+
+[06:45] B: その橋を渡ると右に小さいスーパーがあります。その前です。
+Romaji: Sono hashi o wataru to migi ni chiisai suupaa ga arimasu. Sono mae desu.
+Nghĩa: Qua cây cầu đó thì bên phải có siêu thị nhỏ. Nó ở trước siêu thị đó.
+
+[07:00] A: ヤマトー美術館へ行きたいです。行き方を教えてください。
+Romaji: Yamatoo bijutsukan e ikitai desu. Ikikata o oshiete kudasai.
+Nghĩa: Tôi muốn đi Bảo tàng Yamato. Xin hãy chỉ đường.
+
+[07:05] B: ここから25番のバスに乗って、3つ目で降りてください。
+Romaji: Koko kara nijuu-go-ban no basu ni notte, mittsu-me de orite kudasai.
+Nghĩa: Từ đây lên xe buýt số 25, xuống ở trạm thứ ba.
+
+[07:12] A: 3つ目です。
+Romaji: Mittsu-me desu ne.
+Nghĩa: Trạm thứ ba nhỉ.
+
+[07:12] B: バスを降りると前に大きい公園があります。その中に美術館があります。
+Romaji: Basu o oriru to mae ni ookii kouen ga arimasu. Sono naka ni bijutsukan ga arimasu.
+Nghĩa: Khi xuống xe buýt, phía trước có công viên lớn. Bảo tàng ở trong đó.
+
+[07:18] B: 面白いデザインの建物ですから、すぐわかります。
+Romaji: Omoshiroi dezain no tatemono desu kara, sugu wakarimasu.
+Nghĩa: Vì là tòa nhà có thiết kế thú vị nên bạn sẽ nhận ra ngay.
+
+[07:24] A: わかりました。
+Romaji: Wakarimashita.
+Nghĩa: Tôi hiểu rồi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[06:05] 質問: レストランマミーはどこにありますか。
+Romaji: Resutoran Mamii wa doko ni arimasu ka.
+Nghĩa: Nhà hàng Mamy ở đâu?
+
+A. 信号を右へ曲がって50メートルぐらい行った左
+Nghĩa: Rẽ phải ở đèn giao thông, đi khoảng 50m, ở bên trái
+B. 信号を左へ曲がってすぐ右
+Nghĩa: Rẽ trái ở đèn giao thông, ngay bên phải
+C. 橋を渡った右
+Nghĩa: Qua cầu, bên phải
+D. 公園の中
+
+Nghĩa: Trong công viên
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「信号を右へ曲がって、50メートルぐらい行くと左」.
+
+Câu 2:
+[06:28] 質問: 寿デンタルへ行く時、どこで左へ曲がりますか。
+Romaji: Kotobuki Dentaru e iku toki, doko de hidari e magarimasu ka.
+Nghĩa: Khi đi Kotobuki Dental, rẽ trái ở đâu?
+
+A. 二つ目の角
+Nghĩa: Góc thứ hai
+B. 信号
+Nghĩa: Đèn giao thông
+C. 橋の前
+Nghĩa: Trước cầu
+D. スーパーの前
+
+Nghĩa: Trước siêu thị
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người chỉ đường nói 「二つ目の角を左へ曲がってください」.
+
+Câu 3:
+[06:45] 質問: 寿デンタルは何の前にありますか。
+Romaji: Kotobuki Dentaru wa nani no mae ni arimasu ka.
+Nghĩa: Kotobuki Dental ở trước cái gì?
+
+A. 小さいスーパー
+Nghĩa: Siêu thị nhỏ
+B. 古い橋
+Nghĩa: Cây cầu cũ
+C. レストラン
+Nghĩa: Nhà hàng
+D. 信号
+
+Nghĩa: Đèn giao thông
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「小さいスーパーがあります。その前です」.
+
+Câu 4:
+[07:05] 質問: ヤマトー美術館へ行く時、何番のバスに乗りますか。
+Romaji: Yamatoo bijutsukan e iku toki, nan-ban no basu ni norimasu ka.
+Nghĩa: Khi đi Bảo tàng Yamato, đi xe buýt số mấy?
+
+A. 25番
+Nghĩa: Số 25
+B. 3番
+Nghĩa: Số 3
+C. 50番
+Nghĩa: Số 50
+D. 2番
+
+Nghĩa: Số 2
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người chỉ đường nói 「25番のバスに乗って」.

@@ -1,0 +1,479 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[00:15] A: 皆さん、寮の生活はどうですか。もう慣れましたか。ターポンさん。
+Romaji: Minasan, ryou no seikatsu wa dou desu ka. Mou naremashita ka. Taapon-san.
+Nghĩa: Mọi người, cuộc sống ở ký túc xá thế nào? Đã quen chưa? Bạn Taapon.
+
+[00:19] B: はい、もう慣れました。
+Romaji: Hai, mou naremashita.
+Nghĩa: Vâng, tôi đã quen rồi.
+
+[00:24] A: 寮の食べ物はどうですか。
+Romaji: Ryou no tabemono wa dou desu ka.
+Nghĩa: Đồ ăn ở ký túc xá thế nào?
+
+[00:24] B: とても美味しいです。
+Romaji: Totemo oishii desu.
+Nghĩa: Rất ngon.
+
+[00:29] A: 夜は何をしますか。
+Romaji: Yoru wa nani o shimasu ka.
+Nghĩa: Buổi tối bạn làm gì?
+
+[00:29] B: ビデオを見ます。友達と一緒に。
+Romaji: Bideo o mimasu. Tomodachi to issho ni.
+Nghĩa: Tôi xem video cùng với bạn.
+
+[00:35] B: 寮の生活はとても楽しいです。
+Romaji: Ryou no seikatsu wa totemo tanoshii desu.
+Nghĩa: Cuộc sống ở ký túc xá rất vui.
+
+[00:40] A: エドさんはどうですか。
+Romaji: Edo-san wa dou desu ka.
+Nghĩa: Còn bạn Ed thì sao?
+
+[00:44] C: うーん、大変です。食べ物、友達、日本語。
+Romaji: Uun, taihen desu. Tabemono, tomodachi, nihongo.
+Nghĩa: Ừm, vất vả lắm. Đồ ăn, bạn bè, tiếng Nhật.
+
+[00:50] C: 食べ物はあまり美味しくないです。
+Romaji: Tabemono wa amari oishiku nai desu.
+Nghĩa: Đồ ăn không ngon lắm.
+
+[00:55] C: 友達は親切ですが、いつも忙しいです。
+Romaji: Tomodachi wa shinsetsu desu ga, itsumo isogashii desu.
+Nghĩa: Bạn bè thì tốt bụng, nhưng lúc nào cũng bận.
+
+[00:59] C: そして、友達の日本語は難しいです。分かりません。
+Romaji: Soshite, tomodachi no nihongo wa muzukashii desu. Wakarimasen.
+Nghĩa: Và tiếng Nhật của bạn bè thì khó. Tôi không hiểu.
+
+[01:07] A: 林さん、寮の生活はどうですか。
+Romaji: Rin-san, ryou no seikatsu wa dou desu ka.
+Nghĩa: Bạn Rin, cuộc sống ở ký túc xá thế nào?
+
+[01:13] D: この寮は古いですね。
+Romaji: Kono ryou wa furui desu ne.
+Nghĩa: Ký túc xá này cũ nhỉ.
+
+[01:16] D: 部屋、エレベーター、トイレ、あまり便利じゃありません。
+Romaji: Heya, erebeetaa, toire, amari benri ja arimasen.
+Nghĩa: Phòng, thang máy, nhà vệ sinh không tiện lắm.
+
+[01:22] A: 寮の友達はどうですか。
+Romaji: Ryou no tomodachi wa dou desu ka.
+Nghĩa: Bạn bè ở ký túc xá thì thế nào?
+
+[01:32] D: 私は夜はいつも11時に寝ますが、友達は毎晩12時までテレビを見ます。
+Romaji: Watashi wa yoru wa itsumo juuichiji ni nemasu ga, tomodachi wa maiban juuniji made terebi o mimasu.
+Nghĩa: Tôi thường ngủ lúc 11 giờ tối, nhưng bạn bè mỗi tối xem tivi đến 12 giờ.
+
+[01:39] D: 時々1時まで。にぎやかです。
+Romaji: Tokidoki ichiji made. Nigiyaka desu.
+Nghĩa: Thỉnh thoảng đến 1 giờ. Rất ồn ào.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[00:24] 質問: ターポンさんは寮の食べ物をどう思っていますか。
+Romaji: Taapon-san wa ryou no tabemono o dou omotte imasu ka.
+Nghĩa: Bạn Taapon nghĩ đồ ăn ở ký túc xá thế nào?
+
+A. とても美味しいです
+Nghĩa: Rất ngon
+B. あまり美味しくないです
+Nghĩa: Không ngon lắm
+C. とても高いです
+Nghĩa: Rất đắt
+D. 便利じゃありません
+Nghĩa: Không tiện
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Taapon nói 「とても美味しいです」.
+
+Câu 2:
+[00:50] 質問: エドさんは食べ物についてどう言いましたか。
+Romaji: Edo-san wa tabemono ni tsuite dou iimashita ka.
+Nghĩa: Bạn Ed nói gì về đồ ăn?
+
+A. あまり美味しくないです
+Nghĩa: Không ngon lắm
+B. とても美味しいです
+Nghĩa: Rất ngon
+C. とても楽しいです
+Nghĩa: Rất vui
+D. とても便利です
+Nghĩa: Rất tiện
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Ed nói 「食べ物はあまり美味しくないです」.
+
+Câu 3:
+[01:16] 質問: 林さんは寮についてどう思っていますか。
+Romaji: Rin-san wa ryou ni tsuite dou omotte imasu ka.
+Nghĩa: Bạn Rin nghĩ ký túc xá thế nào?
+
+A. 古くて、あまり便利じゃありません
+Nghĩa: Cũ và không tiện lắm
+B. 新しくて、便利です
+Nghĩa: Mới và tiện
+C. とても楽しいです
+Nghĩa: Rất vui
+D. とても静かです
+Nghĩa: Rất yên tĩnh
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Rin nói 「古い」 và 「あまり便利じゃありません」.
+
+Câu 4:
+[01:32] 質問: 林さんの友達は毎晩何時までテレビを見ますか。
+Romaji: Rin-san no tomodachi wa maiban nanji made terebi o mimasu ka.
+Nghĩa: Bạn của Rin mỗi tối xem tivi đến mấy giờ?
+
+A. 12時まで
+Nghĩa: Đến 12 giờ
+B. 11時まで
+Nghĩa: Đến 11 giờ
+C. 10時まで
+Nghĩa: Đến 10 giờ
+D. 8時まで
+Nghĩa: Đến 8 giờ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「友達は毎晩12時までテレビを見ます」.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[02:06] A: ごめんください。
+Romaji: Gomen kudasai.
+Nghĩa: Xin chào / có ai ở nhà không?
+
+[02:09] B: グプタさん、いらっしゃい。暑いですね。
+Romaji: Gupta-san, irasshai. Atsui desu ne.
+Nghĩa: Anh Gupta, chào mừng anh đến. Trời nóng nhỉ.
+
+[02:13] B: 冷たいお茶です。どうぞ。
+Romaji: Tsumetai ocha desu. Douzo.
+Nghĩa: Đây là trà lạnh. Xin mời.
+
+[02:17] A: ありがとうございます。美味しいお茶ですね。
+Romaji: Arigatou gozaimasu. Oishii ocha desu ne.
+Nghĩa: Cảm ơn. Trà ngon quá.
+
+[02:27] B: グプタさんはインドのどちらから。
+Romaji: Gupta-san wa Indo no dochira kara.
+Nghĩa: Anh Gupta đến từ đâu của Ấn Độ?
+
+[02:27] A: インドのアグラです。
+Romaji: Indo no Agura desu.
+Nghĩa: Tôi đến từ Agra của Ấn Độ.
+
+[02:34] B: どんな町ですか。
+Romaji: Donna machi desu ka.
+Nghĩa: Đó là thành phố như thế nào?
+
+[02:38] A: あまり大きくないですが、にぎやかな町です。
+Romaji: Amari ookiku nai desu ga, nigiyaka na machi desu.
+Nghĩa: Không lớn lắm, nhưng là thành phố nhộn nhịp.
+
+[02:48] B: 会社はIMCですね。どんな会社ですか。
+Romaji: Kaisha wa IMC desu ne. Donna kaisha desu ka.
+Nghĩa: Công ty của anh là IMC nhỉ. Đó là công ty như thế nào?
+
+[02:55] A: コンピューターの会社です。あまり有名じゃありませんが、良い会社です。
+Romaji: Konpyuutaa no kaisha desu. Amari yuumei ja arimasen ga, yoi kaisha desu.
+Nghĩa: Là công ty máy tính. Không nổi tiếng lắm, nhưng là công ty tốt.
+
+[03:09] B: うちは素敵な町ですね。
+Romaji: Uchi wa suteki na machi desu ne.
+Nghĩa: Khu nhà / nơi này là một thành phố đẹp nhỉ.
+
+[03:15] A: 町はいいですが、私のうちはあまり良くないです。
+Romaji: Machi wa ii desu ga, watashi no uchi wa amari yoku nai desu.
+Nghĩa: Thành phố thì tốt, nhưng nhà tôi không tốt lắm.
+
+[03:20] B: そうですか。
+Romaji: Sou desu ka.
+Nghĩa: Vậy à.
+
+[03:20] A: 古いです。そして、きれいじゃありません。
+Romaji: Furui desu. Soshite, kirei ja arimasen.
+Nghĩa: Cũ. Và không sạch/không đẹp.
+
+[03:34] B: 日本語の先生はどんな人ですか。
+Romaji: Nihongo no sensei wa donna hito desu ka.
+Nghĩa: Giáo viên tiếng Nhật là người như thế nào?
+
+[03:34] A: とても面白い先生です。
+Romaji: Totemo omoshiroi sensei desu.
+Nghĩa: Là giáo viên rất thú vị.
+
+[03:40] A: あまりハンサムじゃありませんが。
+Romaji: Amari hansamu ja arimasen ga.
+Nghĩa: Nhưng không đẹp trai lắm.
+
+[03:46] A: もう8時ですね。そろそろ失礼します。
+Romaji: Mou hachiji desu ne. Sorosoro shitsurei shimasu.
+Nghĩa: Đã 8 giờ rồi nhỉ. Tôi xin phép về.
+
+[03:51] A: 今日はどうもありがとうございました。
+Romaji: Kyou wa doumo arigatou gozaimashita.
+Nghĩa: Hôm nay cảm ơn rất nhiều.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[02:27] 質問: グプタさんはインドのどこから来ましたか。
+Romaji: Gupta-san wa Indo no doko kara kimashita ka.
+Nghĩa: Anh Gupta đến từ đâu của Ấn Độ?
+
+A. アグラ
+Nghĩa: Agra
+B. デリー
+Nghĩa: Delhi
+C. 東京
+Nghĩa: Tokyo
+D. 大阪
+Nghĩa: Osaka
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Gupta nói 「インドのアグラです」.
+
+Câu 2:
+[02:38] 質問: アグラはどんな町ですか。
+Romaji: Agura wa donna machi desu ka.
+Nghĩa: Agra là thành phố như thế nào?
+
+A. あまり大きくないですが、にぎやかな町です
+Nghĩa: Không lớn lắm nhưng nhộn nhịp
+B. とても静かな町です
+Nghĩa: Thành phố rất yên tĩnh
+C. 大きくて、静かな町です
+Nghĩa: Thành phố lớn và yên tĩnh
+D. 古くて、きれいじゃありません
+Nghĩa: Cũ và không sạch/không đẹp
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Gupta nói 「あまり大きくないですが、にぎやかな町です」.
+
+Câu 3:
+[02:55] 質問: IMCはどんな会社ですか。
+Romaji: IMC wa donna kaisha desu ka.
+Nghĩa: IMC là công ty như thế nào?
+
+A. コンピューターの会社
+Nghĩa: Công ty máy tính
+B. 日本語の学校
+Nghĩa: Trường tiếng Nhật
+C. 食べ物の会社
+Nghĩa: Công ty thực phẩm
+D. 車の会社
+Nghĩa: Công ty xe hơi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「コンピューターの会社です」.
+
+Câu 4:
+[03:34] 質問: 日本語の先生はどんな人ですか。
+Romaji: Nihongo no sensei wa donna hito desu ka.
+Nghĩa: Giáo viên tiếng Nhật là người như thế nào?
+
+A. とても面白い先生
+Nghĩa: Giáo viên rất thú vị
+B. とてもハンサムな先生
+Nghĩa: Giáo viên rất đẹp trai
+C. とても静かな先生
+Nghĩa: Giáo viên rất yên tĩnh
+D. とても忙しい先生
+Nghĩa: Giáo viên rất bận
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Gupta nói 「とても面白い先生です」.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[04:02] A: いらっしゃいませ。
+Romaji: Irasshaimase.
+Nghĩa: Xin chào quý khách.
+
+[04:06] B: その傘を見せてください。
+Romaji: Sono kasa o misete kudasai.
+Nghĩa: Cho tôi xem cái ô đó.
+
+[04:06] A: どれですか。
+Romaji: Dore desu ka.
+Nghĩa: Cái nào ạ?
+
+[04:10] B: その白い傘です。
+Romaji: Sono shiroi kasa desu.
+Nghĩa: Cái ô màu trắng đó.
+
+[04:10] A: はい、どうぞ。
+Romaji: Hai, douzo.
+Nghĩa: Vâng, xin mời.
+
+[04:14] B: いくらですか。
+Romaji: Ikura desu ka.
+Nghĩa: Bao nhiêu tiền?
+
+[04:14] A: 2,000円です。
+Romaji: Nisen-en desu.
+Nghĩa: 2.000 yên.
+
+[04:17] B: じゃ、これをください。
+Romaji: Ja, kore o kudasai.
+Nghĩa: Vậy cho tôi cái này.
+
+[04:22] B: すみません。あの椅子、どこのですか。
+Romaji: Sumimasen. Ano isu, doko no desu ka.
+Nghĩa: Xin lỗi. Cái ghế kia là của nước nào?
+
+[04:28] A: どれですか。
+Romaji: Dore desu ka.
+Nghĩa: Cái nào ạ?
+
+[04:28] B: あの高い椅子です。
+Romaji: Ano takai isu desu.
+Nghĩa: Cái ghế cao kia.
+
+[04:33] A: あれですか。アメリカのです。
+Romaji: Are desu ka. Amerika no desu.
+Nghĩa: Cái đó à? Là của Mỹ.
+
+[04:38] B: 面白いですね。あれをください。
+Romaji: Omoshiroi desu ne. Are o kudasai.
+Nghĩa: Thú vị nhỉ. Cho tôi cái đó.
+
+[04:43] B: きれいな靴ですね。
+Romaji: Kirei na kutsu desu ne.
+Nghĩa: Đôi giày đẹp nhỉ.
+
+[04:47] A: イタリアのです。
+Romaji: Itaria no desu.
+Nghĩa: Là của Ý.
+
+[04:51] B: ちょっと小さいですね。
+Romaji: Chotto chiisai desu ne.
+Nghĩa: Hơi nhỏ nhỉ.
+
+[04:51] A: こちらの黒い靴はいかがですか。フランスのです。
+Romaji: Kochira no kuroi kutsu wa ikaga desu ka. Furansu no desu.
+Nghĩa: Đôi giày màu đen này thì thế nào? Là của Pháp.
+
+[05:01] B: いいですね。これをください。
+Romaji: Ii desu ne. Kore o kudasai.
+Nghĩa: Được đấy. Cho tôi đôi này.
+
+[05:08] B: 面白い車ですね。どこのですか。
+Romaji: Omoshiroi kuruma desu ne. Doko no desu ka.
+Nghĩa: Chiếc xe thú vị nhỉ. Của nước nào?
+
+[05:08] A: 新しい車です。
+Romaji: Atarashii kuruma desu.
+Nghĩa: Là xe mới.
+
+[05:16] B: 青いですね。白い車は。
+Romaji: Aoi desu ne. Shiroi kuruma wa.
+Nghĩa: Màu xanh nhỉ. Còn xe màu trắng thì sao?
+
+[05:20] A: こちらへどうぞ。
+Romaji: Kochira e douzo.
+Nghĩa: Mời đi lối này.
+
+[05:25] B: いいな。いくらですか。
+Romaji: Ii na. Ikura desu ka.
+Nghĩa: Tốt nhỉ. Bao nhiêu tiền?
+
+[05:28] A: 98万円です。
+Romaji: Kyuujuu-hachi man-en desu.
+Nghĩa: 980.000 yên.
+
+[05:32] B: あまり高くないですね。じゃあ、これをください。
+Romaji: Amari takaku nai desu ne. Jaa, kore o kudasai.
+Nghĩa: Không đắt lắm nhỉ. Vậy cho tôi chiếc này.
+
+[05:37] A: はい、ありがとうございます。
+Romaji: Hai, arigatou gozaimasu.
+Nghĩa: Vâng, cảm ơn quý khách.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[04:10] 質問: この人はどの傘を買いましたか。
+Romaji: Kono hito wa dono kasa o kaimashita ka.
+Nghĩa: Người này đã mua cái ô nào?
+
+A. 白い傘
+Nghĩa: Ô màu trắng
+B. 黒い傘
+Nghĩa: Ô màu đen
+C. 青い傘
+Nghĩa: Ô màu xanh
+D. 赤い傘
+Nghĩa: Ô màu đỏ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người mua nói 「その白い傘です」 và 「これをください」.
+
+Câu 2:
+[04:33] 質問: あの椅子はどこのですか。
+Romaji: Ano isu wa doko no desu ka.
+Nghĩa: Cái ghế kia là của nước nào?
+
+A. アメリカ
+Nghĩa: Mỹ
+B. イタリア
+Nghĩa: Ý
+C. フランス
+Nghĩa: Pháp
+D. 日本
+
+Nghĩa: Nhật Bản
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người bán nói 「アメリカのです」.
+
+Câu 3:
+[04:51] 質問: この人はどの靴を買いましたか。
+Romaji: Kono hito wa dono kutsu o kaimashita ka.
+Nghĩa: Người này đã mua đôi giày nào?
+
+A. 黒い靴
+Nghĩa: Giày màu đen
+B. きれいなイタリアの靴
+Nghĩa: Giày đẹp của Ý
+C. 白い靴
+Nghĩa: Giày màu trắng
+D. 青い靴
+Nghĩa: Giày màu xanh
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Đôi Ý hơi nhỏ, người bán giới thiệu 「こちらの黒い靴」 và người mua chọn 「これをください」.
+
+Câu 4:
+[05:28] 質問: 車はいくらですか。
+Romaji: Kuruma wa ikura desu ka.
+Nghĩa: Chiếc xe giá bao nhiêu?
+
+A. 98万円
+Nghĩa: 980.000 yên
+B. 2,000円
+Nghĩa: 2.000 yên
+C. 80万円
+Nghĩa: 800.000 yên
+D. 100万円
+
+Nghĩa: 1.000.000 yên
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người bán nói 「98万円です」.

@@ -1,0 +1,552 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[00:18] A: キムさん、毎朝何時に起きますか。
+Romaji: Kimu-san, maiasa nanji ni okimasu ka.
+Nghĩa: Bạn Kim mỗi sáng thức dậy lúc mấy giờ?
+
+[00:22] B: 7時に起きます。
+Romaji: Shichiji ni okimasu.
+Nghĩa: Tôi thức dậy lúc 7 giờ.
+
+[00:22] A: 朝は何を食べますか。
+Romaji: Asa wa nani o tabemasu ka.
+Nghĩa: Buổi sáng bạn ăn gì?
+
+[00:26] B: いつもパンを食べます。牛乳を飲みます。
+Romaji: Itsumo pan o tabemasu. Gyuunyuu o nomimasu.
+Nghĩa: Tôi luôn ăn bánh mì. Tôi uống sữa.
+
+[00:34] A: 学校は何時からですか。
+Romaji: Gakkou wa nanji kara desu ka.
+Nghĩa: Trường học bắt đầu từ mấy giờ?
+
+[00:38] B: 9時からです。
+Romaji: Kuji kara desu.
+Nghĩa: Từ 9 giờ.
+
+[00:38] A: 何を勉強しますか。
+Romaji: Nani o benkyou shimasu ka.
+Nghĩa: Bạn học gì?
+
+[00:42] B: 午前は日本語を勉強します。午後、コンピューターの勉強をします。
+Romaji: Gozen wa nihongo o benkyou shimasu. Gogo, konpyuutaa no benkyou o shimasu.
+Nghĩa: Buổi sáng tôi học tiếng Nhật. Buổi chiều tôi học máy tính.
+
+[00:51] A: 何時まで勉強しますか。
+Romaji: Nanji made benkyou shimasu ka.
+Nghĩa: Bạn học đến mấy giờ?
+
+[00:54] B: 4時まで勉強します。それからスーパーへ行きます。
+Romaji: Yoji made benkyou shimasu. Sore kara suupaa e ikimasu.
+Nghĩa: Tôi học đến 4 giờ. Sau đó đi siêu thị.
+
+[01:00] A: 何を買いますか。
+Romaji: Nani o kaimasu ka.
+Nghĩa: Bạn mua gì?
+
+[01:00] B: 野菜と果物を買います。
+Romaji: Yasai to kudamono o kaimasu.
+Nghĩa: Tôi mua rau và trái cây.
+
+[01:07] A: 夜は何をしますか。
+Romaji: Yoru wa nani o shimasu ka.
+Nghĩa: Buổi tối bạn làm gì?
+
+[01:10] B: 宿題をします。それからテレビを見ます。
+Romaji: Shukudai o shimasu. Sore kara terebi o mimasu.
+Nghĩa: Tôi làm bài tập. Sau đó xem tivi.
+
+[01:15] A: それから何をしますか。
+Romaji: Sore kara nani o shimasu ka.
+Nghĩa: Sau đó bạn làm gì?
+
+[01:15] B: 何もしません。寝ます。
+Romaji: Nani mo shimasen. Nemasu.
+Nghĩa: Tôi không làm gì cả. Tôi ngủ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[00:18] 質問: キムさんは毎朝何時に起きますか。
+Romaji: Kimu-san wa maiasa nanji ni okimasu ka.
+Nghĩa: Bạn Kim mỗi sáng thức dậy lúc mấy giờ?
+
+A. 7時
+Nghĩa: 7 giờ
+B. 8時
+Nghĩa: 8 giờ
+C. 9時
+Nghĩa: 9 giờ
+D. 4時
+
+Nghĩa: 4 giờ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kim nói 「7時に起きます」.
+
+Câu 2:
+[00:26] 質問: キムさんは朝、何を食べますか。
+Romaji: Kimu-san wa asa, nani o tabemasu ka.
+Nghĩa: Buổi sáng bạn Kim ăn gì?
+
+A. パン
+Nghĩa: Bánh mì
+B. 野菜
+Nghĩa: Rau
+C. 果物
+Nghĩa: Trái cây
+D. ごはん
+Nghĩa: Cơm
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kim nói 「パンを食べます」.
+
+Câu 3:
+[00:42] 質問: キムさんは午前、何を勉強しますか。
+Romaji: Kimu-san wa gozen, nani o benkyou shimasu ka.
+Nghĩa: Buổi sáng bạn Kim học gì?
+
+A. 日本語
+Nghĩa: Tiếng Nhật
+B. コンピューター
+Nghĩa: Máy tính
+C. 英語
+Nghĩa: Tiếng Anh
+D. サッカー
+Nghĩa: Bóng đá
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「午前は日本語を勉強します」.
+
+Câu 4:
+[01:00] 質問: キムさんはスーパーで何を買いますか。
+Romaji: Kimu-san wa suupaa de nani o kaimasu ka.
+Nghĩa: Bạn Kim mua gì ở siêu thị?
+
+A. 野菜と果物
+Nghĩa: Rau và trái cây
+B. パンと牛乳
+Nghĩa: Bánh mì và sữa
+C. 本とノート
+Nghĩa: Sách và vở
+D. コーヒー
+Nghĩa: Cà phê
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kim nói 「野菜と果物を買います」.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[01:29] A: カリナさん、コーヒーをどうぞ。
+Romaji: Karina-san, koohii o douzo.
+Nghĩa: Bạn Karina, mời uống cà phê.
+
+[01:34] B: ありがとうございます。
+Romaji: Arigatou gozaimasu.
+Nghĩa: Cảm ơn.
+
+[01:39] A: ブラジルのコーヒーです。ミゲルさんはいつもどこでコーヒーを買いますか。
+Romaji: Burajiru no koohii desu. Migeru-san wa itsumo doko de koohii o kaimasu ka.
+Nghĩa: Đây là cà phê Brazil. Bạn Miguel thường mua cà phê ở đâu?
+
+[01:44] C: デパートで買います。
+Romaji: Depaato de kaimasu.
+Nghĩa: Tôi mua ở trung tâm thương mại.
+
+[01:56] A: ミゲルさん、こんにちは。どちらへ。
+Romaji: Migeru-san, konnichiwa. Dochira e.
+Nghĩa: Chào bạn Miguel. Bạn đi đâu vậy?
+
+[02:00] C: カリナさん、今からサッカーをします。
+Romaji: Karina-san, ima kara sakkaa o shimasu.
+Nghĩa: Bạn Karina, bây giờ tôi sẽ chơi bóng đá.
+
+[02:04] A: サッカー、どこでしますか。
+Romaji: Sakkaa, doko de shimasu ka.
+Nghĩa: Bạn chơi bóng đá ở đâu?
+
+[02:07] C: 学校でします。
+Romaji: Gakkou de shimasu.
+Nghĩa: Tôi chơi ở trường.
+
+[02:13] A: カリナさん、帰りますか。
+Romaji: Karina-san, kaerimasu ka.
+Nghĩa: Bạn Karina về à?
+
+[02:13] B: いいえ。レポートを書きます。
+Romaji: Iie. Repooto o kakimasu.
+Nghĩa: Không. Tôi sẽ viết báo cáo.
+
+[02:21] A: 私も書きます。どこで書きますか。
+Romaji: Watashi mo kakimasu. Doko de kakimasu ka.
+Nghĩa: Tôi cũng viết. Bạn viết ở đâu?
+
+[02:21] B: 図書館で書きます。
+Romaji: Toshokan de kakimasu.
+Nghĩa: Tôi viết ở thư viện.
+
+[02:33] A: ミゲルさん、日曜日はどこへ行きますか。
+Romaji: Migeru-san, nichiyoubi wa doko e ikimasu ka.
+Nghĩa: Bạn Miguel, Chủ nhật bạn đi đâu?
+
+[02:33] C: どこも行きません。
+Romaji: Dokomo ikimasen.
+Nghĩa: Tôi không đi đâu cả.
+
+[02:33] A: じゃ、何をしますか。
+Romaji: Ja, nani o shimasu ka.
+Nghĩa: Vậy bạn làm gì?
+
+[02:40] C: 家で映画のビデオを見ます。
+Romaji: Ie de eiga no bideo o mimasu.
+Nghĩa: Tôi xem video phim ở nhà.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[01:39] 質問: ミゲルさんはいつもどこでコーヒーを買いますか。
+Romaji: Migeru-san wa itsumo doko de koohii o kaimasu ka.
+Nghĩa: Bạn Miguel thường mua cà phê ở đâu?
+
+A. デパート
+Nghĩa: Trung tâm thương mại
+B. スーパー
+Nghĩa: Siêu thị
+C. 学校
+Nghĩa: Trường học
+D. 図書館
+Nghĩa: Thư viện
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Miguel nói 「デパートで買います」.
+
+Câu 2:
+[02:04] 質問: ミゲルさんはどこでサッカーをしますか。
+Romaji: Migeru-san wa doko de sakkaa o shimasu ka.
+Nghĩa: Bạn Miguel chơi bóng đá ở đâu?
+
+A. 学校
+Nghĩa: Trường học
+B. 公園
+Nghĩa: Công viên
+C. 家
+Nghĩa: Nhà
+D. デパート
+
+Nghĩa: Trung tâm thương mại
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Miguel nói 「学校でします」.
+
+Câu 3:
+[02:13] 質問: カリナさんは何を書きますか。
+Romaji: Karina-san wa nani o kakimasu ka.
+Nghĩa: Bạn Karina viết gì?
+
+A. レポート
+Nghĩa: Báo cáo
+B. 手紙
+Nghĩa: Thư
+C. 宿題
+Nghĩa: Bài tập
+D. 名前
+Nghĩa: Tên
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Karina nói 「レポートを書きます」.
+
+Câu 4:
+[02:33] 質問: ミゲルさんは日曜日、何をしますか。
+Romaji: Migeru-san wa nichiyoubi, nani o shimasu ka.
+Nghĩa: Chủ nhật bạn Miguel làm gì?
+
+A. 家で映画のビデオを見ます
+Nghĩa: Xem video phim ở nhà
+B. 学校でサッカーをします
+Nghĩa: Chơi bóng đá ở trường
+C. 図書館でレポートを書きます
+Nghĩa: Viết báo cáo ở thư viện
+D. デパートでコーヒーを買います
+Nghĩa: Mua cà phê ở trung tâm thương mại
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Miguel nói 「家で映画のビデオを見ます」.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[02:57] A: 佐藤さん、この写真、どこですか。
+Romaji: Satou-san, kono shashin, doko desu ka.
+Nghĩa: Bạn Sato, bức ảnh này ở đâu vậy?
+
+[03:01] B: 北京です。
+Romaji: Pekin desu.
+Nghĩa: Ở Bắc Kinh.
+
+[03:01] A: 中国ですか。
+Romaji: Chuugoku desu ka.
+Nghĩa: Ở Trung Quốc à?
+
+[03:05] B: はい。このバスで万里の長城へ行きました。
+Romaji: Hai. Kono basu de Banri no Choujou e ikimashita.
+Nghĩa: Vâng. Tôi đã đi Vạn Lý Trường Thành bằng xe buýt này.
+
+[03:13] A: これはどこですか。
+Romaji: Kore wa doko desu ka.
+Nghĩa: Đây là ở đâu?
+
+[03:17] B: イギリスです。ロンドンの学校です。
+Romaji: Igirisu desu. Rondon no gakkou desu.
+Nghĩa: Ở Anh. Là trường học ở London.
+
+[03:21] A: 何を勉強しましたか。
+Romaji: Nani o benkyou shimashita ka.
+Nghĩa: Bạn đã học gì?
+
+[03:21] B: 英語を勉強しました。
+Romaji: Eigo o benkyou shimashita.
+Nghĩa: Tôi đã học tiếng Anh.
+
+[03:30] A: ここはどこですか。フランスですか。
+Romaji: Koko wa doko desu ka. Furansu desu ka.
+Nghĩa: Đây là đâu? Pháp à?
+
+[03:35] B: いいえ、アメリカです。ニューヨークへ来ました。
+Romaji: Iie, Amerika desu. Nyuu Yooku e kimashita.
+Nghĩa: Không, là Mỹ. Tôi đã đến New York.
+
+[03:42] B: この店でネクタイを買いました。
+Romaji: Kono mise de nekutai o kaimashita.
+Nghĩa: Tôi đã mua cà vạt ở cửa hàng này.
+
+[03:54] A: この写真は、どこへ行きましたか。
+Romaji: Kono shashin wa, doko e ikimashita ka.
+Nghĩa: Bức ảnh này là bạn đã đi đâu?
+
+[03:58] B: メキシコの美術館です。ここで彼に会いました。
+Romaji: Mekishiko no bijutsukan desu. Koko de kare ni aimashita.
+Nghĩa: Đây là bảo tàng mỹ thuật ở Mexico. Tôi đã gặp anh ấy ở đây.
+
+[04:04] A: この人ですか。
+Romaji: Kono hito desu ka.
+Nghĩa: Người này à?
+
+[04:04] B: そうです。
+Romaji: Sou desu.
+Nghĩa: Đúng vậy.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[03:05] 質問: 佐藤さんは何で万里の長城へ行きましたか。
+Romaji: Satou-san wa nan de Banri no Choujou e ikimashita ka.
+Nghĩa: Bạn Sato đã đi Vạn Lý Trường Thành bằng gì?
+
+A. バス
+Nghĩa: Xe buýt
+B. 電車
+Nghĩa: Tàu điện
+C. 飛行機
+Nghĩa: Máy bay
+D. 船
+Nghĩa: Thuyền
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「このバスで万里の長城へ行きました」.
+
+Câu 2:
+[03:21] 質問: 佐藤さんはロンドンの学校で何を勉強しましたか。
+Romaji: Satou-san wa Rondon no gakkou de nani o benkyou shimashita ka.
+Nghĩa: Bạn Sato đã học gì ở trường tại London?
+
+A. 英語
+Nghĩa: Tiếng Anh
+B. 日本語
+Nghĩa: Tiếng Nhật
+C. コンピューター
+Nghĩa: Máy tính
+D. 中国語
+Nghĩa: Tiếng Trung
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Sato nói 「英語を勉強しました」.
+
+Câu 3:
+[03:42] 質問: 佐藤さんはニューヨークの店で何を買いましたか。
+Romaji: Satou-san wa Nyuu Yooku no mise de nani o kaimashita ka.
+Nghĩa: Bạn Sato đã mua gì ở cửa hàng tại New York?
+
+A. ネクタイ
+Nghĩa: Cà vạt
+B. コーヒー
+Nghĩa: Cà phê
+C. パン
+Nghĩa: Bánh mì
+D. 写真
+Nghĩa: Bức ảnh
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「この店でネクタイを買いました」.
+
+Câu 4:
+[03:58] 質問: 佐藤さんはメキシコの美術館で誰に会いましたか。
+Romaji: Satou-san wa Mekishiko no bijutsukan de dare ni aimashita ka.
+Nghĩa: Bạn Sato đã gặp ai ở bảo tàng mỹ thuật Mexico?
+
+A. 彼
+Nghĩa: Anh ấy
+B. 先生
+Nghĩa: Giáo viên
+C. 友達
+Nghĩa: Bạn bè
+D. カリナさん
+Nghĩa: Bạn Karina
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Sato nói 「ここで彼に会いました」.
+
+---
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[04:21] A: カリナさん、昼ごはんを食べませんか。
+Romaji: Karina-san, hiru gohan o tabemasen ka.
+Nghĩa: Bạn Karina, cùng ăn trưa không?
+
+[04:25] B: どこで食べますか。
+Romaji: Doko de tabemasu ka.
+Nghĩa: Ăn ở đâu?
+
+[04:25] A: 地下の食堂へ行きませんか。
+Romaji: Chika no shokudou e ikimasen ka.
+Nghĩa: Cùng đi đến nhà ăn tầng hầm nhé?
+
+[04:25] B: はい、行きましょう。
+Romaji: Hai, ikimashou.
+Nghĩa: Vâng, đi thôi.
+
+[04:38] A: カリナさん、こんにちは。
+Romaji: Karina-san, konnichiwa.
+Nghĩa: Chào bạn Karina.
+
+[04:42] B: こんにちは。
+Romaji: Konnichiwa.
+Nghĩa: Xin chào.
+
+[04:45] A: 今から一緒に大阪城へ行きませんか。お花見をしませんか。
+Romaji: Ima kara issho ni Oosaka-jou e ikimasen ka. Ohanami o shimasen ka.
+Nghĩa: Từ bây giờ cùng đi thành Osaka nhé? Cùng ngắm hoa anh đào nhé?
+
+[04:51] B: いいですね。行きましょう。
+Romaji: Ii desu ne. Ikimashou.
+Nghĩa: Hay đấy. Đi thôi.
+
+[05:02] A: カリナさん、映画を見ませんか。
+Romaji: Karina-san, eiga o mimasen ka.
+Nghĩa: Bạn Karina, đi xem phim nhé?
+
+[05:02] B: すみません。今日は4時に友達に会います。
+Romaji: Sumimasen. Kyou wa yoji ni tomodachi ni aimasu.
+Nghĩa: Xin lỗi. Hôm nay 4 giờ tôi gặp bạn.
+
+[05:09] A: じゃあ、明日は。
+Romaji: Jaa, ashita wa.
+Nghĩa: Vậy ngày mai thì sao?
+
+[05:15] B: いいですよ。
+Romaji: Ii desu yo.
+Nghĩa: Được đấy.
+
+[05:21] A: 私たちは今からビールを飲みます。一緒に行きませんか。
+Romaji: Watashitachi wa ima kara biiru o nomimasu. Issho ni ikimasen ka.
+Nghĩa: Chúng tôi bây giờ đi uống bia. Bạn đi cùng không?
+
+[05:21] B: 私、今晩は日本語学校へ来ます。
+Romaji: Watashi, konban wa nihongo gakkou e kimasu.
+Nghĩa: Tối nay tôi đến trường tiếng Nhật.
+
+[05:30] A: 日本語の勉強ですか。じゃ、また明日。
+Romaji: Nihongo no benkyou desu ka. Ja, mata ashita.
+Nghĩa: Học tiếng Nhật à? Vậy hẹn mai gặp lại.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[04:25] 質問: カリナさんは昼ごはんをどこで食べますか。
+Romaji: Karina-san wa hiru gohan o doko de tabemasu ka.
+Nghĩa: Bạn Karina ăn trưa ở đâu?
+
+A. 地下の食堂
+Nghĩa: Nhà ăn tầng hầm
+B. 大阪城
+Nghĩa: Thành Osaka
+C. 図書館
+Nghĩa: Thư viện
+D. 学校
+
+Nghĩa: Trường học
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「地下の食堂へ行きませんか」.
+
+Câu 2:
+[04:45] 質問: カリナさんは大阪城で何をしますか。
+Romaji: Karina-san wa Oosaka-jou de nani o shimasu ka.
+Nghĩa: Bạn Karina làm gì ở thành Osaka?
+
+A. お花見
+Nghĩa: Ngắm hoa anh đào
+B. 映画を見る
+Nghĩa: Xem phim
+C. ビールを飲む
+Nghĩa: Uống bia
+D. レポートを書く
+Nghĩa: Viết báo cáo
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「お花見をしませんか」.
+
+Câu 3:
+[05:02] 質問: カリナさんは今日、映画を見ますか。
+Romaji: Karina-san wa kyou, eiga o mimasu ka.
+Nghĩa: Hôm nay bạn Karina có xem phim không?
+
+A. いいえ、4時に友達に会います
+Nghĩa: Không, 4 giờ gặp bạn
+B. はい、映画を見ます
+Nghĩa: Có, xem phim
+C. はい、ビールを飲みます
+Nghĩa: Có, uống bia
+D. いいえ、家で寝ます
+Nghĩa: Không, ngủ ở nhà
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Karina nói 「今日は4時に友達に会います」.
+
+Câu 4:
+[05:21] 質問: カリナさんは今晩、どこへ行きますか。
+Romaji: Karina-san wa konban, doko e ikimasu ka.
+Nghĩa: Tối nay bạn Karina đi đâu?
+
+A. 日本語学校
+Nghĩa: Trường tiếng Nhật
+B. 食堂
+Nghĩa: Nhà ăn
+C. 大阪城
+Nghĩa: Thành Osaka
+D. 映画館
+Nghĩa: Rạp chiếu phim
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Karina nói 「今晩は日本語学校へ来ます」.

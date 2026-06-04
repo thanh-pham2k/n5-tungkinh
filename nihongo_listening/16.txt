@@ -1,0 +1,493 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[06:10] 明日、京都旅行に行きます。何時に何をしますか。
+Romaji: Ashita, Kyouto ryokou ni ikimasu. Nanji ni nani o shimasu ka.
+Nghĩa: Ngày mai đi du lịch Kyoto. Mấy giờ sẽ làm gì?
+
+[06:17] みなさん、明日は7時半に東京駅へ来てください。
+Romaji: Minasan, ashita wa shichiji han ni Toukyou-eki e kite kudasai.
+Nghĩa: Mọi người, ngày mai hãy đến ga Tokyo lúc 7 giờ rưỡi.
+
+[06:23] 8時の新幹線に乗ります。
+Romaji: Hachiji no shinkansen ni norimasu.
+Nghĩa: Sẽ lên tàu Shinkansen lúc 8 giờ.
+
+[06:33] 11時に京都駅から歩いてホテルへ行きます。
+Romaji: Juuichiji ni Kyouto-eki kara aruite hoteru e ikimasu.
+Nghĩa: Lúc 11 giờ, đi bộ từ ga Kyoto đến khách sạn.
+
+[06:38] 部屋に荷物を置いて、ホテルのレストランで昼ごはんを食べてください。
+Romaji: Heya ni nimotsu o oite, hoteru no resutoran de hirugohan o tabete kudasai.
+Nghĩa: Hãy để hành lý trong phòng rồi ăn trưa ở nhà hàng của khách sạn.
+
+[06:47] それから、1時にバスで清水寺へ行きます。
+Romaji: Sorekara, ichiji ni basu de Kiyomizudera e ikimasu.
+Nghĩa: Sau đó, lúc 1 giờ đi xe buýt đến chùa Kiyomizu.
+
+[06:47] 清水寺を見て、近くを散歩してください。
+Romaji: Kiyomizudera o mite, chikaku o sanpo shite kudasai.
+Nghĩa: Hãy tham quan chùa Kiyomizu rồi đi dạo gần đó.
+
+[06:56] きれいなお寺や神社、面白い店がたくさんあります。
+Romaji: Kirei na otera ya jinja, omoshiroi mise ga takusan arimasu.
+Nghĩa: Có nhiều chùa, đền đẹp và cửa hàng thú vị.
+
+[07:04] バスで5時ごろホテルへ帰ります。
+Romaji: Basu de goji goro hoteru e kaerimasu.
+Nghĩa: Khoảng 5 giờ sẽ về khách sạn bằng xe buýt.
+
+[07:04] それから、食事に行ってください。
+Romaji: Sorekara, shokuji ni itte kudasai.
+Nghĩa: Sau đó, hãy đi ăn.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[06:10] 質問: 何時に何をしますか。
+Romaji: Nanji ni nani o shimasu ka.
+Nghĩa: Mấy giờ sẽ làm gì?
+
+A. 7時半に東京駅へ行って、8時の新幹線に乗ります
+Nghĩa: Đến ga Tokyo lúc 7 giờ rưỡi và lên Shinkansen lúc 8 giờ
+B. 8時に京都駅へ行って、11時に昼ごはんを食べます
+Nghĩa: Đến ga Kyoto lúc 8 giờ và ăn trưa lúc 11 giờ
+C. 1時にホテルへ帰って、5時に清水寺へ行きます
+Nghĩa: Về khách sạn lúc 1 giờ và đi chùa Kiyomizu lúc 5 giờ
+D. 7時半に清水寺へ行って、8時に散歩します
+Nghĩa: Đi chùa Kiyomizu lúc 7 giờ rưỡi và đi dạo lúc 8 giờ
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Hướng dẫn nói 7時半に東京駅へ来て、8時の新幹線に乗ります.
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[07:27] どうやって行きますか。
+Romaji: Dou yatte ikimasu ka.
+Nghĩa: Đi như thế nào?
+
+[07:32] すみません、大阪城へ行きたいです。
+Romaji: Sumimasen, Oosakajou e ikitai desu.
+Nghĩa: Xin lỗi, tôi muốn đi lâu đài Osaka.
+
+[07:37] JRがいいですよ。
+Romaji: JR ga ii desu yo.
+Nghĩa: Đi JR thì tốt đấy.
+
+[07:37] どうやって行きますか。
+Romaji: Dou yatte ikimasu ka.
+Nghĩa: Đi như thế nào?
+
+[07:41] まず、京都駅から大阪まで行ってください。
+Romaji: Mazu, Kyouto-eki kara Oosaka made itte kudasai.
+Nghĩa: Trước tiên, hãy đi từ ga Kyoto đến Osaka.
+
+[07:41] 大阪で乗り換えて、大阪城公園で降ります。
+Romaji: Oosaka de norikaete, Oosakajoukouen de orimasu.
+Nghĩa: Đổi tàu ở Osaka rồi xuống ở ga Osaka-jou Kouen.
+
+[07:49] 大阪で乗り換えて、大阪城公園ですね。
+Romaji: Oosaka de norikaete, Oosakajoukouen desu ne.
+Nghĩa: Đổi tàu ở Osaka rồi xuống Osaka-jou Kouen đúng không?
+
+[07:59] 大阪城は駅から歩いて15分ぐらいです。
+Romaji: Oosakajou wa eki kara aruite juugofun gurai desu.
+Nghĩa: Lâu đài Osaka cách ga khoảng 15 phút đi bộ.
+
+[07:59] 分かりました。ありがとうございました。
+Romaji: Wakarimashita. Arigatou gozaimashita.
+Nghĩa: Tôi hiểu rồi. Cảm ơn.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[07:27] 質問: どうやって行きますか。
+Romaji: Dou yatte ikimasu ka.
+Nghĩa: Đi như thế nào?
+
+A. 京都駅から大阪まで行って、大阪で乗り換えて、大阪城公園で降ります
+Nghĩa: Đi từ ga Kyoto đến Osaka, đổi tàu ở Osaka, xuống Osaka-jou Kouen
+B. 京都駅から清水寺までバスで行きます
+Nghĩa: Đi xe buýt từ ga Kyoto đến chùa Kiyomizu
+C. 東京駅から大阪城公園まで歩きます
+Nghĩa: Đi bộ từ ga Tokyo đến Osaka-jou Kouen
+D. 大阪城から京都駅までタクシーで行きます
+Nghĩa: Đi taxi từ lâu đài Osaka đến ga Kyoto
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người hướng dẫn nói đi JR, đổi tàu ở Osaka và xuống 大阪城公園.
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[08:13] どうやって切符を買いますか。
+Romaji: Dou yatte kippu o kaimasu ka.
+Nghĩa: Mua vé như thế nào?
+
+[08:22] すみません。
+Romaji: Sumimasen.
+Nghĩa: Xin lỗi.
+
+[08:26] 切符を買いたいですが、買い方がよく分かりません。
+Romaji: Kippu o kaitai desu ga, kaikata ga yoku wakarimasen.
+Nghĩa: Tôi muốn mua vé nhưng không biết rõ cách mua.
+
+[08:31] どこまで行きますか。
+Romaji: Doko made ikimasu ka.
+Nghĩa: Anh/chị đi đến đâu?
+
+[08:31] 大阪城公園までです。
+Romaji: Oosakajoukouen made desu.
+Nghĩa: Đến Osaka-jou Kouen.
+
+[08:39] 大阪城公園は780円です。1枚ですか。
+Romaji: Oosakajoukouen wa nanahyaku hachijuu en desu. Ichimai desu ka.
+Nghĩa: Đến Osaka-jou Kouen là 780 yên. Một vé à?
+
+[08:43] 2枚買いたいです。
+Romaji: Nimai kaitai desu.
+Nghĩa: Tôi muốn mua 2 vé.
+
+[08:47] 1,560円ですね。
+Romaji: Sen gohyaku rokujuu en desu ne.
+Nghĩa: Là 1.560 yên nhỉ.
+
+[08:47] 細かいお金がありませんから、1,000円入れます。
+Romaji: Komakai okane ga arimasen kara, sen en iremasu.
+Nghĩa: Vì không có tiền lẻ nên tôi bỏ 1.000 yên vào.
+
+[08:53] じゃ、ここにお金を入れて。
+Romaji: Ja, koko ni okane o irete.
+Nghĩa: Vậy hãy bỏ tiền vào đây.
+
+[08:58] 2枚ですから、この2人のボタンを押して、それから780円を押してください。
+Romaji: Nimai desu kara, kono futari no botan o oshite, sorekara nanahyaku hachijuu en o oshite kudasai.
+Nghĩa: Vì là 2 vé, hãy bấm nút 2 người, sau đó bấm 780 yên.
+
+[09:08] ありがとうございました。
+Romaji: Arigatou gozaimashita.
+Nghĩa: Cảm ơn.
+
+[09:08] いいえ。
+Romaji: Iie.
+Nghĩa: Không có gì.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[08:13] 質問: どうやって切符を買いますか。
+Romaji: Dou yatte kippu o kaimasu ka.
+Nghĩa: Mua vé như thế nào?
+
+A. お金を入れて、2人のボタンを押して、780円を押します
+Nghĩa: Bỏ tiền vào, bấm nút 2 người, rồi bấm 780 yên
+B. 780円を入れて、京都駅のボタンを押します
+Nghĩa: Bỏ 780 yên vào rồi bấm nút ga Kyoto
+C. 2枚の切符を駅員に渡します
+Nghĩa: Đưa 2 vé cho nhân viên nhà ga
+D. 大阪で乗り換えてから切符を買います
+Nghĩa: Đổi tàu ở Osaka rồi mua vé
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người hướng dẫn nói bỏ tiền, bấm nút 2 người, sau đó bấm 780円.
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[09:20] パーティーをします。AとBのどちらですか。
+Romaji: Paatii o shimasu. A to B no dochira desu ka.
+Nghĩa: Sẽ tổ chức tiệc. Là A hay B?
+
+[09:31] この果物はテーブルに置きましょうか。
+Romaji: Kono kudamono wa teeburu ni okimashou ka.
+Nghĩa: Trái cây này để lên bàn nhé?
+
+[09:34] それは冷蔵庫に入れてください。
+Romaji: Sore wa reizouko ni irete kudasai.
+Nghĩa: Cái đó hãy cho vào tủ lạnh.
+
+[09:39] 食事が終わってから出してください。
+Romaji: Shokuji ga owatte kara dashite kudasai.
+Nghĩa: Sau khi ăn xong hãy lấy ra.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 果物はどこに置きますか。
+Romaji: Kudamono wa doko ni okimasu ka.
+Nghĩa: Trái cây sẽ để ở đâu?
+
+A. 冷蔵庫
+Nghĩa: Tủ lạnh
+B. テーブル
+Nghĩa: Bàn
+C. 玄関
+Nghĩa: Lối vào
+D. 台所の外
+Nghĩa: Bên ngoài nhà bếp
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói 果物は冷蔵庫に入れてください.
+
+## Đoạn hội thoại 5
+
+### 1. Script hội thoại
+
+[09:44] それから、赤いワインを開けてテーブルに置いてください。
+Romaji: Sorekara, akai wain o akete teeburu ni oite kudasai.
+Nghĩa: Sau đó, hãy mở rượu vang đỏ và đặt lên bàn.
+
+[09:53] 皆さんが来てからワインを開けませんか。
+Romaji: Minasan ga kite kara wain o akemasen ka.
+Nghĩa: Sau khi mọi người đến rồi mở rượu vang không?
+
+[09:57] いいえ、今開けてください。
+Romaji: Iie, ima akete kudasai.
+Nghĩa: Không, hãy mở ngay bây giờ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: ワインはいつ開けますか。
+Romaji: Wain wa itsu akemasu ka.
+Nghĩa: Khi nào mở rượu vang?
+
+A. 今開けます
+Nghĩa: Mở ngay bây giờ
+B. 皆さんが来てから開けます
+Nghĩa: Mở sau khi mọi người đến
+C. 食事が終わってから開けます
+Nghĩa: Mở sau khi ăn xong
+D. 明日開けます
+Nghĩa: Mở ngày mai
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói 今開けてください.
+
+## Đoạn hội thoại 6
+
+### 1. Script hội thoại
+
+[10:00] それは何ですか。
+Romaji: Sore wa nan desu ka.
+Nghĩa: Cái đó là gì?
+
+[10:04] これは京都旅行のビデオです。
+Romaji: Kore wa Kyouto ryokou no bideo desu.
+Nghĩa: Đây là video chuyến du lịch Kyoto.
+
+[10:12] 食事をしてから見ませんか。
+Romaji: Shokuji o shite kara mimasen ka.
+Nghĩa: Sau khi ăn xong rồi xem nhé?
+
+[10:17] そうですね。そうしましょう。
+Romaji: Sou desu ne. Sou shimashou.
+Nghĩa: Đúng vậy. Làm vậy đi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: ビデオはいつ見ますか。
+Romaji: Bideo wa itsu mimasu ka.
+Nghĩa: Khi nào xem video?
+
+A. 食事をしてから見ます
+Nghĩa: Xem sau khi ăn xong
+B. 食事の前に見ます
+Nghĩa: Xem trước khi ăn
+C. 明日見ます
+Nghĩa: Xem ngày mai
+D. ホテルで見ます
+Nghĩa: Xem ở khách sạn
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói đề nghị 食事をしてから見ませんか và được đồng ý.
+
+## Đoạn hội thoại 7
+
+### 1. Script hội thoại
+
+[10:26] どんなところ、どんなもの、どんな人ですか。
+Romaji: Donna tokoro, donna mono, donna hito desu ka.
+Nghĩa: Là nơi như thế nào, đồ vật như thế nào, người như thế nào?
+
+[10:33] 先月、家を買いました。
+Romaji: Sengetsu, ie o kaimashita.
+Nghĩa: Tháng trước tôi đã mua nhà.
+
+[10:38] えっ、小山さん、すごいですね。
+Romaji: E, Koyama-san, sugoi desu ne.
+Nghĩa: Ồ, anh/chị Koyama giỏi thật đấy.
+
+[10:41] ちょっと駅から遠いですが、緑が多くて静かでいいところです。
+Romaji: Chotto eki kara tooi desu ga, midori ga ookute shizuka de ii tokoro desu.
+Nghĩa: Hơi xa ga, nhưng nhiều cây xanh, yên tĩnh và là nơi tốt.
+
+[10:48] カリナさんと一緒に遊びに来てください。
+Romaji: Karina-san to issho ni asobi ni kite kudasai.
+Nghĩa: Hãy đến chơi cùng Karina nhé.
+
+[10:48] ありがとうございます。
+Romaji: Arigatou gozaimasu.
+Nghĩa: Cảm ơn.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 小山さんの家はどんなところですか。
+Romaji: Koyama-san no ie wa donna tokoro desu ka.
+Nghĩa: Nhà của Koyama là nơi như thế nào?
+
+A. 駅から遠いですが、緑が多くて静かです
+Nghĩa: Xa ga nhưng nhiều cây xanh và yên tĩnh
+B. 駅から近くて、にぎやかです
+Nghĩa: Gần ga và náo nhiệt
+C. 古くて小さいです
+Nghĩa: Cũ và nhỏ
+D. 海の近くで暑いです
+Nghĩa: Gần biển và nóng
+
+Đáp án đúng: A
+Giải thích ngắn gọn: 小山さん nói nhà hơi xa ga, nhiều cây xanh và yên tĩnh.
+
+## Đoạn hội thoại 8
+
+### 1. Script hội thoại
+
+[10:56] カリナさん、小山さんにプレゼントを持って行きましょう。
+Romaji: Karina-san, Koyama-san ni purezento o motte ikimashou.
+Nghĩa: Karina, hãy mang quà đến cho Koyama nhé.
+
+[11:02] 何がいいですか。
+Romaji: Nani ga ii desu ka.
+Nghĩa: Quà gì thì tốt?
+
+[11:05] 小山さんの奥さんは花が好きですから、花はどうですか。
+Romaji: Koyama-san no okusan wa hana ga suki desu kara, hana wa dou desu ka.
+Nghĩa: Vì vợ của Koyama thích hoa nên tặng hoa thì sao?
+
+[11:09] いいですね。じゃあ、あの花屋で買いましょう。
+Romaji: Ii desu ne. Jaa, ano hanaya de kaimashou.
+Nghĩa: Hay đấy. Vậy mua ở tiệm hoa kia nhé.
+
+[11:15] いらっしゃいませ。どれがいいですか。
+Romaji: Irasshaimase. Dore ga ii desu ka.
+Nghĩa: Xin chào quý khách. Chọn cái nào ạ?
+
+[11:20] あの白くて大きい花がきれいですね。
+Romaji: Ano shirokute ookii hana ga kirei desu ne.
+Nghĩa: Bông hoa trắng và to kia đẹp nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: どんな花を買いますか。
+Romaji: Donna hana o kaimasu ka.
+Nghĩa: Sẽ mua hoa như thế nào?
+
+A. 白くて大きい花
+Nghĩa: Hoa trắng và to
+B. 赤くて小さい花
+Nghĩa: Hoa đỏ và nhỏ
+C. 黄色くて古い花
+Nghĩa: Hoa vàng và cũ
+D. 黒くて高い花
+Nghĩa: Hoa đen và đắt
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói chọn bông hoa 白くて大きい.
+
+## Đoạn hội thoại 9
+
+### 1. Script hội thoại
+
+[11:27] さあ、どうぞ。たくさん食べてください。
+Romaji: Saa, douzo. Takusan tabete kudasai.
+Nghĩa: Nào, xin mời. Hãy ăn nhiều nhé.
+
+[11:32] ありがとうございます。あの、これは何ですか。
+Romaji: Arigatou gozaimasu. Ano, kore wa nan desu ka.
+Nghĩa: Cảm ơn. À, cái này là gì?
+
+[11:38] この黒くて小さいもの。
+Romaji: Kono kurokute chiisai mono.
+Nghĩa: Cái màu đen và nhỏ này.
+
+[11:38] それは魚の卵です。おいしいですよ。
+Romaji: Sore wa sakana no tamago desu. Oishii desu yo.
+Nghĩa: Đó là trứng cá. Ngon đấy.
+
+[11:45] はい、いただきます。おいしい。
+Romaji: Hai, itadakimasu. Oishii.
+Nghĩa: Vâng, tôi xin ăn. Ngon quá.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 黒くて小さいものは何ですか。
+Romaji: Kurokute chiisai mono wa nan desu ka.
+Nghĩa: Thứ màu đen và nhỏ là gì?
+
+A. 魚の卵
+Nghĩa: Trứng cá
+B. 黒い花
+Nghĩa: Hoa màu đen
+C. 小さい果物
+Nghĩa: Trái cây nhỏ
+D. 京都のお土産
+Nghĩa: Quà lưu niệm Kyoto
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói それは魚の卵です.
+
+## Đoạn hội thoại 10
+
+### 1. Script hội thoại
+
+[11:53] 写真を見てもいいですか。
+Romaji: Shashin o mite mo ii desu ka.
+Nghĩa: Tôi xem ảnh được không?
+
+[11:56] ええ、どうぞ。
+Romaji: Ee, douzo.
+Nghĩa: Vâng, xin mời.
+
+[11:56] 家族の写真ですね。
+Romaji: Kazoku no shashin desu ne.
+Nghĩa: Ảnh gia đình nhỉ.
+
+[12:01] これはどなたですか。この背が高くて髪が長い人です。
+Romaji: Kore wa donata desu ka. Kono se ga takakute kami ga nagai hito desu.
+Nghĩa: Đây là ai vậy? Người cao và tóc dài này.
+
+[12:06] それは妻の弟です。
+Romaji: Sore wa tsuma no otouto desu.
+Nghĩa: Đó là em trai của vợ tôi.
+
+[12:06] 奥さんの弟さんですか。ハンサムですね。
+Romaji: Okusan no otouto-san desu ka. Hansamu desu ne.
+Nghĩa: Em trai của vợ anh/chị à? Đẹp trai nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 背が高くて髪が長い人は誰ですか。
+Romaji: Se ga takakute kami ga nagai hito wa dare desu ka.
+Nghĩa: Người cao và tóc dài là ai?
+
+A. 妻の弟
+Nghĩa: Em trai của vợ
+B. 妻の兄
+Nghĩa: Anh trai của vợ
+C. 小山さんの父
+Nghĩa: Bố của Koyama
+D. カリナさんの弟
+Nghĩa: Em trai của Karina
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói それは妻の弟です.

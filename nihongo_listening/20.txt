@@ -1,0 +1,563 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[06:49] 鈴木さんはどうしますか。
+Romaji: Suzuki-san wa dou shimasu ka.
+Nghĩa: Anh Suzuki sẽ làm gì?
+
+[06:54] 鈴木さん、カメラの使い方は分かる？
+Romaji: Suzuki-san, kamera no tsukaikata wa wakaru?
+Nghĩa: Anh Suzuki, anh biết cách dùng máy ảnh không?
+
+[06:59] 新しいカメラ？新しいのは知らないな。
+Romaji: Atarashii kamera? Atarashii no wa shiranai na.
+Nghĩa: Máy ảnh mới à? Loại mới thì tôi không biết.
+
+[07:03] そう。じゃあ、高橋君、ちょっとカメラの使い方を教えて。
+Romaji: Sou. Jaa, Takahashi-kun, chotto kamera no tsukaikata o oshiete.
+Nghĩa: Vậy à. Thế thì Takahashi, chỉ giúp cách dùng máy ảnh nhé.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[06:49] 質問: 鈴木さんはどうしますか。
+Romaji: Suzuki-san wa dou shimasu ka.
+Nghĩa: Anh Suzuki sẽ làm gì?
+
+A. 高橋君にカメラの使い方を聞きます
+Nghĩa: Hỏi Takahashi cách dùng máy ảnh
+B. 新しいカメラを買います
+Nghĩa: Mua máy ảnh mới
+C. カメラを修理します
+Nghĩa: Sửa máy ảnh
+D. 写真を撮ります
+Nghĩa: Chụp ảnh
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Suzuki không biết dùng máy ảnh mới nên nhờ 高橋君 chỉ cách dùng.
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[07:14] 鈴木さん、日曜日何をする？
+Romaji: Suzuki-san, nichiyoubi nani o suru?
+Nghĩa: Suzuki, Chủ Nhật làm gì?
+
+[07:19] そうだなあ。
+Romaji: Sou da naa.
+Nghĩa: Để xem nào.
+
+[07:22] 桜の季節よ。お花見に行かない？
+Romaji: Sakura no kisetsu yo. Ohanami ni ikanai?
+Nghĩa: Đang mùa hoa anh đào đấy. Đi ngắm hoa không?
+
+[07:27] うん。じゃ、昼ご飯は私が持って行くわ。
+Romaji: Un. Ja, hirugohan wa watashi ga motte iku wa.
+Nghĩa: Ừ. Vậy cơm trưa tôi sẽ mang đi.
+
+[07:27] うん、分かった。
+Romaji: Un, wakatta.
+Nghĩa: Ừ, hiểu rồi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 鈴木さんはどうしますか。
+Romaji: Suzuki-san wa dou shimasu ka.
+Nghĩa: Suzuki sẽ làm gì?
+
+A. 日曜日にお花見に行きます
+Nghĩa: Chủ Nhật đi ngắm hoa anh đào
+B. 昼ご飯を作ります
+Nghĩa: Làm cơm trưa
+C. カメラを買います
+Nghĩa: Mua máy ảnh
+D. パーティーに行きません
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia rủ đi お花見 và Suzuki đồng ý.
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[07:34] 鈴木さん、明日パクさんのさようならパーティーをするけど、来ない？
+Romaji: Suzuki-san, ashita Paku-san no sayounara paatii o suru kedo, konai?
+Nghĩa: Suzuki, ngày mai có tiệc chia tay Park, anh đến không?
+
+[07:38] うん、行く。
+Romaji: Un, iku.
+Nghĩa: Ừ, tôi đi.
+
+[07:43] 早く来て、料理を手伝って。
+Romaji: Hayaku kite, ryouri o tetsudatte.
+Nghĩa: Đến sớm rồi giúp nấu ăn nhé.
+
+[07:47] 料理はちょっと……僕、できないよ。
+Romaji: Ryouri wa chotto... boku, dekinai yo.
+Nghĩa: Nấu ăn thì hơi... tôi không làm được đâu.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 鈴木さんはどうしますか。
+Romaji: Suzuki-san wa dou shimasu ka.
+Nghĩa: Suzuki sẽ làm gì?
+
+A. パーティーへ行きますが、料理は手伝いません
+Nghĩa: Đi tiệc nhưng không giúp nấu ăn
+B. パーティーへ行きません
+Nghĩa: Không đi tiệc
+C. 料理を全部作ります
+Nghĩa: Nấu toàn bộ món ăn
+D. パクさんを迎えに行きます
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Suzuki nói sẽ đi, nhưng nấu ăn thì không biết làm.
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[07:53] 鈴木さん、この近くにおいしいパン屋ある？
+Romaji: Suzuki-san, kono chikaku ni oishii pan’ya aru?
+Nghĩa: Suzuki, gần đây có tiệm bánh mì ngon không?
+
+[08:02] 駅の近くにあるよ。
+Romaji: Eki no chikaku ni aru yo.
+Nghĩa: Có ở gần ga đấy.
+
+[08:06] 駅の近く？どこ？地図を書いて。
+Romaji: Eki no chikaku? Doko? Chizu o kaite.
+Nghĩa: Gần ga à? Ở đâu? Vẽ bản đồ giúp tôi.
+
+[08:09] 僕もパンを買いたいから、後で一緒に行かない？
+Romaji: Boku mo pan o kaitai kara, ato de issho ni ikanai?
+Nghĩa: Tôi cũng muốn mua bánh mì, lát nữa đi cùng không?
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 鈴木さんはどうしますか。
+Romaji: Suzuki-san wa dou shimasu ka.
+Nghĩa: Suzuki sẽ làm gì?
+
+A. 後で一緒にパン屋へ行きます
+Nghĩa: Lát nữa cùng đi tiệm bánh mì
+B. 地図だけを書きます
+Nghĩa: Chỉ vẽ bản đồ
+C. 駅へ一人で行きます
+Nghĩa: Đi ga một mình
+D. パンを作ります
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Suzuki cũng muốn mua bánh mì nên rủ đi cùng.
+
+## Đoạn hội thoại 5
+
+### 1. Script hội thoại
+
+[08:23] 菜々子ちゃんは絵日記を書きました。今日はどんな一日でしたか。
+Romaji: Nanako-chan wa enikki o kakimashita. Kyou wa donna ichinichi deshita ka.
+Nghĩa: Bé Nanako đã viết nhật ký tranh. Hôm nay là một ngày như thế nào?
+
+[08:33] ただいま。
+Romaji: Tadaima.
+Nghĩa: Con về rồi.
+
+[08:36] お帰りなさい。今日の試験どうだった？
+Romaji: Okaerinasai. Kyou no shiken dou datta?
+Nghĩa: Con về rồi à. Bài kiểm tra hôm nay thế nào?
+
+[08:36] 難しかった。
+Romaji: Muzukashikatta.
+Nghĩa: Khó ạ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[08:23] 質問: 今日はどんな一日でしたか。
+Romaji: Kyou wa donna ichinichi deshita ka.
+Nghĩa: Hôm nay là một ngày như thế nào?
+
+A. 試験が難しかった日です
+Nghĩa: Một ngày có bài kiểm tra khó
+B. とても楽しい日です
+Nghĩa: Một ngày rất vui
+C. ディズニーランドへ行った日です
+D. 病気になった日です
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Nanako nói bài kiểm tra hôm nay khó.
+
+## Đoạn hội thoại 6
+
+### 1. Script hội thoại
+
+[08:46] ケンちゃん、元気？
+Romaji: Ken-chan, genki?
+Nghĩa: Ken khỏe không?
+
+[08:49] ミルク飲んだ？
+Romaji: Miruku nonda?
+Nghĩa: Đã uống sữa chưa?
+
+[08:52] そう、たくさん飲んだ。おいしかった？
+Romaji: Sou, takusan nonda. Oishikatta?
+Nghĩa: Vậy à, uống nhiều rồi. Ngon không?
+
+[08:56] じゃあ、ちょっと散歩する。
+Romaji: Jaa, chotto sanpo suru.
+Nghĩa: Vậy đi dạo một chút nhé.
+
+[09:01] お母さん、ケンちゃんと散歩に行ってもいい？
+Romaji: Okaasan, Ken-chan to sanpo ni itte mo ii?
+Nghĩa: Mẹ ơi, con đi dạo với Ken được không?
+
+[09:01] いいわよ。でも、遠い所はだめよ。
+Romaji: Ii wa yo. Demo, tooi tokoro wa dame yo.
+Nghĩa: Được. Nhưng không được đi xa nhé.
+
+[09:06] はーい。
+Romaji: Haai.
+Nghĩa: Vâng ạ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 菜々子ちゃんは何をしますか。
+Romaji: Nanako-chan wa nani o shimasu ka.
+Nghĩa: Nanako sẽ làm gì?
+
+A. ケンちゃんと散歩します
+Nghĩa: Đi dạo với Ken
+B. ミルクを飲みます
+Nghĩa: Uống sữa
+C. 試験を受けます
+D. 遠い所へ行きます
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Nanako xin mẹ đi dạo với Ken và được cho phép.
+
+## Đoạn hội thoại 7
+
+### 1. Script hội thoại
+
+[09:11] ただいま。
+Romaji: Tadaima.
+Nghĩa: Con về rồi.
+
+[09:13] お母さん、今日の晩ご飯、なあに？
+Romaji: Okaasan, kyou no bangohan, naani?
+Nghĩa: Mẹ ơi, cơm tối hôm nay là gì?
+
+[09:13] 今日はカレーよ。
+Romaji: Kyou wa karee yo.
+Nghĩa: Hôm nay là cà ri.
+
+[09:22] うーん、辛い。
+Romaji: Uun, karai.
+Nghĩa: Ừm, cay quá.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 今日の晩ご飯はどうでしたか。
+Romaji: Kyou no bangohan wa dou deshita ka.
+Nghĩa: Cơm tối hôm nay thế nào?
+
+A. カレーで、辛かったです
+Nghĩa: Là cà ri và cay
+B. 甘かったです
+Nghĩa: Ngọt
+C. ミルクでした
+D. おいしくありませんでした
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Mẹ nói bữa tối là カレー và Nanako nói 辛い.
+
+## Đoạn hội thoại 8
+
+### 1. Script hội thoại
+
+[09:33] お父さん、日曜日、ディズニーランドへ行きたい。ケンちゃんも一緒に。
+Romaji: Otousan, nichiyoubi, Dizunii Rando e ikitai. Ken-chan mo issho ni.
+Nghĩa: Bố ơi, Chủ Nhật con muốn đi Disneyland, cả Ken cũng đi cùng.
+
+[09:42] 日曜日はゴルフだよ。
+Romaji: Nichiyoubi wa gorufu da yo.
+Nghĩa: Chủ Nhật bố đi golf rồi.
+
+[09:46] また？お母さん、お父さんまたゴルフだよ。
+Romaji: Mata? Okaasan, otousan mata gorufu da yo.
+Nghĩa: Lại nữa à? Mẹ ơi, bố lại đi golf.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 日曜日はどうなりましたか。
+Romaji: Nichiyoubi wa dou narimashita ka.
+Nghĩa: Chủ Nhật thế nào?
+
+A. お父さんはゴルフへ行きます
+Nghĩa: Bố đi golf
+B. 家族でディズニーランドへ行きます
+C. ケンちゃんだけ行きます
+D. 家で勉強します
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Bố nói Chủ Nhật đi golf.
+
+## Đoạn hội thoại 9
+
+### 1. Script hội thoại
+
+[09:58] 小学生の生活はどんな生活ですか。
+Romaji: Shougakusei no seikatsu wa donna seikatsu desu ka.
+Nghĩa: Cuộc sống của học sinh tiểu học là cuộc sống như thế nào?
+
+[10:06] こんにちは。
+Romaji: Konnichiwa.
+Nghĩa: Xin chào.
+
+[10:09] 今日、元気じゃないね。朝ごはんを食べた？
+Romaji: Kyou, genki ja nai ne. Asagohan o tabeta?
+Nghĩa: Hôm nay em không khỏe nhỉ. Ăn sáng chưa?
+
+[10:15] ううん、食べなかった。
+Romaji: Uun, tabenakatta.
+Nghĩa: Chưa, em không ăn.
+
+[10:18] いつも朝ごはんを食べないの？
+Romaji: Itsumo asagohan o tabenai no?
+Nghĩa: Em luôn không ăn sáng à?
+
+[10:29] どうして朝ごはんを食べないの？
+Romaji: Doushite asagohan o tabenai no?
+Nghĩa: Tại sao em không ăn sáng?
+
+[10:29] 朝8時に起きるから、時間がないの。
+Romaji: Asa hachiji ni okiru kara, jikan ga nai no.
+Nghĩa: Vì 8 giờ sáng em mới dậy nên không có thời gian.
+
+[10:36] じゃあ、夜は何時に寝るの？
+Romaji: Jaa, yoru wa nanji ni neru no?
+Nghĩa: Vậy tối mấy giờ em ngủ?
+
+[10:40] 12時ごろ。
+Romaji: Juuniji goro.
+Nghĩa: Khoảng 12 giờ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[09:58] 質問: 小学生の生活はどんな生活ですか。
+Romaji: Shougakusei no seikatsu wa donna seikatsu desu ka.
+Nghĩa: Cuộc sống của học sinh tiểu học thế nào?
+
+A. 夜遅く寝て、朝ごはんを食べません
+Nghĩa: Ngủ muộn và không ăn sáng
+B. 毎朝早く起きて、朝ごはんを食べます
+C. 毎日ゴルフをします
+D. 毎日ディズニーランドへ行きます
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Em bé ngủ khoảng 12 giờ và sáng dậy muộn nên không ăn sáng.
+
+## Đoạn hội thoại 10
+
+### 1. Script hội thoại
+
+[10:47] 学校で何の時間が一番楽しい？
+Romaji: Gakkou de nani no jikan ga ichiban tanoshii?
+Nghĩa: Ở trường, giờ nào vui nhất?
+
+[10:54] 音楽じゃない。
+Romaji: Ongaku ja nai.
+Nghĩa: Không phải âm nhạc.
+
+[10:57] 昼休み。
+Romaji: Hiruyasumi.
+Nghĩa: Giờ nghỉ trưa.
+
+[11:05] 土曜日も学校へ行く？
+Romaji: Doyoubi mo gakkou e iku?
+Nghĩa: Thứ Bảy cũng đi học à?
+
+[11:05] 行かない。
+Romaji: Ikanai.
+Nghĩa: Không đi.
+
+[11:10] じゃ、土曜日は何をするの？
+Romaji: Ja, doyoubi wa nani o suru no?
+Nghĩa: Vậy thứ Bảy làm gì?
+
+[11:10] パソコンをしたり、サッカーの練習をしたり。
+Romaji: Pasokon o shitari, sakkaa no renshuu o shitari.
+Nghĩa: Chơi máy tính, luyện bóng đá, v.v.
+
+[11:16] そう。土曜日は楽しいね。
+Romaji: Sou. Doyoubi wa tanoshii ne.
+Nghĩa: Vậy à. Thứ Bảy vui nhỉ.
+
+[11:20] うん。
+Romaji: Un.
+Nghĩa: Ừ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 学校で何の時間が一番楽しいですか。
+Romaji: Gakkou de nani no jikan ga ichiban tanoshii desu ka.
+Nghĩa: Ở trường, giờ nào vui nhất?
+
+A. 昼休み
+Nghĩa: Giờ nghỉ trưa
+B. 音楽
+C. サッカー
+D. パソコン
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Em bé trả lời 昼休み.
+
+## Đoạn hội thoại 11
+
+### 1. Script hội thoại
+
+[11:28] グプタさんは何をしますか。
+Romaji: Guputa-san wa nani o shimasu ka.
+Nghĩa: Gupta sẽ làm gì?
+
+[11:38] 課長、おはようございます。
+Romaji: Kachou, ohayou gozaimasu.
+Nghĩa: Chào buổi sáng, trưởng phòng.
+
+[11:42] グプタさんはビデオの修理ができる？
+Romaji: Guputa-san wa bideo no shuuri ga dekiru?
+Nghĩa: Gupta, anh có thể sửa video không?
+
+[11:47] はい、私の専門ですから。
+Romaji: Hai, watashi no senmon desu kara.
+Nghĩa: Vâng, vì đó là chuyên môn của tôi.
+
+[11:47] 会議室のビデオ、5時までに直すことができる？
+Romaji: Kaigishitsu no bideo, goji made ni naosu koto ga dekiru?
+Nghĩa: Anh có thể sửa video ở phòng họp trước 5 giờ không?
+
+[11:56] 2時から会議があるから。
+Romaji: Niji kara kaigi ga aru kara.
+Nghĩa: Vì có cuộc họp từ 2 giờ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[11:28] 質問: グプタさんは何をしますか。
+Romaji: Guputa-san wa nani o shimasu ka.
+Nghĩa: Gupta sẽ làm gì?
+
+A. 2時までにビデオを修理します
+Nghĩa: Sửa video trước 2 giờ
+B. 5時までに会議をします
+C. 課長に電話します
+D. ビデオを買います
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Vì 2 giờ có cuộc họp nên cần sửa video trước đó.
+
+## Đoạn hội thoại 12
+
+### 1. Script hội thoại
+
+[12:10] グプタさん、冬休みは国へ帰るの？
+Romaji: Guputa-san, fuyuyasumi wa kuni e kaeru no?
+Nghĩa: Gupta, kỳ nghỉ đông anh về nước à?
+
+[12:17] 両親が日本へ来ますから。
+Romaji: Ryoushin ga Nihon e kimasu kara.
+Nghĩa: Vì bố mẹ tôi sẽ đến Nhật.
+
+[12:17] いいね。ご両親とどこか行くの？
+Romaji: Ii ne. Goryoushin to doko ka iku no?
+Nghĩa: Hay nhỉ. Anh đi đâu đó với bố mẹ không?
+
+[12:23] 北海道へ雪を見に行きます。
+Romaji: Hokkaidou e yuki o mi ni ikimasu.
+Nghĩa: Tôi sẽ đi Hokkaido để ngắm tuyết.
+
+[12:23] じゃあ、飛行機やホテルを予約しなければならないね。
+Romaji: Jaa, hikouki ya hoteru o yoyaku shinakereba naranai ne.
+Nghĩa: Vậy phải đặt máy bay và khách sạn nhỉ.
+
+[12:30] 飛行機は先週予約しました。
+Romaji: Hikouki wa senshuu yoyaku shimashita.
+Nghĩa: Máy bay thì tôi đã đặt tuần trước.
+
+[12:30] ホテルは北海道に友達がいますから。
+Romaji: Hoteru wa Hokkaidou ni tomodachi ga imasu kara.
+Nghĩa: Khách sạn thì vì tôi có bạn ở Hokkaido.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: グプタさんは何をしますか。
+Romaji: Guputa-san wa nani o shimasu ka.
+Nghĩa: Gupta sẽ làm gì?
+
+A. 両親と北海道へ雪を見に行きます
+Nghĩa: Đi Hokkaido ngắm tuyết với bố mẹ
+B. 国へ帰ります
+C. ホテルを予約します
+D. 飛行機を予約します
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Gupta nói bố mẹ đến Nhật và sẽ đi Hokkaido ngắm tuyết.
+
+## Đoạn hội thoại 13
+
+### 1. Script hội thoại
+
+[12:48] グプタさん。
+Romaji: Guputa-san.
+Nghĩa: Gupta.
+
+[12:51] 相撲はどう？好き？
+Romaji: Sumou wa dou? Suki?
+Nghĩa: Sumo thì sao? Anh thích không?
+
+[12:54] テレビで見たことがありますが、早いですから、よく分かりませんでした。
+Romaji: Terebi de mita koto ga arimasu ga, hayai desu kara, yoku wakarimasen deshita.
+Nghĩa: Tôi đã từng xem trên TV, nhưng vì nhanh quá nên không hiểu rõ.
+
+[13:00] チケットあるけど、どう？
+Romaji: Chiketto aru kedo, dou?
+Nghĩa: Tôi có vé, anh thấy sao?
+
+[13:00] ありがとうございます。でも、相撲はちょっと……。
+Romaji: Arigatou gozaimasu. Demo, sumou wa chotto...
+Nghĩa: Cảm ơn. Nhưng sumo thì hơi...
+
+[13:09] ミラーさんは相撲が好きですよ。
+Romaji: Miraa-san wa sumou ga suki desu yo.
+Nghĩa: Miller thích sumo đấy.
+
+[13:15] グプタさんは土曜日にミラーさんと相撲を見に行きます。
+Romaji: Guputa-san wa doyoubi ni Miraa-san to sumou o mi ni ikimasu.
+Nghĩa: Gupta sẽ đi xem sumo với Miller vào thứ Bảy.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: グプタさんは何をしますか。
+Romaji: Guputa-san wa nani o shimasu ka.
+Nghĩa: Gupta sẽ làm gì?
+
+A. 土曜日にミラーさんと相撲を見に行きます
+Nghĩa: Thứ Bảy đi xem sumo với Miller
+B. 一人で相撲を見に行きます
+C. 相撲をします
+D. チケットを買います
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Cuối đoạn nói Gupta sẽ đi xem sumo với Miller vào thứ Bảy.

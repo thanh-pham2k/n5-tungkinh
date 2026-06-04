@@ -1,0 +1,592 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[00:14] A: こんばんは。もうみんな来た？
+Romaji: Konbanwa. Mou minna kita?
+Nghĩa: Chào buổi tối. Mọi người đã đến hết chưa?
+
+[00:18] B: まだだよ。愛子さん、さあ、どうぞ。
+Romaji: Mada da yo. Aiko-san, saa, douzo.
+Nghĩa: Vẫn chưa đâu. Aiko, mời vào.
+
+[00:22] C: エドさん、誕生日おめでとう。花をどうぞ。
+Romaji: Edo-san, tanjoubi omedetou. Hana o douzo.
+Nghĩa: Ed, chúc mừng sinh nhật. Tặng bạn hoa này.
+
+[00:27] B: きれいだね。愛子さん、ありがとう。
+Romaji: Kirei da ne. Aiko-san, arigatou.
+Nghĩa: Đẹp quá. Aiko, cảm ơn nhé.
+
+[00:32] A: キムさん、いらっしゃい。
+Romaji: Kimu-san, irasshai.
+Nghĩa: Kim, chào mừng bạn đến.
+
+[00:32] D: エドさん、誕生日おめでとう。これ、どうぞ。
+Romaji: Edo-san, tanjoubi omedetou. Kore, douzo.
+Nghĩa: Ed, chúc mừng sinh nhật. Tặng bạn cái này.
+
+[00:40] B: 開けてもいい？
+Romaji: Akete mo ii?
+Nghĩa: Mình mở ra được không?
+
+[00:43] D: ええ。私が作ったの。
+Romaji: Ee. Watashi ga tsukutta no.
+Nghĩa: Được. Đây là cái mình làm.
+
+[00:43] B: 素敵な星だね。いいデザインだね。どうもありがとう。
+Romaji: Suteki na hoshi da ne. Ii dezain da ne. Doumo arigatou.
+Nghĩa: Ngôi sao đẹp quá. Thiết kế đẹp nhỉ. Cảm ơn nhiều.
+
+[00:54] A: こんばんは、ミゲル君。
+Romaji: Konbanwa, Migeru-kun.
+Nghĩa: Chào buổi tối, Miguel.
+
+[00:57] B: わあ、大きい帽子だなあ。
+Romaji: Waa, ookii boushi da naa.
+Nghĩa: Oa, cái mũ to quá.
+
+[01:01] E: この帽子、僕のプレゼントだよ。僕の国では男の人はこれをかぶるよ。
+Romaji: Kono boushi, boku no purezento da yo. Boku no kuni de wa otoko no hito wa kore o kaburu yo.
+Nghĩa: Cái mũ này là quà của mình. Ở nước mình, đàn ông đội cái này.
+
+[01:06] B: じゃあ、メキシコの帽子？面白いね。
+Romaji: Jaa, Mekishiko no boushi? Omoshiroi ne.
+Nghĩa: Vậy là mũ Mexico à? Thú vị nhỉ.
+
+[01:13] E: お祭りの時かぶる帽子だよ。
+Romaji: Omatsuri no toki kaburu boushi da yo.
+Nghĩa: Đây là mũ đội khi lễ hội.
+
+[01:17] B: ミゲル君、ありがとう。
+Romaji: Migeru-kun, arigatou.
+Nghĩa: Miguel, cảm ơn nhé.
+
+[01:23] A: ケリー先生だ。さあ、どうぞ。
+Romaji: Kerii-sensei da. Saa, douzo.
+Nghĩa: Là cô Kelly. Mời cô vào.
+
+[01:26] F: ありがとう。エドさん、誕生日おめでとう。
+Romaji: Arigatou. Edo-san, tanjoubi omedetou.
+Nghĩa: Cảm ơn. Ed, chúc mừng sinh nhật.
+
+[01:30] F: オーストラリアのワインを持って来ました。どうぞ。
+Romaji: Oosutoraria no wain o motte kimashita. Douzo.
+Nghĩa: Tôi mang rượu vang Úc đến. Xin mời.
+
+[01:34] B: ありがとうございます。どこで買いましたか。
+Romaji: Arigatou gozaimasu. Doko de kaimashita ka.
+Nghĩa: Cảm ơn cô. Cô mua ở đâu vậy?
+
+[01:34] F: シドニーの空港で買いました。
+Romaji: Shidonii no kuukou de kaimashita.
+Nghĩa: Tôi mua ở sân bay Sydney.
+
+[01:40] F: この間オーストラリアへ帰りましたから。このワイン、きっとおいしいと思いますよ。
+Romaji: Kono aida Oosutoraria e kaerimashita kara. Kono wain, kitto oishii to omoimasu yo.
+Nghĩa: Vì vừa rồi tôi về Úc. Rượu vang này chắc chắn ngon đấy.
+
+[01:46] B: そうですか。じゃあ、みんなで飲みましょう。
+Romaji: Sou desu ka. Jaa, minna de nomimashou.
+Nghĩa: Vậy à. Vậy mọi người cùng uống nhé.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[00:22] 質問: 愛子さんはエドさんに何をあげましたか。
+Romaji: Aiko-san wa Edo-san ni nani o agemashita ka.
+Nghĩa: Aiko đã tặng Ed cái gì?
+
+A. 花
+Nghĩa: Hoa
+B. 帽子
+Nghĩa: Mũ
+C. ワイン
+Nghĩa: Rượu vang
+D. 星
+
+Nghĩa: Ngôi sao
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Aiko nói 「花をどうぞ」.
+
+Câu 2:
+[00:43] 質問: キムさんのプレゼントは何ですか。
+Romaji: Kimu-san no purezento wa nan desu ka.
+Nghĩa: Quà của Kim là gì?
+
+A. 星
+Nghĩa: Ngôi sao
+B. 花
+Nghĩa: Hoa
+C. メキシコの帽子
+Nghĩa: Mũ Mexico
+D. オーストラリアのワイン
+
+Nghĩa: Rượu vang Úc
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Ed nói 「素敵な星だね」.
+
+Câu 3:
+[01:01] 質問: ミゲル君のプレゼントは何ですか。
+Romaji: Migeru-kun no purezento wa nan desu ka.
+Nghĩa: Quà của Miguel là gì?
+
+A. メキシコの帽子
+Nghĩa: Mũ Mexico
+B. 花
+Nghĩa: Hoa
+C. 星
+Nghĩa: Ngôi sao
+D. ワイン
+
+Nghĩa: Rượu vang
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Miguel nói đây là mũ ở nước mình và dùng khi lễ hội.
+
+Câu 4:
+[01:30] 質問: ケリー先生は何を持って来ましたか。
+Romaji: Kerii-sensei wa nani o motte kimashita ka.
+Nghĩa: Cô Kelly đã mang gì đến?
+
+A. オーストラリアのワイン
+Nghĩa: Rượu vang Úc
+B. メキシコの帽子
+Nghĩa: Mũ Mexico
+C. 花
+Nghĩa: Hoa
+D. 星
+
+Nghĩa: Ngôi sao
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Cô Kelly nói 「オーストラリアのワインを持って来ました」.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[02:13] A: 皆さんは日本語がとても上手になりましたね。
+Romaji: Minasan wa nihongo ga totemo jouzu ni narimashita ne.
+Nghĩa: Mọi người đã giỏi tiếng Nhật lên rất nhiều rồi nhỉ.
+
+[02:17] A: でも今日、さようならを言わなければなりません。
+Romaji: Demo kyou, sayounara o iwanakereba narimasen.
+Nghĩa: Nhưng hôm nay chúng ta phải nói lời tạm biệt.
+
+[02:21] A: 寂しいですが、暇な時、遊びに来てくださいね。
+Romaji: Sabishii desu ga, hima na toki, asobi ni kite kudasai ne.
+Nghĩa: Buồn nhưng khi rảnh, hãy đến chơi nhé.
+
+[02:21] B: 田中さんは私たちに日本をたくさん教えてくれました。ありがとう。
+Romaji: Tanaka-san wa watashitachi ni Nihon o takusan oshiete kuremashita. Arigatou.
+Nghĩa: Cô/chú Tanaka đã dạy chúng tôi rất nhiều về Nhật Bản. Cảm ơn.
+
+[02:33] A: いいえ。とても楽しかったです。
+Romaji: Iie. Totemo tanoshikatta desu.
+Nghĩa: Không có gì. Tôi đã rất vui.
+
+[02:41] C: 私の先生は川崎さんでした。
+Romaji: Watashi no sensei wa Kawasaki-san deshita.
+Nghĩa: Giáo viên của tôi là cô/chú Kawasaki.
+
+[02:41] C: 私が病気になった時、病院へ連れて行ってくれましたね。ありがとうございました。
+Romaji: Watashi ga byouki ni natta toki, byouin e tsurete itte kuremashita ne. Arigatou gozaimashita.
+Nghĩa: Khi tôi bị bệnh, cô/chú đã đưa tôi đến bệnh viện. Xin cảm ơn.
+
+[02:48] A: もう体は大丈夫ですか。
+Romaji: Mou karada wa daijoubu desu ka.
+Nghĩa: Cơ thể bạn giờ ổn chưa?
+
+[02:55] C: はい、おかげさまでよくなりました。
+Romaji: Hai, okagesama de yoku narimashita.
+Nghĩa: Vâng, nhờ cô/chú mà tôi đã khỏe hơn.
+
+[03:03] D: 車が故障した時、修理を手伝ってくれましたね。ありがとうございました。
+Romaji: Kuruma ga koshou shita toki, shuuri o tetsudatte kuremashita ne. Arigatou gozaimashita.
+Nghĩa: Khi xe bị hỏng, cô/chú đã giúp sửa xe. Xin cảm ơn.
+
+[03:14] E: 佐野さんは私の日本のおじいさんです。
+Romaji: Sano-san wa watashi no Nihon no ojiisan desu.
+Nghĩa: Ông Sano là người ông Nhật Bản của tôi.
+
+[03:24] E: 子供の学校の手紙は全部日本語でした。でも、村上さんにスペイン語で説明してもらいましたから、よくわかりました。ありがとうございました。
+Romaji: Kodomo no gakkou no tegami wa zenbu nihongo deshita. Demo, Murakami-san ni Supein-go de setsumei shite moraimashita kara, yoku wakarimashita. Arigatou gozaimashita.
+Nghĩa: Thư từ trường của con tôi đều bằng tiếng Nhật. Nhưng tôi được ông/bà Murakami giải thích bằng tiếng Tây Ban Nha nên đã hiểu rõ. Xin cảm ơn.
+
+[03:36] A: どういたしまして。皆さん、本当にありがとうございました。
+Romaji: Dou itashimashite. Minasan, hontou ni arigatou gozaimashita.
+Nghĩa: Không có gì. Mọi người, thật sự cảm ơn rất nhiều.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[02:21] 質問: 田中さんは外国人に何を教えてくれましたか。
+Romaji: Tanaka-san wa gaikokujin ni nani o oshiete kuremashita ka.
+Nghĩa: Ông/bà Tanaka đã dạy người nước ngoài điều gì?
+
+A. 日本のこと
+Nghĩa: Những điều về Nhật Bản
+B. スペイン語
+Nghĩa: Tiếng Tây Ban Nha
+C. 車の修理
+Nghĩa: Sửa xe
+D. 病院の場所
+
+Nghĩa: Vị trí bệnh viện
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「日本をたくさん教えてくれました」.
+
+Câu 2:
+[02:41] 質問: 川崎さんは何をしてくれましたか。
+Romaji: Kawasaki-san wa nani o shite kuremashita ka.
+Nghĩa: Ông/bà Kawasaki đã giúp gì?
+
+A. 病院へ連れて行ってくれました
+Nghĩa: Đưa đến bệnh viện
+B. 日本を教えてくれました
+Nghĩa: Dạy về Nhật Bản
+C. 車の修理を手伝ってくれました
+Nghĩa: Giúp sửa xe
+D. スペイン語で説明してくれました
+
+Nghĩa: Giải thích bằng tiếng Tây Ban Nha
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「病院へ連れて行ってくれました」.
+
+Câu 3:
+[03:03] 質問: 車が故障した時、何をしてくれましたか。
+Romaji: Kuruma ga koshou shita toki, nani o shite kuremashita ka.
+Nghĩa: Khi xe bị hỏng, người đó đã giúp gì?
+
+A. 修理を手伝ってくれました
+Nghĩa: Giúp sửa xe
+B. 病院へ連れて行ってくれました
+Nghĩa: Đưa đến bệnh viện
+C. 日本語を教えてくれました
+Nghĩa: Dạy tiếng Nhật
+D. 花をくれました
+
+Nghĩa: Tặng hoa
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「修理を手伝ってくれました」.
+
+Câu 4:
+[03:24] 質問: 村上さんは何をしてくれましたか。
+Romaji: Murakami-san wa nani o shite kuremashita ka.
+Nghĩa: Ông/bà Murakami đã giúp gì?
+
+A. スペイン語で説明してくれました
+Nghĩa: Giải thích bằng tiếng Tây Ban Nha
+B. 病院へ連れて行ってくれました
+Nghĩa: Đưa đến bệnh viện
+C. 車を修理してくれました
+Nghĩa: Sửa xe
+D. 日本の料理を作ってくれました
+
+Nghĩa: Nấu món Nhật
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「スペイン語で説明してもらいました」.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[03:56] A: おはようございます。
+Romaji: Ohayou gozaimasu.
+Nghĩa: Chào buổi sáng.
+
+[04:00] A: 中野さん、お元気ですか。
+Romaji: Nakano-san, ogenki desu ka.
+Nghĩa: Ông/bà Nakano có khỏe không?
+
+[04:00] B: ええ、元気ですよ。
+Romaji: Ee, genki desu yo.
+Nghĩa: Vâng, tôi khỏe.
+
+[04:05] B: 今日は服を買いに行きたいですが、いいですか。
+Romaji: Kyou wa fuku o kai ni ikitai desu ga, ii desu ka.
+Nghĩa: Hôm nay tôi muốn đi mua quần áo, có được không?
+
+[04:09] A: ええ、一緒に行きましょう。いつものスーパーですね。
+Romaji: Ee, issho ni ikimashou. Itsumo no suupaa desu ne.
+Nghĩa: Vâng, cùng đi nhé. Là siêu thị thường đi đúng không?
+
+[04:14] B: あの駅の前の新しいスーパーへ連れて行ってくれますか。
+Romaji: Ano eki no mae no atarashii suupaa e tsurete itte kuremasu ka.
+Nghĩa: Bạn đưa tôi đến siêu thị mới trước ga được không?
+
+[04:20] A: 買い物は楽しいですから、はい、一緒に行きましょう。
+Romaji: Kaimono wa tanoshii desu kara, hai, issho ni ikimashou.
+Nghĩa: Vì mua sắm rất vui, vâng, cùng đi nhé.
+
+[04:27] A: 吉田さん、今日は足の調子はいかがですか。
+Romaji: Yoshida-san, kyou wa ashi no choushi wa ikaga desu ka.
+Nghĩa: Ông/bà Yoshida, hôm nay chân thế nào?
+
+[04:34] B: ちょっと痛いですから、今日は寝ています。
+Romaji: Chotto itai desu kara, kyou wa nete imasu.
+Nghĩa: Vì hơi đau nên hôm nay tôi nằm nghỉ.
+
+[04:38] B: すみませんが、部屋の掃除をしてくれますか。
+Romaji: Sumimasen ga, heya no souji o shite kuremasu ka.
+Nghĩa: Xin lỗi, bạn dọn phòng giúp tôi được không?
+
+[04:38] A: はい、わかりました。
+Romaji: Hai, wakarimashita.
+Nghĩa: Vâng, tôi hiểu rồi.
+
+[04:45] A: それから晩ご飯も作りましょうか。
+Romaji: Sore kara bangohan mo tsukurimashou ka.
+Nghĩa: Sau đó tôi nấu cả bữa tối nhé?
+
+[04:45] B: お願いします。
+Romaji: Onegaishimasu.
+Nghĩa: Nhờ bạn giúp.
+
+[04:53] A: こんにちは。
+Romaji: Konnichiwa.
+Nghĩa: Xin chào.
+
+[04:53] B: ああ、きれいな花ですね。
+Romaji: Aa, kirei na hana desu ne.
+Nghĩa: À, hoa đẹp quá nhỉ.
+
+[04:59] A: きれいでしょう。隣の人がくれました。
+Romaji: Kirei deshou. Tonari no hito ga kuremashita.
+Nghĩa: Đẹp đúng không? Người hàng xóm đã tặng tôi.
+
+[05:04] A: 体の調子はどうですか。
+Romaji: Karada no choushi wa dou desu ka.
+Nghĩa: Sức khỏe thế nào?
+
+[05:04] B: 体がとても痛いです。物を持つことができません。
+Romaji: Karada ga totemo itai desu. Mono o motsu koto ga dekimasen.
+Nghĩa: Cơ thể tôi rất đau. Tôi không thể cầm đồ.
+
+[05:08] B: あの病院へ薬を取りに行ってください。
+Romaji: Ano byouin e kusuri o tori ni itte kudasai.
+Nghĩa: Hãy đến bệnh viện kia lấy thuốc giúp tôi.
+
+[05:16] A: はい、すぐ行きます。
+Romaji: Hai, sugu ikimasu.
+Nghĩa: Vâng, tôi sẽ đi ngay.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[04:14] 質問: 中野さんはどこへ連れて行ってもらいますか。
+Romaji: Nakano-san wa doko e tsurete itte moraimasu ka.
+Nghĩa: Ông/bà Nakano được đưa đi đâu?
+
+A. 駅の前の新しいスーパー
+Nghĩa: Siêu thị mới trước ga
+B. いつものスーパー
+Nghĩa: Siêu thị thường đi
+C. 病院
+Nghĩa: Bệnh viện
+D. レストラン
+
+Nghĩa: Nhà hàng
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Nakano nói 「駅の前の新しいスーパーへ連れて行ってくれますか」.
+
+Câu 2:
+[04:38] 質問: 吉田さんは何をしてもらいますか。
+Romaji: Yoshida-san wa nani o shite moraimasu ka.
+Nghĩa: Ông/bà Yoshida được giúp làm gì?
+
+A. 部屋の掃除
+Nghĩa: Dọn phòng
+B. 服を買うこと
+Nghĩa: Mua quần áo
+C. 花を買うこと
+D. 薬を飲むこと
+
+Nghĩa: Uống thuốc
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Yoshida nói 「部屋の掃除をしてくれますか」.
+
+Câu 3:
+[04:45] 質問: ボランティアは吉田さんに何を作ってあげますか。
+Romaji: Borantia wa Yoshida-san ni nani o tsukutte agemasu ka.
+Nghĩa: Tình nguyện viên sẽ nấu gì cho Yoshida?
+
+A. 晩ご飯
+Nghĩa: Bữa tối
+B. 昼ご飯
+Nghĩa: Bữa trưa
+C. 朝ご飯
+Nghĩa: Bữa sáng
+D. お茶
+
+Nghĩa: Trà
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Tình nguyện viên nói 「晩ご飯も作りましょうか」.
+
+Câu 4:
+[05:08] 質問: ボランティアは何を取りに行きますか。
+Romaji: Borantia wa nani o tori ni ikimasu ka.
+Nghĩa: Tình nguyện viên đi lấy gì?
+
+A. 薬
+Nghĩa: Thuốc
+B. 花
+Nghĩa: Hoa
+C. 服
+Nghĩa: Quần áo
+D. 晩ご飯
+
+Nghĩa: Bữa tối
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người già nói 「薬を取りに行ってください」.
+
+---
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[05:31] A: 山田さん、今月のレポートです。
+Romaji: Yamada-san, kongetsu no repooto desu.
+Nghĩa: Anh/chị Yamada, đây là báo cáo tháng này.
+
+[05:35] B: うーん、陳さん。今月のレポートはいいですね。
+Romaji: Uun, Chin-san. Kongetsu no repooto wa ii desu ne.
+Nghĩa: Ừm, anh/chị Chen. Báo cáo tháng này tốt nhỉ.
+
+[05:42] A: 佐藤さんに直してもらいましたから。
+Romaji: Satou-san ni naoshite moraimashita kara.
+Nghĩa: Vì tôi đã được anh/chị Sato sửa giúp.
+
+[05:46] A: 陳さん、昨日の晩はすごい雨でしたね。大丈夫でしたか。
+Romaji: Chin-san, kinou no ban wa sugoi ame deshita ne. Daijoubu deshita ka.
+Nghĩa: Anh/chị Chen, tối qua mưa rất lớn nhỉ. Có ổn không?
+
+[05:54] B: 山田さんが傘を貸してくれましたから。
+Romaji: Yamada-san ga kasa o kashite kuremashita kara.
+Nghĩa: Vì anh/chị Yamada đã cho tôi mượn ô.
+
+[06:02] A: わあ、陳さん、すごい荷物ですね。一人で持って来ましたか。
+Romaji: Waa, Chin-san, sugoi nimotsu desu ne. Hitori de motte kimashita ka.
+Nghĩa: Oa, anh/chị Chen, hành lý nhiều quá nhỉ. Tự mang đến à?
+
+[06:06] B: いいえ、知らない男の人が持ってくれました。
+Romaji: Iie, shiranai otoko no hito ga motte kuremashita.
+Nghĩa: Không, một người đàn ông không quen đã mang giúp tôi.
+
+[06:15] A: どんな人？
+Romaji: Donna hito?
+Nghĩa: Người như thế nào?
+
+[06:15] B: 若い人。とてもハンサムでした。
+Romaji: Wakai hito. Totemo hansamu deshita.
+Nghĩa: Người trẻ. Rất đẹp trai.
+
+[06:24] A: 陳さん、新しいパソコンの使い方がわかりますか。
+Romaji: Chin-san, atarashii pasokon no tsukaikata ga wakarimasu ka.
+Nghĩa: Anh/chị Chen có hiểu cách dùng máy tính mới không?
+
+[06:29] B: まだよくわかりません。
+Romaji: Mada yoku wakarimasen.
+Nghĩa: Tôi vẫn chưa hiểu rõ.
+
+[06:29] A: じゃあ、教えてあげましょうか。
+Romaji: Jaa, oshiete agemashou ka.
+Nghĩa: Vậy tôi chỉ cho nhé?
+
+[06:33] B: 佐藤さん、ありがとうございます。でも今ちょっと忙しいですから、午後教えてくれますか。
+Romaji: Satou-san, arigatou gozaimasu. Demo ima chotto isogashii desu kara, gogo oshiete kuremasu ka.
+Nghĩa: Anh/chị Sato, cảm ơn. Nhưng bây giờ tôi hơi bận, buổi chiều bạn chỉ giúp tôi được không?
+
+[06:39] A: いいですよ。じゃあ、1時ごろからお願いします。
+Romaji: Ii desu yo. Jaa, ichiji goro kara onegaishimasu.
+Nghĩa: Được. Vậy khoảng 1 giờ nhé.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[05:42] 質問: 陳さんは誰にレポートを直してもらいましたか。
+Romaji: Chin-san wa dare ni repooto o naoshite moraimashita ka.
+Nghĩa: Chen đã được ai sửa báo cáo?
+
+A. 佐藤さん
+Nghĩa: Anh/chị Sato
+B. 山田さん
+Nghĩa: Anh/chị Yamada
+C. 川崎さん
+Nghĩa: Anh/chị Kawasaki
+D. 村上さん
+
+Nghĩa: Anh/chị Murakami
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Chen nói 「佐藤さんに直してもらいました」.
+
+Câu 2:
+[05:54] 質問: 雨の時、山田さんは何を貸してくれましたか。
+Romaji: Ame no toki, Yamada-san wa nani o kashite kuremashita ka.
+Nghĩa: Khi trời mưa, Yamada đã cho mượn gì?
+
+A. 傘
+Nghĩa: Ô / dù
+B. 車
+Nghĩa: Xe hơi
+C. パソコン
+Nghĩa: Máy tính
+D. レポート
+
+Nghĩa: Báo cáo
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「傘を貸してくれました」.
+
+Câu 3:
+[06:06] 質問: 誰が荷物を持ってくれましたか。
+Romaji: Dare ga nimotsu o motte kuremashita ka.
+Nghĩa: Ai đã mang hành lý giúp?
+
+A. 知らない男の人
+Nghĩa: Một người đàn ông không quen
+B. 山田さん
+Nghĩa: Anh/chị Yamada
+C. 佐藤さん
+Nghĩa: Anh/chị Sato
+D. 川崎さん
+
+Nghĩa: Anh/chị Kawasaki
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Chen nói 「知らない男の人が持ってくれました」.
+
+Câu 4:
+[06:33] 質問: 陳さんはいつパソコンの使い方を教えてもらいますか。
+Romaji: Chin-san wa itsu pasokon no tsukaikata o oshiete moraimasu ka.
+Nghĩa: Chen sẽ được chỉ cách dùng máy tính khi nào?
+
+A. 午後1時ごろ
+Nghĩa: Khoảng 1 giờ chiều
+B. 朝9時
+Nghĩa: 9 giờ sáng
+C. 昨日の晩
+Nghĩa: Tối qua
+D. 来週
+
+Nghĩa: Tuần sau
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「1時ごろからお願いします」.

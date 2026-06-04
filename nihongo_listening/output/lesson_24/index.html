@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JLPT N5 Listening - Bài 24</title>
+  <style>
+    :root {
+      --bg: #f6f8fb; --panel: #fff; --text: #162033; --muted: #64748b;
+      --line: #dbe3ef; --primary: #0f766e; --primary-soft: #e1f4f1;
+      --ok: #147a3d; --bad: #b42318; --shadow: 0 12px 28px rgba(15,23,42,.08);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: Arial, sans-serif; line-height: 1.5; }
+    header { position: sticky; top: 0; z-index: 5; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.96); padding: 14px 16px; }
+    .header-inner { max-width: 960px; margin: 0 auto; display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { margin-bottom: 2px; font-size: clamp(20px, 4vw, 30px); }
+    .hint { margin: 0; color: var(--muted); }
+    .score { min-width: max-content; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 8px 10px; font-weight: 700; color: var(--muted); }
+    main { width: min(960px, 100%); margin: 0 auto; padding: 16px; display: grid; gap: 14px; }
+    .segment-card { border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); padding: 16px; }
+    .segment-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
+    .eyebrow { margin: 0 0 4px; color: var(--primary); font-size: 13px; font-weight: 800; text-transform: uppercase; }
+    h2 { margin-bottom: 0; font-size: clamp(18px, 3vw, 24px); }
+    .time { color: var(--muted); font-weight: 700; }
+    audio { width: 100%; display: block; margin: 12px 0; }
+    button { min-height: 42px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 8px 12px; font-weight: 700; cursor: pointer; }
+    button:hover { border-color: var(--primary); color: var(--primary); }
+    .toggle-script { margin-bottom: 12px; }
+    .script-text { width: 100%; margin: 0 0 14px; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 12px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 15px; }
+    .quiz { border-top: 1px solid var(--line); padding-top: 14px; }
+    .question { margin-bottom: 4px; font-weight: 800; font-size: 17px; }
+    .subline { margin: 0 0 6px; color: var(--muted); }
+    .options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 12px 0; }
+    .option { min-height: 68px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 12px; display: grid; grid-template-columns: 24px minmax(0, 1fr); column-gap: 10px; align-items: start; cursor: pointer; }
+    .option:has(input:checked) { border-color: var(--primary); background: var(--primary-soft); }
+    .option input { margin-top: 4px; }
+    .option-body { min-width: 0; display: grid; gap: 4px; }
+    .option-line { display: flex; gap: 8px; align-items: baseline; min-width: 0; }
+    .option-key { flex: 0 0 auto; font-weight: 800; }
+    .option-text { min-width: 0; font-weight: 800; white-space: normal; word-break: normal; overflow-wrap: break-word; line-break: strict; }
+    .option-meaning { color: var(--muted); font-size: 14px; white-space: normal; word-break: normal; overflow-wrap: break-word; }
+    .check-answer { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .feedback { min-height: 24px; margin-top: 10px; font-weight: 800; }
+    .feedback.ok { color: var(--ok); }
+    .feedback.bad { color: var(--bad); }
+    .explanation { margin: 4px 0 0; color: var(--muted); }
+    @media (max-width: 640px) {
+      header { position: static; } .header-inner { align-items: flex-start; flex-direction: column; }
+      .score, button { width: 100%; } main { padding: 10px; } .segment-card { padding: 12px; }
+      .segment-head { flex-direction: column; } .time { width: 100%; } .options { grid-template-columns: 1fr; }
+      button { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1>JLPT N5 Listening - Bài 24</h1>
+        <p class="hint">Nghe từng đoạn, tự trả lời, rồi mới mở script để kiểm tra.</p>
+      </div>
+      <div class="score" id="score">0 / 4 câu đúng</div>
+    </div>
+  </header>
+  <main>
+            <article class="segment-card" data-segment="0" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 001</p>
+                  <h2>Đoạn 1</h2>
+                </div>
+                <div class="time">00:14.000 - 02:13.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_001.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>A: こんばんは。もうみんな来た？
+Romaji: Konbanwa. Mou minna kita?
+Nghĩa: Chào buổi tối. Mọi người đã đến hết chưa?
+
+B: まだだよ。愛子さん、さあ、どうぞ。
+Romaji: Mada da yo. Aiko-san, saa, douzo.
+Nghĩa: Vẫn chưa đâu. Aiko, mời vào.
+
+C: エドさん、誕生日おめでとう。花をどうぞ。
+Romaji: Edo-san, tanjoubi omedetou. Hana o douzo.
+Nghĩa: Ed, chúc mừng sinh nhật. Tặng bạn hoa này.
+
+B: きれいだね。愛子さん、ありがとう。
+Romaji: Kirei da ne. Aiko-san, arigatou.
+Nghĩa: Đẹp quá. Aiko, cảm ơn nhé.
+
+A: キムさん、いらっしゃい。
+Romaji: Kimu-san, irasshai.
+Nghĩa: Kim, chào mừng bạn đến.
+
+D: エドさん、誕生日おめでとう。これ、どうぞ。
+Romaji: Edo-san, tanjoubi omedetou. Kore, douzo.
+Nghĩa: Ed, chúc mừng sinh nhật. Tặng bạn cái này.
+
+B: 開けてもいい？
+Romaji: Akete mo ii?
+Nghĩa: Mình mở ra được không?
+
+D: ええ。私が作ったの。
+Romaji: Ee. Watashi ga tsukutta no.
+Nghĩa: Được. Đây là cái mình làm.
+
+B: 素敵な星だね。いいデザインだね。どうもありがとう。
+Romaji: Suteki na hoshi da ne. Ii dezain da ne. Doumo arigatou.
+Nghĩa: Ngôi sao đẹp quá. Thiết kế đẹp nhỉ. Cảm ơn nhiều.
+
+A: こんばんは、ミゲル君。
+Romaji: Konbanwa, Migeru-kun.
+Nghĩa: Chào buổi tối, Miguel.
+
+B: わあ、大きい帽子だなあ。
+Romaji: Waa, ookii boushi da naa.
+Nghĩa: Oa, cái mũ to quá.
+
+E: この帽子、僕のプレゼントだよ。僕の国では男の人はこれをかぶるよ。
+Romaji: Kono boushi, boku no purezento da yo. Boku no kuni de wa otoko no hito wa kore o kaburu yo.
+Nghĩa: Cái mũ này là quà của mình. Ở nước mình, đàn ông đội cái này.
+
+B: じゃあ、メキシコの帽子？面白いね。
+Romaji: Jaa, Mekishiko no boushi? Omoshiroi ne.
+Nghĩa: Vậy là mũ Mexico à? Thú vị nhỉ.
+
+E: お祭りの時かぶる帽子だよ。
+Romaji: Omatsuri no toki kaburu boushi da yo.
+Nghĩa: Đây là mũ đội khi lễ hội.
+
+B: ミゲル君、ありがとう。
+Romaji: Migeru-kun, arigatou.
+Nghĩa: Miguel, cảm ơn nhé.
+
+A: ケリー先生だ。さあ、どうぞ。
+Romaji: Kerii-sensei da. Saa, douzo.
+Nghĩa: Là cô Kelly. Mời cô vào.
+
+F: ありがとう。エドさん、誕生日おめでとう。
+Romaji: Arigatou. Edo-san, tanjoubi omedetou.
+Nghĩa: Cảm ơn. Ed, chúc mừng sinh nhật.
+
+F: オーストラリアのワインを持って来ました。どうぞ。
+Romaji: Oosutoraria no wain o motte kimashita. Douzo.
+Nghĩa: Tôi mang rượu vang Úc đến. Xin mời.
+
+B: ありがとうございます。どこで買いましたか。
+Romaji: Arigatou gozaimasu. Doko de kaimashita ka.
+Nghĩa: Cảm ơn cô. Cô mua ở đâu vậy?
+
+F: シドニーの空港で買いました。
+Romaji: Shidonii no kuukou de kaimashita.
+Nghĩa: Tôi mua ở sân bay Sydney.
+
+F: この間オーストラリアへ帰りましたから。このワイン、きっとおいしいと思いますよ。
+Romaji: Kono aida Oosutoraria e kaerimashita kara. Kono wain, kitto oishii to omoimasu yo.
+Nghĩa: Vì vừa rồi tôi về Úc. Rượu vang này chắc chắn ngon đấy.
+
+B: そうですか。じゃあ、みんなで飲みましょう。
+Romaji: Sou desu ka. Jaa, minna de nomimashou.
+Nghĩa: Vậy à. Vậy mọi người cùng uống nhé.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">愛子さんはエドさんに何をあげましたか。</p>
+                <p class="subline">Aiko-san wa Edo-san ni nani o agemashita ka.</p>
+                <p class="subline">Aiko đã tặng Ed cái gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-0" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">花</span></span>
+                    <span class="option-meaning">Hoa</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">帽子</span></span>
+                    <span class="option-meaning">Mũ</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">ワイン</span></span>
+                    <span class="option-meaning">Rượu vang</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">星</span></span>
+                    <span class="option-meaning">Ngôi sao</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Aiko nói 「花をどうぞ」.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="1" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 002</p>
+                  <h2>Đoạn 2</h2>
+                </div>
+                <div class="time">02:13.000 - 03:56.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_002.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>A: 皆さんは日本語がとても上手になりましたね。
+Romaji: Minasan wa nihongo ga totemo jouzu ni narimashita ne.
+Nghĩa: Mọi người đã giỏi tiếng Nhật lên rất nhiều rồi nhỉ.
+
+A: でも今日、さようならを言わなければなりません。
+Romaji: Demo kyou, sayounara o iwanakereba narimasen.
+Nghĩa: Nhưng hôm nay chúng ta phải nói lời tạm biệt.
+
+A: 寂しいですが、暇な時、遊びに来てくださいね。
+Romaji: Sabishii desu ga, hima na toki, asobi ni kite kudasai ne.
+Nghĩa: Buồn nhưng khi rảnh, hãy đến chơi nhé.
+
+B: 田中さんは私たちに日本をたくさん教えてくれました。ありがとう。
+Romaji: Tanaka-san wa watashitachi ni Nihon o takusan oshiete kuremashita. Arigatou.
+Nghĩa: Cô/chú Tanaka đã dạy chúng tôi rất nhiều về Nhật Bản. Cảm ơn.
+
+A: いいえ。とても楽しかったです。
+Romaji: Iie. Totemo tanoshikatta desu.
+Nghĩa: Không có gì. Tôi đã rất vui.
+
+C: 私の先生は川崎さんでした。
+Romaji: Watashi no sensei wa Kawasaki-san deshita.
+Nghĩa: Giáo viên của tôi là cô/chú Kawasaki.
+
+C: 私が病気になった時、病院へ連れて行ってくれましたね。ありがとうございました。
+Romaji: Watashi ga byouki ni natta toki, byouin e tsurete itte kuremashita ne. Arigatou gozaimashita.
+Nghĩa: Khi tôi bị bệnh, cô/chú đã đưa tôi đến bệnh viện. Xin cảm ơn.
+
+A: もう体は大丈夫ですか。
+Romaji: Mou karada wa daijoubu desu ka.
+Nghĩa: Cơ thể bạn giờ ổn chưa?
+
+C: はい、おかげさまでよくなりました。
+Romaji: Hai, okagesama de yoku narimashita.
+Nghĩa: Vâng, nhờ cô/chú mà tôi đã khỏe hơn.
+
+D: 車が故障した時、修理を手伝ってくれましたね。ありがとうございました。
+Romaji: Kuruma ga koshou shita toki, shuuri o tetsudatte kuremashita ne. Arigatou gozaimashita.
+Nghĩa: Khi xe bị hỏng, cô/chú đã giúp sửa xe. Xin cảm ơn.
+
+E: 佐野さんは私の日本のおじいさんです。
+Romaji: Sano-san wa watashi no Nihon no ojiisan desu.
+Nghĩa: Ông Sano là người ông Nhật Bản của tôi.
+
+E: 子供の学校の手紙は全部日本語でした。でも、村上さんにスペイン語で説明してもらいましたから、よくわかりました。ありがとうございました。
+Romaji: Kodomo no gakkou no tegami wa zenbu nihongo deshita. Demo, Murakami-san ni Supein-go de setsumei shite moraimashita kara, yoku wakarimashita. Arigatou gozaimashita.
+Nghĩa: Thư từ trường của con tôi đều bằng tiếng Nhật. Nhưng tôi được ông/bà Murakami giải thích bằng tiếng Tây Ban Nha nên đã hiểu rõ. Xin cảm ơn.
+
+A: どういたしまして。皆さん、本当にありがとうございました。
+Romaji: Dou itashimashite. Minasan, hontou ni arigatou gozaimashita.
+Nghĩa: Không có gì. Mọi người, thật sự cảm ơn rất nhiều.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">田中さんは外国人に何を教えてくれましたか。</p>
+                <p class="subline">Tanaka-san wa gaikokujin ni nani o oshiete kuremashita ka.</p>
+                <p class="subline">Ông/bà Tanaka đã dạy người nước ngoài điều gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-1" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">日本のこと</span></span>
+                    <span class="option-meaning">Những điều về Nhật Bản</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">スペイン語</span></span>
+                    <span class="option-meaning">Tiếng Tây Ban Nha</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">車の修理</span></span>
+                    <span class="option-meaning">Sửa xe</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">病院の場所</span></span>
+                    <span class="option-meaning">Vị trí bệnh viện</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Có câu 「日本をたくさん教えてくれました」.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="2" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 003</p>
+                  <h2>Đoạn 3</h2>
+                </div>
+                <div class="time">03:56.000 - 05:31.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_003.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>A: おはようございます。
+Romaji: Ohayou gozaimasu.
+Nghĩa: Chào buổi sáng.
+
+A: 中野さん、お元気ですか。
+Romaji: Nakano-san, ogenki desu ka.
+Nghĩa: Ông/bà Nakano có khỏe không?
+
+B: ええ、元気ですよ。
+Romaji: Ee, genki desu yo.
+Nghĩa: Vâng, tôi khỏe.
+
+B: 今日は服を買いに行きたいですが、いいですか。
+Romaji: Kyou wa fuku o kai ni ikitai desu ga, ii desu ka.
+Nghĩa: Hôm nay tôi muốn đi mua quần áo, có được không?
+
+A: ええ、一緒に行きましょう。いつものスーパーですね。
+Romaji: Ee, issho ni ikimashou. Itsumo no suupaa desu ne.
+Nghĩa: Vâng, cùng đi nhé. Là siêu thị thường đi đúng không?
+
+B: あの駅の前の新しいスーパーへ連れて行ってくれますか。
+Romaji: Ano eki no mae no atarashii suupaa e tsurete itte kuremasu ka.
+Nghĩa: Bạn đưa tôi đến siêu thị mới trước ga được không?
+
+A: 買い物は楽しいですから、はい、一緒に行きましょう。
+Romaji: Kaimono wa tanoshii desu kara, hai, issho ni ikimashou.
+Nghĩa: Vì mua sắm rất vui, vâng, cùng đi nhé.
+
+A: 吉田さん、今日は足の調子はいかがですか。
+Romaji: Yoshida-san, kyou wa ashi no choushi wa ikaga desu ka.
+Nghĩa: Ông/bà Yoshida, hôm nay chân thế nào?
+
+B: ちょっと痛いですから、今日は寝ています。
+Romaji: Chotto itai desu kara, kyou wa nete imasu.
+Nghĩa: Vì hơi đau nên hôm nay tôi nằm nghỉ.
+
+B: すみませんが、部屋の掃除をしてくれますか。
+Romaji: Sumimasen ga, heya no souji o shite kuremasu ka.
+Nghĩa: Xin lỗi, bạn dọn phòng giúp tôi được không?
+
+A: はい、わかりました。
+Romaji: Hai, wakarimashita.
+Nghĩa: Vâng, tôi hiểu rồi.
+
+A: それから晩ご飯も作りましょうか。
+Romaji: Sore kara bangohan mo tsukurimashou ka.
+Nghĩa: Sau đó tôi nấu cả bữa tối nhé?
+
+B: お願いします。
+Romaji: Onegaishimasu.
+Nghĩa: Nhờ bạn giúp.
+
+A: こんにちは。
+Romaji: Konnichiwa.
+Nghĩa: Xin chào.
+
+B: ああ、きれいな花ですね。
+Romaji: Aa, kirei na hana desu ne.
+Nghĩa: À, hoa đẹp quá nhỉ.
+
+A: きれいでしょう。隣の人がくれました。
+Romaji: Kirei deshou. Tonari no hito ga kuremashita.
+Nghĩa: Đẹp đúng không? Người hàng xóm đã tặng tôi.
+
+A: 体の調子はどうですか。
+Romaji: Karada no choushi wa dou desu ka.
+Nghĩa: Sức khỏe thế nào?
+
+B: 体がとても痛いです。物を持つことができません。
+Romaji: Karada ga totemo itai desu. Mono o motsu koto ga dekimasen.
+Nghĩa: Cơ thể tôi rất đau. Tôi không thể cầm đồ.
+
+B: あの病院へ薬を取りに行ってください。
+Romaji: Ano byouin e kusuri o tori ni itte kudasai.
+Nghĩa: Hãy đến bệnh viện kia lấy thuốc giúp tôi.
+
+A: はい、すぐ行きます。
+Romaji: Hai, sugu ikimasu.
+Nghĩa: Vâng, tôi sẽ đi ngay.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">中野さんはどこへ連れて行ってもらいますか。</p>
+                <p class="subline">Nakano-san wa doko e tsurete itte moraimasu ka.</p>
+                <p class="subline">Ông/bà Nakano được đưa đi đâu?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-2" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">駅の前の新しいスーパー</span></span>
+                    <span class="option-meaning">Siêu thị mới trước ga</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">いつものスーパー</span></span>
+                    <span class="option-meaning">Siêu thị thường đi</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">病院</span></span>
+                    <span class="option-meaning">Bệnh viện</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">レストラン</span></span>
+                    <span class="option-meaning">Nhà hàng</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Nakano nói 「駅の前の新しいスーパーへ連れて行ってくれますか」.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="3" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 004</p>
+                  <h2>Đoạn 4</h2>
+                </div>
+                <div class="time">05:31.000 - 13:39.363</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_004.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>A: 山田さん、今月のレポートです。
+Romaji: Yamada-san, kongetsu no repooto desu.
+Nghĩa: Anh/chị Yamada, đây là báo cáo tháng này.
+
+B: うーん、陳さん。今月のレポートはいいですね。
+Romaji: Uun, Chin-san. Kongetsu no repooto wa ii desu ne.
+Nghĩa: Ừm, anh/chị Chen. Báo cáo tháng này tốt nhỉ.
+
+A: 佐藤さんに直してもらいましたから。
+Romaji: Satou-san ni naoshite moraimashita kara.
+Nghĩa: Vì tôi đã được anh/chị Sato sửa giúp.
+
+A: 陳さん、昨日の晩はすごい雨でしたね。大丈夫でしたか。
+Romaji: Chin-san, kinou no ban wa sugoi ame deshita ne. Daijoubu deshita ka.
+Nghĩa: Anh/chị Chen, tối qua mưa rất lớn nhỉ. Có ổn không?
+
+B: 山田さんが傘を貸してくれましたから。
+Romaji: Yamada-san ga kasa o kashite kuremashita kara.
+Nghĩa: Vì anh/chị Yamada đã cho tôi mượn ô.
+
+A: わあ、陳さん、すごい荷物ですね。一人で持って来ましたか。
+Romaji: Waa, Chin-san, sugoi nimotsu desu ne. Hitori de motte kimashita ka.
+Nghĩa: Oa, anh/chị Chen, hành lý nhiều quá nhỉ. Tự mang đến à?
+
+B: いいえ、知らない男の人が持ってくれました。
+Romaji: Iie, shiranai otoko no hito ga motte kuremashita.
+Nghĩa: Không, một người đàn ông không quen đã mang giúp tôi.
+
+A: どんな人？
+Romaji: Donna hito?
+Nghĩa: Người như thế nào?
+
+B: 若い人。とてもハンサムでした。
+Romaji: Wakai hito. Totemo hansamu deshita.
+Nghĩa: Người trẻ. Rất đẹp trai.
+
+A: 陳さん、新しいパソコンの使い方がわかりますか。
+Romaji: Chin-san, atarashii pasokon no tsukaikata ga wakarimasu ka.
+Nghĩa: Anh/chị Chen có hiểu cách dùng máy tính mới không?
+
+B: まだよくわかりません。
+Romaji: Mada yoku wakarimasen.
+Nghĩa: Tôi vẫn chưa hiểu rõ.
+
+A: じゃあ、教えてあげましょうか。
+Romaji: Jaa, oshiete agemashou ka.
+Nghĩa: Vậy tôi chỉ cho nhé?
+
+B: 佐藤さん、ありがとうございます。でも今ちょっと忙しいですから、午後教えてくれますか。
+Romaji: Satou-san, arigatou gozaimasu. Demo ima chotto isogashii desu kara, gogo oshiete kuremasu ka.
+Nghĩa: Anh/chị Sato, cảm ơn. Nhưng bây giờ tôi hơi bận, buổi chiều bạn chỉ giúp tôi được không?
+
+A: いいですよ。じゃあ、1時ごろからお願いします。
+Romaji: Ii desu yo. Jaa, ichiji goro kara onegaishimasu.
+Nghĩa: Được. Vậy khoảng 1 giờ nhé.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">陳さんは誰にレポートを直してもらいましたか。</p>
+                <p class="subline">Chin-san wa dare ni repooto o naoshite moraimashita ka.</p>
+                <p class="subline">Chen đã được ai sửa báo cáo?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-3" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">佐藤さん</span></span>
+                    <span class="option-meaning">Anh/chị Sato</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">山田さん</span></span>
+                    <span class="option-meaning">Anh/chị Yamada</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">川崎さん</span></span>
+                    <span class="option-meaning">Anh/chị Kawasaki</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">村上さん</span></span>
+                    <span class="option-meaning">Anh/chị Murakami</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Chen nói 「佐藤さんに直してもらいました」.</p>
+              </section>
+            </article>
+            </main>
+  <script>
+    const totalSegments = 4;
+    const state = {};
+    function updateScore() {
+      const correct = Object.values(state).filter(Boolean).length;
+      document.getElementById("score").textContent = `${correct} / ${totalSegments} câu đúng`;
+    }
+    document.querySelectorAll(".toggle-script").forEach((button) => {
+      button.addEventListener("click", () => {
+        const script = button.nextElementSibling;
+        const isHidden = script.hasAttribute("hidden");
+        if (isHidden) { script.removeAttribute("hidden"); button.textContent = "Hide script"; }
+        else { script.setAttribute("hidden", ""); button.textContent = "Show script"; }
+      });
+    });
+    document.querySelectorAll(".check-answer").forEach((button) => {
+      button.addEventListener("click", () => {
+        const card = button.closest(".segment-card");
+        const selected = card.querySelector("input[type='radio']:checked");
+        const feedback = card.querySelector(".feedback");
+        const explanation = card.querySelector(".explanation");
+        const segmentIndex = card.dataset.segment;
+        feedback.className = "feedback";
+        explanation.hidden = true;
+        if (!selected) {
+          feedback.textContent = "Hãy chọn một đáp án trước.";
+          feedback.classList.add("bad");
+          state[segmentIndex] = false;
+          updateScore();
+          return;
+        }
+        if (selected.value === card.dataset.answer) {
+          feedback.textContent = "Đúng.";
+          feedback.classList.add("ok");
+          state[segmentIndex] = true;
+        } else {
+          feedback.textContent = "Chưa đúng.";
+          feedback.classList.add("bad");
+          state[segmentIndex] = false;
+        }
+        explanation.hidden = false;
+        updateScore();
+      });
+    });
+  </script>
+</body>
+</html>

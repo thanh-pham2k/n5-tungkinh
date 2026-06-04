@@ -1,0 +1,741 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[08:01] カリナさんはタクシーで空港から友達の家へ行きます。
+Romaji: Karina-san wa takushii de kuukou kara tomodachi no ie e ikimasu.
+Nghĩa: Karina đi bằng taxi từ sân bay đến nhà bạn.
+
+[08:07] 運転手は何をしますか。
+Romaji: Untenshu wa nani o shimasu ka.
+Nghĩa: Tài xế sẽ làm gì?
+
+[08:14] 〇〇までお願いします。
+Romaji: ... made onegai shimasu.
+Nghĩa: Làm ơn đi đến ...
+
+[08:18] どうぞ。
+Romaji: Douzo.
+Nghĩa: Xin mời.
+
+[08:21] すみません。この荷物はとても重いです。ちょっと手伝ってください。
+Romaji: Sumimasen. Kono nimotsu wa totemo omoi desu. Chotto tetsudatte kudasai.
+Nghĩa: Xin lỗi. Hành lý này rất nặng. Xin hãy giúp tôi một chút.
+
+[08:21] いいですよ。
+Romaji: Ii desu yo.
+Nghĩa: Được chứ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[08:07] 質問: 運転手は何をしますか。
+Romaji: Untenshu wa nani o shimasu ka.
+Nghĩa: Tài xế sẽ làm gì?
+
+A. 荷物を手伝います
+Nghĩa: Giúp mang hành lý
+B. 写真を撮ります
+Nghĩa: Chụp ảnh
+C. エアコンをつけます
+Nghĩa: Bật điều hòa
+D. 郵便局の前で止めます
+Nghĩa: Dừng trước bưu điện
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Karina nói hành lý rất nặng và nhờ tài xế giúp.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[08:33] あの山、きれいですね。すみません、ちょっと止めてください。
+Romaji: Ano yama, kirei desu ne. Sumimasen, chotto tomete kudasai.
+Nghĩa: Ngọn núi kia đẹp nhỉ. Xin lỗi, hãy dừng lại một chút.
+
+[08:40] このカメラで私の写真を撮ってください。
+Romaji: Kono kamera de watashi no shashin o totte kudasai.
+Nghĩa: Xin hãy chụp ảnh tôi bằng máy ảnh này.
+
+[08:40] あの山も一緒にお願いします。
+Romaji: Ano yama mo issho ni onegai shimasu.
+Nghĩa: Làm ơn chụp cả ngọn núi kia cùng với tôi.
+
+[08:46] いいですよ。
+Romaji: Ii desu yo.
+Nghĩa: Được chứ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 運転手は何をしますか。
+Romaji: Untenshu wa nani o shimasu ka.
+Nghĩa: Tài xế sẽ làm gì?
+
+A. 写真を撮ります
+Nghĩa: Chụp ảnh
+B. 荷物を持ちます
+Nghĩa: Cầm hành lý
+C. 地図を見ます
+Nghĩa: Xem bản đồ
+D. 信号を左へ曲がります
+Nghĩa: Rẽ trái ở đèn giao thông
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Karina nhờ tài xế chụp ảnh bằng máy ảnh.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[08:54] ちょっと暑いですね。
+Romaji: Chotto atsui desu ne.
+Nghĩa: Hơi nóng nhỉ.
+
+[08:58] エアコンをちょっとつけてください。
+Romaji: Eakon o chotto tsukete kudasai.
+Nghĩa: Xin hãy bật điều hòa một chút.
+
+[09:02] はい。
+Romaji: Hai.
+Nghĩa: Vâng.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 運転手は何をしますか。
+Romaji: Untenshu wa nani o shimasu ka.
+Nghĩa: Tài xế sẽ làm gì?
+
+A. エアコンをつけます
+Nghĩa: Bật điều hòa
+B. 窓を開けます
+Nghĩa: Mở cửa sổ
+C. 写真を撮ります
+Nghĩa: Chụp ảnh
+D. 荷物を持ちます
+Nghĩa: Cầm hành lý
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Karina nói nóng và nhờ bật エアコン.
+
+---
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[09:07] ちょっと地図を見ますね。
+Romaji: Chotto chizu o mimasu ne.
+Nghĩa: Tôi xem bản đồ một chút nhé.
+
+[09:13] あそこに信号がありますね。あの信号を左へ曲がってください。
+Romaji: Asoko ni shingou ga arimasu ne. Ano shingou o hidari e magatte kudasai.
+Nghĩa: Ở kia có đèn giao thông nhỉ. Hãy rẽ trái ở đèn đó.
+
+[09:13] はい、左ですね。
+Romaji: Hai, hidari desu ne.
+Nghĩa: Vâng, rẽ trái nhỉ.
+
+[09:22] まっすぐ行きますか。
+Romaji: Massugu ikimasu ka.
+Nghĩa: Đi thẳng phải không?
+
+[09:22] いいえ。
+Romaji: Iie.
+Nghĩa: Không.
+
+[09:24] 郵便局の前で止めてください。
+Romaji: Yuubinkyoku no mae de tomete kudasai.
+Nghĩa: Hãy dừng trước bưu điện.
+
+[09:24] はい、かしこまりました。
+Romaji: Hai, kashikomarimashita.
+Nghĩa: Vâng, tôi hiểu rồi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 運転手は何をしますか。
+Romaji: Untenshu wa nani o shimasu ka.
+Nghĩa: Tài xế sẽ làm gì?
+
+A. 信号を左へ曲がって、郵便局の前で止めます
+Nghĩa: Rẽ trái ở đèn giao thông và dừng trước bưu điện
+B. 信号を右へ曲がって、病院の前で止めます
+Nghĩa: Rẽ phải ở đèn giao thông và dừng trước bệnh viện
+C. まっすぐ行って、空港で止めます
+Nghĩa: Đi thẳng và dừng ở sân bay
+D. 地図を書いて、家へ行きます
+Nghĩa: Vẽ bản đồ và đi đến nhà
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Karina yêu cầu rẽ trái ở đèn giao thông và dừng trước bưu điện.
+
+---
+
+## Đoạn hội thoại 5
+
+### 1. Script hội thoại
+
+[09:38] 男の人は何と言いますか。
+Romaji: Otoko no hito wa nan to iimasu ka.
+Nghĩa: Người đàn ông sẽ nói gì?
+
+[09:44] あー、疲れました。
+Romaji: Aa, tsukaremashita.
+Nghĩa: A, mệt quá.
+
+[09:48] 朝から晩まで会議。明日も会議です。
+Romaji: Asa kara ban made kaigi. Ashita mo kaigi desu.
+Nghĩa: Họp từ sáng đến tối. Ngày mai cũng họp.
+
+[09:53] レポートのコピーは、まだです。
+Romaji: Repooto no kopii wa, mada desu.
+Nghĩa: Bản copy báo cáo vẫn chưa xong.
+
+[10:02] じゃあ、コピーしましょうか。
+Romaji: Jaa, kopii shimashou ka.
+Nghĩa: Vậy tôi copy giúp nhé?
+
+[10:06] 会議に行きましょうか。
+Romaji: Kaigi ni ikimashou ka.
+Nghĩa: Đi họp nhé?
+
+[10:10] じゃあ、レポートを書きましょうか。
+Romaji: Jaa, repooto o kakimashou ka.
+Nghĩa: Vậy viết báo cáo nhé?
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[09:38] 質問: 男の人は何と言いますか。
+Romaji: Otoko no hito wa nan to iimasu ka.
+Nghĩa: Người đàn ông sẽ nói gì?
+
+A. コピーしましょうか
+Nghĩa: Tôi copy giúp nhé?
+B. 会議に行きましょうか
+Nghĩa: Đi họp nhé?
+C. レポートを書きましょうか
+Nghĩa: Viết báo cáo nhé?
+D. 写真を撮りましょうか
+Nghĩa: Chụp ảnh nhé?
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Vấn đề là レポートのコピー chưa xong, nên câu phù hợp là コピーしましょうか.
+
+---
+
+## Đoạn hội thoại 6
+
+### 1. Script hội thoại
+
+[10:14] この部屋、少し寒いですね。
+Romaji: Kono heya, sukoshi samui desu ne.
+Nghĩa: Phòng này hơi lạnh nhỉ.
+
+[10:19] 私も少し寒いです。
+Romaji: Watashi mo sukoshi samui desu.
+Nghĩa: Tôi cũng hơi lạnh.
+
+[10:28] 窓を開けましょうか。
+Romaji: Mado o akemashou ka.
+Nghĩa: Mở cửa sổ nhé?
+
+[10:31] 電気をつけましょうか。
+Romaji: Denki o tsukemashou ka.
+Nghĩa: Bật đèn nhé?
+
+[10:35] エアコンをつけましょうか。
+Romaji: Eakon o tsukemashou ka.
+Nghĩa: Bật điều hòa nhé?
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 男の人は何と言いますか。
+Romaji: Otoko no hito wa nan to iimasu ka.
+Nghĩa: Người đàn ông sẽ nói gì?
+
+A. エアコンをつけましょうか
+Nghĩa: Bật điều hòa nhé?
+B. 窓を開けましょうか
+Nghĩa: Mở cửa sổ nhé?
+C. 電気をつけましょうか
+Nghĩa: Bật đèn nhé?
+D. 写真を撮りましょうか
+
+Nghĩa: Chụp ảnh nhé?
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Phòng lạnh nên câu phù hợp là bật điều hòa/sưởi.
+
+---
+
+## Đoạn hội thoại 7
+
+### 1. Script hội thoại
+
+[10:46] もしもし、大阪事務所ですか。中国の陳ですが。
+Romaji: Moshi moshi, Oosaka jimusho desu ka. Chuugoku no Chin desu ga.
+Nghĩa: Alo, văn phòng Osaka phải không? Tôi là Chen ở Trung Quốc.
+
+[10:51] 山田です。明日、飛行機でそちらへ来ます。
+Romaji: Yamada desu. Ashita, hikouki de sochira e kimasu.
+Nghĩa: Tôi là Yamada. Ngày mai tôi sẽ đến chỗ anh/chị bằng máy bay.
+
+[10:58] 何時ですか。
+Romaji: Nanji desu ka.
+Nghĩa: Mấy giờ?
+
+[11:01] 3時20分です。
+Romaji: Sanji nijuppun desu.
+Nghĩa: 3 giờ 20 phút.
+
+[11:05] 荷物がたくさんありますか。
+Romaji: Nimotsu ga takusan arimasu ka.
+Nghĩa: Có nhiều hành lý không?
+
+[11:05] 大きい荷物は一つですが、とても重いです。
+Romaji: Ookii nimotsu wa hitotsu desu ga, totemo omoi desu.
+Nghĩa: Hành lý lớn có một cái, nhưng rất nặng.
+
+[11:21] じゃ、迎えに行きましょうか。
+Romaji: Ja, mukae ni ikimashou ka.
+Nghĩa: Vậy tôi đi đón nhé?
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 男の人は何と言いますか。
+Romaji: Otoko no hito wa nan to iimasu ka.
+Nghĩa: Người đàn ông sẽ nói gì?
+
+A. 迎えに行きましょうか
+Nghĩa: Tôi đi đón nhé?
+B. 見に行きましょうか
+Nghĩa: Tôi đi xem nhé?
+C. 取りに行きましょうか
+Nghĩa: Tôi đi lấy nhé?
+D. コピーしましょうか
+Nghĩa: Tôi copy nhé?
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia đến bằng máy bay và có hành lý nặng, nên câu phù hợp là đi đón.
+
+---
+
+## Đoạn hội thoại 8
+
+### 1. Script hội thoại
+
+[11:30] すみません。元気病院はどこにありますか。
+Romaji: Sumimasen. Genki byouin wa doko ni arimasu ka.
+Nghĩa: Xin lỗi. Bệnh viện Genki ở đâu?
+
+[11:33] 病院ですか。近いですよ。
+Romaji: Byouin desu ka. Chikai desu yo.
+Nghĩa: Bệnh viện à? Gần đây.
+
+[11:37] この信号を右へ曲がってください。
+Romaji: Kono shingou o migi e magatte kudasai.
+Nghĩa: Hãy rẽ phải ở đèn giao thông này.
+
+[11:42] それから、次の信号を左へ曲がってください。右にあります。
+Romaji: Sorekara, tsugi no shingou o hidari e magatte kudasai. Migi ni arimasu.
+Nghĩa: Sau đó, rẽ trái ở đèn giao thông tiếp theo. Nó ở bên phải.
+
+[11:47] 信号を右へ、それから...
+Romaji: Shingou o migi e, sorekara...
+Nghĩa: Rẽ phải ở đèn giao thông, sau đó...
+
+[11:51] えーっと、分かりません。
+Romaji: Eetto, wakarimasen.
+Nghĩa: Ừm... tôi không hiểu.
+
+[12:01] 地図を書きましょうか。
+Romaji: Chizu o kakimashou ka.
+Nghĩa: Tôi vẽ bản đồ nhé?
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 男の人は何と言いますか。
+Romaji: Otoko no hito wa nan to iimasu ka.
+Nghĩa: Người đàn ông sẽ nói gì?
+
+A. 地図を書きましょうか
+Nghĩa: Tôi vẽ bản đồ nhé?
+B. タクシーを呼びましょうか
+Nghĩa: Tôi gọi taxi nhé?
+C. 電話をかけましょうか
+Nghĩa: Tôi gọi điện nhé?
+D. 荷物を持ちましょうか
+Nghĩa: Tôi cầm hành lý nhé?
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người hỏi đường không hiểu, nên đề nghị vẽ bản đồ là phù hợp.
+
+---
+
+## Đoạn hội thoại 9
+
+### 1. Script hội thoại
+
+[12:14] 鈴木さんは今何をしていますか。
+Romaji: Suzuki-san wa ima nani o shite imasu ka.
+Nghĩa: Bây giờ Suzuki đang làm gì?
+
+[12:29] IMCでございます。もしもし、鈴木さんはいますか。
+Romaji: IMC de gozaimasu. Moshi moshi, Suzuki-san wa imasu ka.
+Nghĩa: Đây là công ty IMC. Alo, có Suzuki không?
+
+[12:34] いますが、今電話で話しています。
+Romaji: Imasu ga, ima denwa de hanashite imasu.
+Nghĩa: Có, nhưng bây giờ anh ấy đang nói chuyện điện thoại.
+
+[12:34] じゃあ、ちょっと待ちます。
+Romaji: Jaa, chotto machimasu.
+Nghĩa: Vậy tôi sẽ chờ một chút.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[12:14] 質問: 鈴木さんは今何をしていますか。
+Romaji: Suzuki-san wa ima nani o shite imasu ka.
+Nghĩa: Bây giờ Suzuki đang làm gì?
+
+A. 電話で話しています
+Nghĩa: Đang nói chuyện điện thoại
+B. レポートをコピーしています
+Nghĩa: Đang copy báo cáo
+C. 会議をしています
+Nghĩa: Đang họp
+D. 雑誌を読んでいます
+Nghĩa: Đang đọc tạp chí
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nghe nói rõ 鈴木さんは今電話で話しています.
+
+---
+
+## Đoạn hội thoại 10
+
+### 1. Script hội thoại
+
+[12:49] はい、鈴木です。
+Romaji: Hai, Suzuki desu.
+Nghĩa: Vâng, Suzuki nghe.
+
+[12:49] もしもし、松本ですが、すぐ会議室へ来てください。
+Romaji: Moshi moshi, Matsumoto desu ga, sugu kaigishitsu e kite kudasai.
+Nghĩa: Alo, tôi là Matsumoto, hãy đến phòng họp ngay.
+
+[12:59] 今レポートをコピーしています。5分くらい待ってください。
+Romaji: Ima repooto o kopii shite imasu. Gofun kurai matte kudasai.
+Nghĩa: Bây giờ tôi đang copy báo cáo. Xin chờ khoảng 5 phút.
+
+[13:06] 分かりました。すみません。
+Romaji: Wakarimashita. Sumimasen.
+Nghĩa: Tôi hiểu rồi. Xin lỗi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 鈴木さんは今何をしていますか。
+Romaji: Suzuki-san wa ima nani o shite imasu ka.
+Nghĩa: Bây giờ Suzuki đang làm gì?
+
+A. レポートをコピーしています
+Nghĩa: Đang copy báo cáo
+B. 電話で話しています
+Nghĩa: Đang nói chuyện điện thoại
+C. 会議をしています
+Nghĩa: Đang họp
+D. コーヒーを飲んでいます
+Nghĩa: Đang uống cà phê
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Suzuki nói 今レポートをコピーしています.
+
+---
+
+## Đoạn hội thoại 11
+
+### 1. Script hội thoại
+
+[13:17] IMCでございます。鈴木さんはいますか。
+Romaji: IMC de gozaimasu. Suzuki-san wa imasu ka.
+Nghĩa: Đây là công ty IMC. Có Suzuki không?
+
+[13:23] すみません。鈴木は今会議をしています。
+Romaji: Sumimasen. Suzuki wa ima kaigi o shite imasu.
+Nghĩa: Xin lỗi. Suzuki hiện đang họp.
+
+[13:27] 何時に終わりますか。
+Romaji: Nanji ni owarimasu ka.
+Nghĩa: Mấy giờ kết thúc?
+
+[13:27] 3時です。
+Romaji: Sanji desu.
+Nghĩa: 3 giờ.
+
+[13:27] じゃ、また3時ごろ電話をかけます。
+Romaji: Ja, mata sanji goro denwa o kakemasu.
+Nghĩa: Vậy khoảng 3 giờ tôi sẽ gọi lại.
+
+[13:33] そうですか。よろしくお願いします。
+Romaji: Sou desu ka. Yoroshiku onegai shimasu.
+Nghĩa: Vậy à. Nhờ anh/chị giúp.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 鈴木さんは今何をしていますか。
+Romaji: Suzuki-san wa ima nani o shite imasu ka.
+Nghĩa: Bây giờ Suzuki đang làm gì?
+
+A. 会議をしています
+Nghĩa: Đang họp
+B. 電話で話しています
+Nghĩa: Đang nói chuyện điện thoại
+C. レポートをコピーしています
+Nghĩa: Đang copy báo cáo
+D. 写真を撮っています
+Nghĩa: Đang chụp ảnh
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trực điện thoại nói 鈴木は今会議をしています.
+
+---
+
+## Đoạn hội thoại 12
+
+### 1. Script hội thoại
+
+[13:39] 留学生は日本人の学生と旅行に行きました。
+Romaji: Ryuugakusei wa Nihonjin no gakusei to ryokou ni ikimashita.
+Nghĩa: Du học sinh đã đi du lịch với sinh viên Nhật.
+
+[13:46] 誰と誰が同じ部屋ですか。
+Romaji: Dare to dare ga onaji heya desu ka.
+Nghĩa: Ai và ai ở cùng phòng?
+
+[13:51] キムさん、部屋は256です。
+Romaji: Kimu-san, heya wa nihyaku gojuu roku desu.
+Nghĩa: Kim, phòng là 256.
+
+[13:56] 山下さんと同じ部屋ですよ。
+Romaji: Yamashita-san to onaji heya desu yo.
+Nghĩa: Ở cùng phòng với Yamashita.
+
+[13:56] どの人ですか。
+Romaji: Dono hito desu ka.
+Nghĩa: Là người nào?
+
+[14:01] あちらを見てください。
+Romaji: Achira o mite kudasai.
+Nghĩa: Hãy nhìn đằng kia.
+
+[14:06] 山下さんは今電話をかけています。
+Romaji: Yamashita-san wa ima denwa o kakete imasu.
+Nghĩa: Yamashita bây giờ đang gọi điện thoại.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[13:46] 質問: 誰と誰が同じ部屋ですか。
+Romaji: Dare to dare ga onaji heya desu ka.
+Nghĩa: Ai và ai ở cùng phòng?
+
+A. キムさんと山下さん
+Nghĩa: Kim và Yamashita
+B. リーさんと秋田さん
+Nghĩa: Lee và Akita
+C. ターポンさんと後藤さん
+Nghĩa: Tapon và Goto
+D. カリナさんと青木さん
+Nghĩa: Karina và Aoki
+
+Đáp án đúng: A
+Giải thích ngắn gọn: キムさんは山下さんと同じ部屋です.
+
+---
+
+## Đoạn hội thoại 13
+
+### 1. Script hội thoại
+
+[14:13] リーさん、部屋は713です。
+Romaji: Rii-san, heya wa nanahyaku juu san desu.
+Nghĩa: Lee, phòng là 713.
+
+[14:16] 秋田さんと同じ部屋ですよ。
+Romaji: Akita-san to onaji heya desu yo.
+Nghĩa: Ở cùng phòng với Akita.
+
+[14:21] 分かりますか。
+Romaji: Wakarimasu ka.
+Nghĩa: Bạn có biết không?
+
+[14:23] どの人ですか。
+Romaji: Dono hito desu ka.
+Nghĩa: Là người nào?
+
+[14:23] あの店に男の人がいますね。あの人ですよ。
+Romaji: Ano mise ni otoko no hito ga imasu ne. Ano hito desu yo.
+Nghĩa: Có người đàn ông ở cửa hàng kia nhỉ. Là người đó.
+
+[14:30] 今、買い物をしています。
+Romaji: Ima, kaimono o shite imasu.
+Nghĩa: Bây giờ đang mua sắm.
+
+[14:30] 分かりました。秋田さんはあの人ですね。
+Romaji: Wakarimashita. Akita-san wa ano hito desu ne.
+Nghĩa: Tôi hiểu rồi. Akita là người đó nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 誰と誰が同じ部屋ですか。
+Romaji: Dare to dare ga onaji heya desu ka.
+Nghĩa: Ai và ai ở cùng phòng?
+
+A. リーさんと秋田さん
+Nghĩa: Lee và Akita
+B. キムさんと山下さん
+Nghĩa: Kim và Yamashita
+C. ターポンさんと後藤さん
+Nghĩa: Tapon và Goto
+D. カリナさんと青木さん
+Nghĩa: Karina và Aoki
+
+Đáp án đúng: A
+Giải thích ngắn gọn: リーさんは秋田さんと同じ部屋です.
+
+---
+
+## Đoạn hội thoại 14
+
+### 1. Script hội thoại
+
+[14:38] 私は誰と同じ部屋ですか。
+Romaji: Watashi wa dare to onaji heya desu ka.
+Nghĩa: Tôi ở cùng phòng với ai?
+
+[14:43] ターポンさんですね。後藤さんと同じ部屋ですよ。
+Romaji: Taapon-san desu ne. Gotou-san to onaji heya desu yo.
+Nghĩa: Anh Tapon nhỉ. Anh ở cùng phòng với Goto.
+
+[14:49] 727です。
+Romaji: Nanahyaku nijuu nana desu.
+Nghĩa: Phòng 727.
+
+[14:53] あちらのエレベーターで行ってください。
+Romaji: Achira no erebeetaa de itte kudasai.
+Nghĩa: Hãy đi bằng thang máy ở đằng kia.
+
+[14:57] 後藤さんはどこにいますか。
+Romaji: Gotou-san wa doko ni imasu ka.
+Nghĩa: Goto đang ở đâu?
+
+[15:04] 後藤さんは今ロビーで雑誌を読んでいますよ。
+Romaji: Gotou-san wa ima robii de zasshi o yonde imasu yo.
+Nghĩa: Goto hiện đang đọc tạp chí ở sảnh.
+
+[15:04] 分かりました。ありがとう。
+Romaji: Wakarimashita. Arigatou.
+Nghĩa: Tôi hiểu rồi. Cảm ơn.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 誰と誰が同じ部屋ですか。
+Romaji: Dare to dare ga onaji heya desu ka.
+Nghĩa: Ai và ai ở cùng phòng?
+
+A. ターポンさんと後藤さん
+Nghĩa: Tapon và Goto
+B. キムさんと山下さん
+Nghĩa: Kim và Yamashita
+C. リーさんと秋田さん
+Nghĩa: Lee và Akita
+D. カリナさんと青木さん
+Nghĩa: Karina và Aoki
+
+Đáp án đúng: A
+Giải thích ngắn gọn: ターポンさんは後藤さんと同じ部屋です.
+
+---
+
+## Đoạn hội thoại 15
+
+### 1. Script hội thoại
+
+[15:12] すみません、カリナです。私の部屋はどこですか。
+Romaji: Sumimasen, Karina desu. Watashi no heya wa doko desu ka.
+Nghĩa: Xin lỗi, tôi là Karina. Phòng của tôi ở đâu?
+
+[15:17] カリナさん、ちょっと待ってください。
+Romaji: Karina-san, chotto matte kudasai.
+Nghĩa: Karina, vui lòng đợi một chút.
+
+[15:22] 部屋は247です。
+Romaji: Heya wa nihyaku yonjuu nana desu.
+Nghĩa: Phòng là 247.
+
+[15:22] 誰と一緒ですか。
+Romaji: Dare to issho desu ka.
+Nghĩa: Ở cùng với ai?
+
+[15:22] 青木さんと一緒です。
+Romaji: Aoki-san to issho desu.
+Nghĩa: Ở cùng với Aoki.
+
+[15:29] 青木さんはインドネシア語が分かりますよ。
+Romaji: Aoki-san wa Indoneshia-go ga wakarimasu yo.
+Nghĩa: Aoki biết tiếng Indonesia đấy.
+
+[15:29] どの人ですか。
+Romaji: Dono hito desu ka.
+Nghĩa: Là người nào?
+
+[15:35] 今、ロビーで友達とコーヒーを飲んでいますよ。
+Romaji: Ima, robii de tomodachi to koohii o nonde imasu yo.
+Nghĩa: Bây giờ đang uống cà phê với bạn ở sảnh.
+
+[15:38] あの黒いシャツの人ですか。
+Romaji: Ano kuroi shatsu no hito desu ka.
+Nghĩa: Là người mặc áo sơ mi đen kia à?
+
+[15:38] いいえ、白いシャツの人です。
+Romaji: Iie, shiroi shatsu no hito desu.
+Nghĩa: Không, là người mặc áo sơ mi trắng.
+
+[15:38] はい、分かりました。
+Romaji: Hai, wakarimashita.
+Nghĩa: Vâng, tôi hiểu rồi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 誰と誰が同じ部屋ですか。
+Romaji: Dare to dare ga onaji heya desu ka.
+Nghĩa: Ai và ai ở cùng phòng?
+
+A. カリナさんと青木さん
+Nghĩa: Karina và Aoki
+B. キムさんと山下さん
+Nghĩa: Kim và Yamashita
+C. リーさんと秋田さん
+Nghĩa: Lee và Akita
+D. ターポンさんと後藤さん
+Nghĩa: Tapon và Goto
+
+Đáp án đúng: A
+Giải thích ngắn gọn: カリナさんは青木さんと一緒です.

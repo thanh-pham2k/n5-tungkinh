@@ -1,0 +1,1318 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JLPT N5 Listening - Bài 18</title>
+  <style>
+    :root {
+      --bg: #f6f8fb; --panel: #fff; --text: #162033; --muted: #64748b;
+      --line: #dbe3ef; --primary: #0f766e; --primary-soft: #e1f4f1;
+      --ok: #147a3d; --bad: #b42318; --shadow: 0 12px 28px rgba(15,23,42,.08);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: Arial, sans-serif; line-height: 1.5; }
+    header { position: sticky; top: 0; z-index: 5; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.96); padding: 14px 16px; }
+    .header-inner { max-width: 960px; margin: 0 auto; display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { margin-bottom: 2px; font-size: clamp(20px, 4vw, 30px); }
+    .hint { margin: 0; color: var(--muted); }
+    .score { min-width: max-content; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 8px 10px; font-weight: 700; color: var(--muted); }
+    main { width: min(960px, 100%); margin: 0 auto; padding: 16px; display: grid; gap: 14px; }
+    .segment-card { border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); padding: 16px; }
+    .segment-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
+    .eyebrow { margin: 0 0 4px; color: var(--primary); font-size: 13px; font-weight: 800; text-transform: uppercase; }
+    h2 { margin-bottom: 0; font-size: clamp(18px, 3vw, 24px); }
+    .time { color: var(--muted); font-weight: 700; }
+    audio { width: 100%; display: block; margin: 12px 0; }
+    button { min-height: 42px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 8px 12px; font-weight: 700; cursor: pointer; }
+    button:hover { border-color: var(--primary); color: var(--primary); }
+    .toggle-script { margin-bottom: 12px; }
+    .script-text { width: 100%; margin: 0 0 14px; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 12px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 15px; }
+    .quiz { border-top: 1px solid var(--line); padding-top: 14px; }
+    .question { margin-bottom: 4px; font-weight: 800; font-size: 17px; }
+    .subline { margin: 0 0 6px; color: var(--muted); }
+    .options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 12px 0; }
+    .option { min-height: 68px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 12px; display: grid; grid-template-columns: 24px minmax(0, 1fr); column-gap: 10px; align-items: start; cursor: pointer; }
+    .option:has(input:checked) { border-color: var(--primary); background: var(--primary-soft); }
+    .option input { margin-top: 4px; }
+    .option-body { min-width: 0; display: grid; gap: 4px; }
+    .option-line { display: flex; gap: 8px; align-items: baseline; min-width: 0; }
+    .option-key { flex: 0 0 auto; font-weight: 800; }
+    .option-text { min-width: 0; font-weight: 800; white-space: normal; word-break: normal; overflow-wrap: break-word; line-break: strict; }
+    .option-meaning { color: var(--muted); font-size: 14px; white-space: normal; word-break: normal; overflow-wrap: break-word; }
+    .check-answer { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .feedback { min-height: 24px; margin-top: 10px; font-weight: 800; }
+    .feedback.ok { color: var(--ok); }
+    .feedback.bad { color: var(--bad); }
+    .explanation { margin: 4px 0 0; color: var(--muted); }
+    @media (max-width: 640px) {
+      header { position: static; } .header-inner { align-items: flex-start; flex-direction: column; }
+      .score, button { width: 100%; } main { padding: 10px; } .segment-card { padding: 12px; }
+      .segment-head { flex-direction: column; } .time { width: 100%; } .options { grid-template-columns: 1fr; }
+      button { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1>JLPT N5 Listening - Bài 18</h1>
+        <p class="hint">Nghe từng đoạn, tự trả lời, rồi mới mở script để kiểm tra.</p>
+      </div>
+      <div class="score" id="score">0 / 16 câu đúng</div>
+    </div>
+  </header>
+  <main>
+            <article class="segment-card" data-segment="0" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 001</p>
+                  <h2>Đoạn 1</h2>
+                </div>
+                <div class="time">06:57.000 - 07:35.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_001.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>犬は何ができますか。
+Romaji: Inu wa nani ga dekimasu ka.
+Nghĩa: Con chó có thể làm gì?
+
+スーパーわんわんの時間です。今日の犬は何ができますか。
+Romaji: Suupaa Wanwan no jikan desu. Kyou no inu wa nani ga dekimasu ka.
+Nghĩa: Đến giờ Super Wanwan rồi. Chó hôm nay có thể làm gì?
+
+まず、ポチ君、どうぞ。
+Romaji: Mazu, Pochi-kun, douzo.
+Nghĩa: Trước tiên, mời Pochi.
+
+ポチは泳ぐことができます。
+Romaji: Pochi wa oyogu koto ga dekimasu.
+Nghĩa: Pochi có thể bơi.
+
+何メートルぐらい泳ぐことができますか。
+Romaji: Nan meetoru gurai oyogu koto ga dekimasu ka.
+Nghĩa: Có thể bơi khoảng bao nhiêu mét?
+
+毎朝、近くの海で500メートルぐらい泳ぎます。
+Romaji: Maiasa, chikaku no umi de gohyaku meetoru gurai oyogimasu.
+Nghĩa: Mỗi sáng bơi khoảng 500 mét ở biển gần đó.
+
+すごいですね。
+Romaji: Sugoi desu ne.
+Nghĩa: Giỏi quá nhỉ.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">犬は何ができますか。</p>
+                <p class="subline">Inu wa nani ga dekimasu ka.</p>
+                <p class="subline">Con chó có thể làm gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-0" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">500メートルぐらい泳ぐことができます</span></span>
+                    <span class="option-meaning">Có thể bơi khoảng 500 mét</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">新聞を持って来ることができます</span></span>
+                    <span class="option-meaning">Có thể mang báo đến</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">自転車に乗ることができます</span></span>
+                    <span class="option-meaning">Có thể đi xe đạp</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">英語が分かります</span></span>
+                    <span class="option-meaning">Hiểu tiếng Anh</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>ポチは毎朝、海で500メートルぐらい泳ぎます.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="1" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 002</p>
+                  <h2>Đoạn 2</h2>
+                </div>
+                <div class="time">07:35.000 - 07:55.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_002.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>次の犬はジャック君です。さあ、入ってください。
+Romaji: Tsugi no inu wa Jakku-kun desu. Saa, haitte kudasai.
+Nghĩa: Chú chó tiếp theo là Jack. Nào, mời vào.
+
+こんにちは。ジャックは毎朝、新聞を持って来ることができます。
+Romaji: Konnichiwa. Jakku wa maiasa shinbun o motte kuru koto ga dekimasu.
+Nghĩa: Xin chào. Jack mỗi sáng có thể mang báo đến.
+
+そうですか。
+Romaji: Sou desu ka.
+Nghĩa: Vậy à.
+
+手紙も持って来ますか。
+Romaji: Tegami mo motte kimasu ka.
+Nghĩa: Nó cũng mang thư đến không?
+
+手紙は持って来ません。
+Romaji: Tegami wa motte kimasen.
+Nghĩa: Thư thì nó không mang đến.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">ジャックは何ができますか。</p>
+                <p class="subline">Jakku wa nani ga dekimasu ka.</p>
+                <p class="subline">Jack có thể làm gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-1" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">新聞を持って来ることができます</span></span>
+                    <span class="option-meaning">Có thể mang báo đến</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">手紙を持って来ることができます</span></span>
+                    <span class="option-meaning">Có thể mang thư đến</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">500メートル泳ぐことができます</span></span>
+                    <span class="option-meaning">Có thể bơi 500 mét</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">英語を聞くことができます</span></span>
+                    <span class="option-meaning">Có thể nghe tiếng Anh</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>ジャックは毎朝、新聞を持って来ることができます.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="2" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 003</p>
+                  <h2>Đoạn 3</h2>
+                </div>
+                <div class="time">07:55.000 - 08:14.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_003.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>次の犬はアミちゃんです。こんにちは。
+Romaji: Tsugi no inu wa Ami-chan desu. Konnichiwa.
+Nghĩa: Chú chó tiếp theo là Ami. Xin chào.
+
+アミちゃんは何ができますか。
+Romaji: Ami-chan wa nani ga dekimasu ka.
+Nghĩa: Ami có thể làm gì?
+
+アミは自転車に乗ることができますよ。
+Romaji: Ami wa jitensha ni noru koto ga dekimasu yo.
+Nghĩa: Ami có thể đi xe đạp đấy.
+
+ほら、見てください。
+Romaji: Hora, mite kudasai.
+Nghĩa: Kìa, hãy nhìn xem.
+
+わあ、すごいですね。
+Romaji: Waa, sugoi desu ne.
+Nghĩa: Wow, giỏi quá nhỉ.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">アミちゃんは何ができますか。</p>
+                <p class="subline">Ami-chan wa nani ga dekimasu ka.</p>
+                <p class="subline">Ami có thể làm gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-2" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">自転車に乗ることができます</span></span>
+                    <span class="option-meaning">Có thể đi xe đạp</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">新聞を持って来ることができます</span></span>
+                    <span class="option-meaning">Có thể mang báo đến</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">手紙を書くことができます</span></span>
+                    <span class="option-meaning">Có thể viết thư</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">ピアノを弾くことができます</span></span>
+                    <span class="option-meaning">Có thể chơi piano</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>アミは自転車に乗ることができます.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="3" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 004</p>
+                  <h2>Đoạn 4</h2>
+                </div>
+                <div class="time">08:14.000 - 08:41.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_004.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>次の犬はモモちゃんです。どうぞ。
+Romaji: Tsugi no inu wa Momo-chan desu. Douzo.
+Nghĩa: Chú chó tiếp theo là Momo. Xin mời.
+
+モモちゃんは何ができますか。
+Romaji: Momo-chan wa nani ga dekimasu ka.
+Nghĩa: Momo có thể làm gì?
+
+英語が分かります。
+Romaji: Eigo ga wakarimasu.
+Nghĩa: Nó hiểu tiếng Anh.
+
+英語を聞いて、いろいろな仕事をすることができます。
+Romaji: Eigo o kiite, iroiro na shigoto o suru koto ga dekimasu.
+Nghĩa: Nó có thể nghe tiếng Anh và làm nhiều việc khác nhau.
+
+わあ、頭がいいですね。
+Romaji: Waa, atama ga ii desu ne.
+Nghĩa: Wow, thông minh quá nhỉ.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">モモちゃんは何ができますか。</p>
+                <p class="subline">Momo-chan wa nani ga dekimasu ka.</p>
+                <p class="subline">Momo có thể làm gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-3" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">英語が分かって、いろいろな仕事ができます</span></span>
+                    <span class="option-meaning">Hiểu tiếng Anh và có thể làm nhiều việc</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">自転車に乗ることができます</span></span>
+                    <span class="option-meaning">Có thể đi xe đạp</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">新聞を持って来ることができます</span></span>
+                    <span class="option-meaning">Có thể mang báo đến</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">海で泳ぐことができます</span></span>
+                    <span class="option-meaning">Có thể bơi ở biển</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>モモちゃんは英語が分かり、いろいろな仕事ができます.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="4" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 005</p>
+                  <h2>Đoạn 5</h2>
+                </div>
+                <div class="time">08:41.000 - 08:59.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_005.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>できますか。できませんか。
+Romaji: Dekimasu ka. Dekimasen ka.
+Nghĩa: Có thể làm được không? Không thể làm được không?
+
+東京に荷物を送りたいです。
+Romaji: Toukyou ni nimotsu o okuritai desu.
+Nghĩa: Tôi muốn gửi hành lý đến Tokyo.
+
+あの店から送ることができますか。
+Romaji: Ano mise kara okuru koto ga dekimasu ka.
+Nghĩa: Có thể gửi từ cửa hàng kia không?
+
+いいえ、できません。
+Romaji: Iie, dekimasen.
+Nghĩa: Không, không thể.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">あの店から荷物を送ることができますか。</p>
+                <p class="subline">Ano mise kara nimotsu o okuru koto ga dekimasu ka.</p>
+                <p class="subline">Có thể gửi hành lý từ cửa hàng kia không?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-4" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">いいえ、できません</span></span>
+                    <span class="option-meaning">Không, không thể</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-4" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">はい、できます</span></span>
+                    <span class="option-meaning">Có, có thể</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-4" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">はい、東京へ行けます</span></span>
+                    <span class="option-meaning">Có, có thể đi Tokyo</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-4" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">いいえ、荷物はありません</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người kia trả lời いいえ、できません.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="5" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 006</p>
+                  <h2>Đoạn 6</h2>
+                </div>
+                <div class="time">08:59.000 - 09:16.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_006.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>あの本をコピーしたいですが、この図書館でコピーができますか。
+Romaji: Ano hon o kopii shitai desu ga, kono toshokan de kopii ga dekimasu ka.
+Nghĩa: Tôi muốn photocopy quyển sách kia, ở thư viện này có thể photocopy không?
+
+はい、あそこでコピーができます。
+Romaji: Hai, asoko de kopii ga dekimasu.
+Nghĩa: Vâng, có thể photocopy ở đằng kia.
+
+1枚10円です。
+Romaji: Ichimai juu en desu.
+Nghĩa: Một tờ 10 yên.
+
+そうですか。どうも。
+Romaji: Sou desu ka. Doumo.
+Nghĩa: Vậy à. Cảm ơn.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">この図書館でコピーができますか。</p>
+                <p class="subline">Kono toshokan de kopii ga dekimasu ka.</p>
+                <p class="subline">Có thể photocopy ở thư viện này không?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-5" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">はい、できます</span></span>
+                    <span class="option-meaning">Có, có thể</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-5" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">いいえ、できません</span></span>
+                    <span class="option-meaning">Không, không thể</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-5" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">はい、無料です</span></span>
+                    <span class="option-meaning">Có, miễn phí</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-5" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">いいえ、明日だけです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người kia nói あそこでコピーができます.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="6" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 007</p>
+                  <h2>Đoạn 7</h2>
+                </div>
+                <div class="time">09:16.000 - 09:37.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_007.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>きれいなお寺。
+Romaji: Kirei na otera.
+Nghĩa: Ngôi chùa đẹp.
+
+ごめんください。中を見ることができますか。
+Romaji: Gomen kudasai. Naka o miru koto ga dekimasu ka.
+Nghĩa: Xin phép. Có thể xem bên trong không?
+
+すみません。今日はもう終わりました。
+Romaji: Sumimasen. Kyou wa mou owarimashita.
+Nghĩa: Xin lỗi. Hôm nay đã kết thúc rồi.
+
+明日はどうですか。
+Romaji: Ashita wa dou desu ka.
+Nghĩa: Ngày mai thì sao?
+
+はい、9時から4時までです。
+Romaji: Hai, kuji kara yoji made desu.
+Nghĩa: Vâng, từ 9 giờ đến 4 giờ.
+
+分かりました。明日来ます。
+Romaji: Wakarimashita. Ashita kimasu.
+Nghĩa: Tôi hiểu rồi. Ngày mai tôi sẽ đến.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">今日、お寺の中を見ることができますか。</p>
+                <p class="subline">Kyou, otera no naka o miru koto ga dekimasu ka.</p>
+                <p class="subline">Hôm nay có thể xem bên trong chùa không?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-6" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">いいえ、できません</span></span>
+                    <span class="option-meaning">Không, không thể</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-6" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">はい、できます</span></span>
+                    <span class="option-meaning">Có, có thể</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-6" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">はい、9時から4時までです</span></span>
+                    <span class="option-meaning">Có, từ 9 giờ đến 4 giờ</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-6" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">いいえ、明日も休みです</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Hôm nay đã kết thúc rồi, nên không thể xem.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="7" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 008</p>
+                  <h2>Đoạn 8</h2>
+                </div>
+                <div class="time">09:37.000 - 09:59.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_008.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>それ、新しい携帯電話ですか。小さいですね。
+Romaji: Sore, atarashii keitai denwa desu ka. Chiisai desu ne.
+Nghĩa: Cái đó là điện thoại di động mới à? Nhỏ nhỉ.
+
+ええ。でも、これでEメールもできますよ。
+Romaji: Ee. Demo, kore de ii-meeru mo dekimasu yo.
+Nghĩa: Vâng. Nhưng cái này cũng có thể gửi email đấy.
+
+写真も送ることができますか。
+Romaji: Shashin mo okuru koto ga dekimasu ka.
+Nghĩa: Cũng có thể gửi ảnh không?
+
+できます。
+Romaji: Dekimasu.
+Nghĩa: Có thể.
+
+便利ですね。
+Romaji: Benri desu ne.
+Nghĩa: Tiện lợi nhỉ.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">この携帯電話で何ができますか。</p>
+                <p class="subline">Kono keitai denwa de nani ga dekimasu ka.</p>
+                <p class="subline">Có thể làm gì bằng điện thoại này?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-7" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">Eメールも写真を送ることもできます</span></span>
+                    <span class="option-meaning">Có thể gửi email và gửi ảnh</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">荷物を送ることができます</span></span>
+                    <span class="option-meaning">Có thể gửi hành lý</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">本をコピーすることができます</span></span>
+                    <span class="option-meaning">Có thể photocopy sách</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">お寺の中を見ることができます</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói điện thoại có thể gửi email và gửi ảnh.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="8" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 009</p>
+                  <h2>Đoạn 9</h2>
+                </div>
+                <div class="time">09:59.000 - 10:28.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_009.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>友達に誕生日のプレゼントをあげます。趣味は何ですか。何をあげますか。
+Romaji: Tomodachi ni tanjoubi no purezento o agemasu. Shumi wa nan desu ka. Nani o agemasu ka.
+Nghĩa: Tặng quà sinh nhật cho bạn. Sở thích là gì? Sẽ tặng gì?
+
+趣味は何ですか。
+Romaji: Shumi wa nan desu ka.
+Nghĩa: Sở thích là gì?
+
+絵を描くことですね。
+Romaji: E o kaku koto desu ne.
+Nghĩa: Là vẽ tranh.
+
+誰の絵が一番好きですか。
+Romaji: Dare no e ga ichiban suki desu ka.
+Nghĩa: Thích tranh của ai nhất?
+
+ピカソが一番好きです。
+Romaji: Pikaso ga ichiban suki desu.
+Nghĩa: Thích Picasso nhất.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">趣味は何ですか。</p>
+                <p class="subline">Shumi wa nan desu ka.</p>
+                <p class="subline">Sở thích là gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-8" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">絵を描くこと</span></span>
+                    <span class="option-meaning">Vẽ tranh</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-8" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">ワインを集めること</span></span>
+                    <span class="option-meaning">Sưu tầm rượu vang</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-8" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">音楽を聞くこと</span></span>
+                    <span class="option-meaning">Nghe nhạc</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-8" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">料理を作ること</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người đó nói sở thích là 絵を描くこと.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="9" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 010</p>
+                  <h2>Đoạn 10</h2>
+                </div>
+                <div class="time">10:28.000 - 10:48.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_010.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>豊田さん、趣味は何ですか。
+Romaji: Toyoda-san, shumi wa nan desu ka.
+Nghĩa: Anh Toyoda, sở thích là gì?
+
+趣味ですか。ワインを集めることです。
+Romaji: Shumi desu ka. Wain o atsumeru koto desu.
+Nghĩa: Sở thích à? Là sưu tầm rượu vang.
+
+いろいろな国のワインがありますよ。
+Romaji: Iroiro na kuni no wain ga arimasu yo.
+Nghĩa: Có rượu vang của nhiều nước.
+
+毎日飲みますか。
+Romaji: Mainichi nomimasu ka.
+Nghĩa: Anh uống mỗi ngày à?
+
+週末に少しだけ妻と飲みます。
+Romaji: Shuumatsu ni sukoshi dake tsuma to nomimasu.
+Nghĩa: Cuối tuần tôi chỉ uống một ít với vợ.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">豊田さんの趣味は何ですか。</p>
+                <p class="subline">Toyoda-san no shumi wa nan desu ka.</p>
+                <p class="subline">Sở thích của Toyoda là gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-9" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">ワインを集めること</span></span>
+                    <span class="option-meaning">Sưu tầm rượu vang</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-9" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">絵を描くこと</span></span>
+                    <span class="option-meaning">Vẽ tranh</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-9" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">音楽を聞くこと</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-9" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">料理を作ること</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>豊田さん nói sở thích là ワインを集めること.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="10" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 011</p>
+                  <h2>Đoạn 11</h2>
+                </div>
+                <div class="time">10:48.000 - 11:06.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_011.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>後藤さんの趣味は何ですか。
+Romaji: Gotou-san no shumi wa nan desu ka.
+Nghĩa: Sở thích của Goto là gì?
+
+私の趣味は音楽を聞くことです。
+Romaji: Watashi no shumi wa ongaku o kiku koto desu.
+Nghĩa: Sở thích của tôi là nghe nhạc.
+
+どんな音楽が好きですか。
+Romaji: Donna ongaku ga suki desu ka.
+Nghĩa: Thích loại nhạc nào?
+
+クラシックが好きです。
+Romaji: Kurashikku ga suki desu.
+Nghĩa: Tôi thích nhạc cổ điển.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">後藤さんの趣味は何ですか。</p>
+                <p class="subline">Gotou-san no shumi wa nan desu ka.</p>
+                <p class="subline">Sở thích của Goto là gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-10" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">音楽を聞くこと</span></span>
+                    <span class="option-meaning">Nghe nhạc</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-10" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">ワインを集めること</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-10" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">絵を描くこと</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-10" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">海で泳ぐこと</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>後藤さん nói sở thích là 音楽を聞くこと.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="11" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 012</p>
+                  <h2>Đoạn 12</h2>
+                </div>
+                <div class="time">11:06.000 - 11:27.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_012.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>リーさんは週末に何をしますか。
+Romaji: Rii-san wa shuumatsu ni nani o shimasu ka.
+Nghĩa: Cuối tuần Lee làm gì?
+
+週末ですか。いつも国の料理を作ります。
+Romaji: Shuumatsu desu ka. Itsumo kuni no ryouri o tsukurimasu.
+Nghĩa: Cuối tuần à? Tôi thường nấu món ăn của nước mình.
+
+そうですか。じゃ、趣味は料理ですか。
+Romaji: Sou desu ka. Ja, shumi wa ryouri desu ka.
+Nghĩa: Vậy à. Vậy sở thích là nấu ăn à?
+
+ぜひ食べに来てください。
+Romaji: Zehi tabe ni kite kudasai.
+Nghĩa: Nhất định hãy đến ăn nhé.
+
+ありがとうございます。
+Romaji: Arigatou gozaimasu.
+Nghĩa: Cảm ơn.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">リーさんの趣味は何ですか。</p>
+                <p class="subline">Rii-san no shumi wa nan desu ka.</p>
+                <p class="subline">Sở thích của Lee là gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-11" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">料理</span></span>
+                    <span class="option-meaning">Nấu ăn</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-11" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">音楽</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-11" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">絵</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-11" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">ワイン</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Lee thường nấu món ăn của nước mình vào cuối tuần.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="12" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 013</p>
+                  <h2>Đoạn 13</h2>
+                </div>
+                <div class="time">11:27.000 - 11:51.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_013.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>どちらが先ですか。
+Romaji: Dochira ga saki desu ka.
+Nghĩa: Cái nào trước?
+
+ケリー先生、今日は4時から会議がありますよ。
+Romaji: Kerii-sensei, kyou wa yoji kara kaigi ga arimasu yo.
+Nghĩa: Thầy/cô Kelly, hôm nay có cuộc họp từ 4 giờ.
+
+4時ですか。会議の前に資料をコピーしなければなりませんね。
+Romaji: Yoji desu ka. Kaigi no mae ni shiryou o kopii shinakereba narimasen ne.
+Nghĩa: 4 giờ à? Trước cuộc họp phải photo tài liệu nhỉ.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">どちらが先ですか。</p>
+                <p class="subline">Dochira ga saki desu ka.</p>
+                <p class="subline">Việc nào trước?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-12" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">資料をコピーします</span></span>
+                    <span class="option-meaning">Photo tài liệu</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-12" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">会議をします</span></span>
+                    <span class="option-meaning">Họp</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-12" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">北海道へ行きます</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-12" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">パーティーをします</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Trước cuộc họp phải photo tài liệu.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="13" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 014</p>
+                  <h2>Đoạn 14</h2>
+                </div>
+                <div class="time">11:51.000 - 12:30.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_014.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>ケリー先生、7月31日に国へ帰りますね。
+Romaji: Kerii-sensei, shichigatsu sanjuuichi-nichi ni kuni e kaerimasu ne.
+Nghĩa: Thầy/cô Kelly sẽ về nước vào ngày 31 tháng 7 nhỉ.
+
+先生が帰る前に、さようならパーティーをしたいですが、いつがいいですか。
+Romaji: Sensei ga kaeru mae ni, sayounara paatii o shitai desu ga, itsu ga ii desu ka.
+Nghĩa: Trước khi thầy/cô về nước, chúng em muốn tổ chức tiệc chia tay, khi nào thì được ạ?
+
+ありがとうございます。
+Romaji: Arigatou gozaimasu.
+Nghĩa: Cảm ơn.
+
+21日から25日まで北海道を旅行したいですから、帰ってからお願いします。
+Romaji: Nijuuichi-nichi kara nijuu go-nichi made Hokkaidou o ryokou shitai desu kara, kaette kara onegai shimasu.
+Nghĩa: Vì tôi muốn du lịch Hokkaido từ ngày 21 đến 25, nên sau khi tôi về hãy tổ chức.
+
+じゃあ、28日はどうですか。
+Romaji: Jaa, nijuu hachi-nichi wa dou desu ka.
+Nghĩa: Vậy ngày 28 thì sao?
+
+金曜日ですか。28日。
+Romaji: Kinyoubi desu ka. Nijuu hachi-nichi.
+Nghĩa: Thứ Sáu à? Ngày 28.
+
+結構です。よろしくお願いします。
+Romaji: Kekkou desu. Yoroshiku onegai shimasu.
+Nghĩa: Được. Nhờ mọi người nhé.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">どちらが先ですか。</p>
+                <p class="subline">Dochira ga saki desu ka.</p>
+                <p class="subline">Việc nào trước?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-13" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">北海道を旅行します</span></span>
+                    <span class="option-meaning">Đi du lịch Hokkaido</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-13" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">さようならパーティーをします</span></span>
+                    <span class="option-meaning">Tổ chức tiệc chia tay</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-13" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">国へ帰ります</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-13" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">会議をします</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Kelly đi Hokkaido từ ngày 21–25, sau đó mới tổ chức tiệc ngày 28.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="14" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 015</p>
+                  <h2>Đoạn 15</h2>
+                </div>
+                <div class="time">12:30.000 - 13:15.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_015.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>もしもし、北海道ホテルですか。
+Romaji: Moshi moshi, Hokkaidou Hoteru desu ka.
+Nghĩa: Alo, khách sạn Hokkaido phải không?
+
+今晩、部屋はありますか。
+Romaji: Konban, heya wa arimasu ka.
+Nghĩa: Tối nay còn phòng không?
+
+はい、あります。
+Romaji: Hai, arimasu.
+Nghĩa: Vâng, còn.
+
+いらっしゃいませ。お部屋はこちらです。
+Romaji: Irasshaimase. Oheya wa kochira desu.
+Nghĩa: Xin chào quý khách. Phòng của quý khách ở đây.
+
+わあ、広いですね。
+Romaji: Waa, hiroi desu ne.
+Nghĩa: Wow, rộng nhỉ.
+
+お風呂も広くてきれいですよ。
+Romaji: Ofuro mo hirokute kirei desu yo.
+Nghĩa: Bồn tắm cũng rộng và sạch đẹp.
+
+お食事の前にお風呂、どうぞ。
+Romaji: Oshokuji no mae ni ofuro, douzo.
+Nghĩa: Trước bữa ăn, xin mời tắm.
+
+えっ、食事の前に。
+Romaji: E, shokuji no mae ni.
+Nghĩa: Ơ, trước bữa ăn à?
+
+私はいつも寝る前に入りますが。
+Romaji: Watashi wa itsumo neru mae ni hairimasu ga.
+Nghĩa: Tôi thì thường tắm trước khi ngủ.
+
+かしこまりました。じゃあ、お食事を持って来ます。
+Romaji: Kashikomarimashita. Jaa, oshokuji o motte kimasu.
+Nghĩa: Tôi hiểu rồi. Vậy tôi sẽ mang bữa ăn đến.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">どちらが先ですか。</p>
+                <p class="subline">Dochira ga saki desu ka.</p>
+                <p class="subline">Việc nào trước?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-14" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">食事をします</span></span>
+                    <span class="option-meaning">Ăn trước</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-14" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">お風呂に入ります</span></span>
+                    <span class="option-meaning">Tắm trước</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-14" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">寝ます</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-14" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">電話をします</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Khách thường tắm trước khi ngủ, nên nhân viên sẽ mang bữa ăn trước.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="15" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 016</p>
+                  <h2>Đoạn 16</h2>
+                </div>
+                <div class="time">13:15.000 - 13:59.111</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_016.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>もしもし、ケリー先生、おはようございます。北海道はいかがでしたか。
+Romaji: Moshi moshi, Kerii-sensei, ohayou gozaimasu. Hokkaidou wa ikaga deshita ka.
+Nghĩa: Alo, thầy/cô Kelly, chào buổi sáng. Hokkaido thế nào ạ?
+
+とても素敵でしたよ。
+Romaji: Totemo suteki deshita yo.
+Nghĩa: Rất tuyệt vời.
+
+今日はパーティーですよ。
+Romaji: Kyou wa paatii desu yo.
+Nghĩa: Hôm nay là tiệc đấy.
+
+でも、パーティーに行く前に荷物を送らなければなりません。
+Romaji: Demo, paatii ni iku mae ni nimotsu o okuranakereba narimasen.
+Nghĩa: Nhưng trước khi đi tiệc, tôi phải gửi hành lý.
+
+たくさんありますか。
+Romaji: Takusan arimasu ka.
+Nghĩa: Có nhiều không?
+
+大きい箱が6つあります。
+Romaji: Ookii hako ga muttsu arimasu.
+Nghĩa: Có 6 thùng lớn.
+
+じゃ、10時ごろお手伝いに行きます。
+Romaji: Ja, juuji goro otetsudai ni ikimasu.
+Nghĩa: Vậy khoảng 10 giờ tôi sẽ đến giúp.
+
+車で郵便局へ持って行きましょう。
+Romaji: Kuruma de yuubinkyoku e motte ikimashou.
+Nghĩa: Hãy mang đến bưu điện bằng xe hơi.
+
+ありがとうございます。
+Romaji: Arigatou gozaimasu.
+Nghĩa: Cảm ơn.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">どちらが先ですか。</p>
+                <p class="subline">Dochira ga saki desu ka.</p>
+                <p class="subline">Việc nào trước?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-15" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">荷物を送ります</span></span>
+                    <span class="option-meaning">Gửi hành lý trước</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-15" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">パーティーへ行きます</span></span>
+                    <span class="option-meaning">Đi tiệc trước</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-15" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">北海道へ行きます</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-15" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">食事をします</span></span>
+                    <span class="option-meaning"></span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Kelly nói trước khi đi tiệc phải gửi hành lý.</p>
+              </section>
+            </article>
+            </main>
+  <script>
+    const totalSegments = 16;
+    const state = {};
+    function updateScore() {
+      const correct = Object.values(state).filter(Boolean).length;
+      document.getElementById("score").textContent = `${correct} / ${totalSegments} câu đúng`;
+    }
+    document.querySelectorAll(".toggle-script").forEach((button) => {
+      button.addEventListener("click", () => {
+        const script = button.nextElementSibling;
+        const isHidden = script.hasAttribute("hidden");
+        if (isHidden) { script.removeAttribute("hidden"); button.textContent = "Hide script"; }
+        else { script.setAttribute("hidden", ""); button.textContent = "Show script"; }
+      });
+    });
+    document.querySelectorAll(".check-answer").forEach((button) => {
+      button.addEventListener("click", () => {
+        const card = button.closest(".segment-card");
+        const selected = card.querySelector("input[type='radio']:checked");
+        const feedback = card.querySelector(".feedback");
+        const explanation = card.querySelector(".explanation");
+        const segmentIndex = card.dataset.segment;
+        feedback.className = "feedback";
+        explanation.hidden = true;
+        if (!selected) {
+          feedback.textContent = "Hãy chọn một đáp án trước.";
+          feedback.classList.add("bad");
+          state[segmentIndex] = false;
+          updateScore();
+          return;
+        }
+        if (selected.value === card.dataset.answer) {
+          feedback.textContent = "Đúng.";
+          feedback.classList.add("ok");
+          state[segmentIndex] = true;
+        } else {
+          feedback.textContent = "Chưa đúng.";
+          feedback.classList.add("bad");
+          state[segmentIndex] = false;
+        }
+        explanation.hidden = false;
+        updateScore();
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,549 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[00:17] A: どこまでですか。
+Romaji: Doko made desu ka.
+Nghĩa: Đi đến đâu ạ?
+
+[00:17] B: みどり町までお願いします。
+Romaji: Midori-machi made onegaishimasu.
+Nghĩa: Làm ơn cho tôi đến phố Midori.
+
+[00:27] A: どこで止めますか。
+Romaji: Doko de tomemasu ka.
+Nghĩa: Dừng ở đâu ạ?
+
+[00:27] B: あの家の前で止めてください。桜の木がある家です。
+Romaji: Ano ie no mae de tomete kudasai. Sakura no ki ga aru ie desu.
+Nghĩa: Hãy dừng trước ngôi nhà kia. Là ngôi nhà có cây hoa anh đào.
+
+[00:31] A: はい、わかりました。
+Romaji: Hai, wakarimashita.
+Nghĩa: Vâng, tôi hiểu rồi.
+
+[00:45] A: いらっしゃい。
+Romaji: Irasshai.
+Nghĩa: Chào mừng bạn.
+
+[00:48] B: わあ、たくさん料理がありますね。
+Romaji: Waa, takusan ryouri ga arimasu ne.
+Nghĩa: Oa, có nhiều món ăn quá nhỉ.
+
+[00:51] A: みんながいろいろ作って持って来ました。好きなものをどうぞ。
+Romaji: Minna ga iroiro tsukutte motte kimashita. Suki na mono o douzo.
+Nghĩa: Mọi người đã làm nhiều món rồi mang đến. Bạn thích món nào thì cứ dùng nhé.
+
+[00:55] B: じゃ、皆さんが作った料理を食べたいです。
+Romaji: Ja, minasan ga tsukutta ryouri o tabetai desu.
+Nghĩa: Vậy tôi muốn ăn món mọi người đã làm.
+
+[00:55] A: このカレーですよ。どうぞ。
+Romaji: Kono karee desu yo. Douzo.
+Nghĩa: Đây là món cà ri đấy. Xin mời.
+
+[01:03] A: この間撮った写真を見せてください。
+Romaji: Kono aida totta shashin o misete kudasai.
+Nghĩa: Cho tôi xem bức ảnh đã chụp hôm trước.
+
+[01:07] B: 奈良のお寺で撮った写真です。
+Romaji: Nara no otera de totta shashin desu.
+Nghĩa: Đây là bức ảnh chụp ở chùa tại Nara.
+
+[01:12] A: はい、これですね。
+Romaji: Hai, kore desu ne.
+Nghĩa: Vâng, là cái này nhỉ.
+
+[01:16] A: 本がたくさんありますね。借りてもいいですか。
+Romaji: Hon ga takusan arimasu ne. Karite mo ii desu ka.
+Nghĩa: Có nhiều sách quá nhỉ. Tôi mượn được không?
+
+[01:21] B: ええ、どうぞ。どんな本がいいですか。
+Romaji: Ee, douzo. Donna hon ga ii desu ka.
+Nghĩa: Vâng, mời bạn. Bạn muốn sách loại nào?
+
+[01:24] A: 子供が読む本がありますか。日本語の勉強に役に立つと思います。
+Romaji: Kodomo ga yomu hon ga arimasu ka. Nihongo no benkyou ni yaku ni tatsu to omoimasu.
+Nghĩa: Có sách trẻ em đọc không? Tôi nghĩ nó có ích cho việc học tiếng Nhật.
+
+[01:29] B: じゃ、これはどうですか。あまり難しくないですよ。
+Romaji: Ja, kore wa dou desu ka. Amari muzukashiku nai desu yo.
+Nghĩa: Vậy cuốn này thì sao? Không khó lắm đâu.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[00:27] 質問: 女の人が入ったものはどれですか。
+Romaji: Onna no hito ga haitta mono wa dore desu ka.
+Nghĩa: Người phụ nữ đã vào/đi phương tiện nào?
+
+A. タクシー
+Nghĩa: Taxi
+B. バス
+Nghĩa: Xe buýt
+C. 電車
+Nghĩa: Tàu điện
+D. 自転車
+Nghĩa: Xe đạp
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Hội thoại có cách nói của tài xế: 「どこまでですか」「どこで止めますか」, phù hợp với taxi.
+
+Câu 2:
+[00:55] 質問: 女の人は何を食べたいですか。
+Romaji: Onna no hito wa nani o tabetai desu ka.
+Nghĩa: Người phụ nữ muốn ăn gì?
+
+A. 皆さんが作った料理
+Nghĩa: Món ăn mọi người đã làm
+B. 店で買った料理
+Nghĩa: Món ăn mua ở cửa hàng
+C. 自分で作った料理
+Nghĩa: Món ăn tự mình làm
+D. 日本のお菓子
+Nghĩa: Bánh kẹo Nhật
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người phụ nữ nói 「皆さんが作った料理を食べたいです」.
+
+Câu 3:
+[01:07] 質問: 写真はどこで撮りましたか。
+Romaji: Shashin wa doko de torimashita ka.
+Nghĩa: Bức ảnh được chụp ở đâu?
+
+A. 奈良のお寺
+Nghĩa: Chùa ở Nara
+B. 京都の神社
+Nghĩa: Đền ở Kyoto
+C. 大阪の公園
+Nghĩa: Công viên ở Osaka
+D. 東京の学校
+Nghĩa: Trường học ở Tokyo
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「奈良のお寺で撮った写真です」.
+
+Câu 4:
+[01:24] 質問: 女の人はどんな本を借りたいですか。
+Romaji: Onna no hito wa donna hon o karitai desu ka.
+Nghĩa: Người phụ nữ muốn mượn loại sách nào?
+
+A. 子供が読む本
+Nghĩa: Sách trẻ em đọc
+B. 難しい小説
+Nghĩa: Tiểu thuyết khó
+C. 料理の本
+Nghĩa: Sách nấu ăn
+D. 旅行の本
+Nghĩa: Sách du lịch
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người phụ nữ hỏi 「子供が読む本がありますか」.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[02:01] A: すみません。佐藤さんはどの人ですか。
+Romaji: Sumimasen. Satou-san wa dono hito desu ka.
+Nghĩa: Xin lỗi. Anh/chị Sato là người nào?
+
+[02:07] B: あの白い服を着ている女の人です。
+Romaji: Ano shiroi fuku o kite iru onna no hito desu.
+Nghĩa: Là người phụ nữ đang mặc đồ trắng kia.
+
+[02:12] A: わかりました。ありがとうございます。
+Romaji: Wakarimashita. Arigatou gozaimasu.
+Nghĩa: Tôi hiểu rồi. Cảm ơn.
+
+[02:17] A: 豊田さんはどの人ですか。
+Romaji: Toyoda-san wa dono hito desu ka.
+Nghĩa: Anh/chị Toyoda là người nào?
+
+[02:22] B: あのワインを飲んでいる人です。
+Romaji: Ano wain o nonde iru hito desu.
+Nghĩa: Là người đang uống rượu vang kia.
+
+[02:29] A: 背が高い人ですか。
+Romaji: Se ga takai hito desu ka.
+Nghĩa: Người cao phải không?
+
+[02:29] B: いいえ、違います。女の人と話している人です。
+Romaji: Iie, chigaimasu. Onna no hito to hanashite iru hito desu.
+Nghĩa: Không, không phải. Là người đang nói chuyện với phụ nữ.
+
+[02:40] A: 小山さんはどの人ですか。
+Romaji: Koyama-san wa dono hito desu ka.
+Nghĩa: Anh/chị Koyama là người nào?
+
+[02:45] B: あのドアの前に立っている人ですよ。
+Romaji: Ano doa no mae ni tatte iru hito desu yo.
+Nghĩa: Là người đang đứng trước cửa kia.
+
+[02:50] A: メガネをかけている人ですか。
+Romaji: Megane o kakete iru hito desu ka.
+Nghĩa: Người đang đeo kính phải không?
+
+[02:50] B: いいえ、その隣にいる人です。
+Romaji: Iie, sono tonari ni iru hito desu.
+Nghĩa: Không, là người ở bên cạnh người đó.
+
+[03:02] A: あの着物を着ている女の人を知っていますか。
+Romaji: Ano kimono o kite iru onna no hito o shitte imasu ka.
+Nghĩa: Bạn có biết người phụ nữ mặc kimono kia không?
+
+[03:06] B: 窓の前にいる人ですか。
+Romaji: Mado no mae ni iru hito desu ka.
+Nghĩa: Người ở trước cửa sổ phải không?
+
+[03:06] A: いいえ、座っている人です。
+Romaji: Iie, suwatte iru hito desu.
+Nghĩa: Không, là người đang ngồi.
+
+[03:14] B: あの人は山田さん、IMCの山田さんの奥さんです。
+Romaji: Ano hito wa Yamada-san, IMC no Yamada-san no okusan desu.
+Nghĩa: Người đó là bà Yamada, vợ của ông Yamada ở công ty IMC.
+
+[03:23] A: あの花を持っている方はどなたですか。
+Romaji: Ano hana o motte iru kata wa donata desu ka.
+Nghĩa: Vị đang cầm hoa kia là ai vậy?
+
+[03:29] B: 窓の前で話している人ですか。
+Romaji: Mado no mae de hanashite iru hito desu ka.
+Nghĩa: Người đang nói chuyện trước cửa sổ phải không?
+
+[03:29] A: ええ。
+Romaji: Ee.
+Nghĩa: Vâng.
+
+[03:33] B: あの方は松本さんです。IMCの部長です。
+Romaji: Ano kata wa Matsumoto-san desu. IMC no buchou desu.
+Nghĩa: Vị đó là ông/bà Matsumoto. Là trưởng phòng của IMC.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[02:07] 質問: 佐藤さんはどの人ですか。
+Romaji: Satou-san wa dono hito desu ka.
+Nghĩa: Sato là người nào?
+
+A. 白い服を着ている女の人
+Nghĩa: Người phụ nữ mặc đồ trắng
+B. ワインを飲んでいる人
+Nghĩa: Người đang uống rượu vang
+C. ドアの前に立っている人
+Nghĩa: Người đang đứng trước cửa
+D. 花を持っている人
+Nghĩa: Người đang cầm hoa
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「白い服を着ている女の人です」.
+
+Câu 2:
+[02:29] 質問: 豊田さんはどの人ですか。
+Romaji: Toyoda-san wa dono hito desu ka.
+Nghĩa: Toyoda là người nào?
+
+A. 女の人と話している人
+Nghĩa: Người đang nói chuyện với phụ nữ
+B. 背が高い人
+Nghĩa: Người cao
+C. メガネをかけている人
+Nghĩa: Người đeo kính
+D. 着物を着ている人
+Nghĩa: Người mặc kimono
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「女の人と話している人です」.
+
+Câu 3:
+[02:50] 質問: 小山さんはどの人ですか。
+Romaji: Koyama-san wa dono hito desu ka.
+Nghĩa: Koyama là người nào?
+
+A. ドアの前に立っている人の隣にいる人
+Nghĩa: Người ở cạnh người đang đứng trước cửa
+B. メガネをかけている人
+Nghĩa: Người đang đeo kính
+C. 白い服を着ている人
+Nghĩa: Người mặc đồ trắng
+D. ワインを飲んでいる人
+
+Nghĩa: Người đang uống rượu vang
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「その隣にいる人です」.
+
+Câu 4:
+[03:33] 質問: 花を持っている方は誰ですか。
+Romaji: Hana o motte iru kata wa dare desu ka.
+Nghĩa: Người cầm hoa là ai?
+
+A. 松本さん
+Nghĩa: Ông/bà Matsumoto
+B. 佐藤さん
+Nghĩa: Ông/bà Sato
+C. 山田さん
+Nghĩa: Ông/bà Yamada
+D. 小山さん
+Nghĩa: Ông/bà Koyama
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「松本さんです」.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[03:54] A: 今晩、食事に行きませんか。
+Romaji: Konban, shokuji ni ikimasen ka.
+Nghĩa: Tối nay đi ăn không?
+
+[03:59] B: すみません。今晩はちょっと映画に行く約束があります。
+Romaji: Sumimasen. Konban wa chotto eiga ni iku yakusoku ga arimasu.
+Nghĩa: Xin lỗi. Tối nay tôi có hẹn đi xem phim.
+
+[04:03] A: そうですか。また今度お願いします。
+Romaji: Sou desu ka. Mata kondo onegaishimasu.
+Nghĩa: Vậy à. Lần sau nhé.
+
+[04:08] A: もう12時ですよ。昼ごはんを食べに行きませんか。
+Romaji: Mou juu-niji desu yo. Hiru gohan o tabe ni ikimasen ka.
+Nghĩa: Đã 12 giờ rồi. Đi ăn trưa không?
+
+[04:13] B: ちょっと銀行へ行く用事がありますから。
+Romaji: Chotto ginkou e iku youji ga arimasu kara.
+Nghĩa: Vì tôi có việc phải đi ngân hàng một chút.
+
+[04:18] A: そうですか。じゃ、また後で。
+Romaji: Sou desu ka. Ja, mata ato de.
+Nghĩa: Vậy à. Vậy lát nữa gặp.
+
+[04:23] A: 出張ですか。
+Romaji: Shucchou desu ka.
+Nghĩa: Đi công tác à?
+
+[04:26] B: 京都で会議があります。
+Romaji: Kyouto de kaigi ga arimasu.
+Nghĩa: Tôi có cuộc họp ở Kyoto.
+
+[04:26] A: 京都ですか。いいですね。お寺や神社へ行くことができますね。
+Romaji: Kyouto desu ka. Ii desu ne. Otera ya jinja e iku koto ga dekimasu ne.
+Nghĩa: Kyoto à? Hay quá. Có thể đi chùa và đền nhỉ.
+
+[04:33] B: でも、とても忙しいですから、多分見る時間がないと思います。
+Romaji: Demo, totemo isogashii desu kara, tabun miru jikan ga nai to omoimasu.
+Nghĩa: Nhưng vì rất bận nên tôi nghĩ có lẽ không có thời gian xem.
+
+[04:41] A: そうですか。残念ですね。
+Romaji: Sou desu ka. Zannen desu ne.
+Nghĩa: Vậy à. Tiếc nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[03:59] 質問: 女の人は今晩、何をしますか。
+Romaji: Onna no hito wa konban, nani o shimasu ka.
+Nghĩa: Tối nay người phụ nữ sẽ làm gì?
+
+A. 映画に行きます
+Nghĩa: Đi xem phim
+B. 食事に行きます
+Nghĩa: Đi ăn
+C. 銀行へ行きます
+Nghĩa: Đi ngân hàng
+D. 京都へ行きます
+Nghĩa: Đi Kyoto
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người phụ nữ nói 「映画に行く約束があります」.
+
+Câu 2:
+[04:13] 質問: 女の人は昼ごはんを食べに行きますか。
+Romaji: Onna no hito wa hiru gohan o tabe ni ikimasu ka.
+Nghĩa: Người phụ nữ có đi ăn trưa không?
+
+A. いいえ、銀行へ行く用事があります
+Nghĩa: Không, có việc đi ngân hàng
+B. はい、行きます
+Nghĩa: Có, đi
+C. いいえ、映画に行きます
+Nghĩa: Không, đi xem phim
+D. はい、京都へ行きます
+
+Nghĩa: Có, đi Kyoto
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người phụ nữ nói 「銀行へ行く用事があります」.
+
+Câu 3:
+[04:26] 質問: 女の人は京都で何がありますか。
+Romaji: Onna no hito wa Kyouto de nani ga arimasu ka.
+Nghĩa: Người phụ nữ có việc gì ở Kyoto?
+
+A. 会議
+Nghĩa: Cuộc họp
+B. 映画
+Nghĩa: Phim
+C. 食事
+Nghĩa: Bữa ăn
+D. パーティー
+Nghĩa: Tiệc
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「京都で会議があります」.
+
+Câu 4:
+[04:33] 質問: 女の人はお寺や神社を見る時間がありますか。
+Romaji: Onna no hito wa otera ya jinja o miru jikan ga arimasu ka.
+Nghĩa: Người phụ nữ có thời gian xem chùa và đền không?
+
+A. いいえ、多分ありません
+Nghĩa: Không, có lẽ không có
+B. はい、たくさんあります
+Nghĩa: Có, có nhiều
+C. はい、少しあります
+Nghĩa: Có, có một chút
+D. わかりません
+
+Nghĩa: Không biết
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người phụ nữ nói 「多分見る時間がないと思います」.
+
+---
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[04:56] A: 最近の子供について話しています。言葉と数字を入れてください。
+Romaji: Saikin no kodomo ni tsuite hanashite imasu. Kotoba to suuji o irete kudasai.
+Nghĩa: Đang nói về trẻ em gần đây. Hãy điền từ và số.
+
+[05:04] A: 最近、体の調子が悪い、すぐ疲れるという子供が多くなりました。
+Romaji: Saikin, karada no choushi ga warui, sugu tsukareru to iu kodomo ga ooku narimashita.
+Nghĩa: Gần đây, trẻ em nói rằng cơ thể không khỏe, nhanh mệt đã tăng lên.
+
+[05:12] A: 子供の仕事は遊ぶことです。外でよく遊ぶ子供は元気です。
+Romaji: Kodomo no shigoto wa asobu koto desu. Soto de yoku asobu kodomo wa genki desu.
+Nghĩa: Công việc của trẻ em là vui chơi. Trẻ em thường chơi bên ngoài thì khỏe mạnh.
+
+[05:19] A: しかし、最近の子供はあまり遊びません。どうして遊ばないと思いますか。
+Romaji: Shikashi, saikin no kodomo wa amari asobimasen. Doushite asobanai to omoimasu ka.
+Nghĩa: Tuy nhiên, trẻ em gần đây không chơi nhiều. Bạn nghĩ tại sao chúng không chơi?
+
+[05:27] A: この資料をちょっと見てください。
+Romaji: Kono shiryou o chotto mite kudasai.
+Nghĩa: Hãy xem tài liệu này một chút.
+
+[05:27] A: まず、テレビを見る時間が多いが一番多くて66%です。
+Romaji: Mazu, terebi o miru jikan ga ooi ga ichiban ookute rokujuu-roku paasento desu.
+Nghĩa: Trước hết, lý do “thời gian xem tivi nhiều” là nhiều nhất, 66%.
+
+[05:36] A: 次に、勉強が忙しいで64%です。
+Romaji: Tsugi ni, benkyou ga isogashii de rokujuu-yon paasento desu.
+Nghĩa: Tiếp theo là “bận học”, 64%.
+
+[05:45] A: 三番目は遊ぶところがないで35%。
+Romaji: Sanbanme wa asobu tokoro ga nai de sanjuu-go paasento.
+Nghĩa: Thứ ba là “không có chỗ chơi”, 35%.
+
+[05:45] A: 次の31%は一緒に遊ぶ友達がいないです。
+Romaji: Tsugi no sanjuu-ichi paasento wa issho ni asobu tomodachi ga inai desu.
+Nghĩa: Tiếp theo, 31% là “không có bạn chơi cùng”.
+
+[05:55] A: それから28%は両親が遊んではいけないと言うからです。
+Romaji: Sore kara nijuu-hachi paasento wa ryoushin ga asonde wa ikenai to iu kara desu.
+Nghĩa: Sau đó, 28% là vì bố mẹ nói không được chơi.
+
+[06:01] A: 遊び方を知らないという子供も23%います。
+Romaji: Asobikata o shiranai to iu kodomo mo nijuu-san paasento imasu.
+Nghĩa: Cũng có 23% trẻ em nói rằng không biết cách chơi.
+
+[06:07] A: 車が多いから外は危ないが21%です。
+Romaji: Kuruma ga ooi kara soto wa abunai ga nijuu-ichi paasento desu.
+Nghĩa: “Vì có nhiều xe nên bên ngoài nguy hiểm” là 21%.
+
+[06:16] A: 両親が遊ぶことは大切だと思わないからが17%です。
+Romaji: Ryoushin ga asobu koto wa taisetsu da to omowanai kara ga juu-nana paasento desu.
+Nghĩa: “Vì bố mẹ không nghĩ việc chơi là quan trọng” là 17%.
+
+[06:23] A: 皆さん、これを見てどう思いますか。
+Romaji: Minasan, kore o mite dou omoimasu ka.
+Nghĩa: Mọi người nhìn cái này thì nghĩ thế nào?
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[05:27] 質問: 一番多い理由は何ですか。
+Romaji: Ichiban ooi riyuu wa nan desu ka.
+Nghĩa: Lý do nhiều nhất là gì?
+
+A. テレビを見る時間が多い
+Nghĩa: Thời gian xem tivi nhiều
+B. 勉強が忙しい
+Nghĩa: Bận học
+C. 遊ぶところがない
+Nghĩa: Không có chỗ chơi
+D. 友達がいない
+
+Nghĩa: Không có bạn
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Lý do nhiều nhất là 「テレビを見る時間が多い」 với 66%.
+
+Câu 2:
+[05:36] 質問: 「勉強が忙しい」は何パーセントですか。
+Romaji: “Benkyou ga isogashii” wa nan paasento desu ka.
+Nghĩa: “Bận học” là bao nhiêu phần trăm?
+
+A. 64%
+Nghĩa: 64%
+B. 66%
+Nghĩa: 66%
+C. 35%
+Nghĩa: 35%
+D. 31%
+Nghĩa: 31%
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「勉強が忙しいで64%です」.
+
+Câu 3:
+[05:45] 質問: 遊ぶところがない子供は何パーセントですか。
+Romaji: Asobu tokoro ga nai kodomo wa nan paasento desu ka.
+Nghĩa: Trẻ em không có chỗ chơi là bao nhiêu phần trăm?
+
+A. 35%
+Nghĩa: 35%
+B. 31%
+Nghĩa: 31%
+C. 28%
+Nghĩa: 28%
+D. 23%
+Nghĩa: 23%
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「遊ぶところがないで35%」.
+
+Câu 4:
+[06:07] 質問: 外は危ない理由は何ですか。
+Romaji: Soto wa abunai riyuu wa nan desu ka.
+Nghĩa: Lý do bên ngoài nguy hiểm là gì?
+
+A. 車が多いから
+Nghĩa: Vì có nhiều xe
+B. 友達がいないから
+Nghĩa: Vì không có bạn
+C. 勉強が忙しいから
+Nghĩa: Vì bận học
+D. テレビを見るから
+Nghĩa: Vì xem tivi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「車が多いから外は危ない」.

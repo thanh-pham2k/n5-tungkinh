@@ -1,0 +1,421 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[00:15] A: 金曜日の晩、家でパーティーをします。暇だったら来ませんか。
+Romaji: Kin-youbi no ban, ie de paatii o shimasu. Hima dattara kimasen ka.
+Nghĩa: Tối thứ Sáu tôi tổ chức tiệc ở nhà. Nếu rảnh thì bạn đến nhé?
+
+[00:21] B: ありがとうございます。大丈夫だと思いますけど、後で電話します。
+Romaji: Arigatou gozaimasu. Daijoubu da to omoimasu kedo, ato de denwa shimasu.
+Nghĩa: Cảm ơn. Tôi nghĩ là được, nhưng tôi sẽ gọi điện sau.
+
+[00:32] B: もしもし、ミラーさん、いいですか。金曜日の晩ですが。
+Romaji: Moshimoshi, Miraa-san, ii desu ka. Kin-youbi no ban desu ga.
+Nghĩa: Alo, anh Miller, nói chuyện được không? Về tối thứ Sáu ấy.
+
+[00:40] B: 出張しなければなりません。
+Romaji: Shucchou shinakereba narimasen.
+Nghĩa: Tôi phải đi công tác.
+
+[00:50] A: そうですか。残念ですね。
+Romaji: Sou desu ka. Zannen desu ne.
+Nghĩa: Vậy à. Tiếc quá nhỉ.
+
+[01:01] A: 木村さん、明日のテニスですけど、天気は大丈夫ですか。
+Romaji: Kimura-san, ashita no tenisu desu kedo, tenki wa daijoubu desu ka.
+Nghĩa: Anh/chị Kimura, về buổi tennis ngày mai, thời tiết ổn không?
+
+[01:08] A: もし天気が悪かったら、映画に行きませんか。チケットがありますから。
+Romaji: Moshi tenki ga warukattara, eiga ni ikimasen ka. Chiketto ga arimasu kara.
+Nghĩa: Nếu thời tiết xấu thì đi xem phim nhé? Vì tôi có vé.
+
+[01:25] B: もしもし、木村です。今日は雨ですね。
+Romaji: Moshimoshi, Kimura desu. Kyou wa ame desu ne.
+Nghĩa: Alo, Kimura đây. Hôm nay trời mưa nhỉ.
+
+[01:37] A: じゃあ、映画に行きましょう。
+Romaji: Jaa, eiga ni ikimashou.
+Nghĩa: Vậy thì đi xem phim nhé.
+
+[01:49] A: 佐藤さん、今晩一緒に食事しませんか。
+Romaji: Satou-san, konban issho ni shokuji shimasen ka.
+Nghĩa: Anh/chị Sato, tối nay cùng đi ăn không?
+
+[01:49] B: いいですね。でも今日は仕事がたくさんあって、7時ごろになると思いますが。
+Romaji: Ii desu ne. Demo kyou wa shigoto ga takusan atte, shichiji goro ni naru to omoimasu ga.
+Nghĩa: Hay đấy. Nhưng hôm nay tôi có nhiều việc, chắc khoảng 7 giờ mới xong.
+
+[02:01] A: じゃ、7時までに終わったら行きましょう。
+Romaji: Ja, shichiji made ni owattara ikimashou.
+Nghĩa: Vậy nếu xong trước 7 giờ thì đi nhé.
+
+[02:12] B: もしもし、佐藤です。もう7時ですけど、仕事が終わりません。
+Romaji: Moshimoshi, Satou desu. Mou shichiji desu kedo, shigoto ga owarimasen.
+Nghĩa: Alo, Sato đây. Đã 7 giờ rồi nhưng công việc chưa xong.
+
+[02:27] A: そうですか。じゃ、今晩はやめましょう。
+Romaji: Sou desu ka. Ja, konban wa yamemashou.
+Nghĩa: Vậy à. Vậy tối nay hủy nhé.
+
+[02:34] A: 村さん、お茶を習いに行きませんか。渡辺さんが教えてくれると言いました。面白いと思いますが。
+Romaji: Mura-san, ocha o narai ni ikimasen ka. Watanabe-san ga oshiete kureru to iimashita. Omoshiroi to omoimasu ga.
+Nghĩa: Anh/chị Mura, đi học trà đạo không? Anh/chị Watanabe nói sẽ dạy. Tôi nghĩ sẽ thú vị.
+
+[02:45] B: 習いたいですけど、何曜日ですか。
+Romaji: Naraitai desu kedo, nan-youbi desu ka.
+Nghĩa: Tôi muốn học, nhưng là thứ mấy?
+
+[02:48] A: 土曜日です。
+Romaji: Doyoubi desu.
+Nghĩa: Thứ Bảy.
+
+[02:53] B: 午後だったら大丈夫です。渡辺さんに時間を聞いて電話しますね。
+Romaji: Gogo dattara daijoubu desu. Watanabe-san ni jikan o kiite denwa shimasu ne.
+Nghĩa: Nếu là buổi chiều thì được. Tôi sẽ hỏi giờ anh/chị Watanabe rồi gọi điện nhé.
+
+[03:05] B: もしもし、お茶は土曜日の朝10時からです。
+Romaji: Moshimoshi, ocha wa doyoubi no asa juuji kara desu.
+Nghĩa: Alo, lớp trà đạo bắt đầu lúc 10 giờ sáng thứ Bảy.
+
+[03:14] A: そうですか。残念ですね。
+Romaji: Sou desu ka. Zannen desu ne.
+Nghĩa: Vậy à. Tiếc quá nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[00:40] 質問: ミラーさんは金曜日の晩、パーティーに行きますか。
+Romaji: Miraa-san wa kin-youbi no ban, paatii ni ikimasu ka.
+Nghĩa: Anh Miller tối thứ Sáu có đi tiệc không?
+
+A. いいえ、出張しなければなりません
+Nghĩa: Không, phải đi công tác
+B. はい、6時に行きます
+Nghĩa: Có, sẽ đến lúc 6 giờ
+C. はい、家でパーティーをします
+Nghĩa: Có, tổ chức tiệc ở nhà
+D. いいえ、映画に行きます
+Nghĩa: Không, đi xem phim
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói nói 「出張しなければなりません」.
+
+Câu 2:
+[01:37] 質問: 雨だったら、何をしますか。
+Romaji: Ame dattara, nani o shimasu ka.
+Nghĩa: Nếu trời mưa thì sẽ làm gì?
+
+A. 映画に行きます
+Nghĩa: Đi xem phim
+B. テニスに行きます
+Nghĩa: Đi chơi tennis
+C. パーティーに行きます
+Nghĩa: Đi tiệc
+D. 食事に行きます
+Nghĩa: Đi ăn
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「天気が悪かったら、映画に行きませんか」 và sau đó 「映画に行きましょう」.
+
+Câu 3:
+[02:12] 質問: 佐藤さんはどうして食事に行きませんか。
+Romaji: Satou-san wa doushite shokuji ni ikimasen ka.
+Nghĩa: Vì sao Sato không đi ăn?
+
+A. 仕事が終わりません
+Nghĩa: Công việc chưa xong
+B. 雨が降っています
+Nghĩa: Trời đang mưa
+C. 出張しなければなりません
+Nghĩa: Phải đi công tác
+D. お茶を習います
+
+Nghĩa: Đi học trà đạo
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Sato nói 「仕事が終わりません」.
+
+Câu 4:
+[03:05] 質問: お茶はいつですか。
+Romaji: Ocha wa itsu desu ka.
+Nghĩa: Lớp trà đạo là khi nào?
+
+A. 土曜日の朝10時から
+Nghĩa: Từ 10 giờ sáng thứ Bảy
+B. 土曜日の午後
+Nghĩa: Chiều thứ Bảy
+C. 金曜日の晩
+Nghĩa: Tối thứ Sáu
+D. 明日の朝
+
+Nghĩa: Sáng mai
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「土曜日の朝10時からです」.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[03:38] A: 明日の予定です。よく聞いてください。
+Romaji: Ashita no yotei desu. Yoku kiite kudasai.
+Nghĩa: Đây là lịch trình ngày mai. Hãy nghe kỹ.
+
+[03:43] A: 朝の会議が終わったら、すぐ東京市長の資料を作ってください。
+Romaji: Asa no kaigi ga owattara, sugu Toukyou shichou no shiryou o tsukutte kudasai.
+Nghĩa: Khi cuộc họp buổi sáng kết thúc, hãy lập tài liệu cho thị trưởng Tokyo ngay.
+
+[03:52] A: 資料を作ったら、すぐ部長に見せてください。10時までにお願いします。
+Romaji: Shiryou o tsukuttara, sugu buchou ni misete kudasai. Juuji made ni onegaishimasu.
+Nghĩa: Sau khi lập tài liệu xong, hãy cho trưởng phòng xem ngay. Làm trước 10 giờ nhé.
+
+[04:03] B: 課長、午後は何をしますか。
+Romaji: Kachou, gogo wa nani o shimasu ka.
+Nghĩa: Trưởng nhóm, buổi chiều làm gì?
+
+[04:06] A: 1時から3時までパワー電気とテレビ会議をします。
+Romaji: Ichiji kara sanji made Pawaa Denki to terebi kaigi o shimasu.
+Nghĩa: Từ 1 giờ đến 3 giờ họp trực tuyến với Power Denki.
+
+[04:16] A: 会議が終わったら、空港へホワイトさんを迎えに行ってください。
+Romaji: Kaigi ga owattara, kuukou e Howaito-san o mukae ni itte kudasai.
+Nghĩa: Sau khi họp xong, hãy ra sân bay đón ông/bà White.
+
+[04:23] A: 飛行機は5時半に着きます。ホワイトさんに会ったら、私に電話をかけてください。
+Romaji: Hikouki wa goji han ni tsukimasu. Howaito-san ni attara, watashi ni denwa o kakete kudasai.
+Nghĩa: Máy bay đến lúc 5 giờ rưỡi. Khi gặp ông/bà White, hãy gọi điện cho tôi.
+
+[04:34] A: それから、ホワイトさんをホテルへ連れて行ってください。私も部長とホテルへ行って、一緒に食事します。
+Romaji: Sore kara, Howaito-san o hoteru e tsurete itte kudasai. Watashi mo buchou to hoteru e itte, issho ni shokuji shimasu.
+Nghĩa: Sau đó, hãy đưa ông/bà White đến khách sạn. Tôi cũng sẽ đi khách sạn với trưởng phòng và cùng ăn tối.
+
+[04:42] B: はい、わかりました。
+Romaji: Hai, wakarimashita.
+Nghĩa: Vâng, tôi hiểu rồi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[03:43] 質問: 朝の会議が終わったら、何をしますか。
+Romaji: Asa no kaigi ga owattara, nani o shimasu ka.
+Nghĩa: Sau khi cuộc họp buổi sáng kết thúc thì làm gì?
+
+A. 東京市長の資料を作ります
+Nghĩa: Lập tài liệu cho thị trưởng Tokyo
+B. 空港へ行きます
+Nghĩa: Đi sân bay
+C. テレビ会議をします
+Nghĩa: Họp trực tuyến
+D. ホテルへ行きます
+
+Nghĩa: Đi khách sạn
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「東京市長の資料を作ってください」.
+
+Câu 2:
+[03:52] 質問: 資料は何時までに作りますか。
+Romaji: Shiryou wa nanji made ni tsukurimasu ka.
+Nghĩa: Tài liệu phải làm trước mấy giờ?
+
+A. 10時まで
+Nghĩa: Trước 10 giờ
+B. 1時まで
+Nghĩa: Trước 1 giờ
+C. 3時まで
+Nghĩa: Trước 3 giờ
+D. 5時半まで
+
+Nghĩa: Trước 5 giờ rưỡi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói nói 「10時までにお願いします」.
+
+Câu 3:
+[04:06] 質問: 午後1時から3時まで何をしますか。
+Romaji: Gogo ichiji kara sanji made nani o shimasu ka.
+Nghĩa: Từ 1 giờ đến 3 giờ chiều làm gì?
+
+A. パワー電気とテレビ会議をします
+Nghĩa: Họp trực tuyến với Power Denki
+B. 部長に資料を見せます
+Nghĩa: Cho trưởng phòng xem tài liệu
+C. ホワイトさんを迎えに行きます
+D. ホテルで食事します
+
+Nghĩa: Ăn tối ở khách sạn
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「1時から3時までパワー電気とテレビ会議をします」.
+
+Câu 4:
+[04:23] 質問: ホワイトさんの飛行機は何時半に着きますか。
+Romaji: Howaito-san no hikouki wa nanji han ni tsukimasu ka.
+Nghĩa: Máy bay của ông/bà White đến lúc mấy giờ rưỡi?
+
+A. 5時半
+Nghĩa: 5 giờ rưỡi
+B. 3時半
+Nghĩa: 3 giờ rưỡi
+C. 10時半
+Nghĩa: 10 giờ rưỡi
+D. 1時半
+
+Nghĩa: 1 giờ rưỡi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「飛行機は5時半に着きます」.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[04:56] A: ねえ、泉。この人どう？
+Romaji: Nee, Izumi. Kono hito dou?
+Nghĩa: Này Izumi, người này thế nào?
+
+[05:02] A: 東都大学で経済を勉強して、趣味はコンピューター。スポーツはあまり好きじゃない。
+Romaji: Touto daigaku de keizai o benkyou shite, shumi wa konpyuutaa. Supootsu wa amari suki ja nai.
+Nghĩa: Học kinh tế ở Đại học Touto, sở thích là máy tính. Không thích thể thao lắm.
+
+[05:07] B: 頭がよくても、スポーツが嫌いな人は面白くないわ。
+Romaji: Atama ga yokute mo, supootsu ga kirai na hito wa omoshiroku nai wa.
+Nghĩa: Dù thông minh, người ghét thể thao thì không thú vị.
+
+[05:13] B: もっと元気で、スポーツが好きな人がいいなあ。
+Romaji: Motto genki de, supootsu ga suki na hito ga ii naa.
+Nghĩa: Tôi thích người năng động hơn và thích thể thao.
+
+[05:19] A: 泉、赤井さんと黒井さんと、どちらがよかった？
+Romaji: Izumi, Akai-san to Kuroi-san to, dochira ga yokatta?
+Nghĩa: Izumi, giữa Akai và Kuroi, ai tốt hơn?
+
+[05:27] B: 赤井さんかなあ。黒井さんはお金がたくさんあるわよ。
+Romaji: Akai-san kanaa. Kuroi-san wa okane ga takusan aru wa yo.
+Nghĩa: Có lẽ là Akai. Kuroi thì có rất nhiều tiền đấy.
+
+[05:33] B: 赤井さんはお金がなくても、頭がよくて、ユーモアがあって、素敵だわ。
+Romaji: Akai-san wa okane ga nakute mo, atama ga yokute, yuumoa ga atte, suteki da wa.
+Nghĩa: Akai dù không có tiền nhưng thông minh, hài hước và tuyệt vời.
+
+[05:39] A: ふーん、そう。私だったら黒井さんね。
+Romaji: Fuun, sou. Watashi dattara Kuroi-san ne.
+Nghĩa: Ừm, vậy à. Nếu là mẹ thì mẹ chọn Kuroi.
+
+[05:45] B: お母さん、私、赤井さんと結婚するわ。
+Romaji: Okaasan, watashi, Akai-san to kekkon suru wa.
+Nghĩa: Mẹ ơi, con sẽ kết hôn với anh Akai.
+
+[05:50] A: ちょっとこれ見て。結婚式と旅行、全部で80万円よ。安いわね。
+Romaji: Chotto kore mite. Kekkonshiki to ryokou, zenbu de hachijuu-man-en yo. Yasui wa ne.
+Nghĩa: Nhìn cái này này. Đám cưới và du lịch tổng cộng 800.000 yên. Rẻ nhỉ.
+
+[06:06] B: でも、いくら安くても、両親や友達が来てくれなかったら寂しいね。
+Romaji: Demo, ikura yasukute mo, ryoushin ya tomodachi ga kite kurenakattara sabishii ne.
+Nghĩa: Nhưng dù rẻ đến đâu, nếu bố mẹ và bạn bè không đến thì buồn nhỉ.
+
+[06:12] A: みんなが来なくても、あなたと一緒だったらいいわ。
+Romaji: Minna ga konakute mo, anata to issho dattara ii wa.
+Nghĩa: Dù mọi người không đến, chỉ cần ở cùng anh là được.
+
+[06:21] B: 私、結婚しても名前を変えたくないわ。
+Romaji: Watashi, kekkon shite mo namae o kaetakunai wa.
+Nghĩa: Dù kết hôn, em cũng không muốn đổi họ/tên.
+
+[06:21] A: 名前を変えなかったら不便だよ。みんな結婚したら名前を変えるよ。
+Romaji: Namae o kaenakattara fuben da yo. Minna kekkon shitara namae o kaeru yo.
+Nghĩa: Nếu không đổi họ/tên thì bất tiện đấy. Mọi người kết hôn thì đều đổi.
+
+[06:28] A: 赤井泉、素敵だよ。
+Romaji: Akai Izumi, suteki da yo.
+Nghĩa: Akai Izumi, nghe hay mà.
+
+[06:34] B: 不便でも、変えたくないわ。
+Romaji: Fuben demo, kaetakunai wa.
+Nghĩa: Dù bất tiện, em cũng không muốn đổi.
+
+[06:38] A: でも、いろいろ大変だよ。
+Romaji: Demo, iroiro taihen da yo.
+Nghĩa: Nhưng sẽ vất vả nhiều đấy.
+
+[06:38] B: じゃあ、あなたが支えて。
+Romaji: Jaa, anata ga sasaete.
+Nghĩa: Vậy anh hãy hỗ trợ em.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[05:13] 質問: 泉さんはどんな人がいいと言いましたか。
+Romaji: Izumi-san wa donna hito ga ii to iimashita ka.
+Nghĩa: Izumi nói thích kiểu người như thế nào?
+
+A. 元気でスポーツが好きな人
+Nghĩa: Người năng động và thích thể thao
+B. お金がたくさんある人
+Nghĩa: Người có nhiều tiền
+C. コンピューターが好きな人
+D. スポーツが嫌いな人
+
+Nghĩa: Người ghét thể thao
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Izumi nói 「元気で、スポーツが好きな人がいい」.
+
+Câu 2:
+[05:45] 質問: 泉さんは誰と結婚しますか。
+Romaji: Izumi-san wa dare to kekkon shimasu ka.
+Nghĩa: Izumi sẽ kết hôn với ai?
+
+A. 赤井さん
+Nghĩa: Anh Akai
+B. 黒井さん
+Nghĩa: Anh Kuroi
+C. 木村さん
+Nghĩa: Anh Kimura
+D. 佐藤さん
+
+Nghĩa: Anh Sato
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Izumi nói 「赤井さんと結婚するわ」.
+
+Câu 3:
+[05:50] 質問: 結婚式と旅行は全部でいくらですか。
+Romaji: Kekkonshiki to ryokou wa zenbu de ikura desu ka.
+Nghĩa: Đám cưới và du lịch tổng cộng bao nhiêu?
+
+A. 80万円
+Nghĩa: 800.000 yên
+B. 60万円
+Nghĩa: 600.000 yên
+C. 100万円
+Nghĩa: 1.000.000 yên
+D. 8万円
+
+Nghĩa: 80.000 yên
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「全部で80万円よ」.
+
+Câu 4:
+[06:21] 質問: 泉さんは結婚しても何を変えたくないですか。
+Romaji: Izumi-san wa kekkon shite mo nani o kaetakunai desu ka.
+Nghĩa: Dù kết hôn, Izumi không muốn đổi gì?
+
+A. 名前
+Nghĩa: Họ/tên
+B. 仕事
+Nghĩa: Công việc
+C. 住所
+Nghĩa: Địa chỉ
+D. 趣味
+
+Nghĩa: Sở thích
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Izumi nói 「名前を変えたくない」.

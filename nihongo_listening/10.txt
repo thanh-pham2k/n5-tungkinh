@@ -1,0 +1,569 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[00:12] A: すみません。
+Romaji: Sumimasen.
+Nghĩa: Xin lỗi.
+
+[00:15] A: この図書館に韓国語の辞書がありますか。
+Romaji: Kono toshokan ni kankoku-go no jisho ga arimasu ka.
+Nghĩa: Thư viện này có từ điển tiếng Hàn không?
+
+[00:15] B: ありますよ。3階です。
+Romaji: Arimasu yo. San-kai desu.
+Nghĩa: Có đấy. Ở tầng 3.
+
+[00:20] A: タイ語の辞書もありますか。
+Romaji: Tai-go no jisho mo arimasu ka.
+Nghĩa: Có cả từ điển tiếng Thái không?
+
+[00:24] B: いいえ、ありません。
+Romaji: Iie, arimasen.
+Nghĩa: Không, không có.
+
+[00:27] A: わかりました。ありがとうございました。
+Romaji: Wakarimashita. Arigatou gozaimashita.
+Nghĩa: Tôi hiểu rồi. Cảm ơn.
+
+[00:35] A: この図書館に喫茶店がありますか。
+Romaji: Kono toshokan ni kissaten ga arimasu ka.
+Nghĩa: Thư viện này có quán cà phê không?
+
+[00:35] B: いいえ、ありませんが、地下に飲み物のコーナーがあります。
+Romaji: Iie, arimasen ga, chika ni nomimono no koonaa ga arimasu.
+Nghĩa: Không có, nhưng ở tầng hầm có quầy đồ uống.
+
+[00:47] A: この図書館にビデオがありますか。
+Romaji: Kono toshokan ni bideo ga arimasu ka.
+Nghĩa: Thư viện này có video không?
+
+[00:54] B: どんなビデオですか。
+Romaji: Donna bideo desu ka.
+Nghĩa: Video loại nào?
+
+[00:54] A: イタリアの美術館のビデオです。
+Romaji: Itaria no bijutsukan no bideo desu.
+Nghĩa: Video về bảo tàng mỹ thuật của Ý.
+
+[00:59] B: 2階にビデオとCDの部屋がありますから、そこでお願いします。
+Romaji: Ni-kai ni bideo to CD no heya ga arimasu kara, soko de onegaishimasu.
+Nghĩa: Vì tầng 2 có phòng video và CD, xin hãy đến đó.
+
+[01:05] A: わかりました。
+Romaji: Wakarimashita.
+Nghĩa: Tôi hiểu rồi.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[00:15] 質問: 韓国語の辞書はどこにありますか。
+Romaji: Kankoku-go no jisho wa doko ni arimasu ka.
+Nghĩa: Từ điển tiếng Hàn ở đâu?
+
+A. 3階
+Nghĩa: Tầng 3
+B. 2階
+Nghĩa: Tầng 2
+C. 地下
+Nghĩa: Tầng hầm
+D. 1階
+Nghĩa: Tầng 1
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「3階です」.
+
+Câu 2:
+[00:20] 質問: タイ語の辞書がありますか。
+Romaji: Tai-go no jisho ga arimasu ka.
+Nghĩa: Có từ điển tiếng Thái không?
+
+A. いいえ、ありません
+Nghĩa: Không, không có
+B. はい、あります
+Nghĩa: Có
+C. 3階にあります
+Nghĩa: Có ở tầng 3
+D. 2階にあります
+Nghĩa: Có ở tầng 2
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「いいえ、ありません」.
+
+Câu 3:
+[00:35] 質問: 喫茶店がありますか。
+Romaji: Kissaten ga arimasu ka.
+Nghĩa: Có quán cà phê không?
+
+A. いいえ、ありません
+Nghĩa: Không, không có
+B. はい、あります
+Nghĩa: Có
+C. 2階にあります
+Nghĩa: Có ở tầng 2
+D. 3階にあります
+Nghĩa: Có ở tầng 3
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Không có quán cà phê, nhưng có quầy đồ uống ở tầng hầm.
+
+Câu 4:
+[00:59] 質問: ビデオとCDの部屋はどこにありますか。
+Romaji: Bideo to CD no heya wa doko ni arimasu ka.
+Nghĩa: Phòng video và CD ở đâu?
+
+A. 2階
+Nghĩa: Tầng 2
+B. 3階
+Nghĩa: Tầng 3
+C. 地下
+Nghĩa: Tầng hầm
+D. 図書館の外
+Nghĩa: Bên ngoài thư viện
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「2階にビデオとCDの部屋があります」.
+
+---
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[01:18] A: あそこに猫がいますよ。
+Romaji: Asoko ni neko ga imasu yo.
+Nghĩa: Ở đằng kia có con mèo đấy.
+
+[01:23] B: どこ。
+Romaji: Doko.
+Nghĩa: Ở đâu?
+
+[01:23] A: あの魚屋の上。
+Romaji: Ano sakanaya no ue.
+Nghĩa: Trên cửa hàng cá kia.
+
+[01:27] B: ああ、黒い猫ですね。
+Romaji: Aa, kuroi neko desu ne.
+Nghĩa: À, là con mèo đen nhỉ.
+
+[01:33] A: あれは何ですか。
+Romaji: Are wa nan desu ka.
+Nghĩa: Cái kia là gì?
+
+[01:38] B: どこですか。
+Romaji: Doko desu ka.
+Nghĩa: Ở đâu?
+
+[01:38] A: スーパーと本屋の間に面白い店がありますね。
+Romaji: Suupaa to honya no aida ni omoshiroi mise ga arimasu ne.
+Nghĩa: Giữa siêu thị và hiệu sách có một cửa hàng thú vị nhỉ.
+
+[01:46] B: あれはカラオケの店ですよ。
+Romaji: Are wa karaoke no mise desu yo.
+Nghĩa: Đó là quán karaoke đấy.
+
+[01:59] A: 大きい犬、どこですか。
+Romaji: Ookii inu, doko desu ka.
+Nghĩa: Con chó lớn ở đâu?
+
+[01:59] B: 駅の前にバス乗り場がありますね。
+Romaji: Eki no mae ni basu noriba ga arimasu ne.
+Nghĩa: Trước ga có trạm xe buýt đúng không?
+
+[02:05] B: 10番のバス乗り場にいますよ。
+Romaji: Juu-ban no basu noriba ni imasu yo.
+Nghĩa: Nó ở trạm xe buýt số 10 đấy.
+
+[02:09] A: 白い犬ですね。
+Romaji: Shiroi inu desu ne.
+Nghĩa: Là con chó trắng nhỉ.
+
+[02:14] A: 小さい公園がありますよ。
+Romaji: Chiisai kouen ga arimasu yo.
+Nghĩa: Có một công viên nhỏ đấy.
+
+[02:18] B: どこですか。
+Romaji: Doko desu ka.
+Nghĩa: Ở đâu?
+
+[02:18] A: あの山の下です。
+Romaji: Ano yama no shita desu.
+Nghĩa: Ở dưới ngọn núi kia.
+
+[02:23] B: 桜の木もありますね。
+Romaji: Sakura no ki mo arimasu ne.
+Nghĩa: Cũng có cây hoa anh đào nhỉ.
+
+[02:26] A: きれいですね。
+Romaji: Kirei desu ne.
+Nghĩa: Đẹp nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[01:18] 質問: 猫はどこにいますか。
+Romaji: Neko wa doko ni imasu ka.
+Nghĩa: Con mèo ở đâu?
+
+A. 魚屋の上
+Nghĩa: Trên cửa hàng cá
+B. スーパーの中
+Nghĩa: Trong siêu thị
+C. 本屋の前
+Nghĩa: Trước hiệu sách
+D. 駅の前
+
+Nghĩa: Trước ga
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「あの魚屋の上」.
+
+Câu 2:
+[01:38] 質問: スーパーと本屋の間に何がありますか。
+Romaji: Suupaa to honya no aida ni nani ga arimasu ka.
+Nghĩa: Giữa siêu thị và hiệu sách có gì?
+
+A. カラオケの店
+Nghĩa: Quán karaoke
+B. 魚屋
+Nghĩa: Cửa hàng cá
+C. バス乗り場
+Nghĩa: Trạm xe buýt
+D. 公園
+Nghĩa: Công viên
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「カラオケの店です」.
+
+Câu 3:
+[02:05] 質問: 犬はどこにいますか。
+Romaji: Inu wa doko ni imasu ka.
+Nghĩa: Con chó ở đâu?
+
+A. 10番のバス乗り場
+Nghĩa: Trạm xe buýt số 10
+B. 魚屋の上
+Nghĩa: Trên cửa hàng cá
+C. スーパーと本屋の間
+Nghĩa: Giữa siêu thị và hiệu sách
+D. 山の下
+Nghĩa: Dưới ngọn núi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「10番のバス乗り場にいます」.
+
+Câu 4:
+[02:18] 質問: 小さい公園はどこにありますか。
+Romaji: Chiisai kouen wa doko ni arimasu ka.
+Nghĩa: Công viên nhỏ ở đâu?
+
+A. 山の下
+Nghĩa: Dưới ngọn núi
+B. 駅の前
+Nghĩa: Trước ga
+C. 本屋の間
+Nghĩa: Giữa hiệu sách
+D. 魚屋の上
+Nghĩa: Trên cửa hàng cá
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói nói 「あの山の下です」.
+
+---
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[02:45] A: はい、ミラーです。
+Romaji: Hai, Miraa desu.
+Nghĩa: Vâng, Miller nghe đây.
+
+[02:45] B: もしもし、木村です。
+Romaji: Moshimoshi, Kimura desu.
+Nghĩa: Alo, tôi là Kimura.
+
+[02:50] B: 今、郵便局の近くにいますが、郵便局ですか。
+Romaji: Ima, yuubinkyoku no chikaku ni imasu ga, yuubinkyoku desu ka.
+Nghĩa: Bây giờ tôi đang ở gần bưu điện, có phải bưu điện không?
+
+[02:55] A: ポストの前です。
+Romaji: Posuto no mae desu.
+Nghĩa: Tôi ở trước hòm thư.
+
+[02:55] B: わかりました。今行きます。すみません。
+Romaji: Wakarimashita. Ima ikimasu. Sumimasen.
+Nghĩa: Tôi hiểu rồi. Bây giờ tôi đến. Xin lỗi.
+
+[03:10] A: はい、ミラーです。
+Romaji: Hai, Miraa desu.
+Nghĩa: Vâng, Miller nghe đây.
+
+[03:10] B: もしもし、カリナです。今、駅です。
+Romaji: Moshimoshi, Karina desu. Ima, eki desu.
+Nghĩa: Alo, tôi là Karina. Bây giờ tôi ở ga.
+
+[03:14] A: 駅のどこにいますか。
+Romaji: Eki no doko ni imasu ka.
+Nghĩa: Bạn đang ở chỗ nào của nhà ga?
+
+[03:18] B: 前にタクシー乗り場があります。
+Romaji: Mae ni takushii noriba ga arimasu.
+Nghĩa: Phía trước có bãi đón taxi.
+
+[03:22] A: わかりました。今行きます。
+Romaji: Wakarimashita. Ima ikimasu.
+Nghĩa: Tôi hiểu rồi. Bây giờ tôi đến.
+
+[03:36] A: はい、ミラーです。
+Romaji: Hai, Miraa desu.
+Nghĩa: Vâng, Miller nghe đây.
+
+[03:36] B: もしもし、マリアです。
+Romaji: Moshimoshi, Maria desu.
+Nghĩa: Alo, tôi là Maria.
+
+[03:40] B: 近くまで来ましたが、ちょっとわかりません。前に何がありますか。
+Romaji: Chikaku made kimashita ga, chotto wakarimasen. Mae ni nani ga arimasu ka.
+Nghĩa: Tôi đã đến gần rồi nhưng hơi không rõ. Phía trước có gì?
+
+[03:46] A: 前に喫茶店があります。その右に大きいスーパーがあります。
+Romaji: Mae ni kissaten ga arimasu. Sono migi ni ookii suupaa ga arimasu.
+Nghĩa: Phía trước có quán cà phê. Bên phải của nó có siêu thị lớn.
+
+[03:52] B: わかりました。今行きますから。
+Romaji: Wakarimashita. Ima ikimasu kara.
+Nghĩa: Tôi hiểu rồi. Bây giờ tôi sẽ đến.
+
+[04:06] A: はい、ミラーです。
+Romaji: Hai, Miraa desu.
+Nghĩa: Vâng, Miller nghe đây.
+
+[04:06] B: もしもし。今、駅の近くです。
+Romaji: Moshimoshi. Ima, eki no chikaku desu.
+Nghĩa: Alo. Bây giờ tôi ở gần ga.
+
+[04:10] A: どこにいますか。何がありますか。
+Romaji: Doko ni imasu ka. Nani ga arimasu ka.
+Nghĩa: Bạn đang ở đâu? Có gì ở đó?
+
+[04:15] B: 今、公園の中にいます。
+Romaji: Ima, kouen no naka ni imasu.
+Nghĩa: Bây giờ tôi đang ở trong công viên.
+
+[04:20] B: 前に花屋があります。その隣は病院です。
+Romaji: Mae ni hanaya ga arimasu. Sono tonari wa byouin desu.
+Nghĩa: Phía trước có cửa hàng hoa. Bên cạnh đó là bệnh viện.
+
+[04:24] A: わかりました。今行きます。お願いします。
+Romaji: Wakarimashita. Ima ikimasu. Onegaishimasu.
+Nghĩa: Tôi hiểu rồi. Bây giờ tôi đến. Nhờ bạn nhé.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[02:55] 質問: 木村さんは今どこにいますか。
+Romaji: Kimura-san wa ima doko ni imasu ka.
+Nghĩa: Bạn Kimura bây giờ đang ở đâu?
+
+A. ポストの前
+Nghĩa: Trước hòm thư
+B. 駅の前
+Nghĩa: Trước ga
+C. 公園の中
+Nghĩa: Trong công viên
+D. スーパーの右
+
+Nghĩa: Bên phải siêu thị
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「ポストの前です」.
+
+Câu 2:
+[03:18] 質問: カリナさんの前に何がありますか。
+Romaji: Karina-san no mae ni nani ga arimasu ka.
+Nghĩa: Trước mặt bạn Karina có gì?
+
+A. タクシー乗り場
+Nghĩa: Bãi đón taxi
+B. ポスト
+Nghĩa: Hòm thư
+C. 花屋
+Nghĩa: Cửa hàng hoa
+D. 病院
+Nghĩa: Bệnh viện
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Karina nói 「前にタクシー乗り場があります」.
+
+Câu 3:
+[03:46] 質問: マリアさんの前に何がありますか。
+Romaji: Maria-san no mae ni nani ga arimasu ka.
+Nghĩa: Trước mặt bạn Maria có gì?
+
+A. 喫茶店
+Nghĩa: Quán cà phê
+B. タクシー乗り場
+Nghĩa: Bãi đón taxi
+C. 病院
+Nghĩa: Bệnh viện
+D. 花屋
+Nghĩa: Cửa hàng hoa
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「前に喫茶店があります」.
+
+Câu 4:
+[04:20] 質問: 公園の前に何がありますか。
+Romaji: Kouen no mae ni nani ga arimasu ka.
+Nghĩa: Trước công viên có gì?
+
+A. 花屋
+Nghĩa: Cửa hàng hoa
+B. 喫茶店
+Nghĩa: Quán cà phê
+C. ポスト
+Nghĩa: Hòm thư
+D. タクシー乗り場
+Nghĩa: Bãi đón taxi
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「前に花屋があります」.
+
+---
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[04:47] A: すみません。卵はありませんか。
+Romaji: Sumimasen. Tamago wa arimasen ka.
+Nghĩa: Xin lỗi. Có trứng không?
+
+[04:50] B: はい。そこに野菜のコーナーがありますね。
+Romaji: Hai. Soko ni yasai no koonaa ga arimasu ne.
+Nghĩa: Có. Ở đó có quầy rau đúng không?
+
+[04:55] B: 卵はその後ろです。
+Romaji: Tamago wa sono ushiro desu.
+Nghĩa: Trứng ở phía sau đó.
+
+[05:05] A: ビールはどこですか。
+Romaji: Biiru wa doko desu ka.
+Nghĩa: Bia ở đâu?
+
+[05:05] B: あそこにパンの売り場がありますね。
+Romaji: Asoko ni pan no uriba ga arimasu ne.
+Nghĩa: Ở kia có quầy bán bánh mì đúng không?
+
+[05:11] B: パンの右にワインのコーナーがあります。ビールはその隣です。
+Romaji: Pan no migi ni wain no koonaa ga arimasu. Biiru wa sono tonari desu.
+Nghĩa: Bên phải quầy bánh mì có quầy rượu vang. Bia ở bên cạnh đó.
+
+[05:16] A: そうですか。どうも。
+Romaji: Sou desu ka. Doumo.
+Nghĩa: Vậy à. Cảm ơn.
+
+[05:25] A: チョコレートはどこにありますか。
+Romaji: Chokoreeto wa doko ni arimasu ka.
+Nghĩa: Sô-cô-la ở đâu?
+
+[05:29] B: 右の奥にスパイスコーナーがあります。
+Romaji: Migi no oku ni supaisu koonaa ga arimasu.
+Nghĩa: Ở sâu bên phải có quầy gia vị.
+
+[05:29] B: スパイスコーナーの左にコーヒーがあります。
+Romaji: Supaisu koonaa no hidari ni koohii ga arimasu.
+Nghĩa: Bên trái quầy gia vị có cà phê.
+
+[05:35] B: チョコレートはその前です。
+Romaji: Chokoreeto wa sono mae desu.
+Nghĩa: Sô-cô-la ở phía trước đó.
+
+[05:38] A: わかりました。ありがとう。
+Romaji: Wakarimashita. Arigatou.
+Nghĩa: Tôi hiểu rồi. Cảm ơn.
+
+[05:46] A: チリーソースはどこですか。
+Romaji: Chirii soosu wa doko desu ka.
+Nghĩa: Tương ớt ở đâu?
+
+[05:49] B: 右の奥のスパイスコーナーにあります。
+Romaji: Migi no oku no supaisu koonaa ni arimasu.
+Nghĩa: Ở quầy gia vị sâu bên phải.
+
+[05:49] B: 上から2段目です。
+Romaji: Ue kara ni-danme desu.
+Nghĩa: Kệ thứ 2 tính từ trên xuống.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[04:47] 質問: 卵はどこにありますか。
+Romaji: Tamago wa doko ni arimasu ka.
+Nghĩa: Trứng ở đâu?
+
+A. 野菜のコーナーの後ろ
+Nghĩa: Phía sau quầy rau
+B. パンの右
+Nghĩa: Bên phải quầy bánh mì
+C. コーヒーの前
+Nghĩa: Phía trước cà phê
+D. スパイスコーナーの左
+Nghĩa: Bên trái quầy gia vị
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「卵はその後ろです」, tức phía sau quầy rau.
+
+Câu 2:
+[05:05] 質問: ビールはどこにありますか。
+Romaji: Biiru wa doko ni arimasu ka.
+Nghĩa: Bia ở đâu?
+
+A. ワインのコーナーの隣
+Nghĩa: Bên cạnh quầy rượu vang
+B. 野菜のコーナーの後ろ
+Nghĩa: Phía sau quầy rau
+C. スパイスコーナーの左
+Nghĩa: Bên trái quầy gia vị
+D. チョコレートの前
+Nghĩa: Phía trước sô-cô-la
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「ビールはその隣です」, chỉ quầy rượu vang.
+
+Câu 3:
+[05:25] 質問: チョコレートはどこにありますか。
+Romaji: Chokoreeto wa doko ni arimasu ka.
+Nghĩa: Sô-cô-la ở đâu?
+
+A. コーヒーの前
+Nghĩa: Phía trước cà phê
+B. 野菜の後ろ
+Nghĩa: Phía sau rau
+C. パンの右
+Nghĩa: Bên phải bánh mì
+D. ワインの隣
+
+Nghĩa: Bên cạnh rượu vang
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Có câu 「チョコレートはその前です」, “その” chỉ cà phê.
+
+Câu 4:
+[05:46] 質問: チリーソースはどこにありますか。
+Romaji: Chirii soosu wa doko ni arimasu ka.
+Nghĩa: Tương ớt ở đâu?
+
+A. スパイスコーナーの上から2段目
+Nghĩa: Kệ thứ 2 từ trên xuống ở quầy gia vị
+B. 野菜のコーナーの後ろ
+Nghĩa: Phía sau quầy rau
+C. コーヒーの前
+Nghĩa: Phía trước cà phê
+D. パンの売り場の右
+
+Nghĩa: Bên phải quầy bánh mì
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người trả lời nói 「スパイスコーナーにあります。上から2段目です」.

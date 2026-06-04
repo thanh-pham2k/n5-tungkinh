@@ -1,0 +1,1009 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JLPT N5 Listening - Bài 11</title>
+  <style>
+    :root {
+      --bg: #f6f8fb; --panel: #fff; --text: #162033; --muted: #64748b;
+      --line: #dbe3ef; --primary: #0f766e; --primary-soft: #e1f4f1;
+      --ok: #147a3d; --bad: #b42318; --shadow: 0 12px 28px rgba(15,23,42,.08);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: Arial, sans-serif; line-height: 1.5; }
+    header { position: sticky; top: 0; z-index: 5; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.96); padding: 14px 16px; }
+    .header-inner { max-width: 960px; margin: 0 auto; display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { margin-bottom: 2px; font-size: clamp(20px, 4vw, 30px); }
+    .hint { margin: 0; color: var(--muted); }
+    .score { min-width: max-content; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 8px 10px; font-weight: 700; color: var(--muted); }
+    main { width: min(960px, 100%); margin: 0 auto; padding: 16px; display: grid; gap: 14px; }
+    .segment-card { border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); padding: 16px; }
+    .segment-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
+    .eyebrow { margin: 0 0 4px; color: var(--primary); font-size: 13px; font-weight: 800; text-transform: uppercase; }
+    h2 { margin-bottom: 0; font-size: clamp(18px, 3vw, 24px); }
+    .time { color: var(--muted); font-weight: 700; }
+    audio { width: 100%; display: block; margin: 12px 0; }
+    button { min-height: 42px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 8px 12px; font-weight: 700; cursor: pointer; }
+    button:hover { border-color: var(--primary); color: var(--primary); }
+    .toggle-script { margin-bottom: 12px; }
+    .script-text { width: 100%; margin: 0 0 14px; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 12px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 15px; }
+    .quiz { border-top: 1px solid var(--line); padding-top: 14px; }
+    .question { margin-bottom: 4px; font-weight: 800; font-size: 17px; }
+    .subline { margin: 0 0 6px; color: var(--muted); }
+    .options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 12px 0; }
+    .option { min-height: 68px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 12px; display: grid; grid-template-columns: 24px minmax(0, 1fr); column-gap: 10px; align-items: start; cursor: pointer; }
+    .option:has(input:checked) { border-color: var(--primary); background: var(--primary-soft); }
+    .option input { margin-top: 4px; }
+    .option-body { min-width: 0; display: grid; gap: 4px; }
+    .option-line { display: flex; gap: 8px; align-items: baseline; min-width: 0; }
+    .option-key { flex: 0 0 auto; font-weight: 800; }
+    .option-text { min-width: 0; font-weight: 800; white-space: normal; word-break: normal; overflow-wrap: break-word; line-break: strict; }
+    .option-meaning { color: var(--muted); font-size: 14px; white-space: normal; word-break: normal; overflow-wrap: break-word; }
+    .check-answer { background: var(--primary); border-color: var(--primary); color: #fff; }
+    .feedback { min-height: 24px; margin-top: 10px; font-weight: 800; }
+    .feedback.ok { color: var(--ok); }
+    .feedback.bad { color: var(--bad); }
+    .explanation { margin: 4px 0 0; color: var(--muted); }
+    @media (max-width: 640px) {
+      header { position: static; } .header-inner { align-items: flex-start; flex-direction: column; }
+      .score, button { width: 100%; } main { padding: 10px; } .segment-card { padding: 12px; }
+      .segment-head { flex-direction: column; } .time { width: 100%; } .options { grid-template-columns: 1fr; }
+      button { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1>JLPT N5 Listening - Bài 11</h1>
+        <p class="hint">Nghe từng đoạn, tự trả lời, rồi mới mở script để kiểm tra.</p>
+      </div>
+      <div class="score" id="score">0 / 11 câu đúng</div>
+    </div>
+  </header>
+  <main>
+            <article class="segment-card" data-segment="0" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 001</p>
+                  <h2>Đoạn 1</h2>
+                </div>
+                <div class="time">06:11.000 - 06:32.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_001.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>何をいくつ注文しましたか。
+Romaji: Nani o ikutsu chuumon shimashita ka.
+Nghĩa: Đã gọi món gì và bao nhiêu cái?
+
+いらっしゃいませ。
+Romaji: Irasshaimase.
+Nghĩa: Xin chào quý khách.
+
+コーヒー一つとミルク一つ。
+Romaji: Koohii hitotsu to miruku hitotsu.
+Nghĩa: Một cà phê và một sữa.
+
+はい、かしこまりました。
+Romaji: Hai, kashikomarimashita.
+Nghĩa: Vâng, tôi hiểu rồi.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">何をいくつ注文しましたか。</p>
+                <p class="subline">Nani o ikutsu chuumon shimashita ka.</p>
+                <p class="subline">Đã gọi món gì và bao nhiêu cái?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-0" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">コーヒー一つとミルク一つ</span></span>
+                    <span class="option-meaning">Một cà phê và một sữa</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">紅茶一つとサンドイッチ一つ</span></span>
+                    <span class="option-meaning">Một trà đen và một bánh sandwich</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">カレーライス二つ</span></span>
+                    <span class="option-meaning">Hai phần cơm cà ri</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">ジュース二つ</span></span>
+                    <span class="option-meaning">Hai ly nước ép</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người khách gọi コーヒー一つ và ミルク一つ.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="1" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 002</p>
+                  <h2>Đoạn 2</h2>
+                </div>
+                <div class="time">06:32.000 - 07:01.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_002.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>いらっしゃいませ。こちらへどうぞ。
+Romaji: Irasshaimase. Kochira e douzo.
+Nghĩa: Xin chào quý khách. Xin mời vào đây.
+
+私は紅茶とサンドイッチ。
+Romaji: Watashi wa koucha to sandoicchi.
+Nghĩa: Tôi lấy trà đen và bánh sandwich.
+
+私は、ビールがありますか。
+Romaji: Watashi wa, biiru ga arimasu ka.
+Nghĩa: Tôi thì... có bia không?
+
+はい、あります。
+Romaji: Hai, arimasu.
+Nghĩa: Vâng, có.
+
+じゃ、ビール。それから、私もサンドイッチください。
+Romaji: Ja, biiru. Sorekara, watashi mo sandoicchi kudasai.
+Nghĩa: Vậy cho tôi bia. Và tôi cũng lấy bánh sandwich.
+
+はい、紅茶一つ、ビール一つ、サンドイッチ二つですね。
+Romaji: Hai, koucha hitotsu, biiru hitotsu, sandoicchi futatsu desu ne.
+Nghĩa: Vâng, một trà đen, một bia, hai bánh sandwich đúng không ạ?
+
+かしこまりました。
+Romaji: Kashikomarimashita.
+Nghĩa: Tôi hiểu rồi.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">何をいくつ注文しましたか。</p>
+                <p class="subline">Nani o ikutsu chuumon shimashita ka.</p>
+                <p class="subline">Đã gọi món gì và bao nhiêu cái?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-1" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">紅茶一つ、ビール一つ、サンドイッチ二つ</span></span>
+                    <span class="option-meaning">Một trà đen, một bia, hai bánh sandwich</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">コーヒー一つ、ミルク一つ</span></span>
+                    <span class="option-meaning">Một cà phê, một sữa</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">カレーライス二つ、ジュース三つ</span></span>
+                    <span class="option-meaning">Hai cơm cà ri, ba nước ép</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-1" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">ビール二つ、サンドイッチ一つ</span></span>
+                    <span class="option-meaning">Hai bia, một bánh sandwich</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Nhân viên xác nhận: 紅茶一つ、ビール一つ、サンドイッチ二つ.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="2" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 003</p>
+                  <h2>Đoạn 3</h2>
+                </div>
+                <div class="time">07:01.000 - 07:29.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_003.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>いらっしゃいませ。
+Romaji: Irasshaimase.
+Nghĩa: Xin chào quý khách.
+
+私はカレーライス。
+Romaji: Watashi wa karee raisu.
+Nghĩa: Tôi lấy cơm cà ri.
+
+私も。
+Romaji: Watashi mo.
+Nghĩa: Tôi cũng vậy.
+
+私はサンドイッチ。
+Romaji: Watashi wa sandoicchi.
+Nghĩa: Tôi lấy bánh sandwich.
+
+それから、ジュース。
+Romaji: Sorekara, juusu.
+Nghĩa: Thêm nước ép nữa.
+
+私も。
+Romaji: Watashi mo.
+Nghĩa: Tôi cũng vậy.
+
+カレーライス二つとサンドイッチ一つ、ジュース三つですね。
+Romaji: Karee raisu futatsu to sandoicchi hitotsu, juusu mittsu desu ne.
+Nghĩa: Hai cơm cà ri, một bánh sandwich, ba nước ép đúng không ạ?
+
+いいえ、ジュースは二つです。
+Romaji: Iie, juusu wa futatsu desu.
+Nghĩa: Không, nước ép là hai ly.
+
+かしこまりました。
+Romaji: Kashikomarimashita.
+Nghĩa: Tôi hiểu rồi.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">何をいくつ注文しましたか。</p>
+                <p class="subline">Nani o ikutsu chuumon shimashita ka.</p>
+                <p class="subline">Đã gọi món gì và bao nhiêu cái?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-2" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">カレーライス二つ、サンドイッチ一つ、ジュース二つ</span></span>
+                    <span class="option-meaning">Hai cơm cà ri, một bánh sandwich, hai nước ép</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">カレーライス一つ、サンドイッチ二つ、ジュース二つ</span></span>
+                    <span class="option-meaning">Một cơm cà ri, hai bánh sandwich, hai nước ép</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">カレーライス二つ、サンドイッチ一つ、ジュース三つ</span></span>
+                    <span class="option-meaning">Hai cơm cà ri, một bánh sandwich, ba nước ép</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">コーヒー二つ、ジュース二つ</span></span>
+                    <span class="option-meaning">Hai cà phê, hai nước ép</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Nhân viên nói nhầm ジュース三つ, khách sửa lại là ジュース二つ.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="3" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 004</p>
+                  <h2>Đoạn 4</h2>
+                </div>
+                <div class="time">07:29.000 - 07:59.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_004.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>全部で何枚ありますか。
+Romaji: Zenbu de nanmai arimasu ka.
+Nghĩa: Tổng cộng có bao nhiêu tờ/đĩa?
+
+豊田さん、CDがありますね。何枚ありますか。
+Romaji: Toyoda-san, shiidii ga arimasu ne. Nanmai arimasu ka.
+Nghĩa: Anh Toyoda có CD nhỉ. Có bao nhiêu đĩa?
+
+日本の歌が100枚。
+Romaji: Nihon no uta ga hyakumai.
+Nghĩa: Nhạc Nhật có 100 đĩa.
+
+クラシックが200枚。
+Romaji: Kurashikku ga nihyakumai.
+Nghĩa: Nhạc cổ điển có 200 đĩa.
+
+ジャズが300枚です。
+Romaji: Jazu ga sanbyakumai desu.
+Nghĩa: Nhạc jazz có 300 đĩa.
+
+妻は音楽の教師ですから。
+Romaji: Tsuma wa ongaku no kyoushi desu kara.
+Nghĩa: Vì vợ tôi là giáo viên âm nhạc.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">全部で何枚ありますか。</p>
+                <p class="subline">Zenbu de nanmai arimasu ka.</p>
+                <p class="subline">Tổng cộng có bao nhiêu đĩa?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-3" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">600枚</span></span>
+                    <span class="option-meaning">600 đĩa</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">300枚</span></span>
+                    <span class="option-meaning">300 đĩa</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">500枚</span></span>
+                    <span class="option-meaning">500 đĩa</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-3" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">100枚</span></span>
+                    <span class="option-meaning">100 đĩa</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>100枚 + 200枚 + 300枚 = 600枚.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="4" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 005</p>
+                  <h2>Đoạn 5</h2>
+                </div>
+                <div class="time">07:59.000 - 08:29.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_005.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>これは家族の写真ですか。
+Romaji: Kore wa kazoku no shashin desu ka.
+Nghĩa: Đây là ảnh gia đình à?
+
+はい。今年の1月1日に撮りました。
+Romaji: Hai. Kotoshi no ichigatsu tsuitachi ni torimashita.
+Nghĩa: Vâng. Chụp vào ngày 1 tháng 1 năm nay.
+
+たくさんいますね。
+Romaji: Takusan imasu ne.
+Nghĩa: Đông người nhỉ.
+
+左から、私、妻、私の両親、妻の両親、そして後ろに子供が5人います。
+Romaji: Hidari kara, watashi, tsuma, watashi no ryoushin, tsuma no ryoushin, soshite ushiro ni kodomo ga gonin imasu.
+Nghĩa: Từ trái sang là tôi, vợ tôi, bố mẹ tôi, bố mẹ vợ tôi, và phía sau có 5 đứa trẻ.
+
+男の子が3人と女の子が2人です。
+Romaji: Otokonoko ga sannin to onnanoko ga futari desu.
+Nghĩa: Có 3 bé trai và 2 bé gái.
+
+家の中はいつも賑やかです。
+Romaji: Ie no naka wa itsumo nigiyaka desu.
+Nghĩa: Trong nhà lúc nào cũng náo nhiệt.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">全部で何人いますか。</p>
+                <p class="subline">Zenbu de nannin imasu ka.</p>
+                <p class="subline">Tổng cộng có bao nhiêu người?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-4" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">11人</span></span>
+                    <span class="option-meaning">11 người</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-4" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">5人</span></span>
+                    <span class="option-meaning">5 người</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-4" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">6人</span></span>
+                    <span class="option-meaning">6 người</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-4" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">9人</span></span>
+                    <span class="option-meaning">9 người</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Tôi + vợ + bố mẹ tôi 2 người + bố mẹ vợ 2 người + 5 con = 11 người.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="5" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 006</p>
+                  <h2>Đoạn 6</h2>
+                </div>
+                <div class="time">08:29.000 - 08:55.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_006.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>豊田さんは旅行が好きですね。
+Romaji: Toyoda-san wa ryokou ga suki desu ne.
+Nghĩa: Anh Toyoda thích du lịch nhỉ.
+
+去年は何回外国へ行きましたか。
+Romaji: Kyonen wa nankai gaikoku e ikimashita ka.
+Nghĩa: Năm ngoái anh đã đi nước ngoài mấy lần?
+
+去年はアメリカへ3回、インドへ1回、ヨーロッパへ4回行きました。
+Romaji: Kyonen wa Amerika e sankai, Indo e ikkai, Yooroppa e yonkai ikimashita.
+Nghĩa: Năm ngoái tôi đi Mỹ 3 lần, Ấn Độ 1 lần, châu Âu 4 lần.
+
+韓国も2回行きました。
+Romaji: Kankoku mo nikai ikimashita.
+Nghĩa: Hàn Quốc cũng đi 2 lần.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">全部で何回外国へ行きましたか。</p>
+                <p class="subline">Zenbu de nankai gaikoku e ikimashita ka.</p>
+                <p class="subline">Tổng cộng đã đi nước ngoài mấy lần?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-5" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">10回</span></span>
+                    <span class="option-meaning">10 lần</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-5" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">8回</span></span>
+                    <span class="option-meaning">8 lần</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-5" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">4回</span></span>
+                    <span class="option-meaning">4 lần</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-5" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">3回</span></span>
+                    <span class="option-meaning">3 lần</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>3回 + 1回 + 4回 + 2回 = 10回.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="6" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 007</p>
+                  <h2>Đoạn 7</h2>
+                </div>
+                <div class="time">08:55.000 - 09:20.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_007.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>これは豊田さんの車ですか。
+Romaji: Kore wa Toyoda-san no kuruma desu ka.
+Nghĩa: Đây là xe của anh Toyoda à?
+
+この黒い車と白い車は私のです。
+Romaji: Kono kuroi kuruma to shiroi kuruma wa watashi no desu.
+Nghĩa: Chiếc xe màu đen và màu trắng này là của tôi.
+
+あの赤い車は。
+Romaji: Ano akai kuruma wa.
+Nghĩa: Còn chiếc xe màu đỏ kia thì sao?
+
+あれは妻のです。
+Romaji: Are wa tsuma no desu.
+Nghĩa: Cái đó là của vợ tôi.
+
+あちらの小さい車は子供のです。
+Romaji: Achira no chiisai kuruma wa kodomo no desu.
+Nghĩa: Chiếc xe nhỏ ở đằng kia là của con tôi.
+
+全部で4台です。
+Romaji: Zenbu de yondai desu.
+Nghĩa: Tổng cộng là 4 chiếc.
+
+私は車が好きですから。
+Romaji: Watashi wa kuruma ga suki desu kara.
+Nghĩa: Vì tôi thích xe hơi.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">全部で何台ですか。</p>
+                <p class="subline">Zenbu de nandai desu ka.</p>
+                <p class="subline">Tổng cộng có bao nhiêu chiếc xe?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-6" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">4台</span></span>
+                    <span class="option-meaning">4 chiếc</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-6" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">2台</span></span>
+                    <span class="option-meaning">2 chiếc</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-6" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">3台</span></span>
+                    <span class="option-meaning">3 chiếc</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-6" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">5台</span></span>
+                    <span class="option-meaning">5 chiếc</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Có xe đen, xe trắng, xe đỏ và xe nhỏ: tổng cộng 4台.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="7" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 008</p>
+                  <h2>Đoạn 8</h2>
+                </div>
+                <div class="time">09:20.000 - 10:43.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_008.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>女の人はどこにどのくらいいましたか。
+Romaji: Onna no hito wa doko ni dono kurai imashita ka.
+Nghĩa: Người phụ nữ đã ở đâu và trong bao lâu?
+
+皆さん、こんにちは。私はイギリスから来ました。
+Romaji: Minasan, konnichiwa. Watashi wa Igirisu kara kimashita.
+Nghĩa: Xin chào mọi người. Tôi đến từ Anh.
+
+イギリスからエジプトまで飛行機で行きました。
+Romaji: Igirisu kara Ejiputo made hikouki de ikimashita.
+Nghĩa: Tôi đi từ Anh đến Ai Cập bằng máy bay.
+
+エジプトからインドまで船で行きました。8日かかりました。
+Romaji: Ejiputo kara Indo made fune de ikimashita. Youka kakarimashita.
+Nghĩa: Tôi đi từ Ai Cập đến Ấn Độ bằng thuyền. Mất 8 ngày.
+
+船の中でいろいろな映画を見ました。
+Romaji: Fune no naka de iroiro na eiga o mimashita.
+Nghĩa: Trên thuyền, tôi đã xem nhiều bộ phim.
+
+インドのニューデリーに4か月いました。
+Romaji: Indo no Nyuuderii ni yonkagetsu imashita.
+Nghĩa: Tôi đã ở New Delhi của Ấn Độ 4 tháng.
+
+インドのダンスを習いました。
+Romaji: Indo no dansu o naraimashita.
+Nghĩa: Tôi đã học múa Ấn Độ.
+
+それから、ベトナムへ来ました。5週間いました。
+Romaji: Sorekara, Betonamu e kimashita. Goshuukan imashita.
+Nghĩa: Sau đó, tôi đến Việt Nam. Tôi đã ở 5 tuần.
+
+いろいろな町を見ました。
+Romaji: Iroiro na machi o mimashita.
+Nghĩa: Tôi đã tham quan nhiều thành phố.
+
+それから、北京へ行きました。友達の家に1週間いました。
+Romaji: Sorekara, Pekin e ikimashita. Tomodachi no ie ni isshuukan imashita.
+Nghĩa: Sau đó, tôi đi Bắc Kinh. Tôi ở nhà bạn 1 tuần.
+
+中国語を勉強しました。それから、日本へ来ました。
+Romaji: Chuugokugo o benkyou shimashita. Sorekara, Nihon e kimashita.
+Nghĩa: Tôi đã học tiếng Trung. Sau đó, tôi đến Nhật Bản.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">女の人はどこにどのくらいいましたか。</p>
+                <p class="subline">Onna no hito wa doko ni dono kurai imashita ka.</p>
+                <p class="subline">Người phụ nữ đã ở đâu và trong bao lâu?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-7" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">インドに4か月、ベトナムに5週間、北京に1週間</span></span>
+                    <span class="option-meaning">Ở Ấn Độ 4 tháng, Việt Nam 5 tuần, Bắc Kinh 1 tuần</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">インドに5週間、ベトナムに4か月、北京に1週間</span></span>
+                    <span class="option-meaning">Ở Ấn Độ 5 tuần, Việt Nam 4 tháng, Bắc Kinh 1 tuần</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">エジプトに8日、インドに1週間、北京に5週間</span></span>
+                    <span class="option-meaning">Ở Ai Cập 8 ngày, Ấn Độ 1 tuần, Bắc Kinh 5 tuần</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">日本に4か月、ベトナムに1週間、北京に5週間</span></span>
+                    <span class="option-meaning">Ở Nhật 4 tháng, Việt Nam 1 tuần, Bắc Kinh 5 tuần</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Bài nói nêu rõ インド4か月、ベトナム5週間、北京1週間.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="8" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 009</p>
+                  <h2>Đoạn 9</h2>
+                </div>
+                <div class="time">10:43.000 - 11:06.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_009.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>何で送りますか。
+Romaji: Nande okurimasu ka.
+Nghĩa: Gửi bằng gì?
+
+どのくらいかかりますか。
+Romaji: Dono kurai kakarimasu ka.
+Nghĩa: Mất bao lâu?
+
+すみません。この手紙、北京までエアメールでお願いします。
+Romaji: Sumimasen. Kono tegami, Pekin made eameeru de onegai shimasu.
+Nghĩa: Xin lỗi. Bức thư này gửi đến Bắc Kinh bằng đường hàng không giúp tôi.
+
+どのくらいかかりますか。
+Romaji: Dono kurai kakarimasu ka.
+Nghĩa: Mất bao lâu?
+
+1週間ぐらいです。
+Romaji: Isshuukan gurai desu.
+Nghĩa: Khoảng 1 tuần.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">何で送りますか。</p>
+                <p class="subline">Nande okurimasu ka.</p>
+                <p class="subline">Gửi bằng gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-8" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">エアメール</span></span>
+                    <span class="option-meaning">Đường hàng không / airmail</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-8" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">船便</span></span>
+                    <span class="option-meaning">Đường biển</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-8" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">速達</span></span>
+                    <span class="option-meaning">Chuyển phát nhanh</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-8" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">電話</span></span>
+                    <span class="option-meaning">Điện thoại</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói yêu cầu エアメールでお願いします.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="9" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 010</p>
+                  <h2>Đoạn 10</h2>
+                </div>
+                <div class="time">11:06.000 - 11:41.000</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_010.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>すみません。
+Romaji: Sumimasen.
+Nghĩa: Xin lỗi.
+
+この荷物、インドまでいくらですか。
+Romaji: Kono nimotsu, Indo made ikura desu ka.
+Nghĩa: Gói hàng này gửi đến Ấn Độ bao nhiêu tiền?
+
+船便ですか。航空便ですか。
+Romaji: Funabin desu ka. Koukuubin desu ka.
+Nghĩa: Gửi đường biển hay đường hàng không?
+
+船便でどのくらいかかりますか。
+Romaji: Funabin de dono kurai kakarimasu ka.
+Nghĩa: Gửi đường biển mất bao lâu?
+
+3か月ぐらいかかりますね。
+Romaji: Sankagetsu gurai kakarimasu ne.
+Nghĩa: Mất khoảng 3 tháng.
+
+じゃ、航空便でどのくらいですか。
+Romaji: Ja, koukuubin de dono kurai desu ka.
+Nghĩa: Vậy gửi đường hàng không mất bao lâu?
+
+航空便で1週間です。
+Romaji: Koukuubin de isshuukan desu.
+Nghĩa: Gửi đường hàng không mất 1 tuần.
+
+いくらですか。
+Romaji: Ikura desu ka.
+Nghĩa: Bao nhiêu tiền?
+
+2300円です。
+Romaji: Nisen sanbyaku en desu.
+Nghĩa: 2.300 yên.
+
+じゃ、船便でお願いします。
+Romaji: Ja, funabin de onegai shimasu.
+Nghĩa: Vậy gửi đường biển giúp tôi.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">何で送りますか。</p>
+                <p class="subline">Nande okurimasu ka.</p>
+                <p class="subline">Gửi bằng gì?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-9" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">船便</span></span>
+                    <span class="option-meaning">Đường biển</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-9" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">航空便</span></span>
+                    <span class="option-meaning">Đường hàng không</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-9" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">エアメール</span></span>
+                    <span class="option-meaning">Airmail</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-9" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">速達</span></span>
+                    <span class="option-meaning">Chuyển phát nhanh</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Cuối cùng người nói chọn 船便でお願いします.</p>
+              </section>
+            </article>
+            
+            <article class="segment-card" data-segment="10" data-answer="A">
+              <div class="segment-head">
+                <div>
+                  <p class="eyebrow">Segment 011</p>
+                  <h2>Đoạn 11</h2>
+                </div>
+                <div class="time">11:41.000 - 12:17.791</div>
+              </div>
+              <audio controls preload="metadata" src="audio/segment_011.mp3"></audio>
+              <button class="toggle-script" type="button">Show script</button>
+              <pre class="script-text" hidden>すみません。手紙と一緒にお金を送ります。
+Romaji: Sumimasen. Tegami to issho ni okane o okurimasu.
+Nghĩa: Xin lỗi. Tôi gửi tiền cùng với thư.
+
+日本ですか。外国ですか。
+Romaji: Nihon desu ka. Gaikoku desu ka.
+Nghĩa: Trong Nhật hay nước ngoài?
+
+北海道です。
+Romaji: Hokkaidou desu.
+Nghĩa: Hokkaido.
+
+いくら送りますか。
+Romaji: Ikura okurimasu ka.
+Nghĩa: Gửi bao nhiêu tiền?
+
+5万円です。
+Romaji: Goman en desu.
+Nghĩa: 50.000 yên.
+
+じゃあ、この封筒に名前をお願いします。
+Romaji: Jaa, kono fuutou ni namae o onegai shimasu.
+Nghĩa: Vậy xin hãy ghi tên vào phong bì này.
+
+はい。
+Romaji: Hai.
+Nghĩa: Vâng.
+
+どのくらいかかりますか。
+Romaji: Dono kurai kakarimasu ka.
+Nghĩa: Mất bao lâu?
+
+3日です。
+Romaji: Mikka desu.
+Nghĩa: 3 ngày.</pre>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">いくら送りますか。</p>
+                <p class="subline">Ikura okurimasu ka.</p>
+                <p class="subline">Gửi bao nhiêu tiền?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-10" value="A">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">A</span><span class="option-text">5万円</span></span>
+                    <span class="option-meaning">50.000 yên</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-10" value="B">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">B</span><span class="option-text">2300円</span></span>
+                    <span class="option-meaning">2.300 yên</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-10" value="C">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">C</span><span class="option-text">300円</span></span>
+                    <span class="option-meaning">300 yên</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-10" value="D">
+                  <span class="option-body">
+                    <span class="option-line"><span class="option-key">D</span><span class="option-text">1万円</span></span>
+                    <span class="option-meaning">10.000 yên</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Người nói trả lời 5万円です.</p>
+              </section>
+            </article>
+            </main>
+  <script>
+    const totalSegments = 11;
+    const state = {};
+    function updateScore() {
+      const correct = Object.values(state).filter(Boolean).length;
+      document.getElementById("score").textContent = `${correct} / ${totalSegments} câu đúng`;
+    }
+    document.querySelectorAll(".toggle-script").forEach((button) => {
+      button.addEventListener("click", () => {
+        const script = button.nextElementSibling;
+        const isHidden = script.hasAttribute("hidden");
+        if (isHidden) { script.removeAttribute("hidden"); button.textContent = "Hide script"; }
+        else { script.setAttribute("hidden", ""); button.textContent = "Show script"; }
+      });
+    });
+    document.querySelectorAll(".check-answer").forEach((button) => {
+      button.addEventListener("click", () => {
+        const card = button.closest(".segment-card");
+        const selected = card.querySelector("input[type='radio']:checked");
+        const feedback = card.querySelector(".feedback");
+        const explanation = card.querySelector(".explanation");
+        const segmentIndex = card.dataset.segment;
+        feedback.className = "feedback";
+        explanation.hidden = true;
+        if (!selected) {
+          feedback.textContent = "Hãy chọn một đáp án trước.";
+          feedback.classList.add("bad");
+          state[segmentIndex] = false;
+          updateScore();
+          return;
+        }
+        if (selected.value === card.dataset.answer) {
+          feedback.textContent = "Đúng.";
+          feedback.classList.add("ok");
+          state[segmentIndex] = true;
+        } else {
+          feedback.textContent = "Chưa đúng.";
+          feedback.classList.add("bad");
+          state[segmentIndex] = false;
+        }
+        explanation.hidden = false;
+        updateScore();
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,762 @@
+## Đoạn hội thoại 1 
+
+### 1. Script hội thoại
+
+[06:57] 犬は何ができますか。
+Romaji: Inu wa nani ga dekimasu ka.
+Nghĩa: Con chó có thể làm gì?
+
+[07:08] スーパーわんわんの時間です。今日の犬は何ができますか。
+Romaji: Suupaa Wanwan no jikan desu. Kyou no inu wa nani ga dekimasu ka.
+Nghĩa: Đến giờ Super Wanwan rồi. Chó hôm nay có thể làm gì?
+
+[07:14] まず、ポチ君、どうぞ。
+Romaji: Mazu, Pochi-kun, douzo.
+Nghĩa: Trước tiên, mời Pochi.
+
+[07:19] ポチは泳ぐことができます。
+Romaji: Pochi wa oyogu koto ga dekimasu.
+Nghĩa: Pochi có thể bơi.
+
+[07:19] 何メートルぐらい泳ぐことができますか。
+Romaji: Nan meetoru gurai oyogu koto ga dekimasu ka.
+Nghĩa: Có thể bơi khoảng bao nhiêu mét?
+
+[07:27] 毎朝、近くの海で500メートルぐらい泳ぎます。
+Romaji: Maiasa, chikaku no umi de gohyaku meetoru gurai oyogimasu.
+Nghĩa: Mỗi sáng bơi khoảng 500 mét ở biển gần đó.
+
+[07:27] すごいですね。
+Romaji: Sugoi desu ne.
+Nghĩa: Giỏi quá nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+[06:57] 質問: 犬は何ができますか。
+Romaji: Inu wa nani ga dekimasu ka.
+Nghĩa: Con chó có thể làm gì?
+
+A. 500メートルぐらい泳ぐことができます
+Nghĩa: Có thể bơi khoảng 500 mét
+B. 新聞を持って来ることができます
+Nghĩa: Có thể mang báo đến
+C. 自転車に乗ることができます
+Nghĩa: Có thể đi xe đạp
+D. 英語が分かります
+Nghĩa: Hiểu tiếng Anh
+
+Đáp án đúng: A
+Giải thích ngắn gọn: ポチは毎朝、海で500メートルぐらい泳ぎます.
+
+## Đoạn hội thoại 2
+
+### 1. Script hội thoại
+
+[07:35] 次の犬はジャック君です。さあ、入ってください。
+Romaji: Tsugi no inu wa Jakku-kun desu. Saa, haitte kudasai.
+Nghĩa: Chú chó tiếp theo là Jack. Nào, mời vào.
+
+[07:40] こんにちは。ジャックは毎朝、新聞を持って来ることができます。
+Romaji: Konnichiwa. Jakku wa maiasa shinbun o motte kuru koto ga dekimasu.
+Nghĩa: Xin chào. Jack mỗi sáng có thể mang báo đến.
+
+[07:45] そうですか。
+Romaji: Sou desu ka.
+Nghĩa: Vậy à.
+
+[07:48] 手紙も持って来ますか。
+Romaji: Tegami mo motte kimasu ka.
+Nghĩa: Nó cũng mang thư đến không?
+
+[07:51] 手紙は持って来ません。
+Romaji: Tegami wa motte kimasen.
+Nghĩa: Thư thì nó không mang đến.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: ジャックは何ができますか。
+Romaji: Jakku wa nani ga dekimasu ka.
+Nghĩa: Jack có thể làm gì?
+
+A. 新聞を持って来ることができます
+Nghĩa: Có thể mang báo đến
+B. 手紙を持って来ることができます
+Nghĩa: Có thể mang thư đến
+C. 500メートル泳ぐことができます
+Nghĩa: Có thể bơi 500 mét
+D. 英語を聞くことができます
+Nghĩa: Có thể nghe tiếng Anh
+
+Đáp án đúng: A
+Giải thích ngắn gọn: ジャックは毎朝、新聞を持って来ることができます.
+
+## Đoạn hội thoại 3
+
+### 1. Script hội thoại
+
+[07:55] 次の犬はアミちゃんです。こんにちは。
+Romaji: Tsugi no inu wa Ami-chan desu. Konnichiwa.
+Nghĩa: Chú chó tiếp theo là Ami. Xin chào.
+
+[08:01] アミちゃんは何ができますか。
+Romaji: Ami-chan wa nani ga dekimasu ka.
+Nghĩa: Ami có thể làm gì?
+
+[08:01] アミは自転車に乗ることができますよ。
+Romaji: Ami wa jitensha ni noru koto ga dekimasu yo.
+Nghĩa: Ami có thể đi xe đạp đấy.
+
+[08:07] ほら、見てください。
+Romaji: Hora, mite kudasai.
+Nghĩa: Kìa, hãy nhìn xem.
+
+[08:07] わあ、すごいですね。
+Romaji: Waa, sugoi desu ne.
+Nghĩa: Wow, giỏi quá nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: アミちゃんは何ができますか。
+Romaji: Ami-chan wa nani ga dekimasu ka.
+Nghĩa: Ami có thể làm gì?
+
+A. 自転車に乗ることができます
+Nghĩa: Có thể đi xe đạp
+B. 新聞を持って来ることができます
+Nghĩa: Có thể mang báo đến
+C. 手紙を書くことができます
+Nghĩa: Có thể viết thư
+D. ピアノを弾くことができます
+Nghĩa: Có thể chơi piano
+
+Đáp án đúng: A
+Giải thích ngắn gọn: アミは自転車に乗ることができます.
+
+## Đoạn hội thoại 4
+
+### 1. Script hội thoại
+
+[08:14] 次の犬はモモちゃんです。どうぞ。
+Romaji: Tsugi no inu wa Momo-chan desu. Douzo.
+Nghĩa: Chú chó tiếp theo là Momo. Xin mời.
+
+[08:20] モモちゃんは何ができますか。
+Romaji: Momo-chan wa nani ga dekimasu ka.
+Nghĩa: Momo có thể làm gì?
+
+[08:20] 英語が分かります。
+Romaji: Eigo ga wakarimasu.
+Nghĩa: Nó hiểu tiếng Anh.
+
+[08:25] 英語を聞いて、いろいろな仕事をすることができます。
+Romaji: Eigo o kiite, iroiro na shigoto o suru koto ga dekimasu.
+Nghĩa: Nó có thể nghe tiếng Anh và làm nhiều việc khác nhau.
+
+[08:31] わあ、頭がいいですね。
+Romaji: Waa, atama ga ii desu ne.
+Nghĩa: Wow, thông minh quá nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: モモちゃんは何ができますか。
+Romaji: Momo-chan wa nani ga dekimasu ka.
+Nghĩa: Momo có thể làm gì?
+
+A. 英語が分かって、いろいろな仕事ができます
+Nghĩa: Hiểu tiếng Anh và có thể làm nhiều việc
+B. 自転車に乗ることができます
+Nghĩa: Có thể đi xe đạp
+C. 新聞を持って来ることができます
+Nghĩa: Có thể mang báo đến
+D. 海で泳ぐことができます
+Nghĩa: Có thể bơi ở biển
+
+Đáp án đúng: A
+Giải thích ngắn gọn: モモちゃんは英語が分かり、いろいろな仕事ができます.
+
+## Đoạn hội thoại 5
+
+### 1. Script hội thoại
+
+[08:41] できますか。できませんか。
+Romaji: Dekimasu ka. Dekimasen ka.
+Nghĩa: Có thể làm được không? Không thể làm được không?
+
+[08:49] 東京に荷物を送りたいです。
+Romaji: Toukyou ni nimotsu o okuritai desu.
+Nghĩa: Tôi muốn gửi hành lý đến Tokyo.
+
+[08:49] あの店から送ることができますか。
+Romaji: Ano mise kara okuru koto ga dekimasu ka.
+Nghĩa: Có thể gửi từ cửa hàng kia không?
+
+[08:55] いいえ、できません。
+Romaji: Iie, dekimasen.
+Nghĩa: Không, không thể.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: あの店から荷物を送ることができますか。
+Romaji: Ano mise kara nimotsu o okuru koto ga dekimasu ka.
+Nghĩa: Có thể gửi hành lý từ cửa hàng kia không?
+
+A. いいえ、できません
+Nghĩa: Không, không thể
+B. はい、できます
+Nghĩa: Có, có thể
+C. はい、東京へ行けます
+Nghĩa: Có, có thể đi Tokyo
+D. いいえ、荷物はありません
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia trả lời いいえ、できません.
+
+## Đoạn hội thoại 6
+
+### 1. Script hội thoại
+
+[08:59] あの本をコピーしたいですが、この図書館でコピーができますか。
+Romaji: Ano hon o kopii shitai desu ga, kono toshokan de kopii ga dekimasu ka.
+Nghĩa: Tôi muốn photocopy quyển sách kia, ở thư viện này có thể photocopy không?
+
+[09:05] はい、あそこでコピーができます。
+Romaji: Hai, asoko de kopii ga dekimasu.
+Nghĩa: Vâng, có thể photocopy ở đằng kia.
+
+[09:05] 1枚10円です。
+Romaji: Ichimai juu en desu.
+Nghĩa: Một tờ 10 yên.
+
+[09:11] そうですか。どうも。
+Romaji: Sou desu ka. Doumo.
+Nghĩa: Vậy à. Cảm ơn.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: この図書館でコピーができますか。
+Romaji: Kono toshokan de kopii ga dekimasu ka.
+Nghĩa: Có thể photocopy ở thư viện này không?
+
+A. はい、できます
+Nghĩa: Có, có thể
+B. いいえ、できません
+Nghĩa: Không, không thể
+C. はい、無料です
+Nghĩa: Có, miễn phí
+D. いいえ、明日だけです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người kia nói あそこでコピーができます.
+
+## Đoạn hội thoại 7
+
+### 1. Script hội thoại
+
+[09:16] きれいなお寺。
+Romaji: Kirei na otera.
+Nghĩa: Ngôi chùa đẹp.
+
+[09:20] ごめんください。中を見ることができますか。
+Romaji: Gomen kudasai. Naka o miru koto ga dekimasu ka.
+Nghĩa: Xin phép. Có thể xem bên trong không?
+
+[09:24] すみません。今日はもう終わりました。
+Romaji: Sumimasen. Kyou wa mou owarimashita.
+Nghĩa: Xin lỗi. Hôm nay đã kết thúc rồi.
+
+[09:24] 明日はどうですか。
+Romaji: Ashita wa dou desu ka.
+Nghĩa: Ngày mai thì sao?
+
+[09:30] はい、9時から4時までです。
+Romaji: Hai, kuji kara yoji made desu.
+Nghĩa: Vâng, từ 9 giờ đến 4 giờ.
+
+[09:34] 分かりました。明日来ます。
+Romaji: Wakarimashita. Ashita kimasu.
+Nghĩa: Tôi hiểu rồi. Ngày mai tôi sẽ đến.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 今日、お寺の中を見ることができますか。
+Romaji: Kyou, otera no naka o miru koto ga dekimasu ka.
+Nghĩa: Hôm nay có thể xem bên trong chùa không?
+
+A. いいえ、できません
+Nghĩa: Không, không thể
+B. はい、できます
+Nghĩa: Có, có thể
+C. はい、9時から4時までです
+Nghĩa: Có, từ 9 giờ đến 4 giờ
+D. いいえ、明日も休みです
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Hôm nay đã kết thúc rồi, nên không thể xem.
+
+## Đoạn hội thoại 8
+
+### 1. Script hội thoại
+
+[09:37] それ、新しい携帯電話ですか。小さいですね。
+Romaji: Sore, atarashii keitai denwa desu ka. Chiisai desu ne.
+Nghĩa: Cái đó là điện thoại di động mới à? Nhỏ nhỉ.
+
+[09:44] ええ。でも、これでEメールもできますよ。
+Romaji: Ee. Demo, kore de ii-meeru mo dekimasu yo.
+Nghĩa: Vâng. Nhưng cái này cũng có thể gửi email đấy.
+
+[09:49] 写真も送ることができますか。
+Romaji: Shashin mo okuru koto ga dekimasu ka.
+Nghĩa: Cũng có thể gửi ảnh không?
+
+[09:52] できます。
+Romaji: Dekimasu.
+Nghĩa: Có thể.
+
+[09:52] 便利ですね。
+Romaji: Benri desu ne.
+Nghĩa: Tiện lợi nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: この携帯電話で何ができますか。
+Romaji: Kono keitai denwa de nani ga dekimasu ka.
+Nghĩa: Có thể làm gì bằng điện thoại này?
+
+A. Eメールも写真を送ることもできます
+Nghĩa: Có thể gửi email và gửi ảnh
+B. 荷物を送ることができます
+Nghĩa: Có thể gửi hành lý
+C. 本をコピーすることができます
+Nghĩa: Có thể photocopy sách
+D. お寺の中を見ることができます
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người nói điện thoại có thể gửi email và gửi ảnh.
+
+## Đoạn hội thoại 9
+
+### 1. Script hội thoại
+
+[09:59] 友達に誕生日のプレゼントをあげます。趣味は何ですか。何をあげますか。
+Romaji: Tomodachi ni tanjoubi no purezento o agemasu. Shumi wa nan desu ka. Nani o agemasu ka.
+Nghĩa: Tặng quà sinh nhật cho bạn. Sở thích là gì? Sẽ tặng gì?
+
+[10:11] 趣味は何ですか。
+Romaji: Shumi wa nan desu ka.
+Nghĩa: Sở thích là gì?
+
+[10:18] 絵を描くことですね。
+Romaji: E o kaku koto desu ne.
+Nghĩa: Là vẽ tranh.
+
+[10:18] 誰の絵が一番好きですか。
+Romaji: Dare no e ga ichiban suki desu ka.
+Nghĩa: Thích tranh của ai nhất?
+
+[10:22] ピカソが一番好きです。
+Romaji: Pikaso ga ichiban suki desu.
+Nghĩa: Thích Picasso nhất.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 趣味は何ですか。
+Romaji: Shumi wa nan desu ka.
+Nghĩa: Sở thích là gì?
+
+A. 絵を描くこと
+Nghĩa: Vẽ tranh
+B. ワインを集めること
+Nghĩa: Sưu tầm rượu vang
+C. 音楽を聞くこと
+Nghĩa: Nghe nhạc
+D. 料理を作ること
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người đó nói sở thích là 絵を描くこと.
+
+Câu 2:
+質問: 何をあげますか。
+Romaji: Nani o agemasu ka.
+Nghĩa: Sẽ tặng gì?
+
+A. ピカソの絵に関係があるもの
+Nghĩa: Món liên quan đến tranh Picasso
+B. ワイン
+Nghĩa: Rượu vang
+C. クラシックのCD
+Nghĩa: Đĩa CD nhạc cổ điển
+D. 料理の本
+Nghĩa: Sách nấu ăn
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Người đó thích vẽ tranh và thích Picasso nhất, nên quà phù hợp là món liên quan đến tranh Picasso.
+
+## Đoạn hội thoại 10
+
+### 1. Script hội thoại
+
+[10:28] 豊田さん、趣味は何ですか。
+Romaji: Toyoda-san, shumi wa nan desu ka.
+Nghĩa: Anh Toyoda, sở thích là gì?
+
+[10:33] 趣味ですか。ワインを集めることです。
+Romaji: Shumi desu ka. Wain o atsumeru koto desu.
+Nghĩa: Sở thích à? Là sưu tầm rượu vang.
+
+[10:38] いろいろな国のワインがありますよ。
+Romaji: Iroiro na kuni no wain ga arimasu yo.
+Nghĩa: Có rượu vang của nhiều nước.
+
+[10:38] 毎日飲みますか。
+Romaji: Mainichi nomimasu ka.
+Nghĩa: Anh uống mỗi ngày à?
+
+[10:43] 週末に少しだけ妻と飲みます。
+Romaji: Shuumatsu ni sukoshi dake tsuma to nomimasu.
+Nghĩa: Cuối tuần tôi chỉ uống một ít với vợ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 豊田さんの趣味は何ですか。
+Romaji: Toyoda-san no shumi wa nan desu ka.
+Nghĩa: Sở thích của Toyoda là gì?
+
+A. ワインを集めること
+Nghĩa: Sưu tầm rượu vang
+B. 絵を描くこと
+Nghĩa: Vẽ tranh
+C. 音楽を聞くこと
+D. 料理を作ること
+
+Đáp án đúng: A
+Giải thích ngắn gọn: 豊田さん nói sở thích là ワインを集めること.
+
+Câu 2:
+質問: 何をあげますか。
+Romaji: Nani o agemasu ka.
+Nghĩa: Sẽ tặng gì?
+
+A. ワイン
+Nghĩa: Rượu vang
+B. ピカソの絵
+Nghĩa: Tranh Picasso
+C. クラシックのCD
+D. 自転車
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Vì sở thích là sưu tầm rượu vang, nên tặng ワイン là hợp lý.
+
+## Đoạn hội thoại 11
+
+### 1. Script hội thoại
+
+[10:48] 後藤さんの趣味は何ですか。
+Romaji: Gotou-san no shumi wa nan desu ka.
+Nghĩa: Sở thích của Goto là gì?
+
+[10:53] 私の趣味は音楽を聞くことです。
+Romaji: Watashi no shumi wa ongaku o kiku koto desu.
+Nghĩa: Sở thích của tôi là nghe nhạc.
+
+[10:58] どんな音楽が好きですか。
+Romaji: Donna ongaku ga suki desu ka.
+Nghĩa: Thích loại nhạc nào?
+
+[10:58] クラシックが好きです。
+Romaji: Kurashikku ga suki desu.
+Nghĩa: Tôi thích nhạc cổ điển.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: 後藤さんの趣味は何ですか。
+Romaji: Gotou-san no shumi wa nan desu ka.
+Nghĩa: Sở thích của Goto là gì?
+
+A. 音楽を聞くこと
+Nghĩa: Nghe nhạc
+B. ワインを集めること
+C. 絵を描くこと
+D. 海で泳ぐこと
+
+Đáp án đúng: A
+Giải thích ngắn gọn: 後藤さん nói sở thích là 音楽を聞くこと.
+
+Câu 2:
+質問: 何をあげますか。
+Romaji: Nani o agemasu ka.
+Nghĩa: Sẽ tặng gì?
+
+A. クラシックのCD
+Nghĩa: Đĩa CD nhạc cổ điển
+B. ワイン
+C. 花
+D. 携帯電話
+
+Đáp án đúng: A
+Giải thích ngắn gọn: 後藤さん thích nhạc cổ điển, nên tặng CD nhạc cổ điển là phù hợp.
+
+## Đoạn hội thoại 12
+
+### 1. Script hội thoại
+
+[11:06] リーさんは週末に何をしますか。
+Romaji: Rii-san wa shuumatsu ni nani o shimasu ka.
+Nghĩa: Cuối tuần Lee làm gì?
+
+[11:11] 週末ですか。いつも国の料理を作ります。
+Romaji: Shuumatsu desu ka. Itsumo kuni no ryouri o tsukurimasu.
+Nghĩa: Cuối tuần à? Tôi thường nấu món ăn của nước mình.
+
+[11:15] そうですか。じゃ、趣味は料理ですか。
+Romaji: Sou desu ka. Ja, shumi wa ryouri desu ka.
+Nghĩa: Vậy à. Vậy sở thích là nấu ăn à?
+
+[11:15] ぜひ食べに来てください。
+Romaji: Zehi tabe ni kite kudasai.
+Nghĩa: Nhất định hãy đến ăn nhé.
+
+[11:21] ありがとうございます。
+Romaji: Arigatou gozaimasu.
+Nghĩa: Cảm ơn.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: リーさんの趣味は何ですか。
+Romaji: Rii-san no shumi wa nan desu ka.
+Nghĩa: Sở thích của Lee là gì?
+
+A. 料理
+Nghĩa: Nấu ăn
+B. 音楽
+C. 絵
+D. ワイン
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Lee thường nấu món ăn của nước mình vào cuối tuần.
+
+Câu 2:
+質問: 何をあげますか。
+Romaji: Nani o agemasu ka.
+Nghĩa: Sẽ tặng gì?
+
+A. 料理の本
+Nghĩa: Sách nấu ăn
+B. クラシックのCD
+C. ワイン
+D. ピカソの絵
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Vì sở thích là nấu ăn, nên sách nấu ăn là món quà phù hợp.
+
+## Đoạn hội thoại 13
+
+### 1. Script hội thoại
+
+[11:27] どちらが先ですか。
+Romaji: Dochira ga saki desu ka.
+Nghĩa: Cái nào trước?
+
+[11:38] ケリー先生、今日は4時から会議がありますよ。
+Romaji: Kerii-sensei, kyou wa yoji kara kaigi ga arimasu yo.
+Nghĩa: Thầy/cô Kelly, hôm nay có cuộc họp từ 4 giờ.
+
+[11:43] 4時ですか。会議の前に資料をコピーしなければなりませんね。
+Romaji: Yoji desu ka. Kaigi no mae ni shiryou o kopii shinakereba narimasen ne.
+Nghĩa: 4 giờ à? Trước cuộc họp phải photo tài liệu nhỉ.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: どちらが先ですか。
+Romaji: Dochira ga saki desu ka.
+Nghĩa: Việc nào trước?
+
+A. 資料をコピーします
+Nghĩa: Photo tài liệu
+B. 会議をします
+Nghĩa: Họp
+C. 北海道へ行きます
+D. パーティーをします
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Trước cuộc họp phải photo tài liệu.
+
+## Đoạn hội thoại 14
+
+### 1. Script hội thoại
+
+[11:51] ケリー先生、7月31日に国へ帰りますね。
+Romaji: Kerii-sensei, shichigatsu sanjuuichi-nichi ni kuni e kaerimasu ne.
+Nghĩa: Thầy/cô Kelly sẽ về nước vào ngày 31 tháng 7 nhỉ.
+
+[11:54] 先生が帰る前に、さようならパーティーをしたいですが、いつがいいですか。
+Romaji: Sensei ga kaeru mae ni, sayounara paatii o shitai desu ga, itsu ga ii desu ka.
+Nghĩa: Trước khi thầy/cô về nước, chúng em muốn tổ chức tiệc chia tay, khi nào thì được ạ?
+
+[12:01] ありがとうございます。
+Romaji: Arigatou gozaimasu.
+Nghĩa: Cảm ơn.
+
+[12:06] 21日から25日まで北海道を旅行したいですから、帰ってからお願いします。
+Romaji: Nijuuichi-nichi kara nijuu go-nichi made Hokkaidou o ryokou shitai desu kara, kaette kara onegai shimasu.
+Nghĩa: Vì tôi muốn du lịch Hokkaido từ ngày 21 đến 25, nên sau khi tôi về hãy tổ chức.
+
+[12:15] じゃあ、28日はどうですか。
+Romaji: Jaa, nijuu hachi-nichi wa dou desu ka.
+Nghĩa: Vậy ngày 28 thì sao?
+
+[12:19] 金曜日ですか。28日。
+Romaji: Kinyoubi desu ka. Nijuu hachi-nichi.
+Nghĩa: Thứ Sáu à? Ngày 28.
+
+[12:23] 結構です。よろしくお願いします。
+Romaji: Kekkou desu. Yoroshiku onegai shimasu.
+Nghĩa: Được. Nhờ mọi người nhé.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: どちらが先ですか。
+Romaji: Dochira ga saki desu ka.
+Nghĩa: Việc nào trước?
+
+A. 北海道を旅行します
+Nghĩa: Đi du lịch Hokkaido
+B. さようならパーティーをします
+Nghĩa: Tổ chức tiệc chia tay
+C. 国へ帰ります
+D. 会議をします
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kelly đi Hokkaido từ ngày 21–25, sau đó mới tổ chức tiệc ngày 28.
+
+## Đoạn hội thoại 15
+
+### 1. Script hội thoại
+
+[12:30] もしもし、北海道ホテルですか。
+Romaji: Moshi moshi, Hokkaidou Hoteru desu ka.
+Nghĩa: Alo, khách sạn Hokkaido phải không?
+
+[12:39] 今晩、部屋はありますか。
+Romaji: Konban, heya wa arimasu ka.
+Nghĩa: Tối nay còn phòng không?
+
+[12:39] はい、あります。
+Romaji: Hai, arimasu.
+Nghĩa: Vâng, còn.
+
+[12:45] いらっしゃいませ。お部屋はこちらです。
+Romaji: Irasshaimase. Oheya wa kochira desu.
+Nghĩa: Xin chào quý khách. Phòng của quý khách ở đây.
+
+[12:45] わあ、広いですね。
+Romaji: Waa, hiroi desu ne.
+Nghĩa: Wow, rộng nhỉ.
+
+[12:51] お風呂も広くてきれいですよ。
+Romaji: Ofuro mo hirokute kirei desu yo.
+Nghĩa: Bồn tắm cũng rộng và sạch đẹp.
+
+[12:51] お食事の前にお風呂、どうぞ。
+Romaji: Oshokuji no mae ni ofuro, douzo.
+Nghĩa: Trước bữa ăn, xin mời tắm.
+
+[12:56] えっ、食事の前に。
+Romaji: E, shokuji no mae ni.
+Nghĩa: Ơ, trước bữa ăn à?
+
+[12:59] 私はいつも寝る前に入りますが。
+Romaji: Watashi wa itsumo neru mae ni hairimasu ga.
+Nghĩa: Tôi thì thường tắm trước khi ngủ.
+
+[12:59] かしこまりました。じゃあ、お食事を持って来ます。
+Romaji: Kashikomarimashita. Jaa, oshokuji o motte kimasu.
+Nghĩa: Tôi hiểu rồi. Vậy tôi sẽ mang bữa ăn đến.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: どちらが先ですか。
+Romaji: Dochira ga saki desu ka.
+Nghĩa: Việc nào trước?
+
+A. 食事をします
+Nghĩa: Ăn trước
+B. お風呂に入ります
+Nghĩa: Tắm trước
+C. 寝ます
+D. 電話をします
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Khách thường tắm trước khi ngủ, nên nhân viên sẽ mang bữa ăn trước.
+
+## Đoạn hội thoại 16
+
+### 1. Script hội thoại
+
+[13:15] もしもし、ケリー先生、おはようございます。北海道はいかがでしたか。
+Romaji: Moshi moshi, Kerii-sensei, ohayou gozaimasu. Hokkaidou wa ikaga deshita ka.
+Nghĩa: Alo, thầy/cô Kelly, chào buổi sáng. Hokkaido thế nào ạ?
+
+[13:20] とても素敵でしたよ。
+Romaji: Totemo suteki deshita yo.
+Nghĩa: Rất tuyệt vời.
+
+[13:23] 今日はパーティーですよ。
+Romaji: Kyou wa paatii desu yo.
+Nghĩa: Hôm nay là tiệc đấy.
+
+[13:27] でも、パーティーに行く前に荷物を送らなければなりません。
+Romaji: Demo, paatii ni iku mae ni nimotsu o okuranakereba narimasen.
+Nghĩa: Nhưng trước khi đi tiệc, tôi phải gửi hành lý.
+
+[13:32] たくさんありますか。
+Romaji: Takusan arimasu ka.
+Nghĩa: Có nhiều không?
+
+[13:34] 大きい箱が6つあります。
+Romaji: Ookii hako ga muttsu arimasu.
+Nghĩa: Có 6 thùng lớn.
+
+[13:34] じゃ、10時ごろお手伝いに行きます。
+Romaji: Ja, juuji goro otetsudai ni ikimasu.
+Nghĩa: Vậy khoảng 10 giờ tôi sẽ đến giúp.
+
+[13:41] 車で郵便局へ持って行きましょう。
+Romaji: Kuruma de yuubinkyoku e motte ikimashou.
+Nghĩa: Hãy mang đến bưu điện bằng xe hơi.
+
+[13:41] ありがとうございます。
+Romaji: Arigatou gozaimasu.
+Nghĩa: Cảm ơn.
+
+### 2. Câu hỏi trắc nghiệm
+
+Câu 1:
+質問: どちらが先ですか。
+Romaji: Dochira ga saki desu ka.
+Nghĩa: Việc nào trước?
+
+A. 荷物を送ります
+Nghĩa: Gửi hành lý trước
+B. パーティーへ行きます
+Nghĩa: Đi tiệc trước
+C. 北海道へ行きます
+D. 食事をします
+
+Đáp án đúng: A
+Giải thích ngắn gọn: Kelly nói trước khi đi tiệc phải gửi hành lý.

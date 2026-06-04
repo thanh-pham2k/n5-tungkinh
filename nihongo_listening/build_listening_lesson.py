@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 LESSON_NO = 1
-LESSON_NOS = [2, 3, 4, 5]
+LESSON_NOS = list(range(6, 26))
 
 BASE_DIR = Path(r"E:\UTILS\extractor\nihongo_listening")
 RAW_AUDIO_DIR = BASE_DIR / "raw_audio"
