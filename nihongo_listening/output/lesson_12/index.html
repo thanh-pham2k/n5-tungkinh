@@ -6,76 +6,240 @@
   <title>JLPT N5 Listening - Bài 12</title>
   <style>
     :root {
-      --bg: #f6f8fb; --panel: #fff; --text: #162033; --muted: #64748b;
-      --line: #dbe3ef; --primary: #0f766e; --primary-soft: #e1f4f1;
-      --ok: #147a3d; --bad: #b42318; --shadow: 0 12px 28px rgba(15,23,42,.08);
+      --bg: #f6f8fb;
+      --panel: #fff;
+      --text: #162033;
+      --muted: #64748b;
+      --line: #dbe3ef;
+      --primary: #0f766e;
+      --primary-soft: #e1f4f1;
+      --ok: #147a3d;
+      --bad: #b42318;
+      --shadow: 0 8px 22px rgba(15,23,42,.07);
     }
     * { box-sizing: border-box; }
-    body { margin: 0; background: var(--bg); color: var(--text); font-family: Arial, sans-serif; line-height: 1.5; }
-    header { position: sticky; top: 0; z-index: 5; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.96); padding: 14px 16px; }
-    .header-inner { max-width: 960px; margin: 0 auto; display: flex; justify-content: space-between; gap: 12px; align-items: center; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; overflow-x: hidden; background: var(--bg); color: var(--text); font-family: Arial, sans-serif; font-size: 15px; line-height: 1.45; }
     h1, h2, h3, p { margin-top: 0; }
-    h1 { margin-bottom: 2px; font-size: clamp(20px, 4vw, 30px); }
-    .hint { margin: 0; color: var(--muted); }
-    .score { min-width: max-content; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 8px 10px; font-weight: 700; color: var(--muted); }
-    main { width: min(960px, 100%); margin: 0 auto; padding: 16px; display: grid; gap: 14px; }
-    .segment-card { border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); padding: 16px; }
-    .segment-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
-    .eyebrow { margin: 0 0 4px; color: var(--primary); font-size: 13px; font-weight: 800; text-transform: uppercase; }
-    h2 { margin-bottom: 0; font-size: clamp(18px, 3vw, 24px); }
-    .time { color: var(--muted); font-weight: 700; }
-    audio { width: 100%; display: block; margin: 12px 0; }
-    button { min-height: 42px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 8px 12px; font-weight: 700; cursor: pointer; }
-    button:hover { border-color: var(--primary); color: var(--primary); }
-    .toggle-script { margin-bottom: 12px; }
-    .script-text { width: 100%; margin: 0 0 14px; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 12px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 15px; }
-    .quiz { border-top: 1px solid var(--line); padding-top: 14px; }
-    .question { margin-bottom: 4px; font-weight: 800; font-size: 17px; }
-    .subline { margin: 0 0 6px; color: var(--muted); }
-    .options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 12px 0; }
-    .option { min-height: 68px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 12px; display: grid; grid-template-columns: 24px minmax(0, 1fr); column-gap: 10px; align-items: start; cursor: pointer; }
+    .app-header { position: sticky; top: 0; z-index: 20; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.97); backdrop-filter: blur(10px); }
+    .header-inner { max-width: 900px; margin: 0 auto; padding: 10px 12px; display: grid; gap: 8px; }
+    .header-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    h1 { margin: 0; font-size: 18px; line-height: 1.2; }
+    .score { flex: 0 0 auto; border: 1px solid var(--line); border-radius: 999px; background: #fff; padding: 5px 9px; font-size: 13px; font-weight: 800; color: var(--primary); }
+    .current-segment { margin: 0; color: var(--muted); font-size: 13px; font-weight: 700; }
+    main { width: min(900px, 100%); min-width: 0; margin: 0 auto; padding: 12px; display: grid; gap: 12px; }
+    .segment-nav { min-width: 0; display: flex; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain; padding-bottom: 2px; scrollbar-width: thin; }
+    .segment-pill { flex: 0 0 86px; min-height: 46px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 7px 9px; display: grid; align-content: center; gap: 2px; text-decoration: none; }
+    .segment-pill span { font-weight: 900; color: var(--primary); }
+    .segment-pill small { color: var(--muted); font-size: 12px; white-space: nowrap; }
+    .segment-pill.done { border-color: rgba(20,122,61,.35); background: #eefbf3; }
+    .segment-pill.wrong { border-color: rgba(180,35,24,.35); background: #fff1f0; }
+    .segment-card { min-width: 0; overflow: hidden; scroll-margin-top: 88px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); padding: 12px; }
+    .segment-head { margin-bottom: 8px; }
+    .eyebrow { margin: 0 0 2px; color: var(--primary); font-size: 11px; font-weight: 900; letter-spacing: .04em; text-transform: uppercase; }
+    h2 { margin: 0; font-size: 19px; line-height: 1.2; }
+    .time { margin: 4px 0 0; color: var(--muted); font-size: 12px; font-weight: 800; }
+    .audio-shell { min-width: 0; max-width: 100%; overflow: hidden; margin: 8px 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; padding: 6px; }
+    .audio-player { min-width: 0; display: grid; grid-template-columns: 38px 78px minmax(0, 1fr); gap: 8px; align-items: center; }
+    .play-audio { width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }
+    .audio-time { color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }
+    .audio-progress { width: 100%; min-width: 0; accent-color: var(--primary); }
+    audio { display: none; }
+    .quiz { padding-top: 2px; }
+    .quiz h3 { margin-bottom: 8px; font-size: 15px; }
+    .question { margin-bottom: 3px; font-weight: 900; font-size: 16px; line-height: 1.35; }
+    .subline { margin: 0 0 3px; color: var(--muted); font-size: 13px; }
+    .options { display: grid; grid-template-columns: 1fr; gap: 8px; margin: 10px 0; }
+    .option { min-height: 52px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 9px 10px; display: grid; grid-template-columns: 18px 28px minmax(0, 1fr); column-gap: 8px; align-items: start; cursor: pointer; }
     .option:has(input:checked) { border-color: var(--primary); background: var(--primary-soft); }
-    .option input { margin-top: 4px; }
-    .option-body { min-width: 0; display: grid; gap: 4px; }
-    .option-line { display: flex; gap: 8px; align-items: baseline; min-width: 0; }
-    .option-key { flex: 0 0 auto; font-weight: 800; }
-    .option-text { min-width: 0; font-weight: 800; white-space: normal; word-break: normal; overflow-wrap: break-word; line-break: strict; }
-    .option-meaning { color: var(--muted); font-size: 14px; white-space: normal; word-break: normal; overflow-wrap: break-word; }
-    .check-answer { background: var(--primary); border-color: var(--primary); color: #fff; }
-    .feedback { min-height: 24px; margin-top: 10px; font-weight: 800; }
+    .option input { margin: 3px 0 0; }
+    .option-letter { width: 26px; height: 26px; border-radius: 999px; background: #eef2f7; display: inline-grid; place-items: center; font-size: 13px; font-weight: 900; }
+    .option-body { min-width: 0; display: grid; gap: 2px; }
+    .option-text { min-width: 0; font-size: 15px; font-weight: 800; white-space: normal; word-break: normal; overflow-wrap: anywhere; line-break: strict; }
+    .option-meaning { color: var(--muted); font-size: 12px; white-space: normal; word-break: normal; overflow-wrap: anywhere; }
+    button { min-height: 40px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 8px 12px; font-weight: 800; cursor: pointer; }
+    button:hover { border-color: var(--primary); color: var(--primary); }
+    .check-answer { width: 100%; background: var(--primary); border-color: var(--primary); color: #fff; }
+    .check-answer:hover { color: #fff; }
+    .feedback { min-height: 20px; margin-top: 8px; font-weight: 900; }
     .feedback.ok { color: var(--ok); }
     .feedback.bad { color: var(--bad); }
-    .explanation { margin: 4px 0 0; color: var(--muted); }
-    @media (max-width: 640px) {
-      header { position: static; } .header-inner { align-items: flex-start; flex-direction: column; }
-      .score, button { width: 100%; } main { padding: 10px; } .segment-card { padding: 12px; }
-      .segment-head { flex-direction: column; } .time { width: 100%; } .options { grid-template-columns: 1fr; }
-      button { font-size: 16px; }
+    .explanation { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+    .script-panel { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
+    .script-panel summary { min-height: 36px; color: var(--primary); font-weight: 900; cursor: pointer; }
+    .script-text { width: 100%; margin: 4px 0 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+    @media (min-width: 640px) {
+      body { font-size: 16px; }
+      .header-inner { padding: 12px 16px; }
+      h1 { font-size: 22px; }
+      main { padding: 16px; gap: 14px; }
+      .segment-nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; padding-bottom: 0; }
+      .segment-pill { min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+      .segment-card { padding: 16px; scroll-margin-top: 96px; }
+      .options { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+      .check-answer { width: auto; }
+    }
+    @media (min-width: 1024px) {
+      .header-inner, main { max-width: 900px; }
     }
   </style>
 </head>
 <body>
-  <header>
+  <header class="app-header">
     <div class="header-inner">
-      <div>
+      <div class="header-row">
         <h1>JLPT N5 Listening - Bài 12</h1>
-        <p class="hint">Nghe từng đoạn, tự trả lời, rồi mới mở script để kiểm tra.</p>
+        <div class="score" id="score">0/16</div>
       </div>
-      <div class="score" id="score">0 / 16 câu đúng</div>
+      <p class="current-segment" id="current-segment">Đang ở đoạn 1/16</p>
     </div>
   </header>
   <main>
-            <article class="segment-card" data-segment="0" data-answer="A">
+    <nav class="segment-nav" aria-label="Danh sách đoạn hội thoại">
+            <a class="segment-pill" href="#segment-1" data-nav-segment="0">
+              <span>01</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-2" data-nav-segment="1">
+              <span>02</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-3" data-nav-segment="2">
+              <span>03</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-4" data-nav-segment="3">
+              <span>04</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-5" data-nav-segment="4">
+              <span>05</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-6" data-nav-segment="5">
+              <span>06</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-7" data-nav-segment="6">
+              <span>07</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-8" data-nav-segment="7">
+              <span>08</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-9" data-nav-segment="8">
+              <span>09</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-10" data-nav-segment="9">
+              <span>10</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-11" data-nav-segment="10">
+              <span>11</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-12" data-nav-segment="11">
+              <span>12</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-13" data-nav-segment="12">
+              <span>13</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-14" data-nav-segment="13">
+              <span>14</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-15" data-nav-segment="14">
+              <span>15</span>
+              <small>Chưa làm</small>
+            </a>
+            
+            <a class="segment-pill" href="#segment-16" data-nav-segment="15">
+              <span>16</span>
+              <small>Chưa làm</small>
+            </a>
+            </nav>
+    
+            <article class="segment-card" id="segment-1" data-segment="0" data-answer="A">
               <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 001</p>
-                  <h2>Đoạn 1</h2>
-                </div>
-                <div class="time">08:12.000 - 08:36.000</div>
+                <p class="eyebrow">Segment 001</p>
+                <h2>Đoạn 1</h2>
+                <p class="time">08:12.000 - 08:36.000</p>
               </div>
-              <audio controls preload="metadata" src="audio/segment_001.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>キムさんの1週間はどうでしたか。
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_001.mp3"></audio>
+                </div>
+              </div>
+              <section class="quiz">
+                <h3>Câu hỏi trắc nghiệm</h3>
+                <p class="question">キムさんの1週間はどうでしたか。</p>
+                <p class="subline">Kimu-san no isshuukan wa dou deshita ka.</p>
+                <p class="subline">Một tuần của Kim thế nào?</p>
+                <div class="options">
+                <label class="option">
+                  <input type="radio" name="answer-0" value="A">
+                  <span class="option-letter">A</span>
+                  <span class="option-body">
+                    <span class="option-text">とても忙しかったです</span>
+                    <span class="option-meaning">Rất bận</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">とても暇でした</span>
+                    <span class="option-meaning">Rất rảnh</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">とても静かでした</span>
+                    <span class="option-meaning">Rất yên tĩnh</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-0" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">とても寒かったです</span>
+                    <span class="option-meaning">Rất lạnh</span>
+                  </span>
+                </label>
+                </div>
+                <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                <div class="feedback" aria-live="polite"></div>
+                <p class="explanation" hidden>Kim nói 今週はとても忙しかったです.</p>
+              </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">キムさんの1週間はどうでしたか。
 Romaji: Kimu-san no isshuukan wa dou deshita ka.
 Nghĩa: Một tuần của Kim thế nào?
 
@@ -94,61 +258,72 @@ Nghĩa: Thứ Hai có bài kiểm tra Kanji.
 とても難しかったです。
 Romaji: Totemo muzukashikatta desu.
 Nghĩa: Rất khó.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-2" data-segment="1" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 002</p>
+                <h2>Đoạn 2</h2>
+                <p class="time">08:36.000 - 08:56.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_002.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">キムさんの1週間はどうでしたか。</p>
-                <p class="subline">Kimu-san no isshuukan wa dou deshita ka.</p>
-                <p class="subline">Một tuần của Kim thế nào?</p>
+                <p class="question">火曜日は何をしましたか。</p>
+                <p class="subline">Kayoubi wa nani o shimashita ka.</p>
+                <p class="subline">Thứ Ba đã làm gì?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-0" value="A">
+                  <input type="radio" name="answer-1" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">とても忙しかったです</span></span>
-                    <span class="option-meaning">Rất bận</span>
+                    <span class="option-text">図書館で勉強して、ブラジルのダンスを習いました</span>
+                    <span class="option-meaning">Học ở thư viện và học nhảy Brazil</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-0" value="B">
+                  <input type="radio" name="answer-1" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">とても暇でした</span></span>
-                    <span class="option-meaning">Rất rảnh</span>
+                    <span class="option-text">京都でお祭りを見ました</span>
+                    <span class="option-meaning">Xem lễ hội ở Kyoto</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-0" value="C">
+                  <input type="radio" name="answer-1" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">とても静かでした</span></span>
-                    <span class="option-meaning">Rất yên tĩnh</span>
+                    <span class="option-text">本屋で働きました</span>
+                    <span class="option-meaning">Làm việc ở hiệu sách</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-0" value="D">
+                  <input type="radio" name="answer-1" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">とても寒かったです</span></span>
-                    <span class="option-meaning">Rất lạnh</span>
+                    <span class="option-text">映画を見ました</span>
+                    <span class="option-meaning">Xem phim</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Kim nói 今週はとても忙しかったです.</p>
+                <p class="explanation" hidden>Kim học ở thư viện đến 6 giờ, sau đó học nhảy Brazil.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="1" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 002</p>
-                  <h2>Đoạn 2</h2>
-                </div>
-                <div class="time">08:36.000 - 08:56.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_002.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>火曜日は何をしましたか。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">火曜日は何をしましたか。
 Romaji: Kayoubi wa nani o shimashita ka.
 Nghĩa: Thứ Ba đã làm gì?
 
@@ -167,61 +342,72 @@ Nghĩa: Điệu nhảy Brazil à?
 とても楽しかったです。
 Romaji: Totemo tanoshikatta desu.
 Nghĩa: Rất vui.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-3" data-segment="2" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 003</p>
+                <h2>Đoạn 3</h2>
+                <p class="time">08:56.000 - 09:20.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_003.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">火曜日は何をしましたか。</p>
-                <p class="subline">Kayoubi wa nani o shimashita ka.</p>
-                <p class="subline">Thứ Ba đã làm gì?</p>
+                <p class="question">水曜日は何をしましたか。</p>
+                <p class="subline">Suiyoubi wa nani o shimashita ka.</p>
+                <p class="subline">Thứ Tư đã làm gì?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-1" value="A">
+                  <input type="radio" name="answer-2" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">図書館で勉強して、ブラジルのダンスを習いました</span></span>
-                    <span class="option-meaning">Học ở thư viện và học nhảy Brazil</span>
+                    <span class="option-text">友達と京都でお祭りを見ました</span>
+                    <span class="option-meaning">Xem lễ hội ở Kyoto với bạn</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-1" value="B">
+                  <input type="radio" name="answer-2" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">京都でお祭りを見ました</span></span>
-                    <span class="option-meaning">Xem lễ hội ở Kyoto</span>
+                    <span class="option-text">図書館で勉強しました</span>
+                    <span class="option-meaning">Học ở thư viện</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-1" value="C">
+                  <input type="radio" name="answer-2" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">本屋で働きました</span></span>
+                    <span class="option-text">漢字の試験を受けました</span>
+                    <span class="option-meaning">Làm bài kiểm tra Kanji</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-2" value="D">
+                  <span class="option-letter">D</span>
+                  <span class="option-body">
+                    <span class="option-text">本屋で働きました</span>
                     <span class="option-meaning">Làm việc ở hiệu sách</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-1" value="D">
-                  <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">映画を見ました</span></span>
-                    <span class="option-meaning">Xem phim</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Kim học ở thư viện đến 6 giờ, sau đó học nhảy Brazil.</p>
+                <p class="explanation" hidden>Kim nói đã xem lễ hội ở Kyoto với bạn.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="2" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 003</p>
-                  <h2>Đoạn 3</h2>
-                </div>
-                <div class="time">08:56.000 - 09:20.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_003.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>水曜日は休みでしたね。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">水曜日は休みでしたね。
 Romaji: Suiyoubi wa yasumi deshita ne.
 Nghĩa: Thứ Tư được nghỉ nhỉ.
 
@@ -240,61 +426,72 @@ Nghĩa: Rất náo nhiệt. Nhưng tôi hơi mệt.
 夜、新幹線で帰りました。
 Romaji: Yoru, shinkansen de kaerimashita.
 Nghĩa: Buổi tối tôi về bằng Shinkansen.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-4" data-segment="3" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 004</p>
+                <h2>Đoạn 4</h2>
+                <p class="time">09:20.000 - 09:42.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_004.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">水曜日は何をしましたか。</p>
-                <p class="subline">Suiyoubi wa nani o shimashita ka.</p>
-                <p class="subline">Thứ Tư đã làm gì?</p>
+                <p class="question">木曜日は何をしましたか。</p>
+                <p class="subline">Mokuyoubi wa nani o shimashita ka.</p>
+                <p class="subline">Thứ Năm đã làm gì?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-2" value="A">
+                  <input type="radio" name="answer-3" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">友達と京都でお祭りを見ました</span></span>
-                    <span class="option-meaning">Xem lễ hội ở Kyoto với bạn</span>
+                    <span class="option-text">コンピューターを勉強して、映画を見ました</span>
+                    <span class="option-meaning">Học máy tính và xem phim</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-2" value="B">
+                  <input type="radio" name="answer-3" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">図書館で勉強しました</span></span>
-                    <span class="option-meaning">Học ở thư viện</span>
+                    <span class="option-text">ダンスを習いました</span>
+                    <span class="option-meaning">Học nhảy</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-2" value="C">
+                  <input type="radio" name="answer-3" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">漢字の試験を受けました</span></span>
-                    <span class="option-meaning">Làm bài kiểm tra Kanji</span>
+                    <span class="option-text">京都へ行きました</span>
+                    <span class="option-meaning">Đi Kyoto</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-2" value="D">
+                  <input type="radio" name="answer-3" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">本屋で働きました</span></span>
-                    <span class="option-meaning">Làm việc ở hiệu sách</span>
+                    <span class="option-text">レポートを書きました</span>
+                    <span class="option-meaning">Viết báo cáo</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Kim nói đã xem lễ hội ở Kyoto với bạn.</p>
+                <p class="explanation" hidden>Kim học máy tính đến 4 giờ và buổi tối xem phim.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="3" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 004</p>
-                  <h2>Đoạn 4</h2>
-                </div>
-                <div class="time">09:20.000 - 09:42.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_004.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>木曜日は何をしましたか。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">木曜日は何をしましたか。
 Romaji: Mokuyoubi wa nani o shimashita ka.
 Nghĩa: Thứ Năm đã làm gì?
 
@@ -317,61 +514,72 @@ Nghĩa: Phim Mỹ.
 でも、あまり面白くなかったです。
 Romaji: Demo, amari omoshiroku nakatta desu.
 Nghĩa: Nhưng không hay lắm.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-5" data-segment="4" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 005</p>
+                <h2>Đoạn 5</h2>
+                <p class="time">09:42.000 - 10:05.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_005.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">木曜日は何をしましたか。</p>
-                <p class="subline">Mokuyoubi wa nani o shimashita ka.</p>
-                <p class="subline">Thứ Năm đã làm gì?</p>
+                <p class="question">金曜日は何をしましたか。</p>
+                <p class="subline">Kinyoubi wa nani o shimashita ka.</p>
+                <p class="subline">Thứ Sáu đã làm gì?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-3" value="A">
+                  <input type="radio" name="answer-4" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">コンピューターを勉強して、映画を見ました</span></span>
-                    <span class="option-meaning">Học máy tính và xem phim</span>
+                    <span class="option-text">本屋で働いて、夜1時までレポートを書きました</span>
+                    <span class="option-meaning">Làm việc ở hiệu sách và viết báo cáo đến 1 giờ đêm</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-3" value="B">
+                  <input type="radio" name="answer-4" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">ダンスを習いました</span></span>
-                    <span class="option-meaning">Học nhảy</span>
+                    <span class="option-text">映画を見て、ダンスを習いました</span>
+                    <span class="option-meaning">Xem phim và học nhảy</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-3" value="C">
+                  <input type="radio" name="answer-4" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">京都へ行きました</span></span>
-                    <span class="option-meaning">Đi Kyoto</span>
+                    <span class="option-text">京都でお祭りを見ました</span>
+                    <span class="option-meaning">Xem lễ hội ở Kyoto</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-3" value="D">
+                  <input type="radio" name="answer-4" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">レポートを書きました</span></span>
-                    <span class="option-meaning">Viết báo cáo</span>
+                    <span class="option-text">図書館で寝ました</span>
+                    <span class="option-meaning">Ngủ ở thư viện</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Kim học máy tính đến 4 giờ và buổi tối xem phim.</p>
+                <p class="explanation" hidden>Kim làm ở hiệu sách và viết báo cáo đến 1 giờ đêm.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="4" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 005</p>
-                  <h2>Đoạn 5</h2>
-                </div>
-                <div class="time">09:42.000 - 10:05.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_005.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>金曜日も忙しかったですか、キムさん。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">金曜日も忙しかったですか、キムさん。
 Romaji: Kinyoubi mo isogashikatta desu ka, Kimu-san.
 Nghĩa: Thứ Sáu cũng bận à, Kim?
 
@@ -386,61 +594,72 @@ Nghĩa: Công việc thì rảnh, nhưng về nhà tôi viết báo cáo đến 
 忙しい1週間でしたね。
 Romaji: Isogashii isshuukan deshita ne.
 Nghĩa: Đúng là một tuần bận rộn nhỉ.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-6" data-segment="5" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 006</p>
+                <h2>Đoạn 6</h2>
+                <p class="time">10:05.000 - 10:50.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_006.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">金曜日は何をしましたか。</p>
-                <p class="subline">Kinyoubi wa nani o shimashita ka.</p>
-                <p class="subline">Thứ Sáu đã làm gì?</p>
+                <p class="question">卵はどちらのスーパーで買いますか。</p>
+                <p class="subline">Tamago wa dochira no suupaa de kaimasu ka.</p>
+                <p class="subline">Trứng sẽ mua ở siêu thị nào?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-4" value="A">
+                  <input type="radio" name="answer-5" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">本屋で働いて、夜1時までレポートを書きました</span></span>
-                    <span class="option-meaning">Làm việc ở hiệu sách và viết báo cáo đến 1 giờ đêm</span>
+                    <span class="option-text">若葉スーパー</span>
+                    <span class="option-meaning">Siêu thị Wakaba</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-4" value="B">
+                  <input type="radio" name="answer-5" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">映画を見て、ダンスを習いました</span></span>
-                    <span class="option-meaning">Xem phim và học nhảy</span>
+                    <span class="option-text">丸谷スーパー</span>
+                    <span class="option-meaning">Siêu thị Maruya</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-4" value="C">
+                  <input type="radio" name="answer-5" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">京都でお祭りを見ました</span></span>
-                    <span class="option-meaning">Xem lễ hội ở Kyoto</span>
+                    <span class="option-text">どちらでも買いません</span>
+                    <span class="option-meaning">Không mua ở siêu thị nào</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-4" value="D">
+                  <input type="radio" name="answer-5" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">図書館で寝ました</span></span>
-                    <span class="option-meaning">Ngủ ở thư viện</span>
+                    <span class="option-text">本屋</span>
+                    <span class="option-meaning">Hiệu sách</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Kim làm ở hiệu sách và viết báo cáo đến 1 giờ đêm.</p>
+                <p class="explanation" hidden>Maruya là 6 quả 72 yên, nên Wakaba rẻ hơn.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="5" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 006</p>
-                  <h2>Đoạn 6</h2>
-                </div>
-                <div class="time">10:05.000 - 10:50.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_006.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>どちらのスーパーで買いますか。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">どちらのスーパーで買いますか。
 Romaji: Dochira no suupaa de kaimasu ka.
 Nghĩa: Sẽ mua ở siêu thị nào?
 
@@ -475,61 +694,72 @@ Nghĩa: Maruya bán 6 quả 72 yên.
 6つですか。じゃあ、若葉のほうが安いですね。
 Romaji: Muttsu desu ka. Jaa, Wakaba no hou ga yasui desu ne.
 Nghĩa: 6 quả à? Vậy Wakaba rẻ hơn nhỉ.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-7" data-segment="6" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 007</p>
+                <h2>Đoạn 7</h2>
+                <p class="time">10:50.000 - 11:21.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_007.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">卵はどちらのスーパーで買いますか。</p>
-                <p class="subline">Tamago wa dochira no suupaa de kaimasu ka.</p>
-                <p class="subline">Trứng sẽ mua ở siêu thị nào?</p>
+                <p class="question">りんごはどちらのスーパーで買いますか。</p>
+                <p class="subline">Ringo wa dochira no suupaa de kaimasu ka.</p>
+                <p class="subline">Táo sẽ mua ở siêu thị nào?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-5" value="A">
+                  <input type="radio" name="answer-6" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">若葉スーパー</span></span>
+                    <span class="option-text">若葉スーパー</span>
                     <span class="option-meaning">Siêu thị Wakaba</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-5" value="B">
+                  <input type="radio" name="answer-6" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">丸谷スーパー</span></span>
+                    <span class="option-text">丸谷スーパー</span>
                     <span class="option-meaning">Siêu thị Maruya</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-5" value="C">
+                  <input type="radio" name="answer-6" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">どちらでも買いません</span></span>
-                    <span class="option-meaning">Không mua ở siêu thị nào</span>
+                    <span class="option-text">どちらでも買いません</span>
+                    <span class="option-meaning">Không mua ở đâu</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-5" value="D">
+                  <input type="radio" name="answer-6" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">本屋</span></span>
-                    <span class="option-meaning">Hiệu sách</span>
+                    <span class="option-text">カバスーパー</span>
+                    <span class="option-meaning">Siêu thị Kaba</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Maruya là 6 quả 72 yên, nên Wakaba rẻ hơn.</p>
+                <p class="explanation" hidden>Wakaba hơi đắt nhưng táo mới hơn.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="6" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 007</p>
-                  <h2>Đoạn 7</h2>
-                </div>
-                <div class="time">10:50.000 - 11:21.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_007.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>次はりんごです。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">次はりんごです。
 Romaji: Tsugi wa ringo desu.
 Nghĩa: Tiếp theo là táo.
 
@@ -548,61 +778,72 @@ Nghĩa: Hôm nay một quả 100 yên, nhưng Wakaba mới hơn.
 少し高いですが、じゃ、りんごは若葉のほうがいいですね。
 Romaji: Sukoshi takai desu ga, ja, ringo wa Wakaba no hou ga ii desu ne.
 Nghĩa: Hơi đắt, nhưng vậy táo thì mua ở Wakaba tốt hơn.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-8" data-segment="7" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 008</p>
+                <h2>Đoạn 8</h2>
+                <p class="time">11:21.000 - 11:45.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_008.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">りんごはどちらのスーパーで買いますか。</p>
-                <p class="subline">Ringo wa dochira no suupaa de kaimasu ka.</p>
-                <p class="subline">Táo sẽ mua ở siêu thị nào?</p>
+                <p class="question">肉はどちらのスーパーで買いますか。</p>
+                <p class="subline">Niku wa dochira no suupaa de kaimasu ka.</p>
+                <p class="subline">Thịt sẽ mua ở siêu thị nào?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-6" value="A">
+                  <input type="radio" name="answer-7" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">若葉スーパー</span></span>
-                    <span class="option-meaning">Siêu thị Wakaba</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-6" value="B">
-                  <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">丸谷スーパー</span></span>
+                    <span class="option-text">丸谷スーパー</span>
                     <span class="option-meaning">Siêu thị Maruya</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-6" value="C">
+                  <input type="radio" name="answer-7" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">どちらでも買いません</span></span>
+                    <span class="option-text">若葉スーパー</span>
+                    <span class="option-meaning">Siêu thị Wakaba</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-7" value="C">
+                  <span class="option-letter">C</span>
+                  <span class="option-body">
+                    <span class="option-text">どちらでも買いません</span>
                     <span class="option-meaning">Không mua ở đâu</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-6" value="D">
+                  <input type="radio" name="answer-7" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">カバスーパー</span></span>
-                    <span class="option-meaning">Siêu thị Kaba</span>
+                    <span class="option-text">京都スーパー</span>
+                    <span class="option-meaning">Siêu thị Kyoto</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Wakaba hơi đắt nhưng táo mới hơn.</p>
+                <p class="explanation" hidden>Maruya rẻ hơn: 225円 so với 273円.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="7" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 008</p>
-                  <h2>Đoạn 8</h2>
-                </div>
-                <div class="time">11:21.000 - 11:45.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_008.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>肉も買いましょう。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">肉も買いましょう。
 Romaji: Niku mo kaimashou.
 Nghĩa: Cũng mua thịt nhé.
 
@@ -621,61 +862,72 @@ Nghĩa: Siêu thị Maruya rẻ đấy. 225 yên.
 じゃ、安い店で買いましょう。
 Romaji: Ja, yasui mise de kaimashou.
 Nghĩa: Vậy mua ở cửa hàng rẻ nhé.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-9" data-segment="8" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 009</p>
+                <h2>Đoạn 9</h2>
+                <p class="time">11:45.000 - 12:23.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_009.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">肉はどちらのスーパーで買いますか。</p>
-                <p class="subline">Niku wa dochira no suupaa de kaimasu ka.</p>
-                <p class="subline">Thịt sẽ mua ở siêu thị nào?</p>
+                <p class="question">牛乳はどちらのスーパーで買いますか。</p>
+                <p class="subline">Gyuunyuu wa dochira no suupaa de kaimasu ka.</p>
+                <p class="subline">Sữa sẽ mua ở siêu thị nào?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-7" value="A">
+                  <input type="radio" name="answer-8" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">丸谷スーパー</span></span>
+                    <span class="option-text">丸谷スーパー</span>
                     <span class="option-meaning">Siêu thị Maruya</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-7" value="B">
+                  <input type="radio" name="answer-8" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">若葉スーパー</span></span>
+                    <span class="option-text">若葉スーパー</span>
                     <span class="option-meaning">Siêu thị Wakaba</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-7" value="C">
+                  <input type="radio" name="answer-8" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">どちらでも買いません</span></span>
+                    <span class="option-text">どちらでも買いません</span>
                     <span class="option-meaning">Không mua ở đâu</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-7" value="D">
+                  <input type="radio" name="answer-8" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">京都スーパー</span></span>
-                    <span class="option-meaning">Siêu thị Kyoto</span>
+                    <span class="option-text">カバスーパー</span>
+                    <span class="option-meaning">Siêu thị Kaba</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Maruya rẻ hơn: 225円 so với 273円.</p>
+                <p class="explanation" hidden>Wakaba rẻ hơn nhưng sữa không ngon, nên chọn bên đắt hơn là Maruya.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="8" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 009</p>
-                  <h2>Đoạn 9</h2>
-                </div>
-                <div class="time">11:45.000 - 12:23.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_009.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>若葉スーパーで牛乳はいくらですか。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">若葉スーパーで牛乳はいくらですか。
 Romaji: Wakaba suupaa de gyuunyuu wa ikura desu ka.
 Nghĩa: Ở siêu thị Wakaba, sữa bao nhiêu tiền?
 
@@ -698,61 +950,72 @@ Nghĩa: Tuần trước tôi mua ở Wakaba nhưng không ngon.
 じゃあ、15円高いですが、こちらで買いましょう。
 Romaji: Jaa, juu go en takai desu ga, kochira de kaimashou.
 Nghĩa: Vậy dù đắt hơn 15 yên, mua ở bên này nhé.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-10" data-segment="9" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 010</p>
+                <h2>Đoạn 10</h2>
+                <p class="time">12:23.000 - 13:06.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_010.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">牛乳はどちらのスーパーで買いますか。</p>
-                <p class="subline">Gyuunyuu wa dochira no suupaa de kaimasu ka.</p>
-                <p class="subline">Sữa sẽ mua ở siêu thị nào?</p>
+                <p class="question">一番多い名前はどれですか。</p>
+                <p class="subline">Ichiban ooi namae wa dore desu ka.</p>
+                <p class="subline">Tên nào nhiều nhất?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-8" value="A">
+                  <input type="radio" name="answer-9" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">丸谷スーパー</span></span>
-                    <span class="option-meaning">Siêu thị Maruya</span>
+                    <span class="option-text">佐藤</span>
+                    <span class="option-meaning">Sato</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-8" value="B">
+                  <input type="radio" name="answer-9" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">若葉スーパー</span></span>
-                    <span class="option-meaning">Siêu thị Wakaba</span>
+                    <span class="option-text">鈴木</span>
+                    <span class="option-meaning">Suzuki</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-8" value="C">
+                  <input type="radio" name="answer-9" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">どちらでも買いません</span></span>
-                    <span class="option-meaning">Không mua ở đâu</span>
+                    <span class="option-text">田中</span>
+                    <span class="option-meaning">Tanaka</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-8" value="D">
+                  <input type="radio" name="answer-9" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">カバスーパー</span></span>
-                    <span class="option-meaning">Siêu thị Kaba</span>
+                    <span class="option-text">山田</span>
+                    <span class="option-meaning">Yamada</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Wakaba rẻ hơn nhưng sữa không ngon, nên chọn bên đắt hơn là Maruya.</p>
+                <p class="explanation" hidden>佐藤さんは鈴木さんより多い, nên Sato nhiều nhất.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="9" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 010</p>
-                  <h2>Đoạn 10</h2>
-                </div>
-                <div class="time">12:23.000 - 13:06.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_010.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>クイズの答えはどれですか。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">クイズの答えはどれですか。
 Romaji: Kuizu no kotae wa dore desu ka.
 Nghĩa: Đáp án của câu đố là cái nào?
 
@@ -775,61 +1038,72 @@ Nghĩa: Không, Suzuki nhiều hơn Tanaka.
 でも、佐藤さんは鈴木さんより多いですよ。
 Romaji: Demo, Satou-san wa Suzuki-san yori ooi desu yo.
 Nghĩa: Nhưng Sato nhiều hơn Suzuki.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-11" data-segment="10" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 011</p>
+                <h2>Đoạn 11</h2>
+                <p class="time">13:06.000 - 13:38.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_011.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">一番多い名前はどれですか。</p>
-                <p class="subline">Ichiban ooi namae wa dore desu ka.</p>
-                <p class="subline">Tên nào nhiều nhất?</p>
+                <p class="question">日本人はどれが一番好きですか。</p>
+                <p class="subline">Nihonjin wa dore ga ichiban suki desu ka.</p>
+                <p class="subline">Người Nhật thích môn nào nhất?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-9" value="A">
+                  <input type="radio" name="answer-10" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">佐藤</span></span>
-                    <span class="option-meaning">Sato</span>
+                    <span class="option-text">野球</span>
+                    <span class="option-meaning">Bóng chày</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-9" value="B">
+                  <input type="radio" name="answer-10" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">鈴木</span></span>
-                    <span class="option-meaning">Suzuki</span>
+                    <span class="option-text">サッカー</span>
+                    <span class="option-meaning">Bóng đá</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-9" value="C">
+                  <input type="radio" name="answer-10" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">田中</span></span>
-                    <span class="option-meaning">Tanaka</span>
+                    <span class="option-text">相撲</span>
+                    <span class="option-meaning">Sumo</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-9" value="D">
+                  <input type="radio" name="answer-10" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">山田</span></span>
-                    <span class="option-meaning">Yamada</span>
+                    <span class="option-text">テニス</span>
+                    <span class="option-meaning">Tennis</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>佐藤さんは鈴木さんより多い, nên Sato nhiều nhất.</p>
+                <p class="explanation" hidden>Bóng chày được nói là được thích hơn bóng đá.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="10" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 011</p>
-                  <h2>Đoạn 11</h2>
-                </div>
-                <div class="time">13:06.000 - 13:38.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_011.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>次の質問です。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">次の質問です。
 Romaji: Tsugi no shitsumon desu.
 Nghĩa: Câu hỏi tiếp theo.
 
@@ -852,61 +1126,72 @@ Nghĩa: Người Nhật thích bóng đá hơn sumo nhỉ.
 でも、サッカーより野球のほうが好きですよ。
 Romaji: Demo, sakkaa yori yakyuu no hou ga suki desu yo.
 Nghĩa: Nhưng thích bóng chày hơn bóng đá.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-12" data-segment="11" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 012</p>
+                <h2>Đoạn 12</h2>
+                <p class="time">13:38.000 - 14:07.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_012.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">日本人はどれが一番好きですか。</p>
-                <p class="subline">Nihonjin wa dore ga ichiban suki desu ka.</p>
-                <p class="subline">Người Nhật thích môn nào nhất?</p>
+                <p class="question">何月が一番雨が多いですか。</p>
+                <p class="subline">Nangatsu ga ichiban ame ga ooi desu ka.</p>
+                <p class="subline">Tháng mấy mưa nhiều nhất?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-10" value="A">
+                  <input type="radio" name="answer-11" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">野球</span></span>
-                    <span class="option-meaning">Bóng chày</span>
+                    <span class="option-text">9月</span>
+                    <span class="option-meaning">Tháng 9</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-10" value="B">
+                  <input type="radio" name="answer-11" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">サッカー</span></span>
-                    <span class="option-meaning">Bóng đá</span>
+                    <span class="option-text">6月</span>
+                    <span class="option-meaning">Tháng 6</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-10" value="C">
+                  <input type="radio" name="answer-11" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">相撲</span></span>
-                    <span class="option-meaning">Sumo</span>
+                    <span class="option-text">4月</span>
+                    <span class="option-meaning">Tháng 4</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-10" value="D">
+                  <input type="radio" name="answer-11" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">テニス</span></span>
-                    <span class="option-meaning">Tennis</span>
+                    <span class="option-text">12月</span>
+                    <span class="option-meaning">Tháng 12</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Bóng chày được nói là được thích hơn bóng đá.</p>
+                <p class="explanation" hidden>6月は9月より少ない, nên tháng 9 nhiều mưa nhất.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="11" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 012</p>
-                  <h2>Đoạn 12</h2>
-                </div>
-                <div class="time">13:38.000 - 14:07.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_012.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>日本で4月と6月と9月と、何月が一番雨が多いですか。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">日本で4月と6月と9月と、何月が一番雨が多いですか。
 Romaji: Nihon de shigatsu to rokugatsu to kugatsu to, nangatsu ga ichiban ame ga ooi desu ka.
 Nghĩa: Ở Nhật, trong tháng 4, 6 và 9, tháng nào mưa nhiều nhất?
 
@@ -925,61 +1210,72 @@ Nghĩa: Tháng 6 nhiều hơn tháng 4 nhỉ.
 でも、6月は9月より少ないですよ。
 Romaji: Demo, rokugatsu wa kugatsu yori sukunai desu yo.
 Nghĩa: Nhưng tháng 6 ít hơn tháng 9 đấy.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-13" data-segment="12" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 013</p>
+                <h2>Đoạn 13</h2>
+                <p class="time">14:07.000 - 14:57.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_013.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">何月が一番雨が多いですか。</p>
-                <p class="subline">Nangatsu ga ichiban ame ga ooi desu ka.</p>
-                <p class="subline">Tháng mấy mưa nhiều nhất?</p>
+                <p class="question">佐野さんは何歳ですか。</p>
+                <p class="subline">Sano-san wa nansai desu ka.</p>
+                <p class="subline">Ông/bà Sano bao nhiêu tuổi?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-11" value="A">
+                  <input type="radio" name="answer-12" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">9月</span></span>
-                    <span class="option-meaning">Tháng 9</span>
+                    <span class="option-text">75歳</span>
+                    <span class="option-meaning">75 tuổi</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-11" value="B">
+                  <input type="radio" name="answer-12" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">6月</span></span>
-                    <span class="option-meaning">Tháng 6</span>
+                    <span class="option-text">65歳</span>
+                    <span class="option-meaning">65 tuổi</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-11" value="C">
+                  <input type="radio" name="answer-12" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">4月</span></span>
-                    <span class="option-meaning">Tháng 4</span>
+                    <span class="option-text">70歳</span>
+                    <span class="option-meaning">70 tuổi</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-11" value="D">
+                  <input type="radio" name="answer-12" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">12月</span></span>
-                    <span class="option-meaning">Tháng 12</span>
+                    <span class="option-text">85歳</span>
+                    <span class="option-meaning">85 tuổi</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>6月は9月より少ない, nên tháng 9 nhiều mưa nhất.</p>
+                <p class="explanation" hidden>Sano trả lời 75歳です.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="12" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 013</p>
-                  <h2>Đoạn 13</h2>
-                </div>
-                <div class="time">14:07.000 - 14:57.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_013.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>カリナさんは旅行のアンケートをしました。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">カリナさんは旅行のアンケートをしました。
 Romaji: Karina-san wa ryokou no ankeeto o shimashita.
 Nghĩa: Karina đã làm khảo sát về du lịch.
 
@@ -1014,61 +1310,72 @@ Nghĩa: Từ trước đến nay ông/bà Sano đã đi những nước nào?
 私はアジアが好きですから、アジアのいろいろな国へ行きました。
 Romaji: Watashi wa Ajia ga suki desu kara, Ajia no iroiro na kuni e ikimashita.
 Nghĩa: Vì tôi thích châu Á nên đã đi nhiều nước ở châu Á.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-14" data-segment="13" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 014</p>
+                <h2>Đoạn 14</h2>
+                <p class="time">14:57.000 - 15:15.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_014.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">佐野さんは何歳ですか。</p>
-                <p class="subline">Sano-san wa nansai desu ka.</p>
-                <p class="subline">Ông/bà Sano bao nhiêu tuổi?</p>
+                <p class="question">どこが一番きれいでしたか。</p>
+                <p class="subline">Doko ga ichiban kirei deshita ka.</p>
+                <p class="subline">Nơi nào đẹp nhất?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-12" value="A">
+                  <input type="radio" name="answer-13" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">75歳</span></span>
-                    <span class="option-meaning">75 tuổi</span>
+                    <span class="option-text">ベトナム</span>
+                    <span class="option-meaning">Việt Nam</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-12" value="B">
+                  <input type="radio" name="answer-13" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">65歳</span></span>
-                    <span class="option-meaning">65 tuổi</span>
+                    <span class="option-text">韓国</span>
+                    <span class="option-meaning">Hàn Quốc</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-12" value="C">
+                  <input type="radio" name="answer-13" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">70歳</span></span>
-                    <span class="option-meaning">70 tuổi</span>
+                    <span class="option-text">シンガポール</span>
+                    <span class="option-meaning">Singapore</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-12" value="D">
+                  <input type="radio" name="answer-13" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">85歳</span></span>
-                    <span class="option-meaning">85 tuổi</span>
+                    <span class="option-text">タイ</span>
+                    <span class="option-meaning">Thái Lan</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Sano trả lời 75歳です.</p>
+                <p class="explanation" hidden>Sano nói ベトナムが一番きれいでした.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="13" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 014</p>
-                  <h2>Đoạn 14</h2>
-                </div>
-                <div class="time">14:57.000 - 15:15.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_014.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>どこが一番きれいでしたか。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">どこが一番きれいでしたか。
 Romaji: Doko ga ichiban kirei deshita ka.
 Nghĩa: Nơi nào đẹp nhất?
 
@@ -1083,61 +1390,72 @@ Nghĩa: Singapore cũng đẹp.
 でも、ベトナムが一番きれいでしたね。
 Romaji: Demo, Betonamu ga ichiban kirei deshita ne.
 Nghĩa: Nhưng Việt Nam là đẹp nhất.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-15" data-segment="14" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 015</p>
+                <h2>Đoạn 15</h2>
+                <p class="time">15:15.000 - 15:41.000</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_015.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">どこが一番きれいでしたか。</p>
-                <p class="subline">Doko ga ichiban kirei deshita ka.</p>
-                <p class="subline">Nơi nào đẹp nhất?</p>
+                <p class="question">どこの料理が一番おいしかったですか。</p>
+                <p class="subline">Doko no ryouri ga ichiban oishikatta desu ka.</p>
+                <p class="subline">Món ăn nước nào ngon nhất?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-13" value="A">
+                  <input type="radio" name="answer-14" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">ベトナム</span></span>
-                    <span class="option-meaning">Việt Nam</span>
+                    <span class="option-text">韓国の料理</span>
+                    <span class="option-meaning">Món Hàn Quốc</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-13" value="B">
+                  <input type="radio" name="answer-14" value="B">
+                  <span class="option-letter">B</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">韓国</span></span>
-                    <span class="option-meaning">Hàn Quốc</span>
+                    <span class="option-text">中国料理</span>
+                    <span class="option-meaning">Món Trung Quốc</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-13" value="C">
+                  <input type="radio" name="answer-14" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">シンガポール</span></span>
-                    <span class="option-meaning">Singapore</span>
+                    <span class="option-text">タイ料理</span>
+                    <span class="option-meaning">Món Thái</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-13" value="D">
+                  <input type="radio" name="answer-14" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">タイ</span></span>
-                    <span class="option-meaning">Thái Lan</span>
+                    <span class="option-text">日本料理</span>
+                    <span class="option-meaning">Món Nhật</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Sano nói ベトナムが一番きれいでした.</p>
+                <p class="explanation" hidden>Sano nói 韓国の料理が一番おいしかったです.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="14" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 015</p>
-                  <h2>Đoạn 15</h2>
-                </div>
-                <div class="time">15:15.000 - 15:41.000</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_015.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>どこの料理が一番おいしかったですか。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">どこの料理が一番おいしかったですか。
 Romaji: Doko no ryouri ga ichiban oishikatta desu ka.
 Nghĩa: Món ăn nước nào ngon nhất?
 
@@ -1152,61 +1470,72 @@ Nghĩa: Tôi thích món Trung Quốc nhất.
 私は韓国の料理が一番おいしかったです。
 Romaji: Watashi wa Kankoku no ryouri ga ichiban oishikatta desu.
 Nghĩa: Tôi thấy món Hàn Quốc là ngon nhất.</pre>
+              </details>
+            </article>
+            
+            <article class="segment-card" id="segment-16" data-segment="15" data-answer="A">
+              <div class="segment-head">
+                <p class="eyebrow">Segment 016</p>
+                <h2>Đoạn 16</h2>
+                <p class="time">15:41.000 - 16:24.642</p>
+              </div>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/segment_016.mp3"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">どこの料理が一番おいしかったですか。</p>
-                <p class="subline">Doko no ryouri ga ichiban oishikatta desu ka.</p>
-                <p class="subline">Món ăn nước nào ngon nhất?</p>
+                <p class="question">何が一番面白かったですか。</p>
+                <p class="subline">Nani ga ichiban omoshirokatta desu ka.</p>
+                <p class="subline">Cái gì thú vị nhất?</p>
                 <div class="options">
                 <label class="option">
-                  <input type="radio" name="answer-14" value="A">
+                  <input type="radio" name="answer-15" value="A">
+                  <span class="option-letter">A</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">韓国の料理</span></span>
+                    <span class="option-text">インドネシアのダンス</span>
+                    <span class="option-meaning">Điệu nhảy Indonesia</span>
+                  </span>
+                </label>
+                
+                <label class="option">
+                  <input type="radio" name="answer-15" value="B">
+                  <span class="option-letter">B</span>
+                  <span class="option-body">
+                    <span class="option-text">韓国の料理</span>
                     <span class="option-meaning">Món Hàn Quốc</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-14" value="B">
+                  <input type="radio" name="answer-15" value="C">
+                  <span class="option-letter">C</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">中国料理</span></span>
-                    <span class="option-meaning">Món Trung Quốc</span>
+                    <span class="option-text">ベトナムの町</span>
+                    <span class="option-meaning">Thành phố ở Việt Nam</span>
                   </span>
                 </label>
                 
                 <label class="option">
-                  <input type="radio" name="answer-14" value="C">
+                  <input type="radio" name="answer-15" value="D">
+                  <span class="option-letter">D</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">タイ料理</span></span>
-                    <span class="option-meaning">Món Thái</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-14" value="D">
-                  <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">日本料理</span></span>
-                    <span class="option-meaning">Món Nhật</span>
+                    <span class="option-text">シンガポールの音楽</span>
+                    <span class="option-meaning">Âm nhạc Singapore</span>
                   </span>
                 </label>
                 </div>
                 <button class="check-answer" type="button">Kiểm tra đáp án</button>
                 <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Sano nói 韓国の料理が一番おいしかったです.</p>
+                <p class="explanation" hidden>Sano nói インドネシアのダンスが一番面白かったです.</p>
               </section>
-            </article>
-            
-            <article class="segment-card" data-segment="15" data-answer="A">
-              <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment 016</p>
-                  <h2>Đoạn 16</h2>
-                </div>
-                <div class="time">15:41.000 - 16:24.642</div>
-              </div>
-              <audio controls preload="metadata" src="audio/segment_016.mp3"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>佐野さん、いろいろなものを見ましたね。
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">佐野さん、いろいろなものを見ましたね。
 Romaji: Sano-san, iroiro na mono o mimashita ne.
 Nghĩa: Ông/bà Sano đã xem nhiều thứ nhỉ.
 
@@ -1229,63 +1558,62 @@ Nghĩa: Âm nhạc cũng hay.
 今日はどうもありがとうございました。
 Romaji: Kyou wa doumo arigatou gozaimashita.
 Nghĩa: Hôm nay xin cảm ơn rất nhiều.</pre>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">何が一番面白かったですか。</p>
-                <p class="subline">Nani ga ichiban omoshirokatta desu ka.</p>
-                <p class="subline">Cái gì thú vị nhất?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-15" value="A">
-                  <span class="option-body">
-                    <span class="option-line"><span class="option-key">A</span><span class="option-text">インドネシアのダンス</span></span>
-                    <span class="option-meaning">Điệu nhảy Indonesia</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-15" value="B">
-                  <span class="option-body">
-                    <span class="option-line"><span class="option-key">B</span><span class="option-text">韓国の料理</span></span>
-                    <span class="option-meaning">Món Hàn Quốc</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-15" value="C">
-                  <span class="option-body">
-                    <span class="option-line"><span class="option-key">C</span><span class="option-text">ベトナムの町</span></span>
-                    <span class="option-meaning">Thành phố ở Việt Nam</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-15" value="D">
-                  <span class="option-body">
-                    <span class="option-line"><span class="option-key">D</span><span class="option-text">シンガポールの音楽</span></span>
-                    <span class="option-meaning">Âm nhạc Singapore</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Sano nói インドネシアのダンスが一番面白かったです.</p>
-              </section>
+              </details>
             </article>
-            </main>
+            
+  </main>
   <script>
     const totalSegments = 16;
     const state = {};
+    const currentSegment = document.getElementById("current-segment");
+    function formatTime(seconds) {
+      if (!Number.isFinite(seconds)) return "0:00";
+      const total = Math.max(0, Math.floor(seconds));
+      const mins = Math.floor(total / 60);
+      const secs = String(total % 60).padStart(2, "0");
+      return `${mins}:${secs}`;
+    }
     function updateScore() {
       const correct = Object.values(state).filter(Boolean).length;
-      document.getElementById("score").textContent = `${correct} / ${totalSegments} câu đúng`;
+      document.getElementById("score").textContent = `${correct}/${totalSegments}`;
     }
-    document.querySelectorAll(".toggle-script").forEach((button) => {
-      button.addEventListener("click", () => {
-        const script = button.nextElementSibling;
-        const isHidden = script.hasAttribute("hidden");
-        if (isHidden) { script.removeAttribute("hidden"); button.textContent = "Hide script"; }
-        else { script.setAttribute("hidden", ""); button.textContent = "Show script"; }
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (!visible) return;
+      const index = Number(visible.target.dataset.segment) + 1;
+      currentSegment.textContent = `Đang ở đoạn ${index}/${totalSegments}`;
+    }, { rootMargin: "-90px 0px -55% 0px", threshold: [0.2, 0.45, 0.7] });
+    document.querySelectorAll(".segment-card").forEach((card) => observer.observe(card));
+    document.querySelectorAll(".audio-player").forEach((player) => {
+      const audio = player.querySelector("audio");
+      const playButton = player.querySelector(".play-audio");
+      const progress = player.querySelector(".audio-progress");
+      const time = player.querySelector(".audio-time");
+      playButton.addEventListener("click", () => {
+        document.querySelectorAll("audio").forEach((other) => {
+          if (other !== audio) other.pause();
+        });
+        if (audio.paused) audio.play();
+        else audio.pause();
+      });
+      audio.addEventListener("play", () => { playButton.textContent = "❚❚"; });
+      audio.addEventListener("pause", () => { playButton.textContent = "▶"; });
+      audio.addEventListener("loadedmetadata", () => {
+        time.textContent = `0:00 / ${formatTime(audio.duration)}`;
+      });
+      audio.addEventListener("timeupdate", () => {
+        if (audio.duration) progress.value = String((audio.currentTime / audio.duration) * 100);
+        time.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+      });
+      audio.addEventListener("ended", () => {
+        playButton.textContent = "▶";
+        progress.value = "0";
+      });
+      progress.addEventListener("input", () => {
+        if (!audio.duration) return;
+        audio.currentTime = (Number(progress.value) / 100) * audio.duration;
       });
     });
     document.querySelectorAll(".check-answer").forEach((button) => {
@@ -1295,6 +1623,7 @@ Nghĩa: Hôm nay xin cảm ơn rất nhiều.</pre>
         const feedback = card.querySelector(".feedback");
         const explanation = card.querySelector(".explanation");
         const segmentIndex = card.dataset.segment;
+        const nav = document.querySelector(`[data-nav-segment="${segmentIndex}"]`);
         feedback.className = "feedback";
         explanation.hidden = true;
         if (!selected) {
@@ -1304,13 +1633,18 @@ Nghĩa: Hôm nay xin cảm ơn rất nhiều.</pre>
           updateScore();
           return;
         }
+        nav.classList.remove("done", "wrong");
         if (selected.value === card.dataset.answer) {
           feedback.textContent = "Đúng.";
           feedback.classList.add("ok");
+          nav.classList.add("done");
+          nav.querySelector("small").textContent = "Đúng";
           state[segmentIndex] = true;
         } else {
           feedback.textContent = "Chưa đúng.";
           feedback.classList.add("bad");
+          nav.classList.add("wrong");
+          nav.querySelector("small").textContent = "Sai";
           state[segmentIndex] = false;
         }
         explanation.hidden = false;

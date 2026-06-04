@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import html
+import csv
 import re
 import shutil
 import sys
@@ -9,7 +10,7 @@ from pathlib import Path
 
 
 LESSON_NO = 1
-LESSON_NOS = list(range(6, 26))
+LESSON_NOS = list(range(1, 26))
 
 BASE_DIR = Path(r"E:\UTILS\extractor\nihongo_listening")
 RAW_AUDIO_DIR = BASE_DIR / "raw_audio"
@@ -281,9 +282,95 @@ def parse_segments_from_script(script_text: str, audio_duration_ms: int) -> tupl
     return valid_segments, quiz_items
 
 
+def iter_script_blocks(script_text: str) -> list[tuple[int, str, str]]:
+    parts = re.split(r"^##\s*.*?(\d+)\s*$", script_text, flags=re.MULTILINE)
+    blocks: list[tuple[int, str, str]] = []
+    for index in range(1, len(parts), 2):
+        number = int(parts[index])
+        block = parts[index + 1]
+        script_match = re.search(
+            r"###\s*1\.\s*Script.*?(.*?)(?=###\s*2\.|\Z)",
+            block,
+            flags=re.DOTALL,
+        )
+        dialogue_text = script_match.group(1).strip() if script_match else block.strip()
+        blocks.append((number, block, dialogue_text))
+    return blocks
+
+
+def parse_segment_define_timing(segment_define_path: Path) -> dict[int, tuple[int, int]]:
+    text = read_text_flexible(segment_define_path)
+    timing: dict[int, list[int]] = {}
+    for row in csv.DictReader(text.splitlines()):
+        if row.get("repeat_round", "").strip() != "1":
+            continue
+        if row.get("segment_type", "").strip().lower() != "dialogue":
+            continue
+        match = re.match(r"D(\d{2})", row.get("segment_id", "").strip())
+        if not match:
+            continue
+        try:
+            start_ms = int(float(row.get("start_sec", "")) * 1000)
+            end_ms = int(float(row.get("end_sec", "")) * 1000)
+        except ValueError:
+            start_time = row.get("start_time", "").strip()
+            end_time = row.get("end_time", "").strip()
+            if not start_time or not end_time:
+                continue
+            start_ms = parse_timestamp_to_ms(start_time)
+            end_ms = parse_timestamp_to_ms(end_time)
+        number = int(match.group(1))
+        if number not in timing:
+            timing[number] = [start_ms, end_ms]
+        else:
+            timing[number][0] = min(timing[number][0], start_ms)
+            timing[number][1] = max(timing[number][1], end_ms)
+    return {number: (bounds[0], bounds[1]) for number, bounds in timing.items()}
+
+
+def parse_segments_from_segment_define(
+    script_text: str,
+    segment_define_path: Path,
+    audio_duration_ms: int,
+) -> tuple[list[Segment], list[QuizItem]]:
+    timing = parse_segment_define_timing(segment_define_path)
+    segments: list[Segment] = []
+    quiz_items: list[QuizItem] = []
+    for number, block, dialogue_text in iter_script_blocks(script_text):
+        if number not in timing:
+            warn(f"Bỏ qua Đoạn hội thoại {number}: không có timing trong {segment_define_path.name}.")
+            continue
+        start_ms, end_ms = timing[number]
+        if end_ms > audio_duration_ms:
+            warn(f"Đoạn {number}: end vượt thời lượng audio; clamp về {format_ms(audio_duration_ms)}.")
+            end_ms = audio_duration_ms
+        if end_ms <= start_ms or start_ms >= audio_duration_ms:
+            warn(f"Bỏ qua Đoạn hội thoại {number}: timing không hợp lệ.")
+            continue
+        cleaned_script = "\n".join(strip_timestamps(line) for line in dialogue_text.splitlines()).strip()
+        segment = Segment(
+            number=number,
+            start_ms=start_ms,
+            end_ms=end_ms,
+            label=f"Đoạn {number}",
+            script_text=cleaned_script,
+        )
+        segments.append(segment)
+        quiz_items.append(parse_quiz(block, segment))
+    return segments, quiz_items
+
 def load_script_with_timestamps(script_path: Path, audio_duration_ms: int) -> tuple[list[Segment], list[QuizItem]]:
     text = read_text_flexible(script_path)
-    return parse_segments_from_script(text, audio_duration_ms)
+    segments, quiz_items = parse_segments_from_script(text, audio_duration_ms)
+    if segments:
+        return segments, quiz_items
+
+    segment_define_path = script_path.parent / "segment_define" / script_path.name
+    if segment_define_path.exists():
+        warn(f"{script_path.name}: dùng fallback timing từ {segment_define_path}.")
+        return parse_segments_from_segment_define(text, segment_define_path, audio_duration_ms)
+
+    return segments, quiz_items
 
 
 def ensure_audio_segment():
@@ -352,6 +439,7 @@ def generate_index_html(
     output_path: Path,
 ) -> None:
     cards = []
+    nav_items = []
     for index, (segment, quiz) in enumerate(zip(segments, quiz_items)):
         options_html = []
         for option in quiz.options:
@@ -362,27 +450,40 @@ def generate_index_html(
                 f"""
                 <label class="option">
                   <input type="radio" name="answer-{index}" value="{key}">
+                  <span class="option-letter">{key}</span>
                   <span class="option-body">
-                    <span class="option-line"><span class="option-key">{key}</span><span class="option-text">{text}</span></span>
+                    <span class="option-text">{text}</span>
                     <span class="option-meaning">{meaning}</span>
                   </span>
                 </label>
                 """
             )
 
+        nav_items.append(
+            f"""
+            <a class="segment-pill" href="#segment-{index + 1}" data-nav-segment="{index}">
+              <span>{index + 1:02d}</span>
+              <small>Chưa làm</small>
+            </a>
+            """
+        )
+
         cards.append(
             f"""
-            <article class="segment-card" data-segment="{index}" data-answer="{html.escape(quiz.answer)}">
+            <article class="segment-card" id="segment-{index + 1}" data-segment="{index}" data-answer="{html.escape(quiz.answer)}">
               <div class="segment-head">
-                <div>
-                  <p class="eyebrow">Segment {index + 1:03d}</p>
-                  <h2>{html.escape(segment.label)}</h2>
-                </div>
-                <div class="time">{html.escape(format_ms(segment.start_ms))} - {html.escape(format_ms(segment.end_ms or 0))}</div>
+                <p class="eyebrow">Segment {index + 1:03d}</p>
+                <h2>{html.escape(segment.label)}</h2>
+                <p class="time">{html.escape(format_ms(segment.start_ms))} - {html.escape(format_ms(segment.end_ms or 0))}</p>
               </div>
-              <audio controls preload="metadata" src="audio/{html.escape(segment.audio_file)}"></audio>
-              <button class="toggle-script" type="button">Show script</button>
-              <pre class="script-text" hidden>{html.escape(segment.script_text)}</pre>
+              <div class="audio-shell">
+                <div class="audio-player">
+                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
+                  <span class="audio-time">0:00</span>
+                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
+                  <audio preload="metadata" src="audio/{html.escape(segment.audio_file)}"></audio>
+                </div>
+              </div>
               <section class="quiz">
                 <h3>Câu hỏi trắc nghiệm</h3>
                 <p class="question">{html.escape(quiz.question)}</p>
@@ -393,6 +494,10 @@ def generate_index_html(
                 <div class="feedback" aria-live="polite"></div>
                 <p class="explanation" hidden>{html.escape(quiz.explanation)}</p>
               </section>
+              <details class="script-panel">
+                <summary>Xem script</summary>
+                <pre class="script-text">{html.escape(segment.script_text)}</pre>
+              </details>
             </article>
             """
         )
@@ -406,78 +511,150 @@ def generate_index_html(
   <title>JLPT N5 Listening - Bài {lesson_no}</title>
   <style>
     :root {{
-      --bg: #f6f8fb; --panel: #fff; --text: #162033; --muted: #64748b;
-      --line: #dbe3ef; --primary: #0f766e; --primary-soft: #e1f4f1;
-      --ok: #147a3d; --bad: #b42318; --shadow: 0 12px 28px rgba(15,23,42,.08);
+      --bg: #f6f8fb;
+      --panel: #fff;
+      --text: #162033;
+      --muted: #64748b;
+      --line: #dbe3ef;
+      --primary: #0f766e;
+      --primary-soft: #e1f4f1;
+      --ok: #147a3d;
+      --bad: #b42318;
+      --shadow: 0 8px 22px rgba(15,23,42,.07);
     }}
     * {{ box-sizing: border-box; }}
-    body {{ margin: 0; background: var(--bg); color: var(--text); font-family: Arial, sans-serif; line-height: 1.5; }}
-    header {{ position: sticky; top: 0; z-index: 5; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.96); padding: 14px 16px; }}
-    .header-inner {{ max-width: 960px; margin: 0 auto; display: flex; justify-content: space-between; gap: 12px; align-items: center; }}
+    html {{ scroll-behavior: smooth; }}
+    body {{ margin: 0; overflow-x: hidden; background: var(--bg); color: var(--text); font-family: Arial, sans-serif; font-size: 15px; line-height: 1.45; }}
     h1, h2, h3, p {{ margin-top: 0; }}
-    h1 {{ margin-bottom: 2px; font-size: clamp(20px, 4vw, 30px); }}
-    .hint {{ margin: 0; color: var(--muted); }}
-    .score {{ min-width: max-content; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 8px 10px; font-weight: 700; color: var(--muted); }}
-    main {{ width: min(960px, 100%); margin: 0 auto; padding: 16px; display: grid; gap: 14px; }}
-    .segment-card {{ border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); padding: 16px; }}
-    .segment-head {{ display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 12px; }}
-    .eyebrow {{ margin: 0 0 4px; color: var(--primary); font-size: 13px; font-weight: 800; text-transform: uppercase; }}
-    h2 {{ margin-bottom: 0; font-size: clamp(18px, 3vw, 24px); }}
-    .time {{ color: var(--muted); font-weight: 700; }}
-    audio {{ width: 100%; display: block; margin: 12px 0; }}
-    button {{ min-height: 42px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 8px 12px; font-weight: 700; cursor: pointer; }}
-    button:hover {{ border-color: var(--primary); color: var(--primary); }}
-    .toggle-script {{ margin-bottom: 12px; }}
-    .script-text {{ width: 100%; margin: 0 0 14px; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 12px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 15px; }}
-    .quiz {{ border-top: 1px solid var(--line); padding-top: 14px; }}
-    .question {{ margin-bottom: 4px; font-weight: 800; font-size: 17px; }}
-    .subline {{ margin: 0 0 6px; color: var(--muted); }}
-    .options {{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin: 12px 0; }}
-    .option {{ min-height: 68px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 12px; display: grid; grid-template-columns: 24px minmax(0, 1fr); column-gap: 10px; align-items: start; cursor: pointer; }}
+    .app-header {{ position: sticky; top: 0; z-index: 20; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.97); backdrop-filter: blur(10px); }}
+    .header-inner {{ max-width: 900px; margin: 0 auto; padding: 10px 12px; display: grid; gap: 8px; }}
+    .header-row {{ display: flex; align-items: center; justify-content: space-between; gap: 10px; }}
+    h1 {{ margin: 0; font-size: 18px; line-height: 1.2; }}
+    .score {{ flex: 0 0 auto; border: 1px solid var(--line); border-radius: 999px; background: #fff; padding: 5px 9px; font-size: 13px; font-weight: 800; color: var(--primary); }}
+    .current-segment {{ margin: 0; color: var(--muted); font-size: 13px; font-weight: 700; }}
+    main {{ width: min(900px, 100%); min-width: 0; margin: 0 auto; padding: 12px; display: grid; gap: 12px; }}
+    .segment-nav {{ min-width: 0; display: flex; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain; padding-bottom: 2px; scrollbar-width: thin; }}
+    .segment-pill {{ flex: 0 0 86px; min-height: 46px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 7px 9px; display: grid; align-content: center; gap: 2px; text-decoration: none; }}
+    .segment-pill span {{ font-weight: 900; color: var(--primary); }}
+    .segment-pill small {{ color: var(--muted); font-size: 12px; white-space: nowrap; }}
+    .segment-pill.done {{ border-color: rgba(20,122,61,.35); background: #eefbf3; }}
+    .segment-pill.wrong {{ border-color: rgba(180,35,24,.35); background: #fff1f0; }}
+    .segment-card {{ min-width: 0; overflow: hidden; scroll-margin-top: 88px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); padding: 12px; }}
+    .segment-head {{ margin-bottom: 8px; }}
+    .eyebrow {{ margin: 0 0 2px; color: var(--primary); font-size: 11px; font-weight: 900; letter-spacing: .04em; text-transform: uppercase; }}
+    h2 {{ margin: 0; font-size: 19px; line-height: 1.2; }}
+    .time {{ margin: 4px 0 0; color: var(--muted); font-size: 12px; font-weight: 800; }}
+    .audio-shell {{ min-width: 0; max-width: 100%; overflow: hidden; margin: 8px 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; padding: 6px; }}
+    .audio-player {{ min-width: 0; display: grid; grid-template-columns: 38px 78px minmax(0, 1fr); gap: 8px; align-items: center; }}
+    .play-audio {{ width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }}
+    .audio-time {{ color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }}
+    .audio-progress {{ width: 100%; min-width: 0; accent-color: var(--primary); }}
+    audio {{ display: none; }}
+    .quiz {{ padding-top: 2px; }}
+    .quiz h3 {{ margin-bottom: 8px; font-size: 15px; }}
+    .question {{ margin-bottom: 3px; font-weight: 900; font-size: 16px; line-height: 1.35; }}
+    .subline {{ margin: 0 0 3px; color: var(--muted); font-size: 13px; }}
+    .options {{ display: grid; grid-template-columns: 1fr; gap: 8px; margin: 10px 0; }}
+    .option {{ min-height: 52px; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 9px 10px; display: grid; grid-template-columns: 18px 28px minmax(0, 1fr); column-gap: 8px; align-items: start; cursor: pointer; }}
     .option:has(input:checked) {{ border-color: var(--primary); background: var(--primary-soft); }}
-    .option input {{ margin-top: 4px; }}
-    .option-body {{ min-width: 0; display: grid; gap: 4px; }}
-    .option-line {{ display: flex; gap: 8px; align-items: baseline; min-width: 0; }}
-    .option-key {{ flex: 0 0 auto; font-weight: 800; }}
-    .option-text {{ min-width: 0; font-weight: 800; white-space: normal; word-break: normal; overflow-wrap: break-word; line-break: strict; }}
-    .option-meaning {{ color: var(--muted); font-size: 14px; white-space: normal; word-break: normal; overflow-wrap: break-word; }}
-    .check-answer {{ background: var(--primary); border-color: var(--primary); color: #fff; }}
-    .feedback {{ min-height: 24px; margin-top: 10px; font-weight: 800; }}
+    .option input {{ margin: 3px 0 0; }}
+    .option-letter {{ width: 26px; height: 26px; border-radius: 999px; background: #eef2f7; display: inline-grid; place-items: center; font-size: 13px; font-weight: 900; }}
+    .option-body {{ min-width: 0; display: grid; gap: 2px; }}
+    .option-text {{ min-width: 0; font-size: 15px; font-weight: 800; white-space: normal; word-break: normal; overflow-wrap: anywhere; line-break: strict; }}
+    .option-meaning {{ color: var(--muted); font-size: 12px; white-space: normal; word-break: normal; overflow-wrap: anywhere; }}
+    button {{ min-height: 40px; border: 1px solid var(--line); border-radius: 8px; background: #fff; color: var(--text); padding: 8px 12px; font-weight: 800; cursor: pointer; }}
+    button:hover {{ border-color: var(--primary); color: var(--primary); }}
+    .check-answer {{ width: 100%; background: var(--primary); border-color: var(--primary); color: #fff; }}
+    .check-answer:hover {{ color: #fff; }}
+    .feedback {{ min-height: 20px; margin-top: 8px; font-weight: 900; }}
     .feedback.ok {{ color: var(--ok); }}
     .feedback.bad {{ color: var(--bad); }}
-    .explanation {{ margin: 4px 0 0; color: var(--muted); }}
-    @media (max-width: 640px) {{
-      header {{ position: static; }} .header-inner {{ align-items: flex-start; flex-direction: column; }}
-      .score, button {{ width: 100%; }} main {{ padding: 10px; }} .segment-card {{ padding: 12px; }}
-      .segment-head {{ flex-direction: column; }} .time {{ width: 100%; }} .options {{ grid-template-columns: 1fr; }}
-      button {{ font-size: 16px; }}
+    .explanation {{ margin: 4px 0 0; color: var(--muted); font-size: 13px; }}
+    .script-panel {{ margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }}
+    .script-panel summary {{ min-height: 36px; color: var(--primary); font-weight: 900; cursor: pointer; }}
+    .script-text {{ width: 100%; margin: 4px 0 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }}
+    @media (min-width: 640px) {{
+      body {{ font-size: 16px; }}
+      .header-inner {{ padding: 12px 16px; }}
+      h1 {{ font-size: 22px; }}
+      main {{ padding: 16px; gap: 14px; }}
+      .segment-nav {{ display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; padding-bottom: 0; }}
+      .segment-pill {{ min-height: 48px; display: flex; align-items: center; justify-content: space-between; gap: 6px; }}
+      .segment-card {{ padding: 16px; scroll-margin-top: 96px; }}
+      .options {{ grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }}
+      .check-answer {{ width: auto; }}
+    }}
+    @media (min-width: 1024px) {{
+      .header-inner, main {{ max-width: 900px; }}
     }}
   </style>
 </head>
 <body>
-  <header>
+  <header class="app-header">
     <div class="header-inner">
-      <div>
+      <div class="header-row">
         <h1>JLPT N5 Listening - Bài {lesson_no}</h1>
-        <p class="hint">Nghe từng đoạn, tự trả lời, rồi mới mở script để kiểm tra.</p>
+        <div class="score" id="score">0/{len(segments)}</div>
       </div>
-      <div class="score" id="score">0 / {len(segments)} câu đúng</div>
+      <p class="current-segment" id="current-segment">Đang ở đoạn 1/{len(segments)}</p>
     </div>
   </header>
-  <main>{''.join(cards)}</main>
+  <main>
+    <nav class="segment-nav" aria-label="Danh sách đoạn hội thoại">{''.join(nav_items)}</nav>
+    {''.join(cards)}
+  </main>
   <script>
     const totalSegments = {len(segments)};
     const state = {{}};
+    const currentSegment = document.getElementById("current-segment");
+    function formatTime(seconds) {{
+      if (!Number.isFinite(seconds)) return "0:00";
+      const total = Math.max(0, Math.floor(seconds));
+      const mins = Math.floor(total / 60);
+      const secs = String(total % 60).padStart(2, "0");
+      return `${{mins}}:${{secs}}`;
+    }}
     function updateScore() {{
       const correct = Object.values(state).filter(Boolean).length;
-      document.getElementById("score").textContent = `${{correct}} / ${{totalSegments}} câu đúng`;
+      document.getElementById("score").textContent = `${{correct}}/${{totalSegments}}`;
     }}
-    document.querySelectorAll(".toggle-script").forEach((button) => {{
-      button.addEventListener("click", () => {{
-        const script = button.nextElementSibling;
-        const isHidden = script.hasAttribute("hidden");
-        if (isHidden) {{ script.removeAttribute("hidden"); button.textContent = "Hide script"; }}
-        else {{ script.setAttribute("hidden", ""); button.textContent = "Show script"; }}
+    const observer = new IntersectionObserver((entries) => {{
+      const visible = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (!visible) return;
+      const index = Number(visible.target.dataset.segment) + 1;
+      currentSegment.textContent = `Đang ở đoạn ${{index}}/${{totalSegments}}`;
+    }}, {{ rootMargin: "-90px 0px -55% 0px", threshold: [0.2, 0.45, 0.7] }});
+    document.querySelectorAll(".segment-card").forEach((card) => observer.observe(card));
+    document.querySelectorAll(".audio-player").forEach((player) => {{
+      const audio = player.querySelector("audio");
+      const playButton = player.querySelector(".play-audio");
+      const progress = player.querySelector(".audio-progress");
+      const time = player.querySelector(".audio-time");
+      playButton.addEventListener("click", () => {{
+        document.querySelectorAll("audio").forEach((other) => {{
+          if (other !== audio) other.pause();
+        }});
+        if (audio.paused) audio.play();
+        else audio.pause();
+      }});
+      audio.addEventListener("play", () => {{ playButton.textContent = "❚❚"; }});
+      audio.addEventListener("pause", () => {{ playButton.textContent = "▶"; }});
+      audio.addEventListener("loadedmetadata", () => {{
+        time.textContent = `0:00 / ${{formatTime(audio.duration)}}`;
+      }});
+      audio.addEventListener("timeupdate", () => {{
+        if (audio.duration) progress.value = String((audio.currentTime / audio.duration) * 100);
+        time.textContent = `${{formatTime(audio.currentTime)}} / ${{formatTime(audio.duration)}}`;
+      }});
+      audio.addEventListener("ended", () => {{
+        playButton.textContent = "▶";
+        progress.value = "0";
+      }});
+      progress.addEventListener("input", () => {{
+        if (!audio.duration) return;
+        audio.currentTime = (Number(progress.value) / 100) * audio.duration;
       }});
     }});
     document.querySelectorAll(".check-answer").forEach((button) => {{
@@ -487,6 +664,7 @@ def generate_index_html(
         const feedback = card.querySelector(".feedback");
         const explanation = card.querySelector(".explanation");
         const segmentIndex = card.dataset.segment;
+        const nav = document.querySelector(`[data-nav-segment="${{segmentIndex}}"]`);
         feedback.className = "feedback";
         explanation.hidden = true;
         if (!selected) {{
@@ -496,13 +674,18 @@ def generate_index_html(
           updateScore();
           return;
         }}
+        nav.classList.remove("done", "wrong");
         if (selected.value === card.dataset.answer) {{
           feedback.textContent = "Đúng.";
           feedback.classList.add("ok");
+          nav.classList.add("done");
+          nav.querySelector("small").textContent = "Đúng";
           state[segmentIndex] = true;
         }} else {{
           feedback.textContent = "Chưa đúng.";
           feedback.classList.add("bad");
+          nav.classList.add("wrong");
+          nav.querySelector("small").textContent = "Sai";
           state[segmentIndex] = false;
         }}
         explanation.hidden = false;
@@ -515,7 +698,6 @@ def generate_index_html(
 """,
         encoding="utf-8",
     )
-
 
 def build_lesson(lesson_no: int) -> bool:
     script_path = BASE_DIR / f"{lesson_no}.txt"
