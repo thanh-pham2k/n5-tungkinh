@@ -958,7 +958,7 @@
       <h2>Listening</h2>
       <p class="hint">Bài nghe JLPT N5 được cắt thành từng đoạn, có script và câu hỏi trắc nghiệm.</p>
       <div class="listening-toolbar" id="listening-lesson-list" aria-label="Danh sách bài Listening"></div>
-      <iframe class="listening-frame" id="listening-frame" src="listening/lesson-01.html" title="JLPT N5 Listening - Bài 1"></iframe>
+      <iframe class="listening-frame" id="listening-frame" src="listening/mobile-prototype.html" title="JLPT N5 Listening - Bài 1"></iframe>
     </section>
   </main>
 
@@ -1001,10 +1001,10 @@
       let isPublicTrack = false;
 
       const listeningLessons = Array.from({ length: 25 }, (_, index) => {
-        const lessonNo = index + 1;
         return {
           title: `Bài ${lessonNo}`,
-          path: `listening/lesson-${String(lessonNo).padStart(2, "0")}.html`,
+          path: index === 0 ? `listening/mobile-prototype.html` : `listening/lesson-${String(lessonNo).padStart(2, "0")}.html`,
+        };
         };
       });
 
