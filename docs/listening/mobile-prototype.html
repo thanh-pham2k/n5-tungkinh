@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>JLPT N5 Listening Practice Mobile</title>
+    <style>
+        :root {
+            --primary-teal: #00796B;
+            --primary-dark: #005C52;
+            --light-selected-bg: #E8F7F4;
+            --bg-color: #F6F8F8;
+            --card-bg: #FFFFFF;
+            --border-color: #D9E1E3;
+            --text-primary: #111827;
+            --text-muted: #5F6B76;
+            --radius-card: 16px;
+            --radius-btn: 12px;
+            --radius-pill: 999px;
+            --shadow-subtle: 0 4px 16px rgba(0,0,0,0.06);
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: var(--font-family);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .page-container {
+            max-width: 480px;
+            margin: 0 auto;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        /* Header */
+        .header {
+            text-align: left;
+            margin-bottom: 4px;
+        }
+
+        .header h1 {
+            font-size: 22px;
+            margin-bottom: 4px;
+            line-height: 1.3;
+        }
+
+        .header p {
+            font-size: 14px;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        /* Tab Bar */
+        .tab-bar-container {
+            overflow-x: auto;
+            margin: 0 -16px;
+            padding: 0 16px;
+            scrollbar-width: none;
+        }
+
+        .tab-bar-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tab-bar {
+            display: inline-flex;
+            gap: 8px;
+        }
+
+        .tab {
+            padding: 8px 16px;
+            border-radius: var(--radius-pill);
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            background-color: var(--card-bg);
+            color: var(--text-muted);
+            border: 1px solid var(--border-color);
+        }
+
+        .tab.active {
+            background-color: var(--primary-teal);
+            color: #FFFFFF;
+            border-color: var(--primary-teal);
+        }
+
+        /* Cards */
+        .card {
+            background-color: var(--card-bg);
+            border-radius: var(--radius-card);
+            box-shadow: var(--shadow-subtle);
+            padding: 16px;
+        }
+
+        /* Lesson Selector Card */
+        .lesson-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .lesson-left {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .lesson-label {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .lesson-dropdown {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            color: var(--primary-teal);
+            font-weight: 700;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .lesson-right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 3px solid var(--primary-teal);
+            flex-direction: column;
+        }
+
+        .lesson-right-count {
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--primary-teal);
+            line-height: 1.1;
+        }
+
+        .lesson-right-text {
+            font-size: 10px;
+            color: var(--text-muted);
+            line-height: 1.1;
+        }
+
+        /* Main Practice Card */
+        .practice-card {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        /* Audio Player */
+        .audio-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .play-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: var(--primary-teal);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+
+        .play-btn svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+            margin-left: 2px;
+        }
+
+        .play-btn.playing svg {
+            margin-left: 0;
+        }
+
+        .progress-bar-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background-color: var(--border-color);
+            border-radius: 3px;
+            position: relative;
+        }
+
+        .progress-fill {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 0%;
+            background-color: var(--primary-teal);
+            border-radius: 3px;
+        }
+
+        .progress-thumb {
+            position: absolute;
+            left: 0%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 12px;
+            height: 12px;
+            background-color: var(--primary-teal);
+            border-radius: 50%;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+
+        .audio-controls-right {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-shrink: 0;
+        }
+
+        .speed-btn {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-muted);
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .repeat-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4px;
+        }
+
+        .repeat-btn.active {
+            color: var(--primary-teal);
+        }
+
+        .repeat-btn svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        /* Question */
+        .question-section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .question-heading {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .question-jp {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-primary);
+            line-height: 1.4;
+        }
+
+        .question-ro {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-top: -4px;
+        }
+
+        .question-vi {
+            font-size: 15px;
+            color: var(--text-primary);
+        }
+
+        /* Answers */
+        .answer-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .answer-card {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-btn);
+            background-color: var(--card-bg);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .answer-card.selected {
+            background-color: var(--light-selected-bg);
+            border-color: var(--primary-teal);
+        }
+
+        .radio-circle {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2px;
+            flex-shrink: 0;
+            transition: all 0.2s ease;
+        }
+
+        .answer-card.selected .radio-circle {
+            border-color: var(--primary-teal);
+        }
+
+        .radio-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: var(--primary-teal);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .answer-card.selected .radio-dot {
+            opacity: 1;
+        }
+
+        .answer-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .answer-top-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .option-badge {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-muted);
+            width: 18px;
+        }
+
+        .answer-card.selected .option-badge {
+            color: var(--primary-teal);
+        }
+
+        .answer-jp {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .answer-vi {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        /* Buttons */
+        .submit-btn {
+            width: 100%;
+            height: 48px;
+            background-color: var(--primary-teal);
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            border: none;
+            border-radius: var(--radius-btn);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 4px;
+            transition: background-color 0.2s;
+        }
+
+        .submit-btn:active {
+            background-color: var(--primary-dark);
+        }
+
+        /* Script */
+        .script-section {
+            border-top: 1px solid var(--border-color);
+            padding-top: 16px;
+            margin-top: 4px;
+        }
+
+        .script-toggle {
+            color: var(--primary-teal);
+            font-weight: 700;
+            font-size: 15px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: none;
+            border: none;
+        }
+
+        .script-toggle svg {
+            width: 12px;
+            height: 12px;
+            fill: currentColor;
+            transition: transform 0.2s;
+        }
+
+        .script-toggle.open svg {
+            transform: rotate(90deg);
+        }
+
+        .script-content {
+            display: none;
+            margin-top: 12px;
+            font-size: 14px;
+            color: var(--text-primary);
+            padding: 12px;
+            background-color: var(--bg-color);
+            border-radius: 8px;
+            line-height: 1.6;
+        }
+
+        .script-content.open {
+            display: block;
+        }
+
+        /* Bottom Nav */
+        .bottom-nav {
+            display: flex;
+            gap: 12px;
+        }
+
+        .nav-btn {
+            flex: 1;
+            height: 44px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-btn);
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s;
+        }
+
+        .nav-btn:active {
+            background-color: var(--bg-color);
+        }
+
+        /* Auto Next */
+        .auto-next-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 4px;
+            margin-bottom: 24px;
+        }
+
+        .auto-next-label {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .toggle-switch {
+            position: relative;
+            display: inline-block;
+            width: 44px;
+            height: 24px;
+        }
+
+        .toggle-switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #CBD5E1;
+            transition: .3s;
+            border-radius: 24px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 18px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .3s;
+            border-radius: 50%;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+
+        input:checked + .slider {
+            background-color: var(--primary-teal);
+        }
+
+        input:checked + .slider:before {
+            transform: translateX(20px);
+        }
+    </style>
+</head>
+<body>
+
+<div class="page-container">
+
+    <!-- Header -->
+    <div class="header">
+        <h1>JLPT N5 Listening Practice Mobile</h1>
+        <p>A beginner-friendly JLPT N5 listening practice app designed for Vietnamese learners.</p>
+    </div>
+
+    <!-- Tab Bar -->
+    <div class="tab-bar-container">
+        <div class="tab-bar" id="tabBar">
+            <div class="tab" data-tab="Audio public">Audio public</div>
+            <div class="tab" data-tab="Kana">Kana</div>
+            <div class="tab" data-tab="Grammar">Grammar</div>
+            <div class="tab" data-tab="Kanji">Kanji</div>
+            <div class="tab active" data-tab="Listening">Listening</div>
+        </div>
+    </div>
+
+    <!-- Lesson Selector Card -->
+    <div class="card lesson-card">
+        <div class="lesson-left">
+            <span class="lesson-label">Bài nghe</span>
+            <div class="lesson-dropdown">
+                Bài 1 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+        </div>
+        <div class="lesson-right">
+            <span class="lesson-right-count">14/16</span>
+            <span class="lesson-right-text">đoạn</span>
+        </div>
+    </div>
+
+    <!-- Main Practice Card -->
+    <div class="card practice-card">
+        <!-- Audio Player -->
+        <div class="audio-row">
+            <button class="play-btn" id="playBtn">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <div class="progress-bar-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                    <div class="progress-thumb" id="progressThumb"></div>
+                </div>
+            </div>
+            <div class="audio-controls-right">
+                <button class="speed-btn">1.00x</button>
+                <button class="repeat-btn active" id="repeatBtn">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6 0 1.01-.25 1.97-.7 2.8l1.46 1.46C19.54 15.03 20 13.57 20 12c0-4.42-3.58-8-8-8zm0 14c-3.31 0-6-2.69-6-6 0-1.01.25-1.97.7-2.8L5.24 7.74C4.46 8.97 4 10.43 4 12c0 4.42 3.58 8 8 8v3l4-4-4-4v3z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Question -->
+        <div class="question-section">
+            <div class="question-heading">Câu hỏi trắc nghiệm</div>
+            <div class="question-jp">益田さんは何歳ですか。</div>
+            <div class="question-ro">Masuda-san wa nansai desu ka.</div>
+            <div class="question-vi">Masuda bao nhiêu tuổi?</div>
+        </div>
+
+        <!-- Answers List -->
+        <div class="answer-list" id="answerList">
+            <!-- Option A -->
+            <div class="answer-card selected" data-option="A">
+                <div class="radio-circle"><div class="radio-dot"></div></div>
+                <div class="answer-content">
+                    <div class="answer-top-row">
+                        <span class="option-badge">A</span>
+                        <span class="answer-jp">71歳です</span>
+                    </div>
+                    <span class="answer-vi">71 tuổi</span>
+                </div>
+            </div>
+            <!-- Option B -->
+            <div class="answer-card" data-option="B">
+                <div class="radio-circle"><div class="radio-dot"></div></div>
+                <div class="answer-content">
+                    <div class="answer-top-row">
+                        <span class="option-badge">B</span>
+                        <span class="answer-jp">28歳です</span>
+                    </div>
+                    <span class="answer-vi">28 tuổi</span>
+                </div>
+            </div>
+            <!-- Option C -->
+            <div class="answer-card" data-option="C">
+                <div class="radio-circle"><div class="radio-dot"></div></div>
+                <div class="answer-content">
+                    <div class="answer-top-row">
+                        <span class="option-badge">C</span>
+                        <span class="answer-jp">26歳です</span>
+                    </div>
+                    <span class="answer-vi">26 tuổi</span>
+                </div>
+            </div>
+            <!-- Option D -->
+            <div class="answer-card" data-option="D">
+                <div class="radio-circle"><div class="radio-dot"></div></div>
+                <div class="answer-content">
+                    <div class="answer-top-row">
+                        <span class="option-badge">D</span>
+                        <span class="answer-jp">8歳です</span>
+                    </div>
+                    <span class="answer-vi">8 tuổi</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button class="submit-btn">Kiểm tra đáp án</button>
+
+        <!-- Script Section -->
+        <div class="script-section">
+            <button class="script-toggle" id="scriptToggle">
+                <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                Xem script
+            </button>
+            <div class="script-content" id="scriptContent">
+                <p><strong>Nam:</strong> 益田さんは何歳ですか。</p>
+                <p><strong>Nữ:</strong> 71歳です。</p>
+                <p><em>(Đây là text ví dụ cho script)</em></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Nav -->
+    <div class="bottom-nav">
+        <button class="nav-btn">← Đoạn trước</button>
+        <button class="nav-btn">Đoạn tiếp theo →</button>
+    </div>
+
+    <!-- Auto Next Toggle -->
+    <div class="auto-next-container">
+        <span class="auto-next-label">Tự động chuyển</span>
+        <label class="toggle-switch">
+            <input type="checkbox" id="autoNextToggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    // State variables
+    let activeTab = "Listening";
+    let selectedAnswer = "A";
+    let autoReplay = true; // Default true because activeTab is Listening
+    let autoNext = false;
+    let showScript = false;
+    let isPlaying = false;
+    let userToggledReplay = false; // Track if user manually toggled repeat
+
+    // DOM Elements
+    const tabs = document.querySelectorAll(".tab");
+    const answerCards = document.querySelectorAll(".answer-card");
+    const scriptToggle = document.getElementById("scriptToggle");
+    const scriptContent = document.getElementById("scriptContent");
+    const playBtn = document.getElementById("playBtn");
+    const repeatBtn = document.getElementById("repeatBtn");
+    const autoNextToggle = document.getElementById("autoNextToggle");
+    const progressFill = document.getElementById("progressFill");
+    const progressThumb = document.getElementById("progressThumb");
+
+    // Initialize UI
+    function initUI() {
+        updateTabUI();
+        updateRepeatUI();
+    }
+
+    // Tab Logic
+    tabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+            tabs.forEach(t => t.classList.remove("active"));
+            tab.classList.add("active");
+            activeTab = tab.dataset.tab;
+
+            // Logic for autoReplay when switching tabs
+            if (activeTab === "Listening") {
+                if (!userToggledReplay) {
+                    autoReplay = true;
+                    updateRepeatUI();
+                }
+            } else {
+                // If we move away from Listening, maybe turn off autoReplay if they didn't manually set it?
+                // The prompt says: "Do not force auto replay in other tabs."
+                // We'll leave it as is if they set it manually, or turn it off if it was just on by default.
+                if (!userToggledReplay) {
+                    autoReplay = false;
+                    updateRepeatUI();
+                }
+            }
+        });
+    });
+
+    // Answer Selection Logic
+    answerCards.forEach(card => {
+        card.addEventListener("click", () => {
+            answerCards.forEach(c => c.classList.remove("selected"));
+            card.classList.add("selected");
+            selectedAnswer = card.dataset.option;
+        });
+    });
+
+    // Script Toggle Logic
+    scriptToggle.addEventListener("click", () => {
+        showScript = !showScript;
+        if (showScript) {
+            scriptContent.classList.add("open");
+            scriptToggle.classList.add("open");
+        } else {
+            scriptContent.classList.remove("open");
+            scriptToggle.classList.remove("open");
+        }
+    });
+
+    // Auto Next Logic
+    autoNextToggle.addEventListener("change", (e) => {
+        autoNext = e.target.checked;
+    });
+
+    // Audio Mock Logic
+    let audioSimTimer = null;
+    let currentProgress = 0;
+
+    playBtn.addEventListener("click", () => {
+        isPlaying = !isPlaying;
+        updatePlayUI();
+
+        if (isPlaying) {
+            startAudioSimulation();
+        } else {
+            stopAudioSimulation();
+        }
+    });
+
+    repeatBtn.addEventListener("click", () => {
+        autoReplay = !autoReplay;
+        userToggledReplay = true;
+        updateRepeatUI();
+    });
+
+    function updatePlayUI() {
+        if (isPlaying) {
+            // Pause icon
+            playBtn.innerHTML = '<svg viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>';
+            playBtn.classList.add("playing");
+        } else {
+            // Play icon
+            playBtn.innerHTML = '<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>';
+            playBtn.classList.remove("playing");
+        }
+    }
+
+    function updateRepeatUI() {
+        if (autoReplay) {
+            repeatBtn.classList.add("active");
+        } else {
+            repeatBtn.classList.remove("active");
+        }
+    }
+
+    function updateTabUI() {
+        tabs.forEach(t => {
+            if (t.dataset.tab === activeTab) {
+                t.classList.add("active");
+            } else {
+                t.classList.remove("active");
+            }
+        });
+    }
+
+    function startAudioSimulation() {
+        clearInterval(audioSimTimer);
+        audioSimTimer = setInterval(() => {
+            currentProgress += 2; // Simulate progress
+            if (currentProgress >= 100) {
+                currentProgress = 100;
+                handleAudioEnded();
+            }
+            updateProgressUI();
+        }, 100);
+    }
+
+    function stopAudioSimulation() {
+        clearInterval(audioSimTimer);
+    }
+
+    function handleAudioEnded() {
+        stopAudioSimulation();
+
+        if (activeTab === "Listening" && autoReplay) {
+            currentProgress = 0;
+            updateProgressUI();
+            startAudioSimulation(); // replay
+        } else if (autoNext) {
+            isPlaying = false;
+            updatePlayUI();
+            alert("Mock: Going to next segment...");
+            currentProgress = 0;
+            updateProgressUI();
+        } else {
+            isPlaying = false;
+            updatePlayUI();
+            currentProgress = 0;
+            updateProgressUI();
+        }
+    }
+
+    function updateProgressUI() {
+        progressFill.style.width = currentProgress + "%";
+        progressThumb.style.left = currentProgress + "%";
+    }
+
+    initUI();
+});
+</script>
