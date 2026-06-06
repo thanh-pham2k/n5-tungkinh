@@ -301,6 +301,95 @@
       overflow: hidden;
     }
 
+    .vocab-panel-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .vocab-panel-header h2 {
+      margin: 0;
+    }
+
+    .vocab-full-button {
+      flex: 0 0 auto;
+      min-height: 34px;
+      padding: 0 12px;
+      font-size: 13px;
+    }
+
+    .vocab-dialog {
+      width: min(860px, calc(100vw - 32px));
+      max-height: min(760px, calc(100vh - 32px));
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 0;
+      color: var(--text);
+      background: var(--panel);
+    }
+
+    .vocab-dialog::backdrop {
+      background: rgba(23, 32, 51, 0.46);
+    }
+
+    .vocab-dialog-inner {
+      display: flex;
+      flex-direction: column;
+      max-height: min(760px, calc(100vh - 32px));
+    }
+
+    .vocab-dialog-header {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 18px 20px 12px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .vocab-dialog-header h2 {
+      margin: 0 0 4px;
+    }
+
+    .vocab-dialog-meta {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .vocab-dialog-close {
+      min-width: 42px;
+      min-height: 38px;
+      padding: 0 12px;
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    .vocab-dialog-content {
+      padding: 16px 20px 20px;
+      overflow: auto;
+    }
+
+    .vocab-group {
+      margin-top: 0;
+      margin-bottom: 18px;
+      padding-top: 0;
+      border-top: 0;
+    }
+
+    .vocab-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .vocab-group h3 {
+      margin: 0 0 10px;
+      font-size: 16px;
+      line-height: 1.3;
+    }
+
     .listening-toolbar {
       display: flex;
       flex-wrap: wrap;
@@ -425,6 +514,11 @@
       box-shadow: inset 0 0 0 1px var(--primary);
     }
 
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.55;
+    }
+
     .hint {
       margin: 8px 0 0;
       color: var(--muted);
@@ -481,6 +575,14 @@
         height: auto;
         max-height: 50vh;
         top: auto;
+      }
+
+      .vocab-dialog-header {
+        padding: 14px 14px 10px;
+      }
+
+      .vocab-dialog-content {
+        padding: 14px;
       }
 
       .listening-frame {
@@ -741,11 +843,27 @@
           </div>
         </div>
         <aside class="vocab-panel" aria-live="polite">
-          <h2>Danh sách từ / nghĩa</h2>
+          <div class="vocab-panel-header">
+            <h2>Danh sách từ / nghĩa</h2>
+            <button class="vocab-full-button" id="vocab-full-open" type="button" disabled>Xem đầy đủ</button>
+          </div>
           <div class="vocab-meta" id="vocab-meta">Chọn một nhóm để xem danh sách từ/câu.</div>
           <ol class="vocab-list" id="vocab-list"></ol>
         </aside>
       </div>
+
+      <dialog class="vocab-dialog" id="vocab-full-dialog" aria-labelledby="vocab-full-title">
+        <div class="vocab-dialog-inner">
+          <div class="vocab-dialog-header">
+            <div>
+              <h2 id="vocab-full-title">Danh sách từ vựng</h2>
+              <p class="vocab-dialog-meta" id="vocab-full-meta"></p>
+            </div>
+            <button class="vocab-dialog-close" id="vocab-full-close" type="button" aria-label="Đóng">×</button>
+          </div>
+          <div class="vocab-dialog-content" id="vocab-full-content"></div>
+        </div>
+      </dialog>
 
       <section>
         <label for="looper-file">File MP3 local</label>
@@ -1046,6 +1164,12 @@
       const trackGrid = document.getElementById("track-grid");
       const vocabMeta = document.getElementById("vocab-meta");
       const vocabList = document.getElementById("vocab-list");
+      const vocabFullOpen = document.getElementById("vocab-full-open");
+      const vocabFullDialog = document.getElementById("vocab-full-dialog");
+      const vocabFullTitle = document.getElementById("vocab-full-title");
+      const vocabFullMeta = document.getElementById("vocab-full-meta");
+      const vocabFullContent = document.getElementById("vocab-full-content");
+      const vocabFullClose = document.getElementById("vocab-full-close");
       const fileInput = document.getElementById("looper-file");
       const audio = document.getElementById("looper-audio");
       const speed = document.getElementById("looper-speed");
@@ -1370,6 +1494,23 @@
         vocabList.replaceChildren();
       };
 
+      const createVocabularyItem = (item) => {
+        const li = document.createElement("li");
+        li.className = "vocab-item";
+
+        const term = document.createElement("span");
+        term.className = "vocab-term";
+        term.textContent = item.japanese;
+
+        const meaning = document.createElement("span");
+        meaning.className = "vocab-meaning";
+        meaning.textContent = item.vietnamese;
+
+        li.appendChild(term);
+        li.appendChild(meaning);
+        return li;
+      };
+
       const renderVocabularyItems = (items, label) => {
         if (!items.length) {
           clearVocabulary(`Không có dữ liệu từ/câu cho ${label}.`);
@@ -1379,26 +1520,50 @@
         vocabMeta.textContent = `Nội dung của ${label} (${items.length} dòng)`;
         const fragment = document.createDocumentFragment();
         items.forEach((item) => {
-          const li = document.createElement("li");
-          li.className = "vocab-item";
-
-          const term = document.createElement("span");
-          term.className = "vocab-term";
-          term.textContent = item.japanese;
-
-          const meaning = document.createElement("span");
-          meaning.className = "vocab-meaning";
-          meaning.textContent = item.vietnamese;
-
-          li.appendChild(term);
-          li.appendChild(meaning);
-          fragment.appendChild(li);
+          fragment.appendChild(createVocabularyItem(item));
         });
         vocabList.replaceChildren(fragment);
       };
 
       const renderVocabulary = (track, label) => {
         renderVocabularyItems(track.items || [], label);
+      };
+
+      const openFullVocabularyDialog = () => {
+        const lesson = lessons[selectedLessonIndex];
+        if (!lesson) {
+          return;
+        }
+
+        const tracks = lesson.tracks || [];
+        const totalItems = tracks.reduce((total, track) => total + (track.items || []).length, 0);
+        vocabFullTitle.textContent = `Danh sách từ vựng - ${lesson.title}`;
+        vocabFullMeta.textContent = `${tracks.length} nhóm, ${totalItems} dòng`;
+
+        const fragment = document.createDocumentFragment();
+        tracks.forEach((track) => {
+          const group = document.createElement("section");
+          group.className = "vocab-group";
+
+          const heading = document.createElement("h3");
+          heading.textContent = `${track.label} (${(track.items || []).length} dòng)`;
+          group.appendChild(heading);
+
+          const list = document.createElement("ol");
+          list.className = "vocab-list";
+          (track.items || []).forEach((item) => {
+            list.appendChild(createVocabularyItem(item));
+          });
+          group.appendChild(list);
+          fragment.appendChild(group);
+        });
+
+        vocabFullContent.replaceChildren(fragment);
+        if (typeof vocabFullDialog.showModal === "function") {
+          vocabFullDialog.showModal();
+        } else {
+          vocabFullDialog.setAttribute("open", "");
+        }
       };
 
       const getTrackButton = (trackIndex) => {
@@ -1428,6 +1593,7 @@
       const renderTracks = () => {
         const lesson = lessons[selectedLessonIndex];
         selectedLessonTitle.textContent = lesson ? lesson.title : "";
+        vocabFullOpen.disabled = !lesson;
         trackGrid.replaceChildren();
 
         if (!lesson) {
@@ -1590,6 +1756,18 @@
         advanceMode = advanceModeSelect.value;
         if (isPublicTrack) {
           updatePublicStatus();
+        }
+      });
+
+      vocabFullOpen.addEventListener("click", openFullVocabularyDialog);
+
+      vocabFullClose.addEventListener("click", () => {
+        vocabFullDialog.close();
+      });
+
+      vocabFullDialog.addEventListener("click", (event) => {
+        if (event.target === vocabFullDialog) {
+          vocabFullDialog.close();
         }
       });
 
