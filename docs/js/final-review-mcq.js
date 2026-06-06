@@ -229,6 +229,76 @@
 
   const answerKey = (group, question) => `${group.fileName}:${question.questionNo}`;
 
+  const REVIEW_PROMPT = `Bạn là gia sư JLPT N5.
+
+Hãy review bài làm của tôi cực kỳ ngắn gọn dưới dạng table.
+
+Cột gồm:
+Câu | Tôi chọn | Đáp án đúng | Đúng/Sai | Giải thích ngắn | Romaji | Từ vựng N5 cần nhớ | Kanji N5 có thể gặp
+
+Yêu cầu:
+- Giải thích bằng tiếng Việt, ngắn gọn.
+- Nếu sai, nói rõ đáp án đúng và lý do sai.
+- Nếu từ có Kanji thường gặp trong JLPT N5, hãy ghi thêm Kanji + Hiragana + nghĩa.
+- Cuối bài: tổng kết số câu đúng/sai và danh sách từ cần ôn.
+
+Dữ liệu bài làm:`;
+
+  const getSelectedAnswerLabel = (group, question) => {
+    const selected = state.selectedAnswers.get(answerKey(group, question));
+    if (!selected) {
+      return "chưa chọn";
+    }
+
+    return `${selected}. ${question.options[selected] || ""}`.trim();
+  };
+
+  const buildReviewCopyText = (group) => {
+    const lines = [
+      REVIEW_PROMPT,
+      "",
+      `Nhóm: ${group.groupTitle}`,
+      `Bài: ${group.lesson || "Không rõ"}`,
+      `File CSV: ${group.fileName}`,
+      "",
+      "Danh sách câu hỏi + đáp án đã chọn:",
+    ];
+
+    group.questions.forEach((question, index) => {
+      lines.push(
+        "",
+        `Câu ${index + 1}:`,
+        `Tiếng Nhật: ${question.questionJp}`,
+        `Romaji: ${question.romaji || ""}`,
+        `Nghĩa tiếng Việt: ${question.meaningVi || ""}`,
+        `A. ${question.options.A || ""}`,
+        `B. ${question.options.B || ""}`,
+        `C. ${question.options.C || ""}`,
+        `D. ${question.options.D || ""}`,
+        `Tôi chọn: ${getSelectedAnswerLabel(group, question)}`
+      );
+    });
+
+    return lines.join("\n");
+  };
+
+  const copyTextToClipboard = async (text) => {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "");
+    textarea.style.position = "fixed";
+    textarea.style.left = "-9999px";
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    textarea.remove();
+  };
+
   const getParentGroup = (fileName) => {
     const minaMatch = fileName.match(/^voc_mina_(\d+)__/);
     if (minaMatch) {
@@ -465,6 +535,9 @@
 
   const renderSelectedAnswers = (group) => {
     const result = document.getElementById("final-review-result");
+    const title = document.createElement("h3");
+    title.textContent = "Đáp án đã chọn";
+
     const list = document.createElement("ol");
     list.className = "quiz-result-list";
 
@@ -475,7 +548,31 @@
       list.appendChild(item);
     });
 
-    result.replaceChildren(list);
+    const copyButton = document.createElement("button");
+    copyButton.type = "button";
+    copyButton.className = "quiz-copy-button";
+    copyButton.textContent = "Copy prompt + bài làm";
+
+    const copyStatus = document.createElement("p");
+    copyStatus.className = "quiz-copy-status";
+    copyStatus.setAttribute("aria-live", "polite");
+
+    copyButton.addEventListener("click", async () => {
+      copyButton.disabled = true;
+      copyStatus.textContent = "Đang copy...";
+
+      try {
+        await copyTextToClipboard(buildReviewCopyText(group));
+        copyStatus.textContent = "Đã copy prompt + câu hỏi + đáp án đã chọn.";
+      } catch (error) {
+        console.error(error);
+        copyStatus.textContent = "Không copy được. Hãy thử lại trên trình duyệt.";
+      } finally {
+        copyButton.disabled = false;
+      }
+    });
+
+    result.replaceChildren(title, list, copyButton, copyStatus);
     result.hidden = false;
   };
 
