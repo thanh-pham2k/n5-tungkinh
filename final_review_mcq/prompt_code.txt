@@ -1,0 +1,34 @@
+Hãy viết code app trắc nghiệm đọc dữ liệu từ nhiều file CSV có sẵn để render câu hỏi.
+
+Không tạo file CSV, không hard-code câu hỏi.
+
+Cấu trúc:
+
+quiz-data/
+  01_cau_danh_tu_dong_tu.csv
+  02_tinh_tu_i_na.csv
+  ...
+
+Mỗi file CSV là một nhóm bài, có header:
+
+group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
+
+Yêu cầu:
+- App đọc toàn bộ file CSV trong thư mục quiz-data.
+- Mỗi file render thành một nhóm bài riêng.
+- Lấy group_title và lesson từ dữ liệu CSV.
+- Câu hỏi sort theo question_no tăng dần.
+- Mỗi câu hiển thị tiếng Nhật, romaji, nghĩa tiếng Việt, 4 lựa chọn A/B/C/D dạng radio.
+- Người dùng chọn đáp án.
+- Bấm “Xác nhận” thì hiển thị:
+  Câu 1: đã chọn A
+  Câu 2: đã chọn B
+  Câu 3: chưa chọn
+- Không kiểm tra đúng/sai.
+- Không cần đáp án đúng.
+- Không hiển thị giải thích.
+- Có config QUIZ_DATA_FOLDER để đổi thư mục chứa CSV.
+- Có REQUIRED_HEADERS để validate header.
+- Nếu CSV thiếu header thì báo lỗi rõ ràng.
+- Code cần dễ đọc, tách rõ phần read CSV, parse data, render UI, handle selected answers.
+- Sau này thêm file CSV mới vào thư mục là app tự đọc, không cần sửa code.

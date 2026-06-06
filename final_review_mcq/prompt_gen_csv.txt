@@ -1,0 +1,51 @@
+Hãy tạo cho tôi nhiều file CSV dùng làm dữ liệu cho app trắc nghiệm.
+
+Mục tiêu:
+- Chỉ tạo dữ liệu câu hỏi.
+- Không tạo app.
+- Không viết code.
+- Không xử lý chọn đáp án.
+- Không kiểm tra đúng/sai.
+- Không thêm đáp án đúng.
+- Mỗi nhóm bài tách thành một file CSV riêng, không gom tất cả vào một file.
+
+Mỗi file CSV cần có đúng các cột sau:
+
+group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
+
+Yêu cầu:
+1. Dòng đầu tiên là header.
+2. Mỗi dòng là một câu hỏi.
+3. Mỗi file CSV chỉ chứa một nhóm bài.
+4. Các câu hỏi trong cùng file có cùng group_id, group_title và lesson.
+5. question_no tăng theo thứ tự.
+6. Không thêm cột correct_answer.
+7. Không thêm cột explanation.
+8. Không thêm đáp án đúng.
+9. Nếu ô có dấu phẩy, hãy bọc bằng dấu ngoặc kép.
+10. File lưu UTF-8 để không lỗi tiếng Nhật và tiếng Việt.
+11. Tên file CSV nên đặt rõ ràng theo nhóm bài.
+
+Ví dụ tên file:
+- 01_cau_danh_tu_dong_tu.csv
+- 02_tinh_tu_i_na.csv
+- 03_tro_tu.csv
+- 04_thoi_gian.csv
+- 05_the_te.csv
+- 06_the_nai.csv
+- 07_the_ta.csv
+- 08_so_sanh.csv
+- 09_mong_muon_kinh_nghiem.csv
+- 10_mau_hay_ra_de_jlpt_n5.csv
+
+Format mỗi file CSV:
+
+group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
+1,"Câu danh từ + động từ","Mina bài 1, 2, 4, 12",1,"わたしは学生＿＿。","Watashi wa gakusei ___.","Tôi là học sinh.","です","ます","います","あります"
+1,"Câu danh từ + động từ","Mina bài 1, 2, 4, 12",2,"田中さんは先生＿＿。","Tanaka-san wa sensei ___.","Anh Tanaka không phải là giáo viên.","ません","ではありません","ありません","いません"
+
+Kết quả cuối cùng:
+- Xuất nhiều file CSV riêng theo từng nhóm bài.
+- Không giải thích thêm.
+- Không tạo app.
+- Không viết code.
