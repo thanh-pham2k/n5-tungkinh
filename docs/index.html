@@ -991,9 +991,49 @@
       line-height: 1.45;
     }
 
+    .back-to-top {
+      position: fixed;
+      right: 18px;
+      bottom: 18px;
+      z-index: 20;
+      width: 46px;
+      height: 46px;
+      min-height: 46px;
+      padding: 0;
+      border-radius: 999px !important;
+      border: 1px solid var(--primary);
+      background: var(--primary);
+      color: #fff;
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1;
+      box-shadow: var(--shadow);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(8px);
+      transition: opacity 160ms ease, transform 160ms ease;
+    }
+
+    .back-to-top.visible {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+
+    .back-to-top:hover {
+      background: var(--primary-dark);
+      border-color: var(--primary-dark);
+      color: #fff;
+    }
+
     @media (max-width: 420px) {
       .quiz-group-list {
         grid-template-columns: 1fr;
+      }
+
+      .back-to-top {
+        right: 14px;
+        bottom: 14px;
       }
     }
 
@@ -1350,6 +1390,8 @@
     </section>
   </main>
 
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Trở về đầu trang">↑</button>
+
   <script src="js/final-review-mcq.js" defer></script>
   <script>
     (() => {
@@ -1377,6 +1419,7 @@
       const tabSelect = document.getElementById("tab-select");
       const tabButtons = document.querySelectorAll("[data-tab-target]");
       const tabPanels = document.querySelectorAll(".tab-panel");
+      const backToTop = document.getElementById("back-to-top");
       const grammarLessonList = document.getElementById("grammar-lesson-list");
       const grammarContent = document.getElementById("grammar-content");
       const kanjiLessonList = document.getElementById("kanji-lesson-list");
@@ -1951,6 +1994,17 @@
       tabSelect.addEventListener("change", () => {
         selectTab(tabSelect.value);
       });
+
+      const updateBackToTop = () => {
+        backToTop.classList.toggle("visible", window.scrollY > 360);
+      };
+
+      backToTop.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      window.addEventListener("scroll", updateBackToTop, { passive: true });
+      updateBackToTop();
 
       repeatInput.addEventListener("change", () => {
         readRepeatBeforeAdvance();
