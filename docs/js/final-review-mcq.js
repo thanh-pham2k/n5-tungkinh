@@ -288,6 +288,17 @@
       };
     }
 
+    const kanaMatch = fileName.match(/^(hiragana|katakana)_trac_nghiem__/);
+    if (kanaMatch) {
+      const isHiragana = kanaMatch[1] === "hiragana";
+      return {
+        key: `${kanaMatch[1]}_trac_nghiem`,
+        label: isHiragana ? "Hiragana" : "Katakana",
+        type: "kana",
+        order: isHiragana ? 1 : 2,
+      };
+    }
+
     return {
       key: "final_review",
       label: "Ôn tập tổng hợp",
@@ -315,6 +326,7 @@
         jlpt_voc: 3,
         jlpt_grammar: 4,
         goukaku: 5,
+        kana: 6,
       };
 
       if (a.type !== b.type) {
