@@ -426,6 +426,41 @@
       display: block;
     }
 
+    .goukaku-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .goukaku-controls {
+      display: grid;
+      gap: 10px;
+    }
+
+    .goukaku-track-label {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.4;
+    }
+
+    .goukaku-audio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(88px, 1fr));
+      gap: 8px;
+    }
+
+    .goukaku-pdf-frame {
+      width: 100%;
+      height: min(760px, 72vh);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      display: block;
+    }
+
     .vocab-meta {
       margin: 0 0 12px;
       color: var(--muted);
@@ -607,6 +642,10 @@
 
       .listening-frame {
         height: 82vh;
+      }
+
+      .goukaku-pdf-frame {
+        height: 72vh;
       }
 
       .lesson-grid {
@@ -1110,6 +1149,7 @@
           <option value="grammar-panel">Grammar</option>
           <option value="kanji-panel">Kanji</option>
           <option value="listening-panel">Listening</option>
+          <option value="goukaku-panel">Goukaku</option>
           <option value="final-review-panel">Ôn tập</option>
         </select>
       </label>
@@ -1436,6 +1476,21 @@
       <iframe class="listening-frame" id="listening-frame" src="listening/lesson-01.html" title="JLPT N5 Listening - Bài 1"></iframe>
     </section>
 
+    <section class="tab-panel" id="goukaku-panel" role="tabpanel" aria-labelledby="tab-goukaku">
+      <h2>Goukaku Dekiru N4.5</h2>
+      <p class="hint">Chọn nhóm PDF để xem preview và phát audio tương ứng.</p>
+      <div class="goukaku-layout">
+        <div class="goukaku-controls">
+          <select id="goukaku-pdf-select" aria-label="Chọn PDF Goukaku"></select>
+          <select id="goukaku-audio-select" aria-label="Chọn audio Goukaku"></select>
+          <div class="goukaku-audio-grid" id="goukaku-audio-grid" aria-label="Danh sách audio Goukaku"></div>
+          <p class="goukaku-track-label" id="goukaku-track-label"></p>
+          <audio id="goukaku-audio" controls preload="metadata"></audio>
+        </div>
+        <iframe class="goukaku-pdf-frame" id="goukaku-pdf-frame" title="Goukaku PDF preview"></iframe>
+      </div>
+    </section>
+
     <section class="tab-panel" id="final-review-panel" role="tabpanel" aria-labelledby="tab-final-review">
       <h2>Ôn tập trắc nghiệm</h2>
       <p class="hint">Dữ liệu được đọc từ các file CSV trong thư mục quiz-data.</p>
@@ -1483,6 +1538,12 @@
       const kanjiContent = document.getElementById("kanji-content");
       const listeningLessonList = document.getElementById("listening-lesson-list");
       const listeningFrame = document.getElementById("listening-frame");
+      const goukakuPdfSelect = document.getElementById("goukaku-pdf-select");
+      const goukakuAudioSelect = document.getElementById("goukaku-audio-select");
+      const goukakuAudioGrid = document.getElementById("goukaku-audio-grid");
+      const goukakuTrackLabel = document.getElementById("goukaku-track-label");
+      const goukakuAudio = document.getElementById("goukaku-audio");
+      const goukakuPdfFrame = document.getElementById("goukaku-pdf-frame");
 
       let lessons = [];
       let objectUrl = "";
@@ -1503,6 +1564,42 @@
           path: `listening/lesson-${String(lessonNo).padStart(2, "0")}.html`,
         };
       });
+
+      const createGoukakuTracks = (start, end) => Array.from(
+        { length: end - start + 1 },
+        (_, index) => {
+          const trackNo = start + index;
+          const paddedTrackNo = String(trackNo).padStart(2, "0");
+          return {
+            label: `Audio ${trackNo}`,
+            file: `1-${paddedTrackNo}.mp3`,
+            path: `listening/goukaku/audio/1-${paddedTrackNo}.mp3`,
+          };
+        },
+      );
+
+      const goukakuGroups = [
+        {
+          title: "PDF 47 - 51",
+          pdfPath: "listening/goukaku/pdf/47-51.pdf",
+          tracks: createGoukakuTracks(2, 10),
+        },
+        {
+          title: "PDF 53 - 56",
+          pdfPath: "listening/goukaku/pdf/53-56.pdf",
+          tracks: createGoukakuTracks(11, 18),
+        },
+        {
+          title: "PDF 57 - 60",
+          pdfPath: "listening/goukaku/pdf/57-60.pdf",
+          tracks: createGoukakuTracks(19, 26),
+        },
+        {
+          title: "PDF 61",
+          pdfPath: "listening/goukaku/pdf/61.pdf",
+          tracks: createGoukakuTracks(27, 33),
+        },
+      ];
 
       const grammarLessons = [
         { title: "Bài 1", path: "grammar/lesson-01.html" },
@@ -1782,6 +1879,80 @@
         selectListeningLesson(0);
       };
 
+      const selectGoukakuTrack = (groupIndex, trackIndex) => {
+        const group = goukakuGroups[groupIndex];
+        const track = group && group.tracks[trackIndex];
+        if (!group || !track || !goukakuAudio || !goukakuTrackLabel) {
+          return;
+        }
+
+        goukakuAudio.src = assetUrl(track.path);
+        goukakuTrackLabel.textContent = `${group.title} - ${track.label} (${track.file})`;
+        if (goukakuAudioSelect) {
+          goukakuAudioSelect.value = String(trackIndex);
+        }
+        if (goukakuAudioGrid) {
+          goukakuAudioGrid.querySelectorAll("button").forEach((button, buttonIndex) => {
+            button.classList.toggle("active", buttonIndex === trackIndex);
+          });
+        }
+      };
+
+      const selectGoukakuGroup = (groupIndex) => {
+        const group = goukakuGroups[groupIndex];
+        if (!group || !goukakuPdfFrame || !goukakuAudioSelect || !goukakuAudioGrid) {
+          return;
+        }
+
+        if (goukakuPdfSelect) {
+          goukakuPdfSelect.value = String(groupIndex);
+        }
+        goukakuPdfFrame.src = assetUrl(group.pdfPath);
+        goukakuPdfFrame.title = `${group.title} preview`;
+
+        goukakuAudioSelect.replaceChildren();
+        goukakuAudioGrid.replaceChildren();
+        group.tracks.forEach((track, trackIndex) => {
+          const option = document.createElement("option");
+          option.value = String(trackIndex);
+          option.textContent = `${track.label} (${track.file})`;
+          goukakuAudioSelect.appendChild(option);
+
+          const button = document.createElement("button");
+          button.type = "button";
+          button.textContent = track.file;
+          button.addEventListener("click", () => {
+            selectGoukakuTrack(groupIndex, trackIndex);
+          });
+          goukakuAudioGrid.appendChild(button);
+        });
+
+        selectGoukakuTrack(groupIndex, 0);
+      };
+
+      const renderGoukakuControls = () => {
+        if (!goukakuPdfSelect || !goukakuAudioSelect) {
+          return;
+        }
+
+        goukakuPdfSelect.replaceChildren();
+        goukakuGroups.forEach((group, groupIndex) => {
+          const option = document.createElement("option");
+          option.value = String(groupIndex);
+          option.textContent = group.title;
+          goukakuPdfSelect.appendChild(option);
+        });
+
+        goukakuPdfSelect.addEventListener("change", () => {
+          selectGoukakuGroup(Number(goukakuPdfSelect.value));
+        });
+        goukakuAudioSelect.addEventListener("change", () => {
+          selectGoukakuTrack(Number(goukakuPdfSelect.value), Number(goukakuAudioSelect.value));
+        });
+
+        selectGoukakuGroup(0);
+      };
+
       const setActiveTrackButton = (button) => {
         if (activeTrackButton) {
           activeTrackButton.classList.remove("active");
@@ -2023,6 +2194,7 @@
         renderGrammarLessonButtons();
         renderKanjiLessonButtons();
         renderListeningLessonButtons();
+        renderGoukakuControls();
         clearVocabulary("Đang tải mapper bài học...");
         try {
           lessons = await loadLessons();
