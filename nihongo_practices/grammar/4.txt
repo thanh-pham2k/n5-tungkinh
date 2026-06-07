@@ -1,0 +1,1905 @@
+<div class="lesson-content">
+							<div id="tab4" class="toggle-content">
+								<div align="center"><h2 class="page-title">Bài 1: Contracts - Hợp Đồng</h2></div>
+								
+									<div style="height: 320px; width: 810px;text-align:center!important;margin: 0 auto;padding: 10px 0;">
+									
+										<div style="text-align:center;width: 500px;float:left;">
+																						<iframe width="500" height="320" src="https://www.youtube.com/embed/W5_MaR6cSEg" frameborder="0" allowfullscreen=""></iframe>
+										</div>										
+										<!-- Ads 300x250 -->
+										<ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2701269076014293" data-ad-slot="2190304758"></ins>
+										<script>
+										(adsbygoogle = window.adsbygoogle || []).push({});
+										</script>
+
+										<!-- /55308784/600tuvungtoeic-4 -->
+										<!--
+											<div id='div-gpt-ad-1469434412648-0' style='height:250px; width:300px;padding: 0 5px;float:right;'>
+											<script type='text/javascript'>
+											googletag.cmd.push(function() { googletag.display('div-gpt-ad-1469434412648-0'); });
+											</script>
+											</div>
+										-->
+										
+									</div>
+									<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2701269076014293" data-ad-slot="2125196892"></ins>
+								<script>
+									 (adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+								<br>
+								 <div class="clear"></div>	
+								 								<div class="tuvung">
+									<div class="stt">
+										1									</div>
+									<div class="hinhanh">										
+										<img class="img-responsive img_left" alt="abide by" title="abide by" src="https://600tuvungtoeic.com/template/english/images/study/abide_by.jpg">
+									</div>
+									<div class="noidung"><vsc-controller class="vsc-controller vsc-show" style="z-index: 9999999 !important;"><template shadowrootmode="open"><style>
+      * {
+        line-height: 1.8em;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      :host(:hover) #controls {
+        display: inline-block;
+      }
+      
+      /* Hide shadow DOM content for different hiding scenarios */
+      :host(.vsc-hidden) #controller,
+      :host(.vsc-nosource) #controller {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+
+      /* YouTube autohide — fade with player controls.
+         :host-context() matches when any ancestor of <vsc-controller> has the
+         class, so no JS MutationObserver forwarding is needed. */
+      :host-context(.ytp-autohide) #controller {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Temporarily show controller (speed change flash, highest priority).
+         vsc-manual:not(vsc-hidden) intentionally has NO CSS rule — user toggling
+         back to "show" should restore default behavior (follow autohide), not
+         permanently override it. vsc-manual is only read by JS flash guards. */
+
+      /* Show shadow DOM content when host has vsc-show class (highest priority) */
+      :host(.vsc-show) #controller {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 0.3 !important;
+      }
+      
+      #controller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 10px 10px 10px 15px;
+        cursor: default;
+        z-index: 9999999;
+        white-space: nowrap;
+      }
+      
+      #controller:hover {
+        opacity: 0.7;
+      }
+      
+      #controller:hover>.draggable {
+        margin-right: 0.8em;
+      }
+      
+      #controls {
+        display: none;
+        vertical-align: middle;
+      }
+      
+      #controller.dragging {
+        cursor: -webkit-grabbing;
+        opacity: 0.7;
+      }
+      
+      #controller.dragging #controls {
+        display: inline-block;
+      }
+      
+      .draggable {
+        cursor: -webkit-grab;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.8em;
+        height: 1.4em;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        touch-action: none;
+      }
+      
+      .draggable:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      button {
+        opacity: 1;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-weight: normal;
+        border-radius: 5px;
+        padding: 1px 5px 3px 5px;
+        font-size: inherit;
+        line-height: inherit;
+        border: 0px solid white;
+        font-family: "Lucida Console", Monaco, monospace;
+        margin: 0px 2px 2px 2px;
+        transition: background 0.2s, color 0.2s;
+      }
+      
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        opacity: 1;
+        background: #2196f3;
+        color: #ffffff;
+      }
+      
+      button:active {
+        background: #2196f3;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      
+      button.rw {
+        opacity: 0.65;
+      }
+    </style><div id="controller" style="top: 568.891px; left: 339.594px; opacity: 0.3;"><span data-action="drag" class="draggable" style="font-size: 14px;">2.20</span><span id="controls" style="font-size: 14px; line-height: 14px;"><button data-action="rewind" class="rw">«</button><button data-action="slower">−</button><button data-action="faster">+</button><button data-action="advance" class="rw">»</button></span></div></template></vsc-controller>
+											<span style="color: blue; font-size: 16px ! important;">abide by</span> <span style="color: red;">/ə'baid/</span><br>
+											<span class="bold">Giải thích: </span>to accept and act according to a law, an agreement<br>
+											<span class="bold">Từ loại: </span>(v): tôn trọng, tuân theo, giữ (lời)<br>
+											<span class="bold">Ví dụ: </span>The two parties agreed to abide by the judge's decision<br><b>Hai bên đã đồng ý tuân theo quyết định của tòa án.</b><br><br>		
+											<audio controls="">
+													<source src="audio/abide_by.mp3" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+									<!--
+									<div class="amthanh">
+										<div class="fb-like" data-href="https://www.facebook.com/luyenthitoeic2" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+									</div>								                               
+									-->
+								</div>
+								<div style="clear:both;"></div>
+																<div class="tuvung">
+									<div class="stt">
+										2									</div>
+									<div class="hinhanh">										
+										<img class="img-responsive img_left" alt="agreement" title="agreement" src="https://600tuvungtoeic.com/template/english/images/study/agreement.jpg">
+									</div>
+									<div class="noidung"><vsc-controller class="vsc-controller vsc-show" style="z-index: 9999999 !important;"><template shadowrootmode="open"><style>
+      * {
+        line-height: 1.8em;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      :host(:hover) #controls {
+        display: inline-block;
+      }
+      
+      /* Hide shadow DOM content for different hiding scenarios */
+      :host(.vsc-hidden) #controller,
+      :host(.vsc-nosource) #controller {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+
+      /* YouTube autohide — fade with player controls.
+         :host-context() matches when any ancestor of <vsc-controller> has the
+         class, so no JS MutationObserver forwarding is needed. */
+      :host-context(.ytp-autohide) #controller {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Temporarily show controller (speed change flash, highest priority).
+         vsc-manual:not(vsc-hidden) intentionally has NO CSS rule — user toggling
+         back to "show" should restore default behavior (follow autohide), not
+         permanently override it. vsc-manual is only read by JS flash guards. */
+
+      /* Show shadow DOM content when host has vsc-show class (highest priority) */
+      :host(.vsc-show) #controller {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 0.3 !important;
+      }
+      
+      #controller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 10px 10px 10px 15px;
+        cursor: default;
+        z-index: 9999999;
+        white-space: nowrap;
+      }
+      
+      #controller:hover {
+        opacity: 0.7;
+      }
+      
+      #controller:hover>.draggable {
+        margin-right: 0.8em;
+      }
+      
+      #controls {
+        display: none;
+        vertical-align: middle;
+      }
+      
+      #controller.dragging {
+        cursor: -webkit-grabbing;
+        opacity: 0.7;
+      }
+      
+      #controller.dragging #controls {
+        display: inline-block;
+      }
+      
+      .draggable {
+        cursor: -webkit-grab;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.8em;
+        height: 1.4em;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        touch-action: none;
+      }
+      
+      .draggable:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      button {
+        opacity: 1;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-weight: normal;
+        border-radius: 5px;
+        padding: 1px 5px 3px 5px;
+        font-size: inherit;
+        line-height: inherit;
+        border: 0px solid white;
+        font-family: "Lucida Console", Monaco, monospace;
+        margin: 0px 2px 2px 2px;
+        transition: background 0.2s, color 0.2s;
+      }
+      
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        opacity: 1;
+        background: #2196f3;
+        color: #ffffff;
+      }
+      
+      button:active {
+        background: #2196f3;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      
+      button.rw {
+        opacity: 0.65;
+      }
+    </style><div id="controller" style="top: 788.891px; left: 339.594px; opacity: 0.3;"><span data-action="drag" class="draggable" style="font-size: 14px;">1.50</span><span id="controls" style="font-size: 14px; line-height: 14px;"><button data-action="rewind" class="rw">«</button><button data-action="slower">−</button><button data-action="faster">+</button><button data-action="advance" class="rw">»</button></span></div></template></vsc-controller>
+											<span style="color: blue; font-size: 16px ! important;">agreement</span> <span style="color: red;">/ə'gri:mənt/</span><br>
+											<span class="bold">Giải thích: </span>an arrangement, a promise or a contract made with somebody<br>
+											<span class="bold">Từ loại: </span>(n): hợp đồng, giao kèo, sự đồng ý/thỏa thuận với nhau<br>
+											<span class="bold">Ví dụ: </span>According to the agreement, the caterer will also supply the flowers for the event<br><b>Theo như thỏa thuận, nhà cung cấp lương thực thực phẩm cũng sẽ cung cấp hoa cho sự kiện</b><br><br>		
+											<audio controls="">
+													<source src="audio/agreement.mp3" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+									<!--
+									<div class="amthanh">
+										<div class="fb-like" data-href="https://www.facebook.com/luyenthitoeic2" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+									</div>								                               
+									-->
+								</div>
+								<div style="clear:both;"></div>
+																<div class="tuvung">
+									<div class="stt">
+										3									</div>
+									<div class="hinhanh">										
+										<img class="img-responsive img_left" alt="assurance" title="assurance" src="https://600tuvungtoeic.com/template/english/images/study/assurance.jpg">
+									</div>
+									<div class="noidung"><vsc-controller class="vsc-controller vsc-show" style="z-index: 9999999 !important;"><template shadowrootmode="open"><style>
+      * {
+        line-height: 1.8em;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      :host(:hover) #controls {
+        display: inline-block;
+      }
+      
+      /* Hide shadow DOM content for different hiding scenarios */
+      :host(.vsc-hidden) #controller,
+      :host(.vsc-nosource) #controller {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+
+      /* YouTube autohide — fade with player controls.
+         :host-context() matches when any ancestor of <vsc-controller> has the
+         class, so no JS MutationObserver forwarding is needed. */
+      :host-context(.ytp-autohide) #controller {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Temporarily show controller (speed change flash, highest priority).
+         vsc-manual:not(vsc-hidden) intentionally has NO CSS rule — user toggling
+         back to "show" should restore default behavior (follow autohide), not
+         permanently override it. vsc-manual is only read by JS flash guards. */
+
+      /* Show shadow DOM content when host has vsc-show class (highest priority) */
+      :host(.vsc-show) #controller {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 0.3 !important;
+      }
+      
+      #controller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 10px 10px 10px 15px;
+        cursor: default;
+        z-index: 9999999;
+        white-space: nowrap;
+      }
+      
+      #controller:hover {
+        opacity: 0.7;
+      }
+      
+      #controller:hover>.draggable {
+        margin-right: 0.8em;
+      }
+      
+      #controls {
+        display: none;
+        vertical-align: middle;
+      }
+      
+      #controller.dragging {
+        cursor: -webkit-grabbing;
+        opacity: 0.7;
+      }
+      
+      #controller.dragging #controls {
+        display: inline-block;
+      }
+      
+      .draggable {
+        cursor: -webkit-grab;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.8em;
+        height: 1.4em;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        touch-action: none;
+      }
+      
+      .draggable:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      button {
+        opacity: 1;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-weight: normal;
+        border-radius: 5px;
+        padding: 1px 5px 3px 5px;
+        font-size: inherit;
+        line-height: inherit;
+        border: 0px solid white;
+        font-family: "Lucida Console", Monaco, monospace;
+        margin: 0px 2px 2px 2px;
+        transition: background 0.2s, color 0.2s;
+      }
+      
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        opacity: 1;
+        background: #2196f3;
+        color: #ffffff;
+      }
+      
+      button:active {
+        background: #2196f3;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      
+      button.rw {
+        opacity: 0.65;
+      }
+    </style><div id="controller" style="top: 1008.89px; left: 339.594px; opacity: 0.3;"><span data-action="drag" class="draggable" style="font-size: 14px;">1.50</span><span id="controls" style="font-size: 14px; line-height: 14px;"><button data-action="rewind" class="rw">«</button><button data-action="slower">−</button><button data-action="faster">+</button><button data-action="advance" class="rw">»</button></span></div></template></vsc-controller>
+											<span style="color: blue; font-size: 16px ! important;">assurance</span> <span style="color: red;">/ə'ʃuərəns/</span><br>
+											<span class="bold">Giải thích: </span>a statement that something will certainly be true or will certainly happen<br>
+											<span class="bold">Từ loại: </span>(n): sự cam đoan, bảo đảm, chắc chắn; sự tin chắc, tự tin<br>
+											<span class="bold">Ví dụ: </span>The sales associate gave his assurance that the missing keyboard would be replaced the next day.<br><b>Đối tác bán hàng cam đoan rằng ngày mai bàn phím lỗi sẽ được thay.</b><br><br>		
+											<audio controls="">
+													<source src="audio/assurance.mp3" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+									<!--
+									<div class="amthanh">
+										<div class="fb-like" data-href="https://www.facebook.com/luyenthitoeic2" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+									</div>								                               
+									-->
+								</div>
+								<div style="clear:both;"></div>
+																				<div class="tuvung">
+												<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2701269076014293" data-ad-slot="2125196892"></ins>
+								<script>
+									 (adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+								</div>
+																				<div class="tuvung">
+									<div class="stt">
+										4									</div>
+									<div class="hinhanh">										
+										<img class="img-responsive img_left" alt="cancellation" title="cancellation" src="https://600tuvungtoeic.com/template/english/images/study/cancellation.jpg">
+									</div>
+									<div class="noidung"><vsc-controller class="vsc-controller vsc-show" style="z-index: 9999999 !important;"><template shadowrootmode="open"><style>
+      * {
+        line-height: 1.8em;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      :host(:hover) #controls {
+        display: inline-block;
+      }
+      
+      /* Hide shadow DOM content for different hiding scenarios */
+      :host(.vsc-hidden) #controller,
+      :host(.vsc-nosource) #controller {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+
+      /* YouTube autohide — fade with player controls.
+         :host-context() matches when any ancestor of <vsc-controller> has the
+         class, so no JS MutationObserver forwarding is needed. */
+      :host-context(.ytp-autohide) #controller {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Temporarily show controller (speed change flash, highest priority).
+         vsc-manual:not(vsc-hidden) intentionally has NO CSS rule — user toggling
+         back to "show" should restore default behavior (follow autohide), not
+         permanently override it. vsc-manual is only read by JS flash guards. */
+
+      /* Show shadow DOM content when host has vsc-show class (highest priority) */
+      :host(.vsc-show) #controller {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 0.3 !important;
+      }
+      
+      #controller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 10px 10px 10px 15px;
+        cursor: default;
+        z-index: 9999999;
+        white-space: nowrap;
+      }
+      
+      #controller:hover {
+        opacity: 0.7;
+      }
+      
+      #controller:hover>.draggable {
+        margin-right: 0.8em;
+      }
+      
+      #controls {
+        display: none;
+        vertical-align: middle;
+      }
+      
+      #controller.dragging {
+        cursor: -webkit-grabbing;
+        opacity: 0.7;
+      }
+      
+      #controller.dragging #controls {
+        display: inline-block;
+      }
+      
+      .draggable {
+        cursor: -webkit-grab;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.8em;
+        height: 1.4em;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        touch-action: none;
+      }
+      
+      .draggable:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      button {
+        opacity: 1;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-weight: normal;
+        border-radius: 5px;
+        padding: 1px 5px 3px 5px;
+        font-size: inherit;
+        line-height: inherit;
+        border: 0px solid white;
+        font-family: "Lucida Console", Monaco, monospace;
+        margin: 0px 2px 2px 2px;
+        transition: background 0.2s, color 0.2s;
+      }
+      
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        opacity: 1;
+        background: #2196f3;
+        color: #ffffff;
+      }
+      
+      button:active {
+        background: #2196f3;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      
+      button.rw {
+        opacity: 0.65;
+      }
+    </style><div id="controller" style="top: 1448.89px; left: 339.594px; opacity: 0.3;"><span data-action="drag" class="draggable" style="font-size: 14px;">1.50</span><span id="controls" style="font-size: 14px; line-height: 14px;"><button data-action="rewind" class="rw">«</button><button data-action="slower">−</button><button data-action="faster">+</button><button data-action="advance" class="rw">»</button></span></div></template></vsc-controller>
+											<span style="color: blue; font-size: 16px ! important;">cancellation</span> <span style="color: red;">/,kænse'leiʃn/</span><br>
+											<span class="bold">Giải thích: </span>a decision to stop something that has already been arranged from happening<br>
+											<span class="bold">Từ loại: </span>(n): sự bãi bỏ, hủy bỏ<br>
+											<span class="bold">Ví dụ: </span>The cancelation of her flight caused her problems for the rest of the week<br><b>Việc hủy chuyến bay đã gây cho cô ấy nhiều vấn đề trong những ngày còn lại của tuần.</b><br><br>		
+											<audio controls="">
+													<source src="audio/cancellation.mp3" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+									<!--
+									<div class="amthanh">
+										<div class="fb-like" data-href="https://www.facebook.com/luyenthitoeic2" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+									</div>								                               
+									-->
+								</div>
+								<div style="clear:both;"></div>
+																<div class="tuvung">
+									<div class="stt">
+										5									</div>
+									<div class="hinhanh">										
+										<img class="img-responsive img_left" alt="determine" title="determine" src="https://600tuvungtoeic.com/template/english/images/study/determine.jpg">
+									</div>
+									<div class="noidung"><vsc-controller class="vsc-controller vsc-show" style="z-index: 9999999 !important;"><template shadowrootmode="open"><style>
+      * {
+        line-height: 1.8em;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      :host(:hover) #controls {
+        display: inline-block;
+      }
+      
+      /* Hide shadow DOM content for different hiding scenarios */
+      :host(.vsc-hidden) #controller,
+      :host(.vsc-nosource) #controller {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+
+      /* YouTube autohide — fade with player controls.
+         :host-context() matches when any ancestor of <vsc-controller> has the
+         class, so no JS MutationObserver forwarding is needed. */
+      :host-context(.ytp-autohide) #controller {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Temporarily show controller (speed change flash, highest priority).
+         vsc-manual:not(vsc-hidden) intentionally has NO CSS rule — user toggling
+         back to "show" should restore default behavior (follow autohide), not
+         permanently override it. vsc-manual is only read by JS flash guards. */
+
+      /* Show shadow DOM content when host has vsc-show class (highest priority) */
+      :host(.vsc-show) #controller {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 0.3 !important;
+      }
+      
+      #controller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 10px 10px 10px 15px;
+        cursor: default;
+        z-index: 9999999;
+        white-space: nowrap;
+      }
+      
+      #controller:hover {
+        opacity: 0.7;
+      }
+      
+      #controller:hover>.draggable {
+        margin-right: 0.8em;
+      }
+      
+      #controls {
+        display: none;
+        vertical-align: middle;
+      }
+      
+      #controller.dragging {
+        cursor: -webkit-grabbing;
+        opacity: 0.7;
+      }
+      
+      #controller.dragging #controls {
+        display: inline-block;
+      }
+      
+      .draggable {
+        cursor: -webkit-grab;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.8em;
+        height: 1.4em;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        touch-action: none;
+      }
+      
+      .draggable:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      button {
+        opacity: 1;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-weight: normal;
+        border-radius: 5px;
+        padding: 1px 5px 3px 5px;
+        font-size: inherit;
+        line-height: inherit;
+        border: 0px solid white;
+        font-family: "Lucida Console", Monaco, monospace;
+        margin: 0px 2px 2px 2px;
+        transition: background 0.2s, color 0.2s;
+      }
+      
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        opacity: 1;
+        background: #2196f3;
+        color: #ffffff;
+      }
+      
+      button:active {
+        background: #2196f3;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      
+      button.rw {
+        opacity: 0.65;
+      }
+    </style><div id="controller" style="top: 1693.39px; left: 339.594px; opacity: 0.3;"><span data-action="drag" class="draggable" style="font-size: 14px;">1.50</span><span id="controls" style="font-size: 14px; line-height: 14px;"><button data-action="rewind" class="rw">«</button><button data-action="slower">−</button><button data-action="faster">+</button><button data-action="advance" class="rw">»</button></span></div></template></vsc-controller>
+											<span style="color: blue; font-size: 16px ! important;">determine</span> <span style="color: red;">/di'tə:min/</span><br>
+											<span class="bold">Giải thích: </span>to discover the facts about something<br>
+											<span class="bold">Từ loại: </span>(v): quyết định, xác định, định rõ; quyết tâm, kiên quyết<br>
+											<span class="bold">Ví dụ: </span>After reading the contract, I was still unable to detemine if our company was liable for back wages.<br><b>Sau khi đọc hợp đồng, tôi vẫn không thể biết được liệu rằng công ty của chúng tôi có phải chịu trách nhiệm hoàn trả lại lương không</b><br><br>		
+											<audio controls="">
+													<source src="audio/determine.mp3" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+									<!--
+									<div class="amthanh">
+										<div class="fb-like" data-href="https://www.facebook.com/luyenthitoeic2" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+									</div>								                               
+									-->
+								</div>
+								<div style="clear:both;"></div>
+																<div class="tuvung">
+									<div class="stt">
+										6									</div>
+									<div class="hinhanh">										
+										<img class="img-responsive img_left" alt="engage" title="engage" src="https://600tuvungtoeic.com/template/english/images/study/engage.jpg">
+									</div>
+									<div class="noidung"><vsc-controller class="vsc-controller vsc-show" style="z-index: 9999999 !important;"><template shadowrootmode="open"><style>
+      * {
+        line-height: 1.8em;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      :host(:hover) #controls {
+        display: inline-block;
+      }
+      
+      /* Hide shadow DOM content for different hiding scenarios */
+      :host(.vsc-hidden) #controller,
+      :host(.vsc-nosource) #controller {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+
+      /* YouTube autohide — fade with player controls.
+         :host-context() matches when any ancestor of <vsc-controller> has the
+         class, so no JS MutationObserver forwarding is needed. */
+      :host-context(.ytp-autohide) #controller {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Temporarily show controller (speed change flash, highest priority).
+         vsc-manual:not(vsc-hidden) intentionally has NO CSS rule — user toggling
+         back to "show" should restore default behavior (follow autohide), not
+         permanently override it. vsc-manual is only read by JS flash guards. */
+
+      /* Show shadow DOM content when host has vsc-show class (highest priority) */
+      :host(.vsc-show) #controller {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 0.3 !important;
+      }
+      
+      #controller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 10px 10px 10px 15px;
+        cursor: default;
+        z-index: 9999999;
+        white-space: nowrap;
+      }
+      
+      #controller:hover {
+        opacity: 0.7;
+      }
+      
+      #controller:hover>.draggable {
+        margin-right: 0.8em;
+      }
+      
+      #controls {
+        display: none;
+        vertical-align: middle;
+      }
+      
+      #controller.dragging {
+        cursor: -webkit-grabbing;
+        opacity: 0.7;
+      }
+      
+      #controller.dragging #controls {
+        display: inline-block;
+      }
+      
+      .draggable {
+        cursor: -webkit-grab;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.8em;
+        height: 1.4em;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        touch-action: none;
+      }
+      
+      .draggable:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      button {
+        opacity: 1;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-weight: normal;
+        border-radius: 5px;
+        padding: 1px 5px 3px 5px;
+        font-size: inherit;
+        line-height: inherit;
+        border: 0px solid white;
+        font-family: "Lucida Console", Monaco, monospace;
+        margin: 0px 2px 2px 2px;
+        transition: background 0.2s, color 0.2s;
+      }
+      
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        opacity: 1;
+        background: #2196f3;
+        color: #ffffff;
+      }
+      
+      button:active {
+        background: #2196f3;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      
+      button.rw {
+        opacity: 0.65;
+      }
+    </style><div id="controller" style="top: 1911.89px; left: 339.594px; opacity: 0.3;"><span data-action="drag" class="draggable" style="font-size: 14px;">1.50</span><span id="controls" style="font-size: 14px; line-height: 14px;"><button data-action="rewind" class="rw">«</button><button data-action="slower">−</button><button data-action="faster">+</button><button data-action="advance" class="rw">»</button></span></div></template></vsc-controller>
+											<span style="color: blue; font-size: 16px ! important;">engage</span> <span style="color: red;">/in'geidʤ/</span><br>
+											<span class="bold">Giải thích: </span>to become involved in, to participate<br>
+											<span class="bold">Từ loại: </span>(v): (v)Tham gia, cam kết, (n)sự hứa hẹn, hứa hôn<br>
+											<span class="bold">Ví dụ: </span>He engaged us in a fascinating discussion about current business law<br><b>Anh ấy cùng chúng tôi thảo luận sôi nổi về luật kinh doanh hiện hành</b><br><br>		
+											<audio controls="">
+													<source src="audio/engage.mp3" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+									<!--
+									<div class="amthanh">
+										<div class="fb-like" data-href="https://www.facebook.com/luyenthitoeic2" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+									</div>								                               
+									-->
+								</div>
+								<div style="clear:both;"></div>
+																<div class="tuvung">
+									<div class="stt">
+										7									</div>
+									<div class="hinhanh">										
+										<img class="img-responsive img_left" alt="establish" title="establish" src="https://600tuvungtoeic.com/template/english/images/study/establish.jpg">
+									</div>
+									<div class="noidung"><vsc-controller class="vsc-controller vsc-show" style="z-index: 9999999 !important;"><template shadowrootmode="open"><style>
+      * {
+        line-height: 1.8em;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      :host(:hover) #controls {
+        display: inline-block;
+      }
+      
+      /* Hide shadow DOM content for different hiding scenarios */
+      :host(.vsc-hidden) #controller,
+      :host(.vsc-nosource) #controller {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+
+      /* YouTube autohide — fade with player controls.
+         :host-context() matches when any ancestor of <vsc-controller> has the
+         class, so no JS MutationObserver forwarding is needed. */
+      :host-context(.ytp-autohide) #controller {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Temporarily show controller (speed change flash, highest priority).
+         vsc-manual:not(vsc-hidden) intentionally has NO CSS rule — user toggling
+         back to "show" should restore default behavior (follow autohide), not
+         permanently override it. vsc-manual is only read by JS flash guards. */
+
+      /* Show shadow DOM content when host has vsc-show class (highest priority) */
+      :host(.vsc-show) #controller {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 0.3 !important;
+      }
+      
+      #controller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 10px 10px 10px 15px;
+        cursor: default;
+        z-index: 9999999;
+        white-space: nowrap;
+      }
+      
+      #controller:hover {
+        opacity: 0.7;
+      }
+      
+      #controller:hover>.draggable {
+        margin-right: 0.8em;
+      }
+      
+      #controls {
+        display: none;
+        vertical-align: middle;
+      }
+      
+      #controller.dragging {
+        cursor: -webkit-grabbing;
+        opacity: 0.7;
+      }
+      
+      #controller.dragging #controls {
+        display: inline-block;
+      }
+      
+      .draggable {
+        cursor: -webkit-grab;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.8em;
+        height: 1.4em;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        touch-action: none;
+      }
+      
+      .draggable:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      button {
+        opacity: 1;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-weight: normal;
+        border-radius: 5px;
+        padding: 1px 5px 3px 5px;
+        font-size: inherit;
+        line-height: inherit;
+        border: 0px solid white;
+        font-family: "Lucida Console", Monaco, monospace;
+        margin: 0px 2px 2px 2px;
+        transition: background 0.2s, color 0.2s;
+      }
+      
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        opacity: 1;
+        background: #2196f3;
+        color: #ffffff;
+      }
+      
+      button:active {
+        background: #2196f3;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      
+      button.rw {
+        opacity: 0.65;
+      }
+    </style><div id="controller" style="top: 2131.89px; left: 339.594px; opacity: 0.3;"><span data-action="drag" class="draggable" style="font-size: 14px;">1.50</span><span id="controls" style="font-size: 14px; line-height: 14px;"><button data-action="rewind" class="rw">«</button><button data-action="slower">−</button><button data-action="faster">+</button><button data-action="advance" class="rw">»</button></span></div></template></vsc-controller>
+											<span style="color: blue; font-size: 16px ! important;">establish</span> <span style="color: red;">/is'tæbliʃ/</span><br>
+											<span class="bold">Giải thích: </span>to start or create an organization, a system<br>
+											<span class="bold">Từ loại: </span>(v): thiết lập, thành lập; xác minh, chứng minh, củng cố<br>
+											<span class="bold">Ví dụ: </span>The merger of the two company established a powerful new corporation<br><b>Sự liên kết giữa 2 công ty tạo nên một tập đoàn kinh tế hùng mạnh.</b><br><br>		
+											<audio controls="">
+													<source src="audio/establish.mp3" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+									<!--
+									<div class="amthanh">
+										<div class="fb-like" data-href="https://www.facebook.com/luyenthitoeic2" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+									</div>								                               
+									-->
+								</div>
+								<div style="clear:both;"></div>
+																				<div class="tuvung">
+												<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2701269076014293" data-ad-slot="2125196892"></ins>
+								<script>
+									 (adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+								</div>
+																				<div class="tuvung">
+									<div class="stt">
+										8									</div>
+									<div class="hinhanh">										
+										<img class="img-responsive img_left" alt="obligate" title="obligate" src="https://600tuvungtoeic.com/template/english/images/study/obligate.jpg">
+									</div>
+									<div class="noidung"><vsc-controller class="vsc-controller vsc-show" style="z-index: 9999999 !important;"><template shadowrootmode="open"><style>
+      * {
+        line-height: 1.8em;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      :host(:hover) #controls {
+        display: inline-block;
+      }
+      
+      /* Hide shadow DOM content for different hiding scenarios */
+      :host(.vsc-hidden) #controller,
+      :host(.vsc-nosource) #controller {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+
+      /* YouTube autohide — fade with player controls.
+         :host-context() matches when any ancestor of <vsc-controller> has the
+         class, so no JS MutationObserver forwarding is needed. */
+      :host-context(.ytp-autohide) #controller {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Temporarily show controller (speed change flash, highest priority).
+         vsc-manual:not(vsc-hidden) intentionally has NO CSS rule — user toggling
+         back to "show" should restore default behavior (follow autohide), not
+         permanently override it. vsc-manual is only read by JS flash guards. */
+
+      /* Show shadow DOM content when host has vsc-show class (highest priority) */
+      :host(.vsc-show) #controller {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 0.3 !important;
+      }
+      
+      #controller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 10px 10px 10px 15px;
+        cursor: default;
+        z-index: 9999999;
+        white-space: nowrap;
+      }
+      
+      #controller:hover {
+        opacity: 0.7;
+      }
+      
+      #controller:hover>.draggable {
+        margin-right: 0.8em;
+      }
+      
+      #controls {
+        display: none;
+        vertical-align: middle;
+      }
+      
+      #controller.dragging {
+        cursor: -webkit-grabbing;
+        opacity: 0.7;
+      }
+      
+      #controller.dragging #controls {
+        display: inline-block;
+      }
+      
+      .draggable {
+        cursor: -webkit-grab;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.8em;
+        height: 1.4em;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        touch-action: none;
+      }
+      
+      .draggable:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      button {
+        opacity: 1;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-weight: normal;
+        border-radius: 5px;
+        padding: 1px 5px 3px 5px;
+        font-size: inherit;
+        line-height: inherit;
+        border: 0px solid white;
+        font-family: "Lucida Console", Monaco, monospace;
+        margin: 0px 2px 2px 2px;
+        transition: background 0.2s, color 0.2s;
+      }
+      
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        opacity: 1;
+        background: #2196f3;
+        color: #ffffff;
+      }
+      
+      button:active {
+        background: #2196f3;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      
+      button.rw {
+        opacity: 0.65;
+      }
+    </style><div id="controller" style="top: 2571.89px; left: 339.594px; opacity: 0.3;"><span data-action="drag" class="draggable" style="font-size: 14px;">1.50</span><span id="controls" style="font-size: 14px; line-height: 14px;"><button data-action="rewind" class="rw">«</button><button data-action="slower">−</button><button data-action="faster">+</button><button data-action="advance" class="rw">»</button></span></div></template></vsc-controller>
+											<span style="color: blue; font-size: 16px ! important;">obligate</span> <span style="color: red;">/'ɔbligeit/</span><br>
+											<span class="bold">Giải thích: </span>to bind legally or morally<br>
+											<span class="bold">Từ loại: </span>(v): bắt buộc, ép buộc<br>
+											<span class="bold">Ví dụ: </span>The contractor was obligated by the contract to work 40 hours a week.<br><b>Nhà thầu buộc phải làm việc 40 tiếng mỗi tuần.</b><br><br>		
+											<audio controls="">
+													<source src="audio/obligate.mp3" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+									<!--
+									<div class="amthanh">
+										<div class="fb-like" data-href="https://www.facebook.com/luyenthitoeic2" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+									</div>								                               
+									-->
+								</div>
+								<div style="clear:both;"></div>
+																<div class="tuvung">
+									<div class="stt">
+										9									</div>
+									<div class="hinhanh">										
+										<img class="img-responsive img_left" alt="party" title="party" src="https://600tuvungtoeic.com/template/english/images/study/party.jpg">
+									</div>
+									<div class="noidung"><vsc-controller class="vsc-controller vsc-show" style="z-index: 9999999 !important;"><template shadowrootmode="open"><style>
+      * {
+        line-height: 1.8em;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      :host(:hover) #controls {
+        display: inline-block;
+      }
+      
+      /* Hide shadow DOM content for different hiding scenarios */
+      :host(.vsc-hidden) #controller,
+      :host(.vsc-nosource) #controller {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+
+      /* YouTube autohide — fade with player controls.
+         :host-context() matches when any ancestor of <vsc-controller> has the
+         class, so no JS MutationObserver forwarding is needed. */
+      :host-context(.ytp-autohide) #controller {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Temporarily show controller (speed change flash, highest priority).
+         vsc-manual:not(vsc-hidden) intentionally has NO CSS rule — user toggling
+         back to "show" should restore default behavior (follow autohide), not
+         permanently override it. vsc-manual is only read by JS flash guards. */
+
+      /* Show shadow DOM content when host has vsc-show class (highest priority) */
+      :host(.vsc-show) #controller {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 0.3 !important;
+      }
+      
+      #controller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 10px 10px 10px 15px;
+        cursor: default;
+        z-index: 9999999;
+        white-space: nowrap;
+      }
+      
+      #controller:hover {
+        opacity: 0.7;
+      }
+      
+      #controller:hover>.draggable {
+        margin-right: 0.8em;
+      }
+      
+      #controls {
+        display: none;
+        vertical-align: middle;
+      }
+      
+      #controller.dragging {
+        cursor: -webkit-grabbing;
+        opacity: 0.7;
+      }
+      
+      #controller.dragging #controls {
+        display: inline-block;
+      }
+      
+      .draggable {
+        cursor: -webkit-grab;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.8em;
+        height: 1.4em;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        touch-action: none;
+      }
+      
+      .draggable:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      button {
+        opacity: 1;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-weight: normal;
+        border-radius: 5px;
+        padding: 1px 5px 3px 5px;
+        font-size: inherit;
+        line-height: inherit;
+        border: 0px solid white;
+        font-family: "Lucida Console", Monaco, monospace;
+        margin: 0px 2px 2px 2px;
+        transition: background 0.2s, color 0.2s;
+      }
+      
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        opacity: 1;
+        background: #2196f3;
+        color: #ffffff;
+      }
+      
+      button:active {
+        background: #2196f3;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      
+      button.rw {
+        opacity: 0.65;
+      }
+    </style><div id="controller" style="top: 2791.89px; left: 339.594px; opacity: 0.3;"><span data-action="drag" class="draggable" style="font-size: 14px;">1.50</span><span id="controls" style="font-size: 14px; line-height: 14px;"><button data-action="rewind" class="rw">«</button><button data-action="slower">−</button><button data-action="faster">+</button><button data-action="advance" class="rw">»</button></span></div></template></vsc-controller>
+											<span style="color: blue; font-size: 16px ! important;">party</span> <span style="color: red;">/'pɑ:ti/</span><br>
+											<span class="bold">Giải thích: </span>one of the people or groups of people involved in a legal agreemen<br>
+											<span class="bold">Từ loại: </span>(n): đảng, phái, đội, nhóm; người tham dự/tham gia; buổi liên hoan, buổi tiệc<br>
+											<span class="bold">Ví dụ: </span>The parties agreed to settlement in their contract dispute.<br><b>Các bên đã nhất trí đi đến một thỏa thuận trong hợp đồng gây tranh cãi của họ.</b><br><br>		
+											<audio controls="">
+													<source src="audio/party.mp3" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+									<!--
+									<div class="amthanh">
+										<div class="fb-like" data-href="https://www.facebook.com/luyenthitoeic2" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+									</div>								                               
+									-->
+								</div>
+								<div style="clear:both;"></div>
+																<div class="tuvung">
+									<div class="stt">
+										10									</div>
+									<div class="hinhanh">										
+										<img class="img-responsive img_left" alt="provision" title="provision" src="https://600tuvungtoeic.com/template/english/images/study/provision.jpg">
+									</div>
+									<div class="noidung"><vsc-controller class="vsc-controller vsc-show" style="z-index: 9999999 !important;"><template shadowrootmode="open"><style>
+      * {
+        line-height: 1.8em;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      :host(:hover) #controls {
+        display: inline-block;
+      }
+      
+      /* Hide shadow DOM content for different hiding scenarios */
+      :host(.vsc-hidden) #controller,
+      :host(.vsc-nosource) #controller {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+
+      /* YouTube autohide — fade with player controls.
+         :host-context() matches when any ancestor of <vsc-controller> has the
+         class, so no JS MutationObserver forwarding is needed. */
+      :host-context(.ytp-autohide) #controller {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Temporarily show controller (speed change flash, highest priority).
+         vsc-manual:not(vsc-hidden) intentionally has NO CSS rule — user toggling
+         back to "show" should restore default behavior (follow autohide), not
+         permanently override it. vsc-manual is only read by JS flash guards. */
+
+      /* Show shadow DOM content when host has vsc-show class (highest priority) */
+      :host(.vsc-show) #controller {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 0.3 !important;
+      }
+      
+      #controller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 10px 10px 10px 15px;
+        cursor: default;
+        z-index: 9999999;
+        white-space: nowrap;
+      }
+      
+      #controller:hover {
+        opacity: 0.7;
+      }
+      
+      #controller:hover>.draggable {
+        margin-right: 0.8em;
+      }
+      
+      #controls {
+        display: none;
+        vertical-align: middle;
+      }
+      
+      #controller.dragging {
+        cursor: -webkit-grabbing;
+        opacity: 0.7;
+      }
+      
+      #controller.dragging #controls {
+        display: inline-block;
+      }
+      
+      .draggable {
+        cursor: -webkit-grab;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.8em;
+        height: 1.4em;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        touch-action: none;
+      }
+      
+      .draggable:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      button {
+        opacity: 1;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-weight: normal;
+        border-radius: 5px;
+        padding: 1px 5px 3px 5px;
+        font-size: inherit;
+        line-height: inherit;
+        border: 0px solid white;
+        font-family: "Lucida Console", Monaco, monospace;
+        margin: 0px 2px 2px 2px;
+        transition: background 0.2s, color 0.2s;
+      }
+      
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        opacity: 1;
+        background: #2196f3;
+        color: #ffffff;
+      }
+      
+      button:active {
+        background: #2196f3;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      
+      button.rw {
+        opacity: 0.65;
+      }
+    </style><div id="controller" style="top: 3011.89px; left: 339.594px; opacity: 0.3;"><span data-action="drag" class="draggable" style="font-size: 14px;">1.50</span><span id="controls" style="font-size: 14px; line-height: 14px;"><button data-action="rewind" class="rw">«</button><button data-action="slower">−</button><button data-action="faster">+</button><button data-action="advance" class="rw">»</button></span></div></template></vsc-controller>
+											<span style="color: blue; font-size: 16px ! important;">provision</span> <span style="color: red;">/provision/</span><br>
+											<span class="bold">Giải thích: </span>a condition or an arrangement in a legal document<br>
+											<span class="bold">Từ loại: </span>(n): sự dự liệu, dự trữ, dự phòng, cung cấp; điều khoản<br>
+											<span class="bold">Ví dụ: </span>The father made provision for his children through his will.<br><b>Người cha đã truyền lại di chúc cho những đứa con của mình.</b><br><br>		
+											<audio controls="">
+													<source src="audio/provision.mp3" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+									<!--
+									<div class="amthanh">
+										<div class="fb-like" data-href="https://www.facebook.com/luyenthitoeic2" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+									</div>								                               
+									-->
+								</div>
+								<div style="clear:both;"></div>
+																				<div class="tuvung">
+												<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2701269076014293" data-ad-slot="2125196892"></ins>
+								<script>
+									 (adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
+								</div>
+																				<div class="tuvung">
+									<div class="stt">
+										11									</div>
+									<div class="hinhanh">										
+										<img class="img-responsive img_left" alt="resolve" title="resolve" src="https://600tuvungtoeic.com/template/english/images/study/resolve.jpg">
+									</div>
+									<div class="noidung"><vsc-controller class="vsc-controller vsc-show" style="z-index: 9999999 !important;"><template shadowrootmode="open"><style>
+      * {
+        line-height: 1.8em;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      :host(:hover) #controls {
+        display: inline-block;
+      }
+      
+      /* Hide shadow DOM content for different hiding scenarios */
+      :host(.vsc-hidden) #controller,
+      :host(.vsc-nosource) #controller {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+
+      /* YouTube autohide — fade with player controls.
+         :host-context() matches when any ancestor of <vsc-controller> has the
+         class, so no JS MutationObserver forwarding is needed. */
+      :host-context(.ytp-autohide) #controller {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Temporarily show controller (speed change flash, highest priority).
+         vsc-manual:not(vsc-hidden) intentionally has NO CSS rule — user toggling
+         back to "show" should restore default behavior (follow autohide), not
+         permanently override it. vsc-manual is only read by JS flash guards. */
+
+      /* Show shadow DOM content when host has vsc-show class (highest priority) */
+      :host(.vsc-show) #controller {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 0.3 !important;
+      }
+      
+      #controller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 10px 10px 10px 15px;
+        cursor: default;
+        z-index: 9999999;
+        white-space: nowrap;
+      }
+      
+      #controller:hover {
+        opacity: 0.7;
+      }
+      
+      #controller:hover>.draggable {
+        margin-right: 0.8em;
+      }
+      
+      #controls {
+        display: none;
+        vertical-align: middle;
+      }
+      
+      #controller.dragging {
+        cursor: -webkit-grabbing;
+        opacity: 0.7;
+      }
+      
+      #controller.dragging #controls {
+        display: inline-block;
+      }
+      
+      .draggable {
+        cursor: -webkit-grab;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.8em;
+        height: 1.4em;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        touch-action: none;
+      }
+      
+      .draggable:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      button {
+        opacity: 1;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-weight: normal;
+        border-radius: 5px;
+        padding: 1px 5px 3px 5px;
+        font-size: inherit;
+        line-height: inherit;
+        border: 0px solid white;
+        font-family: "Lucida Console", Monaco, monospace;
+        margin: 0px 2px 2px 2px;
+        transition: background 0.2s, color 0.2s;
+      }
+      
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        opacity: 1;
+        background: #2196f3;
+        color: #ffffff;
+      }
+      
+      button:active {
+        background: #2196f3;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      
+      button.rw {
+        opacity: 0.65;
+      }
+    </style><div id="controller" style="top: 3451.89px; left: 339.594px; opacity: 0.3;"><span data-action="drag" class="draggable" style="font-size: 14px;">1.50</span><span id="controls" style="font-size: 14px; line-height: 14px;"><button data-action="rewind" class="rw">«</button><button data-action="slower">−</button><button data-action="faster">+</button><button data-action="advance" class="rw">»</button></span></div></template></vsc-controller>
+											<span style="color: blue; font-size: 16px ! important;">resolve</span> <span style="color: red;">/ri'zɔlv/</span><br>
+											<span class="bold">Giải thích: </span>to find an acceptable solution to a problem<br>
+											<span class="bold">Từ loại: </span>(v, n): (v) giải quyết, (n) sự kiên quyết / sự tin chắc<br>
+											<span class="bold">Ví dụ: </span>The manager resolved to clean out all the files at the end of the week.<br><b>Cuối tuần, người quản lý đã quyết định xóa sạch tất cả các dữ liệu</b><br><br>		
+											<audio controls="">
+													<source src="audio/resolve.mp3" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+									<!--
+									<div class="amthanh">
+										<div class="fb-like" data-href="https://www.facebook.com/luyenthitoeic2" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+									</div>								                               
+									-->
+								</div>
+								<div style="clear:both;"></div>
+																<div class="tuvung">
+									<div class="stt">
+										12									</div>
+									<div class="hinhanh">										
+										<img class="img-responsive img_left" alt="specific" title="specific" src="https://600tuvungtoeic.com/template/english/images/study/specific.jpg">
+									</div>
+									<div class="noidung"><vsc-controller class="vsc-controller vsc-show" style="z-index: 9999999 !important;"><template shadowrootmode="open"><style>
+      * {
+        line-height: 1.8em;
+        font-family: sans-serif;
+        font-size: 13px;
+      }
+      
+      :host(:hover) #controls {
+        display: inline-block;
+      }
+      
+      /* Hide shadow DOM content for different hiding scenarios */
+      :host(.vsc-hidden) #controller,
+      :host(.vsc-nosource) #controller {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+      }
+
+      /* YouTube autohide — fade with player controls.
+         :host-context() matches when any ancestor of <vsc-controller> has the
+         class, so no JS MutationObserver forwarding is needed. */
+      :host-context(.ytp-autohide) #controller {
+        visibility: hidden !important;
+        opacity: 0 !important;
+        transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      /* Temporarily show controller (speed change flash, highest priority).
+         vsc-manual:not(vsc-hidden) intentionally has NO CSS rule — user toggling
+         back to "show" should restore default behavior (follow autohide), not
+         permanently override it. vsc-manual is only read by JS flash guards. */
+
+      /* Show shadow DOM content when host has vsc-show class (highest priority) */
+      :host(.vsc-show) #controller {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 0.3 !important;
+      }
+      
+      #controller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: black;
+        color: white;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 10px 10px 10px 15px;
+        cursor: default;
+        z-index: 9999999;
+        white-space: nowrap;
+      }
+      
+      #controller:hover {
+        opacity: 0.7;
+      }
+      
+      #controller:hover>.draggable {
+        margin-right: 0.8em;
+      }
+      
+      #controls {
+        display: none;
+        vertical-align: middle;
+      }
+      
+      #controller.dragging {
+        cursor: -webkit-grabbing;
+        opacity: 0.7;
+      }
+      
+      #controller.dragging #controls {
+        display: inline-block;
+      }
+      
+      .draggable {
+        cursor: -webkit-grab;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.8em;
+        height: 1.4em;
+        text-align: center;
+        vertical-align: middle;
+        box-sizing: border-box;
+        touch-action: none;
+      }
+      
+      .draggable:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      button {
+        opacity: 1;
+        cursor: pointer;
+        color: black;
+        background: white;
+        font-weight: normal;
+        border-radius: 5px;
+        padding: 1px 5px 3px 5px;
+        font-size: inherit;
+        line-height: inherit;
+        border: 0px solid white;
+        font-family: "Lucida Console", Monaco, monospace;
+        margin: 0px 2px 2px 2px;
+        transition: background 0.2s, color 0.2s;
+      }
+      
+      button:focus {
+        outline: 0;
+      }
+      
+      button:hover {
+        opacity: 1;
+        background: #2196f3;
+        color: #ffffff;
+      }
+      
+      button:active {
+        background: #2196f3;
+        color: #ffffff;
+        font-weight: bold;
+      }
+      
+      button.rw {
+        opacity: 0.65;
+      }
+    </style><div id="controller" style="top: 3671.89px; left: 339.594px; opacity: 0.3;"><span data-action="drag" class="draggable" style="font-size: 14px;">1.50</span><span id="controls" style="font-size: 14px; line-height: 14px;"><button data-action="rewind" class="rw">«</button><button data-action="slower">−</button><button data-action="faster">+</button><button data-action="advance" class="rw">»</button></span></div></template></vsc-controller>
+											<span style="color: blue; font-size: 16px ! important;">specific</span> <span style="color: red;">/spi'sifik/</span><br>
+											<span class="bold">Giải thích: </span>detailed abd exact<br>
+											<span class="bold">Từ loại: </span>(adj): riêng biệt, cụ thể, đặc trưng; rõ ràng, rành mạch<br>
+											<span class="bold">Ví dụ: </span>The customer's specific complaint was not addressed in his e-mail.<br><b>Khiếu nại cụ thể của khách hàng đã không được giải quyết trong Email gửi anh ấy.</b><br><br>		
+											<audio controls="">
+													<source src="audio/specific.mp3" type="audio/mpeg">
+													Your browser does not support the audio element.
+												</audio>
+											
+											
+									</div>
+									
+									<!--
+									<div class="amthanh">
+										<div class="fb-like" data-href="https://www.facebook.com/luyenthitoeic2" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+									</div>								                               
+									-->
+								</div>
+								<div style="clear:both;"></div>
+																
+							</div> <!-- /.toggle-content -->
+							
+						</div>
