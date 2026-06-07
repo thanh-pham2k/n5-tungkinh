@@ -40,6 +40,8 @@
     h2 { margin: 0; font-size: 19px; line-height: 1.2; }
     .time { margin: 4px 0 0; color: var(--muted); font-size: 12px; font-weight: 800; }
     .audio-shell { min-width: 0; max-width: 100%; overflow: hidden; margin: 8px 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; padding: 6px; }
+    .audio-topline { min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; color: var(--muted); font-size: 12px; font-weight: 900; }
+    .script-open { flex: 0 0 auto; min-height: 32px; border-color: rgba(15,118,110,.25); background: #fff; color: var(--primary); padding: 5px 9px; font-size: 12px; }
     .audio-player { min-width: 0; display: grid; grid-template-columns: 38px 78px minmax(0, 1fr); gap: 8px; align-items: center; }
     .play-audio { width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }
     .audio-time { color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }
@@ -66,9 +68,12 @@
     .feedback.ok { color: var(--ok); }
     .feedback.bad { color: var(--bad); }
     .explanation { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
-    .script-panel { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
-    .script-panel summary { min-height: 36px; color: var(--primary); font-weight: 900; cursor: pointer; }
-    .script-text { width: 100%; margin: 4px 0 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+    .script-dialog { width: min(640px, calc(100vw - 24px)); max-height: min(78vh, 720px); border: 1px solid var(--line); border-radius: 10px; padding: 12px; background: #fff; color: var(--text); box-shadow: 0 24px 70px rgba(15,23,42,.28); }
+    .script-dialog::backdrop { background: rgba(15,23,42,.45); }
+    .dialog-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 10px; }
+    .dialog-head h3 { margin: 0; font-size: 17px; line-height: 1.25; }
+    .script-close { flex: 0 0 auto; min-height: 34px; padding: 6px 10px; }
+    .script-text { width: 100%; max-height: calc(78vh - 112px); overflow: auto; margin: 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
     @media (min-width: 640px) {
       body { font-size: 16px; }
       .header-inner { padding: 12px 16px; }
@@ -125,6 +130,10 @@
                 <p class="time">00:12.000 - 01:18.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 1</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-1">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -132,6 +141,66 @@
                   <audio preload="metadata" src="audio/lesson-10/segment_001.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-1">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 001</p>
+                    <h3>Script - Đoạn 1</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: すみません。
+Romaji: Sumimasen.
+Nghĩa: Xin lỗi.
+
+A: この図書館に韓国語の辞書がありますか。
+Romaji: Kono toshokan ni kankoku-go no jisho ga arimasu ka.
+Nghĩa: Thư viện này có từ điển tiếng Hàn không?
+
+B: ありますよ。3階です。
+Romaji: Arimasu yo. San-kai desu.
+Nghĩa: Có đấy. Ở tầng 3.
+
+A: タイ語の辞書もありますか。
+Romaji: Tai-go no jisho mo arimasu ka.
+Nghĩa: Có cả từ điển tiếng Thái không?
+
+B: いいえ、ありません。
+Romaji: Iie, arimasen.
+Nghĩa: Không, không có.
+
+A: わかりました。ありがとうございました。
+Romaji: Wakarimashita. Arigatou gozaimashita.
+Nghĩa: Tôi hiểu rồi. Cảm ơn.
+
+A: この図書館に喫茶店がありますか。
+Romaji: Kono toshokan ni kissaten ga arimasu ka.
+Nghĩa: Thư viện này có quán cà phê không?
+
+B: いいえ、ありませんが、地下に飲み物のコーナーがあります。
+Romaji: Iie, arimasen ga, chika ni nomimono no koonaa ga arimasu.
+Nghĩa: Không có, nhưng ở tầng hầm có quầy đồ uống.
+
+A: この図書館にビデオがありますか。
+Romaji: Kono toshokan ni bideo ga arimasu ka.
+Nghĩa: Thư viện này có video không?
+
+B: どんなビデオですか。
+Romaji: Donna bideo desu ka.
+Nghĩa: Video loại nào?
+
+A: イタリアの美術館のビデオです。
+Romaji: Itaria no bijutsukan no bideo desu.
+Nghĩa: Video về bảo tàng mỹ thuật của Ý.
+
+B: 2階にビデオとCDの部屋がありますから、そこでお願いします。
+Romaji: Ni-kai ni bideo to CD no heya ga arimasu kara, soko de onegaishimasu.
+Nghĩa: Vì tầng 2 có phòng video và CD, xin hãy đến đó.
+
+A: わかりました。
+Romaji: Wakarimashita.
+Nghĩa: Tôi hiểu rồi.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="1" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -321,60 +390,6 @@
                   <p class="explanation" hidden>Người trả lời nói 「2階にビデオとCDの部屋があります」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: すみません。
-Romaji: Sumimasen.
-Nghĩa: Xin lỗi.
-
-A: この図書館に韓国語の辞書がありますか。
-Romaji: Kono toshokan ni kankoku-go no jisho ga arimasu ka.
-Nghĩa: Thư viện này có từ điển tiếng Hàn không?
-
-B: ありますよ。3階です。
-Romaji: Arimasu yo. San-kai desu.
-Nghĩa: Có đấy. Ở tầng 3.
-
-A: タイ語の辞書もありますか。
-Romaji: Tai-go no jisho mo arimasu ka.
-Nghĩa: Có cả từ điển tiếng Thái không?
-
-B: いいえ、ありません。
-Romaji: Iie, arimasen.
-Nghĩa: Không, không có.
-
-A: わかりました。ありがとうございました。
-Romaji: Wakarimashita. Arigatou gozaimashita.
-Nghĩa: Tôi hiểu rồi. Cảm ơn.
-
-A: この図書館に喫茶店がありますか。
-Romaji: Kono toshokan ni kissaten ga arimasu ka.
-Nghĩa: Thư viện này có quán cà phê không?
-
-B: いいえ、ありませんが、地下に飲み物のコーナーがあります。
-Romaji: Iie, arimasen ga, chika ni nomimono no koonaa ga arimasu.
-Nghĩa: Không có, nhưng ở tầng hầm có quầy đồ uống.
-
-A: この図書館にビデオがありますか。
-Romaji: Kono toshokan ni bideo ga arimasu ka.
-Nghĩa: Thư viện này có video không?
-
-B: どんなビデオですか。
-Romaji: Donna bideo desu ka.
-Nghĩa: Video loại nào?
-
-A: イタリアの美術館のビデオです。
-Romaji: Itaria no bijutsukan no bideo desu.
-Nghĩa: Video về bảo tàng mỹ thuật của Ý.
-
-B: 2階にビデオとCDの部屋がありますから、そこでお願いします。
-Romaji: Ni-kai ni bideo to CD no heya ga arimasu kara, soko de onegaishimasu.
-Nghĩa: Vì tầng 2 có phòng video và CD, xin hãy đến đó.
-
-A: わかりました。
-Romaji: Wakarimashita.
-Nghĩa: Tôi hiểu rồi.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-2" data-segment="1">
@@ -384,6 +399,10 @@ Nghĩa: Tôi hiểu rồi.</pre>
                 <p class="time">01:18.000 - 02:45.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 2</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-2">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -391,6 +410,82 @@ Nghĩa: Tôi hiểu rồi.</pre>
                   <audio preload="metadata" src="audio/lesson-10/segment_002.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-2">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 002</p>
+                    <h3>Script - Đoạn 2</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: あそこに猫がいますよ。
+Romaji: Asoko ni neko ga imasu yo.
+Nghĩa: Ở đằng kia có con mèo đấy.
+
+B: どこ。
+Romaji: Doko.
+Nghĩa: Ở đâu?
+
+A: あの魚屋の上。
+Romaji: Ano sakanaya no ue.
+Nghĩa: Trên cửa hàng cá kia.
+
+B: ああ、黒い猫ですね。
+Romaji: Aa, kuroi neko desu ne.
+Nghĩa: À, là con mèo đen nhỉ.
+
+A: あれは何ですか。
+Romaji: Are wa nan desu ka.
+Nghĩa: Cái kia là gì?
+
+B: どこですか。
+Romaji: Doko desu ka.
+Nghĩa: Ở đâu?
+
+A: スーパーと本屋の間に面白い店がありますね。
+Romaji: Suupaa to honya no aida ni omoshiroi mise ga arimasu ne.
+Nghĩa: Giữa siêu thị và hiệu sách có một cửa hàng thú vị nhỉ.
+
+B: あれはカラオケの店ですよ。
+Romaji: Are wa karaoke no mise desu yo.
+Nghĩa: Đó là quán karaoke đấy.
+
+A: 大きい犬、どこですか。
+Romaji: Ookii inu, doko desu ka.
+Nghĩa: Con chó lớn ở đâu?
+
+B: 駅の前にバス乗り場がありますね。
+Romaji: Eki no mae ni basu noriba ga arimasu ne.
+Nghĩa: Trước ga có trạm xe buýt đúng không?
+
+B: 10番のバス乗り場にいますよ。
+Romaji: Juu-ban no basu noriba ni imasu yo.
+Nghĩa: Nó ở trạm xe buýt số 10 đấy.
+
+A: 白い犬ですね。
+Romaji: Shiroi inu desu ne.
+Nghĩa: Là con chó trắng nhỉ.
+
+A: 小さい公園がありますよ。
+Romaji: Chiisai kouen ga arimasu yo.
+Nghĩa: Có một công viên nhỏ đấy.
+
+B: どこですか。
+Romaji: Doko desu ka.
+Nghĩa: Ở đâu?
+
+A: あの山の下です。
+Romaji: Ano yama no shita desu.
+Nghĩa: Ở dưới ngọn núi kia.
+
+B: 桜の木もありますね。
+Romaji: Sakura no ki mo arimasu ne.
+Nghĩa: Cũng có cây hoa anh đào nhỉ.
+
+A: きれいですね。
+Romaji: Kirei desu ne.
+Nghĩa: Đẹp nhỉ.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="5" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -580,76 +675,6 @@ Nghĩa: Tôi hiểu rồi.</pre>
                   <p class="explanation" hidden>Người nói nói 「あの山の下です」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: あそこに猫がいますよ。
-Romaji: Asoko ni neko ga imasu yo.
-Nghĩa: Ở đằng kia có con mèo đấy.
-
-B: どこ。
-Romaji: Doko.
-Nghĩa: Ở đâu?
-
-A: あの魚屋の上。
-Romaji: Ano sakanaya no ue.
-Nghĩa: Trên cửa hàng cá kia.
-
-B: ああ、黒い猫ですね。
-Romaji: Aa, kuroi neko desu ne.
-Nghĩa: À, là con mèo đen nhỉ.
-
-A: あれは何ですか。
-Romaji: Are wa nan desu ka.
-Nghĩa: Cái kia là gì?
-
-B: どこですか。
-Romaji: Doko desu ka.
-Nghĩa: Ở đâu?
-
-A: スーパーと本屋の間に面白い店がありますね。
-Romaji: Suupaa to honya no aida ni omoshiroi mise ga arimasu ne.
-Nghĩa: Giữa siêu thị và hiệu sách có một cửa hàng thú vị nhỉ.
-
-B: あれはカラオケの店ですよ。
-Romaji: Are wa karaoke no mise desu yo.
-Nghĩa: Đó là quán karaoke đấy.
-
-A: 大きい犬、どこですか。
-Romaji: Ookii inu, doko desu ka.
-Nghĩa: Con chó lớn ở đâu?
-
-B: 駅の前にバス乗り場がありますね。
-Romaji: Eki no mae ni basu noriba ga arimasu ne.
-Nghĩa: Trước ga có trạm xe buýt đúng không?
-
-B: 10番のバス乗り場にいますよ。
-Romaji: Juu-ban no basu noriba ni imasu yo.
-Nghĩa: Nó ở trạm xe buýt số 10 đấy.
-
-A: 白い犬ですね。
-Romaji: Shiroi inu desu ne.
-Nghĩa: Là con chó trắng nhỉ.
-
-A: 小さい公園がありますよ。
-Romaji: Chiisai kouen ga arimasu yo.
-Nghĩa: Có một công viên nhỏ đấy.
-
-B: どこですか。
-Romaji: Doko desu ka.
-Nghĩa: Ở đâu?
-
-A: あの山の下です。
-Romaji: Ano yama no shita desu.
-Nghĩa: Ở dưới ngọn núi kia.
-
-B: 桜の木もありますね。
-Romaji: Sakura no ki mo arimasu ne.
-Nghĩa: Cũng có cây hoa anh đào nhỉ.
-
-A: きれいですね。
-Romaji: Kirei desu ne.
-Nghĩa: Đẹp nhỉ.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-3" data-segment="2">
@@ -659,6 +684,10 @@ Nghĩa: Đẹp nhỉ.</pre>
                 <p class="time">02:45.000 - 04:47.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 3</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-3">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -666,6 +695,98 @@ Nghĩa: Đẹp nhỉ.</pre>
                   <audio preload="metadata" src="audio/lesson-10/segment_003.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-3">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 003</p>
+                    <h3>Script - Đoạn 3</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: はい、ミラーです。
+Romaji: Hai, Miraa desu.
+Nghĩa: Vâng, Miller nghe đây.
+
+B: もしもし、木村です。
+Romaji: Moshimoshi, Kimura desu.
+Nghĩa: Alo, tôi là Kimura.
+
+B: 今、郵便局の近くにいますが、郵便局ですか。
+Romaji: Ima, yuubinkyoku no chikaku ni imasu ga, yuubinkyoku desu ka.
+Nghĩa: Bây giờ tôi đang ở gần bưu điện, có phải bưu điện không?
+
+A: ポストの前です。
+Romaji: Posuto no mae desu.
+Nghĩa: Tôi ở trước hòm thư.
+
+B: わかりました。今行きます。すみません。
+Romaji: Wakarimashita. Ima ikimasu. Sumimasen.
+Nghĩa: Tôi hiểu rồi. Bây giờ tôi đến. Xin lỗi.
+
+A: はい、ミラーです。
+Romaji: Hai, Miraa desu.
+Nghĩa: Vâng, Miller nghe đây.
+
+B: もしもし、カリナです。今、駅です。
+Romaji: Moshimoshi, Karina desu. Ima, eki desu.
+Nghĩa: Alo, tôi là Karina. Bây giờ tôi ở ga.
+
+A: 駅のどこにいますか。
+Romaji: Eki no doko ni imasu ka.
+Nghĩa: Bạn đang ở chỗ nào của nhà ga?
+
+B: 前にタクシー乗り場があります。
+Romaji: Mae ni takushii noriba ga arimasu.
+Nghĩa: Phía trước có bãi đón taxi.
+
+A: わかりました。今行きます。
+Romaji: Wakarimashita. Ima ikimasu.
+Nghĩa: Tôi hiểu rồi. Bây giờ tôi đến.
+
+A: はい、ミラーです。
+Romaji: Hai, Miraa desu.
+Nghĩa: Vâng, Miller nghe đây.
+
+B: もしもし、マリアです。
+Romaji: Moshimoshi, Maria desu.
+Nghĩa: Alo, tôi là Maria.
+
+B: 近くまで来ましたが、ちょっとわかりません。前に何がありますか。
+Romaji: Chikaku made kimashita ga, chotto wakarimasen. Mae ni nani ga arimasu ka.
+Nghĩa: Tôi đã đến gần rồi nhưng hơi không rõ. Phía trước có gì?
+
+A: 前に喫茶店があります。その右に大きいスーパーがあります。
+Romaji: Mae ni kissaten ga arimasu. Sono migi ni ookii suupaa ga arimasu.
+Nghĩa: Phía trước có quán cà phê. Bên phải của nó có siêu thị lớn.
+
+B: わかりました。今行きますから。
+Romaji: Wakarimashita. Ima ikimasu kara.
+Nghĩa: Tôi hiểu rồi. Bây giờ tôi sẽ đến.
+
+A: はい、ミラーです。
+Romaji: Hai, Miraa desu.
+Nghĩa: Vâng, Miller nghe đây.
+
+B: もしもし。今、駅の近くです。
+Romaji: Moshimoshi. Ima, eki no chikaku desu.
+Nghĩa: Alo. Bây giờ tôi ở gần ga.
+
+A: どこにいますか。何がありますか。
+Romaji: Doko ni imasu ka. Nani ga arimasu ka.
+Nghĩa: Bạn đang ở đâu? Có gì ở đó?
+
+B: 今、公園の中にいます。
+Romaji: Ima, kouen no naka ni imasu.
+Nghĩa: Bây giờ tôi đang ở trong công viên.
+
+B: 前に花屋があります。その隣は病院です。
+Romaji: Mae ni hanaya ga arimasu. Sono tonari wa byouin desu.
+Nghĩa: Phía trước có cửa hàng hoa. Bên cạnh đó là bệnh viện.
+
+A: わかりました。今行きます。お願いします。
+Romaji: Wakarimashita. Ima ikimasu. Onegaishimasu.
+Nghĩa: Tôi hiểu rồi. Bây giờ tôi đến. Nhờ bạn nhé.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="9" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -855,92 +976,6 @@ Nghĩa: Đẹp nhỉ.</pre>
                   <p class="explanation" hidden>Có câu 「前に花屋があります」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: はい、ミラーです。
-Romaji: Hai, Miraa desu.
-Nghĩa: Vâng, Miller nghe đây.
-
-B: もしもし、木村です。
-Romaji: Moshimoshi, Kimura desu.
-Nghĩa: Alo, tôi là Kimura.
-
-B: 今、郵便局の近くにいますが、郵便局ですか。
-Romaji: Ima, yuubinkyoku no chikaku ni imasu ga, yuubinkyoku desu ka.
-Nghĩa: Bây giờ tôi đang ở gần bưu điện, có phải bưu điện không?
-
-A: ポストの前です。
-Romaji: Posuto no mae desu.
-Nghĩa: Tôi ở trước hòm thư.
-
-B: わかりました。今行きます。すみません。
-Romaji: Wakarimashita. Ima ikimasu. Sumimasen.
-Nghĩa: Tôi hiểu rồi. Bây giờ tôi đến. Xin lỗi.
-
-A: はい、ミラーです。
-Romaji: Hai, Miraa desu.
-Nghĩa: Vâng, Miller nghe đây.
-
-B: もしもし、カリナです。今、駅です。
-Romaji: Moshimoshi, Karina desu. Ima, eki desu.
-Nghĩa: Alo, tôi là Karina. Bây giờ tôi ở ga.
-
-A: 駅のどこにいますか。
-Romaji: Eki no doko ni imasu ka.
-Nghĩa: Bạn đang ở chỗ nào của nhà ga?
-
-B: 前にタクシー乗り場があります。
-Romaji: Mae ni takushii noriba ga arimasu.
-Nghĩa: Phía trước có bãi đón taxi.
-
-A: わかりました。今行きます。
-Romaji: Wakarimashita. Ima ikimasu.
-Nghĩa: Tôi hiểu rồi. Bây giờ tôi đến.
-
-A: はい、ミラーです。
-Romaji: Hai, Miraa desu.
-Nghĩa: Vâng, Miller nghe đây.
-
-B: もしもし、マリアです。
-Romaji: Moshimoshi, Maria desu.
-Nghĩa: Alo, tôi là Maria.
-
-B: 近くまで来ましたが、ちょっとわかりません。前に何がありますか。
-Romaji: Chikaku made kimashita ga, chotto wakarimasen. Mae ni nani ga arimasu ka.
-Nghĩa: Tôi đã đến gần rồi nhưng hơi không rõ. Phía trước có gì?
-
-A: 前に喫茶店があります。その右に大きいスーパーがあります。
-Romaji: Mae ni kissaten ga arimasu. Sono migi ni ookii suupaa ga arimasu.
-Nghĩa: Phía trước có quán cà phê. Bên phải của nó có siêu thị lớn.
-
-B: わかりました。今行きますから。
-Romaji: Wakarimashita. Ima ikimasu kara.
-Nghĩa: Tôi hiểu rồi. Bây giờ tôi sẽ đến.
-
-A: はい、ミラーです。
-Romaji: Hai, Miraa desu.
-Nghĩa: Vâng, Miller nghe đây.
-
-B: もしもし。今、駅の近くです。
-Romaji: Moshimoshi. Ima, eki no chikaku desu.
-Nghĩa: Alo. Bây giờ tôi ở gần ga.
-
-A: どこにいますか。何がありますか。
-Romaji: Doko ni imasu ka. Nani ga arimasu ka.
-Nghĩa: Bạn đang ở đâu? Có gì ở đó?
-
-B: 今、公園の中にいます。
-Romaji: Ima, kouen no naka ni imasu.
-Nghĩa: Bây giờ tôi đang ở trong công viên.
-
-B: 前に花屋があります。その隣は病院です。
-Romaji: Mae ni hanaya ga arimasu. Sono tonari wa byouin desu.
-Nghĩa: Phía trước có cửa hàng hoa. Bên cạnh đó là bệnh viện.
-
-A: わかりました。今行きます。お願いします。
-Romaji: Wakarimashita. Ima ikimasu. Onegaishimasu.
-Nghĩa: Tôi hiểu rồi. Bây giờ tôi đến. Nhờ bạn nhé.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-4" data-segment="3">
@@ -950,6 +985,10 @@ Nghĩa: Tôi hiểu rồi. Bây giờ tôi đến. Nhờ bạn nhé.</pre>
                 <p class="time">04:47.000 - 05:54.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 4</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-4">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -957,6 +996,74 @@ Nghĩa: Tôi hiểu rồi. Bây giờ tôi đến. Nhờ bạn nhé.</pre>
                   <audio preload="metadata" src="audio/lesson-10/segment_004.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-4">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 004</p>
+                    <h3>Script - Đoạn 4</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: すみません。卵はありませんか。
+Romaji: Sumimasen. Tamago wa arimasen ka.
+Nghĩa: Xin lỗi. Có trứng không?
+
+B: はい。そこに野菜のコーナーがありますね。
+Romaji: Hai. Soko ni yasai no koonaa ga arimasu ne.
+Nghĩa: Có. Ở đó có quầy rau đúng không?
+
+B: 卵はその後ろです。
+Romaji: Tamago wa sono ushiro desu.
+Nghĩa: Trứng ở phía sau đó.
+
+A: ビールはどこですか。
+Romaji: Biiru wa doko desu ka.
+Nghĩa: Bia ở đâu?
+
+B: あそこにパンの売り場がありますね。
+Romaji: Asoko ni pan no uriba ga arimasu ne.
+Nghĩa: Ở kia có quầy bán bánh mì đúng không?
+
+B: パンの右にワインのコーナーがあります。ビールはその隣です。
+Romaji: Pan no migi ni wain no koonaa ga arimasu. Biiru wa sono tonari desu.
+Nghĩa: Bên phải quầy bánh mì có quầy rượu vang. Bia ở bên cạnh đó.
+
+A: そうですか。どうも。
+Romaji: Sou desu ka. Doumo.
+Nghĩa: Vậy à. Cảm ơn.
+
+A: チョコレートはどこにありますか。
+Romaji: Chokoreeto wa doko ni arimasu ka.
+Nghĩa: Sô-cô-la ở đâu?
+
+B: 右の奥にスパイスコーナーがあります。
+Romaji: Migi no oku ni supaisu koonaa ga arimasu.
+Nghĩa: Ở sâu bên phải có quầy gia vị.
+
+B: スパイスコーナーの左にコーヒーがあります。
+Romaji: Supaisu koonaa no hidari ni koohii ga arimasu.
+Nghĩa: Bên trái quầy gia vị có cà phê.
+
+B: チョコレートはその前です。
+Romaji: Chokoreeto wa sono mae desu.
+Nghĩa: Sô-cô-la ở phía trước đó.
+
+A: わかりました。ありがとう。
+Romaji: Wakarimashita. Arigatou.
+Nghĩa: Tôi hiểu rồi. Cảm ơn.
+
+A: チリーソースはどこですか。
+Romaji: Chirii soosu wa doko desu ka.
+Nghĩa: Tương ớt ở đâu?
+
+B: 右の奥のスパイスコーナーにあります。
+Romaji: Migi no oku no supaisu koonaa ni arimasu.
+Nghĩa: Ở quầy gia vị sâu bên phải.
+
+B: 上から2段目です。
+Romaji: Ue kara ni-danme desu.
+Nghĩa: Kệ thứ 2 tính từ trên xuống.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="13" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -1146,68 +1253,6 @@ Nghĩa: Tôi hiểu rồi. Bây giờ tôi đến. Nhờ bạn nhé.</pre>
                   <p class="explanation" hidden>Người trả lời nói 「スパイスコーナーにあります。上から2段目です」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: すみません。卵はありませんか。
-Romaji: Sumimasen. Tamago wa arimasen ka.
-Nghĩa: Xin lỗi. Có trứng không?
-
-B: はい。そこに野菜のコーナーがありますね。
-Romaji: Hai. Soko ni yasai no koonaa ga arimasu ne.
-Nghĩa: Có. Ở đó có quầy rau đúng không?
-
-B: 卵はその後ろです。
-Romaji: Tamago wa sono ushiro desu.
-Nghĩa: Trứng ở phía sau đó.
-
-A: ビールはどこですか。
-Romaji: Biiru wa doko desu ka.
-Nghĩa: Bia ở đâu?
-
-B: あそこにパンの売り場がありますね。
-Romaji: Asoko ni pan no uriba ga arimasu ne.
-Nghĩa: Ở kia có quầy bán bánh mì đúng không?
-
-B: パンの右にワインのコーナーがあります。ビールはその隣です。
-Romaji: Pan no migi ni wain no koonaa ga arimasu. Biiru wa sono tonari desu.
-Nghĩa: Bên phải quầy bánh mì có quầy rượu vang. Bia ở bên cạnh đó.
-
-A: そうですか。どうも。
-Romaji: Sou desu ka. Doumo.
-Nghĩa: Vậy à. Cảm ơn.
-
-A: チョコレートはどこにありますか。
-Romaji: Chokoreeto wa doko ni arimasu ka.
-Nghĩa: Sô-cô-la ở đâu?
-
-B: 右の奥にスパイスコーナーがあります。
-Romaji: Migi no oku ni supaisu koonaa ga arimasu.
-Nghĩa: Ở sâu bên phải có quầy gia vị.
-
-B: スパイスコーナーの左にコーヒーがあります。
-Romaji: Supaisu koonaa no hidari ni koohii ga arimasu.
-Nghĩa: Bên trái quầy gia vị có cà phê.
-
-B: チョコレートはその前です。
-Romaji: Chokoreeto wa sono mae desu.
-Nghĩa: Sô-cô-la ở phía trước đó.
-
-A: わかりました。ありがとう。
-Romaji: Wakarimashita. Arigatou.
-Nghĩa: Tôi hiểu rồi. Cảm ơn.
-
-A: チリーソースはどこですか。
-Romaji: Chirii soosu wa doko desu ka.
-Nghĩa: Tương ớt ở đâu?
-
-B: 右の奥のスパイスコーナーにあります。
-Romaji: Migi no oku no supaisu koonaa ni arimasu.
-Nghĩa: Ở quầy gia vị sâu bên phải.
-
-B: 上から2段目です。
-Romaji: Ue kara ni-danme desu.
-Nghĩa: Kệ thứ 2 tính từ trên xuống.</pre>
-              </details>
             </article>
             
   </main>
@@ -1226,6 +1271,10 @@ Nghĩa: Kệ thứ 2 tính từ trên xuống.</pre>
     function updateScore() {
       const correct = Object.values(state).filter(Boolean).length;
       document.getElementById("score").textContent = `${correct}/${totalQuestions}`;
+    }
+    function closeDialog(dialog) {
+      if (typeof dialog.close === "function") dialog.close();
+      else dialog.removeAttribute("open");
     }
     const observer = new IntersectionObserver((entries) => {
       const visible = entries
@@ -1264,6 +1313,26 @@ Nghĩa: Kệ thứ 2 tính từ trên xuống.</pre>
       progress.addEventListener("input", () => {
         if (!audio.duration) return;
         audio.currentTime = (Number(progress.value) / 100) * audio.duration;
+      });
+    });
+    document.querySelectorAll(".script-open").forEach((button) => {
+      button.addEventListener("click", () => {
+        const dialog = document.getElementById(button.dataset.dialog);
+        if (!dialog) return;
+        if (typeof dialog.showModal === "function") dialog.showModal();
+        else dialog.setAttribute("open", "");
+      });
+    });
+    document.querySelectorAll(".script-dialog").forEach((dialog) => {
+      dialog.querySelector(".script-close").addEventListener("click", () => closeDialog(dialog));
+      dialog.addEventListener("click", (event) => {
+        const rect = dialog.getBoundingClientRect();
+        const inDialog =
+          event.clientX >= rect.left &&
+          event.clientX <= rect.right &&
+          event.clientY >= rect.top &&
+          event.clientY <= rect.bottom;
+        if (!inDialog) closeDialog(dialog);
       });
     });
     document.querySelectorAll(".check-answer").forEach((button) => {

@@ -543,6 +543,10 @@ def generate_index_html(
                 <p class="time">{html.escape(format_ms(segment.start_ms))} - {html.escape(format_ms(segment.end_ms or 0))}</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn {index + 1}</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-{index + 1}">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -550,11 +554,17 @@ def generate_index_html(
                   <audio preload="metadata" src="audio/{html.escape(segment.audio_file)}"></audio>
                 </div>
               </div>
-              {''.join(quiz_sections)}
-              <details class="script-panel">
-                <summary>Xem script</summary>
+              <dialog class="script-dialog" id="script-dialog-{index + 1}">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment {index + 1:03d}</p>
+                    <h3>Script - {html.escape(segment.label)}</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
                 <pre class="script-text">{html.escape(segment.script_text)}</pre>
-              </details>
+              </dialog>
+              {''.join(quiz_sections)}
             </article>
             """
         )
@@ -602,6 +612,8 @@ def generate_index_html(
     h2 {{ margin: 0; font-size: 19px; line-height: 1.2; }}
     .time {{ margin: 4px 0 0; color: var(--muted); font-size: 12px; font-weight: 800; }}
     .audio-shell {{ min-width: 0; max-width: 100%; overflow: hidden; margin: 8px 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; padding: 6px; }}
+    .audio-topline {{ min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; color: var(--muted); font-size: 12px; font-weight: 900; }}
+    .script-open {{ flex: 0 0 auto; min-height: 32px; border-color: rgba(15,118,110,.25); background: #fff; color: var(--primary); padding: 5px 9px; font-size: 12px; }}
     .audio-player {{ min-width: 0; display: grid; grid-template-columns: 38px 78px minmax(0, 1fr); gap: 8px; align-items: center; }}
     .play-audio {{ width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }}
     .audio-time {{ color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }}
@@ -628,9 +640,12 @@ def generate_index_html(
     .feedback.ok {{ color: var(--ok); }}
     .feedback.bad {{ color: var(--bad); }}
     .explanation {{ margin: 4px 0 0; color: var(--muted); font-size: 13px; }}
-    .script-panel {{ margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }}
-    .script-panel summary {{ min-height: 36px; color: var(--primary); font-weight: 900; cursor: pointer; }}
-    .script-text {{ width: 100%; margin: 4px 0 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }}
+    .script-dialog {{ width: min(640px, calc(100vw - 24px)); max-height: min(78vh, 720px); border: 1px solid var(--line); border-radius: 10px; padding: 12px; background: #fff; color: var(--text); box-shadow: 0 24px 70px rgba(15,23,42,.28); }}
+    .script-dialog::backdrop {{ background: rgba(15,23,42,.45); }}
+    .dialog-head {{ display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 10px; }}
+    .dialog-head h3 {{ margin: 0; font-size: 17px; line-height: 1.25; }}
+    .script-close {{ flex: 0 0 auto; min-height: 34px; padding: 6px 10px; }}
+    .script-text {{ width: 100%; max-height: calc(78vh - 112px); overflow: auto; margin: 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }}
     @media (min-width: 640px) {{
       body {{ font-size: 16px; }}
       .header-inner {{ padding: 12px 16px; }}
@@ -677,6 +692,10 @@ def generate_index_html(
       const correct = Object.values(state).filter(Boolean).length;
       document.getElementById("score").textContent = `${{correct}}/${{totalQuestions}}`;
     }}
+    function closeDialog(dialog) {{
+      if (typeof dialog.close === "function") dialog.close();
+      else dialog.removeAttribute("open");
+    }}
     const observer = new IntersectionObserver((entries) => {{
       const visible = entries
         .filter((entry) => entry.isIntersecting)
@@ -714,6 +733,26 @@ def generate_index_html(
       progress.addEventListener("input", () => {{
         if (!audio.duration) return;
         audio.currentTime = (Number(progress.value) / 100) * audio.duration;
+      }});
+    }});
+    document.querySelectorAll(".script-open").forEach((button) => {{
+      button.addEventListener("click", () => {{
+        const dialog = document.getElementById(button.dataset.dialog);
+        if (!dialog) return;
+        if (typeof dialog.showModal === "function") dialog.showModal();
+        else dialog.setAttribute("open", "");
+      }});
+    }});
+    document.querySelectorAll(".script-dialog").forEach((dialog) => {{
+      dialog.querySelector(".script-close").addEventListener("click", () => closeDialog(dialog));
+      dialog.addEventListener("click", (event) => {{
+        const rect = dialog.getBoundingClientRect();
+        const inDialog =
+          event.clientX >= rect.left &&
+          event.clientX <= rect.right &&
+          event.clientY >= rect.top &&
+          event.clientY <= rect.bottom;
+        if (!inDialog) closeDialog(dialog);
       }});
     }});
     document.querySelectorAll(".check-answer").forEach((button) => {{

@@ -40,6 +40,8 @@
     h2 { margin: 0; font-size: 19px; line-height: 1.2; }
     .time { margin: 4px 0 0; color: var(--muted); font-size: 12px; font-weight: 800; }
     .audio-shell { min-width: 0; max-width: 100%; overflow: hidden; margin: 8px 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; padding: 6px; }
+    .audio-topline { min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; color: var(--muted); font-size: 12px; font-weight: 900; }
+    .script-open { flex: 0 0 auto; min-height: 32px; border-color: rgba(15,118,110,.25); background: #fff; color: var(--primary); padding: 5px 9px; font-size: 12px; }
     .audio-player { min-width: 0; display: grid; grid-template-columns: 38px 78px minmax(0, 1fr); gap: 8px; align-items: center; }
     .play-audio { width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }
     .audio-time { color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }
@@ -66,9 +68,12 @@
     .feedback.ok { color: var(--ok); }
     .feedback.bad { color: var(--bad); }
     .explanation { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
-    .script-panel { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
-    .script-panel summary { min-height: 36px; color: var(--primary); font-weight: 900; cursor: pointer; }
-    .script-text { width: 100%; margin: 4px 0 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+    .script-dialog { width: min(640px, calc(100vw - 24px)); max-height: min(78vh, 720px); border: 1px solid var(--line); border-radius: 10px; padding: 12px; background: #fff; color: var(--text); box-shadow: 0 24px 70px rgba(15,23,42,.28); }
+    .script-dialog::backdrop { background: rgba(15,23,42,.45); }
+    .dialog-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 10px; }
+    .dialog-head h3 { margin: 0; font-size: 17px; line-height: 1.25; }
+    .script-close { flex: 0 0 auto; min-height: 34px; padding: 6px 10px; }
+    .script-text { width: 100%; max-height: calc(78vh - 112px); overflow: auto; margin: 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
     @media (min-width: 640px) {
       body { font-size: 16px; }
       .header-inner { padding: 12px 16px; }
@@ -125,6 +130,10 @@
                 <p class="time">00:18.000 - 01:29.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 1</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-1">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -132,6 +141,78 @@
                   <audio preload="metadata" src="audio/lesson-06/segment_001.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-1">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 001</p>
+                    <h3>Script - Đoạn 1</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: キムさん、毎朝何時に起きますか。
+Romaji: Kimu-san, maiasa nanji ni okimasu ka.
+Nghĩa: Bạn Kim mỗi sáng thức dậy lúc mấy giờ?
+
+B: 7時に起きます。
+Romaji: Shichiji ni okimasu.
+Nghĩa: Tôi thức dậy lúc 7 giờ.
+
+A: 朝は何を食べますか。
+Romaji: Asa wa nani o tabemasu ka.
+Nghĩa: Buổi sáng bạn ăn gì?
+
+B: いつもパンを食べます。牛乳を飲みます。
+Romaji: Itsumo pan o tabemasu. Gyuunyuu o nomimasu.
+Nghĩa: Tôi luôn ăn bánh mì. Tôi uống sữa.
+
+A: 学校は何時からですか。
+Romaji: Gakkou wa nanji kara desu ka.
+Nghĩa: Trường học bắt đầu từ mấy giờ?
+
+B: 9時からです。
+Romaji: Kuji kara desu.
+Nghĩa: Từ 9 giờ.
+
+A: 何を勉強しますか。
+Romaji: Nani o benkyou shimasu ka.
+Nghĩa: Bạn học gì?
+
+B: 午前は日本語を勉強します。午後、コンピューターの勉強をします。
+Romaji: Gozen wa nihongo o benkyou shimasu. Gogo, konpyuutaa no benkyou o shimasu.
+Nghĩa: Buổi sáng tôi học tiếng Nhật. Buổi chiều tôi học máy tính.
+
+A: 何時まで勉強しますか。
+Romaji: Nanji made benkyou shimasu ka.
+Nghĩa: Bạn học đến mấy giờ?
+
+B: 4時まで勉強します。それからスーパーへ行きます。
+Romaji: Yoji made benkyou shimasu. Sore kara suupaa e ikimasu.
+Nghĩa: Tôi học đến 4 giờ. Sau đó đi siêu thị.
+
+A: 何を買いますか。
+Romaji: Nani o kaimasu ka.
+Nghĩa: Bạn mua gì?
+
+B: 野菜と果物を買います。
+Romaji: Yasai to kudamono o kaimasu.
+Nghĩa: Tôi mua rau và trái cây.
+
+A: 夜は何をしますか。
+Romaji: Yoru wa nani o shimasu ka.
+Nghĩa: Buổi tối bạn làm gì?
+
+B: 宿題をします。それからテレビを見ます。
+Romaji: Shukudai o shimasu. Sore kara terebi o mimasu.
+Nghĩa: Tôi làm bài tập. Sau đó xem tivi.
+
+A: それから何をしますか。
+Romaji: Sore kara nani o shimasu ka.
+Nghĩa: Sau đó bạn làm gì?
+
+B: 何もしません。寝ます。
+Romaji: Nani mo shimasen. Nemasu.
+Nghĩa: Tôi không làm gì cả. Tôi ngủ.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="1" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -321,72 +402,6 @@
                   <p class="explanation" hidden>Kim nói 「野菜と果物を買います」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: キムさん、毎朝何時に起きますか。
-Romaji: Kimu-san, maiasa nanji ni okimasu ka.
-Nghĩa: Bạn Kim mỗi sáng thức dậy lúc mấy giờ?
-
-B: 7時に起きます。
-Romaji: Shichiji ni okimasu.
-Nghĩa: Tôi thức dậy lúc 7 giờ.
-
-A: 朝は何を食べますか。
-Romaji: Asa wa nani o tabemasu ka.
-Nghĩa: Buổi sáng bạn ăn gì?
-
-B: いつもパンを食べます。牛乳を飲みます。
-Romaji: Itsumo pan o tabemasu. Gyuunyuu o nomimasu.
-Nghĩa: Tôi luôn ăn bánh mì. Tôi uống sữa.
-
-A: 学校は何時からですか。
-Romaji: Gakkou wa nanji kara desu ka.
-Nghĩa: Trường học bắt đầu từ mấy giờ?
-
-B: 9時からです。
-Romaji: Kuji kara desu.
-Nghĩa: Từ 9 giờ.
-
-A: 何を勉強しますか。
-Romaji: Nani o benkyou shimasu ka.
-Nghĩa: Bạn học gì?
-
-B: 午前は日本語を勉強します。午後、コンピューターの勉強をします。
-Romaji: Gozen wa nihongo o benkyou shimasu. Gogo, konpyuutaa no benkyou o shimasu.
-Nghĩa: Buổi sáng tôi học tiếng Nhật. Buổi chiều tôi học máy tính.
-
-A: 何時まで勉強しますか。
-Romaji: Nanji made benkyou shimasu ka.
-Nghĩa: Bạn học đến mấy giờ?
-
-B: 4時まで勉強します。それからスーパーへ行きます。
-Romaji: Yoji made benkyou shimasu. Sore kara suupaa e ikimasu.
-Nghĩa: Tôi học đến 4 giờ. Sau đó đi siêu thị.
-
-A: 何を買いますか。
-Romaji: Nani o kaimasu ka.
-Nghĩa: Bạn mua gì?
-
-B: 野菜と果物を買います。
-Romaji: Yasai to kudamono o kaimasu.
-Nghĩa: Tôi mua rau và trái cây.
-
-A: 夜は何をしますか。
-Romaji: Yoru wa nani o shimasu ka.
-Nghĩa: Buổi tối bạn làm gì?
-
-B: 宿題をします。それからテレビを見ます。
-Romaji: Shukudai o shimasu. Sore kara terebi o mimasu.
-Nghĩa: Tôi làm bài tập. Sau đó xem tivi.
-
-A: それから何をしますか。
-Romaji: Sore kara nani o shimasu ka.
-Nghĩa: Sau đó bạn làm gì?
-
-B: 何もしません。寝ます。
-Romaji: Nani mo shimasen. Nemasu.
-Nghĩa: Tôi không làm gì cả. Tôi ngủ.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-2" data-segment="1">
@@ -396,6 +411,10 @@ Nghĩa: Tôi không làm gì cả. Tôi ngủ.</pre>
                 <p class="time">01:29.000 - 02:57.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 2</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-2">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -403,6 +422,78 @@ Nghĩa: Tôi không làm gì cả. Tôi ngủ.</pre>
                   <audio preload="metadata" src="audio/lesson-06/segment_002.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-2">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 002</p>
+                    <h3>Script - Đoạn 2</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: カリナさん、コーヒーをどうぞ。
+Romaji: Karina-san, koohii o douzo.
+Nghĩa: Bạn Karina, mời uống cà phê.
+
+B: ありがとうございます。
+Romaji: Arigatou gozaimasu.
+Nghĩa: Cảm ơn.
+
+A: ブラジルのコーヒーです。ミゲルさんはいつもどこでコーヒーを買いますか。
+Romaji: Burajiru no koohii desu. Migeru-san wa itsumo doko de koohii o kaimasu ka.
+Nghĩa: Đây là cà phê Brazil. Bạn Miguel thường mua cà phê ở đâu?
+
+C: デパートで買います。
+Romaji: Depaato de kaimasu.
+Nghĩa: Tôi mua ở trung tâm thương mại.
+
+A: ミゲルさん、こんにちは。どちらへ。
+Romaji: Migeru-san, konnichiwa. Dochira e.
+Nghĩa: Chào bạn Miguel. Bạn đi đâu vậy?
+
+C: カリナさん、今からサッカーをします。
+Romaji: Karina-san, ima kara sakkaa o shimasu.
+Nghĩa: Bạn Karina, bây giờ tôi sẽ chơi bóng đá.
+
+A: サッカー、どこでしますか。
+Romaji: Sakkaa, doko de shimasu ka.
+Nghĩa: Bạn chơi bóng đá ở đâu?
+
+C: 学校でします。
+Romaji: Gakkou de shimasu.
+Nghĩa: Tôi chơi ở trường.
+
+A: カリナさん、帰りますか。
+Romaji: Karina-san, kaerimasu ka.
+Nghĩa: Bạn Karina về à?
+
+B: いいえ。レポートを書きます。
+Romaji: Iie. Repooto o kakimasu.
+Nghĩa: Không. Tôi sẽ viết báo cáo.
+
+A: 私も書きます。どこで書きますか。
+Romaji: Watashi mo kakimasu. Doko de kakimasu ka.
+Nghĩa: Tôi cũng viết. Bạn viết ở đâu?
+
+B: 図書館で書きます。
+Romaji: Toshokan de kakimasu.
+Nghĩa: Tôi viết ở thư viện.
+
+A: ミゲルさん、日曜日はどこへ行きますか。
+Romaji: Migeru-san, nichiyoubi wa doko e ikimasu ka.
+Nghĩa: Bạn Miguel, Chủ nhật bạn đi đâu?
+
+C: どこも行きません。
+Romaji: Dokomo ikimasen.
+Nghĩa: Tôi không đi đâu cả.
+
+A: じゃ、何をしますか。
+Romaji: Ja, nani o shimasu ka.
+Nghĩa: Vậy bạn làm gì?
+
+C: 家で映画のビデオを見ます。
+Romaji: Ie de eiga no bideo o mimasu.
+Nghĩa: Tôi xem video phim ở nhà.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="5" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -592,72 +683,6 @@ Nghĩa: Tôi không làm gì cả. Tôi ngủ.</pre>
                   <p class="explanation" hidden>Miguel nói 「家で映画のビデオを見ます」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: カリナさん、コーヒーをどうぞ。
-Romaji: Karina-san, koohii o douzo.
-Nghĩa: Bạn Karina, mời uống cà phê.
-
-B: ありがとうございます。
-Romaji: Arigatou gozaimasu.
-Nghĩa: Cảm ơn.
-
-A: ブラジルのコーヒーです。ミゲルさんはいつもどこでコーヒーを買いますか。
-Romaji: Burajiru no koohii desu. Migeru-san wa itsumo doko de koohii o kaimasu ka.
-Nghĩa: Đây là cà phê Brazil. Bạn Miguel thường mua cà phê ở đâu?
-
-C: デパートで買います。
-Romaji: Depaato de kaimasu.
-Nghĩa: Tôi mua ở trung tâm thương mại.
-
-A: ミゲルさん、こんにちは。どちらへ。
-Romaji: Migeru-san, konnichiwa. Dochira e.
-Nghĩa: Chào bạn Miguel. Bạn đi đâu vậy?
-
-C: カリナさん、今からサッカーをします。
-Romaji: Karina-san, ima kara sakkaa o shimasu.
-Nghĩa: Bạn Karina, bây giờ tôi sẽ chơi bóng đá.
-
-A: サッカー、どこでしますか。
-Romaji: Sakkaa, doko de shimasu ka.
-Nghĩa: Bạn chơi bóng đá ở đâu?
-
-C: 学校でします。
-Romaji: Gakkou de shimasu.
-Nghĩa: Tôi chơi ở trường.
-
-A: カリナさん、帰りますか。
-Romaji: Karina-san, kaerimasu ka.
-Nghĩa: Bạn Karina về à?
-
-B: いいえ。レポートを書きます。
-Romaji: Iie. Repooto o kakimasu.
-Nghĩa: Không. Tôi sẽ viết báo cáo.
-
-A: 私も書きます。どこで書きますか。
-Romaji: Watashi mo kakimasu. Doko de kakimasu ka.
-Nghĩa: Tôi cũng viết. Bạn viết ở đâu?
-
-B: 図書館で書きます。
-Romaji: Toshokan de kakimasu.
-Nghĩa: Tôi viết ở thư viện.
-
-A: ミゲルさん、日曜日はどこへ行きますか。
-Romaji: Migeru-san, nichiyoubi wa doko e ikimasu ka.
-Nghĩa: Bạn Miguel, Chủ nhật bạn đi đâu?
-
-C: どこも行きません。
-Romaji: Dokomo ikimasen.
-Nghĩa: Tôi không đi đâu cả.
-
-A: じゃ、何をしますか。
-Romaji: Ja, nani o shimasu ka.
-Nghĩa: Vậy bạn làm gì?
-
-C: 家で映画のビデオを見ます。
-Romaji: Ie de eiga no bideo o mimasu.
-Nghĩa: Tôi xem video phim ở nhà.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-3" data-segment="2">
@@ -667,6 +692,10 @@ Nghĩa: Tôi xem video phim ở nhà.</pre>
                 <p class="time">02:57.000 - 04:21.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 3</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-3">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -674,6 +703,74 @@ Nghĩa: Tôi xem video phim ở nhà.</pre>
                   <audio preload="metadata" src="audio/lesson-06/segment_003.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-3">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 003</p>
+                    <h3>Script - Đoạn 3</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: 佐藤さん、この写真、どこですか。
+Romaji: Satou-san, kono shashin, doko desu ka.
+Nghĩa: Bạn Sato, bức ảnh này ở đâu vậy?
+
+B: 北京です。
+Romaji: Pekin desu.
+Nghĩa: Ở Bắc Kinh.
+
+A: 中国ですか。
+Romaji: Chuugoku desu ka.
+Nghĩa: Ở Trung Quốc à?
+
+B: はい。このバスで万里の長城へ行きました。
+Romaji: Hai. Kono basu de Banri no Choujou e ikimashita.
+Nghĩa: Vâng. Tôi đã đi Vạn Lý Trường Thành bằng xe buýt này.
+
+A: これはどこですか。
+Romaji: Kore wa doko desu ka.
+Nghĩa: Đây là ở đâu?
+
+B: イギリスです。ロンドンの学校です。
+Romaji: Igirisu desu. Rondon no gakkou desu.
+Nghĩa: Ở Anh. Là trường học ở London.
+
+A: 何を勉強しましたか。
+Romaji: Nani o benkyou shimashita ka.
+Nghĩa: Bạn đã học gì?
+
+B: 英語を勉強しました。
+Romaji: Eigo o benkyou shimashita.
+Nghĩa: Tôi đã học tiếng Anh.
+
+A: ここはどこですか。フランスですか。
+Romaji: Koko wa doko desu ka. Furansu desu ka.
+Nghĩa: Đây là đâu? Pháp à?
+
+B: いいえ、アメリカです。ニューヨークへ来ました。
+Romaji: Iie, Amerika desu. Nyuu Yooku e kimashita.
+Nghĩa: Không, là Mỹ. Tôi đã đến New York.
+
+B: この店でネクタイを買いました。
+Romaji: Kono mise de nekutai o kaimashita.
+Nghĩa: Tôi đã mua cà vạt ở cửa hàng này.
+
+A: この写真は、どこへ行きましたか。
+Romaji: Kono shashin wa, doko e ikimashita ka.
+Nghĩa: Bức ảnh này là bạn đã đi đâu?
+
+B: メキシコの美術館です。ここで彼に会いました。
+Romaji: Mekishiko no bijutsukan desu. Koko de kare ni aimashita.
+Nghĩa: Đây là bảo tàng mỹ thuật ở Mexico. Tôi đã gặp anh ấy ở đây.
+
+A: この人ですか。
+Romaji: Kono hito desu ka.
+Nghĩa: Người này à?
+
+B: そうです。
+Romaji: Sou desu.
+Nghĩa: Đúng vậy.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="9" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -863,68 +960,6 @@ Nghĩa: Tôi xem video phim ở nhà.</pre>
                   <p class="explanation" hidden>Sato nói 「ここで彼に会いました」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: 佐藤さん、この写真、どこですか。
-Romaji: Satou-san, kono shashin, doko desu ka.
-Nghĩa: Bạn Sato, bức ảnh này ở đâu vậy?
-
-B: 北京です。
-Romaji: Pekin desu.
-Nghĩa: Ở Bắc Kinh.
-
-A: 中国ですか。
-Romaji: Chuugoku desu ka.
-Nghĩa: Ở Trung Quốc à?
-
-B: はい。このバスで万里の長城へ行きました。
-Romaji: Hai. Kono basu de Banri no Choujou e ikimashita.
-Nghĩa: Vâng. Tôi đã đi Vạn Lý Trường Thành bằng xe buýt này.
-
-A: これはどこですか。
-Romaji: Kore wa doko desu ka.
-Nghĩa: Đây là ở đâu?
-
-B: イギリスです。ロンドンの学校です。
-Romaji: Igirisu desu. Rondon no gakkou desu.
-Nghĩa: Ở Anh. Là trường học ở London.
-
-A: 何を勉強しましたか。
-Romaji: Nani o benkyou shimashita ka.
-Nghĩa: Bạn đã học gì?
-
-B: 英語を勉強しました。
-Romaji: Eigo o benkyou shimashita.
-Nghĩa: Tôi đã học tiếng Anh.
-
-A: ここはどこですか。フランスですか。
-Romaji: Koko wa doko desu ka. Furansu desu ka.
-Nghĩa: Đây là đâu? Pháp à?
-
-B: いいえ、アメリカです。ニューヨークへ来ました。
-Romaji: Iie, Amerika desu. Nyuu Yooku e kimashita.
-Nghĩa: Không, là Mỹ. Tôi đã đến New York.
-
-B: この店でネクタイを買いました。
-Romaji: Kono mise de nekutai o kaimashita.
-Nghĩa: Tôi đã mua cà vạt ở cửa hàng này.
-
-A: この写真は、どこへ行きましたか。
-Romaji: Kono shashin wa, doko e ikimashita ka.
-Nghĩa: Bức ảnh này là bạn đã đi đâu?
-
-B: メキシコの美術館です。ここで彼に会いました。
-Romaji: Mekishiko no bijutsukan desu. Koko de kare ni aimashita.
-Nghĩa: Đây là bảo tàng mỹ thuật ở Mexico. Tôi đã gặp anh ấy ở đây.
-
-A: この人ですか。
-Romaji: Kono hito desu ka.
-Nghĩa: Người này à?
-
-B: そうです。
-Romaji: Sou desu.
-Nghĩa: Đúng vậy.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-4" data-segment="3">
@@ -934,6 +969,10 @@ Nghĩa: Đúng vậy.</pre>
                 <p class="time">04:21.000 - 05:29.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 4</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-4">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -941,6 +980,74 @@ Nghĩa: Đúng vậy.</pre>
                   <audio preload="metadata" src="audio/lesson-06/segment_004.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-4">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 004</p>
+                    <h3>Script - Đoạn 4</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: カリナさん、昼ごはんを食べませんか。
+Romaji: Karina-san, hiru gohan o tabemasen ka.
+Nghĩa: Bạn Karina, cùng ăn trưa không?
+
+B: どこで食べますか。
+Romaji: Doko de tabemasu ka.
+Nghĩa: Ăn ở đâu?
+
+A: 地下の食堂へ行きませんか。
+Romaji: Chika no shokudou e ikimasen ka.
+Nghĩa: Cùng đi đến nhà ăn tầng hầm nhé?
+
+B: はい、行きましょう。
+Romaji: Hai, ikimashou.
+Nghĩa: Vâng, đi thôi.
+
+A: カリナさん、こんにちは。
+Romaji: Karina-san, konnichiwa.
+Nghĩa: Chào bạn Karina.
+
+B: こんにちは。
+Romaji: Konnichiwa.
+Nghĩa: Xin chào.
+
+A: 今から一緒に大阪城へ行きませんか。お花見をしませんか。
+Romaji: Ima kara issho ni Oosaka-jou e ikimasen ka. Ohanami o shimasen ka.
+Nghĩa: Từ bây giờ cùng đi thành Osaka nhé? Cùng ngắm hoa anh đào nhé?
+
+B: いいですね。行きましょう。
+Romaji: Ii desu ne. Ikimashou.
+Nghĩa: Hay đấy. Đi thôi.
+
+A: カリナさん、映画を見ませんか。
+Romaji: Karina-san, eiga o mimasen ka.
+Nghĩa: Bạn Karina, đi xem phim nhé?
+
+B: すみません。今日は4時に友達に会います。
+Romaji: Sumimasen. Kyou wa yoji ni tomodachi ni aimasu.
+Nghĩa: Xin lỗi. Hôm nay 4 giờ tôi gặp bạn.
+
+A: じゃあ、明日は。
+Romaji: Jaa, ashita wa.
+Nghĩa: Vậy ngày mai thì sao?
+
+B: いいですよ。
+Romaji: Ii desu yo.
+Nghĩa: Được đấy.
+
+A: 私たちは今からビールを飲みます。一緒に行きませんか。
+Romaji: Watashitachi wa ima kara biiru o nomimasu. Issho ni ikimasen ka.
+Nghĩa: Chúng tôi bây giờ đi uống bia. Bạn đi cùng không?
+
+B: 私、今晩は日本語学校へ来ます。
+Romaji: Watashi, konban wa nihongo gakkou e kimasu.
+Nghĩa: Tối nay tôi đến trường tiếng Nhật.
+
+A: 日本語の勉強ですか。じゃ、また明日。
+Romaji: Nihongo no benkyou desu ka. Ja, mata ashita.
+Nghĩa: Học tiếng Nhật à? Vậy hẹn mai gặp lại.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="13" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -1130,68 +1237,6 @@ Nghĩa: Đúng vậy.</pre>
                   <p class="explanation" hidden>Karina nói 「今晩は日本語学校へ来ます」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: カリナさん、昼ごはんを食べませんか。
-Romaji: Karina-san, hiru gohan o tabemasen ka.
-Nghĩa: Bạn Karina, cùng ăn trưa không?
-
-B: どこで食べますか。
-Romaji: Doko de tabemasu ka.
-Nghĩa: Ăn ở đâu?
-
-A: 地下の食堂へ行きませんか。
-Romaji: Chika no shokudou e ikimasen ka.
-Nghĩa: Cùng đi đến nhà ăn tầng hầm nhé?
-
-B: はい、行きましょう。
-Romaji: Hai, ikimashou.
-Nghĩa: Vâng, đi thôi.
-
-A: カリナさん、こんにちは。
-Romaji: Karina-san, konnichiwa.
-Nghĩa: Chào bạn Karina.
-
-B: こんにちは。
-Romaji: Konnichiwa.
-Nghĩa: Xin chào.
-
-A: 今から一緒に大阪城へ行きませんか。お花見をしませんか。
-Romaji: Ima kara issho ni Oosaka-jou e ikimasen ka. Ohanami o shimasen ka.
-Nghĩa: Từ bây giờ cùng đi thành Osaka nhé? Cùng ngắm hoa anh đào nhé?
-
-B: いいですね。行きましょう。
-Romaji: Ii desu ne. Ikimashou.
-Nghĩa: Hay đấy. Đi thôi.
-
-A: カリナさん、映画を見ませんか。
-Romaji: Karina-san, eiga o mimasen ka.
-Nghĩa: Bạn Karina, đi xem phim nhé?
-
-B: すみません。今日は4時に友達に会います。
-Romaji: Sumimasen. Kyou wa yoji ni tomodachi ni aimasu.
-Nghĩa: Xin lỗi. Hôm nay 4 giờ tôi gặp bạn.
-
-A: じゃあ、明日は。
-Romaji: Jaa, ashita wa.
-Nghĩa: Vậy ngày mai thì sao?
-
-B: いいですよ。
-Romaji: Ii desu yo.
-Nghĩa: Được đấy.
-
-A: 私たちは今からビールを飲みます。一緒に行きませんか。
-Romaji: Watashitachi wa ima kara biiru o nomimasu. Issho ni ikimasen ka.
-Nghĩa: Chúng tôi bây giờ đi uống bia. Bạn đi cùng không?
-
-B: 私、今晩は日本語学校へ来ます。
-Romaji: Watashi, konban wa nihongo gakkou e kimasu.
-Nghĩa: Tối nay tôi đến trường tiếng Nhật.
-
-A: 日本語の勉強ですか。じゃ、また明日。
-Romaji: Nihongo no benkyou desu ka. Ja, mata ashita.
-Nghĩa: Học tiếng Nhật à? Vậy hẹn mai gặp lại.</pre>
-              </details>
             </article>
             
   </main>
@@ -1210,6 +1255,10 @@ Nghĩa: Học tiếng Nhật à? Vậy hẹn mai gặp lại.</pre>
     function updateScore() {
       const correct = Object.values(state).filter(Boolean).length;
       document.getElementById("score").textContent = `${correct}/${totalQuestions}`;
+    }
+    function closeDialog(dialog) {
+      if (typeof dialog.close === "function") dialog.close();
+      else dialog.removeAttribute("open");
     }
     const observer = new IntersectionObserver((entries) => {
       const visible = entries
@@ -1248,6 +1297,26 @@ Nghĩa: Học tiếng Nhật à? Vậy hẹn mai gặp lại.</pre>
       progress.addEventListener("input", () => {
         if (!audio.duration) return;
         audio.currentTime = (Number(progress.value) / 100) * audio.duration;
+      });
+    });
+    document.querySelectorAll(".script-open").forEach((button) => {
+      button.addEventListener("click", () => {
+        const dialog = document.getElementById(button.dataset.dialog);
+        if (!dialog) return;
+        if (typeof dialog.showModal === "function") dialog.showModal();
+        else dialog.setAttribute("open", "");
+      });
+    });
+    document.querySelectorAll(".script-dialog").forEach((dialog) => {
+      dialog.querySelector(".script-close").addEventListener("click", () => closeDialog(dialog));
+      dialog.addEventListener("click", (event) => {
+        const rect = dialog.getBoundingClientRect();
+        const inDialog =
+          event.clientX >= rect.left &&
+          event.clientX <= rect.right &&
+          event.clientY >= rect.top &&
+          event.clientY <= rect.bottom;
+        if (!inDialog) closeDialog(dialog);
       });
     });
     document.querySelectorAll(".check-answer").forEach((button) => {

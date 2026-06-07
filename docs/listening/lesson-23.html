@@ -40,6 +40,8 @@
     h2 { margin: 0; font-size: 19px; line-height: 1.2; }
     .time { margin: 4px 0 0; color: var(--muted); font-size: 12px; font-weight: 800; }
     .audio-shell { min-width: 0; max-width: 100%; overflow: hidden; margin: 8px 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; padding: 6px; }
+    .audio-topline { min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; color: var(--muted); font-size: 12px; font-weight: 900; }
+    .script-open { flex: 0 0 auto; min-height: 32px; border-color: rgba(15,118,110,.25); background: #fff; color: var(--primary); padding: 5px 9px; font-size: 12px; }
     .audio-player { min-width: 0; display: grid; grid-template-columns: 38px 78px minmax(0, 1fr); gap: 8px; align-items: center; }
     .play-audio { width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }
     .audio-time { color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }
@@ -66,9 +68,12 @@
     .feedback.ok { color: var(--ok); }
     .feedback.bad { color: var(--bad); }
     .explanation { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
-    .script-panel { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
-    .script-panel summary { min-height: 36px; color: var(--primary); font-weight: 900; cursor: pointer; }
-    .script-text { width: 100%; margin: 4px 0 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+    .script-dialog { width: min(640px, calc(100vw - 24px)); max-height: min(78vh, 720px); border: 1px solid var(--line); border-radius: 10px; padding: 12px; background: #fff; color: var(--text); box-shadow: 0 24px 70px rgba(15,23,42,.28); }
+    .script-dialog::backdrop { background: rgba(15,23,42,.45); }
+    .dialog-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 10px; }
+    .dialog-head h3 { margin: 0; font-size: 17px; line-height: 1.25; }
+    .script-close { flex: 0 0 auto; min-height: 34px; padding: 6px 10px; }
+    .script-text { width: 100%; max-height: calc(78vh - 112px); overflow: auto; margin: 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
     @media (min-width: 640px) {
       body { font-size: 16px; }
       .header-inner { padding: 12px 16px; }
@@ -125,6 +130,10 @@
                 <p class="time">00:11.000 - 01:48.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 1</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-1">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -132,6 +141,58 @@
                   <audio preload="metadata" src="audio/lesson-23/segment_001.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-1">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 001</p>
+                    <h3>Script - Đoạn 1</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: 明日からアメリカ出張だね。
+Romaji: Ashita kara Amerika shucchou da ne.
+Nghĩa: Từ ngày mai đi công tác Mỹ nhỉ.
+
+B: 荷物は、わあ、たくさん薬を持って行くね。
+Romaji: Nimotsu wa, waa, takusan kusuri o motte iku ne.
+Nghĩa: Hành lý này, oa, mang nhiều thuốc quá nhỉ.
+
+A: この赤い薬は疲れた時。この白いのは頭が痛い時。
+Romaji: Kono akai kusuri wa tsukareta toki. Kono shiroi no wa atama ga itai toki.
+Nghĩa: Thuốc đỏ này dùng khi mệt. Cái màu trắng này dùng khi đau đầu.
+
+B: メガネもたくさんあるね。黒いの、小さいの、大きいの。どんな時かけるの。
+Romaji: Megane mo takusan aru ne. Kuroi no, chiisai no, ookii no. Donna toki kakeru no.
+Nghĩa: Kính cũng nhiều nhỉ. Cái đen, cái nhỏ, cái lớn. Dùng khi nào vậy?
+
+A: この黒いメガネは飛行機で寝る時。
+Romaji: Kono kuroi megane wa hikouki de neru toki.
+Nghĩa: Kính đen này dùng khi ngủ trên máy bay.
+
+A: この小さいのはパソコンを使う時。
+Romaji: Kono chiisai no wa pasokon o tsukau toki.
+Nghĩa: Cái nhỏ này dùng khi dùng máy tính.
+
+A: この大きいのは、街を歩く時。素敵でしょう。
+Romaji: Kono ookii no wa, machi o aruku toki. Suteki deshou.
+Nghĩa: Cái lớn này dùng khi đi bộ trong phố. Đẹp đúng không?
+
+B: 帽子も要るでしょう。
+Romaji: Boushi mo iru deshou.
+Nghĩa: Cũng cần mũ đúng không?
+
+A: この小さいのは雨の時。軽いから便利。
+Romaji: Kono chiisai no wa ame no toki. Karui kara benri.
+Nghĩa: Cái nhỏ này dùng khi trời mưa. Vì nhẹ nên tiện.
+
+A: その白いのは大きいね。これはパーティーの時。きれいでしょう。
+Romaji: Sono shiroi no wa ookii ne. Kore wa paatii no toki. Kirei deshou.
+Nghĩa: Cái màu trắng đó lớn nhỉ. Cái này dùng khi đi tiệc. Đẹp đúng không?
+
+A: この青いのは、ニューヨークで野球を見に行くから。
+Romaji: Kono aoi no wa, Nyuu Yooku de yakyuu o mi ni iku kara.
+Nghĩa: Cái màu xanh này vì tôi sẽ đi xem bóng chày ở New York.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="1" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -321,52 +382,6 @@
                   <p class="explanation" hidden>Người nói nói 「雨の時」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: 明日からアメリカ出張だね。
-Romaji: Ashita kara Amerika shucchou da ne.
-Nghĩa: Từ ngày mai đi công tác Mỹ nhỉ.
-
-B: 荷物は、わあ、たくさん薬を持って行くね。
-Romaji: Nimotsu wa, waa, takusan kusuri o motte iku ne.
-Nghĩa: Hành lý này, oa, mang nhiều thuốc quá nhỉ.
-
-A: この赤い薬は疲れた時。この白いのは頭が痛い時。
-Romaji: Kono akai kusuri wa tsukareta toki. Kono shiroi no wa atama ga itai toki.
-Nghĩa: Thuốc đỏ này dùng khi mệt. Cái màu trắng này dùng khi đau đầu.
-
-B: メガネもたくさんあるね。黒いの、小さいの、大きいの。どんな時かけるの。
-Romaji: Megane mo takusan aru ne. Kuroi no, chiisai no, ookii no. Donna toki kakeru no.
-Nghĩa: Kính cũng nhiều nhỉ. Cái đen, cái nhỏ, cái lớn. Dùng khi nào vậy?
-
-A: この黒いメガネは飛行機で寝る時。
-Romaji: Kono kuroi megane wa hikouki de neru toki.
-Nghĩa: Kính đen này dùng khi ngủ trên máy bay.
-
-A: この小さいのはパソコンを使う時。
-Romaji: Kono chiisai no wa pasokon o tsukau toki.
-Nghĩa: Cái nhỏ này dùng khi dùng máy tính.
-
-A: この大きいのは、街を歩く時。素敵でしょう。
-Romaji: Kono ookii no wa, machi o aruku toki. Suteki deshou.
-Nghĩa: Cái lớn này dùng khi đi bộ trong phố. Đẹp đúng không?
-
-B: 帽子も要るでしょう。
-Romaji: Boushi mo iru deshou.
-Nghĩa: Cũng cần mũ đúng không?
-
-A: この小さいのは雨の時。軽いから便利。
-Romaji: Kono chiisai no wa ame no toki. Karui kara benri.
-Nghĩa: Cái nhỏ này dùng khi trời mưa. Vì nhẹ nên tiện.
-
-A: その白いのは大きいね。これはパーティーの時。きれいでしょう。
-Romaji: Sono shiroi no wa ookii ne. Kore wa paatii no toki. Kirei deshou.
-Nghĩa: Cái màu trắng đó lớn nhỉ. Cái này dùng khi đi tiệc. Đẹp đúng không?
-
-A: この青いのは、ニューヨークで野球を見に行くから。
-Romaji: Kono aoi no wa, Nyuu Yooku de yakyuu o mi ni iku kara.
-Nghĩa: Cái màu xanh này vì tôi sẽ đi xem bóng chày ở New York.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-2" data-segment="1">
@@ -376,6 +391,10 @@ Nghĩa: Cái màu xanh này vì tôi sẽ đi xem bóng chày ở New York.</pre
                 <p class="time">01:48.000 - 03:48.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 2</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-2">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -383,6 +402,62 @@ Nghĩa: Cái màu xanh này vì tôi sẽ đi xem bóng chày ở New York.</pre
                   <audio preload="metadata" src="audio/lesson-23/segment_002.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-2">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 002</p>
+                    <h3>Script - Đoạn 2</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: マザーテレサは1910年にヨーロッパの古い町スコピエで生まれました。
+Romaji: Mazaa Teresa wa sen kyuu-hyaku juu-nen ni Yooroppa no furui machi Sukopie de umaremashita.
+Nghĩa: Mẹ Teresa sinh năm 1910 tại Skopje, một thành phố cổ ở châu Âu.
+
+A: 子供の時、両親と一緒によく教会へ行きました。
+Romaji: Kodomo no toki, ryoushin to issho ni yoku kyoukai e ikimashita.
+Nghĩa: Khi còn nhỏ, bà thường đi nhà thờ cùng bố mẹ.
+
+A: テレサは15歳ぐらいの時、教会の人からインドについていろいろ聞きました。
+Romaji: Teresa wa juugo-sai gurai no toki, kyoukai no hito kara Indo ni tsuite iroiro kikimashita.
+Nghĩa: Khoảng 15 tuổi, Teresa nghe nhiều điều về Ấn Độ từ người trong nhà thờ.
+
+A: そしてインドへ行きたいと思いました。
+Romaji: Soshite Indo e ikitai to omoimashita.
+Nghĩa: Và bà nghĩ muốn đi Ấn Độ.
+
+A: インドへ行って、病気の人やお金がない人の役に立ちたいと思いました。
+Romaji: Indo e itte, byouki no hito ya okane ga nai hito no yaku ni tachitai to omoimashita.
+Nghĩa: Bà muốn đến Ấn Độ để giúp người bệnh và người không có tiền.
+
+A: 1928年、18歳の時、インドへ行きました。
+Romaji: Sen kyuu-hyaku nijuu-hachi-nen, juuhassai no toki, Indo e ikimashita.
+Nghĩa: Năm 1928, khi 18 tuổi, bà đi Ấn Độ.
+
+A: 1931年から1948年までインドの学校で教えました。
+Romaji: Sen kyuu-hyaku sanjuu-ichi-nen kara sen kyuu-hyaku yonjuu-hachi-nen made Indo no gakkou de oshiemashita.
+Nghĩa: Từ năm 1931 đến năm 1948, bà dạy học tại trường ở Ấn Độ.
+
+A: 1948年に教師を辞めて、それから病気の人や両親がいない子どもの家を作りました。
+Romaji: Sen kyuu-hyaku yonjuu-hachi-nen ni kyoushi o yamete, sore kara byouki no hito ya ryoushin ga inai kodomo no ie o tsukurimashita.
+Nghĩa: Năm 1948, bà nghỉ dạy, sau đó lập nhà cho người bệnh và trẻ em không có cha mẹ.
+
+A: 1979年12月、69歳の時、テレサはノーベル賞をもらいました。
+Romaji: Sen kyuu-hyaku nanajuu-kyuu-nen juuni-gatsu, rokujuu-kyuu-sai no toki, Teresa wa Nooberu-shou o moraimashita.
+Nghĩa: Tháng 12 năm 1979, khi 69 tuổi, Teresa nhận giải Nobel.
+
+A: マザーテレサは3回日本へ来たことがあります。71歳と72歳と74歳の時です。
+Romaji: Mazaa Teresa wa sankai Nihon e kita koto ga arimasu. Nanajuu-issai to nanajuu-ni-sai to nanajuu-yon-sai no toki desu.
+Nghĩa: Mẹ Teresa từng đến Nhật 3 lần, khi 71, 72 và 74 tuổi.
+
+A: 2回目に日本へ来た時、長崎へ行ってお祈りをしました。
+Romaji: Nikai-me ni Nihon e kita toki, Nagasaki e itte oinori o shimashita.
+Nghĩa: Lần thứ hai đến Nhật, bà đến Nagasaki và cầu nguyện.
+
+A: 1997年に亡くなりました。87歳でした。
+Romaji: Sen kyuu-hyaku kyuujuu-nana-nen ni nakunarimashita. Hachijuu-nana-sai deshita.
+Nghĩa: Bà mất năm 1997, hưởng thọ 87 tuổi.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="5" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -572,56 +647,6 @@ Nghĩa: Cái màu xanh này vì tôi sẽ đi xem bóng chày ở New York.</pre
                   <p class="explanation" hidden>Có câu 「87歳でした」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: マザーテレサは1910年にヨーロッパの古い町スコピエで生まれました。
-Romaji: Mazaa Teresa wa sen kyuu-hyaku juu-nen ni Yooroppa no furui machi Sukopie de umaremashita.
-Nghĩa: Mẹ Teresa sinh năm 1910 tại Skopje, một thành phố cổ ở châu Âu.
-
-A: 子供の時、両親と一緒によく教会へ行きました。
-Romaji: Kodomo no toki, ryoushin to issho ni yoku kyoukai e ikimashita.
-Nghĩa: Khi còn nhỏ, bà thường đi nhà thờ cùng bố mẹ.
-
-A: テレサは15歳ぐらいの時、教会の人からインドについていろいろ聞きました。
-Romaji: Teresa wa juugo-sai gurai no toki, kyoukai no hito kara Indo ni tsuite iroiro kikimashita.
-Nghĩa: Khoảng 15 tuổi, Teresa nghe nhiều điều về Ấn Độ từ người trong nhà thờ.
-
-A: そしてインドへ行きたいと思いました。
-Romaji: Soshite Indo e ikitai to omoimashita.
-Nghĩa: Và bà nghĩ muốn đi Ấn Độ.
-
-A: インドへ行って、病気の人やお金がない人の役に立ちたいと思いました。
-Romaji: Indo e itte, byouki no hito ya okane ga nai hito no yaku ni tachitai to omoimashita.
-Nghĩa: Bà muốn đến Ấn Độ để giúp người bệnh và người không có tiền.
-
-A: 1928年、18歳の時、インドへ行きました。
-Romaji: Sen kyuu-hyaku nijuu-hachi-nen, juuhassai no toki, Indo e ikimashita.
-Nghĩa: Năm 1928, khi 18 tuổi, bà đi Ấn Độ.
-
-A: 1931年から1948年までインドの学校で教えました。
-Romaji: Sen kyuu-hyaku sanjuu-ichi-nen kara sen kyuu-hyaku yonjuu-hachi-nen made Indo no gakkou de oshiemashita.
-Nghĩa: Từ năm 1931 đến năm 1948, bà dạy học tại trường ở Ấn Độ.
-
-A: 1948年に教師を辞めて、それから病気の人や両親がいない子どもの家を作りました。
-Romaji: Sen kyuu-hyaku yonjuu-hachi-nen ni kyoushi o yamete, sore kara byouki no hito ya ryoushin ga inai kodomo no ie o tsukurimashita.
-Nghĩa: Năm 1948, bà nghỉ dạy, sau đó lập nhà cho người bệnh và trẻ em không có cha mẹ.
-
-A: 1979年12月、69歳の時、テレサはノーベル賞をもらいました。
-Romaji: Sen kyuu-hyaku nanajuu-kyuu-nen juuni-gatsu, rokujuu-kyuu-sai no toki, Teresa wa Nooberu-shou o moraimashita.
-Nghĩa: Tháng 12 năm 1979, khi 69 tuổi, Teresa nhận giải Nobel.
-
-A: マザーテレサは3回日本へ来たことがあります。71歳と72歳と74歳の時です。
-Romaji: Mazaa Teresa wa sankai Nihon e kita koto ga arimasu. Nanajuu-issai to nanajuu-ni-sai to nanajuu-yon-sai no toki desu.
-Nghĩa: Mẹ Teresa từng đến Nhật 3 lần, khi 71, 72 và 74 tuổi.
-
-A: 2回目に日本へ来た時、長崎へ行ってお祈りをしました。
-Romaji: Nikai-me ni Nihon e kita toki, Nagasaki e itte oinori o shimashita.
-Nghĩa: Lần thứ hai đến Nhật, bà đến Nagasaki và cầu nguyện.
-
-A: 1997年に亡くなりました。87歳でした。
-Romaji: Sen kyuu-hyaku kyuujuu-nana-nen ni nakunarimashita. Hachijuu-nana-sai deshita.
-Nghĩa: Bà mất năm 1997, hưởng thọ 87 tuổi.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-3" data-segment="2">
@@ -631,6 +656,10 @@ Nghĩa: Bà mất năm 1997, hưởng thọ 87 tuổi.</pre>
                 <p class="time">03:48.000 - 05:56.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 3</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-3">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -638,6 +667,78 @@ Nghĩa: Bà mất năm 1997, hưởng thọ 87 tuổi.</pre>
                   <audio preload="metadata" src="audio/lesson-23/segment_003.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-3">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 003</p>
+                    <h3>Script - Đoạn 3</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: 馬ですね。どうやって乗りますか。
+Romaji: Uma desu ne. Dou yatte norimasu ka.
+Nghĩa: Là con ngựa nhỉ. Cưỡi như thế nào?
+
+B: ここに座って、左の耳を持つと動きます。
+Romaji: Koko ni suwatte, hidari no mimi o motsu to ugokimasu.
+Nghĩa: Ngồi ở đây, nếu cầm tai trái thì nó sẽ di chuyển.
+
+A: 全然動きません。
+Romaji: Zenzen ugokimasen.
+Nghĩa: Nó hoàn toàn không di chuyển.
+
+B: それは右の耳ですよ。左の耳を持ってください。
+Romaji: Sore wa migi no mimi desu yo. Hidari no mimi o motte kudasai.
+Nghĩa: Đó là tai phải. Hãy cầm tai trái.
+
+A: トイレの電気のスイッチはどこですか。
+Romaji: Toire no denki no suicchi wa doko desu ka.
+Nghĩa: Công tắc đèn nhà vệ sinh ở đâu?
+
+B: スイッチはありません。中に入ると明るくなります。
+Romaji: Suicchi wa arimasen. Naka ni hairu to akaruku narimasu.
+Nghĩa: Không có công tắc. Khi vào bên trong thì đèn sẽ sáng.
+
+A: コーヒーを買いたい時、どうしますか。
+Romaji: Koohii o kaitai toki, dou shimasu ka.
+Nghĩa: Khi muốn mua cà phê thì làm thế nào?
+
+B: まず、ここにお金を入れます。
+Romaji: Mazu, koko ni okane o iremasu.
+Nghĩa: Trước tiên, bỏ tiền vào đây.
+
+A: 砂糖を入れますか。甘いのがいいです。ミルクも入れたいです。
+Romaji: Satou o iremasu ka. Amai no ga ii desu. Miruku mo iretai desu.
+Nghĩa: Có cho đường không? Tôi muốn cà phê ngọt. Tôi cũng muốn cho sữa.
+
+B: じゃ、この砂糖とミルクのボタンを押して、それからコーヒーのボタンを押すと、ほら、出ました。
+Romaji: Ja, kono satou to miruku no botan o oshite, sore kara koohii no botan o osu to, hora, demashita.
+Nghĩa: Vậy hãy bấm nút đường và sữa này, rồi bấm nút cà phê, nhìn này, cà phê ra rồi.
+
+A: これ何ですか。
+Romaji: Kore nan desu ka.
+Nghĩa: Đây là gì?
+
+B: 掃除君です。掃除する機械です。
+Romaji: Souji-kun desu. Souji suru kikai desu.
+Nghĩa: Là Souji-kun. Đây là máy dọn dẹp.
+
+A: 使い方は簡単ですか。
+Romaji: Tsukaikata wa kantan desu ka.
+Nghĩa: Cách sử dụng có đơn giản không?
+
+B: はい、とても簡単ですよ。頭にちょっと触ると掃除を始めます。
+Romaji: Hai, totemo kantan desu yo. Atama ni chotto sawaru to souji o hajimemasu.
+Nghĩa: Vâng, rất đơn giản. Khi chạm nhẹ vào đầu thì nó bắt đầu dọn dẹp.
+
+B: もう一回触ると30分働きます。
+Romaji: Mou ikkai sawaru to sanjuppun hatarakimasu.
+Nghĩa: Nếu chạm thêm một lần nữa, nó sẽ làm việc 30 phút.
+
+A: うわ、便利。欲しいな。
+Romaji: Uwa, benri. Hoshii na.
+Nghĩa: Oa, tiện quá. Tôi muốn có một cái.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="9" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -827,72 +928,6 @@ Nghĩa: Bà mất năm 1997, hưởng thọ 87 tuổi.</pre>
                   <p class="explanation" hidden>Có câu 「頭にちょっと触ると掃除を始めます」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: 馬ですね。どうやって乗りますか。
-Romaji: Uma desu ne. Dou yatte norimasu ka.
-Nghĩa: Là con ngựa nhỉ. Cưỡi như thế nào?
-
-B: ここに座って、左の耳を持つと動きます。
-Romaji: Koko ni suwatte, hidari no mimi o motsu to ugokimasu.
-Nghĩa: Ngồi ở đây, nếu cầm tai trái thì nó sẽ di chuyển.
-
-A: 全然動きません。
-Romaji: Zenzen ugokimasen.
-Nghĩa: Nó hoàn toàn không di chuyển.
-
-B: それは右の耳ですよ。左の耳を持ってください。
-Romaji: Sore wa migi no mimi desu yo. Hidari no mimi o motte kudasai.
-Nghĩa: Đó là tai phải. Hãy cầm tai trái.
-
-A: トイレの電気のスイッチはどこですか。
-Romaji: Toire no denki no suicchi wa doko desu ka.
-Nghĩa: Công tắc đèn nhà vệ sinh ở đâu?
-
-B: スイッチはありません。中に入ると明るくなります。
-Romaji: Suicchi wa arimasen. Naka ni hairu to akaruku narimasu.
-Nghĩa: Không có công tắc. Khi vào bên trong thì đèn sẽ sáng.
-
-A: コーヒーを買いたい時、どうしますか。
-Romaji: Koohii o kaitai toki, dou shimasu ka.
-Nghĩa: Khi muốn mua cà phê thì làm thế nào?
-
-B: まず、ここにお金を入れます。
-Romaji: Mazu, koko ni okane o iremasu.
-Nghĩa: Trước tiên, bỏ tiền vào đây.
-
-A: 砂糖を入れますか。甘いのがいいです。ミルクも入れたいです。
-Romaji: Satou o iremasu ka. Amai no ga ii desu. Miruku mo iretai desu.
-Nghĩa: Có cho đường không? Tôi muốn cà phê ngọt. Tôi cũng muốn cho sữa.
-
-B: じゃ、この砂糖とミルクのボタンを押して、それからコーヒーのボタンを押すと、ほら、出ました。
-Romaji: Ja, kono satou to miruku no botan o oshite, sore kara koohii no botan o osu to, hora, demashita.
-Nghĩa: Vậy hãy bấm nút đường và sữa này, rồi bấm nút cà phê, nhìn này, cà phê ra rồi.
-
-A: これ何ですか。
-Romaji: Kore nan desu ka.
-Nghĩa: Đây là gì?
-
-B: 掃除君です。掃除する機械です。
-Romaji: Souji-kun desu. Souji suru kikai desu.
-Nghĩa: Là Souji-kun. Đây là máy dọn dẹp.
-
-A: 使い方は簡単ですか。
-Romaji: Tsukaikata wa kantan desu ka.
-Nghĩa: Cách sử dụng có đơn giản không?
-
-B: はい、とても簡単ですよ。頭にちょっと触ると掃除を始めます。
-Romaji: Hai, totemo kantan desu yo. Atama ni chotto sawaru to souji o hajimemasu.
-Nghĩa: Vâng, rất đơn giản. Khi chạm nhẹ vào đầu thì nó bắt đầu dọn dẹp.
-
-B: もう一回触ると30分働きます。
-Romaji: Mou ikkai sawaru to sanjuppun hatarakimasu.
-Nghĩa: Nếu chạm thêm một lần nữa, nó sẽ làm việc 30 phút.
-
-A: うわ、便利。欲しいな。
-Romaji: Uwa, benri. Hoshii na.
-Nghĩa: Oa, tiện quá. Tôi muốn có một cái.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-4" data-segment="3">
@@ -902,6 +937,10 @@ Nghĩa: Oa, tiện quá. Tôi muốn có một cái.</pre>
                 <p class="time">05:56.000 - 07:13.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 4</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-4">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -909,6 +948,74 @@ Nghĩa: Oa, tiện quá. Tôi muốn có một cái.</pre>
                   <audio preload="metadata" src="audio/lesson-23/segment_004.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-4">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 004</p>
+                    <h3>Script - Đoạn 4</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: すみません。レストランマミーはどこですか。
+Romaji: Sumimasen. Resutoran Mamii wa doko desu ka.
+Nghĩa: Xin lỗi. Nhà hàng Mamy ở đâu?
+
+B: あそこに信号がありますね。
+Romaji: Asoko ni shingou ga arimasu ne.
+Nghĩa: Ở kia có đèn giao thông đúng không?
+
+B: あの信号を右へ曲がって、50メートルぐらい行くと左にありますよ。
+Romaji: Ano shingou o migi e magatte, gojuu meetoru gurai iku to hidari ni arimasu yo.
+Nghĩa: Rẽ phải ở đèn giao thông đó, đi khoảng 50 mét thì nó ở bên trái.
+
+A: どうもありがとうございました。
+Romaji: Doumo arigatou gozaimashita.
+Nghĩa: Xin cảm ơn nhiều.
+
+A: この近くに有名な歯医者がありますね。
+Romaji: Kono chikaku ni yuumei na haisha ga arimasu ne.
+Nghĩa: Gần đây có nha sĩ nổi tiếng đúng không?
+
+B: ああ、寿デンタルね。
+Romaji: Aa, Kotobuki Dentaru ne.
+Nghĩa: À, Kotobuki Dental nhỉ.
+
+B: 寿デンタルはこの道をまっすぐ行って、二つ目の角を左へ曲がってください。
+Romaji: Kotobuki Dentaru wa kono michi o massugu itte, futatsu-me no kado o hidari e magatte kudasai.
+Nghĩa: Đến Kotobuki Dental thì đi thẳng đường này, rẽ trái ở góc thứ hai.
+
+B: 左へ曲がって少し行くと古い橋があります。
+Romaji: Hidari e magatte sukoshi iku to furui hashi ga arimasu.
+Nghĩa: Sau khi rẽ trái và đi một chút sẽ có cây cầu cũ.
+
+B: その橋を渡ると右に小さいスーパーがあります。その前です。
+Romaji: Sono hashi o wataru to migi ni chiisai suupaa ga arimasu. Sono mae desu.
+Nghĩa: Qua cây cầu đó thì bên phải có siêu thị nhỏ. Nó ở trước siêu thị đó.
+
+A: ヤマトー美術館へ行きたいです。行き方を教えてください。
+Romaji: Yamatoo bijutsukan e ikitai desu. Ikikata o oshiete kudasai.
+Nghĩa: Tôi muốn đi Bảo tàng Yamato. Xin hãy chỉ đường.
+
+B: ここから25番のバスに乗って、3つ目で降りてください。
+Romaji: Koko kara nijuu-go-ban no basu ni notte, mittsu-me de orite kudasai.
+Nghĩa: Từ đây lên xe buýt số 25, xuống ở trạm thứ ba.
+
+A: 3つ目です。
+Romaji: Mittsu-me desu ne.
+Nghĩa: Trạm thứ ba nhỉ.
+
+B: バスを降りると前に大きい公園があります。その中に美術館があります。
+Romaji: Basu o oriru to mae ni ookii kouen ga arimasu. Sono naka ni bijutsukan ga arimasu.
+Nghĩa: Khi xuống xe buýt, phía trước có công viên lớn. Bảo tàng ở trong đó.
+
+B: 面白いデザインの建物ですから、すぐわかります。
+Romaji: Omoshiroi dezain no tatemono desu kara, sugu wakarimasu.
+Nghĩa: Vì là tòa nhà có thiết kế thú vị nên bạn sẽ nhận ra ngay.
+
+A: わかりました。
+Romaji: Wakarimashita.
+Nghĩa: Tôi hiểu rồi.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="13" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -1098,68 +1205,6 @@ Nghĩa: Oa, tiện quá. Tôi muốn có một cái.</pre>
                   <p class="explanation" hidden>Người chỉ đường nói 「25番のバスに乗って」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: すみません。レストランマミーはどこですか。
-Romaji: Sumimasen. Resutoran Mamii wa doko desu ka.
-Nghĩa: Xin lỗi. Nhà hàng Mamy ở đâu?
-
-B: あそこに信号がありますね。
-Romaji: Asoko ni shingou ga arimasu ne.
-Nghĩa: Ở kia có đèn giao thông đúng không?
-
-B: あの信号を右へ曲がって、50メートルぐらい行くと左にありますよ。
-Romaji: Ano shingou o migi e magatte, gojuu meetoru gurai iku to hidari ni arimasu yo.
-Nghĩa: Rẽ phải ở đèn giao thông đó, đi khoảng 50 mét thì nó ở bên trái.
-
-A: どうもありがとうございました。
-Romaji: Doumo arigatou gozaimashita.
-Nghĩa: Xin cảm ơn nhiều.
-
-A: この近くに有名な歯医者がありますね。
-Romaji: Kono chikaku ni yuumei na haisha ga arimasu ne.
-Nghĩa: Gần đây có nha sĩ nổi tiếng đúng không?
-
-B: ああ、寿デンタルね。
-Romaji: Aa, Kotobuki Dentaru ne.
-Nghĩa: À, Kotobuki Dental nhỉ.
-
-B: 寿デンタルはこの道をまっすぐ行って、二つ目の角を左へ曲がってください。
-Romaji: Kotobuki Dentaru wa kono michi o massugu itte, futatsu-me no kado o hidari e magatte kudasai.
-Nghĩa: Đến Kotobuki Dental thì đi thẳng đường này, rẽ trái ở góc thứ hai.
-
-B: 左へ曲がって少し行くと古い橋があります。
-Romaji: Hidari e magatte sukoshi iku to furui hashi ga arimasu.
-Nghĩa: Sau khi rẽ trái và đi một chút sẽ có cây cầu cũ.
-
-B: その橋を渡ると右に小さいスーパーがあります。その前です。
-Romaji: Sono hashi o wataru to migi ni chiisai suupaa ga arimasu. Sono mae desu.
-Nghĩa: Qua cây cầu đó thì bên phải có siêu thị nhỏ. Nó ở trước siêu thị đó.
-
-A: ヤマトー美術館へ行きたいです。行き方を教えてください。
-Romaji: Yamatoo bijutsukan e ikitai desu. Ikikata o oshiete kudasai.
-Nghĩa: Tôi muốn đi Bảo tàng Yamato. Xin hãy chỉ đường.
-
-B: ここから25番のバスに乗って、3つ目で降りてください。
-Romaji: Koko kara nijuu-go-ban no basu ni notte, mittsu-me de orite kudasai.
-Nghĩa: Từ đây lên xe buýt số 25, xuống ở trạm thứ ba.
-
-A: 3つ目です。
-Romaji: Mittsu-me desu ne.
-Nghĩa: Trạm thứ ba nhỉ.
-
-B: バスを降りると前に大きい公園があります。その中に美術館があります。
-Romaji: Basu o oriru to mae ni ookii kouen ga arimasu. Sono naka ni bijutsukan ga arimasu.
-Nghĩa: Khi xuống xe buýt, phía trước có công viên lớn. Bảo tàng ở trong đó.
-
-B: 面白いデザインの建物ですから、すぐわかります。
-Romaji: Omoshiroi dezain no tatemono desu kara, sugu wakarimasu.
-Nghĩa: Vì là tòa nhà có thiết kế thú vị nên bạn sẽ nhận ra ngay.
-
-A: わかりました。
-Romaji: Wakarimashita.
-Nghĩa: Tôi hiểu rồi.</pre>
-              </details>
             </article>
             
   </main>
@@ -1178,6 +1223,10 @@ Nghĩa: Tôi hiểu rồi.</pre>
     function updateScore() {
       const correct = Object.values(state).filter(Boolean).length;
       document.getElementById("score").textContent = `${correct}/${totalQuestions}`;
+    }
+    function closeDialog(dialog) {
+      if (typeof dialog.close === "function") dialog.close();
+      else dialog.removeAttribute("open");
     }
     const observer = new IntersectionObserver((entries) => {
       const visible = entries
@@ -1216,6 +1265,26 @@ Nghĩa: Tôi hiểu rồi.</pre>
       progress.addEventListener("input", () => {
         if (!audio.duration) return;
         audio.currentTime = (Number(progress.value) / 100) * audio.duration;
+      });
+    });
+    document.querySelectorAll(".script-open").forEach((button) => {
+      button.addEventListener("click", () => {
+        const dialog = document.getElementById(button.dataset.dialog);
+        if (!dialog) return;
+        if (typeof dialog.showModal === "function") dialog.showModal();
+        else dialog.setAttribute("open", "");
+      });
+    });
+    document.querySelectorAll(".script-dialog").forEach((dialog) => {
+      dialog.querySelector(".script-close").addEventListener("click", () => closeDialog(dialog));
+      dialog.addEventListener("click", (event) => {
+        const rect = dialog.getBoundingClientRect();
+        const inDialog =
+          event.clientX >= rect.left &&
+          event.clientX <= rect.right &&
+          event.clientY >= rect.top &&
+          event.clientY <= rect.bottom;
+        if (!inDialog) closeDialog(dialog);
       });
     });
     document.querySelectorAll(".check-answer").forEach((button) => {

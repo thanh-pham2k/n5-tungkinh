@@ -40,6 +40,8 @@
     h2 { margin: 0; font-size: 19px; line-height: 1.2; }
     .time { margin: 4px 0 0; color: var(--muted); font-size: 12px; font-weight: 800; }
     .audio-shell { min-width: 0; max-width: 100%; overflow: hidden; margin: 8px 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; padding: 6px; }
+    .audio-topline { min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; color: var(--muted); font-size: 12px; font-weight: 900; }
+    .script-open { flex: 0 0 auto; min-height: 32px; border-color: rgba(15,118,110,.25); background: #fff; color: var(--primary); padding: 5px 9px; font-size: 12px; }
     .audio-player { min-width: 0; display: grid; grid-template-columns: 38px 78px minmax(0, 1fr); gap: 8px; align-items: center; }
     .play-audio { width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }
     .audio-time { color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }
@@ -66,9 +68,12 @@
     .feedback.ok { color: var(--ok); }
     .feedback.bad { color: var(--bad); }
     .explanation { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
-    .script-panel { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
-    .script-panel summary { min-height: 36px; color: var(--primary); font-weight: 900; cursor: pointer; }
-    .script-text { width: 100%; margin: 4px 0 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+    .script-dialog { width: min(640px, calc(100vw - 24px)); max-height: min(78vh, 720px); border: 1px solid var(--line); border-radius: 10px; padding: 12px; background: #fff; color: var(--text); box-shadow: 0 24px 70px rgba(15,23,42,.28); }
+    .script-dialog::backdrop { background: rgba(15,23,42,.45); }
+    .dialog-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 10px; }
+    .dialog-head h3 { margin: 0; font-size: 17px; line-height: 1.25; }
+    .script-close { flex: 0 0 auto; min-height: 34px; padding: 6px 10px; }
+    .script-text { width: 100%; max-height: calc(78vh - 112px); overflow: auto; margin: 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
     @media (min-width: 640px) {
       body { font-size: 16px; }
       .header-inner { padding: 12px 16px; }
@@ -130,6 +135,10 @@
                 <p class="time">00:22.000 - 01:43.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 1</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-1">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -137,6 +146,46 @@
                   <audio preload="metadata" src="audio/segment_001.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-1">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 001</p>
+                    <h3>Script - Đoạn 1</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: 皆さん、おはようございます。
+Romaji: Minasan, ohayou gozaimasu.
+Nghĩa: Chào buổi sáng mọi người.
+
+A: 昨日、どこへ行きましたか。ターポンさん。
+Romaji: Kinou, doko e ikimashita ka. Taapon-san.
+Nghĩa: Hôm qua bạn đã đi đâu? Bạn Taapon.
+
+B: 図書館へ行きました。大阪の図書館です。
+Romaji: Toshokan e ikimashita. Oosaka no toshokan desu.
+Nghĩa: Tôi đã đi thư viện. Là thư viện ở Osaka.
+
+A: エドさんは美術館へ行きました。京都の美術館です。
+Romaji: Edo-san wa bijutsukan e ikimashita. Kyouto no bijutsukan desu.
+Nghĩa: Bạn Ed đã đi bảo tàng mỹ thuật. Là bảo tàng mỹ thuật ở Kyoto.
+
+A: リーさんはどこへ行きましたか。
+Romaji: Rii-san wa doko e ikimashita ka.
+Nghĩa: Bạn Lee đã đi đâu?
+
+C: どこも行きませんでした。勉強しました。
+Romaji: Dokomo ikimasen deshita. Benkyou shimashita.
+Nghĩa: Tôi không đi đâu cả. Tôi đã học bài.
+
+A: 先生はどこへ行きましたか。
+Romaji: Sensei wa doko e ikimashita ka.
+Nghĩa: Thầy/cô đã đi đâu?
+
+D: 私は奈良の病院へ行きました。友達の病院です。友達は医者です。
+Romaji: Watashi wa Nara no byouin e ikimashita. Tomodachi no byouin desu. Tomodachi wa isha desu.
+Nghĩa: Tôi đã đi bệnh viện ở Nara. Đó là bệnh viện của bạn tôi. Bạn tôi là bác sĩ.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="1" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -279,40 +328,6 @@
                   <p class="explanation" hidden>Lee nói 「どこも行きませんでした」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: 皆さん、おはようございます。
-Romaji: Minasan, ohayou gozaimasu.
-Nghĩa: Chào buổi sáng mọi người.
-
-A: 昨日、どこへ行きましたか。ターポンさん。
-Romaji: Kinou, doko e ikimashita ka. Taapon-san.
-Nghĩa: Hôm qua bạn đã đi đâu? Bạn Taapon.
-
-B: 図書館へ行きました。大阪の図書館です。
-Romaji: Toshokan e ikimashita. Oosaka no toshokan desu.
-Nghĩa: Tôi đã đi thư viện. Là thư viện ở Osaka.
-
-A: エドさんは美術館へ行きました。京都の美術館です。
-Romaji: Edo-san wa bijutsukan e ikimashita. Kyouto no bijutsukan desu.
-Nghĩa: Bạn Ed đã đi bảo tàng mỹ thuật. Là bảo tàng mỹ thuật ở Kyoto.
-
-A: リーさんはどこへ行きましたか。
-Romaji: Rii-san wa doko e ikimashita ka.
-Nghĩa: Bạn Lee đã đi đâu?
-
-C: どこも行きませんでした。勉強しました。
-Romaji: Dokomo ikimasen deshita. Benkyou shimashita.
-Nghĩa: Tôi không đi đâu cả. Tôi đã học bài.
-
-A: 先生はどこへ行きましたか。
-Romaji: Sensei wa doko e ikimashita ka.
-Nghĩa: Thầy/cô đã đi đâu?
-
-D: 私は奈良の病院へ行きました。友達の病院です。友達は医者です。
-Romaji: Watashi wa Nara no byouin e ikimashita. Tomodachi no byouin desu. Tomodachi wa isha desu.
-Nghĩa: Tôi đã đi bệnh viện ở Nara. Đó là bệnh viện của bạn tôi. Bạn tôi là bác sĩ.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-2" data-segment="1">
@@ -322,6 +337,10 @@ Nghĩa: Tôi đã đi bệnh viện ở Nara. Đó là bệnh viện của bạn
                 <p class="time">01:43.000 - 02:56.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 2</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-2">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -329,6 +348,62 @@ Nghĩa: Tôi đã đi bệnh viện ở Nara. Đó là bệnh viện của bạn
                   <audio preload="metadata" src="audio/segment_002.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-2">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 002</p>
+                    <h3>Script - Đoạn 2</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: 明日から広島と松山へ行きます。
+Romaji: Ashita kara Hiroshima to Matsuyama e ikimasu.
+Nghĩa: Từ ngày mai chúng ta sẽ đi Hiroshima và Matsuyama.
+
+A: 朝、学校から地下鉄の駅まで歩いて行きます。9時の地下鉄で新大阪まで行きます。
+Romaji: Asa, gakkou kara chikatetsu no eki made aruite ikimasu. Kuji no chikatetsu de Shin-Oosaka made ikimasu.
+Nghĩa: Buổi sáng, đi bộ từ trường đến ga tàu điện ngầm. Đi tàu điện ngầm lúc 9 giờ đến Shin-Osaka.
+
+B: 大阪から新幹線で行きますか。
+Romaji: Oosaka kara shinkansen de ikimasu ka.
+Nghĩa: Từ Osaka sẽ đi bằng Shinkansen phải không?
+
+A: はい。新大阪から9時40分の新幹線で広島へ行きます。
+Romaji: Hai. Shin-Oosaka kara kuji yonjuppun no shinkansen de Hiroshima e ikimasu.
+Nghĩa: Vâng. Từ Shin-Osaka đi Hiroshima bằng Shinkansen lúc 9 giờ 40 phút.
+
+B: 広島からどこへ行きますか。
+Romaji: Hiroshima kara doko e ikimasu ka.
+Nghĩa: Từ Hiroshima sẽ đi đâu?
+
+A: 広島から松山まで船で行きます。
+Romaji: Hiroshima kara Matsuyama made fune de ikimasu.
+Nghĩa: Từ Hiroshima đến Matsuyama sẽ đi bằng thuyền.
+
+B: 大阪へ帰りますか。
+Romaji: Oosaka e kaerimasu ka.
+Nghĩa: Có trở về Osaka không?
+
+A: 土曜日に帰ります。
+Romaji: Doyoubi ni kaerimasu.
+Nghĩa: Sẽ về vào thứ Bảy.
+
+B: 新幹線ですか。
+Romaji: Shinkansen desu ka.
+Nghĩa: Bằng Shinkansen à?
+
+A: いいえ。松山から大阪まで飛行機で帰ります。
+Romaji: Iie. Matsuyama kara Oosaka made hikouki de kaerimasu.
+Nghĩa: Không. Từ Matsuyama về Osaka bằng máy bay.
+
+B: 学校まで何で帰りますか。
+Romaji: Gakkou made nan de kaerimasu ka.
+Nghĩa: Về đến trường bằng gì?
+
+A: バスです。
+Romaji: Basu desu.
+Nghĩa: Bằng xe buýt.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="4" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -471,56 +546,6 @@ Nghĩa: Tôi đã đi bệnh viện ở Nara. Đó là bệnh viện của bạn
                   <p class="explanation" hidden>Có câu 「飛行機で帰ります」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: 明日から広島と松山へ行きます。
-Romaji: Ashita kara Hiroshima to Matsuyama e ikimasu.
-Nghĩa: Từ ngày mai chúng ta sẽ đi Hiroshima và Matsuyama.
-
-A: 朝、学校から地下鉄の駅まで歩いて行きます。9時の地下鉄で新大阪まで行きます。
-Romaji: Asa, gakkou kara chikatetsu no eki made aruite ikimasu. Kuji no chikatetsu de Shin-Oosaka made ikimasu.
-Nghĩa: Buổi sáng, đi bộ từ trường đến ga tàu điện ngầm. Đi tàu điện ngầm lúc 9 giờ đến Shin-Osaka.
-
-B: 大阪から新幹線で行きますか。
-Romaji: Oosaka kara shinkansen de ikimasu ka.
-Nghĩa: Từ Osaka sẽ đi bằng Shinkansen phải không?
-
-A: はい。新大阪から9時40分の新幹線で広島へ行きます。
-Romaji: Hai. Shin-Oosaka kara kuji yonjuppun no shinkansen de Hiroshima e ikimasu.
-Nghĩa: Vâng. Từ Shin-Osaka đi Hiroshima bằng Shinkansen lúc 9 giờ 40 phút.
-
-B: 広島からどこへ行きますか。
-Romaji: Hiroshima kara doko e ikimasu ka.
-Nghĩa: Từ Hiroshima sẽ đi đâu?
-
-A: 広島から松山まで船で行きます。
-Romaji: Hiroshima kara Matsuyama made fune de ikimasu.
-Nghĩa: Từ Hiroshima đến Matsuyama sẽ đi bằng thuyền.
-
-B: 大阪へ帰りますか。
-Romaji: Oosaka e kaerimasu ka.
-Nghĩa: Có trở về Osaka không?
-
-A: 土曜日に帰ります。
-Romaji: Doyoubi ni kaerimasu.
-Nghĩa: Sẽ về vào thứ Bảy.
-
-B: 新幹線ですか。
-Romaji: Shinkansen desu ka.
-Nghĩa: Bằng Shinkansen à?
-
-A: いいえ。松山から大阪まで飛行機で帰ります。
-Romaji: Iie. Matsuyama kara Oosaka made hikouki de kaerimasu.
-Nghĩa: Không. Từ Matsuyama về Osaka bằng máy bay.
-
-B: 学校まで何で帰りますか。
-Romaji: Gakkou made nan de kaerimasu ka.
-Nghĩa: Về đến trường bằng gì?
-
-A: バスです。
-Romaji: Basu desu.
-Nghĩa: Bằng xe buýt.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-3" data-segment="2">
@@ -530,6 +555,10 @@ Nghĩa: Bằng xe buýt.</pre>
                 <p class="time">02:56.000 - 04:17.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 3</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-3">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -537,6 +566,58 @@ Nghĩa: Bằng xe buýt.</pre>
                   <audio preload="metadata" src="audio/segment_003.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-3">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 003</p>
+                    <h3>Script - Đoạn 3</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: 来週の火曜日、京都へ行きます。
+Romaji: Raishuu no kayoubi, Kyouto e ikimasu.
+Nghĩa: Thứ Ba tuần sau tôi sẽ đi Kyoto.
+
+B: 火曜日ですか。2月10日です。
+Romaji: Kayoubi desu ka. Nigatsu tooka desu.
+Nghĩa: Thứ Ba à? Là ngày 10 tháng 2.
+
+A: 図書館の休みは何曜日ですか。
+Romaji: Toshokan no yasumi wa nan-youbi desu ka.
+Nghĩa: Ngày nghỉ của thư viện là thứ mấy?
+
+B: 木曜日です。
+Romaji: Mokuyoubi desu.
+Nghĩa: Là thứ Năm.
+
+A: 6日に行きます。2月6日、金曜日に図書館へ。
+Romaji: Muika ni ikimasu. Nigatsu muika, kin-youbi ni toshokan e.
+Nghĩa: Tôi sẽ đi vào ngày 6. Ngày 6 tháng 2, thứ Sáu, đến thư viện.
+
+A: 元気病院は土曜日休みですか。
+Romaji: Genki byouin wa doyoubi yasumi desu ka.
+Nghĩa: Bệnh viện Genki nghỉ thứ Bảy phải không?
+
+B: いいえ。土曜日は休みません。
+Romaji: Iie. Doyoubi wa yasumimasen.
+Nghĩa: Không. Thứ Bảy không nghỉ.
+
+A: じゃ、土曜日に行きます。
+Romaji: Ja, doyoubi ni ikimasu.
+Nghĩa: Vậy tôi sẽ đi vào thứ Bảy.
+
+A: 葵美術館のピカソはいつまでですか。
+Romaji: Aoi bijutsukan no Pikaso wa itsu made desu ka.
+Nghĩa: Triển lãm Picasso ở Bảo tàng Aoi đến khi nào?
+
+B: 今月の27日までです。
+Romaji: Kongetsu no nijuu-shichinichi made desu.
+Nghĩa: Đến ngày 27 tháng này.
+
+A: じゃあ、26日に行きます。
+Romaji: Jaa, nijuu-rokunichi ni ikimasu.
+Nghĩa: Vậy tôi sẽ đi vào ngày 26.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="7" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -679,52 +760,6 @@ Nghĩa: Bằng xe buýt.</pre>
                   <p class="explanation" hidden>Có câu 「今月の27日までです」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: 来週の火曜日、京都へ行きます。
-Romaji: Raishuu no kayoubi, Kyouto e ikimasu.
-Nghĩa: Thứ Ba tuần sau tôi sẽ đi Kyoto.
-
-B: 火曜日ですか。2月10日です。
-Romaji: Kayoubi desu ka. Nigatsu tooka desu.
-Nghĩa: Thứ Ba à? Là ngày 10 tháng 2.
-
-A: 図書館の休みは何曜日ですか。
-Romaji: Toshokan no yasumi wa nan-youbi desu ka.
-Nghĩa: Ngày nghỉ của thư viện là thứ mấy?
-
-B: 木曜日です。
-Romaji: Mokuyoubi desu.
-Nghĩa: Là thứ Năm.
-
-A: 6日に行きます。2月6日、金曜日に図書館へ。
-Romaji: Muika ni ikimasu. Nigatsu muika, kin-youbi ni toshokan e.
-Nghĩa: Tôi sẽ đi vào ngày 6. Ngày 6 tháng 2, thứ Sáu, đến thư viện.
-
-A: 元気病院は土曜日休みですか。
-Romaji: Genki byouin wa doyoubi yasumi desu ka.
-Nghĩa: Bệnh viện Genki nghỉ thứ Bảy phải không?
-
-B: いいえ。土曜日は休みません。
-Romaji: Iie. Doyoubi wa yasumimasen.
-Nghĩa: Không. Thứ Bảy không nghỉ.
-
-A: じゃ、土曜日に行きます。
-Romaji: Ja, doyoubi ni ikimasu.
-Nghĩa: Vậy tôi sẽ đi vào thứ Bảy.
-
-A: 葵美術館のピカソはいつまでですか。
-Romaji: Aoi bijutsukan no Pikaso wa itsu made desu ka.
-Nghĩa: Triển lãm Picasso ở Bảo tàng Aoi đến khi nào?
-
-B: 今月の27日までです。
-Romaji: Kongetsu no nijuu-shichinichi made desu.
-Nghĩa: Đến ngày 27 tháng này.
-
-A: じゃあ、26日に行きます。
-Romaji: Jaa, nijuu-rokunichi ni ikimasu.
-Nghĩa: Vậy tôi sẽ đi vào ngày 26.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-4" data-segment="3">
@@ -734,6 +769,10 @@ Nghĩa: Vậy tôi sẽ đi vào ngày 26.</pre>
                 <p class="time">04:17.000 - 05:47.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 4</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-4">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -741,6 +780,94 @@ Nghĩa: Vậy tôi sẽ đi vào ngày 26.</pre>
                   <audio preload="metadata" src="audio/segment_004.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-4">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 004</p>
+                    <h3>Script - Đoạn 4</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: ミラーさん、日本へ来ましたか。
+Romaji: Miraa-san, Nihon e kimashita ka.
+Nghĩa: Anh Miller đã đến Nhật Bản phải không?
+
+B: 12月です。
+Romaji: Juunigatsu desu.
+Nghĩa: Vào tháng 12.
+
+A: 家族と来ましたか。
+Romaji: Kazoku to kimashita ka.
+Nghĩa: Anh đến cùng gia đình à?
+
+B: いいえ。1人で来ました。
+Romaji: Iie. Hitori de kimashita.
+Nghĩa: Không. Tôi đến một mình.
+
+A: 会社は何時からですか。
+Romaji: Kaisha wa nanji kara desu ka.
+Nghĩa: Công ty bắt đầu từ mấy giờ?
+
+B: 8時半からです。
+Romaji: Hachiji han kara desu.
+Nghĩa: Từ 8 giờ rưỡi.
+
+A: 毎晩、何時に家へ帰りますか。
+Romaji: Maiban, nanji ni ie e kaerimasu ka.
+Nghĩa: Mỗi tối, mấy giờ anh về nhà?
+
+B: 9時に帰ります。
+Romaji: Kuji ni kaerimasu.
+Nghĩa: Tôi về lúc 9 giờ.
+
+B: 10時に帰ります。
+Romaji: Juuji ni kaerimasu.
+Nghĩa: Tôi về lúc 10 giờ.
+
+A: 毎日、会社へ何で行きますか。
+Romaji: Mainichi, kaisha e nan de ikimasu ka.
+Nghĩa: Mỗi ngày anh đi đến công ty bằng gì?
+
+B: 駅まで自転車で行きます。地下鉄で新大阪まで行きます。
+Romaji: Eki made jitensha de ikimasu. Chikatetsu de Shin-Oosaka made ikimasu.
+Nghĩa: Tôi đi xe đạp đến ga. Sau đó đi tàu điện ngầm đến Shin-Osaka.
+
+B: 新大阪から会社まで歩いて行きます。
+Romaji: Shin-Oosaka kara kaisha made aruite ikimasu.
+Nghĩa: Từ Shin-Osaka đến công ty tôi đi bộ.
+
+A: 来週、東京へ行きますね。
+Romaji: Raishuu, Toukyou e ikimasu ne.
+Nghĩa: Tuần sau anh sẽ đi Tokyo nhỉ.
+
+A: 金曜日に新幹線ですか。
+Romaji: Kin-youbi ni shinkansen desu ka.
+Nghĩa: Thứ Sáu đi bằng Shinkansen à?
+
+B: いいえ。飛行機で。
+Romaji: Iie. Hikouki de.
+Nghĩa: Không. Bằng máy bay.
+
+A: 誰と行きますか。
+Romaji: Dare to ikimasu ka.
+Nghĩa: Anh đi với ai?
+
+B: 山田さんと。
+Romaji: Yamada-san to.
+Nghĩa: Với anh/chị Yamada.
+
+A: 帰りますか。
+Romaji: Kaerimasu ka.
+Nghĩa: Có về không?
+
+B: 金曜日の夜、帰ります。
+Romaji: Kin-youbi no yoru, kaerimasu.
+Nghĩa: Tôi về tối thứ Sáu.
+
+A: 金曜日の朝行きます。夜帰ります。大変ですね。
+Romaji: Kin-youbi no asa ikimasu. Yoru kaerimasu. Taihen desu ne.
+Nghĩa: Sáng thứ Sáu đi, tối về. Vất vả nhỉ.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="10" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -930,88 +1057,6 @@ Nghĩa: Vậy tôi sẽ đi vào ngày 26.</pre>
                   <p class="explanation" hidden>Miller nói 「山田さんと」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: ミラーさん、日本へ来ましたか。
-Romaji: Miraa-san, Nihon e kimashita ka.
-Nghĩa: Anh Miller đã đến Nhật Bản phải không?
-
-B: 12月です。
-Romaji: Juunigatsu desu.
-Nghĩa: Vào tháng 12.
-
-A: 家族と来ましたか。
-Romaji: Kazoku to kimashita ka.
-Nghĩa: Anh đến cùng gia đình à?
-
-B: いいえ。1人で来ました。
-Romaji: Iie. Hitori de kimashita.
-Nghĩa: Không. Tôi đến một mình.
-
-A: 会社は何時からですか。
-Romaji: Kaisha wa nanji kara desu ka.
-Nghĩa: Công ty bắt đầu từ mấy giờ?
-
-B: 8時半からです。
-Romaji: Hachiji han kara desu.
-Nghĩa: Từ 8 giờ rưỡi.
-
-A: 毎晩、何時に家へ帰りますか。
-Romaji: Maiban, nanji ni ie e kaerimasu ka.
-Nghĩa: Mỗi tối, mấy giờ anh về nhà?
-
-B: 9時に帰ります。
-Romaji: Kuji ni kaerimasu.
-Nghĩa: Tôi về lúc 9 giờ.
-
-B: 10時に帰ります。
-Romaji: Juuji ni kaerimasu.
-Nghĩa: Tôi về lúc 10 giờ.
-
-A: 毎日、会社へ何で行きますか。
-Romaji: Mainichi, kaisha e nan de ikimasu ka.
-Nghĩa: Mỗi ngày anh đi đến công ty bằng gì?
-
-B: 駅まで自転車で行きます。地下鉄で新大阪まで行きます。
-Romaji: Eki made jitensha de ikimasu. Chikatetsu de Shin-Oosaka made ikimasu.
-Nghĩa: Tôi đi xe đạp đến ga. Sau đó đi tàu điện ngầm đến Shin-Osaka.
-
-B: 新大阪から会社まで歩いて行きます。
-Romaji: Shin-Oosaka kara kaisha made aruite ikimasu.
-Nghĩa: Từ Shin-Osaka đến công ty tôi đi bộ.
-
-A: 来週、東京へ行きますね。
-Romaji: Raishuu, Toukyou e ikimasu ne.
-Nghĩa: Tuần sau anh sẽ đi Tokyo nhỉ.
-
-A: 金曜日に新幹線ですか。
-Romaji: Kin-youbi ni shinkansen desu ka.
-Nghĩa: Thứ Sáu đi bằng Shinkansen à?
-
-B: いいえ。飛行機で。
-Romaji: Iie. Hikouki de.
-Nghĩa: Không. Bằng máy bay.
-
-A: 誰と行きますか。
-Romaji: Dare to ikimasu ka.
-Nghĩa: Anh đi với ai?
-
-B: 山田さんと。
-Romaji: Yamada-san to.
-Nghĩa: Với anh/chị Yamada.
-
-A: 帰りますか。
-Romaji: Kaerimasu ka.
-Nghĩa: Có về không?
-
-B: 金曜日の夜、帰ります。
-Romaji: Kin-youbi no yoru, kaerimasu.
-Nghĩa: Tôi về tối thứ Sáu.
-
-A: 金曜日の朝行きます。夜帰ります。大変ですね。
-Romaji: Kin-youbi no asa ikimasu. Yoru kaerimasu. Taihen desu ne.
-Nghĩa: Sáng thứ Sáu đi, tối về. Vất vả nhỉ.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-5" data-segment="4">
@@ -1021,6 +1066,10 @@ Nghĩa: Sáng thứ Sáu đi, tối về. Vất vả nhỉ.</pre>
                 <p class="time">05:47.000 - 06:39.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 5</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-5">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -1028,6 +1077,46 @@ Nghĩa: Sáng thứ Sáu đi, tối về. Vất vả nhỉ.</pre>
                   <audio preload="metadata" src="audio/segment_005.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-5">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 005</p>
+                    <h3>Script - Đoạn 5</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">A: 黒澤明さん、誕生日はいつですか。
+Romaji: Kurosawa Akira-san, tanjoubi wa itsu desu ka.
+Nghĩa: Ông Kurosawa Akira, sinh nhật là khi nào?
+
+B: 私の誕生日ですか。3月23日です。
+Romaji: Watashi no tanjoubi desu ka. Sangatsu nijuu-sannichi desu.
+Nghĩa: Sinh nhật của tôi à? Là ngày 23 tháng 3.
+
+A: 津田梅子さん、誕生日はいつですか。
+Romaji: Tsuda Umeko-san, tanjoubi wa itsu desu ka.
+Nghĩa: Bà Tsuda Umeko, sinh nhật là khi nào?
+
+B: 私の誕生日は12月8日です。
+Romaji: Watashi no tanjoubi wa juunigatsu youka desu.
+Nghĩa: Sinh nhật của tôi là ngày 8 tháng 12.
+
+A: 小澤征爾さん、誕生日はいつですか。
+Romaji: Ozawa Seiji-san, tanjoubi wa itsu desu ka.
+Nghĩa: Ông Ozawa Seiji, sinh nhật là khi nào?
+
+B: 9月1日です。
+Romaji: Kugatsu tsuitachi desu.
+Nghĩa: Là ngày 1 tháng 9.
+
+A: すみません。ジョン・レノンさんの誕生日は何月何日ですか。
+Romaji: Sumimasen. Jon Renon-san no tanjoubi wa nangatsu nannichi desu ka.
+Nghĩa: Xin lỗi. Sinh nhật của ông John Lennon là ngày mấy tháng mấy?
+
+B: 10月9日です。
+Romaji: Juugatsu kokonoka desu.
+Nghĩa: Là ngày 9 tháng 10.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="14" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -1217,40 +1306,6 @@ Nghĩa: Sáng thứ Sáu đi, tối về. Vất vả nhỉ.</pre>
                   <p class="explanation" hidden>Người trả lời nói 「10月9日です」.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">A: 黒澤明さん、誕生日はいつですか。
-Romaji: Kurosawa Akira-san, tanjoubi wa itsu desu ka.
-Nghĩa: Ông Kurosawa Akira, sinh nhật là khi nào?
-
-B: 私の誕生日ですか。3月23日です。
-Romaji: Watashi no tanjoubi desu ka. Sangatsu nijuu-sannichi desu.
-Nghĩa: Sinh nhật của tôi à? Là ngày 23 tháng 3.
-
-A: 津田梅子さん、誕生日はいつですか。
-Romaji: Tsuda Umeko-san, tanjoubi wa itsu desu ka.
-Nghĩa: Bà Tsuda Umeko, sinh nhật là khi nào?
-
-B: 私の誕生日は12月8日です。
-Romaji: Watashi no tanjoubi wa juunigatsu youka desu.
-Nghĩa: Sinh nhật của tôi là ngày 8 tháng 12.
-
-A: 小澤征爾さん、誕生日はいつですか。
-Romaji: Ozawa Seiji-san, tanjoubi wa itsu desu ka.
-Nghĩa: Ông Ozawa Seiji, sinh nhật là khi nào?
-
-B: 9月1日です。
-Romaji: Kugatsu tsuitachi desu.
-Nghĩa: Là ngày 1 tháng 9.
-
-A: すみません。ジョン・レノンさんの誕生日は何月何日ですか。
-Romaji: Sumimasen. Jon Renon-san no tanjoubi wa nangatsu nannichi desu ka.
-Nghĩa: Xin lỗi. Sinh nhật của ông John Lennon là ngày mấy tháng mấy?
-
-B: 10月9日です。
-Romaji: Juugatsu kokonoka desu.
-Nghĩa: Là ngày 9 tháng 10.</pre>
-              </details>
             </article>
             
   </main>
@@ -1269,6 +1324,10 @@ Nghĩa: Là ngày 9 tháng 10.</pre>
     function updateScore() {
       const correct = Object.values(state).filter(Boolean).length;
       document.getElementById("score").textContent = `${correct}/${totalQuestions}`;
+    }
+    function closeDialog(dialog) {
+      if (typeof dialog.close === "function") dialog.close();
+      else dialog.removeAttribute("open");
     }
     const observer = new IntersectionObserver((entries) => {
       const visible = entries
@@ -1307,6 +1366,26 @@ Nghĩa: Là ngày 9 tháng 10.</pre>
       progress.addEventListener("input", () => {
         if (!audio.duration) return;
         audio.currentTime = (Number(progress.value) / 100) * audio.duration;
+      });
+    });
+    document.querySelectorAll(".script-open").forEach((button) => {
+      button.addEventListener("click", () => {
+        const dialog = document.getElementById(button.dataset.dialog);
+        if (!dialog) return;
+        if (typeof dialog.showModal === "function") dialog.showModal();
+        else dialog.setAttribute("open", "");
+      });
+    });
+    document.querySelectorAll(".script-dialog").forEach((dialog) => {
+      dialog.querySelector(".script-close").addEventListener("click", () => closeDialog(dialog));
+      dialog.addEventListener("click", (event) => {
+        const rect = dialog.getBoundingClientRect();
+        const inDialog =
+          event.clientX >= rect.left &&
+          event.clientX <= rect.right &&
+          event.clientY >= rect.top &&
+          event.clientY <= rect.bottom;
+        if (!inDialog) closeDialog(dialog);
       });
     });
     document.querySelectorAll(".check-answer").forEach((button) => {

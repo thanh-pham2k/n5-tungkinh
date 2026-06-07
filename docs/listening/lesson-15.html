@@ -40,6 +40,8 @@
     h2 { margin: 0; font-size: 19px; line-height: 1.2; }
     .time { margin: 4px 0 0; color: var(--muted); font-size: 12px; font-weight: 800; }
     .audio-shell { min-width: 0; max-width: 100%; overflow: hidden; margin: 8px 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; padding: 6px; }
+    .audio-topline { min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; color: var(--muted); font-size: 12px; font-weight: 900; }
+    .script-open { flex: 0 0 auto; min-height: 32px; border-color: rgba(15,118,110,.25); background: #fff; color: var(--primary); padding: 5px 9px; font-size: 12px; }
     .audio-player { min-width: 0; display: grid; grid-template-columns: 38px 78px minmax(0, 1fr); gap: 8px; align-items: center; }
     .play-audio { width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }
     .audio-time { color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }
@@ -66,9 +68,12 @@
     .feedback.ok { color: var(--ok); }
     .feedback.bad { color: var(--bad); }
     .explanation { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
-    .script-panel { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 8px; }
-    .script-panel summary { min-height: 36px; color: var(--primary); font-weight: 900; cursor: pointer; }
-    .script-text { width: 100%; margin: 4px 0 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+    .script-dialog { width: min(640px, calc(100vw - 24px)); max-height: min(78vh, 720px); border: 1px solid var(--line); border-radius: 10px; padding: 12px; background: #fff; color: var(--text); box-shadow: 0 24px 70px rgba(15,23,42,.28); }
+    .script-dialog::backdrop { background: rgba(15,23,42,.45); }
+    .dialog-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 10px; }
+    .dialog-head h3 { margin: 0; font-size: 17px; line-height: 1.25; }
+    .script-close { flex: 0 0 auto; min-height: 34px; padding: 6px 10px; }
+    .script-text { width: 100%; max-height: calc(78vh - 112px); overflow: auto; margin: 0; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; padding: 10px; white-space: pre-wrap; overflow-wrap: anywhere; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.5; }
     @media (min-width: 640px) {
       body { font-size: 16px; }
       .header-inner { padding: 12px 16px; }
@@ -165,6 +170,10 @@
                 <p class="time">06:22.000 - 07:09.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 1</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-1">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -172,6 +181,38 @@
                   <audio preload="metadata" src="audio/lesson-15/segment_001.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-1">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 001</p>
+                    <h3>Script - Đoạn 1</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">ミラーさんは散歩に行きました。途中で何をしましたか。
+Romaji: Miraa-san wa sanpo ni ikimashita. Tochuu de nani o shimashita ka.
+Nghĩa: Anh Miller đã đi dạo. Trên đường anh ấy đã làm gì?
+
+ああ、いい天気。きれいな花。写真を撮りたいな。
+Romaji: Aa, ii tenki. Kirei na hana. Shashin o toritai na.
+Nghĩa: A, thời tiết đẹp quá. Hoa đẹp quá. Muốn chụp ảnh ghê.
+
+すみません。この花の写真を撮ってもいいですか。
+Romaji: Sumimasen. Kono hana no shashin o totte mo ii desu ka.
+Nghĩa: Xin lỗi. Tôi chụp ảnh hoa này được không?
+
+あの、この花を少しもらってもいいですか。
+Romaji: Ano, kono hana o sukoshi moratte mo ii desu ka.
+Nghĩa: À, tôi lấy một ít hoa này được không?
+
+いいえ、その花はちょっと……。
+Romaji: Iie, sono hana wa chotto...
+Nghĩa: Không, hoa đó thì hơi...
+
+そうですか。
+Romaji: Sou desu ka.
+Nghĩa: Vậy à.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="1" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -220,32 +261,6 @@
                   <p class="explanation" hidden>Miller xin chụp ảnh hoa, còn việc lấy hoa thì bị từ chối.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">ミラーさんは散歩に行きました。途中で何をしましたか。
-Romaji: Miraa-san wa sanpo ni ikimashita. Tochuu de nani o shimashita ka.
-Nghĩa: Anh Miller đã đi dạo. Trên đường anh ấy đã làm gì?
-
-ああ、いい天気。きれいな花。写真を撮りたいな。
-Romaji: Aa, ii tenki. Kirei na hana. Shashin o toritai na.
-Nghĩa: A, thời tiết đẹp quá. Hoa đẹp quá. Muốn chụp ảnh ghê.
-
-すみません。この花の写真を撮ってもいいですか。
-Romaji: Sumimasen. Kono hana no shashin o totte mo ii desu ka.
-Nghĩa: Xin lỗi. Tôi chụp ảnh hoa này được không?
-
-あの、この花を少しもらってもいいですか。
-Romaji: Ano, kono hana o sukoshi moratte mo ii desu ka.
-Nghĩa: À, tôi lấy một ít hoa này được không?
-
-いいえ、その花はちょっと……。
-Romaji: Iie, sono hana wa chotto...
-Nghĩa: Không, hoa đó thì hơi...
-
-そうですか。
-Romaji: Sou desu ka.
-Nghĩa: Vậy à.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-2" data-segment="1">
@@ -255,6 +270,10 @@ Nghĩa: Vậy à.</pre>
                 <p class="time">07:09.000 - 07:35.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 2</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-2">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -262,6 +281,38 @@ Nghĩa: Vậy à.</pre>
                   <audio preload="metadata" src="audio/lesson-15/segment_002.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-2">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 002</p>
+                    <h3>Script - Đoạn 2</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">広い公園。ちょっと休みたいな。
+Romaji: Hiroi kouen. Chotto yasumitai na.
+Nghĩa: Công viên rộng quá. Muốn nghỉ một chút.
+
+すみません。ここに座ってもいいですか。
+Romaji: Sumimasen. Koko ni suwatte mo ii desu ka.
+Nghĩa: Xin lỗi. Tôi ngồi ở đây được không?
+
+いいですよ。
+Romaji: Ii desu yo.
+Nghĩa: Được chứ.
+
+あの、タバコを吸ってもいいですか。
+Romaji: Ano, tabako o sutte mo ii desu ka.
+Nghĩa: À, tôi hút thuốc được không?
+
+タバコはちょっと……。
+Romaji: Tabako wa chotto...
+Nghĩa: Thuốc lá thì hơi...
+
+分かりました。
+Romaji: Wakarimashita.
+Nghĩa: Tôi hiểu rồi.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="2" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -310,32 +361,6 @@ Nghĩa: Vậy à.</pre>
                   <p class="explanation" hidden>Người kia cho phép ngồi, nhưng không cho hút thuốc.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">広い公園。ちょっと休みたいな。
-Romaji: Hiroi kouen. Chotto yasumitai na.
-Nghĩa: Công viên rộng quá. Muốn nghỉ một chút.
-
-すみません。ここに座ってもいいですか。
-Romaji: Sumimasen. Koko ni suwatte mo ii desu ka.
-Nghĩa: Xin lỗi. Tôi ngồi ở đây được không?
-
-いいですよ。
-Romaji: Ii desu yo.
-Nghĩa: Được chứ.
-
-あの、タバコを吸ってもいいですか。
-Romaji: Ano, tabako o sutte mo ii desu ka.
-Nghĩa: À, tôi hút thuốc được không?
-
-タバコはちょっと……。
-Romaji: Tabako wa chotto...
-Nghĩa: Thuốc lá thì hơi...
-
-分かりました。
-Romaji: Wakarimashita.
-Nghĩa: Tôi hiểu rồi.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-3" data-segment="2">
@@ -345,6 +370,10 @@ Nghĩa: Tôi hiểu rồi.</pre>
                 <p class="time">07:35.000 - 07:49.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 3</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-3">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -352,6 +381,30 @@ Nghĩa: Tôi hiểu rồi.</pre>
                   <audio preload="metadata" src="audio/lesson-15/segment_003.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-3">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 003</p>
+                    <h3>Script - Đoạn 3</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">あの、これはあなたの新聞ですか。
+Romaji: Ano, kore wa anata no shinbun desu ka.
+Nghĩa: À, đây là báo của anh/chị phải không?
+
+はい。
+Romaji: Hai.
+Nghĩa: Vâng.
+
+ちょっと見てもいいですか。
+Romaji: Chotto mite mo ii desu ka.
+Nghĩa: Tôi xem một chút được không?
+
+ええ、もう読みましたから、どうぞ。
+Romaji: Ee, mou yomimashita kara, douzo.
+Nghĩa: Vâng, tôi đọc rồi nên xin mời.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="3" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -400,24 +453,6 @@ Nghĩa: Tôi hiểu rồi.</pre>
                   <p class="explanation" hidden>Người kia nói đã đọc rồi, nên Miller có thể xem.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">あの、これはあなたの新聞ですか。
-Romaji: Ano, kore wa anata no shinbun desu ka.
-Nghĩa: À, đây là báo của anh/chị phải không?
-
-はい。
-Romaji: Hai.
-Nghĩa: Vâng.
-
-ちょっと見てもいいですか。
-Romaji: Chotto mite mo ii desu ka.
-Nghĩa: Tôi xem một chút được không?
-
-ええ、もう読みましたから、どうぞ。
-Romaji: Ee, mou yomimashita kara, douzo.
-Nghĩa: Vâng, tôi đọc rồi nên xin mời.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-4" data-segment="3">
@@ -427,6 +462,10 @@ Nghĩa: Vâng, tôi đọc rồi nên xin mời.</pre>
                 <p class="time">07:49.000 - 08:28.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 4</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-4">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -434,6 +473,38 @@ Nghĩa: Vâng, tôi đọc rồi nên xin mời.</pre>
                   <audio preload="metadata" src="audio/lesson-15/segment_004.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-4">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 004</p>
+                    <h3>Script - Đoạn 4</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">今から試験です。
+Romaji: Ima kara shiken desu.
+Nghĩa: Bây giờ bắt đầu bài thi.
+
+学生はしてもいいですか。してはいけませんか。
+Romaji: Gakusei wa shite mo ii desu ka. Shite wa ikemasen ka.
+Nghĩa: Học sinh được làm gì? Không được làm gì?
+
+皆さん、今から試験をします。
+Romaji: Minasan, ima kara shiken o shimasu.
+Nghĩa: Các em, bây giờ bắt đầu bài thi.
+
+名前と番号を書いてください。
+Romaji: Namae to bangou o kaite kudasai.
+Nghĩa: Hãy viết tên và số báo danh.
+
+答えは鉛筆で書いてください。鉛筆ですよ。
+Romaji: Kotae wa enpitsu de kaite kudasai. Enpitsu desu yo.
+Nghĩa: Hãy viết câu trả lời bằng bút chì. Là bút chì nhé.
+
+ボールペンを使ってはいけません。
+Romaji: Boorupen o tsukatte wa ikemasen.
+Nghĩa: Không được dùng bút bi.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="4" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -482,32 +553,6 @@ Nghĩa: Vâng, tôi đọc rồi nên xin mời.</pre>
                   <p class="explanation" hidden>Giáo viên nói ボールペンを使ってはいけません.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">今から試験です。
-Romaji: Ima kara shiken desu.
-Nghĩa: Bây giờ bắt đầu bài thi.
-
-学生はしてもいいですか。してはいけませんか。
-Romaji: Gakusei wa shite mo ii desu ka. Shite wa ikemasen ka.
-Nghĩa: Học sinh được làm gì? Không được làm gì?
-
-皆さん、今から試験をします。
-Romaji: Minasan, ima kara shiken o shimasu.
-Nghĩa: Các em, bây giờ bắt đầu bài thi.
-
-名前と番号を書いてください。
-Romaji: Namae to bangou o kaite kudasai.
-Nghĩa: Hãy viết tên và số báo danh.
-
-答えは鉛筆で書いてください。鉛筆ですよ。
-Romaji: Kotae wa enpitsu de kaite kudasai. Enpitsu desu yo.
-Nghĩa: Hãy viết câu trả lời bằng bút chì. Là bút chì nhé.
-
-ボールペンを使ってはいけません。
-Romaji: Boorupen o tsukatte wa ikemasen.
-Nghĩa: Không được dùng bút bi.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-5" data-segment="4">
@@ -517,6 +562,10 @@ Nghĩa: Không được dùng bút bi.</pre>
                 <p class="time">08:28.000 - 08:50.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 5</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-5">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -524,6 +573,38 @@ Nghĩa: Không được dùng bút bi.</pre>
                   <audio preload="metadata" src="audio/lesson-15/segment_005.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-5">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 005</p>
+                    <h3>Script - Đoạn 5</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">今9時ですね。試験は10時半までです。
+Romaji: Ima kuji desu ne. Shiken wa juuji han made desu.
+Nghĩa: Bây giờ là 9 giờ. Bài thi đến 10 giờ rưỡi.
+
+10時半まで外に出てはいけません。
+Romaji: Juuji han made soto ni dete wa ikemasen.
+Nghĩa: Không được ra ngoài trước 10 giờ rưỡi.
+
+先生、辞書を見てもいいですか。
+Romaji: Sensei, jisho o mite mo ii desu ka.
+Nghĩa: Thưa thầy/cô, em xem từ điển được không?
+
+はい、辞書だけ良いです。
+Romaji: Hai, jisho dake ii desu.
+Nghĩa: Được, chỉ từ điển thôi.
+
+本やノートを見てはいけません。
+Romaji: Hon ya nooto o mite wa ikemasen.
+Nghĩa: Không được xem sách hay vở ghi.
+
+はい、分かりました。
+Romaji: Hai, wakarimashita.
+Nghĩa: Vâng, em hiểu rồi.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="5" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -572,32 +653,6 @@ Nghĩa: Không được dùng bút bi.</pre>
                   <p class="explanation" hidden>Giáo viên nói chỉ được xem 辞書.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">今9時ですね。試験は10時半までです。
-Romaji: Ima kuji desu ne. Shiken wa juuji han made desu.
-Nghĩa: Bây giờ là 9 giờ. Bài thi đến 10 giờ rưỡi.
-
-10時半まで外に出てはいけません。
-Romaji: Juuji han made soto ni dete wa ikemasen.
-Nghĩa: Không được ra ngoài trước 10 giờ rưỡi.
-
-先生、辞書を見てもいいですか。
-Romaji: Sensei, jisho o mite mo ii desu ka.
-Nghĩa: Thưa thầy/cô, em xem từ điển được không?
-
-はい、辞書だけ良いです。
-Romaji: Hai, jisho dake ii desu.
-Nghĩa: Được, chỉ từ điển thôi.
-
-本やノートを見てはいけません。
-Romaji: Hon ya nooto o mite wa ikemasen.
-Nghĩa: Không được xem sách hay vở ghi.
-
-はい、分かりました。
-Romaji: Hai, wakarimashita.
-Nghĩa: Vâng, em hiểu rồi.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-6" data-segment="5">
@@ -607,6 +662,10 @@ Nghĩa: Vâng, em hiểu rồi.</pre>
                 <p class="time">08:50.000 - 09:16.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 6</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-6">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -614,6 +673,34 @@ Nghĩa: Vâng, em hiểu rồi.</pre>
                   <audio preload="metadata" src="audio/lesson-15/segment_006.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-6">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 006</p>
+                    <h3>Script - Đoạn 6</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">皆さん、それから隣の人と話してはいけません。
+Romaji: Minasan, sorekara tonari no hito to hanashite wa ikemasen.
+Nghĩa: Các em, ngoài ra không được nói chuyện với người bên cạnh.
+
+携帯電話も使ってはいけません。
+Romaji: Keitai denwa mo tsukatte wa ikemasen.
+Nghĩa: Cũng không được dùng điện thoại di động.
+
+先生、あの、水を飲んでもいいですか。
+Romaji: Sensei, ano, mizu o nonde mo ii desu ka.
+Nghĩa: Thưa thầy/cô, em uống nước được không?
+
+水、教室で飲んでもいいですが、外へ飲みに行ってはいけません。
+Romaji: Mizu, kyoushitsu de nonde mo ii desu ga, soto e nomi ni itte wa ikemasen.
+Nghĩa: Nước thì được uống trong lớp, nhưng không được ra ngoài để uống.
+
+じゃ、始めましょう。
+Romaji: Ja, hajimemashou.
+Nghĩa: Vậy bắt đầu nào.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="6" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -662,28 +749,6 @@ Nghĩa: Vâng, em hiểu rồi.</pre>
                   <p class="explanation" hidden>Giáo viên cho phép uống nước trong lớp, nhưng không được ra ngoài.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">皆さん、それから隣の人と話してはいけません。
-Romaji: Minasan, sorekara tonari no hito to hanashite wa ikemasen.
-Nghĩa: Các em, ngoài ra không được nói chuyện với người bên cạnh.
-
-携帯電話も使ってはいけません。
-Romaji: Keitai denwa mo tsukatte wa ikemasen.
-Nghĩa: Cũng không được dùng điện thoại di động.
-
-先生、あの、水を飲んでもいいですか。
-Romaji: Sensei, ano, mizu o nonde mo ii desu ka.
-Nghĩa: Thưa thầy/cô, em uống nước được không?
-
-水、教室で飲んでもいいですが、外へ飲みに行ってはいけません。
-Romaji: Mizu, kyoushitsu de nonde mo ii desu ga, soto e nomi ni itte wa ikemasen.
-Nghĩa: Nước thì được uống trong lớp, nhưng không được ra ngoài để uống.
-
-じゃ、始めましょう。
-Romaji: Ja, hajimemashou.
-Nghĩa: Vậy bắt đầu nào.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-7" data-segment="6">
@@ -693,6 +758,10 @@ Nghĩa: Vậy bắt đầu nào.</pre>
                 <p class="time">09:16.000 - 09:46.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 7</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-7">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -700,6 +769,34 @@ Nghĩa: Vậy bắt đầu nào.</pre>
                   <audio preload="metadata" src="audio/lesson-15/segment_007.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-7">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 007</p>
+                    <h3>Script - Đoạn 7</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">山田さんに質問します。それからどうしますか。
+Romaji: Yamada-san ni shitsumon shimasu. Sorekara dou shimasu ka.
+Nghĩa: Hỏi anh/chị Yamada. Sau đó sẽ làm gì?
+
+雨。山田さん、傘を持っていますか。
+Romaji: Ame. Yamada-san, kasa o motte imasu ka.
+Nghĩa: Mưa rồi. Anh/chị Yamada có mang ô không?
+
+傘、いつも持っていますが、今日は……。
+Romaji: Kasa, itsumo motte imasu ga, kyou wa...
+Nghĩa: Ô thì tôi thường mang, nhưng hôm nay...
+
+じゃ、これを使ってください。
+Romaji: Ja, kore o tsukatte kudasai.
+Nghĩa: Vậy hãy dùng cái này.
+
+ありがとうございます。
+Romaji: Arigatou gozaimasu.
+Nghĩa: Cảm ơn.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="7" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -748,28 +845,6 @@ Nghĩa: Vậy bắt đầu nào.</pre>
                   <p class="explanation" hidden>Vì trời mưa và Yamada không có ô hôm nay, người kia cho mượn ô.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">山田さんに質問します。それからどうしますか。
-Romaji: Yamada-san ni shitsumon shimasu. Sorekara dou shimasu ka.
-Nghĩa: Hỏi anh/chị Yamada. Sau đó sẽ làm gì?
-
-雨。山田さん、傘を持っていますか。
-Romaji: Ame. Yamada-san, kasa o motte imasu ka.
-Nghĩa: Mưa rồi. Anh/chị Yamada có mang ô không?
-
-傘、いつも持っていますが、今日は……。
-Romaji: Kasa, itsumo motte imasu ga, kyou wa...
-Nghĩa: Ô thì tôi thường mang, nhưng hôm nay...
-
-じゃ、これを使ってください。
-Romaji: Ja, kore o tsukatte kudasai.
-Nghĩa: Vậy hãy dùng cái này.
-
-ありがとうございます。
-Romaji: Arigatou gozaimasu.
-Nghĩa: Cảm ơn.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-8" data-segment="7">
@@ -779,6 +854,10 @@ Nghĩa: Cảm ơn.</pre>
                 <p class="time">09:46.000 - 10:28.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 8</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-8">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -786,6 +865,42 @@ Nghĩa: Cảm ơn.</pre>
                   <audio preload="metadata" src="audio/lesson-15/segment_008.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-8">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 008</p>
+                    <h3>Script - Đoạn 8</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">山田さん、良い歯医者を知りませんか。
+Romaji: Yamada-san, ii haisha o shirimasen ka.
+Nghĩa: Anh/chị Yamada có biết nha sĩ tốt không?
+
+良い歯医者ね。スーパーの前の寿デンタルはどうですか。
+Romaji: Ii haisha ne. Suupaa no mae no Kotobuki Dentaru wa dou desu ka.
+Nghĩa: Nha sĩ tốt à. Kotobuki Dental trước siêu thị thì sao?
+
+今日は木曜日ですから、休みですね。今日行きたいですか。
+Romaji: Kyou wa mokuyoubi desu kara, yasumi desu ne. Kyou ikitai desu ka.
+Nghĩa: Hôm nay là thứ Năm nên họ nghỉ. Bạn muốn đi hôm nay à?
+
+じゃ、元気病院はどうですか。元気病院の休みは日曜日ですから。
+Romaji: Ja, Genki byouin wa dou desu ka. Genki byouin no yasumi wa nichiyoubi desu kara.
+Nghĩa: Vậy bệnh viện Genki thì sao? Vì bệnh viện Genki nghỉ vào Chủ Nhật.
+
+山田さんはよく知っていますね。
+Romaji: Yamada-san wa yoku shitte imasu ne.
+Nghĩa: Anh/chị Yamada biết nhiều thật nhỉ.
+
+すみません。今から病院へ行ってもいいですか。
+Romaji: Sumimasen. Ima kara byouin e itte mo ii desu ka.
+Nghĩa: Xin lỗi. Bây giờ tôi đi bệnh viện được không?
+
+いいですよ。
+Romaji: Ii desu yo.
+Nghĩa: Được chứ.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="8" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -834,36 +949,6 @@ Nghĩa: Cảm ơn.</pre>
                   <p class="explanation" hidden>Kotobuki Dental nghỉ thứ Năm, nên người đó chọn 元気病院.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">山田さん、良い歯医者を知りませんか。
-Romaji: Yamada-san, ii haisha o shirimasen ka.
-Nghĩa: Anh/chị Yamada có biết nha sĩ tốt không?
-
-良い歯医者ね。スーパーの前の寿デンタルはどうですか。
-Romaji: Ii haisha ne. Suupaa no mae no Kotobuki Dentaru wa dou desu ka.
-Nghĩa: Nha sĩ tốt à. Kotobuki Dental trước siêu thị thì sao?
-
-今日は木曜日ですから、休みですね。今日行きたいですか。
-Romaji: Kyou wa mokuyoubi desu kara, yasumi desu ne. Kyou ikitai desu ka.
-Nghĩa: Hôm nay là thứ Năm nên họ nghỉ. Bạn muốn đi hôm nay à?
-
-じゃ、元気病院はどうですか。元気病院の休みは日曜日ですから。
-Romaji: Ja, Genki byouin wa dou desu ka. Genki byouin no yasumi wa nichiyoubi desu kara.
-Nghĩa: Vậy bệnh viện Genki thì sao? Vì bệnh viện Genki nghỉ vào Chủ Nhật.
-
-山田さんはよく知っていますね。
-Romaji: Yamada-san wa yoku shitte imasu ne.
-Nghĩa: Anh/chị Yamada biết nhiều thật nhỉ.
-
-すみません。今から病院へ行ってもいいですか。
-Romaji: Sumimasen. Ima kara byouin e itte mo ii desu ka.
-Nghĩa: Xin lỗi. Bây giờ tôi đi bệnh viện được không?
-
-いいですよ。
-Romaji: Ii desu yo.
-Nghĩa: Được chứ.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-9" data-segment="8">
@@ -873,6 +958,10 @@ Nghĩa: Được chứ.</pre>
                 <p class="time">10:28.000 - 11:03.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 9</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-9">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -880,6 +969,46 @@ Nghĩa: Được chứ.</pre>
                   <audio preload="metadata" src="audio/lesson-15/segment_009.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-9">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 009</p>
+                    <h3>Script - Đoạn 9</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">きれいな庭ですね、山田さん。
+Romaji: Kirei na niwa desu ne, Yamada-san.
+Nghĩa: Khu vườn đẹp nhỉ, anh/chị Yamada.
+
+そうですね。写真を撮りましょう。
+Romaji: Sou desu ne. Shashin o torimashou.
+Nghĩa: Đúng vậy. Hãy chụp ảnh.
+
+えっ、カメラですか。
+Romaji: E, kamera desu ka.
+Nghĩa: Ơ, bằng máy ảnh à?
+
+いいえ、携帯電話です。
+Romaji: Iie, keitai denwa desu.
+Nghĩa: Không, bằng điện thoại di động.
+
+便利ですね。私は欲しいです。どこで売っていますか。
+Romaji: Benri desu ne. Watashi wa hoshii desu. Doko de utte imasu ka.
+Nghĩa: Tiện thật nhỉ. Tôi muốn có. Bán ở đâu?
+
+私はデパートで買いましたが、高かったです。
+Romaji: Watashi wa depaato de kaimashita ga, takakatta desu.
+Nghĩa: Tôi mua ở trung tâm thương mại, nhưng đắt.
+
+駅の前のショップは安いですよ。
+Romaji: Eki no mae no shoppu wa yasui desu yo.
+Nghĩa: Cửa hàng trước ga thì rẻ đấy.
+
+そうですか。じゃ、そこへ行きます。
+Romaji: Sou desu ka. Ja, soko e ikimasu.
+Nghĩa: Vậy à. Vậy tôi sẽ đến đó.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="9" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -928,40 +1057,6 @@ Nghĩa: Được chứ.</pre>
                   <p class="explanation" hidden>Người kia muốn mua điện thoại và nghe nói cửa hàng trước ga rẻ.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">きれいな庭ですね、山田さん。
-Romaji: Kirei na niwa desu ne, Yamada-san.
-Nghĩa: Khu vườn đẹp nhỉ, anh/chị Yamada.
-
-そうですね。写真を撮りましょう。
-Romaji: Sou desu ne. Shashin o torimashou.
-Nghĩa: Đúng vậy. Hãy chụp ảnh.
-
-えっ、カメラですか。
-Romaji: E, kamera desu ka.
-Nghĩa: Ơ, bằng máy ảnh à?
-
-いいえ、携帯電話です。
-Romaji: Iie, keitai denwa desu.
-Nghĩa: Không, bằng điện thoại di động.
-
-便利ですね。私は欲しいです。どこで売っていますか。
-Romaji: Benri desu ne. Watashi wa hoshii desu. Doko de utte imasu ka.
-Nghĩa: Tiện thật nhỉ. Tôi muốn có. Bán ở đâu?
-
-私はデパートで買いましたが、高かったです。
-Romaji: Watashi wa depaato de kaimashita ga, takakatta desu.
-Nghĩa: Tôi mua ở trung tâm thương mại, nhưng đắt.
-
-駅の前のショップは安いですよ。
-Romaji: Eki no mae no shoppu wa yasui desu yo.
-Nghĩa: Cửa hàng trước ga thì rẻ đấy.
-
-そうですか。じゃ、そこへ行きます。
-Romaji: Sou desu ka. Ja, soko e ikimasu.
-Nghĩa: Vậy à. Vậy tôi sẽ đến đó.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-10" data-segment="9">
@@ -971,6 +1066,10 @@ Nghĩa: Vậy à. Vậy tôi sẽ đến đó.</pre>
                 <p class="time">11:03.000 - 11:49.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 10</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-10">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -978,6 +1077,50 @@ Nghĩa: Vậy à. Vậy tôi sẽ đến đó.</pre>
                   <audio preload="metadata" src="audio/lesson-15/segment_010.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-10">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 010</p>
+                    <h3>Script - Đoạn 10</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">ミラーさんはパーティーに行きました。素敵な人に会いました。
+Romaji: Miraa-san wa paatii ni ikimashita. Suteki na hito ni aimashita.
+Nghĩa: Anh Miller đã đi tiệc. Anh ấy gặp một người tuyệt vời.
+
+どんな人ですか。
+Romaji: Donna hito desu ka.
+Nghĩa: Đó là người như thế nào?
+
+はじめまして、ミラーです。アメリカから来ました。
+Romaji: Hajimemashite, Miraa desu. Amerika kara kimashita.
+Nghĩa: Rất vui được gặp, tôi là Miller. Tôi đến từ Mỹ.
+
+IMCの社員です。
+Romaji: IMC no shain desu.
+Nghĩa: Tôi là nhân viên công ty IMC.
+
+はじめまして、源光です。アジアテレビで働いています。
+Romaji: Hajimemashite, Minamoto Hikaru desu. Ajia Terebi de hataraite imasu.
+Nghĩa: Rất vui được gặp, tôi là Minamoto Hikaru. Tôi làm việc ở Asia TV.
+
+源光さん、きれいな名前ですね。
+Romaji: Minamoto Hikaru-san, kirei na namae desu ne.
+Nghĩa: Chị Minamoto Hikaru, tên đẹp nhỉ.
+
+失礼ですが、結婚していますか。
+Romaji: Shitsurei desu ga, kekkon shite imasu ka.
+Nghĩa: Xin lỗi, chị đã kết hôn chưa?
+
+いいえ、独身です。
+Romaji: Iie, dokushin desu.
+Nghĩa: Chưa, tôi độc thân.
+
+私も独身です。
+Romaji: Watashi mo dokushin desu.
+Nghĩa: Tôi cũng độc thân.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="10" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -1026,44 +1169,6 @@ Nghĩa: Vậy à. Vậy tôi sẽ đến đó.</pre>
                   <p class="explanation" hidden>源光さん làm ở アジアテレビ và nói 独身です.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">ミラーさんはパーティーに行きました。素敵な人に会いました。
-Romaji: Miraa-san wa paatii ni ikimashita. Suteki na hito ni aimashita.
-Nghĩa: Anh Miller đã đi tiệc. Anh ấy gặp một người tuyệt vời.
-
-どんな人ですか。
-Romaji: Donna hito desu ka.
-Nghĩa: Đó là người như thế nào?
-
-はじめまして、ミラーです。アメリカから来ました。
-Romaji: Hajimemashite, Miraa desu. Amerika kara kimashita.
-Nghĩa: Rất vui được gặp, tôi là Miller. Tôi đến từ Mỹ.
-
-IMCの社員です。
-Romaji: IMC no shain desu.
-Nghĩa: Tôi là nhân viên công ty IMC.
-
-はじめまして、源光です。アジアテレビで働いています。
-Romaji: Hajimemashite, Minamoto Hikaru desu. Ajia Terebi de hataraite imasu.
-Nghĩa: Rất vui được gặp, tôi là Minamoto Hikaru. Tôi làm việc ở Asia TV.
-
-源光さん、きれいな名前ですね。
-Romaji: Minamoto Hikaru-san, kirei na namae desu ne.
-Nghĩa: Chị Minamoto Hikaru, tên đẹp nhỉ.
-
-失礼ですが、結婚していますか。
-Romaji: Shitsurei desu ga, kekkon shite imasu ka.
-Nghĩa: Xin lỗi, chị đã kết hôn chưa?
-
-いいえ、独身です。
-Romaji: Iie, dokushin desu.
-Nghĩa: Chưa, tôi độc thân.
-
-私も独身です。
-Romaji: Watashi mo dokushin desu.
-Nghĩa: Tôi cũng độc thân.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-11" data-segment="10">
@@ -1073,6 +1178,10 @@ Nghĩa: Tôi cũng độc thân.</pre>
                 <p class="time">11:49.000 - 12:12.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 11</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-11">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -1080,6 +1189,38 @@ Nghĩa: Tôi cũng độc thân.</pre>
                   <audio preload="metadata" src="audio/lesson-15/segment_011.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-11">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 011</p>
+                    <h3>Script - Đoạn 11</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">源さんは兄弟がいますか。
+Romaji: Minamoto-san wa kyoudai ga imasu ka.
+Nghĩa: Chị Minamoto có anh chị em không?
+
+私は姉が1人います。
+Romaji: Watashi wa ane ga hitori imasu.
+Nghĩa: Tôi có một chị gái.
+
+姉はロンドンです。
+Romaji: Ane wa Rondon desu.
+Nghĩa: Chị tôi ở London.
+
+両親はニューヨークに住んでいます。
+Romaji: Ryoushin wa Nyuuyooku ni sunde imasu.
+Nghĩa: Bố mẹ tôi sống ở New York.
+
+私は兄が1人います。大学で英語を教えています。
+Romaji: Watashi wa ani ga hitori imasu. Daigaku de eigo o oshiete imasu.
+Nghĩa: Tôi có một anh trai. Anh ấy dạy tiếng Anh ở đại học.
+
+今、兄と一緒に住んでいます。
+Romaji: Ima, ani to issho ni sunde imasu.
+Nghĩa: Bây giờ tôi đang sống cùng anh trai.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="11" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -1128,32 +1269,6 @@ Nghĩa: Tôi cũng độc thân.</pre>
                   <p class="explanation" hidden>源さん nói 私は姉が1人います.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">源さんは兄弟がいますか。
-Romaji: Minamoto-san wa kyoudai ga imasu ka.
-Nghĩa: Chị Minamoto có anh chị em không?
-
-私は姉が1人います。
-Romaji: Watashi wa ane ga hitori imasu.
-Nghĩa: Tôi có một chị gái.
-
-姉はロンドンです。
-Romaji: Ane wa Rondon desu.
-Nghĩa: Chị tôi ở London.
-
-両親はニューヨークに住んでいます。
-Romaji: Ryoushin wa Nyuuyooku ni sunde imasu.
-Nghĩa: Bố mẹ tôi sống ở New York.
-
-私は兄が1人います。大学で英語を教えています。
-Romaji: Watashi wa ani ga hitori imasu. Daigaku de eigo o oshiete imasu.
-Nghĩa: Tôi có một anh trai. Anh ấy dạy tiếng Anh ở đại học.
-
-今、兄と一緒に住んでいます。
-Romaji: Ima, ani to issho ni sunde imasu.
-Nghĩa: Bây giờ tôi đang sống cùng anh trai.</pre>
-              </details>
             </article>
             
             <article class="segment-card" id="segment-12" data-segment="11">
@@ -1163,6 +1278,10 @@ Nghĩa: Bây giờ tôi đang sống cùng anh trai.</pre>
                 <p class="time">12:12.000 - 12:41.000</p>
               </div>
               <div class="audio-shell">
+                <div class="audio-topline">
+                  <span>Audio đoạn 12</span>
+                  <button class="script-open" type="button" data-dialog="script-dialog-12">Xem script</button>
+                </div>
                 <div class="audio-player">
                   <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
                   <span class="audio-time">0:00</span>
@@ -1170,6 +1289,50 @@ Nghĩa: Bây giờ tôi đang sống cùng anh trai.</pre>
                   <audio preload="metadata" src="audio/lesson-15/segment_012.mp3"></audio>
                 </div>
               </div>
+              <dialog class="script-dialog" id="script-dialog-12">
+                <div class="dialog-head">
+                  <div>
+                    <p class="eyebrow">Segment 012</p>
+                    <h3>Script - Đoạn 12</h3>
+                  </div>
+                  <button class="script-close" type="button" aria-label="Đóng script">Đóng</button>
+                </div>
+                <pre class="script-text">源さんは海が好きですか。
+Romaji: Minamoto-san wa umi ga suki desu ka.
+Nghĩa: Chị Minamoto thích biển không?
+
+私も海が好きです。日曜日、一緒に海を見に行きませんか。
+Romaji: Watashi mo umi ga suki desu. Nichiyoubi, issho ni umi o mi ni ikimasen ka.
+Nghĩa: Tôi cũng thích biển. Chủ Nhật cùng đi ngắm biển không?
+
+いいですね。
+Romaji: Ii desu ne.
+Nghĩa: Hay đấy.
+
+源さん、携帯電話を持っていますか。
+Romaji: Minamoto-san, keitai denwa o motte imasu ka.
+Nghĩa: Chị Minamoto có điện thoại di động không?
+
+はい。
+Romaji: Hai.
+Nghĩa: Có.
+
+これ、私の番号です。
+Romaji: Kore, watashi no bangou desu.
+Nghĩa: Đây là số của tôi.
+
+ありがとうございます。
+Romaji: Arigatou gozaimasu.
+Nghĩa: Cảm ơn.
+
+電話をかけてもいいですか。
+Romaji: Denwa o kakete mo ii desu ka.
+Nghĩa: Tôi gọi điện được không?
+
+ええ、いいですよ。
+Romaji: Ee, ii desu yo.
+Nghĩa: Vâng, được chứ.</pre>
+              </dialog>
               
                 <section class="quiz" data-question="12" data-answer="A">
                   <h3>Câu hỏi 1</h3>
@@ -1218,44 +1381,6 @@ Nghĩa: Bây giờ tôi đang sống cùng anh trai.</pre>
                   <p class="explanation" hidden>Miller rủ 源さん Chủ Nhật đi ngắm biển và cô ấy đồng ý.</p>
                 </section>
                 
-              <details class="script-panel">
-                <summary>Xem script</summary>
-                <pre class="script-text">源さんは海が好きですか。
-Romaji: Minamoto-san wa umi ga suki desu ka.
-Nghĩa: Chị Minamoto thích biển không?
-
-私も海が好きです。日曜日、一緒に海を見に行きませんか。
-Romaji: Watashi mo umi ga suki desu. Nichiyoubi, issho ni umi o mi ni ikimasen ka.
-Nghĩa: Tôi cũng thích biển. Chủ Nhật cùng đi ngắm biển không?
-
-いいですね。
-Romaji: Ii desu ne.
-Nghĩa: Hay đấy.
-
-源さん、携帯電話を持っていますか。
-Romaji: Minamoto-san, keitai denwa o motte imasu ka.
-Nghĩa: Chị Minamoto có điện thoại di động không?
-
-はい。
-Romaji: Hai.
-Nghĩa: Có.
-
-これ、私の番号です。
-Romaji: Kore, watashi no bangou desu.
-Nghĩa: Đây là số của tôi.
-
-ありがとうございます。
-Romaji: Arigatou gozaimasu.
-Nghĩa: Cảm ơn.
-
-電話をかけてもいいですか。
-Romaji: Denwa o kakete mo ii desu ka.
-Nghĩa: Tôi gọi điện được không?
-
-ええ、いいですよ。
-Romaji: Ee, ii desu yo.
-Nghĩa: Vâng, được chứ.</pre>
-              </details>
             </article>
             
   </main>
@@ -1274,6 +1399,10 @@ Nghĩa: Vâng, được chứ.</pre>
     function updateScore() {
       const correct = Object.values(state).filter(Boolean).length;
       document.getElementById("score").textContent = `${correct}/${totalQuestions}`;
+    }
+    function closeDialog(dialog) {
+      if (typeof dialog.close === "function") dialog.close();
+      else dialog.removeAttribute("open");
     }
     const observer = new IntersectionObserver((entries) => {
       const visible = entries
@@ -1312,6 +1441,26 @@ Nghĩa: Vâng, được chứ.</pre>
       progress.addEventListener("input", () => {
         if (!audio.duration) return;
         audio.currentTime = (Number(progress.value) / 100) * audio.duration;
+      });
+    });
+    document.querySelectorAll(".script-open").forEach((button) => {
+      button.addEventListener("click", () => {
+        const dialog = document.getElementById(button.dataset.dialog);
+        if (!dialog) return;
+        if (typeof dialog.showModal === "function") dialog.showModal();
+        else dialog.setAttribute("open", "");
+      });
+    });
+    document.querySelectorAll(".script-dialog").forEach((dialog) => {
+      dialog.querySelector(".script-close").addEventListener("click", () => closeDialog(dialog));
+      dialog.addEventListener("click", (event) => {
+        const rect = dialog.getBoundingClientRect();
+        const inDialog =
+          event.clientX >= rect.left &&
+          event.clientX <= rect.right &&
+          event.clientY >= rect.top &&
+          event.clientY <= rect.bottom;
+        if (!inDialog) closeDialog(dialog);
       });
     });
     document.querySelectorAll(".check-answer").forEach((button) => {
