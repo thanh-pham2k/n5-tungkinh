@@ -31,6 +31,7 @@
     selectedParentKey: "",
     selectedGroupIndex: 0,
     selectedAnswers: new Map(),
+    renderedOptions: new Map(),
   };
 
   const root = document.getElementById("final-review-quiz");
@@ -228,6 +229,7 @@
   };
 
   const answerKey = (group, question) => `${group.fileName}:${question.questionNo}`;
+  const OPTION_LABELS = ["A", "B", "C", "D"];
 
   const REVIEW_PROMPT = `Bạn là gia sư JLPT N5.
 
@@ -252,7 +254,26 @@ Dữ liệu bài làm:
       return "chưa chọn";
     }
 
-    return `${selected}. ${question.options[selected] || ""}`.trim();
+    const renderedOptions = state.renderedOptions.get(answerKey(group, question)) || question.options;
+    return `${selected}. ${renderedOptions[selected] || ""}`.trim();
+  };
+
+  const getRenderedOptions = (group, question) => {
+    return state.renderedOptions.get(answerKey(group, question)) || question.options;
+  };
+
+  const shuffleOptions = (question) => {
+    const entries = OPTION_LABELS.map((label) => [label, question.options[label] || ""]);
+
+    for (let index = entries.length - 1; index > 0; index -= 1) {
+      const randomIndex = Math.floor(Math.random() * (index + 1));
+      [entries[index], entries[randomIndex]] = [entries[randomIndex], entries[index]];
+    }
+
+    return OPTION_LABELS.reduce((options, label, index) => {
+      options[label] = entries[index][1];
+      return options;
+    }, {});
   };
 
   const buildReviewCopyText = (group) => {
@@ -267,16 +288,17 @@ Dữ liệu bài làm:
     ];
 
     group.questions.forEach((question, index) => {
+      const renderedOptions = getRenderedOptions(group, question);
       lines.push(
         "",
         `Câu ${index + 1}:`,
         `Tiếng Nhật: ${question.questionJp}`,
         `Romaji: ${question.romaji || ""}`,
         `Nghĩa tiếng Việt: ${question.meaningVi || ""}`,
-        `A. ${question.options.A || ""}`,
-        `B. ${question.options.B || ""}`,
-        `C. ${question.options.C || ""}`,
-        `D. ${question.options.D || ""}`,
+        `A. ${renderedOptions.A || ""}`,
+        `B. ${renderedOptions.B || ""}`,
+        `C. ${renderedOptions.C || ""}`,
+        `D. ${renderedOptions.D || ""}`,
         `Tôi chọn: ${getSelectedAnswerLabel(group, question)}`
       );
     });
@@ -527,7 +549,9 @@ Dữ liệu bài làm:
 
     const options = document.createElement("div");
     options.className = "quiz-options";
-    Object.entries(question.options).forEach(([optionKey, optionText]) => {
+    const renderedOptions = shuffleOptions(question);
+    state.renderedOptions.set(answerKey(group, question), renderedOptions);
+    Object.entries(renderedOptions).forEach(([optionKey, optionText]) => {
       options.appendChild(createOption(group, question, optionKey, optionText));
     });
 
