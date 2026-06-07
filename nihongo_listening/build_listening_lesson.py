@@ -19,6 +19,7 @@ OUTPUT_ROOT = BASE_DIR / "output"
 START_PADDING_MS = 0
 END_PADDING_MS = 0
 LAST_SEGMENT_TAIL_MS = 8000
+SEEK_STEP_SECONDS = 3
 SUPPORTED_AUDIO_EXTS = {".mp3", ".wav", ".m4a", ".aac", ".flac", ".ogg"}
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -553,6 +554,10 @@ def generate_index_html(
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/{html.escape(segment.audio_file)}"></audio>
                 </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi {SEEK_STEP_SECONDS}s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới {SEEK_STEP_SECONDS}s</button>
+                </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-{index + 1}">
                 <div class="dialog-head">
@@ -621,6 +626,8 @@ def generate_index_html(
     .play-audio {{ width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }}
     .audio-time {{ color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }}
     .audio-progress {{ width: 100%; min-width: 0; accent-color: var(--primary); }}
+    .audio-seek-controls {{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 6px; }}
+    .seek-audio {{ min-height: 34px; padding: 6px 10px; background: #fff; color: var(--primary); font-size: 12px; }}
     audio {{ display: none; }}
     .quiz {{ padding-top: 2px; }}
     .quiz + .quiz {{ margin-top: 12px; border-top: 1px solid var(--line); padding-top: 12px; }}
@@ -688,6 +695,7 @@ def generate_index_html(
   <script>
     const totalSegments = {len(segments)};
     const totalQuestions = {total_questions};
+    const seekStepSeconds = {SEEK_STEP_SECONDS};
     const state = {{}};
     const currentSegment = document.getElementById("current-segment");
     const repeatToggle = document.getElementById("repeat-audio");
@@ -720,10 +728,16 @@ def generate_index_html(
     }}, {{ rootMargin: "-90px 0px -55% 0px", threshold: [0.2, 0.45, 0.7] }});
     document.querySelectorAll(".segment-card").forEach((card) => observer.observe(card));
     document.querySelectorAll(".audio-player").forEach((player) => {{
+      const shell = player.closest(".audio-shell");
       const audio = player.querySelector("audio");
       const playButton = player.querySelector(".play-audio");
       const progress = player.querySelector(".audio-progress");
       const time = player.querySelector(".audio-time");
+      const seekButtons = shell.querySelectorAll(".seek-audio");
+      function syncAudioUi() {{
+        if (audio.duration) progress.value = String((audio.currentTime / audio.duration) * 100);
+        time.textContent = `${{formatTime(audio.currentTime)}} / ${{formatTime(audio.duration)}}`;
+      }}
       playButton.addEventListener("click", () => {{
         document.querySelectorAll("audio").forEach((other) => {{
           if (other !== audio) other.pause();
@@ -737,8 +751,7 @@ def generate_index_html(
         time.textContent = `0:00 / ${{formatTime(audio.duration)}}`;
       }});
       audio.addEventListener("timeupdate", () => {{
-        if (audio.duration) progress.value = String((audio.currentTime / audio.duration) * 100);
-        time.textContent = `${{formatTime(audio.currentTime)}} / ${{formatTime(audio.duration)}}`;
+        syncAudioUi();
       }});
       audio.addEventListener("ended", () => {{
         if (repeatEnabled) {{
@@ -753,6 +766,15 @@ def generate_index_html(
       progress.addEventListener("input", () => {{
         if (!audio.duration) return;
         audio.currentTime = (Number(progress.value) / 100) * audio.duration;
+      }});
+      seekButtons.forEach((button) => {{
+        button.addEventListener("click", () => {{
+          if (!audio.duration) return;
+          const direction = Number(button.dataset.seek);
+          const nextTime = audio.currentTime + direction * seekStepSeconds;
+          audio.currentTime = Math.min(Math.max(nextTime, 0), audio.duration);
+          syncAudioUi();
+        }});
       }});
     }});
     document.querySelectorAll(".script-open").forEach((button) => {{

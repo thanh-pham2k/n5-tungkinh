@@ -49,6 +49,8 @@
     .play-audio { width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }
     .audio-time { color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }
     .audio-progress { width: 100%; min-width: 0; accent-color: var(--primary); }
+    .audio-seek-controls { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 6px; }
+    .seek-audio { min-height: 34px; padding: 6px 10px; background: #fff; color: var(--primary); font-size: 12px; }
     audio { display: none; }
     .quiz { padding-top: 2px; }
     .quiz + .quiz { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 12px; }
@@ -204,6 +206,10 @@
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_001.mp3"></audio>
                 </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
+                </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-1">
                 <div class="dialog-head">
@@ -300,6 +306,10 @@ Nghĩa: Là bệnh viện à?</pre>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_002.mp3"></audio>
                 </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
+                </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-2">
                 <div class="dialog-head">
@@ -391,6 +401,10 @@ Nghĩa: Chỗ kia là nhà ăn.</pre>
                   <span class="audio-time">0:00</span>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_003.mp3"></audio>
+                </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
                 </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-3">
@@ -488,6 +502,10 @@ Nghĩa: Chỗ kia là phòng học.</pre>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_004.mp3"></audio>
                 </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
+                </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-4">
                 <div class="dialog-head">
@@ -579,6 +597,10 @@ Nghĩa: Là phòng của thầy/cô Ahmad à?</pre>
                   <span class="audio-time">0:00</span>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_005.mp3"></audio>
+                </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
                 </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-5">
@@ -672,6 +694,10 @@ Nghĩa: Vậy à. Cảm ơn.</pre>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_006.mp3"></audio>
                 </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
+                </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-6">
                 <div class="dialog-head">
@@ -759,6 +785,10 @@ Nghĩa: Vâng. Phòng 403 nhỉ.</pre>
                   <span class="audio-time">0:00</span>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_007.mp3"></audio>
+                </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
                 </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-7">
@@ -852,6 +882,10 @@ Nghĩa: Vậy à.</pre>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_008.mp3"></audio>
                 </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
+                </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-8">
                 <div class="dialog-head">
@@ -943,6 +977,10 @@ Nghĩa: Ở tầng 2.</pre>
                   <span class="audio-time">0:00</span>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_009.mp3"></audio>
+                </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
                 </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-9">
@@ -1052,6 +1090,10 @@ Nghĩa: Vậy à. Rất mong được giúp đỡ.</pre>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_010.mp3"></audio>
                 </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
+                </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-10">
                 <div class="dialog-head">
@@ -1159,6 +1201,10 @@ Nghĩa: Chính tôi cũng mong được giúp đỡ.</pre>
                   <span class="audio-time">0:00</span>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_011.mp3"></audio>
+                </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
                 </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-11">
@@ -1323,6 +1369,10 @@ Nghĩa: Tôi cũng rất mong được giúp đỡ.</pre>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_012.mp3"></audio>
                 </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
+                </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-12">
                 <div class="dialog-head">
@@ -1470,6 +1520,10 @@ Nghĩa: Vậy cho tôi cái này.</pre>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_013.mp3"></audio>
                 </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
+                </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-13">
                 <div class="dialog-head">
@@ -1612,6 +1666,10 @@ Nghĩa: Vậy à.</pre>
                   <span class="audio-time">0:00</span>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_014.mp3"></audio>
+                </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
                 </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-14">
@@ -1760,6 +1818,10 @@ Nghĩa: 98.000 yên.</pre>
                   <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
                   <audio preload="metadata" src="audio/segment_015.mp3"></audio>
                 </div>
+                <div class="audio-seek-controls" aria-label="Tua audio">
+                  <button class="seek-audio" type="button" data-seek="-1">Lùi 3s</button>
+                  <button class="seek-audio" type="button" data-seek="1">Tới 3s</button>
+                </div>
               </div>
               <dialog class="script-dialog" id="script-dialog-15">
                 <div class="dialog-head">
@@ -1902,6 +1964,7 @@ Nghĩa: 18.500 yên à. Vậy cho tôi cái này.</pre>
   <script>
     const totalSegments = 15;
     const totalQuestions = 20;
+    const seekStepSeconds = 3;
     const state = {};
     const currentSegment = document.getElementById("current-segment");
     const repeatToggle = document.getElementById("repeat-audio");
@@ -1934,10 +1997,16 @@ Nghĩa: 18.500 yên à. Vậy cho tôi cái này.</pre>
     }, { rootMargin: "-90px 0px -55% 0px", threshold: [0.2, 0.45, 0.7] });
     document.querySelectorAll(".segment-card").forEach((card) => observer.observe(card));
     document.querySelectorAll(".audio-player").forEach((player) => {
+      const shell = player.closest(".audio-shell");
       const audio = player.querySelector("audio");
       const playButton = player.querySelector(".play-audio");
       const progress = player.querySelector(".audio-progress");
       const time = player.querySelector(".audio-time");
+      const seekButtons = shell.querySelectorAll(".seek-audio");
+      function syncAudioUi() {
+        if (audio.duration) progress.value = String((audio.currentTime / audio.duration) * 100);
+        time.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+      }
       playButton.addEventListener("click", () => {
         document.querySelectorAll("audio").forEach((other) => {
           if (other !== audio) other.pause();
@@ -1951,8 +2020,7 @@ Nghĩa: 18.500 yên à. Vậy cho tôi cái này.</pre>
         time.textContent = `0:00 / ${formatTime(audio.duration)}`;
       });
       audio.addEventListener("timeupdate", () => {
-        if (audio.duration) progress.value = String((audio.currentTime / audio.duration) * 100);
-        time.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
+        syncAudioUi();
       });
       audio.addEventListener("ended", () => {
         if (repeatEnabled) {
@@ -1967,6 +2035,15 @@ Nghĩa: 18.500 yên à. Vậy cho tôi cái này.</pre>
       progress.addEventListener("input", () => {
         if (!audio.duration) return;
         audio.currentTime = (Number(progress.value) / 100) * audio.duration;
+      });
+      seekButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          if (!audio.duration) return;
+          const direction = Number(button.dataset.seek);
+          const nextTime = audio.currentTime + direction * seekStepSeconds;
+          audio.currentTime = Math.min(Math.max(nextTime, 0), audio.duration);
+          syncAudioUi();
+        });
       });
     });
     document.querySelectorAll(".script-open").forEach((button) => {
