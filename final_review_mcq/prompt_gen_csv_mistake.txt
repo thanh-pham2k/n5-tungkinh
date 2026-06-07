@@ -1,88 +1,142 @@
+Dưới đây là bản prompt đã điều chỉnh, nhấn mạnh rõ: **không lặp lại câu cũ**, **không dùng y chang từ vựng cũ nếu đó là bài tập từ vựng**, mà phải tạo **câu tương tự với từ vựng cùng chủ đề / cùng nhóm nghĩa / cùng trình độ JLPT N5**.
+
+---
+
 Bạn là gia sư JLPT N5 và người tạo dữ liệu CSV cho app trắc nghiệm.
 
-Nhiệm vụ:
+## Nhiệm vụ
+
 Từ danh sách bài tập tôi đã làm, gồm cả câu đúng và câu sai, hãy tạo nhiều file CSV để tôi ôn tập lại.
 
-Mục tiêu ôn tập:
+## Mục tiêu ôn tập
+
 1. Tạo bài tập tương tự với toàn bộ câu tôi đã làm.
 2. Ưu tiên luyện kỹ hơn các câu tôi đã sai.
-3. Ôn lại từ vựng xuất hiện trong bài trước đó.
-4. Ôn lại từ vựng trong các câu tôi đã sai.
+3. Ôn lại chủ điểm từ vựng xuất hiện trong bài trước đó.
+4. Ôn lại nhóm từ vựng liên quan đến các câu tôi đã sai.
 5. Ôn lại ngữ pháp, trợ từ, mẫu câu, Kanji/Kana N5 dễ nhầm.
-6. Không copy y nguyên 100%; hãy tạo câu tương tự để luyện lại.
+6. Không copy y nguyên câu gốc.
+7. Không chỉ thay 1–2 chữ nhỏ trong câu gốc.
+8. Nếu là bài tập từ vựng, không dùng lại y chang từ vựng đã xuất hiện trong câu gốc; hãy dùng từ vựng khác nhưng cùng chủ đề, cùng nhóm nghĩa, cùng trình độ JLPT N5.
 
-Input tôi sẽ cung cấp:
-- Danh sách câu hỏi gốc.
-- Đáp án tôi đã chọn.
-- Đáp án đúng.
-- Đúng/Sai.
-- Giải thích ngắn nếu có.
-- Từ vựng/ngữ pháp cần ôn nếu có.
+## Input tôi sẽ cung cấp
 
-Nguyên tắc tạo bài:
-- Câu sai: tạo nhiều câu tương tự hơn để luyện kỹ.
-- Câu đúng: vẫn tạo câu ôn tập lại nhưng ít hơn.
-- Từ vựng đã sai hoặc dễ nhầm: tạo thêm câu hỏi riêng để ôn.
-- Ngữ pháp đã sai hoặc dễ nhầm: tạo thêm câu hỏi riêng để ôn.
-- Đáp án nhiễu phải gần nghĩa, gần âm, hoặc cùng nhóm ngữ pháp để dễ luyện phản xạ.
-- Chỉ dùng trình độ JLPT N5.
-- Ưu tiên từ vựng Minna no Nihongo bài liên quan.
-- Câu ngắn, tự nhiên, dễ hiểu.
-- Mỗi câu chỉ kiểm tra 1 điểm chính.
+* Danh sách câu hỏi gốc.
+* Đáp án tôi đã chọn.
+* Đáp án đúng.
+* Đúng/Sai.
+* Giải thích ngắn nếu có.
+* Từ vựng/ngữ pháp cần ôn nếu có.
 
-Mục tiêu:
-- Chỉ tạo dữ liệu câu hỏi.
-- Không tạo app.
-- Không viết code.
-- Không xử lý chọn đáp án.
-- Không kiểm tra đúng/sai.
-- Không thêm đáp án đúng.
-- Không thêm cột correct_answer.
-- Không thêm cột explanation.
-- Mỗi nhóm bài tách thành một file CSV riêng.
-- Không gom tất cả vào một file.
+## Nguyên tắc tạo bài
 
-Mỗi file CSV cần có đúng các cột sau:
+* Câu sai: tạo nhiều câu tương tự hơn để luyện kỹ.
+* Câu đúng: vẫn tạo câu ôn tập lại nhưng ít hơn.
+* Từ vựng đã sai hoặc dễ nhầm: tạo thêm câu hỏi riêng để ôn.
+* Ngữ pháp đã sai hoặc dễ nhầm: tạo thêm câu hỏi riêng để ôn.
+* Không lặp lại nguyên văn câu gốc.
+* Không tạo câu gần như giống câu gốc chỉ thay tên người, địa điểm hoặc một danh từ đơn giản.
+* Phải tạo câu mới tự nhiên, khác cấu trúc bề mặt nhưng vẫn luyện cùng điểm kiến thức.
+* Nếu câu gốc kiểm tra ngữ pháp/trợ từ/mẫu câu: có thể giữ cùng điểm ngữ pháp, nhưng phải đổi tình huống, đổi từ vựng và đổi cách diễn đạt.
+* Nếu câu gốc kiểm tra từ vựng: không dùng lại đúng từ vựng đã được hỏi; hãy chọn từ khác cùng chủ đề, cùng nhóm nghĩa hoặc dễ nhầm ở trình độ JLPT N5.
+* Nếu ôn lại từ vựng trong bài cũ: không hỏi lại y chang từ đó theo cùng cách; hãy dùng từ cùng chủ đề hoặc biến đổi dạng câu hỏi.
+* Đáp án nhiễu phải gần nghĩa, gần âm, cùng nhóm từ vựng, hoặc cùng nhóm ngữ pháp để luyện phản xạ.
+* Chỉ dùng trình độ JLPT N5.
+* Ưu tiên từ vựng Minna no Nihongo bài liên quan.
+* Câu ngắn, tự nhiên, dễ hiểu.
+* Mỗi câu chỉ kiểm tra 1 điểm chính.
+* Không dùng từ vựng, Kanji hoặc mẫu câu vượt quá JLPT N5 nếu không cần thiết.
+* Nếu dùng Kanji, ưu tiên Kanji N5 kèm ngữ cảnh dễ hiểu.
 
+## Quy tắc chống lặp lại câu gốc
+
+Khi tạo câu mới, bắt buộc tuân thủ:
+
+1. Không copy nguyên câu gốc.
+2. Không giữ nguyên hơn 50% nội dung câu gốc.
+3. Không giữ nguyên cả tình huống, chủ ngữ, động từ và danh từ chính cùng lúc.
+4. Không dùng lại chính xác từ vựng được kiểm tra nếu nhóm bài là ôn tập từ vựng.
+5. Có thể luyện cùng chủ điểm, nhưng phải đổi ví dụ.
+
+Ví dụ:
+
+Câu gốc:
+「つくえの上に本があります。」
+
+Không nên tạo:
+「つくえの上にノートがあります。」
+vì quá giống câu gốc.
+
+Nên tạo:
+「いすの下＿＿かばんがあります。」
+vì vẫn luyện vị trí + あります, nhưng đổi tình huống và từ vựng.
+
+Câu gốc kiểm tra từ vựng:
+「パンを食べます。」
+
+Không nên tạo lại câu hỏi với chính từ 「パン」.
+Nên dùng từ cùng chủ đề như 「ごはん」「たまご」「さかな」「みず」 tùy bài học và trình độ.
+
+## Mục tiêu output
+
+* Chỉ tạo dữ liệu câu hỏi.
+* Không tạo app.
+* Không viết code.
+* Không xử lý chọn đáp án.
+* Không kiểm tra đúng/sai.
+* Không thêm đáp án đúng.
+* Không thêm cột correct_answer.
+* Không thêm cột explanation.
+* Mỗi nhóm bài tách thành một file CSV riêng.
+* Không gom tất cả vào một file.
+
+## Mỗi file CSV cần có đúng các cột sau
+
+```csv
 group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
+```
 
-Ý nghĩa từng cột:
-- group_id: ID nhóm bài.
-- group_title: Tên nhóm bài.
-- lesson: Bài Minna no Nihongo liên quan, nếu không chắc thì ghi "JLPT N5".
-- question_no: Số thứ tự câu hỏi trong file.
-- question_jp: Câu hỏi tiếng Nhật, dùng ＿＿ cho vị trí cần chọn.
-- romaji: Romaji của câu hỏi.
-- meaning_vi: Nghĩa tiếng Việt.
-- option_a, option_b, option_c, option_d: 4 đáp án lựa chọn.
+## Ý nghĩa từng cột
 
-Yêu cầu phân nhóm file CSV:
+* group_id: ID nhóm bài.
+* group_title: Tên nhóm bài.
+* lesson: Bài Minna no Nihongo liên quan, nếu không chắc thì ghi "JLPT N5".
+* question_no: Số thứ tự câu hỏi trong file.
+* question_jp: Câu hỏi tiếng Nhật, dùng ＿＿ cho vị trí cần chọn.
+* romaji: Romaji của câu hỏi.
+* meaning_vi: Nghĩa tiếng Việt.
+* option_a, option_b, option_c, option_d: 4 đáp án lựa chọn.
+
+## Yêu cầu phân nhóm file CSV
+
 Hãy tự chia thành nhiều file theo nhóm ôn tập phù hợp:
 
-- Ôn tập câu đã sai
-- Ôn tập câu đã đúng
-- Ôn tập từ vựng trong câu sai
-- Ôn tập từ vựng thường gặp
-- Ôn tập trợ từ
-- Ôn tập động từ
-- Ôn tập tính từ い / な
-- Ôn tập mẫu câu JLPT N5
-- Ôn tập Kanji/Kana dễ nhầm
-- Ôn tập tổng hợp
+* Ôn tập câu đã sai
+* Ôn tập câu đã đúng
+* Ôn tập từ vựng trong câu sai
+* Ôn tập từ vựng thường gặp
+* Ôn tập trợ từ
+* Ôn tập động từ
+* Ôn tập tính từ い / な
+* Ôn tập mẫu câu JLPT N5
+* Ôn tập Kanji/Kana dễ nhầm
+* Ôn tập tổng hợp
 
 Có thể đặt tên file như sau:
-- 01_on_tap_cau_sai.csv
-- 02_on_tap_cau_dung.csv
-- 03_on_tap_tu_vung_cau_sai.csv
-- 04_on_tap_tu_vung_thuong_gap.csv
-- 05_on_tap_tro_tu.csv
-- 06_on_tap_dong_tu.csv
-- 07_on_tap_tinh_tu.csv
-- 08_on_tap_mau_cau_n5.csv
-- 09_on_tap_kanji_kana.csv
-- 10_on_tap_tong_hop.csv
 
-Yêu cầu CSV:
+* 01_on_tap_cau_sai.csv
+* 02_on_tap_cau_dung.csv
+* 03_on_tap_tu_vung_cau_sai.csv
+* 04_on_tap_tu_vung_thuong_gap.csv
+* 05_on_tap_tro_tu.csv
+* 06_on_tap_dong_tu.csv
+* 07_on_tap_tinh_tu.csv
+* 08_on_tap_mau_cau_n5.csv
+* 09_on_tap_kanji_kana.csv
+* 10_on_tap_tong_hop.csv
+
+## Yêu cầu CSV
+
 1. Dòng đầu tiên là header.
 2. Mỗi dòng là một câu hỏi.
 3. Mỗi file CSV chỉ chứa một nhóm bài.
@@ -99,17 +153,26 @@ Yêu cầu CSV:
 14. Trước mỗi block code, ghi tên file CSV.
 15. Không giải thích thêm ngoài tên file và nội dung CSV.
 
-Yêu cầu số lượng câu:
-- Nếu có nhiều câu sai: ưu tiên tạo nhiều câu hơn cho nhóm câu sai.
-- Nếu có ít câu sai: vẫn tạo thêm câu tương tự để luyện.
-- Mỗi nhóm nên có khoảng 10–25 câu nếu dữ liệu đủ.
-- Không cần cố tạo đủ nếu input quá ít, nhưng phải tạo bài ôn hợp lý.
+## Yêu cầu số lượng câu
 
-Format output:
+* Nếu có nhiều câu sai: ưu tiên tạo nhiều câu hơn cho nhóm câu sai.
+* Nếu có ít câu sai: vẫn tạo thêm câu tương tự để luyện.
+* Mỗi nhóm nên có khoảng 10–25 câu nếu dữ liệu đủ.
+* Không cần cố tạo đủ nếu input quá ít, nhưng phải tạo bài ôn hợp lý.
+* Không tạo câu chỉ để đủ số lượng nếu câu đó bị lặp, quá giống câu gốc hoặc vượt quá JLPT N5.
+
+## Format output
 
 Tên file: 01_on_tap_cau_sai.csv
 
 ```csv
 group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,"Ôn tập câu đã sai","Mina bài 10",1,"つくえの上＿＿本があります。","Tsukue no ue ___ hon ga arimasu.","Có quyển sách ở trên bàn.","に","で","を","へ"
-1,"Ôn tập câu đã sai","Mina bài 10",2,"スーパー＿＿パンを買いました。","Suupaa ___ pan o kaimashita.","Tôi đã mua bánh mì ở siêu thị.","で","に","へ","を"
+1,"Ôn tập câu đã sai","Minna bài 10",1,"いすの下＿＿かばんがあります。","Isu no shita ___ kaban ga arimasu.","Có cái cặp ở dưới ghế.","に","で","を","へ"
+1,"Ôn tập câu đã sai","Minna bài 10",2,"コンビニ＿＿ジュースを買いました。","Konbini ___ juusu o kaimashita.","Tôi đã mua nước ép ở cửa hàng tiện lợi.","で","に","へ","を"
+```
+
+## Lưu ý quan trọng
+
+Chất lượng quan trọng hơn số lượng.
+Hãy tạo câu mới để luyện lại đúng điểm yếu, không tái sử dụng nguyên câu cũ.
+Với bài tập từ vựng, hãy ưu tiên **từ vựng cùng chủ đề nhưng không trùng y chang từ gốc**.

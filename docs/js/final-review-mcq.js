@@ -20,6 +20,10 @@
     "option_c",
     "option_d",
   ];
+  const PROGRESS_STORAGE_KEY = "finalReviewMcqProgress:v1";
+  const PROGRESS_EXPORT_VERSION = 1;
+  const REVIEW_TARGET_COUNT = 3;
+  const REVIEW_STALE_DAYS = 7;
 
   const config = {
     ...DEFAULT_CONFIG,
@@ -32,6 +36,7 @@
     selectedGroupIndex: 0,
     selectedAnswers: new Map(),
     renderedOptions: new Map(),
+    progress: new Map(),
   };
 
   const root = document.getElementById("final-review-quiz");
@@ -50,6 +55,168 @@
   const setStatus = (message, type = "info") => {
     status.textContent = message;
     status.dataset.type = type;
+  };
+
+  const loadProgress = () => {
+    try {
+      const raw = localStorage.getItem(PROGRESS_STORAGE_KEY);
+      if (!raw) {
+        return new Map();
+      }
+
+      const payload = JSON.parse(raw);
+      if (!Array.isArray(payload.items)) {
+        return new Map();
+      }
+
+      return new Map(
+        payload.items
+          .filter((item) => item && typeof item.fileName === "string")
+          .map((item) => [item.fileName, item])
+      );
+    } catch (error) {
+      console.warn(error);
+      return new Map();
+    }
+  };
+
+  const saveProgress = () => {
+    try {
+      const payload = {
+        version: PROGRESS_EXPORT_VERSION,
+        updatedAt: new Date().toISOString(),
+        items: Array.from(state.progress.values()).sort((a, b) => a.fileName.localeCompare(b.fileName, "en")),
+      };
+      localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(payload));
+    } catch (error) {
+      console.warn(error);
+    }
+  };
+
+  const getDefaultProgress = (group) => ({
+    fileName: group.fileName,
+    groupTitle: group.groupTitle,
+    lesson: group.lesson,
+    parentGroup: group.parentGroup.label,
+    questionCount: group.questions.length,
+    selectedCount: 0,
+    reviewCount: 0,
+    firstReviewedAt: "",
+    lastReviewedAt: "",
+  });
+
+  const getGroupProgress = (group) => ({
+    ...getDefaultProgress(group),
+    ...(state.progress.get(group.fileName) || {}),
+    groupTitle: group.groupTitle,
+    lesson: group.lesson,
+    parentGroup: group.parentGroup.label,
+    questionCount: group.questions.length,
+  });
+
+  const countSelectedAnswers = (group) => {
+    return group.questions.filter((question) => state.selectedAnswers.has(answerKey(group, question))).length;
+  };
+
+  const getReviewStatus = (progress) => {
+    if (!progress.reviewCount) {
+      return { label: "Chưa ôn", tone: "new" };
+    }
+
+    if (progress.reviewCount < REVIEW_TARGET_COUNT) {
+      return { label: "Nên ôn thêm", tone: "more" };
+    }
+
+    const lastReviewedAt = Date.parse(progress.lastReviewedAt || "");
+    const staleMs = REVIEW_STALE_DAYS * 24 * 60 * 60 * 1000;
+    if (!Number.isFinite(lastReviewedAt) || Date.now() - lastReviewedAt > staleMs) {
+      return { label: "Ôn lại", tone: "stale" };
+    }
+
+    return { label: "Ổn", tone: "ok" };
+  };
+
+  const formatShortDate = (isoString) => {
+    const date = new Date(isoString);
+    if (Number.isNaN(date.getTime())) {
+      return "chưa có";
+    }
+
+    return new Intl.DateTimeFormat("vi-VN", {
+      day: "2-digit",
+      month: "2-digit",
+    }).format(date);
+  };
+
+  const formatDateTime = (isoString) => {
+    const date = new Date(isoString);
+    if (Number.isNaN(date.getTime())) {
+      return "chưa có";
+    }
+
+    return new Intl.DateTimeFormat("vi-VN", {
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+    }).format(date);
+  };
+
+  const getChildOptionLabel = (group) => {
+    const progress = getGroupProgress(group);
+    if (!progress.reviewCount) {
+      return `${group.groupTitle} - Chưa ôn`;
+    }
+
+    const statusInfo = getReviewStatus(progress);
+    const statusLabel = statusInfo.tone === "ok" ? "" : ` - ${statusInfo.label}`;
+    return `${group.groupTitle}${statusLabel} - ${progress.reviewCount} lần - ${formatShortDate(progress.lastReviewedAt)}`;
+  };
+
+  const recordGroupReview = (group) => {
+    const existing = getGroupProgress(group);
+    const now = new Date().toISOString();
+    const progress = {
+      ...existing,
+      selectedCount: countSelectedAnswers(group),
+      reviewCount: Number(existing.reviewCount || 0) + 1,
+      firstReviewedAt: existing.firstReviewedAt || now,
+      lastReviewedAt: now,
+    };
+
+    state.progress.set(group.fileName, progress);
+    saveProgress();
+    return progress;
+  };
+
+  const buildProgressExportText = () => {
+    const itemsByFileName = new Map(state.progress);
+    state.groups.forEach((group) => {
+      itemsByFileName.set(group.fileName, getGroupProgress(group));
+    });
+
+    return JSON.stringify(
+      {
+        version: PROGRESS_EXPORT_VERSION,
+        exportedAt: new Date().toISOString(),
+        items: Array.from(itemsByFileName.values()).sort((a, b) => a.fileName.localeCompare(b.fileName, "en")),
+      },
+      null,
+      2
+    );
+  };
+
+  const downloadTextFile = (fileName, text) => {
+    const blob = new Blob([text], { type: "application/json;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
   };
 
   const getGithubContentsUrl = () => {
@@ -512,7 +679,7 @@ Dữ liệu bài làm:
     getGroupsInSelectedParent().forEach(({ group, index }) => {
       const option = document.createElement("option");
       option.value = String(index);
-      option.textContent = group.groupTitle;
+      option.textContent = getChildOptionLabel(group);
       option.selected = index === state.selectedGroupIndex;
       childSelect.appendChild(option);
     });
@@ -540,6 +707,7 @@ Dữ liệu bài làm:
     input.checked = state.selectedAnswers.get(answerKey(group, question)) === optionKey;
     input.addEventListener("change", () => {
       state.selectedAnswers.set(answerKey(group, question), optionKey);
+      updateCurrentProgressSummary(group);
     });
 
     const key = document.createElement("span");
@@ -628,6 +796,56 @@ Dữ liệu bài làm:
     result.hidden = false;
   };
 
+  const createProgressSummary = (group) => {
+    const progress = getGroupProgress(group);
+    const statusInfo = getReviewStatus(progress);
+    const summary = document.createElement("div");
+    summary.className = "quiz-progress-summary";
+
+    const badge = document.createElement("span");
+    badge.className = "quiz-progress-badge";
+    badge.dataset.tone = statusInfo.tone;
+    badge.textContent = statusInfo.label;
+
+    const count = document.createElement("span");
+    count.textContent = `Đã ôn ${progress.reviewCount || 0} lần`;
+
+    const latest = document.createElement("span");
+    latest.textContent = `Gần nhất: ${formatDateTime(progress.lastReviewedAt)}`;
+
+    const selected = document.createElement("span");
+    selected.textContent = `Đã chọn: ${countSelectedAnswers(group)}/${group.questions.length}`;
+
+    summary.append(badge, count, latest, selected);
+    return summary;
+  };
+
+  const updateCurrentProgressSummary = (group) => {
+    const header = document.querySelector(".quiz-header");
+    if (!header) {
+      return;
+    }
+
+    const summary = createProgressSummary(group);
+    const currentSummary = header.querySelector(".quiz-progress-summary");
+    if (currentSummary) {
+      currentSummary.replaceWith(summary);
+    } else {
+      header.appendChild(summary);
+    }
+  };
+
+  const createExportProgressButton = () => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "quiz-export-button";
+    button.textContent = "Export thống kê";
+    button.addEventListener("click", () => {
+      downloadTextFile("final-review-progress.json", buildProgressExportText());
+    });
+    return button;
+  };
+
   const renderQuiz = () => {
     const group = state.groups[state.selectedGroupIndex];
     renderGroupButtons();
@@ -647,7 +865,7 @@ Dữ liệu bài làm:
     meta.className = "quiz-meta";
     meta.textContent = `${group.lesson} - ${group.questions.length} câu`;
 
-    header.append(title, meta);
+    header.append(title, meta, createProgressSummary(group));
 
     const questions = document.createElement("div");
     questions.className = "quiz-questions";
@@ -663,6 +881,9 @@ Dữ liệu bài làm:
     submit.className = "primary";
     submit.textContent = "Xác nhận";
     submit.addEventListener("click", () => {
+      recordGroupReview(group);
+      renderGroupButtons();
+      updateCurrentProgressSummary(group);
       renderSelectedAnswers(group);
     });
 
@@ -671,7 +892,7 @@ Dữ liệu bài làm:
     result.className = "quiz-result";
     result.hidden = true;
 
-    actions.appendChild(submit);
+    actions.append(submit, createExportProgressButton());
     content.append(header, questions, actions, result);
   };
 
@@ -685,6 +906,7 @@ Dữ liệu bài làm:
       }
 
       state.groups = await Promise.all(fileNames.map(readCsvGroup));
+      state.progress = loadProgress();
       state.selectedParentKey = state.groups[0]?.parentGroup.key || "";
       selectFirstGroupInParent();
       renderQuiz();

@@ -46,6 +46,7 @@
     .audio-progress { width: 100%; min-width: 0; accent-color: var(--primary); }
     audio { display: none; }
     .quiz { padding-top: 2px; }
+    .quiz + .quiz { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 12px; }
     .quiz h3 { margin-bottom: 8px; font-size: 15px; }
     .question { margin-bottom: 3px; font-weight: 900; font-size: 16px; line-height: 1.35; }
     .subline { margin: 0 0 3px; color: var(--muted); font-size: 13px; }
@@ -89,7 +90,7 @@
     <div class="header-inner">
       <div class="header-row">
         <h1>JLPT N5 Listening - Bài 4</h1>
-        <div class="score" id="score">0/5</div>
+        <div class="score" id="score">0/14</div>
       </div>
       <p class="current-segment" id="current-segment">Đang ở đoạn 1/5</p>
     </div>
@@ -122,7 +123,7 @@
             </a>
             </nav>
     
-            <article class="segment-card" id="segment-1" data-segment="0" data-answer="A">
+            <article class="segment-card" id="segment-1" data-segment="0">
               <div class="segment-head">
                 <p class="eyebrow">Segment 001</p>
                 <h2>Đoạn 1</h2>
@@ -136,52 +137,148 @@
                   <audio preload="metadata" src="audio/segment_001.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">北京は今、何時ですか。</p>
-                <p class="subline">Pekin wa ima, nanji desu ka.</p>
-                <p class="subline">Bắc Kinh bây giờ là mấy giờ?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-0" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">1時半</span>
-                    <span class="option-meaning">1 giờ rưỡi</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="1" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">北京は今、何時ですか。</p>
+                  <p class="subline">Pekin wa ima, nanji desu ka.</p>
+                  <p class="subline">Bắc Kinh bây giờ là mấy giờ?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-1" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">1時半</span>
+                        <span class="option-meaning">1 giờ rưỡi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-1" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">2時半</span>
+                        <span class="option-meaning">2 giờ rưỡi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-1" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">6時20分</span>
+                        <span class="option-meaning">6 giờ 20 phút</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-1" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">7時15分</span>
+                        <span class="option-meaning">7 giờ 15 phút</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Trong hội thoại, người trả lời nói 「1時半です」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-0" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">2時半</span>
-                    <span class="option-meaning">2 giờ rưỡi</span>
-                  </span>
-                </label>
+                <section class="quiz" data-question="2" data-answer="A">
+                  <h3>Câu hỏi 2</h3>
+                  <p class="question">ロンドンは今、何時ですか。</p>
+                  <p class="subline">Rondon wa ima, nanji desu ka.</p>
+                  <p class="subline">London bây giờ là mấy giờ?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-2" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">午前7時15分</span>
+                        <span class="option-meaning">7 giờ 15 phút sáng</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-2" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">午後7時15分</span>
+                        <span class="option-meaning">7 giờ 15 phút chiều/tối</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-2" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">1時15分</span>
+                        <span class="option-meaning">1 giờ 15 phút</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-2" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">12時50分</span>
+                        <span class="option-meaning">12 giờ 50 phút</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người trả lời nói 「午前7時15分です」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-0" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">6時20分</span>
-                    <span class="option-meaning">6 giờ 20 phút</span>
-                  </span>
-                </label>
+                <section class="quiz" data-question="3" data-answer="A">
+                  <h3>Câu hỏi 3</h3>
+                  <p class="question">何時に終わりますか。</p>
+                  <p class="subline">Nanji ni owarimasu ka.</p>
+                  <p class="subline">Mấy giờ thì kết thúc?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-3" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">12時50分</span>
+                        <span class="option-meaning">12 giờ 50 phút</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-3" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">11時半</span>
+                        <span class="option-meaning">11 giờ rưỡi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-3" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">6時20分</span>
+                        <span class="option-meaning">6 giờ 20 phút</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-3" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">5時</span>
+                        <span class="option-meaning">5 giờ</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Có câu 「12時50分です」 rồi sau đó 「終わりましょう」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-0" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">7時15分</span>
-                    <span class="option-meaning">7 giờ 15 phút</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Trong hội thoại, người trả lời nói 「1時半です」.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">A: 今、何時ですか。
@@ -218,7 +315,7 @@ Nghĩa: Đúng vậy nhỉ. Vậy thì kết thúc thôi.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-2" data-segment="1" data-answer="A">
+            <article class="segment-card" id="segment-2" data-segment="1">
               <div class="segment-head">
                 <p class="eyebrow">Segment 002</p>
                 <h2>Đoạn 2</h2>
@@ -232,52 +329,148 @@ Nghĩa: Đúng vậy nhỉ. Vậy thì kết thúc thôi.</pre>
                   <audio preload="metadata" src="audio/segment_002.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">葵美術館は何時から何時までですか。</p>
-                <p class="subline">Aoi bijutsukan wa nanji kara nanji made desu ka.</p>
-                <p class="subline">Bảo tàng mỹ thuật Aoi mở từ mấy giờ đến mấy giờ?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-1" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">10時から5時まで</span>
-                    <span class="option-meaning">Từ 10 giờ đến 5 giờ</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="4" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">葵美術館は何時から何時までですか。</p>
+                  <p class="subline">Aoi bijutsukan wa nanji kara nanji made desu ka.</p>
+                  <p class="subline">Bảo tàng mỹ thuật Aoi mở từ mấy giờ đến mấy giờ?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-4" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">10時から5時まで</span>
+                        <span class="option-meaning">Từ 10 giờ đến 5 giờ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-4" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">9時から6時まで</span>
+                        <span class="option-meaning">Từ 9 giờ đến 6 giờ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-4" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">9時から12時まで</span>
+                        <span class="option-meaning">Từ 9 giờ đến 12 giờ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-4" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">4時半から7時半まで</span>
+                        <span class="option-meaning">Từ 4 giờ rưỡi đến 7 giờ rưỡi</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Hội thoại nói 「10時から5時までです」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-1" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">9時から6時まで</span>
-                    <span class="option-meaning">Từ 9 giờ đến 6 giờ</span>
-                  </span>
-                </label>
+                <section class="quiz" data-question="5" data-answer="A">
+                  <h3>Câu hỏi 2</h3>
+                  <p class="question">図書館の休みは何曜日ですか。</p>
+                  <p class="subline">Toshokan no yasumi wa nan-youbi desu ka.</p>
+                  <p class="subline">Ngày nghỉ của thư viện là thứ mấy?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-5" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">火曜日</span>
+                        <span class="option-meaning">Thứ Ba</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-5" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">月曜日</span>
+                        <span class="option-meaning">Thứ Hai</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-5" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">土曜日</span>
+                        <span class="option-meaning">Thứ Bảy</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-5" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">日曜日</span>
+                        <span class="option-meaning">Chủ nhật</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người trả lời nói 「休みは火曜日です」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-1" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">9時から12時まで</span>
-                    <span class="option-meaning">Từ 9 giờ đến 12 giờ</span>
-                  </span>
-                </label>
+                <section class="quiz" data-question="6" data-answer="A">
+                  <h3>Câu hỏi 3</h3>
+                  <p class="question">元気病院は午後、何時から何時半までですか。</p>
+                  <p class="subline">Genki byouin wa gogo, nanji kara nanji han made desu ka.</p>
+                  <p class="subline">Buổi chiều bệnh viện Genki làm từ mấy giờ đến mấy giờ rưỡi?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-6" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">4時半から7時半まで</span>
+                        <span class="option-meaning">Từ 4 giờ rưỡi đến 7 giờ rưỡi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-6" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">9時から12時まで</span>
+                        <span class="option-meaning">Từ 9 giờ đến 12 giờ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-6" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">10時から5時まで</span>
+                        <span class="option-meaning">Từ 10 giờ đến 5 giờ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-6" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">9時から6時まで</span>
+                        <span class="option-meaning">Từ 9 giờ đến 6 giờ</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Có câu 「午後4時半から7時半までです」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-1" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">4時半から7時半まで</span>
-                    <span class="option-meaning">Từ 4 giờ rưỡi đến 7 giờ rưỡi</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Hội thoại nói 「10時から5時までです」.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">A: はい、葵美術館です。
@@ -350,7 +543,7 @@ Nghĩa: Không. Ngày nghỉ là Chủ nhật.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-3" data-segment="2" data-answer="A">
+            <article class="segment-card" id="segment-3" data-segment="2">
               <div class="segment-head">
                 <p class="eyebrow">Segment 003</p>
                 <h2>Đoạn 3</h2>
@@ -364,52 +557,148 @@ Nghĩa: Không. Ngày nghỉ là Chủ nhật.</pre>
                   <audio preload="metadata" src="audio/segment_003.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">ターポンさんは何時から何時まで勉強しましたか。</p>
-                <p class="subline">Taapon-san wa nanji kara nanji made benkyou shimashita ka.</p>
-                <p class="subline">Bạn Taapon đã học từ mấy giờ đến mấy giờ?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-2" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">8時から11時まで</span>
-                    <span class="option-meaning">Từ 8 giờ đến 11 giờ</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="7" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">ターポンさんは何時から何時まで勉強しましたか。</p>
+                  <p class="subline">Taapon-san wa nanji kara nanji made benkyou shimashita ka.</p>
+                  <p class="subline">Bạn Taapon đã học từ mấy giờ đến mấy giờ?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-7" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">8時から11時まで</span>
+                        <span class="option-meaning">Từ 8 giờ đến 11 giờ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-7" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">11時から11時半まで</span>
+                        <span class="option-meaning">Từ 11 giờ đến 11 giờ rưỡi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-7" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">6時半から7時半まで</span>
+                        <span class="option-meaning">Từ 6 giờ rưỡi đến 7 giờ rưỡi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-7" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">12時まで</span>
+                        <span class="option-meaning">Đến 12 giờ</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Taapon nói 「8時から11時まで勉強しました」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-2" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">11時から11時半まで</span>
-                    <span class="option-meaning">Từ 11 giờ đến 11 giờ rưỡi</span>
-                  </span>
-                </label>
+                <section class="quiz" data-question="8" data-answer="A">
+                  <h3>Câu hỏi 2</h3>
+                  <p class="question">ミゲルさんは勉強しましたか。</p>
+                  <p class="subline">Migeru-san wa benkyou shimashita ka.</p>
+                  <p class="subline">Bạn Miguel có học không?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-8" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">いいえ、勉強しませんでした。</span>
+                        <span class="option-meaning">Không, đã không học</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-8" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">はい、勉強しました。</span>
+                        <span class="option-meaning">Có, đã học</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-8" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">12時まで働きました。</span>
+                        <span class="option-meaning">Đã làm việc đến 12 giờ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-8" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">6時に起きました。</span>
+                        <span class="option-meaning">Đã dậy lúc 6 giờ</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Miguel nói 「勉強しませんでした」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-2" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">6時半から7時半まで</span>
-                    <span class="option-meaning">Từ 6 giờ rưỡi đến 7 giờ rưỡi</span>
-                  </span>
-                </label>
+                <section class="quiz" data-question="9" data-answer="A">
+                  <h3>Câu hỏi 3</h3>
+                  <p class="question">武さんは何時から何時半まで勉強しましたか。</p>
+                  <p class="subline">Take-san wa nanji kara nanji han made benkyou shimashita ka.</p>
+                  <p class="subline">Bạn Take đã học từ mấy giờ đến mấy giờ rưỡi?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-9" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">11時から11時半まで</span>
+                        <span class="option-meaning">Từ 11 giờ đến 11 giờ rưỡi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-9" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">8時から11時まで</span>
+                        <span class="option-meaning">Từ 8 giờ đến 11 giờ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-9" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">6時半から7時半まで</span>
+                        <span class="option-meaning">Từ 6 giờ rưỡi đến 7 giờ rưỡi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-9" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">9時から12時まで</span>
+                        <span class="option-meaning">Từ 9 giờ đến 12 giờ</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Take nói 「11時から11時半まで」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-2" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">12時まで</span>
-                    <span class="option-meaning">Đến 12 giờ</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Taapon nói 「8時から11時まで勉強しました」.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">A: 先生、おはようございます。
@@ -462,7 +751,7 @@ Nghĩa: Vậy thì mọi người, bây giờ bắt đầu kiểm tra nhé.</pre
               </details>
             </article>
             
-            <article class="segment-card" id="segment-4" data-segment="3" data-answer="A">
+            <article class="segment-card" id="segment-4" data-segment="3">
               <div class="segment-head">
                 <p class="eyebrow">Segment 004</p>
                 <h2>Đoạn 4</h2>
@@ -476,52 +765,54 @@ Nghĩa: Vậy thì mọi người, bây giờ bắt đầu kiểm tra nhé.</pre
                   <audio preload="metadata" src="audio/segment_004.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">林さんは何曜日に働きましたか。</p>
-                <p class="subline">Hayashi-san wa nan-youbi ni hatarakimashita ka.</p>
-                <p class="subline">Bạn Hayashi đã làm việc vào thứ mấy?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-3" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">月曜日と火曜日と木曜日</span>
-                    <span class="option-meaning">Thứ Hai, thứ Ba và thứ Năm</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="10" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">林さんは何曜日に働きましたか。</p>
+                  <p class="subline">Hayashi-san wa nan-youbi ni hatarakimashita ka.</p>
+                  <p class="subline">Bạn Hayashi đã làm việc vào thứ mấy?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-10" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">月曜日と火曜日と木曜日</span>
+                        <span class="option-meaning">Thứ Hai, thứ Ba và thứ Năm</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-10" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">水曜日と金曜日</span>
+                        <span class="option-meaning">Thứ Tư và thứ Sáu</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-10" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">土曜日と日曜日</span>
+                        <span class="option-meaning">Thứ Bảy và Chủ nhật</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-10" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">月曜日と水曜日と金曜日</span>
+                        <span class="option-meaning">Thứ Hai, thứ Tư và thứ Sáu</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Hội thoại nói 「月曜日と火曜日と木曜日に働きました」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-3" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">水曜日と金曜日</span>
-                    <span class="option-meaning">Thứ Tư và thứ Sáu</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-3" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">土曜日と日曜日</span>
-                    <span class="option-meaning">Thứ Bảy và Chủ nhật</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-3" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">月曜日と水曜日と金曜日</span>
-                    <span class="option-meaning">Thứ Hai, thứ Tư và thứ Sáu</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Hội thoại nói 「月曜日と火曜日と木曜日に働きました」.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">A: 林さんは何曜日に働きましたか。
@@ -550,7 +841,7 @@ Nghĩa: Thứ Sáu cũng không làm việc. Thứ Bảy và Chủ nhật là ng
               </details>
             </article>
             
-            <article class="segment-card" id="segment-5" data-segment="4" data-answer="A">
+            <article class="segment-card" id="segment-5" data-segment="4">
               <div class="segment-head">
                 <p class="eyebrow">Segment 005</p>
                 <h2>Đoạn 5</h2>
@@ -564,52 +855,195 @@ Nghĩa: Thứ Sáu cũng không làm việc. Thứ Bảy và Chủ nhật là ng
                   <audio preload="metadata" src="audio/segment_005.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">田中さんの電話番号は何番ですか。</p>
-                <p class="subline">Tanaka-san no denwa bangou wa nanban desu ka.</p>
-                <p class="subline">Số điện thoại của bạn Tanaka là số mấy?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-4" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">03-3292-7148</span>
-                    <span class="option-meaning">03-3292-7148</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="11" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">田中さんの電話番号は何番ですか。</p>
+                  <p class="subline">Tanaka-san no denwa bangou wa nanban desu ka.</p>
+                  <p class="subline">Số điện thoại của bạn Tanaka là số mấy?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-11" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">03-3292-7148</span>
+                        <span class="option-meaning">03-3292-7148</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-11" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">090-9829-2470</span>
+                        <span class="option-meaning">090-9829-2470</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-11" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">078-4211-3168</span>
+                        <span class="option-meaning">078-4211-3168</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-11" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">336-8080</span>
+                        <span class="option-meaning">336-8080</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Tanaka nói số 「03-3292-7148」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-4" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">090-9829-2470</span>
-                    <span class="option-meaning">090-9829-2470</span>
-                  </span>
-                </label>
+                <section class="quiz" data-question="12" data-answer="A">
+                  <h3>Câu hỏi 2</h3>
+                  <p class="question">木村さんの電話番号は何番ですか。</p>
+                  <p class="subline">Kimura-san no denwa bangou wa nanban desu ka.</p>
+                  <p class="subline">Số điện thoại của bạn Kimura là số mấy?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-12" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">090-9829-2470</span>
+                        <span class="option-meaning">090-9829-2470</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-12" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">03-3292-7148</span>
+                        <span class="option-meaning">03-3292-7148</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-12" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">078-4211-3168</span>
+                        <span class="option-meaning">078-4211-3168</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-12" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">336-8080</span>
+                        <span class="option-meaning">336-8080</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Hội thoại nói 「090-9829-2470です」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-4" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">078-4211-3168</span>
-                    <span class="option-meaning">078-4211-3168</span>
-                  </span>
-                </label>
+                <section class="quiz" data-question="13" data-answer="A">
+                  <h3>Câu hỏi 3</h3>
+                  <p class="question">葵美術館の電話番号は何番ですか。</p>
+                  <p class="subline">Aoi bijutsukan no denwa bangou wa nanban desu ka.</p>
+                  <p class="subline">Số điện thoại của Bảo tàng mỹ thuật Aoi là số mấy?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-13" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">078-4211-3168</span>
+                        <span class="option-meaning">078-4211-3168</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-13" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">090-9829-2470</span>
+                        <span class="option-meaning">090-9829-2470</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-13" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">03-3292-7148</span>
+                        <span class="option-meaning">03-3292-7148</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-13" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">336-8080</span>
+                        <span class="option-meaning">336-8080</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người trả lời nói 「078-4211-3168です」.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-4" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">336-8080</span>
-                    <span class="option-meaning">336-8080</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Tanaka nói số 「03-3292-7148」.</p>
-              </section>
+                <section class="quiz" data-question="14" data-answer="A">
+                  <h3>Câu hỏi 4</h3>
+                  <p class="question">パワー電気の電話番号は何番ですか。</p>
+                  <p class="subline">Pawaa Denki no denwa bangou wa nanban desu ka.</p>
+                  <p class="subline">Số điện thoại của Power Denki là số mấy?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-14" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">336-8080</span>
+                        <span class="option-meaning">336-8080</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-14" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">078-4211-3168</span>
+                        <span class="option-meaning">078-4211-3168</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-14" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">090-9829-2470</span>
+                        <span class="option-meaning">090-9829-2470</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-14" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">03-3292-7148</span>
+                        <span class="option-meaning">03-3292-7148</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Hội thoại nói 「336-8080です」.</p>
+                </section>
+                
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">A: 田中さん、電話番号は何番ですか。
@@ -649,6 +1083,7 @@ Nghĩa: Là 336-8080.</pre>
   </main>
   <script>
     const totalSegments = 5;
+    const totalQuestions = 14;
     const state = {};
     const currentSegment = document.getElementById("current-segment");
     function formatTime(seconds) {
@@ -660,7 +1095,7 @@ Nghĩa: Là 336-8080.</pre>
     }
     function updateScore() {
       const correct = Object.values(state).filter(Boolean).length;
-      document.getElementById("score").textContent = `${correct}/${totalSegments}`;
+      document.getElementById("score").textContent = `${correct}/${totalQuestions}`;
     }
     const observer = new IntersectionObserver((entries) => {
       const visible = entries
@@ -704,33 +1139,44 @@ Nghĩa: Là 336-8080.</pre>
     document.querySelectorAll(".check-answer").forEach((button) => {
       button.addEventListener("click", () => {
         const card = button.closest(".segment-card");
-        const selected = card.querySelector("input[type='radio']:checked");
-        const feedback = card.querySelector(".feedback");
-        const explanation = card.querySelector(".explanation");
+        const quiz = button.closest(".quiz");
+        const selected = quiz.querySelector("input[type='radio']:checked");
+        const feedback = quiz.querySelector(".feedback");
+        const explanation = quiz.querySelector(".explanation");
         const segmentIndex = card.dataset.segment;
+        const questionIndex = quiz.dataset.question;
         const nav = document.querySelector(`[data-nav-segment="${segmentIndex}"]`);
         feedback.className = "feedback";
         explanation.hidden = true;
         if (!selected) {
           feedback.textContent = "Hãy chọn một đáp án trước.";
           feedback.classList.add("bad");
-          state[segmentIndex] = false;
+          state[questionIndex] = false;
           updateScore();
           return;
         }
         nav.classList.remove("done", "wrong");
-        if (selected.value === card.dataset.answer) {
+        if (selected.value === quiz.dataset.answer) {
           feedback.textContent = "Đúng.";
           feedback.classList.add("ok");
-          nav.classList.add("done");
-          nav.querySelector("small").textContent = "Đúng";
-          state[segmentIndex] = true;
+          state[questionIndex] = true;
         } else {
           feedback.textContent = "Chưa đúng.";
           feedback.classList.add("bad");
+          state[questionIndex] = false;
+        }
+        const quizFeedbacks = Array.from(card.querySelectorAll(".feedback"));
+        const answered = quizFeedbacks.filter((item) => item.classList.contains("ok") || item.classList.contains("bad"));
+        const hasWrong = quizFeedbacks.some((item) => item.classList.contains("bad"));
+        const allDone = answered.length === quizFeedbacks.length;
+        if (hasWrong) {
           nav.classList.add("wrong");
-          nav.querySelector("small").textContent = "Sai";
-          state[segmentIndex] = false;
+          nav.querySelector("small").textContent = "Có sai";
+        } else if (allDone) {
+          nav.classList.add("done");
+          nav.querySelector("small").textContent = "Xong";
+        } else {
+          nav.querySelector("small").textContent = `${answered.length}/${quizFeedbacks.length}`;
         }
         explanation.hidden = false;
         updateScore();

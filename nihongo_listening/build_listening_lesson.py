@@ -180,9 +180,7 @@ def parse_options(block: str) -> list[dict[str, str]]:
     return options
 
 
-def parse_quiz(block: str, segment: Segment) -> QuizItem:
-    quiz_match = re.search(r"###\s*2\.\s*Câu hỏi trắc nghiệm\s*(.*)", block, flags=re.DOTALL)
-    quiz_text = quiz_match.group(1).strip() if quiz_match else ""
+def parse_quiz_text(quiz_text: str, segment: Segment) -> QuizItem:
     question_match = re.search(r"質問:\s*(.+)", quiz_text)
     romaji_match = re.search(r"Romaji:\s*(.+)", quiz_text)
     meaning_match = re.search(r"Nghĩa:\s*(.+)", quiz_text)
@@ -216,6 +214,22 @@ def parse_quiz(block: str, segment: Segment) -> QuizItem:
     )
 
 
+def split_quiz_text(quiz_text: str) -> list[str]:
+    parts = re.split(r"(?=^Câu\s+\d+\s*:)", quiz_text, flags=re.MULTILINE)
+    chunks = [part.strip() for part in parts if part.strip()]
+    return chunks if chunks else [quiz_text.strip()]
+
+
+def parse_quiz_items(block: str, segment: Segment) -> list[QuizItem]:
+    quiz_match = re.search(r"###\s*2\.\s*Câu hỏi trắc nghiệm\s*(.*)", block, flags=re.DOTALL)
+    quiz_text = quiz_match.group(1).strip() if quiz_match else ""
+    return [parse_quiz_text(chunk, segment) for chunk in split_quiz_text(quiz_text)]
+
+
+def parse_quiz(block: str, segment: Segment) -> QuizItem:
+    return parse_quiz_items(block, segment)[0]
+
+
 def summarize_script(script_text: str) -> str:
     for line in script_text.splitlines():
         line = strip_timestamps(line)
@@ -225,7 +239,7 @@ def summarize_script(script_text: str) -> str:
     return "Nội dung hội thoại trong đoạn nghe"
 
 
-def parse_segments_from_script(script_text: str, audio_duration_ms: int) -> tuple[list[Segment], list[QuizItem]]:
+def parse_segments_from_script(script_text: str, audio_duration_ms: int) -> tuple[list[Segment], list[list[QuizItem]]]:
     parts = re.split(r"^##\s*Đoạn hội thoại\s*(\d+)\s*$", script_text, flags=re.MULTILINE)
     segments: list[Segment] = []
     blocks: list[str] = []
@@ -278,7 +292,7 @@ def parse_segments_from_script(script_text: str, audio_duration_ms: int) -> tupl
         if segment.end_ms is not None and segment.end_ms > segment.start_ms and segment.start_ms < audio_duration_ms
     ]
     valid_segments = [segment for segment, _ in valid_pairs]
-    quiz_items = [parse_quiz(block, segment) for segment, block in valid_pairs]
+    quiz_items = [parse_quiz_items(block, segment) for segment, block in valid_pairs]
     return valid_segments, quiz_items
 
 
@@ -332,10 +346,10 @@ def parse_segments_from_segment_define(
     script_text: str,
     segment_define_path: Path,
     audio_duration_ms: int,
-) -> tuple[list[Segment], list[QuizItem]]:
+) -> tuple[list[Segment], list[list[QuizItem]]]:
     timing = parse_segment_define_timing(segment_define_path)
     segments: list[Segment] = []
-    quiz_items: list[QuizItem] = []
+    quiz_items: list[list[QuizItem]] = []
     for number, block, dialogue_text in iter_script_blocks(script_text):
         if number not in timing:
             warn(f"Bỏ qua Đoạn hội thoại {number}: không có timing trong {segment_define_path.name}.")
@@ -356,10 +370,10 @@ def parse_segments_from_segment_define(
             script_text=cleaned_script,
         )
         segments.append(segment)
-        quiz_items.append(parse_quiz(block, segment))
+        quiz_items.append(parse_quiz_items(block, segment))
     return segments, quiz_items
 
-def load_script_with_timestamps(script_path: Path, audio_duration_ms: int) -> tuple[list[Segment], list[QuizItem]]:
+def load_script_with_timestamps(script_path: Path, audio_duration_ms: int) -> tuple[list[Segment], list[list[QuizItem]]]:
     text = read_text_flexible(script_path)
     block_count = len(iter_script_blocks(text))
     segment_define_path = script_path.parent / "segment_define" / script_path.name
@@ -415,13 +429,13 @@ def cut_audio_segments(audio, segments: list[Segment], output_audio_dir: Path) -
     return exported
 
 
-def build_quiz_items(segments: list[Segment], quiz_items: list[QuizItem]) -> list[QuizItem]:
+def build_quiz_items(segments: list[Segment], quiz_items: list[list[QuizItem]]) -> list[list[QuizItem]]:
     built = []
     for index, segment in enumerate(segments):
         if index < len(quiz_items):
             built.append(quiz_items[index])
         else:
-            built.append(
+            built.append([
                 QuizItem(
                     question=f"Nội dung chính của {segment.label} là gì?",
                     question_romaji="",
@@ -435,34 +449,53 @@ def build_quiz_items(segments: list[Segment], quiz_items: list[QuizItem]) -> lis
                     answer="A",
                     explanation="Câu hỏi fallback được tạo từ nội dung script của đoạn.",
                 )
-            )
+            ])
     return built
 
 
 def generate_index_html(
     lesson_no: int,
     segments: list[Segment],
-    quiz_items: list[QuizItem],
+    quiz_items: list[list[QuizItem]],
     output_path: Path,
 ) -> None:
     cards = []
     nav_items = []
-    for index, (segment, quiz) in enumerate(zip(segments, quiz_items)):
-        options_html = []
-        for option in quiz.options:
-            key = html.escape(option["key"])
-            text = html.escape(option["text"])
-            meaning = html.escape(option.get("meaning", ""))
-            options_html.append(
+    total_questions = sum(len(group) for group in quiz_items)
+    question_counter = 0
+    for index, (segment, quiz_group) in enumerate(zip(segments, quiz_items)):
+        quiz_sections = []
+        for quiz_index, quiz in enumerate(quiz_group, start=1):
+            question_counter += 1
+            options_html = []
+            for option in quiz.options:
+                key = html.escape(option["key"])
+                text = html.escape(option["text"])
+                meaning = html.escape(option.get("meaning", ""))
+                options_html.append(
+                    f"""
+                    <label class="option">
+                      <input type="radio" name="answer-{question_counter}" value="{key}">
+                      <span class="option-letter">{key}</span>
+                      <span class="option-body">
+                        <span class="option-text">{text}</span>
+                        <span class="option-meaning">{meaning}</span>
+                      </span>
+                    </label>
+                    """
+                )
+            quiz_sections.append(
                 f"""
-                <label class="option">
-                  <input type="radio" name="answer-{index}" value="{key}">
-                  <span class="option-letter">{key}</span>
-                  <span class="option-body">
-                    <span class="option-text">{text}</span>
-                    <span class="option-meaning">{meaning}</span>
-                  </span>
-                </label>
+                <section class="quiz" data-question="{question_counter}" data-answer="{html.escape(quiz.answer)}">
+                  <h3>Câu hỏi {quiz_index}</h3>
+                  <p class="question">{html.escape(quiz.question)}</p>
+                  <p class="subline">{html.escape(quiz.question_romaji)}</p>
+                  <p class="subline">{html.escape(quiz.question_meaning)}</p>
+                  <div class="options">{''.join(options_html)}</div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>{html.escape(quiz.explanation)}</p>
+                </section>
                 """
             )
 
@@ -477,7 +510,7 @@ def generate_index_html(
 
         cards.append(
             f"""
-            <article class="segment-card" id="segment-{index + 1}" data-segment="{index}" data-answer="{html.escape(quiz.answer)}">
+            <article class="segment-card" id="segment-{index + 1}" data-segment="{index}">
               <div class="segment-head">
                 <p class="eyebrow">Segment {index + 1:03d}</p>
                 <h2>{html.escape(segment.label)}</h2>
@@ -491,16 +524,7 @@ def generate_index_html(
                   <audio preload="metadata" src="audio/{html.escape(segment.audio_file)}"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">{html.escape(quiz.question)}</p>
-                <p class="subline">{html.escape(quiz.question_romaji)}</p>
-                <p class="subline">{html.escape(quiz.question_meaning)}</p>
-                <div class="options">{''.join(options_html)}</div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>{html.escape(quiz.explanation)}</p>
-              </section>
+              {''.join(quiz_sections)}
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">{html.escape(segment.script_text)}</pre>
@@ -558,6 +582,7 @@ def generate_index_html(
     .audio-progress {{ width: 100%; min-width: 0; accent-color: var(--primary); }}
     audio {{ display: none; }}
     .quiz {{ padding-top: 2px; }}
+    .quiz + .quiz {{ margin-top: 12px; border-top: 1px solid var(--line); padding-top: 12px; }}
     .quiz h3 {{ margin-bottom: 8px; font-size: 15px; }}
     .question {{ margin-bottom: 3px; font-weight: 900; font-size: 16px; line-height: 1.35; }}
     .subline {{ margin: 0 0 3px; color: var(--muted); font-size: 13px; }}
@@ -601,7 +626,7 @@ def generate_index_html(
     <div class="header-inner">
       <div class="header-row">
         <h1>JLPT N5 Listening - Bài {lesson_no}</h1>
-        <div class="score" id="score">0/{len(segments)}</div>
+        <div class="score" id="score">0/{total_questions}</div>
       </div>
       <p class="current-segment" id="current-segment">Đang ở đoạn 1/{len(segments)}</p>
     </div>
@@ -612,6 +637,7 @@ def generate_index_html(
   </main>
   <script>
     const totalSegments = {len(segments)};
+    const totalQuestions = {total_questions};
     const state = {{}};
     const currentSegment = document.getElementById("current-segment");
     function formatTime(seconds) {{
@@ -623,7 +649,7 @@ def generate_index_html(
     }}
     function updateScore() {{
       const correct = Object.values(state).filter(Boolean).length;
-      document.getElementById("score").textContent = `${{correct}}/${{totalSegments}}`;
+      document.getElementById("score").textContent = `${{correct}}/${{totalQuestions}}`;
     }}
     const observer = new IntersectionObserver((entries) => {{
       const visible = entries
@@ -667,33 +693,44 @@ def generate_index_html(
     document.querySelectorAll(".check-answer").forEach((button) => {{
       button.addEventListener("click", () => {{
         const card = button.closest(".segment-card");
-        const selected = card.querySelector("input[type='radio']:checked");
-        const feedback = card.querySelector(".feedback");
-        const explanation = card.querySelector(".explanation");
+        const quiz = button.closest(".quiz");
+        const selected = quiz.querySelector("input[type='radio']:checked");
+        const feedback = quiz.querySelector(".feedback");
+        const explanation = quiz.querySelector(".explanation");
         const segmentIndex = card.dataset.segment;
+        const questionIndex = quiz.dataset.question;
         const nav = document.querySelector(`[data-nav-segment="${{segmentIndex}}"]`);
         feedback.className = "feedback";
         explanation.hidden = true;
         if (!selected) {{
           feedback.textContent = "Hãy chọn một đáp án trước.";
           feedback.classList.add("bad");
-          state[segmentIndex] = false;
+          state[questionIndex] = false;
           updateScore();
           return;
         }}
         nav.classList.remove("done", "wrong");
-        if (selected.value === card.dataset.answer) {{
+        if (selected.value === quiz.dataset.answer) {{
           feedback.textContent = "Đúng.";
           feedback.classList.add("ok");
-          nav.classList.add("done");
-          nav.querySelector("small").textContent = "Đúng";
-          state[segmentIndex] = true;
+          state[questionIndex] = true;
         }} else {{
           feedback.textContent = "Chưa đúng.";
           feedback.classList.add("bad");
+          state[questionIndex] = false;
+        }}
+        const quizFeedbacks = Array.from(card.querySelectorAll(".feedback"));
+        const answered = quizFeedbacks.filter((item) => item.classList.contains("ok") || item.classList.contains("bad"));
+        const hasWrong = quizFeedbacks.some((item) => item.classList.contains("bad"));
+        const allDone = answered.length === quizFeedbacks.length;
+        if (hasWrong) {{
           nav.classList.add("wrong");
-          nav.querySelector("small").textContent = "Sai";
-          state[segmentIndex] = false;
+          nav.querySelector("small").textContent = "Có sai";
+        }} else if (allDone) {{
+          nav.classList.add("done");
+          nav.querySelector("small").textContent = "Xong";
+        }} else {{
+          nav.querySelector("small").textContent = `${{answered.length}}/${{quizFeedbacks.length}}`;
         }}
         explanation.hidden = false;
         updateScore();

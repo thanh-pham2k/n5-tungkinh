@@ -46,6 +46,7 @@
     .audio-progress { width: 100%; min-width: 0; accent-color: var(--primary); }
     audio { display: none; }
     .quiz { padding-top: 2px; }
+    .quiz + .quiz { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 12px; }
     .quiz h3 { margin-bottom: 8px; font-size: 15px; }
     .question { margin-bottom: 3px; font-weight: 900; font-size: 16px; line-height: 1.35; }
     .subline { margin: 0 0 3px; color: var(--muted); font-size: 13px; }
@@ -177,7 +178,7 @@
             </a>
             </nav>
     
-            <article class="segment-card" id="segment-1" data-segment="0" data-answer="A">
+            <article class="segment-card" id="segment-1" data-segment="0">
               <div class="segment-head">
                 <p class="eyebrow">Segment 001</p>
                 <h2>Đoạn 1</h2>
@@ -191,52 +192,54 @@
                   <audio preload="metadata" src="audio/lesson-01/segment_001.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">名前は何ですか。</p>
-                <p class="subline">Namae wa nan desu ka.</p>
-                <p class="subline">Tên là gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-0" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">益田です</span>
-                    <span class="option-meaning">Là Masuda</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="1" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">名前は何ですか。</p>
+                  <p class="subline">Namae wa nan desu ka.</p>
+                  <p class="subline">Tên là gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-1" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">益田です</span>
+                        <span class="option-meaning">Là Masuda</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-1" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">松田です</span>
+                        <span class="option-meaning">Là Matsuda</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-1" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">佐野です</span>
+                        <span class="option-meaning">Là Sano</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-1" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">鈴木です</span>
+                        <span class="option-meaning">Là Suzuki</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người nói phủ nhận 松田 và nói 益田です.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-0" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">松田です</span>
-                    <span class="option-meaning">Là Matsuda</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-0" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">佐野です</span>
-                    <span class="option-meaning">Là Sano</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-0" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">鈴木です</span>
-                    <span class="option-meaning">Là Suzuki</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Người nói phủ nhận 松田 và nói 益田です.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -259,7 +262,7 @@ Nghĩa: Không, tôi là Masuda.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-2" data-segment="1" data-answer="A">
+            <article class="segment-card" id="segment-2" data-segment="1">
               <div class="segment-head">
                 <p class="eyebrow">Segment 002</p>
                 <h2>Đoạn 2</h2>
@@ -273,52 +276,54 @@ Nghĩa: Không, tôi là Masuda.</pre>
                   <audio preload="metadata" src="audio/lesson-01/segment_002.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">名前は何ですか。</p>
-                <p class="subline">Namae wa nan desu ka.</p>
-                <p class="subline">Tên là gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-1" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">左脳です</span>
-                    <span class="option-meaning">Là Sanou</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="2" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">名前は何ですか。</p>
+                  <p class="subline">Namae wa nan desu ka.</p>
+                  <p class="subline">Tên là gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-2" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">左脳です</span>
+                        <span class="option-meaning">Là Sanou</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-2" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">佐野です</span>
+                        <span class="option-meaning">Là Sano</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-2" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">益田です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-2" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">後藤です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người nói không phải 佐野 mà là 左脳.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-1" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">佐野です</span>
-                    <span class="option-meaning">Là Sano</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-1" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">益田です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-1" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">後藤です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Người nói không phải 佐野 mà là 左脳.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -337,7 +342,7 @@ Nghĩa: Không, tôi là Sanou.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-3" data-segment="2" data-answer="A">
+            <article class="segment-card" id="segment-3" data-segment="2">
               <div class="segment-head">
                 <p class="eyebrow">Segment 003</p>
                 <h2>Đoạn 3</h2>
@@ -351,52 +356,54 @@ Nghĩa: Không, tôi là Sanou.</pre>
                   <audio preload="metadata" src="audio/lesson-01/segment_003.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">名前は何ですか。</p>
-                <p class="subline">Namae wa nan desu ka.</p>
-                <p class="subline">Tên là gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-2" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">鈴木です</span>
-                    <span class="option-meaning">Là Suzuki</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="3" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">名前は何ですか。</p>
+                  <p class="subline">Namae wa nan desu ka.</p>
+                  <p class="subline">Tên là gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-3" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">鈴木です</span>
+                        <span class="option-meaning">Là Suzuki</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-3" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">佐野です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-3" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">後藤です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-3" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">松田です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người đó tự giới thiệu là 鈴木です.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-2" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">佐野です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-2" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">後藤です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-2" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">松田です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Người đó tự giới thiệu là 鈴木です.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -411,7 +418,7 @@ Nghĩa: Anh/chị là Suzuki nhỉ.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-4" data-segment="3" data-answer="A">
+            <article class="segment-card" id="segment-4" data-segment="3">
               <div class="segment-head">
                 <p class="eyebrow">Segment 004</p>
                 <h2>Đoạn 4</h2>
@@ -425,52 +432,54 @@ Nghĩa: Anh/chị là Suzuki nhỉ.</pre>
                   <audio preload="metadata" src="audio/lesson-01/segment_004.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">名前は何ですか。</p>
-                <p class="subline">Namae wa nan desu ka.</p>
-                <p class="subline">Tên là gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-3" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">後藤です</span>
-                    <span class="option-meaning">Là Goto</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="4" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">名前は何ですか。</p>
+                  <p class="subline">Namae wa nan desu ka.</p>
+                  <p class="subline">Tên là gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-4" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">後藤です</span>
+                        <span class="option-meaning">Là Goto</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-4" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">古藤です</span>
+                        <span class="option-meaning">Là Kodou</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-4" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">鈴木です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-4" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">益田です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người nói phủ nhận 古藤 và nói 後藤です.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-3" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">古藤です</span>
-                    <span class="option-meaning">Là Kodou</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-3" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">鈴木です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-3" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">益田です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Người nói phủ nhận 古藤 và nói 後藤です.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -493,7 +502,7 @@ Nghĩa: Không, tôi là Goto.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-5" data-segment="4" data-answer="A">
+            <article class="segment-card" id="segment-5" data-segment="4">
               <div class="segment-head">
                 <p class="eyebrow">Segment 005</p>
                 <h2>Đoạn 5</h2>
@@ -507,52 +516,54 @@ Nghĩa: Không, tôi là Goto.</pre>
                   <audio preload="metadata" src="audio/lesson-01/segment_005.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">王さんはどこの人ですか。</p>
-                <p class="subline">Wan-san wa doko no hito desu ka.</p>
-                <p class="subline">Wang là người nước nào?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-4" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">中国です</span>
-                    <span class="option-meaning">Trung Quốc</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="5" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">王さんはどこの人ですか。</p>
+                  <p class="subline">Wan-san wa doko no hito desu ka.</p>
+                  <p class="subline">Wang là người nước nào?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-5" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">中国です</span>
+                        <span class="option-meaning">Trung Quốc</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-5" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">インドです</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-5" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">フランスです</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-5" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">ドイツです</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>王さん nói 中国から来ました.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-4" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">インドです</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-4" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">フランスです</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-4" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">ドイツです</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>王さん nói 中国から来ました.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -571,7 +582,7 @@ Nghĩa: Rất vui được gặp. Tôi là Tanaka. Rất mong được giúp đ�
               </details>
             </article>
             
-            <article class="segment-card" id="segment-6" data-segment="5" data-answer="A">
+            <article class="segment-card" id="segment-6" data-segment="5">
               <div class="segment-head">
                 <p class="eyebrow">Segment 006</p>
                 <h2>Đoạn 6</h2>
@@ -585,52 +596,54 @@ Nghĩa: Rất vui được gặp. Tôi là Tanaka. Rất mong được giúp đ�
                   <audio preload="metadata" src="audio/lesson-01/segment_006.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">センさんはどこの人ですか。</p>
-                <p class="subline">Sen-san wa doko no hito desu ka.</p>
-                <p class="subline">Sen là người nước nào?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-5" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">インドです</span>
-                    <span class="option-meaning">Ấn Độ</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="6" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">センさんはどこの人ですか。</p>
+                  <p class="subline">Sen-san wa doko no hito desu ka.</p>
+                  <p class="subline">Sen là người nước nào?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-6" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">インドです</span>
+                        <span class="option-meaning">Ấn Độ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-6" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">中国です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-6" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">フランスです</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-6" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">ドイツです</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>センさん nói インドから来ました.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-5" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">中国です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-5" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">フランスです</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-5" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">ドイツです</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>センさん nói インドから来ました.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -649,7 +662,7 @@ Nghĩa: Rất mong được giúp đỡ.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-7" data-segment="6" data-answer="A">
+            <article class="segment-card" id="segment-7" data-segment="6">
               <div class="segment-head">
                 <p class="eyebrow">Segment 007</p>
                 <h2>Đoạn 7</h2>
@@ -663,52 +676,54 @@ Nghĩa: Rất mong được giúp đỡ.</pre>
                   <audio preload="metadata" src="audio/lesson-01/segment_007.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">ジャンさんはどこの人ですか。</p>
-                <p class="subline">Jan-san wa doko no hito desu ka.</p>
-                <p class="subline">Jean là người nước nào?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-6" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">フランスです</span>
-                    <span class="option-meaning">Pháp</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="7" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">ジャンさんはどこの人ですか。</p>
+                  <p class="subline">Jan-san wa doko no hito desu ka.</p>
+                  <p class="subline">Jean là người nước nào?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-7" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">フランスです</span>
+                        <span class="option-meaning">Pháp</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-7" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">インドです</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-7" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">中国です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-7" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">ドイツです</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>ジャンさん nói フランスから来ました.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-6" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">インドです</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-6" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">中国です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-6" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">ドイツです</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>ジャンさん nói フランスから来ました.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -735,7 +750,7 @@ Nghĩa: Rất vui được gặp. Tôi là Sato. Rất mong được giúp đỡ
               </details>
             </article>
             
-            <article class="segment-card" id="segment-8" data-segment="7" data-answer="A">
+            <article class="segment-card" id="segment-8" data-segment="7">
               <div class="segment-head">
                 <p class="eyebrow">Segment 008</p>
                 <h2>Đoạn 8</h2>
@@ -749,52 +764,54 @@ Nghĩa: Rất vui được gặp. Tôi là Sato. Rất mong được giúp đỡ
                   <audio preload="metadata" src="audio/lesson-01/segment_008.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">コールさんはどこの人ですか。</p>
-                <p class="subline">Kooru-san wa doko no hito desu ka.</p>
-                <p class="subline">Cole là người nước nào?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-7" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">ドイツです</span>
-                    <span class="option-meaning">Đức</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="8" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">コールさんはどこの人ですか。</p>
+                  <p class="subline">Kooru-san wa doko no hito desu ka.</p>
+                  <p class="subline">Cole là người nước nào?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-8" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">ドイツです</span>
+                        <span class="option-meaning">Đức</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-8" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">フランスです</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-8" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">インドです</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-8" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">中国です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>コールさん nói ドイツから来ました.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-7" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">フランスです</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-7" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">インドです</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-7" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">中国です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>コールさん nói ドイツから来ました.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -821,7 +838,7 @@ Nghĩa: Tôi là Yamada. Rất mong được giúp đỡ.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-9" data-segment="8" data-answer="A">
+            <article class="segment-card" id="segment-9" data-segment="8">
               <div class="segment-head">
                 <p class="eyebrow">Segment 009</p>
                 <h2>Đoạn 9</h2>
@@ -835,52 +852,54 @@ Nghĩa: Tôi là Yamada. Rất mong được giúp đỡ.</pre>
                   <audio preload="metadata" src="audio/lesson-01/segment_009.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">女の人の仕事は何ですか。</p>
-                <p class="subline">Onna no hito no shigoto wa nan desu ka.</p>
-                <p class="subline">Công việc của người phụ nữ là gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-8" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">教師です</span>
-                    <span class="option-meaning">Là giáo viên</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="9" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">女の人の仕事は何ですか。</p>
+                  <p class="subline">Onna no hito no shigoto wa nan desu ka.</p>
+                  <p class="subline">Công việc của người phụ nữ là gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-9" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">教師です</span>
+                        <span class="option-meaning">Là giáo viên</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-9" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">医者です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-9" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">銀行員です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-9" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">会社員です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>小林さん nói mình là さくら大学の教師です.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-8" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">医者です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-8" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">銀行員です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-8" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">会社員です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>小林さん nói mình là さくら大学の教師です.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -903,7 +922,7 @@ Nghĩa: À, tôi cũng là giáo viên. Tôi ở Đại học Fuji. Rất mong �
               </details>
             </article>
             
-            <article class="segment-card" id="segment-10" data-segment="9" data-answer="A">
+            <article class="segment-card" id="segment-10" data-segment="9">
               <div class="segment-head">
                 <p class="eyebrow">Segment 010</p>
                 <h2>Đoạn 10</h2>
@@ -917,52 +936,54 @@ Nghĩa: À, tôi cũng là giáo viên. Tôi ở Đại học Fuji. Rất mong �
                   <audio preload="metadata" src="audio/lesson-01/segment_010.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">後藤さんの仕事は何ですか。</p>
-                <p class="subline">Gotou-san no shigoto wa nan desu ka.</p>
-                <p class="subline">Công việc của Goto là gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-9" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">医者です</span>
-                    <span class="option-meaning">Là bác sĩ</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="10" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">後藤さんの仕事は何ですか。</p>
+                  <p class="subline">Gotou-san no shigoto wa nan desu ka.</p>
+                  <p class="subline">Công việc của Goto là gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-10" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">医者です</span>
+                        <span class="option-meaning">Là bác sĩ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-10" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">教師です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-10" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">銀行員です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-10" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">会社員です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>後藤さん nói không phải giáo viên mà là 医者.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-9" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">教師です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-9" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">銀行員です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-9" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">会社員です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>後藤さん nói không phải giáo viên mà là 医者.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -989,7 +1010,7 @@ Nghĩa: À, tôi cũng là bác sĩ.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-11" data-segment="10" data-answer="A">
+            <article class="segment-card" id="segment-11" data-segment="10">
               <div class="segment-head">
                 <p class="eyebrow">Segment 011</p>
                 <h2>Đoạn 11</h2>
@@ -1003,52 +1024,54 @@ Nghĩa: À, tôi cũng là bác sĩ.</pre>
                   <audio preload="metadata" src="audio/lesson-01/segment_011.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">シュミットさんの仕事は何ですか。</p>
-                <p class="subline">Shumitto-san no shigoto wa nan desu ka.</p>
-                <p class="subline">Công việc của Schmidt là gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-10" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">エンジニアです</span>
-                    <span class="option-meaning">Là kỹ sư</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="11" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">シュミットさんの仕事は何ですか。</p>
+                  <p class="subline">Shumitto-san no shigoto wa nan desu ka.</p>
+                  <p class="subline">Công việc của Schmidt là gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-11" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">エンジニアです</span>
+                        <span class="option-meaning">Là kỹ sư</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-11" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">銀行員です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-11" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">医者です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-11" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">教師です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>シュミットさん nói エンジニアです.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-10" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">銀行員です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-10" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">医者です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-10" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">教師です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>シュミットさん nói エンジニアです.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -1075,7 +1098,7 @@ Nghĩa: Tôi là kỹ sư. Rất mong được giúp đỡ.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-12" data-segment="11" data-answer="A">
+            <article class="segment-card" id="segment-12" data-segment="11">
               <div class="segment-head">
                 <p class="eyebrow">Segment 012</p>
                 <h2>Đoạn 12</h2>
@@ -1089,52 +1112,54 @@ Nghĩa: Tôi là kỹ sư. Rất mong được giúp đỡ.</pre>
                   <audio preload="metadata" src="audio/lesson-01/segment_012.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">ミラーさんの仕事は何ですか。</p>
-                <p class="subline">Miraa-san no shigoto wa nan desu ka.</p>
-                <p class="subline">Công việc của Miller là gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-11" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">会社員です</span>
-                    <span class="option-meaning">Là nhân viên công ty</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="12" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">ミラーさんの仕事は何ですか。</p>
+                  <p class="subline">Miraa-san no shigoto wa nan desu ka.</p>
+                  <p class="subline">Công việc của Miller là gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-12" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">会社員です</span>
+                        <span class="option-meaning">Là nhân viên công ty</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-12" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">教師です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-12" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">医者です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-12" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">銀行員です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>ミラーさん nói mình là IMCの社員です.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-11" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">教師です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-11" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">医者です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-11" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">銀行員です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>ミラーさん nói mình là IMCの社員です.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -1161,7 +1186,7 @@ Nghĩa: Tôi cũng là nhân viên công ty. Tôi là nhân viên của Power El
               </details>
             </article>
             
-            <article class="segment-card" id="segment-13" data-segment="12" data-answer="A">
+            <article class="segment-card" id="segment-13" data-segment="12">
               <div class="segment-head">
                 <p class="eyebrow">Segment 013</p>
                 <h2>Đoạn 13</h2>
@@ -1175,52 +1200,54 @@ Nghĩa: Tôi cũng là nhân viên công ty. Tôi là nhân viên của Power El
                   <audio preload="metadata" src="audio/lesson-01/segment_013.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">ミラーさんは何歳ですか。</p>
-                <p class="subline">Miraa-san wa nansai desu ka.</p>
-                <p class="subline">Miller bao nhiêu tuổi?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-12" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">28歳です</span>
-                    <span class="option-meaning">28 tuổi</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="13" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">ミラーさんは何歳ですか。</p>
+                  <p class="subline">Miraa-san wa nansai desu ka.</p>
+                  <p class="subline">Miller bao nhiêu tuổi?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-13" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">28歳です</span>
+                        <span class="option-meaning">28 tuổi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-13" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">26歳です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-13" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">71歳です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-13" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">8歳です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Miller nói 28歳です.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-12" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">26歳です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-12" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">71歳です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-12" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">8歳です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Miller nói 28歳です.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -1243,7 +1270,7 @@ Nghĩa: Vậy à. Tôi cũng 28 tuổi.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-14" data-segment="13" data-answer="A">
+            <article class="segment-card" id="segment-14" data-segment="13">
               <div class="segment-head">
                 <p class="eyebrow">Segment 014</p>
                 <h2>Đoạn 14</h2>
@@ -1257,52 +1284,54 @@ Nghĩa: Vậy à. Tôi cũng 28 tuổi.</pre>
                   <audio preload="metadata" src="audio/lesson-01/segment_014.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">益田さんは何歳ですか。</p>
-                <p class="subline">Masuda-san wa nansai desu ka.</p>
-                <p class="subline">Masuda bao nhiêu tuổi?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-13" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">71歳です</span>
-                    <span class="option-meaning">71 tuổi</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="14" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">益田さんは何歳ですか。</p>
+                  <p class="subline">Masuda-san wa nansai desu ka.</p>
+                  <p class="subline">Masuda bao nhiêu tuổi?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-14" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">71歳です</span>
+                        <span class="option-meaning">71 tuổi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-14" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">28歳です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-14" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">26歳です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-14" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">8歳です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người kia nói 71歳です.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-13" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">28歳です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-13" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">26歳です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-13" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">8歳です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Người kia nói 71歳です.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -1329,7 +1358,7 @@ Nghĩa: 71 tuổi.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-15" data-segment="14" data-answer="A">
+            <article class="segment-card" id="segment-15" data-segment="14">
               <div class="segment-head">
                 <p class="eyebrow">Segment 015</p>
                 <h2>Đoạn 15</h2>
@@ -1343,52 +1372,54 @@ Nghĩa: 71 tuổi.</pre>
                   <audio preload="metadata" src="audio/lesson-01/segment_015.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">菜々子ちゃんは何歳ですか。</p>
-                <p class="subline">Nanako-chan wa nansai desu ka.</p>
-                <p class="subline">Bé Nanako bao nhiêu tuổi?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-14" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">8歳です</span>
-                    <span class="option-meaning">8 tuổi</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="15" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">菜々子ちゃんは何歳ですか。</p>
+                  <p class="subline">Nanako-chan wa nansai desu ka.</p>
+                  <p class="subline">Bé Nanako bao nhiêu tuổi?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-15" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">8歳です</span>
+                        <span class="option-meaning">8 tuổi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-15" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">26歳です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-15" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">28歳です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-15" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">71歳です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người kia trả lời 8歳です.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-14" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">26歳です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-14" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">28歳です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-14" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">71歳です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Người kia trả lời 8歳です.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -1411,7 +1442,7 @@ Nghĩa: 8 tuổi.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-16" data-segment="15" data-answer="A">
+            <article class="segment-card" id="segment-16" data-segment="15">
               <div class="segment-head">
                 <p class="eyebrow">Segment 016</p>
                 <h2>Đoạn 16</h2>
@@ -1425,52 +1456,54 @@ Nghĩa: 8 tuổi.</pre>
                   <audio preload="metadata" src="audio/lesson-01/segment_016.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">ケリーさんは何歳ですか。</p>
-                <p class="subline">Kerii-san wa nansai desu ka.</p>
-                <p class="subline">Kelly bao nhiêu tuổi?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-15" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">26歳です</span>
-                    <span class="option-meaning">26 tuổi</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="16" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">ケリーさんは何歳ですか。</p>
+                  <p class="subline">Kerii-san wa nansai desu ka.</p>
+                  <p class="subline">Kelly bao nhiêu tuổi?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-16" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">26歳です</span>
+                        <span class="option-meaning">26 tuổi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-16" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">28歳です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-16" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">71歳です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-16" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">8歳です</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người kia nói ケリーさんは26歳です.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-15" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">28歳です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-15" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">71歳です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-15" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">8歳です</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Người kia nói ケリーさんは26歳です.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">hội thoại
@@ -1500,6 +1533,7 @@ Nghĩa: Vậy à.</pre>
   </main>
   <script>
     const totalSegments = 16;
+    const totalQuestions = 16;
     const state = {};
     const currentSegment = document.getElementById("current-segment");
     function formatTime(seconds) {
@@ -1511,7 +1545,7 @@ Nghĩa: Vậy à.</pre>
     }
     function updateScore() {
       const correct = Object.values(state).filter(Boolean).length;
-      document.getElementById("score").textContent = `${correct}/${totalSegments}`;
+      document.getElementById("score").textContent = `${correct}/${totalQuestions}`;
     }
     const observer = new IntersectionObserver((entries) => {
       const visible = entries
@@ -1555,33 +1589,44 @@ Nghĩa: Vậy à.</pre>
     document.querySelectorAll(".check-answer").forEach((button) => {
       button.addEventListener("click", () => {
         const card = button.closest(".segment-card");
-        const selected = card.querySelector("input[type='radio']:checked");
-        const feedback = card.querySelector(".feedback");
-        const explanation = card.querySelector(".explanation");
+        const quiz = button.closest(".quiz");
+        const selected = quiz.querySelector("input[type='radio']:checked");
+        const feedback = quiz.querySelector(".feedback");
+        const explanation = quiz.querySelector(".explanation");
         const segmentIndex = card.dataset.segment;
+        const questionIndex = quiz.dataset.question;
         const nav = document.querySelector(`[data-nav-segment="${segmentIndex}"]`);
         feedback.className = "feedback";
         explanation.hidden = true;
         if (!selected) {
           feedback.textContent = "Hãy chọn một đáp án trước.";
           feedback.classList.add("bad");
-          state[segmentIndex] = false;
+          state[questionIndex] = false;
           updateScore();
           return;
         }
         nav.classList.remove("done", "wrong");
-        if (selected.value === card.dataset.answer) {
+        if (selected.value === quiz.dataset.answer) {
           feedback.textContent = "Đúng.";
           feedback.classList.add("ok");
-          nav.classList.add("done");
-          nav.querySelector("small").textContent = "Đúng";
-          state[segmentIndex] = true;
+          state[questionIndex] = true;
         } else {
           feedback.textContent = "Chưa đúng.";
           feedback.classList.add("bad");
+          state[questionIndex] = false;
+        }
+        const quizFeedbacks = Array.from(card.querySelectorAll(".feedback"));
+        const answered = quizFeedbacks.filter((item) => item.classList.contains("ok") || item.classList.contains("bad"));
+        const hasWrong = quizFeedbacks.some((item) => item.classList.contains("bad"));
+        const allDone = answered.length === quizFeedbacks.length;
+        if (hasWrong) {
           nav.classList.add("wrong");
-          nav.querySelector("small").textContent = "Sai";
-          state[segmentIndex] = false;
+          nav.querySelector("small").textContent = "Có sai";
+        } else if (allDone) {
+          nav.classList.add("done");
+          nav.querySelector("small").textContent = "Xong";
+        } else {
+          nav.querySelector("small").textContent = `${answered.length}/${quizFeedbacks.length}`;
         }
         explanation.hidden = false;
         updateScore();

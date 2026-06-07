@@ -46,6 +46,7 @@
     .audio-progress { width: 100%; min-width: 0; accent-color: var(--primary); }
     audio { display: none; }
     .quiz { padding-top: 2px; }
+    .quiz + .quiz { margin-top: 12px; border-top: 1px solid var(--line); padding-top: 12px; }
     .quiz h3 { margin-bottom: 8px; font-size: 15px; }
     .question { margin-bottom: 3px; font-weight: 900; font-size: 16px; line-height: 1.35; }
     .subline { margin: 0 0 3px; color: var(--muted); font-size: 13px; }
@@ -172,7 +173,7 @@
             </a>
             </nav>
     
-            <article class="segment-card" id="segment-1" data-segment="0" data-answer="A">
+            <article class="segment-card" id="segment-1" data-segment="0">
               <div class="segment-head">
                 <p class="eyebrow">Segment 001</p>
                 <h2>Đoạn 1</h2>
@@ -186,52 +187,54 @@
                   <audio preload="metadata" src="audio/lesson-17/segment_001.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">何をしてはいけませんか。</p>
-                <p class="subline">Nani o shite wa ikemasen ka.</p>
-                <p class="subline">Không được làm gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-0" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">部屋でタバコを吸ってはいけません</span>
-                    <span class="option-meaning">Không được hút thuốc trong phòng</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="1" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">何をしてはいけませんか。</p>
+                  <p class="subline">Nani o shite wa ikemasen ka.</p>
+                  <p class="subline">Không được làm gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-1" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">部屋でタバコを吸ってはいけません</span>
+                        <span class="option-meaning">Không được hút thuốc trong phòng</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-1" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">パスポートを持ってはいけません</span>
+                        <span class="option-meaning">Không được mang hộ chiếu</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-1" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">切符を買ってはいけません</span>
+                        <span class="option-meaning">Không được mua vé</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-1" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">朝、一人で出かけてはいけません</span>
+                        <span class="option-meaning">Không được ra ngoài một mình buổi sáng</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Vì phòng khách sạn cấm hút thuốc nên không được hút thuốc trong phòng.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-0" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">パスポートを持ってはいけません</span>
-                    <span class="option-meaning">Không được mang hộ chiếu</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-0" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">切符を買ってはいけません</span>
-                    <span class="option-meaning">Không được mua vé</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-0" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">朝、一人で出かけてはいけません</span>
-                    <span class="option-meaning">Không được ra ngoài một mình buổi sáng</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Vì phòng khách sạn cấm hút thuốc nên không được hút thuốc trong phòng.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">学生は旅行に行きます。何をしてはいけませんか。
@@ -260,7 +263,7 @@ Nghĩa: Đã hiểu.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-2" data-segment="1" data-answer="A">
+            <article class="segment-card" id="segment-2" data-segment="1">
               <div class="segment-head">
                 <p class="eyebrow">Segment 002</p>
                 <h2>Đoạn 2</h2>
@@ -274,52 +277,54 @@ Nghĩa: Đã hiểu.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_002.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">飛行機に乗ってから、何をしてはいけませんか。</p>
-                <p class="subline">Hikouki ni notte kara, nani o shite wa ikemasen ka.</p>
-                <p class="subline">Sau khi lên máy bay, không được làm gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-1" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">コンピューターや携帯電話を使ってはいけません</span>
-                    <span class="option-meaning">Không được dùng máy tính hay điện thoại</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="2" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">飛行機に乗ってから、何をしてはいけませんか。</p>
+                  <p class="subline">Hikouki ni notte kara, nani o shite wa ikemasen ka.</p>
+                  <p class="subline">Sau khi lên máy bay, không được làm gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-2" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">コンピューターや携帯電話を使ってはいけません</span>
+                        <span class="option-meaning">Không được dùng máy tính hay điện thoại</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-2" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">水を飲んではいけません</span>
+                        <span class="option-meaning">Không được uống nước</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-2" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">本を読んではいけません</span>
+                        <span class="option-meaning">Không được đọc sách</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-2" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">寝てはいけません</span>
+                        <span class="option-meaning">Không được ngủ</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người hướng dẫn nói không được dùng máy tính và điện thoại trong khoảng 10 phút.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-1" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">水を飲んではいけません</span>
-                    <span class="option-meaning">Không được uống nước</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-1" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">本を読んではいけません</span>
-                    <span class="option-meaning">Không được đọc sách</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-1" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">寝てはいけません</span>
-                    <span class="option-meaning">Không được ngủ</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Người hướng dẫn nói không được dùng máy tính và điện thoại trong khoảng 10 phút.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">皆さん、今から飛行機に乗ります。
@@ -344,7 +349,7 @@ Nghĩa: Khoảng 10 phút nhỉ.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-3" data-segment="2" data-answer="A">
+            <article class="segment-card" id="segment-3" data-segment="2">
               <div class="segment-head">
                 <p class="eyebrow">Segment 003</p>
                 <h2>Đoạn 3</h2>
@@ -358,52 +363,54 @@ Nghĩa: Khoảng 10 phút nhỉ.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_003.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">美術館で何をしてはいけませんか。</p>
-                <p class="subline">Bijutsukan de nani o shite wa ikemasen ka.</p>
-                <p class="subline">Ở bảo tàng mỹ thuật không được làm gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-2" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">写真に触ったり、写真を撮ったりしてはいけません</span>
-                    <span class="option-meaning">Không được chạm vào tranh/ảnh và không được chụp ảnh</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="3" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">美術館で何をしてはいけませんか。</p>
+                  <p class="subline">Bijutsukan de nani o shite wa ikemasen ka.</p>
+                  <p class="subline">Ở bảo tàng mỹ thuật không được làm gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-3" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">写真に触ったり、写真を撮ったりしてはいけません</span>
+                        <span class="option-meaning">Không được chạm vào tranh/ảnh và không được chụp ảnh</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-3" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">先生に質問してはいけません</span>
+                        <span class="option-meaning">Không được hỏi giáo viên</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-3" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">美術館に入ってはいけません</span>
+                        <span class="option-meaning">Không được vào bảo tàng</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-3" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">静かに見てはいけません</span>
+                        <span class="option-meaning">Không được xem yên lặng</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người hướng dẫn nói không được chạm và không được chụp ảnh.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-2" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">先生に質問してはいけません</span>
-                    <span class="option-meaning">Không được hỏi giáo viên</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-2" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">美術館に入ってはいけません</span>
-                    <span class="option-meaning">Không được vào bảo tàng</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-2" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">静かに見てはいけません</span>
-                    <span class="option-meaning">Không được xem yên lặng</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Người hướng dẫn nói không được chạm và không được chụp ảnh.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">皆さん、ここは有名な美術館です。
@@ -428,7 +435,7 @@ Nghĩa: Vâng, em hiểu rồi.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-4" data-segment="3" data-answer="A">
+            <article class="segment-card" id="segment-4" data-segment="3">
               <div class="segment-head">
                 <p class="eyebrow">Segment 004</p>
                 <h2>Đoạn 4</h2>
@@ -442,52 +449,54 @@ Nghĩa: Vâng, em hiểu rồi.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_004.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">図書館で何をしてはいけませんか。</p>
-                <p class="subline">Toshokan de nani o shite wa ikemasen ka.</p>
-                <p class="subline">Ở thư viện không được làm gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-3" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">飲み物や食べ物を出したり、話したりしてはいけません</span>
-                    <span class="option-meaning">Không được lấy đồ ăn/uống ra và không được nói chuyện</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="4" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">図書館で何をしてはいけませんか。</p>
+                  <p class="subline">Toshokan de nani o shite wa ikemasen ka.</p>
+                  <p class="subline">Ở thư viện không được làm gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-4" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">飲み物や食べ物を出したり、話したりしてはいけません</span>
+                        <span class="option-meaning">Không được lấy đồ ăn/uống ra và không được nói chuyện</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-4" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">本を読んではいけません</span>
+                        <span class="option-meaning">Không được đọc sách</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-4" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">カバンを持ってはいけません</span>
+                        <span class="option-meaning">Không được mang túi</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-4" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">図書館に入ってはいけません</span>
+                        <span class="option-meaning">Không được vào thư viện</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người hướng dẫn yêu cầu cất đồ ăn/uống và không nói chuyện trong thư viện.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-3" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">本を読んではいけません</span>
-                    <span class="option-meaning">Không được đọc sách</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-3" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">カバンを持ってはいけません</span>
-                    <span class="option-meaning">Không được mang túi</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-3" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">図書館に入ってはいけません</span>
-                    <span class="option-meaning">Không được vào thư viện</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Người hướng dẫn yêu cầu cất đồ ăn/uống và không nói chuyện trong thư viện.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">皆さん、ここは国の図書館です。
@@ -516,7 +525,7 @@ Nghĩa: Vì mọi người đang đọc sách.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-5" data-segment="4" data-answer="A">
+            <article class="segment-card" id="segment-5" data-segment="4">
               <div class="segment-head">
                 <p class="eyebrow">Segment 005</p>
                 <h2>Đoạn 5</h2>
@@ -530,52 +539,54 @@ Nghĩa: Vì mọi người đang đọc sách.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_005.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">女の人は何と言いますか。</p>
-                <p class="subline">Onna no hito wa nan to iimasu ka.</p>
-                <p class="subline">Người phụ nữ sẽ nói gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-4" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">心配しないでください</span>
-                    <span class="option-meaning">Xin đừng lo lắng</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="5" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">女の人は何と言いますか。</p>
+                  <p class="subline">Onna no hito wa nan to iimasu ka.</p>
+                  <p class="subline">Người phụ nữ sẽ nói gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-5" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">心配しないでください</span>
+                        <span class="option-meaning">Xin đừng lo lắng</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-5" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">心配してはいけません</span>
+                        <span class="option-meaning">Không được lo lắng</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-5" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">心配しません</span>
+                        <span class="option-meaning">Tôi không lo lắng</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-5" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">テニスをしないでください</span>
+                        <span class="option-meaning">Xin đừng chơi tennis</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Sato nói đã khỏe rồi, nên câu phù hợp là “đừng lo”.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-4" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">心配してはいけません</span>
-                    <span class="option-meaning">Không được lo lắng</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-4" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">心配しません</span>
-                    <span class="option-meaning">Tôi không lo lắng</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-4" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">テニスをしないでください</span>
-                    <span class="option-meaning">Xin đừng chơi tennis</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Sato nói đã khỏe rồi, nên câu phù hợp là “đừng lo”.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">女の人は何と言いますか。
@@ -604,7 +615,7 @@ Nghĩa: Vì tôi đã khỏe rồi.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-6" data-segment="5" data-answer="A">
+            <article class="segment-card" id="segment-6" data-segment="5">
               <div class="segment-head">
                 <p class="eyebrow">Segment 006</p>
                 <h2>Đoạn 6</h2>
@@ -618,52 +629,54 @@ Nghĩa: Vì tôi đã khỏe rồi.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_006.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">女の人は何と言いますか。</p>
-                <p class="subline">Onna no hito wa nan to iimasu ka.</p>
-                <p class="subline">Người phụ nữ sẽ nói gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-5" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">週末はゆっくり休んでください</span>
-                    <span class="option-meaning">Cuối tuần hãy nghỉ ngơi thư thả</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="6" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">女の人は何と言いますか。</p>
+                  <p class="subline">Onna no hito wa nan to iimasu ka.</p>
+                  <p class="subline">Người phụ nữ sẽ nói gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-6" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">週末はゆっくり休んでください</span>
+                        <span class="option-meaning">Cuối tuần hãy nghỉ ngơi thư thả</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-6" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">週末は休まないでください</span>
+                        <span class="option-meaning">Cuối tuần đừng nghỉ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-6" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">週末は仕事をしてもいいですよ</span>
+                        <span class="option-meaning">Cuối tuần làm việc cũng được</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-6" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">毎日残業してください</span>
+                        <span class="option-meaning">Hãy tăng ca mỗi ngày</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Park rất bận và tăng ca mỗi ngày, nên nên khuyên nghỉ ngơi cuối tuần.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-5" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">週末は休まないでください</span>
-                    <span class="option-meaning">Cuối tuần đừng nghỉ</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-5" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">週末は仕事をしてもいいですよ</span>
-                    <span class="option-meaning">Cuối tuần làm việc cũng được</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-5" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">毎日残業してください</span>
-                    <span class="option-meaning">Hãy tăng ca mỗi ngày</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Park rất bận và tăng ca mỗi ngày, nên nên khuyên nghỉ ngơi cuối tuần.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">パクさん、お仕事はどうですか。
@@ -680,7 +693,7 @@ Nghĩa: Vậy à. Vất vả quá nhỉ.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-7" data-segment="6" data-answer="A">
+            <article class="segment-card" id="segment-7" data-segment="6">
               <div class="segment-head">
                 <p class="eyebrow">Segment 007</p>
                 <h2>Đoạn 7</h2>
@@ -694,52 +707,54 @@ Nghĩa: Vậy à. Vất vả quá nhỉ.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_007.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">女の人は何と言いますか。</p>
-                <p class="subline">Onna no hito wa nan to iimasu ka.</p>
-                <p class="subline">Người phụ nữ sẽ nói gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-6" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">たくさん飲まないでくださいね</span>
-                    <span class="option-meaning">Đừng uống nhiều nhé</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="7" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">女の人は何と言いますか。</p>
+                  <p class="subline">Onna no hito wa nan to iimasu ka.</p>
+                  <p class="subline">Người phụ nữ sẽ nói gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-7" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">たくさん飲まないでくださいね</span>
+                        <span class="option-meaning">Đừng uống nhiều nhé</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-7" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">たくさん飲んでくださいね</span>
+                        <span class="option-meaning">Hãy uống nhiều nhé</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-7" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">たくさん飲みましょう</span>
+                        <span class="option-meaning">Cùng uống nhiều nhé</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-7" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">お酒を買ってくださいね</span>
+                        <span class="option-meaning">Hãy mua rượu nhé</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Vì sức khỏe quan trọng, nên không nên uống nhiều.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-6" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">たくさん飲んでくださいね</span>
-                    <span class="option-meaning">Hãy uống nhiều nhé</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-6" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">たくさん飲みましょう</span>
-                    <span class="option-meaning">Cùng uống nhiều nhé</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-6" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">お酒を買ってくださいね</span>
-                    <span class="option-meaning">Hãy mua rượu nhé</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Vì sức khỏe quan trọng, nên không nên uống nhiều.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">パクさん、来月国へ帰りますね。
@@ -768,7 +783,7 @@ Nghĩa: Nhưng sức khỏe rất quan trọng.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-8" data-segment="7" data-answer="A">
+            <article class="segment-card" id="segment-8" data-segment="7">
               <div class="segment-head">
                 <p class="eyebrow">Segment 008</p>
                 <h2>Đoạn 8</h2>
@@ -782,52 +797,54 @@ Nghĩa: Nhưng sức khỏe rất quan trọng.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_008.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">女の人は何と言いますか。</p>
-                <p class="subline">Onna no hito wa nan to iimasu ka.</p>
-                <p class="subline">Người phụ nữ sẽ nói gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-7" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">日本語を忘れないでくださいね</span>
-                    <span class="option-meaning">Đừng quên tiếng Nhật nhé</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="8" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">女の人は何と言いますか。</p>
+                  <p class="subline">Onna no hito wa nan to iimasu ka.</p>
+                  <p class="subline">Người phụ nữ sẽ nói gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-8" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">日本語を忘れないでくださいね</span>
+                        <span class="option-meaning">Đừng quên tiếng Nhật nhé</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-8" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">私を覚えてくださいね</span>
+                        <span class="option-meaning">Hãy nhớ tôi nhé</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-8" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">日本を思い出してくださいね</span>
+                        <span class="option-meaning">Hãy nhớ về Nhật nhé</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-8" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">韓国へ行かないでくださいね</span>
+                        <span class="option-meaning">Đừng đi Hàn Quốc nhé</span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Người phụ nữ muốn năm sau gặp và nói chuyện với Park, nên nhắc Park đừng quên tiếng Nhật.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-7" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">私を覚えてくださいね</span>
-                    <span class="option-meaning">Hãy nhớ tôi nhé</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-7" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">日本を思い出してくださいね</span>
-                    <span class="option-meaning">Hãy nhớ về Nhật nhé</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-7" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">韓国へ行かないでくださいね</span>
-                    <span class="option-meaning">Đừng đi Hàn Quốc nhé</span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Người phụ nữ muốn năm sau gặp và nói chuyện với Park, nên nhắc Park đừng quên tiếng Nhật.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">パクさん、もう国に荷物を送りましたか。
@@ -852,7 +869,7 @@ Nghĩa: Vì tôi muốn gặp Park và nói chuyện.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-9" data-segment="8" data-answer="A">
+            <article class="segment-card" id="segment-9" data-segment="8">
               <div class="segment-head">
                 <p class="eyebrow">Segment 009</p>
                 <h2>Đoạn 9</h2>
@@ -866,52 +883,54 @@ Nghĩa: Vì tôi muốn gặp Park và nói chuyện.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_009.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">サントスさんはどうして行きませんか。</p>
-                <p class="subline">Santosu-san wa doushite ikimasen ka.</p>
-                <p class="subline">Tại sao Santos không đi?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-8" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">1時までにレポートをブラジルに送らなければなりませんから</span>
-                    <span class="option-meaning">Vì phải gửi báo cáo đến Brazil trước 1 giờ</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="9" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">サントスさんはどうして行きませんか。</p>
+                  <p class="subline">Santosu-san wa doushite ikimasen ka.</p>
+                  <p class="subline">Tại sao Santos không đi?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-9" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">1時までにレポートをブラジルに送らなければなりませんから</span>
+                        <span class="option-meaning">Vì phải gửi báo cáo đến Brazil trước 1 giờ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-9" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">病院へ行かなければなりませんから</span>
+                        <span class="option-meaning">Vì phải đi bệnh viện</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-9" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">空港へ迎えに行かなければなりませんから</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-9" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">ヨーロッパへ出張しなければなりませんから</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Santos phải gửi báo cáo đến Brazil trước 1 giờ.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-8" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">病院へ行かなければなりませんから</span>
-                    <span class="option-meaning">Vì phải đi bệnh viện</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-8" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">空港へ迎えに行かなければなりませんから</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-8" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">ヨーロッパへ出張しなければなりませんから</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Santos phải gửi báo cáo đến Brazil trước 1 giờ.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">サントスさんはどうして行きませんか。
@@ -936,7 +955,7 @@ Nghĩa: Nhà hàng thường đi nhỉ.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-10" data-segment="9" data-answer="A">
+            <article class="segment-card" id="segment-10" data-segment="9">
               <div class="segment-head">
                 <p class="eyebrow">Segment 010</p>
                 <h2>Đoạn 10</h2>
@@ -950,52 +969,54 @@ Nghĩa: Nhà hàng thường đi nhỉ.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_010.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">サントスさんはどうして行きませんか。</p>
-                <p class="subline">Santosu-san wa doushite ikimasen ka.</p>
-                <p class="subline">Tại sao Santos không đi?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-9" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">空港へ妻の両親を迎えに行かなければなりませんから</span>
-                    <span class="option-meaning">Vì phải đi sân bay đón bố mẹ vợ</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="10" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">サントスさんはどうして行きませんか。</p>
+                  <p class="subline">Santosu-san wa doushite ikimasen ka.</p>
+                  <p class="subline">Tại sao Santos không đi?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-10" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">空港へ妻の両親を迎えに行かなければなりませんから</span>
+                        <span class="option-meaning">Vì phải đi sân bay đón bố mẹ vợ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-10" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">レポートを書かなければなりませんから</span>
+                        <span class="option-meaning">Vì phải viết báo cáo</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-10" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">日本語を勉強しなければなりませんから</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-10" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">病院へ行かなければなりませんから</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Santos nói Chủ Nhật phải đi sân bay đón bố mẹ vợ.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-9" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">レポートを書かなければなりませんから</span>
-                    <span class="option-meaning">Vì phải viết báo cáo</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-9" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">日本語を勉強しなければなりませんから</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-9" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">病院へ行かなければなりませんから</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Santos nói Chủ Nhật phải đi sân bay đón bố mẹ vợ.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">日曜日、サッカーを見に行きませんか。
@@ -1020,7 +1041,7 @@ Nghĩa: Vậy à. Tiếc quá. Lần sau nhé.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-11" data-segment="10" data-answer="A">
+            <article class="segment-card" id="segment-11" data-segment="10">
               <div class="segment-head">
                 <p class="eyebrow">Segment 011</p>
                 <h2>Đoạn 11</h2>
@@ -1034,52 +1055,54 @@ Nghĩa: Vậy à. Tiếc quá. Lần sau nhé.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_011.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">サントスさんはどうして行きませんか。</p>
-                <p class="subline">Santosu-san wa doushite ikimasen ka.</p>
-                <p class="subline">Tại sao Santos không đi?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-10" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">来週の月曜日からヨーロッパへ出張しなければなりませんから</span>
-                    <span class="option-meaning">Vì từ thứ Hai tuần sau phải đi công tác châu Âu</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="11" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">サントスさんはどうして行きませんか。</p>
+                  <p class="subline">Santosu-san wa doushite ikimasen ka.</p>
+                  <p class="subline">Tại sao Santos không đi?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-11" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">来週の月曜日からヨーロッパへ出張しなければなりませんから</span>
+                        <span class="option-meaning">Vì từ thứ Hai tuần sau phải đi công tác châu Âu</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-11" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">妻の両親を迎えに行きますから</span>
+                        <span class="option-meaning">Vì đi đón bố mẹ vợ</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-11" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">レポートを送りますから</span>
+                        <span class="option-meaning">Vì gửi báo cáo</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-11" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">風邪ですから</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Santos phải đi công tác châu Âu từ thứ Hai tuần sau.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-10" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">妻の両親を迎えに行きますから</span>
-                    <span class="option-meaning">Vì đi đón bố mẹ vợ</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-10" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">レポートを送りますから</span>
-                    <span class="option-meaning">Vì gửi báo cáo</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-10" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">風邪ですから</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Santos phải đi công tác châu Âu từ thứ Hai tuần sau.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">サントスさん、週末にスキーに行きませんか。マリアさんも一緒に。
@@ -1104,7 +1127,7 @@ Nghĩa: Vậy à. Tiếc quá.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-12" data-segment="11" data-answer="A">
+            <article class="segment-card" id="segment-12" data-segment="11">
               <div class="segment-head">
                 <p class="eyebrow">Segment 012</p>
                 <h2>Đoạn 12</h2>
@@ -1118,52 +1141,54 @@ Nghĩa: Vậy à. Tiếc quá.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_012.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">サントスさんは何をしなければなりませんか。</p>
-                <p class="subline">Santosu-san wa nani o shinakereba narimasen ka.</p>
-                <p class="subline">Santos phải làm gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-11" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">住所と名前を書かなければなりません</span>
-                    <span class="option-meaning">Phải viết địa chỉ và tên</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="12" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">サントスさんは何をしなければなりませんか。</p>
+                  <p class="subline">Santosu-san wa nani o shinakereba narimasen ka.</p>
+                  <p class="subline">Santos phải làm gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-12" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">住所と名前を書かなければなりません</span>
+                        <span class="option-meaning">Phải viết địa chỉ và tên</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-12" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">漢字を書かなければなりません</span>
+                        <span class="option-meaning">Phải viết Kanji</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-12" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">質問を読まなければなりません</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-12" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">病院へ行かなくてもいいです</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Ban đầu nhân viên yêu cầu viết địa chỉ và tên; phần câu hỏi thì nhân viên sẽ đọc giúp.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-11" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">漢字を書かなければなりません</span>
-                    <span class="option-meaning">Phải viết Kanji</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-11" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">質問を読まなければなりません</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-11" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">病院へ行かなくてもいいです</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Ban đầu nhân viên yêu cầu viết địa chỉ và tên; phần câu hỏi thì nhân viên sẽ đọc giúp.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">サントスさんは病院へ行きました。何をしなければなりませんか。
@@ -1192,7 +1217,7 @@ Nghĩa: Tôi sẽ đọc câu hỏi, nên hãy trả lời giúp tôi.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-13" data-segment="12" data-answer="A">
+            <article class="segment-card" id="segment-13" data-segment="12">
               <div class="segment-head">
                 <p class="eyebrow">Segment 013</p>
                 <h2>Đoạn 13</h2>
@@ -1206,52 +1231,54 @@ Nghĩa: Tôi sẽ đọc câu hỏi, nên hãy trả lời giúp tôi.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_013.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">サントスさんは何をしなければなりませんか。</p>
-                <p class="subline">Santosu-san wa nani o shinakereba narimasen ka.</p>
-                <p class="subline">Santos phải làm gì?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-12" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">上のシャツだけ脱がなければなりません</span>
-                    <span class="option-meaning">Chỉ phải cởi áo phía trên</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="13" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">サントスさんは何をしなければなりませんか。</p>
+                  <p class="subline">Santosu-san wa nani o shinakereba narimasen ka.</p>
+                  <p class="subline">Santos phải làm gì?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-13" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">上のシャツだけ脱がなければなりません</span>
+                        <span class="option-meaning">Chỉ phải cởi áo phía trên</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-13" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">下着も脱がなければなりません</span>
+                        <span class="option-meaning">Phải cởi cả đồ lót</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-13" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">服を全部脱がなければなりません</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-13" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">何も脱がなくてもいいです</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Nhân viên nói chỉ cần cởi áo phía trên.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-12" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">下着も脱がなければなりません</span>
-                    <span class="option-meaning">Phải cởi cả đồ lót</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-12" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">服を全部脱がなければなりません</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-12" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">何も脱がなくてもいいです</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Nhân viên nói chỉ cần cởi áo phía trên.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">サントスさん、どうぞ。
@@ -1276,7 +1303,7 @@ Nghĩa: Chỉ cần cởi áo phía trên.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-14" data-segment="13" data-answer="A">
+            <article class="segment-card" id="segment-14" data-segment="13">
               <div class="segment-head">
                 <p class="eyebrow">Segment 014</p>
                 <h2>Đoạn 14</h2>
@@ -1290,52 +1317,54 @@ Nghĩa: Chỉ cần cởi áo phía trên.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_014.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">赤い薬はいつ飲まなければなりませんか。</p>
-                <p class="subline">Akai kusuri wa itsu nomanakereba narimasen ka.</p>
-                <p class="subline">Thuốc màu đỏ phải uống khi nào?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-13" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">朝と晩</span>
-                    <span class="option-meaning">Buổi sáng và buổi tối</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="14" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">赤い薬はいつ飲まなければなりませんか。</p>
+                  <p class="subline">Akai kusuri wa itsu nomanakereba narimasen ka.</p>
+                  <p class="subline">Thuốc màu đỏ phải uống khi nào?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-14" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">朝と晩</span>
+                        <span class="option-meaning">Buổi sáng và buổi tối</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-14" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">朝、昼、晩</span>
+                        <span class="option-meaning">Sáng, trưa, tối</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-14" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">昼だけ</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-14" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">晩だけ</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Thuốc đỏ chỉ cần uống buổi sáng và buổi tối.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-13" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">朝、昼、晩</span>
-                    <span class="option-meaning">Sáng, trưa, tối</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-13" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">昼だけ</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-13" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">晩だけ</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Thuốc đỏ chỉ cần uống buổi sáng và buổi tối.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">この薬はいつ飲みますか。
@@ -1360,7 +1389,7 @@ Nghĩa: Vâng.</pre>
               </details>
             </article>
             
-            <article class="segment-card" id="segment-15" data-segment="14" data-answer="A">
+            <article class="segment-card" id="segment-15" data-segment="14">
               <div class="segment-head">
                 <p class="eyebrow">Segment 015</p>
                 <h2>Đoạn 15</h2>
@@ -1374,52 +1403,54 @@ Nghĩa: Vâng.</pre>
                   <audio preload="metadata" src="audio/lesson-17/segment_015.mp3"></audio>
                 </div>
               </div>
-              <section class="quiz">
-                <h3>Câu hỏi trắc nghiệm</h3>
-                <p class="question">サントスさんは明日も来なければなりませんか。</p>
-                <p class="subline">Santosu-san wa ashita mo konakereba narimasen ka.</p>
-                <p class="subline">Santos ngày mai cũng phải đến à?</p>
-                <div class="options">
-                <label class="option">
-                  <input type="radio" name="answer-14" value="A">
-                  <span class="option-letter">A</span>
-                  <span class="option-body">
-                    <span class="option-text">いいえ、来なくてもいいです</span>
-                    <span class="option-meaning">Không, không cần đến cũng được</span>
-                  </span>
-                </label>
+              
+                <section class="quiz" data-question="15" data-answer="A">
+                  <h3>Câu hỏi 1</h3>
+                  <p class="question">サントスさんは明日も来なければなりませんか。</p>
+                  <p class="subline">Santosu-san wa ashita mo konakereba narimasen ka.</p>
+                  <p class="subline">Santos ngày mai cũng phải đến à?</p>
+                  <div class="options">
+                    <label class="option">
+                      <input type="radio" name="answer-15" value="A">
+                      <span class="option-letter">A</span>
+                      <span class="option-body">
+                        <span class="option-text">いいえ、来なくてもいいです</span>
+                        <span class="option-meaning">Không, không cần đến cũng được</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-15" value="B">
+                      <span class="option-letter">B</span>
+                      <span class="option-body">
+                        <span class="option-text">はい、来なければなりません</span>
+                        <span class="option-meaning">Có, phải đến</span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-15" value="C">
+                      <span class="option-letter">C</span>
+                      <span class="option-body">
+                        <span class="option-text">はい、保険証を持って来ます</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    
+                    <label class="option">
+                      <input type="radio" name="answer-15" value="D">
+                      <span class="option-letter">D</span>
+                      <span class="option-body">
+                        <span class="option-text">いいえ、来月来ます</span>
+                        <span class="option-meaning"></span>
+                      </span>
+                    </label>
+                    </div>
+                  <button class="check-answer" type="button">Kiểm tra đáp án</button>
+                  <div class="feedback" aria-live="polite"></div>
+                  <p class="explanation" hidden>Nhân viên nói 明日は来なくてもいいです.</p>
+                </section>
                 
-                <label class="option">
-                  <input type="radio" name="answer-14" value="B">
-                  <span class="option-letter">B</span>
-                  <span class="option-body">
-                    <span class="option-text">はい、来なければなりません</span>
-                    <span class="option-meaning">Có, phải đến</span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-14" value="C">
-                  <span class="option-letter">C</span>
-                  <span class="option-body">
-                    <span class="option-text">はい、保険証を持って来ます</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                
-                <label class="option">
-                  <input type="radio" name="answer-14" value="D">
-                  <span class="option-letter">D</span>
-                  <span class="option-body">
-                    <span class="option-text">いいえ、来月来ます</span>
-                    <span class="option-meaning"></span>
-                  </span>
-                </label>
-                </div>
-                <button class="check-answer" type="button">Kiểm tra đáp án</button>
-                <div class="feedback" aria-live="polite"></div>
-                <p class="explanation" hidden>Nhân viên nói 明日は来なくてもいいです.</p>
-              </section>
               <details class="script-panel">
                 <summary>Xem script</summary>
                 <pre class="script-text">すみません。明日も来なければなりませんか。
@@ -1451,6 +1482,7 @@ Nghĩa: Tháng sau hãy mang đến.</pre>
   </main>
   <script>
     const totalSegments = 15;
+    const totalQuestions = 15;
     const state = {};
     const currentSegment = document.getElementById("current-segment");
     function formatTime(seconds) {
@@ -1462,7 +1494,7 @@ Nghĩa: Tháng sau hãy mang đến.</pre>
     }
     function updateScore() {
       const correct = Object.values(state).filter(Boolean).length;
-      document.getElementById("score").textContent = `${correct}/${totalSegments}`;
+      document.getElementById("score").textContent = `${correct}/${totalQuestions}`;
     }
     const observer = new IntersectionObserver((entries) => {
       const visible = entries
@@ -1506,33 +1538,44 @@ Nghĩa: Tháng sau hãy mang đến.</pre>
     document.querySelectorAll(".check-answer").forEach((button) => {
       button.addEventListener("click", () => {
         const card = button.closest(".segment-card");
-        const selected = card.querySelector("input[type='radio']:checked");
-        const feedback = card.querySelector(".feedback");
-        const explanation = card.querySelector(".explanation");
+        const quiz = button.closest(".quiz");
+        const selected = quiz.querySelector("input[type='radio']:checked");
+        const feedback = quiz.querySelector(".feedback");
+        const explanation = quiz.querySelector(".explanation");
         const segmentIndex = card.dataset.segment;
+        const questionIndex = quiz.dataset.question;
         const nav = document.querySelector(`[data-nav-segment="${segmentIndex}"]`);
         feedback.className = "feedback";
         explanation.hidden = true;
         if (!selected) {
           feedback.textContent = "Hãy chọn một đáp án trước.";
           feedback.classList.add("bad");
-          state[segmentIndex] = false;
+          state[questionIndex] = false;
           updateScore();
           return;
         }
         nav.classList.remove("done", "wrong");
-        if (selected.value === card.dataset.answer) {
+        if (selected.value === quiz.dataset.answer) {
           feedback.textContent = "Đúng.";
           feedback.classList.add("ok");
-          nav.classList.add("done");
-          nav.querySelector("small").textContent = "Đúng";
-          state[segmentIndex] = true;
+          state[questionIndex] = true;
         } else {
           feedback.textContent = "Chưa đúng.";
           feedback.classList.add("bad");
+          state[questionIndex] = false;
+        }
+        const quizFeedbacks = Array.from(card.querySelectorAll(".feedback"));
+        const answered = quizFeedbacks.filter((item) => item.classList.contains("ok") || item.classList.contains("bad"));
+        const hasWrong = quizFeedbacks.some((item) => item.classList.contains("bad"));
+        const allDone = answered.length === quizFeedbacks.length;
+        if (hasWrong) {
           nav.classList.add("wrong");
-          nav.querySelector("small").textContent = "Sai";
-          state[segmentIndex] = false;
+          nav.querySelector("small").textContent = "Có sai";
+        } else if (allDone) {
+          nav.classList.add("done");
+          nav.querySelector("small").textContent = "Xong";
+        } else {
+          nav.querySelector("small").textContent = `${answered.length}/${quizFeedbacks.length}`;
         }
         explanation.hidden = false;
         updateScore();
