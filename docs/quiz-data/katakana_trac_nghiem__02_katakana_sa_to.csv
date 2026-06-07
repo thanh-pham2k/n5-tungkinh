@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-2,Âm đơn サ〜ト,Âm đơn,11,サ,sa,sa,sa,za,shi,su
-2,Âm đơn サ〜ト,Âm đơn,12,シ,shi,shi,shi,tsu,si,ji
-2,Âm đơn サ〜ト,Âm đơn,13,ス,su,su,su,zu,se,so
-2,Âm đơn サ〜ト,Âm đơn,14,セ,se,se,se,su,sa,ze
-2,Âm đơn サ〜ト,Âm đơn,15,ソ,so,so,so,n,no,zo,
-2,Âm đơn サ〜ト,Âm đơn,16,タ,ta,ta,ta,da,chi,te
-2,Âm đơn サ〜ト,Âm đơn,17,チ,chi,chi,chi,ti,tsu,ji
-2,Âm đơn サ〜ト,Âm đơn,18,ツ,tsu,tsu,tsu,shi,su,zu
-2,Âm đơn サ〜ト,Âm đơn,19,テ,te,te,te,de,ta,to
-2,Âm đơn サ〜ト,Âm đơn,20,ト,to,to,to,do,te,ta
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+2,Âm đơn サ〜ト,Âm đơn,11,サ,sa,sa,za,shi,su
+2,Âm đơn サ〜ト,Âm đơn,12,シ,shi,shi,tsu,si,ji
+2,Âm đơn サ〜ト,Âm đơn,13,ス,su,su,zu,se,so
+2,Âm đơn サ〜ト,Âm đơn,14,セ,se,se,su,sa,ze
+2,Âm đơn サ〜ト,Âm đơn,15,ソ,so,so,n,no,zo,
+2,Âm đơn サ〜ト,Âm đơn,16,タ,ta,ta,da,chi,te
+2,Âm đơn サ〜ト,Âm đơn,17,チ,chi,chi,ti,tsu,ji
+2,Âm đơn サ〜ト,Âm đơn,18,ツ,tsu,tsu,shi,su,zu
+2,Âm đơn サ〜ト,Âm đơn,19,テ,te,te,de,ta,to
+2,Âm đơn サ〜ト,Âm đơn,20,ト,to,to,do,te,ta

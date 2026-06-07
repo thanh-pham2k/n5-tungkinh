@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-15,Chọn kanji đúng,Mina bài 10,1,“chó” viết bằng kanji nào?,“chó” viet bang kanji nao?,“chó” viết bằng kanji nào?,犬,猫,木,人
-15,Chọn kanji đúng,Mina bài 10,2,“cây” viết bằng kanji nào?,“cây” viet bang kanji nao?,“cây” viết bằng kanji nào?,木,本,犬,山
-15,Chọn kanji đúng,Mina bài 10,3,“trên” viết bằng kanji nào?,“trên” viet bang kanji nao?,“trên” viết bằng kanji nào?,上,下,中,外
-15,Chọn kanji đúng,Mina bài 10,4,“dưới” viết bằng kanji nào?,“dưới” viet bang kanji nao?,“dưới” viết bằng kanji nào?,下,上,前,後
-15,Chọn kanji đúng,Mina bài 10,5,“trước” viết bằng kanji nào?,“trước” viet bang kanji nao?,“trước” viết bằng kanji nào?,前,後,右,左
-15,Chọn kanji đúng,Mina bài 10,6,“bên phải” viết bằng kanji nào?,“bên phải” viet bang kanji nao?,“bên phải” viết bằng kanji nào?,右,左,上,下
-15,Chọn kanji đúng,Mina bài 10,7,“bên trái” viết bằng kanji nào?,“bên trái” viet bang kanji nao?,“bên trái” viết bằng kanji nào?,左,右,前,中
-15,Chọn kanji đúng,Mina bài 10,8,“bên trong” viết bằng kanji nào?,“bên trong” viet bang kanji nao?,“bên trong” viết bằng kanji nào?,中,外,上,下
-15,Chọn kanji đúng,Mina bài 10,9,“bên ngoài” viết bằng kanji nào?,“bên ngoài” viet bang kanji nao?,“bên ngoài” viết bằng kanji nào?,外,中,前,右
-15,Chọn kanji đúng,Mina bài 10,10,“ga” viết bằng kanji nào?,“ga” viet bang kanji nao?,“ga” viết bằng kanji nào?,駅,車,電,学校
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+15,Chọn kanji đúng,Mina bài 10,1,“chó” viết bằng kanji nào?,“chó” viết bằng kanji nào?,犬,猫,木,人
+15,Chọn kanji đúng,Mina bài 10,2,“cây” viết bằng kanji nào?,“cây” viết bằng kanji nào?,木,本,犬,山
+15,Chọn kanji đúng,Mina bài 10,3,“trên” viết bằng kanji nào?,“trên” viết bằng kanji nào?,上,下,中,外
+15,Chọn kanji đúng,Mina bài 10,4,“dưới” viết bằng kanji nào?,“dưới” viết bằng kanji nào?,下,上,前,後
+15,Chọn kanji đúng,Mina bài 10,5,“trước” viết bằng kanji nào?,“trước” viết bằng kanji nào?,前,後,右,左
+15,Chọn kanji đúng,Mina bài 10,6,“bên phải” viết bằng kanji nào?,“bên phải” viết bằng kanji nào?,右,左,上,下
+15,Chọn kanji đúng,Mina bài 10,7,“bên trái” viết bằng kanji nào?,“bên trái” viết bằng kanji nào?,左,右,前,中
+15,Chọn kanji đúng,Mina bài 10,8,“bên trong” viết bằng kanji nào?,“bên trong” viết bằng kanji nào?,中,外,上,下
+15,Chọn kanji đúng,Mina bài 10,9,“bên ngoài” viết bằng kanji nào?,“bên ngoài” viết bằng kanji nào?,外,中,前,右
+15,Chọn kanji đúng,Mina bài 10,10,“ga” viết bằng kanji nào?,“ga” viết bằng kanji nào?,駅,車,電,学校

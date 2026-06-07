@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,Ôn tập câu đã đúng,Từ vựng cơ bản,1,この【黒い】かばんは だれのですか。,Kono kuroi kaban wa dare no desu ka.,Cái cặp màu đen này là của ai?,くろい,しろい,あかい,あおい
-1,Ôn tập câu đã đúng,Từ vựng cơ bản,2,【学校】の ちかくに こうえんが あります。,Gakkou no chikaku ni kouen ga arimasu.,Gần trường học có công viên.,がっこう,えき,みせ,みち
-1,Ôn tập câu đã đúng,Từ vựng cơ bản,3,あさ【新聞】を よみます。,Asa shinbun o yomimasu.,Buổi sáng tôi đọc báo.,しんぶん,ほん,てがみ,しゃしん
-1,Ôn tập câu đã đúng,Từ vựng cơ bản,4,にわに【木】が あります。,Niwa ni ki ga arimasu.,Trong vườn có cây.,き,はな,くさ,いろ
-1,Ôn tập câu đã đúng,Từ vựng cơ bản,5,【父】は 会社へ いきます。,Chichi wa kaisha e ikimasu.,Bố tôi đi đến công ty.,ちち,はは,あに,あね
-1,Ôn tập câu đã đúng,Từ vựng cơ bản,6,この ノートは【三百】えんです。,Kono nooto wa sanbyaku en desu.,Quyển vở này giá 300 yên.,さんびゃく,さんひゃく,さんぴゃく,さんしゃく
-1,Ôn tập câu đã đúng,Từ vựng cơ bản,7,【日】ようびに やすみます。,Nichiyoubi ni yasumimasu.,Tôi nghỉ vào Chủ nhật.,にちようび,どようび,かようび,もくようび
-1,Ôn tập câu đã đúng,Từ vựng cơ bản,8,【先週】ともだちに あいました。,Senshuu tomodachi ni aimashita.,Tuần trước tôi đã gặp bạn.,せんしゅう,せんげつ,まいしゅう,らいしゅう
-1,Ôn tập câu đã đúng,Từ vựng cơ bản,9,あつい【お茶】を のみます。,Atsui ocha o nomimasu.,Tôi uống trà nóng.,おちゃ,みず,ぎゅうにゅう,さけ
-1,Ôn tập câu đã đúng,Từ vựng cơ bản,10,てがみを【書いて】います。,Tegami o kaite imasu.,Tôi đang viết thư.,かいて,つくって,よんで,きいて
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Ôn tập câu đã đúng,Từ vựng cơ bản,1,この【黒い】かばんは だれのですか。,Cái cặp màu đen này là của ai?,くろい,しろい,あかい,あおい
+1,Ôn tập câu đã đúng,Từ vựng cơ bản,2,【学校】の ちかくに こうえんが あります。,Gần trường học có công viên.,がっこう,えき,みせ,みち
+1,Ôn tập câu đã đúng,Từ vựng cơ bản,3,あさ【新聞】を よみます。,Buổi sáng tôi đọc báo.,しんぶん,ほん,てがみ,しゃしん
+1,Ôn tập câu đã đúng,Từ vựng cơ bản,4,にわに【木】が あります。,Trong vườn có cây.,き,はな,くさ,いろ
+1,Ôn tập câu đã đúng,Từ vựng cơ bản,5,【父】は 会社へ いきます。,Bố tôi đi đến công ty.,ちち,はは,あに,あね
+1,Ôn tập câu đã đúng,Từ vựng cơ bản,6,この ノートは【三百】えんです。,Quyển vở này giá 300 yên.,さんびゃく,さんひゃく,さんぴゃく,さんしゃく
+1,Ôn tập câu đã đúng,Từ vựng cơ bản,7,【日】ようびに やすみます。,Tôi nghỉ vào Chủ nhật.,にちようび,どようび,かようび,もくようび
+1,Ôn tập câu đã đúng,Từ vựng cơ bản,8,【先週】ともだちに あいました。,Tuần trước tôi đã gặp bạn.,せんしゅう,せんげつ,まいしゅう,らいしゅう
+1,Ôn tập câu đã đúng,Từ vựng cơ bản,9,あつい【お茶】を のみます。,Tôi uống trà nóng.,おちゃ,みず,ぎゅうにゅう,さけ
+1,Ôn tập câu đã đúng,Từ vựng cơ bản,10,てがみを【書いて】います。,Tôi đang viết thư.,かいて,つくって,よんで,きいて

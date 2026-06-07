@@ -1,13 +1,13 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-8,So sánh,Minna bài 12,1,日本語と英語と、どちら＿＿難しいですか。,"Nihongo to eigo to, dochira ___ muzukashii desu ka.","Tiếng Nhật và tiếng Anh, cái nào khó hơn?",が,は,を,で
-8,So sánh,Minna bài 12,2,日本語のほう＿＿難しいです。,Nihongo no hou ___ muzukashii desu.,Tiếng Nhật khó hơn.,が,は,を,で
-8,So sánh,Minna bài 12,3,大阪は東京＿＿にぎやかではありません。,Osaka wa Toukyou ___ nigiyaka dewa arimasen.,Osaka không nhộn nhịp bằng Tokyo.,ほど,より,のほうが,いちばん
-8,So sánh,Minna bài 12,4,この中で何＿＿いちばん好きですか。,Kono naka de nani ___ ichiban suki desu ka.,Trong số này bạn thích gì nhất?,が,を,で,に
-8,So sánh,Minna bài 12,5,春と秋と、どちらが＿＿ですか。,"Haru to aki to, dochira ga ___ desu ka.","Mùa xuân và mùa thu, mùa nào mát hơn?",涼しい,涼しく,涼しかった,涼しさ
-8,So sánh,Minna bài 12,6,電車はバス＿＿速いです。,Densha wa basu ___ hayai desu.,Tàu điện nhanh hơn xe buýt.,より,ほど,いちばん,の中で
-8,So sánh,Minna bài 12,7,この町で駅が＿＿便利です。,Kono machi de eki ga ___ benri desu.,"Trong thị trấn này, ga là tiện nhất.",いちばん,より,ほど,どちら
-8,So sánh,Minna bài 12,8,AとBと、＿＿が安いですか。,"A to B to, ___ ga yasui desu ka.","A và B, cái nào rẻ hơn?",どちら,どれ,だれ,いつ
-8,So sánh,Minna bài 12,9,Bのほう＿＿安いです。,B no hou ___ yasui desu.,B rẻ hơn.,が,は,を,で
-8,So sánh,Minna bài 12,10,犬は猫＿＿大きいです。,Inu wa neko ___ ookii desu.,Chó to hơn mèo.,より,ほど,いちばん,の中で
-8,So sánh,Minna bài 12,11,猫は犬＿＿大きくないです。,Neko wa inu ___ ookikunai desu.,Mèo không to bằng chó.,ほど,より,いちばん,のほうが
-8,So sánh,Minna bài 12,12,一年でいつが＿＿寒いですか。,Ichinen de itsu ga ___ samui desu ka.,"Trong một năm, khi nào lạnh nhất?",いちばん,より,ほど,どちら
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+8,So sánh,Minna bài 12,1,日本語と英語と、どちら＿＿難しいですか。,"Tiếng Nhật và tiếng Anh, cái nào khó hơn?",が,は,を,で
+8,So sánh,Minna bài 12,2,日本語のほう＿＿難しいです。,Tiếng Nhật khó hơn.,が,は,を,で
+8,So sánh,Minna bài 12,3,大阪は東京＿＿にぎやかではありません。,Osaka không nhộn nhịp bằng Tokyo.,ほど,より,のほうが,いちばん
+8,So sánh,Minna bài 12,4,この中で何＿＿いちばん好きですか。,Trong số này bạn thích gì nhất?,が,を,で,に
+8,So sánh,Minna bài 12,5,春と秋と、どちらが＿＿ですか。,"Mùa xuân và mùa thu, mùa nào mát hơn?",涼しい,涼しく,涼しかった,涼しさ
+8,So sánh,Minna bài 12,6,電車はバス＿＿速いです。,Tàu điện nhanh hơn xe buýt.,より,ほど,いちばん,の中で
+8,So sánh,Minna bài 12,7,この町で駅が＿＿便利です。,"Trong thị trấn này, ga là tiện nhất.",いちばん,より,ほど,どちら
+8,So sánh,Minna bài 12,8,AとBと、＿＿が安いですか。,"A và B, cái nào rẻ hơn?",どちら,どれ,だれ,いつ
+8,So sánh,Minna bài 12,9,Bのほう＿＿安いです。,B rẻ hơn.,が,は,を,で
+8,So sánh,Minna bài 12,10,犬は猫＿＿大きいです。,Chó to hơn mèo.,より,ほど,いちばん,の中で
+8,So sánh,Minna bài 12,11,猫は犬＿＿大きくないです。,Mèo không to bằng chó.,ほど,より,いちばん,のほうが
+8,So sánh,Minna bài 12,12,一年でいつが＿＿寒いですか。,"Trong một năm, khi nào lạnh nhất?",いちばん,より,ほど,どちら

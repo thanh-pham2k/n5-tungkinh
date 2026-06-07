@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Hiragana → Kanji,Kanji N5 bài 4,17,ほん là Kanji nào?,hon là Kanji nào?,Chọn Kanji đúng.,本,人,今,寺
-3,Hiragana → Kanji,Kanji N5 bài 4,18,ひと là Kanji nào?,hito là Kanji nào?,Chọn Kanji đúng.,半,人,刀,分
-3,Hiragana → Kanji,Kanji N5 bài 4,19,いま là Kanji nào?,ima là Kanji nào?,Chọn Kanji đúng.,時,今,本,寺
-3,Hiragana → Kanji,Kanji N5 bài 4,20,てら là Kanji nào?,tera là Kanji nào?,Chọn Kanji đúng.,寺,時,半,分
-3,Hiragana → Kanji,Kanji N5 bài 4,21,じ là Kanji nào?,ji là Kanji nào?,Chọn Kanji đúng.,人,本,時,刀
-3,Hiragana → Kanji,Kanji N5 bài 4,22,はん là Kanji nào?,han là Kanji nào?,Chọn Kanji đúng.,半,今,寺,人
-3,Hiragana → Kanji,Kanji N5 bài 4,23,かたな là Kanji nào?,katana là Kanji nào?,Chọn Kanji đúng.,分,刀,本,時
-3,Hiragana → Kanji,Kanji N5 bài 4,24,ふん là Kanji nào?,fun là Kanji nào?,Chọn Kanji đúng.,本,人,分,今
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Hiragana → Kanji,Kanji N5 bài 4,17,ほん là Kanji nào?,Chọn Kanji đúng.,本,人,今,寺
+3,Hiragana → Kanji,Kanji N5 bài 4,18,ひと là Kanji nào?,Chọn Kanji đúng.,半,人,刀,分
+3,Hiragana → Kanji,Kanji N5 bài 4,19,いま là Kanji nào?,Chọn Kanji đúng.,時,今,本,寺
+3,Hiragana → Kanji,Kanji N5 bài 4,20,てら là Kanji nào?,Chọn Kanji đúng.,寺,時,半,分
+3,Hiragana → Kanji,Kanji N5 bài 4,21,じ là Kanji nào?,Chọn Kanji đúng.,人,本,時,刀
+3,Hiragana → Kanji,Kanji N5 bài 4,22,はん là Kanji nào?,Chọn Kanji đúng.,半,今,寺,人
+3,Hiragana → Kanji,Kanji N5 bài 4,23,かたな là Kanji nào?,Chọn Kanji đúng.,分,刀,本,時
+3,Hiragana → Kanji,Kanji N5 bài 4,24,ふん là Kanji nào?,Chọn Kanji đúng.,本,人,分,今

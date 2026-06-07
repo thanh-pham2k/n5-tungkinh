@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-4,Món ăn / văn hóa,Mina bài 12,1,すきやき nghĩa là gì?,sukiyaki nghĩa là gì?,すきやき nghĩa là gì?,món sukiyaki,sashimi,sushi,tempura
-4,Món ăn / văn hóa,Mina bài 12,2,さしみ nghĩa là gì?,sashimi nghĩa là gì?,さしみ nghĩa là gì?,sashimi,sushi,tempura,sukiyaki
-4,Món ăn / văn hóa,Mina bài 12,3,すし nghĩa là gì?,sushi nghĩa là gì?,すし nghĩa là gì?,sushi,sashimi,tempura,sukiyaki
-4,Món ăn / văn hóa,Mina bài 12,4,てんぷら nghĩa là gì?,tenpura nghĩa là gì?,てんぷら nghĩa là gì?,tempura,sushi,sashimi,món sukiyaki
-4,Món ăn / văn hóa,Mina bài 12,5,いけばな nghĩa là gì?,ikebana nghĩa là gì?,いけばな nghĩa là gì?,nghệ thuật cắm hoa,lá đỏ mùa thu,lễ hội,tiệc
-4,Món ăn / văn hóa,Mina bài 12,6,もみじ nghĩa là gì?,momiji nghĩa là gì?,もみじ nghĩa là gì?,lá đỏ mùa thu,nghệ thuật cắm hoa,mùa xuân,tuyết
-4,Món ăn / văn hóa,Mina bài 12,7,すきやきは どうですか nghĩa là gì?,sukiyakiha doudesuka nghĩa là gì?,すきやきは どうですか nghĩa là gì?,Sukiyaki thế nào?,Sushi ở đâu?,Tempura bao nhiêu tiền?,Sashimi là gì?
-4,Món ăn / văn hóa,Mina bài 12,8,はじめて すしを 食べます（たべます） nghĩa là gì?,hajimete sushio tabemasu(tabemasu) nghĩa là gì?,はじめて すしを 食べます（たべます） nghĩa là gì?,Lần đầu tiên ăn sushi.,Luôn luôn ăn sushi.,Thỉnh thoảng ăn tempura.,Không ăn sashimi.
-4,Món ăn / văn hóa,Mina bài 12,9,秋（あき）の もみじは きれいです nghĩa là gì?,akino momijiha kireidesu nghĩa là gì?,秋（あき）の もみじは きれいです nghĩa là gì?,Lá đỏ mùa thu đẹp.,Tuyết mùa đông đẹp.,Biển mùa hè xa.,Hoa mùa xuân cay.
-4,Món ăn / văn hóa,Mina bài 12,10,いけばなは かんたんですか nghĩa là gì?,ikebanaha kantandesuka nghĩa là gì?,いけばなは かんたんですか nghĩa là gì?,Cắm hoa có dễ không?,Tempura có cay không?,Lễ hội có xa không?,Thời tiết có tốt không?
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+4,Món ăn / văn hóa,Mina bài 12,1,すきやき nghĩa là gì?,すきやき nghĩa là gì?,món sukiyaki,sashimi,sushi,tempura
+4,Món ăn / văn hóa,Mina bài 12,2,さしみ nghĩa là gì?,さしみ nghĩa là gì?,sashimi,sushi,tempura,sukiyaki
+4,Món ăn / văn hóa,Mina bài 12,3,すし nghĩa là gì?,すし nghĩa là gì?,sushi,sashimi,tempura,sukiyaki
+4,Món ăn / văn hóa,Mina bài 12,4,てんぷら nghĩa là gì?,てんぷら nghĩa là gì?,tempura,sushi,sashimi,món sukiyaki
+4,Món ăn / văn hóa,Mina bài 12,5,いけばな nghĩa là gì?,いけばな nghĩa là gì?,nghệ thuật cắm hoa,lá đỏ mùa thu,lễ hội,tiệc
+4,Món ăn / văn hóa,Mina bài 12,6,もみじ nghĩa là gì?,もみじ nghĩa là gì?,lá đỏ mùa thu,nghệ thuật cắm hoa,mùa xuân,tuyết
+4,Món ăn / văn hóa,Mina bài 12,7,すきやきは どうですか nghĩa là gì?,すきやきは どうですか nghĩa là gì?,Sukiyaki thế nào?,Sushi ở đâu?,Tempura bao nhiêu tiền?,Sashimi là gì?
+4,Món ăn / văn hóa,Mina bài 12,8,はじめて すしを 食べます（たべます） nghĩa là gì?,はじめて すしを 食べます（たべます） nghĩa là gì?,Lần đầu tiên ăn sushi.,Luôn luôn ăn sushi.,Thỉnh thoảng ăn tempura.,Không ăn sashimi.
+4,Món ăn / văn hóa,Mina bài 12,9,秋（あき）の もみじは きれいです nghĩa là gì?,秋（あき）の もみじは きれいです nghĩa là gì?,Lá đỏ mùa thu đẹp.,Tuyết mùa đông đẹp.,Biển mùa hè xa.,Hoa mùa xuân cay.
+4,Món ăn / văn hóa,Mina bài 12,10,いけばなは かんたんですか nghĩa là gì?,いけばなは かんたんですか nghĩa là gì?,Cắm hoa có dễ không?,Tempura có cay không?,Lễ hội có xa không?,Thời tiết có tốt không?

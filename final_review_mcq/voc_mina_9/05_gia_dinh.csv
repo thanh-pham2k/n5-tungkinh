@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-5,Gia đình,Mina bài 9,1,ごしゅじん nghĩa là gì?,goshujin nghia la gi?,ごしゅじん nghĩa là gì?,chồng người khác,chồng tôi,vợ người khác,vợ tôi
-5,Gia đình,Mina bài 9,2,おっと nghĩa là gì?,otto nghia la gi?,おっと nghĩa là gì?,chồng tôi,chồng người khác,vợ người khác,con
-5,Gia đình,Mina bài 9,3,おくさん nghĩa là gì?,okusan nghia la gi?,おくさん nghĩa là gì?,vợ người khác,vợ tôi,chồng người khác,chồng tôi
-5,Gia đình,Mina bài 9,4,つま nghĩa là gì?,tsuma nghia la gi?,つま nghĩa là gì?,vợ tôi,vợ người khác,con / trẻ em,chồng người khác
-5,Gia đình,Mina bài 9,5,子ども（こども） nghĩa là gì?,kodomo（kodomo） nghia la gi?,子ども（こども） nghĩa là gì?,con / trẻ em,chồng tôi,vợ tôi,người lớn
-5,Gia đình,Mina bài 9,6,ごしゅじんは スポーツが すきです nghĩa là gì?,goshujinha supotsuga sukidesu nghia la gi?,ごしゅじんは スポーツが すきです nghĩa là gì?,chồng người khác thích thể thao,chồng tôi thích thể thao,vợ người khác thích thể thao,con thích thể thao
-5,Gia đình,Mina bài 9,7,おっとは 料理（りょうり）が じょうずです nghĩa là gì?,ottoha ryouriga jouzudesu nghia la gi?,おっとは 料理（りょうり）が じょうずです nghĩa là gì?,chồng tôi nấu ăn giỏi,chồng người khác nấu ăn giỏi,vợ tôi nấu ăn kém,con tôi thích nấu ăn
-5,Gia đình,Mina bài 9,8,おくさんは 音楽（おんがく）が すきです nghĩa là gì?,okusanha ongakuga sukidesu nghia la gi?,おくさんは 音楽（おんがく）が すきです nghĩa là gì?,vợ người khác thích âm nhạc,vợ tôi thích âm nhạc,chồng tôi thích âm nhạc,con thích âm nhạc
-5,Gia đình,Mina bài 9,9,つまは カラオケが きらいです nghĩa là gì?,tsumaha karaokega kiraidesu nghia la gi?,つまは カラオケが きらいです nghĩa là gì?,vợ tôi không thích karaoke,vợ người khác không thích karaoke,chồng tôi thích karaoke,con tôi giỏi karaoke
-5,Gia đình,Mina bài 9,10,子ども（こども）は ダンスが じょうずです nghĩa là gì?,kodomo（kodomo）ha dansuga jouzudesu nghia la gi?,子ども（こども）は ダンスが じょうずです nghĩa là gì?,trẻ em nhảy giỏi,trẻ em nhảy kém,trẻ em ghét nhảy,trẻ em có cuộc hẹn
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+5,Gia đình,Mina bài 9,1,ごしゅじん nghĩa là gì?,ごしゅじん nghĩa là gì?,chồng người khác,chồng tôi,vợ người khác,vợ tôi
+5,Gia đình,Mina bài 9,2,おっと nghĩa là gì?,おっと nghĩa là gì?,chồng tôi,chồng người khác,vợ người khác,con
+5,Gia đình,Mina bài 9,3,おくさん nghĩa là gì?,おくさん nghĩa là gì?,vợ người khác,vợ tôi,chồng người khác,chồng tôi
+5,Gia đình,Mina bài 9,4,つま nghĩa là gì?,つま nghĩa là gì?,vợ tôi,vợ người khác,con / trẻ em,chồng người khác
+5,Gia đình,Mina bài 9,5,子ども（こども） nghĩa là gì?,子ども（こども） nghĩa là gì?,con / trẻ em,chồng tôi,vợ tôi,người lớn
+5,Gia đình,Mina bài 9,6,ごしゅじんは スポーツが すきです nghĩa là gì?,ごしゅじんは スポーツが すきです nghĩa là gì?,chồng người khác thích thể thao,chồng tôi thích thể thao,vợ người khác thích thể thao,con thích thể thao
+5,Gia đình,Mina bài 9,7,おっとは 料理（りょうり）が じょうずです nghĩa là gì?,おっとは 料理（りょうり）が じょうずです nghĩa là gì?,chồng tôi nấu ăn giỏi,chồng người khác nấu ăn giỏi,vợ tôi nấu ăn kém,con tôi thích nấu ăn
+5,Gia đình,Mina bài 9,8,おくさんは 音楽（おんがく）が すきです nghĩa là gì?,おくさんは 音楽（おんがく）が すきです nghĩa là gì?,vợ người khác thích âm nhạc,vợ tôi thích âm nhạc,chồng tôi thích âm nhạc,con thích âm nhạc
+5,Gia đình,Mina bài 9,9,つまは カラオケが きらいです nghĩa là gì?,つまは カラオケが きらいです nghĩa là gì?,vợ tôi không thích karaoke,vợ người khác không thích karaoke,chồng tôi thích karaoke,con tôi giỏi karaoke
+5,Gia đình,Mina bài 9,10,子ども（こども）は ダンスが じょうずです nghĩa là gì?,子ども（こども）は ダンスが じょうずです nghĩa là gì?,trẻ em nhảy giỏi,trẻ em nhảy kém,trẻ em ghét nhảy,trẻ em có cuộc hẹn

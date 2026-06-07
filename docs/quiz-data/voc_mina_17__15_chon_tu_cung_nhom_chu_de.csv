@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-15,Chọn từ cùng nhóm chủ đề,Mina bài 17,1,Từ nào thuộc nhóm “ghi nhớ / quên”?,Từ nào thuộc nhóm ghi nhớ / quên?,Chọn đáp án phù hợp.,おぼえます,はらいます,ぬぎます,飲みます（のみます）
-15,Chọn từ cùng nhóm chủ đề,Mina bài 17,2,Từ nào thuộc nhóm “tiền / hoàn trả”?,Từ nào thuộc nhóm tiền / hoàn trả?,Chọn đáp án phù hợp.,はらいます,でかけます,しんぱいします,入ります（はいります）
-15,Chọn từ cùng nhóm chủ đề,Mina bài 17,3,Từ nào thuộc nhóm “mang đồ”?,Từ nào thuộc nhóm mang đồ?,Chọn đáp án phù hợp.,もっていきます,ねつ,こたえ,びょういん
-15,Chọn từ cùng nhóm chủ đề,Mina bài 17,4,Từ nào thuộc nhóm “công việc”?,Từ nào thuộc nhóm công việc?,Chọn đáp án phù hợp.,ざんぎょうします,かぜ,くすり,したぎ
-15,Chọn từ cùng nhóm chủ đề,Mina bài 17,5,Từ nào thuộc nhóm “sức khỏe”?,Từ nào thuộc nhóm sức khỏe?,Chọn đáp án phù hợp.,かぜ,こたえ,きんえん,たいせつ
-15,Chọn từ cùng nhóm chủ đề,Mina bài 17,6,Từ nào thuộc nhóm “bệnh viện”?,Từ nào thuộc nhóm bệnh viện?,Chọn đáp án phù hợp.,ほけんしょう,ざんぎょうします,もっていきます,かえします
-15,Chọn từ cùng nhóm chủ đề,Mina bài 17,7,Từ nào thuộc nhóm “quần áo”?,Từ nào thuộc nhóm quần áo?,Chọn đáp án phù hợp.,うわぎ,ねつ,のど,こたえ
-15,Chọn từ cùng nhóm chủ đề,Mina bài 17,8,Từ nào thuộc nhóm “cảm giác đau / bệnh”?,Từ nào thuộc nhóm cảm giác đau / bệnh?,Chọn đáp án phù hợp.,いたい,たいせつ,だいじょうぶ,問題（もんだい）
-15,Chọn từ cùng nhóm chủ đề,Mina bài 17,9,Từ nào thuộc nhóm “thời hạn”?,Từ nào thuộc nhóm thời hạn?,Chọn đáp án phù hợp.,〜までに,ですから,それから,どうしましたか
-15,Chọn từ cùng nhóm chủ đề,Mina bài 17,10,Từ nào thuộc nhóm “câu hỏi ở bệnh viện”?,Từ nào thuộc nhóm câu hỏi ở bệnh viện?,Chọn đáp án phù hợp.,どうしましたか,おだいじに,ですから,それから
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+15,Chọn từ cùng nhóm chủ đề,Mina bài 17,1,Từ nào thuộc nhóm “ghi nhớ / quên”?,Chọn đáp án phù hợp.,おぼえます,はらいます,ぬぎます,飲みます（のみます）
+15,Chọn từ cùng nhóm chủ đề,Mina bài 17,2,Từ nào thuộc nhóm “tiền / hoàn trả”?,Chọn đáp án phù hợp.,はらいます,でかけます,しんぱいします,入ります（はいります）
+15,Chọn từ cùng nhóm chủ đề,Mina bài 17,3,Từ nào thuộc nhóm “mang đồ”?,Chọn đáp án phù hợp.,もっていきます,ねつ,こたえ,びょういん
+15,Chọn từ cùng nhóm chủ đề,Mina bài 17,4,Từ nào thuộc nhóm “công việc”?,Chọn đáp án phù hợp.,ざんぎょうします,かぜ,くすり,したぎ
+15,Chọn từ cùng nhóm chủ đề,Mina bài 17,5,Từ nào thuộc nhóm “sức khỏe”?,Chọn đáp án phù hợp.,かぜ,こたえ,きんえん,たいせつ
+15,Chọn từ cùng nhóm chủ đề,Mina bài 17,6,Từ nào thuộc nhóm “bệnh viện”?,Chọn đáp án phù hợp.,ほけんしょう,ざんぎょうします,もっていきます,かえします
+15,Chọn từ cùng nhóm chủ đề,Mina bài 17,7,Từ nào thuộc nhóm “quần áo”?,Chọn đáp án phù hợp.,うわぎ,ねつ,のど,こたえ
+15,Chọn từ cùng nhóm chủ đề,Mina bài 17,8,Từ nào thuộc nhóm “cảm giác đau / bệnh”?,Chọn đáp án phù hợp.,いたい,たいせつ,だいじょうぶ,問題（もんだい）
+15,Chọn từ cùng nhóm chủ đề,Mina bài 17,9,Từ nào thuộc nhóm “thời hạn”?,Chọn đáp án phù hợp.,〜までに,ですから,それから,どうしましたか
+15,Chọn từ cùng nhóm chủ đề,Mina bài 17,10,Từ nào thuộc nhóm “câu hỏi ở bệnh viện”?,Chọn đáp án phù hợp.,どうしましたか,おだいじに,ですから,それから

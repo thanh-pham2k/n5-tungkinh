@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-9,Điền vào câu,Mina bài 3,1,ここは＿＿＿です。,kokoha_________desu.,Điền từ/cụm phù hợp vào chỗ trống.,きょうしつ,いくら,じゃ,くつ
-9,Điền vào câu,Mina bài 3,2,そこは＿＿＿ですか。,sokoha_________desuka.,Điền từ/cụm phù hợp vào chỗ trống.,じむしょ,どうも,まん,たばこ
-9,Điền vào câu,Mina bài 3,3,あそこは＿＿＿です。,asokoha_________desu.,Điền từ/cụm phù hợp vào chỗ trống.,しょくどう,すみません,これを ください,いくら
-9,Điền vào câu,Mina bài 3,4,トイレは＿＿＿ですか。,toireha_________desuka.,Điền từ/cụm phù hợp vào chỗ trống.,どこ,ここ,そこ,あそこ
-9,Điền vào câu,Mina bài 3,5,うけつけは＿＿＿です。,uketsukeha_________desu.,Điền từ/cụm phù hợp vào chỗ trống.,こちら,いくら,くつ,ひゃく
-9,Điền vào câu,Mina bài 3,6,くつの うりばは＿＿＿ですか。,kutsuno uribaha_________desuka.,Điền từ/cụm phù hợp vào chỗ trống.,どちら,どうも,せん,ワイン
-9,Điền vào câu,Mina bài 3,7,これは＿＿＿ですか。,koreha_________desuka.,Điền từ/cụm phù hợp vào chỗ trống.,いくら,どこ,こちら,あちら
-9,Điền vào câu,Mina bài 3,8,すみません。これを＿＿＿。,sumimasen.korewo_________.,Điền từ/cụm phù hợp vào chỗ trống.,ください,どこ,かい,ひゃく
-9,Điền vào câu,Mina bài 3,9,すみません、ネクタイを＿＿＿。,sumimasen.nekutaiwo_________.,Điền từ/cụm phù hợp vào chỗ trống.,みせてください,いらっしゃいませ,じゃ,どうも
-9,Điền vào câu,Mina bài 3,10,じゃ、＿＿＿を ください。,ja._________wo kudasai.,Điền từ/cụm phù hợp vào chỗ trống.,これ,どこ,なんがい,こちら
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+9,Điền vào câu,Mina bài 3,1,ここは＿＿＿です。,Điền từ/cụm phù hợp vào chỗ trống.,きょうしつ,いくら,じゃ,くつ
+9,Điền vào câu,Mina bài 3,2,そこは＿＿＿ですか。,Điền từ/cụm phù hợp vào chỗ trống.,じむしょ,どうも,まん,たばこ
+9,Điền vào câu,Mina bài 3,3,あそこは＿＿＿です。,Điền từ/cụm phù hợp vào chỗ trống.,しょくどう,すみません,これを ください,いくら
+9,Điền vào câu,Mina bài 3,4,トイレは＿＿＿ですか。,Điền từ/cụm phù hợp vào chỗ trống.,どこ,ここ,そこ,あそこ
+9,Điền vào câu,Mina bài 3,5,うけつけは＿＿＿です。,Điền từ/cụm phù hợp vào chỗ trống.,こちら,いくら,くつ,ひゃく
+9,Điền vào câu,Mina bài 3,6,くつの うりばは＿＿＿ですか。,Điền từ/cụm phù hợp vào chỗ trống.,どちら,どうも,せん,ワイン
+9,Điền vào câu,Mina bài 3,7,これは＿＿＿ですか。,Điền từ/cụm phù hợp vào chỗ trống.,いくら,どこ,こちら,あちら
+9,Điền vào câu,Mina bài 3,8,すみません。これを＿＿＿。,Điền từ/cụm phù hợp vào chỗ trống.,ください,どこ,かい,ひゃく
+9,Điền vào câu,Mina bài 3,9,すみません、ネクタイを＿＿＿。,Điền từ/cụm phù hợp vào chỗ trống.,みせてください,いらっしゃいませ,じゃ,どうも
+9,Điền vào câu,Mina bài 3,10,じゃ、＿＿＿を ください。,Điền từ/cụm phù hợp vào chỗ trống.,これ,どこ,なんがい,こちら

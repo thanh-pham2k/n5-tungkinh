@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-6,Câu giao tiếp,Mina bài 8,1,なれましたか nghĩa là gì?,Naremashitaka nghĩa là gì?,Hỏi nghĩa tiếng Việt của: なれましたか.,đã quen chưa?,bạn khỏe không?,tôi xin phép về,lần sau lại đến nhé
-6,Câu giao tiếp,Mina bài 8,2,もういっぱい いかがですか nghĩa là gì?,Mouippai ikagadesuka nghĩa là gì?,Hỏi nghĩa tiếng Việt của: もういっぱい いかがですか.,thêm một ly nữa không?,"không, đủ rồi",đã quen chưa?,bạn khỏe không?
-6,Câu giao tiếp,Mina bài 8,3,いいえ、けっこうです nghĩa là gì?,"Iie,kekkoudesu nghĩa là gì?",Hỏi nghĩa tiếng Việt của: いいえ、けっこうです.,"không, đủ rồi",thêm một ly nữa không?,lần sau lại đến nhé,đẹp quá
-6,Câu giao tiếp,Mina bài 8,4,もう 〜 です nghĩa là gì?,Mou 〜 desu nghĩa là gì?,Hỏi nghĩa tiếng Việt của: もう 〜 です.,đã ~ rồi,chưa ~,rất ~,không ~ lắm
-6,Câu giao tiếp,Mina bài 8,5,そろそろ しつれいします nghĩa là gì?,Sorosoro shitsureishimasu nghĩa là gì?,Hỏi nghĩa tiếng Việt của: そろそろ しつれいします.,tôi xin phép về,lần sau lại đến nhé,thêm một ly nữa không?,bạn khỏe không?
-6,Câu giao tiếp,Mina bài 8,6,また いらっしゃってください nghĩa là gì?,Mata irasshattekudasai nghĩa là gì?,Hỏi nghĩa tiếng Việt của: また いらっしゃってください.,lần sau lại đến nhé,tôi xin phép về,"không, đủ rồi",đã quen chưa?
-6,Câu giao tiếp,Mina bài 8,7,おげんきですか。 nghĩa là gì?,Ogenkidesuka. nghĩa là gì?,Hỏi nghĩa tiếng Việt của: おげんきですか。.,Bạn khỏe không?,Bạn rảnh không?,Bạn bận không?,Bạn đi đâu?
-6,Câu giao tiếp,Mina bài 8,8,いいえ、けっこうです。 nghĩa là gì?,"Iie,kekkoudesu. nghĩa là gì?",Hỏi nghĩa tiếng Việt của: いいえ、けっこうです。.,"Không, đủ rồi.","Vâng, rất đẹp.",Tôi khỏe.,Tôi xin phép về.
-6,Câu giao tiếp,Mina bài 8,9,そろそろ しつれいします。 nghĩa là gì?,Sorosoro shitsureishimasu. nghĩa là gì?,Hỏi nghĩa tiếng Việt của: そろそろ しつれいします。.,Tôi xin phép về.,Lần sau lại đến nhé.,Thêm một ly nữa không?,Đã quen chưa?
-6,Câu giao tiếp,Mina bài 8,10,また いらっしゃってください。 nghĩa là gì?,Mata irasshattekudasai. nghĩa là gì?,Hỏi nghĩa tiếng Việt của: また いらっしゃってください。.,Lần sau lại đến nhé.,Tôi xin phép về.,"Không, đủ rồi.",Đẹp quá.
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+6,Câu giao tiếp,Mina bài 8,1,なれましたか nghĩa là gì?,Hỏi nghĩa tiếng Việt của: なれましたか.,đã quen chưa?,bạn khỏe không?,tôi xin phép về,lần sau lại đến nhé
+6,Câu giao tiếp,Mina bài 8,2,もういっぱい いかがですか nghĩa là gì?,Hỏi nghĩa tiếng Việt của: もういっぱい いかがですか.,thêm một ly nữa không?,"không, đủ rồi",đã quen chưa?,bạn khỏe không?
+6,Câu giao tiếp,Mina bài 8,3,いいえ、けっこうです nghĩa là gì?,Hỏi nghĩa tiếng Việt của: いいえ、けっこうです.,"không, đủ rồi",thêm một ly nữa không?,lần sau lại đến nhé,đẹp quá
+6,Câu giao tiếp,Mina bài 8,4,もう 〜 です nghĩa là gì?,Hỏi nghĩa tiếng Việt của: もう 〜 です.,đã ~ rồi,chưa ~,rất ~,không ~ lắm
+6,Câu giao tiếp,Mina bài 8,5,そろそろ しつれいします nghĩa là gì?,Hỏi nghĩa tiếng Việt của: そろそろ しつれいします.,tôi xin phép về,lần sau lại đến nhé,thêm một ly nữa không?,bạn khỏe không?
+6,Câu giao tiếp,Mina bài 8,6,また いらっしゃってください nghĩa là gì?,Hỏi nghĩa tiếng Việt của: また いらっしゃってください.,lần sau lại đến nhé,tôi xin phép về,"không, đủ rồi",đã quen chưa?
+6,Câu giao tiếp,Mina bài 8,7,おげんきですか。 nghĩa là gì?,Hỏi nghĩa tiếng Việt của: おげんきですか。.,Bạn khỏe không?,Bạn rảnh không?,Bạn bận không?,Bạn đi đâu?
+6,Câu giao tiếp,Mina bài 8,8,いいえ、けっこうです。 nghĩa là gì?,Hỏi nghĩa tiếng Việt của: いいえ、けっこうです。.,"Không, đủ rồi.","Vâng, rất đẹp.",Tôi khỏe.,Tôi xin phép về.
+6,Câu giao tiếp,Mina bài 8,9,そろそろ しつれいします。 nghĩa là gì?,Hỏi nghĩa tiếng Việt của: そろそろ しつれいします。.,Tôi xin phép về.,Lần sau lại đến nhé.,Thêm một ly nữa không?,Đã quen chưa?
+6,Câu giao tiếp,Mina bài 8,10,また いらっしゃってください。 nghĩa là gì?,Hỏi nghĩa tiếng Việt của: また いらっしゃってください。.,Lần sau lại đến nhé.,Tôi xin phép về.,"Không, đủ rồi.",Đẹp quá.

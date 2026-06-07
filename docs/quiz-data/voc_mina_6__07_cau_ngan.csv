@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-7,Câu ngắn,Mina bài 6,1,なんですか nghĩa là gì?,Nandesuka,Nghĩa là gì?,là cái gì?,ở đâu?,khi nào?,ai vậy?
-7,Câu ngắn,Mina bài 6,2,じゃ、また nghĩa là gì?,"Ja,mata",Nghĩa là gì?,vậy nhé / hẹn gặp lại,tôi hiểu rồi,hay đấy,cùng nhau
-7,Câu ngắn,Mina bài 6,3,いっしょに レストランへ 行きます（いきます） nghĩa là gì?,Isshoni resutoranhe ikimasu(ikimasu),Nghĩa là gì?,cùng nhau đi nhà hàng,một mình đi cửa hàng,thỉnh thoảng đi vườn,luôn luôn đi trường
-7,Câu ngắn,Mina bài 6,4,ときどき テニスを します nghĩa là gì?,Tokidoki tenisuo shimasu,Nghĩa là gì?,thỉnh thoảng chơi tennis,luôn luôn chơi bóng đá,cùng nhau ngắm hoa,sau đó làm bài tập
-7,Câu ngắn,Mina bài 6,5,いつも あさごはんを 食べます（たべます） nghĩa là gì?,Itsumo asagohano tabemasu(tabemasu),Nghĩa là gì?,luôn luôn ăn bữa sáng,thỉnh thoảng ăn bữa trưa,sau đó uống trà,cùng nhau ăn tối
-7,Câu ngắn,Mina bài 6,6,それから 手紙（てがみ）を 書きます（かきます） nghĩa là gì?,Sorekara tegamio kakimasu(kakimasu),Nghĩa là gì?,sau đó viết thư,cùng nhau đọc thư,thỉnh thoảng mua thư,luôn luôn xem thư
-7,Câu ngắn,Mina bài 6,7,いいですね。いっしょに 行きます（いきます） nghĩa là gì?,Iidesune.isshoni ikimasu(ikimasu),Nghĩa là gì?,Hay đấy. Cùng đi nhé.,Tôi hiểu rồi. Về nhé.,Cái gì vậy? Hẹn gặp lại.,Vâng. Tôi không đi.
-7,Câu ngắn,Mina bài 6,8,これは なんですか nghĩa là gì?,Koreha nandesuka,Nghĩa là gì?,Cái này là cái gì?,Cái đó ở đâu?,Đây là ai?,Khi nào đi?
-7,Câu ngắn,Mina bài 6,9,ちょっと 水（みず）を 飲みます（のみます） nghĩa là gì?,Chotto mizuo nomimasu(nomimasu),Nghĩa là gì?,uống một chút nước,ăn một chút cơm,mua một chút trà,xem một chút ảnh
-7,Câu ngắn,Mina bài 6,10,じゃ、また あした nghĩa là gì?,"Ja,mata ashita",Nghĩa là gì?,"Vậy nhé, hẹn ngày mai.","Cảm ơn, hôm nay.","Tôi hiểu rồi, tối nay.","Hay đấy, cùng nhau."
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+7,Câu ngắn,Mina bài 6,1,なんですか nghĩa là gì?,Nghĩa là gì?,là cái gì?,ở đâu?,khi nào?,ai vậy?
+7,Câu ngắn,Mina bài 6,2,じゃ、また nghĩa là gì?,Nghĩa là gì?,vậy nhé / hẹn gặp lại,tôi hiểu rồi,hay đấy,cùng nhau
+7,Câu ngắn,Mina bài 6,3,いっしょに レストランへ 行きます（いきます） nghĩa là gì?,Nghĩa là gì?,cùng nhau đi nhà hàng,một mình đi cửa hàng,thỉnh thoảng đi vườn,luôn luôn đi trường
+7,Câu ngắn,Mina bài 6,4,ときどき テニスを します nghĩa là gì?,Nghĩa là gì?,thỉnh thoảng chơi tennis,luôn luôn chơi bóng đá,cùng nhau ngắm hoa,sau đó làm bài tập
+7,Câu ngắn,Mina bài 6,5,いつも あさごはんを 食べます（たべます） nghĩa là gì?,Nghĩa là gì?,luôn luôn ăn bữa sáng,thỉnh thoảng ăn bữa trưa,sau đó uống trà,cùng nhau ăn tối
+7,Câu ngắn,Mina bài 6,6,それから 手紙（てがみ）を 書きます（かきます） nghĩa là gì?,Nghĩa là gì?,sau đó viết thư,cùng nhau đọc thư,thỉnh thoảng mua thư,luôn luôn xem thư
+7,Câu ngắn,Mina bài 6,7,いいですね。いっしょに 行きます（いきます） nghĩa là gì?,Nghĩa là gì?,Hay đấy. Cùng đi nhé.,Tôi hiểu rồi. Về nhé.,Cái gì vậy? Hẹn gặp lại.,Vâng. Tôi không đi.
+7,Câu ngắn,Mina bài 6,8,これは なんですか nghĩa là gì?,Nghĩa là gì?,Cái này là cái gì?,Cái đó ở đâu?,Đây là ai?,Khi nào đi?
+7,Câu ngắn,Mina bài 6,9,ちょっと 水（みず）を 飲みます（のみます） nghĩa là gì?,Nghĩa là gì?,uống một chút nước,ăn một chút cơm,mua một chút trà,xem một chút ảnh
+7,Câu ngắn,Mina bài 6,10,じゃ、また あした nghĩa là gì?,Nghĩa là gì?,"Vậy nhé, hẹn ngày mai.","Cảm ơn, hôm nay.","Tôi hiểu rồi, tối nay.","Hay đấy, cùng nhau."

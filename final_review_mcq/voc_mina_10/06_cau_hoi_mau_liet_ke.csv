@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-6,Câu hỏi / mẫu liệt kê,Mina bài 10,1,みせ nghĩa là gì?,mise nghia la gi?,みせ nghĩa là gì?,cửa hàng,công viên,tòa nhà,nhà
-6,Câu hỏi / mẫu liệt kê,Mina bài 10,2,どこ nghĩa là gì?,doko nghia la gi?,どこ nghĩa là gì?,ở đâu,cái gì,ai,khi nào
-6,Câu hỏi / mẫu liệt kê,Mina bài 10,3,なに nghĩa là gì?,nani nghia la gi?,なに nghĩa là gì?,cái gì,ai,ở đâu,bao nhiêu
-6,Câu hỏi / mẫu liệt kê,Mina bài 10,4,だれ nghĩa là gì?,dare nghia la gi?,だれ nghĩa là gì?,ai,cái gì,ở đâu,khi nào
-6,Câu hỏi / mẫu liệt kê,Mina bài 10,5,〜や 〜など nghĩa là gì?,〜ya 〜nado nghia la gi?,〜や 〜など nghĩa là gì?,"... và ..., v.v.",từ... đến...,vì... nên...,cái này / cái kia
-6,Câu hỏi / mẫu liệt kê,Mina bài 10,6,へやに ねこが います nghĩa là gì?,heyani nekoga imasu nghia la gi?,へやに ねこが います nghĩa là gì?,Trong phòng có mèo.,Trong phòng có bàn.,Trên bàn có mèo.,Ngoài phòng có chó.
-6,Câu hỏi / mẫu liệt kê,Mina bài 10,7,つくえの 上（うえ）に 本（ほん）が あります nghĩa là gì?,tsukueno ueni honga arimasu nghia la gi?,つくえの 上（うえ）に 本（ほん）が あります nghĩa là gì?,Trên bàn có sách.,Dưới bàn có sách.,Trong bàn có sách.,Bên cạnh bàn có sách.
-6,Câu hỏi / mẫu liệt kê,Mina bài 10,8,こうえんに 犬（いぬ）が います nghĩa là gì?,kouenni inuga imasu nghia la gi?,こうえんに 犬（いぬ）が います nghĩa là gì?,Ở công viên có chó.,Ở công viên có cây.,Ở công ty có mèo.,Ở trường có voi.
-6,Câu hỏi / mẫu liệt kê,Mina bài 10,9,はこの 中（なか）に でんちが あります nghĩa là gì?,hakono nakani denchiga arimasu nghia la gi?,はこの 中（なか）に でんちが あります nghĩa là gì?,Trong hộp có pin.,Trên hộp có pin.,Dưới hộp có công tắc.,Bên cạnh hộp có pin.
-6,Câu hỏi / mẫu liệt kê,Mina bài 10,10,ドアの 右（みぎ）に スイッチが あります nghĩa là gì?,doano migini suicchiga arimasu nghia la gi?,ドアの 右（みぎ）に スイッチが あります nghĩa là gì?,Bên phải cửa có công tắc.,Bên trái cửa có pin.,Trên cửa có công tắc.,Dưới cửa có hộp.
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+6,Câu hỏi / mẫu liệt kê,Mina bài 10,1,みせ nghĩa là gì?,みせ nghĩa là gì?,cửa hàng,công viên,tòa nhà,nhà
+6,Câu hỏi / mẫu liệt kê,Mina bài 10,2,どこ nghĩa là gì?,どこ nghĩa là gì?,ở đâu,cái gì,ai,khi nào
+6,Câu hỏi / mẫu liệt kê,Mina bài 10,3,なに nghĩa là gì?,なに nghĩa là gì?,cái gì,ai,ở đâu,bao nhiêu
+6,Câu hỏi / mẫu liệt kê,Mina bài 10,4,だれ nghĩa là gì?,だれ nghĩa là gì?,ai,cái gì,ở đâu,khi nào
+6,Câu hỏi / mẫu liệt kê,Mina bài 10,5,〜や 〜など nghĩa là gì?,〜や 〜など nghĩa là gì?,"... và ..., v.v.",từ... đến...,vì... nên...,cái này / cái kia
+6,Câu hỏi / mẫu liệt kê,Mina bài 10,6,へやに ねこが います nghĩa là gì?,へやに ねこが います nghĩa là gì?,Trong phòng có mèo.,Trong phòng có bàn.,Trên bàn có mèo.,Ngoài phòng có chó.
+6,Câu hỏi / mẫu liệt kê,Mina bài 10,7,つくえの 上（うえ）に 本（ほん）が あります nghĩa là gì?,つくえの 上（うえ）に 本（ほん）が あります nghĩa là gì?,Trên bàn có sách.,Dưới bàn có sách.,Trong bàn có sách.,Bên cạnh bàn có sách.
+6,Câu hỏi / mẫu liệt kê,Mina bài 10,8,こうえんに 犬（いぬ）が います nghĩa là gì?,こうえんに 犬（いぬ）が います nghĩa là gì?,Ở công viên có chó.,Ở công viên có cây.,Ở công ty có mèo.,Ở trường có voi.
+6,Câu hỏi / mẫu liệt kê,Mina bài 10,9,はこの 中（なか）に でんちが あります nghĩa là gì?,はこの 中（なか）に でんちが あります nghĩa là gì?,Trong hộp có pin.,Trên hộp có pin.,Dưới hộp có công tắc.,Bên cạnh hộp có pin.
+6,Câu hỏi / mẫu liệt kê,Mina bài 10,10,ドアの 右（みぎ）に スイッチが あります nghĩa là gì?,ドアの 右（みぎ）に スイッチが あります nghĩa là gì?,Bên phải cửa có công tắc.,Bên trái cửa có pin.,Trên cửa có công tắc.,Dưới cửa có hộp.

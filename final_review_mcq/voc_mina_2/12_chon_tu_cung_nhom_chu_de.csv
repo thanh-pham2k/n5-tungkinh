@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-12,Chọn từ cùng nhóm chủ đề,Mina bài 2,1,Từ nào thuộc nhóm “sách / tài liệu”?,,Từ nào thuộc nhóm “sách / tài liệu”?,ざっし,かさ,カメラ,コーヒー
-12,Chọn từ cùng nhóm chủ đề,Mina bài 2,2,Từ nào thuộc nhóm “đồ dùng viết”?,,Từ nào thuộc nhóm “đồ dùng viết”?,ボールペン,テレビ,かばん,チョコレート
-12,Chọn từ cùng nhóm chủ đề,Mina bài 2,3,Từ nào thuộc nhóm “thiết bị”?,,Từ nào thuộc nhóm “thiết bị”?,コンピューター,えんぴつ,じしょ,めいし
-12,Chọn từ cùng nhóm chủ đề,Mina bài 2,4,Từ nào thuộc nhóm “đồ uống / đồ ăn”?,,Từ nào thuộc nhóm “đồ uống / đồ ăn”?,コーヒー,ラジオ,とけい,ノート
-12,Chọn từ cùng nhóm chủ đề,Mina bài 2,5,Từ nào thuộc nhóm “ngôn ngữ”?,,Từ nào thuộc nhóm “ngôn ngữ”?,日本語（にほんご）,カメラ,つくえ,かぎ
-12,Chọn từ cùng nhóm chủ đề,Mina bài 2,6,Từ nào thuộc nhóm “đồ vật trong phòng”?,,Từ nào thuộc nhóm “đồ vật trong phòng”?,いす,ありがとうございます,そうですか,ちがいます
-12,Chọn từ cùng nhóm chủ đề,Mina bài 2,7,Từ nào thuộc nhóm “lời nói lịch sự”?,,Từ nào thuộc nhóm “lời nói lịch sự”?,どうぞ,カード,しんぶん,かさ
-12,Chọn từ cùng nhóm chủ đề,Mina bài 2,8,Từ nào thuộc nhóm “chỉ đồ vật”?,,Từ nào thuộc nhóm “chỉ đồ vật”?,これ,えいご,コーヒー,とけい
-12,Chọn từ cùng nhóm chủ đề,Mina bài 2,9,Từ nào thuộc nhóm “đồ dùng mang theo”?,,Từ nào thuộc nhóm “đồ dùng mang theo”?,かばん,テレビ,つくえ,いす
-12,Chọn từ cùng nhóm chủ đề,Mina bài 2,10,Từ nào thuộc nhóm “máy móc / thiết bị nghe nhìn”?,,Từ nào thuộc nhóm “máy móc / thiết bị nghe nhìn”?,テープレコーダー,じしょ,てちょう,めいし
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+12,Chọn từ cùng nhóm chủ đề,Mina bài 2,1,Từ nào thuộc nhóm “sách / tài liệu”?,Từ nào thuộc nhóm “sách / tài liệu”?,ざっし,かさ,カメラ,コーヒー
+12,Chọn từ cùng nhóm chủ đề,Mina bài 2,2,Từ nào thuộc nhóm “đồ dùng viết”?,Từ nào thuộc nhóm “đồ dùng viết”?,ボールペン,テレビ,かばん,チョコレート
+12,Chọn từ cùng nhóm chủ đề,Mina bài 2,3,Từ nào thuộc nhóm “thiết bị”?,Từ nào thuộc nhóm “thiết bị”?,コンピューター,えんぴつ,じしょ,めいし
+12,Chọn từ cùng nhóm chủ đề,Mina bài 2,4,Từ nào thuộc nhóm “đồ uống / đồ ăn”?,Từ nào thuộc nhóm “đồ uống / đồ ăn”?,コーヒー,ラジオ,とけい,ノート
+12,Chọn từ cùng nhóm chủ đề,Mina bài 2,5,Từ nào thuộc nhóm “ngôn ngữ”?,Từ nào thuộc nhóm “ngôn ngữ”?,日本語（にほんご）,カメラ,つくえ,かぎ
+12,Chọn từ cùng nhóm chủ đề,Mina bài 2,6,Từ nào thuộc nhóm “đồ vật trong phòng”?,Từ nào thuộc nhóm “đồ vật trong phòng”?,いす,ありがとうございます,そうですか,ちがいます
+12,Chọn từ cùng nhóm chủ đề,Mina bài 2,7,Từ nào thuộc nhóm “lời nói lịch sự”?,Từ nào thuộc nhóm “lời nói lịch sự”?,どうぞ,カード,しんぶん,かさ
+12,Chọn từ cùng nhóm chủ đề,Mina bài 2,8,Từ nào thuộc nhóm “chỉ đồ vật”?,Từ nào thuộc nhóm “chỉ đồ vật”?,これ,えいご,コーヒー,とけい
+12,Chọn từ cùng nhóm chủ đề,Mina bài 2,9,Từ nào thuộc nhóm “đồ dùng mang theo”?,Từ nào thuộc nhóm “đồ dùng mang theo”?,かばん,テレビ,つくえ,いす
+12,Chọn từ cùng nhóm chủ đề,Mina bài 2,10,Từ nào thuộc nhóm “máy móc / thiết bị nghe nhìn”?,Từ nào thuộc nhóm “máy móc / thiết bị nghe nhìn”?,テープレコーダー,じしょ,てちょう,めいし

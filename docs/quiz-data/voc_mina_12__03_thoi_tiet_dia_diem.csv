@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Thời tiết / địa điểm,Mina bài 12,1,雨（あめ） nghĩa là gì?,ame nghĩa là gì?,雨（あめ） nghĩa là gì?,mưa,tuyết,trời nhiều mây,biển
-3,Thời tiết / địa điểm,Mina bài 12,2,雪（ゆき） nghĩa là gì?,yuki nghĩa là gì?,雪（ゆき） nghĩa là gì?,tuyết,mưa,thời tiết,mùa đông
-3,Thời tiết / địa điểm,Mina bài 12,3,くもり nghĩa là gì?,kumori nghĩa là gì?,くもり nghĩa là gì?,trời nhiều mây,mưa,tuyết,trời nắng
-3,Thời tiết / địa điểm,Mina bài 12,4,ホテル nghĩa là gì?,hoteru nghĩa là gì?,ホテル nghĩa là gì?,khách sạn,sân bay,biển,thế giới
-3,Thời tiết / địa điểm,Mina bài 12,5,空港（くうこう） nghĩa là gì?,kuukou nghĩa là gì?,空港（くうこう） nghĩa là gì?,sân bay,khách sạn,biển,lễ hội
-3,Thời tiết / địa điểm,Mina bài 12,6,海（うみ） nghĩa là gì?,umi nghĩa là gì?,海（うみ） nghĩa là gì?,biển,sân bay,thế giới,khách sạn
-3,Thời tiết / địa điểm,Mina bài 12,7,世界（せかい） nghĩa là gì?,sekai nghĩa là gì?,世界（せかい） nghĩa là gì?,thế giới,mùa,biển,lễ hội
-3,Thời tiết / địa điểm,Mina bài 12,8,パーティー nghĩa là gì?,pa-ti- nghĩa là gì?,パーティー nghĩa là gì?,tiệc,lễ hội,khách sạn,sân bay
-3,Thời tiết / địa điểm,Mina bài 12,9,まつり nghĩa là gì?,matsuri nghĩa là gì?,まつり nghĩa là gì?,lễ hội,tiệc,mùa,thời tiết
-3,Thời tiết / địa điểm,Mina bài 12,10,ホテルは 空港（くうこう）の 近く（ちかく）です nghĩa là gì?,hoteruha kuukouno 近ku(chikaku)desu nghĩa là gì?,ホテルは 空港（くうこう）の 近く（ちかく）です nghĩa là gì?,Khách sạn gần sân bay.,Sân bay xa khách sạn.,Biển gần khách sạn.,Lễ hội ở sân bay.
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Thời tiết / địa điểm,Mina bài 12,1,雨（あめ） nghĩa là gì?,雨（あめ） nghĩa là gì?,mưa,tuyết,trời nhiều mây,biển
+3,Thời tiết / địa điểm,Mina bài 12,2,雪（ゆき） nghĩa là gì?,雪（ゆき） nghĩa là gì?,tuyết,mưa,thời tiết,mùa đông
+3,Thời tiết / địa điểm,Mina bài 12,3,くもり nghĩa là gì?,くもり nghĩa là gì?,trời nhiều mây,mưa,tuyết,trời nắng
+3,Thời tiết / địa điểm,Mina bài 12,4,ホテル nghĩa là gì?,ホテル nghĩa là gì?,khách sạn,sân bay,biển,thế giới
+3,Thời tiết / địa điểm,Mina bài 12,5,空港（くうこう） nghĩa là gì?,空港（くうこう） nghĩa là gì?,sân bay,khách sạn,biển,lễ hội
+3,Thời tiết / địa điểm,Mina bài 12,6,海（うみ） nghĩa là gì?,海（うみ） nghĩa là gì?,biển,sân bay,thế giới,khách sạn
+3,Thời tiết / địa điểm,Mina bài 12,7,世界（せかい） nghĩa là gì?,世界（せかい） nghĩa là gì?,thế giới,mùa,biển,lễ hội
+3,Thời tiết / địa điểm,Mina bài 12,8,パーティー nghĩa là gì?,パーティー nghĩa là gì?,tiệc,lễ hội,khách sạn,sân bay
+3,Thời tiết / địa điểm,Mina bài 12,9,まつり nghĩa là gì?,まつり nghĩa là gì?,lễ hội,tiệc,mùa,thời tiết
+3,Thời tiết / địa điểm,Mina bài 12,10,ホテルは 空港（くうこう）の 近く（ちかく）です nghĩa là gì?,ホテルは 空港（くうこう）の 近く（ちかく）です nghĩa là gì?,Khách sạn gần sân bay.,Sân bay xa khách sạn.,Biển gần khách sạn.,Lễ hội ở sân bay.

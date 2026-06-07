@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-6,Việt → Nhật / sức khỏe,Mina bài 17,1,“làm thêm giờ” là từ nào?,làm thêm giờ,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,ざんぎょうします,しゅっちょうします,しんぱいします,はらいます
-6,Việt → Nhật / sức khỏe,Mina bài 17,2,“đi công tác” là từ nào?,đi công tác,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,しゅっちょうします,ざんぎょうします,でかけます,なくします
-6,Việt → Nhật / sức khỏe,Mina bài 17,3,“quan trọng” là từ nào?,quan trọng,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,たいせつ,だいじょうぶ,あぶない,問題（もんだい）
-6,Việt → Nhật / sức khỏe,Mina bài 17,4,“ổn / không sao” là từ nào?,ổn / không sao,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,だいじょうぶ,たいせつ,あぶない,きんえん
-6,Việt → Nhật / sức khỏe,Mina bài 17,5,“nguy hiểm” là từ nào?,nguy hiểm,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,あぶない,たいせつ,だいじょうぶ,びょうき
-6,Việt → Nhật / sức khỏe,Mina bài 17,6,“vấn đề / câu hỏi” là từ nào?,vấn đề / câu hỏi,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,問題（もんだい）,こたえ,時間（じかん）,くすり
-6,Việt → Nhật / sức khỏe,Mina bài 17,7,“câu trả lời” là từ nào?,câu trả lời,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,こたえ,問題（もんだい）,のど,いたい
-6,Việt → Nhật / sức khỏe,Mina bài 17,8,“cấm hút thuốc” là từ nào?,cấm hút thuốc,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,きんえん,かぜ,ねつ,くすり
-6,Việt → Nhật / sức khỏe,Mina bài 17,9,“thẻ bảo hiểm” là từ nào?,thẻ bảo hiểm,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,ほけんしょう,びょういん,くすり,うわぎ
-6,Việt → Nhật / sức khỏe,Mina bài 17,10,“cảm lạnh” là từ nào?,cảm lạnh,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,かぜ,ねつ,びょうき,のど
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+6,Việt → Nhật / sức khỏe,Mina bài 17,1,“làm thêm giờ” là từ nào?,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,ざんぎょうします,しゅっちょうします,しんぱいします,はらいます
+6,Việt → Nhật / sức khỏe,Mina bài 17,2,“đi công tác” là từ nào?,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,しゅっちょうします,ざんぎょうします,でかけます,なくします
+6,Việt → Nhật / sức khỏe,Mina bài 17,3,“quan trọng” là từ nào?,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,たいせつ,だいじょうぶ,あぶない,問題（もんだい）
+6,Việt → Nhật / sức khỏe,Mina bài 17,4,“ổn / không sao” là từ nào?,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,だいじょうぶ,たいせつ,あぶない,きんえん
+6,Việt → Nhật / sức khỏe,Mina bài 17,5,“nguy hiểm” là từ nào?,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,あぶない,たいせつ,だいじょうぶ,びょうき
+6,Việt → Nhật / sức khỏe,Mina bài 17,6,“vấn đề / câu hỏi” là từ nào?,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,問題（もんだい）,こたえ,時間（じかん）,くすり
+6,Việt → Nhật / sức khỏe,Mina bài 17,7,“câu trả lời” là từ nào?,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,こたえ,問題（もんだい）,のど,いたい
+6,Việt → Nhật / sức khỏe,Mina bài 17,8,“cấm hút thuốc” là từ nào?,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,きんえん,かぜ,ねつ,くすり
+6,Việt → Nhật / sức khỏe,Mina bài 17,9,“thẻ bảo hiểm” là từ nào?,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,ほけんしょう,びょういん,くすり,うわぎ
+6,Việt → Nhật / sức khỏe,Mina bài 17,10,“cảm lạnh” là từ nào?,Chọn từ tiếng Nhật phù hợp với nghĩa tiếng Việt.,かぜ,ねつ,びょうき,のど

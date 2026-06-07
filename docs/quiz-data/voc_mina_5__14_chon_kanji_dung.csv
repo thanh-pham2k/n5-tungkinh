@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-14,Chọn kanji đúng,Mina bài 5,1,“đi” viết bằng kanji nào?,“đi” viết bằng kanji nào?,đi,行きます,来ます,見ます,聞きます
-14,Chọn kanji đúng,Mina bài 5,2,“đến” viết bằng kanji nào?,“đến” viết bằng kanji nào?,đến,来ます,行きます,食べます,飲みます
-14,Chọn kanji đúng,Mina bài 5,3,“trường học” viết bằng kanji nào?,“trường học” viết bằng kanji nào?,trường học,学校,学生,大学,会社
-14,Chọn kanji đúng,Mina bài 5,4,“nhà ga” viết bằng kanji nào?,“nhà ga” viết bằng kanji nào?,nhà ga,駅,車,電,校
-14,Chọn kanji đúng,Mina bài 5,5,“tàu điện” viết bằng kanji nào?,“tàu điện” viết bằng kanji nào?,tàu điện,電車,電話,自転車,地下鉄
-14,Chọn kanji đúng,Mina bài 5,6,“người” viết bằng kanji nào?,“người” viết bằng kanji nào?,người,人,入,大,犬
-14,Chọn kanji đúng,Mina bài 5,7,“năm nay” viết bằng kanji nào?,“năm nay” viết bằng kanji nào?,năm nay,今年,去年,来年,今月
-14,Chọn kanji đúng,Mina bài 5,8,“tuần trước” viết bằng kanji nào?,“tuần trước” viết bằng kanji nào?,tuần trước,先週,今週,来週,先月
-14,Chọn kanji đúng,Mina bài 5,9,“tuần này” viết bằng kanji nào?,“tuần này” viết bằng kanji nào?,tuần này,今週,先週,来週,今月
-14,Chọn kanji đúng,Mina bài 5,10,“tuần sau” viết bằng kanji nào?,“tuần sau” viết bằng kanji nào?,tuần sau,来週,今週,先週,来月
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+14,Chọn kanji đúng,Mina bài 5,1,“đi” viết bằng kanji nào?,đi,行きます,来ます,見ます,聞きます
+14,Chọn kanji đúng,Mina bài 5,2,“đến” viết bằng kanji nào?,đến,来ます,行きます,食べます,飲みます
+14,Chọn kanji đúng,Mina bài 5,3,“trường học” viết bằng kanji nào?,trường học,学校,学生,大学,会社
+14,Chọn kanji đúng,Mina bài 5,4,“nhà ga” viết bằng kanji nào?,nhà ga,駅,車,電,校
+14,Chọn kanji đúng,Mina bài 5,5,“tàu điện” viết bằng kanji nào?,tàu điện,電車,電話,自転車,地下鉄
+14,Chọn kanji đúng,Mina bài 5,6,“người” viết bằng kanji nào?,người,人,入,大,犬
+14,Chọn kanji đúng,Mina bài 5,7,“năm nay” viết bằng kanji nào?,năm nay,今年,去年,来年,今月
+14,Chọn kanji đúng,Mina bài 5,8,“tuần trước” viết bằng kanji nào?,tuần trước,先週,今週,来週,先月
+14,Chọn kanji đúng,Mina bài 5,9,“tuần này” viết bằng kanji nào?,tuần này,今週,先週,来週,今月
+14,Chọn kanji đúng,Mina bài 5,10,“tuần sau” viết bằng kanji nào?,tuần sau,来週,今週,先週,来月

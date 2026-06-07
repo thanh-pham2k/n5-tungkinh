@@ -1,9 +1,9 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1402,Kanji → Cách đọc,Bài 14,1,馬,uma,馬 đọc là gì?,うま,えき,みせ,しゃ
-1402,Kanji → Cách đọc,Bài 14,2,駅,eki,駅 đọc là gì?,しゃ,こう,えき,ぎん
-1402,Kanji → Cách đọc,Bài 14,3,会社,kaisha,会社 đọc là gì?,がっこう,かいしゃ,びょういん,ぎんこう
-1402,Kanji → Cách đọc,Bài 14,4,学校,gakkou,学校 đọc là gì?,gakkou,みせ,うま,しゃかい
-1402,Kanji → Cách đọc,Bài 14,5,店,mise,店 đọc là gì?,えき,みせ,びょうき,こう
-1402,Kanji → Cách đọc,Bài 14,6,銀行,ginkou,銀行 đọc là gì?,ぎんこう,びょういん,てんいん,gakkou
-1402,Kanji → Cách đọc,Bài 14,7,病気,byouki,病気 đọc là gì?,びょうき,びょういん,にゅういん,しゃかい
-1402,Kanji → Cách đọc,Bài 14,8,病院,byouin,病院 đọc là gì?,ぎんこう,びょういん,gakkou,かいしゃ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1402,Kanji → Cách đọc,Bài 14,1,馬,馬 đọc là gì?,うま,えき,みせ,しゃ
+1402,Kanji → Cách đọc,Bài 14,2,駅,駅 đọc là gì?,しゃ,こう,えき,ぎん
+1402,Kanji → Cách đọc,Bài 14,3,会社,会社 đọc là gì?,がっこう,かいしゃ,びょういん,ぎんこう
+1402,Kanji → Cách đọc,Bài 14,4,学校,学校 đọc là gì?,gakkou,みせ,うま,しゃかい
+1402,Kanji → Cách đọc,Bài 14,5,店,店 đọc là gì?,えき,みせ,びょうき,こう
+1402,Kanji → Cách đọc,Bài 14,6,銀行,銀行 đọc là gì?,ぎんこう,びょういん,てんいん,gakkou
+1402,Kanji → Cách đọc,Bài 14,7,病気,病気 đọc là gì?,びょうき,びょういん,にゅういん,しゃかい
+1402,Kanji → Cách đọc,Bài 14,8,病院,病院 đọc là gì?,ぎんこう,びょういん,gakkou,かいしゃ

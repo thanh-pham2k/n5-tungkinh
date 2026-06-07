@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-13,Chọn trợ từ / cụm phù hợp,Mina bài 1,1,わたし＿＿＿ 学生（がくせい）です。,Watashi＿＿＿ gakusei(gakusei)desu。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,は,を,に,で
-13,Chọn trợ từ / cụm phù hợp,Mina bài 1,2,こちら＿＿＿ 田中（たなか）さんです。,Kochira＿＿＿ Tanaka(tanaka)sandesu。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,は,を,に,で
-13,Chọn trợ từ / cụm phù hợp,Mina bài 1,3,わたしは ベトナム＿＿＿ きました。,Watashiha betonamu＿＿＿ kimashita。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,から,は,を,に
-13,Chọn trợ từ / cụm phù hợp,Mina bài 1,4,あのひと＿＿＿ だれですか。,Anohito＿＿＿ daredesuka。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,は,を,に,で
-13,Chọn trợ từ / cụm phù hợp,Mina bài 1,5,あなた＿＿＿ なんさいですか。,Anata＿＿＿ nansaidesuka。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,は,を,に,で
-13,Chọn trợ từ / cụm phù hợp,Mina bài 1,6,わたしは エンジニア＿＿＿。,Watashiha enjinia＿＿＿。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,です,を,に,で
-13,Chọn trợ từ / cụm phù hợp,Mina bài 1,7,田中（たなか）さんは 日本（にほん）＿＿＿です。,Tanaka(tanaka)sanha nihon(nihon)＿＿＿desu。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,じん,さん,さい,ちゃん
-13,Chọn trợ từ / cụm phù hợp,Mina bài 1,8,山田（やまだ）さんは 30＿＿＿です。,Yamada(yamada)sanha 30＿＿＿desu。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,さい,じん,さん,くん
-13,Chọn trợ từ / cụm phù hợp,Mina bài 1,9,＿＿＿ですが、おなまえは？,＿＿＿desuga、onamaeha？,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,しつれい,はじめまして,いいえ,はい
-13,Chọn trợ từ / cụm phù hợp,Mina bài 1,10,はじめまして。どうぞ＿＿＿。,Hajimemashite。douzo＿＿＿。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,よろしく,なんさい,だれ,どなた
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+13,Chọn trợ từ / cụm phù hợp,Mina bài 1,1,わたし＿＿＿ 学生（がくせい）です。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,は,を,に,で
+13,Chọn trợ từ / cụm phù hợp,Mina bài 1,2,こちら＿＿＿ 田中（たなか）さんです。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,は,を,に,で
+13,Chọn trợ từ / cụm phù hợp,Mina bài 1,3,わたしは ベトナム＿＿＿ きました。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,から,は,を,に
+13,Chọn trợ từ / cụm phù hợp,Mina bài 1,4,あのひと＿＿＿ だれですか。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,は,を,に,で
+13,Chọn trợ từ / cụm phù hợp,Mina bài 1,5,あなた＿＿＿ なんさいですか。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,は,を,に,で
+13,Chọn trợ từ / cụm phù hợp,Mina bài 1,6,わたしは エンジニア＿＿＿。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,です,を,に,で
+13,Chọn trợ từ / cụm phù hợp,Mina bài 1,7,田中（たなか）さんは 日本（にほん）＿＿＿です。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,じん,さん,さい,ちゃん
+13,Chọn trợ từ / cụm phù hợp,Mina bài 1,8,山田（やまだ）さんは 30＿＿＿です。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,さい,じん,さん,くん
+13,Chọn trợ từ / cụm phù hợp,Mina bài 1,9,＿＿＿ですが、おなまえは？,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,しつれい,はじめまして,いいえ,はい
+13,Chọn trợ từ / cụm phù hợp,Mina bài 1,10,はじめまして。どうぞ＿＿＿。,Chọn từ hoặc cụm phù hợp để hoàn thành câu.,よろしく,なんさい,だれ,どなた

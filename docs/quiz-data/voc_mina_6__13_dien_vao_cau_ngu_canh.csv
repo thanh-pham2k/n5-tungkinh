@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-13,Điền vào câu / ngữ cảnh,Mina bài 6,1,あさごはんを＿＿＿。,Asagohano＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,食べます（たべます）,聞きます（ききます）,書きます（かきます）,とります
-13,Điền vào câu / ngữ cảnh,Mina bài 6,2,おちゃを＿＿＿。,Ochao＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,飲みます（のみます）,食べます（たべます）,見ます（みます）,読みます（よみます）
-13,Điền vào câu / ngữ cảnh,Mina bài 6,3,みせで パンを＿＿＿。,Misede pano＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,買います（かいます）,聞きます（ききます）,書きます（かきます）,あいます
-13,Điền vào câu / ngữ cảnh,Mina bài 6,4,にわで 写真（しゃしん）を＿＿＿。,Niwade shashino＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,とります,読みます（よみます）,飲みます（のみます）,すいます
-13,Điền vào câu / ngữ cảnh,Mina bài 6,5,レストランで ひるごはんを＿＿＿。,Resutorande hirugohano＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,食べます（たべます）,見ます（みます）,聞きます（ききます）,書きます（かきます）
-13,Điền vào câu / ngữ cảnh,Mina bài 6,6,いっしょに テニスを＿＿＿。,Isshoni tenisuo＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,します,飲みます（のみます）,読みます（よみます）,買います（かいます）
-13,Điền vào câu / ngữ cảnh,Mina bài 6,7,ときどき サッカーを＿＿＿。,Tokidoki sakkaao＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,します,見ます（みます）,飲みます（のみます）,書きます（かきます）
-13,Điền vào câu / ngữ cảnh,Mina bài 6,8,それから ジュースを＿＿＿。,Sorekara juusuo＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,飲みます（のみます）,食べます（たべます）,読みます（よみます）,あいます
-13,Điền vào câu / ngữ cảnh,Mina bài 6,9,ちょっと たまごを＿＿＿。,Chotto tamagoo＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,食べます（たべます）,聞きます（ききます）,書きます（かきます）,とります
-13,Điền vào câu / ngữ cảnh,Mina bài 6,10,いつも 手紙（てがみ）を＿＿＿。,Itsumo tegamio＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,書きます（かきます）,飲みます（のみます）,食べます（たべます）,とります
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+13,Điền vào câu / ngữ cảnh,Mina bài 6,1,あさごはんを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,食べます（たべます）,聞きます（ききます）,書きます（かきます）,とります
+13,Điền vào câu / ngữ cảnh,Mina bài 6,2,おちゃを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,飲みます（のみます）,食べます（たべます）,見ます（みます）,読みます（よみます）
+13,Điền vào câu / ngữ cảnh,Mina bài 6,3,みせで パンを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,買います（かいます）,聞きます（ききます）,書きます（かきます）,あいます
+13,Điền vào câu / ngữ cảnh,Mina bài 6,4,にわで 写真（しゃしん）を＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,とります,読みます（よみます）,飲みます（のみます）,すいます
+13,Điền vào câu / ngữ cảnh,Mina bài 6,5,レストランで ひるごはんを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,食べます（たべます）,見ます（みます）,聞きます（ききます）,書きます（かきます）
+13,Điền vào câu / ngữ cảnh,Mina bài 6,6,いっしょに テニスを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,します,飲みます（のみます）,読みます（よみます）,買います（かいます）
+13,Điền vào câu / ngữ cảnh,Mina bài 6,7,ときどき サッカーを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,します,見ます（みます）,飲みます（のみます）,書きます（かきます）
+13,Điền vào câu / ngữ cảnh,Mina bài 6,8,それから ジュースを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,飲みます（のみます）,食べます（たべます）,読みます（よみます）,あいます
+13,Điền vào câu / ngữ cảnh,Mina bài 6,9,ちょっと たまごを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,食べます（たべます）,聞きます（ききます）,書きます（かきます）,とります
+13,Điền vào câu / ngữ cảnh,Mina bài 6,10,いつも 手紙（てがみ）を＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,書きます（かきます）,飲みます（のみます）,食べます（たべます）,とります

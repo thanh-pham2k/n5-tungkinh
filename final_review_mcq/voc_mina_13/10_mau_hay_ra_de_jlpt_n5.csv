@@ -1,13 +1,13 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,1,ここに名前を書いて＿＿。,Koko ni namae o kaite ___.,Hãy viết tên ở đây.,ください,います,あります,です
-10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,2,この部屋でたばこを吸って＿＿。,Kono heya de tabako o sutte ___.,Không được hút thuốc trong phòng này.,はいけません,もいいです,ください,います
-10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,3,辞書を使って＿＿ですか。,Jisho o tsukatte ___ desu ka.,Tôi dùng từ điển được không?,もいい,はいけない,ください,います
-10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,4,毎日日本語を勉強して＿＿。,Mainichi nihongo o benkyou shite ___.,Tôi đang học tiếng Nhật mỗi ngày.,います,ください,はいけません,もいいです
-10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,5,雨が降って＿＿、行きます。,"Ame ga futte ___, ikimasu.","Dù trời mưa, tôi vẫn đi.",も,から,まで,に
-10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,6,時間がありません＿＿、タクシーで行きます。,"Jikan ga arimasen ___, takushii de ikimasu.",Vì không có thời gian nên tôi đi taxi.,から,ても,まで,と
-10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,7,この漢字は読む＿＿ができます。,Kono kanji wa yomu ___ ga dekimasu.,Tôi có thể đọc chữ kanji này.,こと,もの,ところ,ため
-10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,8,日本語を話す＿＿ができますか。,Nihongo o hanasu ___ ga dekimasu ka.,Bạn có thể nói tiếng Nhật không?,こと,もの,ところ,ため
-10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,9,明日早く起きなければ＿＿。,Ashita hayaku okinakereba ___.,Ngày mai tôi phải dậy sớm.,なりません,ください,もいいです,います
-10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,10,今日は学校へ行かなくても＿＿。,Kyou wa gakkou e ikanakute mo ___.,Hôm nay không đi học cũng được.,いいです,なりません,ください,はいけません
-10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,11,京都へ行ったこと＿＿あります。,Kyouto e itta koto ___ arimasu.,Tôi đã từng đi Kyoto.,が,を,で,へ
-10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,12,休みの日、掃除したり洗濯したり＿＿。,"Yasumi no hi, souji shitari sentaku shitari ___.","Ngày nghỉ tôi dọn dẹp, giặt đồ, v.v.",します,ください,あります,です
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,1,ここに名前を書いて＿＿。,Hãy viết tên ở đây.,ください,います,あります,です
+10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,2,この部屋でたばこを吸って＿＿。,Không được hút thuốc trong phòng này.,はいけません,もいいです,ください,います
+10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,3,辞書を使って＿＿ですか。,Tôi dùng từ điển được không?,もいい,はいけない,ください,います
+10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,4,毎日日本語を勉強して＿＿。,Tôi đang học tiếng Nhật mỗi ngày.,います,ください,はいけません,もいいです
+10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,5,雨が降って＿＿、行きます。,"Dù trời mưa, tôi vẫn đi.",も,から,まで,に
+10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,6,時間がありません＿＿、タクシーで行きます。,Vì không có thời gian nên tôi đi taxi.,から,ても,まで,と
+10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,7,この漢字は読む＿＿ができます。,Tôi có thể đọc chữ kanji này.,こと,もの,ところ,ため
+10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,8,日本語を話す＿＿ができますか。,Bạn có thể nói tiếng Nhật không?,こと,もの,ところ,ため
+10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,9,明日早く起きなければ＿＿。,Ngày mai tôi phải dậy sớm.,なりません,ください,もいいです,います
+10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,10,今日は学校へ行かなくても＿＿。,Hôm nay không đi học cũng được.,いいです,なりません,ください,はいけません
+10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,11,京都へ行ったこと＿＿あります。,Tôi đã từng đi Kyoto.,が,を,で,へ
+10,Mẫu hay ra đề JLPT N5,Minna bài 1-25,12,休みの日、掃除したり洗濯したり＿＿。,"Ngày nghỉ tôi dọn dẹp, giặt đồ, v.v.",します,ください,あります,です

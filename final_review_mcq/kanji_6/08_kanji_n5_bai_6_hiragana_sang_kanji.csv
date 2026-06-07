@@ -1,10 +1,10 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-8,Hiragana -> Kanji,Kanji N5 - Bài 6,1,うしろ,ushiro,phía sau,後ろ,前,中,外
-8,Hiragana -> Kanji,Kanji N5 - Bài 6,2,ごぜん,gozen,buổi sáng / AM,午前,午後,時間,門
-8,Hiragana -> Kanji,Kanji N5 - Bài 6,3,ごご,gogo,buổi chiều / PM,午前,午後,後ろ,東
-8,Hiragana -> Kanji,Kanji N5 - Bài 6,4,もん,mon,cổng,間,門,南,北
-8,Hiragana -> Kanji,Kanji N5 - Bài 6,5,じかん,jikan,thời gian,時間,門,午前,西
-8,Hiragana -> Kanji,Kanji N5 - Bài 6,6,ひがし,higashi,phía Đông,東,西,北,南
-8,Hiragana -> Kanji,Kanji N5 - Bài 6,7,きた,kita,phía Bắc,南,北,東,西
-8,Hiragana -> Kanji,Kanji N5 - Bài 6,8,にし,nishi,phía Tây,東,南,西,北
-8,Hiragana -> Kanji,Kanji N5 - Bài 6,9,みなみ,minami,phía Nam,南,北,間,門
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+8,Hiragana -> Kanji,Kanji N5 - Bài 6,1,うしろ,phía sau,後ろ,前,中,外
+8,Hiragana -> Kanji,Kanji N5 - Bài 6,2,ごぜん,buổi sáng / AM,午前,午後,時間,門
+8,Hiragana -> Kanji,Kanji N5 - Bài 6,3,ごご,buổi chiều / PM,午前,午後,後ろ,東
+8,Hiragana -> Kanji,Kanji N5 - Bài 6,4,もん,cổng,間,門,南,北
+8,Hiragana -> Kanji,Kanji N5 - Bài 6,5,じかん,thời gian,時間,門,午前,西
+8,Hiragana -> Kanji,Kanji N5 - Bài 6,6,ひがし,phía Đông,東,西,北,南
+8,Hiragana -> Kanji,Kanji N5 - Bài 6,7,きた,phía Bắc,南,北,東,西
+8,Hiragana -> Kanji,Kanji N5 - Bài 6,8,にし,phía Tây,東,南,西,北
+8,Hiragana -> Kanji,Kanji N5 - Bài 6,9,みなみ,phía Nam,南,北,間,門

@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-12,Chọn kanji đúng,Mina bài 15,1,“dùng / sử dụng” viết bằng kanji nào?,“d ùng / s ử d ụng” vi ết b ằng kanji n ào?,“dùng / sử dụng” viết bằng kanji nào?,使います,作ります,売ります,住みます
-12,Chọn kanji đúng,Mina bài 15,2,“làm / chế tạo” viết bằng kanji nào?,“l àm / ch ế t ạo” vi ết b ằng kanji n ào?,“làm / chế tạo” viết bằng kanji nào?,作ります,使います,売ります,知ります
-12,Chọn kanji đúng,Mina bài 15,3,“bán” viết bằng kanji nào?,“b án” vi ết b ằng kanji n ào?,“bán” viết bằng kanji nào?,売ります,買います,作ります,使います
-12,Chọn kanji đúng,Mina bài 15,4,“biết” viết bằng kanji nào?,“bi ết” vi ết b ằng kanji n ào?,“biết” viết bằng kanji nào?,知ります,住みます,作ります,売ります
-12,Chọn kanji đúng,Mina bài 15,5,“đang biết” viết bằng kanji nào?,“đang bi ết” vi ết b ằng kanji n ào?,“đang biết” viết bằng kanji nào?,知っています,知りません,住んでいます,作っています
-12,Chọn kanji đúng,Mina bài 15,6,“không biết” viết bằng kanji nào?,“kh ông bi ết” vi ết b ằng kanji n ào?,“không biết” viết bằng kanji nào?,知りません,知っています,住みません,売りません
-12,Chọn kanji đúng,Mina bài 15,7,“sống / cư trú” viết bằng kanji nào?,“s ống / c ư tr ú” vi ết b ằng kanji n ào?,“sống / cư trú” viết bằng kanji nào?,住みます,知ります,使います,作ります
-12,Chọn kanji đúng,Mina bài 15,8,“đang sống” viết bằng kanji nào?,“đang s ống” vi ết b ằng kanji n ào?,“đang sống” viết bằng kanji nào?,住んでいます,知っています,作っています,売っています
-12,Chọn kanji đúng,Mina bài 15,9,“nhân viên công ty” viết bằng kanji nào?,“nh ân vi ên c ông ty” vi ết b ằng kanji n ào?,“nhân viên công ty” viết bằng kanji nào?,会社員,会社,社員,学生
-12,Chọn kanji đúng,Mina bài 15,10,“trường cấp 3” viết bằng kanji nào?,“tr ường c ấp 3” vi ết b ằng kanji n ào?,“trường cấp 3” viết bằng kanji nào?,高校,学校,大学,教室
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+12,Chọn kanji đúng,Mina bài 15,1,“dùng / sử dụng” viết bằng kanji nào?,“dùng / sử dụng” viết bằng kanji nào?,使います,作ります,売ります,住みます
+12,Chọn kanji đúng,Mina bài 15,2,“làm / chế tạo” viết bằng kanji nào?,“làm / chế tạo” viết bằng kanji nào?,作ります,使います,売ります,知ります
+12,Chọn kanji đúng,Mina bài 15,3,“bán” viết bằng kanji nào?,“bán” viết bằng kanji nào?,売ります,買います,作ります,使います
+12,Chọn kanji đúng,Mina bài 15,4,“biết” viết bằng kanji nào?,“biết” viết bằng kanji nào?,知ります,住みます,作ります,売ります
+12,Chọn kanji đúng,Mina bài 15,5,“đang biết” viết bằng kanji nào?,“đang biết” viết bằng kanji nào?,知っています,知りません,住んでいます,作っています
+12,Chọn kanji đúng,Mina bài 15,6,“không biết” viết bằng kanji nào?,“không biết” viết bằng kanji nào?,知りません,知っています,住みません,売りません
+12,Chọn kanji đúng,Mina bài 15,7,“sống / cư trú” viết bằng kanji nào?,“sống / cư trú” viết bằng kanji nào?,住みます,知ります,使います,作ります
+12,Chọn kanji đúng,Mina bài 15,8,“đang sống” viết bằng kanji nào?,“đang sống” viết bằng kanji nào?,住んでいます,知っています,作っています,売っています
+12,Chọn kanji đúng,Mina bài 15,9,“nhân viên công ty” viết bằng kanji nào?,“nhân viên công ty” viết bằng kanji nào?,会社員,会社,社員,学生
+12,Chọn kanji đúng,Mina bài 15,10,“trường cấp 3” viết bằng kanji nào?,“trường cấp 3” viết bằng kanji nào?,高校,学校,大学,教室

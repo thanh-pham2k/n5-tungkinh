@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,Kanji → Nghĩa,Kanji N5 bài 1,1,一 nghĩa là gì?,ichi nghĩa là gì?,Hỏi nghĩa của “一”.,một,hai,ba,bốn
-1,Kanji → Nghĩa,Kanji N5 bài 1,2,二 nghĩa là gì?,ni nghĩa là gì?,Hỏi nghĩa của “二”.,ba,hai,năm,tám
-1,Kanji → Nghĩa,Kanji N5 bài 1,3,三 nghĩa là gì?,san nghĩa là gì?,Hỏi nghĩa của “三”.,một,bốn,ba,sáu
-1,Kanji → Nghĩa,Kanji N5 bài 1,4,四 nghĩa là gì?,yon / shi nghĩa là gì?,Hỏi nghĩa của “四”.,năm,bảy,bốn,tám
-1,Kanji → Nghĩa,Kanji N5 bài 1,5,五 nghĩa là gì?,go nghĩa là gì?,Hỏi nghĩa của “五”.,năm,sáu,ba,hai
-1,Kanji → Nghĩa,Kanji N5 bài 1,6,六 nghĩa là gì?,roku nghĩa là gì?,Hỏi nghĩa của “六”.,tám,sáu,bảy,bốn
-1,Kanji → Nghĩa,Kanji N5 bài 1,7,七 nghĩa là gì?,nana / shichi nghĩa là gì?,Hỏi nghĩa của “七”.,một,chín,bảy,năm
-1,Kanji → Nghĩa,Kanji N5 bài 1,8,八 nghĩa là gì?,hachi nghĩa là gì?,Hỏi nghĩa của “八”.,tám,sáu,bốn,hai
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Kanji → Nghĩa,Kanji N5 bài 1,1,一 nghĩa là gì?,Hỏi nghĩa của “一”.,một,hai,ba,bốn
+1,Kanji → Nghĩa,Kanji N5 bài 1,2,二 nghĩa là gì?,Hỏi nghĩa của “二”.,ba,hai,năm,tám
+1,Kanji → Nghĩa,Kanji N5 bài 1,3,三 nghĩa là gì?,Hỏi nghĩa của “三”.,một,bốn,ba,sáu
+1,Kanji → Nghĩa,Kanji N5 bài 1,4,四 nghĩa là gì?,Hỏi nghĩa của “四”.,năm,bảy,bốn,tám
+1,Kanji → Nghĩa,Kanji N5 bài 1,5,五 nghĩa là gì?,Hỏi nghĩa của “五”.,năm,sáu,ba,hai
+1,Kanji → Nghĩa,Kanji N5 bài 1,6,六 nghĩa là gì?,Hỏi nghĩa của “六”.,tám,sáu,bảy,bốn
+1,Kanji → Nghĩa,Kanji N5 bài 1,7,七 nghĩa là gì?,Hỏi nghĩa của “七”.,một,chín,bảy,năm
+1,Kanji → Nghĩa,Kanji N5 bài 1,8,八 nghĩa là gì?,Hỏi nghĩa của “八”.,tám,sáu,bốn,hai

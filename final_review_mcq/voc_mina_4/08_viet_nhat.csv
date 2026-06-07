@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-8,Việt → Nhật,Mina bài 4,1,“thức dậy” là từ nào?,“thức dậy” là từ nào?,“thức dậy” là từ nào?,おきます,ねます,やすみます,おわります
-8,Việt → Nhật,Mina bài 4,2,“ngủ” là từ nào?,“ngủ” là từ nào?,“ngủ” là từ nào?,ねます,おきます,はたらきます,べんきょうします
-8,Việt → Nhật,Mina bài 4,3,“làm việc” là từ nào?,“làm việc” là từ nào?,“làm việc” là từ nào?,はたらきます,やすみます,おわります,ねます
-8,Việt → Nhật,Mina bài 4,4,“nghỉ” là từ nào?,“nghỉ” là từ nào?,“nghỉ” là từ nào?,やすみます,はたらきます,べんきょうします,おきます
-8,Việt → Nhật,Mina bài 4,5,“học” là từ nào?,“học” là từ nào?,“học” là từ nào?,べんきょうします,おわります,やすみます,ねます
-8,Việt → Nhật,Mina bài 4,6,“kết thúc” là từ nào?,“kết thúc” là từ nào?,“kết thúc” là từ nào?,おわります,おきます,はたらきます,べんきょうします
-8,Việt → Nhật,Mina bài 4,7,“trung tâm thương mại” là từ nào?,“trung tâm thương mại” là từ nào?,“trung tâm thương mại” là từ nào?,デパート,ぎんこう,としょかん,ゆうびんきょく
-8,Việt → Nhật,Mina bài 4,8,“ngân hàng” là từ nào?,“ngân hàng” là từ nào?,“ngân hàng” là từ nào?,ぎんこう,デパート,としょかん,びじゅつかん
-8,Việt → Nhật,Mina bài 4,9,“bưu điện” là từ nào?,“bưu điện” là từ nào?,“bưu điện” là từ nào?,ゆうびんきょく,ぎんこう,デパート,としょかん
-8,Việt → Nhật,Mina bài 4,10,“thư viện” là từ nào?,“thư viện” là từ nào?,“thư viện” là từ nào?,としょかん,びじゅつかん,ゆうびんきょく,ぎんこう
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+8,Việt → Nhật,Mina bài 4,1,“thức dậy” là từ nào?,“thức dậy” là từ nào?,おきます,ねます,やすみます,おわります
+8,Việt → Nhật,Mina bài 4,2,“ngủ” là từ nào?,“ngủ” là từ nào?,ねます,おきます,はたらきます,べんきょうします
+8,Việt → Nhật,Mina bài 4,3,“làm việc” là từ nào?,“làm việc” là từ nào?,はたらきます,やすみます,おわります,ねます
+8,Việt → Nhật,Mina bài 4,4,“nghỉ” là từ nào?,“nghỉ” là từ nào?,やすみます,はたらきます,べんきょうします,おきます
+8,Việt → Nhật,Mina bài 4,5,“học” là từ nào?,“học” là từ nào?,べんきょうします,おわります,やすみます,ねます
+8,Việt → Nhật,Mina bài 4,6,“kết thúc” là từ nào?,“kết thúc” là từ nào?,おわります,おきます,はたらきます,べんきょうします
+8,Việt → Nhật,Mina bài 4,7,“trung tâm thương mại” là từ nào?,“trung tâm thương mại” là từ nào?,デパート,ぎんこう,としょかん,ゆうびんきょく
+8,Việt → Nhật,Mina bài 4,8,“ngân hàng” là từ nào?,“ngân hàng” là từ nào?,ぎんこう,デパート,としょかん,びじゅつかん
+8,Việt → Nhật,Mina bài 4,9,“bưu điện” là từ nào?,“bưu điện” là từ nào?,ゆうびんきょく,ぎんこう,デパート,としょかん
+8,Việt → Nhật,Mina bài 4,10,“thư viện” là từ nào?,“thư viện” là từ nào?,としょかん,びじゅつかん,ゆうびんきょく,ぎんこう

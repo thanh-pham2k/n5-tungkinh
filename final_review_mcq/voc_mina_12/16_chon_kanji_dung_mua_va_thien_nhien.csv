@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,1,“mùa thu” viết bằng kanji nào?,“mùa thu” viết bằng kanji nào?,“mùa thu” viết bằng kanji nào?,秋,春,夏,冬
-16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,2,“mùa đông” viết bằng kanji nào?,“mùa đông” viết bằng kanji nào?,“mùa đông” viết bằng kanji nào?,冬,春,夏,秋
-16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,3,“thời tiết” viết bằng kanji nào?,“thời tiết” viết bằng kanji nào?,“thời tiết” viết bằng kanji nào?,天気,電気,電話,空港
-16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,4,“mưa” viết bằng kanji nào?,“mưa” viết bằng kanji nào?,“mưa” viết bằng kanji nào?,雨,雪,海,空
-16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,5,“tuyết” viết bằng kanji nào?,“tuyết” viết bằng kanji nào?,“tuyết” viết bằng kanji nào?,雪,雨,冬,水
-16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,6,“sân bay” viết bằng kanji nào?,“sân bay” viết bằng kanji nào?,“sân bay” viết bằng kanji nào?,空港,港空,海,世界
-16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,7,“biển” viết bằng kanji nào?,“biển” viết bằng kanji nào?,“biển” viết bằng kanji nào?,海,山,川,空
-16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,8,“thế giới” viết bằng kanji nào?,“thế giới” viết bằng kanji nào?,“thế giới” viết bằng kanji nào?,世界,会社,生活,天気
-16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,9,“ăn” viết bằng kanji nào?,“ăn” viết bằng kanji nào?,“ăn” viết bằng kanji nào?,食べます,飲みます,見ます,聞きます
-16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,10,“núi Phú Sĩ” viết bằng kanji nào?,“núi Phú Sĩ” viết bằng kanji nào?,“núi Phú Sĩ” viết bằng kanji nào?,富士山,東京,日本,京都
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,1,“mùa thu” viết bằng kanji nào?,“mùa thu” viết bằng kanji nào?,秋,春,夏,冬
+16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,2,“mùa đông” viết bằng kanji nào?,“mùa đông” viết bằng kanji nào?,冬,春,夏,秋
+16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,3,“thời tiết” viết bằng kanji nào?,“thời tiết” viết bằng kanji nào?,天気,電気,電話,空港
+16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,4,“mưa” viết bằng kanji nào?,“mưa” viết bằng kanji nào?,雨,雪,海,空
+16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,5,“tuyết” viết bằng kanji nào?,“tuyết” viết bằng kanji nào?,雪,雨,冬,水
+16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,6,“sân bay” viết bằng kanji nào?,“sân bay” viết bằng kanji nào?,空港,港空,海,世界
+16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,7,“biển” viết bằng kanji nào?,“biển” viết bằng kanji nào?,海,山,川,空
+16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,8,“thế giới” viết bằng kanji nào?,“thế giới” viết bằng kanji nào?,世界,会社,生活,天気
+16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,9,“ăn” viết bằng kanji nào?,“ăn” viết bằng kanji nào?,食べます,飲みます,見ます,聞きます
+16,Chọn kanji đúng / mùa và thiên nhiên,Mina bài 12,10,“núi Phú Sĩ” viết bằng kanji nào?,“núi Phú Sĩ” viết bằng kanji nào?,富士山,東京,日本,京都

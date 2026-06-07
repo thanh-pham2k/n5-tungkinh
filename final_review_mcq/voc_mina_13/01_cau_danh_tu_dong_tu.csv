@@ -1,13 +1,13 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",1,わたしは学生＿＿。,Watashi wa gakusei ___.,Tôi là học sinh.,です,ます,います,あります
-1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",2,田中さんは先生＿＿。,Tanaka-san wa sensei ___.,Anh Tanaka không phải là giáo viên.,ません,ではありません,ありません,いません
-1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",3,きのうは休み＿＿。,Kinou wa yasumi ___.,Hôm qua là ngày nghỉ.,でした,です,ます,ました
-1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",4,あしたは日曜日＿＿。,Ashita wa nichiyoubi ___.,Ngày mai là Chủ nhật.,です,でした,ます,います
-1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",5,これは日本語＿＿本です。,Kore wa nihongo ___ hon desu.,Đây là sách tiếng Nhật.,の,を,で,へ
-1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",6,わたしは毎日６時に＿＿。,Watashi wa mainichi roku-ji ni ___.,Tôi thức dậy lúc 6 giờ mỗi ngày.,おきます,あります,です,います
-1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",7,きのう勉強＿＿。,Kinou benkyou ___.,Hôm qua tôi đã học.,しました,します,しません,ではありません
-1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",8,あした会社へ＿＿。,Ashita kaisha e ___.,Ngày mai tôi sẽ đi đến công ty.,行きます,行きました,あります,です
-1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",9,日曜日、学校へ＿＿。,"Nichiyoubi, gakkou e ___.",Chủ nhật tôi không đi học.,行きません,行きます,行きました,でした
-1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",10,けさ朝ごはんを＿＿。,Kesa asagohan o ___.,Sáng nay tôi đã ăn sáng.,食べました,食べます,食べません,です
-1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",11,これはだれ＿＿かばんですか。,Kore wa dare ___ kaban desu ka.,Đây là cặp của ai?,の,は,を,に
-1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",12,山田さんは会社員＿＿。,Yamada-san wa kaishain ___.,Anh Yamada không phải nhân viên công ty.,ではありません,です,でした,ます
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",1,わたしは学生＿＿。,Tôi là học sinh.,です,ます,います,あります
+1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",2,田中さんは先生＿＿。,Anh Tanaka không phải là giáo viên.,ません,ではありません,ありません,いません
+1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",3,きのうは休み＿＿。,Hôm qua là ngày nghỉ.,でした,です,ます,ました
+1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",4,あしたは日曜日＿＿。,Ngày mai là Chủ nhật.,です,でした,ます,います
+1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",5,これは日本語＿＿本です。,Đây là sách tiếng Nhật.,の,を,で,へ
+1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",6,わたしは毎日６時に＿＿。,Tôi thức dậy lúc 6 giờ mỗi ngày.,おきます,あります,です,います
+1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",7,きのう勉強＿＿。,Hôm qua tôi đã học.,しました,します,しません,ではありません
+1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",8,あした会社へ＿＿。,Ngày mai tôi sẽ đi đến công ty.,行きます,行きました,あります,です
+1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",9,日曜日、学校へ＿＿。,Chủ nhật tôi không đi học.,行きません,行きます,行きました,でした
+1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",10,けさ朝ごはんを＿＿。,Sáng nay tôi đã ăn sáng.,食べました,食べます,食べません,です
+1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",11,これはだれ＿＿かばんですか。,Đây là cặp của ai?,の,は,を,に
+1,Câu danh từ + động từ,"Minna bài 1, 2, 4, 12",12,山田さんは会社員＿＿。,Anh Yamada không phải nhân viên công ty.,ではありません,です,でした,ます

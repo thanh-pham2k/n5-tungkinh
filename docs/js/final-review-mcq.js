@@ -13,7 +13,6 @@
     "lesson",
     "question_no",
     "question_jp",
-    "romaji",
     "meaning_vi",
     "option_a",
     "option_b",
@@ -361,7 +360,6 @@
         lesson: row.lesson,
         questionNo: Number(row.question_no),
         questionJp: row.question_jp,
-        romaji: row.romaji,
         meaningVi: row.meaning_vi,
         options: {
           A: row.option_a,
@@ -403,7 +401,7 @@
 Review bài làm của tôi cực kỳ ngắn gọn dưới dạng table.
 
 Cột:
-Câu | Tôi chọn | Đáp án đúng | Đúng/Sai | Giải thích ngắn | Romaji | Từ vựng N5 | Kanji N5 có thể gặp | Ngữ pháp/lưu ý
+Câu | Tôi chọn | Đáp án đúng | Đúng/Sai | Giải thích ngắn | Từ vựng N5 | Kanji N5 có thể gặp | Ngữ pháp/lưu ý
 
 Yêu cầu:
 - Giải thích bằng tiếng Việt, thật ngắn.
@@ -485,7 +483,6 @@ Dữ liệu bài làm:
         "",
         `Câu ${index + 1}:`,
         `Tiếng Nhật: ${question.questionJp}`,
-        `Romaji: ${question.romaji || ""}`,
         `Nghĩa tiếng Việt: ${question.meaningVi || ""}`,
         `A. ${renderedOptions.A || ""}`,
         `B. ${renderedOptions.B || ""}`,
@@ -733,10 +730,6 @@ Dữ liệu bài làm:
     jp.className = "quiz-jp";
     appendQuestionText(jp, question.questionJp);
 
-    const romaji = document.createElement("p");
-    romaji.className = "quiz-romaji";
-    romaji.textContent = question.romaji;
-
     const meaning = document.createElement("p");
     meaning.className = "quiz-meaning";
     meaning.textContent = question.meaningVi;
@@ -749,7 +742,7 @@ Dữ liệu bài làm:
       options.appendChild(createOption(group, question, optionKey, optionText));
     });
 
-    article.append(heading, jp, romaji, meaning, options);
+    article.append(heading, jp, meaning, options);
     return article;
   };
 

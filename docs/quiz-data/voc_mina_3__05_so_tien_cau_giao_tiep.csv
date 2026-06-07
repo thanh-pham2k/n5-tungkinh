@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-5,Số tiền / câu giao tiếp,Mina bài 3,1,まん nghĩa là gì?,man,Chọn nghĩa tiếng Việt phù hợp.,mười nghìn,một nghìn,một trăm,bao nhiêu tiền
-5,Số tiền / câu giao tiếp,Mina bài 3,2,すみません nghĩa là gì?,sumimasen,Chọn nghĩa tiếng Việt phù hợp.,xin lỗi / làm phiền,kính chào quý khách,xin cho xem,cho tôi cái này
-5,Số tiền / câu giao tiếp,Mina bài 3,3,どうも nghĩa là gì?,doumo,Chọn nghĩa tiếng Việt phù hợp.,cảm ơn / rất,xin lỗi,vậy thì,bao nhiêu tiền
-5,Số tiền / câu giao tiếp,Mina bài 3,4,どうも すみません nghĩa là gì?,doumo sumimasen,Chọn nghĩa tiếng Việt phù hợp.,rất xin lỗi / cảm ơn,kính chào quý khách,xin cho xem,vậy thì
-5,Số tiền / câu giao tiếp,Mina bài 3,5,いらっしゃいませ nghĩa là gì?,irasshaimase,Chọn nghĩa tiếng Việt phù hợp.,kính chào quý khách,xin lỗi / làm phiền,cảm ơn / rất,cho tôi cái này
-5,Số tiền / câu giao tiếp,Mina bài 3,6,みせてください nghĩa là gì?,misete kudasai,Chọn nghĩa tiếng Việt phù hợp.,xin cho xem,xin mời,bao nhiêu tiền,ở đâu
-5,Số tiền / câu giao tiếp,Mina bài 3,7,じゃ nghĩa là gì?,ja,Chọn nghĩa tiếng Việt phù hợp.,vậy thì,xin lỗi,cảm ơn,ở đây
-5,Số tiền / câu giao tiếp,Mina bài 3,8,これを ください nghĩa là gì?,kore wo kudasai,Chọn nghĩa tiếng Việt phù hợp.,cho tôi cái này,xin cho xem,kính chào quý khách,bao nhiêu tiền
-5,Số tiền / câu giao tiếp,Mina bài 3,9,すみません、これは いくらですか。 nghĩa là gì?,sumimasen.koreha ikuradesuka.,Chọn nghĩa tiếng Việt phù hợp.,"Xin lỗi, cái này bao nhiêu tiền?","Xin lỗi, đây là tầng mấy?",Xin cho xem cái này.,Đây là quầy bán hàng.
-5,Số tiền / câu giao tiếp,Mina bài 3,10,じゃ、これを ください。 nghĩa là gì?,ja.kore wo kudasai.,Chọn nghĩa tiếng Việt phù hợp.,"Vậy thì, cho tôi cái này.","Xin lỗi, cái này ở đâu?",Cảm ơn rất nhiều.,Kính chào quý khách.
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+5,Số tiền / câu giao tiếp,Mina bài 3,1,まん nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mười nghìn,một nghìn,một trăm,bao nhiêu tiền
+5,Số tiền / câu giao tiếp,Mina bài 3,2,すみません nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,xin lỗi / làm phiền,kính chào quý khách,xin cho xem,cho tôi cái này
+5,Số tiền / câu giao tiếp,Mina bài 3,3,どうも nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,cảm ơn / rất,xin lỗi,vậy thì,bao nhiêu tiền
+5,Số tiền / câu giao tiếp,Mina bài 3,4,どうも すみません nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,rất xin lỗi / cảm ơn,kính chào quý khách,xin cho xem,vậy thì
+5,Số tiền / câu giao tiếp,Mina bài 3,5,いらっしゃいませ nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,kính chào quý khách,xin lỗi / làm phiền,cảm ơn / rất,cho tôi cái này
+5,Số tiền / câu giao tiếp,Mina bài 3,6,みせてください nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,xin cho xem,xin mời,bao nhiêu tiền,ở đâu
+5,Số tiền / câu giao tiếp,Mina bài 3,7,じゃ nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,vậy thì,xin lỗi,cảm ơn,ở đây
+5,Số tiền / câu giao tiếp,Mina bài 3,8,これを ください nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,cho tôi cái này,xin cho xem,kính chào quý khách,bao nhiêu tiền
+5,Số tiền / câu giao tiếp,Mina bài 3,9,すみません、これは いくらですか。 nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,"Xin lỗi, cái này bao nhiêu tiền?","Xin lỗi, đây là tầng mấy?",Xin cho xem cái này.,Đây là quầy bán hàng.
+5,Số tiền / câu giao tiếp,Mina bài 3,10,じゃ、これを ください。 nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,"Vậy thì, cho tôi cái này.","Xin lỗi, cái này ở đâu?",Cảm ơn rất nhiều.,Kính chào quý khách.

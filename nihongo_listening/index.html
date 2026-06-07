@@ -239,8 +239,6 @@
       font-size: 1.18rem;
       font-weight: 750;
     }
-
-    .romaji,
     .vi,
     .explain {
       margin: 4px 0 0;
@@ -413,7 +411,7 @@
     <div class="header-inner">
       <div>
         <h1>JLPT N5 Listening - Bài 1</h1>
-        <p class="subtitle">Nghe từng đoạn, chọn đáp án, xem lại script Nhật - romaji - nghĩa Việt.</p>
+        <p class="subtitle">Nghe từng đoạn, chọn đáp án, xem lại script Nhật - nghĩa Việt.</p>
       </div>
       <div class="score" id="score">0 / 16 câu đúng</div>
     </div>
@@ -447,7 +445,6 @@
         <div class="section">
           <h3>Câu hỏi trắc nghiệm</h3>
           <p class="question" id="question"></p>
-          <p class="romaji" id="questionRomaji"></p>
           <p class="vi" id="questionMeaning"></p>
           <div class="options" id="options"></div>
           <div class="feedback" id="feedback"></div>
@@ -469,12 +466,12 @@
         time: "00:00:08 - 00:00:23",
         audio: "audio/lesson-1/segment-01.mp3",
         transcript: [
-          ["A", "はじめまして。増田です。", "Hajimemashite. Masuda desu.", "Rất vui được gặp bạn. Tôi là Masuda."],
-          ["B", "松田さんですね。", "Matsuda-san desu ne.", "Bạn là Matsuda nhỉ."],
-          ["A", "いいえ、増田です。", "Iie, Masuda desu.", "Không, tôi là Masuda."]
+          ["A", "はじめまして。増田です。"],
+          ["B", "松田さんですね。"],
+          ["A", "いいえ、増田です。"]
         ],
-        question: ["名前はAですか、Bですか。", "Namae wa A desu ka, B desu ka.", "Tên là A hay B?"],
-        options: [["A", "増田", "Masuda"], ["B", "松田", "Matsuda"], ["C", "佐野", "Sano"], ["D", "鈴木", "Suzuki"]],
+        question: ["名前はAですか、Bですか。", "Tên là A hay B?"],
+        options: [["A", "増田"], ["B", "松田"], ["C", "佐野"], ["D", "鈴木"]],
         answer: "A",
         explain: "Người nói nói 「いいえ、増田です」."
       },
@@ -484,12 +481,12 @@
         time: "00:00:23 - 00:00:42",
         audio: "audio/lesson-1/segment-02.mp3",
         transcript: [
-          ["A", "はじめまして。佐野です。どうぞよろしく。", "Hajimemashite. Sano desu. Douzo yoroshiku.", "Rất vui được gặp bạn. Tôi là Sano. Rất mong được giúp đỡ."],
-          ["B", "シャロさんですか。", "Sharo-san desu ka.", "Bạn là Sharo phải không?"],
-          ["A", "いいえ、佐野です。", "Iie, Sano desu.", "Không, tôi là Sano."]
+          ["A", "はじめまして。佐野です。どうぞよろしく。"],
+          ["B", "シャロさんですか。"],
+          ["A", "いいえ、佐野です。"]
         ],
-        question: ["名前はAですか、Bですか。", "Namae wa A desu ka, B desu ka.", "Tên là A hay B?"],
-        options: [["A", "シャロ", "Sharo"], ["B", "佐野", "Sano"], ["C", "増田", "Masuda"], ["D", "後藤", "Gotou"]],
+        question: ["名前はAですか、Bですか。", "Tên là A hay B?"],
+        options: [["A", "シャロ"], ["B", "佐野"], ["C", "増田"], ["D", "後藤"]],
         answer: "B",
         explain: "Người nói nói 「いいえ、佐野です」."
       },
@@ -499,11 +496,11 @@
         time: "00:00:42 - 00:00:56",
         audio: "audio/lesson-1/segment-03.mp3",
         transcript: [
-          ["A", "こんにちは。鈴木です。", "Konnichiwa. Suzuki desu.", "Xin chào. Tôi là Suzuki."],
-          ["B", "ああ、鈴木さんですね。", "Aa, Suzuki-san desu ne.", "À, bạn là Suzuki nhỉ."]
+          ["A", "こんにちは。鈴木です。"],
+          ["B", "ああ、鈴木さんですね。", "À, bạn là Suzuki nhỉ."]
         ],
-        question: ["名前はAですか、Bですか。", "Namae wa A desu ka, B desu ka.", "Tên là A hay B?"],
-        options: [["A", "佐野", "Sano"], ["B", "松田", "Matsuda"], ["C", "鈴木", "Suzuki"], ["D", "後藤", "Gotou"]],
+        question: ["名前はAですか、Bですか。", "Tên là A hay B?"],
+        options: [["A", "佐野"], ["B", "松田"], ["C", "鈴木"], ["D", "後藤"]],
         answer: "C",
         explain: "Người nói tự giới thiệu 「鈴木です」."
       },
@@ -513,13 +510,13 @@
         time: "00:00:56 - 00:01:19",
         audio: "audio/lesson-1/segment-04.mp3",
         transcript: [
-          ["A", "失礼ですが、お名前は。", "Shitsurei desu ga, onamae wa.", "Xin lỗi, tên của bạn là gì?"],
-          ["B", "後藤です。", "Gotou desu.", "Tôi là Gotou."],
-          ["A", "鼓動さんですか。", "Kodou-san desu ka.", "Bạn là Kodou phải không?"],
-          ["B", "いいえ、後藤です。", "Iie, Gotou desu.", "Không, tôi là Gotou."]
+          ["A", "失礼ですが、お名前は。"],
+          ["B", "後藤です。"],
+          ["A", "鼓動さんですか。"],
+          ["B", "いいえ、後藤です。"]
         ],
-        question: ["名前はAですか、Bですか。", "Namae wa A desu ka, B desu ka.", "Tên là A hay B?"],
-        options: [["A", "鼓動", "Kodou"], ["B", "後藤", "Gotou"], ["C", "鈴木", "Suzuki"], ["D", "佐野", "Sano"]],
+        question: ["名前はAですか、Bですか。", "Tên là A hay B?"],
+        options: [["A", "鼓動"], ["B", "後藤"], ["C", "鈴木"], ["D", "佐野"]],
         answer: "B",
         explain: "Người nói nói 「いいえ、後藤です」."
       },
@@ -529,11 +526,11 @@
         time: "00:01:26 - 00:01:47",
         audio: "audio/lesson-1/segment-05.mp3",
         transcript: [
-          ["A", "はじめまして。王です。中国から来ました。どうぞよろしく。", "Hajimemashite. Wan desu. Chuugoku kara kimashita. Douzo yoroshiku.", "Rất vui được gặp bạn. Tôi là Vương. Tôi đến từ Trung Quốc. Rất mong được giúp đỡ."],
-          ["B", "はじめまして。田中です。どうぞよろしく。", "Hajimemashite. Tanaka desu. Douzo yoroshiku.", "Rất vui được gặp bạn. Tôi là Tanaka. Rất mong được giúp đỡ."]
+          ["A", "はじめまして。王です。中国から来ました。どうぞよろしく。"],
+          ["B", "はじめまして。田中です。どうぞよろしく。"]
         ],
-        question: ["国はAですか、Bですか。", "Kuni wa A desu ka, B desu ka.", "Quốc gia là A hay B?"],
-        options: [["A", "中国", "Trung Quốc"], ["B", "インド", "Ấn Độ"], ["C", "フランス", "Pháp"], ["D", "ドイツ", "Đức"]],
+        question: ["国はAですか、Bですか。", "Quốc gia là A hay B?"],
+        options: [["A", "中国"], ["B", "インド", "Ấn Độ"], ["C", "フランス"], ["D", "ドイツ", "Đức"]],
         answer: "A",
         explain: "Người nói nói 「中国から来ました」."
       },
@@ -543,11 +540,11 @@
         time: "00:01:47 - 00:02:03",
         audio: "audio/lesson-1/segment-06.mp3",
         transcript: [
-          ["A", "皆さん、こちらは山さんです。", "Minasan, kochira wa Yama-san desu.", "Mọi người, đây là anh/chị Yama."],
-          ["B", "はじめまして。センです。インドから来ました。どうぞよろしくお願いします。", "Hajimemashite. Sen desu. Indo kara kimashita. Douzo yoroshiku onegaishimasu.", "Rất vui được gặp mọi người. Tôi là Sen. Tôi đến từ Ấn Độ. Rất mong được giúp đỡ."]
+          ["A", "皆さん、こちらは山さんです。"],
+          ["B", "はじめまして。センです。インドから来ました。どうぞよろしくお願いします。"]
         ],
-        question: ["国はAですか、Bですか。", "Kuni wa A desu ka, B desu ka.", "Quốc gia là A hay B?"],
-        options: [["A", "中国", "Trung Quốc"], ["B", "インド", "Ấn Độ"], ["C", "フランス", "Pháp"], ["D", "アメリカ", "Mỹ"]],
+        question: ["国はAですか、Bですか。", "Quốc gia là A hay B?"],
+        options: [["A", "中国"], ["B", "インド", "Ấn Độ"], ["C", "フランス"], ["D", "アメリカ"]],
         answer: "B",
         explain: "Người nói nói 「インドから来ました」."
       },
@@ -557,14 +554,14 @@
         time: "00:02:03 - 00:02:23",
         audio: "audio/lesson-1/segment-07.mp3",
         transcript: [
-          ["A", "佐藤さん、こんばんは。", "Satou-san, konbanwa.", "Chào buổi tối, anh/chị Satou."],
-          ["B", "あっ、山田さん。", "A, Yamada-san.", "À, anh/chị Yamada."],
-          ["A", "佐藤さん、こちらはジャンさんです。", "Satou-san, kochira wa Jan-san desu.", "Anh/chị Satou, đây là anh Jan."],
+          ["A", "佐藤さん、こんばんは。"],
+          ["B", "あっ、山田さん。", "À, anh/chị Yamada."],
+          ["A", "佐藤さん、こちらはジャンさんです。"],
           ["C", "ジャンです。フランスから来ました。どうぞよろしく。", "Jan desu. Furansu kara kimashita. Douzo yoroshiku.", "Tôi là Jan. Tôi đến từ Pháp. Rất mong được giúp đỡ."],
-          ["B", "佐藤です。よろしくお願いします。", "Satou desu. Yoroshiku onegaishimasu.", "Tôi là Satou. Rất mong được giúp đỡ."]
+          ["B", "佐藤です。よろしくお願いします。"]
         ],
-        question: ["国はAですか、Bですか。", "Kuni wa A desu ka, B desu ka.", "Quốc gia là A hay B?"],
-        options: [["A", "インド", "Ấn Độ"], ["B", "中国", "Trung Quốc"], ["C", "フランス", "Pháp"], ["D", "ドイツ", "Đức"]],
+        question: ["国はAですか、Bですか。", "Quốc gia là A hay B?"],
+        options: [["A", "インド", "Ấn Độ"], ["B", "中国"], ["C", "フランス"], ["D", "ドイツ", "Đức"]],
         answer: "C",
         explain: "ジャン nói 「フランスから来ました」."
       },
@@ -574,13 +571,13 @@
         time: "00:02:23 - 00:02:38",
         audio: "audio/lesson-1/segment-08.mp3",
         transcript: [
-          ["A", "はじめまして。コールです。", "Hajimemashite. Kooru desu.", "Rất vui được gặp bạn. Tôi là Cole."],
-          ["B", "金さんですか。", "Kimu-san desu ka.", "Bạn là Kim phải không?"],
-          ["A", "いいえ、コールです。ドイツから来ました。", "Iie, Kooru desu. Doitsu kara kimashita.", "Không, tôi là Cole. Tôi đến từ Đức."],
-          ["B", "私は山田です。よろしくお願いします。", "Watashi wa Yamada desu. Yoroshiku onegaishimasu.", "Tôi là Yamada. Rất mong được giúp đỡ."]
+          ["A", "はじめまして。コールです。"],
+          ["B", "金さんですか。"],
+          ["A", "いいえ、コールです。ドイツから来ました。"],
+          ["B", "私は山田です。よろしくお願いします。"]
         ],
-        question: ["国はAですか、Bですか。", "Kuni wa A desu ka, B desu ka.", "Quốc gia là A hay B?"],
-        options: [["A", "フランス", "Pháp"], ["B", "アメリカ", "Mỹ"], ["C", "イギリス", "Anh"], ["D", "ドイツ", "Đức"]],
+        question: ["国はAですか、Bですか。", "Quốc gia là A hay B?"],
+        options: [["A", "フランス"], ["B", "アメリカ"], ["C", "イギリス"], ["D", "ドイツ", "Đức"]],
         answer: "D",
         explain: "Người nói nói 「ドイツから来ました」."
       },
@@ -590,12 +587,12 @@
         time: "00:02:47 - 00:03:09",
         audio: "audio/lesson-1/segment-09.mp3",
         transcript: [
-          ["A", "はじめまして。ワットです。イギリスから来ました。", "Hajimemashite. Watto desu. Igirisu kara kimashita.", "Rất vui được gặp bạn. Tôi là Watt. Tôi đến từ Anh."],
-          ["B", "はじめまして。小林です。私はさくら大学の教師です。", "Hajimemashite. Kobayashi desu. Watashi wa Sakura Daigaku no kyoushi desu.", "Rất vui được gặp bạn. Tôi là Kobayashi. Tôi là giáo viên của Đại học Sakura."],
-          ["A", "あ、私も教師です。富士大学です。どうぞよろしく。", "A, watashi mo kyoushi desu. Fuji Daigaku desu. Douzo yoroshiku.", "À, tôi cũng là giáo viên. Ở Đại học Fuji. Rất mong được giúp đỡ."]
+          ["A", "はじめまして。ワットです。イギリスから来ました。"],
+          ["B", "はじめまして。小林です。私はさくら大学の教師です。"],
+          ["A", "あ、私も教師です。富士大学です。どうぞよろしく。", "À, tôi cũng là giáo viên. Ở Đại học Fuji. Rất mong được giúp đỡ."]
         ],
-        question: ["女の人の仕事はAですか、Bですか。", "Onna no hito no shigoto wa A desu ka, B desu ka.", "Nghề nghiệp của người phụ nữ là A hay B?"],
-        options: [["A", "教師", "Giáo viên"], ["B", "医者", "Bác sĩ"], ["C", "会社員", "Nhân viên công ty"], ["D", "エンジニア", "Kỹ sư"]],
+        question: ["女の人の仕事はAですか、Bですか。", "Nghề nghiệp của người phụ nữ là A hay B?"],
+        options: [["A", "教師"], ["B", "医者"], ["C", "会社員"], ["D", "エンジニア"]],
         answer: "A",
         explain: "Người phụ nữ nói 「私はさくら大学の教師です」."
       },
@@ -605,14 +602,14 @@
         time: "00:03:09 - 00:03:25",
         audio: "audio/lesson-1/segment-10.mp3",
         transcript: [
-          ["A", "はじめまして。", "Hajimemashite.", "Rất vui được gặp bạn."],
-          ["B", "はじめまして。後藤です。", "Hajimemashite. Gotou desu.", "Rất vui được gặp bạn. Tôi là Gotou."],
-          ["A", "後藤さんは先生ですか。", "Gotou-san wa sensei desu ka.", "Anh/chị Gotou là giáo viên phải không?"],
-          ["B", "いいえ、医者です。", "Iie, isha desu.", "Không, tôi là bác sĩ."],
-          ["A", "ああ、私も医者です。", "Aa, watashi mo isha desu.", "À, tôi cũng là bác sĩ."]
+          ["A", "はじめまして。"],
+          ["B", "はじめまして。後藤です。"],
+          ["A", "後藤さんは先生ですか。"],
+          ["B", "いいえ、医者です。"],
+          ["A", "ああ、私も医者です。", "À, tôi cũng là bác sĩ."]
         ],
-        question: ["女の人の仕事はAですか、Bですか。", "Onna no hito no shigoto wa A desu ka, B desu ka.", "Nghề nghiệp của người phụ nữ là A hay B?"],
-        options: [["A", "先生", "Giáo viên"], ["B", "医者", "Bác sĩ"], ["C", "銀行員", "Nhân viên ngân hàng"], ["D", "会社員", "Nhân viên công ty"]],
+        question: ["女の人の仕事はAですか、Bですか。", "Nghề nghiệp của người phụ nữ là A hay B?"],
+        options: [["A", "先生"], ["B", "医者"], ["C", "銀行員"], ["D", "会社員"]],
         answer: "B",
         explain: "後藤 nói 「いいえ、医者です」."
       },
@@ -622,13 +619,13 @@
         time: "00:03:25 - 00:03:42",
         audio: "audio/lesson-1/segment-11.mp3",
         transcript: [
-          ["A", "あの、シュミットさんですか。", "Ano, Shumitto-san desu ka.", "Xin hỏi, anh/chị là Schmidt phải không?"],
-          ["B", "はい、シュミットです。ドイツから来ました。", "Hai, Shumitto desu. Doitsu kara kimashita.", "Vâng, tôi là Schmidt. Tôi đến từ Đức."],
-          ["A", "私は山田です。銀行員です。", "Watashi wa Yamada desu. Ginkouin desu.", "Tôi là Yamada. Tôi là nhân viên ngân hàng."],
-          ["B", "私はエンジニアです。どうぞよろしく。", "Watashi wa enjinia desu. Douzo yoroshiku.", "Tôi là kỹ sư. Rất mong được giúp đỡ."]
+          ["A", "あの、シュミットさんですか。"],
+          ["B", "はい、シュミットです。ドイツから来ました。"],
+          ["A", "私は山田です。銀行員です。"],
+          ["B", "私はエンジニアです。どうぞよろしく。"]
         ],
-        question: ["女の人の仕事はAですか、Bですか。", "Onna no hito no shigoto wa A desu ka, B desu ka.", "Nghề nghiệp của người phụ nữ là A hay B?"],
-        options: [["A", "エンジニア", "Kỹ sư"], ["B", "教師", "Giáo viên"], ["C", "銀行員", "Nhân viên ngân hàng"], ["D", "医者", "Bác sĩ"]],
+        question: ["女の人の仕事はAですか、Bですか。", "Nghề nghiệp của người phụ nữ là A hay B?"],
+        options: [["A", "エンジニア"], ["B", "教師"], ["C", "銀行員"], ["D", "医者"]],
         answer: "C",
         explain: "山田 nói 「銀行員です」."
       },
@@ -638,14 +635,14 @@
         time: "00:03:42 - 00:04:00",
         audio: "audio/lesson-1/segment-12.mp3",
         transcript: [
-          ["A", "失礼ですが、お名前は。", "Shitsurei desu ga, onamae wa.", "Xin lỗi, tên của bạn là gì?"],
-          ["B", "ミラーです。アメリカから来ました。", "Miraa desu. Amerika kara kimashita.", "Tôi là Miller. Tôi đến từ Mỹ."],
-          ["A", "私は林です。ミラーさんは会社員ですか。", "Watashi wa Hayashi desu. Miraa-san wa kaishain desu ka.", "Tôi là Hayashi. Anh Miller là nhân viên công ty phải không?"],
-          ["B", "はい。IMCの社員です。どうぞよろしくお願いします。", "Hai. IMC no shain desu. Douzo yoroshiku onegaishimasu.", "Vâng. Tôi là nhân viên của IMC. Rất mong được giúp đỡ."],
-          ["A", "私も会社員です。パワー電機の社員です。どうぞよろしく。", "Watashi mo kaishain desu. Pawaa Denki no shain desu. Douzo yoroshiku.", "Tôi cũng là nhân viên công ty. Tôi là nhân viên của Power Electric. Rất mong được giúp đỡ."]
+          ["A", "失礼ですが、お名前は。"],
+          ["B", "ミラーです。アメリカから来ました。"],
+          ["A", "私は林です。ミラーさんは会社員ですか。"],
+          ["B", "はい。IMCの社員です。どうぞよろしくお願いします。"],
+          ["A", "私も会社員です。パワー電機の社員です。どうぞよろしく。"]
         ],
-        question: ["女の人の仕事はAですか、Bですか。", "Onna no hito no shigoto wa A desu ka, B desu ka.", "Nghề nghiệp của người phụ nữ là A hay B?"],
-        options: [["A", "教師", "Giáo viên"], ["B", "医者", "Bác sĩ"], ["C", "エンジニア", "Kỹ sư"], ["D", "会社員", "Nhân viên công ty"]],
+        question: ["女の人の仕事はAですか、Bですか。", "Nghề nghiệp của người phụ nữ là A hay B?"],
+        options: [["A", "教師"], ["B", "医者"], ["C", "エンジニア"], ["D", "会社員"]],
         answer: "D",
         explain: "林 nói 「私も会社員です」."
       },
@@ -655,11 +652,11 @@
         time: "00:04:07 - 00:04:20",
         audio: "audio/lesson-1/segment-13.mp3",
         transcript: [
-          ["A", "ミラーさん、失礼ですが、おいくつですか。", "Miraa-san, shitsurei desu ga, oikutsu desu ka.", "Anh Miller, xin lỗi, anh bao nhiêu tuổi?"],
-          ["B", "28歳です。", "Nijuu-hassai desu.", "Tôi 28 tuổi."],
-          ["A", "そうですか。私も28です。", "Sou desu ka. Watashi mo nijuu-hachi desu.", "Vậy à. Tôi cũng 28 tuổi."]
+          ["A", "ミラーさん、失礼ですが、おいくつですか。"],
+          ["B", "28歳です。"],
+          ["A", "そうですか。私も28です。"]
         ],
-        question: ["何歳ですか。", "Nansai desu ka.", "Bao nhiêu tuổi?"],
+        question: ["何歳ですか。", "Bao nhiêu tuổi?"],
         options: [["A", "26歳", "26 tuổi"], ["B", "28歳", "28 tuổi"], ["C", "71歳", "71 tuổi"], ["D", "8歳", "8 tuổi"]],
         answer: "B",
         explain: "ミラー nói 「28歳です」."
@@ -670,12 +667,12 @@
         time: "00:04:20 - 00:04:38",
         audio: "audio/lesson-1/segment-14.mp3",
         transcript: [
-          ["A", "あの方はどなたですか。", "Ano kata wa donata desu ka.", "Vị kia là ai vậy?"],
-          ["B", "増田さんです。神戸病院の医者です。", "Masuda-san desu. Koube Byouin no isha desu.", "Đó là anh/chị Masuda. Là bác sĩ của bệnh viện Kobe."],
-          ["A", "おいくつですか。", "Oikutsu desu ka.", "Anh/chị ấy bao nhiêu tuổi?"],
-          ["B", "71歳です。", "Nanajuu-issai desu.", "71 tuổi."]
+          ["A", "あの方はどなたですか。"],
+          ["B", "増田さんです。神戸病院の医者です。", "Đó là anh/chị Masuda. Là bác sĩ của bệnh viện Kobe."],
+          ["A", "おいくつですか。"],
+          ["B", "71歳です。", "71 tuổi."]
         ],
-        question: ["何歳ですか。", "Nansai desu ka.", "Bao nhiêu tuổi?"],
+        question: ["何歳ですか。", "Bao nhiêu tuổi?"],
         options: [["A", "28歳", "28 tuổi"], ["B", "26歳", "26 tuổi"], ["C", "71歳", "71 tuổi"], ["D", "8歳", "8 tuổi"]],
         answer: "C",
         explain: "Người trả lời nói 「71歳です」."
@@ -686,12 +683,12 @@
         time: "00:04:38 - 00:04:51",
         audio: "audio/lesson-1/segment-15.mp3",
         transcript: [
-          ["A", "菜々子ちゃんですか。", "Nanako-chan desu ka.", "Em là Nanako phải không?"],
-          ["B", "はい。", "Hai.", "Vâng."],
-          ["A", "菜々子ちゃんは何歳ですか。", "Nanako-chan wa nansai desu ka.", "Nanako bao nhiêu tuổi?"],
-          ["B", "私は8歳です。", "Watashi wa hassai desu.", "Em 8 tuổi."]
+          ["A", "菜々子ちゃんですか。"],
+          ["B", "はい。"],
+          ["A", "菜々子ちゃんは何歳ですか。"],
+          ["B", "私は8歳です。"]
         ],
-        question: ["何歳ですか。", "Nansai desu ka.", "Bao nhiêu tuổi?"],
+        question: ["何歳ですか。", "Bao nhiêu tuổi?"],
         options: [["A", "8歳", "8 tuổi"], ["B", "26歳", "26 tuổi"], ["C", "28歳", "28 tuổi"], ["D", "71歳", "71 tuổi"]],
         answer: "A",
         explain: "菜々子 nói 「私は8歳です」."
@@ -702,12 +699,12 @@
         time: "00:04:51 - 00:05:04",
         audio: "audio/lesson-1/segment-16.mp3",
         transcript: [
-          ["A", "あの方はケリーさんです。", "Ano kata wa Kerii-san desu.", "Vị kia là anh/chị Kelly."],
-          ["B", "あの、おいくつですか。", "Ano, oikutsu desu ka.", "Xin hỏi, anh/chị ấy bao nhiêu tuổi?"],
-          ["A", "ケリーさんは、えっと、26です。", "Kerii-san wa, etto, nijuu-roku desu.", "Anh/chị Kelly thì, ừm, 26 tuổi."],
-          ["B", "そうですか。", "Sou desu ka.", "Vậy à."]
+          ["A", "あの方はケリーさんです。"],
+          ["B", "あの、おいくつですか。"],
+          ["A", "ケリーさんは、えっと、26です。"],
+          ["B", "そうですか。"]
         ],
-        question: ["何歳ですか。", "Nansai desu ka.", "Bao nhiêu tuổi?"],
+        question: ["何歳ですか。", "Bao nhiêu tuổi?"],
         options: [["A", "28歳", "28 tuổi"], ["B", "71歳", "71 tuổi"], ["C", "8歳", "8 tuổi"], ["D", "26歳", "26 tuổi"]],
         answer: "D",
         explain: "Người nói nói 「26です」."
@@ -728,7 +725,6 @@
       audioPlayer: document.getElementById("audioPlayer"),
       transcript: document.getElementById("transcript"),
       question: document.getElementById("question"),
-      questionRomaji: document.getElementById("questionRomaji"),
       questionMeaning: document.getElementById("questionMeaning"),
       options: document.getElementById("options"),
       feedback: document.getElementById("feedback"),
@@ -766,12 +762,11 @@
 
     function renderTranscript(segment) {
       els.transcript.innerHTML = "";
-      segment.transcript.forEach(([speaker, jp, romaji, vi]) => {
+      segment.transcript.forEach(([speaker, jp, vi]) => {
         const line = document.createElement("div");
         line.className = "line";
         line.innerHTML = `
           <p class="jp">${speaker}: ${jp}</p>
-          <p class="romaji">Romaji: ${romaji}</p>
           <p class="vi">Nghĩa: ${vi}</p>
         `;
         els.transcript.appendChild(line);
@@ -781,7 +776,7 @@
     function renderOptions(segment, index) {
       els.options.innerHTML = "";
       const picked = state.answers[index];
-      segment.options.forEach(([key, text, meaning]) => {
+      segment.options.forEach(([key, text, meaning = ""]) => {
         const button = document.createElement("button");
         const classes = ["option"];
         if (picked === key) classes.push("selected");
@@ -827,7 +822,6 @@
       els.timeRange.textContent = segment.time;
       els.audioPlayer.src = segment.audio;
       els.question.textContent = segment.question[0];
-      els.questionRomaji.textContent = `Romaji: ${segment.question[1]}`;
       els.questionMeaning.textContent = `Nghĩa: ${segment.question[2]}`;
       renderTranscript(segment);
       renderOptions(segment, state.current);

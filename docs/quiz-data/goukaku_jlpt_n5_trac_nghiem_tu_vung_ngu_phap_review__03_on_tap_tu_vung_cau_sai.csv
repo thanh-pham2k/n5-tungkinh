@@ -1,9 +1,9 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,"Ôn tập từ vựng trong câu sai","Mina bài 11, 14",1,"1＿＿は 30にち くらいです。","Ik-ka ___ wa sanjuu-nichi kurai desu.","Một tháng khoảng 30 ngày.","がつ","かげつ","げつ","じかん"
-3,"Ôn tập từ vựng trong câu sai","Mina bài 11, 14",2,"6＿＿は なつです。","Roku ___ wa natsu desu.","Tháng 6 là mùa hè.","がつ","かげつ","げつ","にち"
-3,"Ôn tập từ vựng trong câu sai","Mina bài 11, 14",3,"ペンが 1＿＿あります。","Pen ga ip-pon arimasu.","Có 1 cây bút.","さつ","ぽん","だい","まい"
-3,"Ôn tập từ vựng trong câu sai","Mina bài 11, 14",4,"ほんが 3＿＿あります。","Hon ga san ___ arimasu.","Có 3 quyển sách.","ぼん","さつ","まい","だい"
-3,"Ôn tập từ vựng trong câu sai","Mina bài 11, 14",5,"かさを ＿＿ください。","Kasa o ___ kudasai.","Hãy cầm ô.","さして","かけて","しめて","かいて"
-3,"Ôn tập từ vựng trong câu sai","Mina bài 11, 14",6,"めがねを ＿＿ください。","Megane o ___ kudasai.","Hãy đeo kính.","かけて","かいて","あけて","しめて"
-3,"Ôn tập từ vựng trong câu sai","Mina bài 11, 14",7,"ドアを ＿＿ください。","Doa o ___ kudasai.","Hãy mở cửa.","かいて","あけて","かけて","ぬいで"
-3,"Ôn tập từ vựng trong câu sai","Mina bài 11, 14",8,"まどを ＿＿ください。","Mado o ___ kudasai.","Hãy đóng cửa sổ.","しめて","かけて","かいて","ぬいで"
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Ôn tập từ vựng trong câu sai,"Mina bài 11, 14",1,1＿＿は 30にち くらいです。,Một tháng khoảng 30 ngày.,がつ,かげつ,げつ,じかん
+3,Ôn tập từ vựng trong câu sai,"Mina bài 11, 14",2,6＿＿は なつです。,Tháng 6 là mùa hè.,がつ,かげつ,げつ,にち
+3,Ôn tập từ vựng trong câu sai,"Mina bài 11, 14",3,ペンが 1＿＿あります。,Có 1 cây bút.,さつ,ぽん,だい,まい
+3,Ôn tập từ vựng trong câu sai,"Mina bài 11, 14",4,ほんが 3＿＿あります。,Có 3 quyển sách.,ぼん,さつ,まい,だい
+3,Ôn tập từ vựng trong câu sai,"Mina bài 11, 14",5,かさを ＿＿ください。,Hãy cầm ô.,さして,かけて,しめて,かいて
+3,Ôn tập từ vựng trong câu sai,"Mina bài 11, 14",6,めがねを ＿＿ください。,Hãy đeo kính.,かけて,かいて,あけて,しめて
+3,Ôn tập từ vựng trong câu sai,"Mina bài 11, 14",7,ドアを ＿＿ください。,Hãy mở cửa.,かいて,あけて,かけて,ぬいで
+3,Ôn tập từ vựng trong câu sai,"Mina bài 11, 14",8,まどを ＿＿ください。,Hãy đóng cửa sổ.,しめて,かけて,かいて,ぬいで

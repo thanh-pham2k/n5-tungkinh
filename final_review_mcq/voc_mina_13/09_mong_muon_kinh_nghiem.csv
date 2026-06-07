@@ -1,13 +1,13 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",1,わたしは新しいパソコン＿＿ほしいです。,Watashi wa atarashii pasokon ___ hoshii desu.,Tôi muốn có máy tính mới.,が,を,で,へ
-9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",2,水＿＿飲みたいです。,Mizu ___ nomitai desu.,Tôi muốn uống nước.,を,が,で,へ
-9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",3,日本へ勉強し＿＿行きます。,Nihon e benkyou shi___ ikimasu.,Tôi đi Nhật để học.,に,を,で,へ
-9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",4,映画を見＿＿です。,Eiga o mi___ desu.,Tôi muốn xem phim.,たい,ほしい,つもり,こと
-9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",5,来年、日本へ行く＿＿です。,"Rainen, Nihon e iku ___ desu.",Năm sau tôi dự định đi Nhật.,つもり,たい,ほしい,こと
-9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",6,週末、友だちに会う＿＿です。,"Shuumatsu, tomodachi ni au ___ desu.",Cuối tuần tôi dự định gặp bạn.,予定,たい,ほしい,こと
-9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",7,日本料理を食べた＿＿があります。,Nihon ryouri o tabeta ___ ga arimasu.,Tôi đã từng ăn món Nhật.,こと,つもり,予定,たい
-9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",8,富士山に登った＿＿がありますか。,Fujisan ni nobotta ___ ga arimasu ka.,Bạn đã từng leo núi Phú Sĩ chưa?,こと,つもり,予定,ほしい
-9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",9,わたしは車＿＿ほしいです。,Watashi wa kuruma ___ hoshii desu.,Tôi muốn có xe hơi.,が,を,で,に
-9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",10,コーヒー＿＿飲みたくないです。,Koohii ___ nomitakunai desu.,Tôi không muốn uống cà phê.,を,が,で,に
-9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",11,日曜日、買い物に行く＿＿です。,"Nichiyoubi, kaimono ni iku ___ desu.",Chủ nhật tôi dự định đi mua sắm.,つもり,たい,ほしい,こと
-9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",12,北海道へ行った＿＿がありません。,Hokkaidou e itta ___ ga arimasen.,Tôi chưa từng đi Hokkaido.,こと,つもり,予定,たい
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",1,わたしは新しいパソコン＿＿ほしいです。,Tôi muốn có máy tính mới.,が,を,で,へ
+9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",2,水＿＿飲みたいです。,Tôi muốn uống nước.,を,が,で,へ
+9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",3,日本へ勉強し＿＿行きます。,Tôi đi Nhật để học.,に,を,で,へ
+9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",4,映画を見＿＿です。,Tôi muốn xem phim.,たい,ほしい,つもり,こと
+9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",5,来年、日本へ行く＿＿です。,Năm sau tôi dự định đi Nhật.,つもり,たい,ほしい,こと
+9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",6,週末、友だちに会う＿＿です。,Cuối tuần tôi dự định gặp bạn.,予定,たい,ほしい,こと
+9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",7,日本料理を食べた＿＿があります。,Tôi đã từng ăn món Nhật.,こと,つもり,予定,たい
+9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",8,富士山に登った＿＿がありますか。,Bạn đã từng leo núi Phú Sĩ chưa?,こと,つもり,予定,ほしい
+9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",9,わたしは車＿＿ほしいです。,Tôi muốn có xe hơi.,が,を,で,に
+9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",10,コーヒー＿＿飲みたくないです。,Tôi không muốn uống cà phê.,を,が,で,に
+9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",11,日曜日、買い物に行く＿＿です。,Chủ nhật tôi dự định đi mua sắm.,つもり,たい,ほしい,こと
+9,Mong muốn / dự định / kinh nghiệm,"Minna bài 13, 18, 19, 31",12,北海道へ行った＿＿がありません。,Tôi chưa từng đi Hokkaido.,こと,つもり,予定,たい

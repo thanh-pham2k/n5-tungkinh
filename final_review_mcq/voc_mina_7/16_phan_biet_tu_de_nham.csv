@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-16,Phân biệt từ dễ nhầm,Mina bài 7,1,あげます và もらいます khác nhau thế nào?,agemasu và moraimasu khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,あげます là cho / tặng; もらいます là nhận,あげます là nhận; もらいます là cho / tặng,Cả hai đều là mượn,Cả hai đều là gửi
-16,Phân biệt từ dễ nhầm,Mina bài 7,2,かします và かります khác nhau thế nào?,kashimasu và karimasu khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,かします là cho mượn; かります là mượn,かします là mượn; かります là cho mượn,Cả hai đều là nhận,Cả hai đều là dạy
-16,Phân biệt từ dễ nhầm,Mina bài 7,3,おしえます và ならいます khác nhau thế nào?,oshiemasu và naraimasu khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,おしえます là dạy; ならいます là học,おしえます là học; ならいます là dạy,Cả hai đều là gọi điện thoại,Cả hai đều là gửi
-16,Phân biệt từ dễ nhầm,Mina bài 7,4,きります và おくります khác nhau thế nào?,kirimasu và okurimasu khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,きります là cắt; おくります là gửi,きります là gửi; おくります là cắt,Cả hai đều là nhận,Cả hai đều là học
-16,Phân biệt từ dễ nhầm,Mina bài 7,5,手（て） và はし khác nhau thế nào?,te và hashi khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,手 là tay; はし là đũa,手 là đũa; はし là tay,Cả hai đều là giấy,Cả hai đều là hoa
-16,Phân biệt từ dễ nhầm,Mina bài 7,6,はさみ và ナイフ khác nhau thế nào?,hasami và naifu khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,はさみ là kéo; ナイフ là dao,はさみ là dao; ナイフ là kéo,Cả hai đều là muỗng,Cả hai đều là nĩa
-16,Phân biệt từ dễ nhầm,Mina bài 7,7,パンチ và ホッチキス khác nhau thế nào?,panchi và hocchikisu khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,パンチ là cái bấm lỗ; ホッチキス là đồ bấm kim,パンチ là đồ bấm kim; ホッチキス là cái bấm lỗ,Cả hai đều là điện thoại,Cả hai đều là máy tính
-16,Phân biệt từ dễ nhầm,Mina bài 7,8,かみ và はな khác nhau thế nào?,kami và hana khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,かみ là giấy; はな là hoa,かみ là hoa; はな là giấy,Cả hai đều là tiền,Cả hai đều là vé
-16,Phân biệt từ dễ nhầm,Mina bài 7,9,父（ちち） và おとうさん khác nhau thế nào?,chichi và otousan khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,父 là bố tôi; おとうさん là bố / bố người khác,父 là bố người khác; おとうさん là bố tôi,Cả hai đều là mẹ,Cả hai đều là anh trai
-16,Phân biệt từ dễ nhầm,Mina bài 7,10,母（はは） và おかあさん khác nhau thế nào?,haha và okaasan khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,母 là mẹ tôi; おかあさん là mẹ / mẹ người khác,母 là mẹ người khác; おかあさん là mẹ tôi,Cả hai đều là bố,Cả hai đều là chị gái
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+16,Phân biệt từ dễ nhầm,Mina bài 7,1,あげます và もらいます khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,あげます là cho / tặng; もらいます là nhận,あげます là nhận; もらいます là cho / tặng,Cả hai đều là mượn,Cả hai đều là gửi
+16,Phân biệt từ dễ nhầm,Mina bài 7,2,かします và かります khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,かします là cho mượn; かります là mượn,かします là mượn; かります là cho mượn,Cả hai đều là nhận,Cả hai đều là dạy
+16,Phân biệt từ dễ nhầm,Mina bài 7,3,おしえます và ならいます khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,おしえます là dạy; ならいます là học,おしえます là học; ならいます là dạy,Cả hai đều là gọi điện thoại,Cả hai đều là gửi
+16,Phân biệt từ dễ nhầm,Mina bài 7,4,きります và おくります khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,きります là cắt; おくります là gửi,きります là gửi; おくります là cắt,Cả hai đều là nhận,Cả hai đều là học
+16,Phân biệt từ dễ nhầm,Mina bài 7,5,手（て） và はし khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,手 là tay; はし là đũa,手 là đũa; はし là tay,Cả hai đều là giấy,Cả hai đều là hoa
+16,Phân biệt từ dễ nhầm,Mina bài 7,6,はさみ và ナイフ khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,はさみ là kéo; ナイフ là dao,はさみ là dao; ナイフ là kéo,Cả hai đều là muỗng,Cả hai đều là nĩa
+16,Phân biệt từ dễ nhầm,Mina bài 7,7,パンチ và ホッチキス khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,パンチ là cái bấm lỗ; ホッチキス là đồ bấm kim,パンチ là đồ bấm kim; ホッチキス là cái bấm lỗ,Cả hai đều là điện thoại,Cả hai đều là máy tính
+16,Phân biệt từ dễ nhầm,Mina bài 7,8,かみ và はな khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,かみ là giấy; はな là hoa,かみ là hoa; はな là giấy,Cả hai đều là tiền,Cả hai đều là vé
+16,Phân biệt từ dễ nhầm,Mina bài 7,9,父（ちち） và おとうさん khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,父 là bố tôi; おとうさん là bố / bố người khác,父 là bố người khác; おとうさん là bố tôi,Cả hai đều là mẹ,Cả hai đều là anh trai
+16,Phân biệt từ dễ nhầm,Mina bài 7,10,母（はは） và おかあさん khác nhau thế nào?,Phân biệt nghĩa/cách dùng.,母 là mẹ tôi; おかあさん là mẹ / mẹ người khác,母 là mẹ người khác; おかあさん là mẹ tôi,Cả hai đều là bố,Cả hai đều là chị gái

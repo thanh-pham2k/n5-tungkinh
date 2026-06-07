@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Sức khỏe / tình trạng,Mina bài 19,1,ちょうし nghĩa là gì?,choushi nghĩa là gì?,Hỏi nghĩa của “ちょうし”.,tình trạng / phong độ,ăn kiêng,quá sức,sức khỏe
-3,Sức khỏe / tình trạng,Mina bài 19,2,ちょうしが いい nghĩa là gì?,choushiが ii nghĩa là gì?,Hỏi nghĩa của “ちょうしが いい”.,tình trạng tốt,tình trạng xấu,quá sức,buồn ngủ
-3,Sức khỏe / tình trạng,Mina bài 19,3,ちょうしが わるい nghĩa là gì?,choushiが warui nghĩa là gì?,Hỏi nghĩa của “ちょうしが わるい”.,tình trạng xấu,tình trạng tốt,khỏe mạnh,nổi tiếng
-3,Sức khỏe / tình trạng,Mina bài 19,4,からだに いい nghĩa là gì?,karadaに ii nghĩa là gì?,Hỏi nghĩa của “からだに いい”.,tốt cho sức khỏe,không tốt cho sức khỏe,buồn ngủ,quá sức
-3,Sức khỏe / tình trạng,Mina bài 19,5,ダイエット nghĩa là gì?,daietto nghĩa là gì?,Hỏi nghĩa của “ダイエット”.,ăn kiêng / giảm cân,luyện tập,sức khỏe,tình trạng
-3,Sức khỏe / tình trạng,Mina bài 19,6,むり nghĩa là gì?,muri nghĩa là gì?,Hỏi nghĩa của “むり”.,quá sức / không thể,khỏe,tiện lợi,yên tĩnh
-3,Sức khỏe / tình trạng,Mina bài 19,7,おちゃは からだに いいです nghĩa là gì?,ochaは karadaに iiです nghĩa là gì?,Hỏi nghĩa của “おちゃは からだに いいです”.,Trà tốt cho sức khỏe.,Trà rất buồn ngủ.,Trà không thể uống.,Trà nổi tiếng.
-3,Sức khỏe / tình trạng,Mina bài 19,8,きょうは ちょうしが いいです nghĩa là gì?,きょうは choushiが iiです nghĩa là gì?,Hỏi nghĩa của “きょうは ちょうしが いいです”.,Hôm nay tình trạng tốt.,Hôm nay tình trạng xấu.,Hôm nay rất rảnh.,Hôm nay buồn ngủ.
-3,Sức khỏe / tình trạng,Mina bài 19,9,ダイエットは むりです nghĩa là gì?,daiettoは muriです nghĩa là gì?,Hỏi nghĩa của “ダイエットは むりです”.,Ăn kiêng là quá sức / không thể.,Ăn kiêng rất tiện lợi.,Ăn kiêng nổi tiếng.,Ăn kiêng yên tĩnh.
-3,Sức khỏe / tình trạng,Mina bài 19,10,ねむいです nghĩa là gì?,nemuiです nghĩa là gì?,Hỏi nghĩa của “ねむいです”.,buồn ngủ,mạnh,rảnh,tiện lợi
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Sức khỏe / tình trạng,Mina bài 19,1,ちょうし nghĩa là gì?,Hỏi nghĩa của “ちょうし”.,tình trạng / phong độ,ăn kiêng,quá sức,sức khỏe
+3,Sức khỏe / tình trạng,Mina bài 19,2,ちょうしが いい nghĩa là gì?,Hỏi nghĩa của “ちょうしが いい”.,tình trạng tốt,tình trạng xấu,quá sức,buồn ngủ
+3,Sức khỏe / tình trạng,Mina bài 19,3,ちょうしが わるい nghĩa là gì?,Hỏi nghĩa của “ちょうしが わるい”.,tình trạng xấu,tình trạng tốt,khỏe mạnh,nổi tiếng
+3,Sức khỏe / tình trạng,Mina bài 19,4,からだに いい nghĩa là gì?,Hỏi nghĩa của “からだに いい”.,tốt cho sức khỏe,không tốt cho sức khỏe,buồn ngủ,quá sức
+3,Sức khỏe / tình trạng,Mina bài 19,5,ダイエット nghĩa là gì?,Hỏi nghĩa của “ダイエット”.,ăn kiêng / giảm cân,luyện tập,sức khỏe,tình trạng
+3,Sức khỏe / tình trạng,Mina bài 19,6,むり nghĩa là gì?,Hỏi nghĩa của “むり”.,quá sức / không thể,khỏe,tiện lợi,yên tĩnh
+3,Sức khỏe / tình trạng,Mina bài 19,7,おちゃは からだに いいです nghĩa là gì?,Hỏi nghĩa của “おちゃは からだに いいです”.,Trà tốt cho sức khỏe.,Trà rất buồn ngủ.,Trà không thể uống.,Trà nổi tiếng.
+3,Sức khỏe / tình trạng,Mina bài 19,8,きょうは ちょうしが いいです nghĩa là gì?,Hỏi nghĩa của “きょうは ちょうしが いいです”.,Hôm nay tình trạng tốt.,Hôm nay tình trạng xấu.,Hôm nay rất rảnh.,Hôm nay buồn ngủ.
+3,Sức khỏe / tình trạng,Mina bài 19,9,ダイエットは むりです nghĩa là gì?,Hỏi nghĩa của “ダイエットは むりです”.,Ăn kiêng là quá sức / không thể.,Ăn kiêng rất tiện lợi.,Ăn kiêng nổi tiếng.,Ăn kiêng yên tĩnh.
+3,Sức khỏe / tình trạng,Mina bài 19,10,ねむいです nghĩa là gì?,Hỏi nghĩa của “ねむいです”.,buồn ngủ,mạnh,rảnh,tiện lợi

@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Điền từ vào chỗ trống,JLPT N5 201212,1,ともだちから ざっしを 3（   ）もらいました。,,Tôi đã nhận 3 quyển tạp chí từ bạn.,さつ,まい,だい,びき
-3,Điền từ vào chỗ trống,JLPT N5 201212,2,でんきを つけました から、へやが（   ）です。,,Vì đã bật điện nên phòng sáng.,さむい,きたない,あかるい,せまい
-3,Điền từ vào chỗ trống,JLPT N5 201212,3,びょういんは えきから（   ）ですから、バスで いきましょう。,,Vì bệnh viện xa ga nên chúng ta đi bằng xe buýt nhé.,ながい,ふとい,とおい,ひろい
-3,Điền từ vào chỗ trống,JLPT N5 201212,4,（   ）が ありませんから、じかんが わかりません。,,Vì không có đồng hồ nên không biết giờ.,かぎ,じしょ,さいふ,とけい
-3,Điền từ vào chỗ trống,JLPT N5 201212,5,かばんは いすの うえに（   ）ください。,,Hãy đặt cái cặp lên trên ghế.,のって,おいて,まって,すわって
-3,Điền từ vào chỗ trống,JLPT N5 201212,6,あそこの しんごうで（   ）を わたりましょう。,,Hãy băng qua đường ở đèn giao thông kia.,ちかてつ,ちず,でぐち,みち
-3,Điền từ vào chỗ trống,JLPT N5 201212,7,この でんしゃは とうきょうえきを 9じに（   ）。,,Chuyến tàu này rời ga Tokyo lúc 9 giờ.,おります,でます,かえります,はじまります
-3,Điền từ vào chỗ trống,JLPT N5 201212,8,ことしの なつは あついですから、（   ）が ほしいです。,,Vì mùa hè năm nay nóng nên tôi muốn có máy lạnh.,ラジオ,ストーブ,エアコン,テレビ
-3,Điền từ vào chỗ trống,JLPT N5 201212,9,わたしの（   ）は、ちちと ははと わたしの 3にんです。,,"Gia đình tôi có 3 người: bố, mẹ và tôi.",きょうだい,こども,りょうしん,かぞく
-3,Điền từ vào chỗ trống,JLPT N5 201212,10,あそこの ドアから なかに（   ）ください。,,Hãy đi vào bên trong từ cánh cửa kia.,はいって,のぼって,ついて,とまって
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Điền từ vào chỗ trống,JLPT N5 201212,1,ともだちから ざっしを 3（   ）もらいました。,Tôi đã nhận 3 quyển tạp chí từ bạn.,さつ,まい,だい,びき
+3,Điền từ vào chỗ trống,JLPT N5 201212,2,でんきを つけました から、へやが（   ）です。,Vì đã bật điện nên phòng sáng.,さむい,きたない,あかるい,せまい
+3,Điền từ vào chỗ trống,JLPT N5 201212,3,びょういんは えきから（   ）ですから、バスで いきましょう。,Vì bệnh viện xa ga nên chúng ta đi bằng xe buýt nhé.,ながい,ふとい,とおい,ひろい
+3,Điền từ vào chỗ trống,JLPT N5 201212,4,（   ）が ありませんから、じかんが わかりません。,Vì không có đồng hồ nên không biết giờ.,かぎ,じしょ,さいふ,とけい
+3,Điền từ vào chỗ trống,JLPT N5 201212,5,かばんは いすの うえに（   ）ください。,Hãy đặt cái cặp lên trên ghế.,のって,おいて,まって,すわって
+3,Điền từ vào chỗ trống,JLPT N5 201212,6,あそこの しんごうで（   ）を わたりましょう。,Hãy băng qua đường ở đèn giao thông kia.,ちかてつ,ちず,でぐち,みち
+3,Điền từ vào chỗ trống,JLPT N5 201212,7,この でんしゃは とうきょうえきを 9じに（   ）。,Chuyến tàu này rời ga Tokyo lúc 9 giờ.,おります,でます,かえります,はじまります
+3,Điền từ vào chỗ trống,JLPT N5 201212,8,ことしの なつは あついですから、（   ）が ほしいです。,Vì mùa hè năm nay nóng nên tôi muốn có máy lạnh.,ラジオ,ストーブ,エアコン,テレビ
+3,Điền từ vào chỗ trống,JLPT N5 201212,9,わたしの（   ）は、ちちと ははと わたしの 3にんです。,"Gia đình tôi có 3 người: bố, mẹ và tôi.",きょうだい,こども,りょうしん,かぞく
+3,Điền từ vào chỗ trống,JLPT N5 201212,10,あそこの ドアから なかに（   ）ください。,Hãy đi vào bên trong từ cánh cửa kia.,はいって,のぼって,ついて,とまって

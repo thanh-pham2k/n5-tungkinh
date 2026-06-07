@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Hiragana → Kanji,Kanji N5 Bài 17,1,はる,,là Kanji nào?,春,夏,秋,冬
-3,Hiragana → Kanji,Kanji N5 Bài 17,2,なつ,,là Kanji nào?,春,夏,朝,方
-3,Hiragana → Kanji,Kanji N5 Bài 17,3,あき,,là Kanji nào?,秋,冬,昼,夕
-3,Hiragana → Kanji,Kanji N5 Bài 17,4,ふゆ,,là Kanji nào?,春,夏,秋,冬
-3,Hiragana → Kanji,Kanji N5 Bài 17,5,あさ,,là Kanji nào?,朝,昼,夕,方
-3,Hiragana → Kanji,Kanji N5 Bài 17,6,ひる,,là Kanji nào?,春,朝,昼,冬
-3,Hiragana → Kanji,Kanji N5 Bài 17,7,ゆう,,là Kanji nào?,夕,方,秋,夏
-3,Hiragana → Kanji,Kanji N5 Bài 17,8,ほう,,là Kanji nào?,朝,方,昼,冬
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Hiragana → Kanji,Kanji N5 Bài 17,1,はる,là Kanji nào?,春,夏,秋,冬
+3,Hiragana → Kanji,Kanji N5 Bài 17,2,なつ,là Kanji nào?,春,夏,朝,方
+3,Hiragana → Kanji,Kanji N5 Bài 17,3,あき,là Kanji nào?,秋,冬,昼,夕
+3,Hiragana → Kanji,Kanji N5 Bài 17,4,ふゆ,là Kanji nào?,春,夏,秋,冬
+3,Hiragana → Kanji,Kanji N5 Bài 17,5,あさ,là Kanji nào?,朝,昼,夕,方
+3,Hiragana → Kanji,Kanji N5 Bài 17,6,ひる,là Kanji nào?,春,朝,昼,冬
+3,Hiragana → Kanji,Kanji N5 Bài 17,7,ゆう,là Kanji nào?,夕,方,秋,夏
+3,Hiragana → Kanji,Kanji N5 Bài 17,8,ほう,là Kanji nào?,朝,方,昼,冬

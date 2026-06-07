@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-4,Trạng từ / câu giao tiếp,Mina bài 18,1,とくに nghĩa là gì?,tokuni nghĩa là gì?,Hỏi nghĩa của “とくに”.,đặc biệt là,mãi mà / khó mà,nhất định,thật không
-4,Trạng từ / câu giao tiếp,Mina bài 18,2,なかなか nghĩa là gì?,nakanaka nghĩa là gì?,Hỏi nghĩa của “なかなか”.,mãi mà / khó mà,đặc biệt là,nhất định,ồ / vậy à
-4,Trạng từ / câu giao tiếp,Mina bài 18,3,ぜひ nghĩa là gì?,zehi nghĩa là gì?,Hỏi nghĩa của “ぜひ”.,nhất định / rất mong,mãi mà,đặc biệt là,thật không
-4,Trạng từ / câu giao tiếp,Mina bài 18,4,へえ nghĩa là gì?,hee nghĩa là gì?,Hỏi nghĩa của “へえ”.,ồ / vậy à,thật không?,nhất định,đặc biệt là
-4,Trạng từ / câu giao tiếp,Mina bài 18,5,ほんとうですか nghĩa là gì?,hontou desu ka nghĩa là gì?,Hỏi nghĩa của “ほんとうですか”.,thật không?,điều đó thú vị nhỉ,nhất định muốn đi,ồ / vậy à
-4,Trạng từ / câu giao tiếp,Mina bài 18,6,それは おもしろいですね nghĩa là gì?,sore wa omoshiroi desu ne nghĩa là gì?,Hỏi nghĩa của “それは おもしろいですね”.,điều đó thú vị nhỉ,thật không?,nhất định muốn đi,mãi mà không được
-4,Trạng từ / câu giao tiếp,Mina bài 18,7,ぜひ いきたいです nghĩa là gì?,zehi ikitai desu nghĩa là gì?,Hỏi nghĩa của “ぜひ いきたいです”.,nhất định muốn đi,thật không?,điều đó thú vị nhỉ,đặc biệt thích
-4,Trạng từ / câu giao tiếp,Mina bài 18,8,へえ、ほんとうですか nghĩa là gì?,hee、hontou desu ka nghĩa là gì?,Hỏi nghĩa của “へえ、ほんとうですか”.,"Ồ, thật không?",Nhất định muốn đi.,Điều đó thú vị nhỉ.,Mãi mà không được.
-4,Trạng từ / câu giao tiếp,Mina bài 18,9,それは おもしろいですね。ぜひ いきたいです nghĩa là gì?,sore wa omoshiroi desu ne。zehi ikitai desu nghĩa là gì?,Hỏi nghĩa của “それは おもしろいですね。ぜひ いきたいです”.,Điều đó thú vị nhỉ. Nhất định muốn đi.,Thật không? Tôi không đi.,Đặc biệt là internet.,Mãi mà không đặt được.
-4,Trạng từ / câu giao tiếp,Mina bài 18,10,とくに ピアノが すきです nghĩa là gì?,tokuni pianoが すきです nghĩa là gì?,Hỏi nghĩa của “とくに ピアノが すきです”.,đặc biệt thích piano,khó chơi piano,nhất định đổi piano,thật sự mua piano
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+4,Trạng từ / câu giao tiếp,Mina bài 18,1,とくに nghĩa là gì?,Hỏi nghĩa của “とくに”.,đặc biệt là,mãi mà / khó mà,nhất định,thật không
+4,Trạng từ / câu giao tiếp,Mina bài 18,2,なかなか nghĩa là gì?,Hỏi nghĩa của “なかなか”.,mãi mà / khó mà,đặc biệt là,nhất định,ồ / vậy à
+4,Trạng từ / câu giao tiếp,Mina bài 18,3,ぜひ nghĩa là gì?,Hỏi nghĩa của “ぜひ”.,nhất định / rất mong,mãi mà,đặc biệt là,thật không
+4,Trạng từ / câu giao tiếp,Mina bài 18,4,へえ nghĩa là gì?,Hỏi nghĩa của “へえ”.,ồ / vậy à,thật không?,nhất định,đặc biệt là
+4,Trạng từ / câu giao tiếp,Mina bài 18,5,ほんとうですか nghĩa là gì?,Hỏi nghĩa của “ほんとうですか”.,thật không?,điều đó thú vị nhỉ,nhất định muốn đi,ồ / vậy à
+4,Trạng từ / câu giao tiếp,Mina bài 18,6,それは おもしろいですね nghĩa là gì?,Hỏi nghĩa của “それは おもしろいですね”.,điều đó thú vị nhỉ,thật không?,nhất định muốn đi,mãi mà không được
+4,Trạng từ / câu giao tiếp,Mina bài 18,7,ぜひ いきたいです nghĩa là gì?,Hỏi nghĩa của “ぜひ いきたいです”.,nhất định muốn đi,thật không?,điều đó thú vị nhỉ,đặc biệt thích
+4,Trạng từ / câu giao tiếp,Mina bài 18,8,へえ、ほんとうですか nghĩa là gì?,Hỏi nghĩa của “へえ、ほんとうですか”.,"Ồ, thật không?",Nhất định muốn đi.,Điều đó thú vị nhỉ.,Mãi mà không được.
+4,Trạng từ / câu giao tiếp,Mina bài 18,9,それは おもしろいですね。ぜひ いきたいです nghĩa là gì?,Hỏi nghĩa của “それは おもしろいですね。ぜひ いきたいです”.,Điều đó thú vị nhỉ. Nhất định muốn đi.,Thật không? Tôi không đi.,Đặc biệt là internet.,Mãi mà không đặt được.
+4,Trạng từ / câu giao tiếp,Mina bài 18,10,とくに ピアノが すきです nghĩa là gì?,Hỏi nghĩa của “とくに ピアノが すきです”.,đặc biệt thích piano,khó chơi piano,nhất định đổi piano,thật sự mua piano

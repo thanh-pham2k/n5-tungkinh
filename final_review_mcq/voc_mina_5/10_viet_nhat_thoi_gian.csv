@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-10,Việt → Nhật / thời gian,Mina bài 5,1,“một mình” là từ nào?,“một mình” là từ nào?,một mình,ひとりで,ともだち,かぞく,あるいて
-10,Việt → Nhật / thời gian,Mina bài 5,2,“tuần trước” là từ nào?,“tuần trước” là từ nào?,tuần trước,せんしゅう,こんしゅう,らいしゅう,せんげつ
-10,Việt → Nhật / thời gian,Mina bài 5,3,“tuần này” là từ nào?,“tuần này” là từ nào?,tuần này,こんしゅう,せんしゅう,らいしゅう,こんげつ
-10,Việt → Nhật / thời gian,Mina bài 5,4,“tuần sau” là từ nào?,“tuần sau” là từ nào?,tuần sau,らいしゅう,こんしゅう,せんしゅう,らいげつ
-10,Việt → Nhật / thời gian,Mina bài 5,5,“tháng trước” là từ nào?,“tháng trước” là từ nào?,tháng trước,せんげつ,こんげつ,らいげつ,せんしゅう
-10,Việt → Nhật / thời gian,Mina bài 5,6,“tháng này” là từ nào?,“tháng này” là từ nào?,tháng này,こんげつ,せんげつ,らいげつ,ことし
-10,Việt → Nhật / thời gian,Mina bài 5,7,“tháng sau” là từ nào?,“tháng sau” là từ nào?,tháng sau,らいげつ,こんげつ,せんげつ,らいねん
-10,Việt → Nhật / thời gian,Mina bài 5,8,“năm ngoái” là từ nào?,“năm ngoái” là từ nào?,năm ngoái,きょねん,ことし,らいねん,せんげつ
-10,Việt → Nhật / thời gian,Mina bài 5,9,“năm nay” là từ nào?,“năm nay” là từ nào?,năm nay,ことし,きょねん,らいねん,こんげつ
-10,Việt → Nhật / thời gian,Mina bài 5,10,“năm sau” là từ nào?,“năm sau” là từ nào?,năm sau,らいねん,ことし,きょねん,らいげつ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+10,Việt → Nhật / thời gian,Mina bài 5,1,“một mình” là từ nào?,một mình,ひとりで,ともだち,かぞく,あるいて
+10,Việt → Nhật / thời gian,Mina bài 5,2,“tuần trước” là từ nào?,tuần trước,せんしゅう,こんしゅう,らいしゅう,せんげつ
+10,Việt → Nhật / thời gian,Mina bài 5,3,“tuần này” là từ nào?,tuần này,こんしゅう,せんしゅう,らいしゅう,こんげつ
+10,Việt → Nhật / thời gian,Mina bài 5,4,“tuần sau” là từ nào?,tuần sau,らいしゅう,こんしゅう,せんしゅう,らいげつ
+10,Việt → Nhật / thời gian,Mina bài 5,5,“tháng trước” là từ nào?,tháng trước,せんげつ,こんげつ,らいげつ,せんしゅう
+10,Việt → Nhật / thời gian,Mina bài 5,6,“tháng này” là từ nào?,tháng này,こんげつ,せんげつ,らいげつ,ことし
+10,Việt → Nhật / thời gian,Mina bài 5,7,“tháng sau” là từ nào?,tháng sau,らいげつ,こんげつ,せんげつ,らいねん
+10,Việt → Nhật / thời gian,Mina bài 5,8,“năm ngoái” là từ nào?,năm ngoái,きょねん,ことし,らいねん,せんげつ
+10,Việt → Nhật / thời gian,Mina bài 5,9,“năm nay” là từ nào?,năm nay,ことし,きょねん,らいねん,こんげつ
+10,Việt → Nhật / thời gian,Mina bài 5,10,“năm sau” là từ nào?,năm sau,らいねん,ことし,きょねん,らいげつ

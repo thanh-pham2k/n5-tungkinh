@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-16,Chọn kanji đúng / nhà ở,Mina bài 22,1,“đắt / cao” viết bằng kanji nào?,,Chọn kanji đúng.,高い,安い,低い,長い
-16,Chọn kanji đúng / nhà ở,Mina bài 22,2,“dáng cao” viết bằng kanji nào?,,Chọn kanji đúng.,背が高い,背が低い,髪が長い,髪が短い
-16,Chọn kanji đúng / nhà ở,Mina bài 22,3,“dáng thấp” viết bằng kanji nào?,,Chọn kanji đúng.,背が低い,背が高い,髪が長い,髪が短い
-16,Chọn kanji đúng / nhà ở,Mina bài 22,4,“tóc dài” viết bằng kanji nào?,,Chọn kanji đúng.,髪が長い,髪が短い,背が高い,背が低い
-16,Chọn kanji đúng / nhà ở,Mina bài 22,5,“tóc ngắn” viết bằng kanji nào?,,Chọn kanji đúng.,髪が短い,髪が長い,背が低い,背が高い
-16,Chọn kanji đúng / nhà ở,Mina bài 22,6,“sinh ra” viết bằng kanji nào?,,Chọn kanji đúng.,生まれます,住みます,行きます,来ます
-16,Chọn kanji đúng / nhà ở,Mina bài 22,7,“ai” viết bằng kanji nào?,,Chọn kanji đúng.,誰,何,何処,何時
-16,Chọn kanji đúng / nhà ở,Mina bài 22,8,“phòng kiểu Nhật” viết bằng kanji nào?,,Chọn kanji đúng.,和室,洋室,教室,部屋
-16,Chọn kanji đúng / nhà ở,Mina bài 22,9,“tủ âm tường” viết bằng kanji nào?,,Chọn kanji đúng.,押し入れ,入り口,部屋,和室
-16,Chọn kanji đúng / nhà ở,Mina bài 22,10,“tiền thuê nhà” viết bằng kanji nào?,,Chọn kanji đúng.,家賃,家族,家,家内
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+16,Chọn kanji đúng / nhà ở,Mina bài 22,1,“đắt / cao” viết bằng kanji nào?,Chọn kanji đúng.,高い,安い,低い,長い
+16,Chọn kanji đúng / nhà ở,Mina bài 22,2,“dáng cao” viết bằng kanji nào?,Chọn kanji đúng.,背が高い,背が低い,髪が長い,髪が短い
+16,Chọn kanji đúng / nhà ở,Mina bài 22,3,“dáng thấp” viết bằng kanji nào?,Chọn kanji đúng.,背が低い,背が高い,髪が長い,髪が短い
+16,Chọn kanji đúng / nhà ở,Mina bài 22,4,“tóc dài” viết bằng kanji nào?,Chọn kanji đúng.,髪が長い,髪が短い,背が高い,背が低い
+16,Chọn kanji đúng / nhà ở,Mina bài 22,5,“tóc ngắn” viết bằng kanji nào?,Chọn kanji đúng.,髪が短い,髪が長い,背が低い,背が高い
+16,Chọn kanji đúng / nhà ở,Mina bài 22,6,“sinh ra” viết bằng kanji nào?,Chọn kanji đúng.,生まれます,住みます,行きます,来ます
+16,Chọn kanji đúng / nhà ở,Mina bài 22,7,“ai” viết bằng kanji nào?,Chọn kanji đúng.,誰,何,何処,何時
+16,Chọn kanji đúng / nhà ở,Mina bài 22,8,“phòng kiểu Nhật” viết bằng kanji nào?,Chọn kanji đúng.,和室,洋室,教室,部屋
+16,Chọn kanji đúng / nhà ở,Mina bài 22,9,“tủ âm tường” viết bằng kanji nào?,Chọn kanji đúng.,押し入れ,入り口,部屋,和室
+16,Chọn kanji đúng / nhà ở,Mina bài 22,10,“tiền thuê nhà” viết bằng kanji nào?,Chọn kanji đúng.,家賃,家族,家,家内

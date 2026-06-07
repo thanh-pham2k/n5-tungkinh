@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-6,Việt → Nhật / danh từ,Mina bài 23,1,“hỏng / sự cố” là từ nào?,,,こしょう,おゆ,音（おと）,サイズ
-6,Việt → Nhật / danh từ,Mina bài 23,2,“nước nóng” là từ nào?,,,おゆ,音（おと）,こしょう,おつり
-6,Việt → Nhật / danh từ,Mina bài 23,3,“âm thanh / tiếng động” là từ nào?,,,音（おと）,おゆ,こしょう,道（みち）
-6,Việt → Nhật / danh từ,Mina bài 23,4,“đường” là từ nào?,,,道（みち）,こうさてん,しんごう,角（かど）
-6,Việt → Nhật / danh từ,Mina bài 23,5,“ngã tư / giao lộ” là từ nào?,,,こうさてん,しんごう,はし,たてもの
-6,Việt → Nhật / danh từ,Mina bài 23,6,“đèn giao thông” là từ nào?,,,しんごう,こうさてん,角（かど）,ちゅうしゃじょう
-6,Việt → Nhật / danh từ,Mina bài 23,7,“góc đường / góc” là từ nào?,,,角（かど）,道（みち）,はし,たてもの
-6,Việt → Nhật / danh từ,Mina bài 23,8,“cầu” là từ nào?,,,はし,道（みち）,こうさてん,しんごう
-6,Việt → Nhật / danh từ,Mina bài 23,9,“bãi đỗ xe” là từ nào?,,,ちゅうしゃじょう,たてもの,はし,角（かど）
-6,Việt → Nhật / danh từ,Mina bài 23,10,“tòa nhà” là từ nào?,,,たてもの,ちゅうしゃじょう,こうさてん,道（みち） ---
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+6,Việt → Nhật / danh từ,Mina bài 23,1,“hỏng / sự cố” là từ nào?,,こしょう,おゆ,音（おと）,サイズ
+6,Việt → Nhật / danh từ,Mina bài 23,2,“nước nóng” là từ nào?,,おゆ,音（おと）,こしょう,おつり
+6,Việt → Nhật / danh từ,Mina bài 23,3,“âm thanh / tiếng động” là từ nào?,,音（おと）,おゆ,こしょう,道（みち）
+6,Việt → Nhật / danh từ,Mina bài 23,4,“đường” là từ nào?,,道（みち）,こうさてん,しんごう,角（かど）
+6,Việt → Nhật / danh từ,Mina bài 23,5,“ngã tư / giao lộ” là từ nào?,,こうさてん,しんごう,はし,たてもの
+6,Việt → Nhật / danh từ,Mina bài 23,6,“đèn giao thông” là từ nào?,,しんごう,こうさてん,角（かど）,ちゅうしゃじょう
+6,Việt → Nhật / danh từ,Mina bài 23,7,“góc đường / góc” là từ nào?,,角（かど）,道（みち）,はし,たてもの
+6,Việt → Nhật / danh từ,Mina bài 23,8,“cầu” là từ nào?,,はし,道（みち）,こうさてん,しんごう
+6,Việt → Nhật / danh từ,Mina bài 23,9,“bãi đỗ xe” là từ nào?,,ちゅうしゃじょう,たてもの,はし,角（かど）
+6,Việt → Nhật / danh từ,Mina bài 23,10,“tòa nhà” là từ nào?,,たてもの,ちゅうしゃじょう,こうさてん,道（みち） ---

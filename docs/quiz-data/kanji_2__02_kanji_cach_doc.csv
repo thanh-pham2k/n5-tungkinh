@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,1,九 đọc là gì?,kyuu / ku,số 9,きゅう,じゅう,ひゃく,せん
-2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,2,十 đọc là gì?,juu,số 10,く,じゅう,まん,えん
-2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,3,百 đọc là gì?,hyaku,100,せん,まん,ひゃく,くち
-2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,4,千 đọc là gì?,sen,1.000,せん,め,えん,きゅう
-2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,5,万 đọc là gì?,man,10.000,ひゃく,せん,まん,じゅう
-2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,6,円 đọc là gì?,en,yên / hình tròn,えん,め,くち,く
-2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,7,口 đọc là gì?,kuchi,miệng,め,くち,まん,せん
-2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,8,目 đọc là gì?,me,mắt,えん,きゅう,め,くち
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,1,九 đọc là gì?,số 9,きゅう,じゅう,ひゃく,せん
+2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,2,十 đọc là gì?,số 10,く,じゅう,まん,えん
+2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,3,百 đọc là gì?,100,せん,まん,ひゃく,くち
+2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,4,千 đọc là gì?,1.000,せん,め,えん,きゅう
+2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,5,万 đọc là gì?,10.000,ひゃく,せん,まん,じゅう
+2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,6,円 đọc là gì?,yên / hình tròn,えん,め,くち,く
+2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,7,口 đọc là gì?,miệng,め,くち,まん,せん
+2,Bài tập trắc nghiệm: Kanji → Cách đọc,Kanji N5 bài 2,8,目 đọc là gì?,mắt,えん,きゅう,め,くち

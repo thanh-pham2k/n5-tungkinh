@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-13,Đọc kanji,Mina bài 22,1,着ます,masu,Chọn cách đọc đúng.,きます,はきます,かぶります,かけます
-13,Đọc kanji,Mina bài 22,2,服,,Chọn cách đọc đúng.,ふく,くつ,ぼうし,ズボン
-13,Đọc kanji,Mina bài 22,3,白い,i,Chọn cách đọc đúng.,しろい,くろい,あかい,あおい
-13,Đọc kanji,Mina bài 22,4,黒い,i,Chọn cách đọc đúng.,くろい,しろい,きいろい,ちゃいろい
-13,Đọc kanji,Mina bài 22,5,赤い,i,Chọn cách đọc đúng.,あかい,あおい,しろい,くろい
-13,Đọc kanji,Mina bài 22,6,青い,i,Chọn cách đọc đúng.,あおい,あかい,きいろい,ちゃいろい
-13,Đọc kanji,Mina bài 22,7,黄色い,i,Chọn cách đọc đúng.,きいろい,あおい,あかい,しろい
-13,Đọc kanji,Mina bài 22,8,新しい,shii,Chọn cách đọc đúng.,あたらしい,ふるい,やすい,たかい
-13,Đọc kanji,Mina bài 22,9,古い,i,Chọn cách đọc đúng.,ふるい,あたらしい,かわいい,すてき
-13,Đọc kanji,Mina bài 22,10,安い,i,Chọn cách đọc đúng.,やすい,たかい,ひくい,あたらしい
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+13,Đọc kanji,Mina bài 22,1,着ます,Chọn cách đọc đúng.,きます,はきます,かぶります,かけます
+13,Đọc kanji,Mina bài 22,2,服,Chọn cách đọc đúng.,ふく,くつ,ぼうし,ズボン
+13,Đọc kanji,Mina bài 22,3,白い,Chọn cách đọc đúng.,しろい,くろい,あかい,あおい
+13,Đọc kanji,Mina bài 22,4,黒い,Chọn cách đọc đúng.,くろい,しろい,きいろい,ちゃいろい
+13,Đọc kanji,Mina bài 22,5,赤い,Chọn cách đọc đúng.,あかい,あおい,しろい,くろい
+13,Đọc kanji,Mina bài 22,6,青い,Chọn cách đọc đúng.,あおい,あかい,きいろい,ちゃいろい
+13,Đọc kanji,Mina bài 22,7,黄色い,Chọn cách đọc đúng.,きいろい,あおい,あかい,しろい
+13,Đọc kanji,Mina bài 22,8,新しい,Chọn cách đọc đúng.,あたらしい,ふるい,やすい,たかい
+13,Đọc kanji,Mina bài 22,9,古い,Chọn cách đọc đúng.,ふるい,あたらしい,かわいい,すてき
+13,Đọc kanji,Mina bài 22,10,安い,Chọn cách đọc đúng.,やすい,たかい,ひくい,あたらしい

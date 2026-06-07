@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-2,Phương tiện giao thông,Mina bài 5,1,ひこうき nghĩa là gì?,hikouki nghĩa là gì?,ひこうき,máy bay,tàu thuyền,tàu điện,xe buýt
-2,Phương tiện giao thông,Mina bài 5,2,ふね nghĩa là gì?,fune nghĩa là gì?,ふね,tàu thuyền,máy bay,taxi,xe đạp
-2,Phương tiện giao thông,Mina bài 5,3,電車（でんしゃ） nghĩa là gì?,densha nghĩa là gì?,電車（でんしゃ）,tàu điện,tàu điện ngầm,tàu Shinkansen,xe buýt
-2,Phương tiện giao thông,Mina bài 5,4,ちかてつ nghĩa là gì?,chikatetsu nghĩa là gì?,ちかてつ,tàu điện ngầm,tàu điện,tàu nhanh,taxi
-2,Phương tiện giao thông,Mina bài 5,5,しんかんせん nghĩa là gì?,shinkansen nghĩa là gì?,しんかんせん,tàu Shinkansen,tàu nhanh,tàu điện ngầm,xe buýt
-2,Phương tiện giao thông,Mina bài 5,6,バス nghĩa là gì?,basu nghĩa là gì?,バス,xe buýt,taxi,xe đạp,tàu điện
-2,Phương tiện giao thông,Mina bài 5,7,タクシー nghĩa là gì?,takushi- nghĩa là gì?,タクシー,taxi,xe buýt,xe đạp,máy bay
-2,Phương tiện giao thông,Mina bài 5,8,じてんしゃ nghĩa là gì?,jitensha nghĩa là gì?,じてんしゃ,xe đạp,taxi,xe buýt,tàu điện
-2,Phương tiện giao thông,Mina bài 5,9,あるいて nghĩa là gì?,aruite nghĩa là gì?,あるいて,đi bộ,đi bằng xe buýt,đi bằng tàu điện,đi bằng máy bay
-2,Phương tiện giao thông,Mina bài 5,10,バスで 駅（えき）へ 行きます（いきます） nghĩa là gì?,basude ekihe ikimasu(ikimasu) nghĩa là gì?,バスで 駅（えき）へ 行きます（いきます）,đi nhà ga bằng xe buýt,đến trường bằng taxi,về nhà bằng tàu điện,đi bộ đến siêu thị
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+2,Phương tiện giao thông,Mina bài 5,1,ひこうき nghĩa là gì?,ひこうき,máy bay,tàu thuyền,tàu điện,xe buýt
+2,Phương tiện giao thông,Mina bài 5,2,ふね nghĩa là gì?,ふね,tàu thuyền,máy bay,taxi,xe đạp
+2,Phương tiện giao thông,Mina bài 5,3,電車（でんしゃ） nghĩa là gì?,電車（でんしゃ）,tàu điện,tàu điện ngầm,tàu Shinkansen,xe buýt
+2,Phương tiện giao thông,Mina bài 5,4,ちかてつ nghĩa là gì?,ちかてつ,tàu điện ngầm,tàu điện,tàu nhanh,taxi
+2,Phương tiện giao thông,Mina bài 5,5,しんかんせん nghĩa là gì?,しんかんせん,tàu Shinkansen,tàu nhanh,tàu điện ngầm,xe buýt
+2,Phương tiện giao thông,Mina bài 5,6,バス nghĩa là gì?,バス,xe buýt,taxi,xe đạp,tàu điện
+2,Phương tiện giao thông,Mina bài 5,7,タクシー nghĩa là gì?,タクシー,taxi,xe buýt,xe đạp,máy bay
+2,Phương tiện giao thông,Mina bài 5,8,じてんしゃ nghĩa là gì?,じてんしゃ,xe đạp,taxi,xe buýt,tàu điện
+2,Phương tiện giao thông,Mina bài 5,9,あるいて nghĩa là gì?,あるいて,đi bộ,đi bằng xe buýt,đi bằng tàu điện,đi bằng máy bay
+2,Phương tiện giao thông,Mina bài 5,10,バスで 駅（えき）へ 行きます（いきます） nghĩa là gì?,バスで 駅（えき）へ 行きます（いきます）,đi nhà ga bằng xe buýt,đến trường bằng taxi,về nhà bằng tàu điện,đi bộ đến siêu thị

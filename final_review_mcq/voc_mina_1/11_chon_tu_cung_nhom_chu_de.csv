@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-11,Chọn từ cùng nhóm chủ đề,Mina bài 1,1,Từ nào thuộc nhóm “quốc gia”?,Từ nào thuộc nhóm “quốc gia”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,アメリカ,先生（せんせい）,いしゃ,でんき
-11,Chọn từ cùng nhóm chủ đề,Mina bài 1,2,Từ nào thuộc nhóm “nghề nghiệp”?,Từ nào thuộc nhóm “nghề nghiệp”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,エンジニア,日本（にほん）,ベトナム,なんさい
-11,Chọn từ cùng nhóm chủ đề,Mina bài 1,3,Từ nào thuộc nhóm “cách gọi người”?,Từ nào thuộc nhóm “cách gọi người”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,〜さん,びょういん,大学（だいがく）,でんき
-11,Chọn từ cùng nhóm chủ đề,Mina bài 1,4,Từ nào thuộc nhóm “hỏi tuổi”?,Từ nào thuộc nhóm “hỏi tuổi”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,なんさい,だれ,どなた,みなさん
-11,Chọn từ cùng nhóm chủ đề,Mina bài 1,5,Từ nào thuộc nhóm “nơi chốn”?,Từ nào thuộc nhóm “nơi chốn”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,びょういん,あなた,はい,いいえ
-11,Chọn từ cùng nhóm chủ đề,Mina bài 1,6,Từ nào thuộc nhóm “lời chào / giới thiệu”?,Từ nào thuộc nhóm “lời chào / giới thiệu”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,はじめまして,ぎんこういん,ブラジル,〜ちゃん
-11,Chọn từ cùng nhóm chủ đề,Mina bài 1,7,Từ nào thuộc nhóm “nhân xưng”?,Từ nào thuộc nhóm “nhân xưng”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,わたし,ドイツ,大学（だいがく）,しつれいですが
-11,Chọn từ cùng nhóm chủ đề,Mina bài 1,8,Từ nào thuộc nhóm “nghề nghiệp”?,Từ nào thuộc nhóm “nghề nghiệp”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,けんきゅうしゃ,タイ,みなさん,おいくつ
-11,Chọn từ cùng nhóm chủ đề,Mina bài 1,9,Từ nào thuộc nhóm “quốc gia châu Á”?,Từ nào thuộc nhóm “quốc gia châu Á”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,タイ,フランス,ドイツ,ブラジル
-11,Chọn từ cùng nhóm chủ đề,Mina bài 1,10,Từ nào thuộc nhóm “trả lời có/không”?,Từ nào thuộc nhóm “trả lời có/không”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,はい,せんせい,がくせい,あのひと
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+11,Chọn từ cùng nhóm chủ đề,Mina bài 1,1,Từ nào thuộc nhóm “quốc gia”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,アメリカ,先生（せんせい）,いしゃ,でんき
+11,Chọn từ cùng nhóm chủ đề,Mina bài 1,2,Từ nào thuộc nhóm “nghề nghiệp”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,エンジニア,日本（にほん）,ベトナム,なんさい
+11,Chọn từ cùng nhóm chủ đề,Mina bài 1,3,Từ nào thuộc nhóm “cách gọi người”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,〜さん,びょういん,大学（だいがく）,でんき
+11,Chọn từ cùng nhóm chủ đề,Mina bài 1,4,Từ nào thuộc nhóm “hỏi tuổi”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,なんさい,だれ,どなた,みなさん
+11,Chọn từ cùng nhóm chủ đề,Mina bài 1,5,Từ nào thuộc nhóm “nơi chốn”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,びょういん,あなた,はい,いいえ
+11,Chọn từ cùng nhóm chủ đề,Mina bài 1,6,Từ nào thuộc nhóm “lời chào / giới thiệu”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,はじめまして,ぎんこういん,ブラジル,〜ちゃん
+11,Chọn từ cùng nhóm chủ đề,Mina bài 1,7,Từ nào thuộc nhóm “nhân xưng”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,わたし,ドイツ,大学（だいがく）,しつれいですが
+11,Chọn từ cùng nhóm chủ đề,Mina bài 1,8,Từ nào thuộc nhóm “nghề nghiệp”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,けんきゅうしゃ,タイ,みなさん,おいくつ
+11,Chọn từ cùng nhóm chủ đề,Mina bài 1,9,Từ nào thuộc nhóm “quốc gia châu Á”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,タイ,フランス,ドイツ,ブラジル
+11,Chọn từ cùng nhóm chủ đề,Mina bài 1,10,Từ nào thuộc nhóm “trả lời có/không”?,Chọn từ thuộc đúng nhóm chủ đề được hỏi.,はい,せんせい,がくせい,あのひと

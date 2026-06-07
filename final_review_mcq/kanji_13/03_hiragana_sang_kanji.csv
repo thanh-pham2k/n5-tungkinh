@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Hiragana → Kanji,Kanji N5 Bài 13,1,はいります,,là Kanji nào?,入ります,出ます,行きます,来ます
-3,Hiragana → Kanji,Kanji N5 Bài 13,2,でます,,là Kanji nào?,入ります,出ます,見ます,会います
-3,Hiragana → Kanji,Kanji N5 Bài 13,3,し,,là Kanji nào?,市,町,村,車
-3,Hiragana → Kanji,Kanji N5 Bài 13,4,まち,,là Kanji nào?,村,市,町,電
-3,Hiragana → Kanji,Kanji N5 Bài 13,5,むら,,là Kanji nào?,村,町,雨,出
-3,Hiragana → Kanji,Kanji N5 Bài 13,6,あめ,,là Kanji nào?,電,雨,車,市
-3,Hiragana → Kanji,Kanji N5 Bài 13,7,でんき,,viết bằng Kanji nào?,電気,電車,雨,車
-3,Hiragana → Kanji,Kanji N5 Bài 13,8,くるま,,là Kanji nào?,車,電,市,町
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Hiragana → Kanji,Kanji N5 Bài 13,1,はいります,là Kanji nào?,入ります,出ます,行きます,来ます
+3,Hiragana → Kanji,Kanji N5 Bài 13,2,でます,là Kanji nào?,入ります,出ます,見ます,会います
+3,Hiragana → Kanji,Kanji N5 Bài 13,3,し,là Kanji nào?,市,町,村,車
+3,Hiragana → Kanji,Kanji N5 Bài 13,4,まち,là Kanji nào?,村,市,町,電
+3,Hiragana → Kanji,Kanji N5 Bài 13,5,むら,là Kanji nào?,村,町,雨,出
+3,Hiragana → Kanji,Kanji N5 Bài 13,6,あめ,là Kanji nào?,電,雨,車,市
+3,Hiragana → Kanji,Kanji N5 Bài 13,7,でんき,viết bằng Kanji nào?,電気,電車,雨,車
+3,Hiragana → Kanji,Kanji N5 Bài 13,8,くるま,là Kanji nào?,車,電,市,町

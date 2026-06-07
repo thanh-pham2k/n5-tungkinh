@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,1,【毎日】にほんごを べんきょうします。,Mainichi nihongo o benkyou shimasu.,Mỗi ngày tôi học tiếng Nhật.,まいにち,まいしゅう,まいつき,まいとし
-2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,2,いすの【左】に かばんが あります。,Isu no hidari ni kaban ga arimasu.,Bên trái cái ghế có cái cặp.,ひだり,みぎ,まえ,うしろ
-2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,3,じゅぎょうは 5じに【終わります】。,Jugyou wa goji ni owarimasu.,Lớp học kết thúc lúc 5 giờ.,おわります,はじまります,かえります,いきます
-2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,4,【午後】3じに えいがを みます。,Gogo sanji ni eiga o mimasu.,Tôi xem phim lúc 3 giờ chiều.,ごご,ごぜん,あさ,ひる
-2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,5,あの【女】の ひとは いしゃです。,Ano onna no hito wa isha desu.,Người phụ nữ kia là bác sĩ.,おんな,おとこ,こども,おとな
-2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,6,【入口】は あちらです。,Iriguchi wa achira desu.,Lối vào ở đằng kia.,いりぐち,でぐち,そと,なか
-2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,7,へやの【中】に ねこが います。,Heya no naka ni neko ga imasu.,Trong phòng có con mèo.,なか,そと,うえ,した
-2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,8,【海】で およぎます。,Umi de oyogimasu.,Tôi bơi ở biển.,うみ,そら,やま,かわ
-2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,9,みかんを【三つ】ください。,Mikan o mittsu kudasai.,Cho tôi ba quả quýt.,みっつ,よっつ,ふたつ,いつつ
-2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,10,【目】が つかれました。,Me ga tsukaremashita.,Mắt tôi mỏi.,め,みみ,はな,くち
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,1,【毎日】にほんごを べんきょうします。,Mỗi ngày tôi học tiếng Nhật.,まいにち,まいしゅう,まいつき,まいとし
+2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,2,いすの【左】に かばんが あります。,Bên trái cái ghế có cái cặp.,ひだり,みぎ,まえ,うしろ
+2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,3,じゅぎょうは 5じに【終わります】。,Lớp học kết thúc lúc 5 giờ.,おわります,はじまります,かえります,いきます
+2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,4,【午後】3じに えいがを みます。,Tôi xem phim lúc 3 giờ chiều.,ごご,ごぜん,あさ,ひる
+2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,5,あの【女】の ひとは いしゃです。,Người phụ nữ kia là bác sĩ.,おんな,おとこ,こども,おとな
+2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,6,【入口】は あちらです。,Lối vào ở đằng kia.,いりぐち,でぐち,そと,なか
+2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,7,へやの【中】に ねこが います。,Trong phòng có con mèo.,なか,そと,うえ,した
+2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,8,【海】で およぎます。,Tôi bơi ở biển.,うみ,そら,やま,かわ
+2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,9,みかんを【三つ】ください。,Cho tôi ba quả quýt.,みっつ,よっつ,ふたつ,いつつ
+2,Ôn tập từ vựng thường gặp,Từ vựng cơ bản,10,【目】が つかれました。,Mắt tôi mỏi.,め,みみ,はな,くち

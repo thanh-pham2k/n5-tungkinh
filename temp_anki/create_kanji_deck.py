@@ -17,7 +17,6 @@ model = genanki.Model(
         {'name': 'Kanji'},
         {'name': 'Meaning'},
         {'name': 'Reading'},
-        {'name': 'Romaji'},
         {'name': 'Example'},
         {'name': 'Memory'},
     ],
@@ -33,7 +32,6 @@ model = genanki.Model(
   <div style="margin-top: 12px; line-height: 1.6;">
     <div>Nghia: {{Meaning}}</div>
     <div>Doc: {{Reading}}</div>
-    <div>Romaji: {{Romaji}}</div>
     <div style="margin-top: 10px;">Vi du: {{Example}}</div>
     <div style="margin-top: 10px; color: #5d6a7e;">Ghi nho: {{Memory}}</div>
   </div>
@@ -55,7 +53,6 @@ model = genanki.Model(
   <hr>
   <div style="font-size: 64px; text-align: center; margin: 20px 0;">{{Kanji}}</div>
   <div style="margin-top: 12px; line-height: 1.6;">
-    <div>Romaji: {{Romaji}}</div>
     <div>Vi du: {{Example}}</div>
     <div style="margin-top: 10px; color: #5d6a7e;">Ghi nho: {{Memory}}</div>
   </div>
@@ -89,7 +86,6 @@ kanji_data = [
         'Kanji': '後',
         'Meaning': 'sau / phia sau',
         'Reading': 'うしろ / ご',
-        'Romaji': 'ushiro / go',
         'Example': '後ろ = うしろ = phia sau',
         'Memory': 'Nguoi quay lai nhin phia sau',
     },
@@ -97,7 +93,6 @@ kanji_data = [
         'Kanji': '午',
         'Meaning': 'buoi trua / 12 gio',
         'Reading': 'ご',
-        'Romaji': 'go',
         'Example': '午前 = ごぜん = buoi sang / AM',
         'Memory': 'Moc 12 gio trua -> 午前 / 午後',
     },
@@ -105,7 +100,6 @@ kanji_data = [
         'Kanji': '門',
         'Meaning': 'cong',
         'Reading': 'もん',
-        'Romaji': 'mon',
         'Example': '門 = もん = cai cong',
         'Memory': 'Hinh cai cong',
     },
@@ -113,7 +107,6 @@ kanji_data = [
         'Kanji': '間',
         'Meaning': 'khoang / giua / thoi gian',
         'Reading': 'あいだ / かん',
-        'Romaji': 'aida / kan',
         'Example': '時間 = じかん = thoi gian',
         'Memory': 'Mon + Nhat -> anh sang lot qua cong -> khoang giua',
     },
@@ -121,7 +114,6 @@ kanji_data = [
         'Kanji': '東',
         'Meaning': 'phia Dong',
         'Reading': 'ひがし',
-        'Romaji': 'higashi',
         'Example': '東 = ひがし = Dong',
         'Memory': 'Mat troi sau cai cay -> huong Dong',
     },
@@ -129,7 +121,6 @@ kanji_data = [
         'Kanji': '北',
         'Meaning': 'phia Bac',
         'Reading': 'きた',
-        'Romaji': 'kita',
         'Example': '北 = きた = Bac',
         'Memory': 'Hai nguoi quay lung lai -> phuong Bac lanh',
     },
@@ -137,7 +128,6 @@ kanji_data = [
         'Kanji': '西',
         'Meaning': 'phia Tay',
         'Reading': 'にし',
-        'Romaji': 'nishi',
         'Example': '西 = にし = Tay',
         'Memory': 'Hinh cai gio / huong Tay',
     },
@@ -145,7 +135,6 @@ kanji_data = [
         'Kanji': '南',
         'Meaning': 'phia Nam',
         'Reading': 'みなみ',
-        'Romaji': 'minami',
         'Example': '南 = みなみ = Nam',
         'Memory': 'Phia Nam, vung am hon, nhieu cay trai',
     },
@@ -158,7 +147,6 @@ for item in kanji_data:
             item['Kanji'],
             item['Meaning'],
             item['Reading'],
-            item['Romaji'],
             item['Example'],
             item['Memory'],
         ],

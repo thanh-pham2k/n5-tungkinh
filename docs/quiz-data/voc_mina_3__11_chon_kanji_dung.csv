@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-11,Chọn kanji đúng,Mina bài 3,1,“nước / quốc gia” là kanji nào?,,Chọn kanji đúng.,国,円,会,社
-11,Chọn kanji đúng,Mina bài 3,2,“công ty” viết bằng kanji nào?,,Chọn kanji đúng.,会社,社会,電話,地下
-11,Chọn kanji đúng,Mina bài 3,3,“điện thoại” viết bằng kanji nào?,,Chọn kanji đúng.,電話,電気,会社,国
-11,Chọn kanji đúng,Mina bài 3,4,“yên” viết bằng kanji nào?,,Chọn kanji đúng.,円,百,千,万
-11,Chọn kanji đúng,Mina bài 3,5,“một trăm” viết bằng kanji nào?,,Chọn kanji đúng.,百,千,万,円
-11,Chọn kanji đúng,Mina bài 3,6,“một nghìn” viết bằng kanji nào?,,Chọn kanji đúng.,千,百,万,円
-11,Chọn kanji đúng,Mina bài 3,7,“mười nghìn” viết bằng kanji nào?,,Chọn kanji đúng.,万,千,百,円
-11,Chọn kanji đúng,Mina bài 3,8,“tầng hầm” viết bằng kanji nào?,,Chọn kanji đúng.,地下,会社,電話,国
-11,Chọn kanji đúng,Mina bài 3,9,“tầng mấy” viết bằng kanji nào?,,Chọn kanji đúng.,何階,何円,何国,何社
-11,Chọn kanji đúng,Mina bài 3,10,“nhà vệ sinh” có thể viết bằng kanji nào?,,Chọn kanji đúng.,お手洗い,お電話,お会社,お国
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+11,Chọn kanji đúng,Mina bài 3,1,“nước / quốc gia” là kanji nào?,Chọn kanji đúng.,国,円,会,社
+11,Chọn kanji đúng,Mina bài 3,2,“công ty” viết bằng kanji nào?,Chọn kanji đúng.,会社,社会,電話,地下
+11,Chọn kanji đúng,Mina bài 3,3,“điện thoại” viết bằng kanji nào?,Chọn kanji đúng.,電話,電気,会社,国
+11,Chọn kanji đúng,Mina bài 3,4,“yên” viết bằng kanji nào?,Chọn kanji đúng.,円,百,千,万
+11,Chọn kanji đúng,Mina bài 3,5,“một trăm” viết bằng kanji nào?,Chọn kanji đúng.,百,千,万,円
+11,Chọn kanji đúng,Mina bài 3,6,“một nghìn” viết bằng kanji nào?,Chọn kanji đúng.,千,百,万,円
+11,Chọn kanji đúng,Mina bài 3,7,“mười nghìn” viết bằng kanji nào?,Chọn kanji đúng.,万,千,百,円
+11,Chọn kanji đúng,Mina bài 3,8,“tầng hầm” viết bằng kanji nào?,Chọn kanji đúng.,地下,会社,電話,国
+11,Chọn kanji đúng,Mina bài 3,9,“tầng mấy” viết bằng kanji nào?,Chọn kanji đúng.,何階,何円,何国,何社
+11,Chọn kanji đúng,Mina bài 3,10,“nhà vệ sinh” có thể viết bằng kanji nào?,Chọn kanji đúng.,お手洗い,お電話,お会社,お国

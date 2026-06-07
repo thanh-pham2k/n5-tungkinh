@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-7,Kanji -> Cách đọc,Kanji N5 - Bài 6,1,後ろ,ushiro,phía sau,うしろ,まえ,aidai,そと
-7,Kanji -> Cách đọc,Kanji N5 - Bài 6,2,午後,gogo,buổi chiều / PM,ごぜん,ごご,ひがし,みなみ
-7,Kanji -> Cách đọc,Kanji N5 - Bài 6,3,門,mon,cổng,もん,かん,じかん,ご
-7,Kanji -> Cách đọc,Kanji N5 - Bài 6,4,時間,jikan,thời gian,もん,かん,きた,にし
-7,Kanji -> Cách đọc,Kanji N5 - Bài 6,5,東,higashi,phía Đông,きた,にし,ひがし,みなみ
-7,Kanji -> Cách đọc,Kanji N5 - Bài 6,6,北,kita,phía Bắc,きた,ひがし,にし,みなみ
-7,Kanji -> Cách đọc,Kanji N5 - Bài 6,7,西,nishi,phía Tây,みなみ,きた,ひがし,にし
-7,Kanji -> Cách đọc,Kanji N5 - Bài 6,8,南,minami,phía Nam,みなみ,にし,きた,もん
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+7,Kanji -> Cách đọc,Kanji N5 - Bài 6,1,後ろ,phía sau,うしろ,まえ,aidai,そと
+7,Kanji -> Cách đọc,Kanji N5 - Bài 6,2,午後,buổi chiều / PM,ごぜん,ごご,ひがし,みなみ
+7,Kanji -> Cách đọc,Kanji N5 - Bài 6,3,門,cổng,もん,かん,じかん,ご
+7,Kanji -> Cách đọc,Kanji N5 - Bài 6,4,時間,thời gian,もん,かん,きた,にし
+7,Kanji -> Cách đọc,Kanji N5 - Bài 6,5,東,phía Đông,きた,にし,ひがし,みなみ
+7,Kanji -> Cách đọc,Kanji N5 - Bài 6,6,北,phía Bắc,きた,ひがし,にし,みなみ
+7,Kanji -> Cách đọc,Kanji N5 - Bài 6,7,西,phía Tây,みなみ,きた,ひがし,にし
+7,Kanji -> Cách đọc,Kanji N5 - Bài 6,8,南,phía Nam,みなみ,にし,きた,もん

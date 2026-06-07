@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-12,Âm ghép mở rộng,Âm ghép,111,ニュ,nyu,nyu,nyu,nya,nyo,nu
-12,Âm ghép mở rộng,Âm ghép,112,ニョ,nyo,nyo,nyo,nya,nyu,no
-12,Âm ghép mở rộng,Âm ghép,113,ヒャ,hya,hya,hya,hyu,hyo,ha
-12,Âm ghép mở rộng,Âm ghép,114,ヒュ,hyu,hyu,hyu,hya,hyo,hu
-12,Âm ghép mở rộng,Âm ghép,115,ヒョ,hyo,hyo,hyo,hya,hyu,ho
-12,Âm ghép mở rộng,Âm ghép,116,ミャ,mya,mya,mya,myu,myo,ma
-12,Âm ghép mở rộng,Âm ghép,117,ミュ,myu,myu,myu,mya,myo,mu
-12,Âm ghép mở rộng,Âm ghép,118,ミョ,myo,myo,myo,mya,myu,mo
-12,Âm ghép mở rộng,Âm ghép,119,リャ,rya,rya,rya,ryu,ryo,ra
-12,Âm ghép mở rộng,Âm ghép,120,リュ,ryu,ryu,ryu,rya,ryo,ru
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+12,Âm ghép mở rộng,Âm ghép,111,ニュ,nyu,nyu,nya,nyo,nu
+12,Âm ghép mở rộng,Âm ghép,112,ニョ,nyo,nyo,nya,nyu,no
+12,Âm ghép mở rộng,Âm ghép,113,ヒャ,hya,hya,hyu,hyo,ha
+12,Âm ghép mở rộng,Âm ghép,114,ヒュ,hyu,hyu,hya,hyo,hu
+12,Âm ghép mở rộng,Âm ghép,115,ヒョ,hyo,hyo,hya,hyu,ho
+12,Âm ghép mở rộng,Âm ghép,116,ミャ,mya,mya,myu,myo,ma
+12,Âm ghép mở rộng,Âm ghép,117,ミュ,myu,myu,mya,myo,mu
+12,Âm ghép mở rộng,Âm ghép,118,ミョ,myo,myo,mya,myu,mo
+12,Âm ghép mở rộng,Âm ghép,119,リャ,rya,rya,ryu,ryo,ra
+12,Âm ghép mở rộng,Âm ghép,120,リュ,ryu,ryu,rya,ryo,ru

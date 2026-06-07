@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-5,Đồ vật / địa điểm / hoạt động,Mina bài 6,1,手紙（てがみ） nghĩa là gì?,Tegami,Nghĩa là gì?,thư,báo cáo,ảnh,video
-5,Đồ vật / địa điểm / hoạt động,Mina bài 6,2,レポート nghĩa là gì?,Repooto,Nghĩa là gì?,báo cáo,thư,ảnh,bài tập về nhà
-5,Đồ vật / địa điểm / hoạt động,Mina bài 6,3,写真（しゃしん） nghĩa là gì?,Shashin,Nghĩa là gì?,ảnh,video,thư,cửa hàng
-5,Đồ vật / địa điểm / hoạt động,Mina bài 6,4,ビデオ nghĩa là gì?,Bideo,Nghĩa là gì?,video,ảnh,báo cáo,thư
-5,Đồ vật / địa điểm / hoạt động,Mina bài 6,5,みせ nghĩa là gì?,Mise,Nghĩa là gì?,cửa hàng,nhà hàng,vườn,nhà
-5,Đồ vật / địa điểm / hoạt động,Mina bài 6,6,レストラン nghĩa là gì?,Resutoran,Nghĩa là gì?,nhà hàng,cửa hàng,vườn,trường học
-5,Đồ vật / địa điểm / hoạt động,Mina bài 6,7,にわ nghĩa là gì?,Niwa,Nghĩa là gì?,vườn,cửa hàng,nhà hàng,thư viện
-5,Đồ vật / địa điểm / hoạt động,Mina bài 6,8,しゅくだい nghĩa là gì?,Shukudai,Nghĩa là gì?,bài tập về nhà,báo cáo,thư,ảnh
-5,Đồ vật / địa điểm / hoạt động,Mina bài 6,9,テニス nghĩa là gì?,Tenisu,Nghĩa là gì?,tennis,bóng đá,ngắm hoa,bài tập
-5,Đồ vật / địa điểm / hoạt động,Mina bài 6,10,サッカー nghĩa là gì?,Sakkaa,Nghĩa là gì?,bóng đá,tennis,ngắm hoa,vườn
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+5,Đồ vật / địa điểm / hoạt động,Mina bài 6,1,手紙（てがみ） nghĩa là gì?,Nghĩa là gì?,thư,báo cáo,ảnh,video
+5,Đồ vật / địa điểm / hoạt động,Mina bài 6,2,レポート nghĩa là gì?,Nghĩa là gì?,báo cáo,thư,ảnh,bài tập về nhà
+5,Đồ vật / địa điểm / hoạt động,Mina bài 6,3,写真（しゃしん） nghĩa là gì?,Nghĩa là gì?,ảnh,video,thư,cửa hàng
+5,Đồ vật / địa điểm / hoạt động,Mina bài 6,4,ビデオ nghĩa là gì?,Nghĩa là gì?,video,ảnh,báo cáo,thư
+5,Đồ vật / địa điểm / hoạt động,Mina bài 6,5,みせ nghĩa là gì?,Nghĩa là gì?,cửa hàng,nhà hàng,vườn,nhà
+5,Đồ vật / địa điểm / hoạt động,Mina bài 6,6,レストラン nghĩa là gì?,Nghĩa là gì?,nhà hàng,cửa hàng,vườn,trường học
+5,Đồ vật / địa điểm / hoạt động,Mina bài 6,7,にわ nghĩa là gì?,Nghĩa là gì?,vườn,cửa hàng,nhà hàng,thư viện
+5,Đồ vật / địa điểm / hoạt động,Mina bài 6,8,しゅくだい nghĩa là gì?,Nghĩa là gì?,bài tập về nhà,báo cáo,thư,ảnh
+5,Đồ vật / địa điểm / hoạt động,Mina bài 6,9,テニス nghĩa là gì?,Nghĩa là gì?,tennis,bóng đá,ngắm hoa,bài tập
+5,Đồ vật / địa điểm / hoạt động,Mina bài 6,10,サッカー nghĩa là gì?,Nghĩa là gì?,bóng đá,tennis,ngắm hoa,vườn

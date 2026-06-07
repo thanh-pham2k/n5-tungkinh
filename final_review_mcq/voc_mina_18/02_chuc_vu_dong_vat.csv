@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-2,Chức vụ / động vật,Mina bài 18,1,かちょう nghĩa là gì?,kachou nghĩa là gì?,Hỏi nghĩa của “かちょう”.,trưởng phòng,trưởng bộ phận,giám đốc,nhân viên
-2,Chức vụ / động vật,Mina bài 18,2,ぶちょう nghĩa là gì?,buchou nghĩa là gì?,Hỏi nghĩa của “ぶちょう”.,trưởng bộ phận,trưởng phòng,giám đốc,nhân viên công ty
-2,Chức vụ / động vật,Mina bài 18,3,しゃちょう nghĩa là gì?,shachou nghĩa là gì?,Hỏi nghĩa của “しゃちょう”.,giám đốc / chủ tịch công ty,trưởng phòng,trưởng bộ phận,nhân viên
-2,Chức vụ / động vật,Mina bài 18,4,どうぶつ nghĩa là gì?,doubutsu nghĩa là gì?,Hỏi nghĩa của “どうぶつ”.,động vật,ngựa,nông trại,sở thích
-2,Chức vụ / động vật,Mina bài 18,5,うま nghĩa là gì?,uma nghĩa là gì?,Hỏi nghĩa của “うま”.,ngựa,động vật,nông trại,mét
-2,Chức vụ / động vật,Mina bài 18,6,ぼくじょう nghĩa là gì?,bokujou nghĩa là gì?,Hỏi nghĩa của “ぼくじょう”.,nông trại / trang trại,động vật,ngựa,công ty
-2,Chức vụ / động vật,Mina bài 18,7,課長（かちょう）は 会社（かいしゃ）に います nghĩa là gì?,kachou（kachou）は 会社（かいしゃ）に います nghĩa là gì?,Hỏi nghĩa của “課長（かちょう）は 会社（かいしゃ）に います”.,Trưởng phòng ở công ty.,Giám đốc ở nông trại.,Ngựa ở công ty.,Trưởng bộ phận đang lái xe.
-2,Chức vụ / động vật,Mina bài 18,8,牧場（ぼくじょう）に 馬（うま）が います nghĩa là gì?,bokujou（bokujou）に uma（uma）が います nghĩa là gì?,Hỏi nghĩa của “牧場（ぼくじょう）に 馬（うま）が います”.,Ở trang trại có ngựa.,Ở công ty có trưởng phòng.,Ở trang trại có piano.,Ở công ty có động vật.
-2,Chức vụ / động vật,Mina bài 18,9,動物（どうぶつ）が すきです nghĩa là gì?,doubutsu（doubutsu）が すきです nghĩa là gì?,Hỏi nghĩa của “動物（どうぶつ）が すきです”.,thích động vật,thích tiền mặt,thích internet,thích nhật ký
-2,Chức vụ / động vật,Mina bài 18,10,社長（しゃちょう）は どこですか nghĩa là gì?,shachou（shachou）は どこですか nghĩa là gì?,Hỏi nghĩa của “社長（しゃちょう）は どこですか”.,Giám đốc ở đâu?,Trưởng phòng là ai?,Ngựa ở đâu?,Trang trại là gì?
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+2,Chức vụ / động vật,Mina bài 18,1,かちょう nghĩa là gì?,Hỏi nghĩa của “かちょう”.,trưởng phòng,trưởng bộ phận,giám đốc,nhân viên
+2,Chức vụ / động vật,Mina bài 18,2,ぶちょう nghĩa là gì?,Hỏi nghĩa của “ぶちょう”.,trưởng bộ phận,trưởng phòng,giám đốc,nhân viên công ty
+2,Chức vụ / động vật,Mina bài 18,3,しゃちょう nghĩa là gì?,Hỏi nghĩa của “しゃちょう”.,giám đốc / chủ tịch công ty,trưởng phòng,trưởng bộ phận,nhân viên
+2,Chức vụ / động vật,Mina bài 18,4,どうぶつ nghĩa là gì?,Hỏi nghĩa của “どうぶつ”.,động vật,ngựa,nông trại,sở thích
+2,Chức vụ / động vật,Mina bài 18,5,うま nghĩa là gì?,Hỏi nghĩa của “うま”.,ngựa,động vật,nông trại,mét
+2,Chức vụ / động vật,Mina bài 18,6,ぼくじょう nghĩa là gì?,Hỏi nghĩa của “ぼくじょう”.,nông trại / trang trại,động vật,ngựa,công ty
+2,Chức vụ / động vật,Mina bài 18,7,課長（かちょう）は 会社（かいしゃ）に います nghĩa là gì?,Hỏi nghĩa của “課長（かちょう）は 会社（かいしゃ）に います”.,Trưởng phòng ở công ty.,Giám đốc ở nông trại.,Ngựa ở công ty.,Trưởng bộ phận đang lái xe.
+2,Chức vụ / động vật,Mina bài 18,8,牧場（ぼくじょう）に 馬（うま）が います nghĩa là gì?,Hỏi nghĩa của “牧場（ぼくじょう）に 馬（うま）が います”.,Ở trang trại có ngựa.,Ở công ty có trưởng phòng.,Ở trang trại có piano.,Ở công ty có động vật.
+2,Chức vụ / động vật,Mina bài 18,9,動物（どうぶつ）が すきです nghĩa là gì?,Hỏi nghĩa của “動物（どうぶつ）が すきです”.,thích động vật,thích tiền mặt,thích internet,thích nhật ký
+2,Chức vụ / động vật,Mina bài 18,10,社長（しゃちょう）は どこですか nghĩa là gì?,Hỏi nghĩa của “社長（しゃちょう）は どこですか”.,Giám đốc ở đâu?,Trưởng phòng là ai?,Ngựa ở đâu?,Trang trại là gì?

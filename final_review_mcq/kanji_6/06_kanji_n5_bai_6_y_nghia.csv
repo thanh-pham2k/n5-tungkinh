@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-6,Kanji -> Nghĩa,Kanji N5 - Bài 6,1,後,ushiro / go,sau / phía sau,trước,sau / phía sau,trong,ngoài
-6,Kanji -> Nghĩa,Kanji N5 - Bài 6,2,午,go,buổi trưa / 12 giờ,buổi trưa / 12 giờ,buổi tối,buổi sáng sớm,ngày trong tuần
-6,Kanji -> Nghĩa,Kanji N5 - Bài 6,3,門,mon,cổng,cửa sổ,cổng,trường học,nhà ga
-6,Kanji -> Nghĩa,Kanji N5 - Bài 6,4,間,aida / kan,khoảng / giữa / thời gian,núi,sông,khoảng / giữa / thời gian,tiền
-6,Kanji -> Nghĩa,Kanji N5 - Bài 6,5,東,higashi,phía Đông,phía Đông,phía Tây,phía Nam,phía Bắc
-6,Kanji -> Nghĩa,Kanji N5 - Bài 6,6,北,kita,phía Bắc,phía Nam,phía Bắc,phía Đông,phía Tây
-6,Kanji -> Nghĩa,Kanji N5 - Bài 6,7,西,nishi,phía Tây,phía Đông,phía Tây,phía Bắc,phía Nam
-6,Kanji -> Nghĩa,Kanji N5 - Bài 6,8,南,minami,phía Nam,phía Nam,phía Bắc,phía Tây,phía Đông
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+6,Kanji -> Nghĩa,Kanji N5 - Bài 6,1,後,sau / phía sau,trước,sau / phía sau,trong,ngoài
+6,Kanji -> Nghĩa,Kanji N5 - Bài 6,2,午,buổi trưa / 12 giờ,buổi trưa / 12 giờ,buổi tối,buổi sáng sớm,ngày trong tuần
+6,Kanji -> Nghĩa,Kanji N5 - Bài 6,3,門,cổng,cửa sổ,cổng,trường học,nhà ga
+6,Kanji -> Nghĩa,Kanji N5 - Bài 6,4,間,khoảng / giữa / thời gian,núi,sông,khoảng / giữa / thời gian,tiền
+6,Kanji -> Nghĩa,Kanji N5 - Bài 6,5,東,phía Đông,phía Đông,phía Tây,phía Nam,phía Bắc
+6,Kanji -> Nghĩa,Kanji N5 - Bài 6,6,北,phía Bắc,phía Nam,phía Bắc,phía Đông,phía Tây
+6,Kanji -> Nghĩa,Kanji N5 - Bài 6,7,西,phía Tây,phía Đông,phía Tây,phía Bắc,phía Nam
+6,Kanji -> Nghĩa,Kanji N5 - Bài 6,8,南,phía Nam,phía Nam,phía Bắc,phía Tây,phía Đông

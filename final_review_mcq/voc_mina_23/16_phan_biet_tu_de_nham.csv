@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-16,Phân biệt từ dễ nhầm,Mina bài 23,1,聞きます（ききます） và 言います（いいます） khác nhau thế nào?,,,聞きます là hỏi/nghe; 言います là nói,聞きます là nói; 言います là hỏi,Cả hai đều là kéo,Cả hai đều là rẽ
-16,Phân biệt từ dễ nhầm,Mina bài 23,2,回します（まわします） và まがります khác nhau thế nào?,,,回します là xoay/vặn; まがります là rẽ,回します là rẽ; まがります là xoay,Cả hai đều là hỏi,Cả hai đều là băng qua
-16,Phân biệt từ dễ nhầm,Mina bài 23,3,引きます（ひきます） và ひきます nghĩa “chơi đàn” khác nhau thế nào?,,,引きます là kéo; ひきます có thể là chơi đàn tùy ngữ cảnh,引きます là chơi đàn; ひきます luôn là kéo,Cả hai đều là chạm,Cả hai đều là đi bộ
-16,Phân biệt từ dễ nhầm,Mina bài 23,4,かえます và 変えます khác nhau thế nào?,,,かえます là cách viết kana; 変えます là kanji nghĩa đổi/thay đổi,かえます là đi về; 変えます là hỏi,Cả hai đều là băng qua,Cả hai đều là chạm
-16,Phân biệt từ dễ nhầm,Mina bài 23,5,さわります và うごきます khác nhau thế nào?,,,さわります là chạm; うごきます là chuyển động/chạy,さわります là chạy; うごきます là chạm,Cả hai đều là nước nóng,Cả hai đều là kích cỡ
-16,Phân biệt từ dễ nhầm,Mina bài 23,6,出ます（でます） và 出します（だします） khác nhau thế nào?,,,出ます là đi ra/xuất hiện; 出します là lấy ra/nộp/gửi,出ます là lấy ra; 出します là xuất hiện,Cả hai đều là vào,Cả hai đều là xoay
-16,Phân biệt từ dễ nhầm,Mina bài 23,7,歩きます（あるきます） và わたります khác nhau thế nào?,,,歩きます là đi bộ; わたります là băng qua,歩きます là băng qua; わたります là đi bộ,Cả hai đều là rẽ,Cả hai đều là kéo
-16,Phân biệt từ dễ nhầm,Mina bài 23,8,右（みぎ） và 左（ひだり） khác nhau thế nào?,,,右 là bên phải; 左 là bên trái,右 là bên trái; 左 là bên phải,Cả hai đều là thẳng,Cả hai đều là giao lộ
-16,Phân biệt từ dễ nhầm,Mina bài 23,9,どの và どれ khác nhau thế nào?,,,どの đứng trước danh từ; どれ đứng một mình,どれ đứng trước danh từ; どの đứng một mình,Cả hai đều nghĩa là bằng cách nào,Cả hai đều nghĩa là nhiều lần
-16,Phân biệt từ dễ nhầm,Mina bài 23,10,まっすぐ và まがります khác nhau thế nào?,,,まっすぐ là thẳng; まがります là rẽ,まっすぐ là rẽ; まがります là thẳng,Cả hai đều là bên phải,Cả hai đều là đi ra ---
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+16,Phân biệt từ dễ nhầm,Mina bài 23,1,聞きます（ききます） và 言います（いいます） khác nhau thế nào?,,聞きます là hỏi/nghe; 言います là nói,聞きます là nói; 言います là hỏi,Cả hai đều là kéo,Cả hai đều là rẽ
+16,Phân biệt từ dễ nhầm,Mina bài 23,2,回します（まわします） và まがります khác nhau thế nào?,,回します là xoay/vặn; まがります là rẽ,回します là rẽ; まがります là xoay,Cả hai đều là hỏi,Cả hai đều là băng qua
+16,Phân biệt từ dễ nhầm,Mina bài 23,3,引きます（ひきます） và ひきます nghĩa “chơi đàn” khác nhau thế nào?,,引きます là kéo; ひきます có thể là chơi đàn tùy ngữ cảnh,引きます là chơi đàn; ひきます luôn là kéo,Cả hai đều là chạm,Cả hai đều là đi bộ
+16,Phân biệt từ dễ nhầm,Mina bài 23,4,かえます và 変えます khác nhau thế nào?,,かえます là cách viết kana; 変えます là kanji nghĩa đổi/thay đổi,かえます là đi về; 変えます là hỏi,Cả hai đều là băng qua,Cả hai đều là chạm
+16,Phân biệt từ dễ nhầm,Mina bài 23,5,さわります và うごきます khác nhau thế nào?,,さわります là chạm; うごきます là chuyển động/chạy,さわります là chạy; うごきます là chạm,Cả hai đều là nước nóng,Cả hai đều là kích cỡ
+16,Phân biệt từ dễ nhầm,Mina bài 23,6,出ます（でます） và 出します（だします） khác nhau thế nào?,,出ます là đi ra/xuất hiện; 出します là lấy ra/nộp/gửi,出ます là lấy ra; 出します là xuất hiện,Cả hai đều là vào,Cả hai đều là xoay
+16,Phân biệt từ dễ nhầm,Mina bài 23,7,歩きます（あるきます） và わたります khác nhau thế nào?,,歩きます là đi bộ; わたります là băng qua,歩きます là băng qua; わたります là đi bộ,Cả hai đều là rẽ,Cả hai đều là kéo
+16,Phân biệt từ dễ nhầm,Mina bài 23,8,右（みぎ） và 左（ひだり） khác nhau thế nào?,,右 là bên phải; 左 là bên trái,右 là bên trái; 左 là bên phải,Cả hai đều là thẳng,Cả hai đều là giao lộ
+16,Phân biệt từ dễ nhầm,Mina bài 23,9,どの và どれ khác nhau thế nào?,,どの đứng trước danh từ; どれ đứng một mình,どれ đứng trước danh từ; どの đứng một mình,Cả hai đều nghĩa là bằng cách nào,Cả hai đều nghĩa là nhiều lần
+16,Phân biệt từ dễ nhầm,Mina bài 23,10,まっすぐ và まがります khác nhau thế nào?,,まっすぐ là thẳng; まがります là rẽ,まっすぐ là rẽ; まがります là thẳng,Cả hai đều là bên phải,Cả hai đều là đi ra ---

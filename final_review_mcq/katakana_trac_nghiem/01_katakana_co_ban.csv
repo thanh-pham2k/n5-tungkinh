@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,Âm đơn ア〜コ,Âm đơn,1,ア,a,a,a,i,u,e
-1,Âm đơn ア〜コ,Âm đơn,2,イ,i,i,i,a,e,o
-1,Âm đơn ア〜コ,Âm đơn,3,ウ,u,u,u,wa,o,n
-1,Âm đơn ア〜コ,Âm đơn,4,エ,e,e,e,a,i,o
-1,Âm đơn ア〜コ,Âm đơn,5,オ,o,o,o,u,e,a
-1,Âm đơn ア〜コ,Âm đơn,6,カ,ka,ka,ka,ga,ke,ko
-1,Âm đơn ア〜コ,Âm đơn,7,キ,ki,ki,ki,ke,ku,ka
-1,Âm đơn ア〜コ,Âm đơn,8,ク,ku,ku,ku,ke,ko,ka
-1,Âm đơn ア〜コ,Âm đơn,9,ケ,ke,ke,ke,ku,ki,ko
-1,Âm đơn ア〜コ,Âm đơn,10,コ,ko,ko,ko,ka,ku,ke
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Âm đơn ア〜コ,Âm đơn,1,ア,a,a,i,u,e
+1,Âm đơn ア〜コ,Âm đơn,2,イ,i,i,a,e,o
+1,Âm đơn ア〜コ,Âm đơn,3,ウ,u,u,wa,o,n
+1,Âm đơn ア〜コ,Âm đơn,4,エ,e,e,a,i,o
+1,Âm đơn ア〜コ,Âm đơn,5,オ,o,o,u,e,a
+1,Âm đơn ア〜コ,Âm đơn,6,カ,ka,ka,ga,ke,ko
+1,Âm đơn ア〜コ,Âm đơn,7,キ,ki,ki,ke,ku,ka
+1,Âm đơn ア〜コ,Âm đơn,8,ク,ku,ku,ke,ko,ka
+1,Âm đơn ア〜コ,Âm đơn,9,ケ,ke,ke,ku,ki,ko
+1,Âm đơn ア〜コ,Âm đơn,10,コ,ko,ko,ka,ku,ke

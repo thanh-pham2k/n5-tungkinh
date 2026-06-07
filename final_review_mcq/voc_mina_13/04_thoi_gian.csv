@@ -1,13 +1,13 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",1,毎朝６時＿＿起きます。,Maiasa roku-ji ___ okimasu.,Mỗi sáng tôi thức dậy lúc 6 giờ.,に,で,を,へ
-4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",2,９時＿＿５時＿＿働きます。,Ku-ji ___ go-ji ___ hatarakimasu.,Tôi làm việc từ 9 giờ đến 5 giờ.,から / まで,まで / から,に / で,を / へ
-4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",3,寝る＿＿本を読みます。,Neru ___ hon o yomimasu.,Trước khi ngủ tôi đọc sách.,前に,後で,とき,から
-4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",4,勉強した＿＿テレビを見ます。,Benkyou shita ___ terebi o mimasu.,Sau khi học xong tôi xem TV.,後で,前に,まで,から
-4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",5,日本へ行った＿＿写真をたくさん撮りました。,Nihon e itta ___ shashin o takusan torimashita.,"Khi đi Nhật, tôi đã chụp nhiều ảnh.",とき,前に,まで,から
-4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",6,子どもの＿＿よく泳ぎました。,Kodomo no ___ yoku oyogimashita.,"Khi còn nhỏ, tôi thường bơi.",とき,前に,後で,まで
-4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",7,日曜日＿＿友だちに会います。,Nichiyoubi ___ tomodachi ni aimasu.,Chủ nhật tôi gặp bạn.,に,を,で,へ
-4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",8,１０時＿＿寝ます。,Juu-ji ___ nemasu.,Tôi ngủ lúc 10 giờ.,ごろ,から,まで,で
-4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",9,昼ごはん＿＿勉強します。,Hirugohan ___ benkyou shimasu.,Tôi học sau bữa trưa.,の後で,の前に,から,まで
-4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",10,授業＿＿宿題をします。,Jugyou ___ shukudai o shimasu.,Tôi làm bài tập sau giờ học.,の後で,の前に,まで,とき
-4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",11,旅行＿＿カメラを買います。,Ryokou ___ kamera o kaimasu.,"Trước chuyến du lịch, tôi mua máy ảnh.",の前に,の後で,まで,から
-4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",12,暇な＿＿音楽を聞きます。,Hima na ___ ongaku o kikimasu.,"Khi rảnh, tôi nghe nhạc.",とき,前に,後で,まで
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",1,毎朝６時＿＿起きます。,Mỗi sáng tôi thức dậy lúc 6 giờ.,に,で,を,へ
+4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",2,９時＿＿５時＿＿働きます。,Tôi làm việc từ 9 giờ đến 5 giờ.,から / まで,まで / から,に / で,を / へ
+4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",3,寝る＿＿本を読みます。,Trước khi ngủ tôi đọc sách.,前に,後で,とき,から
+4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",4,勉強した＿＿テレビを見ます。,Sau khi học xong tôi xem TV.,後で,前に,まで,から
+4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",5,日本へ行った＿＿写真をたくさん撮りました。,"Khi đi Nhật, tôi đã chụp nhiều ảnh.",とき,前に,まで,から
+4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",6,子どもの＿＿よく泳ぎました。,"Khi còn nhỏ, tôi thường bơi.",とき,前に,後で,まで
+4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",7,日曜日＿＿友だちに会います。,Chủ nhật tôi gặp bạn.,に,を,で,へ
+4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",8,１０時＿＿寝ます。,Tôi ngủ lúc 10 giờ.,ごろ,から,まで,で
+4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",9,昼ごはん＿＿勉強します。,Tôi học sau bữa trưa.,の後で,の前に,から,まで
+4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",10,授業＿＿宿題をします。,Tôi làm bài tập sau giờ học.,の後で,の前に,まで,とき
+4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",11,旅行＿＿カメラを買います。,"Trước chuyến du lịch, tôi mua máy ảnh.",の前に,の後で,まで,から
+4,Thời gian,"Minna bài 4, 5, 6, 10, 18, 23",12,暇な＿＿音楽を聞きます。,"Khi rảnh, tôi nghe nhạc.",とき,前に,後で,まで

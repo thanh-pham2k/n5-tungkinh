@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-14,Đọc kanji,Mina bài 8,1,大きい đọc là gì?,Ookii đọc là gì?,Chọn cách đọc đúng của: 大きい.,おおきい,ちいさい,たかい,ひくい
-14,Đọc kanji,Mina bài 8,2,小さい đọc là gì?,Chiisai đọc là gì?,Chọn cách đọc đúng của: 小さい.,ちいさい,おおきい,あたらしい,ふるい
-14,Đọc kanji,Mina bài 8,3,新しい đọc là gì?,Atarashii đọc là gì?,Chọn cách đọc đúng của: 新しい.,あたらしい,ふるい,やすい,いい
-14,Đọc kanji,Mina bài 8,4,古い đọc là gì?,Furui đọc là gì?,Chọn cách đọc đúng của: 古い.,ふるい,あたらしい,わるい,たかい
-14,Đọc kanji,Mina bài 8,5,悪い đọc là gì?,Warui đọc là gì?,Chọn cách đọc đúng của: 悪い.,わるい,いい,よい,やすい
-14,Đọc kanji,Mina bài 8,6,高い đọc là gì?,Takai đọc là gì?,Chọn cách đọc đúng của: 高い.,たかい,やすい,ひくい,おおきい
-14,Đọc kanji,Mina bài 8,7,安い đọc là gì?,Yasui đọc là gì?,Chọn cách đọc đúng của: 安い.,やすい,たかい,ひくい,ふるい
-14,Đọc kanji,Mina bài 8,8,低い đọc là gì?,Hikui đọc là gì?,Chọn cách đọc đúng của: 低い.,ひくい,たかい,やすい,ちいさい
-14,Đọc kanji,Mina bài 8,9,白い đọc là gì?,Shiroi đọc là gì?,Chọn cách đọc đúng của: 白い.,しろい,くろい,あかい,あおい
-14,Đọc kanji,Mina bài 8,10,黒い đọc là gì?,Kuroi đọc là gì?,Chọn cách đọc đúng của: 黒い.,くろい,しろい,あかい,あおい
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+14,Đọc kanji,Mina bài 8,1,大きい đọc là gì?,Chọn cách đọc đúng của: 大きい.,おおきい,ちいさい,たかい,ひくい
+14,Đọc kanji,Mina bài 8,2,小さい đọc là gì?,Chọn cách đọc đúng của: 小さい.,ちいさい,おおきい,あたらしい,ふるい
+14,Đọc kanji,Mina bài 8,3,新しい đọc là gì?,Chọn cách đọc đúng của: 新しい.,あたらしい,ふるい,やすい,いい
+14,Đọc kanji,Mina bài 8,4,古い đọc là gì?,Chọn cách đọc đúng của: 古い.,ふるい,あたらしい,わるい,たかい
+14,Đọc kanji,Mina bài 8,5,悪い đọc là gì?,Chọn cách đọc đúng của: 悪い.,わるい,いい,よい,やすい
+14,Đọc kanji,Mina bài 8,6,高い đọc là gì?,Chọn cách đọc đúng của: 高い.,たかい,やすい,ひくい,おおきい
+14,Đọc kanji,Mina bài 8,7,安い đọc là gì?,Chọn cách đọc đúng của: 安い.,やすい,たかい,ひくい,ふるい
+14,Đọc kanji,Mina bài 8,8,低い đọc là gì?,Chọn cách đọc đúng của: 低い.,ひくい,たかい,やすい,ちいさい
+14,Đọc kanji,Mina bài 8,9,白い đọc là gì?,Chọn cách đọc đúng của: 白い.,しろい,くろい,あかい,あおい
+14,Đọc kanji,Mina bài 8,10,黒い đọc là gì?,Chọn cách đọc đúng của: 黒い.,くろい,しろい,あかい,あおい

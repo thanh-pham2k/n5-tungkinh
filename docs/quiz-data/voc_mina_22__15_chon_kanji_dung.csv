@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-15,Chọn kanji đúng,Mina bài 22,1,“mặc” viết bằng kanji nào?,,Chọn kanji đúng.,着ます,来ます,聞きます,書きます
-15,Chọn kanji đúng,Mina bài 22,2,“quần áo” viết bằng kanji nào?,,Chọn kanji đúng.,服,靴,帽子,眼鏡
-15,Chọn kanji đúng,Mina bài 22,3,“màu trắng” viết bằng kanji nào?,,Chọn kanji đúng.,白い,黒い,赤い,青い
-15,Chọn kanji đúng,Mina bài 22,4,“màu đen” viết bằng kanji nào?,,Chọn kanji đúng.,黒い,白い,赤い,黄色い
-15,Chọn kanji đúng,Mina bài 22,5,“màu đỏ” viết bằng kanji nào?,,Chọn kanji đúng.,赤い,青い,白い,黒い
-15,Chọn kanji đúng,Mina bài 22,6,“màu xanh dương” viết bằng kanji nào?,,Chọn kanji đúng.,青い,赤い,黄色い,黒い
-15,Chọn kanji đúng,Mina bài 22,7,“màu vàng” viết bằng kanji nào?,,Chọn kanji đúng.,黄色い,青い,赤い,白い
-15,Chọn kanji đúng,Mina bài 22,8,“mới” viết bằng kanji nào?,,Chọn kanji đúng.,新しい,古い,安い,高い
-15,Chọn kanji đúng,Mina bài 22,9,“cũ” viết bằng kanji nào?,,Chọn kanji đúng.,古い,新しい,安い,低い
-15,Chọn kanji đúng,Mina bài 22,10,“rẻ” viết bằng kanji nào?,,Chọn kanji đúng.,安い,高い,古い,新しい
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+15,Chọn kanji đúng,Mina bài 22,1,“mặc” viết bằng kanji nào?,Chọn kanji đúng.,着ます,来ます,聞きます,書きます
+15,Chọn kanji đúng,Mina bài 22,2,“quần áo” viết bằng kanji nào?,Chọn kanji đúng.,服,靴,帽子,眼鏡
+15,Chọn kanji đúng,Mina bài 22,3,“màu trắng” viết bằng kanji nào?,Chọn kanji đúng.,白い,黒い,赤い,青い
+15,Chọn kanji đúng,Mina bài 22,4,“màu đen” viết bằng kanji nào?,Chọn kanji đúng.,黒い,白い,赤い,黄色い
+15,Chọn kanji đúng,Mina bài 22,5,“màu đỏ” viết bằng kanji nào?,Chọn kanji đúng.,赤い,青い,白い,黒い
+15,Chọn kanji đúng,Mina bài 22,6,“màu xanh dương” viết bằng kanji nào?,Chọn kanji đúng.,青い,赤い,黄色い,黒い
+15,Chọn kanji đúng,Mina bài 22,7,“màu vàng” viết bằng kanji nào?,Chọn kanji đúng.,黄色い,青い,赤い,白い
+15,Chọn kanji đúng,Mina bài 22,8,“mới” viết bằng kanji nào?,Chọn kanji đúng.,新しい,古い,安い,高い
+15,Chọn kanji đúng,Mina bài 22,9,“cũ” viết bằng kanji nào?,Chọn kanji đúng.,古い,新しい,安い,低い
+15,Chọn kanji đúng,Mina bài 22,10,“rẻ” viết bằng kanji nào?,Chọn kanji đúng.,安い,高い,古い,新しい

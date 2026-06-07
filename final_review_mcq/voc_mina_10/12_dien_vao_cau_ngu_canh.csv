@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-12,Điền vào câu / ngữ cảnh,Mina bài 10,1,ねこは ベッドの＿＿＿に います。,nekoha beddono＿＿＿ni imasu。,ねこは ベッドの＿＿＿に います。,下（した）,なに,だれ,もの
-12,Điền vào câu / ngữ cảnh,Mina bài 10,2,パンダは 木（き）の＿＿＿に います。,pandaha kino＿＿＿ni imasu。,パンダは 木（き）の＿＿＿に います。,上（うえ）,あります,もの,はこ
-12,Điền vào câu / ngữ cảnh,Mina bài 10,3,でんちは はこの＿＿＿に あります。,denchiha hakono＿＿＿ni arimasu。,でんちは はこの＿＿＿に あります。,中（なか）,だれ,どこ,いろいろ
-12,Điền vào câu / ngữ cảnh,Mina bài 10,4,ドアは まどの＿＿＿に あります。,doaha madono＿＿＿ni arimasu。,ドアは まどの＿＿＿に あります。,となり,います,なに,もの
-12,Điền vào câu / ngữ cảnh,Mina bài 10,5,きっさてんは ほんやの＿＿＿に あります。,kissatenha honyano＿＿＿ni arimasu。,きっさてんは ほんやの＿＿＿に あります。,近く（ちかく）,だれ,いろいろ,はこ
-12,Điền vào câu / ngữ cảnh,Mina bài 10,6,テーブルの＿＿＿に いすが あります。,teeburuno＿＿＿ni isuga arimasu。,テーブルの＿＿＿に いすが あります。,前（まえ）,だれ,なに,います
-12,Điền vào câu / ngữ cảnh,Mina bài 10,7,会社（かいしゃ）の＿＿＿に ビルが あります。,kaishano＿＿＿ni biruga arimasu。,会社（かいしゃ）の＿＿＿に ビルが あります。,うしろ,います,もの,だれ
-12,Điền vào câu / ngữ cảnh,Mina bài 10,8,みせの＿＿＿に ポストが あります。,miseno＿＿＿ni posutoga arimasu。,みせの＿＿＿に ポストが あります。,外（そと）,います,なに,いろいろ
-12,Điền vào câu / ngữ cảnh,Mina bài 10,9,教室（きょうしつ）の＿＿＿に 学生（がくせい）が います。,kyoushitsuno＿＿＿ni gakuseiga imasu。,教室（きょうしつ）の＿＿＿に 学生（がくせい）が います。,中（なか）,もの,はこ,あります
-12,Điền vào câu / ngữ cảnh,Mina bài 10,10,のりばは 駅（えき）の＿＿＿に あります。,noribaha ekino＿＿＿ni arimasu。,のりばは 駅（えき）の＿＿＿に あります。,前（まえ）,だれ,なに,います
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+12,Điền vào câu / ngữ cảnh,Mina bài 10,1,ねこは ベッドの＿＿＿に います。,ねこは ベッドの＿＿＿に います。,下（した）,なに,だれ,もの
+12,Điền vào câu / ngữ cảnh,Mina bài 10,2,パンダは 木（き）の＿＿＿に います。,パンダは 木（き）の＿＿＿に います。,上（うえ）,あります,もの,はこ
+12,Điền vào câu / ngữ cảnh,Mina bài 10,3,でんちは はこの＿＿＿に あります。,でんちは はこの＿＿＿に あります。,中（なか）,だれ,どこ,いろいろ
+12,Điền vào câu / ngữ cảnh,Mina bài 10,4,ドアは まどの＿＿＿に あります。,ドアは まどの＿＿＿に あります。,となり,います,なに,もの
+12,Điền vào câu / ngữ cảnh,Mina bài 10,5,きっさてんは ほんやの＿＿＿に あります。,きっさてんは ほんやの＿＿＿に あります。,近く（ちかく）,だれ,いろいろ,はこ
+12,Điền vào câu / ngữ cảnh,Mina bài 10,6,テーブルの＿＿＿に いすが あります。,テーブルの＿＿＿に いすが あります。,前（まえ）,だれ,なに,います
+12,Điền vào câu / ngữ cảnh,Mina bài 10,7,会社（かいしゃ）の＿＿＿に ビルが あります。,会社（かいしゃ）の＿＿＿に ビルが あります。,うしろ,います,もの,だれ
+12,Điền vào câu / ngữ cảnh,Mina bài 10,8,みせの＿＿＿に ポストが あります。,みせの＿＿＿に ポストが あります。,外（そと）,います,なに,いろいろ
+12,Điền vào câu / ngữ cảnh,Mina bài 10,9,教室（きょうしつ）の＿＿＿に 学生（がくせい）が います。,教室（きょうしつ）の＿＿＿に 学生（がくせい）が います。,中（なか）,もの,はこ,あります
+12,Điền vào câu / ngữ cảnh,Mina bài 10,10,のりばは 駅（えき）の＿＿＿に あります。,のりばは 駅（えき）の＿＿＿に あります。,前（まえ）,だれ,なに,います

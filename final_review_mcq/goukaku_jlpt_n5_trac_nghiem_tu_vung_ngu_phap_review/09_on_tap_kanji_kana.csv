@@ -1,9 +1,9 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-9,"Ôn tập Kanji/Kana dễ nhầm","JLPT N5",1,"「学校」の よみかたは ＿＿です。","Gakkou no yomikata wa ___ desu.","Cách đọc của 学校 là gì?","がっこう","がくせい","せんせい","こうえん"
-9,"Ôn tập Kanji/Kana dễ nhầm","JLPT N5",2,"「駅」の よみかたは ＿＿です。","Eki no yomikata wa ___ desu.","Cách đọc của 駅 là gì?","えき","いえ","みせ","まち"
-9,"Ôn tập Kanji/Kana dễ nhầm","JLPT N5",3,"「本」の よみかたは ＿＿です。","Hon no yomikata wa ___ desu.","Cách đọc của 本 là gì?","ほん","ぼん","ぽん","はん"
-9,"Ôn tập Kanji/Kana dễ nhầm","JLPT N5",4,"「月」の よみかたは ＿＿です。","Tsuki no yomikata wa ___ desu.","Cách đọc của 月 là gì?","つき","げつ","がつ","にち"
-9,"Ôn tập Kanji/Kana dễ nhầm","JLPT N5",5,"「三か月」の よみかたは ＿＿です。","San-kagetsu no yomikata wa ___ desu.","Cách đọc của 三か月 là gì?","さんかげつ","さんがつ","さんげつ","さんにち"
-9,"Ôn tập Kanji/Kana dễ nhầm","JLPT N5",6,"「手紙」の よみかたは ＿＿です。","Tegami no yomikata wa ___ desu.","Cách đọc của 手紙 là gì?","てがみ","でんわ","てちょう","かみ"
-9,"Ôn tập Kanji/Kana dễ nhầm","JLPT N5",7,"「父母」の いみは ＿＿です。","Fubo no imi wa ___ desu.","Nghĩa của 父母 là gì?","りょうしん","せんせい","ともだち","きょうだい"
-9,"Ôn tập Kanji/Kana dễ nhầm","JLPT N5",8,"「車」の よみかたは ＿＿です。","Kuruma no yomikata wa ___ desu.","Cách đọc của 車 là gì?","くるま","でんしゃ","じてんしゃ","くつ"
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+9,Ôn tập Kanji/Kana dễ nhầm,JLPT N5,1,「学校」の よみかたは ＿＿です。,Cách đọc của 学校 là gì?,がっこう,がくせい,せんせい,こうえん
+9,Ôn tập Kanji/Kana dễ nhầm,JLPT N5,2,「駅」の よみかたは ＿＿です。,Cách đọc của 駅 là gì?,えき,いえ,みせ,まち
+9,Ôn tập Kanji/Kana dễ nhầm,JLPT N5,3,「本」の よみかたは ＿＿です。,Cách đọc của 本 là gì?,ほん,ぼん,ぽん,はん
+9,Ôn tập Kanji/Kana dễ nhầm,JLPT N5,4,「月」の よみかたは ＿＿です。,Cách đọc của 月 là gì?,つき,げつ,がつ,にち
+9,Ôn tập Kanji/Kana dễ nhầm,JLPT N5,5,「三か月」の よみかたは ＿＿です。,Cách đọc của 三か月 là gì?,さんかげつ,さんがつ,さんげつ,さんにち
+9,Ôn tập Kanji/Kana dễ nhầm,JLPT N5,6,「手紙」の よみかたは ＿＿です。,Cách đọc của 手紙 là gì?,てがみ,でんわ,てちょう,かみ
+9,Ôn tập Kanji/Kana dễ nhầm,JLPT N5,7,「父母」の いみは ＿＿です。,Nghĩa của 父母 là gì?,りょうしん,せんせい,ともだち,きょうだい
+9,Ôn tập Kanji/Kana dễ nhầm,JLPT N5,8,「車」の よみかたは ＿＿です。,Cách đọc của 車 là gì?,くるま,でんしゃ,じてんしゃ,くつ

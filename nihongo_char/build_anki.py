@@ -52,7 +52,6 @@ class Answer:
     number: int
     letter: str
     kana: str
-    romaji: str
     explanation: str
 
 
@@ -153,9 +152,9 @@ def parse_answers(path: Path) -> dict[int, Answer]:
         cells = split_markdown_row(line)
         if not cells or not re.match(r"^\d+$", cells[0]):
             continue
-        if len(cells) < 5:
+        if len(cells) < 4:
             raise ValueError(f"{path.name}: answer row has {len(cells)} columns: {line}")
-        number_raw, letter, kana, romaji, explanation = cells[:5]
+        number_raw, letter, kana, explanation = cells[:4]
         number = int(number_raw)
         letter = letter.strip().upper()
         if letter not in {"A", "B", "C", "D"}:
@@ -164,7 +163,6 @@ def parse_answers(path: Path) -> dict[int, Answer]:
             number=number,
             letter=letter,
             kana=kana,
-            romaji=romaji,
             explanation=explanation,
         )
     return answers
@@ -208,7 +206,6 @@ def make_model() -> genanki.Model:
             {"name": "OptionD"},
             {"name": "Answer"},
             {"name": "Kana"},
-            {"name": "Romaji"},
             {"name": "Explanation"},
             {"name": "ClassA"},
             {"name": "ClassB"},
@@ -274,7 +271,6 @@ function selectAnswer(input) {
 <div class="back">
   <div><span class="label">Đáp án đúng:</span> {{Answer}}</div>
   <div><span class="label">Kana:</span> {{Kana}}</div>
-  <div><span class="label">Romaji:</span> {{Romaji}}</div>
   <div><span class="label">Giải thích ngắn:</span> {{Explanation}}</div>
 </div>
 """,
@@ -369,7 +365,6 @@ def note_for_question(model: genanki.Model, question: Question, answer: Answer) 
             esc(question.options["D"]),
             esc(answer.letter),
             esc(answer.kana),
-            esc(answer.romaji),
             esc(answer.explanation),
             classes["A"],
             classes["B"],
@@ -420,9 +415,9 @@ def inspect_package(path: Path) -> tuple[int, int, bool, bool, bool]:
             afmt = model["tmpls"][0]["afmt"]
             css = model["css"]
             front_hides_explanation = not any(
-                field in qfmt for field in ("Kana", "Romaji", "Explanation")
+                field in qfmt for field in ("Kana", "Explanation")
             )
-            back_has_explanation = all(field in afmt for field in ("Kana", "Romaji", "Explanation"))
+            back_has_explanation = all(field in afmt for field in ("Kana", "Explanation"))
             has_interaction = all(
                 marker in qfmt
                 for marker in (

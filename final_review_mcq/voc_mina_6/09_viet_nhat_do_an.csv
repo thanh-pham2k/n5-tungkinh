@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-9,Việt → Nhật / đồ ăn,Mina bài 6,1,“gặp” là từ nào?,Gặp,Chọn từ tiếng Nhật phù hợp.,あいます,します,とります,聞きます（ききます）
-9,Việt → Nhật / đồ ăn,Mina bài 6,2,“cơm / bữa ăn” là từ nào?,Cơm / bữa ăn,Chọn từ tiếng Nhật phù hợp.,ごはん,パン,たまご,にく
-9,Việt → Nhật / đồ ăn,Mina bài 6,3,“bữa sáng” là từ nào?,Bữa sáng,Chọn từ tiếng Nhật phù hợp.,あさごはん,ひるごはん,ばんごはん,ごはん
-9,Việt → Nhật / đồ ăn,Mina bài 6,4,“bữa trưa” là từ nào?,Bữa trưa,Chọn từ tiếng Nhật phù hợp.,ひるごはん,あさごはん,ばんごはん,パン
-9,Việt → Nhật / đồ ăn,Mina bài 6,5,“bữa tối” là từ nào?,Bữa tối,Chọn từ tiếng Nhật phù hợp.,ばんごはん,あさごはん,ひるごはん,たまご
-9,Việt → Nhật / đồ ăn,Mina bài 6,6,“bánh mì” là từ nào?,Bánh mì,Chọn từ tiếng Nhật phù hợp.,パン,ごはん,やさい,くだもの
-9,Việt → Nhật / đồ ăn,Mina bài 6,7,“trứng” là từ nào?,Trứng,Chọn từ tiếng Nhật phù hợp.,たまご,にく,魚（さかな）,やさい
-9,Việt → Nhật / đồ ăn,Mina bài 6,8,“thịt” là từ nào?,Thịt,Chọn từ tiếng Nhật phù hợp.,にく,魚（さかな）,やさい,くだもの
-9,Việt → Nhật / đồ ăn,Mina bài 6,9,“cá” là từ nào?,Cá,Chọn từ tiếng Nhật phù hợp.,魚（さかな）,にく,たまご,パン
-9,Việt → Nhật / đồ ăn,Mina bài 6,10,“rau” là từ nào?,Rau,Chọn từ tiếng Nhật phù hợp.,やさい,くだもの,にく,魚（さかな）
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+9,Việt → Nhật / đồ ăn,Mina bài 6,1,“gặp” là từ nào?,Chọn từ tiếng Nhật phù hợp.,あいます,します,とります,聞きます（ききます）
+9,Việt → Nhật / đồ ăn,Mina bài 6,2,“cơm / bữa ăn” là từ nào?,Chọn từ tiếng Nhật phù hợp.,ごはん,パン,たまご,にく
+9,Việt → Nhật / đồ ăn,Mina bài 6,3,“bữa sáng” là từ nào?,Chọn từ tiếng Nhật phù hợp.,あさごはん,ひるごはん,ばんごはん,ごはん
+9,Việt → Nhật / đồ ăn,Mina bài 6,4,“bữa trưa” là từ nào?,Chọn từ tiếng Nhật phù hợp.,ひるごはん,あさごはん,ばんごはん,パン
+9,Việt → Nhật / đồ ăn,Mina bài 6,5,“bữa tối” là từ nào?,Chọn từ tiếng Nhật phù hợp.,ばんごはん,あさごはん,ひるごはん,たまご
+9,Việt → Nhật / đồ ăn,Mina bài 6,6,“bánh mì” là từ nào?,Chọn từ tiếng Nhật phù hợp.,パン,ごはん,やさい,くだもの
+9,Việt → Nhật / đồ ăn,Mina bài 6,7,“trứng” là từ nào?,Chọn từ tiếng Nhật phù hợp.,たまご,にく,魚（さかな）,やさい
+9,Việt → Nhật / đồ ăn,Mina bài 6,8,“thịt” là từ nào?,Chọn từ tiếng Nhật phù hợp.,にく,魚（さかな）,やさい,くだもの
+9,Việt → Nhật / đồ ăn,Mina bài 6,9,“cá” là từ nào?,Chọn từ tiếng Nhật phù hợp.,魚（さかな）,にく,たまご,パン
+9,Việt → Nhật / đồ ăn,Mina bài 6,10,“rau” là từ nào?,Chọn từ tiếng Nhật phù hợp.,やさい,くだもの,にく,魚（さかな）

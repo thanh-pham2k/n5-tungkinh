@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Màu sắc / mô tả,Mina bài 22,1,ワンピース,wanpisu,Nghĩa là gì?,váy liền,váy,quần dài,áo khoác
-3,Màu sắc / mô tả,Mina bài 22,2,白い（しろい）,shiroi,Nghĩa là gì?,màu trắng,màu đen,màu đỏ,màu vàng
-3,Màu sắc / mô tả,Mina bài 22,3,黒い（くろい）,kuroi,Nghĩa là gì?,màu đen,màu trắng,màu xanh dương,màu nâu
-3,Màu sắc / mô tả,Mina bài 22,4,赤い（あかい）,akai,Nghĩa là gì?,màu đỏ,màu vàng,màu trắng,màu đen
-3,Màu sắc / mô tả,Mina bài 22,5,青い（あおい）,aoi,Nghĩa là gì?,màu xanh dương,màu đỏ,màu nâu,màu vàng
-3,Màu sắc / mô tả,Mina bài 22,6,黄色い（きいろい）,kiiroi,Nghĩa là gì?,màu vàng,màu nâu,màu đỏ,màu xanh dương
-3,Màu sắc / mô tả,Mina bài 22,7,ちゃいろい,chairoi,Nghĩa là gì?,màu nâu,màu vàng,màu đen,màu trắng
-3,Màu sắc / mô tả,Mina bài 22,8,新しい（あたらしい）,atarashii,Nghĩa là gì?,mới,cũ,rẻ,đắt
-3,Màu sắc / mô tả,Mina bài 22,9,古い（ふるい）,furui,Nghĩa là gì?,cũ,mới,đẹp,dễ thương
-3,Màu sắc / mô tả,Mina bài 22,10,すてき,suteki,Nghĩa là gì?,đẹp / tuyệt,rẻ,cũ,thấp
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Màu sắc / mô tả,Mina bài 22,1,ワンピース,Nghĩa là gì?,váy liền,váy,quần dài,áo khoác
+3,Màu sắc / mô tả,Mina bài 22,2,白い（しろい）,Nghĩa là gì?,màu trắng,màu đen,màu đỏ,màu vàng
+3,Màu sắc / mô tả,Mina bài 22,3,黒い（くろい）,Nghĩa là gì?,màu đen,màu trắng,màu xanh dương,màu nâu
+3,Màu sắc / mô tả,Mina bài 22,4,赤い（あかい）,Nghĩa là gì?,màu đỏ,màu vàng,màu trắng,màu đen
+3,Màu sắc / mô tả,Mina bài 22,5,青い（あおい）,Nghĩa là gì?,màu xanh dương,màu đỏ,màu nâu,màu vàng
+3,Màu sắc / mô tả,Mina bài 22,6,黄色い（きいろい）,Nghĩa là gì?,màu vàng,màu nâu,màu đỏ,màu xanh dương
+3,Màu sắc / mô tả,Mina bài 22,7,ちゃいろい,Nghĩa là gì?,màu nâu,màu vàng,màu đen,màu trắng
+3,Màu sắc / mô tả,Mina bài 22,8,新しい（あたらしい）,Nghĩa là gì?,mới,cũ,rẻ,đắt
+3,Màu sắc / mô tả,Mina bài 22,9,古い（ふるい）,Nghĩa là gì?,cũ,mới,đẹp,dễ thương
+3,Màu sắc / mô tả,Mina bài 22,10,すてき,Nghĩa là gì?,đẹp / tuyệt,rẻ,cũ,thấp

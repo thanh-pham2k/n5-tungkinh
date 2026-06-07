@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-6,Việt → Nhật / động từ thao tác,Mina bài 14,1,“bật” là từ nào?,bt,“bật” là từ nào?,つけます,けします,あけます,しめます
-6,Việt → Nhật / động từ thao tác,Mina bài 14,2,“tắt / xóa” là từ nào?,tt xa,“tắt / xóa” là từ nào?,けします,つけます,あけます,まちます
-6,Việt → Nhật / động từ thao tác,Mina bài 14,3,“mở” là từ nào?,m,“mở” là từ nào?,あけます,しめます,とめます,まがります
-6,Việt → Nhật / động từ thao tác,Mina bài 14,4,“đóng” là từ nào?,ng,“đóng” là từ nào?,しめます,あけます,つけます,けします
-6,Việt → Nhật / động từ thao tác,Mina bài 14,5,“vội / gấp” là từ nào?,vi gp,“vội / gấp” là từ nào?,いそぎます,まちます,とめます,もちます
-6,Việt → Nhật / động từ thao tác,Mina bài 14,6,“chờ” là từ nào?,ch,“chờ” là từ nào?,まちます,いそぎます,よびます,みせます
-6,Việt → Nhật / động từ thao tác,Mina bài 14,7,“dừng / đỗ” là từ nào?,dng,“dừng / đỗ” là từ nào?,とめます,まがります,もちます,とります
-6,Việt → Nhật / động từ thao tác,Mina bài 14,8,“rẽ” là từ nào?,r,“rẽ” là từ nào?,まがります,とめます,まちます,あけます
-6,Việt → Nhật / động từ thao tác,Mina bài 14,9,“cầm / mang” là từ nào?,cm mang,“cầm / mang” là từ nào?,もちます,とります,てつだいます,おしえます
-6,Việt → Nhật / động từ thao tác,Mina bài 14,10,“lấy / đưa / chụp” là từ nào?,ly a chp,“lấy / đưa / chụp” là từ nào?,とります,もちます,よびます,はじめます
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+6,Việt → Nhật / động từ thao tác,Mina bài 14,1,“bật” là từ nào?,“bật” là từ nào?,つけます,けします,あけます,しめます
+6,Việt → Nhật / động từ thao tác,Mina bài 14,2,“tắt / xóa” là từ nào?,“tắt / xóa” là từ nào?,けします,つけます,あけます,まちます
+6,Việt → Nhật / động từ thao tác,Mina bài 14,3,“mở” là từ nào?,“mở” là từ nào?,あけます,しめます,とめます,まがります
+6,Việt → Nhật / động từ thao tác,Mina bài 14,4,“đóng” là từ nào?,“đóng” là từ nào?,しめます,あけます,つけます,けします
+6,Việt → Nhật / động từ thao tác,Mina bài 14,5,“vội / gấp” là từ nào?,“vội / gấp” là từ nào?,いそぎます,まちます,とめます,もちます
+6,Việt → Nhật / động từ thao tác,Mina bài 14,6,“chờ” là từ nào?,“chờ” là từ nào?,まちます,いそぎます,よびます,みせます
+6,Việt → Nhật / động từ thao tác,Mina bài 14,7,“dừng / đỗ” là từ nào?,“dừng / đỗ” là từ nào?,とめます,まがります,もちます,とります
+6,Việt → Nhật / động từ thao tác,Mina bài 14,8,“rẽ” là từ nào?,“rẽ” là từ nào?,まがります,とめます,まちます,あけます
+6,Việt → Nhật / động từ thao tác,Mina bài 14,9,“cầm / mang” là từ nào?,“cầm / mang” là từ nào?,もちます,とります,てつだいます,おしえます
+6,Việt → Nhật / động từ thao tác,Mina bài 14,10,“lấy / đưa / chụp” là từ nào?,“lấy / đưa / chụp” là từ nào?,とります,もちます,よびます,はじめます

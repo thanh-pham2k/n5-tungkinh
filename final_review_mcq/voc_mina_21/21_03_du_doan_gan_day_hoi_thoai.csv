@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Dự đoán / gần đây / hội thoại,Mina bài 21,1,きっと nghĩa là gì?,Kitto ngha l g?,きっと nghĩa là gì?,chắc chắn / nhất định,có lẽ,gần đây,lâu rồi nhỉ
-3,Dự đoán / gần đây / hội thoại,Mina bài 21,2,最近（さいきん） nghĩa là gì?,Saikin ngha l g?,最近（さいきん） nghĩa là gì?,gần đây,chắc chắn,tất nhiên,lâu rồi nhỉ
-3,Dự đoán / gần đây / hội thoại,Mina bài 21,3,しばらくですね nghĩa là gì?,Shibarakudesune ngha l g?,しばらくですね nghĩa là gì?,lâu rồi nhỉ,gần đây,thế nào?,phải về rồi
-3,Dự đoán / gần đây / hội thoại,Mina bài 21,4,どうですか nghĩa là gì?,Doudesuka ngha l g?,どうですか nghĩa là gì?,thế nào?,bạn nghĩ thế nào?,có lẽ,tất nhiên
-3,Dự đoán / gần đây / hội thoại,Mina bài 21,5,もう帰らないと…（もうかえらないと…） nghĩa là gì?,Mouranaito…（moukaeranaito…） ngha l g?,もう帰らないと…（もうかえらないと…） nghĩa là gì?,phải về rồi…,không về nữa…,vừa mới về…,về nhà nhé…
-3,Dự đoán / gần đây / hội thoại,Mina bài 21,6,たぶん 勝ちます（かちます） nghĩa là gì?,Tabun kachimasu ngha l g?,たぶん 勝ちます（かちます） nghĩa là gì?,có lẽ sẽ thắng,chắc chắn sẽ thua,vừa mới thắng,không thi đấu
-3,Dự đoán / gần đây / hội thoại,Mina bài 21,7,きっと 役に立ちます（やくにたちます） nghĩa là gì?,Kitto yakunitachimasu ngha l g?,きっと 役に立ちます（やくにたちます） nghĩa là gì?,chắc chắn có ích,có lẽ lãng phí,tất nhiên bất tiện,không còn cách nào khác
-3,Dự đoán / gần đây / hội thoại,Mina bài 21,8,最近（さいきん）、どうですか nghĩa là gì?,Saikin、doudesuka ngha l g?,最近（さいきん）、どうですか nghĩa là gì?,Gần đây thế nào?,Lâu rồi nhỉ.,Bạn nghĩ thế nào?,Phải về rồi.
-3,Dự đoán / gần đây / hội thoại,Mina bài 21,9,これは 本当（ほんとう）ですか nghĩa là gì?,Koreha hontoudesuka ngha l g?,これは 本当（ほんとう）ですか nghĩa là gì?,Cái này là thật à?,Cái này là ý kiến à?,Cái này có ích à?,Cái này bất tiện à?
-3,Dự đoán / gần đây / hội thoại,Mina bài 21,10,もう帰らないと… また会いましょう nghĩa là gì?,Mouranaito… mataimashou ngha l g?,もう帰らないと… また会いましょう nghĩa là gì?,Phải về rồi… Hẹn gặp lại.,Gần đây thế nào? Hẹn gặp lại.,Tôi thắng rồi. Hẹn gặp lại.,Không còn cách nào khác. Hẹn gặp lại.
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Dự đoán / gần đây / hội thoại,Mina bài 21,1,きっと nghĩa là gì?,きっと nghĩa là gì?,chắc chắn / nhất định,có lẽ,gần đây,lâu rồi nhỉ
+3,Dự đoán / gần đây / hội thoại,Mina bài 21,2,最近（さいきん） nghĩa là gì?,最近（さいきん） nghĩa là gì?,gần đây,chắc chắn,tất nhiên,lâu rồi nhỉ
+3,Dự đoán / gần đây / hội thoại,Mina bài 21,3,しばらくですね nghĩa là gì?,しばらくですね nghĩa là gì?,lâu rồi nhỉ,gần đây,thế nào?,phải về rồi
+3,Dự đoán / gần đây / hội thoại,Mina bài 21,4,どうですか nghĩa là gì?,どうですか nghĩa là gì?,thế nào?,bạn nghĩ thế nào?,có lẽ,tất nhiên
+3,Dự đoán / gần đây / hội thoại,Mina bài 21,5,もう帰らないと…（もうかえらないと…） nghĩa là gì?,もう帰らないと…（もうかえらないと…） nghĩa là gì?,phải về rồi…,không về nữa…,vừa mới về…,về nhà nhé…
+3,Dự đoán / gần đây / hội thoại,Mina bài 21,6,たぶん 勝ちます（かちます） nghĩa là gì?,たぶん 勝ちます（かちます） nghĩa là gì?,có lẽ sẽ thắng,chắc chắn sẽ thua,vừa mới thắng,không thi đấu
+3,Dự đoán / gần đây / hội thoại,Mina bài 21,7,きっと 役に立ちます（やくにたちます） nghĩa là gì?,きっと 役に立ちます（やくにたちます） nghĩa là gì?,chắc chắn có ích,có lẽ lãng phí,tất nhiên bất tiện,không còn cách nào khác
+3,Dự đoán / gần đây / hội thoại,Mina bài 21,8,最近（さいきん）、どうですか nghĩa là gì?,最近（さいきん）、どうですか nghĩa là gì?,Gần đây thế nào?,Lâu rồi nhỉ.,Bạn nghĩ thế nào?,Phải về rồi.
+3,Dự đoán / gần đây / hội thoại,Mina bài 21,9,これは 本当（ほんとう）ですか nghĩa là gì?,これは 本当（ほんとう）ですか nghĩa là gì?,Cái này là thật à?,Cái này là ý kiến à?,Cái này có ích à?,Cái này bất tiện à?
+3,Dự đoán / gần đây / hội thoại,Mina bài 21,10,もう帰らないと… また会いましょう nghĩa là gì?,もう帰らないと… また会いましょう nghĩa là gì?,Phải về rồi… Hẹn gặp lại.,Gần đây thế nào? Hẹn gặp lại.,Tôi thắng rồi. Hẹn gặp lại.,Không còn cách nào khác. Hẹn gặp lại.

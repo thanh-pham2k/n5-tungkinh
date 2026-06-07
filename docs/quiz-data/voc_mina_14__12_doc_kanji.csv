@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-12,Đọc kanji,Mina bài 14,1,話します đọc là gì?,shimasu,話します đọc là gì?,はなします,よびます,みせます,おしえます
-12,Đọc kanji,Mina bài 14,2,名前 đọc là gì?,,名前 đọc là gì?,なまえ,じゅうしょ,ちず,よみかた
-12,Đọc kanji,Mina bài 14,3,地図 đọc là gì?,,地図 đọc là gì?,ちず,じゅうしょ,なまえ,しお
-12,Đọc kanji,Mina bài 14,4,読み方 đọc là gì?,mi,読み方 đọc là gì?,よみかた,かきかた,はなし,なまえ
-12,Đọc kanji,Mina bài 14,5,右 đọc là gì?,,右 đọc là gì?,みぎ,ひだり,まっすぐ,あとで
-12,Đọc kanji,Mina bài 14,6,左 đọc là gì?,,左 đọc là gì?,ひだり,みぎ,まっすぐ,すぐ
-12,Đọc kanji,Mina bài 14,7,電気 đọc là gì?,,電気 đọc là gì?,でんき,でんわ,てんき,でんしゃ
-12,Đọc kanji,Mina bài 14,8,車 đọc là gì?,,車 đọc là gì?,くるま,しゃ,でんしゃ,じどうしゃ
-12,Đọc kanji,Mina bài 14,9,雨 đọc là gì?,,雨 đọc là gì?,あめ,ゆき,くもり,ふり
-12,Đọc kanji,Mina bài 14,10,会議 đọc là gì?,,会議 đọc là gì?,かいぎ,かいしゃ,とうろく,しごと
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+12,Đọc kanji,Mina bài 14,1,話します đọc là gì?,話します đọc là gì?,はなします,よびます,みせます,おしえます
+12,Đọc kanji,Mina bài 14,2,名前 đọc là gì?,名前 đọc là gì?,なまえ,じゅうしょ,ちず,よみかた
+12,Đọc kanji,Mina bài 14,3,地図 đọc là gì?,地図 đọc là gì?,ちず,じゅうしょ,なまえ,しお
+12,Đọc kanji,Mina bài 14,4,読み方 đọc là gì?,読み方 đọc là gì?,よみかた,かきかた,はなし,なまえ
+12,Đọc kanji,Mina bài 14,5,右 đọc là gì?,右 đọc là gì?,みぎ,ひだり,まっすぐ,あとで
+12,Đọc kanji,Mina bài 14,6,左 đọc là gì?,左 đọc là gì?,ひだり,みぎ,まっすぐ,すぐ
+12,Đọc kanji,Mina bài 14,7,電気 đọc là gì?,電気 đọc là gì?,でんき,でんわ,てんき,でんしゃ
+12,Đọc kanji,Mina bài 14,8,車 đọc là gì?,車 đọc là gì?,くるま,しゃ,でんしゃ,じどうしゃ
+12,Đọc kanji,Mina bài 14,9,雨 đọc là gì?,雨 đọc là gì?,あめ,ゆき,くもり,ふり
+12,Đọc kanji,Mina bài 14,10,会議 đọc là gì?,会議 đọc là gì?,かいぎ,かいしゃ,とうろく,しごと

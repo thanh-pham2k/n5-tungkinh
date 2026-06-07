@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-17,Chọn từ cùng nhóm chủ đề,Mina bài 10,1,Từ nào thuộc nhóm “người”?,Từ nào thuộc nhóm “người”?,Từ nào thuộc nhóm “người”?,おんなのひと,でんち,ポスト,たな
-17,Chọn từ cùng nhóm chủ đề,Mina bài 10,2,Từ nào thuộc nhóm “động vật”?,Từ nào thuộc nhóm “động vật”?,Từ nào thuộc nhóm “động vật”?,パンダ,ドア,はこ,けん
-17,Chọn từ cùng nhóm chủ đề,Mina bài 10,3,Từ nào thuộc nhóm “đồ vật trong nhà”?,Từ nào thuộc nhóm “đồ vật trong nhà”?,Từ nào thuộc nhóm “đồ vật trong nhà”?,ベッド,こうえん,きっさてん,のりば
-17,Chọn từ cùng nhóm chủ đề,Mina bài 10,4,Từ nào thuộc nhóm “vật nhỏ / thiết bị”?,Từ nào thuộc nhóm “vật nhỏ / thiết bị”?,Từ nào thuộc nhóm “vật nhỏ / thiết bị”?,でんち,ビル,けん,うち
-17,Chọn từ cùng nhóm chủ đề,Mina bài 10,5,Từ nào thuộc nhóm “địa điểm ngoài nhà”?,Từ nào thuộc nhóm “địa điểm ngoài nhà”?,Từ nào thuộc nhóm “địa điểm ngoài nhà”?,こうえん,テーブル,はこ,スイッチ
-17,Chọn từ cùng nhóm chủ đề,Mina bài 10,6,Từ nào thuộc nhóm “cửa hàng / dịch vụ”?,Từ nào thuộc nhóm “cửa hàng / dịch vụ”?,Từ nào thuộc nhóm “cửa hàng / dịch vụ”?,ほんや,ぞう,木（き）,たな
-17,Chọn từ cùng nhóm chủ đề,Mina bài 10,7,Từ nào thuộc nhóm “vị trí”?,Từ nào thuộc nhóm “vị trí”?,Từ nào thuộc nhóm “vị trí”?,右（みぎ）,パンダ,ビル,もの
-17,Chọn từ cùng nhóm chủ đề,Mina bài 10,8,Từ nào thuộc nhóm “nơi học / làm việc”?,Từ nào thuộc nhóm “nơi học / làm việc”?,Từ nào thuộc nhóm “nơi học / làm việc”?,学校（がっこう）,ぞう,ポスト,ベッド
-17,Chọn từ cùng nhóm chủ đề,Mina bài 10,9,Từ nào thuộc nhóm “câu hỏi”?,Từ nào thuộc nhóm “câu hỏi”?,Từ nào thuộc nhóm “câu hỏi”?,どこ,となり,テーブル,ねこ
-17,Chọn từ cùng nhóm chủ đề,Mina bài 10,10,Từ nào thuộc nhóm “liệt kê ví dụ”?,Từ nào thuộc nhóm “liệt kê ví dụ”?,Từ nào thuộc nhóm “liệt kê ví dụ”?,〜や 〜など,だれ,なに,どこ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+17,Chọn từ cùng nhóm chủ đề,Mina bài 10,1,Từ nào thuộc nhóm “người”?,Từ nào thuộc nhóm “người”?,おんなのひと,でんち,ポスト,たな
+17,Chọn từ cùng nhóm chủ đề,Mina bài 10,2,Từ nào thuộc nhóm “động vật”?,Từ nào thuộc nhóm “động vật”?,パンダ,ドア,はこ,けん
+17,Chọn từ cùng nhóm chủ đề,Mina bài 10,3,Từ nào thuộc nhóm “đồ vật trong nhà”?,Từ nào thuộc nhóm “đồ vật trong nhà”?,ベッド,こうえん,きっさてん,のりば
+17,Chọn từ cùng nhóm chủ đề,Mina bài 10,4,Từ nào thuộc nhóm “vật nhỏ / thiết bị”?,Từ nào thuộc nhóm “vật nhỏ / thiết bị”?,でんち,ビル,けん,うち
+17,Chọn từ cùng nhóm chủ đề,Mina bài 10,5,Từ nào thuộc nhóm “địa điểm ngoài nhà”?,Từ nào thuộc nhóm “địa điểm ngoài nhà”?,こうえん,テーブル,はこ,スイッチ
+17,Chọn từ cùng nhóm chủ đề,Mina bài 10,6,Từ nào thuộc nhóm “cửa hàng / dịch vụ”?,Từ nào thuộc nhóm “cửa hàng / dịch vụ”?,ほんや,ぞう,木（き）,たな
+17,Chọn từ cùng nhóm chủ đề,Mina bài 10,7,Từ nào thuộc nhóm “vị trí”?,Từ nào thuộc nhóm “vị trí”?,右（みぎ）,パンダ,ビル,もの
+17,Chọn từ cùng nhóm chủ đề,Mina bài 10,8,Từ nào thuộc nhóm “nơi học / làm việc”?,Từ nào thuộc nhóm “nơi học / làm việc”?,学校（がっこう）,ぞう,ポスト,ベッド
+17,Chọn từ cùng nhóm chủ đề,Mina bài 10,9,Từ nào thuộc nhóm “câu hỏi”?,Từ nào thuộc nhóm “câu hỏi”?,どこ,となり,テーブル,ねこ
+17,Chọn từ cùng nhóm chủ đề,Mina bài 10,10,Từ nào thuộc nhóm “liệt kê ví dụ”?,Từ nào thuộc nhóm “liệt kê ví dụ”?,〜や 〜など,だれ,なに,どこ

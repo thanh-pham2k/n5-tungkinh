@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-4,Âm đơn ま〜ん,Âm đơn,31,ま,ma,ma,ma,na,ha,ra
-4,Âm đơn ま〜ん,Âm đơn,32,mi,mi,mi,み,い,に,り
-4,Âm đơn ま〜ん,Âm đơn,33,む,mu,mu,mu,nu,su,me
-4,Âm đơn ま〜ん,Âm đơn,34,め,me,me,nu,me,ne,mo
-4,Âm đơn ま〜ん,Âm đơn,35,mo,mo,mo,も,ま,め,の
-4,Âm đơn ま〜ん,Âm đơn,36,や,ya,ya,ya,yu,yo,wa
-4,Âm đơn ま〜ん,Âm đơn,37,yu,yu,yu,や,ゆ,よ,わ
-4,Âm đơn ま〜ん,Âm đơn,38,よ,yo,yo,yo,yu,ya,o
-4,Âm đơn ま〜ん,Âm đơn,39,ら,ra,ra,ra,ri,ru,wa
-4,Âm đơn ま〜ん,Âm đơn,40,ri,ri,ri,り,い,に,し
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+4,Âm đơn ま〜ん,Âm đơn,31,ま,ma,ma,na,ha,ra
+4,Âm đơn ま〜ん,Âm đơn,32,mi,mi,み,い,に,り
+4,Âm đơn ま〜ん,Âm đơn,33,む,mu,mu,nu,su,me
+4,Âm đơn ま〜ん,Âm đơn,34,め,me,nu,me,ne,mo
+4,Âm đơn ま〜ん,Âm đơn,35,mo,mo,も,ま,め,の
+4,Âm đơn ま〜ん,Âm đơn,36,や,ya,ya,yu,yo,wa
+4,Âm đơn ま〜ん,Âm đơn,37,yu,yu,や,ゆ,よ,わ
+4,Âm đơn ま〜ん,Âm đơn,38,よ,yo,yo,yu,ya,o
+4,Âm đơn ま〜ん,Âm đơn,39,ら,ra,ra,ri,ru,wa
+4,Âm đơn ま〜ん,Âm đơn,40,ri,ri,り,い,に,し

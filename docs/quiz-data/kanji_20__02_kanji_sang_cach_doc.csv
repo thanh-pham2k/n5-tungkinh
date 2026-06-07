@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-2,Kanji → Cách đọc,Kanji N5 Bài 20,1,天気,,đọc là gì?,てんき,でんき,げんき,ほんき
-2,Kanji → Cách đọc,Kanji N5 Bài 20,2,赤い,,đọc là gì?,あおい,しろい,あかい,くろい
-2,Kanji → Cách đọc,Kanji N5 Bài 20,3,青い,,đọc là gì?,あおい,あかい,しろい,くろい
-2,Kanji → Cách đọc,Kanji N5 Bài 20,4,白い,,đọc là gì?,くろい,しろい,あおい,あかい
-2,Kanji → Cách đọc,Kanji N5 Bài 20,5,黒い,,đọc là gì?,あかい,しろい,くろい,あおい
-2,Kanji → Cách đọc,Kanji N5 Bài 20,6,色,,đọc là gì?,いろ,さかな,いぬ,てん
-2,Kanji → Cách đọc,Kanji N5 Bài 20,7,魚,,đọc là gì?,いぬ,さかな,むし,うま
-2,Kanji → Cách đọc,Kanji N5 Bài 20,8,犬,,đọc là gì?,いぬ,さかな,うま,むし
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+2,Kanji → Cách đọc,Kanji N5 Bài 20,1,天気,đọc là gì?,てんき,でんき,げんき,ほんき
+2,Kanji → Cách đọc,Kanji N5 Bài 20,2,赤い,đọc là gì?,あおい,しろい,あかい,くろい
+2,Kanji → Cách đọc,Kanji N5 Bài 20,3,青い,đọc là gì?,あおい,あかい,しろい,くろい
+2,Kanji → Cách đọc,Kanji N5 Bài 20,4,白い,đọc là gì?,くろい,しろい,あおい,あかい
+2,Kanji → Cách đọc,Kanji N5 Bài 20,5,黒い,đọc là gì?,あかい,しろい,くろい,あおい
+2,Kanji → Cách đọc,Kanji N5 Bài 20,6,色,đọc là gì?,いろ,さかな,いぬ,てん
+2,Kanji → Cách đọc,Kanji N5 Bài 20,7,魚,đọc là gì?,いぬ,さかな,むし,うま
+2,Kanji → Cách đọc,Kanji N5 Bài 20,8,犬,đọc là gì?,いぬ,さかな,うま,むし

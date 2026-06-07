@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-10,Âm bán đục,Âm bán đục,91,パ,pa,pa,pa,ba,ha,fa
-10,Âm bán đục,Âm bán đục,92,ピ,pi,pi,pi,bi,hi,fi
-10,Âm bán đục,Âm bán đục,93,プ,pu,pu,pu,bu,fu,mu
-10,Âm bán đục,Âm bán đục,94,ペ,pe,pe,pe,be,he,fe
-10,Âm bán đục,Âm bán đục,95,ポ,po,po,po,bo,ho,fo
-10,Âm bán đục,Âm bán đục,96,ga,ga,ga,ガ,カ,ザ,ダ
-10,Âm bán đục,Âm bán đục,97,za,za,za,ザ,サ,ジ,ダ
-10,Âm bán đục,Âm bán đục,98,da,da,da,ダ,タ,ザ,バ
-10,Âm bán đục,Âm bán đục,99,ba,ba,ba,バ,ハ,パ,ガ
-10,Âm bán đục,Âm bán đục,100,pa,pa,pa,パ,バ,ハ,ファ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+10,Âm bán đục,Âm bán đục,91,パ,pa,pa,ba,ha,fa
+10,Âm bán đục,Âm bán đục,92,ピ,pi,pi,bi,hi,fi
+10,Âm bán đục,Âm bán đục,93,プ,pu,pu,bu,fu,mu
+10,Âm bán đục,Âm bán đục,94,ペ,pe,pe,be,he,fe
+10,Âm bán đục,Âm bán đục,95,ポ,po,po,bo,ho,fo
+10,Âm bán đục,Âm bán đục,96,ga,ga,ガ,カ,ザ,ダ
+10,Âm bán đục,Âm bán đục,97,za,za,ザ,サ,ジ,ダ
+10,Âm bán đục,Âm bán đục,98,da,da,ダ,タ,ザ,バ
+10,Âm bán đục,Âm bán đục,99,ba,ba,バ,ハ,パ,ガ
+10,Âm bán đục,Âm bán đục,100,pa,pa,パ,バ,ハ,ファ

@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-2,Đường đi / địa điểm,Mina bài 23,1,歩きます（あるきます） nghĩa là gì?,,,đi bộ,băng qua,rẽ,kéo
-2,Đường đi / địa điểm,Mina bài 23,2,わたります nghĩa là gì?,,,băng qua,đi bộ,rẽ,xoay
-2,Đường đi / địa điểm,Mina bài 23,3,まがります nghĩa là gì?,,,rẽ,đi bộ,băng qua,chạm
-2,Đường đi / địa điểm,Mina bài 23,4,道（みち） nghĩa là gì?,,,đường,ngã tư,cầu,bãi đỗ xe
-2,Đường đi / địa điểm,Mina bài 23,5,こうさてん nghĩa là gì?,,,ngã tư / giao lộ,đèn giao thông,góc đường,cầu
-2,Đường đi / địa điểm,Mina bài 23,6,しんごう nghĩa là gì?,,,đèn giao thông,ngã tư,tòa nhà,bãi đỗ xe
-2,Đường đi / địa điểm,Mina bài 23,7,角（かど） nghĩa là gì?,,,góc đường / góc,cầu,đường,giao lộ
-2,Đường đi / địa điểm,Mina bài 23,8,はし nghĩa là gì?,,,cầu,đường,tòa nhà,đèn giao thông
-2,Đường đi / địa điểm,Mina bài 23,9,ちゅうしゃじょう nghĩa là gì?,,,bãi đỗ xe,tòa nhà,ngã tư,cầu
-2,Đường đi / địa điểm,Mina bài 23,10,たてもの nghĩa là gì?,,,tòa nhà,bãi đỗ xe,đường,góc đường ---
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+2,Đường đi / địa điểm,Mina bài 23,1,歩きます（あるきます） nghĩa là gì?,,đi bộ,băng qua,rẽ,kéo
+2,Đường đi / địa điểm,Mina bài 23,2,わたります nghĩa là gì?,,băng qua,đi bộ,rẽ,xoay
+2,Đường đi / địa điểm,Mina bài 23,3,まがります nghĩa là gì?,,rẽ,đi bộ,băng qua,chạm
+2,Đường đi / địa điểm,Mina bài 23,4,道（みち） nghĩa là gì?,,đường,ngã tư,cầu,bãi đỗ xe
+2,Đường đi / địa điểm,Mina bài 23,5,こうさてん nghĩa là gì?,,ngã tư / giao lộ,đèn giao thông,góc đường,cầu
+2,Đường đi / địa điểm,Mina bài 23,6,しんごう nghĩa là gì?,,đèn giao thông,ngã tư,tòa nhà,bãi đỗ xe
+2,Đường đi / địa điểm,Mina bài 23,7,角（かど） nghĩa là gì?,,góc đường / góc,cầu,đường,giao lộ
+2,Đường đi / địa điểm,Mina bài 23,8,はし nghĩa là gì?,,cầu,đường,tòa nhà,đèn giao thông
+2,Đường đi / địa điểm,Mina bài 23,9,ちゅうしゃじょう nghĩa là gì?,,bãi đỗ xe,tòa nhà,ngã tư,cầu
+2,Đường đi / địa điểm,Mina bài 23,10,たてもの nghĩa là gì?,,tòa nhà,bãi đỗ xe,đường,góc đường ---

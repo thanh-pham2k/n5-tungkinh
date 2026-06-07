@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,Kanji → Nghĩa,Kanji N5 Bài 13,1,入,,nghĩa là gì?,vào,ra,đi,đến
-1,Kanji → Nghĩa,Kanji N5 Bài 13,2,出,,nghĩa là gì?,vào,ra,mưa,xe
-1,Kanji → Nghĩa,Kanji N5 Bài 13,3,市,,nghĩa là gì?,làng,thị trấn,thành phố / chợ,xe điện
-1,Kanji → Nghĩa,Kanji N5 Bài 13,4,町,,nghĩa là gì?,thị trấn / khu phố,làng,mưa,điện
-1,Kanji → Nghĩa,Kanji N5 Bài 13,5,村,,nghĩa là gì?,thành phố,làng,chợ,xe
-1,Kanji → Nghĩa,Kanji N5 Bài 13,6,雨,,nghĩa là gì?,nước,mưa,điện,trời
-1,Kanji → Nghĩa,Kanji N5 Bài 13,7,電,,nghĩa là gì?,xe,điện,làng,mưa
-1,Kanji → Nghĩa,Kanji N5 Bài 13,8,車,,nghĩa là gì?,xe,điện,thành phố,thị trấn
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Kanji → Nghĩa,Kanji N5 Bài 13,1,入,nghĩa là gì?,vào,ra,đi,đến
+1,Kanji → Nghĩa,Kanji N5 Bài 13,2,出,nghĩa là gì?,vào,ra,mưa,xe
+1,Kanji → Nghĩa,Kanji N5 Bài 13,3,市,nghĩa là gì?,làng,thị trấn,thành phố / chợ,xe điện
+1,Kanji → Nghĩa,Kanji N5 Bài 13,4,町,nghĩa là gì?,thị trấn / khu phố,làng,mưa,điện
+1,Kanji → Nghĩa,Kanji N5 Bài 13,5,村,nghĩa là gì?,thành phố,làng,chợ,xe
+1,Kanji → Nghĩa,Kanji N5 Bài 13,6,雨,nghĩa là gì?,nước,mưa,điện,trời
+1,Kanji → Nghĩa,Kanji N5 Bài 13,7,電,nghĩa là gì?,xe,điện,làng,mưa
+1,Kanji → Nghĩa,Kanji N5 Bài 13,8,車,nghĩa là gì?,xe,điện,thành phố,thị trấn

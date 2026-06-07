@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-2,Kanji → Cách đọc,Kanji N5 Bài 17,1,春,,đọc là gì?,はる,なつ,あき,ふゆ
-2,Kanji → Cách đọc,Kanji N5 Bài 17,2,夏,,đọc là gì?,あさ,なつ,ひる,ゆう
-2,Kanji → Cách đọc,Kanji N5 Bài 17,3,秋,,đọc là gì?,はる,ふゆ,あき,ほう
-2,Kanji → Cách đọc,Kanji N5 Bài 17,4,冬,,đọc là gì?,ふゆ,なつ,あさ,かた
-2,Kanji → Cách đọc,Kanji N5 Bài 17,5,朝,,đọc là gì?,あさ,ひる,ゆう,あき
-2,Kanji → Cách đọc,Kanji N5 Bài 17,6,昼,,đọc là gì?,はる,ひる,ふゆ,ほう
-2,Kanji → Cách đọc,Kanji N5 Bài 17,7,夕方,,đọc là gì?,ゆうがた,あさがた,ひるがた,ほうこう
-2,Kanji → Cách đọc,Kanji N5 Bài 17,8,方向,,đọc là gì?,ほうこう,ゆうがた,あさ,ひる
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+2,Kanji → Cách đọc,Kanji N5 Bài 17,1,春,đọc là gì?,はる,なつ,あき,ふゆ
+2,Kanji → Cách đọc,Kanji N5 Bài 17,2,夏,đọc là gì?,あさ,なつ,ひる,ゆう
+2,Kanji → Cách đọc,Kanji N5 Bài 17,3,秋,đọc là gì?,はる,ふゆ,あき,ほう
+2,Kanji → Cách đọc,Kanji N5 Bài 17,4,冬,đọc là gì?,ふゆ,なつ,あさ,かた
+2,Kanji → Cách đọc,Kanji N5 Bài 17,5,朝,đọc là gì?,あさ,ひる,ゆう,あき
+2,Kanji → Cách đọc,Kanji N5 Bài 17,6,昼,đọc là gì?,はる,ひる,ふゆ,ほう
+2,Kanji → Cách đọc,Kanji N5 Bài 17,7,夕方,đọc là gì?,ゆうがた,あさがた,ひるがた,ほうこう
+2,Kanji → Cách đọc,Kanji N5 Bài 17,8,方向,đọc là gì?,ほうこう,ゆうがた,あさ,ひる

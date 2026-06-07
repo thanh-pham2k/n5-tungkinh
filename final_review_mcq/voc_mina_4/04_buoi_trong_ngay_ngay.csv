@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-4,Buổi trong ngày / ngày,Mina bài 4,1,あさ nghĩa là gì?,asa nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,buổi sáng,buổi trưa,buổi tối,tối nay
-4,Buổi trong ngày / ngày,Mina bài 4,2,ひる nghĩa là gì?,hiru nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,buổi trưa,buổi sáng,buổi tối,sáng nay
-4,Buổi trong ngày / ngày,Mina bài 4,3,ばん / よる nghĩa là gì?,ban / yoru nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,buổi tối / đêm,buổi sáng,buổi trưa,hôm qua
-4,Buổi trong ngày / ngày,Mina bài 4,4,おととい nghĩa là gì?,ototoi nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,hôm kia,hôm qua,hôm nay,ngày mai
-4,Buổi trong ngày / ngày,Mina bài 4,5,きのう nghĩa là gì?,kinou nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,hôm qua,hôm nay,ngày mai,ngày kia
-4,Buổi trong ngày / ngày,Mina bài 4,6,きょう nghĩa là gì?,kyou nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,hôm nay,hôm qua,ngày mai,sáng nay
-4,Buổi trong ngày / ngày,Mina bài 4,7,あした nghĩa là gì?,ashita nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,ngày mai,hôm nay,hôm qua,ngày kia
-4,Buổi trong ngày / ngày,Mina bài 4,8,あさって nghĩa là gì?,asatte nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,ngày kia,ngày mai,hôm kia,hôm nay
-4,Buổi trong ngày / ngày,Mina bài 4,9,けさ nghĩa là gì?,kesa nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,sáng nay,tối nay,mỗi sáng,buổi trưa
-4,Buổi trong ngày / ngày,Mina bài 4,10,こんばん nghĩa là gì?,konban nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,tối nay,sáng nay,mỗi tối,buổi sáng
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+4,Buổi trong ngày / ngày,Mina bài 4,1,あさ nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,buổi sáng,buổi trưa,buổi tối,tối nay
+4,Buổi trong ngày / ngày,Mina bài 4,2,ひる nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,buổi trưa,buổi sáng,buổi tối,sáng nay
+4,Buổi trong ngày / ngày,Mina bài 4,3,ばん / よる nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,buổi tối / đêm,buổi sáng,buổi trưa,hôm qua
+4,Buổi trong ngày / ngày,Mina bài 4,4,おととい nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,hôm kia,hôm qua,hôm nay,ngày mai
+4,Buổi trong ngày / ngày,Mina bài 4,5,きのう nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,hôm qua,hôm nay,ngày mai,ngày kia
+4,Buổi trong ngày / ngày,Mina bài 4,6,きょう nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,hôm nay,hôm qua,ngày mai,sáng nay
+4,Buổi trong ngày / ngày,Mina bài 4,7,あした nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,ngày mai,hôm nay,hôm qua,ngày kia
+4,Buổi trong ngày / ngày,Mina bài 4,8,あさって nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,ngày kia,ngày mai,hôm kia,hôm nay
+4,Buổi trong ngày / ngày,Mina bài 4,9,けさ nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,sáng nay,tối nay,mỗi sáng,buổi trưa
+4,Buổi trong ngày / ngày,Mina bài 4,10,こんばん nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,tối nay,sáng nay,mỗi tối,buổi sáng

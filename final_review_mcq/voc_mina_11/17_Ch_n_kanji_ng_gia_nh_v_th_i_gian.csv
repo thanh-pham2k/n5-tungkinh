@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,1,“chị gái tôi” viết bằng kanji nào?,,Hỏi kanji đúng cho: “chị gái tôi”,姉,兄,弟,妹
-17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,2,“em trai tôi” viết bằng kanji nào?,,Hỏi kanji đúng cho: “em trai tôi”,弟,兄,姉,妹
-17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,3,“em gái tôi” viết bằng kanji nào?,,Hỏi kanji đúng cho: “em gái tôi”,妹,姉,兄,弟
-17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,4,“bao nhiêu người” viết bằng kanji nào?,,Hỏi kanji đúng cho: “bao nhiêu người”,何人,何枚,何台,何回
-17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,5,“thời tiết” viết bằng kanji nào?,,Hỏi kanji đúng cho: “thời tiết”,天気,電気,電話,時間
-17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,6,“Nhật Bản” viết bằng kanji nào?,,Hỏi kanji đúng cho: “Nhật Bản”,日本,中国,韓国,外国
-17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,7,“yên” viết bằng kanji nào?,,Hỏi kanji đúng cho: “yên”,円,月,年,日
-17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,8,“công ty” viết bằng kanji nào?,,Hỏi kanji đúng cho: “công ty”,会社,学校,教室,家
-17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,9,“đi” viết bằng kanji nào?,,Hỏi kanji đúng cho: “đi”,行きます,来ます,食べます,飲みます
-17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,10,“nghỉ” viết bằng kanji nào?,,Hỏi kanji đúng cho: “nghỉ”,休みます,行きます,来ます,見ます
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,1,“chị gái tôi” viết bằng kanji nào?,Hỏi kanji đúng cho: “chị gái tôi”,姉,兄,弟,妹
+17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,2,“em trai tôi” viết bằng kanji nào?,Hỏi kanji đúng cho: “em trai tôi”,弟,兄,姉,妹
+17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,3,“em gái tôi” viết bằng kanji nào?,Hỏi kanji đúng cho: “em gái tôi”,妹,姉,兄,弟
+17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,4,“bao nhiêu người” viết bằng kanji nào?,Hỏi kanji đúng cho: “bao nhiêu người”,何人,何枚,何台,何回
+17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,5,“thời tiết” viết bằng kanji nào?,Hỏi kanji đúng cho: “thời tiết”,天気,電気,電話,時間
+17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,6,“Nhật Bản” viết bằng kanji nào?,Hỏi kanji đúng cho: “Nhật Bản”,日本,中国,韓国,外国
+17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,7,“yên” viết bằng kanji nào?,Hỏi kanji đúng cho: “yên”,円,月,年,日
+17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,8,“công ty” viết bằng kanji nào?,Hỏi kanji đúng cho: “công ty”,会社,学校,教室,家
+17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,9,“đi” viết bằng kanji nào?,Hỏi kanji đúng cho: “đi”,行きます,来ます,食べます,飲みます
+17,Chọn kanji đúng / gia đình và thời gian,Mina bài 11,10,“nghỉ” viết bằng kanji nào?,Hỏi kanji đúng cho: “nghỉ”,休みます,行きます,来ます,見ます

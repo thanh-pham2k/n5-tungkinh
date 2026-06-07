@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,1,“mưa” là từ nào?,“mưa” là từ nào?,“mưa” là từ nào?,雨（あめ）,雪（ゆき）,くもり,天気（てんき）
-8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,2,“tuyết” là từ nào?,“tuyết” là từ nào?,“tuyết” là từ nào?,雪（ゆき）,雨（あめ）,くもり,冬（ふゆ）
-8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,3,“trời nhiều mây” là từ nào?,“trời nhiều mây” là từ nào?,“trời nhiều mây” là từ nào?,くもり,雨（あめ）,雪（ゆき）,天気（てんき）
-8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,4,“khách sạn” là từ nào?,“khách sạn” là từ nào?,“khách sạn” là từ nào?,ホテル,空港（くうこう）,海（うみ）,世界（せかい）
-8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,5,“sân bay” là từ nào?,“sân bay” là từ nào?,“sân bay” là từ nào?,空港（くうこう）,ホテル,海（うみ）,パーティー
-8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,6,“biển” là từ nào?,“biển” là từ nào?,“biển” là từ nào?,海（うみ）,世界（せかい）,ホテル,空港（くうこう）
-8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,7,“thế giới” là từ nào?,“thế giới” là từ nào?,“thế giới” là từ nào?,世界（せかい）,海（うみ）,まつり,きせつ
-8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,8,“tiệc” là từ nào?,“tiệc” là từ nào?,“tiệc” là từ nào?,パーティー,まつり,すきやき,いけばな
-8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,9,“lễ hội” là từ nào?,“lễ hội” là từ nào?,“lễ hội” là từ nào?,まつり,パーティー,もみじ,天気（てんき）
-8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,10,“lá đỏ mùa thu” là từ nào?,“lá đỏ mùa thu” là từ nào?,“lá đỏ mùa thu” là từ nào?,もみじ,いけばな,秋（あき）,さしみ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,1,“mưa” là từ nào?,“mưa” là từ nào?,雨（あめ）,雪（ゆき）,くもり,天気（てんき）
+8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,2,“tuyết” là từ nào?,“tuyết” là từ nào?,雪（ゆき）,雨（あめ）,くもり,冬（ふゆ）
+8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,3,“trời nhiều mây” là từ nào?,“trời nhiều mây” là từ nào?,くもり,雨（あめ）,雪（ゆき）,天気（てんき）
+8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,4,“khách sạn” là từ nào?,“khách sạn” là từ nào?,ホテル,空港（くうこう）,海（うみ）,世界（せかい）
+8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,5,“sân bay” là từ nào?,“sân bay” là từ nào?,空港（くうこう）,ホテル,海（うみ）,パーティー
+8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,6,“biển” là từ nào?,“biển” là từ nào?,海（うみ）,世界（せかい）,ホテル,空港（くうこう）
+8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,7,“thế giới” là từ nào?,“thế giới” là từ nào?,世界（せかい）,海（うみ）,まつり,きせつ
+8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,8,“tiệc” là từ nào?,“tiệc” là từ nào?,パーティー,まつり,すきやき,いけばな
+8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,9,“lễ hội” là từ nào?,“lễ hội” là từ nào?,まつり,パーティー,もみじ,天気（てんき）
+8,Việt → Nhật / địa điểm và văn hóa,Mina bài 12,10,“lá đỏ mùa thu” là từ nào?,“lá đỏ mùa thu” là từ nào?,もみじ,いけばな,秋（あき）,さしみ

@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Phương hướng / thời gian,Mina bài 20,1,こっち,,Nghĩa là gì?,phía này / cái này,phía đó / cái đó,phía kia / cái kia,phía nào / cái nào
-3,Phương hướng / thời gian,Mina bài 20,2,そっち,,Nghĩa là gì?,phía đó / cái đó,phía này / cái này,phía kia / cái kia,phía nào / cái nào
-3,Phương hướng / thời gian,Mina bài 20,3,あっち,,Nghĩa là gì?,phía kia / cái kia,phía này / cái này,phía đó / cái đó,phía nào / cái nào
-3,Phương hướng / thời gian,Mina bài 20,4,どっち,,Nghĩa là gì?,phía nào / cái nào,phía này,phía đó,phía kia
-3,Phương hướng / thời gian,Mina bài 20,5,はじめ,,Nghĩa là gì?,đầu / ban đầu,cuối / kết thúc,hôm nọ,nhiều thứ
-3,Phương hướng / thời gian,Mina bài 20,6,おわり,,Nghĩa là gì?,cuối / kết thúc,đầu / ban đầu,phía nào,nếu được
-3,Phương hướng / thời gian,Mina bài 20,7,このあいだ,,Nghĩa là gì?,hôm nọ / vừa rồi,ban đầu,cuối cùng,bây giờ
-3,Phương hướng / thời gian,Mina bài 20,8,はじめは かんたんです,,Nghĩa là gì?,Ban đầu thì dễ.,Cuối cùng thì dễ.,Hôm nọ thì dễ.,Phía này thì dễ.
-3,Phương hướng / thời gian,Mina bài 20,9,おわりは たいへんです,,Nghĩa là gì?,Cuối thì vất vả.,Đầu thì vất vả.,Hôm nọ thì vui.,Phía kia thì tiện lợi.
-3,Phương hướng / thời gian,Mina bài 20,10,このあいだ 友達（ともだち）に 会いました（あいました）,,Nghĩa là gì?,Hôm nọ đã gặp bạn.,Ban đầu gặp bạn.,Cuối cùng gặp bạn.,Sắp gặp bạn.
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Phương hướng / thời gian,Mina bài 20,1,こっち,Nghĩa là gì?,phía này / cái này,phía đó / cái đó,phía kia / cái kia,phía nào / cái nào
+3,Phương hướng / thời gian,Mina bài 20,2,そっち,Nghĩa là gì?,phía đó / cái đó,phía này / cái này,phía kia / cái kia,phía nào / cái nào
+3,Phương hướng / thời gian,Mina bài 20,3,あっち,Nghĩa là gì?,phía kia / cái kia,phía này / cái này,phía đó / cái đó,phía nào / cái nào
+3,Phương hướng / thời gian,Mina bài 20,4,どっち,Nghĩa là gì?,phía nào / cái nào,phía này,phía đó,phía kia
+3,Phương hướng / thời gian,Mina bài 20,5,はじめ,Nghĩa là gì?,đầu / ban đầu,cuối / kết thúc,hôm nọ,nhiều thứ
+3,Phương hướng / thời gian,Mina bài 20,6,おわり,Nghĩa là gì?,cuối / kết thúc,đầu / ban đầu,phía nào,nếu được
+3,Phương hướng / thời gian,Mina bài 20,7,このあいだ,Nghĩa là gì?,hôm nọ / vừa rồi,ban đầu,cuối cùng,bây giờ
+3,Phương hướng / thời gian,Mina bài 20,8,はじめは かんたんです,Nghĩa là gì?,Ban đầu thì dễ.,Cuối cùng thì dễ.,Hôm nọ thì dễ.,Phía này thì dễ.
+3,Phương hướng / thời gian,Mina bài 20,9,おわりは たいへんです,Nghĩa là gì?,Cuối thì vất vả.,Đầu thì vất vả.,Hôm nọ thì vui.,Phía kia thì tiện lợi.
+3,Phương hướng / thời gian,Mina bài 20,10,このあいだ 友達（ともだち）に 会いました（あいました）,Nghĩa là gì?,Hôm nọ đã gặp bạn.,Ban đầu gặp bạn.,Cuối cùng gặp bạn.,Sắp gặp bạn.

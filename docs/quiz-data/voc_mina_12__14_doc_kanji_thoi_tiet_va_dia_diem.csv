@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,1,秋 đọc là gì?,aki đọc là gì?,秋 đọc là gì?,あき,はる,なつ,ふゆ
-14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,2,冬 đọc là gì?,fuyu đọc là gì?,冬 đọc là gì?,ふゆ,はる,なつ,あき
-14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,3,天気 đọc là gì?,tenki đọc là gì?,天気 đọc là gì?,てんき,でんき,てき,てんぎ
-14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,4,雨 đọc là gì?,ame đọc là gì?,雨 đọc là gì?,あめ,ゆき,くもり,みず
-14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,5,雪 đọc là gì?,yuki đọc là gì?,雪 đọc là gì?,ゆき,あめ,くもり,ふゆ
-14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,6,空港 đọc là gì?,kuukou đọc là gì?,空港 đọc là gì?,くうこう,くこう,そらこう,くうごう
-14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,7,海 đọc là gì?,umi đọc là gì?,海 đọc là gì?,うみ,やま,かわ,そら
-14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,8,世界 đọc là gì?,sekai đọc là gì?,世界 đọc là gì?,せかい,せいかい,せがい,せけん
-14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,9,食べます đọc là gì?,tabemasu đọc là gì?,食べます đọc là gì?,たべます,のみます,みます,かいます
-14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,10,富士山 đọc là gì?,fujisan đọc là gì?,富士山 đọc là gì?,ふじさん,ふじやま,ふしさん,ふしやま
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,1,秋 đọc là gì?,秋 đọc là gì?,あき,はる,なつ,ふゆ
+14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,2,冬 đọc là gì?,冬 đọc là gì?,ふゆ,はる,なつ,あき
+14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,3,天気 đọc là gì?,天気 đọc là gì?,てんき,でんき,てき,てんぎ
+14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,4,雨 đọc là gì?,雨 đọc là gì?,あめ,ゆき,くもり,みず
+14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,5,雪 đọc là gì?,雪 đọc là gì?,ゆき,あめ,くもり,ふゆ
+14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,6,空港 đọc là gì?,空港 đọc là gì?,くうこう,くこう,そらこう,くうごう
+14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,7,海 đọc là gì?,海 đọc là gì?,うみ,やま,かわ,そら
+14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,8,世界 đọc là gì?,世界 đọc là gì?,せかい,せいかい,せがい,せけん
+14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,9,食べます đọc là gì?,食べます đọc là gì?,たべます,のみます,みます,かいます
+14,Đọc kanji / thời tiết và địa điểm,Mina bài 12,10,富士山 đọc là gì?,富士山 đọc là gì?,ふじさん,ふじやま,ふしさん,ふしやま

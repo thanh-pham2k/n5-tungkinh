@@ -42,7 +42,6 @@ class Answer:
     letter: str
     correct_word: str
     hiragana: str
-    romaji: str
     meaning: str
 
 
@@ -139,9 +138,9 @@ def parse_answers(path: Path) -> dict[str, Answer]:
         cells = split_markdown_row(line)
         if not cells or not re.match(r"^\d+\.\d+$", cells[0]):
             continue
-        if len(cells) < 6:
+        if len(cells) < 5:
             raise ValueError(f"{path.name}: answer row has {len(cells)} columns: {line}")
-        qid, letter, correct_word, hiragana, romaji, meaning = cells[:6]
+        qid, letter, correct_word, hiragana, meaning = cells[:5]
         letter = letter.strip().upper()
         if letter not in {"A", "B", "C", "D"}:
             raise ValueError(f"{path.name}: invalid answer letter for {qid}: {letter}")
@@ -150,7 +149,6 @@ def parse_answers(path: Path) -> dict[str, Answer]:
             letter=letter,
             correct_word=correct_word,
             hiragana=hiragana,
-            romaji=romaji,
             meaning=meaning,
         )
     return answers
@@ -192,7 +190,6 @@ def make_model() -> genanki.Model:
             {"name": "Answer"},
             {"name": "CorrectWord"},
             {"name": "Hiragana"},
-            {"name": "Romaji"},
             {"name": "Meaning"},
             {"name": "ClassA"},
             {"name": "ClassB"},
@@ -259,7 +256,6 @@ function selectAnswer(input) {
   <div><span class="label">Đáp án đúng:</span> {{Answer}}</div>
   <div><span class="label">Từ đúng:</span> {{CorrectWord}}</div>
   <div><span class="label">Hiragana:</span> {{Hiragana}}</div>
-  <div><span class="label">Romaji:</span> {{Romaji}}</div>
   <div><span class="label">Nghĩa / giải thích ngắn:</span> {{Meaning}}</div>
 </div>
 """,
@@ -355,7 +351,6 @@ def note_for_question(model: genanki.Model, question: Question, answer: Answer) 
             esc(answer.letter),
             esc(answer.correct_word),
             esc(answer.hiragana),
-            esc(answer.romaji),
             esc(answer.meaning),
             classes["A"],
             classes["B"],

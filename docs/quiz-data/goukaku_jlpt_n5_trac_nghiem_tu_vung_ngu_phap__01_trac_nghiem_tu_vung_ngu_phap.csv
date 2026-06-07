@@ -1,19 +1,19 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,1,エレベーターで いきますか、（ ）で いきますか。,"Erebêta de ikimasu ka, ( ) de ikimasu ka.",Bạn đi bằng thang máy hay đi bằng cầu thang?,かいだん,げんかん,さんぽ,だいどころ
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,2,がっこうは 6がつから 8がつまで （ ）やすみです。,Gakkou wa 6-gatsu kara 8-gatsu made ( ) yasumi desu.,Trường học nghỉ 3 tháng từ tháng 6 đến tháng 8.,3かげつ,3かつき,3がつ,3げつ
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,3,うちに かさが 2（ ）あります。,Uchi ni kasa ga 2 ( ) arimasu.,Ở nhà có 2 chiếc ô.,つ,ほん,だい,さつ
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,4,まいあさ （ ）を のみます。,Maiasa ( ) o nomimasu.,Mỗi sáng tôi uống trà.,にく,おちゃ,おかし,やさい
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,5,（ ）を かぶります。,( ) o kaburimasu.,Tôi đội mũ.,うわぎ,ズボン,ぼうし,くつ
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,6,この ふくには （ ）が ありません。,Kono fuku ni wa ( ) ga arimasen.,Bộ quần áo này không có túi.,アパート,コート,カレンダー,ポケット
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,7,がっこうは えきから 100（ ）くらいです。,Gakkou wa eki kara 100 ( ) kurai desu.,Trường học cách ga khoảng 100 mét.,メートル,ページ,グラム,クラス
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,8,ここで みちを （ ）ましょう。,Koko de michi o ( ) mashou.,Hãy băng qua đường ở đây nhé.,とまり,わたり,とり,ならび
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,9,めがねを （ ）ほんを よみます。,Megane o ( ) hon o yomimasu.,Tôi đeo kính rồi đọc sách.,かいて,かけて,あけて,しめて
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,10,ここで くつを （ ）ください。,Koko de kutsu o ( ) kudasai.,Hãy cởi giày ở đây.,きて,はって,はしって,ぬいで
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,11,かぜを （ ）ました。,Kaze o ( ) mashita.,Tôi bị cảm rồi.,はき,ふき,ひき,ふり
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,12,あの でんしゃは この えきには （ ）ません。,Ano densha wa kono eki ni wa ( ) masen.,Con tàu đó không dừng lại ở ga này.,けし,で,ならび,とまり
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,13,わたしの りょうしんは （ ）げんきだ。,Watashi no ryoushin wa ( ) genki da.,Bố mẹ tôi vẫn rất trẻ và khỏe mạnh.,わかくて,あたらしくて,ふるくて,ひろくて
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,14,この ぶどうは （ ）おいしいです。,Kono budou wa ( ) oishii desu.,Nho này ngọt và ngon.,あまくて,あぶなくて,たのしくて,すずしくて
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,15,（ ）なにも みえません。,( ) nani mo miemasen.,Vì tối nên không nhìn thấy gì cả.,あかくて,さむくて,くらくて,あぶなくて
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,16,ここの こうえんは とても （ ）です。,Koko no kouen wa totemo ( ) desu.,Công viên ở đây rất yên tĩnh.,おなじ,ひま,しずか,しんせつ
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,17,おさけは （ ）すきじゃ ありません。,Osake wa ( ) suki ja arimasen.,Tôi không thích rượu lắm.,あまり,とても,よく,すぐ
-1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,18,（ ）からの てがみですか。,( ) kara no tegami desu ka.,Đó là thư từ ai vậy?,どう,なん,なんじ,どなた
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,1,エレベーターで いきますか、（ ）で いきますか。,Bạn đi bằng thang máy hay đi bằng cầu thang?,かいだん,げんかん,さんぽ,だいどころ
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,2,がっこうは 6がつから 8がつまで （ ）やすみです。,Trường học nghỉ 3 tháng từ tháng 6 đến tháng 8.,3かげつ,3かつき,3がつ,3げつ
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,3,うちに かさが 2（ ）あります。,Ở nhà có 2 chiếc ô.,つ,ほん,だい,さつ
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,4,まいあさ （ ）を のみます。,Mỗi sáng tôi uống trà.,にく,おちゃ,おかし,やさい
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,5,（ ）を かぶります。,Tôi đội mũ.,うわぎ,ズボン,ぼうし,くつ
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,6,この ふくには （ ）が ありません。,Bộ quần áo này không có túi.,アパート,コート,カレンダー,ポケット
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,7,がっこうは えきから 100（ ）くらいです。,Trường học cách ga khoảng 100 mét.,メートル,ページ,グラム,クラス
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,8,ここで みちを （ ）ましょう。,Hãy băng qua đường ở đây nhé.,とまり,わたり,とり,ならび
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,9,めがねを （ ）ほんを よみます。,Tôi đeo kính rồi đọc sách.,かいて,かけて,あけて,しめて
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,10,ここで くつを （ ）ください。,Hãy cởi giày ở đây.,きて,はって,はしって,ぬいで
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,11,かぜを （ ）ました。,Tôi bị cảm rồi.,はき,ふき,ひき,ふり
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,12,あの でんしゃは この えきには （ ）ません。,Con tàu đó không dừng lại ở ga này.,けし,で,ならび,とまり
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,13,わたしの りょうしんは （ ）げんきだ。,Bố mẹ tôi vẫn rất trẻ và khỏe mạnh.,わかくて,あたらしくて,ふるくて,ひろくて
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,14,この ぶどうは （ ）おいしいです。,Nho này ngọt và ngon.,あまくて,あぶなくて,たのしくて,すずしくて
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,15,（ ）なにも みえません。,Vì tối nên không nhìn thấy gì cả.,あかくて,さむくて,くらくて,あぶなくて
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,16,ここの こうえんは とても （ ）です。,Công viên ở đây rất yên tĩnh.,おなじ,ひま,しずか,しんせつ
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,17,おさけは （ ）すきじゃ ありません。,Tôi không thích rượu lắm.,あまり,とても,よく,すぐ
+1,Trắc nghiệm từ vựng & Ngữ pháp,JLPT N5,18,（ ）からの てがみですか。,Đó là thư từ ai vậy?,どう,なん,なんじ,どなた

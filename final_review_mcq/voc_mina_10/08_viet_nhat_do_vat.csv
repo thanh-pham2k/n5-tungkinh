@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-8,Việt → Nhật / đồ vật,Mina bài 10,1,“gấu trúc” là từ nào?,“gấu trúc” la tu nao?,“gấu trúc” là từ nào?,パンダ,ぞう,犬（いぬ）,ねこ
-8,Việt → Nhật / đồ vật,Mina bài 10,2,“cây” là từ nào?,“cây” la tu nao?,“cây” là từ nào?,木（き）,もの,はこ,たな
-8,Việt → Nhật / đồ vật,Mina bài 10,3,“đồ vật” là từ nào?,“đồ vật” la tu nao?,“đồ vật” là từ nào?,もの,木（き）,でんち,スイッチ
-8,Việt → Nhật / đồ vật,Mina bài 10,4,“pin” là từ nào?,“pin” la tu nao?,“pin” là từ nào?,でんち,スイッチ,はこ,ポスト
-8,Việt → Nhật / đồ vật,Mina bài 10,5,“hộp” là từ nào?,“hộp” la tu nao?,“hộp” là từ nào?,はこ,でんち,ドア,まど
-8,Việt → Nhật / đồ vật,Mina bài 10,6,“công tắc” là từ nào?,“công tắc” la tu nao?,“công tắc” là từ nào?,スイッチ,でんち,れいぞうこ,たな
-8,Việt → Nhật / đồ vật,Mina bài 10,7,“tủ lạnh” là từ nào?,“tủ lạnh” la tu nao?,“tủ lạnh” là từ nào?,れいぞうこ,テーブル,ベッド,たな
-8,Việt → Nhật / đồ vật,Mina bài 10,8,“bàn” là từ nào?,“bàn” la tu nao?,“bàn” là từ nào?,テーブル,ベッド,たな,はこ
-8,Việt → Nhật / đồ vật,Mina bài 10,9,“giường” là từ nào?,“giường” la tu nao?,“giường” là từ nào?,ベッド,テーブル,たな,ドア
-8,Việt → Nhật / đồ vật,Mina bài 10,10,“kệ” là từ nào?,“kệ” la tu nao?,“kệ” là từ nào?,たな,ベッド,テーブル,まど
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+8,Việt → Nhật / đồ vật,Mina bài 10,1,“gấu trúc” là từ nào?,“gấu trúc” là từ nào?,パンダ,ぞう,犬（いぬ）,ねこ
+8,Việt → Nhật / đồ vật,Mina bài 10,2,“cây” là từ nào?,“cây” là từ nào?,木（き）,もの,はこ,たな
+8,Việt → Nhật / đồ vật,Mina bài 10,3,“đồ vật” là từ nào?,“đồ vật” là từ nào?,もの,木（き）,でんち,スイッチ
+8,Việt → Nhật / đồ vật,Mina bài 10,4,“pin” là từ nào?,“pin” là từ nào?,でんち,スイッチ,はこ,ポスト
+8,Việt → Nhật / đồ vật,Mina bài 10,5,“hộp” là từ nào?,“hộp” là từ nào?,はこ,でんち,ドア,まど
+8,Việt → Nhật / đồ vật,Mina bài 10,6,“công tắc” là từ nào?,“công tắc” là từ nào?,スイッチ,でんち,れいぞうこ,たな
+8,Việt → Nhật / đồ vật,Mina bài 10,7,“tủ lạnh” là từ nào?,“tủ lạnh” là từ nào?,れいぞうこ,テーブル,ベッド,たな
+8,Việt → Nhật / đồ vật,Mina bài 10,8,“bàn” là từ nào?,“bàn” là từ nào?,テーブル,ベッド,たな,はこ
+8,Việt → Nhật / đồ vật,Mina bài 10,9,“giường” là từ nào?,“giường” là từ nào?,ベッド,テーブル,たな,ドア
+8,Việt → Nhật / đồ vật,Mina bài 10,10,“kệ” là từ nào?,“kệ” là từ nào?,たな,ベッド,テーブル,まど

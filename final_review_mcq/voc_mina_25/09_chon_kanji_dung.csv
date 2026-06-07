@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-9,Chọn kanji đúng,Mina bài 25,1,“suy nghĩ” viết bằng kanji nào?,,“suy nghĩ” viết bằng kanji nào?,考えます,思います,言います,聞きます
-9,Chọn kanji đúng,Mina bài 25,2,“đến / tới” viết bằng kanji nào?,,“đến / tới” viết bằng kanji nào?,着きます,来ます,行きます,帰ります
-9,Chọn kanji đúng,Mina bài 25,3,“có tuổi / lấy” viết bằng kanji nào?,,“có tuổi / lấy” viết bằng kanji nào?,取ります,足ります,撮ります,鳥ます
-9,Chọn kanji đúng,Mina bài 25,4,“đủ” viết bằng kanji nào?,,“đủ” viết bằng kanji nào?,足ります,取ります,あります,要ります
-9,Chọn kanji đúng,Mina bài 25,5,“chuyển công tác” viết bằng kanji nào?,,“chuyển công tác” viết bằng kanji nào?,転勤,転校,引っ越し,出張
-9,Chọn kanji đúng,Mina bài 25,6,“quê / nông thôn” viết bằng kanji nào?,,“quê / nông thôn” viết bằng kanji nào?,田舎,都会,町,国
-9,Chọn kanji đúng,Mina bài 25,7,“một trăm triệu” viết bằng kanji nào?,,“một trăm triệu” viết bằng kanji nào?,億,万,千,百
-9,Chọn kanji đúng,Mina bài 25,8,“Nhật Bản” viết bằng kanji nào?,,“Nhật Bản” viết bằng kanji nào?,日本,中国,韓国,米国
-9,Chọn kanji đúng,Mina bài 25,9,“Tokyo” viết bằng kanji nào?,,“Tokyo” viết bằng kanji nào?,東京,大阪,京都,神戸
-9,Chọn kanji đúng,Mina bài 25,10,“Osaka” viết bằng kanji nào?,,“Osaka” viết bằng kanji nào?,大阪,東京,京都,神戸
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+9,Chọn kanji đúng,Mina bài 25,1,“suy nghĩ” viết bằng kanji nào?,“suy nghĩ” viết bằng kanji nào?,考えます,思います,言います,聞きます
+9,Chọn kanji đúng,Mina bài 25,2,“đến / tới” viết bằng kanji nào?,“đến / tới” viết bằng kanji nào?,着きます,来ます,行きます,帰ります
+9,Chọn kanji đúng,Mina bài 25,3,“có tuổi / lấy” viết bằng kanji nào?,“có tuổi / lấy” viết bằng kanji nào?,取ります,足ります,撮ります,鳥ます
+9,Chọn kanji đúng,Mina bài 25,4,“đủ” viết bằng kanji nào?,“đủ” viết bằng kanji nào?,足ります,取ります,あります,要ります
+9,Chọn kanji đúng,Mina bài 25,5,“chuyển công tác” viết bằng kanji nào?,“chuyển công tác” viết bằng kanji nào?,転勤,転校,引っ越し,出張
+9,Chọn kanji đúng,Mina bài 25,6,“quê / nông thôn” viết bằng kanji nào?,“quê / nông thôn” viết bằng kanji nào?,田舎,都会,町,国
+9,Chọn kanji đúng,Mina bài 25,7,“một trăm triệu” viết bằng kanji nào?,“một trăm triệu” viết bằng kanji nào?,億,万,千,百
+9,Chọn kanji đúng,Mina bài 25,8,“Nhật Bản” viết bằng kanji nào?,“Nhật Bản” viết bằng kanji nào?,日本,中国,韓国,米国
+9,Chọn kanji đúng,Mina bài 25,9,“Tokyo” viết bằng kanji nào?,“Tokyo” viết bằng kanji nào?,東京,大阪,京都,神戸
+9,Chọn kanji đúng,Mina bài 25,10,“Osaka” viết bằng kanji nào?,“Osaka” viết bằng kanji nào?,大阪,東京,京都,神戸

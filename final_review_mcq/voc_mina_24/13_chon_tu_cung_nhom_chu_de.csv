@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-13,Chọn từ cùng nhóm chủ đề,Mina bài 24,1,Từ nào thuộc nhóm “cho / nhận”?,Từ nào thuộc nhóm “cho / nhận”,Từ nào thuộc nhóm “cho / nhận”?,くれます,案内します（あんないします）,書きます（かきます）,呼びます（よびます）
-13,Chọn từ cùng nhóm chủ đề,Mina bài 24,2,Từ nào thuộc nhóm “dẫn người đi”?,Từ nào thuộc nhóm “dẫn người đi”,Từ nào thuộc nhóm “dẫn người đi”?,連れて行きます（つれていきます）,入れます（いれます）,書きます（かきます）,貸します（かします）
-13,Chọn từ cùng nhóm chủ đề,Mina bài 24,3,Từ nào thuộc nhóm “giới thiệu / hướng dẫn”?,Từ nào thuộc nhóm “giới thiệu / hướng dẫn”,Từ nào thuộc nhóm “giới thiệu / hướng dẫn”?,紹介します（しょうかいします）,おかし,お弁当（おべんとう）,ワゴンしゃ
-13,Chọn từ cùng nhóm chủ đề,Mina bài 24,4,Từ nào thuộc nhóm “giải thích”?,Từ nào thuộc nhóm “giải thích”,Từ nào thuộc nhóm “giải thích”?,説明します（せつめいします）,持ちます（もちます）,呼びます（よびます）,プレゼント
-13,Chọn từ cùng nhóm chủ đề,Mina bài 24,5,Từ nào thuộc nhóm “giúp đỡ”?,Từ nào thuộc nhóm “giúp đỡ”,Từ nào thuộc nhóm “giúp đỡ”?,手伝います（てつだいます）,おじいさん,おばあさん,母の日（ははのひ）
-13,Chọn từ cùng nhóm chủ đề,Mina bài 24,6,Từ nào thuộc nhóm “người thân lớn tuổi”?,Từ nào thuộc nhóm “người thân lớn tuổi”,Từ nào thuộc nhóm “người thân lớn tuổi”?,おばあさん,おかし,ワゴンしゃ,自分で（じぶんで）
-13,Chọn từ cùng nhóm chủ đề,Mina bài 24,7,Từ nào thuộc nhóm “chuẩn bị / chuyển nhà”?,Từ nào thuộc nhóm “chuẩn bị / chuyển nhà”,Từ nào thuộc nhóm “chuẩn bị / chuyển nhà”?,引っ越し（ひっこし）,プレゼント,おかし,すてき
-13,Chọn từ cùng nhóm chủ đề,Mina bài 24,8,Từ nào thuộc nhóm “đồ ăn mang theo”?,Từ nào thuộc nhóm “đồ ăn mang theo”,Từ nào thuộc nhóm “đồ ăn mang theo”?,お弁当（おべんとう）,ワゴンしゃ,準備（じゅんび）,案内します（あんないします）
-13,Chọn từ cùng nhóm chủ đề,Mina bài 24,9,Từ nào thuộc nhóm “dịp tặng quà”?,Từ nào thuộc nhóm “dịp tặng quà”,Từ nào thuộc nhóm “dịp tặng quà”?,母の日（ははのひ）,おじいちゃん,ほかに,全部（ぜんぶ）
-13,Chọn từ cùng nhóm chủ đề,Mina bài 24,10,Từ nào thuộc nhóm “mức độ / phạm vi”?,Từ nào thuộc nhóm “mức độ / phạm vi”,Từ nào thuộc nhóm “mức độ / phạm vi”?,全部（ぜんぶ）,プレゼント,お弁当（おべんとう）,ワゴンしゃ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+13,Chọn từ cùng nhóm chủ đề,Mina bài 24,1,Từ nào thuộc nhóm “cho / nhận”?,Từ nào thuộc nhóm “cho / nhận”?,くれます,案内します（あんないします）,書きます（かきます）,呼びます（よびます）
+13,Chọn từ cùng nhóm chủ đề,Mina bài 24,2,Từ nào thuộc nhóm “dẫn người đi”?,Từ nào thuộc nhóm “dẫn người đi”?,連れて行きます（つれていきます）,入れます（いれます）,書きます（かきます）,貸します（かします）
+13,Chọn từ cùng nhóm chủ đề,Mina bài 24,3,Từ nào thuộc nhóm “giới thiệu / hướng dẫn”?,Từ nào thuộc nhóm “giới thiệu / hướng dẫn”?,紹介します（しょうかいします）,おかし,お弁当（おべんとう）,ワゴンしゃ
+13,Chọn từ cùng nhóm chủ đề,Mina bài 24,4,Từ nào thuộc nhóm “giải thích”?,Từ nào thuộc nhóm “giải thích”?,説明します（せつめいします）,持ちます（もちます）,呼びます（よびます）,プレゼント
+13,Chọn từ cùng nhóm chủ đề,Mina bài 24,5,Từ nào thuộc nhóm “giúp đỡ”?,Từ nào thuộc nhóm “giúp đỡ”?,手伝います（てつだいます）,おじいさん,おばあさん,母の日（ははのひ）
+13,Chọn từ cùng nhóm chủ đề,Mina bài 24,6,Từ nào thuộc nhóm “người thân lớn tuổi”?,Từ nào thuộc nhóm “người thân lớn tuổi”?,おばあさん,おかし,ワゴンしゃ,自分で（じぶんで）
+13,Chọn từ cùng nhóm chủ đề,Mina bài 24,7,Từ nào thuộc nhóm “chuẩn bị / chuyển nhà”?,Từ nào thuộc nhóm “chuẩn bị / chuyển nhà”?,引っ越し（ひっこし）,プレゼント,おかし,すてき
+13,Chọn từ cùng nhóm chủ đề,Mina bài 24,8,Từ nào thuộc nhóm “đồ ăn mang theo”?,Từ nào thuộc nhóm “đồ ăn mang theo”?,お弁当（おべんとう）,ワゴンしゃ,準備（じゅんび）,案内します（あんないします）
+13,Chọn từ cùng nhóm chủ đề,Mina bài 24,9,Từ nào thuộc nhóm “dịp tặng quà”?,Từ nào thuộc nhóm “dịp tặng quà”?,母の日（ははのひ）,おじいちゃん,ほかに,全部（ぜんぶ）
+13,Chọn từ cùng nhóm chủ đề,Mina bài 24,10,Từ nào thuộc nhóm “mức độ / phạm vi”?,Từ nào thuộc nhóm “mức độ / phạm vi”?,全部（ぜんぶ）,プレゼント,お弁当（おべんとう）,ワゴンしゃ

@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Hiragana → Kanji,Kanji N5 Bài 19,1,やま,,là Kanji nào?,山,川,海,花
-3,Hiragana → Kanji,Kanji N5 Bài 19,2,かわ,,là Kanji nào?,空,川,森,林
-3,Hiragana → Kanji,Kanji N5 Bài 19,3,はやし,,là Kanji nào?,森,林,山,海
-3,Hiragana → Kanji,Kanji N5 Bài 19,4,もり,,là Kanji nào?,川,林,森,空
-3,Hiragana → Kanji,Kanji N5 Bài 19,5,そら,,là Kanji nào?,空,海,花,山
-3,Hiragana → Kanji,Kanji N5 Bài 19,6,うみ,,là Kanji nào?,川,海,空,林
-3,Hiragana → Kanji,Kanji N5 Bài 19,7,ぶんか,,viết bằng Kanji nào?,文化,花化,空化,海花
-3,Hiragana → Kanji,Kanji N5 Bài 19,8,はな,,là Kanji nào?,山,川,花,海
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Hiragana → Kanji,Kanji N5 Bài 19,1,やま,là Kanji nào?,山,川,海,花
+3,Hiragana → Kanji,Kanji N5 Bài 19,2,かわ,là Kanji nào?,空,川,森,林
+3,Hiragana → Kanji,Kanji N5 Bài 19,3,はやし,là Kanji nào?,森,林,山,海
+3,Hiragana → Kanji,Kanji N5 Bài 19,4,もり,là Kanji nào?,川,林,森,空
+3,Hiragana → Kanji,Kanji N5 Bài 19,5,そら,là Kanji nào?,空,海,花,山
+3,Hiragana → Kanji,Kanji N5 Bài 19,6,うみ,là Kanji nào?,川,海,空,林
+3,Hiragana → Kanji,Kanji N5 Bài 19,7,ぶんか,viết bằng Kanji nào?,文化,花化,空化,海花
+3,Hiragana → Kanji,Kanji N5 Bài 19,8,はな,là Kanji nào?,山,川,花,海

@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-13,Đọc kanji / cơ thể,Mina bài 16,1,暗い đọc là gì?,暗 i c l g,Chọn cách đọc đúng.,くらい,あかるい,ながい,みじかい
-13,Đọc kanji / cơ thể,Mina bài 16,2,背 đọc là gì?,背 c l g,Chọn cách đọc đúng.,せ,あし,からだ,あたま
-13,Đọc kanji / cơ thể,Mina bài 16,3,頭 đọc là gì?,頭 c l g,Chọn cách đọc đúng.,あたま,からだ,かお,かみ
-13,Đọc kanji / cơ thể,Mina bài 16,4,体 đọc là gì?,体 c l g,Chọn cách đọc đúng.,からだ,あたま,あし,くち
-13,Đọc kanji / cơ thể,Mina bài 16,5,髪 đọc là gì?,髪 c l g,Chọn cách đọc đúng.,かみ,かお,みみ,は
-13,Đọc kanji / cơ thể,Mina bài 16,6,顔 đọc là gì?,顔 c l g,Chọn cách đọc đúng.,かお,かみ,め,くち
-13,Đọc kanji / cơ thể,Mina bài 16,7,目 đọc là gì?,目 c l g,Chọn cách đọc đúng.,め,みみ,は,あし
-13,Đọc kanji / cơ thể,Mina bài 16,8,耳 đọc là gì?,耳 c l g,Chọn cách đọc đúng.,みみ,め,くち,は
-13,Đọc kanji / cơ thể,Mina bài 16,9,口 đọc là gì?,口 c l g,Chọn cách đọc đúng.,くち,は,かお,からだ
-13,Đọc kanji / cơ thể,Mina bài 16,10,歯 đọc là gì?,歯 c l g,Chọn cách đọc đúng.,は,くち,め,みみ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+13,Đọc kanji / cơ thể,Mina bài 16,1,暗い đọc là gì?,Chọn cách đọc đúng.,くらい,あかるい,ながい,みじかい
+13,Đọc kanji / cơ thể,Mina bài 16,2,背 đọc là gì?,Chọn cách đọc đúng.,せ,あし,からだ,あたま
+13,Đọc kanji / cơ thể,Mina bài 16,3,頭 đọc là gì?,Chọn cách đọc đúng.,あたま,からだ,かお,かみ
+13,Đọc kanji / cơ thể,Mina bài 16,4,体 đọc là gì?,Chọn cách đọc đúng.,からだ,あたま,あし,くち
+13,Đọc kanji / cơ thể,Mina bài 16,5,髪 đọc là gì?,Chọn cách đọc đúng.,かみ,かお,みみ,は
+13,Đọc kanji / cơ thể,Mina bài 16,6,顔 đọc là gì?,Chọn cách đọc đúng.,かお,かみ,め,くち
+13,Đọc kanji / cơ thể,Mina bài 16,7,目 đọc là gì?,Chọn cách đọc đúng.,め,みみ,は,あし
+13,Đọc kanji / cơ thể,Mina bài 16,8,耳 đọc là gì?,Chọn cách đọc đúng.,みみ,め,くち,は
+13,Đọc kanji / cơ thể,Mina bài 16,9,口 đọc là gì?,Chọn cách đọc đúng.,くち,は,かお,からだ
+13,Đọc kanji / cơ thể,Mina bài 16,10,歯 đọc là gì?,Chọn cách đọc đúng.,は,くち,め,みみ

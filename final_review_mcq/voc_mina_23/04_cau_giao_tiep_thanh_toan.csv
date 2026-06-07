@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-4,Câu giao tiếp / thanh toán,Mina bài 23,1,これでお願いします（これでおねがいします） nghĩa là gì?,,,xin dùng cái này,tiền thối lại,bằng cách nào,nhiều lần
-4,Câu giao tiếp / thanh toán,Mina bài 23,2,おつり nghĩa là gì?,,,tiền thối lại,kích cỡ,nước nóng,âm thanh
-4,Câu giao tiếp / thanh toán,Mina bài 23,3,これで お願いします（おねがいします） nghĩa là gì?,,,Xin dùng cái này.,Xin đi thẳng.,Xin hỏi đường.,Xin đổi kích cỡ.
-4,Câu giao tiếp / thanh toán,Mina bài 23,4,おつりを ください nghĩa là gì?,,,Cho tôi tiền thối lại.,Cho tôi nước nóng.,Cho tôi âm thanh.,Cho tôi tòa nhà.
-4,Câu giao tiếp / thanh toán,Mina bài 23,5,サイズを かえます nghĩa là gì?,,,đổi kích cỡ,hỏi kích cỡ,kéo kích cỡ,chạm kích cỡ
-4,Câu giao tiếp / thanh toán,Mina bài 23,6,おゆが 出ます（でます） nghĩa là gì?,,,nước nóng chảy ra,âm thanh đi ra,đường xuất hiện,bãi đỗ xe chạy
-4,Câu giao tiếp / thanh toán,Mina bài 23,7,音（おと）が 出ます（でます） nghĩa là gì?,,,có tiếng động phát ra,có nước nóng chảy ra,có đường đi ra,có cầu xuất hiện
-4,Câu giao tiếp / thanh toán,Mina bài 23,8,機械（きかい）が うごきます nghĩa là gì?,,,máy chạy / chuyển động,máy bị cô đơn,máy băng qua,máy hỏi
-4,Câu giao tiếp / thanh toán,Mina bài 23,9,こしょうです nghĩa là gì?,,,bị hỏng / có sự cố,là nước nóng,là âm thanh,là đường
-4,Câu giao tiếp / thanh toán,Mina bài 23,10,何回も 聞きます（なんかいも ききます） nghĩa là gì?,,,hỏi nhiều lần,kéo nhiều lần,rẽ nhiều lần,đổi nhiều lần ---
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+4,Câu giao tiếp / thanh toán,Mina bài 23,1,これでお願いします（これでおねがいします） nghĩa là gì?,,xin dùng cái này,tiền thối lại,bằng cách nào,nhiều lần
+4,Câu giao tiếp / thanh toán,Mina bài 23,2,おつり nghĩa là gì?,,tiền thối lại,kích cỡ,nước nóng,âm thanh
+4,Câu giao tiếp / thanh toán,Mina bài 23,3,これで お願いします（おねがいします） nghĩa là gì?,,Xin dùng cái này.,Xin đi thẳng.,Xin hỏi đường.,Xin đổi kích cỡ.
+4,Câu giao tiếp / thanh toán,Mina bài 23,4,おつりを ください nghĩa là gì?,,Cho tôi tiền thối lại.,Cho tôi nước nóng.,Cho tôi âm thanh.,Cho tôi tòa nhà.
+4,Câu giao tiếp / thanh toán,Mina bài 23,5,サイズを かえます nghĩa là gì?,,đổi kích cỡ,hỏi kích cỡ,kéo kích cỡ,chạm kích cỡ
+4,Câu giao tiếp / thanh toán,Mina bài 23,6,おゆが 出ます（でます） nghĩa là gì?,,nước nóng chảy ra,âm thanh đi ra,đường xuất hiện,bãi đỗ xe chạy
+4,Câu giao tiếp / thanh toán,Mina bài 23,7,音（おと）が 出ます（でます） nghĩa là gì?,,có tiếng động phát ra,có nước nóng chảy ra,có đường đi ra,có cầu xuất hiện
+4,Câu giao tiếp / thanh toán,Mina bài 23,8,機械（きかい）が うごきます nghĩa là gì?,,máy chạy / chuyển động,máy bị cô đơn,máy băng qua,máy hỏi
+4,Câu giao tiếp / thanh toán,Mina bài 23,9,こしょうです nghĩa là gì?,,bị hỏng / có sự cố,là nước nóng,là âm thanh,là đường
+4,Câu giao tiếp / thanh toán,Mina bài 23,10,何回も 聞きます（なんかいも ききます） nghĩa là gì?,,hỏi nhiều lần,kéo nhiều lần,rẽ nhiều lần,đổi nhiều lần ---

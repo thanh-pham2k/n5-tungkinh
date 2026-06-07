@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-12,Điền vào câu / hội thoại,Mina bài 12,1,すしと てんぷら、＿＿＿が いいですか。,"sushito tenpura, ___ga iidesuka.",すしと てんぷら、＿＿＿が いいですか。,どちら,どちらも,ずっと,でも
-12,Điền vào câu / hội thoại,Mina bài 12,2,すしも てんぷらも すきです。＿＿＿すきです。,sushimo tenpuramo sukidesu.___sukidesu.,すしも てんぷらも すきです。＿＿＿すきです。,どちらも,どちら,はじめて,ただいま
-12,Điền vào câu / hội thoại,Mina bài 12,3,新幹線（しんかんせん）は バスより＿＿＿ 早い（はやい）です。,shinkansenha basuyori___ hayai(hayai)desu.,新幹線（しんかんせん）は バスより＿＿＿ 早い（はやい）です。,ずっと,はじめて,どちらも,でも
-12,Điền vào câu / hội thoại,Mina bài 12,4,わたしは さしみを＿＿＿ 食べます（たべます）。,watashiha sashimio___ tabemasu(tabemasu).,わたしは さしみを＿＿＿ 食べます（たべます）。,はじめて,ずっと,どちらも,ただいま
-12,Điền vào câu / hội thoại,Mina bài 12,5,＿＿＿。,___.,＿＿＿。,ただいま,どちら,ずっと,でも
-12,Điền vào câu / hội thoại,Mina bài 12,6,ただいま。＿＿＿。,tadaima.___.,ただいま。＿＿＿。,おかえりなさい,つかれました,すごいですね,はじめて
-12,Điền vào câu / hội thoại,Mina bài 12,7,富士山（ふじさん）は きれいです。＿＿＿。,fujisanha kireidesu.___.,富士山（ふじさん）は きれいです。＿＿＿。,すごいですね,つかれました,ただいま,どちらも
-12,Điền vào câu / hội thoại,Mina bài 12,8,きょうは たくさん あるきました。＿＿＿。,kyouha takusan arukimashita.___.,きょうは たくさん あるきました。＿＿＿。,つかれました,すごいですね,おかえりなさい,はじめて
-12,Điền vào câu / hội thoại,Mina bài 12,9,この ホテルは 近い（ちかい）です。＿＿＿、高い（たかい）です。,"kono hoteruha chikai(chikai)desu.___, takai(takai)desu.",この ホテルは 近い（ちかい）です。＿＿＿、高い（たかい）です。,でも,どちらも,ずっと,はじめて
-12,Điền vào câu / hội thoại,Mina bài 12,10,日本（にほん）は はじめてですか。,nihonha hajimetedesuka.,日本（にほん）は はじめてですか。,はい、はじめてです,はい、どちらもです,はい、でもです,はい、ただいまです
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+12,Điền vào câu / hội thoại,Mina bài 12,1,すしと てんぷら、＿＿＿が いいですか。,すしと てんぷら、＿＿＿が いいですか。,どちら,どちらも,ずっと,でも
+12,Điền vào câu / hội thoại,Mina bài 12,2,すしも てんぷらも すきです。＿＿＿すきです。,すしも てんぷらも すきです。＿＿＿すきです。,どちらも,どちら,はじめて,ただいま
+12,Điền vào câu / hội thoại,Mina bài 12,3,新幹線（しんかんせん）は バスより＿＿＿ 早い（はやい）です。,新幹線（しんかんせん）は バスより＿＿＿ 早い（はやい）です。,ずっと,はじめて,どちらも,でも
+12,Điền vào câu / hội thoại,Mina bài 12,4,わたしは さしみを＿＿＿ 食べます（たべます）。,わたしは さしみを＿＿＿ 食べます（たべます）。,はじめて,ずっと,どちらも,ただいま
+12,Điền vào câu / hội thoại,Mina bài 12,5,＿＿＿。,＿＿＿。,ただいま,どちら,ずっと,でも
+12,Điền vào câu / hội thoại,Mina bài 12,6,ただいま。＿＿＿。,ただいま。＿＿＿。,おかえりなさい,つかれました,すごいですね,はじめて
+12,Điền vào câu / hội thoại,Mina bài 12,7,富士山（ふじさん）は きれいです。＿＿＿。,富士山（ふじさん）は きれいです。＿＿＿。,すごいですね,つかれました,ただいま,どちらも
+12,Điền vào câu / hội thoại,Mina bài 12,8,きょうは たくさん あるきました。＿＿＿。,きょうは たくさん あるきました。＿＿＿。,つかれました,すごいですね,おかえりなさい,はじめて
+12,Điền vào câu / hội thoại,Mina bài 12,9,この ホテルは 近い（ちかい）です。＿＿＿、高い（たかい）です。,この ホテルは 近い（ちかい）です。＿＿＿、高い（たかい）です。,でも,どちらも,ずっと,はじめて
+12,Điền vào câu / hội thoại,Mina bài 12,10,日本（にほん）は はじめてですか。,日本（にほん）は はじめてですか。,はい、はじめてです,はい、どちらもです,はい、でもです,はい、ただいまです

@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-11,Chọn kanji đúng,Mina bài 24,1,“dẫn đi” viết bằng kanji nào?,“dẫn đi” viết bằng kanji nào,“dẫn đi” viết bằng kanji nào?,連れて行きます,連れて来ます,送ります,案内します
-11,Chọn kanji đúng,Mina bài 24,2,“dẫn đến” viết bằng kanji nào?,“dẫn đến” viết bằng kanji nào,“dẫn đến” viết bằng kanji nào?,連れて来ます,連れて行きます,紹介します,説明します
-11,Chọn kanji đúng,Mina bài 24,3,“đưa đi / tiễn / gửi” viết bằng kanji nào?,“đưa đi / tiễn / gửi” viết bằng kanji nào,“đưa đi / tiễn / gửi” viết bằng kanji nào?,送ります,入れます,呼びます,持ちます
-11,Chọn kanji đúng,Mina bài 24,4,“giới thiệu” viết bằng kanji nào?,“giới thiệu” viết bằng kanji nào,“giới thiệu” viết bằng kanji nào?,紹介します,案内します,説明します,手伝います
-11,Chọn kanji đúng,Mina bài 24,5,“hướng dẫn / dẫn đường” viết bằng kanji nào?,“hướng dẫn / dẫn đường” viết bằng kanji nào,“hướng dẫn / dẫn đường” viết bằng kanji nào?,案内します,紹介します,説明します,教えます
-11,Chọn kanji đúng,Mina bài 24,6,“giải thích” viết bằng kanji nào?,“giải thích” viết bằng kanji nào,“giải thích” viết bằng kanji nào?,説明します,案内します,紹介します,貸します
-11,Chọn kanji đúng,Mina bài 24,7,“pha / cho vào” viết bằng kanji nào?,“pha / cho vào” viết bằng kanji nào,“pha / cho vào” viết bằng kanji nào?,入れます,入ります,出します,出ます
-11,Chọn kanji đúng,Mina bài 24,8,“giúp đỡ” viết bằng kanji nào?,“giúp đỡ” viết bằng kanji nào,“giúp đỡ” viết bằng kanji nào?,手伝います,貸します,教えます,書きます
-11,Chọn kanji đúng,Mina bài 24,9,“cho mượn” viết bằng kanji nào?,“cho mượn” viết bằng kanji nào,“cho mượn” viết bằng kanji nào?,貸します,借ります,返します,教えます
-11,Chọn kanji đúng,Mina bài 24,10,“dạy / chỉ cho biết” viết bằng kanji nào?,“dạy / chỉ cho biết” viết bằng kanji nào,“dạy / chỉ cho biết” viết bằng kanji nào?,教えます,書きます,呼びます,持ちます
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+11,Chọn kanji đúng,Mina bài 24,1,“dẫn đi” viết bằng kanji nào?,“dẫn đi” viết bằng kanji nào?,連れて行きます,連れて来ます,送ります,案内します
+11,Chọn kanji đúng,Mina bài 24,2,“dẫn đến” viết bằng kanji nào?,“dẫn đến” viết bằng kanji nào?,連れて来ます,連れて行きます,紹介します,説明します
+11,Chọn kanji đúng,Mina bài 24,3,“đưa đi / tiễn / gửi” viết bằng kanji nào?,“đưa đi / tiễn / gửi” viết bằng kanji nào?,送ります,入れます,呼びます,持ちます
+11,Chọn kanji đúng,Mina bài 24,4,“giới thiệu” viết bằng kanji nào?,“giới thiệu” viết bằng kanji nào?,紹介します,案内します,説明します,手伝います
+11,Chọn kanji đúng,Mina bài 24,5,“hướng dẫn / dẫn đường” viết bằng kanji nào?,“hướng dẫn / dẫn đường” viết bằng kanji nào?,案内します,紹介します,説明します,教えます
+11,Chọn kanji đúng,Mina bài 24,6,“giải thích” viết bằng kanji nào?,“giải thích” viết bằng kanji nào?,説明します,案内します,紹介します,貸します
+11,Chọn kanji đúng,Mina bài 24,7,“pha / cho vào” viết bằng kanji nào?,“pha / cho vào” viết bằng kanji nào?,入れます,入ります,出します,出ます
+11,Chọn kanji đúng,Mina bài 24,8,“giúp đỡ” viết bằng kanji nào?,“giúp đỡ” viết bằng kanji nào?,手伝います,貸します,教えます,書きます
+11,Chọn kanji đúng,Mina bài 24,9,“cho mượn” viết bằng kanji nào?,“cho mượn” viết bằng kanji nào?,貸します,借ります,返します,教えます
+11,Chọn kanji đúng,Mina bài 24,10,“dạy / chỉ cho biết” viết bằng kanji nào?,“dạy / chỉ cho biết” viết bằng kanji nào?,教えます,書きます,呼びます,持ちます

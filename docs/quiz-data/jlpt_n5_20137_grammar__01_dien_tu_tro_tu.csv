@@ -1,17 +1,17 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,1,私は 毎日 1時間、漢字（   ）べんきょうを します。,,Tôi học Hán tự 1 tiếng mỗi ngày.,に,と,の,が
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,2,先生「あした、テスト（   ）ありません。」,,"Giáo viên: ""Ngày mai không có bài kiểm tra.""",を,は,へ,に
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,3,みかんや りんご（   ）の くだものが 好きです。,,Tôi thích các loại trái cây như là quýt và táo.,も,ど,か,など
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,4,山口さんの 家は にわ（   ）広いです。,,Nhà của anh Yamaguchi có sân vườn rộng.,の,が,を,や
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,5,A「コーヒーと こうちゃ（   ）どちらが 好きですか。」 B「コーヒーです。」,,"A: ""Giữa cà phê và hồng trà, bạn thích đồ uống nào hơn?"" B: ""Cà phê.""",へ,も,と,が
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,6,A「少し 休んで、何（   ）飲みませんか。」 B「いいですね。」,,"A: ""Nghỉ ngơi một chút rồi cùng uống cái gì đó nhé?"" B: ""Được đấy.""",は,を,か,に
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,7,そぼは 二ひき（   ）ねこと 住んで います。,,Bà tôi đang sống cùng 2 con mèo.,が,で,と,の
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,8,山口「東さんは えいがを 見ますか。」 東「はい、（   ）見ます。」,,"Yamaguchi: ""Anh Higashi có xem phim không?"" Higashi: ""Vâng, thỉnh thoảng tôi có xem.""",ときどき,あまり,ずっと,だんだん
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,9,川口「田中さんが 今 読んで いる（   ）ざっしは 何の ざっしですか。」 田中「これは ようふくの ざっしですよ。」,,"Kawaguchi: ""Cuốn tạp chí mà anh Tanaka đang đọc là tạp chí gì vậy?"" Tanaka: ""Đây là tạp chí về quần áo.""",これの,あれの,その,どの
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,10,A「あめと クッキーと チョコレートが あります。（   ）がいいですか。」 B「クッキーを ください。」,,"A: ""Có kẹo, bánh quy và socola. Bạn thích cái nào?"" B: ""Cho tôi bánh quy.""",どれ,どんな,どっちか,どれくらい
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,11,A「（   ）学校へ行きますか。」 B「バスです。」,,"A: ""Bạn đi đến trường bằng phương tiện gì?"" B: ""Bằng xe buýt.""",なぜ,なにで,いつか,どこか
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,12,山下さんは今、（   ）中です。,,Anh Yamashita bây giờ đang nói chuyện điện thoại.,電話,電話の,電話する,電話して いる
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,13,私は いつも しけんが おわった（   ）旅行に 行きます。,,Tôi luôn đi du lịch sau khi kỳ thi kết thúc.,が,から,まえに,あとで
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,14,休みの 日は家で おんがくを聞いたり、本を（   ）います。,,"Ngày nghỉ, tôi thường nghe nhạc, đọc sách ở nhà.",読んだり,読んだり して,読んでいて,読んでから
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,15,A「ひるごはんは 食べましたか。」 B「（   ）です。」 A「じゃあ、いっしょに 食べましょう。」,,"A: ""Bạn đã ăn trưa chưa?"" B: ""Tôi vẫn chưa ăn."" A: ""Vậy thì cùng ăn nhé.""",まだ,もう,そう,いい
-1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,16,A「ここに 名前と 読み方を 書いて ください。」 B「名前の 読み方は ひらがなで 書きますか。」 A「いいえ、カタカナで（   ）。」,,"A: ""Hãy viết tên và cách đọc vào đây."" B: ""Cách đọc tên viết bằng hiragana phải không?"" A: ""Không, xin hãy viết bằng katakana.""",しますね,書きませんよ,ほしいですか,おねがいします
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,1,私は 毎日 1時間、漢字（   ）べんきょうを します。,Tôi học Hán tự 1 tiếng mỗi ngày.,に,と,の,が
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,2,先生「あした、テスト（   ）ありません。」,"Giáo viên: ""Ngày mai không có bài kiểm tra.""",を,は,へ,に
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,3,みかんや りんご（   ）の くだものが 好きです。,Tôi thích các loại trái cây như là quýt và táo.,も,ど,か,など
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,4,山口さんの 家は にわ（   ）広いです。,Nhà của anh Yamaguchi có sân vườn rộng.,の,が,を,や
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,5,A「コーヒーと こうちゃ（   ）どちらが 好きですか。」 B「コーヒーです。」,"A: ""Giữa cà phê và hồng trà, bạn thích đồ uống nào hơn?"" B: ""Cà phê.""",へ,も,と,が
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,6,A「少し 休んで、何（   ）飲みませんか。」 B「いいですね。」,"A: ""Nghỉ ngơi một chút rồi cùng uống cái gì đó nhé?"" B: ""Được đấy.""",は,を,か,に
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,7,そぼは 二ひき（   ）ねこと 住んで います。,Bà tôi đang sống cùng 2 con mèo.,が,で,と,の
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,8,山口「東さんは えいがを 見ますか。」 東「はい、（   ）見ます。」,"Yamaguchi: ""Anh Higashi có xem phim không?"" Higashi: ""Vâng, thỉnh thoảng tôi có xem.""",ときどき,あまり,ずっと,だんだん
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,9,川口「田中さんが 今 読んで いる（   ）ざっしは 何の ざっしですか。」 田中「これは ようふくの ざっしですよ。」,"Kawaguchi: ""Cuốn tạp chí mà anh Tanaka đang đọc là tạp chí gì vậy?"" Tanaka: ""Đây là tạp chí về quần áo.""",これの,あれの,その,どの
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,10,A「あめと クッキーと チョコレートが あります。（   ）がいいですか。」 B「クッキーを ください。」,"A: ""Có kẹo, bánh quy và socola. Bạn thích cái nào?"" B: ""Cho tôi bánh quy.""",どれ,どんな,どっちか,どれくらい
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,11,A「（   ）学校へ行きますか。」 B「バスです。」,"A: ""Bạn đi đến trường bằng phương tiện gì?"" B: ""Bằng xe buýt.""",なぜ,なにで,いつか,どこか
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,12,山下さんは今、（   ）中です。,Anh Yamashita bây giờ đang nói chuyện điện thoại.,電話,電話の,電話する,電話して いる
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,13,私は いつも しけんが おわった（   ）旅行に 行きます。,Tôi luôn đi du lịch sau khi kỳ thi kết thúc.,が,から,まえに,あとで
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,14,休みの 日は家で おんがくを聞いたり、本を（   ）います。,"Ngày nghỉ, tôi thường nghe nhạc, đọc sách ở nhà.",読んだり,読んだり して,読んでいて,読んでから
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,15,A「ひるごはんは 食べましたか。」 B「（   ）です。」 A「じゃあ、いっしょに 食べましょう。」,"A: ""Bạn đã ăn trưa chưa?"" B: ""Tôi vẫn chưa ăn."" A: ""Vậy thì cùng ăn nhé.""",まだ,もう,そう,いい
+1,Điền từ / Trợ từ,JLPT N5 20137 Grammar,16,A「ここに 名前と 読み方を 書いて ください。」 B「名前の 読み方は ひらがなで 書きますか。」 A「いいえ、カタカナで（   ）。」,"A: ""Hãy viết tên và cách đọc vào đây."" B: ""Cách đọc tên viết bằng hiragana phải không?"" A: ""Không, xin hãy viết bằng katakana.""",しますね,書きませんよ,ほしいですか,おねがいします

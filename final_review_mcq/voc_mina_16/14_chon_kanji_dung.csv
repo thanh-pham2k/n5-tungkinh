@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-14,Chọn kanji đúng,Mina bài 16,1,“lên / đi phương tiện” viết bằng kanji nào?,l n i ph ng ti n vi t b ng kanji n o,Chọn chữ Kanji đúng.,乗ります,降ります,入ります,出ます
-14,Chọn kanji đúng,Mina bài 16,2,“xuống phương tiện” viết bằng kanji nào?,xu ng ph ng ti n vi t b ng kanji n o,Chọn chữ Kanji đúng.,降ります,乗ります,入れます,出します
-14,Chọn kanji đúng,Mina bài 16,3,“cho vào / bỏ vào” viết bằng kanji nào?,cho v o b v o vi t b ng kanji n o,Chọn chữ Kanji đúng.,入れます,入ります,出します,出ます
-14,Chọn kanji đúng,Mina bài 16,4,“lấy ra / nộp / gửi” viết bằng kanji nào?,l y ra n p g i vi t b ng kanji n o,Chọn chữ Kanji đúng.,出します,出ます,入れます,乗ります
-14,Chọn kanji đúng,Mina bài 16,5,“vào” viết bằng kanji nào?,v o vi t b ng kanji n o,Chọn chữ Kanji đúng.,入ります,入れます,出ます,降ります
-14,Chọn kanji đúng,Mina bài 16,6,“ra / tốt nghiệp” viết bằng kanji nào?,ra t t nghi p vi t b ng kanji n o,Chọn chữ Kanji đúng.,出ます,出します,入ります,乗ります
-14,Chọn kanji đúng,Mina bài 16,7,“trẻ” viết bằng kanji nào?,tr vi t b ng kanji n o,Chọn chữ Kanji đúng.,若い,長い,短い,明るい
-14,Chọn kanji đúng,Mina bài 16,8,“dài” viết bằng kanji nào?,d i vi t b ng kanji n o,Chọn chữ Kanji đúng.,長い,短い,若い,暗い
-14,Chọn kanji đúng,Mina bài 16,9,“ngắn” viết bằng kanji nào?,ng n vi t b ng kanji n o,Chọn chữ Kanji đúng.,短い,長い,明るい,暗い
-14,Chọn kanji đúng,Mina bài 16,10,“sáng” viết bằng kanji nào?,s ng vi t b ng kanji n o,Chọn chữ Kanji đúng.,明るい,暗い,若い,長い
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+14,Chọn kanji đúng,Mina bài 16,1,“lên / đi phương tiện” viết bằng kanji nào?,Chọn chữ Kanji đúng.,乗ります,降ります,入ります,出ます
+14,Chọn kanji đúng,Mina bài 16,2,“xuống phương tiện” viết bằng kanji nào?,Chọn chữ Kanji đúng.,降ります,乗ります,入れます,出します
+14,Chọn kanji đúng,Mina bài 16,3,“cho vào / bỏ vào” viết bằng kanji nào?,Chọn chữ Kanji đúng.,入れます,入ります,出します,出ます
+14,Chọn kanji đúng,Mina bài 16,4,“lấy ra / nộp / gửi” viết bằng kanji nào?,Chọn chữ Kanji đúng.,出します,出ます,入れます,乗ります
+14,Chọn kanji đúng,Mina bài 16,5,“vào” viết bằng kanji nào?,Chọn chữ Kanji đúng.,入ります,入れます,出ます,降ります
+14,Chọn kanji đúng,Mina bài 16,6,“ra / tốt nghiệp” viết bằng kanji nào?,Chọn chữ Kanji đúng.,出ます,出します,入ります,乗ります
+14,Chọn kanji đúng,Mina bài 16,7,“trẻ” viết bằng kanji nào?,Chọn chữ Kanji đúng.,若い,長い,短い,明るい
+14,Chọn kanji đúng,Mina bài 16,8,“dài” viết bằng kanji nào?,Chọn chữ Kanji đúng.,長い,短い,若い,暗い
+14,Chọn kanji đúng,Mina bài 16,9,“ngắn” viết bằng kanji nào?,Chọn chữ Kanji đúng.,短い,長い,明るい,暗い
+14,Chọn kanji đúng,Mina bài 16,10,“sáng” viết bằng kanji nào?,Chọn chữ Kanji đúng.,明るい,暗い,若い,長い

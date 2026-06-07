@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-12,Điền vào câu,Mina bài 6,1,わたしは ごはんを＿＿＿。,Watashiha gohano＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,食べます（たべます）,飲みます（のみます）,見ます（みます）,聞きます（ききます）
-12,Điền vào câu,Mina bài 6,2,わたしは 水（みず）を＿＿＿。,Watashiha mizuo＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,飲みます（のみます）,食べます（たべます）,読みます（よみます）,書きます（かきます）
-12,Điền vào câu,Mina bài 6,3,たばこを＿＿＿。,Tabakoo＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,すいます,飲みます（のみます）,食べます（たべます）,見ます（みます）
-12,Điền vào câu,Mina bài 6,4,テレビを＿＿＿。,Terebio＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,見ます（みます）,聞きます（ききます）,読みます（よみます）,書きます（かきます）
-12,Điền vào câu,Mina bài 6,5,ラジオを＿＿＿。,Rajioo＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,聞きます（ききます）,見ます（みます）,買います（かいます）,あいます
-12,Điền vào câu,Mina bài 6,6,手紙（てがみ）を＿＿＿。,Tegamio＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,読みます（よみます）,聞きます（ききます）,飲みます（のみます）,食べます（たべます）
-12,Điền vào câu,Mina bài 6,7,レポートを＿＿＿。,Repootoo＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,書きます（かきます）,読みます（よみます）,見ます（みます）,あいます
-12,Điền vào câu,Mina bài 6,8,写真（しゃしん）を＿＿＿。,Shashino＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,とります,飲みます（のみます）,食べます（たべます）,聞きます（ききます）
-12,Điền vào câu,Mina bài 6,9,しゅくだいを＿＿＿。,Shukudaio＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,します,飲みます（のみます）,食べます（たべます）,見ます（みます）
-12,Điền vào câu,Mina bài 6,10,ともだちに＿＿＿。,Tomodachini＿＿＿.,Điền vào chỗ trống hoặc chọn cụm phù hợp.,あいます,飲みます（のみます）,書きます（かきます）,見ます（みます）
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+12,Điền vào câu,Mina bài 6,1,わたしは ごはんを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,食べます（たべます）,飲みます（のみます）,見ます（みます）,聞きます（ききます）
+12,Điền vào câu,Mina bài 6,2,わたしは 水（みず）を＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,飲みます（のみます）,食べます（たべます）,読みます（よみます）,書きます（かきます）
+12,Điền vào câu,Mina bài 6,3,たばこを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,すいます,飲みます（のみます）,食べます（たべます）,見ます（みます）
+12,Điền vào câu,Mina bài 6,4,テレビを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,見ます（みます）,聞きます（ききます）,読みます（よみます）,書きます（かきます）
+12,Điền vào câu,Mina bài 6,5,ラジオを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,聞きます（ききます）,見ます（みます）,買います（かいます）,あいます
+12,Điền vào câu,Mina bài 6,6,手紙（てがみ）を＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,読みます（よみます）,聞きます（ききます）,飲みます（のみます）,食べます（たべます）
+12,Điền vào câu,Mina bài 6,7,レポートを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,書きます（かきます）,読みます（よみます）,見ます（みます）,あいます
+12,Điền vào câu,Mina bài 6,8,写真（しゃしん）を＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,とります,飲みます（のみます）,食べます（たべます）,聞きます（ききます）
+12,Điền vào câu,Mina bài 6,9,しゅくだいを＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,します,飲みます（のみます）,食べます（たべます）,見ます（みます）
+12,Điền vào câu,Mina bài 6,10,ともだちに＿＿＿。,Điền vào chỗ trống hoặc chọn cụm phù hợp.,あいます,飲みます（のみます）,書きます（かきます）,見ます（みます）

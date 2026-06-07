@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Hiragana → Kanji,Kanji N5 Bài 16,1,かえります,,là Kanji nào?,帰ります,行きます,来ます,走ります
-3,Hiragana → Kanji,Kanji N5 Bài 16,2,べんきょうします,,viết bằng Kanji nào?,勉強します,強勉します,弓強します,勉語します
-3,Hiragana → Kanji,Kanji N5 Bài 16,3,ゆみ,,là Kanji nào?,弓,虫,強,名
-3,Hiragana → Kanji,Kanji N5 Bài 16,4,むし,,là Kanji nào?,弓,虫,語,持
-3,Hiragana → Kanji,Kanji N5 Bài 16,5,つよい,,là Kanji nào?,弱い,強い,長い,広い
-3,Hiragana → Kanji,Kanji N5 Bài 16,6,もちます,,là Kanji nào?,持ちます,待ちます,読みます,書きます
-3,Hiragana → Kanji,Kanji N5 Bài 16,7,なまえ,,viết bằng Kanji nào?,名前,名語,前名,日本語
-3,Hiragana → Kanji,Kanji N5 Bài 16,8,ご,,là Kanji nào?,名,語,虫,弓
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Hiragana → Kanji,Kanji N5 Bài 16,1,かえります,là Kanji nào?,帰ります,行きます,来ます,走ります
+3,Hiragana → Kanji,Kanji N5 Bài 16,2,べんきょうします,viết bằng Kanji nào?,勉強します,強勉します,弓強します,勉語します
+3,Hiragana → Kanji,Kanji N5 Bài 16,3,ゆみ,là Kanji nào?,弓,虫,強,名
+3,Hiragana → Kanji,Kanji N5 Bài 16,4,むし,là Kanji nào?,弓,虫,語,持
+3,Hiragana → Kanji,Kanji N5 Bài 16,5,つよい,là Kanji nào?,弱い,強い,長い,広い
+3,Hiragana → Kanji,Kanji N5 Bài 16,6,もちます,là Kanji nào?,持ちます,待ちます,読みます,書きます
+3,Hiragana → Kanji,Kanji N5 Bài 16,7,なまえ,viết bằng Kanji nào?,名前,名語,前名,日本語
+3,Hiragana → Kanji,Kanji N5 Bài 16,8,ご,là Kanji nào?,名,語,虫,弓

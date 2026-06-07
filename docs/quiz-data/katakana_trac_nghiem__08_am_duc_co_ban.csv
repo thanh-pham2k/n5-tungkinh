@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-8,Âm đục cơ bản,Âm đục,71,ガ,ga,ga,ga,ka,za,da
-8,Âm đục cơ bản,Âm đục,72,ギ,gi,gi,gi,ki,ji,chi
-8,Âm đục cơ bản,Âm đục,73,グ,gu,gu,gu,ku,zu,bu
-8,Âm đục cơ bản,Âm đục,74,ゲ,ge,ge,ge,ke,ze,de
-8,Âm đục cơ bản,Âm đục,75,ゴ,go,go,go,ko,zo,do
-8,Âm đục cơ bản,Âm đục,76,ザ,za,za,za,sa,ja,da
-8,Âm đục cơ bản,Âm đục,77,ジ,ji,ji,ji,shi,chi,zi
-8,Âm đục cơ bản,Âm đục,78,ズ,zu,zu,zu,su,tsu,du
-8,Âm đục cơ bản,Âm đục,79,ゼ,ze,ze,ze,se,ge,de
-8,Âm đục cơ bản,Âm đục,80,ゾ,zo,zo,zo,so,go,do
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+8,Âm đục cơ bản,Âm đục,71,ガ,ga,ga,ka,za,da
+8,Âm đục cơ bản,Âm đục,72,ギ,gi,gi,ki,ji,chi
+8,Âm đục cơ bản,Âm đục,73,グ,gu,gu,ku,zu,bu
+8,Âm đục cơ bản,Âm đục,74,ゲ,ge,ge,ke,ze,de
+8,Âm đục cơ bản,Âm đục,75,ゴ,go,go,ko,zo,do
+8,Âm đục cơ bản,Âm đục,76,ザ,za,za,sa,ja,da
+8,Âm đục cơ bản,Âm đục,77,ジ,ji,ji,shi,chi,zi
+8,Âm đục cơ bản,Âm đục,78,ズ,zu,zu,su,tsu,du
+8,Âm đục cơ bản,Âm đục,79,ゼ,ze,ze,se,ge,de
+8,Âm đục cơ bản,Âm đục,80,ゾ,zo,zo,so,go,do

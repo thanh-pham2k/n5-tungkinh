@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-15,Chọn từ cùng nhóm chủ đề,Mina bài 5,1,Từ nào thuộc nhóm “động từ di chuyển”?,Từ nào thuộc nhóm “động từ di chuyển”?,Chọn từ cùng nhóm chủ đề.,行きます（いきます）,学校（がっこう）,ともだち,らいねん
-15,Chọn từ cùng nhóm chủ đề,Mina bài 5,2,Từ nào thuộc nhóm “địa điểm”?,Từ nào thuộc nhóm “địa điểm”?,Chọn từ cùng nhóm chủ đề.,駅（えき）,タクシー,かれ,ふつか
-15,Chọn từ cùng nhóm chủ đề,Mina bài 5,3,Từ nào thuộc nhóm “phương tiện giao thông”?,Từ nào thuộc nhóm “phương tiện giao thông”?,Chọn từ cùng nhóm chủ đề.,バス,たんじょうび,かぞく,せんしゅう
-15,Chọn từ cùng nhóm chủ đề,Mina bài 5,4,Từ nào thuộc nhóm “người / quan hệ”?,Từ nào thuộc nhóm “người / quan hệ”?,Chọn từ cùng nhóm chủ đề.,ともだち,スーパー,電車（でんしゃ）,なんがつ
-15,Chọn từ cùng nhóm chủ đề,Mina bài 5,5,Từ nào thuộc nhóm “tuần”?,Từ nào thuộc nhóm “tuần”?,Chọn từ cùng nhóm chủ đề.,らいしゅう,らいげつ,らいねん,なんにち
-15,Chọn từ cùng nhóm chủ đề,Mina bài 5,6,Từ nào thuộc nhóm “tháng”?,Từ nào thuộc nhóm “tháng”?,Chọn từ cùng nhóm chủ đề.,こんげつ,こんしゅう,ことし,ついたち
-15,Chọn từ cùng nhóm chủ đề,Mina bài 5,7,Từ nào thuộc nhóm “năm”?,Từ nào thuộc nhóm “năm”?,Chọn từ cùng nhóm chủ đề.,きょねん,せんげつ,せんしゅう,なんがつ
-15,Chọn từ cùng nhóm chủ đề,Mina bài 5,8,Từ nào thuộc nhóm “ngày trong tháng”?,Từ nào thuộc nhóm “ngày trong tháng”?,Chọn từ cùng nhóm chủ đề.,ようか,ことし,らいしゅう,スーパー
-15,Chọn từ cùng nhóm chủ đề,Mina bài 5,9,Từ nào thuộc nhóm “loại tàu”?,Từ nào thuộc nhóm “loại tàu”?,Chọn từ cùng nhóm chủ đề.,とっきゅう,タクシー,じてんしゃ,ふね
-15,Chọn từ cùng nhóm chủ đề,Mina bài 5,10,Từ nào thuộc nhóm “câu cảm ơn”?,Từ nào thuộc nhóm “câu cảm ơn”?,Chọn từ cùng nhóm chủ đề.,ありがとう ございました,いつ,つぎ,ふつう
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+15,Chọn từ cùng nhóm chủ đề,Mina bài 5,1,Từ nào thuộc nhóm “động từ di chuyển”?,Chọn từ cùng nhóm chủ đề.,行きます（いきます）,学校（がっこう）,ともだち,らいねん
+15,Chọn từ cùng nhóm chủ đề,Mina bài 5,2,Từ nào thuộc nhóm “địa điểm”?,Chọn từ cùng nhóm chủ đề.,駅（えき）,タクシー,かれ,ふつか
+15,Chọn từ cùng nhóm chủ đề,Mina bài 5,3,Từ nào thuộc nhóm “phương tiện giao thông”?,Chọn từ cùng nhóm chủ đề.,バス,たんじょうび,かぞく,せんしゅう
+15,Chọn từ cùng nhóm chủ đề,Mina bài 5,4,Từ nào thuộc nhóm “người / quan hệ”?,Chọn từ cùng nhóm chủ đề.,ともだち,スーパー,電車（でんしゃ）,なんがつ
+15,Chọn từ cùng nhóm chủ đề,Mina bài 5,5,Từ nào thuộc nhóm “tuần”?,Chọn từ cùng nhóm chủ đề.,らいしゅう,らいげつ,らいねん,なんにち
+15,Chọn từ cùng nhóm chủ đề,Mina bài 5,6,Từ nào thuộc nhóm “tháng”?,Chọn từ cùng nhóm chủ đề.,こんげつ,こんしゅう,ことし,ついたち
+15,Chọn từ cùng nhóm chủ đề,Mina bài 5,7,Từ nào thuộc nhóm “năm”?,Chọn từ cùng nhóm chủ đề.,きょねん,せんげつ,せんしゅう,なんがつ
+15,Chọn từ cùng nhóm chủ đề,Mina bài 5,8,Từ nào thuộc nhóm “ngày trong tháng”?,Chọn từ cùng nhóm chủ đề.,ようか,ことし,らいしゅう,スーパー
+15,Chọn từ cùng nhóm chủ đề,Mina bài 5,9,Từ nào thuộc nhóm “loại tàu”?,Chọn từ cùng nhóm chủ đề.,とっきゅう,タクシー,じてんしゃ,ふね
+15,Chọn từ cùng nhóm chủ đề,Mina bài 5,10,Từ nào thuộc nhóm “câu cảm ơn”?,Chọn từ cùng nhóm chủ đề.,ありがとう ございました,いつ,つぎ,ふつう

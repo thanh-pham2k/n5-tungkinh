@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-9,Điền vào câu,Mina bài 16,1,バスに＿＿＿。,basuni ___,Chọn đáp án phù hợp để hoàn thành câu.,のります,おります,やめます,おします
-9,Điền vào câu,Mina bài 16,2,駅（えき）で バスを＿＿＿。,ekide basuo ___,Chọn đáp án phù hợp để hoàn thành câu.,おります,のります,いれます,だします
-9,Điền vào câu,Mina bài 16,3,新宿（しんじゅく）で 電車（でんしゃ）を＿＿＿。,shinjukude denshao ___,Chọn đáp án phù hợp để hoàn thành câu.,のりかえます,やめます,あびます,おします
-9,Điền vào câu,Mina bài 16,4,シャワーを＿＿＿。,shawaao ___,Chọn đáp án phù hợp để hoàn thành câu.,あびます,のります,おります,だします
-9,Điền vào câu,Mina bài 16,5,キャッシュカードを＿＿＿。,kyasshukaadoo ___,Chọn đáp án phù hợp để hoàn thành câu.,いれます,だします,おります,やめます
-9,Điền vào câu,Mina bài 16,6,レポートを＿＿＿。,repootoo ___,Chọn đáp án phù hợp để hoàn thành câu.,だします,いれます,あびます,のります
-9,Điền vào câu,Mina bài 16,7,大学（だいがく）に＿＿＿。,daigakuni ___,Chọn đáp án phù hợp để hoàn thành câu.,入ります（はいります）,出ます（でます）,やめます,おします
-9,Điền vào câu,Mina bài 16,8,大学（だいがく）を＿＿＿。,daigakuo ___,Chọn đáp án phù hợp để hoàn thành câu.,出ます（でます）,入ります（はいります）,のります,いれます
-9,Điền vào câu,Mina bài 16,9,会社（かいしゃ）を＿＿＿。,kaishao ___,Chọn đáp án phù hợp để hoàn thành câu.,やめます,入ります（はいります）,のります,おします
-9,Điền vào câu,Mina bài 16,10,ボタンを＿＿＿。,botano ___,Chọn đáp án phù hợp để hoàn thành câu.,おします,だします,あびます,おります
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+9,Điền vào câu,Mina bài 16,1,バスに＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,のります,おります,やめます,おします
+9,Điền vào câu,Mina bài 16,2,駅（えき）で バスを＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,おります,のります,いれます,だします
+9,Điền vào câu,Mina bài 16,3,新宿（しんじゅく）で 電車（でんしゃ）を＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,のりかえます,やめます,あびます,おします
+9,Điền vào câu,Mina bài 16,4,シャワーを＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,あびます,のります,おります,だします
+9,Điền vào câu,Mina bài 16,5,キャッシュカードを＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,いれます,だします,おります,やめます
+9,Điền vào câu,Mina bài 16,6,レポートを＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,だします,いれます,あびます,のります
+9,Điền vào câu,Mina bài 16,7,大学（だいがく）に＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,入ります（はいります）,出ます（でます）,やめます,おします
+9,Điền vào câu,Mina bài 16,8,大学（だいがく）を＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,出ます（でます）,入ります（はいります）,のります,いれます
+9,Điền vào câu,Mina bài 16,9,会社（かいしゃ）を＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,やめます,入ります（はいります）,のります,おします
+9,Điền vào câu,Mina bài 16,10,ボタンを＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,おします,だします,あびます,おります

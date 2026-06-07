@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Sức khỏe / bệnh viện,Mina bài 17,1,ほけんしょう nghĩa là gì?,hokenshou,Nghĩa là gì?,thẻ bảo hiểm,thuốc,bệnh viện,bồn tắm
-3,Sức khỏe / bệnh viện,Mina bài 17,2,かぜ nghĩa là gì?,kaze,Nghĩa là gì?,cảm lạnh,sốt,bệnh,đau họng
-3,Sức khỏe / bệnh viện,Mina bài 17,3,ねつ nghĩa là gì?,netsu,Nghĩa là gì?,sốt,cảm lạnh,bệnh,cổ họng
-3,Sức khỏe / bệnh viện,Mina bài 17,4,びょうき nghĩa là gì?,byouki,Nghĩa là gì?,bệnh,thuốc,sốt,thẻ bảo hiểm
-3,Sức khỏe / bệnh viện,Mina bài 17,5,くすり nghĩa là gì?,kusuri,Nghĩa là gì?,thuốc,bệnh,bệnh viện,sốt
-3,Sức khỏe / bệnh viện,Mina bài 17,6,おふろ nghĩa là gì?,ofuro,Nghĩa là gì?,bồn tắm / tắm,áo khoác,đồ lót,cổ họng
-3,Sức khỏe / bệnh viện,Mina bài 17,7,うわぎ nghĩa là gì?,uwagi,Nghĩa là gì?,áo khoác,đồ lót,bồn tắm,thuốc
-3,Sức khỏe / bệnh viện,Mina bài 17,8,したぎ nghĩa là gì?,shitagi,Nghĩa là gì?,đồ lót,áo khoác,thuốc,thẻ bảo hiểm
-3,Sức khỏe / bệnh viện,Mina bài 17,9,先生（せんせい） nghĩa là gì?,sensei,Nghĩa là gì?,bác sĩ / giáo viên,bệnh viện,thuốc,bệnh
-3,Sức khỏe / bệnh viện,Mina bài 17,10,びょういん nghĩa là gì?,byouin,Nghĩa là gì?,bệnh viện,bác sĩ,thuốc,thẻ bảo hiểm
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Sức khỏe / bệnh viện,Mina bài 17,1,ほけんしょう nghĩa là gì?,Nghĩa là gì?,thẻ bảo hiểm,thuốc,bệnh viện,bồn tắm
+3,Sức khỏe / bệnh viện,Mina bài 17,2,かぜ nghĩa là gì?,Nghĩa là gì?,cảm lạnh,sốt,bệnh,đau họng
+3,Sức khỏe / bệnh viện,Mina bài 17,3,ねつ nghĩa là gì?,Nghĩa là gì?,sốt,cảm lạnh,bệnh,cổ họng
+3,Sức khỏe / bệnh viện,Mina bài 17,4,びょうき nghĩa là gì?,Nghĩa là gì?,bệnh,thuốc,sốt,thẻ bảo hiểm
+3,Sức khỏe / bệnh viện,Mina bài 17,5,くすり nghĩa là gì?,Nghĩa là gì?,thuốc,bệnh,bệnh viện,sốt
+3,Sức khỏe / bệnh viện,Mina bài 17,6,おふろ nghĩa là gì?,Nghĩa là gì?,bồn tắm / tắm,áo khoác,đồ lót,cổ họng
+3,Sức khỏe / bệnh viện,Mina bài 17,7,うわぎ nghĩa là gì?,Nghĩa là gì?,áo khoác,đồ lót,bồn tắm,thuốc
+3,Sức khỏe / bệnh viện,Mina bài 17,8,したぎ nghĩa là gì?,Nghĩa là gì?,đồ lót,áo khoác,thuốc,thẻ bảo hiểm
+3,Sức khỏe / bệnh viện,Mina bài 17,9,先生（せんせい） nghĩa là gì?,Nghĩa là gì?,bác sĩ / giáo viên,bệnh viện,thuốc,bệnh
+3,Sức khỏe / bệnh viện,Mina bài 17,10,びょういん nghĩa là gì?,Nghĩa là gì?,bệnh viện,bác sĩ,thuốc,thẻ bảo hiểm

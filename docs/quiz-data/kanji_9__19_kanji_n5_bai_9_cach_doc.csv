@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-19,Kanji -> Cách đọc,Kanji N5 - Bài 9,1,見ます,mimasu,xem / nhìn,みます,いきます,きます,のみます
-19,Kanji -> Cách đọc,Kanji N5 - Bài 9,2,行きます,ikimasu,đi,きます,いきます,たべます,あいます
-19,Kanji -> Cách đọc,Kanji N5 - Bài 9,3,米,kome,gạo,こめ,みず,かね,ひと
-19,Kanji -> Cách đọc,Kanji N5 - Bài 9,4,来ます,kimasu,đến,いきます,みます,きます,のめます
-19,Kanji -> Cách đọc,Kanji N5 - Bài 9,5,良い,ii,tốt,わるい,いい,あたらしい,ふるい
-19,Kanji -> Cách đọc,Kanji N5 - Bài 9,6,食べます,taberu,ăn,のめます,たべます,みます,あいます
-19,Kanji -> Cách đọc,Kanji N5 - Bài 9,7,飲みます,nomimasu,uống,のめます,たべます,いきます,きます
-19,Kanji -> Cách đọc,Kanji N5 - Bài 9,8,会います,aimasu,gặp,あいます,みます,こめ,いい
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+19,Kanji -> Cách đọc,Kanji N5 - Bài 9,1,見ます,xem / nhìn,みます,いきます,きます,のみます
+19,Kanji -> Cách đọc,Kanji N5 - Bài 9,2,行きます,đi,きます,いきます,たべます,あいます
+19,Kanji -> Cách đọc,Kanji N5 - Bài 9,3,米,gạo,こめ,みず,かね,ひと
+19,Kanji -> Cách đọc,Kanji N5 - Bài 9,4,来ます,đến,いきます,みます,きます,のめます
+19,Kanji -> Cách đọc,Kanji N5 - Bài 9,5,良い,tốt,わるい,いい,あたらしい,ふるい
+19,Kanji -> Cách đọc,Kanji N5 - Bài 9,6,食べます,ăn,のめます,たべます,みます,あいます
+19,Kanji -> Cách đọc,Kanji N5 - Bài 9,7,飲みます,uống,のめます,たべます,いきます,きます
+19,Kanji -> Cách đọc,Kanji N5 - Bài 9,8,会います,gặp,あいます,みます,こめ,いい

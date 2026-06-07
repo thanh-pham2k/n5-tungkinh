@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,"Ôn tập câu đã sai","Mina bài 11, 14",1,"がっこうは 7がつから 9がつまで 3＿＿やすみです。","Gakkou wa shichi-gatsu kara ku-gatsu made san ___ yasumi desu.","Trường học nghỉ 3 tháng từ tháng 7 đến tháng 9.","かげつ","げつ","がつ","かつき"
-1,"Ôn tập câu đã sai","Mina bài 11, 14",2,"にほんに 2＿＿いました。","Nihon ni ni ___ imashita.","Tôi đã ở Nhật 2 tháng.","がつ","かげつ","げつ","にち"
-1,"Ôn tập câu đã sai","Mina bài 11, 14",3,"なつやすみは 1＿＿です。","Natsuyasumi wa ik-ka ___ desu.","Kỳ nghỉ hè là 1 tháng.","げつ","がつ","かげつ","しゅうかん"
-1,"Ôn tập câu đã sai","Mina bài 11, 14",4,"つくえの うえに かさが 2＿＿あります。","Tsukue no ue ni kasa ga ni ___ arimasu.","Trên bàn có 2 chiếc ô.","ほん","さつ","だい","まい"
-1,"Ôn tập câu đã sai","Mina bài 11, 14",5,"げんかんに かさが 3＿＿あります。","Genkan ni kasa ga san ___ arimasu.","Ở lối vào có 3 chiếc ô.","さつ","ぼん","ほん","だい"
-1,"Ôn tập câu đã sai","Mina bài 11, 14",6,"かばんに ペンが 4＿＿あります。","Kaban ni pen ga yon ___ arimasu.","Trong cặp có 4 cây bút.","ほん","さつ","にん","まい"
-1,"Ôn tập câu đã sai","Mina bài 11, 14",7,"めがねを ＿＿ しんぶんを よみます。","Megane o ___ shinbun o yomimasu.","Tôi đeo kính rồi đọc báo.","しめて","かけて","あけて","かいて"
-1,"Ôn tập câu đã sai","Mina bài 11, 14",8,"めがねを ＿＿ テレビを みます。","Megane o ___ terebi o mimasu.","Tôi đeo kính rồi xem tivi.","かけて","かいて","きて","しめて"
-1,"Ôn tập câu đã sai","Mina bài 11, 14",9,"ドアを ＿＿ください。","Doa o ___ kudasai.","Hãy đóng cửa.","かけて","あけて","しめて","ぬいで"
-1,"Ôn tập câu đã sai","Mina bài 11, 14",10,"ここに なまえを ＿＿ください。","Koko ni namae o ___ kudasai.","Hãy viết tên vào đây.","かけて","かいて","あけて","しめて"
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Ôn tập câu đã sai,"Mina bài 11, 14",1,がっこうは 7がつから 9がつまで 3＿＿やすみです。,Trường học nghỉ 3 tháng từ tháng 7 đến tháng 9.,かげつ,げつ,がつ,かつき
+1,Ôn tập câu đã sai,"Mina bài 11, 14",2,にほんに 2＿＿いました。,Tôi đã ở Nhật 2 tháng.,がつ,かげつ,げつ,にち
+1,Ôn tập câu đã sai,"Mina bài 11, 14",3,なつやすみは 1＿＿です。,Kỳ nghỉ hè là 1 tháng.,げつ,がつ,かげつ,しゅうかん
+1,Ôn tập câu đã sai,"Mina bài 11, 14",4,つくえの うえに かさが 2＿＿あります。,Trên bàn có 2 chiếc ô.,ほん,さつ,だい,まい
+1,Ôn tập câu đã sai,"Mina bài 11, 14",5,げんかんに かさが 3＿＿あります。,Ở lối vào có 3 chiếc ô.,さつ,ぼん,ほん,だい
+1,Ôn tập câu đã sai,"Mina bài 11, 14",6,かばんに ペンが 4＿＿あります。,Trong cặp có 4 cây bút.,ほん,さつ,にん,まい
+1,Ôn tập câu đã sai,"Mina bài 11, 14",7,めがねを ＿＿ しんぶんを よみます。,Tôi đeo kính rồi đọc báo.,しめて,かけて,あけて,かいて
+1,Ôn tập câu đã sai,"Mina bài 11, 14",8,めがねを ＿＿ テレビを みます。,Tôi đeo kính rồi xem tivi.,かけて,かいて,きて,しめて
+1,Ôn tập câu đã sai,"Mina bài 11, 14",9,ドアを ＿＿ください。,Hãy đóng cửa.,かけて,あけて,しめて,ぬいで
+1,Ôn tập câu đã sai,"Mina bài 11, 14",10,ここに なまえを ＿＿ください。,Hãy viết tên vào đây.,かけて,かいて,あけて,しめて

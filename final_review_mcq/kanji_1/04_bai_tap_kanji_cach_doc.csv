@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-2,Kanji → Cách đọc,Kanji N5 bài 1,1,一 đọc là gì?,ichi đọc là gì?,Hỏi cách đọc của “一”.,いち,に,さん,ご
-2,Kanji → Cách đọc,Kanji N5 bài 1,2,二 đọc là gì?,ni đọc là gì?,Hỏi cách đọc của “二”.,よん,に,ろく,はち
-2,Kanji → Cách đọc,Kanji N5 bài 1,3,三 đọc là gì?,san đọc là gì?,Hỏi cách đọc của “三”.,さん,しち,ご,なな
-2,Kanji → Cách đọc,Kanji N5 bài 1,4,四 có cách đọc nào đúng?,yon / shi có cách đọc nào đúng?,Hỏi cách đọc của “四”.,いち,さん,よん,はち
-2,Kanji → Cách đọc,Kanji N5 bài 1,5,五 đọc là gì?,go đọc là gì?,Hỏi cách đọc của “五”.,ご,ろく,なな,に
-2,Kanji → Cách đọc,Kanji N5 bài 1,6,六 đọc là gì?,roku đọc là gì?,Hỏi cách đọc của “六”.,はち,ろく,し,さん
-2,Kanji → Cách đọc,Kanji N5 bài 1,7,七 có cách đọc nào đúng?,nana / shichi có cách đọc nào đúng?,Hỏi cách đọc của “七”.,いち,なな,ご,ろく
-2,Kanji → Cách đọc,Kanji N5 bài 1,8,八 đọc là gì?,hachi đọc là gì?,Hỏi cách đọc của “八”.,はち,よん,しち,さん
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+2,Kanji → Cách đọc,Kanji N5 bài 1,1,一 đọc là gì?,Hỏi cách đọc của “一”.,いち,に,さん,ご
+2,Kanji → Cách đọc,Kanji N5 bài 1,2,二 đọc là gì?,Hỏi cách đọc của “二”.,よん,に,ろく,はち
+2,Kanji → Cách đọc,Kanji N5 bài 1,3,三 đọc là gì?,Hỏi cách đọc của “三”.,さん,しち,ご,なな
+2,Kanji → Cách đọc,Kanji N5 bài 1,4,四 có cách đọc nào đúng?,Hỏi cách đọc của “四”.,いち,さん,よん,はち
+2,Kanji → Cách đọc,Kanji N5 bài 1,5,五 đọc là gì?,Hỏi cách đọc của “五”.,ご,ろく,なな,に
+2,Kanji → Cách đọc,Kanji N5 bài 1,6,六 đọc là gì?,Hỏi cách đọc của “六”.,はち,ろく,し,さん
+2,Kanji → Cách đọc,Kanji N5 bài 1,7,七 có cách đọc nào đúng?,Hỏi cách đọc của “七”.,いち,なな,ご,ろく
+2,Kanji → Cách đọc,Kanji N5 bài 1,8,八 đọc là gì?,Hỏi cách đọc của “八”.,はち,よん,しち,さん

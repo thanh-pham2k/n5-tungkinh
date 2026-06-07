@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-16,Chọn kanji đúng,Mina bài 8,1,“to / lớn” viết bằng kanji nào?,“to / lớn” viết bằng kanji nào?,Chọn kanji đúng cho: to / lớn.,大きい,小さい,高い,低い
-16,Chọn kanji đúng,Mina bài 8,2,“nhỏ / bé” viết bằng kanji nào?,“nhỏ / bé” viết bằng kanji nào?,Chọn kanji đúng cho: nhỏ / bé.,小さい,大きい,新しい,古い
-16,Chọn kanji đúng,Mina bài 8,3,“mới” viết bằng kanji nào?,“mới” viết bằng kanji nào?,Chọn kanji đúng cho: mới.,新しい,古い,悪い,安い
-16,Chọn kanji đúng,Mina bài 8,4,“cũ” viết bằng kanji nào?,“cũ” viết bằng kanji nào?,Chọn kanji đúng cho: cũ.,古い,新しい,高い,低い
-16,Chọn kanji đúng,Mina bài 8,5,“xấu / không tốt” viết bằng kanji nào?,“xấu / không tốt” viết bằng kanji nào?,Chọn kanji đúng cho: xấu / không tốt.,悪い,いい,安い,高い
-16,Chọn kanji đúng,Mina bài 8,6,“cao / đắt” viết bằng kanji nào?,“cao / đắt” viết bằng kanji nào?,Chọn kanji đúng cho: cao / đắt.,高い,安い,低い,小さい
-16,Chọn kanji đúng,Mina bài 8,7,“rẻ” viết bằng kanji nào?,“rẻ” viết bằng kanji nào?,Chọn kanji đúng cho: rẻ.,安い,高い,低い,大きい
-16,Chọn kanji đúng,Mina bài 8,8,“thấp” viết bằng kanji nào?,“thấp” viết bằng kanji nào?,Chọn kanji đúng cho: thấp.,低い,高い,安い,小さい
-16,Chọn kanji đúng,Mina bài 8,9,“trắng” viết bằng kanji nào?,“trắng” viết bằng kanji nào?,Chọn kanji đúng cho: trắng.,白い,黒い,赤い,青い
-16,Chọn kanji đúng,Mina bài 8,10,“đen” viết bằng kanji nào?,“đen” viết bằng kanji nào?,Chọn kanji đúng cho: đen.,黒い,白い,赤い,青い
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+16,Chọn kanji đúng,Mina bài 8,1,“to / lớn” viết bằng kanji nào?,Chọn kanji đúng cho: to / lớn.,大きい,小さい,高い,低い
+16,Chọn kanji đúng,Mina bài 8,2,“nhỏ / bé” viết bằng kanji nào?,Chọn kanji đúng cho: nhỏ / bé.,小さい,大きい,新しい,古い
+16,Chọn kanji đúng,Mina bài 8,3,“mới” viết bằng kanji nào?,Chọn kanji đúng cho: mới.,新しい,古い,悪い,安い
+16,Chọn kanji đúng,Mina bài 8,4,“cũ” viết bằng kanji nào?,Chọn kanji đúng cho: cũ.,古い,新しい,高い,低い
+16,Chọn kanji đúng,Mina bài 8,5,“xấu / không tốt” viết bằng kanji nào?,Chọn kanji đúng cho: xấu / không tốt.,悪い,いい,安い,高い
+16,Chọn kanji đúng,Mina bài 8,6,“cao / đắt” viết bằng kanji nào?,Chọn kanji đúng cho: cao / đắt.,高い,安い,低い,小さい
+16,Chọn kanji đúng,Mina bài 8,7,“rẻ” viết bằng kanji nào?,Chọn kanji đúng cho: rẻ.,安い,高い,低い,大きい
+16,Chọn kanji đúng,Mina bài 8,8,“thấp” viết bằng kanji nào?,Chọn kanji đúng cho: thấp.,低い,高い,安い,小さい
+16,Chọn kanji đúng,Mina bài 8,9,“trắng” viết bằng kanji nào?,Chọn kanji đúng cho: trắng.,白い,黒い,赤い,青い
+16,Chọn kanji đúng,Mina bài 8,10,“đen” viết bằng kanji nào?,Chọn kanji đúng cho: đen.,黒い,白い,赤い,青い

@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-10,Đọc kanji,Mina bài 2,1,本 đọc là gì?,hon doc la gi?,Hỏi cách đọc của kanji/từ: 本,ほん,ぼん,もと,はん
-10,Đọc kanji,Mina bài 2,2,日本語 đọc là gì?,nihongo doc la gi?,Hỏi cách đọc của kanji/từ: 日本語,にほんご,にちほんご,ひほんご,にっぽんご
-10,Đọc kanji,Mina bài 2,3,日本 đọc là gì?,nihon doc la gi?,Hỏi cách đọc của kanji/từ: 日本,にほん,ひほん,にちほん,にっほん
-10,Đọc kanji,Mina bài 2,4,語 đọc là gì?,go doc la gi?,Hỏi cách đọc của kanji/từ: 語,ご,こ,か,が
-10,Đọc kanji,Mina bài 2,5,何 đọc là gì?,nan doc la gi?,Hỏi cách đọc của kanji/từ: 何,なん,なに,だれ,どれ
-10,Đọc kanji,Mina bài 2,6,英語 đọc là gì?,eigo doc la gi?,Hỏi cách đọc của kanji/từ: 英語,えいご,えご,えいこ,えんご
-10,Đọc kanji,Mina bài 2,7,英 đọc là gì?,ei doc la gi?,Hỏi cách đọc của kanji/từ: 英,えい,え,はな,ご
-10,Đọc kanji,Mina bài 2,8,何語 đọc là gì?,nango doc la gi?,Hỏi cách đọc của kanji/từ: 何語,なんご,なにご,どれご,だれご
-10,Đọc kanji,Mina bài 2,9,本語 đọc là gì?,hongo doc la gi?,Hỏi cách đọc của kanji/từ: 本語,ほんご,にほんご,ぼんご,もとご
-10,Đọc kanji,Mina bài 2,10,日本の本 đọc là gì?,nihon no hon doc la gi?,Hỏi cách đọc của kanji/từ: 日本の本,にほんのほん,にちほんのほん,ひほんのぼん,にほんのぼん
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+10,Đọc kanji,Mina bài 2,1,本 đọc là gì?,Hỏi cách đọc của kanji/từ: 本,ほん,ぼん,もと,はん
+10,Đọc kanji,Mina bài 2,2,日本語 đọc là gì?,Hỏi cách đọc của kanji/từ: 日本語,にほんご,にちほんご,ひほんご,にっぽんご
+10,Đọc kanji,Mina bài 2,3,日本 đọc là gì?,Hỏi cách đọc của kanji/từ: 日本,にほん,ひほん,にちほん,にっほん
+10,Đọc kanji,Mina bài 2,4,語 đọc là gì?,Hỏi cách đọc của kanji/từ: 語,ご,こ,か,が
+10,Đọc kanji,Mina bài 2,5,何 đọc là gì?,Hỏi cách đọc của kanji/từ: 何,なん,なに,だれ,どれ
+10,Đọc kanji,Mina bài 2,6,英語 đọc là gì?,Hỏi cách đọc của kanji/từ: 英語,えいご,えご,えいこ,えんご
+10,Đọc kanji,Mina bài 2,7,英 đọc là gì?,Hỏi cách đọc của kanji/từ: 英,えい,え,はな,ご
+10,Đọc kanji,Mina bài 2,8,何語 đọc là gì?,Hỏi cách đọc của kanji/từ: 何語,なんご,なにご,どれご,だれご
+10,Đọc kanji,Mina bài 2,9,本語 đọc là gì?,Hỏi cách đọc của kanji/từ: 本語,ほんご,にほんご,ぼんご,もとご
+10,Đọc kanji,Mina bài 2,10,日本の本 đọc là gì?,Hỏi cách đọc của kanji/từ: 日本の本,にほんのほん,にちほんのほん,ひほんのぼん,にほんのぼん

@@ -1,7 +1,7 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-4,Thời gian,"Mina bài 4, 16, 18, 23",29,6時＿＿起きます。,Roku-ji ___ okimasu.,Tôi dậy lúc 6 giờ.,を,に,で,へ
-4,Thời gian,"Mina bài 4, 16, 18, 23",30,9時＿＿勉強します。,Ku-ji ___ benkyou shimasu.,Tôi học từ 9 giờ.,まで,から,に,とき
-4,Thời gian,"Mina bài 4, 16, 18, 23",31,5時＿＿働きます。,Go-ji ___ hatarakimasu.,Tôi làm việc đến 5 giờ.,から,まで,前に,後で
-4,Thời gian,"Mina bài 4, 16, 18, 23",32,寝る＿＿、本を読みます。,"Neru ___, hon o yomimasu.","Trước khi ngủ, tôi đọc sách.",前に,後で,から,まで
-4,Thời gian,"Mina bài 4, 16, 18, 23",33,ご飯を食べた＿＿、薬を飲みます。,"Gohan o tabeta ___, kusuri o nomimasu.","Sau khi ăn cơm, tôi uống thuốc.",前に,後で,とき,から
-4,Thời gian,"Mina bài 4, 16, 18, 23",34,暇な＿＿、音楽を聞きます。,"Hima na ___, ongaku o kikimasu.","Khi rảnh, tôi nghe nhạc.",まで,から,とき,前に
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+4,Thời gian,"Mina bài 4, 16, 18, 23",29,6時＿＿起きます。,Tôi dậy lúc 6 giờ.,を,に,で,へ
+4,Thời gian,"Mina bài 4, 16, 18, 23",30,9時＿＿勉強します。,Tôi học từ 9 giờ.,まで,から,に,とき
+4,Thời gian,"Mina bài 4, 16, 18, 23",31,5時＿＿働きます。,Tôi làm việc đến 5 giờ.,から,まで,前に,後で
+4,Thời gian,"Mina bài 4, 16, 18, 23",32,寝る＿＿、本を読みます。,"Trước khi ngủ, tôi đọc sách.",前に,後で,から,まで
+4,Thời gian,"Mina bài 4, 16, 18, 23",33,ご飯を食べた＿＿、薬を飲みます。,"Sau khi ăn cơm, tôi uống thuốc.",前に,後で,とき,から
+4,Thời gian,"Mina bài 4, 16, 18, 23",34,暇な＿＿、音楽を聞きます。,"Khi rảnh, tôi nghe nhạc.",まで,から,とき,前に

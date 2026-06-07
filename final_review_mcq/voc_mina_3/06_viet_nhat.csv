@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-6,Việt → Nhật,Mina bài 3,1,“chỗ này / ở đây” là từ nào?,,Chọn từ tiếng Nhật phù hợp.,ここ,そこ,あそこ,どこ
-6,Việt → Nhật,Mina bài 3,2,“chỗ đó / ở đó” là từ nào?,,Chọn từ tiếng Nhật phù hợp.,そこ,ここ,あそこ,どちら
-6,Việt → Nhật,Mina bài 3,3,“chỗ kia / ở kia” là từ nào?,,Chọn từ tiếng Nhật phù hợp.,あそこ,ここ,そこ,こちら
-6,Việt → Nhật,Mina bài 3,4,“ở đâu” là từ nào?,,Chọn từ tiếng Nhật phù hợp.,どこ,ここ,そこ,あそこ
-6,Việt → Nhật,Mina bài 3,5,“phía này / đây” là từ nào?,,Chọn từ tiếng Nhật phù hợp.,こちら,そちら,あちら,どちら
-6,Việt → Nhật,Mina bài 3,6,“phía đó / đó” là từ nào?,,Chọn từ tiếng Nhật phù hợp.,そちら,こちら,あちら,どこ
-6,Việt → Nhật,Mina bài 3,7,“phía kia / kia” là từ nào?,,Chọn từ tiếng Nhật phù hợp.,あちら,こちら,そちら,ここ
-6,Việt → Nhật,Mina bài 3,8,“phía nào / ở đâu” là từ nào?,,Chọn từ tiếng Nhật phù hợp.,どちら,どこ,こちら,そこ
-6,Việt → Nhật,Mina bài 3,9,“lớp học / phòng học” là từ nào?,,Chọn từ tiếng Nhật phù hợp.,きょうしつ,しょくどう,じむしょ,かいぎしつ
-6,Việt → Nhật,Mina bài 3,10,“nhà ăn” là từ nào?,,Chọn từ tiếng Nhật phù hợp.,しょくどう,きょうしつ,うけつけ,ロビー
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+6,Việt → Nhật,Mina bài 3,1,“chỗ này / ở đây” là từ nào?,Chọn từ tiếng Nhật phù hợp.,ここ,そこ,あそこ,どこ
+6,Việt → Nhật,Mina bài 3,2,“chỗ đó / ở đó” là từ nào?,Chọn từ tiếng Nhật phù hợp.,そこ,ここ,あそこ,どちら
+6,Việt → Nhật,Mina bài 3,3,“chỗ kia / ở kia” là từ nào?,Chọn từ tiếng Nhật phù hợp.,あそこ,ここ,そこ,こちら
+6,Việt → Nhật,Mina bài 3,4,“ở đâu” là từ nào?,Chọn từ tiếng Nhật phù hợp.,どこ,ここ,そこ,あそこ
+6,Việt → Nhật,Mina bài 3,5,“phía này / đây” là từ nào?,Chọn từ tiếng Nhật phù hợp.,こちら,そちら,あちら,どちら
+6,Việt → Nhật,Mina bài 3,6,“phía đó / đó” là từ nào?,Chọn từ tiếng Nhật phù hợp.,そちら,こちら,あちら,どこ
+6,Việt → Nhật,Mina bài 3,7,“phía kia / kia” là từ nào?,Chọn từ tiếng Nhật phù hợp.,あちら,こちら,そちら,ここ
+6,Việt → Nhật,Mina bài 3,8,“phía nào / ở đâu” là từ nào?,Chọn từ tiếng Nhật phù hợp.,どちら,どこ,こちら,そこ
+6,Việt → Nhật,Mina bài 3,9,“lớp học / phòng học” là từ nào?,Chọn từ tiếng Nhật phù hợp.,きょうしつ,しょくどう,じむしょ,かいぎしつ
+6,Việt → Nhật,Mina bài 3,10,“nhà ăn” là từ nào?,Chọn từ tiếng Nhật phù hợp.,しょくどう,きょうしつ,うけつけ,ロビー

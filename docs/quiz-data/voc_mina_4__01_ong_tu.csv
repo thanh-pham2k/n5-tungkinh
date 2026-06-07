@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,Động từ,Mina bài 4,1,おきます nghĩa là gì?,okimasu nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,ngủ,thức dậy,làm việc,nghỉ
-1,Động từ,Mina bài 4,2,ねます nghĩa là gì?,nemasu nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,ngủ,học,kết thúc,thức dậy
-1,Động từ,Mina bài 4,3,はたらきます nghĩa là gì?,hatarakimasu nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,học,nghỉ,làm việc,kết thúc
-1,Động từ,Mina bài 4,4,やすみます nghĩa là gì?,yasumimasu nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,làm việc,nghỉ,học,thức dậy
-1,Động từ,Mina bài 4,5,べんきょうします nghĩa là gì?,benkyou shimasu nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,học,ngủ,nghỉ,kết thúc
-1,Động từ,Mina bài 4,6,おわります nghĩa là gì?,owarimasu nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,bắt đầu,kết thúc,làm việc,thức dậy
-1,Động từ,Mina bài 4,7,まいあさ おきます nghĩa là gì?,maiasa okimasu nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mỗi sáng thức dậy,mỗi tối ngủ,mỗi ngày học,nghỉ trưa
-1,Động từ,Mina bài 4,8,まいばん ねます nghĩa là gì?,maiban nemasu nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mỗi tối ngủ,mỗi sáng học,mỗi ngày làm việc,nghỉ trưa
-1,Động từ,Mina bài 4,9,ぎんこうで はたらきます nghĩa là gì?,ginkoude hatarakimasu nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,làm việc ở ngân hàng,học ở thư viện,nghỉ ở nhà,ngủ ở công ty
-1,Động từ,Mina bài 4,10,べんきょうは 5じに おわります nghĩa là gì?,benkyouwa go-jini owarimasu nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,việc học kết thúc lúc 5 giờ,việc học bắt đầu lúc 5 giờ,nghỉ lúc 5 giờ,thức dậy lúc 5 giờ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Động từ,Mina bài 4,1,おきます nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,ngủ,thức dậy,làm việc,nghỉ
+1,Động từ,Mina bài 4,2,ねます nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,ngủ,học,kết thúc,thức dậy
+1,Động từ,Mina bài 4,3,はたらきます nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,học,nghỉ,làm việc,kết thúc
+1,Động từ,Mina bài 4,4,やすみます nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,làm việc,nghỉ,học,thức dậy
+1,Động từ,Mina bài 4,5,べんきょうします nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,học,ngủ,nghỉ,kết thúc
+1,Động từ,Mina bài 4,6,おわります nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,bắt đầu,kết thúc,làm việc,thức dậy
+1,Động từ,Mina bài 4,7,まいあさ おきます nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mỗi sáng thức dậy,mỗi tối ngủ,mỗi ngày học,nghỉ trưa
+1,Động từ,Mina bài 4,8,まいばん ねます nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mỗi tối ngủ,mỗi sáng học,mỗi ngày làm việc,nghỉ trưa
+1,Động từ,Mina bài 4,9,ぎんこうで はたらきます nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,làm việc ở ngân hàng,học ở thư viện,nghỉ ở nhà,ngủ ở công ty
+1,Động từ,Mina bài 4,10,べんきょうは 5じに おわります nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,việc học kết thúc lúc 5 giờ,việc học bắt đầu lúc 5 giờ,nghỉ lúc 5 giờ,thức dậy lúc 5 giờ

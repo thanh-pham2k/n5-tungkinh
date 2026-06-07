@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-15,Đọc kanji / danh từ,Mina bài 8,1,赤い đọc là gì?,Akai đọc là gì?,Chọn cách đọc đúng của: 赤い.,あかい,あおい,しろい,くろい
-15,Đọc kanji / danh từ,Mina bài 8,2,青い đọc là gì?,Aoi đọc là gì?,Chọn cách đọc đúng của: 青い.,あおい,あかい,くろい,しろい
-15,Đọc kanji / danh từ,Mina bài 8,3,山 đọc là gì?,Yama đọc là gì?,Chọn cách đọc đúng của: 山.,やま,かわ,まち,ところ
-15,Đọc kanji / danh từ,Mina bài 8,4,食べ物 đọc là gì?,Tabemono đọc là gì?,Chọn cách đọc đúng của: 食べ物.,たべもの,のみもの,くだもの,しごと
-15,Đọc kanji / danh từ,Mina bài 8,5,仕事 đọc là gì?,Shigoto đọc là gì?,Chọn cách đọc đúng của: 仕事.,しごと,せいかつ,べんきょう,ところ
-15,Đọc kanji / danh từ,Mina bài 8,6,人 đọc là gì?,Hito đọc là gì?,Chọn cách đọc đúng của: 人.,ひと,にん,じん,いと
-15,Đọc kanji / danh từ,Mina bài 8,7,日本語 đọc là gì?,Nihongo đọc là gì?,Chọn cách đọc đúng của: 日本語.,にほんご,にちほんご,ひほんご,にっぽんご
-15,Đọc kanji / danh từ,Mina bài 8,8,東京 đọc là gì?,Toukyou đọc là gì?,Chọn cách đọc đúng của: 東京.,とうきょう,ときょう,とうきょ,とうけい
-15,Đọc kanji / danh từ,Mina bài 8,9,問題 đọc là gì?,Mondai đọc là gì?,Chọn cách đọc đúng của: 問題.,もんだい,もだい,ぶんだい,ほんだい
-15,Đọc kanji / danh từ,Mina bài 8,10,富士山 đọc là gì?,Fujisan đọc là gì?,Chọn cách đọc đúng của: 富士山.,ふじさん,ふしさん,ふじやま,ふしやま
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+15,Đọc kanji / danh từ,Mina bài 8,1,赤い đọc là gì?,Chọn cách đọc đúng của: 赤い.,あかい,あおい,しろい,くろい
+15,Đọc kanji / danh từ,Mina bài 8,2,青い đọc là gì?,Chọn cách đọc đúng của: 青い.,あおい,あかい,くろい,しろい
+15,Đọc kanji / danh từ,Mina bài 8,3,山 đọc là gì?,Chọn cách đọc đúng của: 山.,やま,かわ,まち,ところ
+15,Đọc kanji / danh từ,Mina bài 8,4,食べ物 đọc là gì?,Chọn cách đọc đúng của: 食べ物.,たべもの,のみもの,くだもの,しごと
+15,Đọc kanji / danh từ,Mina bài 8,5,仕事 đọc là gì?,Chọn cách đọc đúng của: 仕事.,しごと,せいかつ,べんきょう,ところ
+15,Đọc kanji / danh từ,Mina bài 8,6,人 đọc là gì?,Chọn cách đọc đúng của: 人.,ひと,にん,じん,いと
+15,Đọc kanji / danh từ,Mina bài 8,7,日本語 đọc là gì?,Chọn cách đọc đúng của: 日本語.,にほんご,にちほんご,ひほんご,にっぽんご
+15,Đọc kanji / danh từ,Mina bài 8,8,東京 đọc là gì?,Chọn cách đọc đúng của: 東京.,とうきょう,ときょう,とうきょ,とうけい
+15,Đọc kanji / danh từ,Mina bài 8,9,問題 đọc là gì?,Chọn cách đọc đúng của: 問題.,もんだい,もだい,ぶんだい,ほんだい
+15,Đọc kanji / danh từ,Mina bài 8,10,富士山 đọc là gì?,Chọn cách đọc đúng của: 富士山.,ふじさん,ふしさん,ふじやま,ふしやま

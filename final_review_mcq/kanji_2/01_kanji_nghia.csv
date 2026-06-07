@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,1,九 nghĩa là gì?,kyuu / ku,số 9,số 9,số 10,100,1.000
-1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,2,十 nghĩa là gì?,juu,số 10,số 8,số 9,số 10,100
-1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,3,百 nghĩa là gì?,hyaku,100,10,100,1.000,10.000
-1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,4,千 nghĩa là gì?,sen,1.000,100,1.000,10.000,1.000.000
-1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,5,万 nghĩa là gì?,man,10.000,100,1.000,10.000,100.000
-1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,6,円 nghĩa là gì?,en,yên / hình tròn,miệng,mắt,yên / hình tròn,số 9
-1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,7,口 nghĩa là gì?,kuchi,miệng,mắt,tai,tay,miệng
-1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,8,目 nghĩa là gì?,me,mắt,mắt,miệng,chân,tay
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,1,九 nghĩa là gì?,số 9,số 9,số 10,100,1.000
+1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,2,十 nghĩa là gì?,số 10,số 8,số 9,số 10,100
+1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,3,百 nghĩa là gì?,100,10,100,1.000,10.000
+1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,4,千 nghĩa là gì?,1.000,100,1.000,10.000,1.000.000
+1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,5,万 nghĩa là gì?,10.000,100,1.000,10.000,100.000
+1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,6,円 nghĩa là gì?,yên / hình tròn,miệng,mắt,yên / hình tròn,số 9
+1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,7,口 nghĩa là gì?,miệng,mắt,tai,tay,miệng
+1,Bài tập trắc nghiệm: Kanji → Nghĩa,Kanji N5 bài 2,8,目 nghĩa là gì?,mắt,mắt,miệng,chân,tay

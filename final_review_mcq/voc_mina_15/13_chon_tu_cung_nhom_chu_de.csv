@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-13,Chọn từ cùng nhóm chủ đề,Mina bài 15,1,Từ nào thuộc nhóm “động tác cơ thể”?,Từ n ào thu ộc nh óm “động t ác c ơ th ể”?,Từ nào thuộc nhóm “động tác cơ thể”?,たちます,しりょう,ソフト,どくしん
-13,Chọn từ cùng nhóm chủ đề,Mina bài 15,2,Từ nào thuộc nhóm “sản xuất / kinh doanh”?,Từ n ào thu ộc nh óm “s ản xu ất / kinh doanh”?,Từ nào thuộc nhóm “sản xuất / kinh doanh”?,うります,すわります,すみます,しりません
-13,Chọn từ cùng nhóm chủ đề,Mina bài 15,3,Từ nào thuộc nhóm “tri thức / nhận biết”?,Từ n ào thu ộc nh óm “tri th ức / nh ận bi ết”?,Từ nào thuộc nhóm “tri thức / nhận biết”?,しっています,ふく,とこや,ここで
-13,Chọn từ cùng nhóm chủ đề,Mina bài 15,4,Từ nào thuộc nhóm “cư trú”?,Từ n ào thu ộc nh óm “c ư tr ú”?,Từ nào thuộc nhóm “cư trú”?,すんでいます,うります,つくります,たちます
-13,Chọn từ cùng nhóm chủ đề,Mina bài 15,5,Từ nào thuộc nhóm “tài liệu / thông tin”?,Từ n ào thu ộc nh óm “t ài li ệu / th ông tin”?,Từ nào thuộc nhóm “tài liệu / thông tin”?,しりょう,どくしん,はいしゃ,とくに
-13,Chọn từ cùng nhóm chủ đề,Mina bài 15,6,Từ nào thuộc nhóm “công nghệ”?,Từ n ào thu ộc nh óm “c ông ngh ệ”?,Từ nào thuộc nhóm “công nghệ”?,ソフト,ふく,とこや,ごかぞく
-13,Chọn từ cùng nhóm chủ đề,Mina bài 15,7,Từ nào thuộc nhóm “nghề nghiệp”?,Từ n ào thu ộc nh óm “ngh ề nghi ệp”?,Từ nào thuộc nhóm “nghề nghiệp”?,はいしゃ,じこくひょう,ふく,にほんばし
-13,Chọn từ cùng nhóm chủ đề,Mina bài 15,8,Từ nào thuộc nhóm “gia đình / tình trạng cá nhân”?,Từ n ào thu ộc nh óm “gia đình / t ình tr ạng c á nh ân”?,Từ nào thuộc nhóm “gia đình / tình trạng cá nhân”?,どくしん,せいひん,カタログ,こうこう
-13,Chọn từ cùng nhóm chủ đề,Mina bài 15,9,Từ nào thuộc nhóm “địa điểm / dịch vụ”?,Từ n ào thu ộc nh óm “địa đi ểm / d ịch v ụ”?,Từ nào thuộc nhóm “địa điểm / dịch vụ”?,とこや,しりません,けんきゅうします,たちます
-13,Chọn từ cùng nhóm chủ đề,Mina bài 15,10,Từ nào thuộc nhóm “cho phép / cấm đoán”?,Từ n ào thu ộc nh óm “cho ph ép / c ấm đo án”?,Từ nào thuộc nhóm “cho phép / cấm đoán”?,すってはいけません,じこくひょう,ごかぞく,プレイガイド
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+13,Chọn từ cùng nhóm chủ đề,Mina bài 15,1,Từ nào thuộc nhóm “động tác cơ thể”?,Từ nào thuộc nhóm “động tác cơ thể”?,たちます,しりょう,ソフト,どくしん
+13,Chọn từ cùng nhóm chủ đề,Mina bài 15,2,Từ nào thuộc nhóm “sản xuất / kinh doanh”?,Từ nào thuộc nhóm “sản xuất / kinh doanh”?,うります,すわります,すみます,しりません
+13,Chọn từ cùng nhóm chủ đề,Mina bài 15,3,Từ nào thuộc nhóm “tri thức / nhận biết”?,Từ nào thuộc nhóm “tri thức / nhận biết”?,しっています,ふく,とこや,ここで
+13,Chọn từ cùng nhóm chủ đề,Mina bài 15,4,Từ nào thuộc nhóm “cư trú”?,Từ nào thuộc nhóm “cư trú”?,すんでいます,うります,つくります,たちます
+13,Chọn từ cùng nhóm chủ đề,Mina bài 15,5,Từ nào thuộc nhóm “tài liệu / thông tin”?,Từ nào thuộc nhóm “tài liệu / thông tin”?,しりょう,どくしん,はいしゃ,とくに
+13,Chọn từ cùng nhóm chủ đề,Mina bài 15,6,Từ nào thuộc nhóm “công nghệ”?,Từ nào thuộc nhóm “công nghệ”?,ソフト,ふく,とこや,ごかぞく
+13,Chọn từ cùng nhóm chủ đề,Mina bài 15,7,Từ nào thuộc nhóm “nghề nghiệp”?,Từ nào thuộc nhóm “nghề nghiệp”?,はいしゃ,じこくひょう,ふく,にほんばし
+13,Chọn từ cùng nhóm chủ đề,Mina bài 15,8,Từ nào thuộc nhóm “gia đình / tình trạng cá nhân”?,Từ nào thuộc nhóm “gia đình / tình trạng cá nhân”?,どくしん,せいひん,カタログ,こうこう
+13,Chọn từ cùng nhóm chủ đề,Mina bài 15,9,Từ nào thuộc nhóm “địa điểm / dịch vụ”?,Từ nào thuộc nhóm “địa điểm / dịch vụ”?,とこや,しりません,けんきゅうします,たちます
+13,Chọn từ cùng nhóm chủ đề,Mina bài 15,10,Từ nào thuộc nhóm “cho phép / cấm đoán”?,Từ nào thuộc nhóm “cho phép / cấm đoán”?,すってはいけません,じこくひょう,ごかぞく,プレイガイド

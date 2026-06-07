@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-4,Ôn tập động từ,JLPT N5,1,きのう てがみを ＿＿。,Kinou tegami o ___.,Hôm qua tôi đã viết thư.,かきました,よみました,ききました,のみました
-4,Ôn tập động từ,JLPT N5,2,毎日 がっこうへ ＿＿。,Mainichi gakkou e ___.,Mỗi ngày tôi đi học.,いきます,いきました,いきませんでした,いっています
-4,Ôn tập động từ,JLPT N5,3,じゅぎょうは 4じに ＿＿。,Jugyou wa yoji ni ___.,Lớp học kết thúc lúc 4 giờ.,おわります,はじまります,かえります,きます
-4,Ôn tập động từ,JLPT N5,4,へやを ＿＿います。,Heya o ___ imasu.,Tôi đang dọn phòng.,そうじして,かいて,よんで,たべて
-4,Ôn tập động từ,JLPT N5,5,コップに おちゃを ＿＿ください。,Koppu ni ocha o ___ kudasai.,Hãy rót trà vào cốc.,いれて,だして,あけて,しめて
-4,Ôn tập động từ,JLPT N5,6,こうえんで すこし ＿＿ましょう。,Kouen de sukoshi ___ mashou.,Chúng ta nghỉ một chút ở công viên nhé.,やすみ,のみ,かき,よみ
-4,Ôn tập động từ,JLPT N5,7,入口で ＿＿ください。,Iriguchi de ___ kudasai.,Hãy chờ ở lối vào.,まって,かって,つくって,あらって
-4,Ôn tập động từ,JLPT N5,8,この かんじを ＿＿いますか。,Kono kanji o ___ imasu ka.,Bạn có biết chữ Kanji này không?,しって,かって,まって,うって
-4,Ôn tập động từ,JLPT N5,9,あした ともだちに ＿＿。,Ashita tomodachi ni ___.,Ngày mai tôi sẽ gặp bạn.,あいます,あいました,あいませんでした,あっています
-4,Ôn tập động từ,JLPT N5,10,日ようびに うちで ＿＿。,Nichiyoubi ni uchi de ___.,Chủ nhật tôi nghỉ ở nhà.,やすみます,いきます,きます,あります
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+4,Ôn tập động từ,JLPT N5,1,きのう てがみを ＿＿。,Hôm qua tôi đã viết thư.,かきました,よみました,ききました,のみました
+4,Ôn tập động từ,JLPT N5,2,毎日 がっこうへ ＿＿。,Mỗi ngày tôi đi học.,いきます,いきました,いきませんでした,いっています
+4,Ôn tập động từ,JLPT N5,3,じゅぎょうは 4じに ＿＿。,Lớp học kết thúc lúc 4 giờ.,おわります,はじまります,かえります,きます
+4,Ôn tập động từ,JLPT N5,4,へやを ＿＿います。,Tôi đang dọn phòng.,そうじして,かいて,よんで,たべて
+4,Ôn tập động từ,JLPT N5,5,コップに おちゃを ＿＿ください。,Hãy rót trà vào cốc.,いれて,だして,あけて,しめて
+4,Ôn tập động từ,JLPT N5,6,こうえんで すこし ＿＿ましょう。,Chúng ta nghỉ một chút ở công viên nhé.,やすみ,のみ,かき,よみ
+4,Ôn tập động từ,JLPT N5,7,入口で ＿＿ください。,Hãy chờ ở lối vào.,まって,かって,つくって,あらって
+4,Ôn tập động từ,JLPT N5,8,この かんじを ＿＿いますか。,Bạn có biết chữ Kanji này không?,しって,かって,まって,うって
+4,Ôn tập động từ,JLPT N5,9,あした ともだちに ＿＿。,Ngày mai tôi sẽ gặp bạn.,あいます,あいました,あいませんでした,あっています
+4,Ôn tập động từ,JLPT N5,10,日ようびに うちで ＿＿。,Chủ nhật tôi nghỉ ở nhà.,やすみます,いきます,きます,あります

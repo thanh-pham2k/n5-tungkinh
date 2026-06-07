@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-20,Chọn trợ từ / cụm phù hợp,Mina bài 12,1,駅（えき）は ここ＿＿＿ 近い（ちかい）です。,ekiha koko___ chikai(chikai)desu.,駅（えき）は ここ＿＿＿ 近い（ちかい）です。,から,を,に,で
-20,Chọn trợ từ / cụm phù hợp,Mina bài 12,2,空港（くうこう）は ホテル＿＿＿ 遠い（とおい）です。,kuukouha hoteru___ tooi(tooi)desu.,空港（くうこう）は ホテル＿＿＿ 遠い（とおい）です。,から,を,に,で
-20,Chọn trợ từ / cụm phù hợp,Mina bài 12,3,新幹線（しんかんせん）は バス＿＿＿ ずっと 早い（はやい）です。,shinkansenha basu___ zutto hayai(hayai)desu.,新幹線（しんかんせん）は バス＿＿＿ ずっと 早い（はやい）です。,より,から,に,を
-20,Chọn trợ từ / cụm phù hợp,Mina bài 12,4,すし＿＿＿ てんぷらと どちらが いいですか。,sushi___ tenpurato dochiraga iidesuka.,すし＿＿＿ てんぷらと どちらが いいですか。,と,を,に,で
-20,Chọn trợ từ / cụm phù hợp,Mina bài 12,5,すしも てんぷら＿＿＿ すきです。,sushimo tenpura___ sukidesu.,すしも てんぷら＿＿＿ すきです。,も,と,を,に
-20,Chọn trợ từ / cụm phù hợp,Mina bài 12,6,きょうの 天気（てんき）は どう＿＿＿。,kyouno tenkiha dou___.,きょうの 天気（てんき）は どう＿＿＿。,ですか,ますか,ください,でした
-20,Chọn trợ từ / cụm phù hợp,Mina bài 12,7,春（はる）は あたたかい＿＿＿。,haruha atatakai___.,春（はる）は あたたかい＿＿＿。,です,ます,を,に
-20,Chọn trợ từ / cụm phù hợp,Mina bài 12,8,この カレーは からい＿＿＿。,kono kare-ha karai___.,この カレーは からい＿＿＿。,です,ます,を,に
-20,Chọn trợ từ / cụm phù hợp,Mina bài 12,9,日本（にほん）は はじめて＿＿＿。,nihonha hajimete___.,日本（にほん）は はじめて＿＿＿。,ですか,ますか,ください,でした
-20,Chọn trợ từ / cụm phù hợp,Mina bài 12,10,この ホテルは いいです。＿＿＿、高い（たかい）です。,"kono hoteruha iidesu.___, takai(takai)desu.",この ホテルは いいです。＿＿＿、高い（たかい）です。,でも,どちら,ずっと,はじめて
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+20,Chọn trợ từ / cụm phù hợp,Mina bài 12,1,駅（えき）は ここ＿＿＿ 近い（ちかい）です。,駅（えき）は ここ＿＿＿ 近い（ちかい）です。,から,を,に,で
+20,Chọn trợ từ / cụm phù hợp,Mina bài 12,2,空港（くうこう）は ホテル＿＿＿ 遠い（とおい）です。,空港（くうこう）は ホテル＿＿＿ 遠い（とおい）です。,から,を,に,で
+20,Chọn trợ từ / cụm phù hợp,Mina bài 12,3,新幹線（しんかんせん）は バス＿＿＿ ずっと 早い（はやい）です。,新幹線（しんかんせん）は バス＿＿＿ ずっと 早い（はやい）です。,より,から,に,を
+20,Chọn trợ từ / cụm phù hợp,Mina bài 12,4,すし＿＿＿ てんぷらと どちらが いいですか。,すし＿＿＿ てんぷらと どちらが いいですか。,と,を,に,で
+20,Chọn trợ từ / cụm phù hợp,Mina bài 12,5,すしも てんぷら＿＿＿ すきです。,すしも てんぷら＿＿＿ すきです。,も,と,を,に
+20,Chọn trợ từ / cụm phù hợp,Mina bài 12,6,きょうの 天気（てんき）は どう＿＿＿。,きょうの 天気（てんき）は どう＿＿＿。,ですか,ますか,ください,でした
+20,Chọn trợ từ / cụm phù hợp,Mina bài 12,7,春（はる）は あたたかい＿＿＿。,春（はる）は あたたかい＿＿＿。,です,ます,を,に
+20,Chọn trợ từ / cụm phù hợp,Mina bài 12,8,この カレーは からい＿＿＿。,この カレーは からい＿＿＿。,です,ます,を,に
+20,Chọn trợ từ / cụm phù hợp,Mina bài 12,9,日本（にほん）は はじめて＿＿＿。,日本（にほん）は はじめて＿＿＿。,ですか,ますか,ください,でした
+20,Chọn trợ từ / cụm phù hợp,Mina bài 12,10,この ホテルは いいです。＿＿＿、高い（たかい）です。,この ホテルは いいです。＿＿＿、高い（たかい）です。,でも,どちら,ずっと,はじめて

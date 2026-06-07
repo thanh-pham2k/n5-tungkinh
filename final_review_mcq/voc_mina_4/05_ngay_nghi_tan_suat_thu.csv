@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-5,Ngày nghỉ / tần suất / thứ,Mina bài 4,1,やすみ nghĩa là gì?,yasumi nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,nghỉ / ngày nghỉ,làm việc,học,kết thúc
-5,Ngày nghỉ / tần suất / thứ,Mina bài 4,2,ひるやすみ nghĩa là gì?,hiru yasumi nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,nghỉ trưa,nghỉ tối,mỗi sáng,mỗi ngày
-5,Ngày nghỉ / tần suất / thứ,Mina bài 4,3,まいあさ nghĩa là gì?,maiasa nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mỗi sáng,mỗi tối,mỗi ngày,sáng nay
-5,Ngày nghỉ / tần suất / thứ,Mina bài 4,4,まいばん nghĩa là gì?,maiban nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mỗi tối,mỗi sáng,tối nay,hôm qua
-5,Ngày nghỉ / tần suất / thứ,Mina bài 4,5,まいにち nghĩa là gì?,mainichi nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mỗi ngày,mỗi sáng,mỗi tối,hôm nay
-5,Ngày nghỉ / tần suất / thứ,Mina bài 4,6,げつようび nghĩa là gì?,getsuyoubi nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,thứ Hai,thứ Ba,thứ Tư,Chủ nhật
-5,Ngày nghỉ / tần suất / thứ,Mina bài 4,7,かようび nghĩa là gì?,kayoubi nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,thứ Ba,thứ Hai,thứ Tư,thứ Năm
-5,Ngày nghỉ / tần suất / thứ,Mina bài 4,8,すいようび nghĩa là gì?,suiyoubi nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,thứ Tư,thứ Ba,thứ Năm,thứ Sáu
-5,Ngày nghỉ / tần suất / thứ,Mina bài 4,9,もくようび nghĩa là gì?,mokuyoubi nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,thứ Năm,thứ Tư,thứ Sáu,thứ Bảy
-5,Ngày nghỉ / tần suất / thứ,Mina bài 4,10,きんようび nghĩa là gì?,kinyoubi nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,thứ Sáu,thứ Năm,thứ Bảy,Chủ nhật
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+5,Ngày nghỉ / tần suất / thứ,Mina bài 4,1,やすみ nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,nghỉ / ngày nghỉ,làm việc,học,kết thúc
+5,Ngày nghỉ / tần suất / thứ,Mina bài 4,2,ひるやすみ nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,nghỉ trưa,nghỉ tối,mỗi sáng,mỗi ngày
+5,Ngày nghỉ / tần suất / thứ,Mina bài 4,3,まいあさ nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mỗi sáng,mỗi tối,mỗi ngày,sáng nay
+5,Ngày nghỉ / tần suất / thứ,Mina bài 4,4,まいばん nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mỗi tối,mỗi sáng,tối nay,hôm qua
+5,Ngày nghỉ / tần suất / thứ,Mina bài 4,5,まいにち nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mỗi ngày,mỗi sáng,mỗi tối,hôm nay
+5,Ngày nghỉ / tần suất / thứ,Mina bài 4,6,げつようび nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,thứ Hai,thứ Ba,thứ Tư,Chủ nhật
+5,Ngày nghỉ / tần suất / thứ,Mina bài 4,7,かようび nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,thứ Ba,thứ Hai,thứ Tư,thứ Năm
+5,Ngày nghỉ / tần suất / thứ,Mina bài 4,8,すいようび nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,thứ Tư,thứ Ba,thứ Năm,thứ Sáu
+5,Ngày nghỉ / tần suất / thứ,Mina bài 4,9,もくようび nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,thứ Năm,thứ Tư,thứ Sáu,thứ Bảy
+5,Ngày nghỉ / tần suất / thứ,Mina bài 4,10,きんようび nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,thứ Sáu,thứ Năm,thứ Bảy,Chủ nhật

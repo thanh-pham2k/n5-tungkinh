@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,1,漢字（かんじ）＿＿＿ 教えます（おしえます）。,Kanji oshiemasu,漢字（かんじ）＿＿＿ 教えます（おしえます）。,を,に,で,が
-17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,2,名前（なまえ）＿＿＿ 書きます（かきます）。,Namae kakimasu,名前（なまえ）＿＿＿ 書きます（かきます）。,を,に,で,が
-17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,3,タクシー＿＿＿ 呼びます（よびます）。,Takushii yobimasu,タクシー＿＿＿ 呼びます（よびます）。,を,に,で,が
-17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,4,荷物（にもつ）＿＿＿ 持ちます（もちます）。,Nimotsu mochimasu,荷物（にもつ）＿＿＿ 持ちます（もちます）。,を,に,で,が
-17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,5,引っ越し（ひっこし）の 準備（じゅんび）＿＿＿ します。,Hikkoshino junbi shimasu,引っ越し（ひっこし）の 準備（じゅんび）＿＿＿ します。,を,に,で,が
-17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,6,母の日（ははのひ）＿＿＿ プレゼントを あげます。,Hahanohi purezento o agemasu,母の日（ははのひ）＿＿＿ プレゼントを あげます。,に,を,で,が
-17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,7,お弁当（おべんとう）＿＿＿ 全部（ぜんぶ） 食べました（たべました）。,Obentou zenbu tabemashita,お弁当（おべんとう）＿＿＿ 全部（ぜんぶ） 食べました（たべました）。,を,に,で,が
-17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,8,この 料理（りょうり）は 自分（じぶん）＿＿＿ 作りました（つくりました）。,Kono ryouriha jibun tsukurimashita,この 料理（りょうり）は 自分（じぶん）＿＿＿ 作りました（つくりました）。,で,に,を,が
-17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,9,ほか＿＿＿ 何（なに）が ありますか。,Hoka naniga arimasuka,ほか＿＿＿ 何（なに）が ありますか。,に,を,で,が
-17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,10,この プレゼントは すてき＿＿＿。,Kono purezento ha suteki,この プレゼントは すてき＿＿＿。,です,ます,ください,でした
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,1,漢字（かんじ）＿＿＿ 教えます（おしえます）。,漢字（かんじ）＿＿＿ 教えます（おしえます）。,を,に,で,が
+17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,2,名前（なまえ）＿＿＿ 書きます（かきます）。,名前（なまえ）＿＿＿ 書きます（かきます）。,を,に,で,が
+17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,3,タクシー＿＿＿ 呼びます（よびます）。,タクシー＿＿＿ 呼びます（よびます）。,を,に,で,が
+17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,4,荷物（にもつ）＿＿＿ 持ちます（もちます）。,荷物（にもつ）＿＿＿ 持ちます（もちます）。,を,に,で,が
+17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,5,引っ越し（ひっこし）の 準備（じゅんび）＿＿＿ します。,引っ越し（ひっこし）の 準備（じゅんび）＿＿＿ します。,を,に,で,が
+17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,6,母の日（ははのひ）＿＿＿ プレゼントを あげます。,母の日（ははのひ）＿＿＿ プレゼントを あげます。,に,を,で,が
+17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,7,お弁当（おべんとう）＿＿＿ 全部（ぜんぶ） 食べました（たべました）。,お弁当（おべんとう）＿＿＿ 全部（ぜんぶ） 食べました（たべました）。,を,に,で,が
+17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,8,この 料理（りょうり）は 自分（じぶん）＿＿＿ 作りました（つくりました）。,この 料理（りょうり）は 自分（じぶん）＿＿＿ 作りました（つくりました）。,で,に,を,が
+17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,9,ほか＿＿＿ 何（なに）が ありますか。,ほか＿＿＿ 何（なに）が ありますか。,に,を,で,が
+17,Chọn trợ từ / cụm phù hợp / câu ngắn,Mina bài 24,10,この プレゼントは すてき＿＿＿。,この プレゼントは すてき＿＿＿。,です,ます,ください,でした

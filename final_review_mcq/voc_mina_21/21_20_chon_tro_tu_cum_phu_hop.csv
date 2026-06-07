@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-20,Chọn trợ từ / cụm phù hợp,Mina bài 21,1,私（わたし）は そう＿＿＿。,Watashiha sou。,私（わたし）は そう＿＿＿。,思います（おもいます）,言います（いいます）,勝ちます（かちます）,負けます（まけます）
-20,Chọn trợ từ / cụm phù hợp,Mina bài 21,2,山田（やまだ）さんは「本当（ほんとう）です」＿＿＿ 言いました（いいました）。,Yamadahontoudesu」 iimashita。,山田（やまだ）さんは「本当（ほんとう）です」＿＿＿ 言いました（いいました）。,と,を,に,で
-20,Chọn trợ từ / cụm phù hợp,Mina bài 21,3,交通（こうつう）＿＿＿ どう思いますか（どうおもいますか）。,Koutsuu douomoimasuka。,交通（こうつう）＿＿＿ どう思いますか（どうおもいますか）。,について,までに,だけ,から
-20,Chọn trợ từ / cụm phù hợp,Mina bài 21,4,私（わたし）＿＿＿ そう思います（おもいます）。,Watashi omoimasu。,私（わたし）＿＿＿ そう思います（おもいます）。,も,を,に,で
-20,Chọn trợ từ / cụm phù hợp,Mina bài 21,5,お金（おかね）が 足り＿＿＿。,Okanega ri。,お金（おかね）が 足り＿＿＿。,ません,ます,ました,ましょう
-20,Chọn trợ từ / cụm phù hợp,Mina bài 21,6,この 本（ほん）は 役＿＿＿ 立ちます。,Kono honha chimasu。,この 本（ほん）は 役＿＿＿ 立ちます。,に,を,で,と
-20,Chọn trợ từ / cụm phù hợp,Mina bài 21,7,そんな＿＿＿ 高くないです。,Sonna kunaidesu。,そんな＿＿＿ 高くないです。,に,を,で,と
-20,Chọn trợ từ / cụm phù hợp,Mina bài 21,8,あした 試合（しあい）＿＿＿ あります。,Ashita shiai arimasu。,あした 試合（しあい）＿＿＿ あります。,が,を,に,で
-20,Chọn trợ từ / cụm phù hợp,Mina bài 21,9,車（くるま）＿＿＿ 気をつけてください。,Kuruma wotsuketekudasai。,車（くるま）＿＿＿ 気をつけてください。,に,を,で,と
-20,Chọn trợ từ / cụm phù hợp,Mina bài 21,10,地球（ちきゅう）＿＿＿ 月（つき）について 話します（はなします）。,Chikyuu tsukinitsuite hanashimasu。,地球（ちきゅう）＿＿＿ 月（つき）について 話します（はなします）。,と,を,に,で
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+20,Chọn trợ từ / cụm phù hợp,Mina bài 21,1,私（わたし）は そう＿＿＿。,私（わたし）は そう＿＿＿。,思います（おもいます）,言います（いいます）,勝ちます（かちます）,負けます（まけます）
+20,Chọn trợ từ / cụm phù hợp,Mina bài 21,2,山田（やまだ）さんは「本当（ほんとう）です」＿＿＿ 言いました（いいました）。,山田（やまだ）さんは「本当（ほんとう）です」＿＿＿ 言いました（いいました）。,と,を,に,で
+20,Chọn trợ từ / cụm phù hợp,Mina bài 21,3,交通（こうつう）＿＿＿ どう思いますか（どうおもいますか）。,交通（こうつう）＿＿＿ どう思いますか（どうおもいますか）。,について,までに,だけ,から
+20,Chọn trợ từ / cụm phù hợp,Mina bài 21,4,私（わたし）＿＿＿ そう思います（おもいます）。,私（わたし）＿＿＿ そう思います（おもいます）。,も,を,に,で
+20,Chọn trợ từ / cụm phù hợp,Mina bài 21,5,お金（おかね）が 足り＿＿＿。,お金（おかね）が 足り＿＿＿。,ません,ます,ました,ましょう
+20,Chọn trợ từ / cụm phù hợp,Mina bài 21,6,この 本（ほん）は 役＿＿＿ 立ちます。,この 本（ほん）は 役＿＿＿ 立ちます。,に,を,で,と
+20,Chọn trợ từ / cụm phù hợp,Mina bài 21,7,そんな＿＿＿ 高くないです。,そんな＿＿＿ 高くないです。,に,を,で,と
+20,Chọn trợ từ / cụm phù hợp,Mina bài 21,8,あした 試合（しあい）＿＿＿ あります。,あした 試合（しあい）＿＿＿ あります。,が,を,に,で
+20,Chọn trợ từ / cụm phù hợp,Mina bài 21,9,車（くるま）＿＿＿ 気をつけてください。,車（くるま）＿＿＿ 気をつけてください。,に,を,で,と
+20,Chọn trợ từ / cụm phù hợp,Mina bài 21,10,地球（ちきゅう）＿＿＿ 月（つき）について 話します（はなします）。,地球（ちきゅう）＿＿＿ 月（つき）について 話します（はなします）。,と,を,に,で

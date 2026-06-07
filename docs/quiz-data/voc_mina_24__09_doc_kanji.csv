@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-9,Đọc kanji,Mina bài 24,1,連れて行きます đọc là gì?,Tsurete ikimasu đọc là gì,連れて行きます đọc là gì?,つれていきます,つれてきます,おくります,あんないします
-9,Đọc kanji,Mina bài 24,2,連れて来ます đọc là gì?,Tsurete kimasu đọc là gì,連れて来ます đọc là gì?,つれてきます,つれていきます,しょうかいします,せつめいします
-9,Đọc kanji,Mina bài 24,3,送ります đọc là gì?,Okurimasu đọc là gì,送ります đọc là gì?,おくります,いれます,かします,よびます
-9,Đọc kanji,Mina bài 24,4,紹介します đọc là gì?,Shoukai shimasu đọc là gì,紹介します đọc là gì?,しょうかいします,あんないします,せつめいします,てつだいます
-9,Đọc kanji,Mina bài 24,5,案内します đọc là gì?,Annai shimasu đọc là gì,案内します đọc là gì?,あんないします,しょうかいします,せつめいします,おしえます
-9,Đọc kanji,Mina bài 24,6,説明します đọc là gì?,Setsumei shimasu đọc là gì,説明します đọc là gì?,せつめいします,あんないします,しょうかいします,かします
-9,Đọc kanji,Mina bài 24,7,入れます đọc là gì?,Iremasu đọc là gì,入れます đọc là gì?,いれます,はいります,でます,だします
-9,Đọc kanji,Mina bài 24,8,手伝います đọc là gì?,Tetsudaimasu đọc là gì,手伝います đọc là gì?,てつだいます,かします,おしえます,もちます
-9,Đọc kanji,Mina bài 24,9,貸します đọc là gì?,Kashimasu đọc là gì,貸します đọc là gì?,かします,かります,かえします,おくります
-9,Đọc kanji,Mina bài 24,10,教えます đọc là gì?,Oshiemasu đọc là gì,教えます đọc là gì?,おしえます,かきます,よびます,もちます
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+9,Đọc kanji,Mina bài 24,1,連れて行きます đọc là gì?,連れて行きます đọc là gì?,つれていきます,つれてきます,おくります,あんないします
+9,Đọc kanji,Mina bài 24,2,連れて来ます đọc là gì?,連れて来ます đọc là gì?,つれてきます,つれていきます,しょうかいします,せつめいします
+9,Đọc kanji,Mina bài 24,3,送ります đọc là gì?,送ります đọc là gì?,おくります,いれます,かします,よびます
+9,Đọc kanji,Mina bài 24,4,紹介します đọc là gì?,紹介します đọc là gì?,しょうかいします,あんないします,せつめいします,てつだいます
+9,Đọc kanji,Mina bài 24,5,案内します đọc là gì?,案内します đọc là gì?,あんないします,しょうかいします,せつめいします,おしえます
+9,Đọc kanji,Mina bài 24,6,説明します đọc là gì?,説明します đọc là gì?,せつめいします,あんないします,しょうかいします,かします
+9,Đọc kanji,Mina bài 24,7,入れます đọc là gì?,入れます đọc là gì?,いれます,はいります,でます,だします
+9,Đọc kanji,Mina bài 24,8,手伝います đọc là gì?,手伝います đọc là gì?,てつだいます,かします,おしえます,もちます
+9,Đọc kanji,Mina bài 24,9,貸します đọc là gì?,貸します đọc là gì?,かします,かります,かえします,おくります
+9,Đọc kanji,Mina bài 24,10,教えます đọc là gì?,教えます đọc là gì?,おしえます,かきます,よびます,もちます

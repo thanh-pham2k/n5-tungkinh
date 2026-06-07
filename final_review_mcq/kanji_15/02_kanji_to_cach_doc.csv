@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-2,Kanji → Cách đọc,Kanji N5 Bài 15,1,休みます,,休みます đọc là gì?,やすみます,はしります,おきます,よみます
-2,Kanji → Cách đọc,Kanji N5 Bài 15,2,走ります,,走ります đọc là gì?,かいます,はしります,うります,かきます
-2,Kanji → Cách đọc,Kanji N5 Bài 15,3,起きます,,起きます đọc là gì?,おきます,やすみます,よみます,かいます
-2,Kanji → Cách đọc,Kanji N5 Bài 15,4,貝,,貝 đọc là gì?,かい,うる,よむ,かく
-2,Kanji → Cách đọc,Kanji N5 Bài 15,5,買います,,買います đọc là gì?,うります,かいます,はしります,おきます
-2,Kanji → Cách đọc,Kanji N5 Bài 15,6,売ります,,売ります đọc là gì?,かいます,うります,よみます,かきます
-2,Kanji → Cách đọc,Kanji N5 Bài 15,7,読みます,,読みます đọc là gì?,よみます,かきます,やすみます,はしります
-2,Kanji → Cách đọc,Kanji N5 Bài 15,8,書きます,,書きます đọc là gì?,かきます,よみます,うります,おきます
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+2,Kanji → Cách đọc,Kanji N5 Bài 15,1,休みます,休みます đọc là gì?,やすみます,はしります,おきます,よみます
+2,Kanji → Cách đọc,Kanji N5 Bài 15,2,走ります,走ります đọc là gì?,かいます,はしります,うります,かきます
+2,Kanji → Cách đọc,Kanji N5 Bài 15,3,起きます,起きます đọc là gì?,おきます,やすみます,よみます,かいます
+2,Kanji → Cách đọc,Kanji N5 Bài 15,4,貝,貝 đọc là gì?,かい,うる,よむ,かく
+2,Kanji → Cách đọc,Kanji N5 Bài 15,5,買います,買います đọc là gì?,うります,かいます,はしります,おきます
+2,Kanji → Cách đọc,Kanji N5 Bài 15,6,売ります,売ります đọc là gì?,かいます,うります,よみます,かきます
+2,Kanji → Cách đọc,Kanji N5 Bài 15,7,読みます,読みます đọc là gì?,よみます,かきます,やすみます,はしります
+2,Kanji → Cách đọc,Kanji N5 Bài 15,8,書きます,書きます đọc là gì?,かきます,よみます,うります,おきます

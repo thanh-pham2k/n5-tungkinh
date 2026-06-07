@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-11,Kanji -> Cách đọc,Kanji N5 - Bài 7,1,田,ta,ruộng,た,ちから,おとこ,おんな
-11,Kanji -> Cách đọc,Kanji N5 - Bài 7,2,力,chikara,sức lực,gaku,ko,ちから,sei
-11,Kanji -> Cách đọc,Kanji N5 - Bài 7,3,男,otoko,đàn ông / nam,おんな,おとこ,こども,さki
-11,Kanji -> Cách đọc,Kanji N5 - Bài 7,4,女,onna,phụ nữ / nữ,おんな,おとこ,た,がく
-11,Kanji -> Cách đọc,Kanji N5 - Bài 7,5,子,ko,con / đứa trẻ,せん,こ,た,ちから
-11,Kanji -> Cách đọc,Kanji N5 - Bài 7,6,学,gaku,học,がく,せい,さき,おんな
-11,Kanji -> Cách đọc,Kanji N5 - Bài 7,7,生,sei,sinh (trong học sinh),せい,こ,た,おとこ
-11,Kanji -> Cách đọc,Kanji N5 - Bài 7,8,先,sen,trước (trong giáo viên),がく,せん,ちから,おんな
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+11,Kanji -> Cách đọc,Kanji N5 - Bài 7,1,田,ruộng,た,ちから,おとこ,おんな
+11,Kanji -> Cách đọc,Kanji N5 - Bài 7,2,力,sức lực,gaku,ko,ちから,sei
+11,Kanji -> Cách đọc,Kanji N5 - Bài 7,3,男,đàn ông / nam,おんな,おとこ,こども,さki
+11,Kanji -> Cách đọc,Kanji N5 - Bài 7,4,女,phụ nữ / nữ,おんな,おとこ,た,がく
+11,Kanji -> Cách đọc,Kanji N5 - Bài 7,5,子,con / đứa trẻ,せん,こ,た,ちから
+11,Kanji -> Cách đọc,Kanji N5 - Bài 7,6,学,học,がく,せい,さき,おんな
+11,Kanji -> Cách đọc,Kanji N5 - Bài 7,7,生,sinh (trong học sinh),せい,こ,た,おとこ
+11,Kanji -> Cách đọc,Kanji N5 - Bài 7,8,先,trước (trong giáo viên),がく,せん,ちから,おんな

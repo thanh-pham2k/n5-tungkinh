@@ -1,13 +1,13 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",17,わたし＿＿学生です。,Watashi ___ gakusei desu.,Tôi là học sinh.,を,は,に,で
-3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",18,水＿＿飲みます。,Mizu ___ nomimasu.,Tôi uống nước.,を,が,に,へ
-3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",19,7時＿＿起きます。,Shichi-ji ___ okimasu.,Tôi dậy lúc 7 giờ.,を,で,に,と
-3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",20,バス＿＿学校へ行きます。,Basu ___ gakkou e ikimasu.,Tôi đi học bằng xe buýt.,に,で,を,が
-3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",21,友だち＿＿日本へ行きます。,Tomodachi ___ Nihon e ikimasu.,Tôi đi Nhật với bạn.,と,を,が,の
-3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",22,これは日本語＿＿本です。,Kore wa Nihongo ___ hon desu.,Đây là sách tiếng Nhật.,は,が,の,を
-3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",23,わたし＿＿コーヒーが好きです。,Watashi ___ koohii ga suki desu.,Tôi thích cà phê.,は,を,に,で
-3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",24,公園＿＿子どもがいます。,Kouen ___ kodomo ga imasu.,Ở công viên có trẻ em.,を,に,で,へ
-3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",25,図書館＿＿本を読みます。,Toshokan ___ hon o yomimasu.,Tôi đọc sách ở thư viện.,に,へ,で,を
-3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",26,わたし＿＿学生です。山田さん＿＿学生です。,Watashi ___ gakusei desu. Yamada-san ___ gakusei desu.,Tôi là học sinh. Anh Yamada cũng là học sinh.,は / も,を / も,が / を,に / は
-3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",27,学校＿＿行きます。,Gakkou ___ ikimasu.,Tôi đi đến trường.,を,へ,で,と
-3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",28,机の上＿＿本があります。,Tsukue no ue ___ hon ga arimasu.,Trên bàn có sách.,を,に,で,と
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",17,わたし＿＿学生です。,Tôi là học sinh.,を,は,に,で
+3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",18,水＿＿飲みます。,Tôi uống nước.,を,が,に,へ
+3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",19,7時＿＿起きます。,Tôi dậy lúc 7 giờ.,を,で,に,と
+3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",20,バス＿＿学校へ行きます。,Tôi đi học bằng xe buýt.,に,で,を,が
+3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",21,友だち＿＿日本へ行きます。,Tôi đi Nhật với bạn.,と,を,が,の
+3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",22,これは日本語＿＿本です。,Đây là sách tiếng Nhật.,は,が,の,を
+3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",23,わたし＿＿コーヒーが好きです。,Tôi thích cà phê.,は,を,に,で
+3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",24,公園＿＿子どもがいます。,Ở công viên có trẻ em.,を,に,で,へ
+3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",25,図書館＿＿本を読みます。,Tôi đọc sách ở thư viện.,に,へ,で,を
+3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",26,わたし＿＿学生です。山田さん＿＿学生です。,Tôi là học sinh. Anh Yamada cũng là học sinh.,は / も,を / も,が / を,に / は
+3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",27,学校＿＿行きます。,Tôi đi đến trường.,を,へ,で,と
+3,Trợ từ,"Mina bài 1, 2, 4, 5, 6, 7, 9, 10",28,机の上＿＿本があります。,Trên bàn có sách.,を,に,で,と

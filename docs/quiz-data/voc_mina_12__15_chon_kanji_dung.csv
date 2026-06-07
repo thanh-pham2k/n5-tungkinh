@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-15,Chọn kanji đúng,Mina bài 12,1,“gần” viết bằng kanji nào?,“gần” viết bằng kanji nào?,“gần” viết bằng kanji nào?,近い,遠い,早い,遅い
-15,Chọn kanji đúng,Mina bài 12,2,“xa” viết bằng kanji nào?,“xa” viết bằng kanji nào?,“xa” viết bằng kanji nào?,遠い,近い,多い,少ない
-15,Chọn kanji đúng,Mina bài 12,3,“nhanh / sớm” viết bằng kanji nào?,“nhanh / sớm” viết bằng kanji nào?,“nhanh / sớm” viết bằng kanji nào?,早い,遅い,重い,軽い
-15,Chọn kanji đúng,Mina bài 12,4,“chậm / muộn” viết bằng kanji nào?,“chậm / muộn” viết bằng kanji nào?,“chậm / muộn” viết bằng kanji nào?,遅い,早い,近い,遠い
-15,Chọn kanji đúng,Mina bài 12,5,“nhiều” viết bằng kanji nào?,“nhiều” viết bằng kanji nào?,“nhiều” viết bằng kanji nào?,多い,少ない,重い,軽い
-15,Chọn kanji đúng,Mina bài 12,6,“ít” viết bằng kanji nào?,“ít” viết bằng kanji nào?,“ít” viết bằng kanji nào?,少ない,多い,近い,遠い
-15,Chọn kanji đúng,Mina bài 12,7,“nặng” viết bằng kanji nào?,“nặng” viết bằng kanji nào?,“nặng” viết bằng kanji nào?,重い,軽い,早い,遅い
-15,Chọn kanji đúng,Mina bài 12,8,“nhẹ” viết bằng kanji nào?,“nhẹ” viết bằng kanji nào?,“nhẹ” viết bằng kanji nào?,軽い,重い,多い,少ない
-15,Chọn kanji đúng,Mina bài 12,9,“mùa xuân” viết bằng kanji nào?,“mùa xuân” viết bằng kanji nào?,“mùa xuân” viết bằng kanji nào?,春,夏,秋,冬
-15,Chọn kanji đúng,Mina bài 12,10,“mùa hè” viết bằng kanji nào?,“mùa hè” viết bằng kanji nào?,“mùa hè” viết bằng kanji nào?,夏,春,秋,冬
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+15,Chọn kanji đúng,Mina bài 12,1,“gần” viết bằng kanji nào?,“gần” viết bằng kanji nào?,近い,遠い,早い,遅い
+15,Chọn kanji đúng,Mina bài 12,2,“xa” viết bằng kanji nào?,“xa” viết bằng kanji nào?,遠い,近い,多い,少ない
+15,Chọn kanji đúng,Mina bài 12,3,“nhanh / sớm” viết bằng kanji nào?,“nhanh / sớm” viết bằng kanji nào?,早い,遅い,重い,軽い
+15,Chọn kanji đúng,Mina bài 12,4,“chậm / muộn” viết bằng kanji nào?,“chậm / muộn” viết bằng kanji nào?,遅い,早い,近い,遠い
+15,Chọn kanji đúng,Mina bài 12,5,“nhiều” viết bằng kanji nào?,“nhiều” viết bằng kanji nào?,多い,少ない,重い,軽い
+15,Chọn kanji đúng,Mina bài 12,6,“ít” viết bằng kanji nào?,“ít” viết bằng kanji nào?,少ない,多い,近い,遠い
+15,Chọn kanji đúng,Mina bài 12,7,“nặng” viết bằng kanji nào?,“nặng” viết bằng kanji nào?,重い,軽い,早い,遅い
+15,Chọn kanji đúng,Mina bài 12,8,“nhẹ” viết bằng kanji nào?,“nhẹ” viết bằng kanji nào?,軽い,重い,多い,少ない
+15,Chọn kanji đúng,Mina bài 12,9,“mùa xuân” viết bằng kanji nào?,“mùa xuân” viết bằng kanji nào?,春,夏,秋,冬
+15,Chọn kanji đúng,Mina bài 12,10,“mùa hè” viết bằng kanji nào?,“mùa hè” viết bằng kanji nào?,夏,春,秋,冬

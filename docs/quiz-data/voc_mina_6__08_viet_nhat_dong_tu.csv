@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-8,Việt → Nhật / động từ,Mina bài 6,1,“ăn” là từ nào?,Ăn,Chọn từ tiếng Nhật phù hợp.,食べます（たべます）,飲みます（のみます）,見ます（みます）,買います（かいます）
-8,Việt → Nhật / động từ,Mina bài 6,2,“uống” là từ nào?,Uống,Chọn từ tiếng Nhật phù hợp.,飲みます（のみます）,食べます（たべます）,聞きます（ききます）,書きます（かきます）
-8,Việt → Nhật / động từ,Mina bài 6,3,“hút” là từ nào?,Hút,Chọn từ tiếng Nhật phù hợp.,すいます,見ます（みます）,読みます（よみます）,あいます
-8,Việt → Nhật / động từ,Mina bài 6,4,“xem / nhìn” là từ nào?,Xem / nhìn,Chọn từ tiếng Nhật phù hợp.,見ます（みます）,聞きます（ききます）,読みます（よみます）,書きます（かきます）
-8,Việt → Nhật / động từ,Mina bài 6,5,“nghe” là từ nào?,Nghe,Chọn từ tiếng Nhật phù hợp.,聞きます（ききます）,見ます（みます）,読みます（よみます）,買います（かいます）
-8,Việt → Nhật / động từ,Mina bài 6,6,“đọc” là từ nào?,Đọc,Chọn từ tiếng Nhật phù hợp.,読みます（よみます）,書きます（かきます）,聞きます（ききます）,とります
-8,Việt → Nhật / động từ,Mina bài 6,7,“viết” là từ nào?,Viết,Chọn từ tiếng Nhật phù hợp.,書きます（かきます）,読みます（よみます）,見ます（みます）,します
-8,Việt → Nhật / động từ,Mina bài 6,8,“mua” là từ nào?,Mua,Chọn từ tiếng Nhật phù hợp.,買います（かいます）,書きます（かきます）,あいます,とります
-8,Việt → Nhật / động từ,Mina bài 6,9,“chụp / lấy” là từ nào?,Chụp / lấy,Chọn từ tiếng Nhật phù hợp.,とります,します,あいます,すいます
-8,Việt → Nhật / động từ,Mina bài 6,10,“làm” là từ nào?,Làm,Chọn từ tiếng Nhật phù hợp.,します,あいます,買います（かいます）,読みます（よみます）
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+8,Việt → Nhật / động từ,Mina bài 6,1,“ăn” là từ nào?,Chọn từ tiếng Nhật phù hợp.,食べます（たべます）,飲みます（のみます）,見ます（みます）,買います（かいます）
+8,Việt → Nhật / động từ,Mina bài 6,2,“uống” là từ nào?,Chọn từ tiếng Nhật phù hợp.,飲みます（のみます）,食べます（たべます）,聞きます（ききます）,書きます（かきます）
+8,Việt → Nhật / động từ,Mina bài 6,3,“hút” là từ nào?,Chọn từ tiếng Nhật phù hợp.,すいます,見ます（みます）,読みます（よみます）,あいます
+8,Việt → Nhật / động từ,Mina bài 6,4,“xem / nhìn” là từ nào?,Chọn từ tiếng Nhật phù hợp.,見ます（みます）,聞きます（ききます）,読みます（よみます）,書きます（かきます）
+8,Việt → Nhật / động từ,Mina bài 6,5,“nghe” là từ nào?,Chọn từ tiếng Nhật phù hợp.,聞きます（ききます）,見ます（みます）,読みます（よみます）,買います（かいます）
+8,Việt → Nhật / động từ,Mina bài 6,6,“đọc” là từ nào?,Chọn từ tiếng Nhật phù hợp.,読みます（よみます）,書きます（かきます）,聞きます（ききます）,とります
+8,Việt → Nhật / động từ,Mina bài 6,7,“viết” là từ nào?,Chọn từ tiếng Nhật phù hợp.,書きます（かきます）,読みます（よみます）,見ます（みます）,します
+8,Việt → Nhật / động từ,Mina bài 6,8,“mua” là từ nào?,Chọn từ tiếng Nhật phù hợp.,買います（かいます）,書きます（かきます）,あいます,とります
+8,Việt → Nhật / động từ,Mina bài 6,9,“chụp / lấy” là từ nào?,Chọn từ tiếng Nhật phù hợp.,とります,します,あいます,すいます
+8,Việt → Nhật / động từ,Mina bài 6,10,“làm” là từ nào?,Chọn từ tiếng Nhật phù hợp.,します,あいます,買います（かいます）,読みます（よみます）

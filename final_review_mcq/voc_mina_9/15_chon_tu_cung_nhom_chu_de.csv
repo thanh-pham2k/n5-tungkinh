@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-15,Chọn từ cùng nhóm chủ đề,Mina bài 9,1,Từ nào thuộc nhóm “sở thích”?,Tu nao thuoc nhom “sở thích”?,Từ nào thuộc nhóm “sở thích”?,すき,時間（じかん）,チケット,ようじ
-15,Chọn từ cùng nhóm chủ đề,Mina bài 9,2,Từ nào thuộc nhóm “khả năng / trình độ”?,Tu nao thuoc nhom “khả năng / trình độ”?,Từ nào thuộc nhóm “khả năng / trình độ”?,じょうず,やくそく,こまかい お金（おかね）,ざんねんです
-15,Chọn từ cùng nhóm chủ đề,Mina bài 9,3,Từ nào thuộc nhóm “món ăn / đồ uống”?,Tu nao thuoc nhom “món ăn / đồ uống”?,Từ nào thuộc nhóm “món ăn / đồ uống”?,飲み物（のみもの）,やきゅう,ダンス,コンサート
-15,Chọn từ cùng nhóm chủ đề,Mina bài 9,4,Từ nào thuộc nhóm “thể thao”?,Tu nao thuoc nhom “thể thao”?,Từ nào thuộc nhóm “thể thao”?,やきゅう,音楽（おんがく）,うた,クラシック
-15,Chọn từ cùng nhóm chủ đề,Mina bài 9,5,Từ nào thuộc nhóm “âm nhạc”?,Tu nao thuoc nhom “âm nhạc”?,Từ nào thuộc nhóm “âm nhạc”?,ジャズ,やきゅう,料理（りょうり）,ようじ
-15,Chọn từ cùng nhóm chủ đề,Mina bài 9,6,Từ nào thuộc nhóm “chữ viết”?,Tu nao thuoc nhom “chữ viết”?,Từ nào thuộc nhóm “chữ viết”?,ひらがな,カラオケ,コンサート,ダンス
-15,Chọn từ cùng nhóm chủ đề,Mina bài 9,7,Từ nào thuộc nhóm “vật cần mua / vào cửa”?,Tu nao thuoc nhom “vật cần mua / vào cửa”?,Từ nào thuộc nhóm “vật cần mua / vào cửa”?,チケット,子ども（こども）,おっと,すこし
-15,Chọn từ cùng nhóm chủ đề,Mina bài 9,8,Từ nào thuộc nhóm “gia đình”?,Tu nao thuoc nhom “gia đình”?,Từ nào thuộc nhóm “gia đình”?,つま,ジャズ,漢字（かんじ）,時間（じかん）
-15,Chọn từ cùng nhóm chủ đề,Mina bài 9,9,Từ nào thuộc nhóm “mức độ / số lượng”?,Tu nao thuoc nhom “mức độ / số lượng”?,Từ nào thuộc nhóm “mức độ / số lượng”?,たくさん,どうして,から,ざんねんです
-15,Chọn từ cùng nhóm chủ đề,Mina bài 9,10,Từ nào thuộc nhóm “lý do”?,Tu nao thuoc nhom “lý do”?,Từ nào thuộc nhóm “lý do”?,から,すこし,よく,だいたい
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+15,Chọn từ cùng nhóm chủ đề,Mina bài 9,1,Từ nào thuộc nhóm “sở thích”?,Từ nào thuộc nhóm “sở thích”?,すき,時間（じかん）,チケット,ようじ
+15,Chọn từ cùng nhóm chủ đề,Mina bài 9,2,Từ nào thuộc nhóm “khả năng / trình độ”?,Từ nào thuộc nhóm “khả năng / trình độ”?,じょうず,やくそく,こまかい お金（おかね）,ざんねんです
+15,Chọn từ cùng nhóm chủ đề,Mina bài 9,3,Từ nào thuộc nhóm “món ăn / đồ uống”?,Từ nào thuộc nhóm “món ăn / đồ uống”?,飲み物（のみもの）,やきゅう,ダンス,コンサート
+15,Chọn từ cùng nhóm chủ đề,Mina bài 9,4,Từ nào thuộc nhóm “thể thao”?,Từ nào thuộc nhóm “thể thao”?,やきゅう,音楽（おんがく）,うた,クラシック
+15,Chọn từ cùng nhóm chủ đề,Mina bài 9,5,Từ nào thuộc nhóm “âm nhạc”?,Từ nào thuộc nhóm “âm nhạc”?,ジャズ,やきゅう,料理（りょうり）,ようじ
+15,Chọn từ cùng nhóm chủ đề,Mina bài 9,6,Từ nào thuộc nhóm “chữ viết”?,Từ nào thuộc nhóm “chữ viết”?,ひらがな,カラオケ,コンサート,ダンス
+15,Chọn từ cùng nhóm chủ đề,Mina bài 9,7,Từ nào thuộc nhóm “vật cần mua / vào cửa”?,Từ nào thuộc nhóm “vật cần mua / vào cửa”?,チケット,子ども（こども）,おっと,すこし
+15,Chọn từ cùng nhóm chủ đề,Mina bài 9,8,Từ nào thuộc nhóm “gia đình”?,Từ nào thuộc nhóm “gia đình”?,つま,ジャズ,漢字（かんじ）,時間（じかん）
+15,Chọn từ cùng nhóm chủ đề,Mina bài 9,9,Từ nào thuộc nhóm “mức độ / số lượng”?,Từ nào thuộc nhóm “mức độ / số lượng”?,たくさん,どうして,から,ざんねんです
+15,Chọn từ cùng nhóm chủ đề,Mina bài 9,10,Từ nào thuộc nhóm “lý do”?,Từ nào thuộc nhóm “lý do”?,から,すこし,よく,だいたい

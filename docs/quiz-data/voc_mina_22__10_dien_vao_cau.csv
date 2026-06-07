@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-10,Điền vào câu,Mina bài 22,1,コートを＿＿＿。,kotowo,Chọn đáp án phù hợp.,着ます（きます）,はきます,かぶります,かけます
-10,Điền vào câu,Mina bài 22,2,くつを＿＿＿。,kutsuwo,Chọn đáp án phù hợp.,はきます,着ます（きます）,かぶります,します
-10,Điền vào câu,Mina bài 22,3,ぼうしを＿＿＿。,boushiwo,Chọn đáp án phù hợp.,かぶります,はきます,かけます,着ます（きます）
-10,Điền vào câu,Mina bài 22,4,めがねを＿＿＿。,meganewo,Chọn đáp án phù hợp.,かけます,かぶります,はきます,着ます（きます）
-10,Điền vào câu,Mina bài 22,5,ネクタイを＿＿＿。,nekutaiwo,Chọn đáp án phù hợp.,します,着ます（きます）,かぶります,はきます
-10,Điền vào câu,Mina bài 22,6,ズボンを＿＿＿。,zubonwo,Chọn đáp án phù hợp.,はきます,着ます（きます）,かけます,かぶります
-10,Điền vào câu,Mina bài 22,7,スーツを＿＿＿。,sutsuwo,Chọn đáp án phù hợp.,着ます（きます）,はきます,かけます,します
-10,Điền vào câu,Mina bài 22,8,スカートを＿＿＿。,sukatowo,Chọn đáp án phù hợp.,はきます,かぶります,かけます,します
-10,Điền vào câu,Mina bài 22,9,セーターを＿＿＿。,setawo,Chọn đáp án phù hợp.,着ます（きます）,はきます,します,かけます
-10,Điền vào câu,Mina bài 22,10,ワンピースを＿＿＿。,wanpisuwo,Chọn đáp án phù hợp.,着ます（きます）,はきます,かけます,かぶります
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+10,Điền vào câu,Mina bài 22,1,コートを＿＿＿。,Chọn đáp án phù hợp.,着ます（きます）,はきます,かぶります,かけます
+10,Điền vào câu,Mina bài 22,2,くつを＿＿＿。,Chọn đáp án phù hợp.,はきます,着ます（きます）,かぶります,します
+10,Điền vào câu,Mina bài 22,3,ぼうしを＿＿＿。,Chọn đáp án phù hợp.,かぶります,はきます,かけます,着ます（きます）
+10,Điền vào câu,Mina bài 22,4,めがねを＿＿＿。,Chọn đáp án phù hợp.,かけます,かぶります,はきます,着ます（きます）
+10,Điền vào câu,Mina bài 22,5,ネクタイを＿＿＿。,Chọn đáp án phù hợp.,します,着ます（きます）,かぶります,はきます
+10,Điền vào câu,Mina bài 22,6,ズボンを＿＿＿。,Chọn đáp án phù hợp.,はきます,着ます（きます）,かけます,かぶります
+10,Điền vào câu,Mina bài 22,7,スーツを＿＿＿。,Chọn đáp án phù hợp.,着ます（きます）,はきます,かけます,します
+10,Điền vào câu,Mina bài 22,8,スカートを＿＿＿。,Chọn đáp án phù hợp.,はきます,かぶります,かけます,します
+10,Điền vào câu,Mina bài 22,9,セーターを＿＿＿。,Chọn đáp án phù hợp.,着ます（きます）,はきます,します,かけます
+10,Điền vào câu,Mina bài 22,10,ワンピースを＿＿＿。,Chọn đáp án phù hợp.,着ます（きます）,はきます,かけます,かぶります

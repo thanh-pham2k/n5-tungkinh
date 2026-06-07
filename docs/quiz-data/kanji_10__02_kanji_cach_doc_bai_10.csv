@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-23,Kanji -> Cách đọc,Kanji N5 - Bài 10,1,耳,mimi,tai,みみ,め,くち,て
-23,Kanji -> Cách đọc,Kanji N5 - Bài 10,2,聞きます,kikimasu,nghe / hỏi,みます,ききます,はなします,まちます
-23,Kanji -> Cách đọc,Kanji N5 - Bài 10,3,言います,iimasu,nói,いいます,ききます,たちます,のみます
-23,Kanji -> Cách đọc,Kanji N5 - Bài 10,4,話します,hanashimasu,nói chuyện,まちます,たちます,はなします,いきます
-23,Kanji -> Cách đọc,Kanji N5 - Bài 10,5,立ちます,tachimasu,đứng,ききます,たちます,いいます,あいます
-23,Kanji -> Cách đọc,Kanji N5 - Bài 10,6,待ちます,machimasu,chờ,まちます,はなします,たべます,みます
-23,Kanji -> Cách đọc,Kanji N5 - Bài 10,7,週,shuu,tuần,ねん,がつ,しゅう,じ
-23,Kanji -> Cách đọc,Kanji N5 - Bài 10,8,周り,mawari,xung quanh,まわり,みみ,まい,くに
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+23,Kanji -> Cách đọc,Kanji N5 - Bài 10,1,耳,tai,みみ,め,くち,て
+23,Kanji -> Cách đọc,Kanji N5 - Bài 10,2,聞きます,nghe / hỏi,みます,ききます,はなします,まちます
+23,Kanji -> Cách đọc,Kanji N5 - Bài 10,3,言います,nói,いいます,ききます,たちます,のみます
+23,Kanji -> Cách đọc,Kanji N5 - Bài 10,4,話します,nói chuyện,まちます,たちます,はなします,いきます
+23,Kanji -> Cách đọc,Kanji N5 - Bài 10,5,立ちます,đứng,ききます,たちます,いいます,あいます
+23,Kanji -> Cách đọc,Kanji N5 - Bài 10,6,待ちます,chờ,まちます,はなします,たべます,みます
+23,Kanji -> Cách đọc,Kanji N5 - Bài 10,7,週,tuần,ねん,がつ,しゅう,じ
+23,Kanji -> Cách đọc,Kanji N5 - Bài 10,8,周り,xung quanh,まわり,みみ,まい,くに

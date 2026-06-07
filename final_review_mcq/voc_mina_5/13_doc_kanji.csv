@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-13,Đọc kanji,Mina bài 5,1,行きます đọc là gì?,ikimasu đọc là gì?,Chọn cách đọc đúng.,いきます,きます,かえります,あるきます
-13,Đọc kanji,Mina bài 5,2,来ます đọc là gì?,kimasu đọc là gì?,Chọn cách đọc đúng.,きます,いきます,かえります,みます
-13,Đọc kanji,Mina bài 5,3,学校 đọc là gì?,gakkou đọc là gì?,Chọn cách đọc đúng.,がっこう,がくせい,だいがく,こうこう
-13,Đọc kanji,Mina bài 5,4,駅 đọc là gì?,eki đọc là gì?,Chọn cách đọc đúng.,えき,いき,うき,えぎ
-13,Đọc kanji,Mina bài 5,5,電車 đọc là gì?,densha đọc là gì?,Chọn cách đọc đúng.,でんしゃ,でんわ,でんき,しゃでん
-13,Đọc kanji,Mina bài 5,6,人 đọc là gì?,hito đọc là gì?,Chọn cách đọc đúng.,ひと,いと,にん,じん
-13,Đọc kanji,Mina bài 5,7,先週 đọc là gì?,senshuu đọc là gì?,Chọn cách đọc đúng.,せんしゅう,こんしゅう,らいしゅう,せんげつ
-13,Đọc kanji,Mina bài 5,8,今週 đọc là gì?,konshuu đọc là gì?,Chọn cách đọc đúng.,こんしゅう,せんしゅう,らいしゅう,こんげつ
-13,Đọc kanji,Mina bài 5,9,来週 đọc là gì?,raishuu đọc là gì?,Chọn cách đọc đúng.,らいしゅう,こんしゅう,せんしゅう,らいげつ
-13,Đọc kanji,Mina bài 5,10,今年 đọc là gì?,kotoshi đọc là gì?,Chọn cách đọc đúng.,ことし,きょねん,らいねん,こんげつ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+13,Đọc kanji,Mina bài 5,1,行きます đọc là gì?,Chọn cách đọc đúng.,いきます,きます,かえります,あるきます
+13,Đọc kanji,Mina bài 5,2,来ます đọc là gì?,Chọn cách đọc đúng.,きます,いきます,かえります,みます
+13,Đọc kanji,Mina bài 5,3,学校 đọc là gì?,Chọn cách đọc đúng.,がっこう,がくせい,だいがく,こうこう
+13,Đọc kanji,Mina bài 5,4,駅 đọc là gì?,Chọn cách đọc đúng.,えき,いき,うき,えぎ
+13,Đọc kanji,Mina bài 5,5,電車 đọc là gì?,Chọn cách đọc đúng.,でんしゃ,でんわ,でんき,しゃでん
+13,Đọc kanji,Mina bài 5,6,人 đọc là gì?,Chọn cách đọc đúng.,ひと,いと,にん,じん
+13,Đọc kanji,Mina bài 5,7,先週 đọc là gì?,Chọn cách đọc đúng.,せんしゅう,こんしゅう,らいしゅう,せんげつ
+13,Đọc kanji,Mina bài 5,8,今週 đọc là gì?,Chọn cách đọc đúng.,こんしゅう,せんしゅう,らいしゅう,こんげつ
+13,Đọc kanji,Mina bài 5,9,来週 đọc là gì?,Chọn cách đọc đúng.,らいしゅう,こんしゅう,せんしゅう,らいげつ
+13,Đọc kanji,Mina bài 5,10,今年 đọc là gì?,Chọn cách đọc đúng.,ことし,きょねん,らいねん,こんげつ

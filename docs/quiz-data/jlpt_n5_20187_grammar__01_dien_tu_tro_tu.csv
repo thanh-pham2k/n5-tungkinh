@@ -1,17 +1,17 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,1,私は あしたの ひこうき（   ）国へ 帰ります。,,Ngày mai tôi về nước bằng máy bay.,を,か,で,に
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,2,先週 デパートで かばん（   ）くつなどを 買いました。,,Tuần trước tôi đã mua túi xách và giày ở trung tâm thương mại.,や,は,も,へ
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,3,私は 毎朝 ７時ごろ 家（   ）出ます。,,Mỗi sáng tôi rời nhà vào khoảng 7 giờ.,に,が,と,を
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,4,きのう スーパーで 田中さん（   ）会いました。,,Hôm qua tôi đã gặp anh Tanaka ở siêu thị.,の,を,に,で
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,5,私の うちの ほんだなは、きょねん 父（   ）作りました。,,Giá sách ở nhà tôi là do bố tôi làm năm ngoái.,を,が,で,や
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,6,今日 やおやで りんごを 買いました。五つ（   ）１０００円でした。,,Hôm nay tôi đã mua táo ở cửa hàng rau. 5 quả giá 1000 yên.,で,に,や,と
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,7,きのう（   ）少し寒かったですが、今日（   ）寒くないです。,,Hôm qua thì hơi lạnh nhưng hôm nay thì không lạnh.,に／に,は／は,も／も,を／を
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,8,南町は、海が、きれい（   ）、静かです。,,Minamimachi biển đẹp và yên tĩnh.,や,と,で,も
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,9,前川「林さん、（   ）に ある カメラは 林さんのですか。」,,"Maekawa: ""Anh Hayashi, cái máy ảnh ở đằng kia có phải của anh không?""",そこ,どこ,その,どの
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,10,A「先週 はじめて スキーを しました。」 B「そうですか。（   ）でしたか。」 A「とても 楽しかったです。」,,"A: ""Tuần trước lần đầu tiên tôi đã đi trượt tuyết."" B: ""Vậy ạ? Thế nào ạ?""",どちら,どなた,いくつ,いかが
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,11,森「ケンさん、大学の じゅぎょうは 始まりましたか。」 ケン「いいえ、（   ）です。来週 始まります。」,,"Mori: ""Ken, giờ học đại học đã bắt đầu chưa?"" Ken: ""Chưa ạ. Tuần sau mới bắt đầu.""",よく,もう,まだ,ちょっと
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,12,（びょういんで） いしゃ「今日から 一週間 薬を 飲んで、来週の 月曜日に（   ）来て ください。」,,"(Ở bệnh viện) Bác sĩ: ""Từ hôm nay hãy uống thuốc 1 tuần, rồi thứ Hai tuần sau hãy đến lần nữa.""",あまり,また,たくさん,だんだん
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,13,父は 毎朝 コーヒーを（   ）ながら 新聞を 読みます。,,Bố tôi mỗi sáng vừa uống cà phê vừa đọc báo.,飲み,飲む,飲んで,飲んだ
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,14,私は 小さいとき、なっとうが 好き（   ）でした。,,"Hồi còn nhỏ, tôi đã không thích món natto.",ない,じゃない,ありません,じゃありません
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,15,（ケーキ屋で） 店の人「いらっしゃいませ。」 山下「すみません、いちごのケーキを二つ（   ）。」,,"(Ở tiệm bánh) Nhân viên: ""Chào quý khách."" Yamashita: ""Xin lỗi, cho tôi 2 cái bánh dâu tây.""",どうぞ,ください,ありますか,ほしいです
-1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,16,リー「日曜日に、私の 家で アンさんと べんきょうを します。キムさんも（   ）。」,,"Lee: ""Chủ nhật tôi sẽ học cùng An ở nhà tôi. Kim cũng đến nhé.""",来ませんか,来ませんでしたか,来て いますか,来て いましたか
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,1,私は あしたの ひこうき（   ）国へ 帰ります。,Ngày mai tôi về nước bằng máy bay.,を,か,で,に
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,2,先週 デパートで かばん（   ）くつなどを 買いました。,Tuần trước tôi đã mua túi xách và giày ở trung tâm thương mại.,や,は,も,へ
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,3,私は 毎朝 ７時ごろ 家（   ）出ます。,Mỗi sáng tôi rời nhà vào khoảng 7 giờ.,に,が,と,を
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,4,きのう スーパーで 田中さん（   ）会いました。,Hôm qua tôi đã gặp anh Tanaka ở siêu thị.,の,を,に,で
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,5,私の うちの ほんだなは、きょねん 父（   ）作りました。,Giá sách ở nhà tôi là do bố tôi làm năm ngoái.,を,が,で,や
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,6,今日 やおやで りんごを 買いました。五つ（   ）１０００円でした。,Hôm nay tôi đã mua táo ở cửa hàng rau. 5 quả giá 1000 yên.,で,に,や,と
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,7,きのう（   ）少し寒かったですが、今日（   ）寒くないです。,Hôm qua thì hơi lạnh nhưng hôm nay thì không lạnh.,に／に,は／は,も／も,を／を
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,8,南町は、海が、きれい（   ）、静かです。,Minamimachi biển đẹp và yên tĩnh.,や,と,で,も
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,9,前川「林さん、（   ）に ある カメラは 林さんのですか。」,"Maekawa: ""Anh Hayashi, cái máy ảnh ở đằng kia có phải của anh không?""",そこ,どこ,その,どの
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,10,A「先週 はじめて スキーを しました。」 B「そうですか。（   ）でしたか。」 A「とても 楽しかったです。」,"A: ""Tuần trước lần đầu tiên tôi đã đi trượt tuyết."" B: ""Vậy ạ? Thế nào ạ?""",どちら,どなた,いくつ,いかが
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,11,森「ケンさん、大学の じゅぎょうは 始まりましたか。」 ケン「いいえ、（   ）です。来週 始まります。」,"Mori: ""Ken, giờ học đại học đã bắt đầu chưa?"" Ken: ""Chưa ạ. Tuần sau mới bắt đầu.""",よく,もう,まだ,ちょっと
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,12,（びょういんで） いしゃ「今日から 一週間 薬を 飲んで、来週の 月曜日に（   ）来て ください。」,"(Ở bệnh viện) Bác sĩ: ""Từ hôm nay hãy uống thuốc 1 tuần, rồi thứ Hai tuần sau hãy đến lần nữa.""",あまり,また,たくさん,だんだん
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,13,父は 毎朝 コーヒーを（   ）ながら 新聞を 読みます。,Bố tôi mỗi sáng vừa uống cà phê vừa đọc báo.,飲み,飲む,飲んで,飲んだ
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,14,私は 小さいとき、なっとうが 好き（   ）でした。,"Hồi còn nhỏ, tôi đã không thích món natto.",ない,じゃない,ありません,じゃありません
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,15,（ケーキ屋で） 店の人「いらっしゃいませ。」 山下「すみません、いちごのケーキを二つ（   ）。」,"(Ở tiệm bánh) Nhân viên: ""Chào quý khách."" Yamashita: ""Xin lỗi, cho tôi 2 cái bánh dâu tây.""",どうぞ,ください,ありますか,ほしいです
+1,Điền từ / Trợ từ,JLPT N5 20187 Grammar,16,リー「日曜日に、私の 家で アンさんと べんきょうを します。キムさんも（   ）。」,"Lee: ""Chủ nhật tôi sẽ học cùng An ở nhà tôi. Kim cũng đến nhé.""",来ませんか,来ませんでしたか,来て いますか,来て いましたか

@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-5,Quốc gia,Mina bài 1,1,アメリカ nghĩa là gì?,Amerika nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Anh,Mỹ,Đức,Pháp
-5,Quốc gia,Mina bài 1,2,イギリス nghĩa là gì?,Igirisu nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Mỹ,Anh,Ấn Độ,Brazil
-5,Quốc gia,Mina bài 1,3,インド nghĩa là gì?,Indo nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Ấn Độ,Indonesia,Thái Lan,Hàn Quốc
-5,Quốc gia,Mina bài 1,4,インドネシア nghĩa là gì?,Indoneshia nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Ấn Độ,Indonesia,Trung Quốc,Đức
-5,Quốc gia,Mina bài 1,5,韓国（かんこく） nghĩa là gì?,Kankoku(kankoku) nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Nhật Bản,Hàn Quốc,Trung Quốc,Thái Lan
-5,Quốc gia,Mina bài 1,6,タイ nghĩa là gì?,Tai nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Thái Lan,Pháp,Brazil,Anh
-5,Quốc gia,Mina bài 1,7,中国（ちゅうごく） nghĩa là gì?,Chuugoku(chuugoku) nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Hàn Quốc,Trung Quốc,Nhật Bản,Việt Nam
-5,Quốc gia,Mina bài 1,8,ドイツ nghĩa là gì?,Doitsu nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Pháp,Đức,Mỹ,Anh
-5,Quốc gia,Mina bài 1,9,日本（にほん） nghĩa là gì?,Nihon(nihon) nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Việt Nam,Nhật Bản,Hàn Quốc,Trung Quốc
-5,Quốc gia,Mina bài 1,10,フランス nghĩa là gì?,Furansu nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Pháp,Đức,Mỹ,Thái Lan
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+5,Quốc gia,Mina bài 1,1,アメリカ nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Anh,Mỹ,Đức,Pháp
+5,Quốc gia,Mina bài 1,2,イギリス nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Mỹ,Anh,Ấn Độ,Brazil
+5,Quốc gia,Mina bài 1,3,インド nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Ấn Độ,Indonesia,Thái Lan,Hàn Quốc
+5,Quốc gia,Mina bài 1,4,インドネシア nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Ấn Độ,Indonesia,Trung Quốc,Đức
+5,Quốc gia,Mina bài 1,5,韓国（かんこく） nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Nhật Bản,Hàn Quốc,Trung Quốc,Thái Lan
+5,Quốc gia,Mina bài 1,6,タイ nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Thái Lan,Pháp,Brazil,Anh
+5,Quốc gia,Mina bài 1,7,中国（ちゅうごく） nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Hàn Quốc,Trung Quốc,Nhật Bản,Việt Nam
+5,Quốc gia,Mina bài 1,8,ドイツ nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Pháp,Đức,Mỹ,Anh
+5,Quốc gia,Mina bài 1,9,日本（にほん） nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Việt Nam,Nhật Bản,Hàn Quốc,Trung Quốc
+5,Quốc gia,Mina bài 1,10,フランス nghĩa là gì?,Chọn nghĩa tiếng Việt đúng của từ/cụm trong câu hỏi.,Pháp,Đức,Mỹ,Thái Lan

@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-10,"Ôn tập tổng hợp","JLPT N5",1,"うちに かさが 2＿＿あります。","Uchi ni kasa ga ni ___ arimasu.","Ở nhà có 2 chiếc ô.","ほん","さつ","だい","まい"
-10,"Ôn tập tổng hợp","JLPT N5",2,"がっこうは 6がつから 8がつまで 3＿＿やすみです。","Gakkou wa roku-gatsu kara hachi-gatsu made san ___ yasumi desu.","Trường nghỉ 3 tháng từ tháng 6 đến tháng 8.","かげつ","げつ","がつ","しゅうかん"
-10,"Ôn tập tổng hợp","JLPT N5",3,"めがねを ＿＿ ほんを よみます。","Megane o ___ hon o yomimasu.","Tôi đeo kính rồi đọc sách.","かけて","かいて","あけて","しめて"
-10,"Ôn tập tổng hợp","JLPT N5",4,"エレベーターで いきますか、＿＿で いきますか。","Erebêta de ikimasu ka ___ de ikimasu ka.","Bạn đi bằng thang máy hay cầu thang?","かいだん","げんかん","さんぽ","だいどころ"
-10,"Ôn tập tổng hợp","JLPT N5",5,"ここで くつを ＿＿ください。","Koko de kutsu o ___ kudasai.","Hãy cởi giày ở đây.","ぬいで","はいて","きて","かぶって"
-10,"Ôn tập tổng hợp","JLPT N5",6,"この ぶどうは ＿＿おいしいです。","Kono budou wa ___ oishii desu.","Nho này ngọt và ngon.","あまくて","あぶなくて","すずしくて","たのしくて"
-10,"Ôn tập tổng hợp","JLPT N5",7,"おさけは ＿＿すきじゃ ありません。","Osake wa ___ suki ja arimasen.","Tôi không thích rượu lắm.","あまり","とても","よく","すぐ"
-10,"Ôn tập tổng hợp","JLPT N5",8,"＿＿からの てがみですか。","___ kara no tegami desu ka.","Đó là thư từ ai vậy?","どなた","なん","なんじ","どう"
-10,"Ôn tập tổng合","JLPT N5",9,"この えきに でんしゃは ＿＿ません。","Kono eki ni densha wa ___ masen.","Tàu không dừng ở ga này.","とまり","わたり","ならび","けし"
-10,"Ôn tập tổng合","JLPT N5",10,"ここの こうえんは とても ＿＿です。","Koko no kouen wa totemo ___ desu.","Công viên ở đây rất yên tĩnh.","しずか","ひま","しんせつ","おなじ"
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+10,Ôn tập tổng hợp,JLPT N5,1,うちに かさが 2＿＿あります。,Ở nhà có 2 chiếc ô.,ほん,さつ,だい,まい
+10,Ôn tập tổng hợp,JLPT N5,2,がっこうは 6がつから 8がつまで 3＿＿やすみです。,Trường nghỉ 3 tháng từ tháng 6 đến tháng 8.,かげつ,げつ,がつ,しゅうかん
+10,Ôn tập tổng hợp,JLPT N5,3,めがねを ＿＿ ほんを よみます。,Tôi đeo kính rồi đọc sách.,かけて,かいて,あけて,しめて
+10,Ôn tập tổng hợp,JLPT N5,4,エレベーターで いきますか、＿＿で いきますか。,Bạn đi bằng thang máy hay cầu thang?,かいだん,げんかん,さんぽ,だいどころ
+10,Ôn tập tổng hợp,JLPT N5,5,ここで くつを ＿＿ください。,Hãy cởi giày ở đây.,ぬいで,はいて,きて,かぶって
+10,Ôn tập tổng hợp,JLPT N5,6,この ぶどうは ＿＿おいしいです。,Nho này ngọt và ngon.,あまくて,あぶなくて,すずしくて,たのしくて
+10,Ôn tập tổng hợp,JLPT N5,7,おさけは ＿＿すきじゃ ありません。,Tôi không thích rượu lắm.,あまり,とても,よく,すぐ
+10,Ôn tập tổng hợp,JLPT N5,8,＿＿からの てがみですか。,Đó là thư từ ai vậy?,どなた,なん,なんじ,どう
+10,Ôn tập tổng合,JLPT N5,9,この えきに でんしゃは ＿＿ません。,Tàu không dừng ở ga này.,とまり,わたり,ならび,けし
+10,Ôn tập tổng合,JLPT N5,10,ここの こうえんは とても ＿＿です。,Công viên ở đây rất yên tĩnh.,しずか,ひま,しんせつ,おなじ

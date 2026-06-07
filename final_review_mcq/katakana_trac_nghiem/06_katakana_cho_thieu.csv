@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-6,Chọn chữ còn thiếu,Âm đơn,51,ア・イ・ウ・エ・？,o,o,オ,カ,コ,エ
-6,Chọn chữ còn thiếu,Âm đơn,52,カ・キ・ク・？・コ,ke,ke,ケ,セ,キ,ク
-6,Chọn chữ còn thiếu,Âm đơn,53,サ・シ・ス・セ・？,so,so,ソ,ン,ツ,ノ
-6,Chọn chữ còn thiếu,Âm đơn,54,タ・チ・ツ・テ・？,to,to,ト,ナ,テ,ノ
-6,Chọn chữ còn thiếu,Âm đơn,55,ナ・ニ・ヌ・ネ・？,no,no,ノ,ナ,ネ,ヌ
-6,Chọn chữ còn thiếu,Âm đơn,56,ハ・ヒ・フ・ヘ・？,ho,ho,ホ,ヘ,フ,ヒ
-6,Chọn chữ còn thiếu,Âm đơn,57,マ・ミ・ム・メ・？,mo,mo,モ,ム,メ,ミ
-6,Chọn chữ còn thiếu,Âm đơn,58,ヤ・？・ヨ,yu,yu,ユ,ヤ,ヨ,イ
-6,Chọn chữ còn thiếu,Âm đơn,59,ラ・リ・ル・レ・？,ro,ro,ロ,ル,レ,リ
-6,Chọn chữ còn thiếu,Âm đơn,60,ワ・？・ン,wo,wo,ヲ,ウ,オ,ノ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+6,Chọn chữ còn thiếu,Âm đơn,51,ア・イ・ウ・エ・？,o,オ,カ,コ,エ
+6,Chọn chữ còn thiếu,Âm đơn,52,カ・キ・ク・？・コ,ke,ケ,セ,キ,ク
+6,Chọn chữ còn thiếu,Âm đơn,53,サ・シ・ス・セ・？,so,ソ,ン,ツ,ノ
+6,Chọn chữ còn thiếu,Âm đơn,54,タ・チ・ツ・テ・？,to,ト,ナ,テ,ノ
+6,Chọn chữ còn thiếu,Âm đơn,55,ナ・ニ・ヌ・ネ・？,no,ノ,ナ,ネ,ヌ
+6,Chọn chữ còn thiếu,Âm đơn,56,ハ・ヒ・フ・ヘ・？,ho,ホ,ヘ,フ,ヒ
+6,Chọn chữ còn thiếu,Âm đơn,57,マ・ミ・ム・メ・？,mo,モ,ム,メ,ミ
+6,Chọn chữ còn thiếu,Âm đơn,58,ヤ・？・ヨ,yu,ユ,ヤ,ヨ,イ
+6,Chọn chữ còn thiếu,Âm đơn,59,ラ・リ・ル・レ・？,ro,ロ,ル,レ,リ
+6,Chọn chữ còn thiếu,Âm đơn,60,ワ・？・ン,wo,ヲ,ウ,オ,ノ

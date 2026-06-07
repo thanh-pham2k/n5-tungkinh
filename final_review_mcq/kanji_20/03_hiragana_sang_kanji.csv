@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Hiragana → Kanji,Kanji N5 Bài 20,1,てん,,là Kanji nào?,天,赤,青,白
-3,Hiragana → Kanji,Kanji N5 Bài 20,2,あか,,là Kanji nào?,青,赤,黒,色
-3,Hiragana → Kanji,Kanji N5 Bài 20,3,あお,,là Kanji nào?,赤,青,白,魚
-3,Hiragana → Kanji,Kanji N5 Bài 20,4,しろ,,là Kanji nào?,黒,白,犬,色
-3,Hiragana → Kanji,Kanji N5 Bài 20,5,くろ,,là Kanji nào?,黒,白,青,赤
-3,Hiragana → Kanji,Kanji N5 Bài 20,6,いろ,,là Kanji nào?,魚,犬,色,天
-3,Hiragana → Kanji,Kanji N5 Bài 20,7,さかな,,là Kanji nào?,犬,魚,馬,虫
-3,Hiragana → Kanji,Kanji N5 Bài 20,8,いぬ,,là Kanji nào?,魚,犬,虫,馬
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Hiragana → Kanji,Kanji N5 Bài 20,1,てん,là Kanji nào?,天,赤,青,白
+3,Hiragana → Kanji,Kanji N5 Bài 20,2,あか,là Kanji nào?,青,赤,黒,色
+3,Hiragana → Kanji,Kanji N5 Bài 20,3,あお,là Kanji nào?,赤,青,白,魚
+3,Hiragana → Kanji,Kanji N5 Bài 20,4,しろ,là Kanji nào?,黒,白,犬,色
+3,Hiragana → Kanji,Kanji N5 Bài 20,5,くろ,là Kanji nào?,黒,白,青,赤
+3,Hiragana → Kanji,Kanji N5 Bài 20,6,いろ,là Kanji nào?,魚,犬,色,天
+3,Hiragana → Kanji,Kanji N5 Bài 20,7,さかな,là Kanji nào?,犬,魚,馬,虫
+3,Hiragana → Kanji,Kanji N5 Bài 20,8,いぬ,là Kanji nào?,魚,犬,虫,馬

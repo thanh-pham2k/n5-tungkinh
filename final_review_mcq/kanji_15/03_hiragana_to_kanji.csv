@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Hiragana → Kanji,Kanji N5 Bài 15,1,やすみます,,やすみます là Kanji nào?,休みます,走ります,起きます,買います
-3,Hiragana → Kanji,Kanji N5 Bài 15,2,はしります,,はしります là Kanji nào?,起きます,走ります,売ります,読みます
-3,Hiragana → Kanji,Kanji N5 Bài 15,3,おきます,,おきます là Kanji nào?,休みます,起きます,書きます,買います
-3,Hiragana → Kanji,Kanji N5 Bài 15,4,かい,,かい là Kanji nào?,貝,買,売,書
-3,Hiragana → Kanji,Kanji N5 Bài 15,5,かいます,,かいます là Kanji nào?,売ります,買います,読みます,走ります
-3,Hiragana → Kanji,Kanji N5 Bài 15,6,うります,,うります là Kanji nào?,買います,売ります,書きます,起きます
-3,Hiragana → Kanji,Kanji N5 Bài 15,7,よみます,,よみます là Kanji nào?,読みます,書きます,休みます,走ります
-3,Hiragana → Kanji,Kanji N5 Bài 15,8,かきます,,かきます là Kanji nào?,読みます,書きます,買います,売ります
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Hiragana → Kanji,Kanji N5 Bài 15,1,やすみます,やすみます là Kanji nào?,休みます,走ります,起きます,買います
+3,Hiragana → Kanji,Kanji N5 Bài 15,2,はしります,はしります là Kanji nào?,起きます,走ります,売ります,読みます
+3,Hiragana → Kanji,Kanji N5 Bài 15,3,おきます,おきます là Kanji nào?,休みます,起きます,書きます,買います
+3,Hiragana → Kanji,Kanji N5 Bài 15,4,かい,かい là Kanji nào?,貝,買,売,書
+3,Hiragana → Kanji,Kanji N5 Bài 15,5,かいます,かいます là Kanji nào?,売ります,買います,読みます,走ります
+3,Hiragana → Kanji,Kanji N5 Bài 15,6,うります,うります là Kanji nào?,買います,売ります,書きます,起きます
+3,Hiragana → Kanji,Kanji N5 Bài 15,7,よみます,よみます là Kanji nào?,読みます,書きます,休みます,走ります
+3,Hiragana → Kanji,Kanji N5 Bài 15,8,かきます,かきます là Kanji nào?,読みます,書きます,買います,売ります

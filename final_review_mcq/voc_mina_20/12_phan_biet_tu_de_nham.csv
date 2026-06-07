@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-12,Phân biệt từ dễ nhầm,Mina bài 20,1,いります và あります khác nhau thế nào?,,Phân biệt từ dễ nhầm.,いります là cần; あります là có / ở,いります là có; あります là cần,Cả hai đều là sửa,Cả hai đều là gọi điện
-12,Phân biệt từ dễ nhầm,Mina bài 20,2,なおします và しゅうりします khác nhau thế nào?,,Phân biệt từ dễ nhầm.,なおします là sửa/chữa; しゅうりします là sửa chữa,なおします là tra cứu; しゅうりします là gọi điện,Cả hai đều là cần,Cả hai đều là phía này
-12,Phân biệt từ dễ nhầm,Mina bài 20,3,しらべます và でんわします khác nhau thế nào?,,Phân biệt từ dễ nhầm.,しらべます là tra cứu; でんわします là gọi điện,しらべます là gọi điện; でんわします là tra cứu,Cả hai đều là sửa chữa,Cả hai đều là cần
-12,Phân biệt từ dễ nhầm,Mina bài 20,4,ぼく và きみ khác nhau thế nào?,,Phân biệt từ dễ nhầm.,ぼく là tôi; きみ là bạn/cậu,ぼく là bạn; きみ là tôi,Cả hai đều là mọi người,Cả hai đều là nhân viên
-12,Phân biệt từ dễ nhầm,Mina bài 20,5,うん và ううん khác nhau thế nào?,,Phân biệt từ dễ nhầm.,うん là ừ/vâng; ううん là không,うん là không; ううん là vâng,Cả hai đều là nhưng,Cả hai đều là nếu được
-12,Phân biệt từ dễ nhầm,Mina bài 20,6,こっち・そっち・あっち khác nhau thế nào?,,Phân biệt từ dễ nhầm.,"こっち: phía này, そっち: phía đó, あっち: phía kia","こっち: phía kia, そっち: phía này, あっち: phía đó",Cả ba đều nghĩa là cái nào,Cả ba đều nghĩa là ban đầu
-12,Phân biệt từ dễ nhầm,Mina bài 20,7,どっち và どれ khác nhau thế nào?,,Phân biệt từ dễ nhầm.,どっち thường hỏi cái nào/phía nào trong 2; どれ hỏi cái nào nói chung,どっち là phía này; どれ là phía đó,Cả hai đều nghĩa là hôm nọ,Cả hai đều nghĩa là nhưng
-12,Phân biệt từ dễ nhầm,Mina bài 20,8,はじめ và おわり khác nhau thế nào?,,Phân biệt từ dễ nhầm.,はじめ là đầu/ban đầu; おわり là cuối/kết thúc,はじめ là cuối; おわり là ban đầu,Cả hai đều là hôm nọ,Cả hai đều là nhiều loại
-12,Phân biệt từ dễ nhầm,Mina bài 20,9,ことば và ぶっか khác nhau thế nào?,,Phân biệt từ dễ nhầm.,ことば là từ/ngôn ngữ; ぶっか là giá cả/vật giá,ことば là giá cả; ぶっか là từ,Cả hai đều là visa,Cả hai đều là kimono
-12,Phân biệt từ dễ nhầm,Mina bài 20,10,けど và よかったら khác nhau thế nào?,,Phân biệt từ dễ nhầm.,けど là nhưng; よかったら là nếu được,けど là nếu được; よかったら là nhưng,Cả hai đều là về nước,Cả hai đều là không biết làm gì
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+12,Phân biệt từ dễ nhầm,Mina bài 20,1,いります và あります khác nhau thế nào?,Phân biệt từ dễ nhầm.,いります là cần; あります là có / ở,いります là có; あります là cần,Cả hai đều là sửa,Cả hai đều là gọi điện
+12,Phân biệt từ dễ nhầm,Mina bài 20,2,なおします và しゅうりします khác nhau thế nào?,Phân biệt từ dễ nhầm.,なおします là sửa/chữa; しゅうりします là sửa chữa,なおします là tra cứu; しゅうりします là gọi điện,Cả hai đều là cần,Cả hai đều là phía này
+12,Phân biệt từ dễ nhầm,Mina bài 20,3,しらべます và でんわします khác nhau thế nào?,Phân biệt từ dễ nhầm.,しらべます là tra cứu; でんわします là gọi điện,しらべます là gọi điện; でんわします là tra cứu,Cả hai đều là sửa chữa,Cả hai đều là cần
+12,Phân biệt từ dễ nhầm,Mina bài 20,4,ぼく và きみ khác nhau thế nào?,Phân biệt từ dễ nhầm.,ぼく là tôi; きみ là bạn/cậu,ぼく là bạn; きみ là tôi,Cả hai đều là mọi người,Cả hai đều là nhân viên
+12,Phân biệt từ dễ nhầm,Mina bài 20,5,うん và ううん khác nhau thế nào?,Phân biệt từ dễ nhầm.,うん là ừ/vâng; ううん là không,うん là không; ううん là vâng,Cả hai đều là nhưng,Cả hai đều là nếu được
+12,Phân biệt từ dễ nhầm,Mina bài 20,6,こっち・そっち・あっち khác nhau thế nào?,Phân biệt từ dễ nhầm.,"こっち: phía này, そっち: phía đó, あっち: phía kia","こっち: phía kia, そっち: phía này, あっち: phía đó",Cả ba đều nghĩa là cái nào,Cả ba đều nghĩa là ban đầu
+12,Phân biệt từ dễ nhầm,Mina bài 20,7,どっち và どれ khác nhau thế nào?,Phân biệt từ dễ nhầm.,どっち thường hỏi cái nào/phía nào trong 2; どれ hỏi cái nào nói chung,どっち là phía này; どれ là phía đó,Cả hai đều nghĩa là hôm nọ,Cả hai đều nghĩa là nhưng
+12,Phân biệt từ dễ nhầm,Mina bài 20,8,はじめ và おわり khác nhau thế nào?,Phân biệt từ dễ nhầm.,はじめ là đầu/ban đầu; おわり là cuối/kết thúc,はじめ là cuối; おわり là ban đầu,Cả hai đều là hôm nọ,Cả hai đều là nhiều loại
+12,Phân biệt từ dễ nhầm,Mina bài 20,9,ことば và ぶっか khác nhau thế nào?,Phân biệt từ dễ nhầm.,ことば là từ/ngôn ngữ; ぶっか là giá cả/vật giá,ことば là giá cả; ぶっか là từ,Cả hai đều là visa,Cả hai đều là kimono
+12,Phân biệt từ dễ nhầm,Mina bài 20,10,けど và よかったら khác nhau thế nào?,Phân biệt từ dễ nhầm.,けど là nhưng; よかったら là nếu được,けど là nếu được; よかったら là nhưng,Cả hai đều là về nước,Cả hai đều là không biết làm gì

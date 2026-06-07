@@ -1,9 +1,9 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1401,Kanji → Nghĩa,Bài 14,1,馬,uma,馬 nghĩa là gì?,ngựa,xe,nhà ga,cửa hàng
-1401,Kanji → Nghĩa,Bài 14,2,駅,eki,駅 nghĩa là gì?,trường học,nhà ga,công ty,bệnh viện
-1401,Kanji → Nghĩa,Bài 14,3,社,sha,社 nghĩa là gì?,bạc,bệnh,công ty / xã,cửa tiệm
-1401,Kanji → Nghĩa,Bài 14,4,校,kou,校 nghĩa là gì?,trường,làng,thị trấn,ngựa
-1401,Kanji → Nghĩa,Bài 14,5,店,mise,店 nghĩa là gì?,bệnh,cửa tiệm / cửa hàng,nhà ga,bạc
-1401,Kanji → Nghĩa,Bài 14,6,銀,gin,銀 nghĩa là gì?,vàng,bạc,điện,mưa
-1401,Kanji → Nghĩa,Bài 14,7,病,byou,病 nghĩa là gì?,bệnh,viện,trường học,công ty
-1401,Kanji → Nghĩa,Bài 14,8,院,in,院 nghĩa là gì?,viện,ngựa,cửa hàng,nhà ga
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1401,Kanji → Nghĩa,Bài 14,1,馬,馬 nghĩa là gì?,ngựa,xe,nhà ga,cửa hàng
+1401,Kanji → Nghĩa,Bài 14,2,駅,駅 nghĩa là gì?,trường học,nhà ga,công ty,bệnh viện
+1401,Kanji → Nghĩa,Bài 14,3,社,社 nghĩa là gì?,bạc,bệnh,công ty / xã,cửa tiệm
+1401,Kanji → Nghĩa,Bài 14,4,校,校 nghĩa là gì?,trường,làng,thị trấn,ngựa
+1401,Kanji → Nghĩa,Bài 14,5,店,店 nghĩa là gì?,bệnh,cửa tiệm / cửa hàng,nhà ga,bạc
+1401,Kanji → Nghĩa,Bài 14,6,銀,銀 nghĩa là gì?,vàng,bạc,điện,mưa
+1401,Kanji → Nghĩa,Bài 14,7,病,病 nghĩa là gì?,bệnh,viện,trường học,công ty
+1401,Kanji → Nghĩa,Bài 14,8,院,院 nghĩa là gì?,viện,ngựa,cửa hàng,nhà ga

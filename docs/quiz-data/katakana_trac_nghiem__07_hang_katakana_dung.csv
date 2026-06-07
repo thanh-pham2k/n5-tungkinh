@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-7,Chọn hàng đúng,Âm đơn,61,ア・イ・ウ・エ・オ,a,hàng a,hàng a,hàng ka,hàng sa,hàng ta
-7,Chọn hàng đúng,Âm đơn,62,カ・キ・ク・ケ・コ,ka,hàng ka,hàng ka,hàng a,hàng sa,hàng na
-7,Chọn hàng đúng,Âm đơn,63,サ・シ・ス・セ・ソ,sa,hàng sa,hàng sa,hàng ta,hàng za,hàng ha
-7,Chọn hàng đúng,Âm đơn,64,タ・チ・ツ・テ・ト,ta,hàng ta,hàng ta,hàng da,hàng sa,hàng na
-7,Chọn hàng đúng,Âm đơn,65,ナ・ニ・ヌ・ネ・ノ,na,hàng na,hàng na,hàng ma,hàng ra,hàng ha
-7,Chọn hàng đúng,Âm đơn,66,ハ・ヒ・フ・ヘ・ホ,ha,hàng ha,hàng ha,hàng ba,hàng pa,hàng ma
-7,Chọn hàng đúng,Âm đơn,67,マ・ミ・ム・メ・モ,ma,hàng ma,hàng ma,hàng na,hàng ya,hàng ra
-7,Chọn hàng đúng,Âm đơn,68,ヤ・ユ・ヨ,ya,hàng ya,hàng ya,hàng a,hàng ra,hàng wa
-7,Chọn hàng đúng,Âm đơn,69,ラ・リ・ル・レ・ロ,ra,hàng ra,hàng ra,hàng ya,hàng wa,hàng na
-7,Chọn hàng đúng,Âm đơn,70,ワ・ヲ・ン,wa,hàng wa,hàng wa,hàng a,hàng ra,hàng ya
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+7,Chọn hàng đúng,Âm đơn,61,ア・イ・ウ・エ・オ,hàng a,hàng a,hàng ka,hàng sa,hàng ta
+7,Chọn hàng đúng,Âm đơn,62,カ・キ・ク・ケ・コ,hàng ka,hàng ka,hàng a,hàng sa,hàng na
+7,Chọn hàng đúng,Âm đơn,63,サ・シ・ス・セ・ソ,hàng sa,hàng sa,hàng ta,hàng za,hàng ha
+7,Chọn hàng đúng,Âm đơn,64,タ・チ・ツ・テ・ト,hàng ta,hàng ta,hàng da,hàng sa,hàng na
+7,Chọn hàng đúng,Âm đơn,65,ナ・ニ・ヌ・ネ・ノ,hàng na,hàng na,hàng ma,hàng ra,hàng ha
+7,Chọn hàng đúng,Âm đơn,66,ハ・ヒ・フ・ヘ・ホ,hàng ha,hàng ha,hàng ba,hàng pa,hàng ma
+7,Chọn hàng đúng,Âm đơn,67,マ・ミ・ム・メ・モ,hàng ma,hàng ma,hàng na,hàng ya,hàng ra
+7,Chọn hàng đúng,Âm đơn,68,ヤ・ユ・ヨ,hàng ya,hàng ya,hàng a,hàng ra,hàng wa
+7,Chọn hàng đúng,Âm đơn,69,ラ・リ・ル・レ・ロ,hàng ra,hàng ra,hàng ya,hàng wa,hàng na
+7,Chọn hàng đúng,Âm đơn,70,ワ・ヲ・ン,hàng wa,hàng wa,hàng a,hàng ra,hàng ya

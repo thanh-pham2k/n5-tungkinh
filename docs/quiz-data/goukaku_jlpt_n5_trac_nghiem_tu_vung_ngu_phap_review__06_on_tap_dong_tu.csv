@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-6,"Ôn tập động từ","Mina bài 6, 14",1,"ここで みちを ＿＿ましょう。","Koko de michi o ___ mashou.","Hãy băng qua đường ở đây nhé.","わたり","とまり","ならび","とり"
-6,"Ôn tập động từ","Mina bài 6, 14",2,"この えきに でんしゃは ＿＿ません。","Kono eki ni densha wa ___ masen.","Tàu không dừng ở ga này.","とまり","わたり","ならび","けし"
-6,"Ôn tập động từ","Mina bài 6, 14",3,"ここで くつを ＿＿ください。","Koko de kutsu o ___ kudasai.","Hãy cởi giày ở đây.","ぬいで","きて","はいて","かぶって"
-6,"Ôn tập động từ","Mina bài 6, 14",4,"ぼうしを ＿＿ください。","Boushi o ___ kudasai.","Hãy đội mũ.","かぶって","はいて","きて","ぬいで"
-6,"Ôn tập động từ","Mina bài 6, 14",5,"コートを ＿＿ください。","Kooto o ___ kudasai.","Hãy mặc áo khoác.","きて","はいて","かぶって","ぬいで"
-6,"Ôn tập động từ","Mina bài 6, 14",6,"くつを ＿＿ください。","Kutsu o ___ kudasai.","Hãy mang giày.","はいて","きて","かぶって","ぬいで"
-6,"Ôn tập động từ","Mina bài 6, 14",7,"でんきを ＿＿ください。","Denki o ___ kudasai.","Hãy bật điện.","つけて","けして","あけて","しめて"
-6,"Ôn tập động từ","Mina bài 6, 14",8,"まどを ＿＿ください。","Mado o ___ kudasai.","Hãy mở cửa sổ.","あけて","しめて","かけて","かいて"
-6,"Ôn tập động từ","Mina bài 6, 14",9,"なまえを ＿＿ください。","Namae o ___ kudasai.","Hãy viết tên.","かいて","かけて","あけて","しめて"
-6,"Ôn tập động từ","Mina bài 6, 14",10,"かぜを ＿＿ました。","Kaze o ___ mashita.","Tôi bị cảm rồi.","ひき","ふき","ふり","はき"
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+6,Ôn tập động từ,"Mina bài 6, 14",1,ここで みちを ＿＿ましょう。,Hãy băng qua đường ở đây nhé.,わたり,とまり,ならび,とり
+6,Ôn tập động từ,"Mina bài 6, 14",2,この えきに でんしゃは ＿＿ません。,Tàu không dừng ở ga này.,とまり,わたり,ならび,けし
+6,Ôn tập động từ,"Mina bài 6, 14",3,ここで くつを ＿＿ください。,Hãy cởi giày ở đây.,ぬいで,きて,はいて,かぶって
+6,Ôn tập động từ,"Mina bài 6, 14",4,ぼうしを ＿＿ください。,Hãy đội mũ.,かぶって,はいて,きて,ぬいで
+6,Ôn tập động từ,"Mina bài 6, 14",5,コートを ＿＿ください。,Hãy mặc áo khoác.,きて,はいて,かぶって,ぬいで
+6,Ôn tập động từ,"Mina bài 6, 14",6,くつを ＿＿ください。,Hãy mang giày.,はいて,きて,かぶって,ぬいで
+6,Ôn tập động từ,"Mina bài 6, 14",7,でんきを ＿＿ください。,Hãy bật điện.,つけて,けして,あけて,しめて
+6,Ôn tập động từ,"Mina bài 6, 14",8,まどを ＿＿ください。,Hãy mở cửa sổ.,あけて,しめて,かけて,かいて
+6,Ôn tập động từ,"Mina bài 6, 14",9,なまえを ＿＿ください。,Hãy viết tên.,かいて,かけて,あけて,しめて
+6,Ôn tập động từ,"Mina bài 6, 14",10,かぜを ＿＿ました。,Tôi bị cảm rồi.,ひき,ふき,ふり,はき

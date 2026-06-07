@@ -1,9 +1,9 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,Kanji → Nghĩa,Kanji N5 bài 3,1,日 nghĩa là gì?,hi / nichi nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mặt trời / ngày,mặt trăng,nước,cây
-1,Kanji → Nghĩa,Kanji N5 bài 3,2,月 nghĩa là gì?,tsuki / getsu / gatsu nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,lửa,mặt trăng / tháng,đất,tiền
-1,Kanji → Nghĩa,Kanji N5 bài 3,3,火 nghĩa là gì?,hi / ka nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,nước,cây,lửa,ngày
-1,Kanji → Nghĩa,Kanji N5 bài 3,4,水 nghĩa là gì?,mizu / sui nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,nước,đất,vàng,tháng
-1,Kanji → Nghĩa,Kanji N5 bài 3,5,木 nghĩa là gì?,ki / moku nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,lửa,cây,tiền,ngày trong tuần
-1,Kanji → Nghĩa,Kanji N5 bài 3,6,土 nghĩa là gì?,tsuchi / do nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mặt trời,nước,đất,mặt trăng
-1,Kanji → Nghĩa,Kanji N5 bài 3,7,金 nghĩa là gì?,kane / kin nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,cây,lửa,tiền / vàng / kim loại,thứ bảy
-1,Kanji → Nghĩa,Kanji N5 bài 3,8,曜 nghĩa là gì?,you nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,ngày trong tuần,nước,đất,cây
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Kanji → Nghĩa,Kanji N5 bài 3,1,日 nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mặt trời / ngày,mặt trăng,nước,cây
+1,Kanji → Nghĩa,Kanji N5 bài 3,2,月 nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,lửa,mặt trăng / tháng,đất,tiền
+1,Kanji → Nghĩa,Kanji N5 bài 3,3,火 nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,nước,cây,lửa,ngày
+1,Kanji → Nghĩa,Kanji N5 bài 3,4,水 nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,nước,đất,vàng,tháng
+1,Kanji → Nghĩa,Kanji N5 bài 3,5,木 nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,lửa,cây,tiền,ngày trong tuần
+1,Kanji → Nghĩa,Kanji N5 bài 3,6,土 nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,mặt trời,nước,đất,mặt trăng
+1,Kanji → Nghĩa,Kanji N5 bài 3,7,金 nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,cây,lửa,tiền / vàng / kim loại,thứ bảy
+1,Kanji → Nghĩa,Kanji N5 bài 3,8,曜 nghĩa là gì?,Chọn nghĩa tiếng Việt phù hợp.,ngày trong tuần,nước,đất,cây

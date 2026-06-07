@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-12,Đọc kanji / sức khỏe,Mina bài 17,1,風邪 đọc là gì?,風邪,Chọn cách đọc đúng.,かぜ,ねつ,びょうき,のど
-12,Đọc kanji / sức khỏe,Mina bài 17,2,熱 đọc là gì?,熱,Chọn cách đọc đúng.,ねつ,かぜ,いたい,くすり
-12,Đọc kanji / sức khỏe,Mina bài 17,3,病気 đọc là gì?,病気,Chọn cách đọc đúng.,びょうき,びょういん,かぜ,ねつ
-12,Đọc kanji / sức khỏe,Mina bài 17,4,薬 đọc là gì?,薬,Chọn cách đọc đúng.,くすり,びょうき,ほけんしょう,ねつ
-12,Đọc kanji / sức khỏe,Mina bài 17,5,時間 đọc là gì?,時間,Chọn cách đọc đúng.,じかん,じけん,ときかん,しがん
-12,Đọc kanji / sức khỏe,Mina bài 17,6,喉 đọc là gì?,喉,Chọn cách đọc đúng.,のど,くち,は,みみ
-12,Đọc kanji / sức khỏe,Mina bài 17,7,痛い đọc là gì?,痛i,Chọn cách đọc đúng.,いたい,あぶない,たいせつ,だいじょうぶ
-12,Đọc kanji / sức khỏe,Mina bài 17,8,上着 đọc là gì?,上着,Chọn cách đọc đúng.,うわぎ,したぎ,ふく,シャツ
-12,Đọc kanji / sức khỏe,Mina bài 17,9,下着 đọc là gì?,下着,Chọn cách đọc đúng.,したぎ,うわぎ,ふく,コート
-12,Đọc kanji / sức khỏe,Mina bài 17,10,禁煙 đọc là gì?,禁煙,Chọn cách đọc đúng.,きんえん,たばこ,きけん,きんえい
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+12,Đọc kanji / sức khỏe,Mina bài 17,1,風邪 đọc là gì?,Chọn cách đọc đúng.,かぜ,ねつ,びょうき,のど
+12,Đọc kanji / sức khỏe,Mina bài 17,2,熱 đọc là gì?,Chọn cách đọc đúng.,ねつ,かぜ,いたい,くすり
+12,Đọc kanji / sức khỏe,Mina bài 17,3,病気 đọc là gì?,Chọn cách đọc đúng.,びょうき,びょういん,かぜ,ねつ
+12,Đọc kanji / sức khỏe,Mina bài 17,4,薬 đọc là gì?,Chọn cách đọc đúng.,くすり,びょうき,ほけんしょう,ねつ
+12,Đọc kanji / sức khỏe,Mina bài 17,5,時間 đọc là gì?,Chọn cách đọc đúng.,じかん,じけん,ときかん,しがん
+12,Đọc kanji / sức khỏe,Mina bài 17,6,喉 đọc là gì?,Chọn cách đọc đúng.,のど,くち,は,みみ
+12,Đọc kanji / sức khỏe,Mina bài 17,7,痛い đọc là gì?,Chọn cách đọc đúng.,いたい,あぶない,たいせつ,だいじょうぶ
+12,Đọc kanji / sức khỏe,Mina bài 17,8,上着 đọc là gì?,Chọn cách đọc đúng.,うわぎ,したぎ,ふく,シャツ
+12,Đọc kanji / sức khỏe,Mina bài 17,9,下着 đọc là gì?,Chọn cách đọc đúng.,したぎ,うわぎ,ふく,コート
+12,Đọc kanji / sức khỏe,Mina bài 17,10,禁煙 đọc là gì?,Chọn cách đọc đúng.,きんえん,たばこ,きけん,きんえい

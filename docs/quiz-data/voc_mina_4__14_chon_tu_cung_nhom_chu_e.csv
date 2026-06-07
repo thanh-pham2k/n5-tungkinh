@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-14,Chọn từ cùng nhóm chủ đề,Mina bài 4,1,Từ nào thuộc nhóm “động từ sinh hoạt”?,Từ nào thuộc nhóm “động từ sinh hoạt”?,Từ nào thuộc nhóm “động từ sinh hoạt”?,おきます,デパート,なんじ,げつようび
-14,Chọn từ cùng nhóm chủ đề,Mina bài 4,2,Từ nào thuộc nhóm “địa điểm”?,Từ nào thuộc nhóm “địa điểm”?,Từ nào thuộc nhóm “địa điểm”?,としょかん,おわります,けさ,なんぷん
-14,Chọn từ cùng nhóm chủ đề,Mina bài 4,3,Từ nào thuộc nhóm “thời gian trong ngày”?,Từ nào thuộc nhóm “thời gian trong ngày”?,Từ nào thuộc nhóm “thời gian trong ngày”?,あさ,ぎんこう,たいへんですね,そちら
-14,Chọn từ cùng nhóm chủ đề,Mina bài 4,4,Từ nào thuộc nhóm “ngày”?,Từ nào thuộc nhóm “ngày”?,Từ nào thuộc nhóm “ngày”?,あした,なんばん,ゆうびんきょく,はたらきます
-14,Chọn từ cùng nhóm chủ đề,Mina bài 4,5,Từ nào thuộc nhóm “thứ trong tuần”?,Từ nào thuộc nhóm “thứ trong tuần”?,Từ nào thuộc nhóm “thứ trong tuần”?,すいようび,ひるやすみ,びじゅつかん,ニューヨーク
-14,Chọn từ cùng nhóm chủ đề,Mina bài 4,6,Từ nào thuộc nhóm “thành phố”?,Từ nào thuộc nhóm “thành phố”?,Từ nào thuộc nhóm “thành phố”?,ロンドン,ぎんこう,おきます,まいにち
-14,Chọn từ cùng nhóm chủ đề,Mina bài 4,7,Từ nào thuộc nhóm “hỏi thời gian”?,Từ nào thuộc nhóm “hỏi thời gian”?,Từ nào thuộc nhóm “hỏi thời gian”?,なんじ,なんばん,そちら,ばんごう
-14,Chọn từ cùng nhóm chủ đề,Mina bài 4,8,Từ nào thuộc nhóm “khoảng thời gian”?,Từ nào thuộc nhóm “khoảng thời gian”?,Từ nào thuộc nhóm “khoảng thời gian”?,〜から,ばんごう,たいへんですね,ペキン
-14,Chọn từ cùng nhóm chủ đề,Mina bài 4,9,Từ nào thuộc nhóm “ngày nghỉ”?,Từ nào thuộc nhóm “ngày nghỉ”?,Từ nào thuộc nhóm “ngày nghỉ”?,やすみ,はたらきます,べんきょうします,おわります
-14,Chọn từ cùng nhóm chủ đề,Mina bài 4,10,Từ nào thuộc nhóm “số / mã số”?,Từ nào thuộc nhóm “số / mã số”?,Từ nào thuộc nhóm “số / mã số”?,ばんごう,なんようび,ごぜん,あさって
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+14,Chọn từ cùng nhóm chủ đề,Mina bài 4,1,Từ nào thuộc nhóm “động từ sinh hoạt”?,Từ nào thuộc nhóm “động từ sinh hoạt”?,おきます,デパート,なんじ,げつようび
+14,Chọn từ cùng nhóm chủ đề,Mina bài 4,2,Từ nào thuộc nhóm “địa điểm”?,Từ nào thuộc nhóm “địa điểm”?,としょかん,おわります,けさ,なんぷん
+14,Chọn từ cùng nhóm chủ đề,Mina bài 4,3,Từ nào thuộc nhóm “thời gian trong ngày”?,Từ nào thuộc nhóm “thời gian trong ngày”?,あさ,ぎんこう,たいへんですね,そちら
+14,Chọn từ cùng nhóm chủ đề,Mina bài 4,4,Từ nào thuộc nhóm “ngày”?,Từ nào thuộc nhóm “ngày”?,あした,なんばん,ゆうびんきょく,はたらきます
+14,Chọn từ cùng nhóm chủ đề,Mina bài 4,5,Từ nào thuộc nhóm “thứ trong tuần”?,Từ nào thuộc nhóm “thứ trong tuần”?,すいようび,ひるやすみ,びじゅつかん,ニューヨーク
+14,Chọn từ cùng nhóm chủ đề,Mina bài 4,6,Từ nào thuộc nhóm “thành phố”?,Từ nào thuộc nhóm “thành phố”?,ロンドン,ぎんこう,おきます,まいにち
+14,Chọn từ cùng nhóm chủ đề,Mina bài 4,7,Từ nào thuộc nhóm “hỏi thời gian”?,Từ nào thuộc nhóm “hỏi thời gian”?,なんじ,なんばん,そちら,ばんごう
+14,Chọn từ cùng nhóm chủ đề,Mina bài 4,8,Từ nào thuộc nhóm “khoảng thời gian”?,Từ nào thuộc nhóm “khoảng thời gian”?,〜から,ばんごう,たいへんですね,ペキン
+14,Chọn từ cùng nhóm chủ đề,Mina bài 4,9,Từ nào thuộc nhóm “ngày nghỉ”?,Từ nào thuộc nhóm “ngày nghỉ”?,やすみ,はたらきます,べんきょうします,おわります
+14,Chọn từ cùng nhóm chủ đề,Mina bài 4,10,Từ nào thuộc nhóm “số / mã số”?,Từ nào thuộc nhóm “số / mã số”?,ばんごう,なんようび,ごぜん,あさって

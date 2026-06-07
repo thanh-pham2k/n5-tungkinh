@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-13,Đọc kanji,Mina bài 9,1,料理 đọc là gì?,ryouri doc la gi?,料理 đọc là gì?,りょうり,のみもの,おんがく,うた
-13,Đọc kanji,Mina bài 9,2,飲み物 đọc là gì?,nomimono doc la gi?,飲み物 đọc là gì?,のみもの,たべもの,りょうり,みず
-13,Đọc kanji,Mina bài 9,3,音楽 đọc là gì?,ongaku doc la gi?,音楽 đọc là gì?,おんがく,うた,え,じ
-13,Đọc kanji,Mina bài 9,4,絵 đọc là gì?,e doc la gi?,絵 đọc là gì?,え,じ,かんじ,うた
-13,Đọc kanji,Mina bài 9,5,字 đọc là gì?,ji doc la gi?,字 đọc là gì?,じ,え,ひらがな,かたかな
-13,Đọc kanji,Mina bài 9,6,漢字 đọc là gì?,kanji doc la gi?,漢字 đọc là gì?,かんじ,ひらがな,かたかな,ローマじ
-13,Đọc kanji,Mina bài 9,7,お金 đọc là gì?,okane doc la gi?,お金 đọc là gì?,おかね,おきん,かね,おがね
-13,Đọc kanji,Mina bài 9,8,時間 đọc là gì?,jikan doc la gi?,時間 đọc là gì?,じかん,じけん,ときかん,しがん
-13,Đọc kanji,Mina bài 9,9,子ども đọc là gì?,kodomo doc la gi?,子ども đọc là gì?,こども,ことも,しども,こど
-13,Đọc kanji,Mina bài 9,10,日本語 đọc là gì?,nihongo doc la gi?,日本語 đọc là gì?,にほんご,にちほんご,ひほんご,にっぽんご
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+13,Đọc kanji,Mina bài 9,1,料理 đọc là gì?,料理 đọc là gì?,りょうり,のみもの,おんがく,うた
+13,Đọc kanji,Mina bài 9,2,飲み物 đọc là gì?,飲み物 đọc là gì?,のみもの,たべもの,りょうり,みず
+13,Đọc kanji,Mina bài 9,3,音楽 đọc là gì?,音楽 đọc là gì?,おんがく,うた,え,じ
+13,Đọc kanji,Mina bài 9,4,絵 đọc là gì?,絵 đọc là gì?,え,じ,かんじ,うた
+13,Đọc kanji,Mina bài 9,5,字 đọc là gì?,字 đọc là gì?,じ,え,ひらがな,かたかな
+13,Đọc kanji,Mina bài 9,6,漢字 đọc là gì?,漢字 đọc là gì?,かんじ,ひらがな,かたかな,ローマじ
+13,Đọc kanji,Mina bài 9,7,お金 đọc là gì?,お金 đọc là gì?,おかね,おきん,かね,おがね
+13,Đọc kanji,Mina bài 9,8,時間 đọc là gì?,時間 đọc là gì?,じかん,じけん,ときかん,しがん
+13,Đọc kanji,Mina bài 9,9,子ども đọc là gì?,子ども đọc là gì?,こども,ことも,しども,こど
+13,Đọc kanji,Mina bài 9,10,日本語 đọc là gì?,日本語 đọc là gì?,にほんご,にちほんご,ひほんご,にっぽんご

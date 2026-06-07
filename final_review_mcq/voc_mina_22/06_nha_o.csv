@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-6,Nhà ở,Mina bài 22,1,ふとん,futon,Nghĩa là gì?,đệm futon,tủ âm tường,phòng kiểu Nhật,tiền thuê nhà
-6,Nhà ở,Mina bài 22,2,アパート,apato,Nghĩa là gì?,căn hộ,chung cư,phòng kiểu Nhật,phòng ăn + bếp
-6,Nhà ở,Mina bài 22,3,マンション,manshon,Nghĩa là gì?,chung cư,căn hộ,tủ âm tường,đệm futon
-6,Nhà ở,Mina bài 22,4,この アパートは 安い（やすい）です,kono apatoha yasuidesu,Nghĩa là gì?,Căn hộ này rẻ.,Chung cư này đắt.,Phòng này mới.,Nhà này đẹp.
-6,Nhà ở,Mina bài 22,5,この マンションは 高い（たかい）です,kono manshonha takaidesu,Nghĩa là gì?,Chung cư này đắt.,Căn hộ này rẻ.,Phòng này thấp.,Nhà này cũ.
-6,Nhà ở,Mina bài 22,6,わしつに ふとんが あります,washitsuni futonga arimasu,Nghĩa là gì?,Trong phòng kiểu Nhật có futon.,Trong bếp có áo len.,Trong căn hộ có kính.,Trong tủ có giày.
-6,Nhà ở,Mina bài 22,7,おしいれに ふとんを 入れます（いれます）,oshiireni futonwo iremasu,Nghĩa là gì?,Cho futon vào tủ âm tường.,Mặc futon.,Đội futon.,Đeo futon.
-6,Nhà ở,Mina bài 22,8,やちんは いくらですか,yachinha ikuradesuka,Nghĩa là gì?,Tiền thuê nhà bao nhiêu?,Nhà ở đâu?,Ai thuê nhà?,Khi nào chuyển nhà?
-6,Nhà ở,Mina bài 22,9,どんな アパートですか,donna apatodesuka,Nghĩa là gì?,Căn hộ như thế nào?,Căn hộ ở đâu?,Căn hộ của ai?,Khi nào thuê căn hộ?
-6,Nhà ở,Mina bài 22,10,どこに 住んでいます（すんでいます）か,dokoni sundeimasuka,Nghĩa là gì?,Đang sống ở đâu?,Khi nào sinh ra?,Ai mặc áo?,Cái nào rẻ?
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+6,Nhà ở,Mina bài 22,1,ふとん,Nghĩa là gì?,đệm futon,tủ âm tường,phòng kiểu Nhật,tiền thuê nhà
+6,Nhà ở,Mina bài 22,2,アパート,Nghĩa là gì?,căn hộ,chung cư,phòng kiểu Nhật,phòng ăn + bếp
+6,Nhà ở,Mina bài 22,3,マンション,Nghĩa là gì?,chung cư,căn hộ,tủ âm tường,đệm futon
+6,Nhà ở,Mina bài 22,4,この アパートは 安い（やすい）です,Nghĩa là gì?,Căn hộ này rẻ.,Chung cư này đắt.,Phòng này mới.,Nhà này đẹp.
+6,Nhà ở,Mina bài 22,5,この マンションは 高い（たかい）です,Nghĩa là gì?,Chung cư này đắt.,Căn hộ này rẻ.,Phòng này thấp.,Nhà này cũ.
+6,Nhà ở,Mina bài 22,6,わしつに ふとんが あります,Nghĩa là gì?,Trong phòng kiểu Nhật có futon.,Trong bếp có áo len.,Trong căn hộ có kính.,Trong tủ có giày.
+6,Nhà ở,Mina bài 22,7,おしいれに ふとんを 入れます（いれます）,Nghĩa là gì?,Cho futon vào tủ âm tường.,Mặc futon.,Đội futon.,Đeo futon.
+6,Nhà ở,Mina bài 22,8,やちんは いくらですか,Nghĩa là gì?,Tiền thuê nhà bao nhiêu?,Nhà ở đâu?,Ai thuê nhà?,Khi nào chuyển nhà?
+6,Nhà ở,Mina bài 22,9,どんな アパートですか,Nghĩa là gì?,Căn hộ như thế nào?,Căn hộ ở đâu?,Căn hộ của ai?,Khi nào thuê căn hộ?
+6,Nhà ở,Mina bài 22,10,どこに 住んでいます（すんでいます）か,Nghĩa là gì?,Đang sống ở đâu?,Khi nào sinh ra?,Ai mặc áo?,Cái nào rẻ?

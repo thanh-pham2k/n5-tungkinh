@@ -1,13 +1,13 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-7,Thể た,Minna bài 19,1,日本へ行っ＿＿ことがあります。,Nihon e i___ koto ga arimasu.,Tôi đã từng đi Nhật.,た,て,ない,ます
-7,Thể た,Minna bài 19,2,富士山に登っ＿＿ことがありますか。,Fujisan ni nobo___ koto ga arimasu ka.,Bạn đã từng leo núi Phú Sĩ chưa?,った,って,ります,らない
-7,Thể た,Minna bài 19,3,日曜日、映画を見＿＿り、買い物し＿＿りします。,"Nichiyoubi, eiga o mi___ ri, kaimono shi___ ri shimasu.","Chủ nhật tôi xem phim, mua sắm, v.v.",たり / たり,て / て,ます / ます,ない / ない
-7,Thể た,Minna bài 19,4,宿題をし＿＿後で、寝ます。,"Shukudai o shi___ ato de, nemasu.","Sau khi làm bài tập, tôi ngủ.",た,て,ない,ます
-7,Thể た,Minna bài 19,5,ごはんを食べ＿＿ことがあります。,Gohan o tabe___ koto ga arimasu.,Tôi đã từng ăn cơm.,た,て,ない,ます
-7,Thể た,Minna bài 19,6,京都へ行っ＿＿り、奈良へ行っ＿＿りしました。,"Kyouto e i___ ri, Nara e i___ ri shimashita.","Tôi đã đi Kyoto, đi Nara, v.v.",たり / たり,て / て,ます / ます,ない / ない
-7,Thể た,Minna bài 19,7,この料理を作っ＿＿ことがあります。,Kono ryouri o tsuku___ koto ga arimasu.,Tôi đã từng làm món ăn này.,った,って,ります,らない
-7,Thể た,Minna bài 19,8,手紙を書い＿＿後で、出します。,"Tegami o kai___ ato de, dashimasu.","Sau khi viết thư, tôi gửi đi.",た,て,ない,ます
-7,Thể た,Minna bài 19,9,友だちに会っ＿＿り、話し＿＿りします。,"Tomodachi ni a___ ri, hanashi___ ri shimasu.","Tôi gặp bạn, nói chuyện, v.v.",たり / たり,て / て,ます / ます,ない / ない
-7,Thể た,Minna bài 19,10,北海道へ行っ＿＿ことがありません。,Hokkaidou e i___ koto ga arimasen.,Tôi chưa từng đi Hokkaido.,た,て,ない,ます
-7,Thể た,Minna bài 19,11,本を読ん＿＿後で、寝ました。,"Hon o yon___ ato de, nemashita.","Sau khi đọc sách, tôi đã ngủ.",だ,で,ます,ない
-7,Thể た,Minna bài 19,12,休みの日、掃除し＿＿り、洗濯し＿＿りします。,"Yasumi no hi, souji shi___ ri, sentaku shi___ ri shimasu.","Ngày nghỉ tôi dọn dẹp, giặt đồ, v.v.",たり / たり,て / て,ます / ます,ない / ない
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+7,Thể た,Minna bài 19,1,日本へ行っ＿＿ことがあります。,Tôi đã từng đi Nhật.,た,て,ない,ます
+7,Thể た,Minna bài 19,2,富士山に登っ＿＿ことがありますか。,Bạn đã từng leo núi Phú Sĩ chưa?,った,って,ります,らない
+7,Thể た,Minna bài 19,3,日曜日、映画を見＿＿り、買い物し＿＿りします。,"Chủ nhật tôi xem phim, mua sắm, v.v.",たり / たり,て / て,ます / ます,ない / ない
+7,Thể た,Minna bài 19,4,宿題をし＿＿後で、寝ます。,"Sau khi làm bài tập, tôi ngủ.",た,て,ない,ます
+7,Thể た,Minna bài 19,5,ごはんを食べ＿＿ことがあります。,Tôi đã từng ăn cơm.,た,て,ない,ます
+7,Thể た,Minna bài 19,6,京都へ行っ＿＿り、奈良へ行っ＿＿りしました。,"Tôi đã đi Kyoto, đi Nara, v.v.",たり / たり,て / て,ます / ます,ない / ない
+7,Thể た,Minna bài 19,7,この料理を作っ＿＿ことがあります。,Tôi đã từng làm món ăn này.,った,って,ります,らない
+7,Thể た,Minna bài 19,8,手紙を書い＿＿後で、出します。,"Sau khi viết thư, tôi gửi đi.",た,て,ない,ます
+7,Thể た,Minna bài 19,9,友だちに会っ＿＿り、話し＿＿りします。,"Tôi gặp bạn, nói chuyện, v.v.",たり / たり,て / て,ます / ます,ない / ない
+7,Thể た,Minna bài 19,10,北海道へ行っ＿＿ことがありません。,Tôi chưa từng đi Hokkaido.,た,て,ない,ます
+7,Thể た,Minna bài 19,11,本を読ん＿＿後で、寝ました。,"Sau khi đọc sách, tôi đã ngủ.",だ,で,ます,ない
+7,Thể た,Minna bài 19,12,休みの日、掃除し＿＿り、洗濯し＿＿りします。,"Ngày nghỉ tôi dọn dẹp, giặt đồ, v.v.",たり / たり,て / て,ます / ます,ない / ない

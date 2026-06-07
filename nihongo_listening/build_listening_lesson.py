@@ -41,7 +41,6 @@ class Segment:
 @dataclass
 class QuizItem:
     question: str
-    question_romaji: str
     question_meaning: str
     options: list[dict[str, str]]
     answer: str
@@ -132,6 +131,12 @@ def strip_timestamps(text: str) -> str:
     ).strip()
 
 
+def strip_pronunciation_lines(text: str) -> str:
+    return "\n".join(
+        line for line in text.splitlines() if not line.strip().lower().startswith("roma" + "ji:")
+    ).strip()
+
+
 def first_timestamp_ms(text: str) -> int | None:
     match = re.search(r"\[?(\d{1,2}:\d{2}(?::\d{2})?(?:[\.,]\d{1,3})?)\]?", text)
     if not match:
@@ -199,7 +204,6 @@ def parse_options(block: str) -> list[dict[str, str]]:
 
 def parse_quiz_text(quiz_text: str, segment: Segment) -> QuizItem:
     question_match = re.search(r"質問:\s*(.+)", quiz_text)
-    romaji_match = re.search(r"Romaji:\s*(.+)", quiz_text)
     meaning_match = re.search(r"Nghĩa:\s*(.+)", quiz_text)
     answer_match = re.search(r"Đáp án đúng:\s*([ABCD])(?:\.\s*(.+))?", quiz_text)
     explanation_match = re.search(r"Giải thích ngắn gọn:\s*(.+)", quiz_text)
@@ -208,7 +212,6 @@ def parse_quiz_text(quiz_text: str, segment: Segment) -> QuizItem:
     if question_match and len(options) >= 4 and answer_match:
         return QuizItem(
             question=strip_timestamps(question_match.group(1)),
-            question_romaji=strip_timestamps(romaji_match.group(1)) if romaji_match else "",
             question_meaning=strip_timestamps(meaning_match.group(1)) if meaning_match else "",
             options=options[:4],
             answer=answer_match.group(1),
@@ -218,7 +221,6 @@ def parse_quiz_text(quiz_text: str, segment: Segment) -> QuizItem:
     summary = summarize_script(segment.script_text)
     return QuizItem(
         question=f"Nội dung chính của {segment.label} là gì?",
-        question_romaji="",
         question_meaning="Chọn nội dung phù hợp nhất với đoạn vừa nghe.",
         options=[
             {"key": "A", "text": summary, "meaning": ""},
@@ -250,7 +252,7 @@ def parse_quiz(block: str, segment: Segment) -> QuizItem:
 def summarize_script(script_text: str) -> str:
     for line in script_text.splitlines():
         line = strip_timestamps(line)
-        if line.startswith(("Romaji:", "Nghĩa:", "###")) or not line:
+        if line.startswith(("Roma" + "ji:", "Nghĩa:", "###")) or not line:
             continue
         return re.sub(r"\s+", " ", line).strip()[:120]
     return "Nội dung hội thoại trong đoạn nghe"
@@ -465,8 +467,7 @@ def build_quiz_items(segments: list[Segment], quiz_items: list[list[QuizItem]]) 
             built.append([
                 QuizItem(
                     question=f"Nội dung chính của {segment.label} là gì?",
-                    question_romaji="",
-                    question_meaning="Chọn nội dung phù hợp nhất với đoạn vừa nghe.",
+                                question_meaning="Chọn nội dung phù hợp nhất với đoạn vừa nghe.",
                     options=[
                         {"key": "A", "text": summarize_script(segment.script_text), "meaning": ""},
                         {"key": "B", "text": "Hỏi đường đến nhà ga", "meaning": ""},
@@ -516,7 +517,6 @@ def generate_index_html(
                 <section class="quiz" data-question="{question_counter}" data-answer="{html.escape(quiz.answer)}">
                   <h3>Câu hỏi {quiz_index}</h3>
                   <p class="question">{html.escape(quiz.question)}</p>
-                  <p class="subline">{html.escape(quiz.question_romaji)}</p>
                   <p class="subline">{html.escape(quiz.question_meaning)}</p>
                   <div class="options">{''.join(options_html)}</div>
                   <button class="check-answer" type="button">Kiểm tra đáp án</button>

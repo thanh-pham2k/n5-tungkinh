@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-14,Đọc kanji,Mina bài 11,1,一つ đọc là gì?,hitotsu,Hỏi cách đọc của: 一つ,ひとつ,ふたつ,ひとり,いちまい
-14,Đọc kanji,Mina bài 11,2,二つ đọc là gì?,futatsu,Hỏi cách đọc của: 二つ,ふたつ,ひとつ,ふたり,にまい
-14,Đọc kanji,Mina bài 11,3,三つ đọc là gì?,mittsu,Hỏi cách đọc của: 三つ,みっつ,よっつ,さんにん,さんかい
-14,Đọc kanji,Mina bài 11,4,一人 đọc là gì?,hitori,Hỏi cách đọc của: 一人,ひとり,ひとつ,いちにん,いちまい
-14,Đọc kanji,Mina bài 11,5,二人 đọc là gì?,futari,Hỏi cách đọc của: 二人,ふたり,ふたつ,ににん,にまい
-14,Đọc kanji,Mina bài 11,6,何人 đọc là gì?,nannin,Hỏi cách đọc của: 何人,なんにん,なにじん,なんじん,どのにん
-14,Đọc kanji,Mina bài 11,7,時間 đọc là gì?,jikan,Hỏi cách đọc của: 時間,じかん,じけん,ときかん,しがん
-14,Đọc kanji,Mina bài 11,8,外国 đọc là gì?,gaikoku,Hỏi cách đọc của: 外国,がいこく,そとくに,がいごく,ほかくに
-14,Đọc kanji,Mina bài 11,9,両親 đọc là gì?,ryoushin,Hỏi cách đọc của: 両親,りょうしん,きょうだい,りょしん,りょうじん
-14,Đọc kanji,Mina bài 11,10,兄弟 đọc là gì?,kyoudai,Hỏi cách đọc của: 兄弟,きょうだい,あに,おにいさん,しまい
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+14,Đọc kanji,Mina bài 11,1,一つ đọc là gì?,Hỏi cách đọc của: 一つ,ひとつ,ふたつ,ひとり,いちまい
+14,Đọc kanji,Mina bài 11,2,二つ đọc là gì?,Hỏi cách đọc của: 二つ,ふたつ,ひとつ,ふたり,にまい
+14,Đọc kanji,Mina bài 11,3,三つ đọc là gì?,Hỏi cách đọc của: 三つ,みっつ,よっつ,さんにん,さんかい
+14,Đọc kanji,Mina bài 11,4,一人 đọc là gì?,Hỏi cách đọc của: 一人,ひとり,ひとつ,いちにん,いちまい
+14,Đọc kanji,Mina bài 11,5,二人 đọc là gì?,Hỏi cách đọc của: 二人,ふたり,ふたつ,ににん,にまい
+14,Đọc kanji,Mina bài 11,6,何人 đọc là gì?,Hỏi cách đọc của: 何人,なんにん,なにじん,なんじん,どのにん
+14,Đọc kanji,Mina bài 11,7,時間 đọc là gì?,Hỏi cách đọc của: 時間,じかん,じけん,ときかん,しがん
+14,Đọc kanji,Mina bài 11,8,外国 đọc là gì?,Hỏi cách đọc của: 外国,がいこく,そとくに,がいごく,ほかくに
+14,Đọc kanji,Mina bài 11,9,両親 đọc là gì?,Hỏi cách đọc của: 両親,りょうしん,きょうだい,りょしん,りょうじん
+14,Đọc kanji,Mina bài 11,10,兄弟 đọc là gì?,Hỏi cách đọc của: 兄弟,きょうだい,あに,おにいさん,しまい

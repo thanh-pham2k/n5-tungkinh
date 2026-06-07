@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-2,Quần áo,Mina bài 22,1,服（ふく）,fuku,Nghĩa là gì?,quần áo,áo khoác dài,bộ vest,áo len
-2,Quần áo,Mina bài 22,2,コート,koto,Nghĩa là gì?,áo khoác dài,bộ vest,áo len,mũ
-2,Quần áo,Mina bài 22,3,スーツ,sutsu,Nghĩa là gì?,bộ vest,áo len,váy,quần dài
-2,Quần áo,Mina bài 22,4,セーター,seta,Nghĩa là gì?,áo len,áo khoác dài,bộ vest,mũ
-2,Quần áo,Mina bài 22,5,ぼうし,boushi,Nghĩa là gì?,mũ,kính,cà vạt,giày
-2,Quần áo,Mina bài 22,6,めがね,megane,Nghĩa là gì?,kính,mũ,cà vạt,giày
-2,Quần áo,Mina bài 22,7,ネクタイ,nekutai,Nghĩa là gì?,cà vạt,kính,giày,quần dài
-2,Quần áo,Mina bài 22,8,くつ,kutsu,Nghĩa là gì?,giày,cà vạt,váy,áo len
-2,Quần áo,Mina bài 22,9,ズボン,zubon,Nghĩa là gì?,quần dài,váy,váy liền,áo len
-2,Quần áo,Mina bài 22,10,スカート,sukato,Nghĩa là gì?,váy,quần dài,váy liền,bộ vest
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+2,Quần áo,Mina bài 22,1,服（ふく）,Nghĩa là gì?,quần áo,áo khoác dài,bộ vest,áo len
+2,Quần áo,Mina bài 22,2,コート,Nghĩa là gì?,áo khoác dài,bộ vest,áo len,mũ
+2,Quần áo,Mina bài 22,3,スーツ,Nghĩa là gì?,bộ vest,áo len,váy,quần dài
+2,Quần áo,Mina bài 22,4,セーター,Nghĩa là gì?,áo len,áo khoác dài,bộ vest,mũ
+2,Quần áo,Mina bài 22,5,ぼうし,Nghĩa là gì?,mũ,kính,cà vạt,giày
+2,Quần áo,Mina bài 22,6,めがね,Nghĩa là gì?,kính,mũ,cà vạt,giày
+2,Quần áo,Mina bài 22,7,ネクタイ,Nghĩa là gì?,cà vạt,kính,giày,quần dài
+2,Quần áo,Mina bài 22,8,くつ,Nghĩa là gì?,giày,cà vạt,váy,áo len
+2,Quần áo,Mina bài 22,9,ズボン,Nghĩa là gì?,quần dài,váy,váy liền,áo len
+2,Quần áo,Mina bài 22,10,スカート,Nghĩa là gì?,váy,quần dài,váy liền,bộ vest

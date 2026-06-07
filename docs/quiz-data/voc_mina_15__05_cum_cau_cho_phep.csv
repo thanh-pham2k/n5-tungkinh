@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-5,Cụm câu / cho phép,Mina bài 15,1,とくに nghĩa là gì?,tokuni ngh ĩa l à g ì?,とくに nghĩa là gì?,đặc biệt là,đã / nữa,chưa,ở đây
-5,Cụm câu / cho phép,Mina bài 15,2,もう nghĩa là gì?,mou ngh ĩa l à g ì?,もう nghĩa là gì?,đã / nữa,chưa,đặc biệt là,không được
-5,Cụm câu / cho phép,Mina bài 15,3,まだ nghĩa là gì?,mada ngh ĩa l à g ì?,まだ nghĩa là gì?,chưa,đã / nữa,ở đây,đặc biệt
-5,Cụm câu / cho phép,Mina bài 15,4,ここで nghĩa là gì?,kokode ngh ĩa l à g ì?,ここで nghĩa là gì?,ở đây,ở kia,từ đây,đến đây
-5,Cụm câu / cho phép,Mina bài 15,5,たばこを すいます nghĩa là gì?,tabakoo suimasu ngh ĩa l à g ì?,たばこを すいます nghĩa là gì?,hút thuốc,bán thuốc,mua thuốc,cấm hút thuốc
-5,Cụm câu / cho phép,Mina bài 15,6,すってもいいです nghĩa là gì?,suttemoiidesu ngh ĩa l à g ì?,すってもいいです nghĩa là gì?,hút cũng được,không được hút,hút thuốc,chưa hút
-5,Cụm câu / cho phép,Mina bài 15,7,すってはいけません nghĩa là gì?,suttehaikemasen ngh ĩa l à g ì?,すってはいけません nghĩa là gì?,không được hút,hút cũng được,đã hút rồi,hút ở đây
-5,Cụm câu / cho phép,Mina bài 15,8,いいですか nghĩa là gì?,iidesuka ngh ĩa l à g ì?,いいですか nghĩa là gì?,được không?,không được,"xin lỗi, hơi...",đặc biệt là
-5,Cụm câu / cho phép,Mina bài 15,9,はい、いいです nghĩa là gì?,"hai,iidesu ngh ĩa l à g ì?",はい、いいです nghĩa là gì?,"vâng, được",không được,chưa được,"xin lỗi, hơi..."
-5,Cụm câu / cho phép,Mina bài 15,10,だめです nghĩa là gì?,damedesu ngh ĩa l à g ì?,だめです nghĩa là gì?,không được,được,biết rồi,đã rồi
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+5,Cụm câu / cho phép,Mina bài 15,1,とくに nghĩa là gì?,とくに nghĩa là gì?,đặc biệt là,đã / nữa,chưa,ở đây
+5,Cụm câu / cho phép,Mina bài 15,2,もう nghĩa là gì?,もう nghĩa là gì?,đã / nữa,chưa,đặc biệt là,không được
+5,Cụm câu / cho phép,Mina bài 15,3,まだ nghĩa là gì?,まだ nghĩa là gì?,chưa,đã / nữa,ở đây,đặc biệt
+5,Cụm câu / cho phép,Mina bài 15,4,ここで nghĩa là gì?,ここで nghĩa là gì?,ở đây,ở kia,từ đây,đến đây
+5,Cụm câu / cho phép,Mina bài 15,5,たばこを すいます nghĩa là gì?,たばこを すいます nghĩa là gì?,hút thuốc,bán thuốc,mua thuốc,cấm hút thuốc
+5,Cụm câu / cho phép,Mina bài 15,6,すってもいいです nghĩa là gì?,すってもいいです nghĩa là gì?,hút cũng được,không được hút,hút thuốc,chưa hút
+5,Cụm câu / cho phép,Mina bài 15,7,すってはいけません nghĩa là gì?,すってはいけません nghĩa là gì?,không được hút,hút cũng được,đã hút rồi,hút ở đây
+5,Cụm câu / cho phép,Mina bài 15,8,いいですか nghĩa là gì?,いいですか nghĩa là gì?,được không?,không được,"xin lỗi, hơi...",đặc biệt là
+5,Cụm câu / cho phép,Mina bài 15,9,はい、いいです nghĩa là gì?,はい、いいです nghĩa là gì?,"vâng, được",không được,chưa được,"xin lỗi, hơi..."
+5,Cụm câu / cho phép,Mina bài 15,10,だめです nghĩa là gì?,だめです nghĩa là gì?,không được,được,biết rồi,đã rồi

@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-13,Đọc kanji,Mina bài 10,1,犬 đọc là gì?,inu doc la gi?,犬 đọc là gì?,いぬ,ねこ,ぞう,き
-13,Đọc kanji,Mina bài 10,2,木 đọc là gì?,ki doc la gi?,木 đọc là gì?,き,ぎ,もく,ほん
-13,Đọc kanji,Mina bài 10,3,上 đọc là gì?,ue doc la gi?,上 đọc là gì?,うえ,した,まえ,なか
-13,Đọc kanji,Mina bài 10,4,下 đọc là gì?,shita doc la gi?,下 đọc là gì?,した,うえ,そと,みぎ
-13,Đọc kanji,Mina bài 10,5,前 đọc là gì?,mae doc la gi?,前 đọc là gì?,まえ,うしろ,となり,ちかく
-13,Đọc kanji,Mina bài 10,6,右 đọc là gì?,migi doc la gi?,右 đọc là gì?,みぎ,ひだり,うえ,した
-13,Đọc kanji,Mina bài 10,7,左 đọc là gì?,hidari doc la gi?,左 đọc là gì?,ひだり,みぎ,まえ,うしろ
-13,Đọc kanji,Mina bài 10,8,中 đọc là gì?,naka doc la gi?,中 đọc là gì?,なか,そと,あいだ,となり
-13,Đọc kanji,Mina bài 10,9,外 đọc là gì?,soto doc la gi?,外 đọc là gì?,そと,なか,した,うえ
-13,Đọc kanji,Mina bài 10,10,駅 đọc là gì?,eki doc la gi?,駅 đọc là gì?,えき,いき,えぎ,うき
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+13,Đọc kanji,Mina bài 10,1,犬 đọc là gì?,犬 đọc là gì?,いぬ,ねこ,ぞう,き
+13,Đọc kanji,Mina bài 10,2,木 đọc là gì?,木 đọc là gì?,き,ぎ,もく,ほん
+13,Đọc kanji,Mina bài 10,3,上 đọc là gì?,上 đọc là gì?,うえ,した,まえ,なか
+13,Đọc kanji,Mina bài 10,4,下 đọc là gì?,下 đọc là gì?,した,うえ,そと,みぎ
+13,Đọc kanji,Mina bài 10,5,前 đọc là gì?,前 đọc là gì?,まえ,うしろ,となり,ちかく
+13,Đọc kanji,Mina bài 10,6,右 đọc là gì?,右 đọc là gì?,みぎ,ひだり,うえ,した
+13,Đọc kanji,Mina bài 10,7,左 đọc là gì?,左 đọc là gì?,ひだり,みぎ,まえ,うしろ
+13,Đọc kanji,Mina bài 10,8,中 đọc là gì?,中 đọc là gì?,なか,そと,あいだ,となり
+13,Đọc kanji,Mina bài 10,9,外 đọc là gì?,外 đọc là gì?,そと,なか,した,うえ
+13,Đọc kanji,Mina bài 10,10,駅 đọc là gì?,駅 đọc là gì?,えき,いき,えぎ,うき

@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",1,わたしは学生＿＿。,Watashi wa gakusei ___.,Tôi là học sinh.,です,ます,います,あります
-1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",2,田中さんは先生＿＿。,Tanaka-san wa sensei ___.,Anh Tanaka không phải là giáo viên.,ません,ではありません,ありません,いません
-1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",3,きのうは休み＿＿。,Kinou wa yasumi ___.,Hôm qua là ngày nghỉ.,です,でした,ます,ました
-1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",4,これはわたし＿＿本です。,Kore wa watashi ___ hon desu.,Đây là sách của tôi.,は,が,の,を
-1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",5,毎日、日本語を勉強＿＿。,"Mainichi, Nihongo o benkyou ___.",Mỗi ngày tôi học tiếng Nhật.,します,しました,しませんでした,です
-1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",6,きのう、映画を見＿＿。,"Kinou, eiga o mi ___.",Hôm qua tôi đã xem phim.,ます,ません,ました,ませんでした
-1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",7,今日は学校へ行き＿＿。,Kyou wa gakkou e iki ___.,Hôm nay tôi không đi học.,ます,ません,ました,でした
-1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",8,きのう、朝ご飯を食べ＿＿。,"Kinou, asagohan o tabe ___.",Hôm qua tôi đã không ăn sáng.,ます,ません,ました,ませんでした
-1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",9,あした、友だちと図書館へ行き＿＿。,"Ashita, tomodachi to toshokan e iki ___.",Ngày mai tôi sẽ đi thư viện với bạn.,ます,ました,ませんでした,でした
-1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",10,先週の日曜日は雨＿＿。,Senshuu no nichiyoubi wa ame ___.,Chủ nhật tuần trước trời mưa.,です,でした,ます,ました
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",1,わたしは学生＿＿。,Tôi là học sinh.,です,ます,います,あります
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",2,田中さんは先生＿＿。,Anh Tanaka không phải là giáo viên.,ません,ではありません,ありません,いません
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",3,きのうは休み＿＿。,Hôm qua là ngày nghỉ.,です,でした,ます,ました
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",4,これはわたし＿＿本です。,Đây là sách của tôi.,は,が,の,を
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",5,毎日、日本語を勉強＿＿。,Mỗi ngày tôi học tiếng Nhật.,します,しました,しませんでした,です
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",6,きのう、映画を見＿＿。,Hôm qua tôi đã xem phim.,ます,ません,ました,ませんでした
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",7,今日は学校へ行き＿＿。,Hôm nay tôi không đi học.,ます,ません,ました,でした
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",8,きのう、朝ご飯を食べ＿＿。,Hôm qua tôi đã không ăn sáng.,ます,ません,ました,ませんでした
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",9,あした、友だちと図書館へ行き＿＿。,Ngày mai tôi sẽ đi thư viện với bạn.,ます,ました,ませんでした,でした
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",10,先週の日曜日は雨＿＿。,Chủ nhật tuần trước trời mưa.,です,でした,ます,ました

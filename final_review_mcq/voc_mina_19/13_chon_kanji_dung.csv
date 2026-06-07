@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-13,Chọn kanji đúng,Mina bài 19,1,“leo / trèo” viết bằng kanji nào?,“leo / trèo” viết bằng kanji nào?,Chọn đáp án phù hợp.,登ります,泊まります,掃除します,洗濯します
-13,Chọn kanji đúng,Mina bài 19,2,“trọ / ở lại” viết bằng kanji nào?,“trọ / ở lại” viết bằng kanji nào?,Chọn đáp án phù hợp.,泊まります,登ります,練習します,掃除します
-13,Chọn kanji đúng,Mina bài 19,3,“dọn dẹp” viết bằng kanji nào?,“dọn dẹp” viết bằng kanji nào?,Chọn đáp án phù hợp.,掃除します,洗濯します,練習します,勉強します
-13,Chọn kanji đúng,Mina bài 19,4,“giặt giũ” viết bằng kanji nào?,“giặt giũ” viết bằng kanji nào?,Chọn đáp án phù hợp.,洗濯します,掃除します,練習します,旅行します
-13,Chọn kanji đúng,Mina bài 19,5,“luyện tập” viết bằng kanji nào?,“luyện tập” viết bằng kanji nào?,Chọn đáp án phù hợp.,練習します,掃除します,洗濯します,研究します
-13,Chọn kanji đúng,Mina bài 19,6,“mạnh” viết bằng kanji nào?,“mạnh” viết bằng kanji nào?,Chọn đáp án phù hợp.,強い,弱い,元気,眠い
-13,Chọn kanji đúng,Mina bài 19,7,“yếu” viết bằng kanji nào?,“yếu” viết bằng kanji nào?,Chọn đáp án phù hợp.,弱い,強い,静か,有名
-13,Chọn kanji đúng,Mina bài 19,8,“núi Phú Sĩ” viết bằng kanji nào?,“núi Phú Sĩ” viết bằng kanji nào?,Chọn đáp án phù hợp.,富士山,東京,大阪,日本
-13,Chọn kanji đúng,Mina bài 19,9,“ngày” viết bằng kanji nào?,“ngày” viết bằng kanji nào?,Chọn đáp án phù hợp.,日,月,年,時
-13,Chọn kanji đúng,Mina bài 19,10,“cơ thể” viết bằng kanji nào?,“cơ thể” viết bằng kanji nào?,Chọn đáp án phù hợp.,体,頭,足,手
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+13,Chọn kanji đúng,Mina bài 19,1,“leo / trèo” viết bằng kanji nào?,Chọn đáp án phù hợp.,登ります,泊まります,掃除します,洗濯します
+13,Chọn kanji đúng,Mina bài 19,2,“trọ / ở lại” viết bằng kanji nào?,Chọn đáp án phù hợp.,泊まります,登ります,練習します,掃除します
+13,Chọn kanji đúng,Mina bài 19,3,“dọn dẹp” viết bằng kanji nào?,Chọn đáp án phù hợp.,掃除します,洗濯します,練習します,勉強します
+13,Chọn kanji đúng,Mina bài 19,4,“giặt giũ” viết bằng kanji nào?,Chọn đáp án phù hợp.,洗濯します,掃除します,練習します,旅行します
+13,Chọn kanji đúng,Mina bài 19,5,“luyện tập” viết bằng kanji nào?,Chọn đáp án phù hợp.,練習します,掃除します,洗濯します,研究します
+13,Chọn kanji đúng,Mina bài 19,6,“mạnh” viết bằng kanji nào?,Chọn đáp án phù hợp.,強い,弱い,元気,眠い
+13,Chọn kanji đúng,Mina bài 19,7,“yếu” viết bằng kanji nào?,Chọn đáp án phù hợp.,弱い,強い,静か,有名
+13,Chọn kanji đúng,Mina bài 19,8,“núi Phú Sĩ” viết bằng kanji nào?,Chọn đáp án phù hợp.,富士山,東京,大阪,日本
+13,Chọn kanji đúng,Mina bài 19,9,“ngày” viết bằng kanji nào?,Chọn đáp án phù hợp.,日,月,年,時
+13,Chọn kanji đúng,Mina bài 19,10,“cơ thể” viết bằng kanji nào?,Chọn đáp án phù hợp.,体,頭,足,手

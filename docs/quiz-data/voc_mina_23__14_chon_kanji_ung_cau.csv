@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-14,Chọn kanji đúng / câu,Mina bài 23,1,“nhiều lần” viết bằng kanji nào?,,,何回も,何人も,何枚も,何台も
-14,Chọn kanji đúng / câu,Mina bài 23,2,“xin / làm ơn” viết bằng kanji nào?,,,お願いします,お金します,お話します,お電話します
-14,Chọn kanji đúng / câu,Mina bài 23,3,“cái gì” viết bằng kanji nào?,,,何,誰,何処,何時
-14,Chọn kanji đúng / câu,Mina bài 23,4,“ga” viết bằng kanji nào?,,,駅,車,道,橋
-14,Chọn kanji đúng / câu,Mina bài 23,5,“xe” viết bằng kanji nào?,,,車,駅,道,角
-14,Chọn kanji đúng / câu,Mina bài 23,6,“máy móc” viết bằng kanji nào?,,,機械,電気,自動車,時計
-14,Chọn kanji đúng / câu,Mina bài 23,7,“giáo viên / bác sĩ” viết bằng kanji nào?,,,先生,学生,医者,会社員
-14,Chọn kanji đúng / câu,Mina bài 23,8,“nước” viết bằng kanji nào?,,,水,湯,雨,海
-14,Chọn kanji đúng / câu,Mina bài 23,9,“đi” viết bằng kanji nào?,,,行きます,来ます,帰ります,歩きます
-14,Chọn kanji đúng / câu,Mina bài 23,10,“vào” viết bằng kanji nào?,,,入ります,出ます,入れます,出します ---
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+14,Chọn kanji đúng / câu,Mina bài 23,1,“nhiều lần” viết bằng kanji nào?,,何回も,何人も,何枚も,何台も
+14,Chọn kanji đúng / câu,Mina bài 23,2,“xin / làm ơn” viết bằng kanji nào?,,お願いします,お金します,お話します,お電話します
+14,Chọn kanji đúng / câu,Mina bài 23,3,“cái gì” viết bằng kanji nào?,,何,誰,何処,何時
+14,Chọn kanji đúng / câu,Mina bài 23,4,“ga” viết bằng kanji nào?,,駅,車,道,橋
+14,Chọn kanji đúng / câu,Mina bài 23,5,“xe” viết bằng kanji nào?,,車,駅,道,角
+14,Chọn kanji đúng / câu,Mina bài 23,6,“máy móc” viết bằng kanji nào?,,機械,電気,自動車,時計
+14,Chọn kanji đúng / câu,Mina bài 23,7,“giáo viên / bác sĩ” viết bằng kanji nào?,,先生,学生,医者,会社員
+14,Chọn kanji đúng / câu,Mina bài 23,8,“nước” viết bằng kanji nào?,,水,湯,雨,海
+14,Chọn kanji đúng / câu,Mina bài 23,9,“đi” viết bằng kanji nào?,,行きます,来ます,帰ります,歩きます
+14,Chọn kanji đúng / câu,Mina bài 23,10,“vào” viết bằng kanji nào?,,入ります,出ます,入れます,出します ---

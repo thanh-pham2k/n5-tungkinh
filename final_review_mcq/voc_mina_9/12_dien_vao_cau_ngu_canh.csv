@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-12,Điền vào câu / ngữ cảnh,Mina bài 9,1,わたしは 音楽（おんがく）が＿＿＿です。,watashiha ongakuga＿＿＿desu。,わたしは 音楽（おんがく）が＿＿＿です。,すき,わかります,あります,よく
-12,Điền vào câu / ngữ cảnh,Mina bài 9,2,わたしは カラオケが＿＿＿です。,watashiha karaokega＿＿＿desu。,わたしは カラオケが＿＿＿です。,きらい,たくさん,すこし,から
-12,Điền vào câu / ngữ cảnh,Mina bài 9,3,田中（たなか）さんは 絵（え）が＿＿＿です。,tanakasanha ega＿＿＿desu。,田中（たなか）さんは 絵（え）が＿＿＿です。,じょうず,あります,どうして,時間（じかん）
-12,Điền vào câu / ngữ cảnh,Mina bài 9,4,わたしは 漢字（かんじ）が＿＿＿です。,watashiha kanjiga＿＿＿desu。,わたしは 漢字（かんじ）が＿＿＿です。,へた,たくさん,チケット,やくそく
-12,Điền vào câu / ngữ cảnh,Mina bài 9,5,ひらがなが＿＿＿。,hiraganaga＿＿＿。,ひらがなが＿＿＿。,わかります,あります,すき,から
-12,Điền vào câu / ngữ cảnh,Mina bài 9,6,時間（じかん）が ありません。＿＿＿が あります。,jikanga arimasen。＿＿＿ga arimasu。,時間（じかん）が ありません。＿＿＿が あります。,ようじ,すこし,はやく,ぜんぜん
-12,Điền vào câu / ngữ cảnh,Mina bài 9,7,チケットが ありません。＿＿＿です。,chikettoga arimasen。＿＿＿desu。,チケットが ありません。＿＿＿です。,ざんねん,じょうず,すき,へた
-12,Điền vào câu / ngữ cảnh,Mina bài 9,8,どうして 行きませんか。ようじが あります＿＿＿。,doushite 行kimasenka。youjiga arimasu＿＿＿。,どうして 行きませんか。ようじが あります＿＿＿。,から,どうして,よく,たくさん
-12,Điền vào câu / ngữ cảnh,Mina bài 9,9,日本語（にほんご）は＿＿＿ わかります。,nihongoha＿＿＿ wakarimasu。,日本語（にほんご）は＿＿＿ わかります。,すこし,どうして,から,ざんねんです
-12,Điền vào câu / ngữ cảnh,Mina bài 9,10,漢字（かんじ）は＿＿＿ わかりません。,kanjiha＿＿＿ wakarimasen。,漢字（かんじ）は＿＿＿ わかりません。,ぜんぜん,たくさん,よく,はやく
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+12,Điền vào câu / ngữ cảnh,Mina bài 9,1,わたしは 音楽（おんがく）が＿＿＿です。,わたしは 音楽（おんがく）が＿＿＿です。,すき,わかります,あります,よく
+12,Điền vào câu / ngữ cảnh,Mina bài 9,2,わたしは カラオケが＿＿＿です。,わたしは カラオケが＿＿＿です。,きらい,たくさん,すこし,から
+12,Điền vào câu / ngữ cảnh,Mina bài 9,3,田中（たなか）さんは 絵（え）が＿＿＿です。,田中（たなか）さんは 絵（え）が＿＿＿です。,じょうず,あります,どうして,時間（じかん）
+12,Điền vào câu / ngữ cảnh,Mina bài 9,4,わたしは 漢字（かんじ）が＿＿＿です。,わたしは 漢字（かんじ）が＿＿＿です。,へた,たくさん,チケット,やくそく
+12,Điền vào câu / ngữ cảnh,Mina bài 9,5,ひらがなが＿＿＿。,ひらがなが＿＿＿。,わかります,あります,すき,から
+12,Điền vào câu / ngữ cảnh,Mina bài 9,6,時間（じかん）が ありません。＿＿＿が あります。,時間（じかん）が ありません。＿＿＿が あります。,ようじ,すこし,はやく,ぜんぜん
+12,Điền vào câu / ngữ cảnh,Mina bài 9,7,チケットが ありません。＿＿＿です。,チケットが ありません。＿＿＿です。,ざんねん,じょうず,すき,へた
+12,Điền vào câu / ngữ cảnh,Mina bài 9,8,どうして 行きませんか。ようじが あります＿＿＿。,どうして 行きませんか。ようじが あります＿＿＿。,から,どうして,よく,たくさん
+12,Điền vào câu / ngữ cảnh,Mina bài 9,9,日本語（にほんご）は＿＿＿ わかります。,日本語（にほんご）は＿＿＿ わかります。,すこし,どうして,から,ざんねんです
+12,Điền vào câu / ngữ cảnh,Mina bài 9,10,漢字（かんじ）は＿＿＿ わかりません。,漢字（かんじ）は＿＿＿ わかりません。,ぜんぜん,たくさん,よく,はやく

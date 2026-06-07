@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,1,まず キャッシュカード＿＿＿ いれてください。,mazu kyasshukaado ___ iretekudasai,Chọn đáp án phù hợp để hoàn thành câu.,を,に,で,と
-20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,2,つぎに あんしょうばんごう＿＿＿ おしてください。,tsugini anshoubangou ___ oshitekudasai,Chọn đáp án phù hợp để hoàn thành câu.,を,に,で,と
-20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,3,それから きんがく＿＿＿ おしてください。,sorekara kingaku ___ oshitekudasai,Chọn đáp án phù hợp để hoàn thành câu.,を,に,で,と
-20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,4,さいごに かくにんの ボタン＿＿＿ おしてください。,saigoni kakuninno botan ___ oshitekudasai,Chọn đáp án phù hợp để hoàn thành câu.,を,に,で,と
-20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,5,おひきだし＿＿＿。,ohikidashi ___,Chọn đáp án phù hợp để hoàn thành câu.,ですか,ますか,ください,でした
-20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,6,この ボタン＿＿＿ おしてもいいですか。,kono botan ___ oshitemoiidesuka,Chọn đáp án phù hợp để hoàn thành câu.,を,に,で,と
-20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,7,あの 人（ひと）は 背＿＿＿ 高いです。,ano hitoha 背 ___ 高 idesu,Chọn đáp án phù hợp để hoàn thành câu.,が,を,に,で
-20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,8,山田（やまだ）さんは 頭＿＿＿ いいです。,yamadasanha 頭 ___ iidesu,Chọn đáp án phù hợp để hoàn thành câu.,が,を,に,で
-20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,9,この へやは 明るい＿＿＿。,kono heyaha 明 rui ___,Chọn đáp án phù hợp để hoàn thành câu.,です,ます,ください,でした
-20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,10,いいえ、まだまだ＿＿＿。,iie madamada ___,Chọn đáp án phù hợp để hoàn thành câu.,です,ます,ください,ました
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,1,まず キャッシュカード＿＿＿ いれてください。,Chọn đáp án phù hợp để hoàn thành câu.,を,に,で,と
+20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,2,つぎに あんしょうばんごう＿＿＿ おしてください。,Chọn đáp án phù hợp để hoàn thành câu.,を,に,で,と
+20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,3,それから きんがく＿＿＿ おしてください。,Chọn đáp án phù hợp để hoàn thành câu.,を,に,で,と
+20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,4,さいごに かくにんの ボタン＿＿＿ おしてください。,Chọn đáp án phù hợp để hoàn thành câu.,を,に,で,と
+20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,5,おひきだし＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,ですか,ますか,ください,でした
+20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,6,この ボタン＿＿＿ おしてもいいですか。,Chọn đáp án phù hợp để hoàn thành câu.,を,に,で,と
+20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,7,あの 人（ひと）は 背＿＿＿ 高いです。,Chọn đáp án phù hợp để hoàn thành câu.,が,を,に,で
+20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,8,山田（やまだ）さんは 頭＿＿＿ いいです。,Chọn đáp án phù hợp để hoàn thành câu.,が,を,に,で
+20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,9,この へやは 明るい＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,です,ます,ください,でした
+20,Chọn trợ từ / cụm phù hợp / ATM,Mina bài 16,10,いいえ、まだまだ＿＿＿。,Chọn đáp án phù hợp để hoàn thành câu.,です,ます,ください,ました

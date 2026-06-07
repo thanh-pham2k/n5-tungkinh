@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-8,Âm ghép nhỏ ゃゅょ,Âm ghép,71,きゃ,kya,kya,kya,kyu,kyo,ka
-8,Âm ghép nhỏ ゃゅょ,Âm ghép,72,きゅ,kyu,kyu,kyu,kya,kyo,ku
-8,Âm ghép nhỏ ゃゅょ,Âm ghép,73,きょ,kyo,kyo,kyo,kya,kyu,ko
-8,Âm ghép nhỏ ゃゅょ,Âm ghép,74,しゃ,sha,sha,sha,shu,sho,shi
-8,Âm ghép nhỏ ゃゅょ,Âm ghép,75,しゅ,shu,shu,shu,sha,sho,su
-8,Âm ghép nhỏ ゃゅょ,Âm ghép,76,しょ,sho,sho,sho,sha,shu,so
-8,Âm ghép nhỏ ゃゅょ,Âm ghép,77,ちゃ,cha,cha,cha,chu,cho,chi
-8,Âm ghép nhỏ ゃゅょ,Âm ghép,78,ちゅ,chu,chu,chu,cha,cho,tsu
-8,Âm ghép nhỏ ゃゅょ,Âm ghép,79,ちょ,cho,cho,cho,cha,chu,to
-8,Âm ghép nhỏ ゃゅょ,Âm ghép,80,にゃ,nya,nya,nya,nyu,nyo,na
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+8,Âm ghép nhỏ ゃゅょ,Âm ghép,71,きゃ,kya,kya,kyu,kyo,ka
+8,Âm ghép nhỏ ゃゅょ,Âm ghép,72,きゅ,kyu,kyu,kya,kyo,ku
+8,Âm ghép nhỏ ゃゅょ,Âm ghép,73,きょ,kyo,kyo,kya,kyu,ko
+8,Âm ghép nhỏ ゃゅょ,Âm ghép,74,しゃ,sha,sha,shu,sho,shi
+8,Âm ghép nhỏ ゃゅょ,Âm ghép,75,しゅ,shu,shu,sha,sho,su
+8,Âm ghép nhỏ ゃゅょ,Âm ghép,76,しょ,sho,sho,sha,shu,so
+8,Âm ghép nhỏ ゃゅょ,Âm ghép,77,ちゃ,cha,cha,chu,cho,chi
+8,Âm ghép nhỏ ゃゅょ,Âm ghép,78,ちゅ,chu,chu,cha,cho,tsu
+8,Âm ghép nhỏ ゃゅょ,Âm ghép,79,ちょ,cho,cho,cha,chu,to
+8,Âm ghép nhỏ ゃゅょ,Âm ghép,80,にゃ,nya,nya,nyu,nyo,na

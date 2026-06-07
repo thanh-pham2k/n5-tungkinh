@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-6,Âm đục cơ bản,Âm đục,51,が,ga,ga,ka,ga,za,da
-6,Âm đục cơ bản,Âm đục,52,gi,gi,gi,ぎ,き,じ,び
-6,Âm đục cơ bản,Âm đục,53,ぐ,gu,gu,gu,ku,zu,bu
-6,Âm đục cơ bản,Âm đục,54,ge,ge,ge,げ,け,ぜ,べ
-6,Âm đục cơ bản,Âm đục,55,ご,go,go,ko,go,zo,do
-6,Âm đục cơ bản,Âm đục,56,ざ,za,za,sa,za,ja,da
-6,Âm đục cơ bản,Âm đục,57,じ,ji,ji,ji,shi,chi,zi
-6,Âm đục cơ bản,Âm đục,58,ず,zu,zu,ず,す,づ,つ
-6,Âm đục cơ bản,Âm đục,59,ぜ,ze,ze,se,ze,de,be
-6,Âm đục cơ bản,Âm đục,60,ぞ,zo,zo,so,zo,do,go
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+6,Âm đục cơ bản,Âm đục,51,が,ga,ka,ga,za,da
+6,Âm đục cơ bản,Âm đục,52,gi,gi,ぎ,き,じ,び
+6,Âm đục cơ bản,Âm đục,53,ぐ,gu,gu,ku,zu,bu
+6,Âm đục cơ bản,Âm đục,54,ge,ge,げ,け,ぜ,べ
+6,Âm đục cơ bản,Âm đục,55,ご,go,ko,go,zo,do
+6,Âm đục cơ bản,Âm đục,56,ざ,za,sa,za,ja,da
+6,Âm đục cơ bản,Âm đục,57,じ,ji,ji,shi,chi,zi
+6,Âm đục cơ bản,Âm đục,58,ず,zu,ず,す,づ,つ
+6,Âm đục cơ bản,Âm đục,59,ぜ,ze,se,ze,de,be
+6,Âm đục cơ bản,Âm đục,60,ぞ,zo,so,zo,do,go

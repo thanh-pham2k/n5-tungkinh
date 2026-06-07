@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Bữa ăn / đồ ăn,Mina bài 6,1,ごはん nghĩa là gì?,Gohan,Nghĩa là gì?,cơm / bữa ăn,bánh mì,trứng,thịt
-3,Bữa ăn / đồ ăn,Mina bài 6,2,あさごはん nghĩa là gì?,Asagohan,Nghĩa là gì?,bữa sáng,bữa trưa,bữa tối,cơm
-3,Bữa ăn / đồ ăn,Mina bài 6,3,ひるごはん nghĩa là gì?,Hirugohan,Nghĩa là gì?,bữa trưa,bữa sáng,bữa tối,bánh mì
-3,Bữa ăn / đồ ăn,Mina bài 6,4,ばんごはん nghĩa là gì?,Bangohan,Nghĩa là gì?,bữa tối,bữa sáng,bữa trưa,trái cây
-3,Bữa ăn / đồ ăn,Mina bài 6,5,パン nghĩa là gì?,Pan,Nghĩa là gì?,bánh mì,cơm,trứng,rau
-3,Bữa ăn / đồ ăn,Mina bài 6,6,たまご nghĩa là gì?,Tamago,Nghĩa là gì?,trứng,thịt,cá,trái cây
-3,Bữa ăn / đồ ăn,Mina bài 6,7,にく nghĩa là gì?,Niku,Nghĩa là gì?,thịt,cá,rau,trứng
-3,Bữa ăn / đồ ăn,Mina bài 6,8,魚（さかな） nghĩa là gì?,Sakana,Nghĩa là gì?,cá,thịt,rau,trái cây
-3,Bữa ăn / đồ ăn,Mina bài 6,9,やさい nghĩa là gì?,Yasai,Nghĩa là gì?,rau,cá,thịt,bánh mì
-3,Bữa ăn / đồ ăn,Mina bài 6,10,くだもの nghĩa là gì?,Kudamono,Nghĩa là gì?,trái cây,rau,trứng,cơm
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Bữa ăn / đồ ăn,Mina bài 6,1,ごはん nghĩa là gì?,Nghĩa là gì?,cơm / bữa ăn,bánh mì,trứng,thịt
+3,Bữa ăn / đồ ăn,Mina bài 6,2,あさごはん nghĩa là gì?,Nghĩa là gì?,bữa sáng,bữa trưa,bữa tối,cơm
+3,Bữa ăn / đồ ăn,Mina bài 6,3,ひるごはん nghĩa là gì?,Nghĩa là gì?,bữa trưa,bữa sáng,bữa tối,bánh mì
+3,Bữa ăn / đồ ăn,Mina bài 6,4,ばんごはん nghĩa là gì?,Nghĩa là gì?,bữa tối,bữa sáng,bữa trưa,trái cây
+3,Bữa ăn / đồ ăn,Mina bài 6,5,パン nghĩa là gì?,Nghĩa là gì?,bánh mì,cơm,trứng,rau
+3,Bữa ăn / đồ ăn,Mina bài 6,6,たまご nghĩa là gì?,Nghĩa là gì?,trứng,thịt,cá,trái cây
+3,Bữa ăn / đồ ăn,Mina bài 6,7,にく nghĩa là gì?,Nghĩa là gì?,thịt,cá,rau,trứng
+3,Bữa ăn / đồ ăn,Mina bài 6,8,魚（さかな） nghĩa là gì?,Nghĩa là gì?,cá,thịt,rau,trái cây
+3,Bữa ăn / đồ ăn,Mina bài 6,9,やさい nghĩa là gì?,Nghĩa là gì?,rau,cá,thịt,bánh mì
+3,Bữa ăn / đồ ăn,Mina bài 6,10,くだもの nghĩa là gì?,Nghĩa là gì?,trái cây,rau,trứng,cơm

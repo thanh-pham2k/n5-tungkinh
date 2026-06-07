@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-11,Đọc kanji,Mina bài 23,1,聞きます đọc là gì?,,,ききます,いいます,よみます,はなします
-11,Đọc kanji,Mina bài 23,2,回します đọc là gì?,,,まわします,まがります,ひきます,うごきます
-11,Đọc kanji,Mina bài 23,3,引きます đọc là gì?,,,ひきます,ききます,まわします,かえます
-11,Đọc kanji,Mina bài 23,4,出ます đọc là gì?,,,でます,だします,はいります,いれます
-11,Đọc kanji,Mina bài 23,5,歩きます đọc là gì?,,,あるきます,はしります,わたります,まがります
-11,Đọc kanji,Mina bài 23,6,道 đọc là gì?,,,みち,はし,かど,こうさてん
-11,Đọc kanji,Mina bài 23,7,角 đọc là gì?,,,かど,みち,はし,しんごう
-11,Đọc kanji,Mina bài 23,8,右 đọc là gì?,,,みぎ,ひだり,まっすぐ,かど
-11,Đọc kanji,Mina bài 23,9,左 đọc là gì?,,,ひだり,みぎ,まっすぐ,みち
-11,Đọc kanji,Mina bài 23,10,音 đọc là gì?,,,おと,おゆ,こしょう,ね ---
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+11,Đọc kanji,Mina bài 23,1,聞きます đọc là gì?,,ききます,いいます,よみます,はなします
+11,Đọc kanji,Mina bài 23,2,回します đọc là gì?,,まわします,まがります,ひきます,うごきます
+11,Đọc kanji,Mina bài 23,3,引きます đọc là gì?,,ひきます,ききます,まわします,かえます
+11,Đọc kanji,Mina bài 23,4,出ます đọc là gì?,,でます,だします,はいります,いれます
+11,Đọc kanji,Mina bài 23,5,歩きます đọc là gì?,,あるきます,はしります,わたります,まがります
+11,Đọc kanji,Mina bài 23,6,道 đọc là gì?,,みち,はし,かど,こうさてん
+11,Đọc kanji,Mina bài 23,7,角 đọc là gì?,,かど,みち,はし,しんごう
+11,Đọc kanji,Mina bài 23,8,右 đọc là gì?,,みぎ,ひだり,まっすぐ,かど
+11,Đọc kanji,Mina bài 23,9,左 đọc là gì?,,ひだり,みぎ,まっすぐ,みち
+11,Đọc kanji,Mina bài 23,10,音 đọc là gì?,,おと,おゆ,こしょう,ね ---

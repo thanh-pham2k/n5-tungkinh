@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-16,Chọn trợ từ / cụm phù hợp,Mina bài 24,1,山田（やまだ）さんが 私（わたし）＿＿＿ プレゼントを くれました。,Yamadasanga watashi purezento o kuremashita,山田（やまだ）さんが 私（わたし）＿＿＿ プレゼントを くれました。,に,を,で,が
-16,Chọn trợ từ / cụm phù hợp,Mina bài 24,2,友達（ともだち）＿＿＿ 京都（きょうと）へ 連れて行きます（つれていきます）。,Tomodachi kyoutohe tsureteikimasu,友達（ともだち）＿＿＿ 京都（きょうと）へ 連れて行きます（つれていきます）。,を,に,で,が
-16,Chọn trợ từ / cụm phù hợp,Mina bài 24,3,おばあさん＿＿＿ うちへ 連れて来ます（つれてきます）。,Obaasan uchihe tsuretekimasu,おばあさん＿＿＿ うちへ 連れて来ます（つれてきます）。,を,に,で,が
-16,Chọn trợ từ / cụm phù hợp,Mina bài 24,4,駅（えき）まで 先生（せんせい）＿＿＿ 送ります（おくります）。,Ekimade sensei okurimasu,駅（えき）まで 先生（せんせい）＿＿＿ 送ります（おくります）。,を,に,で,が
-16,Chọn trợ từ / cụm phù hợp,Mina bài 24,5,友達（ともだち）＿＿＿ 先生（せんせい）に 紹介します（しょうかいします）。,Tomodachi senseini shoukaishimasu,友達（ともだち）＿＿＿ 先生（せんせい）に 紹介します（しょうかいします）。,を,に,で,が
-16,Chọn trợ từ / cụm phù hợp,Mina bài 24,6,学校（がっこう）＿＿＿ 案内します（あんないします）。,Gakkou annaishimasu,学校（がっこう）＿＿＿ 案内します（あんないします）。,を,に,で,が
-16,Chọn trợ từ / cụm phù hợp,Mina bài 24,7,日本語（にほんご）＿＿＿ 説明します（せつめいします）。,Nihongo setsumeishimasu,日本語（にほんご）＿＿＿ 説明します（せつめいします）。,で,を,に,が
-16,Chọn trợ từ / cụm phù hợp,Mina bài 24,8,コーヒー＿＿＿ さとうを 入れます（いれます）。,Koohii satou o iremasu,コーヒー＿＿＿ さとうを 入れます（いれます）。,に,を,で,が
-16,Chọn trợ từ / cụm phù hợp,Mina bài 24,9,引っ越し（ひっこし）＿＿＿ 手伝います（てつだいます）。,Hikkoshi tetsudaimasu,引っ越し（ひっこし）＿＿＿ 手伝います（てつだいます）。,を,に,で,が
-16,Chọn trợ từ / cụm phù hợp,Mina bài 24,10,友達（ともだち）＿＿＿ 本（ほん）を 貸します（かします）。,Tomodachi hono kashimasu,友達（ともだち）＿＿＿ 本（ほん）を 貸します（かします）。,に,を,で,が
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+16,Chọn trợ từ / cụm phù hợp,Mina bài 24,1,山田（やまだ）さんが 私（わたし）＿＿＿ プレゼントを くれました。,山田（やまだ）さんが 私（わたし）＿＿＿ プレゼントを くれました。,に,を,で,が
+16,Chọn trợ từ / cụm phù hợp,Mina bài 24,2,友達（ともだち）＿＿＿ 京都（きょうと）へ 連れて行きます（つれていきます）。,友達（ともだち）＿＿＿ 京都（きょうと）へ 連れて行きます（つれていきます）。,を,に,で,が
+16,Chọn trợ từ / cụm phù hợp,Mina bài 24,3,おばあさん＿＿＿ うちへ 連れて来ます（つれてきます）。,おばあさん＿＿＿ うちへ 連れて来ます（つれてきます）。,を,に,で,が
+16,Chọn trợ từ / cụm phù hợp,Mina bài 24,4,駅（えき）まで 先生（せんせい）＿＿＿ 送ります（おくります）。,駅（えき）まで 先生（せんせい）＿＿＿ 送ります（おくります）。,を,に,で,が
+16,Chọn trợ từ / cụm phù hợp,Mina bài 24,5,友達（ともだち）＿＿＿ 先生（せんせい）に 紹介します（しょうかいします）。,友達（ともだち）＿＿＿ 先生（せんせい）に 紹介します（しょうかいします）。,を,に,で,が
+16,Chọn trợ từ / cụm phù hợp,Mina bài 24,6,学校（がっこう）＿＿＿ 案内します（あんないします）。,学校（がっこう）＿＿＿ 案内します（あんないします）。,を,に,で,が
+16,Chọn trợ từ / cụm phù hợp,Mina bài 24,7,日本語（にほんご）＿＿＿ 説明します（せつめいします）。,日本語（にほんご）＿＿＿ 説明します（せつめいします）。,で,を,に,が
+16,Chọn trợ từ / cụm phù hợp,Mina bài 24,8,コーヒー＿＿＿ さとうを 入れます（いれます）。,コーヒー＿＿＿ さとうを 入れます（いれます）。,に,を,で,が
+16,Chọn trợ từ / cụm phù hợp,Mina bài 24,9,引っ越し（ひっこし）＿＿＿ 手伝います（てつだいます）。,引っ越し（ひっこし）＿＿＿ 手伝います（てつだいます）。,を,に,で,が
+16,Chọn trợ từ / cụm phù hợp,Mina bài 24,10,友達（ともだち）＿＿＿ 本（ほん）を 貸します（かします）。,友達（ともだち）＿＿＿ 本（ほん）を 貸します（かします）。,に,を,で,が

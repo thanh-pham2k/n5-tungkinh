@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-14,Đọc kanji,Mina bài 6,1,食べます đọc là gì?,Tabemasu,Chọn cách đọc đúng.,たべます,のみます,みます,かいます
-14,Đọc kanji,Mina bài 6,2,飲みます đọc là gì?,Nomimasu,Chọn cách đọc đúng.,のみます,たべます,よみます,ききます
-14,Đọc kanji,Mina bài 6,3,見ます đọc là gì?,Mimasu,Chọn cách đọc đúng.,みます,ききます,よみます,かきます
-14,Đọc kanji,Mina bài 6,4,聞きます đọc là gì?,Kikimasu,Chọn cách đọc đúng.,ききます,みます,かきます,かいます
-14,Đọc kanji,Mina bài 6,5,読みます đọc là gì?,Yomimasu,Chọn cách đọc đúng.,よみます,かきます,ききます,とります
-14,Đọc kanji,Mina bài 6,6,書きます đọc là gì?,Kakimasu,Chọn cách đọc đúng.,かきます,よみます,みます,あいます
-14,Đọc kanji,Mina bài 6,7,買います đọc là gì?,Kaimasu,Chọn cách đọc đúng.,かいます,かきます,ききます,みます
-14,Đọc kanji,Mina bài 6,8,水 đọc là gì?,Mizu,Chọn cách đọc đúng.,みず,すい,かわ,あめ
-14,Đọc kanji,Mina bài 6,9,魚 đọc là gì?,Sakana,Chọn cách đọc đúng.,さかな,にく,やさい,たまご
-14,Đọc kanji,Mina bài 6,10,手紙 đọc là gì?,Tegami,Chọn cách đọc đúng.,てがみ,しゅくだい,しゃしん,てかみ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+14,Đọc kanji,Mina bài 6,1,食べます đọc là gì?,Chọn cách đọc đúng.,たべます,のみます,みます,かいます
+14,Đọc kanji,Mina bài 6,2,飲みます đọc là gì?,Chọn cách đọc đúng.,のみます,たべます,よみます,ききます
+14,Đọc kanji,Mina bài 6,3,見ます đọc là gì?,Chọn cách đọc đúng.,みます,ききます,よみます,かきます
+14,Đọc kanji,Mina bài 6,4,聞きます đọc là gì?,Chọn cách đọc đúng.,ききます,みます,かきます,かいます
+14,Đọc kanji,Mina bài 6,5,読みます đọc là gì?,Chọn cách đọc đúng.,よみます,かきます,ききます,とります
+14,Đọc kanji,Mina bài 6,6,書きます đọc là gì?,Chọn cách đọc đúng.,かきます,よみます,みます,あいます
+14,Đọc kanji,Mina bài 6,7,買います đọc là gì?,Chọn cách đọc đúng.,かいます,かきます,ききます,みます
+14,Đọc kanji,Mina bài 6,8,水 đọc là gì?,Chọn cách đọc đúng.,みず,すい,かわ,あめ
+14,Đọc kanji,Mina bài 6,9,魚 đọc là gì?,Chọn cách đọc đúng.,さかな,にく,やさい,たまご
+14,Đọc kanji,Mina bài 6,10,手紙 đọc là gì?,Chọn cách đọc đúng.,てがみ,しゅくだい,しゃしん,てかみ

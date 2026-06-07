@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-14,Đọc kanji / nơi chốn,Mina bài 10,1,教室 đọc là gì?,kyoushitsu doc la gi?,教室 đọc là gì?,きょうしつ,かいぎしつ,じむしょ,へや
-14,Đọc kanji / nơi chốn,Mina bài 10,2,会社 đọc là gì?,kaisha doc la gi?,会社 đọc là gì?,かいしゃ,がっこう,みせ,うち
-14,Đọc kanji / nơi chốn,Mina bài 10,3,学校 đọc là gì?,gakkou doc la gi?,学校 đọc là gì?,がっこう,かいしゃ,きょうしつ,ほんや
-14,Đọc kanji / nơi chốn,Mina bài 10,4,男の人 đọc là gì?,otokonohito doc la gi?,男の人 đọc là gì?,おとこのひと,おんなのひと,おとこのこ,おんなのこ
-14,Đọc kanji / nơi chốn,Mina bài 10,5,女の人 đọc là gì?,onnanohito doc la gi?,女の人 đọc là gì?,おんなのひと,おとこのひと,おんなのこ,おとこのこ
-14,Đọc kanji / nơi chốn,Mina bài 10,6,男の子 đọc là gì?,otokonoko doc la gi?,男の子 đọc là gì?,おとこのこ,おんなのこ,おとこのひと,おんなのひと
-14,Đọc kanji / nơi chốn,Mina bài 10,7,女の子 đọc là gì?,onnanoko doc la gi?,女の子 đọc là gì?,おんなのこ,おとこのこ,おんなのひと,おとこのひと
-14,Đọc kanji / nơi chốn,Mina bài 10,8,何 đọc là gì?,nani doc la gi?,何 đọc là gì?,なに,だれ,どこ,なん
-14,Đọc kanji / nơi chốn,Mina bài 10,9,誰 đọc là gì?,dare doc la gi?,誰 đọc là gì?,だれ,なに,どこ,いつ
-14,Đọc kanji / nơi chốn,Mina bài 10,10,近く đọc là gì?,chikaku doc la gi?,近く đọc là gì?,ちかく,となり,あいだ,うしろ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+14,Đọc kanji / nơi chốn,Mina bài 10,1,教室 đọc là gì?,教室 đọc là gì?,きょうしつ,かいぎしつ,じむしょ,へや
+14,Đọc kanji / nơi chốn,Mina bài 10,2,会社 đọc là gì?,会社 đọc là gì?,かいしゃ,がっこう,みせ,うち
+14,Đọc kanji / nơi chốn,Mina bài 10,3,学校 đọc là gì?,学校 đọc là gì?,がっこう,かいしゃ,きょうしつ,ほんや
+14,Đọc kanji / nơi chốn,Mina bài 10,4,男の人 đọc là gì?,男の人 đọc là gì?,おとこのひと,おんなのひと,おとこのこ,おんなのこ
+14,Đọc kanji / nơi chốn,Mina bài 10,5,女の人 đọc là gì?,女の人 đọc là gì?,おんなのひと,おとこのひと,おんなのこ,おとこのこ
+14,Đọc kanji / nơi chốn,Mina bài 10,6,男の子 đọc là gì?,男の子 đọc là gì?,おとこのこ,おんなのこ,おとこのひと,おんなのひと
+14,Đọc kanji / nơi chốn,Mina bài 10,7,女の子 đọc là gì?,女の子 đọc là gì?,おんなのこ,おとこのこ,おんなのひと,おとこのひと
+14,Đọc kanji / nơi chốn,Mina bài 10,8,何 đọc là gì?,何 đọc là gì?,なに,だれ,どこ,なん
+14,Đọc kanji / nơi chốn,Mina bài 10,9,誰 đọc là gì?,誰 đọc là gì?,だれ,なに,どこ,いつ
+14,Đọc kanji / nơi chốn,Mina bài 10,10,近く đọc là gì?,近く đọc là gì?,ちかく,となり,あいだ,うしろ

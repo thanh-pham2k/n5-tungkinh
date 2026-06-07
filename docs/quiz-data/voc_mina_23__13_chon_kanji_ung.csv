@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-13,Chọn kanji đúng,Mina bài 23,1,“hỏi” viết bằng kanji nào?,,,聞きます,読みます,書きます,話します
-13,Chọn kanji đúng,Mina bài 23,2,“xoay / vặn” viết bằng kanji nào?,,,回します,曲がります,引きます,動きます
-13,Chọn kanji đúng,Mina bài 23,3,“kéo” viết bằng kanji nào?,,,引きます,聞きます,回します,変えます
-13,Chọn kanji đúng,Mina bài 23,4,“đi ra / xuất hiện” viết bằng kanji nào?,,,出ます,入ります,出します,入れます
-13,Chọn kanji đúng,Mina bài 23,5,“đi bộ” viết bằng kanji nào?,,,歩きます,走ります,渡ります,曲がります
-13,Chọn kanji đúng,Mina bài 23,6,“đường” viết bằng kanji nào?,,,道,角,橋,車
-13,Chọn kanji đúng,Mina bài 23,7,“góc đường / góc” viết bằng kanji nào?,,,角,道,橋,右
-13,Chọn kanji đúng,Mina bài 23,8,“bên phải” viết bằng kanji nào?,,,右,左,上,下
-13,Chọn kanji đúng,Mina bài 23,9,“bên trái” viết bằng kanji nào?,,,左,右,前,後
-13,Chọn kanji đúng,Mina bài 23,10,“âm thanh / tiếng động” viết bằng kanji nào?,,,音,声,話,耳 ---
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+13,Chọn kanji đúng,Mina bài 23,1,“hỏi” viết bằng kanji nào?,,聞きます,読みます,書きます,話します
+13,Chọn kanji đúng,Mina bài 23,2,“xoay / vặn” viết bằng kanji nào?,,回します,曲がります,引きます,動きます
+13,Chọn kanji đúng,Mina bài 23,3,“kéo” viết bằng kanji nào?,,引きます,聞きます,回します,変えます
+13,Chọn kanji đúng,Mina bài 23,4,“đi ra / xuất hiện” viết bằng kanji nào?,,出ます,入ります,出します,入れます
+13,Chọn kanji đúng,Mina bài 23,5,“đi bộ” viết bằng kanji nào?,,歩きます,走ります,渡ります,曲がります
+13,Chọn kanji đúng,Mina bài 23,6,“đường” viết bằng kanji nào?,,道,角,橋,車
+13,Chọn kanji đúng,Mina bài 23,7,“góc đường / góc” viết bằng kanji nào?,,角,道,橋,右
+13,Chọn kanji đúng,Mina bài 23,8,“bên phải” viết bằng kanji nào?,,右,左,上,下
+13,Chọn kanji đúng,Mina bài 23,9,“bên trái” viết bằng kanji nào?,,左,右,前,後
+13,Chọn kanji đúng,Mina bài 23,10,“âm thanh / tiếng động” viết bằng kanji nào?,,音,声,話,耳 ---

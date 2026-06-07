@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-3,Địa điểm / vật cố định,Mina bài 10,1,ドア nghĩa là gì?,doa nghia la gi?,ドア nghĩa là gì?,cửa,cửa sổ,hòm thư,tòa nhà
-3,Địa điểm / vật cố định,Mina bài 10,2,まど nghĩa là gì?,mado nghia la gi?,まど nghĩa là gì?,cửa sổ,cửa,kệ,công tắc
-3,Địa điểm / vật cố định,Mina bài 10,3,ポスト nghĩa là gì?,posuto nghia la gi?,ポスト nghĩa là gì?,hòm thư,hiệu sách,quán cà phê,bến xe
-3,Địa điểm / vật cố định,Mina bài 10,4,ビル nghĩa là gì?,biru nghia la gi?,ビル nghĩa là gì?,tòa nhà,công viên,cửa hàng,nhà
-3,Địa điểm / vật cố định,Mina bài 10,5,こうえん nghĩa là gì?,kouen nghia la gi?,こうえん nghĩa là gì?,công viên,tòa nhà,trường học,công ty
-3,Địa điểm / vật cố định,Mina bài 10,6,きっさてん nghĩa là gì?,kissaten nghia la gi?,きっさてん nghĩa là gì?,quán cà phê,hiệu sách,cửa hàng,bến xe
-3,Địa điểm / vật cố định,Mina bài 10,7,ほんや nghĩa là gì?,honya nghia la gi?,ほんや nghĩa là gì?,hiệu sách,quán cà phê,công viên,lớp học
-3,Địa điểm / vật cố định,Mina bài 10,8,のりば nghĩa là gì?,noriba nghia la gi?,のりば nghĩa là gì?,bến / điểm lên xe,ga,cửa hàng,phòng
-3,Địa điểm / vật cố định,Mina bài 10,9,けん nghĩa là gì?,ken nghia la gi?,けん nghĩa là gì?,tỉnh,thành phố,trường học,tòa nhà
-3,Địa điểm / vật cố định,Mina bài 10,10,駅（えき） nghĩa là gì?,eki nghia la gi?,駅（えき） nghĩa là gì?,ga,lớp học,nhà,công ty
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Địa điểm / vật cố định,Mina bài 10,1,ドア nghĩa là gì?,ドア nghĩa là gì?,cửa,cửa sổ,hòm thư,tòa nhà
+3,Địa điểm / vật cố định,Mina bài 10,2,まど nghĩa là gì?,まど nghĩa là gì?,cửa sổ,cửa,kệ,công tắc
+3,Địa điểm / vật cố định,Mina bài 10,3,ポスト nghĩa là gì?,ポスト nghĩa là gì?,hòm thư,hiệu sách,quán cà phê,bến xe
+3,Địa điểm / vật cố định,Mina bài 10,4,ビル nghĩa là gì?,ビル nghĩa là gì?,tòa nhà,công viên,cửa hàng,nhà
+3,Địa điểm / vật cố định,Mina bài 10,5,こうえん nghĩa là gì?,こうえん nghĩa là gì?,công viên,tòa nhà,trường học,công ty
+3,Địa điểm / vật cố định,Mina bài 10,6,きっさてん nghĩa là gì?,きっさてん nghĩa là gì?,quán cà phê,hiệu sách,cửa hàng,bến xe
+3,Địa điểm / vật cố định,Mina bài 10,7,ほんや nghĩa là gì?,ほんや nghĩa là gì?,hiệu sách,quán cà phê,công viên,lớp học
+3,Địa điểm / vật cố định,Mina bài 10,8,のりば nghĩa là gì?,のりば nghĩa là gì?,bến / điểm lên xe,ga,cửa hàng,phòng
+3,Địa điểm / vật cố định,Mina bài 10,9,けん nghĩa là gì?,けん nghĩa là gì?,tỉnh,thành phố,trường học,tòa nhà
+3,Địa điểm / vật cố định,Mina bài 10,10,駅（えき） nghĩa là gì?,駅（えき） nghĩa là gì?,ga,lớp học,nhà,công ty

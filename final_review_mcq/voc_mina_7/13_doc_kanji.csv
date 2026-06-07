@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-13,Đọc kanji,Mina bài 7,1,手,te,Đọc là gì?,て,た,はし,かみ
-13,Đọc kanji,Mina bài 7,2,紙,kami,Đọc là gì?,かみ,はな,て,きっぷ
-13,Đọc kanji,Mina bài 7,3,花,hana,Đọc là gì?,はな,かみ,て,ちち
-13,Đọc kanji,Mina bài 7,4,お金,okane,Đọc là gì?,おかね,おきん,かね,おがね
-13,Đọc kanji,Mina bài 7,5,父,chichi,Đọc là gì?,ちち,はは,おとうさん,おかあさん
-13,Đọc kanji,Mina bài 7,6,母,haha,Đọc là gì?,はは,ちち,おかあさん,おとうさん
-13,Đọc kanji,Mina bài 7,7,日本語,nihongo,Đọc là gì?,にほんご,にちほんご,ひほんご,にっぽんご
-13,Đọc kanji,Mina bài 7,8,英語,eigo,Đọc là gì?,えいご,えご,えいこ,えんご
-13,Đọc kanji,Mina bài 7,9,中国語,chuugokugo,Đọc là gì?,ちゅうごくご,ちゅうこくご,じゅうごくご,ちゅごくご
-13,Đọc kanji,Mina bài 7,10,電話,denwa,Đọc là gì?,でんわ,でんき,てんわ,でわ
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+13,Đọc kanji,Mina bài 7,1,手,Đọc là gì?,て,た,はし,かみ
+13,Đọc kanji,Mina bài 7,2,紙,Đọc là gì?,かみ,はな,て,きっぷ
+13,Đọc kanji,Mina bài 7,3,花,Đọc là gì?,はな,かみ,て,ちち
+13,Đọc kanji,Mina bài 7,4,お金,Đọc là gì?,おかね,おきん,かね,おがね
+13,Đọc kanji,Mina bài 7,5,父,Đọc là gì?,ちち,はは,おとうさん,おかあさん
+13,Đọc kanji,Mina bài 7,6,母,Đọc là gì?,はは,ちち,おかあさん,おとうさん
+13,Đọc kanji,Mina bài 7,7,日本語,Đọc là gì?,にほんご,にちほんご,ひほんご,にっぽんご
+13,Đọc kanji,Mina bài 7,8,英語,Đọc là gì?,えいご,えご,えいこ,えんご
+13,Đọc kanji,Mina bài 7,9,中国語,Đọc là gì?,ちゅうごくご,ちゅうこくご,じゅうごくご,ちゅごくご
+13,Đọc kanji,Mina bài 7,10,電話,Đọc là gì?,でんわ,でんき,てんわ,でわ

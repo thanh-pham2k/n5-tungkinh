@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-11,Đọc kanji,Mina bài 15,1,使います đọc là gì?,tsukaimasu đọc l à g ì?,使います đọc là gì?,つかいます,つくります,うります,おきます
-11,Đọc kanji,Mina bài 15,2,作ります đọc là gì?,tsukurimasu đọc l à g ì?,作ります đọc là gì?,つくります,つかいます,うります,すみます
-11,Đọc kanji,Mina bài 15,3,売ります đọc là gì?,urimasu đọc l à g ì?,売ります đọc là gì?,うります,つくります,つかいます,あります
-11,Đọc kanji,Mina bài 15,4,知ります đọc là gì?,shirimasu đọc l à g ì?,知ります đọc là gì?,しります,しっています,しりません,すみます
-11,Đọc kanji,Mina bài 15,5,知っています đọc là gì?,shitteimasu đọc l à g ì?,知っています đọc là gì?,しっています,しります,しりません,すんでいます
-11,Đọc kanji,Mina bài 15,6,住みます đọc là gì?,sumimasu đọc l à g ì?,住みます đọc là gì?,すみます,しります,おきます,います
-11,Đọc kanji,Mina bài 15,7,住んでいます đọc là gì?,sundeimasu đọc l à g ì?,住んでいます đọc là gì?,すんでいます,すみます,しっています,しりません
-11,Đọc kanji,Mina bài 15,8,大阪 đọc là gì?,oosaka đọc l à g ì?,大阪 đọc là gì?,おおさか,おさか,だいさか,おおざか
-11,Đọc kanji,Mina bài 15,9,会社員 đọc là gì?,kaishain đọc l à g ì?,会社員 đọc là gì?,かいしゃいん,かいしゃ,しゃいん,かいぎいん
-11,Đọc kanji,Mina bài 15,10,高校 đọc là gì?,koukou đọc l à g ì?,高校 đọc là gì?,こうこう,がっこう,だいがく,ちゅうがく
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+11,Đọc kanji,Mina bài 15,1,使います đọc là gì?,使います đọc là gì?,つかいます,つくります,うります,おきます
+11,Đọc kanji,Mina bài 15,2,作ります đọc là gì?,作ります đọc là gì?,つくります,つかいます,うります,すみます
+11,Đọc kanji,Mina bài 15,3,売ります đọc là gì?,売ります đọc là gì?,うります,つくります,つかいます,あります
+11,Đọc kanji,Mina bài 15,4,知ります đọc là gì?,知ります đọc là gì?,しります,しっています,しりません,すみます
+11,Đọc kanji,Mina bài 15,5,知っています đọc là gì?,知っています đọc là gì?,しっています,しります,しりません,すんでいます
+11,Đọc kanji,Mina bài 15,6,住みます đọc là gì?,住みます đọc là gì?,すみます,しります,おきます,います
+11,Đọc kanji,Mina bài 15,7,住んでいます đọc là gì?,住んでいます đọc là gì?,すんでいます,すみます,しっています,しりません
+11,Đọc kanji,Mina bài 15,8,大阪 đọc là gì?,大阪 đọc là gì?,おおさか,おさか,だいさか,おおざか
+11,Đọc kanji,Mina bài 15,9,会社員 đọc là gì?,会社員 đọc là gì?,かいしゃいん,かいしゃ,しゃいん,かいぎいん
+11,Đọc kanji,Mina bài 15,10,高校 đọc là gì?,高校 đọc là gì?,こうこう,がっこう,だいがく,ちゅうがく

@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,1,“chữ Kanji” là từ nào?,“chữ Kanji” la tu nao?,“chữ Kanji” là từ nào?,かんじ,ひらがな,かたかな,ローマじ
-9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,2,“chữ Roman” là từ nào?,“chữ Roman” la tu nao?,“chữ Roman” là từ nào?,ローマじ,かんじ,ひらがな,かたかな
-9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,3,“tiền lẻ” là từ nào?,“tiền lẻ” la tu nao?,“tiền lẻ” là từ nào?,こまかい お金（おかね）,チケット,時間（じかん）,やくそく
-9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,4,“vé” là từ nào?,“vé” la tu nao?,“vé” là từ nào?,チケット,こまかい お金（おかね）,ようじ,時間（じかん）
-9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,5,“thời gian” là từ nào?,“thời gian” la tu nao?,“thời gian” là từ nào?,時間（じかん）,ようじ,やくそく,チケット
-9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,6,“việc bận / việc riêng” là từ nào?,“việc bận / việc riêng” la tu nao?,“việc bận / việc riêng” là từ nào?,ようじ,やくそく,時間（じかん）,チケット
-9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,7,“cuộc hẹn / lời hứa” là từ nào?,“cuộc hẹn / lời hứa” la tu nao?,“cuộc hẹn / lời hứa” là từ nào?,やくそく,ようじ,時間（じかん）,こまかい お金（おかね）
-9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,8,“chồng người khác” là từ nào?,“chồng người khác” la tu nao?,“chồng người khác” là từ nào?,ごしゅじん,おっと,おくさん,つま
-9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,9,“vợ người khác” là từ nào?,“vợ người khác” la tu nao?,“vợ người khác” là từ nào?,おくさん,つま,ごしゅじん,おっと
-9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,10,“con / trẻ em” là từ nào?,“con / trẻ em” la tu nao?,“con / trẻ em” là từ nào?,子ども（こども）,おっと,つま,おくさん
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,1,“chữ Kanji” là từ nào?,“chữ Kanji” là từ nào?,かんじ,ひらがな,かたかな,ローマじ
+9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,2,“chữ Roman” là từ nào?,“chữ Roman” là từ nào?,ローマじ,かんじ,ひらがな,かたかな
+9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,3,“tiền lẻ” là từ nào?,“tiền lẻ” là từ nào?,こまかい お金（おかね）,チケット,時間（じかん）,やくそく
+9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,4,“vé” là từ nào?,“vé” là từ nào?,チケット,こまかい お金（おかね）,ようじ,時間（じかん）
+9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,5,“thời gian” là từ nào?,“thời gian” là từ nào?,時間（じかん）,ようじ,やくそく,チケット
+9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,6,“việc bận / việc riêng” là từ nào?,“việc bận / việc riêng” là từ nào?,ようじ,やくそく,時間（じかん）,チケット
+9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,7,“cuộc hẹn / lời hứa” là từ nào?,“cuộc hẹn / lời hứa” là từ nào?,やくそく,ようじ,時間（じかん）,こまかい お金（おかね）
+9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,8,“chồng người khác” là từ nào?,“chồng người khác” là từ nào?,ごしゅじん,おっと,おくさん,つま
+9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,9,“vợ người khác” là từ nào?,“vợ người khác” là từ nào?,おくさん,つま,ごしゅじん,おっと
+9,Việt → Nhật / gia đình và việc riêng,Mina bài 9,10,“con / trẻ em” là từ nào?,“con / trẻ em” là từ nào?,子ども（こども）,おっと,つま,おくさん

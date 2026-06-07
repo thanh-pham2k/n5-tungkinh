@@ -1,11 +1,11 @@
-﻿group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",69,机の上に本＿＿あります。,Tsukue no ue ni hon ___ arimasu.,Trên bàn có sách.,を,が,に,で
-10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",70,部屋に猫＿＿います。,Heya ni neko ___ imasu.,Trong phòng có mèo.,を,が,に,で
-10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",71,教室に学生が＿＿。,Kyoushitsu ni gakusei ga ___.,Trong lớp học có học sinh.,あります,います,です,します
-10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",72,かばんの中にノートが＿＿。,Kaban no naka ni nooto ga ___.,Trong cặp có vở.,あります,います,です,します
-10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",73,忙しいです＿＿、行きません。,"Isogashii desu ___, ikimasen.",Vì bận nên tôi không đi.,から,まで,より,と
-10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",74,明日は雨だ＿＿思います。,Ashita wa ame da ___ omoimasu.,Tôi nghĩ ngày mai trời mưa.,を,と,に,で
-10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",75,田中さんは「行きます」＿＿言いました。,Tanaka-san wa “ikimasu” ___ iimashita.,Anh Tanaka nói “tôi sẽ đi”.,を,と,に,で
-10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",76,子どもの＿＿、よく公園で遊びました。,"Kodomo no ___, yoku kouen de asobimashita.","Khi còn nhỏ, tôi thường chơi ở công viên.",とき,まで,から,後で
-10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",77,駅の前に銀行＿＿あります。,Eki no mae ni ginkou ___ arimasu.,Trước nhà ga có ngân hàng.,を,が,に,で
-10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",78,庭に犬＿＿います。,Niwa ni inu ___ imasu.,Trong vườn có chó.,を,が,に,で
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",69,机の上に本＿＿あります。,Trên bàn có sách.,を,が,に,で
+10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",70,部屋に猫＿＿います。,Trong phòng có mèo.,を,が,に,で
+10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",71,教室に学生が＿＿。,Trong lớp học có học sinh.,あります,います,です,します
+10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",72,かばんの中にノートが＿＿。,Trong cặp có vở.,あります,います,です,します
+10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",73,忙しいです＿＿、行きません。,Vì bận nên tôi không đi.,から,まで,より,と
+10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",74,明日は雨だ＿＿思います。,Tôi nghĩ ngày mai trời mưa.,を,と,に,で
+10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",75,田中さんは「行きます」＿＿言いました。,Anh Tanaka nói “tôi sẽ đi”.,を,と,に,で
+10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",76,子どもの＿＿、よく公園で遊びました。,"Khi còn nhỏ, tôi thường chơi ở công viên.",とき,まで,から,後で
+10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",77,駅の前に銀行＿＿あります。,Trước nhà ga có ngân hàng.,を,が,に,で
+10,Mẫu hay ra đề JLPT N5,"Mina bài 9, 10, 21, 23",78,庭に犬＿＿います。,Trong vườn có chó.,を,が,に,で

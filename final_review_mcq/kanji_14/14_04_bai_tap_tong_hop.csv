@@ -1,9 +1,9 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1404,Bài tập tổng hợp,Bài 14,1,駅へ行きます。,eki e ikimasu,駅へ行きます。 nghĩa là gì?,Tôi đi đến nhà ga.,Tôi đi đến trường.,Tôi đi đến bệnh viện.,Tôi đi đến cửa hàng.
-1404,Bài tập tổng hợp,Bài 14,2,会社で働きます。,kaisha de hatarakimasu,会社で働きます。 nghĩa là gì?,Tôi học ở công ty.,Tôi làm việc ở công ty.,Tôi ăn ở công ty.,Tôi chờ ở công ty.
-1404,Bài tập tổng hợp,Bài 14,3,学校で勉強します。,gakkou de benkyou shimasu,学校で勉強します。 nghĩa là gì?,Tôi học ở trường.,Tôi làm ở trường.,Tôi mua đồ ở trường.,Tôi nghe nhạc ở trường.
-1404,Bài tập tổng hợp,Bài 14,4,店で買います。,mise de kaimasu,店で買います。 nghĩa là gì?,Tôi mua ở cửa hàng.,Tôi bán ở cửa hàng.,Tôi học ở cửa hàng.,Tôi chờ ở cửa hàng.
-1404,Bài tập tổng hợp,Bài 14,5,銀行へ行きます。,ginkou e ikimasu,銀行へ行きます。 nghĩa là gì?,Tôi đi đến bệnh viện.,Tôi đi đến ngân hàng.,Tôi đi đến công ty.,Tôi đi đến nhà ga.
-1404,Bài tập tổng hợp,Bài 14,6,病院へ行きます。,byouin e ikimasu,病院へ行きます。 nghĩa là gì?,Tôi đi đến bệnh viện.,Tôi đi đến trường học.,Tôi đi đến ngân hàng.,Tôi đi đến cửa hàng.
-1404,Bài tập tổng hợp,Bài 14,7,病気です。,byouki desu,病気です。 nghĩa là gì?,Tôi khỏe.,Tôi bị bệnh.,Tôi đi học.,Tôi đi làm.
-1404,Bài tập tổng hợp,Bài 14,8,＿＿へ行きます。,eki e ikimasu,Chữ nào có nghĩa là nhà ga?,馬,駅,店,院
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1404,Bài tập tổng hợp,Bài 14,1,駅へ行きます。,駅へ行きます。 nghĩa là gì?,Tôi đi đến nhà ga.,Tôi đi đến trường.,Tôi đi đến bệnh viện.,Tôi đi đến cửa hàng.
+1404,Bài tập tổng hợp,Bài 14,2,会社で働きます。,会社で働きます。 nghĩa là gì?,Tôi học ở công ty.,Tôi làm việc ở công ty.,Tôi ăn ở công ty.,Tôi chờ ở công ty.
+1404,Bài tập tổng hợp,Bài 14,3,学校で勉強します。,学校で勉強します。 nghĩa là gì?,Tôi học ở trường.,Tôi làm ở trường.,Tôi mua đồ ở trường.,Tôi nghe nhạc ở trường.
+1404,Bài tập tổng hợp,Bài 14,4,店で買います。,店で買います。 nghĩa là gì?,Tôi mua ở cửa hàng.,Tôi bán ở cửa hàng.,Tôi học ở cửa hàng.,Tôi chờ ở cửa hàng.
+1404,Bài tập tổng hợp,Bài 14,5,銀行へ行きます。,銀行へ行きます。 nghĩa là gì?,Tôi đi đến bệnh viện.,Tôi đi đến ngân hàng.,Tôi đi đến công ty.,Tôi đi đến nhà ga.
+1404,Bài tập tổng hợp,Bài 14,6,病院へ行きます。,病院へ行きます。 nghĩa là gì?,Tôi đi đến bệnh viện.,Tôi đi đến trường học.,Tôi đi đến ngân hàng.,Tôi đi đến cửa hàng.
+1404,Bài tập tổng hợp,Bài 14,7,病気です。,病気です。 nghĩa là gì?,Tôi khỏe.,Tôi bị bệnh.,Tôi đi học.,Tôi đi làm.
+1404,Bài tập tổng hợp,Bài 14,8,＿＿へ行きます。,Chữ nào có nghĩa là nhà ga?,馬,駅,店,院

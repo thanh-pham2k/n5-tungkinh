@@ -1,11 +1,11 @@
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-16,Chọn từ cùng nhóm chủ đề,Mina bài 6,1,Từ nào thuộc nhóm “động từ ăn uống”?,,Chọn từ cùng nhóm chủ đề.,食べます（たべます）,見ます（みます）,書きます（かきます）,あいます
-16,Chọn từ cùng nhóm chủ đề,Mina bài 6,2,Từ nào thuộc nhóm “động từ học tập / thông tin”?,,Chọn từ cùng nhóm chủ đề.,読みます（よみます）,食べます（たべます）,飲みます（のみます）,すいます
-16,Chọn từ cùng nhóm chủ đề,Mina bài 6,3,Từ nào thuộc nhóm “đồ ăn”?,,Chọn từ cùng nhóm chủ đề.,やさい,おちゃ,ジュース,ビール
-16,Chọn từ cùng nhóm chủ đề,Mina bài 6,4,Từ nào thuộc nhóm “đồ uống”?,,Chọn từ cùng nhóm chủ đề.,ぎゅうにゅう,にく,魚（さかな）,たまご
-16,Chọn từ cùng nhóm chủ đề,Mina bài 6,5,Từ nào thuộc nhóm “tài liệu”?,,Chọn từ cùng nhóm chủ đề.,レポート,レストラン,にわ,サッカー
-16,Chọn từ cùng nhóm chủ đề,Mina bài 6,6,Từ nào thuộc nhóm “hình ảnh / media”?,,Chọn từ cùng nhóm chủ đề.,写真（しゃしん）,ごはん,水（みず）,たばこ
-16,Chọn từ cùng nhóm chủ đề,Mina bài 6,7,Từ nào thuộc nhóm “địa điểm”?,,Chọn từ cùng nhóm chủ đề.,レストラン,手紙（てがみ）,パン,しゅくだい
-16,Chọn từ cùng nhóm chủ đề,Mina bài 6,8,Từ nào thuộc nhóm “thể thao”?,,Chọn từ cùng nhóm chủ đề.,サッカー,おはなみ,手紙（てがみ）,こうちゃ
-16,Chọn từ cùng nhóm chủ đề,Mina bài 6,9,Từ nào thuộc nhóm “tần suất”?,,Chọn từ cùng nhóm chủ đề.,ときどき,なに,それから,ええ
-16,Chọn từ cùng nhóm chủ đề,Mina bài 6,10,Từ nào thuộc nhóm “câu phản hồi”?,,Chọn từ cùng nhóm chủ đề.,わかりました,くだもの,にわ,たまご
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+16,Chọn từ cùng nhóm chủ đề,Mina bài 6,1,Từ nào thuộc nhóm “động từ ăn uống”?,Chọn từ cùng nhóm chủ đề.,食べます（たべます）,見ます（みます）,書きます（かきます）,あいます
+16,Chọn từ cùng nhóm chủ đề,Mina bài 6,2,Từ nào thuộc nhóm “động từ học tập / thông tin”?,Chọn từ cùng nhóm chủ đề.,読みます（よみます）,食べます（たべます）,飲みます（のみます）,すいます
+16,Chọn từ cùng nhóm chủ đề,Mina bài 6,3,Từ nào thuộc nhóm “đồ ăn”?,Chọn từ cùng nhóm chủ đề.,やさい,おちゃ,ジュース,ビール
+16,Chọn từ cùng nhóm chủ đề,Mina bài 6,4,Từ nào thuộc nhóm “đồ uống”?,Chọn từ cùng nhóm chủ đề.,ぎゅうにゅう,にく,魚（さかな）,たまご
+16,Chọn từ cùng nhóm chủ đề,Mina bài 6,5,Từ nào thuộc nhóm “tài liệu”?,Chọn từ cùng nhóm chủ đề.,レポート,レストラン,にわ,サッカー
+16,Chọn từ cùng nhóm chủ đề,Mina bài 6,6,Từ nào thuộc nhóm “hình ảnh / media”?,Chọn từ cùng nhóm chủ đề.,写真（しゃしん）,ごはん,水（みず）,たばこ
+16,Chọn từ cùng nhóm chủ đề,Mina bài 6,7,Từ nào thuộc nhóm “địa điểm”?,Chọn từ cùng nhóm chủ đề.,レストラン,手紙（てがみ）,パン,しゅくだい
+16,Chọn từ cùng nhóm chủ đề,Mina bài 6,8,Từ nào thuộc nhóm “thể thao”?,Chọn từ cùng nhóm chủ đề.,サッカー,おはなみ,手紙（てがみ）,こうちゃ
+16,Chọn từ cùng nhóm chủ đề,Mina bài 6,9,Từ nào thuộc nhóm “tần suất”?,Chọn từ cùng nhóm chủ đề.,ときどき,なに,それから,ええ
+16,Chọn từ cùng nhóm chủ đề,Mina bài 6,10,Từ nào thuộc nhóm “câu phản hồi”?,Chọn từ cùng nhóm chủ đề.,わかりました,くだもの,にわ,たまご
