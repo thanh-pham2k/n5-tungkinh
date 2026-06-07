@@ -369,6 +369,7 @@ Dữ liệu bài làm:
       const labels = {
         goukaku_jlpt_n5_grammar_trac_nghiem: "Goukaku Grammar N5",
         goukaku_jlpt_n5_trac_nghiem_tu_vung_ngu_phap: "Goukaku Từ vựng & Ngữ pháp",
+        goukaku_jlpt_n5_trac_nghiem_tu_vung_ngu_phap_review: "Goukaku Review Từ vựng & Ngữ pháp",
         goukaku_tu_vung_co_ban_cach_doc_kanji: "Goukaku Từ vựng cơ bản - Cách đọc Kanji",
         goukaku_tu_vung_co_ban_kanji_ngu_phap: "Goukaku Từ vựng cơ bản - Kanji & Ngữ pháp",
       };
