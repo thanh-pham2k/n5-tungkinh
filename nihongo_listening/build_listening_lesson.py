@@ -18,6 +18,7 @@ OUTPUT_ROOT = BASE_DIR / "output"
 
 START_PADDING_MS = 0
 END_PADDING_MS = 0
+LAST_SEGMENT_TAIL_MS = 8000
 SUPPORTED_AUDIO_EXTS = {".mp3", ".wav", ".m4a", ".aac", ".flac", ".ogg"}
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -141,6 +142,21 @@ def first_timestamp_ms(text: str) -> int | None:
         return None
 
 
+def all_timestamps_ms(text: str) -> list[int]:
+    values: list[int] = []
+    for match in re.finditer(r"\[?(\d{1,2}:\d{2}(?::\d{2})?(?:[\.,]\d{1,3})?)\]?", text):
+        try:
+            values.append(parse_timestamp_to_ms(match.group(1)))
+        except ValueError as exc:
+            warn(str(exc))
+    return values
+
+
+def last_timestamp_ms(text: str) -> int | None:
+    values = all_timestamps_ms(text)
+    return values[-1] if values else None
+
+
 def explicit_range_ms(text: str) -> tuple[int, int] | None:
     pattern = re.compile(
         r"\[?(\d{1,2}:\d{2}(?::\d{2})?(?:[\.,]\d{1,3})?)\]?\s*(?:-->|-|〜|~)\s*"
@@ -243,6 +259,7 @@ def parse_segments_from_script(script_text: str, audio_duration_ms: int) -> tupl
     parts = re.split(r"^##\s*Đoạn hội thoại\s*(\d+)\s*$", script_text, flags=re.MULTILINE)
     segments: list[Segment] = []
     blocks: list[str] = []
+    fallback_end_ms: list[int | None] = []
 
     for index in range(1, len(parts), 2):
         number = int(parts[index])
@@ -259,6 +276,8 @@ def parse_segments_from_script(script_text: str, audio_duration_ms: int) -> tupl
             warn(f"Bỏ qua Đoạn hội thoại {number}: không tìm thấy timestamp trong script.")
             continue
         end_ms = range_ms[1] if range_ms else None
+        block_last_ms = last_timestamp_ms(block)
+        block_end_ms = block_last_ms + LAST_SEGMENT_TAIL_MS if block_last_ms is not None else None
         cleaned_script = "\n".join(
             strip_timestamps(line) for line in dialogue_text.splitlines()
         ).strip()
@@ -272,11 +291,18 @@ def parse_segments_from_script(script_text: str, audio_duration_ms: int) -> tupl
             )
         )
         blocks.append(block)
+        fallback_end_ms.append(block_end_ms)
 
     for index, segment in enumerate(segments):
         if segment.end_ms is None:
-            next_start = segments[index + 1].start_ms if index + 1 < len(segments) else audio_duration_ms
-            segment.end_ms = next_start
+            next_start = segments[index + 1].start_ms if index + 1 < len(segments) else None
+            block_end = fallback_end_ms[index]
+            if next_start is not None:
+                segment.end_ms = next_start
+            elif block_end is not None and block_end > segment.start_ms:
+                segment.end_ms = block_end
+            else:
+                segment.end_ms = audio_duration_ms
         if segment.end_ms > audio_duration_ms:
             warn(
                 f"{segment.label}: end {format_ms(segment.end_ms)} vượt thời lượng audio; clamp về "
