@@ -24,8 +24,11 @@
     .app-header { position: sticky; top: 0; z-index: 20; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.97); backdrop-filter: blur(10px); }
     .header-inner { max-width: 900px; margin: 0 auto; padding: 10px 12px; display: grid; gap: 8px; }
     .header-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .header-actions { flex: 0 0 auto; display: flex; align-items: center; gap: 8px; }
     h1 { margin: 0; font-size: 18px; line-height: 1.2; }
     .score { flex: 0 0 auto; border: 1px solid var(--line); border-radius: 999px; background: #fff; padding: 5px 9px; font-size: 13px; font-weight: 800; color: var(--primary); }
+    .repeat-control { min-height: 30px; border: 1px solid var(--line); border-radius: 999px; background: #fff; padding: 5px 9px; display: inline-flex; align-items: center; gap: 6px; color: var(--text); font-size: 13px; font-weight: 800; white-space: nowrap; cursor: pointer; }
+    .repeat-control input { width: 16px; height: 16px; margin: 0; accent-color: var(--primary); }
     .current-segment { margin: 0; color: var(--muted); font-size: 13px; font-weight: 700; }
     main { width: min(900px, 100%); min-width: 0; margin: 0 auto; padding: 12px; display: grid; gap: 12px; }
     .segment-nav { min-width: 0; display: flex; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain; padding-bottom: 2px; scrollbar-width: thin; }
@@ -95,7 +98,13 @@
     <div class="header-inner">
       <div class="header-row">
         <h1>JLPT N5 Listening - Bài 12</h1>
-        <div class="score" id="score">0/16</div>
+        <div class="header-actions">
+          <label class="repeat-control">
+            <input id="repeat-audio" type="checkbox" checked>
+            <span>Lặp</span>
+          </label>
+          <div class="score" id="score">0/16</div>
+        </div>
       </div>
       <p class="current-segment" id="current-segment">Đang ở đoạn 1/16</p>
     </div>
@@ -1765,6 +1774,8 @@ Nghĩa: Hôm nay xin cảm ơn rất nhiều.</pre>
     const totalQuestions = 16;
     const state = {};
     const currentSegment = document.getElementById("current-segment");
+    const repeatToggle = document.getElementById("repeat-audio");
+    let repeatEnabled = repeatToggle.checked;
     function formatTime(seconds) {
       if (!Number.isFinite(seconds)) return "0:00";
       const total = Math.max(0, Math.floor(seconds));
@@ -1780,6 +1791,9 @@ Nghĩa: Hôm nay xin cảm ơn rất nhiều.</pre>
       if (typeof dialog.close === "function") dialog.close();
       else dialog.removeAttribute("open");
     }
+    repeatToggle.addEventListener("change", () => {
+      repeatEnabled = repeatToggle.checked;
+    });
     const observer = new IntersectionObserver((entries) => {
       const visible = entries
         .filter((entry) => entry.isIntersecting)
@@ -1811,6 +1825,12 @@ Nghĩa: Hôm nay xin cảm ơn rất nhiều.</pre>
         time.textContent = `${formatTime(audio.currentTime)} / ${formatTime(audio.duration)}`;
       });
       audio.addEventListener("ended", () => {
+        if (repeatEnabled) {
+          audio.currentTime = 0;
+          progress.value = "0";
+          audio.play();
+          return;
+        }
         playButton.textContent = "▶";
         progress.value = "0";
       });
