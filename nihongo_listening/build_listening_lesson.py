@@ -549,10 +549,7 @@ def generate_index_html(
                   <button class="script-open" type="button" data-dialog="script-dialog-{index + 1}">Xem script</button>
                 </div>
                 <div class="audio-player">
-                  <button class="play-audio" type="button" aria-label="Phát đoạn">▶</button>
-                  <span class="audio-time">0:00</span>
-                  <input class="audio-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="Tiến độ audio">
-                  <audio preload="metadata" src="audio/{html.escape(segment.audio_file)}"></audio>
+                  <audio controls preload="metadata" src="audio/{html.escape(segment.audio_file)}"></audio>
                 </div>
                 <div class="audio-seek-controls" aria-label="Tua audio">
                   <button class="seek-audio" type="button" data-seek="-1">Lùi {SEEK_STEP_SECONDS}s</button>
@@ -622,13 +619,10 @@ def generate_index_html(
     .audio-shell {{ min-width: 0; max-width: 100%; overflow: hidden; margin: 8px 0 10px; border: 1px solid var(--line); border-radius: 8px; background: #f8fafc; padding: 6px; }}
     .audio-topline {{ min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; color: var(--muted); font-size: 12px; font-weight: 900; }}
     .script-open {{ flex: 0 0 auto; min-height: 32px; border-color: rgba(15,118,110,.25); background: #fff; color: var(--primary); padding: 5px 9px; font-size: 12px; }}
-    .audio-player {{ min-width: 0; display: grid; grid-template-columns: 38px 78px minmax(0, 1fr); gap: 8px; align-items: center; }}
-    .play-audio {{ width: 36px; min-height: 34px; border-radius: 999px; padding: 0; }}
-    .audio-time {{ color: var(--text); font-size: 13px; font-weight: 800; text-align: center; }}
-    .audio-progress {{ width: 100%; min-width: 0; accent-color: var(--primary); }}
+    .audio-player {{ min-width: 0; display: block; }}
+    .audio-player audio {{ width: 100%; display: block; }}
     .audio-seek-controls {{ display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 6px; }}
     .seek-audio {{ min-height: 34px; padding: 6px 10px; background: #fff; color: var(--primary); font-size: 12px; }}
-    audio {{ display: none; }}
     .quiz {{ padding-top: 2px; }}
     .quiz + .quiz {{ margin-top: 12px; border-top: 1px solid var(--line); padding-top: 12px; }}
     .quiz h3 {{ margin-bottom: 8px; font-size: 15px; }}
@@ -730,42 +724,17 @@ def generate_index_html(
     document.querySelectorAll(".audio-player").forEach((player) => {{
       const shell = player.closest(".audio-shell");
       const audio = player.querySelector("audio");
-      const playButton = player.querySelector(".play-audio");
-      const progress = player.querySelector(".audio-progress");
-      const time = player.querySelector(".audio-time");
       const seekButtons = shell.querySelectorAll(".seek-audio");
-      function syncAudioUi() {{
-        if (audio.duration) progress.value = String((audio.currentTime / audio.duration) * 100);
-        time.textContent = `${{formatTime(audio.currentTime)}} / ${{formatTime(audio.duration)}}`;
-      }}
-      playButton.addEventListener("click", () => {{
+      audio.addEventListener("play", () => {{
         document.querySelectorAll("audio").forEach((other) => {{
           if (other !== audio) other.pause();
         }});
-        if (audio.paused) audio.play();
-        else audio.pause();
-      }});
-      audio.addEventListener("play", () => {{ playButton.textContent = "❚❚"; }});
-      audio.addEventListener("pause", () => {{ playButton.textContent = "▶"; }});
-      audio.addEventListener("loadedmetadata", () => {{
-        time.textContent = `0:00 / ${{formatTime(audio.duration)}}`;
-      }});
-      audio.addEventListener("timeupdate", () => {{
-        syncAudioUi();
       }});
       audio.addEventListener("ended", () => {{
         if (repeatEnabled) {{
           audio.currentTime = 0;
-          progress.value = "0";
           audio.play();
-          return;
         }}
-        playButton.textContent = "▶";
-        progress.value = "0";
-      }});
-      progress.addEventListener("input", () => {{
-        if (!audio.duration) return;
-        audio.currentTime = (Number(progress.value) / 100) * audio.duration;
       }});
       seekButtons.forEach((button) => {{
         button.addEventListener("click", () => {{
@@ -773,7 +742,6 @@ def generate_index_html(
           const direction = Number(button.dataset.seek);
           const nextTime = audio.currentTime + direction * seekStepSeconds;
           audio.currentTime = Math.min(Math.max(nextTime, 0), audio.duration);
-          syncAudioUi();
         }});
       }});
     }});
