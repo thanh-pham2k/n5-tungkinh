@@ -398,20 +398,22 @@
 
   const REVIEW_PROMPT = `Bạn là gia sư JLPT N5.
 
-Review bài làm của tôi cực kỳ ngắn gọn dưới dạng table.
-
-Cột:
-Câu | Tôi chọn | Đáp án đúng | Đúng/Sai | Giải thích ngắn | Từ vựng N5 | Kanji N5 có thể gặp | Ngữ pháp/lưu ý
-
-Yêu cầu:
-- Giải thích bằng tiếng Việt, thật ngắn.
-- Nếu sai, nói rõ đáp án đúng và lý do sai.
-- Nếu có từ Kanji N5 thường gặp, ghi Kanji + Hiragana + nghĩa.
-- Nếu câu có ngữ pháp/trợ từ/cấu trúc cần nhớ, giải thích cực ngắn.
-- Cuối bài: tổng kết đúng/sai và danh sách từ/ngữ pháp cần ôn.
-
-Dữ liệu bài làm:
-[Paste câu hỏi + đáp án đã chọn vào đây]`;
+  Review bài làm của tôi cực kỳ ngắn gọn dưới dạng table.
+  
+  Cột:
+  Câu | Chọn/Đúng | Kết quả | Giải thích | Từ vựng/Kanji | Ngữ pháp
+  
+  Yêu cầu:
+  - Giải thích bằng tiếng Việt, thật ngắn.
+  - Cột "Chọn/Đúng": ghi đáp án tôi chọn và đáp án đúng.
+  - Nếu sai, nói lý do sai cực ngắn.
+  - Nếu có Kanji, hiển thị furigana: 漢字（ふりがな）.
+  - Từ vựng ghi dạng: 先生（せんせい）= giáo viên.
+  - Ngữ pháp/trợ từ chỉ ghi điểm cần nhớ ngắn gọn.
+  - Cuối bài: tổng kết đúng/sai và danh sách cần ôn.
+  
+  Dữ liệu bài làm:
+  [Paste câu hỏi + đáp án đã chọn vào đây]`;
 
   const getSelectedAnswerLabel = (group, question) => {
     const selected = state.selectedAnswers.get(answerKey(group, question));
