@@ -8,16 +8,16 @@ Nội dung chính gồm: **ruộng, sức lực, nam/nữ, trẻ em, học, sinh
 
 # 1. Tổng hợp chữ Hán trong bài
 
-| Kanji | Âm Hán Việt | Hiragana  | Romaji        | Nghĩa                  |
-| ----- | ----------- | --------- | ------------- | ---------------------- |
-| 田     | Điền        | た         | ta            | ruộng                  |
-| 力     | Lực         | ちから       | chikara       | sức lực                |
-| 男     | Nam         | おとこ       | otoko         | đàn ông / nam          |
-| 女     | Nữ          | おんな       | onna          | phụ nữ / nữ            |
-| 子     | Tử          | こ         | ko            | đứa trẻ / con          |
-| 学     | Học         | がく        | gaku          | học                    |
-| 生     | Sinh        | せい / うまれる | sei / umareru | sinh / sống / học sinh |
-| 先     | Tiên        | さき / せん   | saki / sen    | trước                  |
+| Kanji（かな） | Âm Hán Việt | Nghĩa |
+| --- | --- | --- |
+| 田（た） | Điền | ruộng |
+| 力（ちから） | Lực | sức lực |
+| 男（おとこ） | Nam | đàn ông / nam |
+| 女（おんな） | Nữ | phụ nữ / nữ |
+| 子（こ） | Tử | đứa trẻ / con |
+| 学（がく） | Học | học |
+| 生（せい / うまれる） | Sinh | sinh / sống / học sinh |
+| 先（さき / せん） | Tiên | trước |
 
 ---
 
@@ -38,19 +38,19 @@ Nội dung chính gồm: **ruộng, sức lực, nam/nữ, trẻ em, học, sinh
 
 # 3. Từ vựng ví dụ
 
-| Từ  | Hiragana | Romaji      | Nghĩa                |
-| --- | -------- | ----------- | -------------------- |
-| 田   | た        | ta          | ruộng                |
-| 田中  | たなか      | tanaka      | Tanaka / trong ruộng |
-| 力   | ちから      | chikara     | sức lực              |
-| 男   | おとこ      | otoko       | đàn ông              |
-| 男の子 | おとこのこ    | otoko no ko | bé trai              |
-| 女   | おんな      | onna        | phụ nữ               |
-| 女の子 | おんなのこ    | onna no ko  | bé gái               |
-| 子ども | こども      | kodomo      | trẻ em               |
-| 学生  | がくせい     | gakusei     | học sinh / sinh viên |
-| 先生  | せんせい     | sensei      | giáo viên            |
-| 先   | さき       | saki        | trước                |
+| Từ（かな） | Nghĩa |
+| --- | --- |
+| 田（た） | ruộng |
+| 田中（たなか） | Tanaka / trong ruộng |
+| 力（ちから） | sức lực |
+| 男（おとこ） | đàn ông |
+| 男の子（おとこのこ） | bé trai |
+| 女（おんな） | phụ nữ |
+| 女の子（おんなのこ） | bé gái |
+| 子ども（こども） | trẻ em |
+| 学生（がくせい） | học sinh / sinh viên |
+| 先生（せんせい） | giáo viên |
+| 先（さき） | trước |
 
 ---
 
@@ -381,50 +381,50 @@ D. 女
 
 | Câu | Đáp án | Giải thích ngắn gọn                                                                              |
 | --- | ------ | ------------------------------------------------------------------------------------------------ |
-| 1   | A      | **田** = た / *ta* = ruộng. Ví dụ: **田中** = たなか / *Tanaka* = họ Tanaka.                            |
-| 2   | B      | **力** = ちから / *chikara* = sức lực. Ví dụ: **力** = ちから / *chikara* = sức mạnh.                    |
-| 3   | C      | **男** = おとこ / *otoko* = đàn ông / nam. Ví dụ: **男の子** = おとこのこ / *otoko no ko* = bé trai.         |
-| 4   | B      | **女** = おんな / *onna* = phụ nữ / nữ. Ví dụ: **女の子** = おんなのこ / *onna no ko* = bé gái.              |
-| 5   | A      | **子** = こ / *ko* = con / đứa trẻ. Ví dụ: **子ども** = こども / *kodomo* = trẻ em.                      |
-| 6   | B      | **学** = がく / *gaku* = học. Ví dụ: **学生** = がくせい / *gakusei* = học sinh / sinh viên.              |
-| 7   | B      | **生** = せい / *sei*, うまれる / *umareru* = sinh / sống. Ví dụ: **学生** = がくせい / *gakusei* = học sinh. |
-| 8   | C      | **先** = さき / *saki*, せん / *sen* = trước. Ví dụ: **先生** = せんせい / *sensei* = giáo viên.            |
-| 9   | A      | **田** đọc là た / *ta*. Ví dụ: **田中** = たなか / *Tanaka*.                                           |
-| 10  | C      | **力** đọc là ちから / *chikara*. Ví dụ: **力** = sức lực.                                            |
-| 11  | B      | **男** đọc là おとこ / *otoko*. Ví dụ: **男の子** = bé trai.                                            |
-| 12  | A      | **女** đọc là おんな / *onna*. Ví dụ: **女の子** = bé gái.                                              |
-| 13  | B      | **子** đọc là こ / *ko*. Ví dụ: **子ども** = trẻ em.                                                  |
-| 14  | A      | **学** đọc là がく / *gaku*. Ví dụ: **学校** = がっこう / *gakkou* = trường học.                          |
-| 15  | A      | **生** trong **学生** đọc là せい / *sei*. **学生** = がくせい / *gakusei* = học sinh / sinh viên.          |
-| 16  | B      | **先** trong **先生** đọc là せん / *sen*. **先生** = せんせい / *sensei* = giáo viên.                      |
-| 17  | A      | た / *ta* = **田** = ruộng. Ví dụ: **田中** = たなか / *Tanaka*.                                        |
-| 18  | B      | ちから / *chikara* = **力** = sức lực.                                                               |
-| 19  | B      | おとこ / *otoko* = **男** = đàn ông / nam.                                                           |
-| 20  | B      | おんな / *onna* = **女** = phụ nữ / nữ.                                                              |
-| 21  | A      | こ / *ko* = **子** = con / đứa trẻ.                                                                |
-| 22  | C      | がく / *gaku* = **学** = học. Ví dụ: **学生** = がくせい / *gakusei*.                                     |
-| 23  | A      | せい / *sei* = **生** = sinh / sống / học sinh. Ví dụ: **先生** = せんせい / *sensei*.                    |
-| 24  | B      | さき / *saki* = **先** = trước. Ví dụ: **先** = さき / *saki* = phía trước / trước đó.                 |
-| 25  | B      | **男の子** = おとこのこ / *otoko no ko* = bé trai.                                                       |
-| 26  | A      | **女の子** = おんなのこ / *onna no ko* = bé gái.                                                         |
-| 27  | B      | **学生** = がくせい / *gakusei* = học sinh / sinh viên.                                                |
-| 28  | B      | **先生** = せんせい / *sensei* = giáo viên.                                                            |
-| 29  | A      | **田中** đọc là たなか / *Tanaka*.                                                                    |
-| 30  | B      | **学生** đọc là がくせい / *gakusei*.                                                                  |
-| 31  | B      | **先生** đọc là せんせい / *sensei*.                                                                   |
-| 32  | A      | Chữ nghĩa là sức lực là **力** = ちから / *chikara*.                                                 |
+| 1   | A      | **田** = た = ruộng. Ví dụ: **田中** = たなか = họ Tanaka.                            |
+| 2   | B      | **力** = ちから = sức lực. Ví dụ: **力** = ちから = sức mạnh.                    |
+| 3   | C      | **男** = おとこ = đàn ông / nam. Ví dụ: **男の子** = おとこのこ = bé trai.         |
+| 4   | B      | **女** = おんな = phụ nữ / nữ. Ví dụ: **女の子** = おんなのこ = bé gái.              |
+| 5   | A      | **子** = こ = con / đứa trẻ. Ví dụ: **子ども** = こども = trẻ em.                      |
+| 6   | B      | **学** = がく = học. Ví dụ: **学生** = がくせい = học sinh / sinh viên.              |
+| 7   | B      | **生** = せい, うまれる = sinh / sống. Ví dụ: **学生** = がくせい = học sinh. |
+| 8   | C      | **先** = さき, せん = trước. Ví dụ: **先生** = せんせい = giáo viên.            |
+| 9   | A      | **田** đọc là た. Ví dụ: **田中** = たなか.                                           |
+| 10  | C      | **力** đọc là ちから. Ví dụ: **力** = sức lực.                                            |
+| 11  | B      | **男** đọc là おとこ. Ví dụ: **男の子** = bé trai.                                            |
+| 12  | A      | **女** đọc là おんな. Ví dụ: **女の子** = bé gái.                                              |
+| 13  | B      | **子** đọc là こ. Ví dụ: **子ども** = trẻ em.                                                  |
+| 14  | A      | **学** đọc là がく. Ví dụ: **学校** = がっこう = trường học.                          |
+| 15  | A      | **生** trong **学生** đọc là せい. **学生** = がくせい = học sinh / sinh viên.          |
+| 16  | B      | **先** trong **先生** đọc là せん. **先生** = せんせい = giáo viên.                      |
+| 17  | A      | た = **田** = ruộng. Ví dụ: **田中** = たなか.                                        |
+| 18  | B      | ちから = **力** = sức lực.                                                               |
+| 19  | B      | おとこ = **男** = đàn ông / nam.                                                           |
+| 20  | B      | おんな = **女** = phụ nữ / nữ.                                                              |
+| 21  | A      | こ = **子** = con / đứa trẻ.                                                                |
+| 22  | C      | がく = **学** = học. Ví dụ: **学生** = がくせい.                                     |
+| 23  | A      | せい = **生** = sinh / sống / học sinh. Ví dụ: **先生** = せんせい.                    |
+| 24  | B      | さき = **先** = trước. Ví dụ: **先** = さき = phía trước / trước đó.                 |
+| 25  | B      | **男の子** = おとこのこ = bé trai.                                                       |
+| 26  | A      | **女の子** = おんなのこ = bé gái.                                                         |
+| 27  | B      | **学生** = がくせい = học sinh / sinh viên.                                                |
+| 28  | B      | **先生** = せんせい = giáo viên.                                                            |
+| 29  | A      | **田中** đọc là たなか.                                                                    |
+| 30  | B      | **学生** đọc là がくせい.                                                                  |
+| 31  | B      | **先生** đọc là せんせい.                                                                   |
+| 32  | A      | Chữ nghĩa là sức lực là **力** = ちから.                                                 |
 
 ---
 
 ## Ghi nhớ nhanh 8 chữ Hán
 
-| Kanji | Hiragana  | Romaji        | Nghĩa         | Ví dụ N5                              |
-| ----- | --------- | ------------- | ------------- | ------------------------------------- |
-| 田     | た         | ta            | ruộng         | 田中 = たなか / *Tanaka*                   |
-| 力     | ちから       | chikara       | sức lực       | 力 = ちから / *chikara* = sức mạnh        |
-| 男     | おとこ       | otoko         | đàn ông / nam | 男の子 = おとこのこ / *otoko no ko* = bé trai |
-| 女     | おんな       | onna          | phụ nữ / nữ   | 女の子 = おんなのこ / *onna no ko* = bé gái   |
-| 子     | こ         | ko            | con / đứa trẻ | 子ども = こども / *kodomo* = trẻ em         |
-| 学     | がく        | gaku          | học           | 学生 = がくせい / *gakusei* = học sinh      |
-| 生     | せい / うまれる | sei / umareru | sinh / sống   | 学生 = がくせい / *gakusei* = học sinh      |
-| 先     | さき / せん   | saki / sen    | trước         | 先生 = せんせい / *sensei* = giáo viên      |
+| Kanji（かな） | Nghĩa | Ví dụ N5 |
+| --- | --- | --- |
+| 田（た） | ruộng | 田中 = たなか |
+| 力（ちから） | sức lực | 力 = ちから = sức mạnh |
+| 男（おとこ） | đàn ông / nam | 男の子 = おとこのこ = bé trai |
+| 女（おんな） | phụ nữ / nữ | 女の子 = おんなのこ = bé gái |
+| 子（こ） | con / đứa trẻ | 子ども = こども = trẻ em |
+| 学（がく） | học | 学生 = がくせい = học sinh |
+| 生（せい / うまれる） | sinh / sống | 学生 = がくせい = học sinh |
+| 先（さき / せん） | trước | 先生 = せんせい = giáo viên |

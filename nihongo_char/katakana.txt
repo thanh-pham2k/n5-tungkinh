@@ -962,155 +962,155 @@ TL;DR: Bạn chưa dán danh sách riêng, nên mình tạo bài theo **bảng K
 
 # Bảng đáp án
 
-| Câu | Đáp án | Katakana |      Romaji      | Giải thích ngắn |
-| --: | :----: | :------: | :--------------: | --------------- |
-|   1 |    A   |     ア    |         a        | Nguyên âm a     |
-|   2 |    A   |     イ    |         i        | Nguyên âm i     |
-|   3 |    A   |     ウ    |         u        | Nguyên âm u     |
-|   4 |    A   |     エ    |         e        | Nguyên âm e     |
-|   5 |    A   |     オ    |         o        | Nguyên âm o     |
-|   6 |    A   |     カ    |        ka        | Hàng ka         |
-|   7 |    A   |     キ    |        ki        | Hàng ka         |
-|   8 |    A   |     ク    |        ku        | Dễ nhầm ケ       |
-|   9 |    A   |     ケ    |        ke        | Dễ nhầm ク       |
-|  10 |    A   |     コ    |        ko        | Hàng ka         |
-|  11 |    A   |     サ    |        sa        | Hàng sa         |
-|  12 |    A   |     シ    |        shi       | Dễ nhầm ツ       |
-|  13 |    A   |     ス    |        su        | Hàng sa         |
-|  14 |    A   |     セ    |        se        | Hàng sa         |
-|  15 |    A   |     ソ    |        so        | Dễ nhầm ン       |
-|  16 |    A   |     タ    |        ta        | Hàng ta         |
-|  17 |    A   |     チ    |        chi       | Hàng ta         |
-|  18 |    A   |     ツ    |        tsu       | Dễ nhầm シ       |
-|  19 |    A   |     テ    |        te        | Hàng ta         |
-|  20 |    A   |     ト    |        to        | Hàng ta         |
-|  21 |    A   |     ナ    |        na        | Hàng na         |
-|  22 |    A   |     ニ    |        ni        | Hàng na         |
-|  23 |    A   |     ヌ    |        nu        | Hàng na         |
-|  24 |    A   |     ネ    |        ne        | Hàng na         |
-|  25 |    A   |     ノ    |        no        | Một nét chéo    |
-|  26 |    A   |     ハ    |        ha        | Hàng ha         |
-|  27 |    A   |     ヒ    |        hi        | Hàng ha         |
-|  28 |    A   |     フ    |        fu        | Hàng ha         |
-|  29 |    A   |     ヘ    |        he        | Hàng ha         |
-|  30 |    A   |     ホ    |        ho        | Hàng ha         |
-|  31 |    A   |     マ    |        ma        | Hàng ma         |
-|  32 |    A   |     ミ    |        mi        | Hàng ma         |
-|  33 |    A   |     ム    |        mu        | Hàng ma         |
-|  34 |    A   |     メ    |        me        | Dễ nhầm ヌ       |
-|  35 |    A   |     モ    |        mo        | Hàng ma         |
-|  36 |    A   |     ヤ    |        ya        | Hàng ya         |
-|  37 |    A   |     ユ    |        yu        | Hàng ya         |
-|  38 |    A   |     ヨ    |        yo        | Hàng ya         |
-|  39 |    A   |     ラ    |        ra        | Hàng ra         |
-|  40 |    A   |     リ    |        ri        | Hàng ra         |
-|  41 |    A   |     ル    |        ru        | Hàng ra         |
-|  42 |    A   |     レ    |        re        | Hàng ra         |
-|  43 |    A   |     ロ    |        ro        | Hàng ra         |
-|  44 |    A   |     ワ    |        wa        | Dễ nhầm ウ       |
-|  45 |    A   |     ヲ    |        wo        | Ít dùng         |
-|  46 |    A   |     ン    |         n        | Dễ nhầm ソ       |
-|  47 |    A   |     ア    |         a        | Romaji a        |
-|  48 |    A   |     カ    |        ka        | Romaji ka       |
-|  49 |    A   |     シ    |        shi       | Romaji shi      |
-|  50 |    A   |     ン    |         n        | Romaji n        |
-|  51 |    A   |     オ    |         o        | Sau エ           |
-|  52 |    A   |     ケ    |        ke        | Trước コ         |
-|  53 |    A   |     ソ    |        so        | Cuối hàng サ     |
-|  54 |    A   |     ト    |        to        | Cuối hàng タ     |
-|  55 |    A   |     ノ    |        no        | Cuối hàng ナ     |
-|  56 |    A   |     ホ    |        ho        | Cuối hàng ハ     |
-|  57 |    A   |     モ    |        mo        | Cuối hàng マ     |
-|  58 |    A   |     ユ    |        yu        | Giữa ヤ・ヨ        |
-|  59 |    A   |     ロ    |        ro        | Cuối hàng ラ     |
-|  60 |    A   |     ヲ    |        wo        | Giữa ワ・ン        |
-|  61 |    A   |   アイウエオ  |     a i u e o    | Hàng nguyên âm  |
-|  62 |    A   |   カキクケコ  |  ka ki ku ke ko  | Hàng ka         |
-|  63 |    A   |   サシスセソ  |  sa shi su se so | Hàng sa         |
-|  64 |    A   |   タチツテト  | ta chi tsu te to | Hàng ta         |
-|  65 |    A   |   ナニヌネノ  |  na ni nu ne no  | Hàng na         |
-|  66 |    A   |   ハヒフヘホ  |  ha hi fu he ho  | Hàng ha         |
-|  67 |    A   |   マミムメモ  |  ma mi mu me mo  | Hàng ma         |
-|  68 |    A   |    ヤユヨ   |     ya yu yo     | Hàng ya         |
-|  69 |    A   |   ラリルレロ  |  ra ri ru re ro  | Hàng ra         |
-|  70 |    A   |    ワヲン   |      wa wo n     | Hàng wa         |
-|  71 |    A   |     ガ    |        ga        | Đục của カ       |
-|  72 |    A   |     ギ    |        gi        | Đục của キ       |
-|  73 |    A   |     グ    |        gu        | Đục của ク       |
-|  74 |    A   |     ゲ    |        ge        | Đục của ケ       |
-|  75 |    A   |     ゴ    |        go        | Đục của コ       |
-|  76 |    A   |     ザ    |        za        | Đục của サ       |
-|  77 |    A   |     ジ    |        ji        | Đục của シ       |
-|  78 |    A   |     ズ    |        zu        | Đục của ス       |
-|  79 |    A   |     ゼ    |        ze        | Đục của セ       |
-|  80 |    A   |     ゾ    |        zo        | Đục của ソ       |
-|  81 |    A   |     ダ    |        da        | Đục của タ       |
-|  82 |    A   |     ヂ    |        ji        | Ít dùng         |
-|  83 |    A   |     ヅ    |        zu        | Ít dùng         |
-|  84 |    A   |     デ    |        de        | Đục của テ       |
-|  85 |    A   |     ド    |        do        | Đục của ト       |
-|  86 |    A   |     バ    |        ba        | Đục của ハ       |
-|  87 |    A   |     ビ    |        bi        | Đục của ヒ       |
-|  88 |    A   |     ブ    |        bu        | Đục của フ       |
-|  89 |    A   |     ベ    |        be        | Đục của ヘ       |
-|  90 |    A   |     ボ    |        bo        | Đục của ホ       |
-|  91 |    A   |     パ    |        pa        | Bán đục ハ       |
-|  92 |    A   |     ピ    |        pi        | Bán đục ヒ       |
-|  93 |    A   |     プ    |        pu        | Bán đục フ       |
-|  94 |    A   |     ペ    |        pe        | Bán đục ヘ       |
-|  95 |    A   |     ポ    |        po        | Bán đục ホ       |
-|  96 |    A   |     ガ    |        ga        | Có dấu đục      |
-|  97 |    A   |     ザ    |        za        | Có dấu đục      |
-|  98 |    A   |     ダ    |        da        | Có dấu đục      |
-|  99 |    A   |     バ    |        ba        | Có dấu đục      |
-| 100 |    A   |     パ    |        pa        | Có vòng tròn    |
-| 101 |    A   |    キャ    |        kya       | Ki + ya nhỏ     |
-| 102 |    A   |    キュ    |        kyu       | Ki + yu nhỏ     |
-| 103 |    A   |    キョ    |        kyo       | Ki + yo nhỏ     |
-| 104 |    A   |    シャ    |        sha       | Shi + ya nhỏ    |
-| 105 |    A   |    シュ    |        shu       | Shi + yu nhỏ    |
-| 106 |    A   |    ショ    |        sho       | Shi + yo nhỏ    |
-| 107 |    A   |    チャ    |        cha       | Chi + ya nhỏ    |
-| 108 |    A   |    チュ    |        chu       | Chi + yu nhỏ    |
-| 109 |    A   |    チョ    |        cho       | Chi + yo nhỏ    |
-| 110 |    A   |    ニャ    |        nya       | Ni + ya nhỏ     |
-| 111 |    A   |    ニュ    |        nyu       | Ni + yu nhỏ     |
-| 112 |    A   |    ニョ    |        nyo       | Ni + yo nhỏ     |
-| 113 |    A   |    ヒャ    |        hya       | Hi + ya nhỏ     |
-| 114 |    A   |    ヒュ    |        hyu       | Hi + yu nhỏ     |
-| 115 |    A   |    ヒョ    |        hyo       | Hi + yo nhỏ     |
-| 116 |    A   |    ミャ    |        mya       | Mi + ya nhỏ     |
-| 117 |    A   |    ミュ    |        myu       | Mi + yu nhỏ     |
-| 118 |    A   |    ミョ    |        myo       | Mi + yo nhỏ     |
-| 119 |    A   |    リャ    |        rya       | Ri + ya nhỏ     |
-| 120 |    A   |    リュ    |        ryu       | Ri + yu nhỏ     |
-| 121 |    A   |    リョ    |        ryo       | Ri + yo nhỏ     |
-| 122 |    A   |    ギャ    |        gya       | Gi + ya nhỏ     |
-| 123 |    A   |    ギュ    |        gyu       | Gi + yu nhỏ     |
-| 124 |    A   |    ギョ    |        gyo       | Gi + yo nhỏ     |
-| 125 |    A   |    ジャ    |        ja        | Ji + ya nhỏ     |
-| 126 |    A   |    ジュ    |        ju        | Ji + yu nhỏ     |
-| 127 |    A   |    ジョ    |        jo        | Ji + yo nhỏ     |
-| 128 |    A   |    ビャ    |        bya       | Bi + ya nhỏ     |
-| 129 |    A   |    ピュ    |        pyu       | Pi + yu nhỏ     |
-| 130 |    A   |    ピョ    |        pyo       | Pi + yo nhỏ     |
-| 131 |    A   |    ベッド   |       beddo      | Có âm ngắt      |
-| 132 |    A   |    カップ   |       kappu      | Có âm ngắt      |
-| 133 |    A   |    ペン    |        pen       | Có âm ン         |
-| 134 |    A   |    パン    |        pan       | Có âm ン         |
-| 135 |    A   |   コーヒー   |      koohii      | Có trường âm    |
-| 136 |    A   |    ケーキ   |       keeki      | Có trường âm    |
-| 137 |    A   |    キット   |       kitto      | ッ nhân đôi      |
-| 138 |    A   |    パン    |        pan       | Kết thúc ン      |
-| 139 |    A   |   コーヒー   |      koohii      | Dùng dấu ー      |
-| 140 |    A   |    ケーキ   |       keeki      | Dùng dấu ー      |
-| 141 |    A   |    ファ    |        fa        | Fu + a nhỏ      |
-| 142 |    A   |    フィ    |        fi        | Fu + i nhỏ      |
-| 143 |    A   |    フェ    |        fe        | Fu + e nhỏ      |
-| 144 |    A   |    フォ    |        fo        | Fu + o nhỏ      |
-| 145 |    A   |    ティ    |        ti        | Te + i nhỏ      |
-| 146 |    A   |    ディ    |        di        | De + i nhỏ      |
-| 147 |    A   |    チェ    |        che       | Chi + e nhỏ     |
-| 148 |    A   |    ファ    |        fa        | Âm mượn fa      |
-| 149 |    A   |    ティ    |        ti        | Âm mượn ti      |
-| 150 |    A   |    チェ    |        che       | Âm mượn che     |
+| Câu | Đáp án | Katakana | Giải thích ngắn |
+| --- | --- | --- | --- |
+| 1 | A | ア | Nguyên âm a |
+| 2 | A | イ | Nguyên âm i |
+| 3 | A | ウ | Nguyên âm u |
+| 4 | A | エ | Nguyên âm e |
+| 5 | A | オ | Nguyên âm o |
+| 6 | A | カ | Hàng ka |
+| 7 | A | キ | Hàng ka |
+| 8 | A | ク | Dễ nhầm ケ |
+| 9 | A | ケ | Dễ nhầm ク |
+| 10 | A | コ | Hàng ka |
+| 11 | A | サ | Hàng sa |
+| 12 | A | シ | Dễ nhầm ツ |
+| 13 | A | ス | Hàng sa |
+| 14 | A | セ | Hàng sa |
+| 15 | A | ソ | Dễ nhầm ン |
+| 16 | A | タ | Hàng ta |
+| 17 | A | チ | Hàng ta |
+| 18 | A | ツ | Dễ nhầm シ |
+| 19 | A | テ | Hàng ta |
+| 20 | A | ト | Hàng ta |
+| 21 | A | ナ | Hàng na |
+| 22 | A | ニ | Hàng na |
+| 23 | A | ヌ | Hàng na |
+| 24 | A | ネ | Hàng na |
+| 25 | A | ノ | Một nét chéo |
+| 26 | A | ハ | Hàng ha |
+| 27 | A | ヒ | Hàng ha |
+| 28 | A | フ | Hàng ha |
+| 29 | A | ヘ | Hàng ha |
+| 30 | A | ホ | Hàng ha |
+| 31 | A | マ | Hàng ma |
+| 32 | A | ミ | Hàng ma |
+| 33 | A | ム | Hàng ma |
+| 34 | A | メ | Dễ nhầm ヌ |
+| 35 | A | モ | Hàng ma |
+| 36 | A | ヤ | Hàng ya |
+| 37 | A | ユ | Hàng ya |
+| 38 | A | ヨ | Hàng ya |
+| 39 | A | ラ | Hàng ra |
+| 40 | A | リ | Hàng ra |
+| 41 | A | ル | Hàng ra |
+| 42 | A | レ | Hàng ra |
+| 43 | A | ロ | Hàng ra |
+| 44 | A | ワ | Dễ nhầm ウ |
+| 45 | A | ヲ | Ít dùng |
+| 46 | A | ン | Dễ nhầm ソ |
+| 47 | A | ア | ??c l? a |
+| 48 | A | カ | ??c l? ka |
+| 49 | A | シ | ??c l? shi |
+| 50 | A | ン | ??c l? n |
+| 51 | A | オ | Sau エ |
+| 52 | A | ケ | Trước コ |
+| 53 | A | ソ | Cuối hàng サ |
+| 54 | A | ト | Cuối hàng タ |
+| 55 | A | ノ | Cuối hàng ナ |
+| 56 | A | ホ | Cuối hàng ハ |
+| 57 | A | モ | Cuối hàng マ |
+| 58 | A | ユ | Giữa ヤ・ヨ |
+| 59 | A | ロ | Cuối hàng ラ |
+| 60 | A | ヲ | Giữa ワ・ン |
+| 61 | A | アイウエオ | Hàng nguyên âm |
+| 62 | A | カキクケコ | Hàng ka |
+| 63 | A | サシスセソ | Hàng sa |
+| 64 | A | タチツテト | Hàng ta |
+| 65 | A | ナニヌネノ | Hàng na |
+| 66 | A | ハヒフヘホ | Hàng ha |
+| 67 | A | マミムメモ | Hàng ma |
+| 68 | A | ヤユヨ | Hàng ya |
+| 69 | A | ラリルレロ | Hàng ra |
+| 70 | A | ワヲン | Hàng wa |
+| 71 | A | ガ | Đục của カ |
+| 72 | A | ギ | Đục của キ |
+| 73 | A | グ | Đục của ク |
+| 74 | A | ゲ | Đục của ケ |
+| 75 | A | ゴ | Đục của コ |
+| 76 | A | ザ | Đục của サ |
+| 77 | A | ジ | Đục của シ |
+| 78 | A | ズ | Đục của ス |
+| 79 | A | ゼ | Đục của セ |
+| 80 | A | ゾ | Đục của ソ |
+| 81 | A | ダ | Đục của タ |
+| 82 | A | ヂ | Ít dùng |
+| 83 | A | ヅ | Ít dùng |
+| 84 | A | デ | Đục của テ |
+| 85 | A | ド | Đục của ト |
+| 86 | A | バ | Đục của ハ |
+| 87 | A | ビ | Đục của ヒ |
+| 88 | A | ブ | Đục của フ |
+| 89 | A | ベ | Đục của ヘ |
+| 90 | A | ボ | Đục của ホ |
+| 91 | A | パ | Bán đục ハ |
+| 92 | A | ピ | Bán đục ヒ |
+| 93 | A | プ | Bán đục フ |
+| 94 | A | ペ | Bán đục ヘ |
+| 95 | A | ポ | Bán đục ホ |
+| 96 | A | ガ | Có dấu đục |
+| 97 | A | ザ | Có dấu đục |
+| 98 | A | ダ | Có dấu đục |
+| 99 | A | バ | Có dấu đục |
+| 100 | A | パ | Có vòng tròn |
+| 101 | A | キャ | Ki + ya nhỏ |
+| 102 | A | キュ | Ki + yu nhỏ |
+| 103 | A | キョ | Ki + yo nhỏ |
+| 104 | A | シャ | Shi + ya nhỏ |
+| 105 | A | シュ | Shi + yu nhỏ |
+| 106 | A | ショ | Shi + yo nhỏ |
+| 107 | A | チャ | Chi + ya nhỏ |
+| 108 | A | チュ | Chi + yu nhỏ |
+| 109 | A | チョ | Chi + yo nhỏ |
+| 110 | A | ニャ | Ni + ya nhỏ |
+| 111 | A | ニュ | Ni + yu nhỏ |
+| 112 | A | ニョ | Ni + yo nhỏ |
+| 113 | A | ヒャ | Hi + ya nhỏ |
+| 114 | A | ヒュ | Hi + yu nhỏ |
+| 115 | A | ヒョ | Hi + yo nhỏ |
+| 116 | A | ミャ | Mi + ya nhỏ |
+| 117 | A | ミュ | Mi + yu nhỏ |
+| 118 | A | ミョ | Mi + yo nhỏ |
+| 119 | A | リャ | Ri + ya nhỏ |
+| 120 | A | リュ | Ri + yu nhỏ |
+| 121 | A | リョ | Ri + yo nhỏ |
+| 122 | A | ギャ | Gi + ya nhỏ |
+| 123 | A | ギュ | Gi + yu nhỏ |
+| 124 | A | ギョ | Gi + yo nhỏ |
+| 125 | A | ジャ | Ji + ya nhỏ |
+| 126 | A | ジュ | Ji + yu nhỏ |
+| 127 | A | ジョ | Ji + yo nhỏ |
+| 128 | A | ビャ | Bi + ya nhỏ |
+| 129 | A | ピュ | Pi + yu nhỏ |
+| 130 | A | ピョ | Pi + yo nhỏ |
+| 131 | A | ベッド | Có âm ngắt |
+| 132 | A | カップ | Có âm ngắt |
+| 133 | A | ペン | Có âm ン |
+| 134 | A | パン | Có âm ン |
+| 135 | A | コーヒー | Có trường âm |
+| 136 | A | ケーキ | Có trường âm |
+| 137 | A | キット | ッ nhân đôi |
+| 138 | A | パン | Kết thúc ン |
+| 139 | A | コーヒー | Dùng dấu ー |
+| 140 | A | ケーキ | Dùng dấu ー |
+| 141 | A | ファ | Fu + a nhỏ |
+| 142 | A | フィ | Fu + i nhỏ |
+| 143 | A | フェ | Fu + e nhỏ |
+| 144 | A | フォ | Fu + o nhỏ |
+| 145 | A | ティ | Te + i nhỏ |
+| 146 | A | ディ | De + i nhỏ |
+| 147 | A | チェ | Chi + e nhỏ |
+| 148 | A | ファ | Âm mượn fa |
+| 149 | A | ティ | Âm mượn ti |
+| 150 | A | チェ | Âm mượn che |

@@ -11,7 +11,7 @@ Mục tiêu:
 
 Mỗi file CSV cần có đúng các cột sau:
 
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
 
 Yêu cầu:
 1. Dòng đầu tiên là header.
@@ -40,9 +40,9 @@ Ví dụ tên file:
 
 Format mỗi file CSV:
 
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
-1,"Câu danh từ + động từ","Mina bài 1, 2, 4, 12",1,"わたしは学生＿＿。","Watashi wa gakusei ___.","Tôi là học sinh.","です","ます","います","あります"
-1,"Câu danh từ + động từ","Mina bài 1, 2, 4, 12",2,"田中さんは先生＿＿。","Tanaka-san wa sensei ___.","Anh Tanaka không phải là giáo viên.","ません","ではありません","ありません","いません"
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",1,わたしは学生＿＿。,Tôi là học sinh.,です,ます,います,あります
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",2,田中さんは先生＿＿。,Anh Tanaka không phải là giáo viên.,ません,ではありません,ありません,いません
 
 Kết quả cuối cùng:
 - Xuất nhiều file CSV riêng theo từng nhóm bài.

@@ -8,16 +8,16 @@ Nội dung chính gồm: **trở về, cố gắng/học, cây cung, côn trùng
 
 # 1. Tổng hợp chữ Hán trong bài
 
-| Kanji | Âm Hán Việt | Hiragana | Romaji | Nghĩa            |
-| ----- | ----------- | -------- | ------ | ---------------- |
-| 帰     | Quy         | かえる      | kaeru  | trở về           |
-| 勉     | Miễn        | べん       | ben    | cố gắng          |
-| 弓     | Cung        | ゆみ       | yumi   | cây cung         |
-| 虫     | Trùng       | むし       | mushi  | côn trùng        |
-| 強     | Cường       | つよい      | tsuyoi | mạnh             |
-| 持     | Trì         | もつ       | motsu  | cầm / mang / giữ |
-| 名     | Danh        | な        | na     | tên              |
-| 語     | Ngữ         | ご        | go     | ngôn ngữ / tiếng |
+| Kanji（かな） | Âm Hán Việt | Nghĩa |
+| --- | --- | --- |
+| 帰（かえる） | Quy | trở về |
+| 勉（べん） | Miễn | cố gắng |
+| 弓（ゆみ） | Cung | cây cung |
+| 虫（むし） | Trùng | côn trùng |
+| 強（つよい） | Cường | mạnh |
+| 持（もつ） | Trì | cầm / mang / giữ |
+| 名（な） | Danh | tên |
+| 語（ご） | Ngữ | ngôn ngữ / tiếng |
 
 ---
 
@@ -38,19 +38,19 @@ Nội dung chính gồm: **trở về, cố gắng/học, cây cung, côn trùng
 
 # 3. Từ vựng ví dụ
 
-| Từ     | Hiragana | Romaji           | Nghĩa         |
-| ------ | -------- | ---------------- | ------------- |
-| 帰ります   | かえります    | kaerimasu        | trở về        |
-| 家へ帰ります | うちへかえります | uchi e kaerimasu | về nhà        |
-| 勉強します  | べんきょうします | benkyou shimasu  | học / học tập |
-| 弓      | ゆみ       | yumi             | cây cung      |
-| 虫      | むし       | mushi            | côn trùng     |
-| 強い     | つよい      | tsuyoi           | mạnh          |
-| 持ちます   | もちます     | mochimasu        | cầm / mang    |
-| 名前     | なまえ      | namae            | tên           |
-| 日本語    | にほんご     | nihongo          | tiếng Nhật    |
-| ベトナム語  | ベトナムご    | betonamu-go      | tiếng Việt    |
-| 英語     | えいご      | eigo             | tiếng Anh     |
+| Từ（かな） | Nghĩa |
+| --- | --- |
+| 帰ります（かえります） | trở về |
+| 家へ帰ります（うちへかえります） | về nhà |
+| 勉強します（べんきょうします） | học / học tập |
+| 弓（ゆみ） | cây cung |
+| 虫（むし） | côn trùng |
+| 強い（つよい） | mạnh |
+| 持ちます（もちます） | cầm / mang |
+| 名前（なまえ） | tên |
+| 日本語（にほんご） | tiếng Nhật |
+| ベトナム語（ベトナムご） | tiếng Việt |
+| 英語（えいご） | tiếng Anh |
 
 ---
 
@@ -383,50 +383,50 @@ Nội dung dựa trên file Kanji N5 Bài 16 bạn gửi.
 
 | Câu | Đáp án | Giải thích ngắn gọn                                                                                               |
 | --- | ------ | ----------------------------------------------------------------------------------------------------------------- |
-| 1   | A      | **帰** = かえる / *kaeru* = trở về. Ví dụ: **家へ帰ります** = うちへかえります / *uchi e kaerimasu* = về nhà.                       |
-| 2   | B      | **勉** = べん / *ben* = cố gắng. Ví dụ: **勉強します** = べんきょうします / *benkyou shimasu* = học / học tập.                    |
-| 3   | B      | **弓** = ゆみ / *yumi* = cây cung. Ví dụ: **弓** = ゆみ / *yumi* = cây cung.                                            |
-| 4   | C      | **虫** = むし / *mushi* = côn trùng. Ví dụ: **虫がいます** = むしがいます / *mushi ga imasu* = có côn trùng.                    |
-| 5   | B      | **強** = つよい / *tsuyoi* = mạnh. Ví dụ: **強い人** = つよいひと / *tsuyoi hito* = người mạnh.                               |
-| 6   | A      | **持** = もつ / *motsu* = cầm / mang / giữ. Ví dụ: **かばんを持ちます** = かばんをもちます / *kaban o mochimasu* = cầm/mang cái cặp. |
-| 7   | A      | **名** = な / *na* = tên. Ví dụ: **名前** = なまえ / *namae* = tên.                                                      |
-| 8   | B      | **語** = ご / *go* = ngôn ngữ / tiếng. Ví dụ: **日本語** = にほんご / *nihongo* = tiếng Nhật.                              |
-| 9   | A      | **帰ります** = かえります / *kaerimasu* = trở về.                                                                          |
-| 10  | A      | **勉強します** = べんきょうします / *benkyou shimasu* = học.                                                                   |
-| 11  | B      | **弓** đọc là ゆみ / *yumi* = cây cung.                                                                              |
-| 12  | A      | **虫** đọc là むし / *mushi* = côn trùng.                                                                            |
-| 13  | B      | **強い** = つよい / *tsuyoi* = mạnh.                                                                                   |
-| 14  | A      | **持ちます** = もちます / *mochimasu* = cầm / mang / giữ.                                                                 |
-| 15  | A      | **名前** = なまえ / *namae* = tên.                                                                                     |
-| 16  | B      | **日本語** = にほんご / *nihongo* = tiếng Nhật.                                                                          |
-| 17  | A      | かえります / *kaerimasu* = **帰ります** = trở về.                                                                          |
-| 18  | A      | べんきょうします / *benkyou shimasu* = **勉強します** = học.                                                                   |
-| 19  | A      | ゆみ / *yumi* = **弓** = cây cung.                                                                                   |
-| 20  | B      | むし / *mushi* = **虫** = côn trùng.                                                                                 |
-| 21  | B      | つよい / *tsuyoi* = **強い** = mạnh.                                                                                   |
-| 22  | A      | もちます / *mochimasu* = **持ちます** = cầm / mang.                                                                       |
-| 23  | A      | なまえ / *namae* = **名前** = tên.                                                                                     |
-| 24  | B      | ご / *go* = **語** = ngôn ngữ / tiếng.                                                                              |
-| 25  | A      | **家へ帰ります。** = うちへかえります / *uchi e kaerimasu* = Tôi về nhà.                                                         |
-| 26  | B      | **日本語を勉強します。** = にほんごをべんきょうします / *nihongo o benkyou shimasu* = Tôi học tiếng Nhật.                                |
-| 27  | A      | **虫がいます。** = むしがいます / *mushi ga imasu* = Có côn trùng.                                                            |
-| 28  | B      | **強い人** = つよいひと / *tsuyoi hito* = người mạnh.                                                                     |
-| 29  | A      | **かばんを持ちます。** = かばんをもちます / *kaban o mochimasu* = Tôi cầm/mang cái cặp.                                            |
-| 30  | A      | **名前を書きます。** = なまえをかきます / *namae o kakimasu* = Tôi viết tên.                                                      |
-| 31  | B      | **英語** = えいご / *eigo* = tiếng Anh.                                                                                |
-| 32  | B      | Chữ nghĩa là ngôn ngữ / tiếng là **語** = ご / *go*.                                                                |
+| 1   | A      | **帰** = かえる = trở về. Ví dụ: **家へ帰ります** = うちへかえります = về nhà.                       |
+| 2   | B      | **勉** = べん = cố gắng. Ví dụ: **勉強します** = べんきょうします = học / học tập.                    |
+| 3   | B      | **弓** = ゆみ = cây cung. Ví dụ: **弓** = ゆみ = cây cung.                                            |
+| 4   | C      | **虫** = むし = côn trùng. Ví dụ: **虫がいます** = むしがいます = có côn trùng.                    |
+| 5   | B      | **強** = つよい = mạnh. Ví dụ: **強い人** = つよいひと = người mạnh.                               |
+| 6   | A      | **持** = もつ = cầm / mang / giữ. Ví dụ: **かばんを持ちます** = かばんをもちます = cầm/mang cái cặp. |
+| 7   | A      | **名** = な = tên. Ví dụ: **名前** = なまえ = tên.                                                      |
+| 8   | B      | **語** = ご = ngôn ngữ / tiếng. Ví dụ: **日本語** = にほんご = tiếng Nhật.                              |
+| 9   | A      | **帰ります** = かえります = trở về.                                                                          |
+| 10  | A      | **勉強します** = べんきょうします = học.                                                                   |
+| 11  | B      | **弓** đọc là ゆみ = cây cung.                                                                              |
+| 12  | A      | **虫** đọc là むし = côn trùng.                                                                            |
+| 13  | B      | **強い** = つよい = mạnh.                                                                                   |
+| 14  | A      | **持ちます** = もちます = cầm / mang / giữ.                                                                 |
+| 15  | A      | **名前** = なまえ = tên.                                                                                     |
+| 16  | B      | **日本語** = にほんご = tiếng Nhật.                                                                          |
+| 17  | A      | かえります = **帰ります** = trở về.                                                                          |
+| 18  | A      | べんきょうします = **勉強します** = học.                                                                   |
+| 19  | A      | ゆみ = **弓** = cây cung.                                                                                   |
+| 20  | B      | むし = **虫** = côn trùng.                                                                                 |
+| 21  | B      | つよい = **強い** = mạnh.                                                                                   |
+| 22  | A      | もちます = **持ちます** = cầm / mang.                                                                       |
+| 23  | A      | なまえ = **名前** = tên.                                                                                     |
+| 24  | B      | ご = **語** = ngôn ngữ / tiếng.                                                                              |
+| 25  | A      | **家へ帰ります。** = うちへかえります = Tôi về nhà.                                                         |
+| 26  | B      | **日本語を勉強します。** = にほんごをべんきょうします = Tôi học tiếng Nhật.                                |
+| 27  | A      | **虫がいます。** = むしがいます = Có côn trùng.                                                            |
+| 28  | B      | **強い人** = つよいひと = người mạnh.                                                                     |
+| 29  | A      | **かばんを持ちます。** = かばんをもちます = Tôi cầm/mang cái cặp.                                            |
+| 30  | A      | **名前を書きます。** = なまえをかきます = Tôi viết tên.                                                      |
+| 31  | B      | **英語** = えいご = tiếng Anh.                                                                                |
+| 32  | B      | Chữ nghĩa là ngôn ngữ / tiếng là **語** = ご.                                                                |
 
 ---
 
 ## Ghi nhớ nhanh 8 chữ Hán
 
-| Kanji | Hiragana | Romaji | Nghĩa            | Ví dụ N5                                         |
-| ----- | -------- | ------ | ---------------- | ------------------------------------------------ |
-| 帰     | かえる      | kaeru  | trở về           | 帰ります = かえります / *kaerimasu* = trở về              |
-| 勉     | べん       | ben    | cố gắng          | 勉強します = べんきょうします / *benkyou shimasu* = học       |
-| 弓     | ゆみ       | yumi   | cây cung         | 弓 = ゆみ / *yumi* = cây cung                       |
-| 虫     | むし       | mushi  | côn trùng        | 虫がいます = むしがいます / *mushi ga imasu* = có côn trùng |
-| 強     | つよい      | tsuyoi | mạnh             | 強い人 = つよいひと / *tsuyoi hito* = người mạnh         |
-| 持     | もつ       | motsu  | cầm / mang / giữ | 持ちます = もちます / *mochimasu* = cầm/mang             |
-| 名     | な        | na     | tên              | 名前 = なまえ / *namae* = tên                         |
-| 語     | ご        | go     | ngôn ngữ / tiếng | 日本語 = にほんご / *nihongo* = tiếng Nhật              |
+| Kanji（かな） | Nghĩa | Ví dụ N5 |
+| --- | --- | --- |
+| 帰（かえる） | trở về | 帰ります = かえります = trở về |
+| 勉（べん） | cố gắng | 勉強します = べんきょうします = học |
+| 弓（ゆみ） | cây cung | 弓 = ゆみ = cây cung |
+| 虫（むし） | côn trùng | 虫がいます = むしがいます = có côn trùng |
+| 強（つよい） | mạnh | 強い人 = つよいひと = người mạnh |
+| 持（もつ） | cầm / mang / giữ | 持ちます = もちます = cầm/mang |
+| 名（な） | tên | 名前 = なまえ = tên |
+| 語（ご） | ngôn ngữ / tiếng | 日本語 = にほんご = tiếng Nhật |

@@ -8,16 +8,16 @@ Nội dung chính gồm: **phía sau, buổi trưa, cổng, khoảng/thời gian
 
 # 1. Tổng hợp chữ Hán trong bài
 
-| Kanji | Âm Hán Việt | Hiragana | Romaji      | Nghĩa                     |
-| ----- | ----------- | -------- | ----------- | ------------------------- |
-| 後     | Hậu         | うしろ / ご  | ushiro / go | sau / phía sau            |
-| 午     | Ngọ         | ご        | go          | buổi trưa / 12 giờ        |
-| 門     | Môn         | もん       | mon         | cổng                      |
-| 間     | Gian        | あいだ / かん | aida / kan  | khoảng / giữa / thời gian |
-| 東     | Đông        | ひがし      | higashi     | phía Đông                 |
-| 北     | Bắc         | きた       | kita        | phía Bắc                  |
-| 西     | Tây         | にし       | nishi       | phía Tây                  |
-| 南     | Nam         | みなみ      | minami      | phía Nam                  |
+| Kanji（かな） | Âm Hán Việt | Nghĩa |
+| --- | --- | --- |
+| 後（うしろ / ご） | Hậu | sau / phía sau |
+| 午（ご） | Ngọ | buổi trưa / 12 giờ |
+| 門（もん） | Môn | cổng |
+| 間（あいだ / かん） | Gian | khoảng / giữa / thời gian |
+| 東（ひがし） | Đông | phía Đông |
+| 北（きた） | Bắc | phía Bắc |
+| 西（にし） | Tây | phía Tây |
+| 南（みなみ） | Nam | phía Nam |
 
 ---
 
@@ -38,18 +38,18 @@ Nội dung chính gồm: **phía sau, buổi trưa, cổng, khoảng/thời gian
 
 # 3. Từ vựng ví dụ
 
-| Từ | Hiragana | Romaji  | Nghĩa           |
-| -- | -------- | ------- | --------------- |
-| 後ろ | うしろ      | ushiro  | phía sau        |
-| 午前 | ごぜん      | gozen   | buổi sáng / AM  |
-| 午後 | ごご       | gogo    | buổi chiều / PM |
-| 門  | もん       | mon     | cổng            |
-| 時間 | じかん      | jikan   | thời gian       |
-| 間  | あいだ      | aida    | khoảng giữa     |
-| 東  | ひがし      | higashi | phía Đông       |
-| 北  | きた       | kita    | phía Bắc        |
-| 西  | にし       | nishi   | phía Tây        |
-| 南  | みなみ      | minami  | phía Nam        |
+| Từ（かな） | Nghĩa |
+| --- | --- |
+| 後ろ（うしろ） | phía sau |
+| 午前（ごぜん） | buổi sáng / AM |
+| 午後（ごご） | buổi chiều / PM |
+| 門（もん） | cổng |
+| 時間（じかん） | thời gian |
+| 間（あいだ） | khoảng giữa |
+| 東（ひがし） | phía Đông |
+| 北（きた） | phía Bắc |
+| 西（にし） | phía Tây |
+| 南（みなみ） | phía Nam |
 
 ---
 
@@ -382,50 +382,50 @@ Nội dung dựa trên file Kanji N5 Bài 6 bạn gửi.
 
 | Câu | Đáp án | Giải thích ngắn gọn                                                                                      |
 | --- | ------ | -------------------------------------------------------------------------------------------------------- |
-| 1   | B      | **後** = うしろ / *ushiro*, ご / *go* = sau / phía sau. Ví dụ: **後ろ** = うしろ / *ushiro* = phía sau.            |
-| 2   | A      | **午** = ご / *go* = buổi trưa / 12 giờ. Ví dụ: **午前** = ごぜん / *gozen* = buổi sáng / AM.                   |
-| 3   | B      | **門** = もん / *mon* = cổng. Ví dụ: **門** = もん / *mon* = cái cổng.                                         |
-| 4   | C      | **間** = あいだ / *aida*, かん / *kan* = khoảng / giữa / thời gian. Ví dụ: **時間** = じかん / *jikan* = thời gian. |
-| 5   | A      | **東** = ひがし / *higashi* = phía Đông. Ví dụ: **東** = ひがし / *higashi* = hướng Đông.                        |
-| 6   | B      | **北** = きた / *kita* = phía Bắc. Ví dụ: **北** = きた / *kita* = hướng Bắc.                                  |
-| 7   | B      | **西** = にし / *nishi* = phía Tây. Ví dụ: **西** = にし / *nishi* = hướng Tây.                                |
-| 8   | A      | **南** = みなみ / *minami* = phía Nam. Ví dụ: **南** = みなみ / *minami* = hướng Nam.                            |
-| 9   | A      | **後ろ** đọc là うしろ / *ushiro* = phía sau.                                                                 |
-| 10  | B      | **午後** = ごご / *gogo* = buổi chiều / PM.                                                                  |
-| 11  | A      | **門** đọc là もん / *mon* = cổng.                                                                          |
-| 12  | B      | **間** trong **時間** đọc là かん / *kan*. **時間** = じかん / *jikan* = thời gian.                                |
-| 13  | C      | **東** đọc là ひがし / *higashi* = phía Đông.                                                                |
-| 14  | A      | **北** đọc là きた / *kita* = phía Bắc.                                                                     |
-| 15  | D      | **西** đọc là にし / *nishi* = phía Tây.                                                                    |
-| 16  | A      | **南** đọc là みなみ / *minami* = phía Nam.                                                                  |
-| 17  | A      | うしろ / *ushiro* = **後ろ** = phía sau. Ví dụ: **後ろ** = うしろ / *ushiro* = đằng sau.                           |
-| 18  | A      | ごぜん / *gozen* = **午前** = buổi sáng / AM.                                                                 |
-| 19  | B      | ごご / *gogo* = **午後** = buổi chiều / PM.                                                                  |
-| 20  | B      | もん / *mon* = **門** = cổng.                                                                               |
-| 21  | A      | じかん / *jikan* = **時間** = thời gian.                                                                      |
-| 22  | A      | ひがし / *higashi* = **東** = phía Đông.                                                                     |
-| 23  | B      | きた / *kita* = **北** = phía Bắc.                                                                          |
-| 24  | C      | にし / *nishi* = **西** = phía Tây.                                                                         |
-| 25  | A      | みなみ / *minami* = **南** = phía Nam.                                                                       |
-| 26  | B      | **午後** = ごご / *gogo* = buổi chiều / PM.                                                                  |
-| 27  | A      | **午前** = ごぜん / *gozen* = buổi sáng / AM.                                                                 |
-| 28  | B      | **時間** = じかん / *jikan* = thời gian.                                                                      |
-| 29  | B      | **東西南北** = とうざいなんぼく / *touzai nanboku* = Đông Tây Nam Bắc / bốn phương.                                  |
-| 30  | A      | **後ろ** = うしろ / *ushiro* = phía sau; trái nghĩa gần nhất là **前** = まえ / *mae* = phía trước.              |
-| 31  | B      | Chữ nghĩa là cổng là **門** = もん / *mon* = cổng.                                                          |
-| 32  | C      | Chữ nghĩa là phía Bắc là **北** = きた / *kita* = phía Bắc.                                                 |
+| 1   | B      | **後** = うしろ, ご = sau / phía sau. Ví dụ: **後ろ** = うしろ = phía sau.            |
+| 2   | A      | **午** = ご = buổi trưa / 12 giờ. Ví dụ: **午前** = ごぜん = buổi sáng / AM.                   |
+| 3   | B      | **門** = もん = cổng. Ví dụ: **門** = もん = cái cổng.                                         |
+| 4   | C      | **間** = あいだ, かん = khoảng / giữa / thời gian. Ví dụ: **時間** = じかん = thời gian. |
+| 5   | A      | **東** = ひがし = phía Đông. Ví dụ: **東** = ひがし = hướng Đông.                        |
+| 6   | B      | **北** = きた = phía Bắc. Ví dụ: **北** = きた = hướng Bắc.                                  |
+| 7   | B      | **西** = にし = phía Tây. Ví dụ: **西** = にし = hướng Tây.                                |
+| 8   | A      | **南** = みなみ = phía Nam. Ví dụ: **南** = みなみ = hướng Nam.                            |
+| 9   | A      | **後ろ** đọc là うしろ = phía sau.                                                                 |
+| 10  | B      | **午後** = ごご = buổi chiều / PM.                                                                  |
+| 11  | A      | **門** đọc là もん = cổng.                                                                          |
+| 12  | B      | **間** trong **時間** đọc là かん. **時間** = じかん = thời gian.                                |
+| 13  | C      | **東** đọc là ひがし = phía Đông.                                                                |
+| 14  | A      | **北** đọc là きた = phía Bắc.                                                                     |
+| 15  | D      | **西** đọc là にし = phía Tây.                                                                    |
+| 16  | A      | **南** đọc là みなみ = phía Nam.                                                                  |
+| 17  | A      | うしろ = **後ろ** = phía sau. Ví dụ: **後ろ** = うしろ = đằng sau.                           |
+| 18  | A      | ごぜん = **午前** = buổi sáng / AM.                                                                 |
+| 19  | B      | ごご = **午後** = buổi chiều / PM.                                                                  |
+| 20  | B      | もん = **門** = cổng.                                                                               |
+| 21  | A      | じかん = **時間** = thời gian.                                                                      |
+| 22  | A      | ひがし = **東** = phía Đông.                                                                     |
+| 23  | B      | きた = **北** = phía Bắc.                                                                          |
+| 24  | C      | にし = **西** = phía Tây.                                                                         |
+| 25  | A      | みなみ = **南** = phía Nam.                                                                       |
+| 26  | B      | **午後** = ごご = buổi chiều / PM.                                                                  |
+| 27  | A      | **午前** = ごぜん = buổi sáng / AM.                                                                 |
+| 28  | B      | **時間** = じかん = thời gian.                                                                      |
+| 29  | B      | **東西南北** = とうざいなんぼく = Đông Tây Nam Bắc / bốn phương.                                  |
+| 30  | A      | **後ろ** = うしろ = phía sau; trái nghĩa gần nhất là **前** = まえ = phía trước.              |
+| 31  | B      | Chữ nghĩa là cổng là **門** = もん = cổng.                                                          |
+| 32  | C      | Chữ nghĩa là phía Bắc là **北** = きた = phía Bắc.                                                 |
 
 ---
 
 ## Ghi nhớ nhanh 8 chữ Hán
 
-| Kanji | Hiragana | Romaji      | Nghĩa                     | Ví dụ N5                       |
-| ----- | -------- | ----------- | ------------------------- | ------------------------------ |
-| 後     | うしろ / ご  | ushiro / go | sau / phía sau            | 後ろ = うしろ / *ushiro* = phía sau |
-| 午     | ご        | go          | buổi trưa / 12 giờ        | 午前 = ごぜん / *gozen* = AM        |
-| 門     | もん       | mon         | cổng                      | 門 = もん / *mon* = cổng          |
-| 間     | あいだ / かん | aida / kan  | khoảng / giữa / thời gian | 時間 = じかん / *jikan* = thời gian |
-| 東     | ひがし      | higashi     | phía Đông                 | 東 = ひがし / *higashi* = Đông     |
-| 北     | きた       | kita        | phía Bắc                  | 北 = きた / *kita* = Bắc          |
-| 西     | にし       | nishi       | phía Tây                  | 西 = にし / *nishi* = Tây         |
-| 南     | みなみ      | minami      | phía Nam                  | 南 = みなみ / *minami* = Nam       |
+| Kanji（かな） | Nghĩa | Ví dụ N5 |
+| --- | --- | --- |
+| 後（うしろ / ご） | sau / phía sau | 後ろ = うしろ = phía sau |
+| 午（ご） | buổi trưa / 12 giờ | 午前 = ごぜん = AM |
+| 門（もん） | cổng | 門 = もん = cổng |
+| 間（あいだ / かん） | khoảng / giữa / thời gian | 時間 = じかん = thời gian |
+| 東（ひがし） | phía Đông | 東 = ひがし = Đông |
+| 北（きた） | phía Bắc | 北 = きた = Bắc |
+| 西（にし） | phía Tây | 西 = にし = Tây |
+| 南（みなみ） | phía Nam | 南 = みなみ = Nam |

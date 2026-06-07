@@ -5,16 +5,13 @@ Trích xuất nội dung từ tài liệu/hình ảnh sau theo format:
 ### 1. Script hội thoại
 - Ghi lại từng câu thoại bằng tiếng Nhật.
 - Nếu có timestamp, thêm timestamp ngay trước câu thoại.
-- Bên dưới mỗi câu thêm romaji.
 - Bên dưới nữa thêm nghĩa tiếng Việt.
 
 Format:
 [00:00] A: 日本語の câu thoại
-Romaji: ...
 Nghĩa: ...
 
 [00:05] B: 日本語の câu thoại
-Romaji: ...
 Nghĩa: ...
 
 ### 2. Câu hỏi trắc nghiệm
@@ -22,14 +19,12 @@ Nghĩa: ...
 - Nếu câu hỏi có timestamp, thêm timestamp trước câu hỏi.
 - Mỗi câu hỏi có 4 đáp án A/B/C/D.
 - Giữ nguyên câu hỏi và đáp án bằng tiếng Nhật nếu có trong tài liệu.
-- Thêm romaji và dịch nghĩa tiếng Việt cho câu hỏi.
 - Dịch nghĩa tiếng Việt cho từng đáp án.
 - Chọn đáp án đúng và giải thích ngắn gọn.
 
 Format:
 Câu 1:
 [00:20] 質問: ...
-Romaji: ...
 Nghĩa: ...
 
 A. ...

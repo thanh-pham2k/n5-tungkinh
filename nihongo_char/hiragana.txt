@@ -742,105 +742,105 @@ D. おばっさん
 
 # Bảng đáp án
 
-| Câu | Đáp án | Hiragana |  Romaji | Giải thích ngắn     |
-| --: | :----: | :------: | :-----: | ------------------- |
-|   1 |    B   |     あ    |    a    | Âm a cơ bản         |
-|   2 |    C   |     い    |    i    | Âm i cơ bản         |
-|   3 |    A   |     う    |    u    | Âm u cơ bản         |
-|   4 |    B   |     え    |    e    | Âm e cơ bản         |
-|   5 |    A   |     お    |    o    | Âm o cơ bản         |
-|   6 |    B   |     か    |    ka   | Hàng ka             |
-|   7 |    A   |     き    |    ki   | Hàng ka             |
-|   8 |    C   |     く    |    ku   | Hàng ka             |
-|   9 |    A   |     け    |    ke   | Hàng ka             |
-|  10 |    B   |     こ    |    ko   | Hàng ka             |
-|  11 |    B   |     さ    |    sa   | Dễ nhầm ち           |
-|  12 |    A   |     し    |   shi   | Âm shi đặc biệt     |
-|  13 |    A   |     す    |    su   | Hàng sa             |
-|  14 |    A   |     せ    |    se   | Hàng sa             |
-|  15 |    B   |     そ    |    so   | Dễ nhầm ん           |
-|  16 |    A   |     た    |    ta   | Hàng ta             |
-|  17 |    B   |     ち    |   chi   | Dễ nhầm さ           |
-|  18 |    A   |     つ    |   tsu   | Âm tsu đặc biệt     |
-|  19 |    B   |     て    |    te   | Hàng ta             |
-|  20 |    B   |     と    |    to   | Hàng ta             |
-|  21 |    A   |     な    |    na   | Hàng na             |
-|  22 |    A   |     に    |    ni   | Hàng na             |
-|  23 |    B   |     ぬ    |    nu   | Dễ nhầm め           |
-|  24 |    B   |     ね    |    ne   | Dễ nhầm わ           |
-|  25 |    A   |     の    |    no   | Hàng na             |
-|  26 |    A   |     は    |    ha   | Dễ nhầm ほ           |
-|  27 |    A   |     ひ    |    hi   | Hàng ha             |
-|  28 |    A   |     ふ    |    fu   | Âm fu đặc biệt      |
-|  29 |    A   |     へ    |    he   | Hàng ha             |
-|  30 |    B   |     ほ    |    ho   | Dễ nhầm は           |
-|  31 |    A   |     ま    |    ma   | Hàng ma             |
-|  32 |    A   |     み    |    mi   | Hàng ma             |
-|  33 |    A   |     む    |    mu   | Hàng ma             |
-|  34 |    B   |     め    |    me   | Dễ nhầm ぬ           |
-|  35 |    A   |     も    |    mo   | Hàng ma             |
-|  36 |    A   |     や    |    ya   | Hàng ya             |
-|  37 |    B   |     ゆ    |    yu   | Hàng ya             |
-|  38 |    A   |     よ    |    yo   | Hàng ya             |
-|  39 |    A   |     ら    |    ra   | Hàng ra             |
-|  40 |    A   |     り    |    ri   | Hàng ra             |
-|  41 |    B   |     る    |    ru   | Dễ nhầm ろ           |
-|  42 |    A   |     れ    |    re   | Dễ nhầm ね           |
-|  43 |    A   |     ろ    |    ro   | Dễ nhầm る           |
-|  44 |    B   |     わ    |    wa   | Dễ nhầm ね           |
-|  45 |    A   |     を    |    o    | Trợ âm o            |
-|  46 |    A   |     ん    |    n    | Âm cuối n           |
-|  47 |    A   |     お    |    o    | Cuối hàng あ         |
-|  48 |    A   |     こ    |    ko   | Cuối hàng か         |
-|  49 |    B   |     そ    |    so   | Cuối hàng さ         |
-|  50 |    A   |     と    |    to   | Cuối hàng た         |
-|  51 |    B   |     が    |    ga   | Đục của か           |
-|  52 |    A   |     ぎ    |    gi   | Đục của き           |
-|  53 |    A   |     ぐ    |    gu   | Đục của く           |
-|  54 |    A   |     げ    |    ge   | Đục của け           |
-|  55 |    B   |     ご    |    go   | Đục của こ           |
-|  56 |    B   |     ざ    |    za   | Đục của さ           |
-|  57 |    A   |     じ    |    ji   | Đục của し           |
-|  58 |    A   |     ず    |    zu   | Đục của す           |
-|  59 |    B   |     ぜ    |    ze   | Đục của せ           |
-|  60 |    B   |     ぞ    |    zo   | Đục của そ           |
-|  61 |    B   |     だ    |    da   | Đục của た           |
-|  62 |    A   |     ぢ    |    ji   | Đục của ち           |
-|  63 |    A   |     づ    |    zu   | Đục của つ           |
-|  64 |    B   |     で    |    de   | Đục của て           |
-|  65 |    B   |     ど    |    do   | Đục của と           |
-|  66 |    B   |     ば    |    ba   | Đục của は           |
-|  67 |    B   |     び    |    bi   | Đục của ひ           |
-|  68 |    A   |     ぷ    |    pu   | Bán đục ふ           |
-|  69 |    A   |     ぺ    |    pe   | Bán đục へ           |
-|  70 |    A   |     ぽ    |    po   | Bán đục ほ           |
-|  71 |    A   |    きゃ    |   kya   | き + ゃ               |
-|  72 |    A   |    きゅ    |   kyu   | き + ゅ               |
-|  73 |    A   |    きょ    |   kyo   | き + ょ               |
-|  74 |    A   |    しゃ    |   sha   | し + ゃ               |
-|  75 |    A   |    しゅ    |   shu   | し + ゅ               |
-|  76 |    A   |    しょ    |   sho   | し + ょ               |
-|  77 |    A   |    ちゃ    |   cha   | ち + ゃ               |
-|  78 |    A   |    ちゅ    |   chu   | ち + ゅ               |
-|  79 |    A   |    ちょ    |   cho   | ち + ょ               |
-|  80 |    A   |    にゃ    |   nya   | に + ゃ               |
-|  81 |    A   |    ひゃ    |   hya   | ひ + ゃ               |
-|  82 |    A   |    みゅ    |   myu   | み + ゅ               |
-|  83 |    A   |    りょ    |   ryo   | り + ょ               |
-|  84 |    A   |    ぎゃ    |   gya   | ぎ + ゃ               |
-|  85 |    A   |    じゃ    |    ja   | じ + ゃ               |
-|  86 |    A   |    びゅ    |   byu   | び + ゅ               |
-|  87 |    A   |    ぴょ    |   pyo   | ぴ + ょ               |
-|  88 |    A   |    きょ    |   kyo   | Âm ghép kyo         |
-|  89 |    A   |    しゅ    |   shu   | Âm ghép shu         |
-|  90 |    A   |    ちょ    |   cho   | Âm ghép cho         |
-|  91 |    A   |   がっこう   |  gakkou | Có âm ngắt っ        |
-|  92 |    A   |    きって   |  kitte  | っ nhân đôi t        |
-|  93 |    A   |    ほん    |   hon   | Có âm ん             |
-|  94 |    A   |   せんせい   |  sensei | Có âm ん             |
-|  95 |    A   |   おばあさん  | obaasan | Trường âm あ         |
-|  96 |    A   |   おにいさん  | oniisan | Trường âm い         |
-|  97 |    A   |   がっこう   |  gakkou | Viết đúng っ         |
-|  98 |    A   |    きって   |  kitte  | Viết đúng っ         |
-|  99 |    A   |   せんせい   |  sensei | Viết đúng ん         |
-| 100 |    A   |   おばあさん  | obaasan | Viết đúng trường âm |
+| Câu | Đáp án | Hiragana | Giải thích ngắn |
+| --- | --- | --- | --- |
+| 1 | B | あ | Âm a cơ bản |
+| 2 | C | い | Âm i cơ bản |
+| 3 | A | う | Âm u cơ bản |
+| 4 | B | え | Âm e cơ bản |
+| 5 | A | お | Âm o cơ bản |
+| 6 | B | か | Hàng ka |
+| 7 | A | き | Hàng ka |
+| 8 | C | く | Hàng ka |
+| 9 | A | け | Hàng ka |
+| 10 | B | こ | Hàng ka |
+| 11 | B | さ | Dễ nhầm ち |
+| 12 | A | し | Âm shi đặc biệt |
+| 13 | A | す | Hàng sa |
+| 14 | A | せ | Hàng sa |
+| 15 | B | そ | Dễ nhầm ん |
+| 16 | A | た | Hàng ta |
+| 17 | B | ち | Dễ nhầm さ |
+| 18 | A | つ | Âm tsu đặc biệt |
+| 19 | B | て | Hàng ta |
+| 20 | B | と | Hàng ta |
+| 21 | A | な | Hàng na |
+| 22 | A | に | Hàng na |
+| 23 | B | ぬ | Dễ nhầm め |
+| 24 | B | ね | Dễ nhầm わ |
+| 25 | A | の | Hàng na |
+| 26 | A | は | Dễ nhầm ほ |
+| 27 | A | ひ | Hàng ha |
+| 28 | A | ふ | Âm fu đặc biệt |
+| 29 | A | へ | Hàng ha |
+| 30 | B | ほ | Dễ nhầm は |
+| 31 | A | ま | Hàng ma |
+| 32 | A | み | Hàng ma |
+| 33 | A | む | Hàng ma |
+| 34 | B | め | Dễ nhầm ぬ |
+| 35 | A | も | Hàng ma |
+| 36 | A | や | Hàng ya |
+| 37 | B | ゆ | Hàng ya |
+| 38 | A | よ | Hàng ya |
+| 39 | A | ら | Hàng ra |
+| 40 | A | り | Hàng ra |
+| 41 | B | る | Dễ nhầm ろ |
+| 42 | A | れ | Dễ nhầm ね |
+| 43 | A | ろ | Dễ nhầm る |
+| 44 | B | わ | Dễ nhầm ね |
+| 45 | A | を | Trợ âm o |
+| 46 | A | ん | Âm cuối n |
+| 47 | A | お | Cuối hàng あ |
+| 48 | A | こ | Cuối hàng か |
+| 49 | B | そ | Cuối hàng さ |
+| 50 | A | と | Cuối hàng た |
+| 51 | B | が | Đục của か |
+| 52 | A | ぎ | Đục của き |
+| 53 | A | ぐ | Đục của く |
+| 54 | A | げ | Đục của け |
+| 55 | B | ご | Đục của こ |
+| 56 | B | ざ | Đục của さ |
+| 57 | A | じ | Đục của し |
+| 58 | A | ず | Đục của す |
+| 59 | B | ぜ | Đục của せ |
+| 60 | B | ぞ | Đục của そ |
+| 61 | B | だ | Đục của た |
+| 62 | A | ぢ | Đục của ち |
+| 63 | A | づ | Đục của つ |
+| 64 | B | で | Đục của て |
+| 65 | B | ど | Đục của と |
+| 66 | B | ば | Đục của は |
+| 67 | B | び | Đục của ひ |
+| 68 | A | ぷ | Bán đục ふ |
+| 69 | A | ぺ | Bán đục へ |
+| 70 | A | ぽ | Bán đục ほ |
+| 71 | A | きゃ | き + ゃ |
+| 72 | A | きゅ | き + ゅ |
+| 73 | A | きょ | き + ょ |
+| 74 | A | しゃ | し + ゃ |
+| 75 | A | しゅ | し + ゅ |
+| 76 | A | しょ | し + ょ |
+| 77 | A | ちゃ | ち + ゃ |
+| 78 | A | ちゅ | ち + ゅ |
+| 79 | A | ちょ | ち + ょ |
+| 80 | A | にゃ | に + ゃ |
+| 81 | A | ひゃ | ひ + ゃ |
+| 82 | A | みゅ | み + ゅ |
+| 83 | A | りょ | り + ょ |
+| 84 | A | ぎゃ | ぎ + ゃ |
+| 85 | A | じゃ | じ + ゃ |
+| 86 | A | びゅ | び + ゅ |
+| 87 | A | ぴょ | ぴ + ょ |
+| 88 | A | きょ | Âm ghép kyo |
+| 89 | A | しゅ | Âm ghép shu |
+| 90 | A | ちょ | Âm ghép cho |
+| 91 | A | がっこう | Có âm ngắt っ |
+| 92 | A | きって | っ nhân đôi t |
+| 93 | A | ほん | Có âm ん |
+| 94 | A | せんせい | Có âm ん |
+| 95 | A | おばあさん | Trường âm あ |
+| 96 | A | おにいさん | Trường âm い |
+| 97 | A | がっこう | Viết đúng っ |
+| 98 | A | きって | Viết đúng っ |
+| 99 | A | せんせい | Viết đúng ん |
+| 100 | A | おばあさん | Viết đúng trường âm |

@@ -8,16 +8,16 @@ Nội dung chính gồm: **núi, sông, rừng nhỏ, rừng lớn, bầu trời
 
 # 1. Tổng hợp chữ Hán trong bài
 
-| Kanji | Âm Hán Việt | Hiragana | Romaji  | Nghĩa               |
-| ----- | ----------- | -------- | ------- | ------------------- |
-| 山     | Sơn         | やま       | yama    | núi                 |
-| 川     | Xuyên       | かわ       | kawa    | sông                |
-| 林     | Lâm         | はやし      | hayashi | rừng nhỏ            |
-| 森     | Sâm         | もり       | mori    | rừng lớn            |
-| 空     | Không       | そら       | sora    | bầu trời            |
-| 海     | Hải         | うみ       | umi     | biển                |
-| 化     | Hóa         | か        | ka      | biến hóa / thay đổi |
-| 花     | Hoa         | はな       | hana    | hoa                 |
+| Kanji（かな） | Âm Hán Việt | Nghĩa |
+| --- | --- | --- |
+| 山（やま） | Sơn | núi |
+| 川（かわ） | Xuyên | sông |
+| 林（はやし） | Lâm | rừng nhỏ |
+| 森（もり） | Sâm | rừng lớn |
+| 空（そら） | Không | bầu trời |
+| 海（うみ） | Hải | biển |
+| 化（か） | Hóa | biến hóa / thay đổi |
+| 花（はな） | Hoa | hoa |
 
 ---
 
@@ -38,19 +38,19 @@ Nội dung chính gồm: **núi, sông, rừng nhỏ, rừng lớn, bầu trời
 
 # 3. Từ vựng ví dụ
 
-| Từ     | Hiragana | Romaji         | Nghĩa         |
-| ------ | -------- | -------------- | ------------- |
-| 山      | やま       | yama           | núi           |
-| 川      | かわ       | kawa           | sông          |
-| 林      | はやし      | hayashi        | rừng nhỏ      |
-| 森      | もり       | mori           | rừng lớn      |
-| 空      | そら       | sora           | bầu trời      |
-| 海      | うみ       | umi            | biển          |
-| 文化     | ぶんか      | bunka          | văn hóa       |
-| 花      | はな       | hana           | hoa           |
-| 空を見ます  | そらをみます   | sora o mimasu  | nhìn bầu trời |
-| 海へ行きます | うみへいきます  | umi e ikimasu  | đi biển       |
-| 花を買います | はなをかいます  | hana o kaimasu | mua hoa       |
+| Từ（かな） | Nghĩa |
+| --- | --- |
+| 山（やま） | núi |
+| 川（かわ） | sông |
+| 林（はやし） | rừng nhỏ |
+| 森（もり） | rừng lớn |
+| 空（そら） | bầu trời |
+| 海（うみ） | biển |
+| 文化（ぶんか） | văn hóa |
+| 花（はな） | hoa |
+| 空を見ます（そらをみます） | nhìn bầu trời |
+| 海へ行きます（うみへいきます） | đi biển |
+| 花を買います（はなをかいます） | mua hoa |
 
 ---
 
@@ -383,50 +383,50 @@ Nội dung dựa trên file Kanji N5 Bài 19 bạn gửi.
 
 | Câu | Đáp án | Giải thích ngắn gọn                                                                                    |
 | --- | ------ | ------------------------------------------------------------------------------------------------------ |
-| 1   | A      | **山** = やま / *yama* = núi. Ví dụ: **山へ行きます** = やまへいきます / *yama e ikimasu* = đi núi.                    |
-| 2   | B      | **川** = かわ / *kawa* = sông. Ví dụ: **川を見ます** = かわをみます / *kawa o mimasu* = nhìn sông.                   |
-| 3   | B      | **林** = はやし / *hayashi* = rừng nhỏ. Ví dụ: **林** = はやし / *hayashi* = rừng nhỏ.                         |
-| 4   | A      | **森** = もり / *mori* = rừng lớn. Ví dụ: **森に入ります** = もりにはいります / *mori ni hairimasu* = vào rừng lớn.     |
-| 5   | C      | **空** = そら / *sora* = bầu trời. Ví dụ: **空が青いです** = そらがあおいです / *sora ga aoi desu* = bầu trời màu xanh. |
-| 6   | B      | **海** = うみ / *umi* = biển. Ví dụ: **海へ行きます** = うみへいきます / *umi e ikimasu* = đi biển.                    |
-| 7   | A      | **化** = か / *ka* = biến hóa / thay đổi. Ví dụ: **文化** = ぶんか / *bunka* = văn hóa.                       |
-| 8   | C      | **花** = はな / *hana* = hoa. Ví dụ: **花を買います** = はなをかいます / *hana o kaimasu* = mua hoa.                   |
-| 9   | A      | **山** đọc là やま / *yama* = núi.                                                                        |
-| 10  | B      | **川** đọc là かわ / *kawa* = sông.                                                                       |
-| 11  | B      | **林** đọc là はやし / *hayashi* = rừng nhỏ.                                                               |
-| 12  | C      | **森** đọc là もり / *mori* = rừng lớn.                                                                   |
-| 13  | A      | **空** đọc là そら / *sora* = bầu trời.                                                                   |
-| 14  | B      | **海** đọc là うみ / *umi* = biển.                                                                        |
-| 15  | A      | **文化** = ぶんか / *bunka* = văn hóa.                                                                      |
-| 16  | A      | **花** đọc là はな / *hana* = hoa.                                                                        |
-| 17  | A      | やま / *yama* = **山** = núi.                                                                             |
-| 18  | B      | かわ / *kawa* = **川** = sông.                                                                            |
-| 19  | B      | はやし / *hayashi* = **林** = rừng nhỏ.                                                                    |
-| 20  | C      | もり / *mori* = **森** = rừng lớn.                                                                        |
-| 21  | A      | そら / *sora* = **空** = bầu trời.                                                                        |
-| 22  | B      | うみ / *umi* = **海** = biển.                                                                             |
-| 23  | A      | **文化** = ぶんか / *bunka* = văn hóa.                                                                      |
-| 24  | C      | はな / *hana* = **花** = hoa.                                                                             |
-| 25  | A      | **山へ行きます。** = やまへいきます / *yama e ikimasu* = Tôi đi núi.                                                 |
-| 26  | B      | **川を見ます。** = かわをみます / *kawa o mimasu* = Tôi nhìn sông.                                                 |
-| 27  | A      | **森に入ります。** = もりにはいります / *mori ni hairimasu* = Tôi vào rừng lớn.                                       |
-| 28  | A      | **空が青いです。** = そらがあおいです / *sora ga aoi desu* = Bầu trời màu xanh.                                       |
-| 29  | A      | **海へ行きます。** = うみへいきます / *umi e ikimasu* = Tôi đi biển.                                                 |
-| 30  | B      | **花を買います。** = はなをかいます / *hana o kaimasu* = Tôi mua hoa.                                                |
-| 31  | A      | **文化** = ぶんか / *bunka* = văn hóa.                                                                      |
-| 32  | B      | Chữ nghĩa là rừng lớn là **森** = もり / *mori*.                                                          |
+| 1   | A      | **山** = やま = núi. Ví dụ: **山へ行きます** = やまへいきます = đi núi.                    |
+| 2   | B      | **川** = かわ = sông. Ví dụ: **川を見ます** = かわをみます = nhìn sông.                   |
+| 3   | B      | **林** = はやし = rừng nhỏ. Ví dụ: **林** = はやし = rừng nhỏ.                         |
+| 4   | A      | **森** = もり = rừng lớn. Ví dụ: **森に入ります** = もりにはいります = vào rừng lớn.     |
+| 5   | C      | **空** = そら = bầu trời. Ví dụ: **空が青いです** = そらがあおいです = bầu trời màu xanh. |
+| 6   | B      | **海** = うみ = biển. Ví dụ: **海へ行きます** = うみへいきます = đi biển.                    |
+| 7   | A      | **化** = か = biến hóa / thay đổi. Ví dụ: **文化** = ぶんか = văn hóa.                       |
+| 8   | C      | **花** = はな = hoa. Ví dụ: **花を買います** = はなをかいます = mua hoa.                   |
+| 9   | A      | **山** đọc là やま = núi.                                                                        |
+| 10  | B      | **川** đọc là かわ = sông.                                                                       |
+| 11  | B      | **林** đọc là はやし = rừng nhỏ.                                                               |
+| 12  | C      | **森** đọc là もり = rừng lớn.                                                                   |
+| 13  | A      | **空** đọc là そら = bầu trời.                                                                   |
+| 14  | B      | **海** đọc là うみ = biển.                                                                        |
+| 15  | A      | **文化** = ぶんか = văn hóa.                                                                      |
+| 16  | A      | **花** đọc là はな = hoa.                                                                        |
+| 17  | A      | やま = **山** = núi.                                                                             |
+| 18  | B      | かわ = **川** = sông.                                                                            |
+| 19  | B      | はやし = **林** = rừng nhỏ.                                                                    |
+| 20  | C      | もり = **森** = rừng lớn.                                                                        |
+| 21  | A      | そら = **空** = bầu trời.                                                                        |
+| 22  | B      | うみ = **海** = biển.                                                                             |
+| 23  | A      | **文化** = ぶんか = văn hóa.                                                                      |
+| 24  | C      | はな = **花** = hoa.                                                                             |
+| 25  | A      | **山へ行きます。** = やまへいきます = Tôi đi núi.                                                 |
+| 26  | B      | **川を見ます。** = かわをみます = Tôi nhìn sông.                                                 |
+| 27  | A      | **森に入ります。** = もりにはいります = Tôi vào rừng lớn.                                       |
+| 28  | A      | **空が青いです。** = そらがあおいです = Bầu trời màu xanh.                                       |
+| 29  | A      | **海へ行きます。** = うみへいきます = Tôi đi biển.                                                 |
+| 30  | B      | **花を買います。** = はなをかいます = Tôi mua hoa.                                                |
+| 31  | A      | **文化** = ぶんか = văn hóa.                                                                      |
+| 32  | B      | Chữ nghĩa là rừng lớn là **森** = もり.                                                          |
 
 ---
 
 ## Ghi nhớ nhanh 8 chữ Hán
 
-| Kanji | Hiragana | Romaji  | Nghĩa               | Ví dụ N5                                |
-| ----- | -------- | ------- | ------------------- | --------------------------------------- |
-| 山     | やま       | yama    | núi                 | 山へ行きます = やまへいきます / *yama e ikimasu*     |
-| 川     | かわ       | kawa    | sông                | 川を見ます = かわをみます / *kawa o mimasu*        |
-| 林     | はやし      | hayashi | rừng nhỏ            | 林 = はやし / *hayashi*                     |
-| 森     | もり       | mori    | rừng lớn            | 森に入ります = もりにはいります / *mori ni hairimasu* |
-| 空     | そら       | sora    | bầu trời            | 空が青い = そらがあおい / *sora ga aoi*           |
-| 海     | うみ       | umi     | biển                | 海へ行きます = うみへいきます / *umi e ikimasu*      |
-| 化     | か        | ka      | biến hóa / thay đổi | 文化 = ぶんか / *bunka* = văn hóa            |
-| 花     | はな       | hana    | hoa                 | 花を買います = はなをかいます / *hana o kaimasu*     |
+| Kanji（かな） | Nghĩa | Ví dụ N5 |
+| --- | --- | --- |
+| 山（やま） | núi | 山へ行きます = やまへいきます |
+| 川（かわ） | sông | 川を見ます = かわをみます |
+| 林（はやし） | rừng nhỏ | 林 = はやし |
+| 森（もり） | rừng lớn | 森に入ります = もりにはいります |
+| 空（そら） | bầu trời | 空が青い = そらがあおい |
+| 海（うみ） | biển | 海へ行きます = うみへいきます |
+| 化（か） | biến hóa / thay đổi | 文化 = ぶんか = văn hóa |
+| 花（はな） | hoa | 花を買います = はなをかいます |

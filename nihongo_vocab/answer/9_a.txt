@@ -1,172 +1,172 @@
-| Câu   | Đáp án | Từ đúng               | Hiragana          | Romaji                            | Nghĩa / giải thích ngắn         |   |
-| ----- | ------ | --------------------- | ----------------- | --------------------------------- | ------------------------------- | - |
-| 1.1   | A      | わかります                 | わかります             | wakarimasu                        | hiểu                            |   |
-| 1.2   | B      | あります                  | あります              | arimasu                           | có                              |   |
-| 1.3   | A      | すき                    | すき                | suki                              | thích                           |   |
-| 1.4   | B      | きらい                   | きらい               | kirai                             | ghét / không thích              |   |
-| 1.5   | A      | じょうず                  | じょうず              | jouzu                             | giỏi                            |   |
-| 1.6   | A      | へた                    | へた                | heta                              | kém / dở                        |   |
-| 1.7   | A      | 日本語（にほんご）が わかります      | にほんごが わかります       | nihongo ga wakarimasu             | hiểu tiếng Nhật                 |   |
-| 1.8   | A      | 時間（じかん）が あります         | じかんが あります         | jikan ga arimasu                  | có thời gian                    |   |
-| 1.9   | A      | スポーツが すきです            | スポーツが すきです        | supootsu ga suki desu             | thích thể thao                  |   |
-| 1.10  | A      | ダンスが へたです             | ダンスが へたです         | dansu ga heta desu                | nhảy kém                        |   |
-| 2.1   | A      | りょうり                  | りょうり              | ryouri                            | món ăn / nấu ăn                 |   |
-| 2.2   | A      | 飲み物（のみもの）             | のみもの              | nomimono                          | đồ uống                         |   |
-| 2.3   | A      | スポーツ                  | スポーツ              | supootsu                          | thể thao                        |   |
-| 2.4   | A      | やきゅう                  | やきゅう              | yakyuu                            | bóng chày                       |   |
-| 2.5   | A      | ダンス                   | ダンス               | dansu                             | khiêu vũ / nhảy                 |   |
-| 2.6   | A      | 音楽（おんがく）              | おんがく              | ongaku                            | âm nhạc                         |   |
-| 2.7   | A      | うた                    | うた                | uta                               | bài hát / ca hát                |   |
-| 2.8   | A      | クラシック                 | クラシック             | kurashikku                        | nhạc cổ điển                    |   |
-| 2.9   | A      | ジャズ                   | ジャズ               | jazu                              | nhạc jazz                       |   |
-| 2.10  | A      | コンサート                 | コンサート             | konsaato                          | buổi hòa nhạc                   |   |
-| 3.1   | A      | カラオケ                  | カラオケ              | karaoke                           | karaoke                         |   |
-| 3.2   | A      | かぶき                   | かぶき               | kabuki                            | Kabuki                          |   |
-| 3.3   | A      | 絵（え）                  | え                 | e                                 | tranh                           |   |
-| 3.4   | A      | 字（じ）                  | じ                 | ji                                | chữ                             |   |
-| 3.5   | A      | かんじ                   | かんじ               | kanji                             | chữ Kanji                       |   |
-| 3.6   | A      | ひらがな                  | ひらがな              | hiragana                          | chữ Hiragana                    |   |
-| 3.7   | A      | かたかな                  | かたかな              | katakana                          | chữ Katakana                    |   |
-| 3.8   | A      | ローマじ                  | ローマじ              | roomaji                           | chữ Roman                       |   |
-| 3.9   | A      | かんじが わかります            | かんじが わかります        | kanji ga wakarimasu               | hiểu chữ Kanji                  |   |
-| 3.10  | A      | 絵（え）が じょうずです          | えが じょうずです         | e ga jouzu desu                   | vẽ tranh giỏi                   |   |
-| 4.1   | A      | こまかい お金（おかね）          | こまかい おかね          | komakai okane                     | tiền lẻ                         |   |
-| 4.2   | A      | チケット                  | チケット              | chiketto                          | vé                              |   |
-| 4.3   | A      | 時間（じかん）               | じかん               | jikan                             | thời gian                       |   |
-| 4.4   | A      | ようじ                   | ようじ               | youji                             | việc riêng                      |   |
-| 4.5   | A      | やくそく                  | やくそく              | yakusoku                          | cuộc hẹn / lời hứa              |   |
-| 4.6   | A      | こまかい お金（おかね）が あります    | こまかい おかねが あります    | komakai okane ga arimasu          | có tiền lẻ                      |   |
-| 4.7   | A      | チケットが あります            | チケットが あります        | chiketto ga arimasu               | có vé                           |   |
-| 4.8   | A      | 時間（じかん）が ありません        | じかんが ありません        | jikan ga arimasen                 | không có thời gian              |   |
-| 4.9   | A      | きょうは ようじが あります        | きょうは ようじが あります    | kyou wa youji ga arimasu          | hôm nay có việc                 |   |
-| 4.10  | A      | あした やくそくが あります        | あした やくそくが あります    | ashita yakusoku ga arimasu        | mai có cuộc hẹn                 |   |
-| 5.1   | A      | ごしゅじん                 | ごしゅじん             | goshujin                          | chồng người khác                |   |
-| 5.2   | A      | おっと                   | おっと               | otto                              | chồng tôi                       |   |
-| 5.3   | A      | おくさん                  | おくさん              | okusan                            | vợ người khác                   |   |
-| 5.4   | A      | つま                    | つま                | tsuma                             | vợ tôi                          |   |
-| 5.5   | A      | 子ども（こども）              | こども               | kodomo                            | con / trẻ em                    |   |
-| 5.6   | A      | ごしゅじんは スポーツが すきです     | ごしゅじんは スポーツが すきです | goshujin wa supootsu ga suki desu | chồng người khác thích thể thao |   |
-| 5.7   | A      | おっとは 料理（りょうり）が じょうずです | おっとは りょうりが じょうずです | otto wa ryouri ga jouzu desu      | chồng tôi nấu giỏi              |   |
-| 5.8   | A      | おくさんは 音楽（おんがく）が すきです  | おくさんは おんがくが すきです  | okusan wa ongaku ga suki desu     | vợ người khác thích nhạc        |   |
-| 5.9   | A      | つまは カラオケが きらいです       | つまは カラオケが きらいです   | tsuma wa karaoke ga kirai desu    | vợ tôi ghét karaoke             |   |
-| 5.10  | A      | 子ども（こども）は ダンスが じょうずです | こどもは ダンスが じょうずです  | kodomo wa dansu ga jouzu desu     | trẻ em nhảy giỏi                |   |
-| 6.1   | A      | よく                    | よく                | yoku                              | tốt / rõ / thường               |   |
-| 6.2   | A      | だいたい                  | だいたい              | daitai                            | đại khái / hầu như              |   |
-| 6.3   | A      | たくさん                  | たくさん              | takusan                           | nhiều                           |   |
-| 6.4   | A      | すこし                   | すこし               | sukoshi                           | một chút                        |   |
-| 6.5   | A      | ぜんぜん                  | ぜんぜん              | zenzen                            | hoàn toàn không                 |   |
-| 6.6   | A      | はやく                   | はやく               | hayaku                            | sớm / nhanh                     |   |
-| 6.7   | A      | から                    | から                | kara                              | vì / bởi vì                     |   |
-| 6.8   | A      | どうして                  | どうして              | doushite                          | tại sao                         |   |
-| 6.9   | A      | ざんねんです                | ざんねんです            | zannen desu                       | tiếc quá                        |   |
-| 6.10  | A      | すみません                 | すみません             | sumimasen                         | xin lỗi                         |   |
-| 7.1   | A      | わかります                 | わかります             | wakarimasu                        | hiểu                            |   |
-| 7.2   | A      | あります                  | あります              | arimasu                           | có                              |   |
-| 7.3   | A      | すき                    | すき                | suki                              | thích                           |   |
-| 7.4   | A      | きらい                   | きらい               | kirai                             | ghét / không thích              |   |
-| 7.5   | A      | じょうず                  | じょうず              | jouzu                             | giỏi                            |   |
-| 7.6   | A      | へた                    | へた                | heta                              | kém / dở                        |   |
-| 7.7   | A      | りょうり                  | りょうり              | ryouri                            | món ăn / nấu ăn                 |   |
-| 7.8   | A      | 飲み物（のみもの）             | のみもの              | nomimono                          | đồ uống                         |   |
-| 7.9   | A      | スポーツ                  | スポーツ              | supootsu                          | thể thao                        |   |
-| 7.10  | A      | やきゅう                  | やきゅう              | yakyuu                            | bóng chày                       |   |
-| 8.1   | A      | ダンス                   | ダンス               | dansu                             | khiêu vũ / nhảy                 |   |
-| 8.2   | A      | 音楽（おんがく）              | おんがく              | ongaku                            | âm nhạc                         |   |
-| 8.3   | A      | うた                    | うた                | uta                               | bài hát / ca hát                |   |
-| 8.4   | A      | クラシック                 | クラシック             | kurashikku                        | nhạc cổ điển                    |   |
-| 8.5   | A      | ジャズ                   | ジャズ               | jazu                              | nhạc jazz                       |   |
-| 8.6   | A      | コンサート                 | コンサート             | konsaato                          | buổi hòa nhạc                   |   |
-| 8.7   | A      | 絵（え）                  | え                 | e                                 | tranh                           |   |
-| 8.8   | A      | 字（じ）                  | じ                 | ji                                | chữ                             |   |
-| 8.9   | A      | ひらがな                  | ひらがな              | hiragana                          | chữ Hiragana                    |   |
-| 8.10  | A      | かたかな                  | かたかな              | katakana                          | chữ Katakana                    |   |
-| 9.1   | A      | かんじ                   | かんじ               | kanji                             | chữ Kanji                       |   |
-| 9.2   | A      | ローマじ                  | ローマじ              | roomaji                           | chữ Roman                       |   |
-| 9.3   | A      | こまかい お金（おかね）          | こまかい おかね          | komakai okane                     | tiền lẻ                         |   |
-| 9.4   | A      | チケット                  | チケット              | chiketto                          | vé                              |   |
-| 9.5   | A      | 時間（じかん）               | じかん               | jikan                             | thời gian                       |   |
-| 9.6   | A      | ようじ                   | ようじ               | youji                             | việc riêng                      |   |
-| 9.7   | A      | やくそく                  | やくそく              | yakusoku                          | cuộc hẹn / lời hứa              |   |
-| 9.8   | A      | ごしゅじん                 | ごしゅじん             | goshujin                          | chồng người khác                |   |
-| 9.9   | A      | おくさん                  | おくさん              | okusan                            | vợ người khác                   |   |
-| 9.10  | A      | 子ども（こども）              | こども               | kodomo                            | con / trẻ em                    |   |
-| 10.1  | A      | よく                    | よく                | yoku                              | tốt / rõ / thường               |   |
-| 10.2  | A      | だいたい                  | だいたい              | daitai                            | đại khái / hầu như              |   |
-| 10.3  | A      | たくさん                  | たくさん              | takusan                           | nhiều                           |   |
-| 10.4  | A      | すこし                   | すこし               | sukoshi                           | một chút                        |   |
-| 10.5  | A      | ぜんぜん                  | ぜんぜん              | zenzen                            | hoàn toàn không                 |   |
-| 10.6  | A      | はやく                   | はやく               | hayaku                            | sớm / nhanh                     |   |
-| 10.7  | A      | から                    | から                | kara                              | vì / bởi vì                     |   |
-| 10.8  | A      | どうして                  | どうして              | doushite                          | tại sao                         |   |
-| 10.9  | A      | ざんねんです                | ざんねんです            | zannen desu                       | tiếc quá                        |   |
-| 10.10 | A      | すみません                 | すみません             | sumimasen                         | xin lỗi                         |   |
-| 11.1  | A      | わかります                 | わかります             | wakarimasu                        | hiểu                            |   |
-| 11.2  | A      | あります                  | あります              | arimasu                           | có                              |   |
-| 11.3  | A      | すき                    | すき                | suki                              | thích                           |   |
-| 11.4  | A      | きらい                   | きらい               | kirai                             | ghét / không thích              |   |
-| 11.5  | A      | じょうず                  | じょうず              | jouzu                             | giỏi                            |   |
-| 11.6  | A      | へた                    | へた                | heta                              | kém / dở                        |   |
-| 11.7  | A      | チケット                  | チケット              | chiketto                          | vé                              |   |
-| 11.8  | A      | ようじ                   | ようじ               | youji                             | việc riêng                      |   |
-| 11.9  | A      | やくそく                  | やくそく              | yakusoku                          | cuộc hẹn                        |   |
-| 11.10 | A      | あります                  | あります              | arimasu                           | có                              |   |
-| 12.1  | A      | すき                    | すき                | suki                              | thích                           |   |
-| 12.2  | A      | きらい                   | きらい               | kirai                             | ghét / không thích              |   |
-| 12.3  | A      | じょうず                  | じょうず              | jouzu                             | giỏi                            |   |
-| 12.4  | A      | へた                    | へた                | heta                              | kém / dở                        |   |
-| 12.5  | A      | わかります                 | わかります             | wakarimasu                        | hiểu                            |   |
-| 12.6  | A      | ようじ                   | ようじ               | youji                             | việc riêng                      |   |
-| 12.7  | A      | ざんねん                  | ざんねん              | zannen                            | tiếc quá                        |   |
-| 12.8  | A      | から                    | から                | kara                              | vì                              |   |
-| 12.9  | A      | すこし                   | すこし               | sukoshi                           | một chút                        |   |
-| 12.10 | A      | ぜんぜん                  | ぜんぜん              | zenzen                            | hoàn toàn không                 |   |
-| 13.1  | A      | 料理（りょうり）              | りょうり              | ryouri                            | món ăn / nấu ăn                 |   |
-| 13.2  | A      | 飲み物（のみもの）             | のみもの              | nomimono                          | đồ uống                         |   |
-| 13.3  | A      | 音楽（おんがく）              | おんがく              | ongaku                            | âm nhạc                         |   |
-| 13.4  | A      | 絵（え）                  | え                 | e                                 | tranh                           |   |
-| 13.5  | A      | 字（じ）                  | じ                 | ji                                | chữ                             |   |
-| 13.6  | A      | 漢字（かんじ）               | かんじ               | kanji                             | chữ Kanji                       |   |
-| 13.7  | A      | お金（おかね）               | おかね               | okane                             | tiền                            |   |
-| 13.8  | A      | 時間（じかん）               | じかん               | jikan                             | thời gian                       |   |
-| 13.9  | A      | 子ども（こども）              | こども               | kodomo                            | con / trẻ em                    |   |
-| 13.10 | A      | 日本語（にほんご）             | にほんご              | nihongo                           | tiếng Nhật                      |   |
-| 14.1  | A      | 料理（りょうり）              | りょうり              | ryouri                            | món ăn / nấu ăn                 |   |
-| 14.2  | A      | 飲み物（のみもの）             | のみもの              | nomimono                          | đồ uống                         |   |
-| 14.3  | A      | 音楽（おんがく）              | おんがく              | ongaku                            | âm nhạc                         |   |
-| 14.4  | A      | 歌（うた）                 | うた                | uta                               | bài hát / ca hát                |   |
-| 14.5  | A      | 絵（え）                  | え                 | e                                 | tranh                           |   |
-| 14.6  | A      | 字（じ）                  | じ                 | ji                                | chữ                             |   |
-| 14.7  | A      | 漢字（かんじ）               | かんじ               | kanji                             | chữ Kanji                       |   |
-| 14.8  | A      | お金（おかね）               | おかね               | okane                             | tiền                            |   |
-| 14.9  | A      | 時間（じかん）               | じかん               | jikan                             | thời gian                       |   |
-| 14.10 | A      | 子ども（こども）              | こども               | kodomo                            | con / trẻ em                    |   |
-| 15.1  | A      | すき                    | すき                | suki                              | sở thích                        |   |
-| 15.2  | A      | じょうず                  | じょうず              | jouzu                             | khả năng                        |   |
-| 15.3  | A      | 飲み物（のみもの）             | のみもの              | nomimono                          | món ăn / đồ uống                |   |
-| 15.4  | A      | やきゅう                  | やきゅう              | yakyuu                            | thể thao                        |   |
-| 15.5  | A      | ジャズ                   | ジャズ               | jazu                              | âm nhạc                         |   |
-| 15.6  | A      | ひらがな                  | ひらがな              | hiragana                          | chữ viết                        |   |
-| 15.7  | A      | チケット                  | チケット              | chiketto                          | vé                              |   |
-| 15.8  | A      | つま                    | つま                | tsuma                             | gia đình                        |   |
-| 15.9  | A      | たくさん                  | たくさん              | takusan                           | mức độ / số lượng               |   |
-| 15.10 | A      | から                    | から                | kara                              | lý do                           |   |
-| 16.1  | A      | わかります / あります          | わかります / あります      | wakarimasu / arimasu              | hiểu / có                       |   |
-| 16.2  | A      | すき / きらい              | すき / きらい          | suki / kirai                      | thích / ghét                    |   |
-| 16.3  | A      | じょうず / へた             | じょうず / へた         | jouzu / heta                      | giỏi / kém                      |   |
-| 16.4  | A      | 料理（りょうり） / 飲み物（のみもの）  | りょうり / のみもの       | ryouri / nomimono                 | món ăn / đồ uống                |   |
-| 16.5  | A      | スポーツ / やきゅう           | スポーツ / やきゅう       | supootsu / yakyuu                 | thể thao / bóng chày            |   |
-| 16.6  | A      | 音楽（おんがく） / うた         | おんがく / うた         | ongaku / uta                      | âm nhạc / bài hát               |   |
-| 16.7  | A      | ひらがな / かたかな / かんじ     | ひらがな / かたかな / かんじ | hiragana / katakana / kanji       | ba loại chữ                     |   |
-| 16.8  | A      | ごしゅじん / おっと           | ごしゅじん / おっと       | goshujin / otto                   | chồng người khác / tôi          |   |
-| 16.9  | A      | おくさん / つま             | おくさん / つま         | okusan / tsuma                    | vợ người khác / tôi             |   |
-| 16.10 | A      | たくさん / すこし            | たくさん / すこし        | takusan / sukoshi                 | nhiều / một chút                |   |
-| 17.1  | A      | が                     | が                 | ga                                | đối tượng hiểu                  |   |
-| 17.2  | A      | が                     | が                 | ga                                | đối tượng có                    |   |
-| 17.3  | A      | が                     | が                 | ga                                | đối tượng thích                 |   |
-| 17.4  | A      | が                     | が                 | ga                                | đối tượng ghét                  |   |
-| 17.5  | A      | が                     | が                 | ga                                | đối tượng giỏi                  |   |
-| 17.6  | A      | が                     | が                 | ga                                | đối tượng kém                   |   |
-| 17.7  | A      | から                    | から                | kara                              | vì                              |   |
-| 17.8  | A      | ません                   | ません               | masen                             | phủ định                        |   |
-| 17.9  | A      | ます                    | ます                | masu                              | khẳng định                      |   |
-| 17.10 | A      | ません                   | ません               | masen                             | phủ định                        |   |
+| Câu | Đáp án | Từ đúng | Hiragana | Nghĩa / giải thích ngắn |  |
+| --- | --- | --- | --- | --- | --- |
+| 1.1 | A | わかります | わかります | hiểu |  |
+| 1.2 | B | あります | あります | có |  |
+| 1.3 | A | すき | すき | thích |  |
+| 1.4 | B | きらい | きらい | ghét / không thích |  |
+| 1.5 | A | じょうず | じょうず | giỏi |  |
+| 1.6 | A | へた | へた | kém / dở |  |
+| 1.7 | A | 日本語（にほんご）が わかります | にほんごが わかります | hiểu tiếng Nhật |  |
+| 1.8 | A | 時間（じかん）が あります | じかんが あります | có thời gian |  |
+| 1.9 | A | スポーツが すきです | スポーツが すきです | thích thể thao |  |
+| 1.10 | A | ダンスが へたです | ダンスが へたです | nhảy kém |  |
+| 2.1 | A | りょうり | りょうり | món ăn / nấu ăn |  |
+| 2.2 | A | 飲み物（のみもの） | のみもの | đồ uống |  |
+| 2.3 | A | スポーツ | スポーツ | thể thao |  |
+| 2.4 | A | やきゅう | やきゅう | bóng chày |  |
+| 2.5 | A | ダンス | ダンス | khiêu vũ / nhảy |  |
+| 2.6 | A | 音楽（おんがく） | おんがく | âm nhạc |  |
+| 2.7 | A | うた | うた | bài hát / ca hát |  |
+| 2.8 | A | クラシック | クラシック | nhạc cổ điển |  |
+| 2.9 | A | ジャズ | ジャズ | nhạc jazz |  |
+| 2.10 | A | コンサート | コンサート | buổi hòa nhạc |  |
+| 3.1 | A | カラオケ | カラオケ | karaoke |  |
+| 3.2 | A | かぶき | かぶき | Kabuki |  |
+| 3.3 | A | 絵（え） | え | tranh |  |
+| 3.4 | A | 字（じ） | じ | chữ |  |
+| 3.5 | A | かんじ | かんじ | chữ Kanji |  |
+| 3.6 | A | ひらがな | ひらがな | chữ Hiragana |  |
+| 3.7 | A | かたかな | かたかな | chữ Katakana |  |
+| 3.8 | A | ローマじ | ローマじ | chữ Roman |  |
+| 3.9 | A | かんじが わかります | かんじが わかります | hiểu chữ Kanji |  |
+| 3.10 | A | 絵（え）が じょうずです | えが じょうずです | vẽ tranh giỏi |  |
+| 4.1 | A | こまかい お金（おかね） | こまかい おかね | tiền lẻ |  |
+| 4.2 | A | チケット | チケット | vé |  |
+| 4.3 | A | 時間（じかん） | じかん | thời gian |  |
+| 4.4 | A | ようじ | ようじ | việc riêng |  |
+| 4.5 | A | やくそく | やくそく | cuộc hẹn / lời hứa |  |
+| 4.6 | A | こまかい お金（おかね）が あります | こまかい おかねが あります | có tiền lẻ |  |
+| 4.7 | A | チケットが あります | チケットが あります | có vé |  |
+| 4.8 | A | 時間（じかん）が ありません | じかんが ありません | không có thời gian |  |
+| 4.9 | A | きょうは ようじが あります | きょうは ようじが あります | hôm nay có việc |  |
+| 4.10 | A | あした やくそくが あります | あした やくそくが あります | mai có cuộc hẹn |  |
+| 5.1 | A | ごしゅじん | ごしゅじん | chồng người khác |  |
+| 5.2 | A | おっと | おっと | chồng tôi |  |
+| 5.3 | A | おくさん | おくさん | vợ người khác |  |
+| 5.4 | A | つま | つま | vợ tôi |  |
+| 5.5 | A | 子ども（こども） | こども | con / trẻ em |  |
+| 5.6 | A | ごしゅじんは スポーツが すきです | ごしゅじんは スポーツが すきです | chồng người khác thích thể thao |  |
+| 5.7 | A | おっとは 料理（りょうり）が じょうずです | おっとは りょうりが じょうずです | chồng tôi nấu giỏi |  |
+| 5.8 | A | おくさんは 音楽（おんがく）が すきです | おくさんは おんがくが すきです | vợ người khác thích nhạc |  |
+| 5.9 | A | つまは カラオケが きらいです | つまは カラオケが きらいです | vợ tôi ghét karaoke |  |
+| 5.10 | A | 子ども（こども）は ダンスが じょうずです | こどもは ダンスが じょうずです | trẻ em nhảy giỏi |  |
+| 6.1 | A | よく | よく | tốt / rõ / thường |  |
+| 6.2 | A | だいたい | だいたい | đại khái / hầu như |  |
+| 6.3 | A | たくさん | たくさん | nhiều |  |
+| 6.4 | A | すこし | すこし | một chút |  |
+| 6.5 | A | ぜんぜん | ぜんぜん | hoàn toàn không |  |
+| 6.6 | A | はやく | はやく | sớm / nhanh |  |
+| 6.7 | A | から | から | vì / bởi vì |  |
+| 6.8 | A | どうして | どうして | tại sao |  |
+| 6.9 | A | ざんねんです | ざんねんです | tiếc quá |  |
+| 6.10 | A | すみません | すみません | xin lỗi |  |
+| 7.1 | A | わかります | わかります | hiểu |  |
+| 7.2 | A | あります | あります | có |  |
+| 7.3 | A | すき | すき | thích |  |
+| 7.4 | A | きらい | きらい | ghét / không thích |  |
+| 7.5 | A | じょうず | じょうず | giỏi |  |
+| 7.6 | A | へた | へた | kém / dở |  |
+| 7.7 | A | りょうり | りょうり | món ăn / nấu ăn |  |
+| 7.8 | A | 飲み物（のみもの） | のみもの | đồ uống |  |
+| 7.9 | A | スポーツ | スポーツ | thể thao |  |
+| 7.10 | A | やきゅう | やきゅう | bóng chày |  |
+| 8.1 | A | ダンス | ダンス | khiêu vũ / nhảy |  |
+| 8.2 | A | 音楽（おんがく） | おんがく | âm nhạc |  |
+| 8.3 | A | うた | うた | bài hát / ca hát |  |
+| 8.4 | A | クラシック | クラシック | nhạc cổ điển |  |
+| 8.5 | A | ジャズ | ジャズ | nhạc jazz |  |
+| 8.6 | A | コンサート | コンサート | buổi hòa nhạc |  |
+| 8.7 | A | 絵（え） | え | tranh |  |
+| 8.8 | A | 字（じ） | じ | chữ |  |
+| 8.9 | A | ひらがな | ひらがな | chữ Hiragana |  |
+| 8.10 | A | かたかな | かたかな | chữ Katakana |  |
+| 9.1 | A | かんじ | かんじ | chữ Kanji |  |
+| 9.2 | A | ローマじ | ローマじ | chữ Roman |  |
+| 9.3 | A | こまかい お金（おかね） | こまかい おかね | tiền lẻ |  |
+| 9.4 | A | チケット | チケット | vé |  |
+| 9.5 | A | 時間（じかん） | じかん | thời gian |  |
+| 9.6 | A | ようじ | ようじ | việc riêng |  |
+| 9.7 | A | やくそく | やくそく | cuộc hẹn / lời hứa |  |
+| 9.8 | A | ごしゅじん | ごしゅじん | chồng người khác |  |
+| 9.9 | A | おくさん | おくさん | vợ người khác |  |
+| 9.10 | A | 子ども（こども） | こども | con / trẻ em |  |
+| 10.1 | A | よく | よく | tốt / rõ / thường |  |
+| 10.2 | A | だいたい | だいたい | đại khái / hầu như |  |
+| 10.3 | A | たくさん | たくさん | nhiều |  |
+| 10.4 | A | すこし | すこし | một chút |  |
+| 10.5 | A | ぜんぜん | ぜんぜん | hoàn toàn không |  |
+| 10.6 | A | はやく | はやく | sớm / nhanh |  |
+| 10.7 | A | から | から | vì / bởi vì |  |
+| 10.8 | A | どうして | どうして | tại sao |  |
+| 10.9 | A | ざんねんです | ざんねんです | tiếc quá |  |
+| 10.10 | A | すみません | すみません | xin lỗi |  |
+| 11.1 | A | わかります | わかります | hiểu |  |
+| 11.2 | A | あります | あります | có |  |
+| 11.3 | A | すき | すき | thích |  |
+| 11.4 | A | きらい | きらい | ghét / không thích |  |
+| 11.5 | A | じょうず | じょうず | giỏi |  |
+| 11.6 | A | へた | へた | kém / dở |  |
+| 11.7 | A | チケット | チケット | vé |  |
+| 11.8 | A | ようじ | ようじ | việc riêng |  |
+| 11.9 | A | やくそく | やくそく | cuộc hẹn |  |
+| 11.10 | A | あります | あります | có |  |
+| 12.1 | A | すき | すき | thích |  |
+| 12.2 | A | きらい | きらい | ghét / không thích |  |
+| 12.3 | A | じょうず | じょうず | giỏi |  |
+| 12.4 | A | へた | へた | kém / dở |  |
+| 12.5 | A | わかります | わかります | hiểu |  |
+| 12.6 | A | ようじ | ようじ | việc riêng |  |
+| 12.7 | A | ざんねん | ざんねん | tiếc quá |  |
+| 12.8 | A | から | から | vì |  |
+| 12.9 | A | すこし | すこし | một chút |  |
+| 12.10 | A | ぜんぜん | ぜんぜん | hoàn toàn không |  |
+| 13.1 | A | 料理（りょうり） | りょうり | món ăn / nấu ăn |  |
+| 13.2 | A | 飲み物（のみもの） | のみもの | đồ uống |  |
+| 13.3 | A | 音楽（おんがく） | おんがく | âm nhạc |  |
+| 13.4 | A | 絵（え） | え | tranh |  |
+| 13.5 | A | 字（じ） | じ | chữ |  |
+| 13.6 | A | 漢字（かんじ） | かんじ | chữ Kanji |  |
+| 13.7 | A | お金（おかね） | おかね | tiền |  |
+| 13.8 | A | 時間（じかん） | じかん | thời gian |  |
+| 13.9 | A | 子ども（こども） | こども | con / trẻ em |  |
+| 13.10 | A | 日本語（にほんご） | にほんご | tiếng Nhật |  |
+| 14.1 | A | 料理（りょうり） | りょうり | món ăn / nấu ăn |  |
+| 14.2 | A | 飲み物（のみもの） | のみもの | đồ uống |  |
+| 14.3 | A | 音楽（おんがく） | おんがく | âm nhạc |  |
+| 14.4 | A | 歌（うた） | うた | bài hát / ca hát |  |
+| 14.5 | A | 絵（え） | え | tranh |  |
+| 14.6 | A | 字（じ） | じ | chữ |  |
+| 14.7 | A | 漢字（かんじ） | かんじ | chữ Kanji |  |
+| 14.8 | A | お金（おかね） | おかね | tiền |  |
+| 14.9 | A | 時間（じかん） | じかん | thời gian |  |
+| 14.10 | A | 子ども（こども） | こども | con / trẻ em |  |
+| 15.1 | A | すき | すき | sở thích |  |
+| 15.2 | A | じょうず | じょうず | khả năng |  |
+| 15.3 | A | 飲み物（のみもの） | のみもの | món ăn / đồ uống |  |
+| 15.4 | A | やきゅう | やきゅう | thể thao |  |
+| 15.5 | A | ジャズ | ジャズ | âm nhạc |  |
+| 15.6 | A | ひらがな | ひらがな | chữ viết |  |
+| 15.7 | A | チケット | チケット | vé |  |
+| 15.8 | A | つま | つま | gia đình |  |
+| 15.9 | A | たくさん | たくさん | mức độ / số lượng |  |
+| 15.10 | A | から | から | lý do |  |
+| 16.1 | A | わかります / あります | わかります / あります | hiểu / có |  |
+| 16.2 | A | すき / きらい | すき / きらい | thích / ghét |  |
+| 16.3 | A | じょうず / へた | じょうず / へた | giỏi / kém |  |
+| 16.4 | A | 料理（りょうり） / 飲み物（のみもの） | りょうり / のみもの | món ăn / đồ uống |  |
+| 16.5 | A | スポーツ / やきゅう | スポーツ / やきゅう | thể thao / bóng chày |  |
+| 16.6 | A | 音楽（おんがく） / うた | おんがく / うた | âm nhạc / bài hát |  |
+| 16.7 | A | ひらがな / かたかな / かんじ | ひらがな / かたかな / かんじ | ba loại chữ |  |
+| 16.8 | A | ごしゅじん / おっと | ごしゅじん / おっと | chồng người khác / tôi |  |
+| 16.9 | A | おくさん / つま | おくさん / つま | vợ người khác / tôi |  |
+| 16.10 | A | たくさん / すこし | たくさん / すこし | nhiều / một chút |  |
+| 17.1 | A | が | が | đối tượng hiểu |  |
+| 17.2 | A | が | が | đối tượng có |  |
+| 17.3 | A | が | が | đối tượng thích |  |
+| 17.4 | A | が | が | đối tượng ghét |  |
+| 17.5 | A | が | が | đối tượng giỏi |  |
+| 17.6 | A | が | が | đối tượng kém |  |
+| 17.7 | A | から | から | vì |  |
+| 17.8 | A | ません | ません | phủ định |  |
+| 17.9 | A | ます | ます | khẳng định |  |
+| 17.10 | A | ません | ません | phủ định |  |

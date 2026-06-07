@@ -8,16 +8,16 @@ Nội dung chính gồm: **nghỉ ngơi, chạy, thức dậy, vỏ sò/tiền, 
 
 # 1. Tổng hợp chữ Hán trong bài
 
-| Kanji | Âm Hán Việt | Hiragana | Romaji  | Nghĩa             |
-| ----- | ----------- | -------- | ------- | ----------------- |
-| 休     | Hưu         | やすむ      | yasumu  | nghỉ ngơi         |
-| 走     | Tẩu         | はしる      | hashiru | chạy              |
-| 起     | Khởi        | おきる      | okiru   | thức dậy / xảy ra |
-| 貝     | Bối         | かい       | kai     | vỏ sò             |
-| 買     | Mãi         | かう       | kau     | mua               |
-| 売     | Mại         | うる       | uru     | bán               |
-| 読     | Độc         | よむ       | yomu    | đọc               |
-| 書     | Thư         | かく       | kaku    | viết              |
+| Kanji（かな） | Âm Hán Việt | Nghĩa |
+| --- | --- | --- |
+| 休（やすむ） | Hưu | nghỉ ngơi |
+| 走（はしる） | Tẩu | chạy |
+| 起（おきる） | Khởi | thức dậy / xảy ra |
+| 貝（かい） | Bối | vỏ sò |
+| 買（かう） | Mãi | mua |
+| 売（うる） | Mại | bán |
+| 読（よむ） | Độc | đọc |
+| 書（かく） | Thư | viết |
 
 ---
 
@@ -38,19 +38,19 @@ Nội dung chính gồm: **nghỉ ngơi, chạy, thức dậy, vỏ sò/tiền, 
 
 # 3. Từ vựng ví dụ
 
-| Từ     | Hiragana | Romaji         | Nghĩa     |
-| ------ | -------- | -------------- | --------- |
-| 休みます   | やすみます    | yasumimasu     | nghỉ      |
-| 休み     | やすみ      | yasumi         | ngày nghỉ |
-| 走ります   | はしります    | hashirimasu    | chạy      |
-| 起きます   | おきます     | okimasu        | thức dậy  |
-| 貝      | かい       | kai            | vỏ sò     |
-| 買います   | かいます     | kaimasu        | mua       |
-| 売ります   | うります     | urimasu        | bán       |
-| 読みます   | よみます     | yomimasu       | đọc       |
-| 書きます   | かきます     | kakimasu       | viết      |
-| 本を読みます | ほんをよみます  | hon o yomimasu | đọc sách  |
-| 字を書きます | じをかきます   | ji o kakimasu  | viết chữ  |
+| Từ（かな） | Nghĩa |
+| --- | --- |
+| 休みます（やすみます） | nghỉ |
+| 休み（やすみ） | ngày nghỉ |
+| 走ります（はしります） | chạy |
+| 起きます（おきます） | thức dậy |
+| 貝（かい） | vỏ sò |
+| 買います（かいます） | mua |
+| 売ります（うります） | bán |
+| 読みます（よみます） | đọc |
+| 書きます（かきます） | viết |
+| 本を読みます（ほんをよみます） | đọc sách |
+| 字を書きます（じをかきます） | viết chữ |
 
 ---
 
@@ -383,50 +383,50 @@ Nội dung dựa trên file Kanji N5 Bài 15 bạn gửi.
 
 | Câu | Đáp án | Giải thích ngắn gọn                                                                        |
 | --- | ------ | ------------------------------------------------------------------------------------------ |
-| 1   | A      | **休** = やすむ / *yasumu* = nghỉ ngơi. Ví dụ: **休みます** = やすみます / *yasumimasu* = nghỉ.         |
-| 2   | B      | **走** = はしる / *hashiru* = chạy. Ví dụ: **走ります** = はしります / *hashirimasu* = chạy.            |
-| 3   | B      | **起** = おきる / *okiru* = thức dậy / xảy ra. Ví dụ: **起きます** = おきます / *okimasu* = thức dậy.  |
-| 4   | B      | **貝** = かい / *kai* = vỏ sò. Ví dụ: **貝** = かい / *kai* = vỏ sò.                             |
-| 5   | B      | **買** = かう / *kau* = mua. Ví dụ: **本を買います** = ほんをかいます / *hon o kaimasu* = mua sách.        |
-| 6   | B      | **売** = うる / *uru* = bán. Ví dụ: **車を売ります** = くるまをうります / *kuruma o urimasu* = bán xe.      |
-| 7   | A      | **読** = よむ / *yomu* = đọc. Ví dụ: **本を読みます** = ほんをよみます / *hon o yomimasu* = đọc sách.      |
-| 8   | B      | **書** = かく / *kaku* = viết. Ví dụ: **名前を書きます** = なまえをかきます / *namae o kakimasu* = viết tên. |
-| 9   | A      | **休みます** = やすみます / *yasumimasu* = nghỉ.                                                    |
-| 10  | B      | **走ります** = はしります / *hashirimasu* = chạy.                                                   |
-| 11  | A      | **起きます** = おきます / *okimasu* = thức dậy.                                                    |
-| 12  | A      | **貝** đọc là かい / *kai* = vỏ sò.                                                           |
-| 13  | B      | **買います** = かいます / *kaimasu* = mua.                                                         |
-| 14  | B      | **売ります** = うります / *urimasu* = bán.                                                         |
-| 15  | A      | **読みます** = よみます / *yomimasu* = đọc.                                                        |
-| 16  | A      | **書きます** = かきます / *kakimasu* = viết.                                                       |
-| 17  | A      | やすみます / *yasumimasu* = **休みます** = nghỉ.                                                    |
-| 18  | B      | はしります / *hashirimasu* = **走ります** = chạy.                                                   |
-| 19  | B      | おきます / *okimasu* = **起きます** = thức dậy.                                                    |
-| 20  | A      | かい / *kai* = **貝** = vỏ sò.                                                                |
-| 21  | B      | かいます / *kaimasu* = **買います** = mua.                                                         |
-| 22  | B      | うります / *urimasu* = **売ります** = bán.                                                         |
-| 23  | A      | よみます / *yomimasu* = **読みます** = đọc.                                                        |
-| 24  | B      | かきます / *kakimasu* = **書きます** = viết.                                                       |
-| 25  | A      | **日曜日に休みます。** = にちようびにやすみます / *nichiyoubi ni yasumimasu* = Chủ nhật tôi nghỉ.              |
-| 26  | B      | **毎朝走ります。** = まいあさはしります / *maiasa hashirimasu* = Mỗi sáng tôi chạy.                        |
-| 27  | B      | **六時に起きます。** = ろくじにおきます / *rokuji ni okimasu* = Tôi thức dậy lúc 6 giờ.                    |
-| 28  | B      | **本を買います。** = ほんをかいます / *hon o kaimasu* = Tôi mua sách.                                    |
-| 29  | B      | **車を売ります。** = くるまをうります / *kuruma o urimasu* = Tôi bán xe.                                  |
-| 30  | C      | **本を読みます。** = ほんをよみます / *hon o yomimasu* = Tôi đọc sách.                                   |
-| 31  | B      | **名前を書きます。** = なまえをかきます / *namae o kakimasu* = Tôi viết tên.                               |
-| 32  | B      | Chữ nghĩa là mua là **買** = かう / *kau* = mua.                                              |
+| 1   | A      | **休** = やすむ = nghỉ ngơi. Ví dụ: **休みます** = やすみます = nghỉ.         |
+| 2   | B      | **走** = はしる = chạy. Ví dụ: **走ります** = はしります = chạy.            |
+| 3   | B      | **起** = おきる = thức dậy / xảy ra. Ví dụ: **起きます** = おきます = thức dậy.  |
+| 4   | B      | **貝** = かい = vỏ sò. Ví dụ: **貝** = かい = vỏ sò.                             |
+| 5   | B      | **買** = かう = mua. Ví dụ: **本を買います** = ほんをかいます = mua sách.        |
+| 6   | B      | **売** = うる = bán. Ví dụ: **車を売ります** = くるまをうります = bán xe.      |
+| 7   | A      | **読** = よむ = đọc. Ví dụ: **本を読みます** = ほんをよみます = đọc sách.      |
+| 8   | B      | **書** = かく = viết. Ví dụ: **名前を書きます** = なまえをかきます = viết tên. |
+| 9   | A      | **休みます** = やすみます = nghỉ.                                                    |
+| 10  | B      | **走ります** = はしります = chạy.                                                   |
+| 11  | A      | **起きます** = おきます = thức dậy.                                                    |
+| 12  | A      | **貝** đọc là かい = vỏ sò.                                                           |
+| 13  | B      | **買います** = かいます = mua.                                                         |
+| 14  | B      | **売ります** = うります = bán.                                                         |
+| 15  | A      | **読みます** = よみます = đọc.                                                        |
+| 16  | A      | **書きます** = かきます = viết.                                                       |
+| 17  | A      | やすみます = **休みます** = nghỉ.                                                    |
+| 18  | B      | はしります = **走ります** = chạy.                                                   |
+| 19  | B      | おきます = **起きます** = thức dậy.                                                    |
+| 20  | A      | かい = **貝** = vỏ sò.                                                                |
+| 21  | B      | かいます = **買います** = mua.                                                         |
+| 22  | B      | うります = **売ります** = bán.                                                         |
+| 23  | A      | よみます = **読みます** = đọc.                                                        |
+| 24  | B      | かきます = **書きます** = viết.                                                       |
+| 25  | A      | **日曜日に休みます。** = にちようびにやすみます = Chủ nhật tôi nghỉ.              |
+| 26  | B      | **毎朝走ります。** = まいあさはしります = Mỗi sáng tôi chạy.                        |
+| 27  | B      | **六時に起きます。** = ろくじにおきます = Tôi thức dậy lúc 6 giờ.                    |
+| 28  | B      | **本を買います。** = ほんをかいます = Tôi mua sách.                                    |
+| 29  | B      | **車を売ります。** = くるまをうります = Tôi bán xe.                                  |
+| 30  | C      | **本を読みます。** = ほんをよみます = Tôi đọc sách.                                   |
+| 31  | B      | **名前を書きます。** = なまえをかきます = Tôi viết tên.                               |
+| 32  | B      | Chữ nghĩa là mua là **買** = かう = mua.                                              |
 
 ---
 
 ## Ghi nhớ nhanh 8 chữ Hán
 
-| Kanji | Hiragana | Romaji  | Nghĩa             | Ví dụ N5                            |
-| ----- | -------- | ------- | ----------------- | ----------------------------------- |
-| 休     | やすむ      | yasumu  | nghỉ ngơi         | 休みます = やすみます / *yasumimasu* = nghỉ  |
-| 走     | はしる      | hashiru | chạy              | 走ります = はしります / *hashirimasu* = chạy |
-| 起     | おきる      | okiru   | thức dậy / xảy ra | 起きます = おきます / *okimasu* = thức dậy  |
-| 貝     | かい       | kai     | vỏ sò             | 貝 = かい / *kai* = vỏ sò              |
-| 買     | かう       | kau     | mua               | 買います = かいます / *kaimasu* = mua       |
-| 売     | うる       | uru     | bán               | 売ります = うります / *urimasu* = bán       |
-| 読     | よむ       | yomu    | đọc               | 読みます = よみます / *yomimasu* = đọc      |
-| 書     | かく       | kaku    | viết              | 書きます = かきます / *kakimasu* = viết     |
+| Kanji（かな） | Nghĩa | Ví dụ N5 |
+| --- | --- | --- |
+| 休（やすむ） | nghỉ ngơi | 休みます = やすみます = nghỉ |
+| 走（はしる） | chạy | 走ります = はしります = chạy |
+| 起（おきる） | thức dậy / xảy ra | 起きます = おきます = thức dậy |
+| 貝（かい） | vỏ sò | 貝 = かい = vỏ sò |
+| 買（かう） | mua | 買います = かいます = mua |
+| 売（うる） | bán | 売ります = うります = bán |
+| 読（よむ） | đọc | 読みます = よみます = đọc |
+| 書（かく） | viết | 書きます = かきます = viết |

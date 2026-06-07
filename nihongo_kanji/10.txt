@@ -8,16 +8,16 @@ Nội dung chính gồm: **tai, nghe/hỏi, lời nói, nói chuyện, đứng/l
 
 # 1. Tổng hợp chữ Hán trong bài
 
-| Kanji | Âm Hán Việt | Hiragana | Romaji | Nghĩa      |
-| ----- | ----------- | -------- | ------ | ---------- |
-| 耳     | Nhĩ         | みみ       | mimi   | tai        |
-| 聞     | Văn         | きく       | kiku   | nghe / hỏi |
-| 言     | Ngôn        | いう       | iu     | nói        |
-| 話     | Thoại       | はなす      | hanasu | nói chuyện |
-| 立     | Lập         | たつ       | tatsu  | đứng / lập |
-| 待     | Đãi         | まつ       | matsu  | chờ        |
-| 周     | Chu         | まわり      | mawari | xung quanh |
-| 週     | Chu         | しゅう      | shuu   | tuần       |
+| Kanji（かな） | Âm Hán Việt | Nghĩa |
+| --- | --- | --- |
+| 耳（みみ） | Nhĩ | tai |
+| 聞（きく） | Văn | nghe / hỏi |
+| 言（いう） | Ngôn | nói |
+| 話（はなす） | Thoại | nói chuyện |
+| 立（たつ） | Lập | đứng / lập |
+| 待（まつ） | Đãi | chờ |
+| 周（まわり） | Chu | xung quanh |
+| 週（しゅう） | Chu | tuần |
 
 ---
 
@@ -38,20 +38,20 @@ Nội dung chính gồm: **tai, nghe/hỏi, lời nói, nói chuyện, đứng/l
 
 # 3. Từ vựng ví dụ
 
-| Từ   | Hiragana | Romaji      | Nghĩa      |
-| ---- | -------- | ----------- | ---------- |
-| 耳    | みみ       | mimi        | tai        |
-| 聞きます | ききます     | kikimasu    | nghe / hỏi |
-| 言います | いいます     | iimasu      | nói        |
-| 話します | はなします    | hanashimasu | nói chuyện |
-| 立ちます | たちます     | tachimasu   | đứng       |
-| 待ちます | まちます     | machimasu   | chờ        |
-| 周り   | まわり      | mawari      | xung quanh |
-| 週    | しゅう      | shuu        | tuần       |
-| 今週   | こんしゅう    | konshuu     | tuần này   |
-| 先週   | せんしゅう    | senshuu     | tuần trước |
-| 来週   | らいしゅう    | raishuu     | tuần sau   |
-| 毎週   | まいしゅう    | maishuu     | mỗi tuần   |
+| Từ（かな） | Nghĩa |
+| --- | --- |
+| 耳（みみ） | tai |
+| 聞きます（ききます） | nghe / hỏi |
+| 言います（いいます） | nói |
+| 話します（はなします） | nói chuyện |
+| 立ちます（たちます） | đứng |
+| 待ちます（まちます） | chờ |
+| 周り（まわり） | xung quanh |
+| 週（しゅう） | tuần |
+| 今週（こんしゅう） | tuần này |
+| 先週（せんしゅう） | tuần trước |
+| 来週（らいしゅう） | tuần sau |
+| 毎週（まいしゅう） | mỗi tuần |
 
 ---
 
@@ -382,50 +382,50 @@ D. 手
 
 | Câu | Đáp án | Giải thích ngắn gọn                                                                                                            |
 | --- | ------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| 1   | A      | **耳** = みみ / *mimi* = tai. Ví dụ: **耳** = みみ / *mimi* = tai.                                                                   |
-| 2   | B      | **聞** = きく / *kiku* = nghe / hỏi. Ví dụ: **音楽を聞きます** = おんがくをききます / *ongaku o kikimasu* = nghe nhạc.                            |
-| 3   | C      | **言** = いう / *iu* = nói. Ví dụ: **言います** = いいます / *iimasu* = nói.                                                              |
-| 4   | A      | **話** = はなす / *hanasu* = nói chuyện. Ví dụ: **日本語で話します** = にほんごではなします / *nihongo de hanashimasu* = nói chuyện bằng tiếng Nhật. |
-| 5   | B      | **立** = たつ / *tatsu* = đứng / lập. Ví dụ: **立ちます** = たちます / *tachimasu* = đứng.                                                |
-| 6   | A      | **待** = まつ / *matsu* = chờ. Ví dụ: **ここで待ちます** = ここでまちます / *koko de machimasu* = chờ ở đây.                                    |
-| 7   | C      | **周** = まわり / *mawari* = xung quanh. Ví dụ: **周り** = まわり / *mawari* = xung quanh.                                              |
-| 8   | B      | **週** = しゅう / *shuu* = tuần. Ví dụ: **来週** = らいしゅう / *raishuu* = tuần sau.                                                     |
-| 9   | A      | **耳** đọc là みみ / *mimi* = tai.                                                                                                |
-| 10  | B      | **聞きます** = ききます / *kikimasu* = nghe / hỏi.                                                                                     |
-| 11  | A      | **言います** = いいます / *iimasu* = nói.                                                                                              |
-| 12  | C      | **話します** = はなします / *hanashimasu* = nói chuyện.                                                                                 |
-| 13  | B      | **立ちます** = たちます / *tachimasu* = đứng.                                                                                          |
-| 14  | A      | **待ちます** = まちます / *machimasu* = chờ.                                                                                           |
-| 15  | C      | **週** đọc là しゅう / *shuu* = tuần.                                                                                              |
-| 16  | A      | **周り** = まわり / *mawari* = xung quanh.                                                                                          |
-| 17  | A      | みみ / *mimi* = **耳** = tai.                                                                                                     |
-| 18  | B      | ききます / *kikimasu* = **聞きます** = nghe / hỏi.                                                                                     |
-| 19  | A      | いいます / *iimasu* = **言います** = nói.                                                                                              |
-| 20  | B      | はなします / *hanashimasu* = **話します** = nói chuyện.                                                                                 |
-| 21  | A      | たちます / *tachimasu* = **立ちます** = đứng.                                                                                          |
-| 22  | C      | まちます / *machimasu* = **待ちます** = chờ.                                                                                           |
-| 23  | B      | しゅう / *shuu* = **週** = tuần. Ví dụ: **今週** = こんしゅう / *konshuu* = tuần này.                                                     |
-| 24  | A      | まわり / *mawari* = **周り** = xung quanh.                                                                                          |
-| 25  | A      | **音楽を聞きます** = おんがくをききます / *ongaku o kikimasu* = Tôi nghe nhạc.                                                                 |
-| 26  | B      | **日本語で話します** = にほんごではなします / *nihongo de hanashimasu* = Tôi nói chuyện bằng tiếng Nhật.                                         |
-| 27  | B      | **ここで待ちます** = ここでまちます / *koko de machimasu* = Tôi chờ ở đây.                                                                   |
-| 28  | C      | **来週** = らいしゅう / *raishuu* = tuần sau.                                                                                         |
-| 29  | A      | **先週** = せんしゅう / *senshuu* = tuần trước.                                                                                       |
-| 30  | B      | **毎週** = まいしゅう / *maishuu* = mỗi tuần.                                                                                         |
-| 31  | A      | **今週** = こんしゅう / *konshuu* = tuần này.                                                                                         |
-| 32  | A      | Chữ nghĩa là tai là **耳** = みみ / *mimi* = tai.                                                                                 |
+| 1   | A      | **耳** = みみ = tai. Ví dụ: **耳** = みみ = tai.                                                                   |
+| 2   | B      | **聞** = きく = nghe / hỏi. Ví dụ: **音楽を聞きます** = おんがくをききます = nghe nhạc.                            |
+| 3   | C      | **言** = いう = nói. Ví dụ: **言います** = いいます = nói.                                                              |
+| 4   | A      | **話** = はなす = nói chuyện. Ví dụ: **日本語で話します** = にほんごではなします = nói chuyện bằng tiếng Nhật. |
+| 5   | B      | **立** = たつ = đứng / lập. Ví dụ: **立ちます** = たちます = đứng.                                                |
+| 6   | A      | **待** = まつ = chờ. Ví dụ: **ここで待ちます** = ここでまちます = chờ ở đây.                                    |
+| 7   | C      | **周** = まわり = xung quanh. Ví dụ: **周り** = まわり = xung quanh.                                              |
+| 8   | B      | **週** = しゅう = tuần. Ví dụ: **来週** = らいしゅう = tuần sau.                                                     |
+| 9   | A      | **耳** đọc là みみ = tai.                                                                                                |
+| 10  | B      | **聞きます** = ききます = nghe / hỏi.                                                                                     |
+| 11  | A      | **言います** = いいます = nói.                                                                                              |
+| 12  | C      | **話します** = はなします = nói chuyện.                                                                                 |
+| 13  | B      | **立ちます** = たちます = đứng.                                                                                          |
+| 14  | A      | **待ちます** = まちます = chờ.                                                                                           |
+| 15  | C      | **週** đọc là しゅう = tuần.                                                                                              |
+| 16  | A      | **周り** = まわり = xung quanh.                                                                                          |
+| 17  | A      | みみ = **耳** = tai.                                                                                                     |
+| 18  | B      | ききます = **聞きます** = nghe / hỏi.                                                                                     |
+| 19  | A      | いいます = **言います** = nói.                                                                                              |
+| 20  | B      | はなします = **話します** = nói chuyện.                                                                                 |
+| 21  | A      | たちます = **立ちます** = đứng.                                                                                          |
+| 22  | C      | まちます = **待ちます** = chờ.                                                                                           |
+| 23  | B      | しゅう = **週** = tuần. Ví dụ: **今週** = こんしゅう = tuần này.                                                     |
+| 24  | A      | まわり = **周り** = xung quanh.                                                                                          |
+| 25  | A      | **音楽を聞きます** = おんがくをききます = Tôi nghe nhạc.                                                                 |
+| 26  | B      | **日本語で話します** = にほんごではなします = Tôi nói chuyện bằng tiếng Nhật.                                         |
+| 27  | B      | **ここで待ちます** = ここでまちます = Tôi chờ ở đây.                                                                   |
+| 28  | C      | **来週** = らいしゅう = tuần sau.                                                                                         |
+| 29  | A      | **先週** = せんしゅう = tuần trước.                                                                                       |
+| 30  | B      | **毎週** = まいしゅう = mỗi tuần.                                                                                         |
+| 31  | A      | **今週** = こんしゅう = tuần này.                                                                                         |
+| 32  | A      | Chữ nghĩa là tai là **耳** = みみ = tai.                                                                                 |
 
 ---
 
 ## Ghi nhớ nhanh 8 chữ Hán
 
-| Kanji | Hiragana | Romaji | Nghĩa      | Ví dụ N5                                  |
-| ----- | -------- | ------ | ---------- | ----------------------------------------- |
-| 耳     | みみ       | mimi   | tai        | 耳 = みみ / *mimi* = tai                     |
-| 聞     | きく       | kiku   | nghe / hỏi | 聞きます = ききます / *kikimasu* = nghe           |
-| 言     | いう       | iu     | nói        | 言います = いいます / *iimasu* = nói              |
-| 話     | はなす      | hanasu | nói chuyện | 話します = はなします / *hanashimasu* = nói chuyện |
-| 立     | たつ       | tatsu  | đứng / lập | 立ちます = たちます / *tachimasu* = đứng          |
-| 待     | まつ       | matsu  | chờ        | 待ちます = まちます / *machimasu* = chờ           |
-| 周     | まわり      | mawari | xung quanh | 周り = まわり / *mawari* = xung quanh          |
-| 週     | しゅう      | shuu   | tuần       | 来週 = らいしゅう / *raishuu* = tuần sau         |
+| Kanji（かな） | Nghĩa | Ví dụ N5 |
+| --- | --- | --- |
+| 耳（みみ） | tai | 耳 = みみ = tai |
+| 聞（きく） | nghe / hỏi | 聞きます = ききます = nghe |
+| 言（いう） | nói | 言います = いいます = nói |
+| 話（はなす） | nói chuyện | 話します = はなします = nói chuyện |
+| 立（たつ） | đứng / lập | 立ちます = たちます = đứng |
+| 待（まつ） | chờ | 待ちます = まちます = chờ |
+| 周（まわり） | xung quanh | 周り = まわり = xung quanh |
+| 週（しゅう） | tuần | 来週 = らいしゅう = tuần sau |

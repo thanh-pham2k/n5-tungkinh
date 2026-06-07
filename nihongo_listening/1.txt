@@ -3,26 +3,21 @@
 ### 1. Script hội thoại
 
 [04:48] 名前はAですか、Bですか。
-Romaji: Namae wa A desu ka, B desu ka.
 Nghĩa: Tên là A hay B?
 
 [04:55] はじめまして。益田です。
-Romaji: Hajimemashite. Masuda desu.
 Nghĩa: Rất vui được gặp. Tôi là Masuda.
 
 [05:00] 松田さんですか。
-Romaji: Matsuda-san desu ka.
 Nghĩa: Anh/chị là Matsuda phải không?
 
 [05:00] いいえ、益田です。
-Romaji: Iie, Masuda desu.
 Nghĩa: Không, tôi là Masuda.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 [04:48] 質問: 名前は何ですか。
-Romaji: Namae wa nan desu ka.
 Nghĩa: Tên là gì?
 
 A. 益田です
@@ -42,22 +37,18 @@ Giải thích ngắn gọn: Người nói phủ nhận 松田 và nói 益田で
 ### 1. Script hội thoại
 
 [05:17] はじめまして。左脳です。
-Romaji: Hajimemashite. Sanou desu.
 Nghĩa: Rất vui được gặp. Tôi là Sanou.
 
 [05:17] 佐野さんですか。
-Romaji: Sano-san desu ka.
 Nghĩa: Anh/chị là Sano phải không?
 
 [05:17] いいえ、左脳です。
-Romaji: Iie, Sanou desu.
 Nghĩa: Không, tôi là Sanou.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: 名前は何ですか。
-Romaji: Namae wa nan desu ka.
 Nghĩa: Tên là gì?
 
 A. 左脳です
@@ -75,18 +66,15 @@ Giải thích ngắn gọn: Người nói không phải 佐野 mà là 左脳.
 ### 1. Script hội thoại
 
 [05:17] こんにちは。鈴木です。
-Romaji: Konnichiwa. Suzuki desu.
 Nghĩa: Xin chào. Tôi là Suzuki.
 
 [05:21] 鈴木さんですね。
-Romaji: Suzuki-san desu ne.
 Nghĩa: Anh/chị là Suzuki nhỉ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: 名前は何ですか。
-Romaji: Namae wa nan desu ka.
 Nghĩa: Tên là gì?
 
 A. 鈴木です
@@ -103,26 +91,21 @@ Giải thích ngắn gọn: Người đó tự giới thiệu là 鈴木です.
 ### 1. Script hội thoại
 
 [05:28] 失礼ですが、お名前は。
-Romaji: Shitsurei desu ga, onamae wa.
 Nghĩa: Xin lỗi, tên anh/chị là gì?
 
 [05:28] 後藤です。
-Romaji: Gotou desu.
 Nghĩa: Tôi là Goto.
 
 [05:28] 古藤さんですか。
-Romaji: Kodou-san desu ka.
 Nghĩa: Anh/chị là Kodou phải không?
 
 [05:28] いいえ、後藤です。
-Romaji: Iie, Gotou desu.
 Nghĩa: Không, tôi là Goto.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: 名前は何ですか。
-Romaji: Namae wa nan desu ka.
 Nghĩa: Tên là gì?
 
 A. 後藤です
@@ -140,22 +123,18 @@ Giải thích ngắn gọn: Người nói phủ nhận 古藤 và nói 後藤で
 ### 1. Script hội thoại
 
 [05:40] お国はAですか、Bですか。
-Romaji: Okuni wa A desu ka, B desu ka.
 Nghĩa: Quốc gia của bạn là A hay B?
 
 [05:53] はじめまして。王です。中国から来ました。
-Romaji: Hajimemashite. Wan desu. Chuugoku kara kimashita.
 Nghĩa: Rất vui được gặp. Tôi là Wang. Tôi đến từ Trung Quốc.
 
 [05:55] はじめまして。田中です。よろしくお願いします。
-Romaji: Hajimemashite. Tanaka desu. Yoroshiku onegai shimasu.
 Nghĩa: Rất vui được gặp. Tôi là Tanaka. Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: 王さんはどこの人ですか。
-Romaji: Wan-san wa doko no hito desu ka.
 Nghĩa: Wang là người nước nào?
 
 A. 中国です
@@ -172,22 +151,18 @@ Giải thích ngắn gọn: 王さん nói 中国から来ました.
 ### 1. Script hội thoại
 
 [06:18] みなさん、こちらはセンさんです。
-Romaji: Minasan, kochira wa Sen-san desu.
 Nghĩa: Mọi người, đây là Sen.
 
 [06:18] はじめまして。センです。インドから来ました。
-Romaji: Hajimemashite. Sen desu. Indo kara kimashita.
 Nghĩa: Rất vui được gặp. Tôi là Sen. Tôi đến từ Ấn Độ.
 
 [06:18] よろしくお願いします。
-Romaji: Yoroshiku onegai shimasu.
 Nghĩa: Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: センさんはどこの人ですか。
-Romaji: Sen-san wa doko no hito desu ka.
 Nghĩa: Sen là người nước nào?
 
 A. インドです
@@ -204,30 +179,24 @@ Giải thích ngắn gọn: センさん nói インドから来ました.
 ### 1. Script hội thoại
 
 [06:25] こんばんは、佐藤さん。
-Romaji: Konbanwa, Satou-san.
 Nghĩa: Chào buổi tối, anh/chị Sato.
 
 [06:25] あ、山田さん。
-Romaji: A, Yamada-san.
 Nghĩa: A, anh/chị Yamada.
 
 [06:25] 佐藤さん、こちらはジャンさんです。
-Romaji: Satou-san, kochira wa Jan-san desu.
 Nghĩa: Anh/chị Sato, đây là Jean.
 
 [06:25] ジャンです。フランスから来ました。
-Romaji: Jan desu. Furansu kara kimashita.
 Nghĩa: Tôi là Jean. Tôi đến từ Pháp.
 
 [06:31] はじめまして。佐藤です。よろしくお願いします。
-Romaji: Hajimemashite. Satou desu. Yoroshiku onegai shimasu.
 Nghĩa: Rất vui được gặp. Tôi là Sato. Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: ジャンさんはどこの人ですか。
-Romaji: Jan-san wa doko no hito desu ka.
 Nghĩa: Jean là người nước nào?
 
 A. フランスです
@@ -244,30 +213,24 @@ Giải thích ngắn gọn: ジャンさん nói フランスから来ました.
 ### 1. Script hội thoại
 
 [06:38] はじめまして。コールです。
-Romaji: Hajimemashite. Kooru desu.
 Nghĩa: Rất vui được gặp. Tôi là Cole.
 
 [06:38] キムさんですか。
-Romaji: Kimu-san desu ka.
 Nghĩa: Anh/chị là Kim phải không?
 
 [06:42] いいえ、コールです。
-Romaji: Iie, Kooru desu.
 Nghĩa: Không, tôi là Cole.
 
 [06:45] ドイツから来ました。
-Romaji: Doitsu kara kimashita.
 Nghĩa: Tôi đến từ Đức.
 
 [06:47] 山田です。よろしくお願いします。
-Romaji: Yamada desu. Yoroshiku onegai shimasu.
 Nghĩa: Tôi là Yamada. Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: コールさんはどこの人ですか。
-Romaji: Kooru-san wa doko no hito desu ka.
 Nghĩa: Cole là người nước nào?
 
 A. ドイツです
@@ -284,26 +247,21 @@ Giải thích ngắn gọn: コールさん nói ドイツから来ました.
 ### 1. Script hội thoại
 
 [06:54] 女の人の仕事は何ですか。
-Romaji: Onna no hito no shigoto wa nan desu ka.
 Nghĩa: Công việc của người phụ nữ là gì?
 
 [07:03] はじめまして。ワットです。イギリスから来ました。
-Romaji: Hajimemashite. Watto desu. Igirisu kara kimashita.
 Nghĩa: Rất vui được gặp. Tôi là Watt. Tôi đến từ Anh.
 
 [07:12] はじめまして。小林です。さくら大学の教師です。
-Romaji: Hajimemashite. Kobayashi desu. Sakura Daigaku no kyoushi desu.
 Nghĩa: Rất vui được gặp. Tôi là Kobayashi. Tôi là giáo viên Đại học Sakura.
 
 [07:18] あ、私も教師です。富士大学です。よろしくお願いします。
-Romaji: A, watashi mo kyoushi desu. Fuji Daigaku desu. Yoroshiku onegai shimasu.
 Nghĩa: À, tôi cũng là giáo viên. Tôi ở Đại học Fuji. Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 [06:54] 質問: 女の人の仕事は何ですか。
-Romaji: Onna no hito no shigoto wa nan desu ka.
 Nghĩa: Công việc của người phụ nữ là gì?
 
 A. 教師です
@@ -320,30 +278,24 @@ Giải thích ngắn gọn: 小林さん nói mình là さくら大学の教師
 ### 1. Script hội thoại
 
 [07:28] はじめまして。
-Romaji: Hajimemashite.
 Nghĩa: Rất vui được gặp.
 
 [07:33] 後藤です。
-Romaji: Gotou desu.
 Nghĩa: Tôi là Goto.
 
 [07:36] 後藤さんは教師ですか。
-Romaji: Gotou-san wa kyoushi desu ka.
 Nghĩa: Anh/chị Goto là giáo viên à?
 
 [07:40] いいえ、医者です。
-Romaji: Iie, isha desu.
 Nghĩa: Không, tôi là bác sĩ.
 
 [07:42] あ、私も医者です。
-Romaji: A, watashi mo isha desu.
 Nghĩa: À, tôi cũng là bác sĩ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: 後藤さんの仕事は何ですか。
-Romaji: Gotou-san no shigoto wa nan desu ka.
 Nghĩa: Công việc của Goto là gì?
 
 A. 医者です
@@ -360,30 +312,24 @@ Giải thích ngắn gọn: 後藤さん nói không phải giáo viên mà là 
 ### 1. Script hội thoại
 
 [07:45] シュミットさんですか。
-Romaji: Shumitto-san desu ka.
 Nghĩa: Anh/chị là Schmidt phải không?
 
 [07:47] はい、シュミットです。
-Romaji: Hai, Shumitto desu.
 Nghĩa: Vâng, tôi là Schmidt.
 
 [07:52] ドイツから来ました。
-Romaji: Doitsu kara kimashita.
 Nghĩa: Tôi đến từ Đức.
 
 [07:52] 山田です。銀行員です。
-Romaji: Yamada desu. Ginkouin desu.
 Nghĩa: Tôi là Yamada. Tôi là nhân viên ngân hàng.
 
 [07:55] エンジニアです。よろしくお願いします。
-Romaji: Enjinia desu. Yoroshiku onegai shimasu.
 Nghĩa: Tôi là kỹ sư. Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: シュミットさんの仕事は何ですか。
-Romaji: Shumitto-san no shigoto wa nan desu ka.
 Nghĩa: Công việc của Schmidt là gì?
 
 A. エンジニアです
@@ -400,30 +346,24 @@ Giải thích ngắn gọn: シュミットさん nói エンジニアです.
 ### 1. Script hội thoại
 
 [08:05] 失礼ですが、お名前は。
-Romaji: Shitsurei desu ga, onamae wa.
 Nghĩa: Xin lỗi, tên anh là gì?
 
 [08:07] ミラーです。アメリカから来ました。
-Romaji: Miraa desu. Amerika kara kimashita.
 Nghĩa: Tôi là Miller. Tôi đến từ Mỹ.
 
 [08:11] 林です。ミラーさんは会社員ですか。
-Romaji: Hayashi desu. Miraa-san wa kaishain desu ka.
 Nghĩa: Tôi là Hayashi. Anh Miller là nhân viên công ty à?
 
 [08:16] はい、IMCの社員です。よろしくお願いします。
-Romaji: Hai, IMC no shain desu. Yoroshiku onegai shimasu.
 Nghĩa: Vâng, tôi là nhân viên của IMC. Rất mong được giúp đỡ.
 
 [08:21] 私も会社員です。パワー電気の社員です。よろしくお願いします。
-Romaji: Watashi mo kaishain desu. Pawaa Denki no shain desu. Yoroshiku onegai shimasu.
 Nghĩa: Tôi cũng là nhân viên công ty. Tôi là nhân viên của Power Electric. Rất mong được giúp đỡ.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: ミラーさんの仕事は何ですか。
-Romaji: Miraa-san no shigoto wa nan desu ka.
 Nghĩa: Công việc của Miller là gì?
 
 A. 会社員です
@@ -440,26 +380,21 @@ Giải thích ngắn gọn: ミラーさん nói mình là IMCの社員です.
 ### 1. Script hội thoại
 
 [08:30] 何歳ですか。
-Romaji: Nansai desu ka.
 Nghĩa: Bao nhiêu tuổi?
 
 [08:35] 失礼ですが、ミラーさんは何歳ですか。
-Romaji: Shitsurei desu ga, Miraa-san wa nansai desu ka.
 Nghĩa: Xin lỗi, anh Miller bao nhiêu tuổi?
 
 [08:39] 28歳です。
-Romaji: Nijuuhassai desu.
 Nghĩa: 28 tuổi.
 
 [08:39] そうですか。私も28歳です。
-Romaji: Sou desu ka. Watashi mo nijuuhassai desu.
 Nghĩa: Vậy à. Tôi cũng 28 tuổi.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 [08:30] 質問: ミラーさんは何歳ですか。
-Romaji: Miraa-san wa nansai desu ka.
 Nghĩa: Miller bao nhiêu tuổi?
 
 A. 28歳です
@@ -476,30 +411,24 @@ Giải thích ngắn gọn: Miller nói 28歳です.
 ### 1. Script hội thoại
 
 [08:45] あの人は誰ですか。
-Romaji: Ano hito wa dare desu ka.
 Nghĩa: Người kia là ai?
 
 [08:47] あの人は益田さんです。
-Romaji: Ano hito wa Masuda-san desu.
 Nghĩa: Người kia là Masuda.
 
 [08:49] 神戸病院の医者です。
-Romaji: Koube Byouin no isha desu.
 Nghĩa: Là bác sĩ của bệnh viện Kobe.
 
 [08:51] 何歳ですか。
-Romaji: Nansai desu ka.
 Nghĩa: Bao nhiêu tuổi?
 
 [08:56] 71歳です。
-Romaji: Nanajuuissai desu.
 Nghĩa: 71 tuổi.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: 益田さんは何歳ですか。
-Romaji: Masuda-san wa nansai desu ka.
 Nghĩa: Masuda bao nhiêu tuổi?
 
 A. 71歳です
@@ -516,26 +445,21 @@ Giải thích ngắn gọn: Người kia nói 71歳です.
 ### 1. Script hội thoại
 
 [09:00] あれは菜々子ちゃんですか。
-Romaji: Are wa Nanako-chan desu ka.
 Nghĩa: Kia là bé Nanako à?
 
 [09:02] はい。
-Romaji: Hai.
 Nghĩa: Vâng.
 
 [09:04] 菜々子ちゃんは何歳ですか。
-Romaji: Nanako-chan wa nansai desu ka.
 Nghĩa: Bé Nanako bao nhiêu tuổi?
 
 [09:04] 8歳です。
-Romaji: Hassai desu.
 Nghĩa: 8 tuổi.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: 菜々子ちゃんは何歳ですか。
-Romaji: Nanako-chan wa nansai desu ka.
 Nghĩa: Bé Nanako bao nhiêu tuổi?
 
 A. 8歳です
@@ -552,30 +476,24 @@ Giải thích ngắn gọn: Người kia trả lời 8歳です.
 ### 1. Script hội thoại
 
 [09:10] あの人はケリーさんですか。
-Romaji: Ano hito wa Kerii-san desu ka.
 Nghĩa: Người kia là Kelly à?
 
 [09:13] あの人はケリーさんです。
-Romaji: Ano hito wa Kerii-san desu.
 Nghĩa: Người kia là Kelly.
 
 [09:13] 何歳ですか。
-Romaji: Nansai desu ka.
 Nghĩa: Bao nhiêu tuổi?
 
 [09:18] ケリーさんは……ええと……26歳です。
-Romaji: Kerii-san wa... eeto... nijuurokusai desu.
 Nghĩa: Kelly thì... ừm... 26 tuổi.
 
 [09:20] そうですか。
-Romaji: Sou desu ka.
 Nghĩa: Vậy à.
 
 ### 2. Câu hỏi trắc nghiệm
 
 Câu 1:
 質問: ケリーさんは何歳ですか。
-Romaji: Kerii-san wa nansai desu ka.
 Nghĩa: Kelly bao nhiêu tuổi?
 
 A. 26歳です

@@ -11,14 +11,14 @@ quiz-data/
 
 Mỗi file CSV là một nhóm bài, có header:
 
-group_id,group_title,lesson,question_no,question_jp,romaji,meaning_vi,option_a,option_b,option_c,option_d
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
 
 Yêu cầu:
 - App đọc toàn bộ file CSV trong thư mục quiz-data.
 - Mỗi file render thành một nhóm bài riêng.
 - Lấy group_title và lesson từ dữ liệu CSV.
 - Câu hỏi sort theo question_no tăng dần.
-- Mỗi câu hiển thị tiếng Nhật, romaji, nghĩa tiếng Việt, 4 lựa chọn A/B/C/D dạng radio.
+- Mỗi câu hiển thị tiếng Nhật, nghĩa tiếng Việt, 4 lựa chọn A/B/C/D dạng radio.
 - Người dùng chọn đáp án.
 - Bấm “Xác nhận” thì hiển thị:
   Câu 1: đã chọn A

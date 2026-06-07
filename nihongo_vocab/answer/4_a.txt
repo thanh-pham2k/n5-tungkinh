@@ -1,162 +1,162 @@
-| Câu   | Đáp án | Từ đúng            | Hiragana           | Romaji                         | Nghĩa / giải thích ngắn |
-| ----- | ------ | ------------------ | ------------------ | ------------------------------ | ----------------------- |
-| 1.1   | B      | おきます               | おきます               | okimasu                        | thức dậy                |
-| 1.2   | A      | ねます                | ねます                | nemasu                         | ngủ                     |
-| 1.3   | C      | はたらきます             | はたらきます             | hatarakimasu                   | làm việc                |
-| 1.4   | B      | やすみます              | やすみます              | yasumimasu                     | nghỉ                    |
-| 1.5   | A      | べんきょうします           | べんきょうします           | benkyou shimasu                | học                     |
-| 1.6   | B      | おわります              | おわります              | owarimasu                      | kết thúc                |
-| 1.7   | A      | まいあさ おきます          | まいあさ おきます          | maiasa okimasu                 | mỗi sáng thức dậy       |
-| 1.8   | A      | まいばん ねます           | まいばん ねます           | maiban nemasu                  | mỗi tối ngủ             |
-| 1.9   | A      | ぎんこうで はたらきます       | ぎんこうで はたらきます       | ginkou de hatarakimasu         | làm việc ở ngân hàng    |
-| 1.10  | A      | べんきょうは 5じに おわります   | べんきょうは ごじに おわります   | benkyou wa goji ni owarimasu   | học kết thúc lúc 5 giờ  |
-| 2.1   | B      | デパート               | デパート               | depaato                        | trung tâm thương mại    |
-| 2.2   | A      | ぎんこう               | ぎんこう               | ginkou                         | ngân hàng               |
-| 2.3   | A      | ゆうびんきょく            | ゆうびんきょく            | yuubinkyoku                    | bưu điện                |
-| 2.4   | A      | としょかん              | としょかん              | toshokan                       | thư viện                |
-| 2.5   | A      | びじゅつかん             | びじゅつかん             | bijutsukan                     | bảo tàng mỹ thuật       |
-| 2.6   | A      | デパートは 10じからです      | デパートは じゅうじからです     | depaato wa juuji kara desu     | từ 10 giờ               |
-| 2.7   | A      | ぎんこうは 3じまでです       | ぎんこうは さんじまでです      | ginkou wa sanji made desu      | đến 3 giờ               |
-| 2.8   | A      | としょかんで べんきょうします    | としょかんで べんきょうします    | toshokan de benkyou shimasu    | học ở thư viện          |
-| 2.9   | A      | ゆうびんきょくは どこですか     | ゆうびんきょくは どこですか     | yuubinkyoku wa doko desu ka    | bưu điện ở đâu          |
-| 2.10  | A      | びじゅつかんは きょう やすみです  | びじゅつかんは きょう やすみです  | bijutsukan wa kyou yasumi desu | hôm nay bảo tàng nghỉ   |
-| 3.1   | B      | いま                 | いま                 | ima                            | bây giờ                 |
-| 3.2   | A      | 〜じ                 | じ                  | ji                             | ... giờ                 |
-| 3.3   | A      | 〜ふん / 〜ぷん          | ふん / ぷん            | fun / pun                      | ... phút                |
-| 3.4   | A      | はん                 | はん                 | han                            | rưỡi / nửa              |
-| 3.5   | A      | なんじ                | なんじ                | nanji                          | mấy giờ                 |
-| 3.6   | A      | なんぷん               | なんぷん               | nanpun                         | mấy phút                |
-| 3.7   | A      | ごぜん                | ごぜん                | gozen                          | buổi sáng / AM          |
-| 3.8   | A      | ごご                 | ごご                 | gogo                           | buổi chiều / PM         |
-| 3.9   | A      | いま なんじですか          | いま なんじですか          | ima nanji desu ka              | bây giờ mấy giờ         |
-| 3.10  | A      | 7じ はん              | しちじ はん             | shichiji han                   | 7 giờ rưỡi              |
-| 4.1   | A      | あさ                 | あさ                 | asa                            | buổi sáng               |
-| 4.2   | A      | ひる                 | ひる                 | hiru                           | buổi trưa               |
-| 4.3   | A      | ばん / よる            | ばん / よる            | ban / yoru                     | buổi tối / đêm          |
-| 4.4   | A      | おととい               | おととい               | ototoi                         | hôm kia                 |
-| 4.5   | A      | きのう                | きのう                | kinou                          | hôm qua                 |
-| 4.6   | A      | きょう                | きょう                | kyou                           | hôm nay                 |
-| 4.7   | A      | あした                | あした                | ashita                         | ngày mai                |
-| 4.8   | A      | あさって               | あさって               | asatte                         | ngày kia                |
-| 4.9   | A      | けさ                 | けさ                 | kesa                           | sáng nay                |
-| 4.10  | A      | こんばん               | こんばん               | konban                         | tối nay                 |
-| 5.1   | A      | やすみ                | やすみ                | yasumi                         | nghỉ / ngày nghỉ        |
-| 5.2   | A      | ひるやすみ              | ひるやすみ              | hiruyasumi                     | nghỉ trưa               |
-| 5.3   | A      | まいあさ               | まいあさ               | maiasa                         | mỗi sáng                |
-| 5.4   | A      | まいばん               | まいばん               | maiban                         | mỗi tối                 |
-| 5.5   | A      | まいにち               | まいにち               | mainichi                       | mỗi ngày                |
-| 5.6   | A      | げつようび              | げつようび              | getsuyoubi                     | thứ Hai                 |
-| 5.7   | A      | かようび               | かようび               | kayoubi                        | thứ Ba                  |
-| 5.8   | A      | すいようび              | すいようび              | suiyoubi                       | thứ Tư                  |
-| 5.9   | A      | もくようび              | もくようび              | mokuyoubi                      | thứ Năm                 |
-| 5.10  | A      | きんようび              | きんようび              | kinyoubi                       | thứ Sáu                 |
-| 6.1   | A      | どようび               | どようび               | doyoubi                        | thứ Bảy                 |
-| 6.2   | A      | にちようび              | にちようび              | nichiyoubi                     | Chủ nhật                |
-| 6.3   | A      | なんようび              | なんようび              | nanyoubi                       | thứ mấy                 |
-| 6.4   | A      | 〜から                | から                 | kara                           | từ...                   |
-| 6.5   | A      | 〜まで                | まで                 | made                           | đến...                  |
-| 6.6   | A      | 〜と〜                | と                  | to                             | ... và ...              |
-| 6.7   | A      | たいへんですね            | たいへんですね            | taihen desu ne                 | vất vả nhỉ              |
-| 6.8   | A      | ばんごう               | ばんごう               | bangou                         | số                      |
-| 6.9   | A      | なんばん               | なんばん               | nanban                         | số mấy                  |
-| 6.10  | A      | そちら                | そちら                | sochira                        | phía đó / bên đó        |
-| 7.1   | A      | ニューヨーク             | ニューヨーク             | nyuu yooku                     | New York                |
-| 7.2   | A      | ペキン                | ペキン                | pekin                          | Bắc Kinh                |
-| 7.3   | A      | ロンドン               | ロンドン               | rondon                         | London                  |
-| 7.4   | A      | バンコク               | バンコク               | bankoku                        | Bangkok                 |
-| 7.5   | A      | ロサンゼルス             | ロサンゼルス             | rosanzerusu                    | Los Angeles             |
-| 7.6   | A      | ペキンは いま なんじですか     | ペキンは いま なんじですか     | pekin wa ima nanji desu ka     | Bắc Kinh mấy giờ        |
-| 7.7   | A      | ロンドンは ごぜん 8じです     | ロンドンは ごぜん はちじです    | rondon wa gozen hachiji desu   | London 8 giờ sáng       |
-| 7.8   | A      | ニューヨークは ごご 3じです    | ニューヨークは ごご さんじです   | nyuu yooku wa gogo sanji desu  | New York 3 giờ chiều    |
-| 7.9   | A      | バンコクは きょう あついです    | バンコクは きょう あついです    | bankoku wa kyou atsui desu     | Bangkok hôm nay nóng    |
-| 7.10  | A      | ロサンゼルスは あしたです      | ロサンゼルスは あしたです      | rosanzerusu wa ashita desu     | Los Angeles là ngày mai |
-| 8.1   | A      | おきます               | おきます               | okimasu                        | thức dậy                |
-| 8.2   | A      | ねます                | ねます                | nemasu                         | ngủ                     |
-| 8.3   | A      | はたらきます             | はたらきます             | hatarakimasu                   | làm việc                |
-| 8.4   | A      | やすみます              | やすみます              | yasumimasu                     | nghỉ                    |
-| 8.5   | A      | べんきょうします           | べんきょうします           | benkyou shimasu                | học                     |
-| 8.6   | A      | おわります              | おわります              | owarimasu                      | kết thúc                |
-| 8.7   | A      | デパート               | デパート               | depaato                        | trung tâm thương mại    |
-| 8.8   | A      | ぎんこう               | ぎんこう               | ginkou                         | ngân hàng               |
-| 8.9   | A      | ゆうびんきょく            | ゆうびんきょく            | yuubinkyoku                    | bưu điện                |
-| 8.10  | A      | としょかん              | としょかん              | toshokan                       | thư viện                |
-| 9.1   | A      | いま                 | いま                 | ima                            | bây giờ                 |
-| 9.2   | A      | なんじ                | なんじ                | nanji                          | mấy giờ                 |
-| 9.3   | A      | なんぷん               | なんぷん               | nanpun                         | mấy phút                |
-| 9.4   | A      | ごぜん                | ごぜん                | gozen                          | buổi sáng / AM          |
-| 9.5   | A      | ごご                 | ごご                 | gogo                           | buổi chiều / PM         |
-| 9.6   | A      | あさ                 | あさ                 | asa                            | buổi sáng               |
-| 9.7   | A      | ひる                 | ひる                 | hiru                           | buổi trưa               |
-| 9.8   | A      | ばん / よる            | ばん / よる            | ban / yoru                     | buổi tối / đêm          |
-| 9.9   | A      | きょう                | きょう                | kyou                           | hôm nay                 |
-| 9.10  | A      | あした                | あした                | ashita                         | ngày mai                |
-| 10.1  | A      | あさって               | あさって               | asatte                         | ngày kia                |
-| 10.2  | A      | けさ                 | けさ                 | kesa                           | sáng nay                |
-| 10.3  | A      | こんばん               | こんばん               | konban                         | tối nay                 |
-| 10.4  | A      | まいにち               | まいにち               | mainichi                       | mỗi ngày                |
-| 10.5  | A      | げつようび              | げつようび              | getsuyoubi                     | thứ Hai                 |
-| 10.6  | A      | きんようび              | きんようび              | kinyoubi                       | thứ Sáu                 |
-| 10.7  | A      | にちようび              | にちようび              | nichiyoubi                     | Chủ nhật                |
-| 10.8  | A      | なんようび              | なんようび              | nanyoubi                       | thứ mấy                 |
-| 10.9  | A      | たいへんですね            | たいへんですね            | taihen desu ne                 | vất vả nhỉ              |
-| 10.10 | A      | なんばん               | なんばん               | nanban                         | số mấy                  |
-| 11.1  | A      | おきます               | おきます               | okimasu                        | thức dậy                |
-| 11.2  | A      | ねます                | ねます                | nemasu                         | ngủ                     |
-| 11.3  | A      | はたらきます             | はたらきます             | hatarakimasu                   | làm việc                |
-| 11.4  | A      | やすみます              | やすみます              | yasumimasu                     | nghỉ                    |
-| 11.5  | A      | べんきょうします           | べんきょうします           | benkyou shimasu                | học                     |
-| 11.6  | A      | おわります              | おわります              | owarimasu                      | kết thúc                |
-| 11.7  | A      | なんじ                | なんじ                | nanji                          | mấy giờ                 |
-| 11.8  | A      | から                 | から                 | kara                           | từ                      |
-| 11.9  | A      | まで                 | まで                 | made                           | đến                     |
-| 11.10 | A      | から                 | から                 | kara                           | từ                      |
-| 12.1  | A      | 今（いま）              | いま                 | ima                            | bây giờ                 |
-| 12.2  | A      | 時（じ）               | じ                  | ji                             | giờ                     |
-| 12.3  | A      | 半（はん）              | はん                 | han                            | nửa / rưỡi              |
-| 12.4  | A      | 午前（ごぜん）            | ごぜん                | gozen                          | buổi sáng / AM          |
-| 12.5  | A      | 午後（ごご）             | ごご                 | gogo                           | buổi chiều / PM         |
-| 12.6  | A      | 朝（あさ）              | あさ                 | asa                            | buổi sáng               |
-| 12.7  | A      | 昼（ひる）              | ひる                 | hiru                           | buổi trưa               |
-| 12.8  | A      | 夜（よる）              | よる                 | yoru                           | buổi tối / đêm          |
-| 12.9  | A      | 今日（きょう）            | きょう                | kyou                           | hôm nay                 |
-| 12.10 | A      | 明日（あした）            | あした                | ashita                         | ngày mai                |
-| 13.1  | A      | 今（いま）              | いま                 | ima                            | bây giờ                 |
-| 13.2  | A      | 時（じ）               | じ                  | ji                             | giờ                     |
-| 13.3  | A      | 分（ふん）              | ふん                 | fun                            | phút                    |
-| 13.4  | A      | 半（はん）              | はん                 | han                            | nửa / rưỡi              |
-| 13.5  | A      | 午前（ごぜん）            | ごぜん                | gozen                          | buổi sáng / AM          |
-| 13.6  | A      | 午後（ごご）             | ごご                 | gogo                           | buổi chiều / PM         |
-| 13.7  | A      | 朝（あさ）              | あさ                 | asa                            | buổi sáng               |
-| 13.8  | A      | 昼（ひる）              | ひる                 | hiru                           | buổi trưa               |
-| 13.9  | A      | 夜（よる）              | よる                 | yoru                           | buổi tối / đêm          |
-| 13.10 | A      | 今日（きょう）            | きょう                | kyou                           | hôm nay                 |
-| 14.1  | A      | おきます               | おきます               | okimasu                        | động từ sinh hoạt       |
-| 14.2  | A      | としょかん              | としょかん              | toshokan                       | địa điểm                |
-| 14.3  | A      | あさ                 | あさ                 | asa                            | thời gian trong ngày    |
-| 14.4  | A      | あした                | あした                | ashita                         | ngày                    |
-| 14.5  | A      | すいようび              | すいようび              | suiyoubi                       | thứ trong tuần          |
-| 14.6  | A      | ロンドン               | ロンドン               | rondon                         | thành phố               |
-| 14.7  | A      | なんじ                | なんじ                | nanji                          | hỏi thời gian           |
-| 14.8  | A      | 〜から                | から                 | kara                           | khoảng thời gian        |
-| 14.9  | A      | やすみ                | やすみ                | yasumi                         | ngày nghỉ               |
-| 14.10 | A      | ばんごう               | ばんごう               | bangou                         | số / mã số              |
-| 15.1  | A      | おきます / ねます         | おきます / ねます         | okimasu / nemasu               | thức dậy / ngủ          |
-| 15.2  | A      | はたらきます / べんきょうします  | はたらきます / べんきょうします  | hatarakimasu / benkyou shimasu | làm việc / học          |
-| 15.3  | A      | やすみます / やすみ        | やすみます / やすみ        | yasumimasu / yasumi            | động từ / danh từ       |
-| 15.4  | A      | いま / きょう           | いま / きょう           | ima / kyou                     | bây giờ / hôm nay       |
-| 15.5  | A      | ごぜん / ごご           | ごぜん / ごご           | gozen / gogo                   | AM / PM                 |
-| 15.6  | A      | あさ / けさ            | あさ / けさ            | asa / kesa                     | buổi sáng / sáng nay    |
-| 15.7  | A      | ばん・よる / こんばん       | ばん・よる / こんばん       | ban・yoru / konban              | tối / tối nay           |
-| 15.8  | A      | きのう / きょう / あした    | きのう / きょう / あした    | kinou / kyou / ashita          | hôm qua / nay / mai     |
-| 15.9  | A      | まいあさ / まいばん / まいにち | まいあさ / まいばん / まいにち | maiasa / maiban / mainichi     | mỗi sáng / tối / ngày   |
-| 15.10 | A      | 〜から / 〜まで          | から / まで            | kara / made                    | từ / đến                |
-| 16.1  | A      | に                  | に                  | ni                             | mốc thời gian           |
-| 16.2  | A      | に                  | に                  | ni                             | mốc thời gian           |
-| 16.3  | A      | で                  | で                  | de                             | nơi hành động           |
-| 16.4  | A      | で                  | で                  | de                             | nơi hành động           |
-| 16.5  | A      | から                 | から                 | kara                           | từ                      |
-| 16.6  | A      | まで                 | まで                 | made                           | đến                     |
-| 16.7  | A      | から                 | から                 | kara                           | từ                      |
-| 16.8  | A      | から                 | から                 | kara                           | từ                      |
-| 16.9  | A      | ですか                | ですか                | desu ka                        | câu hỏi                 |
-| 16.10 | A      | ですか                | ですか                | desu ka                        | câu hỏi                 |
+| Câu | Đáp án | Từ đúng | Hiragana | Nghĩa / giải thích ngắn |
+| --- | --- | --- | --- | --- |
+| 1.1 | B | おきます | おきます | thức dậy |
+| 1.2 | A | ねます | ねます | ngủ |
+| 1.3 | C | はたらきます | はたらきます | làm việc |
+| 1.4 | B | やすみます | やすみます | nghỉ |
+| 1.5 | A | べんきょうします | べんきょうします | học |
+| 1.6 | B | おわります | おわります | kết thúc |
+| 1.7 | A | まいあさ おきます | まいあさ おきます | mỗi sáng thức dậy |
+| 1.8 | A | まいばん ねます | まいばん ねます | mỗi tối ngủ |
+| 1.9 | A | ぎんこうで はたらきます | ぎんこうで はたらきます | làm việc ở ngân hàng |
+| 1.10 | A | べんきょうは 5じに おわります | べんきょうは ごじに おわります | học kết thúc lúc 5 giờ |
+| 2.1 | B | デパート | デパート | trung tâm thương mại |
+| 2.2 | A | ぎんこう | ぎんこう | ngân hàng |
+| 2.3 | A | ゆうびんきょく | ゆうびんきょく | bưu điện |
+| 2.4 | A | としょかん | としょかん | thư viện |
+| 2.5 | A | びじゅつかん | びじゅつかん | bảo tàng mỹ thuật |
+| 2.6 | A | デパートは 10じからです | デパートは じゅうじからです | từ 10 giờ |
+| 2.7 | A | ぎんこうは 3じまでです | ぎんこうは さんじまでです | đến 3 giờ |
+| 2.8 | A | としょかんで べんきょうします | としょかんで べんきょうします | học ở thư viện |
+| 2.9 | A | ゆうびんきょくは どこですか | ゆうびんきょくは どこですか | bưu điện ở đâu |
+| 2.10 | A | びじゅつかんは きょう やすみです | びじゅつかんは きょう やすみです | hôm nay bảo tàng nghỉ |
+| 3.1 | B | いま | いま | bây giờ |
+| 3.2 | A | 〜じ | じ | ... giờ |
+| 3.3 | A | 〜ふん / 〜ぷん | ふん / ぷん | ... phút |
+| 3.4 | A | はん | はん | rưỡi / nửa |
+| 3.5 | A | なんじ | なんじ | mấy giờ |
+| 3.6 | A | なんぷん | なんぷん | mấy phút |
+| 3.7 | A | ごぜん | ごぜん | buổi sáng / AM |
+| 3.8 | A | ごご | ごご | buổi chiều / PM |
+| 3.9 | A | いま なんじですか | いま なんじですか | bây giờ mấy giờ |
+| 3.10 | A | 7じ はん | しちじ はん | 7 giờ rưỡi |
+| 4.1 | A | あさ | あさ | buổi sáng |
+| 4.2 | A | ひる | ひる | buổi trưa |
+| 4.3 | A | ばん / よる | ばん / よる | buổi tối / đêm |
+| 4.4 | A | おととい | おととい | hôm kia |
+| 4.5 | A | きのう | きのう | hôm qua |
+| 4.6 | A | きょう | きょう | hôm nay |
+| 4.7 | A | あした | あした | ngày mai |
+| 4.8 | A | あさって | あさって | ngày kia |
+| 4.9 | A | けさ | けさ | sáng nay |
+| 4.10 | A | こんばん | こんばん | tối nay |
+| 5.1 | A | やすみ | やすみ | nghỉ / ngày nghỉ |
+| 5.2 | A | ひるやすみ | ひるやすみ | nghỉ trưa |
+| 5.3 | A | まいあさ | まいあさ | mỗi sáng |
+| 5.4 | A | まいばん | まいばん | mỗi tối |
+| 5.5 | A | まいにち | まいにち | mỗi ngày |
+| 5.6 | A | げつようび | げつようび | thứ Hai |
+| 5.7 | A | かようび | かようび | thứ Ba |
+| 5.8 | A | すいようび | すいようび | thứ Tư |
+| 5.9 | A | もくようび | もくようび | thứ Năm |
+| 5.10 | A | きんようび | きんようび | thứ Sáu |
+| 6.1 | A | どようび | どようび | thứ Bảy |
+| 6.2 | A | にちようび | にちようび | Chủ nhật |
+| 6.3 | A | なんようび | なんようび | thứ mấy |
+| 6.4 | A | 〜から | から | từ... |
+| 6.5 | A | 〜まで | まで | đến... |
+| 6.6 | A | 〜と〜 | と | ... và ... |
+| 6.7 | A | たいへんですね | たいへんですね | vất vả nhỉ |
+| 6.8 | A | ばんごう | ばんごう | số |
+| 6.9 | A | なんばん | なんばん | số mấy |
+| 6.10 | A | そちら | そちら | phía đó / bên đó |
+| 7.1 | A | ニューヨーク | ニューヨーク | New York |
+| 7.2 | A | ペキン | ペキン | Bắc Kinh |
+| 7.3 | A | ロンドン | ロンドン | London |
+| 7.4 | A | バンコク | バンコク | Bangkok |
+| 7.5 | A | ロサンゼルス | ロサンゼルス | Los Angeles |
+| 7.6 | A | ペキンは いま なんじですか | ペキンは いま なんじですか | Bắc Kinh mấy giờ |
+| 7.7 | A | ロンドンは ごぜん 8じです | ロンドンは ごぜん はちじです | London 8 giờ sáng |
+| 7.8 | A | ニューヨークは ごご 3じです | ニューヨークは ごご さんじです | New York 3 giờ chiều |
+| 7.9 | A | バンコクは きょう あついです | バンコクは きょう あついです | Bangkok hôm nay nóng |
+| 7.10 | A | ロサンゼルスは あしたです | ロサンゼルスは あしたです | Los Angeles là ngày mai |
+| 8.1 | A | おきます | おきます | thức dậy |
+| 8.2 | A | ねます | ねます | ngủ |
+| 8.3 | A | はたらきます | はたらきます | làm việc |
+| 8.4 | A | やすみます | やすみます | nghỉ |
+| 8.5 | A | べんきょうします | べんきょうします | học |
+| 8.6 | A | おわります | おわります | kết thúc |
+| 8.7 | A | デパート | デパート | trung tâm thương mại |
+| 8.8 | A | ぎんこう | ぎんこう | ngân hàng |
+| 8.9 | A | ゆうびんきょく | ゆうびんきょく | bưu điện |
+| 8.10 | A | としょかん | としょかん | thư viện |
+| 9.1 | A | いま | いま | bây giờ |
+| 9.2 | A | なんじ | なんじ | mấy giờ |
+| 9.3 | A | なんぷん | なんぷん | mấy phút |
+| 9.4 | A | ごぜん | ごぜん | buổi sáng / AM |
+| 9.5 | A | ごご | ごご | buổi chiều / PM |
+| 9.6 | A | あさ | あさ | buổi sáng |
+| 9.7 | A | ひる | ひる | buổi trưa |
+| 9.8 | A | ばん / よる | ばん / よる | buổi tối / đêm |
+| 9.9 | A | きょう | きょう | hôm nay |
+| 9.10 | A | あした | あした | ngày mai |
+| 10.1 | A | あさって | あさって | ngày kia |
+| 10.2 | A | けさ | けさ | sáng nay |
+| 10.3 | A | こんばん | こんばん | tối nay |
+| 10.4 | A | まいにち | まいにち | mỗi ngày |
+| 10.5 | A | げつようび | げつようび | thứ Hai |
+| 10.6 | A | きんようび | きんようび | thứ Sáu |
+| 10.7 | A | にちようび | にちようび | Chủ nhật |
+| 10.8 | A | なんようび | なんようび | thứ mấy |
+| 10.9 | A | たいへんですね | たいへんですね | vất vả nhỉ |
+| 10.10 | A | なんばん | なんばん | số mấy |
+| 11.1 | A | おきます | おきます | thức dậy |
+| 11.2 | A | ねます | ねます | ngủ |
+| 11.3 | A | はたらきます | はたらきます | làm việc |
+| 11.4 | A | やすみます | やすみます | nghỉ |
+| 11.5 | A | べんきょうします | べんきょうします | học |
+| 11.6 | A | おわります | おわります | kết thúc |
+| 11.7 | A | なんじ | なんじ | mấy giờ |
+| 11.8 | A | から | から | từ |
+| 11.9 | A | まで | まで | đến |
+| 11.10 | A | から | から | từ |
+| 12.1 | A | 今（いま） | いま | bây giờ |
+| 12.2 | A | 時（じ） | じ | giờ |
+| 12.3 | A | 半（はん） | はん | nửa / rưỡi |
+| 12.4 | A | 午前（ごぜん） | ごぜん | buổi sáng / AM |
+| 12.5 | A | 午後（ごご） | ごご | buổi chiều / PM |
+| 12.6 | A | 朝（あさ） | あさ | buổi sáng |
+| 12.7 | A | 昼（ひる） | ひる | buổi trưa |
+| 12.8 | A | 夜（よる） | よる | buổi tối / đêm |
+| 12.9 | A | 今日（きょう） | きょう | hôm nay |
+| 12.10 | A | 明日（あした） | あした | ngày mai |
+| 13.1 | A | 今（いま） | いま | bây giờ |
+| 13.2 | A | 時（じ） | じ | giờ |
+| 13.3 | A | 分（ふん） | ふん | phút |
+| 13.4 | A | 半（はん） | はん | nửa / rưỡi |
+| 13.5 | A | 午前（ごぜん） | ごぜん | buổi sáng / AM |
+| 13.6 | A | 午後（ごご） | ごご | buổi chiều / PM |
+| 13.7 | A | 朝（あさ） | あさ | buổi sáng |
+| 13.8 | A | 昼（ひる） | ひる | buổi trưa |
+| 13.9 | A | 夜（よる） | よる | buổi tối / đêm |
+| 13.10 | A | 今日（きょう） | きょう | hôm nay |
+| 14.1 | A | おきます | おきます | động từ sinh hoạt |
+| 14.2 | A | としょかん | としょかん | địa điểm |
+| 14.3 | A | あさ | あさ | thời gian trong ngày |
+| 14.4 | A | あした | あした | ngày |
+| 14.5 | A | すいようび | すいようび | thứ trong tuần |
+| 14.6 | A | ロンドン | ロンドン | thành phố |
+| 14.7 | A | なんじ | なんじ | hỏi thời gian |
+| 14.8 | A | 〜から | から | khoảng thời gian |
+| 14.9 | A | やすみ | やすみ | ngày nghỉ |
+| 14.10 | A | ばんごう | ばんごう | số / mã số |
+| 15.1 | A | おきます / ねます | おきます / ねます | thức dậy / ngủ |
+| 15.2 | A | はたらきます / べんきょうします | はたらきます / べんきょうします | làm việc / học |
+| 15.3 | A | やすみます / やすみ | やすみます / やすみ | động từ / danh từ |
+| 15.4 | A | いま / きょう | いま / きょう | bây giờ / hôm nay |
+| 15.5 | A | ごぜん / ごご | ごぜん / ごご | AM / PM |
+| 15.6 | A | あさ / けさ | あさ / けさ | buổi sáng / sáng nay |
+| 15.7 | A | ばん・よる / こんばん | ばん・よる / こんばん | tối / tối nay |
+| 15.8 | A | きのう / きょう / あした | きのう / きょう / あした | hôm qua / nay / mai |
+| 15.9 | A | まいあさ / まいばん / まいにち | まいあさ / まいばん / まいにち | mỗi sáng / tối / ngày |
+| 15.10 | A | 〜から / 〜まで | から / まで | từ / đến |
+| 16.1 | A | に | に | mốc thời gian |
+| 16.2 | A | に | に | mốc thời gian |
+| 16.3 | A | で | で | nơi hành động |
+| 16.4 | A | で | で | nơi hành động |
+| 16.5 | A | から | から | từ |
+| 16.6 | A | まで | まで | đến |
+| 16.7 | A | から | から | từ |
+| 16.8 | A | から | から | từ |
+| 16.9 | A | ですか | ですか | câu hỏi |
+| 16.10 | A | ですか | ですか | câu hỏi |
