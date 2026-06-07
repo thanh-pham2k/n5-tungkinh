@@ -276,6 +276,31 @@ Dữ liệu bài làm:
     }, {});
   };
 
+  const appendQuestionText = (element, text) => {
+    const markerPattern = /【([^】]+)】|（\s*）|\(\s*\)|[＿_]{2,}/g;
+    let cursor = 0;
+    let match = markerPattern.exec(text);
+
+    while (match) {
+      if (match.index > cursor) {
+        element.appendChild(document.createTextNode(text.slice(cursor, match.index)));
+      }
+
+      const span = document.createElement("span");
+      const isTarget = Boolean(match[1]);
+      span.className = isTarget ? "quiz-target" : "quiz-blank";
+      span.textContent = isTarget ? match[1] : match[0];
+      element.appendChild(span);
+
+      cursor = markerPattern.lastIndex;
+      match = markerPattern.exec(text);
+    }
+
+    if (cursor < text.length) {
+      element.appendChild(document.createTextNode(text.slice(cursor)));
+    }
+  };
+
   const buildReviewCopyText = (group) => {
     const lines = [
       REVIEW_PROMPT,
@@ -538,7 +563,7 @@ Dữ liệu bài làm:
 
     const jp = document.createElement("p");
     jp.className = "quiz-jp";
-    jp.textContent = question.questionJp;
+    appendQuestionText(jp, question.questionJp);
 
     const romaji = document.createElement("p");
     romaji.className = "quiz-romaji";
