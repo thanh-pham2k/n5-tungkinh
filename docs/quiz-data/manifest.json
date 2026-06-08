@@ -599,6 +599,19 @@
         "voc_mina_9__14_chon_kanji_dung.csv",
         "voc_mina_9__15_chon_tu_cung_nhom_chu_de.csv",
         "voc_mina_9__16_phan_biet_tu_de_nham.csv",
-        "voc_mina_9__17_chon_tro_tu_cum_phu_hop.csv"
+        "voc_mina_9__17_chon_tro_tu_cum_phu_hop.csv",
+        "jlpt_n5_t7_2025__01_kanji_hiragana.csv",
+        "jlpt_n5_t7_2025__02_hiragana_kanji.csv",
+        "jlpt_n5_t7_2025__03_tu_vung_dien_cho_trong.csv",
+        "jlpt_n5_t7_2025__04_cau_dong_nghia.csv",
+        "jlpt_n5_t7_2025__05_ngu_phap_dien_cho_trong.csv",
+        "jlpt_n5_t7_2025__06_sap_xep_cau_star.csv",
+        "jlpt_n5_t7_2025__07_doc_hieu_dien_cho_trong.csv",
+        "jlpt_n5_zettai_goukaku_de3__01_kanji_hiragana.csv",
+        "jlpt_n5_zettai_goukaku_de3__02_hiragana_kanji.csv",
+        "jlpt_n5_zettai_goukaku_de3__03_tu_vung_dien_cho_trong.csv",
+        "jlpt_n5_zettai_goukaku_de3__04_cau_dong_nghia.csv",
+        "jlpt_n5_zettai_goukaku_de3__05_ngu_phap_dien_cho_trong.csv",
+        "jlpt_n5_zettai_goukaku_de3__06_sap_xep_cau_star.csv"
     ]
 }

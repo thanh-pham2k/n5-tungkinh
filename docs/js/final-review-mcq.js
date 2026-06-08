@@ -50,6 +50,7 @@
   const assetBasePath = window.location.hostname.endsWith("github.io") ? `/${config.GITHUB_REPO}/` : "";
   const assetUrl = (path) => `${assetBasePath}${path.replace(/^\/+/, "")}`;
   const csvFileUrl = (fileName) => assetUrl(`${config.QUIZ_DATA_FOLDER}/${fileName}`);
+  const imageFileUrl = (fileName) => assetUrl(`${config.QUIZ_DATA_FOLDER}/${fileName}`);
 
   const setStatus = (message, type = "info") => {
     status.textContent = message;
@@ -350,24 +351,40 @@
     });
   };
 
+  const extractQuestionMedia = (text) => {
+    const rawText = text || "";
+    const imageMatch = rawText.match(/\s*image_url=([^\s,]+)\s*/i);
+    const imageUrl = imageMatch ? imageMatch[1].replace(/\\/g, "/").replace(/^\/+/, "") : "";
+
+    return {
+      questionText: rawText.replace(/\s*image_url=([^\s,]+)\s*/i, " ").trim(),
+      imageUrl,
+    };
+  };
+
   const parseQuizGroup = (fileName, csvText) => {
     const rows = rowsToObjects(parseCsv(csvText), fileName);
     const questions = rows
       .filter((row) => row.question_no)
-      .map((row) => ({
-        groupId: row.group_id,
-        groupTitle: row.group_title,
-        lesson: row.lesson,
-        questionNo: Number(row.question_no),
-        questionJp: row.question_jp,
-        meaningVi: row.meaning_vi,
-        options: {
-          A: row.option_a,
-          B: row.option_b,
-          C: row.option_c,
-          D: row.option_d,
-        },
-      }))
+      .map((row) => {
+        const questionMedia = extractQuestionMedia(row.question_jp);
+
+        return {
+          groupId: row.group_id,
+          groupTitle: row.group_title,
+          lesson: row.lesson,
+          questionNo: Number(row.question_no),
+          questionJp: questionMedia.questionText,
+          imageUrl: questionMedia.imageUrl,
+          meaningVi: row.meaning_vi,
+          options: {
+            A: row.option_a,
+            B: row.option_b,
+            C: row.option_c,
+            D: row.option_d,
+          },
+        };
+      })
       .sort((a, b) => a.questionNo - b.questionNo);
 
     if (!questions.length) {
@@ -503,7 +520,7 @@
 
     group.questions.forEach((question, index) => {
       const renderedOptions = getRenderedOptions(group, question);
-      lines.push(
+      const questionLines = [
         "",
         `Câu ${index + 1}:`,
         `Tiếng Nhật: ${question.questionJp}`,
@@ -513,7 +530,13 @@
         `C. ${renderedOptions.C || ""}`,
         `D. ${renderedOptions.D || ""}`,
         `Tôi chọn: ${getSelectedAnswerLabel(group, question)}`
-      );
+      ];
+
+      if (question.imageUrl) {
+        questionLines.splice(3, 0, `Ảnh: ${question.imageUrl}`);
+      }
+
+      lines.push(...questionLines);
     });
 
     return lines.join("\n");
@@ -577,6 +600,26 @@
       };
     }
 
+    const jlptN5T72025Match = fileName.match(/^jlpt_n5_t7_2025__/);
+    if (jlptN5T72025Match) {
+      return {
+        key: "jlpt_n5_t7_2025",
+        label: "JLPT N5 T7/2025",
+        type: "jlpt_exam",
+        order: 202507,
+      };
+    }
+
+    const zettaiGoukakuDe3Match = fileName.match(/^jlpt_n5_zettai_goukaku_de3__/);
+    if (zettaiGoukakuDe3Match) {
+      return {
+        key: "jlpt_n5_zettai_goukaku_de3",
+        label: "Zettai Goukaku đề 3",
+        type: "jlpt_exam",
+        order: 300003,
+      };
+    }
+
     const goukakuMatch = fileName.match(/^(goukaku_.+)__/);
     if (goukakuMatch) {
       const labels = {
@@ -633,8 +676,9 @@
         kanji: 2,
         jlpt_voc: 3,
         jlpt_grammar: 4,
-        goukaku: 5,
-        kana: 6,
+        jlpt_exam: 5,
+        goukaku: 6,
+        kana: 7,
       };
 
       if (a.type !== b.type) {
@@ -754,6 +798,16 @@
     jp.className = "quiz-jp";
     appendQuestionText(jp, question.questionJp);
 
+    const mediaElements = [];
+    if (question.imageUrl) {
+      const image = document.createElement("img");
+      image.className = "quiz-question-image";
+      image.alt = `Hình minh họa câu ${index + 1}`;
+      image.loading = "lazy";
+      image.src = imageFileUrl(question.imageUrl);
+      mediaElements.push(image);
+    }
+
     const meaning = document.createElement("p");
     meaning.className = "quiz-meaning";
     meaning.textContent = question.meaningVi;
@@ -766,7 +820,7 @@
       options.appendChild(createOption(group, question, optionKey, optionText));
     });
 
-    article.append(heading, jp, meaning, options);
+    article.append(heading, jp, ...mediaElements, meaning, options);
     return article;
   };
 
