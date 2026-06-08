@@ -1098,6 +1098,96 @@
       line-height: 1.45;
     }
 
+    .hot-review-empty {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 22px;
+      display: grid;
+      gap: 12px;
+      justify-items: start;
+    }
+
+    .hot-review-empty h3 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.25;
+    }
+
+    .hot-review-empty p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .hot-review-dialog {
+      width: min(760px, calc(100vw - 28px));
+      max-height: calc(100vh - 28px);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 0;
+      background: var(--panel);
+      color: var(--text);
+      box-shadow: var(--shadow);
+    }
+
+    .hot-review-dialog::backdrop {
+      background: rgba(15, 23, 42, 0.42);
+    }
+
+    .hot-review-dialog-inner {
+      max-height: calc(100vh - 28px);
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr) auto;
+    }
+
+    .hot-review-dialog-header,
+    .hot-review-dialog-actions {
+      padding: 16px;
+    }
+
+    .hot-review-dialog-header h3 {
+      margin: 0;
+      font-size: 19px;
+      line-height: 1.3;
+    }
+
+    .hot-review-dialog-body {
+      min-height: 0;
+      overflow: auto;
+      padding: 0 16px 16px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .hot-review-dialog-body textarea {
+      width: 100%;
+      min-height: 60vh;
+      resize: vertical;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 12px;
+      font: 14px/1.45 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      color: var(--text);
+    }
+
+    .hot-review-error {
+      min-height: 20px;
+      margin: 0;
+      color: #B91C1C;
+      font-size: 14px;
+      font-weight: 800;
+      line-height: 1.4;
+    }
+
+    .hot-review-dialog-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      border-top: 1px solid var(--line);
+      background: var(--panel);
+    }
+
     .back-to-top {
       position: fixed;
       right: 18px;
@@ -1133,6 +1223,32 @@
       color: #fff;
     }
 
+    @media (max-width: 560px) {
+      .hot-review-dialog {
+        width: 100vw;
+        max-width: 100vw;
+        height: 100vh;
+        max-height: 100vh;
+        border-radius: 0;
+      }
+
+      .hot-review-dialog-inner {
+        min-height: 100vh;
+        max-height: 100vh;
+      }
+
+      .hot-review-dialog-body textarea {
+        min-height: 60vh;
+      }
+
+      .hot-review-dialog-actions {
+        position: sticky;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+    }
+
     @media (max-width: 420px) {
       .quiz-group-list {
         grid-template-columns: 1fr;
@@ -1162,6 +1278,7 @@
           <option value="listening-panel">Listening</option>
           <option value="goukaku-panel">Goukaku</option>
           <option value="final-review-panel">Ôn tập</option>
+          <option value="hot-review-panel">Hot Review</option>
         </select>
       </label>
     </div>
@@ -1511,6 +1628,28 @@
         <div class="quiz-content" id="final-review-content"></div>
       </div>
     </section>
+
+    <section class="tab-panel" id="hot-review-panel" role="tabpanel" aria-labelledby="tab-hot-review">
+      <div class="quiz-shell" id="hot-review-quiz">
+        <div class="quiz-content" id="hot-review-content"></div>
+      </div>
+    </section>
+
+    <dialog class="hot-review-dialog" id="hot-review-dialog" aria-labelledby="hot-review-dialog-title">
+      <form class="hot-review-dialog-inner" method="dialog">
+        <div class="hot-review-dialog-header">
+          <h3 id="hot-review-dialog-title">Nhập dữ liệu Hot Review</h3>
+        </div>
+        <div class="hot-review-dialog-body">
+          <textarea id="hot-review-input" aria-label="Dữ liệu CSV Hot Review" spellcheck="false"></textarea>
+          <p class="hot-review-error" id="hot-review-error" aria-live="polite"></p>
+        </div>
+        <div class="hot-review-dialog-actions">
+          <button id="hot-review-cancel" type="button">Hủy</button>
+          <button class="primary" id="hot-review-create" type="button">Tạo bài trắc nghiệm</button>
+        </div>
+      </form>
+    </dialog>
   </main>
 
   <button class="back-to-top" id="back-to-top" type="button" aria-label="Trở về đầu trang">↑</button>
