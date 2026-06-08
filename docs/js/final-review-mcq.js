@@ -399,21 +399,43 @@
   const REVIEW_PROMPT = `Bạn là gia sư JLPT N5.
 
   Review bài làm của tôi cực kỳ ngắn gọn dưới dạng table.
-  
+
   Cột:
   Câu | Chọn/Đúng | Kết quả | Giải thích | Từ vựng/Kanji | Ngữ pháp
-  
+
   Yêu cầu:
   - Giải thích bằng tiếng Việt, thật ngắn.
   - Cột "Chọn/Đúng": ghi đáp án tôi chọn và đáp án đúng.
   - Nếu sai, nói lý do sai cực ngắn.
   - Nếu có Kanji, hiển thị furigana: 漢字（ふりがな）.
   - Từ vựng ghi dạng: 先生（せんせい）= giáo viên.
+  - Không đưa mẹo nhớ Kanji vào table.
   - Ngữ pháp/trợ từ chỉ ghi điểm cần nhớ ngắn gọn.
+  - Nếu không có từ vựng/Kanji quan trọng, ghi “-”.
   - Cuối bài: tổng kết đúng/sai và danh sách cần ôn.
-  
+
+  Phần cuối bài bắt buộc có:
+  1. Tổng kết:
+  - Đúng: x/y
+  - Sai: x/y
+
+  2. Cần ôn:
+  - Từ vựng:
+  - Kanji:
+  - Ngữ pháp/trợ từ:
+
+  3. Danh sách Hán tự N5 cần nhớ:
+  - Chỉ liệt kê Kanji JLPT N5 có thể gặp trong bài thi.
+  - Ghi dạng: Kanji（ふりがな）= nghĩa → mẹo nhớ thật ngắn.
+  - Ví dụ:
+    本（ほん）= sách → cây 木 có gạch ngang ở gốc, nhớ là “gốc sách”.
+    山（やま）= núi → giống 3 đỉnh núi.
+    川（かわ）= sông → giống 3 dòng nước chảy.
+  - Không giải thích Kanji ngoài JLPT N5.
+  - Nếu không có Kanji N5 quan trọng, ghi “-”.
+
   Dữ liệu bài làm:
-  [Paste câu hỏi + đáp án đã chọn vào đây]`;
+  Danh sách câu hỏi + đáp án đã chọn:`;
 
   const getSelectedAnswerLabel = (group, question) => {
     const selected = state.selectedAnswers.get(answerKey(group, question));
