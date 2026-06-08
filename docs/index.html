@@ -444,13 +444,26 @@
       gap: 8px;
     }
 
-    .goukaku-pdf-frame {
+    .goukaku-pdf-open {
       width: 100%;
-      height: min(760px, 72vh);
+      min-height: 120px;
       border: 1px solid var(--line);
       border-radius: 8px;
-      background: #fff;
-      display: block;
+      background: var(--panel);
+      color: var(--primary-dark);
+      display: grid;
+      place-items: center;
+      padding: 18px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 800;
+      text-decoration: none;
+      line-height: 1.35;
+    }
+
+    .goukaku-pdf-open:hover {
+      border-color: var(--primary);
+      background: #E8F7F4;
     }
 
     .vocab-meta {
@@ -634,10 +647,6 @@
 
       .listening-frame {
         height: 82vh;
-      }
-
-      .goukaku-pdf-frame {
-        height: 72vh;
       }
 
       .lesson-grid {
@@ -1480,7 +1489,7 @@
 
     <section class="tab-panel" id="goukaku-panel" role="tabpanel" aria-labelledby="tab-goukaku">
       <h2>Goukaku Dekiru N4.5</h2>
-      <p class="hint">Chọn nhóm PDF để xem preview và phát audio tương ứng.</p>
+      <p class="hint">Chọn nhóm PDF để mở tài liệu khi cần và phát audio tương ứng.</p>
       <div class="goukaku-layout">
         <div class="goukaku-controls">
           <select id="goukaku-pdf-select" aria-label="Chọn PDF Goukaku"></select>
@@ -1489,7 +1498,7 @@
           <p class="goukaku-track-label" id="goukaku-track-label"></p>
           <audio id="goukaku-audio" controls preload="metadata"></audio>
         </div>
-        <iframe class="goukaku-pdf-frame" id="goukaku-pdf-frame" title="Goukaku PDF preview"></iframe>
+        <a class="goukaku-pdf-open" id="goukaku-pdf-open" href="#" target="_blank" rel="noopener">Mở PDF</a>
       </div>
     </section>
 
@@ -1545,7 +1554,7 @@
       const goukakuAudioGrid = document.getElementById("goukaku-audio-grid");
       const goukakuTrackLabel = document.getElementById("goukaku-track-label");
       const goukakuAudio = document.getElementById("goukaku-audio");
-      const goukakuPdfFrame = document.getElementById("goukaku-pdf-frame");
+      const goukakuPdfOpen = document.getElementById("goukaku-pdf-open");
 
       let lessons = [];
       let objectUrl = "";
@@ -1902,15 +1911,16 @@
 
       const selectGoukakuGroup = (groupIndex) => {
         const group = goukakuGroups[groupIndex];
-        if (!group || !goukakuPdfFrame || !goukakuAudioSelect || !goukakuAudioGrid) {
+        if (!group || !goukakuPdfOpen || !goukakuAudioSelect || !goukakuAudioGrid) {
           return;
         }
 
         if (goukakuPdfSelect) {
           goukakuPdfSelect.value = String(groupIndex);
         }
-        goukakuPdfFrame.src = assetUrl(group.pdfPath);
-        goukakuPdfFrame.title = `${group.title} preview`;
+        goukakuPdfOpen.href = assetUrl(group.pdfPath);
+        goukakuPdfOpen.textContent = `Mở ${group.title}`;
+        goukakuPdfOpen.setAttribute("aria-label", `Mở ${group.title} trong tab mới`);
 
         goukakuAudioSelect.replaceChildren();
         goukakuAudioGrid.replaceChildren();
