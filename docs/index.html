@@ -498,6 +498,109 @@
       color: var(--muted);
     }
 
+    .instant-vocab-shell {
+      display: grid;
+      gap: 14px;
+    }
+
+    .instant-vocab-input {
+      width: 100%;
+      min-height: 220px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      color: var(--text);
+      background: #fff;
+      font: 14px/1.5 Consolas, "Courier New", monospace;
+      resize: vertical;
+    }
+
+    .instant-vocab-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: end;
+    }
+
+    .instant-vocab-repeat {
+      width: 140px;
+    }
+
+    .instant-vocab-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .instant-vocab-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 12px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .instant-vocab-card.playing {
+      border-color: var(--primary);
+      background: #E8F7F4;
+    }
+
+    .instant-vocab-card.error {
+      border-color: #B91C1C;
+      background: #FEF2F2;
+    }
+
+    .instant-vocab-main {
+      min-width: 0;
+      display: grid;
+      gap: 6px;
+    }
+
+    .instant-vocab-term {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: baseline;
+    }
+
+    .instant-vocab-kanji {
+      color: var(--text);
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .instant-vocab-reading {
+      color: var(--primary-dark);
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 1.3;
+    }
+
+    .instant-vocab-meaning,
+    .instant-vocab-example,
+    .instant-vocab-row-status {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+      overflow-wrap: anywhere;
+    }
+
+    .instant-vocab-row-status {
+      font-weight: 700;
+    }
+
+    .instant-vocab-row-status.error {
+      color: #B91C1C;
+    }
+
+    .instant-vocab-card button {
+      min-width: 84px;
+    }
+
     input[type="file"] {
       width: 100%;
       border: 1px solid var(--line);
@@ -1224,6 +1327,14 @@
     }
 
     @media (max-width: 560px) {
+      .instant-vocab-card {
+        grid-template-columns: 1fr;
+      }
+
+      .instant-vocab-card button {
+        width: 100%;
+      }
+
       .hot-review-dialog {
         width: 100vw;
         max-width: 100vw;
@@ -1272,6 +1383,7 @@
         Nội dung học
         <select class="tab-select" id="tab-select">
           <option value="audio-panel" selected>Audio public</option>
+          <option value="instant-vocab-panel">Instant Vocab</option>
           <option value="kana-panel">Kana</option>
           <option value="grammar-panel">Grammar</option>
           <option value="kanji-panel">Kanji</option>
@@ -1357,6 +1469,26 @@
       </div>
 
       <div class="status" id="looper-status">Chưa chọn file.</div>
+    </section>
+
+    <section class="tab-panel" id="instant-vocab-panel" role="tabpanel" aria-labelledby="tab-instant-vocab">
+      <h2>Instant Vocab</h2>
+      <p class="hint">Dán CSV 5 cột, trang chỉ đọc cột hiragana và chỉ gọi Sound of Text khi bắt đầu phát từ đó.</p>
+      <div class="instant-vocab-shell">
+        <textarea class="instant-vocab-input" id="instant-vocab-input" spellcheck="false" aria-label="CSV từ vựng Instant Vocab" placeholder="vocabulary,hiragana,meaning_vi,example_ja,example_vi"></textarea>
+        <div class="instant-vocab-controls">
+          <button class="primary" id="instant-vocab-load" type="button">Load CSV</button>
+          <div>
+            <label for="instant-vocab-repeat">Số lần lặp</label>
+            <input class="instant-vocab-repeat" type="number" id="instant-vocab-repeat" min="1" step="1" value="5">
+          </div>
+          <button id="instant-vocab-play-all" type="button" disabled>Play all</button>
+          <button id="instant-vocab-stop" type="button" disabled>Stop</button>
+        </div>
+        <div class="status" id="instant-vocab-status">Chưa có dữ liệu.</div>
+        <div class="instant-vocab-list" id="instant-vocab-list"></div>
+        <audio id="instant-vocab-audio" preload="auto"></audio>
+      </div>
     </section>
 
     <section class="tab-panel" id="kana-panel" role="tabpanel" aria-labelledby="tab-kana">
@@ -1694,6 +1826,14 @@
       const goukakuTrackLabel = document.getElementById("goukaku-track-label");
       const goukakuAudio = document.getElementById("goukaku-audio");
       const goukakuPdfOpen = document.getElementById("goukaku-pdf-open");
+      const instantVocabInput = document.getElementById("instant-vocab-input");
+      const instantVocabLoad = document.getElementById("instant-vocab-load");
+      const instantVocabRepeat = document.getElementById("instant-vocab-repeat");
+      const instantVocabPlayAll = document.getElementById("instant-vocab-play-all");
+      const instantVocabStop = document.getElementById("instant-vocab-stop");
+      const instantVocabStatus = document.getElementById("instant-vocab-status");
+      const instantVocabList = document.getElementById("instant-vocab-list");
+      const instantVocabAudio = document.getElementById("instant-vocab-audio");
 
       let lessons = [];
       let objectUrl = "";
@@ -1706,6 +1846,9 @@
       let repeatBeforeAdvance = 5;
       let advanceMode = "sequential";
       let isPublicTrack = false;
+      let instantVocabItems = [];
+      let instantVocabRunToken = 0;
+      let instantVocabIsPlaying = false;
 
       const listeningLessons = Array.from({ length: 25 }, (_, index) => {
         const lessonNo = index + 1;
@@ -1814,6 +1957,405 @@
 
       const resetRepeatCounter = () => {
         completedRepeats = 0;
+      };
+
+      const readInstantRepeatCount = () => {
+        const value = Number.parseInt(instantVocabRepeat.value, 10);
+        const repeatCount = Number.isFinite(value) && value >= 1 ? value : 1;
+        instantVocabRepeat.value = String(repeatCount);
+        return repeatCount;
+      };
+
+      const setInstantPlaybackState = (isPlaying) => {
+        instantVocabIsPlaying = isPlaying;
+        instantVocabLoad.disabled = isPlaying;
+        instantVocabPlayAll.disabled = isPlaying || instantVocabItems.length === 0;
+        instantVocabStop.disabled = !isPlaying;
+      };
+
+      const parseInstantVocabCsvRows = (text) => {
+        const rows = [];
+        let row = [];
+        let field = "";
+        let inQuotes = false;
+
+        for (let index = 0; index < text.length; index += 1) {
+          const char = text[index];
+          const nextChar = text[index + 1];
+
+          if (char === "\"") {
+            if (inQuotes && nextChar === "\"") {
+              field += "\"";
+              index += 1;
+            } else {
+              inQuotes = !inQuotes;
+            }
+            continue;
+          }
+
+          if (char === "," && !inQuotes) {
+            row.push(field);
+            field = "";
+            continue;
+          }
+
+          if ((char === "\n" || char === "\r") && !inQuotes) {
+            if (char === "\r" && nextChar === "\n") {
+              index += 1;
+            }
+            row.push(field);
+            rows.push(row);
+            row = [];
+            field = "";
+            continue;
+          }
+
+          field += char;
+        }
+
+        if (field || row.length) {
+          row.push(field);
+          rows.push(row);
+        }
+
+        if (inQuotes) {
+          throw new Error("CSV has an unclosed quoted field.");
+        }
+
+        return rows.filter((candidate) => candidate.some((value) => value.trim()));
+      };
+
+      const parseInstantVocabCsv = (text) => {
+        const rows = parseInstantVocabCsvRows(text.trim());
+        const expectedHeader = ["vocabulary", "hiragana", "meaning_vi", "example_ja", "example_vi"];
+
+        if (!rows.length) {
+          throw new Error("CSV is empty.");
+        }
+
+        rows[0][0] = rows[0][0].replace(/^\uFEFF/, "");
+        const header = rows[0].map((value) => value.trim());
+        if (header.length !== expectedHeader.length || header.some((value, index) => value !== expectedHeader[index])) {
+          throw new Error(`CSV header must be exactly: ${expectedHeader.join(",")}`);
+        }
+
+        return rows.slice(1).map((row, index) => {
+          if (row.length !== expectedHeader.length) {
+            throw new Error(`Line ${index + 2} must have ${expectedHeader.length} columns.`);
+          }
+
+          const [vocabulary, hiragana, meaningVi, exampleJa, exampleVi] = row.map((value) => value.trim());
+          return {
+            vocabulary,
+            hiragana,
+            meaningVi,
+            exampleJa,
+            exampleVi,
+            audioUrl: "",
+            status: hiragana ? "idle" : "error",
+            statusText: hiragana ? "Ready." : "Missing hiragana.",
+          };
+        });
+      };
+
+      const updateInstantRowStatus = (index, statusValue, statusText) => {
+        const item = instantVocabItems[index];
+        if (!item) {
+          return;
+        }
+
+        item.status = statusValue;
+        item.statusText = statusText;
+        const card = instantVocabList.querySelector(`[data-instant-vocab-index="${index}"]`);
+        if (!card) {
+          return;
+        }
+
+        card.classList.toggle("playing", statusValue === "playing" || statusValue === "loading");
+        card.classList.toggle("error", statusValue === "error");
+        const rowStatus = card.querySelector(".instant-vocab-row-status");
+        if (rowStatus) {
+          rowStatus.textContent = statusText;
+          rowStatus.classList.toggle("error", statusValue === "error");
+        }
+      };
+
+      const renderInstantVocabItems = () => {
+        instantVocabList.replaceChildren();
+
+        instantVocabItems.forEach((item, index) => {
+          const card = document.createElement("div");
+          card.className = "instant-vocab-card";
+          card.dataset.instantVocabIndex = String(index);
+          card.classList.toggle("error", item.status === "error");
+
+          const main = document.createElement("div");
+          main.className = "instant-vocab-main";
+
+          const term = document.createElement("div");
+          term.className = "instant-vocab-term";
+
+          const kanji = document.createElement("span");
+          kanji.className = "instant-vocab-kanji";
+          kanji.textContent = item.vocabulary || "(blank)";
+
+          const reading = document.createElement("span");
+          reading.className = "instant-vocab-reading";
+          reading.textContent = item.hiragana || "(missing hiragana)";
+
+          term.append(kanji, reading);
+
+          const meaning = document.createElement("p");
+          meaning.className = "instant-vocab-meaning";
+          meaning.textContent = item.meaningVi;
+
+          const example = document.createElement("p");
+          example.className = "instant-vocab-example";
+          example.textContent = `${item.exampleJa} - ${item.exampleVi}`;
+
+          const rowStatus = document.createElement("p");
+          rowStatus.className = "instant-vocab-row-status";
+          rowStatus.textContent = item.statusText;
+          rowStatus.classList.toggle("error", item.status === "error");
+
+          main.append(term, meaning, example, rowStatus);
+
+          const playButton = document.createElement("button");
+          playButton.type = "button";
+          playButton.textContent = "Play";
+          playButton.addEventListener("click", () => {
+            playInstantItem(index);
+          });
+
+          card.append(main, playButton);
+          instantVocabList.appendChild(card);
+        });
+      };
+
+      const createSoundOfTextUrl = async (hiragana, runToken) => {
+        const createResponse = await fetch("https://api.soundoftext.com/sounds", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+          },
+          body: JSON.stringify({
+            engine: "Google",
+            data: {
+              text: hiragana,
+              voice: "ja-JP",
+            },
+          }),
+        });
+
+        if (!createResponse.ok) {
+          throw new Error(`Sound of Text create failed: ${createResponse.status}`);
+        }
+
+        const created = await createResponse.json();
+        if (!created.id) {
+          throw new Error("Sound of Text did not return an id.");
+        }
+
+        for (let pollIndex = 0; pollIndex < 30; pollIndex += 1) {
+          if (runToken !== instantVocabRunToken) {
+            throw new Error("Playback stopped.");
+          }
+
+          const statusResponse = await fetch(`https://api.soundoftext.com/sounds/${created.id}`, {
+            headers: { "Accept": "application/json" },
+          });
+
+          if (!statusResponse.ok) {
+            throw new Error(`Sound of Text status failed: ${statusResponse.status}`);
+          }
+
+          const statusPayload = await statusResponse.json();
+          if (statusPayload.status === "Done" && statusPayload.location) {
+            return statusPayload.location;
+          }
+
+          if (statusPayload.status === "Error") {
+            throw new Error("Sound of Text returned an error.");
+          }
+
+          await new Promise((resolve) => {
+            window.setTimeout(resolve, 700);
+          });
+        }
+
+        throw new Error("Timed out waiting for Sound of Text.");
+      };
+
+      const ensureInstantAudioUrl = async (item, index, runToken) => {
+        if (!item.hiragana) {
+          throw new Error("Missing hiragana.");
+        }
+
+        if (item.audioUrl) {
+          return item.audioUrl;
+        }
+
+        updateInstantRowStatus(index, "loading", "Loading audio...");
+        item.audioUrl = await createSoundOfTextUrl(item.hiragana, runToken);
+        return item.audioUrl;
+      };
+
+      const playAudioUrlOnce = (url, runToken) => new Promise((resolve, reject) => {
+        const cleanup = () => {
+          instantVocabAudio.removeEventListener("ended", handleEnded);
+          instantVocabAudio.removeEventListener("error", handleError);
+          instantVocabAudio.removeEventListener("pause", handlePause);
+        };
+
+        const handleEnded = () => {
+          cleanup();
+          resolve();
+        };
+
+        const handleError = () => {
+          cleanup();
+          reject(new Error("Cannot play audio."));
+        };
+
+        const handlePause = () => {
+          if (runToken !== instantVocabRunToken) {
+            cleanup();
+            reject(new Error("Playback stopped."));
+          }
+        };
+
+        if (runToken !== instantVocabRunToken) {
+          reject(new Error("Playback stopped."));
+          return;
+        }
+
+        instantVocabAudio.pause();
+        instantVocabAudio.src = url;
+        instantVocabAudio.currentTime = 0;
+        instantVocabAudio.addEventListener("ended", handleEnded, { once: true });
+        instantVocabAudio.addEventListener("error", handleError, { once: true });
+        instantVocabAudio.addEventListener("pause", handlePause);
+        instantVocabAudio.play().catch((error) => {
+          cleanup();
+          reject(error);
+        });
+      });
+
+      const playAudioUrlNTimes = async (url, repeatCount, runToken, onRepeat) => {
+        for (let repeatIndex = 0; repeatIndex < repeatCount; repeatIndex += 1) {
+          if (runToken !== instantVocabRunToken) {
+            throw new Error("Playback stopped.");
+          }
+          onRepeat(repeatIndex + 1, repeatCount);
+          await playAudioUrlOnce(url, runToken);
+        }
+      };
+
+      const stopInstantPlayback = (message = "Stopped.") => {
+        instantVocabRunToken += 1;
+        instantVocabAudio.pause();
+        instantVocabAudio.currentTime = 0;
+        instantVocabItems.forEach((item, index) => {
+          if (item.status === "playing" || item.status === "loading") {
+            updateInstantRowStatus(index, item.audioUrl ? "idle" : "idle", item.audioUrl ? "Ready." : "Stopped.");
+          }
+        });
+        setInstantPlaybackState(false);
+        if (instantVocabItems.length) {
+          instantVocabStatus.textContent = message;
+        }
+      };
+
+      const playInstantItemWithToken = async (index, runToken) => {
+        const item = instantVocabItems[index];
+        if (!item) {
+          return;
+        }
+
+        if (!item.hiragana) {
+          updateInstantRowStatus(index, "error", "Missing hiragana.");
+          throw new Error("Missing hiragana.");
+        }
+
+        const repeatCount = readInstantRepeatCount();
+        const url = await ensureInstantAudioUrl(item, index, runToken);
+        await playAudioUrlNTimes(url, repeatCount, runToken, (currentRepeat, totalRepeats) => {
+          updateInstantRowStatus(index, "playing", `Playing ${currentRepeat}/${totalRepeats}.`);
+          instantVocabStatus.textContent = `Playing ${index + 1}/${instantVocabItems.length}: ${item.vocabulary || item.hiragana}`;
+        });
+
+        updateInstantRowStatus(index, "done", `Done ${repeatCount}/${repeatCount}.`);
+      };
+
+      const playInstantItem = async (index) => {
+        stopInstantPlayback("");
+        const runToken = instantVocabRunToken + 1;
+        instantVocabRunToken = runToken;
+        setInstantPlaybackState(true);
+
+        try {
+          await playInstantItemWithToken(index, runToken);
+          if (runToken === instantVocabRunToken) {
+            setInstantPlaybackState(false);
+            instantVocabStatus.textContent = "Done.";
+          }
+        } catch (error) {
+          if (runToken === instantVocabRunToken) {
+            console.error(error);
+            updateInstantRowStatus(index, "error", error.message || "Playback failed.");
+            setInstantPlaybackState(false);
+            instantVocabStatus.textContent = error.message || "Playback failed.";
+          }
+        }
+      };
+
+      const playInstantAll = async () => {
+        if (!instantVocabItems.length) {
+          instantVocabStatus.textContent = "Load CSV first.";
+          return;
+        }
+
+        stopInstantPlayback("");
+        const runToken = instantVocabRunToken + 1;
+        instantVocabRunToken = runToken;
+        setInstantPlaybackState(true);
+
+        try {
+          for (let index = 0; index < instantVocabItems.length; index += 1) {
+            if (runToken !== instantVocabRunToken) {
+              throw new Error("Playback stopped.");
+            }
+            await playInstantItemWithToken(index, runToken);
+          }
+
+          if (runToken === instantVocabRunToken) {
+            setInstantPlaybackState(false);
+            instantVocabStatus.textContent = "Play all done.";
+          }
+        } catch (error) {
+          if (runToken === instantVocabRunToken) {
+            console.error(error);
+            setInstantPlaybackState(false);
+            instantVocabStatus.textContent = error.message || "Play all failed.";
+          }
+        }
+      };
+
+      const loadInstantVocabCsv = () => {
+        stopInstantPlayback("");
+        try {
+          instantVocabItems = parseInstantVocabCsv(instantVocabInput.value);
+          renderInstantVocabItems();
+          setInstantPlaybackState(false);
+          instantVocabStatus.textContent = `Loaded ${instantVocabItems.length} rows.`;
+        } catch (error) {
+          console.error(error);
+          instantVocabItems = [];
+          instantVocabList.replaceChildren();
+          setInstantPlaybackState(false);
+          instantVocabStatus.textContent = error.message || "Cannot load CSV.";
+        }
       };
 
       const getCurrentPublicLabel = () => {
@@ -2400,6 +2942,18 @@
         }
       });
 
+      instantVocabRepeat.addEventListener("change", () => {
+        readInstantRepeatCount();
+      });
+
+      instantVocabLoad.addEventListener("click", loadInstantVocabCsv);
+
+      instantVocabPlayAll.addEventListener("click", playInstantAll);
+
+      instantVocabStop.addEventListener("click", () => {
+        stopInstantPlayback();
+      });
+
       vocabFullOpen.addEventListener("click", openFullVocabularyDialog);
 
       vocabFullClose.addEventListener("click", () => {
@@ -2479,6 +3033,7 @@
       });
 
       window.addEventListener("beforeunload", () => {
+        stopInstantPlayback("");
         revokeLocalUrl();
       });
 
