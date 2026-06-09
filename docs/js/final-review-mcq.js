@@ -491,42 +491,54 @@
   const REVIEW_PROMPT = `Bạn là gia sư JLPT N5.
 
   Hãy review bài làm của tôi thật ngắn gọn bằng tiếng Việt dưới dạng table.
-  
+
   Cột:
-  Câu | Chọn/Đúng | Kết quả | Giải thích | Từ vựng/Kanji | Ngữ pháp
-  
+  Câu | Câu sau khi điền | Chọn/Đúng | Kết quả | Giải thích | Từ vựng/Kanji | Ngữ pháp
+
   Yêu cầu:
-  - "Chọn/Đúng": ghi đáp án tôi chọn / đáp án đúng.
-  - Nếu sai, giải thích lý do sai thật ngắn.
-  - Nếu có Kanji, ghi furigana: 漢字（ふりがな）.
-  - Từ vựng ghi dạng: 先生（せんせい）= giáo viên.
-  - Ngữ pháp/trợ từ ghi điểm cần nhớ ngắn gọn.
-  - Nếu không có nội dung quan trọng, ghi “-”.
-  
+
+  * "Câu": ghi số thứ tự câu.
+  * "Câu sau khi điền": ghi lại nguyên câu hoàn chỉnh sau khi điền đáp án đã chọn của tôi.
+
+    * Nếu tôi chọn sai, ghi thêm câu đúng ngay bên dưới trong cùng ô, dạng:
+      Tôi chọn: ...
+      Câu đúng: ...
+    * Nếu câu hỏi không phải dạng điền vào chỗ trống, ghi nguyên câu hỏi gốc.
+  * "Chọn/Đúng": ghi đáp án tôi chọn / đáp án đúng.
+  * Nếu sai, giải thích lý do sai thật ngắn.
+  * Nếu có Kanji, ghi furigana: 漢字（ふりがな）.
+  * Từ vựng ghi dạng: 先生（せんせい）= giáo viên.
+  * Ngữ pháp/trợ từ ghi điểm cần nhớ ngắn gọn.
+  * Nếu không có nội dung quan trọng, ghi “-”.
+
   Cuối bài bắt buộc có:
-  
+
   1. Tổng kết:
-  - Đúng: x/y
-  - Sai: x/y
-  
+
+  * Đúng: x/y
+  * Sai: x/y
+
   2. Cần ôn:
-  - Từ vựng:
-  - Kanji:
-  - Ngữ pháp/trợ từ:
-  
+
+  * Từ vựng:
+  * Kanji:
+  * Ngữ pháp/trợ từ:
+
   3. Hán tự N5 cần nhớ:
-  - Chỉ liệt kê Kanji JLPT N5 xuất hiện hoặc liên quan trực tiếp trong bài.
-  - Ghi dạng:
+
+  * Chỉ liệt kê Kanji JLPT N5 xuất hiện hoặc liên quan trực tiếp trong bài.
+  * Ghi dạng:
     Kanji（ふりがな）= nghĩa → mẹo nhớ bằng hình ảnh thật ngắn.
-  - Ví dụ:
+  * Ví dụ:
     本（ほん）= sách → 木 là cây, thêm gạch ở gốc = “gốc của sách”.
     山（やま）= núi → giống 3 đỉnh núi.
     川（かわ）= sông → giống 3 dòng nước chảy.
-  - Không giải thích Kanji ngoài JLPT N5.
-  - Nếu không có Kanji N5 quan trọng, ghi “-”.
-  
+  * Không giải thích Kanji ngoài JLPT N5.
+  * Nếu không có Kanji N5 quan trọng, ghi “-”.
+
   Dữ liệu bài làm:
   [Paste danh sách câu hỏi + đáp án đã chọn vào đây]`;
+
 
   const getSelectedAnswerLabel = (group, question) => {
     const selected = state.selectedAnswers.get(answerKey(group, question));
