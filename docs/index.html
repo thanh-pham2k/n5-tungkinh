@@ -1482,6 +1482,13 @@
             <label for="instant-vocab-repeat">Số lần lặp</label>
             <input class="instant-vocab-repeat" type="number" id="instant-vocab-repeat" min="1" step="1" value="5">
           </div>
+          <div>
+            <label for="instant-vocab-order">Thứ tự phát</label>
+            <select id="instant-vocab-order">
+              <option value="sequential" selected>Tuần tự</option>
+              <option value="random">Ngẫu nhiên</option>
+            </select>
+          </div>
           <button id="instant-vocab-play-all" type="button" disabled>Play all</button>
           <button id="instant-vocab-stop" type="button" disabled>Stop</button>
         </div>
@@ -1829,6 +1836,7 @@
       const instantVocabInput = document.getElementById("instant-vocab-input");
       const instantVocabLoad = document.getElementById("instant-vocab-load");
       const instantVocabRepeat = document.getElementById("instant-vocab-repeat");
+      const instantVocabOrder = document.getElementById("instant-vocab-order");
       const instantVocabPlayAll = document.getElementById("instant-vocab-play-all");
       const instantVocabStop = document.getElementById("instant-vocab-stop");
       const instantVocabStatus = document.getElementById("instant-vocab-status");
@@ -1849,6 +1857,7 @@
       let instantVocabItems = [];
       let instantVocabRunToken = 0;
       let instantVocabIsPlaying = false;
+      let instantVocabOrderMode = "sequential";
 
       const listeningLessons = Array.from({ length: 25 }, (_, index) => {
         const lessonNo = index + 1;
@@ -1964,6 +1973,26 @@
         const repeatCount = Number.isFinite(value) && value >= 1 ? value : 1;
         instantVocabRepeat.value = String(repeatCount);
         return repeatCount;
+      };
+
+      const readInstantOrderMode = () => {
+        instantVocabOrderMode = instantVocabOrder.value === "random" ? "random" : "sequential";
+        instantVocabOrder.value = instantVocabOrderMode;
+        return instantVocabOrderMode;
+      };
+
+      const getInstantPlaybackOrder = () => {
+        const indexes = instantVocabItems.map((_, index) => index);
+        if (readInstantOrderMode() !== "random") {
+          return indexes;
+        }
+
+        for (let index = indexes.length - 1; index > 0; index -= 1) {
+          const swapIndex = Math.floor(Math.random() * (index + 1));
+          [indexes[index], indexes[swapIndex]] = [indexes[swapIndex], indexes[index]];
+        }
+
+        return indexes;
       };
 
       const setInstantPlaybackState = (isPlaying) => {
@@ -2322,16 +2351,20 @@
         setInstantPlaybackState(true);
 
         try {
-          for (let index = 0; index < instantVocabItems.length; index += 1) {
+          let playbackOrder = getInstantPlaybackOrder();
+          let orderIndex = 0;
+
+          while (playbackOrder.length) {
             if (runToken !== instantVocabRunToken) {
               throw new Error("Playback stopped.");
             }
+            if (orderIndex >= playbackOrder.length) {
+              playbackOrder = getInstantPlaybackOrder();
+              orderIndex = 0;
+            }
+            const index = playbackOrder[orderIndex];
             await playInstantItemWithToken(index, runToken);
-          }
-
-          if (runToken === instantVocabRunToken) {
-            setInstantPlaybackState(false);
-            instantVocabStatus.textContent = "Play all done.";
+            orderIndex += 1;
           }
         } catch (error) {
           if (runToken === instantVocabRunToken) {
@@ -2944,6 +2977,10 @@
 
       instantVocabRepeat.addEventListener("change", () => {
         readInstantRepeatCount();
+      });
+
+      instantVocabOrder.addEventListener("change", () => {
+        readInstantOrderMode();
       });
 
       instantVocabLoad.addEventListener("click", loadInstantVocabCsv);
