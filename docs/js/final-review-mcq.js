@@ -593,6 +593,18 @@
     }
   };
 
+  const createMeaningTooltip = (question) => {
+    const text = (question.meaningVi || "").trim();
+    if (!text) {
+      return null;
+    }
+
+    const meaning = document.createElement("p");
+    meaning.className = "quiz-meaning";
+    meaning.textContent = text;
+    return meaning;
+  };
+
   const buildReviewCopyText = (group) => {
     const lines = [
       REVIEW_PROMPT,
@@ -894,9 +906,7 @@
       mediaElements.push(image);
     }
 
-    const meaning = document.createElement("p");
-    meaning.className = "quiz-meaning";
-    meaning.textContent = question.meaningVi;
+    const meaning = createMeaningTooltip(question);
 
     const options = document.createElement("div");
     options.className = "quiz-options";
@@ -906,7 +916,11 @@
       options.appendChild(createOption(group, question, optionKey, optionText));
     });
 
-    article.append(heading, jp, ...mediaElements, meaning, options);
+    article.append(heading, jp, ...mediaElements);
+    if (meaning) {
+      article.appendChild(meaning);
+    }
+    article.appendChild(options);
     return article;
   };
 
@@ -1144,9 +1158,7 @@
     jp.className = "quiz-jp";
     appendQuestionText(jp, question.questionJp);
 
-    const meaning = document.createElement("p");
-    meaning.className = "quiz-meaning";
-    meaning.textContent = question.meaningVi;
+    const meaning = createMeaningTooltip(question);
 
     const options = document.createElement("div");
     options.className = "quiz-options";
@@ -1155,7 +1167,11 @@
       options.appendChild(createHotReviewOption(question, optionKey, question.options[optionKey] || ""));
     });
 
-    article.append(heading, jp, meaning, options);
+    article.append(heading, jp);
+    if (meaning) {
+      article.appendChild(meaning);
+    }
+    article.appendChild(options);
     return article;
   };
 
