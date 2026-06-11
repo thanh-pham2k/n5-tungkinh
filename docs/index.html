@@ -1101,8 +1101,22 @@
       color: var(--text);
       font-size: 22px;
       font-weight: 500;
-      line-height: 1.35;
+      line-height: 1.65;
       overflow-wrap: anywhere;
+    }
+
+    .quiz-jp ruby,
+    .quiz-option-text ruby {
+      ruby-position: over;
+    }
+
+    .quiz-jp rt,
+    .quiz-option-text rt {
+      color: var(--muted);
+      font-size: 0.52em;
+      font-weight: 600;
+      line-height: 1;
+      text-align: center;
     }
 
     .quiz-question-image {
@@ -1166,6 +1180,7 @@
     .quiz-option-text {
       min-width: 0;
       overflow-wrap: anywhere;
+      line-height: 1.55;
     }
 
     .quiz-actions {

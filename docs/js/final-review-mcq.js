@@ -568,6 +568,33 @@
     }, {});
   };
 
+  const appendJapaneseText = (element, text) => {
+    const rubyPattern = /([ぁ-んァ-ヶー]*[一-龯々〆ヶ][一-龯ぁ-んァ-ヶー々〆ヶ]*?)（([ぁ-んァ-ヶー]+)）/g;
+    let cursor = 0;
+    let match = rubyPattern.exec(text);
+
+    while (match) {
+      if (match.index > cursor) {
+        element.appendChild(document.createTextNode(text.slice(cursor, match.index)));
+      }
+
+      const ruby = document.createElement("ruby");
+      ruby.appendChild(document.createTextNode(match[1]));
+
+      const rt = document.createElement("rt");
+      rt.textContent = match[2];
+      ruby.appendChild(rt);
+
+      element.appendChild(ruby);
+      cursor = rubyPattern.lastIndex;
+      match = rubyPattern.exec(text);
+    }
+
+    if (cursor < text.length) {
+      element.appendChild(document.createTextNode(text.slice(cursor)));
+    }
+  };
+
   const appendQuestionText = (element, text) => {
     const markerPattern = /【([^】]+)】|（\s*）|\(\s*\)|[＿_]{2,}/g;
     let cursor = 0;
@@ -575,13 +602,17 @@
 
     while (match) {
       if (match.index > cursor) {
-        element.appendChild(document.createTextNode(text.slice(cursor, match.index)));
+        appendJapaneseText(element, text.slice(cursor, match.index));
       }
 
       const span = document.createElement("span");
       const isTarget = Boolean(match[1]);
       span.className = isTarget ? "quiz-target" : "quiz-blank";
-      span.textContent = isTarget ? match[1] : match[0];
+      if (isTarget) {
+        appendJapaneseText(span, match[1]);
+      } else {
+        span.textContent = match[0];
+      }
       element.appendChild(span);
 
       cursor = markerPattern.lastIndex;
@@ -589,7 +620,7 @@
     }
 
     if (cursor < text.length) {
-      element.appendChild(document.createTextNode(text.slice(cursor)));
+      appendJapaneseText(element, text.slice(cursor));
     }
   };
 
@@ -867,7 +898,7 @@
 
     const text = document.createElement("span");
     text.className = "quiz-option-text";
-    text.textContent = optionText;
+    appendJapaneseText(text, optionText);
 
     label.append(input, key, text);
     return label;
