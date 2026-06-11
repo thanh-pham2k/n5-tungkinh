@@ -593,16 +593,35 @@
     }
   };
 
-  const createMeaningTooltip = (question) => {
+  const createMeaningReveal = (question, meaningId) => {
     const text = (question.meaningVi || "").trim();
     if (!text) {
       return null;
     }
 
     const meaning = document.createElement("p");
+    meaning.id = meaningId;
     meaning.className = "quiz-meaning";
     meaning.textContent = text;
-    return meaning;
+    meaning.hidden = true;
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "quiz-meaning-button";
+    button.innerHTML = "&#128065;";
+    button.setAttribute("aria-label", "Hien noi dung dich");
+    button.setAttribute("aria-controls", meaningId);
+    button.setAttribute("aria-expanded", "false");
+    button.title = "Hien noi dung dich";
+    button.addEventListener("click", () => {
+      const shouldShow = meaning.hidden;
+      meaning.hidden = !shouldShow;
+      button.setAttribute("aria-expanded", shouldShow ? "true" : "false");
+      button.setAttribute("aria-label", shouldShow ? "An noi dung dich" : "Hien noi dung dich");
+      button.title = shouldShow ? "An noi dung dich" : "Hien noi dung dich";
+    });
+
+    return { button, meaning };
   };
 
   const buildReviewCopyText = (group) => {
@@ -906,7 +925,14 @@
       mediaElements.push(image);
     }
 
-    const meaning = createMeaningTooltip(question);
+    const meaningReveal = createMeaningReveal(question, `quiz-meaning-${group.groupId}-${question.questionNo}`);
+
+    const prompt = document.createElement("div");
+    prompt.className = "quiz-question-prompt";
+    prompt.appendChild(jp);
+    if (meaningReveal) {
+      prompt.appendChild(meaningReveal.button);
+    }
 
     const options = document.createElement("div");
     options.className = "quiz-options";
@@ -916,9 +942,9 @@
       options.appendChild(createOption(group, question, optionKey, optionText));
     });
 
-    article.append(heading, jp, ...mediaElements);
-    if (meaning) {
-      article.appendChild(meaning);
+    article.append(heading, prompt, ...mediaElements);
+    if (meaningReveal) {
+      article.appendChild(meaningReveal.meaning);
     }
     article.appendChild(options);
     return article;
@@ -1158,7 +1184,14 @@
     jp.className = "quiz-jp";
     appendQuestionText(jp, question.questionJp);
 
-    const meaning = createMeaningTooltip(question);
+    const meaningReveal = createMeaningReveal(question, `hot-review-meaning-${question.questionNo}`);
+
+    const prompt = document.createElement("div");
+    prompt.className = "quiz-question-prompt";
+    prompt.appendChild(jp);
+    if (meaningReveal) {
+      prompt.appendChild(meaningReveal.button);
+    }
 
     const options = document.createElement("div");
     options.className = "quiz-options";
@@ -1167,9 +1200,9 @@
       options.appendChild(createHotReviewOption(question, optionKey, question.options[optionKey] || ""));
     });
 
-    article.append(heading, jp);
-    if (meaning) {
-      article.appendChild(meaning);
+    article.append(heading, prompt);
+    if (meaningReveal) {
+      article.appendChild(meaningReveal.meaning);
     }
     article.appendChild(options);
     return article;
