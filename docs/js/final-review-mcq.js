@@ -569,20 +569,24 @@
   };
 
   const appendJapaneseText = (element, text) => {
-    const rubyPattern = /([ぁ-んァ-ヶー]*[一-龯々〆ヶ][一-龯ぁ-んァ-ヶー々〆ヶ]*?)（([ぁ-んァ-ヶー]+)）/g;
+    const rubyPattern = /([おご御]?[一-龯々〆ヶ][一-龯ぁ-んァ-ヶー々〆ヶ]*?)（([ぁ-んァ-ヶー]+)）/g;
     let cursor = 0;
     let match = rubyPattern.exec(text);
 
     while (match) {
-      if (match.index > cursor) {
-        element.appendChild(document.createTextNode(text.slice(cursor, match.index)));
+      const rubyBase = match[1];
+      const reading = match[2];
+      const textBeforeRuby = text.slice(cursor, match.index);
+
+      if (textBeforeRuby) {
+        element.appendChild(document.createTextNode(textBeforeRuby));
       }
 
       const ruby = document.createElement("ruby");
-      ruby.appendChild(document.createTextNode(match[1]));
+      ruby.appendChild(document.createTextNode(rubyBase));
 
       const rt = document.createElement("rt");
-      rt.textContent = match[2];
+      rt.textContent = reading;
       ruby.appendChild(rt);
 
       element.appendChild(ruby);
