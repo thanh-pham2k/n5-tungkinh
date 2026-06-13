@@ -680,7 +680,88 @@
     textarea.remove();
   };
 
+  const PARENT_GROUPS = {
+    finalReview: {
+      key: "final_review",
+      label: "Ôn tập tổng hợp",
+      type: "final_review",
+      order: 0,
+    },
+    minna: {
+      key: "minna_no_nihongo",
+      label: "Minna no Nihongo",
+      type: "mina",
+      order: 1,
+    },
+    kanji: {
+      key: "kanji_n5",
+      label: "Kanji N5",
+      type: "kanji",
+      order: 2,
+    },
+    jlptVoc: {
+      key: "jlpt_n5_voc",
+      label: "JLPT N5 Voc",
+      type: "jlpt_voc",
+      order: 3,
+    },
+    jlptGrammar: {
+      key: "jlpt_n5_grammar",
+      label: "JLPT N5 Grammar",
+      type: "jlpt_grammar",
+      order: 4,
+    },
+    jlptTest: {
+      key: "jlpt_n5_test",
+      label: "JLPT N5 Test",
+      type: "jlpt_exam",
+      order: 5,
+    },
+    goukaku: {
+      key: "goukaku",
+      label: "Goukaku",
+      type: "goukaku",
+      order: 6,
+    },
+    kana: {
+      key: "kana",
+      label: "Kana",
+      type: "kana",
+      order: 7,
+    },
+  };
+
   const getParentGroup = (fileName) => {
+    const minnaParentMatch = fileName.match(/^voc_mina_(\d+)__/);
+    if (minnaParentMatch) {
+      return PARENT_GROUPS.minna;
+    }
+
+    const kanjiParentMatch = fileName.match(/^kanji_(\d+)__/);
+    if (kanjiParentMatch) {
+      return PARENT_GROUPS.kanji;
+    }
+
+    if (fileName.match(/^jlpt_n5_voc_([^_]+)__/)) {
+      return PARENT_GROUPS.jlptVoc;
+    }
+
+    if (fileName.match(/^jlpt_n5_(\d+)_grammar(?:_v2)?__/)) {
+      return PARENT_GROUPS.jlptGrammar;
+    }
+
+    if (fileName.match(/^jlpt_n5_t7_2025__/)) {
+      return PARENT_GROUPS.jlptTest;
+    }
+
+    if (fileName.match(/^jlpt_n5_zettai_goukaku_de3__/) || fileName.match(/^(goukaku_.+)__/)) {
+      return PARENT_GROUPS.goukaku;
+    }
+
+    if (fileName.match(/^(hiragana|katakana)_trac_nghiem__/)) {
+      return PARENT_GROUPS.kana;
+    }
+
     const minaMatch = fileName.match(/^voc_mina_(\d+)__/);
     if (minaMatch) {
       return {
