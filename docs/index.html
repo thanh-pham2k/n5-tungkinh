@@ -688,7 +688,7 @@
 
     .vocab-review-actions {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 8px;
     }
 
@@ -1642,7 +1642,6 @@
         <div class="vocab-review-actions">
           <button id="vocab-review-prev" type="button" disabled>Previous</button>
           <button class="primary" id="vocab-review-show" type="button" disabled>Show Answer</button>
-          <button id="vocab-review-next" type="button" disabled>Next</button>
         </div>
       </div>
     </section>
@@ -1999,7 +1998,6 @@
       const vocabReviewCard = document.getElementById("vocab-review-card");
       const vocabReviewPrev = document.getElementById("vocab-review-prev");
       const vocabReviewShow = document.getElementById("vocab-review-show");
-      const vocabReviewNext = document.getElementById("vocab-review-next");
 
       let lessons = [];
       let objectUrl = "";
@@ -2302,11 +2300,10 @@
         const canStartShuffle = vocabReviewCards.length > 0
           && (vocabReviewMode === "review" || vocabReviewIndex >= vocabReviewCards.length - 1);
         vocabReviewPrev.disabled = !hasCards || vocabReviewIndex <= 0;
-        vocabReviewNext.disabled = !hasCards || vocabReviewIndex >= vocabReviewQueue.length - 1;
         vocabReviewShow.disabled = !hasCards;
         vocabReviewShuffle.disabled = !canStartShuffle;
         vocabReviewReset.disabled = vocabReviewCards.length === 0;
-        vocabReviewShow.textContent = vocabReviewAnswerVisible ? "Hide Answer" : "Show Answer";
+        vocabReviewShow.textContent = vocabReviewAnswerVisible ? "Next Card" : "Show Answer";
       };
 
       const renderVocabReviewCard = () => {
@@ -2377,6 +2374,28 @@
         vocabReviewIndex = 0;
         vocabReviewAnswerVisible = false;
         vocabReviewMode = "review";
+        renderVocabReviewCard();
+      };
+
+      const advanceVocabReviewCard = () => {
+        if (!vocabReviewQueue.length) {
+          return;
+        }
+
+        if (!vocabReviewAnswerVisible) {
+          vocabReviewAnswerVisible = true;
+          renderVocabReviewCard();
+          return;
+        }
+
+        if (vocabReviewIndex >= vocabReviewQueue.length - 1) {
+          const modeLabel = vocabReviewMode === "review" ? "Shuffle Review" : "Learn";
+          vocabReviewStatus.textContent = `${modeLabel}: đã hết ${vocabReviewQueue.length} thẻ.`;
+          return;
+        }
+
+        vocabReviewIndex += 1;
+        vocabReviewAnswerVisible = false;
         renderVocabReviewCard();
       };
 
@@ -3308,13 +3327,7 @@
 
       vocabReviewLoad.addEventListener("click", loadVocabReviewCsv);
 
-      vocabReviewShow.addEventListener("click", () => {
-        if (!vocabReviewQueue.length) {
-          return;
-        }
-        vocabReviewAnswerVisible = !vocabReviewAnswerVisible;
-        renderVocabReviewCard();
-      });
+      vocabReviewShow.addEventListener("click", advanceVocabReviewCard);
 
       vocabReviewPrev.addEventListener("click", () => {
         if (vocabReviewIndex <= 0) {
@@ -3325,18 +3338,24 @@
         renderVocabReviewCard();
       });
 
-      vocabReviewNext.addEventListener("click", () => {
-        if (vocabReviewIndex >= vocabReviewQueue.length - 1) {
-          return;
-        }
-        vocabReviewIndex += 1;
-        vocabReviewAnswerVisible = false;
-        renderVocabReviewCard();
-      });
-
       vocabReviewShuffle.addEventListener("click", startVocabReviewShuffle);
 
       vocabReviewReset.addEventListener("click", startVocabReviewLearn);
+
+      window.addEventListener("keydown", (event) => {
+        if (event.code !== "Space" || tabSelect.value !== "vocab-review-panel") {
+          return;
+        }
+
+        const target = event.target;
+        const tagName = target && target.tagName ? target.tagName.toLowerCase() : "";
+        if (tagName === "textarea" || tagName === "input" || tagName === "select") {
+          return;
+        }
+
+        event.preventDefault();
+        advanceVocabReviewCard();
+      });
 
       vocabFullOpen.addEventListener("click", openFullVocabularyDialog);
 
