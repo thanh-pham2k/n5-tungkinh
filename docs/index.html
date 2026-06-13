@@ -601,6 +601,85 @@
       min-width: 84px;
     }
 
+    .vocab-review-shell {
+      display: grid;
+      gap: 14px;
+    }
+
+    .vocab-review-controls {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto auto;
+      gap: 10px;
+      align-items: end;
+    }
+
+    .vocab-review-card {
+      min-height: 280px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 22px;
+      display: grid;
+      gap: 18px;
+      align-content: center;
+      text-align: center;
+    }
+
+    .vocab-review-card.empty {
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .vocab-review-term {
+      display: grid;
+      gap: 8px;
+    }
+
+    .vocab-review-word {
+      color: var(--text);
+      font-size: 42px;
+      font-weight: 800;
+      line-height: 1.15;
+      overflow-wrap: anywhere;
+    }
+
+    .vocab-review-reading {
+      color: var(--primary-dark);
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.25;
+      overflow-wrap: anywhere;
+    }
+
+    .vocab-review-answer {
+      display: none;
+      gap: 8px;
+      max-width: 720px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .vocab-review-answer.visible {
+      display: grid;
+    }
+
+    .vocab-review-answer p {
+      margin: 0;
+      color: var(--text);
+      line-height: 1.55;
+      overflow-wrap: anywhere;
+    }
+
+    .vocab-review-answer strong {
+      color: var(--primary-dark);
+    }
+
+    .vocab-review-actions {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+    }
+
     input[type="file"] {
       width: 100%;
       border: 1px solid var(--line);
@@ -731,6 +810,22 @@
 
       .public-layout {
         grid-template-columns: 1fr;
+      }
+
+      .vocab-review-controls {
+        grid-template-columns: 1fr;
+      }
+
+      .vocab-review-actions {
+        grid-template-columns: 1fr;
+      }
+
+      .vocab-review-word {
+        font-size: 34px;
+      }
+
+      .vocab-review-reading {
+        font-size: 20px;
       }
 
       .vocab-panel {
@@ -1403,6 +1498,7 @@
         <select class="tab-select" id="tab-select">
           <option value="audio-panel" selected>Audio public</option>
           <option value="instant-vocab-panel">Instant Vocab</option>
+          <option value="vocab-review-panel">Vocab Review</option>
           <option value="kana-panel">Kana</option>
           <option value="grammar-panel">Grammar</option>
           <option value="kanji-panel">Kanji</option>
@@ -1514,6 +1610,31 @@
         <div class="status" id="instant-vocab-status">Chưa có dữ liệu.</div>
         <div class="instant-vocab-list" id="instant-vocab-list"></div>
         <audio id="instant-vocab-audio" preload="auto"></audio>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="vocab-review-panel" role="tabpanel" aria-labelledby="tab-vocab-review">
+      <h2>Vocab Review</h2>
+      <p class="hint">Upload CSV có header: vocabulary,hiragana,meaning_vi,example_ja,example_vi</p>
+      <div class="vocab-review-shell">
+        <div class="vocab-review-controls">
+          <div>
+            <label for="vocab-review-file">File CSV</label>
+            <input type="file" id="vocab-review-file" accept=".csv,text/csv">
+          </div>
+          <button class="primary" id="vocab-review-load" type="button">Load File</button>
+          <button id="vocab-review-shuffle" type="button" disabled>Shuffle Review</button>
+          <button id="vocab-review-reset" type="button" disabled>Reset</button>
+        </div>
+        <div class="status" id="vocab-review-status">Chưa có dữ liệu.</div>
+        <div class="vocab-review-card empty" id="vocab-review-card" aria-live="polite">
+          Chọn file CSV để bắt đầu.
+        </div>
+        <div class="vocab-review-actions">
+          <button id="vocab-review-prev" type="button" disabled>Previous</button>
+          <button class="primary" id="vocab-review-show" type="button" disabled>Show Answer</button>
+          <button id="vocab-review-next" type="button" disabled>Next</button>
+        </div>
       </div>
     </section>
 
@@ -1861,6 +1982,15 @@
       const instantVocabStatus = document.getElementById("instant-vocab-status");
       const instantVocabList = document.getElementById("instant-vocab-list");
       const instantVocabAudio = document.getElementById("instant-vocab-audio");
+      const vocabReviewFile = document.getElementById("vocab-review-file");
+      const vocabReviewLoad = document.getElementById("vocab-review-load");
+      const vocabReviewShuffle = document.getElementById("vocab-review-shuffle");
+      const vocabReviewReset = document.getElementById("vocab-review-reset");
+      const vocabReviewStatus = document.getElementById("vocab-review-status");
+      const vocabReviewCard = document.getElementById("vocab-review-card");
+      const vocabReviewPrev = document.getElementById("vocab-review-prev");
+      const vocabReviewShow = document.getElementById("vocab-review-show");
+      const vocabReviewNext = document.getElementById("vocab-review-next");
 
       let lessons = [];
       let objectUrl = "";
@@ -1877,6 +2007,11 @@
       let instantVocabRunToken = 0;
       let instantVocabIsPlaying = false;
       let instantVocabOrderMode = "sequential";
+      let vocabReviewCards = [];
+      let vocabReviewQueue = [];
+      let vocabReviewIndex = 0;
+      let vocabReviewAnswerVisible = false;
+      let vocabReviewMode = "learn";
 
       const listeningLessons = Array.from({ length: 25 }, (_, index) => {
         const lessonNo = index + 1;
@@ -2104,6 +2239,165 @@
             statusText: hiragana ? "Ready." : "Missing hiragana.",
           };
         });
+      };
+
+      const vocabReviewRequiredHeaders = ["vocabulary", "hiragana", "meaning_vi", "example_ja", "example_vi"];
+
+      const parseVocabReviewCsv = (text) => {
+        const rows = parseInstantVocabCsvRows(text.trim());
+        if (!rows.length) {
+          throw new Error("File cần có header: vocabulary,hiragana,meaning_vi,example_ja,example_vi");
+        }
+
+        rows[0][0] = rows[0][0].replace(/^\uFEFF/, "");
+        const headers = rows[0].map((value) => value.trim());
+        const missingHeaders = vocabReviewRequiredHeaders.filter((header) => !headers.includes(header));
+        if (missingHeaders.length) {
+          throw new Error("File cần có header: vocabulary,hiragana,meaning_vi,example_ja,example_vi");
+        }
+
+        const headerIndexes = new Map(headers.map((header, index) => [header, index]));
+        const lastRequiredColumnIndex = Math.max(
+          ...vocabReviewRequiredHeaders.map((header) => headerIndexes.get(header)),
+        );
+        return rows.slice(1).map((row, index) => {
+          const card = {};
+          vocabReviewRequiredHeaders.forEach((header) => {
+            const columnIndex = headerIndexes.get(header);
+            card[header] = columnIndex < row.length ? row[columnIndex].trim() : "";
+          });
+
+          if (!card.vocabulary && !card.hiragana && !card.meaning_vi && !card.example_ja && !card.example_vi) {
+            return null;
+          }
+
+          if (row.length <= lastRequiredColumnIndex) {
+            throw new Error(`Dòng ${index + 2} thiếu cột dữ liệu.`);
+          }
+
+          return card;
+        }).filter(Boolean);
+      };
+
+      const shuffleVocabReviewCards = (cards) => {
+        const queue = [...cards];
+        for (let index = queue.length - 1; index > 0; index -= 1) {
+          const swapIndex = Math.floor(Math.random() * (index + 1));
+          [queue[index], queue[swapIndex]] = [queue[swapIndex], queue[index]];
+        }
+        return queue;
+      };
+
+      const setVocabReviewControls = () => {
+        const hasCards = vocabReviewQueue.length > 0;
+        const canStartShuffle = vocabReviewCards.length > 0
+          && (vocabReviewMode === "review" || vocabReviewIndex >= vocabReviewCards.length - 1);
+        vocabReviewPrev.disabled = !hasCards || vocabReviewIndex <= 0;
+        vocabReviewNext.disabled = !hasCards || vocabReviewIndex >= vocabReviewQueue.length - 1;
+        vocabReviewShow.disabled = !hasCards;
+        vocabReviewShuffle.disabled = !canStartShuffle;
+        vocabReviewReset.disabled = vocabReviewCards.length === 0;
+        vocabReviewShow.textContent = vocabReviewAnswerVisible ? "Hide Answer" : "Show Answer";
+      };
+
+      const renderVocabReviewCard = () => {
+        const card = vocabReviewQueue[vocabReviewIndex];
+        vocabReviewCard.replaceChildren();
+
+        if (!card) {
+          vocabReviewCard.className = "vocab-review-card empty";
+          vocabReviewCard.textContent = "Chọn file CSV để bắt đầu.";
+          vocabReviewStatus.textContent = "Chưa có dữ liệu.";
+          setVocabReviewControls();
+          return;
+        }
+
+        vocabReviewCard.className = "vocab-review-card";
+
+        const term = document.createElement("div");
+        term.className = "vocab-review-term";
+
+        const word = document.createElement("div");
+        word.className = "vocab-review-word";
+        word.textContent = card.vocabulary || "(blank)";
+
+        const reading = document.createElement("div");
+        reading.className = "vocab-review-reading";
+        reading.textContent = card.hiragana || "(blank)";
+
+        term.append(word, reading);
+
+        const answer = document.createElement("div");
+        answer.className = "vocab-review-answer";
+        answer.classList.toggle("visible", vocabReviewAnswerVisible);
+
+        const meaning = document.createElement("p");
+        meaning.innerHTML = "<strong>Nghĩa:</strong> ";
+        meaning.append(document.createTextNode(card.meaning_vi));
+
+        const exampleJa = document.createElement("p");
+        exampleJa.innerHTML = "<strong>Ví dụ:</strong> ";
+        exampleJa.append(document.createTextNode(card.example_ja));
+
+        const exampleVi = document.createElement("p");
+        exampleVi.innerHTML = "<strong>Dịch:</strong> ";
+        exampleVi.append(document.createTextNode(card.example_vi));
+
+        answer.append(meaning, exampleJa, exampleVi);
+        vocabReviewCard.append(term, answer);
+
+        const modeLabel = vocabReviewMode === "review" ? "Shuffle Review" : "Learn";
+        vocabReviewStatus.textContent = `${modeLabel}: ${vocabReviewIndex + 1}/${vocabReviewQueue.length}`;
+        setVocabReviewControls();
+      };
+
+      const startVocabReviewLearn = () => {
+        vocabReviewQueue = [...vocabReviewCards];
+        vocabReviewIndex = 0;
+        vocabReviewAnswerVisible = false;
+        vocabReviewMode = "learn";
+        renderVocabReviewCard();
+      };
+
+      const startVocabReviewShuffle = () => {
+        if (!vocabReviewCards.length) {
+          vocabReviewStatus.textContent = "Load CSV trước.";
+          return;
+        }
+        vocabReviewQueue = shuffleVocabReviewCards(vocabReviewCards);
+        vocabReviewIndex = 0;
+        vocabReviewAnswerVisible = false;
+        vocabReviewMode = "review";
+        renderVocabReviewCard();
+      };
+
+      const loadVocabReviewFile = async () => {
+        const file = vocabReviewFile.files[0];
+        if (!file) {
+          vocabReviewStatus.textContent = "Vui lòng chọn file CSV.";
+          return;
+        }
+
+        try {
+          const text = await file.text();
+          vocabReviewCards = parseVocabReviewCsv(text);
+          if (!vocabReviewCards.length) {
+            throw new Error("File không có dòng từ vựng.");
+          }
+          startVocabReviewLearn();
+          vocabReviewStatus.textContent = `Learn: 1/${vocabReviewCards.length}`;
+        } catch (error) {
+          console.error(error);
+          vocabReviewCards = [];
+          vocabReviewQueue = [];
+          vocabReviewIndex = 0;
+          vocabReviewAnswerVisible = false;
+          vocabReviewMode = "learn";
+          vocabReviewCard.className = "vocab-review-card empty";
+          vocabReviewCard.textContent = "Không tải được file CSV.";
+          vocabReviewStatus.textContent = error.message || "Không tải được file CSV.";
+          setVocabReviewControls();
+        }
       };
 
       const updateInstantRowStatus = (index, statusValue, statusText) => {
@@ -3009,6 +3303,40 @@
       instantVocabStop.addEventListener("click", () => {
         stopInstantPlayback();
       });
+
+      vocabReviewLoad.addEventListener("click", loadVocabReviewFile);
+
+      vocabReviewFile.addEventListener("change", loadVocabReviewFile);
+
+      vocabReviewShow.addEventListener("click", () => {
+        if (!vocabReviewQueue.length) {
+          return;
+        }
+        vocabReviewAnswerVisible = !vocabReviewAnswerVisible;
+        renderVocabReviewCard();
+      });
+
+      vocabReviewPrev.addEventListener("click", () => {
+        if (vocabReviewIndex <= 0) {
+          return;
+        }
+        vocabReviewIndex -= 1;
+        vocabReviewAnswerVisible = false;
+        renderVocabReviewCard();
+      });
+
+      vocabReviewNext.addEventListener("click", () => {
+        if (vocabReviewIndex >= vocabReviewQueue.length - 1) {
+          return;
+        }
+        vocabReviewIndex += 1;
+        vocabReviewAnswerVisible = false;
+        renderVocabReviewCard();
+      });
+
+      vocabReviewShuffle.addEventListener("click", startVocabReviewShuffle);
+
+      vocabReviewReset.addEventListener("click", startVocabReviewLearn);
 
       vocabFullOpen.addEventListener("click", openFullVocabularyDialog);
 
