@@ -606,9 +606,21 @@
       gap: 14px;
     }
 
+    .vocab-review-input {
+      width: 100%;
+      min-height: 220px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      color: var(--text);
+      background: #fff;
+      font: 14px/1.5 Consolas, "Courier New", monospace;
+      resize: vertical;
+    }
+
     .vocab-review-controls {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) auto auto auto;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 10px;
       align-items: end;
     }
@@ -1615,20 +1627,17 @@
 
     <section class="tab-panel" id="vocab-review-panel" role="tabpanel" aria-labelledby="tab-vocab-review">
       <h2>Vocab Review</h2>
-      <p class="hint">Upload CSV có header: vocabulary,hiragana,meaning_vi,example_ja,example_vi</p>
+      <p class="hint">Dán CSV có header: vocabulary,hiragana,meaning_vi,example_ja,example_vi</p>
       <div class="vocab-review-shell">
+        <textarea class="vocab-review-input" id="vocab-review-input" spellcheck="false" aria-label="CSV từ vựng Vocab Review" placeholder="vocabulary,hiragana,meaning_vi,example_ja,example_vi"></textarea>
         <div class="vocab-review-controls">
-          <div>
-            <label for="vocab-review-file">File CSV</label>
-            <input type="file" id="vocab-review-file" accept=".csv,text/csv">
-          </div>
-          <button class="primary" id="vocab-review-load" type="button">Load File</button>
+          <button class="primary" id="vocab-review-load" type="button">Load CSV</button>
           <button id="vocab-review-shuffle" type="button" disabled>Shuffle Review</button>
           <button id="vocab-review-reset" type="button" disabled>Reset</button>
         </div>
         <div class="status" id="vocab-review-status">Chưa có dữ liệu.</div>
         <div class="vocab-review-card empty" id="vocab-review-card" aria-live="polite">
-          Chọn file CSV để bắt đầu.
+          Dán CSV để bắt đầu.
         </div>
         <div class="vocab-review-actions">
           <button id="vocab-review-prev" type="button" disabled>Previous</button>
@@ -1982,7 +1991,7 @@
       const instantVocabStatus = document.getElementById("instant-vocab-status");
       const instantVocabList = document.getElementById("instant-vocab-list");
       const instantVocabAudio = document.getElementById("instant-vocab-audio");
-      const vocabReviewFile = document.getElementById("vocab-review-file");
+      const vocabReviewInput = document.getElementById("vocab-review-input");
       const vocabReviewLoad = document.getElementById("vocab-review-load");
       const vocabReviewShuffle = document.getElementById("vocab-review-shuffle");
       const vocabReviewReset = document.getElementById("vocab-review-reset");
@@ -2306,7 +2315,7 @@
 
         if (!card) {
           vocabReviewCard.className = "vocab-review-card empty";
-          vocabReviewCard.textContent = "Chọn file CSV để bắt đầu.";
+          vocabReviewCard.textContent = "Dán CSV để bắt đầu.";
           vocabReviewStatus.textContent = "Chưa có dữ liệu.";
           setVocabReviewControls();
           return;
@@ -2371,16 +2380,9 @@
         renderVocabReviewCard();
       };
 
-      const loadVocabReviewFile = async () => {
-        const file = vocabReviewFile.files[0];
-        if (!file) {
-          vocabReviewStatus.textContent = "Vui lòng chọn file CSV.";
-          return;
-        }
-
+      const loadVocabReviewCsv = () => {
         try {
-          const text = await file.text();
-          vocabReviewCards = parseVocabReviewCsv(text);
+          vocabReviewCards = parseVocabReviewCsv(vocabReviewInput.value);
           if (!vocabReviewCards.length) {
             throw new Error("File không có dòng từ vựng.");
           }
@@ -2394,8 +2396,8 @@
           vocabReviewAnswerVisible = false;
           vocabReviewMode = "learn";
           vocabReviewCard.className = "vocab-review-card empty";
-          vocabReviewCard.textContent = "Không tải được file CSV.";
-          vocabReviewStatus.textContent = error.message || "Không tải được file CSV.";
+          vocabReviewCard.textContent = "Không đọc được CSV.";
+          vocabReviewStatus.textContent = error.message || "Không đọc được CSV.";
           setVocabReviewControls();
         }
       };
@@ -3304,9 +3306,7 @@
         stopInstantPlayback();
       });
 
-      vocabReviewLoad.addEventListener("click", loadVocabReviewFile);
-
-      vocabReviewFile.addEventListener("change", loadVocabReviewFile);
+      vocabReviewLoad.addEventListener("click", loadVocabReviewCsv);
 
       vocabReviewShow.addEventListener("click", () => {
         if (!vocabReviewQueue.length) {
