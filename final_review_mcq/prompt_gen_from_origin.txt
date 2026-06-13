@@ -1,0 +1,83 @@
+Hãy tạo dữ liệu CSV cho app trắc nghiệm tiếng Nhật.
+
+Chỉ dùng các câu hỏi có sẵn tôi cung cấp. Không tự tạo câu mới, không thêm đáp án đúng, không giải thích, không tạo app, không viết code, không tạo file tải về hay .zip.
+
+Mỗi nhóm bài xuất thành một CSV riêng, đặt trong khối `csv ... `. Trước mỗi khối ghi tên file đề xuất.
+
+Mỗi CSV có đúng các cột:
+
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+
+Yêu cầu:
+
+1. Dòng đầu là header.
+2. Mỗi dòng là một câu hỏi.
+3. Mỗi CSV chỉ chứa một nhóm bài.
+4. Câu hỏi cùng nhóm có cùng group_id, group_title, lesson.
+5. question_no tăng từ 1 trong từng nhóm.
+6. Không thêm cột correct_answer hoặc explanation.
+7. Không đánh dấu đáp án đúng bằng bất kỳ cách nào.
+8. Nếu ô có dấu phẩy, bọc bằng dấu ngoặc kép.
+9. Nội dung UTF-8, không lỗi tiếng Nhật và tiếng Việt.
+10. Chỉ phân loại, sắp xếp và gom nhóm từ câu hỏi có sẵn.
+11. Không tự tạo câu hỏi mới, không tự thêm đáp án mới.
+12. Nếu là nhóm bài ngữ pháp:
+
+    * Nếu trong question_jp hoặc option có Kanji, hãy thêm furigana để dễ đọc.
+    * Format furigana: 漢字（ふりがな）.
+    * Chỉ thêm furigana cho Kanji có sẵn, không thay đổi nghĩa câu.
+    * Ví dụ: 学校へ行きます。 → 学校（がっこう）へ行（い）きます。
+13. Nếu là nhóm bài từ vựng:
+
+    * Không cần thêm furigana nếu câu hỏi đang kiểm tra từ vựng, Kanji, Hiragana hoặc Katakana.
+    * Giữ nguyên dạng chữ trong câu hỏi và đáp án như dữ liệu gốc.
+    * Chỉ thêm dấu [...] nếu câu hỏi yêu cầu chọn giữa chữ Hán và Hiragana/Katakana.
+14. Nếu câu hỏi yêu cầu chọn giữa chữ Hán và Hiragana/Katakana, hãy thêm dấu [...] vào vị trí cần chọn trong question_jp để tôi biết chỗ cần làm bài.
+15. Với bài đọc, đoạn văn, email, thông báo, bảng thông tin, lịch trình hoặc bài có nhiều câu hỏi dùng chung một nội dung:
+
+    * Giữ nguyên schema 10 cột, không thêm cột mới.
+    * Đưa toàn bộ nội dung bài đọc vào cột question_jp.
+    * Sau bài đọc, thêm phần 【質問】 rồi ghi câu hỏi tương ứng.
+    * Nếu nhiều câu hỏi dùng chung một bài đọc, hãy lặp lại nguyên bài đọc trong từng dòng câu hỏi để mỗi dòng CSV có đủ ngữ cảnh.
+    * Bọc toàn bộ ô question_jp bằng dấu ngoặc kép nếu có xuống dòng, dấu phẩy, dấu ngoặc kép hoặc ký tự đặc biệt.
+    * Nếu trong question_jp có dấu ngoặc kép tiếng Nhật 「...」 thì giữ nguyên.
+    * Không tóm tắt, không rút gọn, không tự thêm nội dung ngoài bài đọc và câu hỏi đã cung cấp.
+
+Ví dụ:
+
+01_cau_danh_tu_dong_tu.csv
+
+```csv
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",1,わたしは学生（がくせい）＿＿。,Tôi là học sinh.,です,ます,います,あります
+1,Câu danh từ + động từ,"Mina bài 1, 2, 4, 12",2,田中（たなか）さんは先生（せんせい）＿＿。,Anh Tanaka không phải là giáo viên.,ません,ではありません,ありません,いません
+```
+
+Ví dụ câu chọn chữ Hán/Hiragana:
+
+```csv
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+3,Kanji / Hiragana,"Mina bài ...",1,きのう[学校]へ行きました。,Hôm qua tôi đã đi học.,学校,がっこう,大学,だいがく
+3,Kanji / Hiragana,"Mina bài ...",2,[やま]にのぼります。,Tôi leo núi.,山,川,やま,かわ
+```
+
+Ví dụ bài đọc:
+
+04_doc_hieu_ngan.csv
+
+```csv
+group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d
+4,Đọc hiểu ngắn,Đọc hiểu,1,"【本文】
+きのうは　わたしの　たんじょう日でした。田中さんと　石川さんの　二人から　花と　CDを　もらいました。
+CDは　妹も　大好きな　歌ですから、いっしょに　聞きました。
+今日は　弟が　聞いています。
+
+【質問】
+「わたし」は　だれと　CDを　聞きましたか。",Đọc bài và trả lời câu hỏi.,田中さんと　石川さんと　聞きました。,石川さんと　聞きました。,妹と　聞きました。,弟と　聞きました。
+```
+
+Kết quả cuối cùng chỉ gồm:
+
+* Tên file đề xuất.
+* Khối CSV tương ứng.
+* Không giải thích thêm.
