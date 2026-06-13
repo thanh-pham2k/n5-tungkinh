@@ -31,6 +31,7 @@
 
   const state = {
     groups: [],
+    selectedGrandParentKey: "",
     selectedParentKey: "",
     selectedGroupIndex: 0,
     selectedAnswers: new Map(),
@@ -106,6 +107,7 @@
     fileName: group.fileName,
     groupTitle: group.groupTitle,
     lesson: group.lesson,
+    grandParentGroup: group.grandParentGroup.label,
     parentGroup: group.parentGroup.label,
     questionCount: group.questions.length,
     selectedCount: 0,
@@ -119,6 +121,7 @@
     ...(state.progress.get(group.fileName) || {}),
     groupTitle: group.groupTitle,
     lesson: group.lesson,
+    grandParentGroup: group.grandParentGroup.label,
     parentGroup: group.parentGroup.label,
     questionCount: group.questions.length,
   });
@@ -468,6 +471,7 @@
 
     return {
       fileName,
+      grandParentGroup: getGrandParentGroup(fileName),
       parentGroup: getParentGroup(fileName),
       groupId: questions[0].groupId,
       groupTitle: questions[0].groupTitle || fileName,
@@ -731,7 +735,7 @@
     },
   };
 
-  const getParentGroup = (fileName) => {
+  const getGrandParentGroup = (fileName) => {
     const minnaParentMatch = fileName.match(/^voc_mina_(\d+)__/);
     if (minnaParentMatch) {
       return PARENT_GROUPS.minna;
@@ -762,6 +766,10 @@
       return PARENT_GROUPS.kana;
     }
 
+    return PARENT_GROUPS.finalReview;
+  };
+
+  const getParentGroup = (fileName) => {
     const minaMatch = fileName.match(/^voc_mina_(\d+)__/);
     if (minaMatch) {
       return {
@@ -860,11 +868,21 @@
     };
   };
 
+  const getGrandParentGroups = () => {
+    const grandParents = new Map();
+    state.groups.forEach((group) => {
+      grandParents.set(group.grandParentGroup.key, group.grandParentGroup);
+    });
+    return Array.from(grandParents.values()).sort((a, b) => a.order - b.order);
+  };
+
   const getParentGroups = () => {
     const parents = new Map();
-    state.groups.forEach((group) => {
-      parents.set(group.parentGroup.key, group.parentGroup);
-    });
+    state.groups
+      .filter((group) => group.grandParentGroup.key === state.selectedGrandParentKey)
+      .forEach((group) => {
+        parents.set(group.parentGroup.key, group.parentGroup);
+      });
     return Array.from(parents.values()).sort((a, b) => {
       if (a.key === "final_review") {
         return -1;
@@ -894,7 +912,15 @@
   const getGroupsInSelectedParent = () => {
     return state.groups
       .map((group, index) => ({ group, index }))
-      .filter((item) => item.group.parentGroup.key === state.selectedParentKey);
+      .filter((item) => (
+        item.group.grandParentGroup.key === state.selectedGrandParentKey
+        && item.group.parentGroup.key === state.selectedParentKey
+      ));
+  };
+
+  const selectFirstParentInGrandParent = () => {
+    const firstParent = getParentGroups()[0];
+    state.selectedParentKey = firstParent ? firstParent.key : "";
   };
 
   const selectFirstGroupInParent = () => {
@@ -905,11 +931,45 @@
   };
 
   const renderGroupButtons = () => {
+    const grandParents = getGrandParentGroups();
+    if (!state.selectedGrandParentKey && grandParents.length) {
+      state.selectedGrandParentKey = grandParents[0].key;
+    }
+
+    if (!grandParents.some((grandParent) => grandParent.key === state.selectedGrandParentKey) && grandParents.length) {
+      state.selectedGrandParentKey = grandParents[0].key;
+    }
+
     const parents = getParentGroups();
-    if (!state.selectedParentKey && parents.length) {
-      state.selectedParentKey = parents[0].key;
+    if (!state.selectedParentKey || !parents.some((parent) => parent.key === state.selectedParentKey)) {
+      selectFirstParentInGrandParent();
       selectFirstGroupInParent();
     }
+
+    const grandParentField = document.createElement("label");
+    grandParentField.className = "quiz-select-field";
+    grandParentField.textContent = "Nhóm ông nội";
+
+    const grandParentSelect = document.createElement("select");
+    grandParentSelect.className = "quiz-select";
+    grandParentSelect.setAttribute("aria-label", "Chọn nhóm ông nội ôn tập");
+
+    grandParents.forEach((grandParent) => {
+      const option = document.createElement("option");
+      option.value = grandParent.key;
+      option.textContent = grandParent.label;
+      option.selected = grandParent.key === state.selectedGrandParentKey;
+      grandParentSelect.appendChild(option);
+    });
+
+    grandParentSelect.addEventListener("change", () => {
+      state.selectedGrandParentKey = grandParentSelect.value;
+      selectFirstParentInGrandParent();
+      selectFirstGroupInParent();
+      renderQuiz();
+    });
+
+    grandParentField.appendChild(grandParentSelect);
 
     const parentField = document.createElement("label");
     parentField.className = "quiz-select-field";
@@ -957,7 +1017,7 @@
     });
 
     childField.appendChild(childSelect);
-    groupList.replaceChildren(parentField, childField);
+    groupList.replaceChildren(grandParentField, parentField, childField);
   };
 
   const createOption = (group, question, optionKey, optionText) => {
@@ -1453,7 +1513,8 @@
 
       state.groups = await Promise.all(fileNames.map(readCsvGroup));
       state.progress = loadProgress();
-      state.selectedParentKey = state.groups[0]?.parentGroup.key || "";
+      state.selectedGrandParentKey = state.groups[0]?.grandParentGroup.key || "";
+      selectFirstParentInGrandParent();
       selectFirstGroupInParent();
       renderQuiz();
       setStatus(`Đã tải ${state.groups.length} nhóm bài.`, "success");
