@@ -3413,7 +3413,7 @@
       vocabReviewReset.addEventListener("click", startVocabReviewLearn);
 
       window.addEventListener("keydown", (event) => {
-        const isAdvanceKey = event.code === "Space" || event.code === "Enter";
+        const isAdvanceKey = event.code === "Space" || event.code === "Enter" || event.code === "NumpadEnter";
         const isLaterKey = event.code === "Digit0" || event.code === "Numpad0";
         if ((!isAdvanceKey && !isLaterKey) || tabSelect.value !== "vocab-review-panel") {
           return;
