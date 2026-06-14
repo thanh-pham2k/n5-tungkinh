@@ -637,22 +637,6 @@
       text-align: center;
     }
 
-    .vocab-review-card-stage {
-      display: grid;
-      grid-template-columns: auto minmax(0, 1fr) auto;
-      gap: 10px;
-      align-items: stretch;
-    }
-
-    .vocab-review-arrow {
-      width: 52px;
-      min-height: 100%;
-      padding: 0;
-      font-size: 28px;
-      font-weight: 800;
-      line-height: 1;
-    }
-
     .vocab-review-card.empty {
       color: var(--muted);
       font-weight: 700;
@@ -846,15 +830,6 @@
 
       .vocab-review-controls {
         grid-template-columns: 1fr;
-      }
-
-      .vocab-review-card-stage {
-        grid-template-columns: 1fr;
-      }
-
-      .vocab-review-arrow {
-        width: 100%;
-        min-height: 44px;
       }
 
       .vocab-review-actions {
@@ -1668,12 +1643,8 @@
           <button id="vocab-review-reset" type="button" disabled>Reset</button>
         </div>
         <div class="status" id="vocab-review-status">Chưa có dữ liệu.</div>
-        <div class="vocab-review-card-stage">
-          <button class="vocab-review-arrow" id="vocab-review-arrow-left" type="button" aria-label="Previous vocab" disabled>←</button>
-          <div class="vocab-review-card empty" id="vocab-review-card" aria-live="polite">
+        <div class="vocab-review-card empty" id="vocab-review-card" aria-live="polite">
           Dán CSV để bắt đầu.
-        </div>
-          <button class="vocab-review-arrow" id="vocab-review-arrow-right" type="button" aria-label="Next vocab" disabled>→</button>
         </div>
         <div class="vocab-review-actions">
           <button id="vocab-review-prev" type="button" disabled>Previous</button>
@@ -2037,8 +2008,6 @@
       const vocabReviewReset = document.getElementById("vocab-review-reset");
       const vocabReviewStatus = document.getElementById("vocab-review-status");
       const vocabReviewCard = document.getElementById("vocab-review-card");
-      const vocabReviewArrowLeft = document.getElementById("vocab-review-arrow-left");
-      const vocabReviewArrowRight = document.getElementById("vocab-review-arrow-right");
       const vocabReviewPrev = document.getElementById("vocab-review-prev");
       const vocabReviewShow = document.getElementById("vocab-review-show");
       const vocabReviewAddLater = document.getElementById("vocab-review-add-later");
@@ -2357,8 +2326,6 @@
         const canStartShuffle = vocabReviewCards.length > 0
           && (vocabReviewMode === "review" || vocabReviewIndex >= vocabReviewCards.length - 1);
         vocabReviewPrev.disabled = !hasCards || vocabReviewIndex <= 0;
-        vocabReviewArrowLeft.disabled = !hasCards || vocabReviewIndex <= 0;
-        vocabReviewArrowRight.disabled = !hasCards || vocabReviewIndex >= vocabReviewQueue.length - 1;
         vocabReviewShow.disabled = !hasCards;
         vocabReviewShuffle.disabled = !canStartShuffle;
         vocabReviewLater.disabled = vocabReviewLaterCards.length === 0;
@@ -3495,14 +3462,6 @@
         moveVocabReviewCard(-1);
       });
 
-      vocabReviewArrowLeft.addEventListener("click", () => {
-        moveVocabReviewCard(-1);
-      });
-
-      vocabReviewArrowRight.addEventListener("click", () => {
-        moveVocabReviewCard(1);
-      });
-
       vocabReviewShuffle.addEventListener("click", startVocabReviewShuffle);
 
       vocabReviewLater.addEventListener("click", startVocabReviewLater);
@@ -3512,7 +3471,9 @@
       window.addEventListener("keydown", (event) => {
         const isAdvanceKey = event.code === "Space" || event.code === "Enter" || event.code === "NumpadEnter";
         const isLaterKey = event.code === "Digit0" || event.code === "Numpad0";
-        if ((!isAdvanceKey && !isLaterKey) || tabSelect.value !== "vocab-review-panel") {
+        const isArrowLeftKey = event.code === "ArrowLeft";
+        const isArrowRightKey = event.code === "ArrowRight";
+        if ((!isAdvanceKey && !isLaterKey && !isArrowLeftKey && !isArrowRightKey) || tabSelect.value !== "vocab-review-panel") {
           return;
         }
 
@@ -3523,6 +3484,16 @@
         }
 
         event.preventDefault();
+        if (isArrowLeftKey) {
+          moveVocabReviewCard(-1);
+          return;
+        }
+
+        if (isArrowRightKey) {
+          moveVocabReviewCard(1);
+          return;
+        }
+
         if (isLaterKey) {
           markCurrentVocabReviewLater();
           return;
