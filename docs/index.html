@@ -1213,7 +1213,16 @@
       font-size: 22px;
       font-weight: 500;
       line-height: 1.65;
-      overflow-wrap: anywhere;
+      white-space: pre-wrap;
+      overflow-wrap: break-word;
+      word-break: normal;
+    }
+
+    .quiz-section-label {
+      display: inline-block;
+      margin: 4px 0 2px;
+      font-weight: 800;
+      text-decoration: none;
     }
 
     .quiz-jp ruby,

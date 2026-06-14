@@ -606,6 +606,7 @@
 
   const appendQuestionText = (element, text) => {
     const markerPattern = /【([^】]+)】|（\s*）|\(\s*\)|[＿_]{2,}/g;
+    const sectionLabels = new Set(["本文", "質問"]);
     let cursor = 0;
     let match = markerPattern.exec(text);
 
@@ -616,8 +617,11 @@
 
       const span = document.createElement("span");
       const isTarget = Boolean(match[1]);
-      span.className = isTarget ? "quiz-target" : "quiz-blank";
-      if (isTarget) {
+      const isSectionLabel = isTarget && sectionLabels.has(match[1].trim());
+      span.className = isSectionLabel ? "quiz-section-label" : isTarget ? "quiz-target" : "quiz-blank";
+      if (isSectionLabel) {
+        span.textContent = match[0];
+      } else if (isTarget) {
         appendJapaneseText(span, match[1]);
       } else {
         span.textContent = match[0];
