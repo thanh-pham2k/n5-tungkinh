@@ -51,6 +51,7 @@
   const hotReviewInput = document.getElementById("hot-review-input");
   const hotReviewError = document.getElementById("hot-review-error");
   const hotReviewCancel = document.getElementById("hot-review-cancel");
+  const hotReviewClear = document.getElementById("hot-review-clear");
   const hotReviewCreate = document.getElementById("hot-review-create");
 
   if (!root || !status || !groupList || !content) {
@@ -1282,6 +1283,29 @@
     hotReviewContent.replaceChildren(empty);
   };
 
+  const clearHotReviewData = () => {
+    const hasData = Boolean(hotReviewInput?.value.trim())
+      || Boolean(state.hotReviewGroup)
+      || state.hotReviewAnswers.size > 0;
+    if (hasData && !window.confirm("Ban co chac muon xoa du lieu hien tai khong?")) {
+      return;
+    }
+
+    if (hotReviewInput) {
+      hotReviewInput.value = "";
+    }
+    if (hotReviewError) {
+      hotReviewError.textContent = "";
+    }
+
+    state.hotReviewGroup = null;
+    state.hotReviewAnswers = new Map();
+    state.renderedOptions = new Map(
+      Array.from(state.renderedOptions.entries()).filter(([key]) => !key.startsWith("hot-review:"))
+    );
+    renderHotReviewEmpty();
+  };
+
   const createHotReviewOption = (question, optionKey, optionText) => {
     const optionId = `hot-review-${question.questionNo}-${optionKey}`;
     const label = document.createElement("label");
@@ -1432,6 +1456,11 @@
     inputAgain.textContent = "Nhập lại dữ liệu";
     inputAgain.addEventListener("click", openHotReviewDialog);
 
+    const clearButton = document.createElement("button");
+    clearButton.type = "button";
+    clearButton.textContent = "Clear";
+    clearButton.addEventListener("click", clearHotReviewData);
+
     const header = document.createElement("div");
     header.className = "quiz-header";
 
@@ -1467,7 +1496,7 @@
     result.hidden = true;
 
     actions.append(submit);
-    hotReviewContent.replaceChildren(inputAgain, header, questions, actions, result);
+    hotReviewContent.replaceChildren(inputAgain, clearButton, header, questions, actions, result);
   };
 
   const createHotReviewFromInput = () => {
@@ -1499,6 +1528,7 @@
     hotReviewCancel?.addEventListener("click", () => {
       closeHotReviewDialog();
     });
+    hotReviewClear?.addEventListener("click", clearHotReviewData);
     hotReviewCreate?.addEventListener("click", createHotReviewFromInput);
   };
 

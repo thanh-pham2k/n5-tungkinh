@@ -620,7 +620,7 @@
 
     .vocab-review-controls {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(5, minmax(0, 1fr));
       gap: 10px;
       align-items: end;
     }
@@ -1609,6 +1609,7 @@
         <textarea class="instant-vocab-input" id="instant-vocab-input" spellcheck="false" aria-label="CSV từ vựng Instant Vocab" placeholder="vocabulary,hiragana,meaning_vi,example_ja,example_vi"></textarea>
         <div class="instant-vocab-controls">
           <button class="primary" id="instant-vocab-load" type="button">Load CSV</button>
+          <button id="instant-vocab-clear" type="button">Clear</button>
           <div>
             <label for="instant-vocab-repeat">Số lần lặp</label>
             <input class="instant-vocab-repeat" type="number" id="instant-vocab-repeat" min="1" step="1" value="5">
@@ -1636,6 +1637,7 @@
         <textarea class="vocab-review-input" id="vocab-review-input" spellcheck="false" aria-label="CSV từ vựng Vocab Review" placeholder="vocabulary,hiragana,meaning_vi,example_ja,example_vi"></textarea>
         <div class="vocab-review-controls">
           <button class="primary" id="vocab-review-load" type="button">Load CSV</button>
+          <button id="vocab-review-clear" type="button">Clear</button>
           <button id="vocab-review-shuffle" type="button" disabled>Shuffle Review</button>
           <button id="vocab-review-later" type="button" disabled>Review Later</button>
           <button id="vocab-review-reset" type="button" disabled>Reset</button>
@@ -1939,6 +1941,7 @@
         </div>
         <div class="hot-review-dialog-actions">
           <button id="hot-review-cancel" type="button">Hủy</button>
+          <button id="hot-review-clear" type="button">Clear</button>
           <button class="primary" id="hot-review-create" type="button">Tạo bài trắc nghiệm</button>
         </div>
       </form>
@@ -1989,6 +1992,7 @@
       const goukakuPdfOpen = document.getElementById("goukaku-pdf-open");
       const instantVocabInput = document.getElementById("instant-vocab-input");
       const instantVocabLoad = document.getElementById("instant-vocab-load");
+      const instantVocabClear = document.getElementById("instant-vocab-clear");
       const instantVocabRepeat = document.getElementById("instant-vocab-repeat");
       const instantVocabOrder = document.getElementById("instant-vocab-order");
       const instantVocabPlayAll = document.getElementById("instant-vocab-play-all");
@@ -1998,6 +2002,7 @@
       const instantVocabAudio = document.getElementById("instant-vocab-audio");
       const vocabReviewInput = document.getElementById("vocab-review-input");
       const vocabReviewLoad = document.getElementById("vocab-review-load");
+      const vocabReviewClear = document.getElementById("vocab-review-clear");
       const vocabReviewShuffle = document.getElementById("vocab-review-shuffle");
       const vocabReviewLater = document.getElementById("vocab-review-later");
       const vocabReviewReset = document.getElementById("vocab-review-reset");
@@ -2487,6 +2492,25 @@
         }
       };
 
+      const clearVocabReviewData = () => {
+        const hasData = Boolean(vocabReviewInput.value.trim())
+          || vocabReviewCards.length > 0
+          || vocabReviewQueue.length > 0
+          || vocabReviewLaterCards.length > 0;
+        if (hasData && !window.confirm("Ban co chac muon xoa du lieu hien tai khong?")) {
+          return;
+        }
+
+        vocabReviewInput.value = "";
+        vocabReviewCards = [];
+        vocabReviewQueue = [];
+        vocabReviewLaterCards = [];
+        vocabReviewIndex = 0;
+        vocabReviewAnswerVisible = false;
+        vocabReviewMode = "learn";
+        renderVocabReviewCard();
+      };
+
       const updateInstantRowStatus = (index, statusValue, statusText) => {
         const item = instantVocabItems[index];
         if (!item) {
@@ -2789,6 +2813,24 @@
           setInstantPlaybackState(false);
           instantVocabStatus.textContent = error.message || "Cannot load CSV.";
         }
+      };
+
+      const clearInstantVocabData = () => {
+        const hasData = Boolean(instantVocabInput.value.trim())
+          || instantVocabItems.length > 0
+          || instantVocabIsPlaying;
+        if (hasData && !window.confirm("Ban co chac muon xoa du lieu hien tai khong?")) {
+          return;
+        }
+
+        stopInstantPlayback("");
+        instantVocabInput.value = "";
+        instantVocabItems = [];
+        instantVocabList.replaceChildren();
+        instantVocabAudio.removeAttribute("src");
+        instantVocabAudio.load();
+        setInstantPlaybackState(false);
+        instantVocabStatus.textContent = "Chưa có dữ liệu.";
       };
 
       const getCurrentPublicLabel = () => {
@@ -3385,6 +3427,8 @@
 
       instantVocabLoad.addEventListener("click", loadInstantVocabCsv);
 
+      instantVocabClear.addEventListener("click", clearInstantVocabData);
+
       instantVocabPlayAll.addEventListener("click", playInstantAll);
 
       instantVocabStop.addEventListener("click", () => {
@@ -3392,6 +3436,8 @@
       });
 
       vocabReviewLoad.addEventListener("click", loadVocabReviewCsv);
+
+      vocabReviewClear.addEventListener("click", clearVocabReviewData);
 
       vocabReviewShow.addEventListener("click", advanceVocabReviewCard);
 
