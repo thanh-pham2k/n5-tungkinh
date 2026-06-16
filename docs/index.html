@@ -601,6 +601,28 @@
       min-width: 84px;
     }
 
+    .instant-vocab-kanji ruby,
+    .instant-vocab-reading ruby,
+    .instant-vocab-example ruby,
+    .vocab-review-word ruby,
+    .vocab-review-reading ruby,
+    .vocab-review-answer ruby {
+      ruby-position: over;
+    }
+
+    .instant-vocab-kanji rt,
+    .instant-vocab-reading rt,
+    .instant-vocab-example rt,
+    .vocab-review-word rt,
+    .vocab-review-reading rt,
+    .vocab-review-answer rt {
+      color: var(--muted);
+      font-size: 0.52em;
+      font-weight: 700;
+      line-height: 1;
+      text-align: center;
+    }
+
     .vocab-review-shell {
       display: grid;
       gap: 14px;
@@ -2318,6 +2340,35 @@
         return queue;
       };
 
+      const appendJapaneseRubyText = (element, text) => {
+        const source = String(text || "");
+        const rubyPattern = /([おご御]?[一-龯々〆ヶ][一-龯ぁ-んァ-ヶー々〆ヶ]*?)（([ぁ-んァ-ヶー]+)）/g;
+        let cursor = 0;
+        let match = rubyPattern.exec(source);
+
+        while (match) {
+          const textBeforeRuby = source.slice(cursor, match.index);
+          if (textBeforeRuby) {
+            element.appendChild(document.createTextNode(textBeforeRuby));
+          }
+
+          const ruby = document.createElement("ruby");
+          ruby.appendChild(document.createTextNode(match[1]));
+
+          const rt = document.createElement("rt");
+          rt.textContent = match[2];
+          ruby.appendChild(rt);
+          element.appendChild(ruby);
+
+          cursor = rubyPattern.lastIndex;
+          match = rubyPattern.exec(source);
+        }
+
+        if (cursor < source.length) {
+          element.appendChild(document.createTextNode(source.slice(cursor)));
+        }
+      };
+
       const getCurrentVocabReviewCard = () => vocabReviewQueue[vocabReviewIndex] || null;
 
       const isVocabReviewCardMarkedLater = (card) => Boolean(card && vocabReviewLaterCards.includes(card));
@@ -2364,11 +2415,11 @@
 
         const word = document.createElement("div");
         word.className = "vocab-review-word";
-        word.textContent = card.vocabulary || "(blank)";
+        appendJapaneseRubyText(word, card.vocabulary || "(blank)");
 
         const reading = document.createElement("div");
         reading.className = "vocab-review-reading";
-        reading.textContent = card.hiragana || "(blank)";
+        appendJapaneseRubyText(reading, card.hiragana || "(blank)");
 
         term.append(word, reading);
 
@@ -2382,7 +2433,7 @@
 
         const exampleJa = document.createElement("p");
         exampleJa.innerHTML = "<strong>Ví dụ:</strong> ";
-        exampleJa.append(document.createTextNode(card.example_ja));
+        appendJapaneseRubyText(exampleJa, card.example_ja);
 
         const exampleVi = document.createElement("p");
         exampleVi.innerHTML = "<strong>Dịch:</strong> ";
@@ -2574,11 +2625,11 @@
 
           const kanji = document.createElement("span");
           kanji.className = "instant-vocab-kanji";
-          kanji.textContent = item.vocabulary || "(blank)";
+          appendJapaneseRubyText(kanji, item.vocabulary || "(blank)");
 
           const reading = document.createElement("span");
           reading.className = "instant-vocab-reading";
-          reading.textContent = item.hiragana || "(missing hiragana)";
+          appendJapaneseRubyText(reading, item.hiragana || "(missing hiragana)");
 
           term.append(kanji, reading);
 
@@ -2588,7 +2639,8 @@
 
           const example = document.createElement("p");
           example.className = "instant-vocab-example";
-          example.textContent = `${item.exampleJa} - ${item.exampleVi}`;
+          appendJapaneseRubyText(example, item.exampleJa);
+          example.append(document.createTextNode(` - ${item.exampleVi}`));
 
           const rowStatus = document.createElement("p");
           rowStatus.className = "instant-vocab-row-status";
