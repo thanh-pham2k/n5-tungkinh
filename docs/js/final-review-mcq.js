@@ -39,6 +39,9 @@
     progress: new Map(),
     hotReviewGroup: null,
     hotReviewAnswers: new Map(),
+    hotReviewConfirmed: new Set(),
+    hotReviewPage: 1,
+    hotReviewPageSize: 5,
   };
 
   const root = document.getElementById("final-review-quiz");
@@ -1237,6 +1240,23 @@
 
   const hotAnswerKey = (question) => `hot-review:${question.questionNo}`;
 
+  const getHotReviewPageCount = () => {
+    const questionCount = state.hotReviewGroup?.questions.length || 0;
+    return state.hotReviewPageSize === "all"
+      ? 1
+      : Math.max(1, Math.ceil(questionCount / state.hotReviewPageSize));
+  };
+
+  const getVisibleHotReviewQuestions = () => {
+    const questions = state.hotReviewGroup?.questions || [];
+    if (state.hotReviewPageSize === "all") {
+      return questions;
+    }
+
+    const startIndex = (state.hotReviewPage - 1) * state.hotReviewPageSize;
+    return questions.slice(startIndex, startIndex + state.hotReviewPageSize);
+  };
+
   const openHotReviewDialog = () => {
     if (!hotReviewDialog || !hotReviewInput || !hotReviewError) {
       return;
@@ -1304,6 +1324,8 @@
 
     state.hotReviewGroup = null;
     state.hotReviewAnswers = new Map();
+    state.hotReviewConfirmed = new Set();
+    state.hotReviewPage = 1;
     state.renderedOptions = new Map(
       Array.from(state.renderedOptions.entries()).filter(([key]) => !key.startsWith("hot-review:"))
     );
@@ -1374,7 +1396,7 @@
     return `${selected}. ${question.options[selected] || ""}`.trim();
   };
 
-  const buildHotReviewCopyText = (group) => {
+  const buildHotReviewCopyText = (group, questions) => {
     const lines = [
       REVIEW_PROMPT,
       "",
@@ -1384,7 +1406,7 @@
       "Danh sách câu hỏi + đáp án đã chọn:",
     ];
 
-    group.questions.forEach((question) => {
+    questions.forEach((question) => {
       lines.push(
         "",
         `Câu ${question.questionNo}:`,
@@ -1401,7 +1423,7 @@
     return lines.join("\n");
   };
 
-  const renderHotReviewSelectedAnswers = (group) => {
+  const renderHotReviewSelectedAnswers = (group, questions) => {
     const result = document.getElementById("hot-review-result");
     if (!result) {
       return;
@@ -1413,7 +1435,7 @@
     const list = document.createElement("ol");
     list.className = "quiz-result-list";
 
-    group.questions.forEach((question) => {
+    questions.forEach((question) => {
       const item = document.createElement("li");
       const selected = state.hotReviewAnswers.get(hotAnswerKey(question));
       item.textContent = `Câu ${question.questionNo}: ${selected ? `đã chọn ${selected}` : "chưa chọn"}`;
@@ -1434,7 +1456,7 @@
       copyStatus.textContent = "Đang copy...";
 
       try {
-        await copyTextToClipboard(buildHotReviewCopyText(group));
+        await copyTextToClipboard(buildHotReviewCopyText(group, questions));
         copyStatus.textContent = "Đã copy prompt + câu hỏi + đáp án đã chọn.";
       } catch (error) {
         console.error(error);
@@ -1453,6 +1475,10 @@
     if (!hotReviewContent || !group) {
       return;
     }
+
+    const pageCount = getHotReviewPageCount();
+    state.hotReviewPage = Math.min(Math.max(state.hotReviewPage, 1), pageCount);
+    const visibleQuestions = getVisibleHotReviewQuestions();
 
     const inputAgain = document.createElement("button");
     inputAgain.type = "button";
@@ -1477,11 +1503,109 @@
 
     header.append(title, meta);
 
+    const pagination = document.createElement("div");
+    pagination.className = "hot-review-pagination";
+
+    const pageSizeField = document.createElement("label");
+    pageSizeField.className = "hot-review-page-size";
+    pageSizeField.textContent = "Số câu mỗi trang";
+
+    const pageSizeSelect = document.createElement("select");
+    pageSizeSelect.setAttribute("aria-label", "Số câu Hot Review mỗi trang");
+    [
+      { value: "5", label: "5" },
+      { value: "10", label: "10" },
+      { value: "all", label: "All" },
+    ].forEach(({ value, label }) => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = label;
+      option.selected = String(state.hotReviewPageSize) === value;
+      pageSizeSelect.appendChild(option);
+    });
+    pageSizeSelect.addEventListener("change", () => {
+      state.hotReviewPageSize = pageSizeSelect.value === "all" ? "all" : Number(pageSizeSelect.value);
+      state.hotReviewPage = 1;
+      renderHotReviewQuiz();
+    });
+    pageSizeField.appendChild(pageSizeSelect);
+
+    const pageNav = document.createElement("div");
+    pageNav.className = "hot-review-page-nav";
+
+    const previous = document.createElement("button");
+    previous.type = "button";
+    previous.textContent = "Previous";
+    previous.disabled = state.hotReviewPage <= 1;
+    previous.addEventListener("click", () => {
+      state.hotReviewPage -= 1;
+      renderHotReviewQuiz();
+    });
+
+    const pageStatus = document.createElement("span");
+    pageStatus.className = "hot-review-page-status";
+    pageStatus.textContent = `Page ${state.hotReviewPage} / ${pageCount}`;
+    pageStatus.setAttribute("aria-live", "polite");
+
+    const next = document.createElement("button");
+    next.type = "button";
+    next.textContent = "Next";
+    next.disabled = state.hotReviewPage >= pageCount;
+    next.addEventListener("click", () => {
+      state.hotReviewPage += 1;
+      renderHotReviewQuiz();
+    });
+
+    pageNav.append(previous, pageStatus, next);
+    pagination.append(pageSizeField, pageNav);
+
     const questions = document.createElement("div");
     questions.className = "quiz-questions";
-    group.questions.forEach((question) => {
+    visibleQuestions.forEach((question) => {
       questions.appendChild(createHotReviewQuestion(question));
     });
+
+    let touchStartX = null;
+    let touchStartY = null;
+    questions.addEventListener("touchstart", (event) => {
+      const target = event.target;
+      const isInteractive = target instanceof Element
+        && target.closest("button, select, input, textarea, .quiz-option");
+      if (
+        state.hotReviewPageSize === "all"
+        || !window.matchMedia("(max-width: 768px)").matches
+        || event.touches.length !== 1
+        || isInteractive
+      ) {
+        touchStartX = null;
+        touchStartY = null;
+        return;
+      }
+
+      touchStartX = event.touches[0].clientX;
+      touchStartY = event.touches[0].clientY;
+    }, { passive: true });
+    questions.addEventListener("touchend", (event) => {
+      if (touchStartX === null || touchStartY === null || event.changedTouches.length !== 1) {
+        return;
+      }
+
+      const deltaX = event.changedTouches[0].clientX - touchStartX;
+      const deltaY = event.changedTouches[0].clientY - touchStartY;
+      touchStartX = null;
+      touchStartY = null;
+      if (Math.abs(deltaX) < 50 || Math.abs(deltaX) <= Math.abs(deltaY)) {
+        return;
+      }
+
+      if (deltaX < 0 && state.hotReviewPage < getHotReviewPageCount()) {
+        state.hotReviewPage += 1;
+        renderHotReviewQuiz();
+      } else if (deltaX > 0 && state.hotReviewPage > 1) {
+        state.hotReviewPage -= 1;
+        renderHotReviewQuiz();
+      }
+    }, { passive: true });
 
     const actions = document.createElement("div");
     actions.className = "quiz-actions";
@@ -1491,7 +1615,10 @@
     submit.className = "primary";
     submit.textContent = "Xác nhận";
     submit.addEventListener("click", () => {
-      renderHotReviewSelectedAnswers(group);
+      visibleQuestions.forEach((question) => {
+        state.hotReviewConfirmed.add(hotAnswerKey(question));
+      });
+      renderHotReviewSelectedAnswers(group, visibleQuestions);
     });
 
     const result = document.createElement("div");
@@ -1500,7 +1627,13 @@
     result.hidden = true;
 
     actions.append(submit);
-    hotReviewContent.replaceChildren(inputAgain, clearButton, header, questions, actions, result);
+    hotReviewContent.replaceChildren(inputAgain, clearButton, header, pagination, questions, actions, result);
+    if (
+      visibleQuestions.length
+      && visibleQuestions.every((question) => state.hotReviewConfirmed.has(hotAnswerKey(question)))
+    ) {
+      renderHotReviewSelectedAnswers(group, visibleQuestions);
+    }
   };
 
   const createHotReviewFromInput = () => {
@@ -1512,6 +1645,8 @@
       const group = parseHotReviewQuiz(hotReviewInput.value);
       state.hotReviewGroup = group;
       state.hotReviewAnswers = new Map();
+      state.hotReviewConfirmed = new Set();
+      state.hotReviewPage = 1;
       state.renderedOptions = new Map(
         Array.from(state.renderedOptions.entries()).filter(([key]) => !key.startsWith("hot-review:"))
       );

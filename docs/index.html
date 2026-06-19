@@ -1379,6 +1379,31 @@
       line-height: 1.5;
     }
 
+    .hot-review-pagination {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: end;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .hot-review-page-size {
+      min-width: 110px;
+    }
+
+    .hot-review-page-nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hot-review-page-status {
+      min-width: 92px;
+      color: var(--muted);
+      font-weight: 800;
+      text-align: center;
+    }
+
     .hot-review-dialog {
       width: min(760px, calc(100vw - 28px));
       max-height: calc(100vh - 28px);
@@ -1513,6 +1538,16 @@
         bottom: 0;
         display: grid;
         grid-template-columns: 1fr;
+      }
+
+      .hot-review-pagination,
+      .hot-review-page-nav {
+        width: 100%;
+      }
+
+      .hot-review-page-nav {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
       }
     }
 
