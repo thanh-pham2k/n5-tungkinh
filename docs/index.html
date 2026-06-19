@@ -503,9 +503,9 @@
       gap: 14px;
     }
 
-    .instant-vocab-input {
+    .csv-modal-input {
       width: 100%;
-      min-height: 220px;
+      min-height: min(360px, 50vh);
       border: 1px solid var(--line);
       border-radius: 8px;
       padding: 12px;
@@ -628,16 +628,11 @@
       gap: 14px;
     }
 
-    .vocab-review-input {
-      width: 100%;
-      min-height: 220px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 12px;
-      color: var(--text);
-      background: #fff;
-      font: 14px/1.5 Consolas, "Courier New", monospace;
-      resize: vertical;
+    .csv-dialog-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 14px;
     }
 
     .vocab-review-controls {
@@ -1537,7 +1532,6 @@
 <body>
   <main>
     <h1>Audio Looper</h1>
-    <p>Chọn audio có sẵn hoặc chọn file MP3 từ máy của bạn, audio sẽ phát lặp liên tục.</p>
 
     <div class="tabs" aria-label="Nội dung học">
       <label class="tab-select-field" for="tab-select">
@@ -1635,15 +1629,18 @@
 
     <section class="tab-panel" id="instant-vocab-panel" role="tabpanel" aria-labelledby="tab-instant-vocab">
       <h2>Instant Vocab</h2>
-      <p class="hint">Dán CSV 5 cột, trang chỉ đọc cột hiragana và chỉ gọi Sound of Text khi bắt đầu phát từ đó.</p>
+      <p class="hint">Load CSV 5 cột. Play all đọc tiếng Việt trước, sau đó đọc tiếng Nhật.</p>
       <div class="instant-vocab-shell">
-        <textarea class="instant-vocab-input" id="instant-vocab-input" spellcheck="false" aria-label="CSV từ vựng Instant Vocab" placeholder="vocabulary,hiragana,meaning_vi,example_ja,example_vi"></textarea>
         <div class="instant-vocab-controls">
           <button class="primary" id="instant-vocab-load" type="button">Load CSV</button>
           <button id="instant-vocab-clear" type="button">Clear</button>
           <div>
-            <label for="instant-vocab-repeat">Số lần lặp</label>
-            <input class="instant-vocab-repeat" type="number" id="instant-vocab-repeat" min="1" step="1" value="5">
+            <label for="instant-vocab-vi-repeat">Lặp tiếng Việt</label>
+            <input class="instant-vocab-repeat" type="number" id="instant-vocab-vi-repeat" min="1" step="1" value="1">
+          </div>
+          <div>
+            <label for="instant-vocab-ja-repeat">Lặp tiếng Nhật</label>
+            <input class="instant-vocab-repeat" type="number" id="instant-vocab-ja-repeat" min="1" step="1" value="3">
           </div>
           <div>
             <label for="instant-vocab-order">Thứ tự phát</label>
@@ -1659,13 +1656,27 @@
         <div class="instant-vocab-list" id="instant-vocab-list"></div>
         <audio id="instant-vocab-audio" preload="auto"></audio>
       </div>
+      <dialog class="vocab-dialog" id="instant-vocab-csv-dialog" aria-labelledby="instant-vocab-csv-title">
+        <div class="vocab-dialog-inner">
+          <div class="vocab-dialog-header">
+            <h2 id="instant-vocab-csv-title">Load CSV - Instant Vocab</h2>
+            <button class="vocab-dialog-close" id="instant-vocab-csv-close" type="button" aria-label="Đóng">×</button>
+          </div>
+          <div class="vocab-dialog-content">
+            <textarea class="csv-modal-input" id="instant-vocab-input" spellcheck="false" aria-label="CSV từ vựng Instant Vocab" placeholder="vocabulary,hiragana,meaning_vi,example_ja,example_vi"></textarea>
+            <div class="csv-dialog-actions">
+              <button id="instant-vocab-csv-cancel" type="button">Hủy</button>
+              <button class="primary" id="instant-vocab-csv-confirm" type="button">Xác nhận</button>
+            </div>
+          </div>
+        </div>
+      </dialog>
     </section>
 
     <section class="tab-panel" id="vocab-review-panel" role="tabpanel" aria-labelledby="tab-vocab-review">
       <h2>Vocab Review</h2>
-      <p class="hint">Dán CSV có header: vocabulary,hiragana,meaning_vi,example_ja,example_vi</p>
+      <p class="hint">Load CSV có header: vocabulary,hiragana,meaning_vi,example_ja,example_vi</p>
       <div class="vocab-review-shell">
-        <textarea class="vocab-review-input" id="vocab-review-input" spellcheck="false" aria-label="CSV từ vựng Vocab Review" placeholder="vocabulary,hiragana,meaning_vi,example_ja,example_vi"></textarea>
         <div class="vocab-review-controls">
           <button class="primary" id="vocab-review-load" type="button">Load CSV</button>
           <button id="vocab-review-clear" type="button">Clear</button>
@@ -1683,6 +1694,21 @@
           <button class="vocab-review-later-button" id="vocab-review-add-later" type="button" hidden disabled>Later</button>
         </div>
       </div>
+      <dialog class="vocab-dialog" id="vocab-review-csv-dialog" aria-labelledby="vocab-review-csv-title">
+        <div class="vocab-dialog-inner">
+          <div class="vocab-dialog-header">
+            <h2 id="vocab-review-csv-title">Load CSV - Vocab Review</h2>
+            <button class="vocab-dialog-close" id="vocab-review-csv-close" type="button" aria-label="Đóng">×</button>
+          </div>
+          <div class="vocab-dialog-content">
+            <textarea class="csv-modal-input" id="vocab-review-input" spellcheck="false" aria-label="CSV từ vựng Vocab Review" placeholder="vocabulary,hiragana,meaning_vi,example_ja,example_vi"></textarea>
+            <div class="csv-dialog-actions">
+              <button id="vocab-review-csv-cancel" type="button">Hủy</button>
+              <button class="primary" id="vocab-review-csv-confirm" type="button">Xác nhận</button>
+            </div>
+          </div>
+        </div>
+      </dialog>
     </section>
 
     <section class="tab-panel" id="kana-panel" role="tabpanel" aria-labelledby="tab-kana">
@@ -2024,13 +2050,18 @@
       const instantVocabInput = document.getElementById("instant-vocab-input");
       const instantVocabLoad = document.getElementById("instant-vocab-load");
       const instantVocabClear = document.getElementById("instant-vocab-clear");
-      const instantVocabRepeat = document.getElementById("instant-vocab-repeat");
+      const instantVocabViRepeat = document.getElementById("instant-vocab-vi-repeat");
+      const instantVocabJaRepeat = document.getElementById("instant-vocab-ja-repeat");
       const instantVocabOrder = document.getElementById("instant-vocab-order");
       const instantVocabPlayAll = document.getElementById("instant-vocab-play-all");
       const instantVocabStop = document.getElementById("instant-vocab-stop");
       const instantVocabStatus = document.getElementById("instant-vocab-status");
       const instantVocabList = document.getElementById("instant-vocab-list");
       const instantVocabAudio = document.getElementById("instant-vocab-audio");
+      const instantVocabCsvDialog = document.getElementById("instant-vocab-csv-dialog");
+      const instantVocabCsvClose = document.getElementById("instant-vocab-csv-close");
+      const instantVocabCsvCancel = document.getElementById("instant-vocab-csv-cancel");
+      const instantVocabCsvConfirm = document.getElementById("instant-vocab-csv-confirm");
       const vocabReviewInput = document.getElementById("vocab-review-input");
       const vocabReviewLoad = document.getElementById("vocab-review-load");
       const vocabReviewClear = document.getElementById("vocab-review-clear");
@@ -2042,6 +2073,10 @@
       const vocabReviewPrev = document.getElementById("vocab-review-prev");
       const vocabReviewShow = document.getElementById("vocab-review-show");
       const vocabReviewAddLater = document.getElementById("vocab-review-add-later");
+      const vocabReviewCsvDialog = document.getElementById("vocab-review-csv-dialog");
+      const vocabReviewCsvClose = document.getElementById("vocab-review-csv-close");
+      const vocabReviewCsvCancel = document.getElementById("vocab-review-csv-cancel");
+      const vocabReviewCsvConfirm = document.getElementById("vocab-review-csv-confirm");
 
       let lessons = [];
       let objectUrl = "";
@@ -2174,10 +2209,10 @@
         completedRepeats = 0;
       };
 
-      const readInstantRepeatCount = () => {
-        const value = Number.parseInt(instantVocabRepeat.value, 10);
+      const readInstantRepeatCount = (input) => {
+        const value = Number.parseInt(input.value, 10);
         const repeatCount = Number.isFinite(value) && value >= 1 ? value : 1;
-        instantVocabRepeat.value = String(repeatCount);
+        input.value = String(repeatCount);
         return repeatCount;
       };
 
@@ -2286,7 +2321,8 @@
             meaningVi,
             exampleJa,
             exampleVi,
-            audioUrl: "",
+            japaneseAudioUrl: "",
+            vietnameseAudioUrl: "",
             status: hiragana ? "idle" : "error",
             statusText: hiragana ? "Ready." : "Missing hiragana.",
           };
@@ -2552,6 +2588,7 @@
           }
           vocabReviewLaterCards = [];
           startVocabReviewLearn();
+          return true;
         } catch (error) {
           console.error(error);
           vocabReviewCards = [];
@@ -2564,6 +2601,7 @@
           vocabReviewCard.textContent = "Không đọc được CSV.";
           vocabReviewStatus.textContent = error.message || "Không đọc được CSV.";
           setVocabReviewControls();
+          return false;
         }
       };
 
@@ -2661,7 +2699,7 @@
         });
       };
 
-      const createSoundOfTextUrl = async (hiragana, runToken) => {
+      const createSoundOfTextUrl = async (text, voice, runToken) => {
         const createResponse = await fetch("https://api.soundoftext.com/sounds", {
           method: "POST",
           headers: {
@@ -2671,8 +2709,8 @@
           body: JSON.stringify({
             engine: "Google",
             data: {
-              text: hiragana,
-              voice: "ja-JP",
+              text,
+              voice,
             },
           }),
         });
@@ -2716,18 +2754,21 @@
         throw new Error("Timed out waiting for Sound of Text.");
       };
 
-      const ensureInstantAudioUrl = async (item, index, runToken) => {
-        if (!item.hiragana) {
-          throw new Error("Missing hiragana.");
+      const ensureInstantAudioUrl = async (item, index, language, runToken) => {
+        const isVietnamese = language === "vi";
+        const text = isVietnamese ? item.meaningVi : item.hiragana;
+        const cacheKey = isVietnamese ? "vietnameseAudioUrl" : "japaneseAudioUrl";
+        if (!text) {
+          throw new Error(isVietnamese ? "Missing Vietnamese meaning." : "Missing hiragana.");
         }
 
-        if (item.audioUrl) {
-          return item.audioUrl;
+        if (item[cacheKey]) {
+          return item[cacheKey];
         }
 
-        updateInstantRowStatus(index, "loading", "Loading audio...");
-        item.audioUrl = await createSoundOfTextUrl(item.hiragana, runToken);
-        return item.audioUrl;
+        updateInstantRowStatus(index, "loading", `Loading ${isVietnamese ? "Vietnamese" : "Japanese"} audio...`);
+        item[cacheKey] = await createSoundOfTextUrl(text, isVietnamese ? "vi-VN" : "ja-JP", runToken);
+        return item[cacheKey];
       };
 
       const playAudioUrlOnce = (url, runToken) => new Promise((resolve, reject) => {
@@ -2787,7 +2828,8 @@
         instantVocabAudio.currentTime = 0;
         instantVocabItems.forEach((item, index) => {
           if (item.status === "playing" || item.status === "loading") {
-            updateInstantRowStatus(index, item.audioUrl ? "idle" : "idle", item.audioUrl ? "Ready." : "Stopped.");
+            const hasCachedAudio = item.japaneseAudioUrl || item.vietnameseAudioUrl;
+            updateInstantRowStatus(index, "idle", hasCachedAudio ? "Ready." : "Stopped.");
           }
         });
         setInstantPlaybackState(false);
@@ -2796,7 +2838,7 @@
         }
       };
 
-      const playInstantItemWithToken = async (index, runToken) => {
+      const playInstantJapaneseWithToken = async (index, runToken) => {
         const item = instantVocabItems[index];
         if (!item) {
           return;
@@ -2807,14 +2849,38 @@
           throw new Error("Missing hiragana.");
         }
 
-        const repeatCount = readInstantRepeatCount();
-        const url = await ensureInstantAudioUrl(item, index, runToken);
+        const repeatCount = readInstantRepeatCount(instantVocabJaRepeat);
+        const url = await ensureInstantAudioUrl(item, index, "ja", runToken);
         await playAudioUrlNTimes(url, repeatCount, runToken, (currentRepeat, totalRepeats) => {
-          updateInstantRowStatus(index, "playing", `Playing ${currentRepeat}/${totalRepeats}.`);
-          instantVocabStatus.textContent = `Playing ${index + 1}/${instantVocabItems.length}: ${item.vocabulary || item.hiragana}`;
+          updateInstantRowStatus(index, "playing", `Japanese ${currentRepeat}/${totalRepeats}.`);
+          instantVocabStatus.textContent = `Japanese ${index + 1}/${instantVocabItems.length}: ${item.vocabulary || item.hiragana}`;
         });
 
-        updateInstantRowStatus(index, "done", `Done ${repeatCount}/${repeatCount}.`);
+        updateInstantRowStatus(index, "done", `Japanese done ${repeatCount}/${repeatCount}.`);
+      };
+
+      const playInstantAllItemWithToken = async (index, runToken) => {
+        const item = instantVocabItems[index];
+        if (!item) {
+          return;
+        }
+
+        const vietnameseRepeatCount = readInstantRepeatCount(instantVocabViRepeat);
+        const japaneseRepeatCount = readInstantRepeatCount(instantVocabJaRepeat);
+        if (item.meaningVi) {
+          const vietnameseUrl = await ensureInstantAudioUrl(item, index, "vi", runToken);
+          await playAudioUrlNTimes(vietnameseUrl, vietnameseRepeatCount, runToken, (currentRepeat, totalRepeats) => {
+            updateInstantRowStatus(index, "playing", `Vietnamese ${currentRepeat}/${totalRepeats}.`);
+            instantVocabStatus.textContent = `Vietnamese ${index + 1}/${instantVocabItems.length}: ${item.meaningVi}`;
+          });
+        }
+
+        await playInstantJapaneseWithToken(index, runToken);
+        updateInstantRowStatus(
+          index,
+          "done",
+          `Done: Vietnamese ${item.meaningVi ? vietnameseRepeatCount : 0}, Japanese ${japaneseRepeatCount}.`,
+        );
       };
 
       const playInstantItem = async (index) => {
@@ -2824,7 +2890,7 @@
         setInstantPlaybackState(true);
 
         try {
-          await playInstantItemWithToken(index, runToken);
+          await playInstantJapaneseWithToken(index, runToken);
           if (runToken === instantVocabRunToken) {
             setInstantPlaybackState(false);
             instantVocabStatus.textContent = "Done.";
@@ -2863,7 +2929,7 @@
               orderIndex = 0;
             }
             const index = playbackOrder[orderIndex];
-            await playInstantItemWithToken(index, runToken);
+            await playInstantAllItemWithToken(index, runToken);
             orderIndex += 1;
           }
         } catch (error) {
@@ -2882,12 +2948,14 @@
           renderInstantVocabItems();
           setInstantPlaybackState(false);
           instantVocabStatus.textContent = `Loaded ${instantVocabItems.length} rows.`;
+          return true;
         } catch (error) {
           console.error(error);
           instantVocabItems = [];
           instantVocabList.replaceChildren();
           setInstantPlaybackState(false);
           instantVocabStatus.textContent = error.message || "Cannot load CSV.";
+          return false;
         }
       };
 
@@ -3493,15 +3561,46 @@
         }
       });
 
-      instantVocabRepeat.addEventListener("change", () => {
-        readInstantRepeatCount();
+      instantVocabViRepeat.addEventListener("change", () => {
+        readInstantRepeatCount(instantVocabViRepeat);
+      });
+
+      instantVocabJaRepeat.addEventListener("change", () => {
+        readInstantRepeatCount(instantVocabJaRepeat);
       });
 
       instantVocabOrder.addEventListener("change", () => {
         readInstantOrderMode();
       });
 
-      instantVocabLoad.addEventListener("click", loadInstantVocabCsv);
+      const bindCsvDialog = ({ dialog, openButton, closeButtons, confirmButton, input, load }) => {
+        openButton.addEventListener("click", () => {
+          dialog.showModal();
+          input.focus();
+        });
+        closeButtons.forEach((button) => {
+          button.addEventListener("click", () => dialog.close());
+        });
+        confirmButton.addEventListener("click", () => {
+          if (load()) {
+            dialog.close();
+          }
+        });
+        dialog.addEventListener("click", (event) => {
+          if (event.target === dialog) {
+            dialog.close();
+          }
+        });
+      };
+
+      bindCsvDialog({
+        dialog: instantVocabCsvDialog,
+        openButton: instantVocabLoad,
+        closeButtons: [instantVocabCsvClose, instantVocabCsvCancel],
+        confirmButton: instantVocabCsvConfirm,
+        input: instantVocabInput,
+        load: loadInstantVocabCsv,
+      });
 
       instantVocabClear.addEventListener("click", clearInstantVocabData);
 
@@ -3511,7 +3610,14 @@
         stopInstantPlayback();
       });
 
-      vocabReviewLoad.addEventListener("click", loadVocabReviewCsv);
+      bindCsvDialog({
+        dialog: vocabReviewCsvDialog,
+        openButton: vocabReviewLoad,
+        closeButtons: [vocabReviewCsvClose, vocabReviewCsvCancel],
+        confirmButton: vocabReviewCsvConfirm,
+        input: vocabReviewInput,
+        load: loadVocabReviewCsv,
+      });
 
       vocabReviewClear.addEventListener("click", clearVocabReviewData);
 
