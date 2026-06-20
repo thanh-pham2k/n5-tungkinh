@@ -1671,7 +1671,7 @@
           <button id="instant-vocab-clear" type="button">Clear</button>
           <div>
             <label for="instant-vocab-vi-repeat">Lặp tiếng Việt</label>
-            <input class="instant-vocab-repeat" type="number" id="instant-vocab-vi-repeat" min="1" step="1" value="1">
+            <input class="instant-vocab-repeat" type="number" id="instant-vocab-vi-repeat" min="0" step="1" value="1">
           </div>
           <div>
             <label for="instant-vocab-ja-repeat">Lặp tiếng Nhật</label>
@@ -2244,9 +2244,9 @@
         completedRepeats = 0;
       };
 
-      const readInstantRepeatCount = (input) => {
+      const readInstantRepeatCount = (input, minimum = 1) => {
         const value = Number.parseInt(input.value, 10);
-        const repeatCount = Number.isFinite(value) && value >= 1 ? value : 1;
+        const repeatCount = Number.isFinite(value) && value >= minimum ? value : minimum;
         input.value = String(repeatCount);
         return repeatCount;
       };
@@ -2900,9 +2900,9 @@
           return;
         }
 
-        const vietnameseRepeatCount = readInstantRepeatCount(instantVocabViRepeat);
+        const vietnameseRepeatCount = readInstantRepeatCount(instantVocabViRepeat, 0);
         const japaneseRepeatCount = readInstantRepeatCount(instantVocabJaRepeat);
-        if (item.meaningVi) {
+        if (item.meaningVi && vietnameseRepeatCount > 0) {
           const vietnameseUrl = await ensureInstantAudioUrl(item, index, "vi", runToken);
           await playAudioUrlNTimes(vietnameseUrl, vietnameseRepeatCount, runToken, (currentRepeat, totalRepeats) => {
             updateInstantRowStatus(index, "playing", `Vietnamese ${currentRepeat}/${totalRepeats}.`);
@@ -3597,7 +3597,7 @@
       });
 
       instantVocabViRepeat.addEventListener("change", () => {
-        readInstantRepeatCount(instantVocabViRepeat);
+        readInstantRepeatCount(instantVocabViRepeat, 0);
       });
 
       instantVocabJaRepeat.addEventListener("change", () => {
