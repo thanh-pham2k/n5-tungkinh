@@ -642,6 +642,22 @@
       align-items: end;
     }
 
+    .vocab-review-status-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .vocab-review-status-row .status {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .vocab-review-zoom-button {
+      flex: 0 0 auto;
+      white-space: nowrap;
+    }
+
     .vocab-review-card {
       min-height: 280px;
       border: 1px solid var(--line);
@@ -711,6 +727,45 @@
 
     .vocab-review-later-button[hidden] {
       display: none;
+    }
+
+    .vocab-review-zoom-dialog {
+      width: min(1100px, calc(100vw - 24px));
+      height: min(860px, calc(100vh - 24px));
+      max-width: none;
+      max-height: none;
+    }
+
+    .vocab-review-zoom-dialog .vocab-dialog-inner {
+      height: 100%;
+      max-height: none;
+    }
+
+    .vocab-review-zoom-content {
+      flex: 1;
+      min-height: 0;
+      display: grid;
+      padding: 20px;
+      overflow: auto;
+    }
+
+    .vocab-review-zoom-card {
+      min-height: 100%;
+      border: 0;
+      padding: clamp(24px, 5vw, 64px);
+    }
+
+    .vocab-review-zoom-card .vocab-review-word {
+      font-size: clamp(52px, 8vw, 92px);
+    }
+
+    .vocab-review-zoom-card .vocab-review-reading {
+      font-size: clamp(28px, 4vw, 46px);
+    }
+
+    .vocab-review-zoom-card .vocab-review-answer {
+      max-width: 900px;
+      font-size: clamp(20px, 2.5vw, 30px);
     }
 
     input[type="file"] {
@@ -847,6 +902,21 @@
 
       .vocab-review-controls {
         grid-template-columns: 1fr;
+      }
+
+      .vocab-review-status-row {
+        align-items: stretch;
+      }
+
+      .vocab-review-zoom-button {
+        min-width: 48px;
+        padding-inline: 12px;
+        font-size: 0;
+      }
+
+      .vocab-review-zoom-button::before {
+        content: "⛶";
+        font-size: 20px;
       }
 
       .vocab-review-actions {
@@ -1719,7 +1789,10 @@
           <button id="vocab-review-later" type="button" disabled>Review Later</button>
           <button id="vocab-review-reset" type="button" disabled>Reset</button>
         </div>
-        <div class="status" id="vocab-review-status">Chưa có dữ liệu.</div>
+        <div class="vocab-review-status-row">
+          <div class="status" id="vocab-review-status">Chưa có dữ liệu.</div>
+          <button class="vocab-review-zoom-button" id="vocab-review-zoom" type="button" aria-label="Phóng to thẻ" disabled>⛶ Phóng to</button>
+        </div>
         <div class="vocab-review-card empty" id="vocab-review-card" aria-live="polite">
           Dán CSV để bắt đầu.
         </div>
@@ -1741,6 +1814,17 @@
               <button id="vocab-review-csv-cancel" type="button">Hủy</button>
               <button class="primary" id="vocab-review-csv-confirm" type="button">Xác nhận</button>
             </div>
+          </div>
+        </div>
+      </dialog>
+      <dialog class="vocab-dialog vocab-review-zoom-dialog" id="vocab-review-zoom-dialog" aria-labelledby="vocab-review-zoom-title">
+        <div class="vocab-dialog-inner">
+          <div class="vocab-dialog-header">
+            <h2 id="vocab-review-zoom-title">Vocab Review</h2>
+            <button class="vocab-dialog-close" id="vocab-review-zoom-close" type="button" aria-label="Đóng">×</button>
+          </div>
+          <div class="vocab-review-zoom-content">
+            <div class="vocab-review-card vocab-review-zoom-card" id="vocab-review-zoom-card"></div>
           </div>
         </div>
       </dialog>
@@ -2105,6 +2189,10 @@
       const vocabReviewReset = document.getElementById("vocab-review-reset");
       const vocabReviewStatus = document.getElementById("vocab-review-status");
       const vocabReviewCard = document.getElementById("vocab-review-card");
+      const vocabReviewZoom = document.getElementById("vocab-review-zoom");
+      const vocabReviewZoomDialog = document.getElementById("vocab-review-zoom-dialog");
+      const vocabReviewZoomClose = document.getElementById("vocab-review-zoom-close");
+      const vocabReviewZoomCard = document.getElementById("vocab-review-zoom-card");
       const vocabReviewPrev = document.getElementById("vocab-review-prev");
       const vocabReviewShow = document.getElementById("vocab-review-show");
       const vocabReviewAddLater = document.getElementById("vocab-review-add-later");
@@ -2458,6 +2546,7 @@
           && (vocabReviewMode === "review" || vocabReviewIndex >= vocabReviewCards.length - 1);
         vocabReviewPrev.disabled = !hasCards || vocabReviewIndex <= 0;
         vocabReviewShow.disabled = !hasCards;
+        vocabReviewZoom.disabled = !hasCards;
         vocabReviewShuffle.disabled = !canStartShuffle;
         vocabReviewLater.disabled = vocabReviewLaterCards.length === 0;
         vocabReviewReset.disabled = vocabReviewCards.length === 0;
@@ -2465,6 +2554,15 @@
         vocabReviewAddLater.hidden = !hasCards || !vocabReviewAnswerVisible;
         vocabReviewAddLater.disabled = !hasCards || currentCardMarkedLater;
         vocabReviewAddLater.textContent = currentCardMarkedLater ? "Added" : "Later";
+      };
+
+      const syncVocabReviewZoomCard = () => {
+        vocabReviewZoomCard.replaceChildren(
+          ...Array.from(vocabReviewCard.childNodes, (node) => node.cloneNode(true)),
+        );
+        vocabReviewZoomCard.className = vocabReviewCard.classList.contains("empty")
+          ? "vocab-review-card vocab-review-zoom-card empty"
+          : "vocab-review-card vocab-review-zoom-card";
       };
 
       const renderVocabReviewCard = () => {
@@ -2475,6 +2573,7 @@
           vocabReviewCard.className = "vocab-review-card empty";
           vocabReviewCard.textContent = "Dán CSV để bắt đầu.";
           vocabReviewStatus.textContent = "Chưa có dữ liệu.";
+          syncVocabReviewZoomCard();
           setVocabReviewControls();
           return;
         }
@@ -2512,6 +2611,7 @@
 
         answer.append(meaning, exampleJa, exampleVi);
         vocabReviewCard.append(term, answer);
+        syncVocabReviewZoomCard();
 
         const modeLabel = vocabReviewMode === "later"
           ? "Review Later"
@@ -3655,6 +3755,19 @@
       });
 
       vocabReviewClear.addEventListener("click", clearVocabReviewData);
+
+      vocabReviewZoom.addEventListener("click", () => {
+        syncVocabReviewZoomCard();
+        vocabReviewZoomDialog.showModal();
+      });
+
+      vocabReviewZoomClose.addEventListener("click", () => vocabReviewZoomDialog.close());
+
+      vocabReviewZoomDialog.addEventListener("click", (event) => {
+        if (event.target === vocabReviewZoomDialog) {
+          vocabReviewZoomDialog.close();
+        }
+      });
 
       vocabReviewShow.addEventListener("click", advanceVocabReviewCard);
 
