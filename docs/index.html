@@ -605,7 +605,6 @@
     .instant-vocab-reading ruby,
     .instant-vocab-example ruby,
     .vocab-review-word ruby,
-    .vocab-review-reading ruby,
     .vocab-review-answer ruby {
       ruby-position: over;
     }
@@ -614,7 +613,6 @@
     .instant-vocab-reading rt,
     .instant-vocab-example rt,
     .vocab-review-word rt,
-    .vocab-review-reading rt,
     .vocab-review-answer rt {
       color: var(--muted);
       font-size: 0.52em;
@@ -688,14 +686,6 @@
       overflow-wrap: anywhere;
     }
 
-    .vocab-review-reading {
-      color: var(--primary-dark);
-      font-size: 22px;
-      font-weight: 800;
-      line-height: 1.25;
-      overflow-wrap: anywhere;
-    }
-
     .vocab-review-answer {
       display: none;
       gap: 8px;
@@ -757,10 +747,6 @@
 
     .vocab-review-zoom-card .vocab-review-word {
       font-size: clamp(52px, 8vw, 92px);
-    }
-
-    .vocab-review-zoom-card .vocab-review-reading {
-      font-size: clamp(28px, 4vw, 46px);
     }
 
     .vocab-review-zoom-card .vocab-review-answer {
@@ -925,10 +911,6 @@
 
       .vocab-review-word {
         font-size: 34px;
-      }
-
-      .vocab-review-reading {
-        font-size: 20px;
       }
 
       .vocab-panel {
@@ -2587,15 +2569,15 @@
         word.className = "vocab-review-word";
         appendJapaneseRubyText(word, card.vocabulary || "(blank)");
 
-        const reading = document.createElement("div");
-        reading.className = "vocab-review-reading";
-        appendJapaneseRubyText(reading, card.hiragana || "(blank)");
-
-        term.append(word, reading);
+        term.append(word);
 
         const answer = document.createElement("div");
         answer.className = "vocab-review-answer";
         answer.classList.toggle("visible", vocabReviewAnswerVisible);
+
+        const reading = document.createElement("p");
+        reading.innerHTML = "<strong>Hiragana:</strong> ";
+        appendJapaneseRubyText(reading, card.hiragana || "(blank)");
 
         const meaning = document.createElement("p");
         meaning.innerHTML = "<strong>Nghĩa:</strong> ";
@@ -2609,7 +2591,7 @@
         exampleVi.innerHTML = "<strong>Dịch:</strong> ";
         exampleVi.append(document.createTextNode(card.example_vi));
 
-        answer.append(meaning, exampleJa, exampleVi);
+        answer.append(reading, meaning, exampleJa, exampleVi);
         vocabReviewCard.append(term, answer);
         syncVocabReviewZoomCard();
 
