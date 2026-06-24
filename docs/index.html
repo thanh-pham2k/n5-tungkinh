@@ -2259,6 +2259,10 @@
       let vocabReviewIndex = 0;
       let vocabReviewAnswerVisible = false;
       let vocabReviewMode = "learn";
+      let vocabReviewSpeechToken = 0;
+      const vocabReviewAudio = new Audio();
+      const vocabReviewAudioCache = new Map();
+      const silentAudioDataUrl = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YQQAAAAAAAAA";
 
       const listeningLessons = Array.from({ length: 25 }, (_, index) => {
         const lessonNo = index + 1;
@@ -2878,7 +2882,7 @@
         });
       };
 
-      const createSoundOfTextUrl = async (text, voice, runToken) => {
+      const createSoundOfTextUrl = async (text, voice, isCancelled = () => false) => {
         const createResponse = await fetch("https://api.soundoftext.com/sounds", {
           method: "POST",
           headers: {
@@ -2904,7 +2908,7 @@
         }
 
         for (let pollIndex = 0; pollIndex < 30; pollIndex += 1) {
-          if (runToken !== instantVocabRunToken) {
+          if (isCancelled()) {
             throw new Error("Playback stopped.");
           }
 
@@ -2933,6 +2937,52 @@
         throw new Error("Timed out waiting for Sound of Text.");
       };
 
+      const getVocabReviewAudioUrl = (hiragana) => {
+        if (vocabReviewAudioCache.has(hiragana)) {
+          return vocabReviewAudioCache.get(hiragana);
+        }
+
+        const urlPromise = createSoundOfTextUrl(hiragana, "ja-JP").catch((error) => {
+          vocabReviewAudioCache.delete(hiragana);
+          throw error;
+        });
+        vocabReviewAudioCache.set(hiragana, urlPromise);
+        return urlPromise;
+      };
+
+      const playCurrentVocabReviewHiragana = async () => {
+        const card = getCurrentVocabReviewCard();
+        if (!card || !card.hiragana) {
+          return;
+        }
+
+        const speechToken = vocabReviewSpeechToken + 1;
+        vocabReviewSpeechToken = speechToken;
+        vocabReviewAudio.pause();
+        vocabReviewAudio.currentTime = 0;
+
+        if (!vocabReviewAudioCache.has(card.hiragana)) {
+          vocabReviewAudio.src = silentAudioDataUrl;
+          vocabReviewAudio.play().catch(() => {});
+        }
+
+        try {
+          const url = await getVocabReviewAudioUrl(card.hiragana);
+          if (speechToken !== vocabReviewSpeechToken || card !== getCurrentVocabReviewCard()) {
+            return;
+          }
+
+          vocabReviewAudio.src = url;
+          vocabReviewAudio.currentTime = 0;
+          await vocabReviewAudio.play();
+        } catch (error) {
+          if (speechToken === vocabReviewSpeechToken) {
+            console.error(error);
+            updateVocabReviewLaterStatus("Không thể phát âm hiragana.");
+          }
+        }
+      };
+
       const ensureInstantAudioUrl = async (item, index, language, runToken) => {
         const isVietnamese = language === "vi";
         const text = isVietnamese ? item.meaningVi : item.hiragana;
@@ -2946,7 +2996,11 @@
         }
 
         updateInstantRowStatus(index, "loading", `Loading ${isVietnamese ? "Vietnamese" : "Japanese"} audio...`);
-        item[cacheKey] = await createSoundOfTextUrl(text, isVietnamese ? "vi-VN" : "ja-JP", runToken);
+        item[cacheKey] = await createSoundOfTextUrl(
+          text,
+          isVietnamese ? "vi-VN" : "ja-JP",
+          () => runToken !== instantVocabRunToken,
+        );
         return item[cacheKey];
       };
 
@@ -3836,7 +3890,8 @@
         const isLaterKey = event.code === "Digit0" || event.code === "Numpad0";
         const isArrowLeftKey = event.code === "ArrowLeft";
         const isArrowRightKey = event.code === "ArrowRight";
-        if ((!isAdvanceKey && !isLaterKey && !isArrowLeftKey && !isArrowRightKey) || tabSelect.value !== "vocab-review-panel") {
+        const isReadKey = event.code === "KeyR" && !event.ctrlKey && !event.metaKey && !event.altKey;
+        if ((!isAdvanceKey && !isLaterKey && !isArrowLeftKey && !isArrowRightKey && !isReadKey) || tabSelect.value !== "vocab-review-panel") {
           return;
         }
 
@@ -3847,6 +3902,13 @@
         }
 
         event.preventDefault();
+        if (isReadKey) {
+          if (!event.repeat) {
+            playCurrentVocabReviewHiragana();
+          }
+          return;
+        }
+
         if (isArrowLeftKey) {
           moveVocabReviewCard(-1);
           return;
