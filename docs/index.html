@@ -609,6 +609,7 @@
     .instant-vocab-reading ruby,
     .instant-vocab-example ruby,
     .vocab-review-word ruby,
+    .vocab-review-reading ruby,
     .vocab-review-answer ruby {
       ruby-position: over;
     }
@@ -617,6 +618,7 @@
     .instant-vocab-reading rt,
     .instant-vocab-example rt,
     .vocab-review-word rt,
+    .vocab-review-reading rt,
     .vocab-review-answer rt {
       color: var(--muted);
       font-size: 0.52em;
@@ -642,6 +644,24 @@
       grid-template-columns: repeat(5, minmax(0, 1fr));
       gap: 10px;
       align-items: end;
+    }
+
+    .vocab-review-option {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      width: fit-content;
+      color: var(--text);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .vocab-review-option input {
+      width: 18px;
+      height: 18px;
+      margin: 0;
+      accent-color: var(--primary);
+      cursor: pointer;
     }
 
     .vocab-review-status-row {
@@ -687,6 +707,14 @@
       font-size: 42px;
       font-weight: 800;
       line-height: 1.15;
+      overflow-wrap: anywhere;
+    }
+
+    .vocab-review-reading {
+      color: var(--primary-dark);
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.25;
       overflow-wrap: anywhere;
     }
 
@@ -751,6 +779,10 @@
 
     .vocab-review-zoom-card .vocab-review-word {
       font-size: clamp(52px, 8vw, 92px);
+    }
+
+    .vocab-review-zoom-card .vocab-review-reading {
+      font-size: clamp(28px, 4vw, 46px);
     }
 
     .vocab-review-zoom-card .vocab-review-answer {
@@ -891,7 +923,17 @@
       }
 
       .vocab-review-controls {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+      }
+
+      .vocab-review-controls button {
+        grid-column: span 2;
+        min-width: 0;
+        padding-inline: 8px;
+      }
+
+      .vocab-review-controls button:nth-last-child(-n + 2) {
+        grid-column: span 3;
       }
 
       .vocab-review-status-row {
@@ -915,6 +957,10 @@
 
       .vocab-review-word {
         font-size: 34px;
+      }
+
+      .vocab-review-reading {
+        font-size: 20px;
       }
 
       .vocab-panel {
@@ -1775,6 +1821,10 @@
           <button id="vocab-review-later" type="button" disabled>Review Later</button>
           <button id="vocab-review-reset" type="button" disabled>Reset</button>
         </div>
+        <label class="vocab-review-option" for="vocab-review-show-hiragana">
+          <input id="vocab-review-show-hiragana" type="checkbox" checked>
+          Show hiragana on front
+        </label>
         <div class="vocab-review-status-row">
           <div class="status" id="vocab-review-status">Chưa có dữ liệu.</div>
           <button class="vocab-review-zoom-button" id="vocab-review-zoom" type="button" aria-label="Phóng to thẻ" disabled>⛶ Phóng to</button>
@@ -2173,6 +2223,7 @@
       const vocabReviewShuffle = document.getElementById("vocab-review-shuffle");
       const vocabReviewLater = document.getElementById("vocab-review-later");
       const vocabReviewReset = document.getElementById("vocab-review-reset");
+      const vocabReviewShowHiragana = document.getElementById("vocab-review-show-hiragana");
       const vocabReviewStatus = document.getElementById("vocab-review-status");
       const vocabReviewCard = document.getElementById("vocab-review-card");
       const vocabReviewZoom = document.getElementById("vocab-review-zoom");
@@ -2574,6 +2625,13 @@
         appendJapaneseRubyText(word, card.vocabulary || "(blank)");
 
         term.append(word);
+
+        if (vocabReviewShowHiragana.checked) {
+          const frontReading = document.createElement("div");
+          frontReading.className = "vocab-review-reading";
+          appendJapaneseRubyText(frontReading, card.hiragana || "(blank)");
+          term.append(frontReading);
+        }
 
         const answer = document.createElement("div");
         answer.className = "vocab-review-answer";
@@ -3655,6 +3713,10 @@
 
       tabSelect.addEventListener("change", () => {
         selectTab(tabSelect.value);
+      });
+
+      vocabReviewShowHiragana.addEventListener("change", () => {
+        renderVocabReviewCard();
       });
 
       const updateBackToTop = () => {
