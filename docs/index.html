@@ -3890,8 +3890,10 @@
         const isLaterKey = event.code === "Digit0" || event.code === "Numpad0";
         const isArrowLeftKey = event.code === "ArrowLeft";
         const isArrowRightKey = event.code === "ArrowRight";
+        const isPrevKey = isArrowLeftKey || (event.code === "KeyJ" && !event.ctrlKey && !event.metaKey && !event.altKey);
+        const isNextKey = isArrowRightKey || (event.code === "KeyL" && !event.ctrlKey && !event.metaKey && !event.altKey);
         const isReadKey = event.code === "KeyR" && !event.ctrlKey && !event.metaKey && !event.altKey;
-        if ((!isAdvanceKey && !isLaterKey && !isArrowLeftKey && !isArrowRightKey && !isReadKey) || tabSelect.value !== "vocab-review-panel") {
+        if ((!isAdvanceKey && !isLaterKey && !isPrevKey && !isNextKey && !isReadKey) || tabSelect.value !== "vocab-review-panel") {
           return;
         }
 
@@ -3909,12 +3911,12 @@
           return;
         }
 
-        if (isArrowLeftKey) {
+        if (isPrevKey) {
           moveVocabReviewCard(-1);
           return;
         }
 
-        if (isArrowRightKey) {
+        if (isNextKey) {
           moveVocabReviewCard(1);
           return;
         }
