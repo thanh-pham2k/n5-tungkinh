@@ -3892,7 +3892,8 @@
         const isArrowRightKey = event.code === "ArrowRight";
         const isPrevKey = isArrowLeftKey || (event.code === "KeyJ" && !event.ctrlKey && !event.metaKey && !event.altKey);
         const isNextKey = isArrowRightKey || (event.code === "KeyL" && !event.ctrlKey && !event.metaKey && !event.altKey);
-        const isReadKey = event.code === "KeyR" && !event.ctrlKey && !event.metaKey && !event.altKey;
+        const isReadKey = (event.code === "KeyR" && !event.ctrlKey && !event.metaKey && !event.altKey)
+          || ((event.code === "ControlLeft" || event.code === "ControlRight") && !event.metaKey && !event.altKey);
         if ((!isAdvanceKey && !isLaterKey && !isPrevKey && !isNextKey && !isReadKey) || tabSelect.value !== "vocab-review-panel") {
           return;
         }
