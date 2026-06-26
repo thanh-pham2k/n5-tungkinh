@@ -2604,6 +2604,10 @@
         }
       };
 
+      const stripJapaneseFuriganaForTts = (text) => String(text || "")
+        .replace(/([\u4E00-\u9FFF\u3005\u3006\u30F5\u30F6])\uFF08[\u3041-\u3096\u30A1-\u30FA\u30FC]+\uFF09/g, "$1")
+        .trim();
+
       const getCurrentVocabReviewCard = () => vocabReviewQueue[vocabReviewIndex] || null;
 
       const isVocabReviewCardMarkedLater = (card) => Boolean(card && vocabReviewLaterCards.includes(card));
@@ -3072,6 +3076,38 @@
           if (speechToken === vocabReviewSpeechToken) {
             console.error(error);
             updateVocabReviewLaterStatus("Không thể phát âm hiragana.");
+          }
+        }
+      };
+
+      const playCurrentVocabReviewExample = async () => {
+        const card = getCurrentVocabReviewCard();
+        const exampleText = stripJapaneseFuriganaForTts(card && card.example_ja);
+        if (!card || !exampleText) {
+          return;
+        }
+
+        const speechToken = vocabReviewSpeechToken + 1;
+        vocabReviewSpeechToken = speechToken;
+        vocabReviewAudio.pause();
+        vocabReviewAudio.currentTime = 0;
+
+        if (!vocabReviewAudioCache.has(exampleText)) {
+          vocabReviewAudio.src = silentAudioDataUrl;
+          vocabReviewAudio.play().catch(() => {});
+        }
+
+        try {
+          const url = await getVocabReviewAudioUrl(exampleText);
+          if (speechToken !== vocabReviewSpeechToken || card !== getCurrentVocabReviewCard()) {
+            return;
+          }
+
+          await playVocabReviewAudioOnce(url);
+        } catch (error) {
+          if (speechToken === vocabReviewSpeechToken) {
+            console.error(error);
+            updateVocabReviewLaterStatus("Cannot play example audio.");
           }
         }
       };
@@ -3999,7 +4035,9 @@
         const isNextKey = isArrowRightKey || (event.code === "KeyL" && !event.ctrlKey && !event.metaKey && !event.altKey);
         const isReadKey = (event.code === "KeyR" && !event.ctrlKey && !event.metaKey && !event.altKey)
           || ((event.code === "ControlLeft" || event.code === "ControlRight") && !event.metaKey && !event.altKey);
-        if ((!isAdvanceKey && !isLaterKey && !isPrevKey && !isNextKey && !isReadKey) || tabSelect.value !== "vocab-review-panel") {
+        const isExampleReadKey = (event.code === "Digit1" || event.code === "Numpad1")
+          && !event.ctrlKey && !event.metaKey && !event.altKey && !event.shiftKey;
+        if ((!isAdvanceKey && !isLaterKey && !isPrevKey && !isNextKey && !isReadKey && !isExampleReadKey) || tabSelect.value !== "vocab-review-panel") {
           return;
         }
 
@@ -4013,6 +4051,13 @@
         if (isReadKey) {
           if (!event.repeat) {
             playCurrentVocabReviewHiragana();
+          }
+          return;
+        }
+
+        if (isExampleReadKey) {
+          if (!event.repeat) {
+            playCurrentVocabReviewExample();
           }
           return;
         }
