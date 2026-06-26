@@ -1841,6 +1841,10 @@
             <input id="vocab-review-show-hiragana" type="checkbox" checked>
             Show hiragana on front
           </label>
+          <label class="vocab-review-option" for="vocab-review-auto-play">
+            <input id="vocab-review-auto-play" type="checkbox" checked>
+            Auto play audio
+          </label>
           <label class="vocab-review-number-option" for="vocab-review-replay-count">
             Replay audio
             <input id="vocab-review-replay-count" type="number" min="1" step="1" value="3">
@@ -2245,6 +2249,7 @@
       const vocabReviewLater = document.getElementById("vocab-review-later");
       const vocabReviewReset = document.getElementById("vocab-review-reset");
       const vocabReviewShowHiragana = document.getElementById("vocab-review-show-hiragana");
+      const vocabReviewAutoPlay = document.getElementById("vocab-review-auto-play");
       const vocabReviewReplayCount = document.getElementById("vocab-review-replay-count");
       const vocabReviewStatus = document.getElementById("vocab-review-status");
       const vocabReviewCard = document.getElementById("vocab-review-card");
@@ -2636,7 +2641,24 @@
           : "vocab-review-card vocab-review-zoom-card";
       };
 
-      const renderVocabReviewCard = () => {
+      const maybeAutoPlayVocabReviewCard = (card) => {
+        if (!card || vocabReviewAnswerVisible || !vocabReviewAutoPlay.checked || tabSelect.value !== "vocab-review-panel") {
+          return;
+        }
+
+        window.setTimeout(() => {
+          if (
+            card === getCurrentVocabReviewCard()
+            && !vocabReviewAnswerVisible
+            && vocabReviewAutoPlay.checked
+            && tabSelect.value === "vocab-review-panel"
+          ) {
+            playCurrentVocabReviewHiragana();
+          }
+        }, 0);
+      };
+
+      const renderVocabReviewCard = ({ autoPlay = false } = {}) => {
         const card = vocabReviewQueue[vocabReviewIndex];
         vocabReviewCard.replaceChildren();
 
@@ -2698,6 +2720,9 @@
             : "Learn";
         updateVocabReviewLaterStatus(`${modeLabel}: ${vocabReviewIndex + 1}/${vocabReviewQueue.length}`);
         setVocabReviewControls();
+        if (autoPlay) {
+          maybeAutoPlayVocabReviewCard(card);
+        }
       };
 
       const startVocabReviewLearn = () => {
@@ -2705,7 +2730,7 @@
         vocabReviewIndex = 0;
         vocabReviewAnswerVisible = false;
         vocabReviewMode = "learn";
-        renderVocabReviewCard();
+        renderVocabReviewCard({ autoPlay: true });
       };
 
       const startVocabReviewShuffle = () => {
@@ -2717,7 +2742,7 @@
         vocabReviewIndex = 0;
         vocabReviewAnswerVisible = false;
         vocabReviewMode = "review";
-        renderVocabReviewCard();
+        renderVocabReviewCard({ autoPlay: true });
       };
 
       const startVocabReviewLater = () => {
@@ -2729,7 +2754,7 @@
         vocabReviewIndex = 0;
         vocabReviewAnswerVisible = false;
         vocabReviewMode = "later";
-        renderVocabReviewCard();
+        renderVocabReviewCard({ autoPlay: true });
       };
 
       const markCurrentVocabReviewLater = () => {
@@ -2764,7 +2789,7 @@
 
         vocabReviewIndex = nextIndex;
         vocabReviewAnswerVisible = false;
-        renderVocabReviewCard();
+        renderVocabReviewCard({ autoPlay: true });
       };
 
       const advanceVocabReviewCard = () => {
@@ -2790,7 +2815,7 @@
 
         vocabReviewIndex += 1;
         vocabReviewAnswerVisible = false;
-        renderVocabReviewCard();
+        renderVocabReviewCard({ autoPlay: true });
       };
 
       const loadVocabReviewCsv = () => {
@@ -3315,6 +3340,10 @@
         tabPanels.forEach((panel) => {
           panel.classList.toggle("active", panel.id === targetId);
         });
+
+        if (targetId === "vocab-review-panel") {
+          maybeAutoPlayVocabReviewCard(getCurrentVocabReviewCard());
+        }
       };
 
       const renderGrammarHtml = (html) => {
@@ -3839,6 +3868,12 @@
 
       vocabReviewShowHiragana.addEventListener("change", () => {
         renderVocabReviewCard();
+      });
+
+      vocabReviewAutoPlay.addEventListener("change", () => {
+        if (vocabReviewAutoPlay.checked) {
+          maybeAutoPlayVocabReviewCard(getCurrentVocabReviewCard());
+        }
       });
 
       vocabReviewReplayCount.addEventListener("change", readVocabReviewReplayCount);
