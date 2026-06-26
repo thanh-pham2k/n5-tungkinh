@@ -646,13 +646,24 @@
       align-items: end;
     }
 
-    .vocab-review-option {
+    .vocab-review-settings {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 18px;
+      align-items: center;
+    }
+
+    .vocab-review-option,
+    .vocab-review-number-option {
       display: flex;
       align-items: center;
       gap: 9px;
       width: fit-content;
       color: var(--text);
       font-weight: 700;
+    }
+
+    .vocab-review-option {
       cursor: pointer;
     }
 
@@ -662,6 +673,10 @@
       margin: 0;
       accent-color: var(--primary);
       cursor: pointer;
+    }
+
+    .vocab-review-number-option input {
+      width: 86px;
     }
 
     .vocab-review-status-row {
@@ -1821,10 +1836,16 @@
           <button id="vocab-review-later" type="button" disabled>Review Later</button>
           <button id="vocab-review-reset" type="button" disabled>Reset</button>
         </div>
-        <label class="vocab-review-option" for="vocab-review-show-hiragana">
-          <input id="vocab-review-show-hiragana" type="checkbox" checked>
-          Show hiragana on front
-        </label>
+        <div class="vocab-review-settings">
+          <label class="vocab-review-option" for="vocab-review-show-hiragana">
+            <input id="vocab-review-show-hiragana" type="checkbox" checked>
+            Show hiragana on front
+          </label>
+          <label class="vocab-review-number-option" for="vocab-review-replay-count">
+            Replay audio
+            <input id="vocab-review-replay-count" type="number" min="1" step="1" value="3">
+          </label>
+        </div>
         <div class="vocab-review-status-row">
           <div class="status" id="vocab-review-status">Chưa có dữ liệu.</div>
           <button class="vocab-review-zoom-button" id="vocab-review-zoom" type="button" aria-label="Phóng to thẻ" disabled>⛶ Phóng to</button>
@@ -2224,6 +2245,7 @@
       const vocabReviewLater = document.getElementById("vocab-review-later");
       const vocabReviewReset = document.getElementById("vocab-review-reset");
       const vocabReviewShowHiragana = document.getElementById("vocab-review-show-hiragana");
+      const vocabReviewReplayCount = document.getElementById("vocab-review-replay-count");
       const vocabReviewStatus = document.getElementById("vocab-review-status");
       const vocabReviewCard = document.getElementById("vocab-review-card");
       const vocabReviewZoom = document.getElementById("vocab-review-zoom");
@@ -2260,6 +2282,7 @@
       let vocabReviewAnswerVisible = false;
       let vocabReviewMode = "learn";
       let vocabReviewSpeechToken = 0;
+      let vocabReviewReplayTotal = 3;
       const vocabReviewAudio = new Audio();
       const vocabReviewAudioCache = new Map();
       const silentAudioDataUrl = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YQQAAAAAAAAA";
@@ -2378,6 +2401,13 @@
         const repeatCount = Number.isFinite(value) && value >= minimum ? value : minimum;
         input.value = String(repeatCount);
         return repeatCount;
+      };
+
+      const readVocabReviewReplayCount = () => {
+        const value = Number.parseInt(vocabReviewReplayCount.value, 10);
+        vocabReviewReplayTotal = Number.isFinite(value) && value >= 1 ? value : 1;
+        vocabReviewReplayCount.value = String(vocabReviewReplayTotal);
+        return vocabReviewReplayTotal;
       };
 
       const readInstantOrderMode = () => {
@@ -2950,12 +2980,46 @@
         return urlPromise;
       };
 
+      const playVocabReviewAudioOnce = (url) => new Promise((resolve, reject) => {
+        const cleanup = () => {
+          vocabReviewAudio.removeEventListener("ended", handleEnded);
+          vocabReviewAudio.removeEventListener("error", handleError);
+          vocabReviewAudio.removeEventListener("pause", handlePause);
+        };
+
+        const handleEnded = () => {
+          cleanup();
+          resolve();
+        };
+
+        const handleError = () => {
+          cleanup();
+          reject(new Error("Cannot play audio."));
+        };
+
+        const handlePause = () => {
+          cleanup();
+          resolve();
+        };
+
+        vocabReviewAudio.src = url;
+        vocabReviewAudio.currentTime = 0;
+        vocabReviewAudio.addEventListener("ended", handleEnded, { once: true });
+        vocabReviewAudio.addEventListener("error", handleError, { once: true });
+        vocabReviewAudio.addEventListener("pause", handlePause, { once: true });
+        vocabReviewAudio.play().catch((error) => {
+          cleanup();
+          reject(error);
+        });
+      });
+
       const playCurrentVocabReviewHiragana = async () => {
         const card = getCurrentVocabReviewCard();
         if (!card || !card.hiragana) {
           return;
         }
 
+        const replayCount = readVocabReviewReplayCount();
         const speechToken = vocabReviewSpeechToken + 1;
         vocabReviewSpeechToken = speechToken;
         vocabReviewAudio.pause();
@@ -2972,9 +3036,13 @@
             return;
           }
 
-          vocabReviewAudio.src = url;
-          vocabReviewAudio.currentTime = 0;
-          await vocabReviewAudio.play();
+          for (let replayIndex = 0; replayIndex < replayCount; replayIndex += 1) {
+            if (speechToken !== vocabReviewSpeechToken || card !== getCurrentVocabReviewCard()) {
+              return;
+            }
+
+            await playVocabReviewAudioOnce(url);
+          }
         } catch (error) {
           if (speechToken === vocabReviewSpeechToken) {
             console.error(error);
@@ -3772,6 +3840,8 @@
       vocabReviewShowHiragana.addEventListener("change", () => {
         renderVocabReviewCard();
       });
+
+      vocabReviewReplayCount.addEventListener("change", readVocabReviewReplayCount);
 
       const updateBackToTop = () => {
         backToTop.classList.toggle("visible", window.scrollY > 360);
