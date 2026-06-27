@@ -4043,7 +4043,9 @@
 
         const target = event.target;
         const tagName = target && target.tagName ? target.tagName.toLowerCase() : "";
-        if (tagName === "textarea" || tagName === "input" || tagName === "select") {
+        const inputType = target && target.type ? target.type.toLowerCase() : "";
+        const allowExampleShortcutFromCheckbox = isExampleReadKey && tagName === "input" && inputType === "checkbox";
+        if (!allowExampleShortcutFromCheckbox && (tagName === "textarea" || tagName === "input" || tagName === "select")) {
           return;
         }
 
