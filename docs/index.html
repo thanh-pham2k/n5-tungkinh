@@ -1299,6 +1299,34 @@
       margin: 0 0 8px;
     }
 
+    .hot-review-question-heading {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 10px;
+      margin: 0 0 8px;
+    }
+
+    .hot-review-question-heading h3 {
+      margin: 0;
+    }
+
+    .hot-review-star {
+      min-width: 42px;
+      min-height: 42px;
+      border-radius: 8px;
+      padding: 0;
+      color: #9A3412;
+      font-size: 28px;
+      line-height: 1;
+      background: #fff;
+    }
+
+    .hot-review-star[aria-pressed="true"] {
+      border-color: #F59E0B;
+      background: #FFFBEB;
+    }
+
     .quiz-progress-summary {
       display: flex;
       flex-wrap: wrap;
@@ -1494,6 +1522,27 @@
       margin: 0;
       color: var(--muted);
       line-height: 1.5;
+    }
+
+    .hot-review-tools {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .hot-review-tools button {
+      width: 100%;
+      min-width: 0;
+    }
+
+    .hot-review-later-empty {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--panel);
+      color: var(--muted);
+      padding: 18px;
+      font-weight: 700;
+      text-align: center;
     }
 
     .hot-review-pagination {

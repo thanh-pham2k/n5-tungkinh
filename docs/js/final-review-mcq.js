@@ -20,6 +20,7 @@
     "option_d",
   ];
   const PROGRESS_STORAGE_KEY = "finalReviewMcqProgress:v1";
+  const HOT_REVIEW_LATER_STORAGE_KEY = "quiz_review_later_ids";
   const PROGRESS_EXPORT_VERSION = 1;
   const REVIEW_TARGET_COUNT = 3;
   const REVIEW_STALE_DAYS = 7;
@@ -42,6 +43,8 @@
     hotReviewConfirmed: new Set(),
     hotReviewPage: 1,
     hotReviewPageSize: 5,
+    hotReviewMode: "all",
+    hotReviewLaterIds: new Set(),
   };
 
   const root = document.getElementById("final-review-quiz");
@@ -102,6 +105,27 @@
         items: Array.from(state.progress.values()).sort((a, b) => a.fileName.localeCompare(b.fileName, "en")),
       };
       localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(payload));
+    } catch (error) {
+      console.warn(error);
+    }
+  };
+
+  const loadHotReviewLaterIds = () => {
+    try {
+      const payload = JSON.parse(localStorage.getItem(HOT_REVIEW_LATER_STORAGE_KEY) || "[]");
+      return new Set(Array.isArray(payload) ? payload.filter((id) => typeof id === "string" && id) : []);
+    } catch (error) {
+      console.warn(error);
+      return new Set();
+    }
+  };
+
+  const saveHotReviewLaterIds = () => {
+    try {
+      localStorage.setItem(
+        HOT_REVIEW_LATER_STORAGE_KEY,
+        JSON.stringify(Array.from(state.hotReviewLaterIds).sort((a, b) => a.localeCompare(b, "en")))
+      );
     } catch (error) {
       console.warn(error);
     }
@@ -389,6 +413,12 @@
     };
   };
 
+  const buildQuestionId = (row) => [
+    row.group_id || "hot-review",
+    row.lesson || "",
+    row.question_no || "",
+  ].join(":");
+
   const parseHotReviewQuiz = (inputText) => {
     if (!inputText.trim()) {
       throw new Error("Vui lòng dán dữ liệu CSV.");
@@ -414,6 +444,7 @@
         const questionMedia = extractQuestionMedia(row.question_jp);
 
         return {
+          questionId: buildQuestionId(row),
           groupId: row.group_id,
           groupTitle: row.group_title,
           lesson: row.lesson,
@@ -452,6 +483,7 @@
         const questionMedia = extractQuestionMedia(row.question_jp);
 
         return {
+          questionId: buildQuestionId(row),
           groupId: row.group_id,
           groupTitle: row.group_title,
           lesson: row.lesson,
@@ -1277,17 +1309,29 @@ Dữ liệu bài làm:
     content.append(header, questions, actions, result);
   };
 
-  const hotAnswerKey = (question) => `hot-review:${question.questionNo}`;
+  const hotAnswerKey = (question) => `hot-review:${question.questionId || question.questionNo}`;
+
+  const getHotReviewQuestionId = (question) => question.questionId
+    || `${question.groupId || "hot-review"}:${question.lesson || ""}:${question.questionNo}`;
+
+  const getHotReviewQuestionsForMode = () => {
+    const questions = state.hotReviewGroup?.questions || [];
+    if (state.hotReviewMode !== "later") {
+      return questions;
+    }
+
+    return questions.filter((question) => state.hotReviewLaterIds.has(getHotReviewQuestionId(question)));
+  };
 
   const getHotReviewPageCount = () => {
-    const questionCount = state.hotReviewGroup?.questions.length || 0;
+    const questionCount = getHotReviewQuestionsForMode().length;
     return state.hotReviewPageSize === "all"
       ? 1
       : Math.max(1, Math.ceil(questionCount / state.hotReviewPageSize));
   };
 
   const getVisibleHotReviewQuestions = () => {
-    const questions = state.hotReviewGroup?.questions || [];
+    const questions = getHotReviewQuestionsForMode();
     if (state.hotReviewPageSize === "all") {
       return questions;
     }
@@ -1365,6 +1409,7 @@ Dữ liệu bài làm:
     state.hotReviewAnswers = new Map();
     state.hotReviewConfirmed = new Set();
     state.hotReviewPage = 1;
+    state.hotReviewMode = "all";
     state.renderedOptions = new Map(
       Array.from(state.renderedOptions.entries()).filter(([key]) => !key.startsWith("hot-review:"))
     );
@@ -1399,12 +1444,42 @@ Dữ liệu bài làm:
     return label;
   };
 
+  const toggleHotReviewLater = (question) => {
+    const questionId = getHotReviewQuestionId(question);
+    if (state.hotReviewLaterIds.has(questionId)) {
+      state.hotReviewLaterIds.delete(questionId);
+    } else {
+      state.hotReviewLaterIds.add(questionId);
+    }
+    saveHotReviewLaterIds();
+    renderHotReviewQuiz();
+  };
+
+  const createHotReviewLaterButton = (question) => {
+    const questionId = getHotReviewQuestionId(question);
+    const isMarked = state.hotReviewLaterIds.has(questionId);
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "hot-review-star";
+    button.textContent = isMarked ? "\u2605" : "\u2606";
+    button.setAttribute("aria-label", isMarked ? "Remove from Review Later" : "Add to Review Later");
+    button.setAttribute("aria-pressed", String(isMarked));
+    button.addEventListener("click", () => {
+      toggleHotReviewLater(question);
+    });
+    return button;
+  };
+
   const createHotReviewQuestion = (question) => {
     const article = document.createElement("article");
     article.className = "quiz-question";
 
+    const headingRow = document.createElement("div");
+    headingRow.className = "hot-review-question-heading";
+
     const heading = document.createElement("h3");
     heading.textContent = `Câu ${question.questionNo}`;
+    headingRow.append(heading, createHotReviewLaterButton(question));
 
     const jp = document.createElement("p");
     jp.className = "quiz-jp";
@@ -1421,7 +1496,7 @@ Dữ liệu bài làm:
       options.appendChild(createHotReviewOption(question, optionKey, question.options[optionKey] || ""));
     });
 
-    article.append(heading, prompt);
+    article.append(headingRow, prompt);
     article.appendChild(options);
     return article;
   };
@@ -1522,13 +1597,26 @@ Dữ liệu bài làm:
     const inputAgain = document.createElement("button");
     inputAgain.type = "button";
     inputAgain.className = "primary";
-    inputAgain.textContent = "Nhập lại dữ liệu";
+    inputAgain.textContent = "Nhập";
     inputAgain.addEventListener("click", openHotReviewDialog);
 
     const clearButton = document.createElement("button");
     clearButton.type = "button";
     clearButton.textContent = "Clear";
     clearButton.addEventListener("click", clearHotReviewData);
+
+    const reviewLaterButton = document.createElement("button");
+    reviewLaterButton.type = "button";
+    reviewLaterButton.textContent = state.hotReviewMode === "later" ? "All Questions" : "Review Later";
+    reviewLaterButton.addEventListener("click", () => {
+      state.hotReviewMode = state.hotReviewMode === "later" ? "all" : "later";
+      state.hotReviewPage = 1;
+      renderHotReviewQuiz();
+    });
+
+    const hotReviewTools = document.createElement("div");
+    hotReviewTools.className = "hot-review-tools";
+    hotReviewTools.append(inputAgain, clearButton, reviewLaterButton);
 
     const header = document.createElement("div");
     header.className = "quiz-header";
@@ -1600,9 +1688,16 @@ Dữ liệu bài làm:
 
     const questions = document.createElement("div");
     questions.className = "quiz-questions";
-    visibleQuestions.forEach((question) => {
-      questions.appendChild(createHotReviewQuestion(question));
-    });
+    if (!visibleQuestions.length && state.hotReviewMode === "later") {
+      const emptyLater = document.createElement("div");
+      emptyLater.className = "hot-review-later-empty";
+      emptyLater.textContent = "Chưa có câu nào trong Review Later.";
+      questions.appendChild(emptyLater);
+    } else {
+      visibleQuestions.forEach((question) => {
+        questions.appendChild(createHotReviewQuestion(question));
+      });
+    }
 
     let touchStartX = null;
     let touchStartY = null;
@@ -1653,6 +1748,7 @@ Dữ liệu bài làm:
     submit.type = "button";
     submit.className = "primary";
     submit.textContent = "Xác nhận";
+    submit.disabled = visibleQuestions.length === 0;
     submit.addEventListener("click", () => {
       visibleQuestions.forEach((question) => {
         state.hotReviewConfirmed.add(hotAnswerKey(question));
@@ -1666,7 +1762,7 @@ Dữ liệu bài làm:
     result.hidden = true;
 
     actions.append(submit);
-    hotReviewContent.replaceChildren(inputAgain, clearButton, header, pagination, questions, actions, result);
+    hotReviewContent.replaceChildren(hotReviewTools, header, pagination, questions, actions, result);
     if (
       visibleQuestions.length
       && visibleQuestions.every((question) => state.hotReviewConfirmed.has(hotAnswerKey(question)))
@@ -1686,6 +1782,7 @@ Dữ liệu bài làm:
       state.hotReviewAnswers = new Map();
       state.hotReviewConfirmed = new Set();
       state.hotReviewPage = 1;
+      state.hotReviewMode = "all";
       state.renderedOptions = new Map(
         Array.from(state.renderedOptions.entries()).filter(([key]) => !key.startsWith("hot-review:"))
       );
@@ -1701,6 +1798,7 @@ Dữ liệu bài làm:
       return;
     }
 
+    state.hotReviewLaterIds = loadHotReviewLaterIds();
     renderHotReviewEmpty();
 
     hotReviewCancel?.addEventListener("click", () => {
