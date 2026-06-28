@@ -1325,17 +1325,11 @@ Dữ liệu bài làm:
 
   const getHotReviewPageCount = () => {
     const questionCount = getHotReviewQuestionsForMode().length;
-    return state.hotReviewPageSize === "all"
-      ? 1
-      : Math.max(1, Math.ceil(questionCount / state.hotReviewPageSize));
+    return Math.max(1, Math.ceil(questionCount / state.hotReviewPageSize));
   };
 
   const getVisibleHotReviewQuestions = () => {
     const questions = getHotReviewQuestionsForMode();
-    if (state.hotReviewPageSize === "all") {
-      return questions;
-    }
-
     const startIndex = (state.hotReviewPage - 1) * state.hotReviewPageSize;
     return questions.slice(startIndex, startIndex + state.hotReviewPageSize);
   };
@@ -1637,25 +1631,20 @@ Dữ liệu bài làm:
     pageSizeField.className = "hot-review-page-size";
     pageSizeField.textContent = "Số câu mỗi trang";
 
-    const pageSizeSelect = document.createElement("select");
-    pageSizeSelect.setAttribute("aria-label", "Số câu Hot Review mỗi trang");
-    [
-      { value: "5", label: "5" },
-      { value: "10", label: "10" },
-      { value: "all", label: "All" },
-    ].forEach(({ value, label }) => {
-      const option = document.createElement("option");
-      option.value = value;
-      option.textContent = label;
-      option.selected = String(state.hotReviewPageSize) === value;
-      pageSizeSelect.appendChild(option);
-    });
-    pageSizeSelect.addEventListener("change", () => {
-      state.hotReviewPageSize = pageSizeSelect.value === "all" ? "all" : Number(pageSizeSelect.value);
+    const pageSizeInput = document.createElement("input");
+    pageSizeInput.type = "number";
+    pageSizeInput.min = "1";
+    pageSizeInput.step = "1";
+    pageSizeInput.value = String(state.hotReviewPageSize);
+    pageSizeInput.setAttribute("aria-label", "Số câu Hot Review mỗi trang");
+    pageSizeInput.addEventListener("change", () => {
+      const pageSize = Number.parseInt(pageSizeInput.value, 10);
+      state.hotReviewPageSize = Number.isFinite(pageSize) && pageSize >= 1 ? pageSize : 5;
+      pageSizeInput.value = String(state.hotReviewPageSize);
       state.hotReviewPage = 1;
       renderHotReviewQuiz();
     });
-    pageSizeField.appendChild(pageSizeSelect);
+    pageSizeField.appendChild(pageSizeInput);
 
     const pageNav = document.createElement("div");
     pageNav.className = "hot-review-page-nav";
@@ -1706,8 +1695,7 @@ Dữ liệu bài làm:
       const isInteractive = target instanceof Element
         && target.closest("button, select, input, textarea, .quiz-option");
       if (
-        state.hotReviewPageSize === "all"
-        || !window.matchMedia("(max-width: 768px)").matches
+        !window.matchMedia("(max-width: 768px)").matches
         || event.touches.length !== 1
         || isInteractive
       ) {
