@@ -1432,7 +1432,7 @@
 
     const text = document.createElement("span");
     text.className = "quiz-option-text";
-    text.textContent = optionText;
+    appendQuestionText(text, optionText);
 
     label.append(input, key, text);
     return label;
