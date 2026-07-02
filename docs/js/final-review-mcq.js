@@ -61,6 +61,7 @@
     answersByQuestionId: new Map(),
     activeAnswerId: "",
     showAllAnswers: false,
+    hotReviewControlsHidden: false,
   };
 
   const root = document.getElementById("final-review-quiz");
@@ -2009,9 +2010,29 @@
       renderHotReviewQuiz();
     });
 
+    const hideControlsButton = document.createElement("button");
+    hideControlsButton.type = "button";
+    hideControlsButton.textContent = "Ẩn điều khiển";
+    hideControlsButton.addEventListener("click", () => {
+      state.hotReviewControlsHidden = true;
+      renderHotReviewQuiz();
+    });
+
     const hotReviewTools = document.createElement("div");
     hotReviewTools.className = "hot-review-tools";
-    hotReviewTools.append(inputAgain, clearButton, answerImportButton, reviewLaterButton, showAllAnswersLabel);
+    hotReviewTools.append(inputAgain, clearButton, answerImportButton, reviewLaterButton, showAllAnswersLabel, hideControlsButton);
+
+    const showControlsButton = document.createElement("button");
+    showControlsButton.type = "button";
+    showControlsButton.textContent = "Hiện điều khiển";
+    showControlsButton.addEventListener("click", () => {
+      state.hotReviewControlsHidden = false;
+      renderHotReviewQuiz();
+    });
+
+    const hiddenControlsBar = document.createElement("div");
+    hiddenControlsBar.className = "hot-review-controls-toggle";
+    hiddenControlsBar.appendChild(showControlsButton);
 
     const header = document.createElement("div");
     header.className = "quiz-header";
@@ -2166,7 +2187,11 @@
     result.hidden = true;
 
     actions.append(submit);
-    hotReviewContent.replaceChildren(hotReviewTools, header, pagination, questions, actions, result);
+    if (state.hotReviewControlsHidden) {
+      hotReviewContent.replaceChildren(hiddenControlsBar, questions, actions, result);
+    } else {
+      hotReviewContent.replaceChildren(hotReviewTools, header, pagination, questions, actions, result);
+    }
     window.requestAnimationFrame(syncHotReviewAnswerPanelHeights);
     if (
       visibleQuestions.length
