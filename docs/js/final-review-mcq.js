@@ -450,6 +450,12 @@
     });
   };
 
+  const withDisplayOrder = (questions) => questions.map((question, index) => ({
+    ...question,
+    orderIndex: index,
+    orderKey: `order-${index}`,
+  }));
+
   const parseHotReviewQuiz = (inputText) => {
     if (!inputText.trim()) {
       throw new Error("Vui lòng dán dữ liệu CSV.");
@@ -461,7 +467,7 @@
     }
 
     const headers = validateExactHeaders(rows[0], "Hot Review CSV");
-    const questions = rows
+    const questions = withDisplayOrder(rows
       .slice(1)
       .map((row) => {
         const item = {};
@@ -491,7 +497,7 @@
           },
         };
       })
-      .sort(compareQuestionNo);
+      .sort(compareQuestionNo));
 
     if (!questions.length) {
       throw new Error("CSV không có câu hỏi hợp lệ.");
@@ -584,7 +590,7 @@
 
   const parseQuizGroup = (fileName, csvText) => {
     const rows = rowsToObjects(parseCsv(csvText), fileName);
-    const questions = rows
+    const questions = withDisplayOrder(rows
       .filter((row) => row.question_no)
       .map((row) => {
         const questionMedia = extractQuestionMedia(row.question_jp);
@@ -606,7 +612,7 @@
           },
         };
       })
-      .sort(compareQuestionNo);
+      .sort(compareQuestionNo));
 
     if (!questions.length) {
       throw new Error(`${fileName} không có câu hỏi hợp lệ.`);
@@ -1416,10 +1422,12 @@
     content.append(header, questions, actions, result);
   };
 
-  const hotAnswerKey = (question) => `hot-review:${question.questionId || question.questionNo}`;
+  const hotAnswerKey = (question) => `hot-review:${question.orderKey || question.questionId || question.questionNo}`;
 
-  const getHotReviewQuestionId = (question) => question.questionId
-    || `${question.groupId || "hot-review"}:${question.lesson || ""}:${question.questionNo}`;
+  const getHotReviewQuestionId = (question) => [
+    question.questionId || `${question.groupId || "hot-review"}:${question.lesson || ""}:${question.questionNo}`,
+    question.orderKey || "",
+  ].join(":");
 
   const getHotReviewQuestionsForMode = () => {
     const questions = state.hotReviewGroup?.questions || [];
@@ -1494,7 +1502,7 @@
     }
   };
 
-  const getHotReviewAnswerId = (question) => String(question?.questionNo || "").trim();
+  const getHotReviewAnswerId = (question) => String(question?.orderKey || "").trim();
 
   const getHotReviewMappedAnswer = (question) => {
     const answerId = getHotReviewAnswerId(question);
@@ -1626,7 +1634,7 @@
   };
 
   const createHotReviewOption = (question, optionKey, optionText, answer, answerVisible) => {
-    const optionId = `hot-review-${question.questionNo}-${optionKey}`;
+    const optionId = `hot-review-${question.orderKey || question.questionNo}-${optionKey}`;
     const label = document.createElement("label");
     label.className = "quiz-option";
     label.setAttribute("for", optionId);
@@ -1643,7 +1651,7 @@
     const input = document.createElement("input");
     input.type = "radio";
     input.id = optionId;
-    input.name = `hot-review-${question.questionNo}`;
+    input.name = `hot-review-${question.orderKey || question.questionNo}`;
     input.value = optionKey;
     input.checked = state.hotReviewAnswers.get(hotAnswerKey(question)) === optionKey;
     input.addEventListener("change", () => {
