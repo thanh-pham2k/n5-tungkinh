@@ -1700,6 +1700,9 @@
   const createHotReviewQuestion = (question) => {
     const row = document.createElement("div");
     row.className = "hot-review-question-row";
+    if (state.hotReviewPageSize === 1) {
+      row.classList.add("hot-review-question-row-single");
+    }
 
     const article = document.createElement("article");
     article.className = "quiz-question hot-review-question";
@@ -1829,6 +1832,7 @@
 
   const syncHotReviewAnswerPanelHeights = () => {
     const isStackedLayout = window.matchMedia("(max-width: 768px)").matches;
+    const isSingleQuestionPage = state.hotReviewPageSize === 1;
     document.querySelectorAll(".hot-review-question-row").forEach((row) => {
       const card = row.querySelector(".hot-review-question");
       const panel = row.querySelector(".hot-review-answer-panel");
@@ -1844,11 +1848,52 @@
         return;
       }
 
+      if (isSingleQuestionPage) {
+        panel.style.height = "";
+        panel.style.maxHeight = "";
+        const cardHeight = card.getBoundingClientRect().height;
+        const panelHeight = panel.getBoundingClientRect().height;
+        row.style.minHeight = `${Math.max(cardHeight, panelHeight)}px`;
+        return;
+      }
+
       const cardHeight = card.getBoundingClientRect().height;
       panel.style.height = `${cardHeight}px`;
       panel.style.maxHeight = `${cardHeight}px`;
       row.style.minHeight = `${cardHeight}px`;
     });
+  };
+
+  const handleHotReviewKeydown = (event) => {
+    const hotReviewPanel = hotReviewRoot?.closest(".tab-panel");
+    if (!state.hotReviewGroup || !hotReviewPanel?.classList.contains("active")) {
+      return;
+    }
+
+    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") {
+      return;
+    }
+
+    const target = event.target;
+    const isEditing = target instanceof Element
+      && target.closest("input, textarea, select, [contenteditable='true']");
+    if (isEditing) {
+      return;
+    }
+
+    const pageCount = getHotReviewPageCount();
+    if (event.key === "ArrowLeft" && state.hotReviewPage > 1) {
+      event.preventDefault();
+      state.hotReviewPage -= 1;
+      renderHotReviewQuiz();
+      return;
+    }
+
+    if (event.key === "ArrowRight" && state.hotReviewPage < pageCount) {
+      event.preventDefault();
+      state.hotReviewPage += 1;
+      renderHotReviewQuiz();
+    }
   };
 
   const clearAnswerData = () => {
@@ -1986,12 +2031,27 @@
     pageSizeInput.step = "1";
     pageSizeInput.value = String(state.hotReviewPageSize);
     pageSizeInput.setAttribute("aria-label", "Số câu Hot Review mỗi trang");
-    pageSizeInput.addEventListener("change", () => {
+    const applyPageSize = () => {
       const pageSize = Number.parseInt(pageSizeInput.value, 10);
-      state.hotReviewPageSize = Number.isFinite(pageSize) && pageSize >= 1 ? pageSize : 5;
+      const nextPageSize = Number.isFinite(pageSize) && pageSize >= 1 ? pageSize : 5;
+      if (nextPageSize === state.hotReviewPageSize) {
+        pageSizeInput.value = String(state.hotReviewPageSize);
+        return;
+      }
+
+      state.hotReviewPageSize = nextPageSize;
       pageSizeInput.value = String(state.hotReviewPageSize);
       state.hotReviewPage = 1;
       renderHotReviewQuiz();
+    };
+    pageSizeInput.addEventListener("change", applyPageSize);
+    pageSizeInput.addEventListener("keydown", (event) => {
+      if (event.key !== "Enter") {
+        return;
+      }
+
+      event.preventDefault();
+      applyPageSize();
     });
     pageSizeField.appendChild(pageSizeInput);
 
@@ -2150,6 +2210,7 @@
     answerImportCancel?.addEventListener("click", closeAnswerImportDialog);
     answerImportClear?.addEventListener("click", clearAnswerData);
     answerImportApply?.addEventListener("click", applyAnswerImport);
+    document.addEventListener("keydown", handleHotReviewKeydown);
   };
 
   const init = async () => {

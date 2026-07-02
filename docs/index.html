@@ -1627,6 +1627,10 @@
       width: min(760px, 100%);
     }
 
+    .hot-review-question-row-single {
+      width: min(820px, 100%);
+    }
+
     body.hot-review-active main {
       width: calc(100vw - 32px) !important;
       max-width: 1420px !important;
@@ -1657,6 +1661,12 @@
       overflow: auto;
       overflow-wrap: anywhere;
       z-index: 2;
+    }
+
+    .hot-review-question-row-single .hot-review-answer-panel {
+      width: min(760px, calc(100vw - 72px));
+      max-height: none;
+      overflow: visible;
     }
 
     .hot-review-answer-content {
