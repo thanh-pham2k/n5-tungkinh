@@ -1591,7 +1591,7 @@
     const panel = document.createElement("aside");
     panel.className = "hot-review-answer-panel";
     if (state.hotReviewPageSize === 1) {
-      panel.style.maxWidth = "32rem";
+      panel.style.maxWidth = "30rem";
     }
 
     const lines = [
@@ -1705,13 +1705,13 @@
     row.className = "hot-review-question-row";
     if (state.hotReviewPageSize === 1) {
       row.classList.add("hot-review-question-row-single");
-      row.style.maxWidth = "32rem";
+      row.style.maxWidth = "30rem";
     }
 
     const article = document.createElement("article");
     article.className = "quiz-question hot-review-question";
     if (state.hotReviewPageSize === 1) {
-      article.style.maxWidth = "32rem";
+      article.style.maxWidth = "30rem";
     }
     const answer = getHotReviewMappedAnswer(question);
     const answerVisible = isHotReviewAnswerVisible(question);
