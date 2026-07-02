@@ -1618,11 +1618,15 @@
       text-align: center;
     }
 
-    .hot-review-question-body {
+    .hot-review-question-row {
       display: grid;
       grid-template-columns: minmax(0, 1fr) minmax(260px, 38%);
       gap: 14px;
       align-items: stretch;
+    }
+
+    .hot-review-question {
+      min-width: 0;
     }
 
     .hot-review-question-main {
@@ -1787,7 +1791,7 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
-      .hot-review-question-body {
+      .hot-review-question-row {
         grid-template-columns: 1fr;
       }
 

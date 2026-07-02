@@ -523,7 +523,7 @@
     const id = (row.id || "").trim();
     const correctAnswer = normalizeAnswerLetter(row.correct_answer);
 
-    if (!id || !correctAnswer) {
+    if (!correctAnswer) {
       return null;
     }
 
@@ -1692,6 +1692,9 @@
   };
 
   const createHotReviewQuestion = (question) => {
+    const row = document.createElement("div");
+    row.className = "hot-review-question-row";
+
     const article = document.createElement("article");
     article.className = "quiz-question hot-review-question";
     const answer = getHotReviewMappedAnswer(question);
@@ -1722,20 +1725,17 @@
       options.appendChild(createHotReviewOption(question, optionKey, question.options[optionKey] || "", answer, answerVisible));
     });
 
-    const questionBody = document.createElement("div");
-    questionBody.className = "hot-review-question-body";
-
     const questionMain = document.createElement("div");
     questionMain.className = "hot-review-question-main";
     questionMain.append(headingRow, prompt, options);
 
-    questionBody.appendChild(questionMain);
+    article.appendChild(questionMain);
+    row.appendChild(article);
     if (answer && answerVisible) {
-      questionBody.appendChild(createAnswerPanel(answer, question));
+      row.appendChild(createAnswerPanel(answer, question));
     }
 
-    article.appendChild(questionBody);
-    return article;
+    return row;
   };
 
   const getHotSelectedAnswerLabel = (question) => {
@@ -1823,10 +1823,10 @@
 
   const syncHotReviewAnswerPanelHeights = () => {
     const isStackedLayout = window.matchMedia("(max-width: 768px)").matches;
-    document.querySelectorAll(".hot-review-question-body").forEach((body) => {
-      const main = body.querySelector(".hot-review-question-main");
-      const panel = body.querySelector(".hot-review-answer-panel");
-      if (!main || !panel) {
+    document.querySelectorAll(".hot-review-question-row").forEach((row) => {
+      const card = row.querySelector(".hot-review-question");
+      const panel = row.querySelector(".hot-review-answer-panel");
+      if (!card || !panel) {
         return;
       }
 
@@ -1836,9 +1836,9 @@
         return;
       }
 
-      const mainHeight = main.getBoundingClientRect().height;
-      panel.style.height = `${mainHeight}px`;
-      panel.style.maxHeight = `${mainHeight}px`;
+      const cardHeight = card.getBoundingClientRect().height;
+      panel.style.height = `${cardHeight}px`;
+      panel.style.maxHeight = `${cardHeight}px`;
     });
   };
 
