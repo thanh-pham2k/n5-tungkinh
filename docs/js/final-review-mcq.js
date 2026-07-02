@@ -1590,6 +1590,7 @@
   const createAnswerPanel = (answer, question) => {
     const panel = document.createElement("aside");
     panel.className = "hot-review-answer-panel";
+    panel.style.maxWidth = "none";
 
     const lines = [
       `Câu ${question?.questionNo || ""}`,
@@ -1707,6 +1708,9 @@
 
     const article = document.createElement("article");
     article.className = "quiz-question hot-review-question";
+    if (state.hotReviewPageSize === 1) {
+      article.style.maxWidth = "none";
+    }
     const answer = getHotReviewMappedAnswer(question);
     const answerVisible = isHotReviewAnswerVisible(question);
 
