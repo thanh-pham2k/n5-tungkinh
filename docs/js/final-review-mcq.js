@@ -1590,7 +1590,9 @@
   const createAnswerPanel = (answer, question) => {
     const panel = document.createElement("aside");
     panel.className = "hot-review-answer-panel";
-    panel.style.maxWidth = "none";
+    if (state.hotReviewPageSize === 1) {
+      panel.style.maxWidth = "32rem";
+    }
 
     const lines = [
       `Câu ${question?.questionNo || ""}`,
@@ -1703,13 +1705,13 @@
     row.className = "hot-review-question-row";
     if (state.hotReviewPageSize === 1) {
       row.classList.add("hot-review-question-row-single");
-      row.style.maxWidth = "none";
+      row.style.maxWidth = "32rem";
     }
 
     const article = document.createElement("article");
     article.className = "quiz-question hot-review-question";
     if (state.hotReviewPageSize === 1) {
-      article.style.maxWidth = "none";
+      article.style.maxWidth = "32rem";
     }
     const answer = getHotReviewMappedAnswer(question);
     const answerVisible = isHotReviewAnswerVisible(question);
