@@ -19,8 +19,9 @@
     "option_c",
     "option_d",
   ];
-  const ANSWER_REQUIRED_HEADERS = ["id", "correct_answer"];
+  const ANSWER_REQUIRED_HEADERS = ["correct_answer"];
   const ANSWER_OPTIONAL_HEADERS = [
+    "id",
     "selected_answer",
     "answer_detail_vi",
     "option_a_vi",
@@ -561,8 +562,7 @@
 
     const allowedHeaders = new Set([...ANSWER_REQUIRED_HEADERS, ...ANSWER_OPTIONAL_HEADERS]);
     const knownHeaders = headers.filter((header) => allowedHeaders.has(header));
-    const answersByQuestionId = new Map();
-    const visibleAnswerIds = new Set();
+    const answers = [];
 
     rows.slice(1).forEach((row) => {
       const item = {};
@@ -576,17 +576,14 @@
         return;
       }
 
-      answersByQuestionId.set(answer.id, answer);
-      if (answer.showAnswer === true) {
-        visibleAnswerIds.add(answer.id);
-      }
+      answers.push(answer);
     });
 
-    if (!answersByQuestionId.size) {
+    if (!answers.length) {
       throw new Error("Answer CSV khong co dong hop le.");
     }
 
-    return { answersByQuestionId, visibleAnswerIds };
+    return answers;
   };
 
   const parseQuizGroup = (fileName, csvText) => {
@@ -1881,10 +1878,34 @@
     }
 
     try {
-      const parsed = parseAnswerCsv(answerImportInput.value);
+      const parsedAnswers = parseAnswerCsv(answerImportInput.value);
+      const answersByQuestionId = new Map();
+      const visibleAnswerIds = new Set();
+      const questions = state.hotReviewGroup?.questions || [];
+
+      questions.forEach((question, index) => {
+        const answer = parsedAnswers[index];
+        if (!answer) {
+          return;
+        }
+
+        const answerId = getHotReviewAnswerId(question);
+        answersByQuestionId.set(answerId, {
+          ...answer,
+          id: answerId,
+        });
+        if (answer.showAnswer === true) {
+          visibleAnswerIds.add(answerId);
+        }
+      });
+
+      if (!answersByQuestionId.size) {
+        throw new Error("Answer CSV khong co dong nao khop voi cau hoi hien tai.");
+      }
+
       state.autoShowAnswer = Boolean(autoShowAnswerInput?.checked);
-      state.answersByQuestionId = parsed.answersByQuestionId;
-      state.visibleAnswerIds = parsed.visibleAnswerIds;
+      state.answersByQuestionId = answersByQuestionId;
+      state.visibleAnswerIds = visibleAnswerIds;
       state.hiddenAnswerIds = new Set();
       closeAnswerImportDialog();
       if (state.hotReviewGroup) {
