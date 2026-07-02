@@ -1827,18 +1827,21 @@
       const card = row.querySelector(".hot-review-question");
       const panel = row.querySelector(".hot-review-answer-panel");
       if (!card || !panel) {
+        row.style.minHeight = "";
         return;
       }
 
       if (isStackedLayout) {
         panel.style.height = "";
         panel.style.maxHeight = "";
+        row.style.minHeight = "";
         return;
       }
 
       const cardHeight = card.getBoundingClientRect().height;
       panel.style.height = `${cardHeight}px`;
       panel.style.maxHeight = `${cardHeight}px`;
+      row.style.minHeight = `${cardHeight}px`;
     });
   };
 

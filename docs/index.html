@@ -45,6 +45,10 @@
       padding: 22px;
     }
 
+    body.hot-review-active main {
+      width: min(1420px, 100%);
+    }
+
     h1 {
       margin: 0 0 6px;
       font-size: 24px;
@@ -1619,10 +1623,13 @@
     }
 
     .hot-review-question-row {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(260px, 38%);
-      gap: 14px;
-      align-items: stretch;
+      position: relative;
+      width: min(760px, 100%);
+    }
+
+    body.hot-review-active main {
+      width: calc(100vw - 32px) !important;
+      max-width: 1420px !important;
     }
 
     .hot-review-question {
@@ -1634,6 +1641,10 @@
     }
 
     .hot-review-answer-panel {
+      position: absolute;
+      top: 0;
+      left: calc(100% + 16px);
+      width: min(520px, calc(100vw - 100% - 72px));
       min-height: 0;
       max-height: 100%;
       align-self: stretch;
@@ -1645,6 +1656,7 @@
       font: 14px/1.75 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
       overflow: auto;
       overflow-wrap: anywhere;
+      z-index: 2;
     }
 
     .hot-review-answer-content {
@@ -1792,7 +1804,13 @@
       }
 
       .hot-review-question-row {
-        grid-template-columns: 1fr;
+        width: 100%;
+      }
+
+      .hot-review-answer-panel {
+        position: static;
+        width: 100%;
+        margin-top: 14px;
       }
 
       .hot-review-question-actions {
@@ -3527,6 +3545,8 @@
       };
 
       const selectTab = (targetId) => {
+        document.body.classList.toggle("hot-review-active", targetId === "hot-review-panel");
+
         if (tabSelect) {
           tabSelect.value = targetId;
         }
