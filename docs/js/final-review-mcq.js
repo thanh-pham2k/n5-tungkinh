@@ -59,9 +59,8 @@
     hotReviewMode: "all",
     hotReviewLaterIds: new Set(),
     answersByQuestionId: new Map(),
-    visibleAnswerIds: new Set(),
-    hiddenAnswerIds: new Set(),
-    autoShowAnswer: false,
+    activeAnswerId: "",
+    showAllAnswers: false,
   };
 
   const root = document.getElementById("final-review-quiz");
@@ -82,7 +81,6 @@
   const answerImportCancel = document.getElementById("answer-import-cancel");
   const answerImportClear = document.getElementById("answer-import-clear");
   const answerImportApply = document.getElementById("answer-import-apply");
-  const autoShowAnswerInput = document.getElementById("auto-show-answer");
 
   if (!root || !status || !groupList || !content) {
     return;
@@ -1477,9 +1475,6 @@
     }
 
     answerImportError.textContent = "";
-    if (autoShowAnswerInput) {
-      autoShowAnswerInput.checked = state.autoShowAnswer;
-    }
 
     if (typeof answerImportDialog.showModal === "function") {
       answerImportDialog.showModal();
@@ -1513,24 +1508,17 @@
     return Boolean(
       answerId
       && state.answersByQuestionId.has(answerId)
-      && !state.hiddenAnswerIds.has(answerId)
-      && (state.autoShowAnswer || state.visibleAnswerIds.has(answerId))
+      && (state.showAllAnswers || state.activeAnswerId === answerId)
     );
   };
 
-  const setHotReviewAnswerVisible = (question, visible) => {
+  const setActiveHotReviewAnswer = (question) => {
     const answerId = getHotReviewAnswerId(question);
     if (!answerId || !state.answersByQuestionId.has(answerId)) {
       return;
     }
 
-    if (visible) {
-      state.hiddenAnswerIds.delete(answerId);
-      state.visibleAnswerIds.add(answerId);
-    } else {
-      state.visibleAnswerIds.delete(answerId);
-      state.hiddenAnswerIds.add(answerId);
-    }
+    state.activeAnswerId = answerId;
     renderHotReviewQuiz();
   };
 
@@ -1639,23 +1627,6 @@
     return panel;
   };
 
-  const createHotReviewAnswerToggleButton = (question) => {
-    if (!getHotReviewMappedAnswer(question)) {
-      return null;
-    }
-
-    const isVisible = isHotReviewAnswerVisible(question);
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "hot-review-answer-toggle";
-    button.textContent = isVisible ? "Hide answer" : "Show answer";
-    button.setAttribute("aria-pressed", String(isVisible));
-    button.addEventListener("click", () => {
-      setHotReviewAnswerVisible(question, !isVisible);
-    });
-    return button;
-  };
-
   const createHotReviewOption = (question, optionKey, optionText, answer, answerVisible) => {
     const optionId = `hot-review-${question.questionNo}-${optionKey}`;
     const label = document.createElement("label");
@@ -1679,6 +1650,7 @@
     input.checked = state.hotReviewAnswers.get(hotAnswerKey(question)) === optionKey;
     input.addEventListener("change", () => {
       state.hotReviewAnswers.set(hotAnswerKey(question), optionKey);
+      setActiveHotReviewAnswer(question);
     });
 
     const key = document.createElement("span");
@@ -1732,10 +1704,6 @@
     heading.textContent = `Câu ${question.questionNo}`;
     const headingActions = document.createElement("div");
     headingActions.className = "hot-review-question-actions";
-    const answerToggle = createHotReviewAnswerToggleButton(question);
-    if (answerToggle) {
-      headingActions.appendChild(answerToggle);
-    }
     headingActions.appendChild(createHotReviewLaterButton(question));
     headingRow.append(heading, headingActions);
 
@@ -1759,14 +1727,14 @@
 
     const questionMain = document.createElement("div");
     questionMain.className = "hot-review-question-main";
-    questionMain.append(prompt, options);
+    questionMain.append(headingRow, prompt, options);
 
     questionBody.appendChild(questionMain);
     if (answer && answerVisible) {
       questionBody.appendChild(createAnswerPanel(answer, question));
     }
 
-    article.append(headingRow, questionBody);
+    article.appendChild(questionBody);
     return article;
   };
 
@@ -1853,6 +1821,27 @@
     result.hidden = false;
   };
 
+  const syncHotReviewAnswerPanelHeights = () => {
+    const isStackedLayout = window.matchMedia("(max-width: 768px)").matches;
+    document.querySelectorAll(".hot-review-question-body").forEach((body) => {
+      const main = body.querySelector(".hot-review-question-main");
+      const panel = body.querySelector(".hot-review-answer-panel");
+      if (!main || !panel) {
+        return;
+      }
+
+      if (isStackedLayout) {
+        panel.style.height = "";
+        panel.style.maxHeight = "";
+        return;
+      }
+
+      const mainHeight = main.getBoundingClientRect().height;
+      panel.style.height = `${mainHeight}px`;
+      panel.style.maxHeight = `${mainHeight}px`;
+    });
+  };
+
   const clearAnswerData = () => {
     if (answerImportInput) {
       answerImportInput.value = "";
@@ -1861,12 +1850,8 @@
       answerImportError.textContent = "";
     }
     state.answersByQuestionId = new Map();
-    state.visibleAnswerIds = new Set();
-    state.hiddenAnswerIds = new Set();
-    state.autoShowAnswer = false;
-    if (autoShowAnswerInput) {
-      autoShowAnswerInput.checked = false;
-    }
+    state.activeAnswerId = "";
+    state.showAllAnswers = false;
     if (state.hotReviewGroup) {
       renderHotReviewQuiz();
     }
@@ -1880,7 +1865,6 @@
     try {
       const parsedAnswers = parseAnswerCsv(answerImportInput.value);
       const answersByQuestionId = new Map();
-      const visibleAnswerIds = new Set();
       const questions = state.hotReviewGroup?.questions || [];
 
       questions.forEach((question, index) => {
@@ -1894,19 +1878,14 @@
           ...answer,
           id: answerId,
         });
-        if (answer.showAnswer === true) {
-          visibleAnswerIds.add(answerId);
-        }
       });
 
       if (!answersByQuestionId.size) {
         throw new Error("Answer CSV khong co dong nao khop voi cau hoi hien tai.");
       }
 
-      state.autoShowAnswer = Boolean(autoShowAnswerInput?.checked);
       state.answersByQuestionId = answersByQuestionId;
-      state.visibleAnswerIds = visibleAnswerIds;
-      state.hiddenAnswerIds = new Set();
+      state.activeAnswerId = answersByQuestionId.keys().next().value || "";
       closeAnswerImportDialog();
       if (state.hotReviewGroup) {
         renderHotReviewQuiz();
@@ -1942,6 +1921,24 @@
     answerImportButton.textContent = "Nhập answer";
     answerImportButton.addEventListener("click", openAnswerImportDialog);
 
+    const showAllAnswersLabel = document.createElement("label");
+    showAllAnswersLabel.className = "hot-review-show-all";
+
+    const showAllAnswersInput = document.createElement("input");
+    showAllAnswersInput.type = "checkbox";
+    showAllAnswersInput.checked = state.showAllAnswers;
+    showAllAnswersInput.addEventListener("change", () => {
+      state.showAllAnswers = showAllAnswersInput.checked;
+      if (!state.showAllAnswers) {
+        state.activeAnswerId = "";
+      }
+      renderHotReviewQuiz();
+    });
+
+    const showAllAnswersText = document.createElement("span");
+    showAllAnswersText.textContent = "Show all answers";
+    showAllAnswersLabel.append(showAllAnswersInput, showAllAnswersText);
+
     const reviewLaterButton = document.createElement("button");
     reviewLaterButton.type = "button";
     reviewLaterButton.textContent = state.hotReviewMode === "later" ? "All Questions" : "Review Later";
@@ -1953,7 +1950,7 @@
 
     const hotReviewTools = document.createElement("div");
     hotReviewTools.className = "hot-review-tools";
-    hotReviewTools.append(inputAgain, clearButton, answerImportButton, reviewLaterButton);
+    hotReviewTools.append(inputAgain, clearButton, answerImportButton, reviewLaterButton, showAllAnswersLabel);
 
     const header = document.createElement("div");
     header.className = "quiz-header";
@@ -2094,6 +2091,7 @@
 
     actions.append(submit);
     hotReviewContent.replaceChildren(hotReviewTools, header, pagination, questions, actions, result);
+    window.requestAnimationFrame(syncHotReviewAnswerPanelHeights);
     if (
       visibleQuestions.length
       && visibleQuestions.every((question) => state.hotReviewConfirmed.has(hotAnswerKey(question)))

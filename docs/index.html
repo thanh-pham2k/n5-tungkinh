@@ -1318,13 +1318,6 @@
       gap: 8px;
     }
 
-    .hot-review-answer-toggle {
-      min-height: 42px;
-      border-radius: 8px;
-      padding: 0 12px;
-      font-weight: 800;
-    }
-
     .hot-review-star {
       min-width: 42px;
       min-height: 42px;
@@ -1554,13 +1547,36 @@
 
     .hot-review-tools {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr)) auto;
       gap: 10px;
+      align-items: stretch;
     }
 
     .hot-review-tools button {
       width: 100%;
       min-width: 0;
+    }
+
+    .hot-review-show-all {
+      min-height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin: 0;
+      padding: 0 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--text);
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .hot-review-show-all input {
+      width: 18px;
+      height: 18px;
+      margin: 0;
     }
 
     .hot-review-later-empty {
@@ -1606,7 +1622,7 @@
       display: grid;
       grid-template-columns: minmax(0, 1fr) minmax(260px, 38%);
       gap: 14px;
-      align-items: start;
+      align-items: stretch;
     }
 
     .hot-review-question-main {
@@ -1614,33 +1630,21 @@
     }
 
     .hot-review-answer-panel {
-      align-self: start;
+      min-height: 0;
+      max-height: 100%;
+      align-self: stretch;
       border: 1px solid #E5E7EB;
       border-radius: 24px;
       background: #F3F4F6;
       padding: 20px;
       color: var(--text);
       font: 14px/1.75 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      overflow: auto;
       overflow-wrap: anywhere;
     }
 
     .hot-review-answer-content {
       white-space: pre-wrap;
-    }
-
-    .hot-review-answer-auto {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      margin: 0;
-      color: var(--text);
-      font-weight: 800;
-    }
-
-    .hot-review-answer-auto input {
-      width: 18px;
-      height: 18px;
-      margin: 0;
     }
 
     .hot-review-dialog {
@@ -1789,10 +1793,6 @@
 
       .hot-review-question-actions {
         width: 100%;
-      }
-
-      .hot-review-answer-toggle {
-        flex: 1 1 auto;
       }
 
       .hot-review-pagination,
@@ -2332,10 +2332,6 @@
           <h3 id="answer-import-dialog-title">Nhập answer</h3>
         </div>
         <div class="hot-review-dialog-body">
-          <label class="hot-review-answer-auto">
-            <input id="auto-show-answer" type="checkbox">
-            <span>Tự động hiện answer</span>
-          </label>
           <textarea id="answer-import-input" aria-label="Answer CSV" spellcheck="false" placeholder="id,selected_answer,correct_answer,answer_detail_vi,option_a_vi,option_b_vi,option_c_vi,option_d_vi,vocab_kanji,grammar,show_answer"></textarea>
           <p class="hot-review-error" id="answer-import-error" aria-live="polite"></p>
         </div>
