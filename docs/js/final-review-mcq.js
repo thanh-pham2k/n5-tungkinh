@@ -1702,6 +1702,7 @@
     row.className = "hot-review-question-row";
     if (state.hotReviewPageSize === 1) {
       row.classList.add("hot-review-question-row-single");
+      row.style.maxWidth = "none";
     }
 
     const article = document.createElement("article");
