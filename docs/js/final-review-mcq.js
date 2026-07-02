@@ -520,7 +520,6 @@
   };
 
   const normalizeAnswerRow = (row) => {
-    const id = (row.id || "").trim();
     const correctAnswer = normalizeAnswerLetter(row.correct_answer);
 
     if (!correctAnswer) {
@@ -528,7 +527,6 @@
     }
 
     return {
-      id,
       selectedAnswer: normalizeAnswerLetter(row.selected_answer),
       correctAnswer,
       answerDetailVi: (row.answer_detail_vi || "").trim(),
@@ -1586,7 +1584,7 @@
     panel.className = "hot-review-answer-panel";
 
     const lines = [
-      `Câu ${question?.questionNo || answer.id}`,
+      `Câu ${question?.questionNo || ""}`,
       "",
     ];
 
@@ -2113,6 +2111,9 @@
       state.hotReviewGroup = group;
       state.hotReviewAnswers = new Map();
       state.hotReviewConfirmed = new Set();
+      state.answersByQuestionId = new Map();
+      state.activeAnswerId = "";
+      state.showAllAnswers = false;
       state.hotReviewPage = 1;
       state.hotReviewMode = "all";
       state.renderedOptions = new Map(
