@@ -19,6 +19,18 @@
     "option_c",
     "option_d",
   ];
+  const ANSWER_REQUIRED_HEADERS = ["id", "correct_answer"];
+  const ANSWER_OPTIONAL_HEADERS = [
+    "selected_answer",
+    "answer_detail_vi",
+    "option_a_vi",
+    "option_b_vi",
+    "option_c_vi",
+    "option_d_vi",
+    "vocab_kanji",
+    "grammar",
+    "show_answer",
+  ];
   const PROGRESS_STORAGE_KEY = "finalReviewMcqProgress:v1";
   const HOT_REVIEW_LATER_STORAGE_KEY = "quiz_review_later_ids";
   const PROGRESS_EXPORT_VERSION = 1;
@@ -45,6 +57,10 @@
     hotReviewPageSize: 5,
     hotReviewMode: "all",
     hotReviewLaterIds: new Set(),
+    answersByQuestionId: new Map(),
+    visibleAnswerIds: new Set(),
+    hiddenAnswerIds: new Set(),
+    autoShowAnswer: false,
   };
 
   const root = document.getElementById("final-review-quiz");
@@ -59,6 +75,13 @@
   const hotReviewCancel = document.getElementById("hot-review-cancel");
   const hotReviewClear = document.getElementById("hot-review-clear");
   const hotReviewCreate = document.getElementById("hot-review-create");
+  const answerImportDialog = document.getElementById("answer-import-dialog");
+  const answerImportInput = document.getElementById("answer-import-input");
+  const answerImportError = document.getElementById("answer-import-error");
+  const answerImportCancel = document.getElementById("answer-import-cancel");
+  const answerImportClear = document.getElementById("answer-import-clear");
+  const answerImportApply = document.getElementById("answer-import-apply");
+  const autoShowAnswerInput = document.getElementById("auto-show-answer");
 
   if (!root || !status || !groupList || !content) {
     return;
@@ -419,6 +442,15 @@
     row.question_no || "",
   ].join(":");
 
+  const normalizeQuestionNo = (value) => String(value || "").trim();
+
+  const compareQuestionNo = (a, b) => {
+    return a.questionNo.localeCompare(b.questionNo, "en", {
+      numeric: true,
+      sensitivity: "base",
+    });
+  };
+
   const parseHotReviewQuiz = (inputText) => {
     if (!inputText.trim()) {
       throw new Error("Vui lòng dán dữ liệu CSV.");
@@ -448,7 +480,7 @@
           groupId: row.group_id,
           groupTitle: row.group_title,
           lesson: row.lesson,
-          questionNo: Number(row.question_no),
+          questionNo: normalizeQuestionNo(row.question_no),
           questionJp: questionMedia.questionText,
           imageUrl: questionMedia.imageUrl,
           meaningVi: row.meaning_vi,
@@ -460,7 +492,7 @@
           },
         };
       })
-      .sort((a, b) => a.questionNo - b.questionNo);
+      .sort(compareQuestionNo);
 
     if (!questions.length) {
       throw new Error("CSV không có câu hỏi hợp lệ.");
@@ -475,6 +507,88 @@
     };
   };
 
+  const normalizeAnswerLetter = (value) => (value || "").trim().toUpperCase();
+
+  const parseShowAnswer = (value) => {
+    const normalized = (value || "").trim().toLowerCase();
+    if (normalized === "true") {
+      return true;
+    }
+    if (normalized === "false") {
+      return false;
+    }
+    return null;
+  };
+
+  const normalizeAnswerRow = (row) => {
+    const id = (row.id || "").trim();
+    const correctAnswer = normalizeAnswerLetter(row.correct_answer);
+
+    if (!id || !correctAnswer) {
+      return null;
+    }
+
+    return {
+      id,
+      selectedAnswer: normalizeAnswerLetter(row.selected_answer),
+      correctAnswer,
+      answerDetailVi: (row.answer_detail_vi || "").trim(),
+      optionAVi: (row.option_a_vi || "").trim(),
+      optionBVi: (row.option_b_vi || "").trim(),
+      optionCVi: (row.option_c_vi || "").trim(),
+      optionDVi: (row.option_d_vi || "").trim(),
+      vocabKanji: (row.vocab_kanji || "").trim(),
+      grammar: (row.grammar || "").trim(),
+      showAnswer: parseShowAnswer(row.show_answer),
+    };
+  };
+
+  const parseAnswerCsv = (csvText) => {
+    if (!csvText.trim()) {
+      throw new Error("Vui long dan du lieu answer CSV.");
+    }
+
+    const rows = parseCsv(csvText);
+    if (!rows.length) {
+      throw new Error("Answer CSV khong co du lieu.");
+    }
+
+    const headers = rows[0].map((header) => header.trim().replace(/^\uFEFF/, ""));
+    const missingHeaders = ANSWER_REQUIRED_HEADERS.filter((header) => !headers.includes(header));
+    if (missingHeaders.length) {
+      throw new Error(`Answer CSV thieu header: ${missingHeaders.join(", ")}`);
+    }
+
+    const allowedHeaders = new Set([...ANSWER_REQUIRED_HEADERS, ...ANSWER_OPTIONAL_HEADERS]);
+    const knownHeaders = headers.filter((header) => allowedHeaders.has(header));
+    const answersByQuestionId = new Map();
+    const visibleAnswerIds = new Set();
+
+    rows.slice(1).forEach((row) => {
+      const item = {};
+      knownHeaders.forEach((header) => {
+        const index = headers.indexOf(header);
+        item[header] = (row[index] || "").trim();
+      });
+
+      const answer = normalizeAnswerRow(item);
+      if (!answer) {
+        return;
+      }
+
+      answersByQuestionId.set(answer.id, answer);
+      if (answer.showAnswer === true) {
+        visibleAnswerIds.add(answer.id);
+      }
+    });
+
+    if (!answersByQuestionId.size) {
+      throw new Error("Answer CSV khong co dong hop le.");
+    }
+
+    return { answersByQuestionId, visibleAnswerIds };
+  };
+
   const parseQuizGroup = (fileName, csvText) => {
     const rows = rowsToObjects(parseCsv(csvText), fileName);
     const questions = rows
@@ -487,7 +601,7 @@
           groupId: row.group_id,
           groupTitle: row.group_title,
           lesson: row.lesson,
-          questionNo: Number(row.question_no),
+          questionNo: normalizeQuestionNo(row.question_no),
           questionJp: questionMedia.questionText,
           imageUrl: questionMedia.imageUrl,
           meaningVi: row.meaning_vi,
@@ -499,7 +613,7 @@
           },
         };
       })
-      .sort((a, b) => a.questionNo - b.questionNo);
+      .sort(compareQuestionNo);
 
     if (!questions.length) {
       throw new Error(`${fileName} không có câu hỏi hợp lệ.`);
@@ -1360,6 +1474,69 @@
     }
   };
 
+  const openAnswerImportDialog = () => {
+    if (!answerImportDialog || !answerImportInput || !answerImportError) {
+      return;
+    }
+
+    answerImportError.textContent = "";
+    if (autoShowAnswerInput) {
+      autoShowAnswerInput.checked = state.autoShowAnswer;
+    }
+
+    if (typeof answerImportDialog.showModal === "function") {
+      answerImportDialog.showModal();
+    } else {
+      answerImportDialog.setAttribute("open", "");
+    }
+    answerImportInput.focus();
+  };
+
+  const closeAnswerImportDialog = () => {
+    if (!answerImportDialog) {
+      return;
+    }
+
+    if (typeof answerImportDialog.close === "function") {
+      answerImportDialog.close();
+    } else {
+      answerImportDialog.removeAttribute("open");
+    }
+  };
+
+  const getHotReviewAnswerId = (question) => String(question?.questionNo || "").trim();
+
+  const getHotReviewMappedAnswer = (question) => {
+    const answerId = getHotReviewAnswerId(question);
+    return answerId ? state.answersByQuestionId.get(answerId) : null;
+  };
+
+  const isHotReviewAnswerVisible = (question) => {
+    const answerId = getHotReviewAnswerId(question);
+    return Boolean(
+      answerId
+      && state.answersByQuestionId.has(answerId)
+      && !state.hiddenAnswerIds.has(answerId)
+      && (state.autoShowAnswer || state.visibleAnswerIds.has(answerId))
+    );
+  };
+
+  const setHotReviewAnswerVisible = (question, visible) => {
+    const answerId = getHotReviewAnswerId(question);
+    if (!answerId || !state.answersByQuestionId.has(answerId)) {
+      return;
+    }
+
+    if (visible) {
+      state.hiddenAnswerIds.delete(answerId);
+      state.visibleAnswerIds.add(answerId);
+    } else {
+      state.visibleAnswerIds.delete(answerId);
+      state.hiddenAnswerIds.add(answerId);
+    }
+    renderHotReviewQuiz();
+  };
+
   const renderHotReviewEmpty = () => {
     if (!hotReviewContent) {
       return;
@@ -1410,11 +1587,92 @@
     renderHotReviewEmpty();
   };
 
-  const createHotReviewOption = (question, optionKey, optionText) => {
+  const getAnswerOptionValue = (answer, optionKey) => {
+    return {
+      A: answer.optionAVi,
+      B: answer.optionBVi,
+      C: answer.optionCVi,
+      D: answer.optionDVi,
+    }[optionKey] || "";
+  };
+
+  const createAnswerPanel = (answer, question) => {
+    const panel = document.createElement("aside");
+    panel.className = "hot-review-answer-panel";
+
+    const lines = [
+      `Câu ${question?.questionNo || answer.id}`,
+      "",
+    ];
+
+    if (question?.questionJp) {
+      lines.push(question.questionJp);
+    }
+    if (question?.meaningVi) {
+      lines.push(`Nghĩa. ${question.meaningVi}`);
+    }
+
+    lines.push(
+      "",
+      "Chọn/Đúng:",
+      `Chọn: ${answer.selectedAnswer || "chưa chọn"}`,
+      `Đúng: ${answer.correctAnswer}. ${answer.answerDetailVi || ""}`.trim(),
+      "",
+      "Các option khác:"
+    );
+
+    OPTION_LABELS
+      .filter((optionKey) => optionKey !== answer.correctAnswer)
+      .forEach((optionKey) => {
+        lines.push(`${optionKey}. ${getAnswerOptionValue(answer, optionKey)}`);
+      });
+
+    lines.push("", "Từ vựng/Kanji:");
+    const vocabItems = answer.vocabKanji
+      ? answer.vocabKanji.split("|").map((item) => item.trim()).filter(Boolean)
+      : [];
+    lines.push(...vocabItems);
+
+    lines.push("", "Ngữ pháp:", answer.grammar || "");
+
+    const content = document.createElement("div");
+    content.className = "hot-review-answer-content";
+    content.textContent = lines.join("\n");
+    panel.appendChild(content);
+    return panel;
+  };
+
+  const createHotReviewAnswerToggleButton = (question) => {
+    if (!getHotReviewMappedAnswer(question)) {
+      return null;
+    }
+
+    const isVisible = isHotReviewAnswerVisible(question);
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "hot-review-answer-toggle";
+    button.textContent = isVisible ? "Hide answer" : "Show answer";
+    button.setAttribute("aria-pressed", String(isVisible));
+    button.addEventListener("click", () => {
+      setHotReviewAnswerVisible(question, !isVisible);
+    });
+    return button;
+  };
+
+  const createHotReviewOption = (question, optionKey, optionText, answer, answerVisible) => {
     const optionId = `hot-review-${question.questionNo}-${optionKey}`;
     const label = document.createElement("label");
     label.className = "quiz-option";
     label.setAttribute("for", optionId);
+
+    if (answer && answerVisible) {
+      if (answer.correctAnswer === optionKey) {
+        label.classList.add("quiz-option-correct");
+      }
+      if (answer.selectedAnswer && answer.selectedAnswer !== answer.correctAnswer && answer.selectedAnswer === optionKey) {
+        label.classList.add("quiz-option-wrong");
+      }
+    }
 
     const input = document.createElement("input");
     input.type = "radio";
@@ -1466,14 +1724,23 @@
 
   const createHotReviewQuestion = (question) => {
     const article = document.createElement("article");
-    article.className = "quiz-question";
+    article.className = "quiz-question hot-review-question";
+    const answer = getHotReviewMappedAnswer(question);
+    const answerVisible = isHotReviewAnswerVisible(question);
 
     const headingRow = document.createElement("div");
     headingRow.className = "hot-review-question-heading";
 
     const heading = document.createElement("h3");
     heading.textContent = `Câu ${question.questionNo}`;
-    headingRow.append(heading, createHotReviewLaterButton(question));
+    const headingActions = document.createElement("div");
+    headingActions.className = "hot-review-question-actions";
+    const answerToggle = createHotReviewAnswerToggleButton(question);
+    if (answerToggle) {
+      headingActions.appendChild(answerToggle);
+    }
+    headingActions.appendChild(createHotReviewLaterButton(question));
+    headingRow.append(heading, headingActions);
 
     const jp = document.createElement("p");
     jp.className = "quiz-jp";
@@ -1487,11 +1754,22 @@
     options.className = "quiz-options";
     state.renderedOptions.set(hotAnswerKey(question), question.options);
     OPTION_LABELS.forEach((optionKey) => {
-      options.appendChild(createHotReviewOption(question, optionKey, question.options[optionKey] || ""));
+      options.appendChild(createHotReviewOption(question, optionKey, question.options[optionKey] || "", answer, answerVisible));
     });
 
-    article.append(headingRow, prompt);
-    article.appendChild(options);
+    const questionBody = document.createElement("div");
+    questionBody.className = "hot-review-question-body";
+
+    const questionMain = document.createElement("div");
+    questionMain.className = "hot-review-question-main";
+    questionMain.append(prompt, options);
+
+    questionBody.appendChild(questionMain);
+    if (answer && answerVisible) {
+      questionBody.appendChild(createAnswerPanel(answer, question));
+    }
+
+    article.append(headingRow, questionBody);
     return article;
   };
 
@@ -1578,6 +1856,45 @@
     result.hidden = false;
   };
 
+  const clearAnswerData = () => {
+    if (answerImportInput) {
+      answerImportInput.value = "";
+    }
+    if (answerImportError) {
+      answerImportError.textContent = "";
+    }
+    state.answersByQuestionId = new Map();
+    state.visibleAnswerIds = new Set();
+    state.hiddenAnswerIds = new Set();
+    state.autoShowAnswer = false;
+    if (autoShowAnswerInput) {
+      autoShowAnswerInput.checked = false;
+    }
+    if (state.hotReviewGroup) {
+      renderHotReviewQuiz();
+    }
+  };
+
+  const applyAnswerImport = () => {
+    if (!answerImportInput || !answerImportError) {
+      return;
+    }
+
+    try {
+      const parsed = parseAnswerCsv(answerImportInput.value);
+      state.autoShowAnswer = Boolean(autoShowAnswerInput?.checked);
+      state.answersByQuestionId = parsed.answersByQuestionId;
+      state.visibleAnswerIds = parsed.visibleAnswerIds;
+      state.hiddenAnswerIds = new Set();
+      closeAnswerImportDialog();
+      if (state.hotReviewGroup) {
+        renderHotReviewQuiz();
+      }
+    } catch (error) {
+      answerImportError.textContent = error.message || "Khong doc duoc answer CSV.";
+    }
+  };
+
   const renderHotReviewQuiz = () => {
     const group = state.hotReviewGroup;
     if (!hotReviewContent || !group) {
@@ -1599,6 +1916,11 @@
     clearButton.textContent = "Clear";
     clearButton.addEventListener("click", clearHotReviewData);
 
+    const answerImportButton = document.createElement("button");
+    answerImportButton.type = "button";
+    answerImportButton.textContent = "Nhập answer";
+    answerImportButton.addEventListener("click", openAnswerImportDialog);
+
     const reviewLaterButton = document.createElement("button");
     reviewLaterButton.type = "button";
     reviewLaterButton.textContent = state.hotReviewMode === "later" ? "All Questions" : "Review Later";
@@ -1610,7 +1932,7 @@
 
     const hotReviewTools = document.createElement("div");
     hotReviewTools.className = "hot-review-tools";
-    hotReviewTools.append(inputAgain, clearButton, reviewLaterButton);
+    hotReviewTools.append(inputAgain, clearButton, answerImportButton, reviewLaterButton);
 
     const header = document.createElement("div");
     header.className = "quiz-header";
@@ -1794,6 +2116,9 @@
     });
     hotReviewClear?.addEventListener("click", clearHotReviewData);
     hotReviewCreate?.addEventListener("click", createHotReviewFromInput);
+    answerImportCancel?.addEventListener("click", closeAnswerImportDialog);
+    answerImportClear?.addEventListener("click", clearAnswerData);
+    answerImportApply?.addEventListener("click", applyAnswerImport);
   };
 
   const init = async () => {

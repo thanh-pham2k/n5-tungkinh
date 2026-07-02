@@ -1311,6 +1311,20 @@
       margin: 0;
     }
 
+    .hot-review-question-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .hot-review-answer-toggle {
+      min-height: 42px;
+      border-radius: 8px;
+      padding: 0 12px;
+      font-weight: 800;
+    }
+
     .hot-review-star {
       min-width: 42px;
       min-height: 42px;
@@ -1455,6 +1469,20 @@
       color: var(--primary-dark);
     }
 
+    .quiz-option.quiz-option-correct {
+      border-color: #15803D;
+      background: #ECFDF3;
+      color: #14532D;
+      box-shadow: inset 0 0 0 1px #15803D;
+    }
+
+    .quiz-option.quiz-option-wrong {
+      border-color: #B91C1C;
+      background: #FEF2F2;
+      color: #7F1D1D;
+      box-shadow: inset 0 0 0 1px #B91C1C;
+    }
+
     .quiz-option-key {
       font-weight: 800;
     }
@@ -1526,7 +1554,7 @@
 
     .hot-review-tools {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 10px;
     }
 
@@ -1572,6 +1600,47 @@
       color: var(--muted);
       font-weight: 800;
       text-align: center;
+    }
+
+    .hot-review-question-body {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(260px, 38%);
+      gap: 14px;
+      align-items: start;
+    }
+
+    .hot-review-question-main {
+      min-width: 0;
+    }
+
+    .hot-review-answer-panel {
+      align-self: start;
+      border: 1px solid #E5E7EB;
+      border-radius: 24px;
+      background: #F3F4F6;
+      padding: 20px;
+      color: var(--text);
+      font: 14px/1.75 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      overflow-wrap: anywhere;
+    }
+
+    .hot-review-answer-content {
+      white-space: pre-wrap;
+    }
+
+    .hot-review-answer-auto {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0;
+      color: var(--text);
+      font-weight: 800;
+    }
+
+    .hot-review-answer-auto input {
+      width: 18px;
+      height: 18px;
+      margin: 0;
     }
 
     .hot-review-dialog {
@@ -1710,6 +1779,22 @@
         grid-template-columns: 1fr;
       }
 
+      .hot-review-tools {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .hot-review-question-body {
+        grid-template-columns: 1fr;
+      }
+
+      .hot-review-question-actions {
+        width: 100%;
+      }
+
+      .hot-review-answer-toggle {
+        flex: 1 1 auto;
+      }
+
       .hot-review-pagination,
       .hot-review-page-nav {
         width: 100%;
@@ -1723,6 +1808,10 @@
 
     @media (max-width: 420px) {
       .quiz-group-list {
+        grid-template-columns: 1fr;
+      }
+
+      .hot-review-tools {
         grid-template-columns: 1fr;
       }
 
@@ -2233,6 +2322,27 @@
           <button id="hot-review-cancel" type="button">Hủy</button>
           <button id="hot-review-clear" type="button">Clear</button>
           <button class="primary" id="hot-review-create" type="button">Tạo bài trắc nghiệm</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog class="hot-review-dialog" id="answer-import-dialog" aria-labelledby="answer-import-dialog-title">
+      <form class="hot-review-dialog-inner" method="dialog">
+        <div class="hot-review-dialog-header">
+          <h3 id="answer-import-dialog-title">Nhập answer</h3>
+        </div>
+        <div class="hot-review-dialog-body">
+          <label class="hot-review-answer-auto">
+            <input id="auto-show-answer" type="checkbox">
+            <span>Tự động hiện answer</span>
+          </label>
+          <textarea id="answer-import-input" aria-label="Answer CSV" spellcheck="false" placeholder="id,selected_answer,correct_answer,answer_detail_vi,option_a_vi,option_b_vi,option_c_vi,option_d_vi,vocab_kanji,grammar,show_answer"></textarea>
+          <p class="hot-review-error" id="answer-import-error" aria-live="polite"></p>
+        </div>
+        <div class="hot-review-dialog-actions">
+          <button id="answer-import-cancel" type="button">Đóng</button>
+          <button id="answer-import-clear" type="button">Clear answer</button>
+          <button class="primary" id="answer-import-apply" type="button">Áp dụng</button>
         </div>
       </form>
     </dialog>
