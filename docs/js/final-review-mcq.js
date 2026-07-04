@@ -55,13 +55,25 @@
     hotReviewAnswers: new Map(),
     hotReviewConfirmed: new Set(),
     hotReviewPage: 1,
-    hotReviewPageSize: 5,
+    hotReviewPageSize: 1,
     hotReviewMode: "all",
     hotReviewLaterIds: new Set(),
     answersByQuestionId: new Map(),
     activeAnswerId: "",
-    showAllAnswers: false,
+    showAllAnswers: true,
     hotReviewControlsHidden: false,
+  };
+  const hotReviewAnswerAudioCache = new Map();
+  let hotReviewAnswerAudio = null;
+
+  const getGlobalPlaybackRate = () => {
+    const input = document.getElementById("global-playback-rate");
+    const rate = Number.parseFloat(input?.value || "");
+    const normalizedRate = Number.isFinite(rate) && rate > 0 ? rate : 1.15;
+    if (input) {
+      input.value = String(normalizedRate);
+    }
+    return normalizedRate;
   };
 
   const root = document.getElementById("final-review-quiz");
@@ -83,7 +95,7 @@
   const answerImportClear = document.getElementById("answer-import-clear");
   const answerImportApply = document.getElementById("answer-import-apply");
 
-  if (!root || !status || !groupList || !content) {
+  if ((!root || !status || !groupList || !content) && (!hotReviewRoot || !hotReviewContent)) {
     return;
   }
 
@@ -1588,11 +1600,24 @@
     }[optionKey] || "";
   };
 
+  const getCorrectAnswerJapaneseText = (answer) => {
+    const detail = (answer?.answerDetailVi || "").trim();
+    if (!detail) {
+      return "";
+    }
+
+    return detail.split("=")[0].trim();
+  };
+
   const createAnswerPanel = (answer, question) => {
     const panel = document.createElement("aside");
     panel.className = "hot-review-answer-panel";
     if (state.hotReviewPageSize === 1) {
       panel.style.maxWidth = "30rem";
+    }
+    const correctJapaneseText = getCorrectAnswerJapaneseText(answer);
+    if (correctJapaneseText) {
+      panel.dataset.correctJp = correctJapaneseText;
     }
 
     const lines = [
@@ -1642,6 +1667,8 @@
     const label = document.createElement("label");
     label.className = "quiz-option";
     label.setAttribute("for", optionId);
+    label.dataset.optionKey = optionKey;
+    label.dataset.optionJp = (optionText || "").trim();
 
     if (answer && answerVisible) {
       if (answer.correctAnswer === optionKey) {
@@ -1872,13 +1899,131 @@
     });
   };
 
-  const handleHotReviewKeydown = (event) => {
-    const hotReviewPanel = hotReviewRoot?.closest(".tab-panel");
-    if (!state.hotReviewGroup || !hotReviewPanel?.classList.contains("active")) {
+  const createHotReviewSoundOfTextUrl = async (text) => {
+    const createResponse = await fetch("https://api.soundoftext.com/sounds", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+      },
+      body: JSON.stringify({
+        engine: "Google",
+        data: {
+          text,
+          voice: "ja-JP",
+        },
+      }),
+    });
+
+    if (!createResponse.ok) {
+      throw new Error(`Sound of Text create failed: ${createResponse.status}`);
+    }
+
+    const created = await createResponse.json();
+    if (!created.id) {
+      throw new Error("Sound of Text did not return an id.");
+    }
+
+    for (let pollIndex = 0; pollIndex < 30; pollIndex += 1) {
+      const statusResponse = await fetch(`https://api.soundoftext.com/sounds/${created.id}`, {
+        headers: { "Accept": "application/json" },
+      });
+
+      if (!statusResponse.ok) {
+        throw new Error(`Sound of Text status failed: ${statusResponse.status}`);
+      }
+
+      const statusPayload = await statusResponse.json();
+      if (statusPayload.status === "Done" && statusPayload.location) {
+        return statusPayload.location;
+      }
+
+      if (statusPayload.status === "Error") {
+        throw new Error("Sound of Text returned an error.");
+      }
+
+      await new Promise((resolve) => {
+        window.setTimeout(resolve, 700);
+      });
+    }
+
+    throw new Error("Timed out waiting for Sound of Text.");
+  };
+
+  const getHotReviewAnswerAudioUrl = (text) => {
+    if (hotReviewAnswerAudioCache.has(text)) {
+      return hotReviewAnswerAudioCache.get(text);
+    }
+
+    const urlPromise = createHotReviewSoundOfTextUrl(text).catch((error) => {
+      hotReviewAnswerAudioCache.delete(text);
+      throw error;
+    });
+    hotReviewAnswerAudioCache.set(text, urlPromise);
+    return urlPromise;
+  };
+
+  const playHotReviewAudioText = async (text) => {
+    const normalizedText = (text || "").trim();
+    if (!normalizedText) {
       return;
     }
 
-    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") {
+    try {
+      const audioUrl = await getHotReviewAnswerAudioUrl(normalizedText);
+      if (hotReviewAnswerAudio) {
+        hotReviewAnswerAudio.pause();
+        hotReviewAnswerAudio.currentTime = 0;
+      }
+
+      hotReviewAnswerAudio = new Audio(audioUrl);
+      hotReviewAnswerAudio.playbackRate = getGlobalPlaybackRate();
+      await hotReviewAnswerAudio.play();
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  const getVisibleHotReviewElement = (selector) => {
+    const elements = Array.from(document.querySelectorAll(selector));
+    return elements.find((element) => {
+      const rect = element.getBoundingClientRect();
+      const style = window.getComputedStyle(element);
+      return rect.width > 0
+        && rect.height > 0
+        && rect.bottom > 0
+        && rect.top < window.innerHeight
+        && style.display !== "none"
+        && style.visibility !== "hidden";
+    });
+  };
+
+  const playHotReviewCorrectAnswer = () => {
+    const visiblePanel = getVisibleHotReviewElement(".hot-review-answer-panel");
+    playHotReviewAudioText(visiblePanel?.dataset.correctJp);
+  };
+
+  const getHotReviewOptionIndexFromKey = (event) => {
+    if (event.key >= "1" && event.key <= "4") {
+      return Number.parseInt(event.key, 10) - 1;
+    }
+
+    if (/^Numpad[1-4]$/.test(event.code)) {
+      return Number.parseInt(event.code.replace("Numpad", ""), 10) - 1;
+    }
+
+    return -1;
+  };
+
+  const playHotReviewOptionAnswer = (optionIndex) => {
+    const row = getVisibleHotReviewElement(".hot-review-question-row");
+    const option = row?.querySelectorAll(".quiz-option")[optionIndex];
+    playHotReviewAudioText(option?.dataset.optionJp);
+  };
+
+  const handleHotReviewKeydown = (event) => {
+    const hotReviewPanel = hotReviewRoot?.closest(".tab-panel");
+    if (!state.hotReviewGroup || !hotReviewPanel?.classList.contains("active")) {
       return;
     }
 
@@ -1886,6 +2031,26 @@
     const isEditing = target instanceof Element
       && target.closest("input, textarea, select, [contenteditable='true']");
     if (isEditing) {
+      return;
+    }
+
+    const isCorrectAnswerAudioKey = event.key === "Control"
+      || event.key === "0"
+      || event.code === "Numpad0";
+    if (isCorrectAnswerAudioKey && !event.repeat) {
+      event.preventDefault();
+      playHotReviewCorrectAnswer();
+      return;
+    }
+
+    const optionIndex = getHotReviewOptionIndexFromKey(event);
+    if (optionIndex !== -1 && !event.repeat && !event.ctrlKey && !event.altKey && !event.metaKey) {
+      event.preventDefault();
+      playHotReviewOptionAnswer(optionIndex);
+      return;
+    }
+
+    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") {
       return;
     }
 
@@ -1913,7 +2078,7 @@
     }
     state.answersByQuestionId = new Map();
     state.activeAnswerId = "";
-    state.showAllAnswers = false;
+    state.showAllAnswers = true;
     if (state.hotReviewGroup) {
       renderHotReviewQuiz();
     }
@@ -2061,7 +2226,7 @@
     pageSizeInput.setAttribute("aria-label", "Số câu Hot Review mỗi trang");
     const applyPageSize = () => {
       const pageSize = Number.parseInt(pageSizeInput.value, 10);
-      const nextPageSize = Number.isFinite(pageSize) && pageSize >= 1 ? pageSize : 5;
+      const nextPageSize = Number.isFinite(pageSize) && pageSize >= 1 ? pageSize : 1;
       if (nextPageSize === state.hotReviewPageSize) {
         pageSizeInput.value = String(state.hotReviewPageSize);
         return;
@@ -2213,7 +2378,7 @@
       state.hotReviewConfirmed = new Set();
       state.answersByQuestionId = new Map();
       state.activeAnswerId = "";
-      state.showAllAnswers = false;
+      state.showAllAnswers = true;
       state.hotReviewPage = 1;
       state.hotReviewMode = "all";
       state.renderedOptions = new Map(
@@ -2275,6 +2440,8 @@
     reload: init,
   };
 
-  init();
+  if (root && status && groupList && content) {
+    init();
+  }
   initHotReview();
 })();

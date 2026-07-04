@@ -55,6 +55,52 @@
       line-height: 1.2;
     }
 
+    .app-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .app-home-button {
+      appearance: none;
+      border: 0;
+      background: transparent;
+      color: var(--text);
+      cursor: pointer;
+      font: inherit;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+    }
+
+    .app-home-button:hover,
+    .app-home-button:focus-visible {
+      color: var(--primary);
+    }
+
+    .global-playback-rate {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin: 0;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .global-playback-rate input {
+      width: 82px;
+      min-height: 34px;
+      padding: 6px 8px;
+    }
+
+    .global-replay-count input {
+      width: 72px;
+    }
+
     p {
       margin: 0 0 18px;
       color: var(--muted);
@@ -1551,7 +1597,7 @@
 
     .hot-review-tools {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr)) auto;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
       gap: 10px;
       align-items: stretch;
     }
@@ -1675,7 +1721,7 @@
       background: #F3F4F6;
       padding: 20px;
       color: var(--text);
-      font: 18px/1.75 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      font: 16px/1.75 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
       overflow: auto;
       overflow-wrap: anywhere;
       z-index: 2;
@@ -1877,27 +1923,32 @@
 </head>
 <body>
   <main>
-    <h1>Audio Looper</h1>
+    <div class="app-header">
+      <h1><button class="app-home-button" id="app-home-button" type="button">Audio Looper</button></h1>
+      <label class="global-playback-rate" for="global-playback-rate">
+        Tốc độ đọc
+        <input id="global-playback-rate" type="number" min="0.5" max="3" step="0.05" value="1.15">
+      </label>
+      <label class="global-playback-rate global-replay-count" for="global-replay-count">
+        Lặp audio
+        <input id="global-replay-count" type="number" min="1" step="1" value="2">
+      </label>
+    </div>
 
     <div class="tabs" aria-label="Nội dung học">
       <label class="tab-select-field" for="tab-select">
         Nội dung học
         <select class="tab-select" id="tab-select">
-          <option value="audio-panel" selected>Audio public</option>
           <option value="instant-vocab-panel">Instant Vocab</option>
-          <option value="vocab-review-panel">Vocab Review</option>
+          <option value="vocab-review-panel" selected>Vocab Review</option>
           <option value="kana-panel">Kana</option>
-          <option value="grammar-panel">Grammar</option>
           <option value="kanji-panel">Kanji</option>
-          <option value="listening-panel">Listening</option>
-          <option value="goukaku-panel">Goukaku</option>
-          <option value="final-review-panel">Ôn tập</option>
           <option value="hot-review-panel">Hot Review</option>
         </select>
       </label>
     </div>
 
-    <section class="tab-panel active" id="audio-panel" role="tabpanel" aria-labelledby="tab-audio">
+    <section class="tab-panel" id="audio-panel" role="tabpanel" aria-labelledby="tab-audio">
       <h2>Audio public</h2>
       <p class="hint">Track đang chọn sẽ được tô nền xanh.</p>
       <div class="public-layout">
@@ -2019,7 +2070,7 @@
       </dialog>
     </section>
 
-    <section class="tab-panel" id="vocab-review-panel" role="tabpanel" aria-labelledby="tab-vocab-review">
+    <section class="tab-panel active" id="vocab-review-panel" role="tabpanel" aria-labelledby="tab-vocab-review">
       <h2>Vocab Review</h2>
       <p class="hint">Load CSV có header: vocabulary,hiragana,meaning_vi,example_ja,example_vi</p>
       <div class="vocab-review-shell">
@@ -2038,10 +2089,6 @@
           <label class="vocab-review-option" for="vocab-review-auto-play">
             <input id="vocab-review-auto-play" type="checkbox" checked>
             Auto play audio
-          </label>
-          <label class="vocab-review-number-option" for="vocab-review-replay-count">
-            Replay audio
-            <input id="vocab-review-replay-count" type="number" min="1" step="1" value="3">
           </label>
         </div>
         <div class="vocab-review-status-row">
@@ -2303,16 +2350,6 @@
       </div>
     </section>
 
-    <section class="tab-panel" id="grammar-panel" role="tabpanel" aria-labelledby="tab-grammar">
-      <h2>Grammar</h2>
-      <div class="grammar-layout">
-        <div class="grammar-selector" id="grammar-lesson-list" aria-label="Danh sách bài ngữ pháp"></div>
-        <div class="grammar-content" id="grammar-content">
-          <p class="hint">Chọn một bài để xem nội dung ngữ pháp.</p>
-        </div>
-      </div>
-    </section>
-
     <section class="tab-panel" id="kanji-panel" role="tabpanel" aria-labelledby="tab-kanji">
       <h2>Kanji</h2>
       <div class="grammar-layout">
@@ -2320,38 +2357,6 @@
         <div class="grammar-content" id="kanji-content">
           <p class="hint">Chọn một bài để xem nội dung Kanji.</p>
         </div>
-      </div>
-    </section>
-
-    <section class="tab-panel" id="listening-panel" role="tabpanel" aria-labelledby="tab-listening">
-      <h2>Listening</h2>
-      <p class="hint">Bài nghe JLPT N5 được cắt thành từng đoạn, có script và câu hỏi trắc nghiệm.</p>
-      <div class="listening-toolbar" id="listening-lesson-list" aria-label="Danh sách bài Listening"></div>
-      <iframe class="listening-frame" id="listening-frame" src="listening/lesson-01.html" title="JLPT N5 Listening - Bài 1"></iframe>
-    </section>
-
-    <section class="tab-panel" id="goukaku-panel" role="tabpanel" aria-labelledby="tab-goukaku">
-      <h2>Goukaku Dekiru N4.5</h2>
-      <p class="hint">Chọn nhóm PDF để mở tài liệu khi cần và phát audio tương ứng.</p>
-      <div class="goukaku-layout">
-        <div class="goukaku-controls">
-          <select id="goukaku-pdf-select" aria-label="Chọn PDF Goukaku"></select>
-          <select id="goukaku-audio-select" aria-label="Chọn audio Goukaku"></select>
-          <div class="goukaku-audio-grid" id="goukaku-audio-grid" aria-label="Danh sách audio Goukaku"></div>
-          <p class="goukaku-track-label" id="goukaku-track-label"></p>
-          <audio id="goukaku-audio" controls preload="metadata"></audio>
-        </div>
-        <a class="goukaku-pdf-open" id="goukaku-pdf-open" href="#" target="_blank" rel="noopener">Mở PDF</a>
-      </div>
-    </section>
-
-    <section class="tab-panel" id="final-review-panel" role="tabpanel" aria-labelledby="tab-final-review">
-      <h2>Ôn tập trắc nghiệm</h2>
-      <p class="hint">Dữ liệu được đọc từ các file CSV trong thư mục quiz-data.</p>
-      <div class="quiz-shell" id="final-review-quiz">
-        <p class="quiz-status" id="final-review-status" aria-live="polite">Đang tải dữ liệu trắc nghiệm...</p>
-        <div class="quiz-group-list" id="final-review-groups" aria-label="Danh sách nhóm trắc nghiệm"></div>
-        <div class="quiz-content" id="final-review-content"></div>
       </div>
     </section>
 
@@ -2398,7 +2403,7 @@
 
   <button class="back-to-top" id="back-to-top" type="button" aria-label="Trở về đầu trang">↑</button>
 
-  <script src="js/final-review-mcq.js" defer></script>
+  <script src="js/final-review-mcq.js?v=20260704-hot-review" defer></script>
   <script>
     (() => {
       const assetBasePath = window.location.hostname.endsWith("github.io") ? "/n5-tungkinh/" : "";
@@ -2419,10 +2424,14 @@
       const fileInput = document.getElementById("looper-file");
       const audio = document.getElementById("looper-audio");
       const speed = document.getElementById("looper-speed");
+      const globalPlaybackRateInput = document.getElementById("global-playback-rate");
+      const globalReplayCountInput = document.getElementById("global-replay-count");
       const repeatInput = document.getElementById("repeat-before-advance");
       const advanceModeSelect = document.getElementById("advance-mode");
       const status = document.getElementById("looper-status");
+      const appHomeButton = document.getElementById("app-home-button");
       const tabSelect = document.getElementById("tab-select");
+      const audioPublicEnabled = Boolean(tabSelect?.querySelector('option[value="audio-panel"]'));
       const tabButtons = document.querySelectorAll("[data-tab-target]");
       const tabPanels = document.querySelectorAll(".tab-panel");
       const backToTop = document.getElementById("back-to-top");
@@ -2461,7 +2470,6 @@
       const vocabReviewReset = document.getElementById("vocab-review-reset");
       const vocabReviewShowHiragana = document.getElementById("vocab-review-show-hiragana");
       const vocabReviewAutoPlay = document.getElementById("vocab-review-auto-play");
-      const vocabReviewReplayCount = document.getElementById("vocab-review-replay-count");
       const vocabReviewStatus = document.getElementById("vocab-review-status");
       const vocabReviewCard = document.getElementById("vocab-review-card");
       const vocabReviewZoom = document.getElementById("vocab-review-zoom");
@@ -2498,10 +2506,29 @@
       let vocabReviewAnswerVisible = false;
       let vocabReviewMode = "learn";
       let vocabReviewSpeechToken = 0;
-      let vocabReviewReplayTotal = 3;
+      let vocabReviewReplayTotal = 2;
       const vocabReviewAudio = new Audio();
       const vocabReviewAudioCache = new Map();
       const silentAudioDataUrl = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YQQAAAAAAAAA";
+
+      const readGlobalPlaybackRate = () => {
+        const rate = Number.parseFloat(globalPlaybackRateInput?.value || "");
+        const normalizedRate = Number.isFinite(rate) && rate > 0 ? rate : 1.15;
+        if (globalPlaybackRateInput) {
+          globalPlaybackRateInput.value = String(normalizedRate);
+        }
+        return normalizedRate;
+      };
+
+      const readGlobalReplayCount = () => {
+        const value = Number.parseInt(globalReplayCountInput?.value || "", 10);
+        const replayCount = Number.isFinite(value) && value >= 1 ? value : 2;
+        vocabReviewReplayTotal = replayCount;
+        if (globalReplayCountInput) {
+          globalReplayCountInput.value = String(replayCount);
+        }
+        return replayCount;
+      };
 
       const listeningLessons = Array.from({ length: 25 }, (_, index) => {
         const lessonNo = index + 1;
@@ -2620,10 +2647,7 @@
       };
 
       const readVocabReviewReplayCount = () => {
-        const value = Number.parseInt(vocabReviewReplayCount.value, 10);
-        vocabReviewReplayTotal = Number.isFinite(value) && value >= 1 ? value : 1;
-        vocabReviewReplayCount.value = String(vocabReviewReplayTotal);
-        return vocabReviewReplayTotal;
+        return readGlobalReplayCount();
       };
 
       const readInstantOrderMode = () => {
@@ -3244,6 +3268,7 @@
 
         vocabReviewAudio.src = url;
         vocabReviewAudio.currentTime = 0;
+        vocabReviewAudio.playbackRate = readGlobalPlaybackRate();
         vocabReviewAudio.addEventListener("ended", handleEnded, { once: true });
         vocabReviewAudio.addEventListener("error", handleError, { once: true });
         vocabReviewAudio.addEventListener("pause", handlePause, { once: true });
@@ -3376,6 +3401,7 @@
         instantVocabAudio.pause();
         instantVocabAudio.src = url;
         instantVocabAudio.currentTime = 0;
+        instantVocabAudio.playbackRate = readGlobalPlaybackRate();
         instantVocabAudio.addEventListener("ended", handleEnded, { once: true });
         instantVocabAudio.addEventListener("error", handleError, { once: true });
         instantVocabAudio.addEventListener("pause", handlePause);
@@ -4082,10 +4108,10 @@
       };
 
       const init = async () => {
-        renderGrammarLessonButtons();
         renderKanjiLessonButtons();
-        renderListeningLessonButtons();
-        renderGoukakuControls();
+        if (!audioPublicEnabled) {
+          return;
+        }
         clearVocabulary("Đang tải mapper bài học...");
         try {
           lessons = await loadLessons();
@@ -4115,6 +4141,33 @@
         selectTab(tabSelect.value);
       });
 
+      appHomeButton?.addEventListener("click", () => {
+        selectTab("vocab-review-panel");
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      globalPlaybackRateInput?.addEventListener("change", readGlobalPlaybackRate);
+      globalPlaybackRateInput?.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter") {
+          return;
+        }
+
+        event.preventDefault();
+        readGlobalPlaybackRate();
+        globalPlaybackRateInput.blur();
+      });
+
+      globalReplayCountInput?.addEventListener("change", readGlobalReplayCount);
+      globalReplayCountInput?.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter") {
+          return;
+        }
+
+        event.preventDefault();
+        readGlobalReplayCount();
+        globalReplayCountInput.blur();
+      });
+
       vocabReviewShowHiragana.addEventListener("change", () => {
         renderVocabReviewCard();
       });
@@ -4124,8 +4177,6 @@
           maybeAutoPlayVocabReviewCard(getCurrentVocabReviewCard());
         }
       });
-
-      vocabReviewReplayCount.addEventListener("change", readVocabReviewReplayCount);
 
       const updateBackToTop = () => {
         backToTop.classList.toggle("visible", window.scrollY > 360);
