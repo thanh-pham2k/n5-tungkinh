@@ -95,7 +95,8 @@
       white-space: nowrap;
     }
 
-    .global-playback-rate input {
+    .global-playback-rate input,
+    .global-playback-rate select {
       width: 82px;
       min-height: 34px;
       padding: 6px 8px;
@@ -103,6 +104,10 @@
 
     .global-replay-count input {
       width: 72px;
+    }
+
+    .global-language select {
+      width: 118px;
     }
 
     p {
@@ -989,17 +994,20 @@
         min-width: 0;
       }
 
-      .global-playback-rate input {
+      .global-playback-rate input,
+      .global-playback-rate select {
         width: 90px;
       }
 
-      .global-replay-count {
+      .global-replay-count,
+      .global-language {
         grid-column: 1 / -1;
         display: grid;
         grid-template-columns: auto minmax(0, 1fr);
       }
 
-      .global-replay-count input {
+      .global-replay-count input,
+      .global-language select {
         width: 100%;
       }
 
@@ -1971,6 +1979,13 @@
         Lặp audio
         <input id="global-replay-count" type="number" min="1" step="1" value="2">
       </label>
+      <label class="global-playback-rate global-language" for="global-language">
+        Language
+        <select id="global-language">
+          <option value="ja" selected>Tiếng Nhật</option>
+          <option value="en">Tiếng Anh</option>
+        </select>
+      </label>
     </div>
 
     <div class="tabs" aria-label="Nội dung học">
@@ -2064,7 +2079,7 @@
 
     <section class="tab-panel" id="instant-vocab-panel" role="tabpanel" aria-labelledby="tab-instant-vocab">
       <h2>Instant Vocab</h2>
-      <p class="hint">Load CSV 5 cột. Play all đọc tiếng Việt trước, sau đó đọc tiếng Nhật.</p>
+      <p class="hint">Load CSV 5 cột. Play all đọc tiếng Việt trước, sau đó đọc ngôn ngữ đã chọn.</p>
       <div class="instant-vocab-shell">
         <div class="instant-vocab-controls">
           <button class="primary" id="instant-vocab-load" type="button">Load CSV</button>
@@ -2074,7 +2089,7 @@
             <input class="instant-vocab-repeat" type="number" id="instant-vocab-vi-repeat" min="0" step="1" value="1">
           </div>
           <div>
-            <label for="instant-vocab-ja-repeat">Lặp tiếng Nhật</label>
+            <label for="instant-vocab-ja-repeat">Lặp ngôn ngữ đã chọn</label>
             <input class="instant-vocab-repeat" type="number" id="instant-vocab-ja-repeat" min="1" step="1" value="3">
           </div>
           <div>
@@ -2464,6 +2479,7 @@
       const speed = document.getElementById("looper-speed");
       const globalPlaybackRateInput = document.getElementById("global-playback-rate");
       const globalReplayCountInput = document.getElementById("global-replay-count");
+      const globalLanguageSelect = document.getElementById("global-language");
       const repeatInput = document.getElementById("repeat-before-advance");
       const advanceModeSelect = document.getElementById("advance-mode");
       const status = document.getElementById("looper-status");
@@ -2557,6 +2573,13 @@
         }
         return normalizedRate;
       };
+
+      const readGlobalLanguage = () => globalLanguageSelect?.value === "en" ? "en" : "ja";
+      const getSoundOfTextVoice = (language = readGlobalLanguage()) => language === "en" ? "en-US" : "ja-JP";
+      const getSelectedSpeechText = (item) => readGlobalLanguage() === "en"
+        ? String(item?.vocabulary || "").trim()
+        : String(item?.hiragana || "").trim();
+      const getSelectedLanguageName = () => readGlobalLanguage() === "en" ? "English" : "Japanese";
 
       const readGlobalReplayCount = () => {
         const value = Number.parseInt(globalReplayCountInput?.value || "", 10);
@@ -2793,10 +2816,11 @@
             meaningVi,
             exampleJa,
             exampleVi,
-            japaneseAudioUrl: "",
+            jaAudioUrl: "",
+            enAudioUrl: "",
             vietnameseAudioUrl: "",
-            status: hiragana ? "idle" : "error",
-            statusText: hiragana ? "Ready." : "Missing hiragana.",
+            status: getSelectedSpeechText({ vocabulary, hiragana }) ? "idle" : "error",
+            statusText: getSelectedSpeechText({ vocabulary, hiragana }) ? "Ready." : "Missing text to read.",
           };
         });
       };
@@ -3269,16 +3293,18 @@
         throw new Error("Timed out waiting for Sound of Text.");
       };
 
-      const getVocabReviewAudioUrl = (hiragana) => {
-        if (vocabReviewAudioCache.has(hiragana)) {
-          return vocabReviewAudioCache.get(hiragana);
+      const getVocabReviewAudioUrl = (text) => {
+        const language = readGlobalLanguage();
+        const cacheKey = `${language}:${text}`;
+        if (vocabReviewAudioCache.has(cacheKey)) {
+          return vocabReviewAudioCache.get(cacheKey);
         }
 
-        const urlPromise = createSoundOfTextUrl(hiragana, "ja-JP").catch((error) => {
-          vocabReviewAudioCache.delete(hiragana);
+        const urlPromise = createSoundOfTextUrl(text, getSoundOfTextVoice(language)).catch((error) => {
+          vocabReviewAudioCache.delete(cacheKey);
           throw error;
         });
-        vocabReviewAudioCache.set(hiragana, urlPromise);
+        vocabReviewAudioCache.set(cacheKey, urlPromise);
         return urlPromise;
       };
 
@@ -3318,7 +3344,8 @@
 
       const playCurrentVocabReviewHiragana = async () => {
         const card = getCurrentVocabReviewCard();
-        if (!card || !card.hiragana) {
+        const speechText = getSelectedSpeechText(card);
+        if (!card || !speechText) {
           return;
         }
 
@@ -3328,13 +3355,13 @@
         vocabReviewAudio.pause();
         vocabReviewAudio.currentTime = 0;
 
-        if (!vocabReviewAudioCache.has(card.hiragana)) {
+        if (!vocabReviewAudioCache.has(`${readGlobalLanguage()}:${speechText}`)) {
           vocabReviewAudio.src = silentAudioDataUrl;
           vocabReviewAudio.play().catch(() => {});
         }
 
         try {
-          const url = await getVocabReviewAudioUrl(card.hiragana);
+          const url = await getVocabReviewAudioUrl(speechText);
           if (speechToken !== vocabReviewSpeechToken || card !== getCurrentVocabReviewCard()) {
             return;
           }
@@ -3349,7 +3376,7 @@
         } catch (error) {
           if (speechToken === vocabReviewSpeechToken) {
             console.error(error);
-            updateVocabReviewLaterStatus("Không thể phát âm hiragana.");
+            updateVocabReviewLaterStatus(`Không thể phát audio ${getSelectedLanguageName()}.`);
           }
         }
       };
@@ -3366,7 +3393,7 @@
         vocabReviewAudio.pause();
         vocabReviewAudio.currentTime = 0;
 
-        if (!vocabReviewAudioCache.has(exampleText)) {
+        if (!vocabReviewAudioCache.has(`${readGlobalLanguage()}:${exampleText}`)) {
           vocabReviewAudio.src = silentAudioDataUrl;
           vocabReviewAudio.play().catch(() => {});
         }
@@ -3388,20 +3415,21 @@
 
       const ensureInstantAudioUrl = async (item, index, language, runToken) => {
         const isVietnamese = language === "vi";
-        const text = isVietnamese ? item.meaningVi : item.hiragana;
-        const cacheKey = isVietnamese ? "vietnameseAudioUrl" : "japaneseAudioUrl";
+        const text = isVietnamese ? item.meaningVi : getSelectedSpeechText(item);
+        const selectedLanguage = isVietnamese ? "vi" : readGlobalLanguage();
+        const cacheKey = isVietnamese ? "vietnameseAudioUrl" : `${selectedLanguage}AudioUrl`;
         if (!text) {
-          throw new Error(isVietnamese ? "Missing Vietnamese meaning." : "Missing hiragana.");
+          throw new Error(isVietnamese ? "Missing Vietnamese meaning." : "Missing text to read.");
         }
 
         if (item[cacheKey]) {
           return item[cacheKey];
         }
 
-        updateInstantRowStatus(index, "loading", `Loading ${isVietnamese ? "Vietnamese" : "Japanese"} audio...`);
+        updateInstantRowStatus(index, "loading", `Loading ${isVietnamese ? "Vietnamese" : getSelectedLanguageName()} audio...`);
         item[cacheKey] = await createSoundOfTextUrl(
           text,
-          isVietnamese ? "vi-VN" : "ja-JP",
+          isVietnamese ? "vi-VN" : getSoundOfTextVoice(selectedLanguage),
           () => runToken !== instantVocabRunToken,
         );
         return item[cacheKey];
@@ -3465,7 +3493,7 @@
         instantVocabAudio.currentTime = 0;
         instantVocabItems.forEach((item, index) => {
           if (item.status === "playing" || item.status === "loading") {
-            const hasCachedAudio = item.japaneseAudioUrl || item.vietnameseAudioUrl;
+            const hasCachedAudio = item.jaAudioUrl || item.enAudioUrl || item.vietnameseAudioUrl;
             updateInstantRowStatus(index, "idle", hasCachedAudio ? "Ready." : "Stopped.");
           }
         });
@@ -3481,19 +3509,20 @@
           return;
         }
 
-        if (!item.hiragana) {
-          updateInstantRowStatus(index, "error", "Missing hiragana.");
-          throw new Error("Missing hiragana.");
+        if (!getSelectedSpeechText(item)) {
+          updateInstantRowStatus(index, "error", "Missing text to read.");
+          throw new Error("Missing text to read.");
         }
 
+        const languageName = getSelectedLanguageName();
         const repeatCount = readInstantRepeatCount(instantVocabJaRepeat);
         const url = await ensureInstantAudioUrl(item, index, "ja", runToken);
         await playAudioUrlNTimes(url, repeatCount, runToken, (currentRepeat, totalRepeats) => {
-          updateInstantRowStatus(index, "playing", `Japanese ${currentRepeat}/${totalRepeats}.`);
-          instantVocabStatus.textContent = `Japanese ${index + 1}/${instantVocabItems.length}: ${item.vocabulary || item.hiragana}`;
+          updateInstantRowStatus(index, "playing", `${languageName} ${currentRepeat}/${totalRepeats}.`);
+          instantVocabStatus.textContent = `${languageName} ${index + 1}/${instantVocabItems.length}: ${getSelectedSpeechText(item)}`;
         });
 
-        updateInstantRowStatus(index, "done", `Japanese done ${repeatCount}/${repeatCount}.`);
+        updateInstantRowStatus(index, "done", `${languageName} done ${repeatCount}/${repeatCount}.`);
       };
 
       const playInstantAllItemWithToken = async (index, runToken) => {
@@ -3516,7 +3545,7 @@
         updateInstantRowStatus(
           index,
           "done",
-          `Done: Vietnamese ${item.meaningVi ? vietnameseRepeatCount : 0}, Japanese ${japaneseRepeatCount}.`,
+          `Done: Vietnamese ${item.meaningVi ? vietnameseRepeatCount : 0}, ${getSelectedLanguageName()} ${japaneseRepeatCount}.`,
         );
       };
 
@@ -4196,6 +4225,20 @@
       });
 
       globalReplayCountInput?.addEventListener("change", readGlobalReplayCount);
+      globalLanguageSelect?.addEventListener("change", () => {
+        vocabReviewSpeechToken += 1;
+        vocabReviewAudio.pause();
+        vocabReviewAudio.currentTime = 0;
+        stopInstantPlayback(`Language: ${getSelectedLanguageName()}.`);
+        instantVocabItems.forEach((item, index) => {
+          const hasSpeechText = Boolean(getSelectedSpeechText(item));
+          updateInstantRowStatus(
+            index,
+            hasSpeechText ? "idle" : "error",
+            hasSpeechText ? "Ready." : "Missing text to read.",
+          );
+        });
+      });
       globalReplayCountInput?.addEventListener("keydown", (event) => {
         if (event.key !== "Enter") {
           return;
