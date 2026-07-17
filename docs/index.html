@@ -43,6 +43,7 @@
       border-radius: 8px;
       box-shadow: var(--shadow);
       padding: 22px;
+      position: relative;
     }
 
     body.hot-review-active main {
@@ -60,7 +61,7 @@
       align-items: center;
       justify-content: space-between;
       gap: 12px;
-      flex-wrap: wrap;
+      position: relative;
     }
 
     .app-home-button {
@@ -84,8 +85,87 @@
       outline: none;
     }
 
-    .global-playback-rate {
+    .app-settings {
+      position: relative;
+    }
+
+    .app-actions {
       display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .focus-mode-toggle,
+    .focus-mode-exit {
+      min-height: 42px;
+      padding: 8px 12px;
+      white-space: nowrap;
+    }
+
+    .focus-mode-exit {
+      position: fixed;
+      z-index: 30;
+      top: 14px;
+      right: 14px;
+      box-shadow: var(--shadow);
+    }
+
+    body.focus-mode-active .app-header,
+    body.focus-mode-active .tabs {
+      display: none;
+    }
+
+    body.focus-mode-active .tab-panel.active {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: 0;
+    }
+
+    body.focus-mode-active .tab-panel.active > h2,
+    body.focus-mode-active .tab-panel.active > .hint,
+    body.focus-mode-active .tab-panel.active .status,
+    body.focus-mode-active .instant-vocab-controls > div,
+    body.focus-mode-active .vocab-review-settings {
+      display: none;
+    }
+
+    .settings-toggle {
+      width: 42px;
+      min-height: 42px;
+      padding: 6px;
+      border-radius: 50%;
+      font-size: 23px;
+      line-height: 1;
+    }
+
+    .settings-popover {
+      position: absolute;
+      z-index: 20;
+      top: calc(100% + 10px);
+      right: 0;
+      width: min(320px, calc(100vw - 52px));
+      display: grid;
+      gap: 12px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .settings-popover[hidden] {
+      display: none;
+    }
+
+    .settings-popover-title {
+      margin: 0;
+      color: var(--text);
+      font-size: 16px;
+    }
+
+    .global-playback-rate {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 120px;
       align-items: center;
       gap: 8px;
       margin: 0;
@@ -97,17 +177,9 @@
 
     .global-playback-rate input,
     .global-playback-rate select {
-      width: 82px;
+      width: 100%;
       min-height: 34px;
       padding: 6px 8px;
-    }
-
-    .global-replay-count input {
-      width: 72px;
-    }
-
-    .global-language select {
-      width: 118px;
     }
 
     p {
@@ -585,10 +657,6 @@
       align-items: end;
     }
 
-    .instant-vocab-repeat {
-      width: 140px;
-    }
-
     .instant-vocab-list {
       display: grid;
       gap: 10px;
@@ -984,31 +1052,11 @@
       }
 
       .app-header {
-        display: grid;
-        grid-template-columns: minmax(0, auto) minmax(0, 1fr);
-        justify-content: stretch;
+        align-items: center;
       }
 
-      .app-header h1,
-      .global-playback-rate {
-        min-width: 0;
-      }
-
-      .global-playback-rate input,
-      .global-playback-rate select {
-        width: 90px;
-      }
-
-      .global-replay-count,
-      .global-language {
-        grid-column: 1 / -1;
-        display: grid;
-        grid-template-columns: auto minmax(0, 1fr);
-      }
-
-      .global-replay-count input,
-      .global-language select {
-        width: 100%;
+      .settings-popover {
+        width: min(320px, calc(100vw - 36px));
       }
 
       p {
@@ -1971,22 +2019,36 @@
   <main>
     <div class="app-header">
       <h1><button class="app-home-button" id="app-home-button" type="button">Audio Looper</button></h1>
-      <label class="global-playback-rate" for="global-playback-rate">
-        Tốc độ đọc
-        <input id="global-playback-rate" type="number" min="0.5" max="3" step="0.05" value="1.15">
-      </label>
-      <label class="global-playback-rate global-replay-count" for="global-replay-count">
-        Lặp audio
-        <input id="global-replay-count" type="number" min="1" step="1" value="2">
-      </label>
-      <label class="global-playback-rate global-language" for="global-language">
-        Language
-        <select id="global-language">
-          <option value="ja" selected>Tiếng Nhật</option>
-          <option value="en">Tiếng Anh</option>
-        </select>
-      </label>
+      <div class="app-actions">
+        <button class="focus-mode-toggle" id="focus-mode-toggle" type="button" aria-pressed="false">⛶ Focus</button>
+        <div class="app-settings">
+          <button class="settings-toggle" id="settings-toggle" type="button" aria-label="Mở cài đặt" aria-controls="settings-popover" aria-expanded="false">⚙</button>
+          <div class="settings-popover" id="settings-popover" hidden>
+            <h2 class="settings-popover-title">Cài đặt audio</h2>
+            <label class="global-playback-rate" for="global-playback-rate">
+              Tốc độ đọc chung
+              <input id="global-playback-rate" type="number" min="0.5" max="3" step="0.05" value="1.15">
+            </label>
+            <label class="global-playback-rate" for="global-vietnamese-replay-count">
+              Lặp tiếng Việt
+              <input id="global-vietnamese-replay-count" type="number" min="0" step="1" value="0">
+            </label>
+            <label class="global-playback-rate" for="global-selected-language-replay-count">
+              Lặp ngôn ngữ đã chọn
+              <input id="global-selected-language-replay-count" type="number" min="1" step="1" value="3">
+            </label>
+            <label class="global-playback-rate global-language" for="global-language">
+              Language
+              <select id="global-language">
+                <option value="ja">Tiếng Nhật</option>
+                <option value="en" selected>Tiếng Anh</option>
+              </select>
+            </label>
+          </div>
+        </div>
+      </div>
     </div>
+    <button class="focus-mode-exit" id="focus-mode-exit" type="button" hidden>× Thoát focus</button>
 
     <div class="tabs" aria-label="Nội dung học">
       <label class="tab-select-field" for="tab-select">
@@ -2079,19 +2141,11 @@
 
     <section class="tab-panel" id="instant-vocab-panel" role="tabpanel" aria-labelledby="tab-instant-vocab">
       <h2>Instant Vocab</h2>
-      <p class="hint">Load CSV 5 cột. Play all đọc tiếng Việt trước, sau đó đọc ngôn ngữ đã chọn.</p>
+      <p class="hint">Load CSV 5 cột. Mỗi phần audio dùng Số lần lặp global: đọc tiếng Việt trước, sau đó đọc ngôn ngữ đã chọn.</p>
       <div class="instant-vocab-shell">
         <div class="instant-vocab-controls">
           <button class="primary" id="instant-vocab-load" type="button">Load CSV</button>
           <button id="instant-vocab-clear" type="button">Clear</button>
-          <div>
-            <label for="instant-vocab-vi-repeat">Lặp tiếng Việt</label>
-            <input class="instant-vocab-repeat" type="number" id="instant-vocab-vi-repeat" min="0" step="1" value="1">
-          </div>
-          <div>
-            <label for="instant-vocab-ja-repeat">Lặp ngôn ngữ đã chọn</label>
-            <input class="instant-vocab-repeat" type="number" id="instant-vocab-ja-repeat" min="1" step="1" value="3">
-          </div>
           <div>
             <label for="instant-vocab-order">Thứ tự phát</label>
             <select id="instant-vocab-order">
@@ -2478,8 +2532,13 @@
       const audio = document.getElementById("looper-audio");
       const speed = document.getElementById("looper-speed");
       const globalPlaybackRateInput = document.getElementById("global-playback-rate");
-      const globalReplayCountInput = document.getElementById("global-replay-count");
+      const globalVietnameseReplayCountInput = document.getElementById("global-vietnamese-replay-count");
+      const globalSelectedLanguageReplayCountInput = document.getElementById("global-selected-language-replay-count");
       const globalLanguageSelect = document.getElementById("global-language");
+      const settingsToggle = document.getElementById("settings-toggle");
+      const settingsPopover = document.getElementById("settings-popover");
+      const focusModeToggle = document.getElementById("focus-mode-toggle");
+      const focusModeExit = document.getElementById("focus-mode-exit");
       const repeatInput = document.getElementById("repeat-before-advance");
       const advanceModeSelect = document.getElementById("advance-mode");
       const status = document.getElementById("looper-status");
@@ -2504,8 +2563,6 @@
       const instantVocabInput = document.getElementById("instant-vocab-input");
       const instantVocabLoad = document.getElementById("instant-vocab-load");
       const instantVocabClear = document.getElementById("instant-vocab-clear");
-      const instantVocabViRepeat = document.getElementById("instant-vocab-vi-repeat");
-      const instantVocabJaRepeat = document.getElementById("instant-vocab-ja-repeat");
       const instantVocabOrder = document.getElementById("instant-vocab-order");
       const instantVocabPlayAll = document.getElementById("instant-vocab-play-all");
       const instantVocabStop = document.getElementById("instant-vocab-stop");
@@ -2560,7 +2617,6 @@
       let vocabReviewAnswerVisible = false;
       let vocabReviewMode = "learn";
       let vocabReviewSpeechToken = 0;
-      let vocabReviewReplayTotal = 2;
       const vocabReviewAudio = new Audio();
       const vocabReviewAudioCache = new Map();
       const silentAudioDataUrl = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YQQAAAAAAAAA";
@@ -2581,12 +2637,20 @@
         : String(item?.hiragana || "").trim();
       const getSelectedLanguageName = () => readGlobalLanguage() === "en" ? "English" : "Japanese";
 
-      const readGlobalReplayCount = () => {
-        const value = Number.parseInt(globalReplayCountInput?.value || "", 10);
-        const replayCount = Number.isFinite(value) && value >= 1 ? value : 2;
-        vocabReviewReplayTotal = replayCount;
-        if (globalReplayCountInput) {
-          globalReplayCountInput.value = String(replayCount);
+      const readGlobalVietnameseReplayCount = () => {
+        const value = Number.parseInt(globalVietnameseReplayCountInput?.value || "", 10);
+        const replayCount = Number.isFinite(value) && value >= 0 ? value : 0;
+        if (globalVietnameseReplayCountInput) {
+          globalVietnameseReplayCountInput.value = String(replayCount);
+        }
+        return replayCount;
+      };
+
+      const readGlobalSelectedLanguageReplayCount = () => {
+        const value = Number.parseInt(globalSelectedLanguageReplayCountInput?.value || "", 10);
+        const replayCount = Number.isFinite(value) && value >= 1 ? value : 3;
+        if (globalSelectedLanguageReplayCountInput) {
+          globalSelectedLanguageReplayCountInput.value = String(replayCount);
         }
         return replayCount;
       };
@@ -2700,15 +2764,8 @@
         completedRepeats = 0;
       };
 
-      const readInstantRepeatCount = (input, minimum = 1) => {
-        const value = Number.parseInt(input.value, 10);
-        const repeatCount = Number.isFinite(value) && value >= minimum ? value : minimum;
-        input.value = String(repeatCount);
-        return repeatCount;
-      };
-
       const readVocabReviewReplayCount = () => {
-        return readGlobalReplayCount();
+        return readGlobalSelectedLanguageReplayCount();
       };
 
       const readInstantOrderMode = () => {
@@ -3503,7 +3560,7 @@
         }
       };
 
-      const playInstantJapaneseWithToken = async (index, runToken) => {
+      const playInstantSelectedLanguageWithToken = async (index, runToken, repeatCount = readGlobalSelectedLanguageReplayCount()) => {
         const item = instantVocabItems[index];
         if (!item) {
           return;
@@ -3515,7 +3572,6 @@
         }
 
         const languageName = getSelectedLanguageName();
-        const repeatCount = readInstantRepeatCount(instantVocabJaRepeat);
         const url = await ensureInstantAudioUrl(item, index, "ja", runToken);
         await playAudioUrlNTimes(url, repeatCount, runToken, (currentRepeat, totalRepeats) => {
           updateInstantRowStatus(index, "playing", `${languageName} ${currentRepeat}/${totalRepeats}.`);
@@ -3531,8 +3587,8 @@
           return;
         }
 
-        const vietnameseRepeatCount = readInstantRepeatCount(instantVocabViRepeat, 0);
-        const japaneseRepeatCount = readInstantRepeatCount(instantVocabJaRepeat);
+        const vietnameseRepeatCount = readGlobalVietnameseReplayCount();
+        const selectedLanguageRepeatCount = readGlobalSelectedLanguageReplayCount();
         if (item.meaningVi && vietnameseRepeatCount > 0) {
           const vietnameseUrl = await ensureInstantAudioUrl(item, index, "vi", runToken);
           await playAudioUrlNTimes(vietnameseUrl, vietnameseRepeatCount, runToken, (currentRepeat, totalRepeats) => {
@@ -3541,11 +3597,11 @@
           });
         }
 
-        await playInstantJapaneseWithToken(index, runToken);
+        await playInstantSelectedLanguageWithToken(index, runToken, selectedLanguageRepeatCount);
         updateInstantRowStatus(
           index,
           "done",
-          `Done: Vietnamese ${item.meaningVi ? vietnameseRepeatCount : 0}, ${getSelectedLanguageName()} ${japaneseRepeatCount}.`,
+          `Done: Vietnamese ${item.meaningVi ? vietnameseRepeatCount : 0}, ${getSelectedLanguageName()} ${selectedLanguageRepeatCount}.`,
         );
       };
 
@@ -3556,7 +3612,7 @@
         setInstantPlaybackState(true);
 
         try {
-          await playInstantJapaneseWithToken(index, runToken);
+          await playInstantSelectedLanguageWithToken(index, runToken);
           if (runToken === instantVocabRunToken) {
             setInstantPlaybackState(false);
             instantVocabStatus.textContent = "Done.";
@@ -4213,6 +4269,57 @@
         window.scrollTo({ top: 0, behavior: "smooth" });
       });
 
+      const setSettingsPopoverOpen = (isOpen) => {
+        if (!settingsToggle || !settingsPopover) {
+          return;
+        }
+        settingsPopover.hidden = !isOpen;
+        settingsToggle.setAttribute("aria-expanded", String(isOpen));
+      };
+
+      const setFocusMode = (isActive) => {
+        document.body.classList.toggle("focus-mode-active", isActive);
+        focusModeToggle?.setAttribute("aria-pressed", String(isActive));
+        if (focusModeExit) {
+          focusModeExit.hidden = !isActive;
+        }
+
+        if (isActive) {
+          setSettingsPopoverOpen(false);
+          const activePanel = document.querySelector(".tab-panel.active");
+          window.requestAnimationFrame(() => {
+            activePanel?.scrollIntoView({ behavior: "smooth", block: "start" });
+          });
+        }
+      };
+
+      focusModeToggle?.addEventListener("click", () => {
+        setFocusMode(!document.body.classList.contains("focus-mode-active"));
+      });
+
+      focusModeExit?.addEventListener("click", () => {
+        setFocusMode(false);
+        focusModeToggle?.focus();
+      });
+
+      settingsToggle?.addEventListener("click", () => {
+        setSettingsPopoverOpen(settingsPopover?.hidden);
+      });
+
+      document.addEventListener("click", (event) => {
+        if (!settingsPopover || settingsPopover.hidden || settingsPopover.contains(event.target) || settingsToggle?.contains(event.target)) {
+          return;
+        }
+        setSettingsPopoverOpen(false);
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && settingsPopover && !settingsPopover.hidden) {
+          setSettingsPopoverOpen(false);
+          settingsToggle?.focus();
+        }
+      });
+
       globalPlaybackRateInput?.addEventListener("change", readGlobalPlaybackRate);
       globalPlaybackRateInput?.addEventListener("keydown", (event) => {
         if (event.key !== "Enter") {
@@ -4224,7 +4331,8 @@
         globalPlaybackRateInput.blur();
       });
 
-      globalReplayCountInput?.addEventListener("change", readGlobalReplayCount);
+      globalVietnameseReplayCountInput?.addEventListener("change", readGlobalVietnameseReplayCount);
+      globalSelectedLanguageReplayCountInput?.addEventListener("change", readGlobalSelectedLanguageReplayCount);
       globalLanguageSelect?.addEventListener("change", () => {
         vocabReviewSpeechToken += 1;
         vocabReviewAudio.pause();
@@ -4239,14 +4347,24 @@
           );
         });
       });
-      globalReplayCountInput?.addEventListener("keydown", (event) => {
+      globalVietnameseReplayCountInput?.addEventListener("keydown", (event) => {
         if (event.key !== "Enter") {
           return;
         }
 
         event.preventDefault();
-        readGlobalReplayCount();
-        globalReplayCountInput.blur();
+        readGlobalVietnameseReplayCount();
+        globalVietnameseReplayCountInput.blur();
+      });
+
+      globalSelectedLanguageReplayCountInput?.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter") {
+          return;
+        }
+
+        event.preventDefault();
+        readGlobalSelectedLanguageReplayCount();
+        globalSelectedLanguageReplayCountInput.blur();
       });
 
       vocabReviewShowHiragana.addEventListener("change", () => {
@@ -4282,14 +4400,6 @@
         if (isPublicTrack) {
           updatePublicStatus();
         }
-      });
-
-      instantVocabViRepeat.addEventListener("change", () => {
-        readInstantRepeatCount(instantVocabViRepeat, 0);
-      });
-
-      instantVocabJaRepeat.addEventListener("change", () => {
-        readInstantRepeatCount(instantVocabJaRepeat);
       });
 
       instantVocabOrder.addEventListener("change", () => {
