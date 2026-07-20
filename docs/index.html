@@ -839,6 +839,122 @@
       font-weight: 700;
     }
 
+    .writing-review-shell {
+      display: grid;
+      gap: 12px;
+    }
+
+    .writing-review-controls {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .writing-review-card {
+      min-height: 120px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 18px 22px;
+      display: block;
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text);
+    }
+
+    .writing-review-card.empty {
+      display: grid;
+      align-content: center;
+      text-align: center;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .writing-review-line {
+      margin-bottom: 6px;
+    }
+
+    .writing-review-line:last-child {
+      margin-bottom: 0;
+    }
+
+    .writing-review-answer-area {
+      display: none;
+      gap: 8px;
+    }
+
+    .writing-review-answer-label {
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .writing-review-user-answer {
+      width: 100%;
+      min-height: 100px;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      font-size: 15px;
+      line-height: 1.6;
+      resize: vertical;
+      font-family: inherit;
+      box-sizing: border-box;
+    }
+
+    .writing-review-feedback {
+      display: none;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .writing-review-feedback.show {
+      display: block;
+    }
+
+    .writing-review-feedback.correct {
+      background: #e6f7e6;
+      color: #2e7d32;
+      border: 1px solid #a5d6a7;
+    }
+
+    .writing-review-feedback.incorrect {
+      background: #fdecea;
+      color: #c62828;
+      border: 1px solid #ef9a9a;
+    }
+
+    .writing-review-sample {
+      display: none;
+      padding: 12px;
+      border: 1px solid var(--primary);
+      border-radius: 6px;
+      background: #f5f0ff;
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--text);
+    }
+
+    .writing-review-sample.show {
+      display: block;
+    }
+
+    .writing-review-sample-label {
+      font-weight: 700;
+      color: var(--primary-dark);
+      margin-bottom: 4px;
+    }
+
+    .writing-review-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+
     .vocab-review-term {
       display: grid;
       gap: 8px;
@@ -2056,6 +2172,7 @@
         <select class="tab-select" id="tab-select">
           <option value="instant-vocab-panel">Instant Vocab</option>
           <option value="vocab-review-panel" selected>Vocab Review</option>
+          <option value="writing-review-panel">Writing Review</option>
           <option value="kana-panel">Kana</option>
           <option value="kanji-panel">Kanji</option>
           <option value="hot-review-panel">Hot Review</option>
@@ -2473,6 +2590,49 @@
       </div>
     </section>
 
+    <section class="tab-panel" id="writing-review-panel" role="tabpanel" aria-labelledby="tab-writing-review">
+      <h2>Writing Review</h2>
+      <p class="hint">Load CSV 4 cột: context,prompt,input,sample_answer</p>
+      <div class="writing-review-shell">
+        <div class="writing-review-controls">
+          <button class="primary" id="writing-review-load" type="button">Load CSV</button>
+          <button id="writing-review-copy" type="button" disabled>Copy</button>
+          <button id="writing-review-clear" type="button">Clear</button>
+        </div>
+        <div class="status" id="writing-review-status">Chưa có dữ liệu.</div>
+        <div class="writing-review-card empty" id="writing-review-card" aria-live="polite">
+          Dán CSV để bắt đầu.
+        </div>
+        <div class="writing-review-answer-area">
+          <label class="writing-review-answer-label" for="writing-review-user-answer">Câu trả lời của bạn</label>
+          <textarea class="writing-review-user-answer" id="writing-review-user-answer" spellcheck="true" rows="4" placeholder="Nhập câu trả lời..."></textarea>
+          <div class="writing-review-feedback" id="writing-review-feedback" aria-live="polite"></div>
+          <div class="writing-review-sample" id="writing-review-sample"></div>
+        </div>
+        <div class="writing-review-actions">
+          <button id="writing-review-prev" type="button" disabled>Previous</button>
+          <button id="writing-review-sample-btn" type="button" disabled>Xem bài mẫu</button>
+          <button class="primary" id="writing-review-check" type="button" disabled>Kiểm tra</button>
+          <button id="writing-review-next" type="button" disabled>Câu tiếp theo</button>
+        </div>
+      </div>
+      <dialog class="vocab-dialog" id="writing-review-csv-dialog" aria-labelledby="writing-review-csv-title">
+        <div class="vocab-dialog-inner">
+          <div class="vocab-dialog-header">
+            <h2 id="writing-review-csv-title">Load CSV - Writing Review</h2>
+            <button class="vocab-dialog-close" id="writing-review-csv-close" type="button" aria-label="Đóng">×</button>
+          </div>
+          <div class="vocab-dialog-content">
+            <textarea class="csv-modal-input" id="writing-review-input" spellcheck="false" aria-label="CSV Writing Review" placeholder="context,prompt,input,sample_answer"></textarea>
+            <div class="csv-dialog-actions">
+              <button id="writing-review-csv-cancel" type="button">Hủy</button>
+              <button class="primary" id="writing-review-csv-confirm" type="button">Xác nhận</button>
+            </div>
+          </div>
+        </div>
+      </dialog>
+    </section>
+
     <dialog class="hot-review-dialog" id="hot-review-dialog" aria-labelledby="hot-review-dialog-title">
       <form class="hot-review-dialog-inner" method="dialog">
         <div class="hot-review-dialog-header">
@@ -2595,6 +2755,24 @@
       const vocabReviewCsvCancel = document.getElementById("vocab-review-csv-cancel");
       const vocabReviewCsvConfirm = document.getElementById("vocab-review-csv-confirm");
 
+      const writingReviewLoad = document.getElementById("writing-review-load");
+      const writingReviewCopy = document.getElementById("writing-review-copy");
+      const writingReviewClear = document.getElementById("writing-review-clear");
+      const writingReviewStatus = document.getElementById("writing-review-status");
+      const writingReviewCard = document.getElementById("writing-review-card");
+      const writingReviewUserAnswer = document.getElementById("writing-review-user-answer");
+      const writingReviewFeedback = document.getElementById("writing-review-feedback");
+      const writingReviewSample = document.getElementById("writing-review-sample");
+      const writingReviewPrev = document.getElementById("writing-review-prev");
+      const writingReviewSampleBtn = document.getElementById("writing-review-sample-btn");
+      const writingReviewCheck = document.getElementById("writing-review-check");
+      const writingReviewNext = document.getElementById("writing-review-next");
+      const writingReviewInput = document.getElementById("writing-review-input");
+      const writingReviewCsvDialog = document.getElementById("writing-review-csv-dialog");
+      const writingReviewCsvClose = document.getElementById("writing-review-csv-close");
+      const writingReviewCsvCancel = document.getElementById("writing-review-csv-cancel");
+      const writingReviewCsvConfirm = document.getElementById("writing-review-csv-confirm");
+
       let lessons = [];
       let objectUrl = "";
       let activeTrackButton = null;
@@ -2619,6 +2797,9 @@
       let vocabReviewSpeechToken = 0;
       const vocabReviewAudio = new Audio();
       const vocabReviewAudioCache = new Map();
+      let writingReviewItems = [];
+      let writingReviewIndex = 0;
+      let writingReviewCsvText = "";
       const silentAudioDataUrl = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YQQAAAAAAAAA";
 
       const readGlobalPlaybackRate = () => {
@@ -3218,6 +3399,189 @@
         vocabReviewAnswerVisible = false;
         vocabReviewMode = "learn";
         renderVocabReviewCard();
+      };
+
+      const parseWritingReviewCsv = (text) => {
+        const rows = parseInstantVocabCsvRows(text.trim());
+        const expectedHeader = ["context", "prompt", "input", "sample_answer"];
+
+        if (!rows.length) {
+          throw new Error("CSV is empty.");
+        }
+
+        rows[0][0] = rows[0][0].replace(/^\uFEFF/, "");
+        const header = rows[0].map((value) => value.trim());
+        const isValid = expectedHeader.every((col, index) => header[index] === col);
+        if (!isValid || header.length < expectedHeader.length) {
+          throw new Error("File can co header: context,prompt,input,sample_answer");
+        }
+
+        const requiredHeaderMap = new Map(header.map((col, index) => [col, index]));
+        return rows.slice(1).map((row, index) => {
+          const item = {};
+          expectedHeader.forEach((col) => {
+            const columnIndex = requiredHeaderMap.get(col);
+            item[col] = columnIndex < row.length ? row[columnIndex].trim() : "";
+          });
+
+          if (!item.context && !item.prompt && !item.input && !item.sample_answer) {
+            return null;
+          }
+
+          return item;
+        }).filter(Boolean);
+      };
+
+      const renderWritingReviewContent = () => {
+        const items = writingReviewItems;
+
+        if (!items.length) {
+          writingReviewStatus.textContent = "Chưa có dữ liệu.";
+          writingReviewCard.classList.add("empty");
+          writingReviewCard.textContent = "Dán CSV để bắt đầu.";
+          writingReviewUserAnswer.closest(".writing-review-answer-area").style.display = "none";
+          writingReviewPrev.disabled = true;
+          writingReviewSampleBtn.disabled = true;
+          writingReviewCheck.disabled = true;
+          writingReviewNext.disabled = true;
+          writingReviewCopy.disabled = true;
+          writingReviewFeedback.classList.remove("show", "correct", "incorrect");
+          writingReviewFeedback.textContent = "";
+          writingReviewSample.classList.remove("show");
+          writingReviewSample.innerHTML = "";
+          return;
+        }
+
+        const idx = writingReviewIndex;
+        const item = items[idx];
+        const total = items.length;
+
+        writingReviewStatus.textContent = `Cau ${idx + 1} / ${total}`;
+        writingReviewCard.classList.remove("empty");
+        writingReviewUserAnswer.closest(".writing-review-answer-area").style.display = "grid";
+        writingReviewPrev.disabled = idx <= 0;
+        writingReviewSampleBtn.disabled = false;
+        writingReviewCheck.disabled = false;
+        writingReviewNext.disabled = false;
+        writingReviewCopy.disabled = false;
+
+        writingReviewFeedback.classList.remove("show", "correct", "incorrect");
+        writingReviewFeedback.textContent = "";
+        writingReviewSample.classList.remove("show");
+        writingReviewSample.innerHTML = "";
+        writingReviewUserAnswer.value = "";
+
+        const buildLine = (label, value) => {
+          const line = document.createElement("div");
+          line.className = "writing-review-line";
+          const strong = document.createElement("strong");
+          strong.textContent = label + ": ";
+          line.appendChild(strong);
+          line.appendChild(document.createTextNode(value || ""));
+          return line;
+        };
+
+        writingReviewCard.replaceChildren();
+
+        writingReviewCard.appendChild(buildLine("Context", item.context));
+        writingReviewCard.appendChild(buildLine("Prompt", item.prompt));
+        writingReviewCard.appendChild(buildLine("Input", item.input));
+      };
+
+      const showWritingReviewSample = () => {
+        if (!writingReviewItems.length) {
+          return;
+        }
+
+        const item = writingReviewItems[writingReviewIndex];
+        writingReviewSample.innerHTML = `<div class="writing-review-sample-label">Bai mau:</div>${item.sample_answer || "Khong co bai mau."}`;
+        writingReviewSample.classList.add("show");
+      };
+
+      const checkWritingReview = () => {
+        if (!writingReviewItems.length) {
+          return;
+        }
+
+        const userAnswer = writingReviewUserAnswer.value.trim();
+        if (!userAnswer) {
+          writingReviewFeedback.className = "writing-review-feedback show incorrect";
+          writingReviewFeedback.textContent = "Vui long nhap cau tra loi.";
+          return;
+        }
+
+        writingReviewFeedback.className = "writing-review-feedback show correct";
+        writingReviewFeedback.textContent = "Da ghi nhan cau tra loi cua ban. Bam 'Xem bai mau' de so sanh voi bai mau.";
+      };
+
+      const prevWritingReview = () => {
+        if (writingReviewIndex > 0) {
+          writingReviewIndex -= 1;
+          renderWritingReviewContent();
+        }
+      };
+
+      const nextWritingReview = () => {
+        if (writingReviewIndex < writingReviewItems.length - 1) {
+          writingReviewIndex += 1;
+          renderWritingReviewContent();
+        }
+      };
+
+      const copyWritingReviewCsv = async () => {
+        if (!writingReviewCsvText) {
+          return;
+        }
+
+        try {
+          await navigator.clipboard.writeText(writingReviewCsvText);
+          writingReviewCopy.textContent = "Da copy!";
+          setTimeout(() => {
+            writingReviewCopy.textContent = "Copy";
+          }, 1500);
+        } catch (_error) {
+          writingReviewCopy.textContent = "Loi copy";
+          setTimeout(() => {
+            writingReviewCopy.textContent = "Copy";
+          }, 1500);
+        }
+      };
+
+      const loadWritingReviewCsv = () => {
+        const text = writingReviewInput.value.trim();
+        if (!text) {
+          alert("Vui long dan du lieu CSV.");
+          return false;
+        }
+
+        try {
+          writingReviewItems = parseWritingReviewCsv(text);
+          if (!writingReviewItems.length) {
+            throw new Error("Khong co du lieu hop le.");
+          }
+        } catch (error) {
+          alert(error.message || "Khong the phan tich CSV.");
+          return false;
+        }
+
+        writingReviewCsvText = text;
+        writingReviewIndex = 0;
+        renderWritingReviewContent();
+        return true;
+      };
+
+      const clearWritingReviewData = () => {
+        const hasData = Boolean(writingReviewInput.value.trim())
+          || writingReviewItems.length > 0;
+        if (hasData && !window.confirm("Ban co chac muon xoa du lieu hien tai khong?")) {
+          return;
+        }
+
+        writingReviewInput.value = "";
+        writingReviewItems = [];
+        writingReviewCsvText = "";
+        writingReviewIndex = 0;
+        renderWritingReviewContent();
       };
 
       const updateInstantRowStatus = (index, statusValue, statusText) => {
@@ -4480,6 +4844,27 @@
       vocabReviewLater.addEventListener("click", startVocabReviewLater);
 
       vocabReviewReset.addEventListener("click", startVocabReviewLearn);
+
+      bindCsvDialog({
+        dialog: writingReviewCsvDialog,
+        openButton: writingReviewLoad,
+        closeButtons: [writingReviewCsvClose, writingReviewCsvCancel],
+        confirmButton: writingReviewCsvConfirm,
+        input: writingReviewInput,
+        load: loadWritingReviewCsv,
+      });
+
+      writingReviewClear.addEventListener("click", clearWritingReviewData);
+
+      writingReviewSampleBtn.addEventListener("click", showWritingReviewSample);
+
+      writingReviewCheck.addEventListener("click", checkWritingReview);
+
+      writingReviewPrev.addEventListener("click", prevWritingReview);
+
+      writingReviewNext.addEventListener("click", nextWritingReview);
+
+      writingReviewCopy.addEventListener("click", copyWritingReviewCsv);
 
       window.addEventListener("keydown", (event) => {
         const isAdvanceKey = event.code === "Space" || event.code === "Enter" || event.code === "NumpadEnter";
