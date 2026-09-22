@@ -141,12 +141,12 @@
     .settings-popover {
       position: absolute;
       z-index: 20;
-      top: calc(100% + 10px);
+      top: calc(100% + 8px);
       right: 0;
-      width: min(320px, calc(100vw - 52px));
+      width: min(230px, calc(100vw - 32px));
       display: grid;
-      gap: 12px;
-      padding: 14px;
+      gap: 7px;
+      padding: 10px 12px;
       border: 1px solid var(--line);
       border-radius: 10px;
       background: var(--panel);
@@ -158,28 +158,33 @@
     }
 
     .settings-popover-title {
-      margin: 0;
+      margin: 0 0 2px;
       color: var(--text);
-      font-size: 16px;
+      font-size: 13.5px;
+      font-weight: 700;
+      line-height: 1.2;
     }
 
     .global-playback-rate {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 120px;
+      grid-template-columns: minmax(0, 1fr) 78px;
       align-items: center;
-      gap: 8px;
+      gap: 6px;
       margin: 0;
       color: var(--text);
-      font-size: 14px;
-      font-weight: 800;
+      font-size: 12.5px;
+      font-weight: 600;
       white-space: nowrap;
     }
 
     .global-playback-rate input,
     .global-playback-rate select {
       width: 100%;
-      min-height: 34px;
-      padding: 6px 8px;
+      min-height: 28px;
+      padding: 3px 6px;
+      font-size: 12.5px;
+      border-radius: 6px;
+      text-align: center;
     }
 
     p {
@@ -1172,7 +1177,7 @@
       }
 
       .settings-popover {
-        width: min(320px, calc(100vw - 36px));
+        width: min(230px, calc(100vw - 24px));
       }
 
       p {
@@ -2140,21 +2145,25 @@
         <div class="app-settings">
           <button class="settings-toggle" id="settings-toggle" type="button" aria-label="Mở cài đặt" aria-controls="settings-popover" aria-expanded="false">⚙</button>
           <div class="settings-popover" id="settings-popover" hidden>
-            <h2 class="settings-popover-title">Cài đặt audio</h2>
+            <h2 class="settings-popover-title">⚙️ Cài đặt audio</h2>
             <label class="global-playback-rate" for="global-playback-rate">
-              Tốc độ đọc chung
+              <span>⚡ Tốc độ</span>
               <input id="global-playback-rate" type="number" min="0.5" max="3" step="0.05" value="1.15">
             </label>
             <label class="global-playback-rate" for="global-vietnamese-replay-count">
-              Lặp tiếng Việt
+              <span>🇻🇳 Lặp VN</span>
               <input id="global-vietnamese-replay-count" type="number" min="0" step="1" value="0">
             </label>
             <label class="global-playback-rate" for="global-selected-language-replay-count">
-              Lặp ngôn ngữ đã chọn
+              <span>🔂 Lặp EN/JA</span>
               <input id="global-selected-language-replay-count" type="number" min="1" step="1" value="3">
             </label>
+            <label class="global-playback-rate" for="global-replay-delay">
+              <span>⏸️ Nghỉ (s)</span>
+              <input id="global-replay-delay" type="number" min="0" max="10" step="0.1" value="0.5">
+            </label>
             <label class="global-playback-rate global-language" for="global-language">
-              Language
+              <span>🌐 Ngôn ngữ</span>
               <select id="global-language">
                 <option value="ja">Tiếng Nhật</option>
                 <option value="en" selected>Tiếng Anh</option>
@@ -2694,6 +2703,7 @@
       const globalPlaybackRateInput = document.getElementById("global-playback-rate");
       const globalVietnameseReplayCountInput = document.getElementById("global-vietnamese-replay-count");
       const globalSelectedLanguageReplayCountInput = document.getElementById("global-selected-language-replay-count");
+      const globalReplayDelayInput = document.getElementById("global-replay-delay");
       const globalLanguageSelect = document.getElementById("global-language");
       const settingsToggle = document.getElementById("settings-toggle");
       const settingsPopover = document.getElementById("settings-popover");
@@ -2834,6 +2844,15 @@
           globalSelectedLanguageReplayCountInput.value = String(replayCount);
         }
         return replayCount;
+      };
+
+      const readGlobalReplayDelay = () => {
+        const value = Number.parseFloat(globalReplayDelayInput?.value || "");
+        const delay = Number.isFinite(value) && value >= 0 ? value : 0.5;
+        if (globalReplayDelayInput) {
+          globalReplayDelayInput.value = String(delay);
+        }
+        return delay;
       };
 
       const listeningLessons = Array.from({ length: 25 }, (_, index) => {
@@ -3898,18 +3917,46 @@
         });
       });
 
+      let instantVocabTimer = null;
+      const waitInstantDelay = (seconds, runToken) => new Promise((resolve, reject) => {
+        if (!seconds || seconds <= 0) {
+          if (runToken !== instantVocabRunToken) {
+            reject(new Error("Playback stopped."));
+          } else {
+            resolve();
+          }
+          return;
+        }
+        instantVocabTimer = setTimeout(() => {
+          instantVocabTimer = null;
+          if (runToken !== instantVocabRunToken) {
+            reject(new Error("Playback stopped."));
+          } else {
+            resolve();
+          }
+        }, seconds * 1000);
+      });
+
       const playAudioUrlNTimes = async (url, repeatCount, runToken, onRepeat) => {
+        const replayDelay = readGlobalReplayDelay();
         for (let repeatIndex = 0; repeatIndex < repeatCount; repeatIndex += 1) {
           if (runToken !== instantVocabRunToken) {
             throw new Error("Playback stopped.");
           }
           onRepeat(repeatIndex + 1, repeatCount);
           await playAudioUrlOnce(url, runToken);
+          if (repeatIndex < repeatCount - 1 && replayDelay > 0) {
+            await waitInstantDelay(replayDelay, runToken);
+          }
         }
       };
 
       const stopInstantPlayback = (message = "Stopped.") => {
         instantVocabRunToken += 1;
+        if (instantVocabTimer) {
+          clearTimeout(instantVocabTimer);
+          instantVocabTimer = null;
+        }
         instantVocabAudio.pause();
         instantVocabAudio.currentTime = 0;
         instantVocabItems.forEach((item, index) => {
@@ -3953,12 +4000,16 @@
 
         const vietnameseRepeatCount = readGlobalVietnameseReplayCount();
         const selectedLanguageRepeatCount = readGlobalSelectedLanguageReplayCount();
+        const replayDelay = readGlobalReplayDelay();
         if (item.meaningVi && vietnameseRepeatCount > 0) {
           const vietnameseUrl = await ensureInstantAudioUrl(item, index, "vi", runToken);
           await playAudioUrlNTimes(vietnameseUrl, vietnameseRepeatCount, runToken, (currentRepeat, totalRepeats) => {
             updateInstantRowStatus(index, "playing", `Vietnamese ${currentRepeat}/${totalRepeats}.`);
             instantVocabStatus.textContent = `Vietnamese ${index + 1}/${instantVocabItems.length}: ${item.meaningVi}`;
           });
+          if (selectedLanguageRepeatCount > 0 && replayDelay > 0) {
+            await waitInstantDelay(replayDelay, runToken);
+          }
         }
 
         await playInstantSelectedLanguageWithToken(index, runToken, selectedLanguageRepeatCount);
@@ -4017,6 +4068,10 @@
             const index = playbackOrder[orderIndex];
             await playInstantAllItemWithToken(index, runToken);
             orderIndex += 1;
+            const replayDelay = readGlobalReplayDelay();
+            if (replayDelay > 0) {
+              await waitInstantDelay(replayDelay, runToken);
+            }
           }
         } catch (error) {
           if (runToken === instantVocabRunToken) {
@@ -4697,6 +4752,7 @@
 
       globalVietnameseReplayCountInput?.addEventListener("change", readGlobalVietnameseReplayCount);
       globalSelectedLanguageReplayCountInput?.addEventListener("change", readGlobalSelectedLanguageReplayCount);
+      globalReplayDelayInput?.addEventListener("change", readGlobalReplayDelay);
       globalLanguageSelect?.addEventListener("change", () => {
         vocabReviewSpeechToken += 1;
         vocabReviewAudio.pause();
@@ -4729,6 +4785,16 @@
         event.preventDefault();
         readGlobalSelectedLanguageReplayCount();
         globalSelectedLanguageReplayCountInput.blur();
+      });
+
+      globalReplayDelayInput?.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter") {
+          return;
+        }
+
+        event.preventDefault();
+        readGlobalReplayDelay();
+        globalReplayDelayInput.blur();
       });
 
       vocabReviewShowHiragana.addEventListener("change", () => {
