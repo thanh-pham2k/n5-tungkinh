@@ -2148,7 +2148,7 @@
             <h2 class="settings-popover-title">⚙️ Cài đặt audio</h2>
             <label class="global-playback-rate" for="global-playback-rate">
               <span>⚡ Tốc độ</span>
-              <input id="global-playback-rate" type="number" min="0.5" max="3" step="0.05" value="1.15">
+              <input id="global-playback-rate" type="number" min="0.5" max="3" step="0.05" value="1.0">
             </label>
             <label class="global-playback-rate" for="global-vietnamese-replay-count">
               <span>🇻🇳 Lặp VN</span>
@@ -2179,8 +2179,8 @@
       <label class="tab-select-field" for="tab-select">
         Nội dung học
         <select class="tab-select" id="tab-select">
-          <option value="instant-vocab-panel">Instant Vocab</option>
-          <option value="vocab-review-panel" selected>Vocab Review</option>
+          <option value="instant-vocab-panel" selected>Instant Vocab</option>
+          <option value="vocab-review-panel">Vocab Review</option>
           <option value="writing-review-panel">Writing Review</option>
           <option value="kana-panel">Kana</option>
           <option value="kanji-panel">Kanji</option>
@@ -2265,7 +2265,7 @@
       <div class="status" id="looper-status">Chưa chọn file.</div>
     </section>
 
-    <section class="tab-panel" id="instant-vocab-panel" role="tabpanel" aria-labelledby="tab-instant-vocab">
+    <section class="tab-panel active" id="instant-vocab-panel" role="tabpanel" aria-labelledby="tab-instant-vocab">
       <h2>Instant Vocab</h2>
       <p class="hint">Load CSV 5 cột. Mỗi phần audio dùng Số lần lặp global: đọc tiếng Việt trước, sau đó đọc ngôn ngữ đã chọn.</p>
       <div class="instant-vocab-shell">
@@ -2303,7 +2303,7 @@
       </dialog>
     </section>
 
-    <section class="tab-panel active" id="vocab-review-panel" role="tabpanel" aria-labelledby="tab-vocab-review">
+    <section class="tab-panel" id="vocab-review-panel" role="tabpanel" aria-labelledby="tab-vocab-review">
       <h2>Vocab Review</h2>
       <p class="hint">Load CSV có header: vocabulary,hiragana,meaning_vi,example_ja,example_vi</p>
       <div class="vocab-review-shell">
@@ -2814,7 +2814,7 @@
 
       const readGlobalPlaybackRate = () => {
         const rate = Number.parseFloat(globalPlaybackRateInput?.value || "");
-        const normalizedRate = Number.isFinite(rate) && rate > 0 ? rate : 1.15;
+        const normalizedRate = Number.isFinite(rate) && rate > 0 ? rate : 1.0;
         if (globalPlaybackRateInput) {
           globalPlaybackRateInput.value = String(normalizedRate);
         }
@@ -4684,7 +4684,7 @@
       });
 
       appHomeButton?.addEventListener("click", () => {
-        selectTab("vocab-review-panel");
+        selectTab("instant-vocab-panel");
         window.scrollTo({ top: 0, behavior: "smooth" });
       });
 
