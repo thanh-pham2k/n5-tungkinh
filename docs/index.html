@@ -1061,12 +1061,13 @@
 
     .word-order-chip {
       appearance: none;
-      border: 1px solid var(--line);
-      border-radius: 999px;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 8px;
       background: #fff;
-      padding: 8px 16px;
-      font-size: 16px;
+      padding: 9px 16px;
+      font-size: 15px;
       font-weight: 600;
+      line-height: 1.4;
       color: var(--text);
       cursor: pointer;
       user-select: none;
@@ -1074,7 +1075,10 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+      max-width: 100%;
+      word-break: break-word;
+      text-align: left;
     }
 
     .word-order-chip:hover {
@@ -1087,6 +1091,7 @@
       background: #eff6ff;
       border-color: #3b82f6;
       color: #1d4ed8;
+      box-shadow: 0 1px 2px rgba(59, 130, 246, 0.15);
     }
 
     .word-order-chip.in-slot:hover {
@@ -3904,17 +3909,57 @@
         }
 
         const items = rows.slice(1).map((row, index) => {
-          const getVal = (col) => {
-            const idx = headerMap.get(col);
-            return idx !== undefined && idx < row.length ? row[idx].trim() : "";
-          };
+          let vocabulary = "";
+          let hiragana = "";
+          let meaningVi = "";
+          let exampleJa = "";
+          let exampleVi = "";
+          let wordOrderRaw = "";
 
-          const vocabulary = getVal("vocabulary");
-          const hiragana = getVal("hiragana");
-          const meaningVi = getVal("meaning_vi");
-          const exampleJa = getVal("example_ja");
-          const exampleVi = getVal("example_vi");
-          const wordOrderRaw = getVal("word_order");
+          if (row.length === headerMap.size) {
+            const getVal = (col) => {
+              const idx = headerMap.get(col);
+              return idx !== undefined && idx < row.length ? row[idx].trim() : "";
+            };
+            vocabulary = getVal("vocabulary");
+            hiragana = getVal("hiragana");
+            meaningVi = getVal("meaning_vi");
+            exampleJa = getVal("example_ja");
+            exampleVi = getVal("example_vi");
+            wordOrderRaw = getVal("word_order");
+          } else {
+            let pipeIdx = -1;
+            for (let i = 0; i < row.length; i++) {
+              if (row[i].includes("|")) {
+                pipeIdx = i;
+                break;
+              }
+            }
+
+            let remainingCols = row;
+            if (pipeIdx !== -1) {
+              wordOrderRaw = row.slice(pipeIdx).join(",").trim();
+              remainingCols = row.slice(0, pipeIdx);
+            } else {
+              wordOrderRaw = row[row.length - 1].trim();
+              remainingCols = row.slice(0, row.length - 1);
+            }
+
+            exampleVi = remainingCols.length > 0 ? remainingCols[remainingCols.length - 1].trim() : "";
+            const emptyIdx = remainingCols.findIndex((val, i) => i > 0 && val === "");
+            if (emptyIdx !== -1) {
+              vocabulary = remainingCols.slice(0, emptyIdx).join(",").trim();
+              hiragana = remainingCols[emptyIdx].trim();
+              const afterEmpty = remainingCols.slice(emptyIdx + 1);
+              meaningVi = afterEmpty[0]?.trim() || "";
+              exampleJa = afterEmpty.slice(1, afterEmpty.length - 1).join(",").trim();
+            } else {
+              vocabulary = remainingCols[0]?.trim() || "";
+              hiragana = remainingCols[1]?.trim() || "";
+              meaningVi = remainingCols[2]?.trim() || "";
+              exampleJa = remainingCols.slice(3, remainingCols.length - 1).join(",").trim();
+            }
+          }
 
           if (!vocabulary && !hiragana && !meaningVi && !exampleJa && !exampleVi && !wordOrderRaw) {
             return null;
@@ -3926,12 +3971,8 @@
               tokens = wordOrderRaw.split("|").map((s) => s.trim()).filter(Boolean);
             } else if (wordOrderRaw.includes("/")) {
               tokens = wordOrderRaw.split("/").map((s) => s.trim()).filter(Boolean);
-            } else if (wordOrderRaw.includes(",")) {
-              tokens = wordOrderRaw.split(",").map((s) => s.trim()).filter(Boolean);
-            } else if (wordOrderRaw.includes(" ")) {
-              tokens = wordOrderRaw.split(/\s+/).map((s) => s.trim()).filter(Boolean);
             } else {
-              tokens = [wordOrderRaw];
+              tokens = [wordOrderRaw.trim()];
             }
           } else if (exampleJa) {
             const cleanedJa = exampleJa.replace(/（[^）]+）/g, "");
@@ -3953,8 +3994,8 @@
             return null;
           }
 
-          const targetSentence = tokens.join("");
-          const prompt = exampleVi || meaningVi || "Sắp xếp các từ thành câu đúng";
+          const targetSentence = exampleJa || (tokens.every((t) => /^[a-zA-Z0-9\s,.'?!]+$/.test(t)) ? tokens.join(" ") : tokens.join(""));
+          const prompt = exampleVi || meaningVi || "Sắp xếp các khối/từ thành câu đúng";
 
           return {
             vocabulary,
@@ -4113,10 +4154,10 @@
           return;
         }
 
-        const userSequence = wordOrderSelectedTokens.map((t) => t.text).join("");
-        const targetSequence = wordOrderCurrentTokens.map((t) => t.text).join("");
+        const isMatch = wordOrderSelectedTokens.length === wordOrderCurrentTokens.length
+          && wordOrderSelectedTokens.every((t, i) => t.id === wordOrderCurrentTokens[i].id);
 
-        if (userSequence === targetSequence) {
+        if (isMatch) {
           wordOrderSlots.classList.remove("is-incorrect");
           wordOrderSlots.classList.add("is-correct");
           wordOrderFeedback.className = "word-order-feedback show correct";
@@ -4128,7 +4169,7 @@
           wordOrderSlots.classList.remove("is-correct");
           wordOrderSlots.classList.add("is-incorrect");
           wordOrderFeedback.className = "word-order-feedback show incorrect";
-          wordOrderFeedback.textContent = `Thứ tự chưa chính xác (${wordOrderSelectedTokens.length}/${wordOrderCurrentTokens.length} từ). Bạn có thể bấm vào từ để hoàn tác hoặc bấm 'Xem đáp án'.`;
+          wordOrderFeedback.textContent = `Thứ tự chưa chính xác (${wordOrderSelectedTokens.length}/${wordOrderCurrentTokens.length} khối). Bạn có thể bấm vào khối để hoàn tác hoặc bấm 'Xem đáp án'.`;
         }
       };
 
