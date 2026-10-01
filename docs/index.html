@@ -2564,7 +2564,10 @@
 
     <section class="tab-panel" id="word-order-panel" role="tabpanel" aria-labelledby="tab-word-order">
       <h2>Word Order Review</h2>
-      <p class="hint">Load CSV có header: vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order</p>
+      <p class="hint">
+        Load CSV có header: <code>vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order</code><br>
+        Ví dụ: <code>私,わたし,Tôi,私（わたし）は学生（がくせい）です。,Tôi là học sinh.,私|は|学生|です</code>
+      </p>
       <div class="word-order-shell">
         <div class="word-order-controls">
           <button class="primary" id="word-order-load" type="button">Load CSV</button>
@@ -2605,8 +2608,10 @@
             <button class="vocab-dialog-close" id="word-order-csv-close" type="button" aria-label="Đóng">×</button>
           </div>
           <div class="vocab-dialog-content">
-            <textarea class="csv-modal-input" id="word-order-input" spellcheck="false" aria-label="CSV Word Order Review" placeholder="vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order"></textarea>
+            <p class="hint" style="margin-top: 0; margin-bottom: 8px;">Header: <code>vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order</code> (các từ trong <code>word_order</code> phân tách bằng <code>|</code> hoặc <code>/</code>)</p>
+            <textarea class="csv-modal-input" id="word-order-input" spellcheck="false" aria-label="CSV Word Order Review" placeholder="vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order&#10;私,わたし,Tôi,私（わたし）は学生（がくせい）です。,Tôi là học sinh.,私|は|学生|です"></textarea>
             <div class="csv-dialog-actions">
+              <button id="word-order-csv-example" type="button">Chèn mẫu</button>
               <button id="word-order-csv-cancel" type="button">Hủy</button>
               <button class="primary" id="word-order-csv-confirm" type="button">Xác nhận</button>
             </div>
@@ -5588,6 +5593,17 @@
       wordOrderShowAnswer.addEventListener("click", showWordOrderAnswer);
       wordOrderPrev.addEventListener("click", prevWordOrder);
       wordOrderNext.addEventListener("click", nextWordOrder);
+
+      const wordOrderCsvExample = document.getElementById("word-order-csv-example");
+      if (wordOrderCsvExample) {
+        wordOrderCsvExample.addEventListener("click", () => {
+          wordOrderInput.value = `vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order
+私,わたし,Tôi,私（わたし）は学生（がくせい）です。,Tôi là học sinh.,私|は|学生|です
+本,ほん,Sách,これ は 日本語（にほんご）の 本（ほん）です。,Đây là sách tiếng Nhật.,これ|は|日本語の|本|です
+日本,にほん,Nhật Bản,私（わたし）は 日本（にほん）へ 行（い）きます。,Tôi đi Nhật Bản.,私|は|日本へ|行きます`;
+          wordOrderInput.focus();
+        });
+      }
 
       window.addEventListener("keydown", (event) => {
         const isAdvanceKey = event.code === "Space" || event.code === "Enter" || event.code === "NumpadEnter";
