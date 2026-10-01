@@ -3972,6 +3972,21 @@
         return items;
       };
 
+      const shuffleTokensGuaranteed = (tokens) => {
+        if (!tokens || tokens.length <= 1) return [...tokens];
+        let shuffled = shuffleVocabReviewCards([...tokens]);
+        const isSameOrder = (arr1, arr2) => arr1.every((t, i) => t.id === arr2[i].id);
+        let attempts = 0;
+        while (isSameOrder(shuffled, tokens) && attempts < 10) {
+          shuffled = shuffleVocabReviewCards([...tokens]);
+          attempts += 1;
+        }
+        if (isSameOrder(shuffled, tokens) && shuffled.length >= 2) {
+          [shuffled[0], shuffled[shuffled.length - 1]] = [shuffled[shuffled.length - 1], shuffled[0]];
+        }
+        return shuffled;
+      };
+
       const renderWordOrderContent = () => {
         const items = wordOrderItems;
 
@@ -4038,7 +4053,7 @@
 
         wordOrderCurrentTokens = item.tokens.map((text, id) => ({ id, text }));
         wordOrderSelectedTokens = [];
-        wordOrderBankTokens = shuffleVocabReviewCards([...wordOrderCurrentTokens]);
+        wordOrderBankTokens = shuffleTokensGuaranteed(wordOrderCurrentTokens);
 
         wordOrderSlots.classList.remove("is-correct", "is-incorrect");
         renderWordOrderPlayArea();
@@ -4162,7 +4177,7 @@
       const resetCurrentWordOrder = () => {
         if (!wordOrderItems.length) return;
         wordOrderSelectedTokens = [];
-        wordOrderBankTokens = shuffleVocabReviewCards([...wordOrderCurrentTokens]);
+        wordOrderBankTokens = shuffleTokensGuaranteed(wordOrderCurrentTokens);
         wordOrderSlots.classList.remove("is-correct", "is-incorrect");
         wordOrderFeedback.classList.remove("show", "correct", "incorrect");
         wordOrderFeedback.textContent = "";
@@ -4222,7 +4237,7 @@
           if (!parsed.length) {
             throw new Error("Không có dữ liệu hợp lệ.");
           }
-          wordOrderItems = parsed;
+          wordOrderItems = shuffleVocabReviewCards(parsed);
         } catch (error) {
           alert(error.message || "Không thể phân tích CSV.");
           return false;
