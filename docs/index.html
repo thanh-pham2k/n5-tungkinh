@@ -187,6 +187,14 @@
       text-align: center;
     }
 
+    .global-playback-rate input[type="range"] {
+      padding: 0;
+      cursor: pointer;
+      min-height: auto;
+      height: 24px;
+      accent-color: var(--primary);
+    }
+
     p {
       margin: 0 0 18px;
       color: var(--muted);
@@ -2354,6 +2362,10 @@
               <span>⚡ Tốc độ</span>
               <input id="global-playback-rate" type="number" min="0.5" max="3" step="0.05" value="1.0">
             </label>
+            <label class="global-playback-rate" for="global-volume">
+              <span id="global-volume-label">🔊 Âm lượng (100%)</span>
+              <input id="global-volume" type="range" min="0" max="100" step="5" value="100" aria-label="Âm lượng audio">
+            </label>
             <label class="global-playback-rate" for="global-vietnamese-replay-count">
               <span>🇻🇳 Lặp VN</span>
               <input id="global-vietnamese-replay-count" type="number" min="0" step="1" value="0">
@@ -2961,6 +2973,8 @@
       const audio = document.getElementById("looper-audio");
       const speed = document.getElementById("looper-speed");
       const globalPlaybackRateInput = document.getElementById("global-playback-rate");
+      const globalVolumeInput = document.getElementById("global-volume");
+      const globalVolumeLabel = document.getElementById("global-volume-label");
       const globalVietnameseReplayCountInput = document.getElementById("global-vietnamese-replay-count");
       const globalSelectedLanguageReplayCountInput = document.getElementById("global-selected-language-replay-count");
       const globalReplayDelayInput = document.getElementById("global-replay-delay");
@@ -3108,6 +3122,29 @@
           globalPlaybackRateInput.value = String(normalizedRate);
         }
         return normalizedRate;
+      };
+
+      const readGlobalVolume = () => {
+        const val = Number.parseFloat(globalVolumeInput?.value || "100");
+        const normalized = Number.isFinite(val) ? Math.max(0, Math.min(100, val)) : 100;
+        return normalized / 100;
+      };
+
+      const applyGlobalVolume = () => {
+        const vol = readGlobalVolume();
+        const percent = Math.round(vol * 100);
+        if (globalVolumeLabel) {
+          globalVolumeLabel.textContent = `🔊 Âm lượng (${percent}%)`;
+        }
+        if (audio) audio.volume = vol;
+        if (instantVocabAudio) instantVocabAudio.volume = vol;
+        if (wordOrderAudio) wordOrderAudio.volume = vol;
+        if (vocabReviewAudio) vocabReviewAudio.volume = vol;
+        if (goukakuAudio) goukakuAudio.volume = vol;
+        try {
+          localStorage.setItem("app-audio-volume", String(percent));
+        } catch (_err) {}
+        return vol;
       };
 
       const readGlobalLanguage = () => globalLanguageSelect?.value === "en" ? "en" : "ja";
@@ -4258,6 +4295,8 @@
         try {
           const url = await getVocabReviewAudioUrl(speechText);
           wordOrderAudio.src = url;
+          wordOrderAudio.playbackRate = readGlobalPlaybackRate();
+          wordOrderAudio.volume = readGlobalVolume();
           await wordOrderAudio.play();
         } catch (error) {
           console.error("Audio playback error:", error);
@@ -4473,6 +4512,7 @@
         vocabReviewAudio.src = url;
         vocabReviewAudio.currentTime = 0;
         vocabReviewAudio.playbackRate = readGlobalPlaybackRate();
+        vocabReviewAudio.volume = readGlobalVolume();
         vocabReviewAudio.addEventListener("ended", handleEnded, { once: true });
         vocabReviewAudio.addEventListener("error", handleError, { once: true });
         vocabReviewAudio.addEventListener("pause", handlePause, { once: true });
@@ -4608,6 +4648,7 @@
         instantVocabAudio.src = url;
         instantVocabAudio.currentTime = 0;
         instantVocabAudio.playbackRate = readGlobalPlaybackRate();
+        instantVocabAudio.volume = readGlobalVolume();
         instantVocabAudio.addEventListener("ended", handleEnded, { once: true });
         instantVocabAudio.addEventListener("error", handleError, { once: true });
         instantVocabAudio.addEventListener("pause", handlePause);
@@ -5449,6 +5490,16 @@
         readGlobalPlaybackRate();
         globalPlaybackRateInput.blur();
       });
+
+      globalVolumeInput?.addEventListener("input", applyGlobalVolume);
+      globalVolumeInput?.addEventListener("change", applyGlobalVolume);
+      try {
+        const savedVolume = localStorage.getItem("app-audio-volume");
+        if (savedVolume !== null && globalVolumeInput) {
+          globalVolumeInput.value = savedVolume;
+        }
+      } catch (_err) {}
+      applyGlobalVolume();
 
       globalVietnameseReplayCountInput?.addEventListener("change", readGlobalVietnameseReplayCount);
       globalSelectedLanguageReplayCountInput?.addEventListener("change", readGlobalSelectedLanguageReplayCount);
