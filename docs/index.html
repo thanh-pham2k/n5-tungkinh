@@ -959,6 +959,205 @@
       align-items: center;
     }
 
+    .word-order-shell {
+      display: grid;
+      gap: 12px;
+    }
+
+    .word-order-controls {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .word-order-card {
+      min-height: 100px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 18px 22px;
+      display: block;
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text);
+    }
+
+    .word-order-card.empty {
+      display: grid;
+      align-content: center;
+      text-align: center;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .word-order-prompt {
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      margin-bottom: 8px;
+    }
+
+    .word-order-hint-row {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .word-order-play-area {
+      display: grid;
+      gap: 10px;
+    }
+
+    .word-order-section-title {
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    .word-order-slots {
+      min-height: 58px;
+      border: 2px dashed var(--line);
+      border-radius: 8px;
+      background: #fafbfc;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      transition: border-color 0.2s, background-color 0.2s;
+    }
+
+    .word-order-slots.is-correct {
+      border: 2px solid #2e7d32;
+      background: #e8f5e9;
+    }
+
+    .word-order-slots.is-incorrect {
+      border: 2px solid #c62828;
+      background: #ffebee;
+    }
+
+    .word-order-placeholder {
+      color: var(--muted);
+      font-size: 14px;
+      user-select: none;
+      font-style: italic;
+    }
+
+    .word-order-bank {
+      min-height: 58px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #f8fafc;
+      padding: 12px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .word-order-chip {
+      appearance: none;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      padding: 8px 16px;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text);
+      cursor: pointer;
+      user-select: none;
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    .word-order-chip:hover {
+      border-color: var(--primary);
+      background: #f5f0ff;
+      transform: translateY(-1px);
+    }
+
+    .word-order-chip.in-slot {
+      background: #eff6ff;
+      border-color: #3b82f6;
+      color: #1d4ed8;
+    }
+
+    .word-order-chip.in-slot:hover {
+      background: #fee2e2;
+      border-color: #ef4444;
+      color: #b91c1c;
+    }
+
+    .word-order-chip:disabled,
+    .word-order-chip.used {
+      opacity: 0.28;
+      cursor: not-allowed;
+      pointer-events: none;
+      transform: none;
+      box-shadow: none;
+    }
+
+    .word-order-feedback {
+      display: none;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .word-order-feedback.show {
+      display: block;
+    }
+
+    .word-order-feedback.correct {
+      background: #e6f7e6;
+      color: #2e7d32;
+      border: 1px solid #a5d6a7;
+    }
+
+    .word-order-feedback.incorrect {
+      background: #fdecea;
+      color: #c62828;
+      border: 1px solid #ef9a9a;
+    }
+
+    .word-order-sample {
+      display: none;
+      padding: 12px;
+      border: 1px solid var(--primary);
+      border-radius: 6px;
+      background: #f5f0ff;
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--text);
+    }
+
+    .word-order-sample.show {
+      display: block;
+    }
+
+    .word-order-sample-label {
+      font-weight: 700;
+      color: var(--primary-dark);
+      margin-bottom: 4px;
+      font-size: 14px;
+    }
+
+    .word-order-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+
 
     .vocab-review-term {
       display: grid;
@@ -2181,9 +2380,7 @@
         <select class="tab-select" id="tab-select">
           <option value="instant-vocab-panel" selected>Instant Vocab</option>
           <option value="vocab-review-panel">Vocab Review</option>
-          <option value="writing-review-panel">Writing Review</option>
-          <option value="kana-panel">Kana</option>
-          <option value="kanji-panel">Kanji</option>
+          <option value="word-order-panel">Word Order Review</option>
           <option value="hot-review-panel">Hot Review</option>
         </select>
       </label>
@@ -2360,6 +2557,59 @@
           </div>
           <div class="vocab-review-zoom-content">
             <div class="vocab-review-card vocab-review-zoom-card" id="vocab-review-zoom-card"></div>
+          </div>
+        </div>
+      </dialog>
+    </section>
+
+    <section class="tab-panel" id="word-order-panel" role="tabpanel" aria-labelledby="tab-word-order">
+      <h2>Word Order Review</h2>
+      <p class="hint">Load CSV có header: vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order</p>
+      <div class="word-order-shell">
+        <div class="word-order-controls">
+          <button class="primary" id="word-order-load" type="button">Load CSV</button>
+          <button id="word-order-clear" type="button">Clear</button>
+          <button id="word-order-shuffle" type="button" disabled>Shuffle Review</button>
+          <button id="word-order-reset" type="button" disabled>Làm lại</button>
+          <button id="word-order-audio-play" type="button" disabled>🔊 Nghe câu</button>
+        </div>
+        <div class="status" id="word-order-status">Chưa có dữ liệu.</div>
+        <div class="word-order-card empty" id="word-order-card" aria-live="polite">
+          Dán CSV để bắt đầu.
+        </div>
+        <div class="word-order-play-area" id="word-order-play-area" style="display: none;">
+          <div class="word-order-section-title">Câu của bạn (bấm vào từ để hoàn tác):</div>
+          <div class="word-order-slots" id="word-order-slots" aria-live="polite">
+            <span class="word-order-placeholder">Bấm vào các từ bên dưới theo thứ tự đúng...</span>
+          </div>
+
+          <div class="word-order-section-title">Kho từ (bấm chọn theo thứ tự):</div>
+          <div class="word-order-bank" id="word-order-bank"></div>
+
+          <div class="word-order-feedback" id="word-order-feedback" aria-live="polite"></div>
+          <div class="word-order-sample" id="word-order-sample"></div>
+        </div>
+        <div class="word-order-actions">
+          <button id="word-order-prev" type="button" disabled>Previous</button>
+          <button id="word-order-show-answer" type="button" disabled>Xem đáp án</button>
+          <button class="primary" id="word-order-check" type="button" disabled>Kiểm tra</button>
+          <button id="word-order-next" type="button" disabled>Câu tiếp theo</button>
+        </div>
+        <audio id="word-order-audio" preload="auto"></audio>
+      </div>
+
+      <dialog class="vocab-dialog" id="word-order-csv-dialog" aria-labelledby="word-order-csv-title">
+        <div class="vocab-dialog-inner">
+          <div class="vocab-dialog-header">
+            <h2 id="word-order-csv-title">Load CSV - Word Order Review</h2>
+            <button class="vocab-dialog-close" id="word-order-csv-close" type="button" aria-label="Đóng">×</button>
+          </div>
+          <div class="vocab-dialog-content">
+            <textarea class="csv-modal-input" id="word-order-input" spellcheck="false" aria-label="CSV Word Order Review" placeholder="vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order"></textarea>
+            <div class="csv-dialog-actions">
+              <button id="word-order-csv-cancel" type="button">Hủy</button>
+              <button class="primary" id="word-order-csv-confirm" type="button">Xác nhận</button>
+            </div>
           </div>
         </div>
       </dialog>
@@ -2783,6 +3033,29 @@
       const writingReviewCsvCancel = document.getElementById("writing-review-csv-cancel");
       const writingReviewCsvConfirm = document.getElementById("writing-review-csv-confirm");
 
+      const wordOrderLoad = document.getElementById("word-order-load");
+      const wordOrderClear = document.getElementById("word-order-clear");
+      const wordOrderShuffle = document.getElementById("word-order-shuffle");
+      const wordOrderReset = document.getElementById("word-order-reset");
+      const wordOrderAudioPlay = document.getElementById("word-order-audio-play");
+      const wordOrderStatus = document.getElementById("word-order-status");
+      const wordOrderCard = document.getElementById("word-order-card");
+      const wordOrderPlayArea = document.getElementById("word-order-play-area");
+      const wordOrderSlots = document.getElementById("word-order-slots");
+      const wordOrderBank = document.getElementById("word-order-bank");
+      const wordOrderFeedback = document.getElementById("word-order-feedback");
+      const wordOrderSample = document.getElementById("word-order-sample");
+      const wordOrderPrev = document.getElementById("word-order-prev");
+      const wordOrderShowAnswer = document.getElementById("word-order-show-answer");
+      const wordOrderCheck = document.getElementById("word-order-check");
+      const wordOrderNext = document.getElementById("word-order-next");
+      const wordOrderAudio = document.getElementById("word-order-audio");
+      const wordOrderInput = document.getElementById("word-order-input");
+      const wordOrderCsvDialog = document.getElementById("word-order-csv-dialog");
+      const wordOrderCsvClose = document.getElementById("word-order-csv-close");
+      const wordOrderCsvCancel = document.getElementById("word-order-csv-cancel");
+      const wordOrderCsvConfirm = document.getElementById("word-order-csv-confirm");
+
       let lessons = [];
       let objectUrl = "";
       let activeTrackButton = null;
@@ -2810,6 +3083,12 @@
       let writingReviewItems = [];
       let writingReviewIndex = 0;
       let writingReviewCsvText = "";
+      let wordOrderItems = [];
+      let wordOrderIndex = 0;
+      let wordOrderCurrentTokens = [];
+      let wordOrderSelectedTokens = [];
+      let wordOrderBankTokens = [];
+      let wordOrderCsvText = "";
       const silentAudioDataUrl = "data:audio/wav;base64,UklGRigAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YQQAAAAAAAAA";
 
       const readGlobalPlaybackRate = () => {
@@ -3057,13 +3336,14 @@
 
         rows[0][0] = rows[0][0].replace(/^\uFEFF/, "");
         const header = rows[0].map((value) => value.trim());
-        if (header.length !== expectedHeader.length || header.some((value, index) => value !== expectedHeader[index])) {
-          throw new Error(`CSV header must be exactly: ${expectedHeader.join(",")}`);
+        const matchesBaseHeader = expectedHeader.every((value, index) => header[index] === value);
+        if (!matchesBaseHeader) {
+          throw new Error(`CSV header must start with: ${expectedHeader.join(",")}`);
         }
 
         return rows.slice(1).map((row, index) => {
-          if (row.length !== expectedHeader.length) {
-            throw new Error(`Line ${index + 2} must have ${expectedHeader.length} columns.`);
+          if (row.length < expectedHeader.length) {
+            throw new Error(`Line ${index + 2} must have at least ${expectedHeader.length} columns.`);
           }
 
           const [vocabulary, hiragana, meaningVi, exampleJa, exampleVi] = row.map((value) => value.trim());
@@ -3601,6 +3881,365 @@
         writingReviewCsvText = "";
         writingReviewIndex = 0;
         renderWritingReviewContent();
+      };
+
+      const parseWordOrderCsv = (text) => {
+        const rows = parseInstantVocabCsvRows(text.trim());
+        if (!rows.length) {
+          throw new Error("CSV rỗng.");
+        }
+
+        rows[0][0] = rows[0][0].replace(/^\uFEFF/, "");
+        const headers = rows[0].map((value) => value.trim());
+        const headerMap = new Map(headers.map((h, i) => [h.toLowerCase(), i]));
+
+        const hasSource = headerMap.has("word_order") || headerMap.has("example_ja") || headerMap.has("vocabulary");
+        if (!hasSource) {
+          throw new Error("CSV cần có ít nhất một trong các cột: word_order, example_ja, vocabulary");
+        }
+
+        const items = rows.slice(1).map((row, index) => {
+          const getVal = (col) => {
+            const idx = headerMap.get(col);
+            return idx !== undefined && idx < row.length ? row[idx].trim() : "";
+          };
+
+          const vocabulary = getVal("vocabulary");
+          const hiragana = getVal("hiragana");
+          const meaningVi = getVal("meaning_vi");
+          const exampleJa = getVal("example_ja");
+          const exampleVi = getVal("example_vi");
+          const wordOrderRaw = getVal("word_order");
+
+          if (!vocabulary && !hiragana && !meaningVi && !exampleJa && !exampleVi && !wordOrderRaw) {
+            return null;
+          }
+
+          let tokens = [];
+          if (wordOrderRaw) {
+            if (wordOrderRaw.includes("|")) {
+              tokens = wordOrderRaw.split("|").map((s) => s.trim()).filter(Boolean);
+            } else if (wordOrderRaw.includes("/")) {
+              tokens = wordOrderRaw.split("/").map((s) => s.trim()).filter(Boolean);
+            } else if (wordOrderRaw.includes(",")) {
+              tokens = wordOrderRaw.split(",").map((s) => s.trim()).filter(Boolean);
+            } else if (wordOrderRaw.includes(" ")) {
+              tokens = wordOrderRaw.split(/\s+/).map((s) => s.trim()).filter(Boolean);
+            } else {
+              tokens = [wordOrderRaw];
+            }
+          } else if (exampleJa) {
+            const cleanedJa = exampleJa.replace(/（[^）]+）/g, "");
+            if (cleanedJa.includes("|")) {
+              tokens = cleanedJa.split("|").map((s) => s.trim()).filter(Boolean);
+            } else if (cleanedJa.includes("/")) {
+              tokens = cleanedJa.split("/").map((s) => s.trim()).filter(Boolean);
+            } else if (cleanedJa.includes(" ")) {
+              tokens = cleanedJa.split(/\s+/).map((s) => s.trim()).filter(Boolean);
+            } else {
+              const matches = cleanedJa.match(/[\u4e00-\u9faf]+|[ぁ-ん]+|[ァ-ヶ]+|[a-zA-Z0-9]+|[^\s\u4e00-\u9fafぁ-んァ-ヶa-zA-Z0-9]+/g);
+              tokens = matches && matches.length > 1 ? matches : [cleanedJa];
+            }
+          } else if (vocabulary) {
+            tokens = [vocabulary];
+          }
+
+          if (!tokens.length) {
+            return null;
+          }
+
+          const targetSentence = tokens.join("");
+          const prompt = exampleVi || meaningVi || "Sắp xếp các từ thành câu đúng";
+
+          return {
+            vocabulary,
+            hiragana,
+            meaningVi,
+            exampleJa,
+            exampleVi,
+            wordOrderRaw,
+            tokens,
+            targetSentence,
+            prompt,
+          };
+        }).filter(Boolean);
+
+        return items;
+      };
+
+      const renderWordOrderContent = () => {
+        const items = wordOrderItems;
+
+        if (!items.length) {
+          wordOrderStatus.textContent = "Chưa có dữ liệu.";
+          wordOrderCard.classList.add("empty");
+          wordOrderCard.textContent = "Dán CSV để bắt đầu.";
+          wordOrderPlayArea.style.display = "none";
+          wordOrderPrev.disabled = true;
+          wordOrderShowAnswer.disabled = true;
+          wordOrderCheck.disabled = true;
+          wordOrderNext.disabled = true;
+          wordOrderShuffle.disabled = true;
+          wordOrderReset.disabled = true;
+          wordOrderAudioPlay.disabled = true;
+          wordOrderFeedback.classList.remove("show", "correct", "incorrect");
+          wordOrderFeedback.textContent = "";
+          wordOrderSample.classList.remove("show");
+          wordOrderSample.replaceChildren();
+          return;
+        }
+
+        const idx = wordOrderIndex;
+        const item = items[idx];
+        const total = items.length;
+
+        wordOrderStatus.textContent = `Câu ${idx + 1} / ${total}`;
+        wordOrderCard.classList.remove("empty");
+        wordOrderPlayArea.style.display = "grid";
+        wordOrderPrev.disabled = idx <= 0;
+        wordOrderNext.disabled = idx >= total - 1;
+        wordOrderShowAnswer.disabled = false;
+        wordOrderCheck.disabled = false;
+        wordOrderShuffle.disabled = false;
+        wordOrderReset.disabled = false;
+        wordOrderAudioPlay.disabled = false;
+
+        wordOrderFeedback.classList.remove("show", "correct", "incorrect");
+        wordOrderFeedback.textContent = "";
+        wordOrderSample.classList.remove("show");
+        wordOrderSample.replaceChildren();
+
+        wordOrderCard.replaceChildren();
+        const promptEl = document.createElement("div");
+        promptEl.className = "word-order-prompt";
+        promptEl.textContent = item.prompt;
+        wordOrderCard.appendChild(promptEl);
+
+        const hintRow = document.createElement("div");
+        hintRow.className = "word-order-hint-row";
+        if (item.vocabulary) {
+          const vocabSpan = document.createElement("span");
+          vocabSpan.textContent = `Từ vựng: ${item.vocabulary}${item.hiragana ? ` (${item.hiragana})` : ""}`;
+          hintRow.appendChild(vocabSpan);
+        }
+        if (item.meaningVi && item.meaningVi !== item.prompt) {
+          const meanSpan = document.createElement("span");
+          meanSpan.textContent = `Nghĩa từ: ${item.meaningVi}`;
+          hintRow.appendChild(meanSpan);
+        }
+        if (hintRow.children.length > 0) {
+          wordOrderCard.appendChild(hintRow);
+        }
+
+        wordOrderCurrentTokens = item.tokens.map((text, id) => ({ id, text }));
+        wordOrderSelectedTokens = [];
+        wordOrderBankTokens = shuffleVocabReviewCards([...wordOrderCurrentTokens]);
+
+        wordOrderSlots.classList.remove("is-correct", "is-incorrect");
+        renderWordOrderPlayArea();
+      };
+
+      const renderWordOrderPlayArea = () => {
+        wordOrderSlots.replaceChildren();
+        if (wordOrderSelectedTokens.length === 0) {
+          const placeholder = document.createElement("span");
+          placeholder.className = "word-order-placeholder";
+          placeholder.textContent = "Bấm vào các từ bên dưới theo thứ tự đúng...";
+          wordOrderSlots.appendChild(placeholder);
+        } else {
+          wordOrderSelectedTokens.forEach((token, selectedIndex) => {
+            const chip = document.createElement("button");
+            chip.type = "button";
+            chip.className = "word-order-chip in-slot";
+            chip.textContent = token.text;
+            chip.title = "Bấm để hoàn tác";
+            chip.addEventListener("click", () => {
+              wordOrderSelectedTokens.splice(selectedIndex, 1);
+              wordOrderBankTokens.push(token);
+              wordOrderSlots.classList.remove("is-correct", "is-incorrect");
+              wordOrderFeedback.classList.remove("show", "correct", "incorrect");
+              wordOrderFeedback.textContent = "";
+              renderWordOrderPlayArea();
+            });
+            wordOrderSlots.appendChild(chip);
+          });
+        }
+
+        wordOrderBank.replaceChildren();
+        wordOrderBankTokens.forEach((token, bankIndex) => {
+          const chip = document.createElement("button");
+          chip.type = "button";
+          chip.className = "word-order-chip";
+          chip.textContent = token.text;
+          chip.addEventListener("click", () => {
+            wordOrderBankTokens.splice(bankIndex, 1);
+            wordOrderSelectedTokens.push(token);
+            wordOrderSlots.classList.remove("is-correct", "is-incorrect");
+            wordOrderFeedback.classList.remove("show", "correct", "incorrect");
+            wordOrderFeedback.textContent = "";
+            renderWordOrderPlayArea();
+          });
+          wordOrderBank.appendChild(chip);
+        });
+      };
+
+      const checkWordOrder = () => {
+        if (!wordOrderItems.length) return;
+        const item = wordOrderItems[wordOrderIndex];
+
+        if (wordOrderSelectedTokens.length === 0) {
+          wordOrderFeedback.className = "word-order-feedback show incorrect";
+          wordOrderFeedback.textContent = "Vui lòng chọn từ để sắp xếp câu.";
+          return;
+        }
+
+        const userSequence = wordOrderSelectedTokens.map((t) => t.text).join("");
+        const targetSequence = wordOrderCurrentTokens.map((t) => t.text).join("");
+
+        if (userSequence === targetSequence) {
+          wordOrderSlots.classList.remove("is-incorrect");
+          wordOrderSlots.classList.add("is-correct");
+          wordOrderFeedback.className = "word-order-feedback show correct";
+          wordOrderFeedback.textContent = "Chính xác! 🎉 Bạn đã sắp xếp đúng câu.";
+
+          showWordOrderSampleContent(item);
+          playWordOrderAudio();
+        } else {
+          wordOrderSlots.classList.remove("is-correct");
+          wordOrderSlots.classList.add("is-incorrect");
+          wordOrderFeedback.className = "word-order-feedback show incorrect";
+          wordOrderFeedback.textContent = `Thứ tự chưa chính xác (${wordOrderSelectedTokens.length}/${wordOrderCurrentTokens.length} từ). Bạn có thể bấm vào từ để hoàn tác hoặc bấm 'Xem đáp án'.`;
+        }
+      };
+
+      const showWordOrderSampleContent = (item) => {
+        wordOrderSample.replaceChildren();
+        const label = document.createElement("div");
+        label.className = "word-order-sample-label";
+        label.textContent = "Câu hoàn chỉnh:";
+        wordOrderSample.appendChild(label);
+
+        const jaLine = document.createElement("div");
+        jaLine.style.fontSize = "18px";
+        jaLine.style.fontWeight = "700";
+        jaLine.style.color = "var(--primary-dark)";
+        jaLine.style.marginBottom = "4px";
+        appendJapaneseRubyText(jaLine, item.exampleJa || item.targetSentence);
+        wordOrderSample.appendChild(jaLine);
+
+        if (item.exampleVi || item.meaningVi) {
+          const viLine = document.createElement("div");
+          viLine.style.color = "var(--text)";
+          viLine.textContent = item.exampleVi || item.meaningVi;
+          wordOrderSample.appendChild(viLine);
+        }
+
+        wordOrderSample.classList.add("show");
+      };
+
+      const showWordOrderAnswer = () => {
+        if (!wordOrderItems.length) return;
+        const item = wordOrderItems[wordOrderIndex];
+
+        wordOrderSelectedTokens = [...wordOrderCurrentTokens];
+        wordOrderBankTokens = [];
+        wordOrderSlots.classList.remove("is-incorrect");
+        wordOrderSlots.classList.add("is-correct");
+
+        wordOrderFeedback.className = "word-order-feedback show correct";
+        wordOrderFeedback.textContent = "Đáp án đúng:";
+
+        showWordOrderSampleContent(item);
+        renderWordOrderPlayArea();
+        playWordOrderAudio();
+      };
+
+      const resetCurrentWordOrder = () => {
+        if (!wordOrderItems.length) return;
+        wordOrderSelectedTokens = [];
+        wordOrderBankTokens = shuffleVocabReviewCards([...wordOrderCurrentTokens]);
+        wordOrderSlots.classList.remove("is-correct", "is-incorrect");
+        wordOrderFeedback.classList.remove("show", "correct", "incorrect");
+        wordOrderFeedback.textContent = "";
+        wordOrderSample.classList.remove("show");
+        wordOrderSample.replaceChildren();
+        renderWordOrderPlayArea();
+      };
+
+      const shuffleWordOrderList = () => {
+        if (wordOrderItems.length <= 1) return;
+        wordOrderItems = shuffleVocabReviewCards(wordOrderItems);
+        wordOrderIndex = 0;
+        renderWordOrderContent();
+      };
+
+      const prevWordOrder = () => {
+        if (wordOrderIndex > 0) {
+          wordOrderIndex -= 1;
+          renderWordOrderContent();
+        }
+      };
+
+      const nextWordOrder = () => {
+        if (wordOrderIndex < wordOrderItems.length - 1) {
+          wordOrderIndex += 1;
+          renderWordOrderContent();
+        }
+      };
+
+      const playWordOrderAudio = async () => {
+        if (!wordOrderItems.length) return;
+        const item = wordOrderItems[wordOrderIndex];
+        const speechText = stripJapaneseFuriganaForTts(item.exampleJa || item.targetSentence);
+        if (!speechText) return;
+
+        wordOrderAudioPlay.disabled = true;
+        try {
+          const url = await getVocabReviewAudioUrl(speechText);
+          wordOrderAudio.src = url;
+          await wordOrderAudio.play();
+        } catch (error) {
+          console.error("Audio playback error:", error);
+        } finally {
+          wordOrderAudioPlay.disabled = false;
+        }
+      };
+
+      const loadWordOrderCsv = () => {
+        const text = wordOrderInput.value.trim();
+        if (!text) {
+          alert("Vui lòng dán dữ liệu CSV.");
+          return false;
+        }
+
+        try {
+          const parsed = parseWordOrderCsv(text);
+          if (!parsed.length) {
+            throw new Error("Không có dữ liệu hợp lệ.");
+          }
+          wordOrderItems = parsed;
+        } catch (error) {
+          alert(error.message || "Không thể phân tích CSV.");
+          return false;
+        }
+
+        wordOrderCsvText = text;
+        wordOrderIndex = 0;
+        renderWordOrderContent();
+        return true;
+      };
+
+      const clearWordOrderData = () => {
+        const hasData = Boolean(wordOrderInput.value.trim()) || wordOrderItems.length > 0;
+        if (hasData && !window.confirm("Bạn có chắc muốn xóa dữ liệu Word Order không?")) {
+          return;
+        }
+
+        wordOrderInput.value = "";
+        wordOrderItems = [];
+        wordOrderCsvText = "";
+        wordOrderIndex = 0;
+        renderWordOrderContent();
       };
 
       const updateInstantRowStatus = (index, statusValue, statusText) => {
@@ -4931,6 +5570,24 @@
       writingReviewNext.addEventListener("click", nextWritingReview);
 
       writingReviewCopy.addEventListener("click", copyWritingReviewCsv);
+
+      bindCsvDialog({
+        dialog: wordOrderCsvDialog,
+        openButton: wordOrderLoad,
+        closeButtons: [wordOrderCsvClose, wordOrderCsvCancel],
+        confirmButton: wordOrderCsvConfirm,
+        input: wordOrderInput,
+        load: loadWordOrderCsv,
+      });
+
+      wordOrderClear.addEventListener("click", clearWordOrderData);
+      wordOrderShuffle.addEventListener("click", shuffleWordOrderList);
+      wordOrderReset.addEventListener("click", resetCurrentWordOrder);
+      wordOrderAudioPlay.addEventListener("click", playWordOrderAudio);
+      wordOrderCheck.addEventListener("click", checkWordOrder);
+      wordOrderShowAnswer.addEventListener("click", showWordOrderAnswer);
+      wordOrderPrev.addEventListener("click", prevWordOrder);
+      wordOrderNext.addEventListener("click", nextWordOrder);
 
       window.addEventListener("keydown", (event) => {
         const isAdvanceKey = event.code === "Space" || event.code === "Enter" || event.code === "NumpadEnter";
