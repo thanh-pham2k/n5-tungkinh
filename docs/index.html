@@ -2612,8 +2612,8 @@
         <div class="word-order-actions">
           <button id="word-order-prev" type="button" disabled title="Phím tắt: ← (Mũi tên trái)">Previous</button>
           <button id="word-order-show-answer" type="button" disabled>Xem đáp án</button>
-          <button class="primary" id="word-order-check" type="button" disabled title="Phím tắt: Space (Phím cách)">Kiểm tra</button>
-          <button id="word-order-next" type="button" disabled title="Phím tắt: → (Mũi tên phải)">Câu tiếp theo</button>
+          <button class="primary" id="word-order-check" type="button" disabled title="Phím tắt: Enter hoặc Space">Kiểm tra</button>
+          <button id="word-order-next" type="button" disabled title="Phím tắt: → (Mũi tên phải) hoặc Enter khi đã kiểm tra">Câu tiếp theo</button>
         </div>
         <audio id="word-order-audio" preload="auto"></audio>
       </div>
@@ -5715,10 +5715,11 @@
       window.addEventListener("keydown", (event) => {
         if (tabSelect.value === "word-order-panel") {
           const isSpaceKey = event.code === "Space";
+          const isEnterKey = event.code === "Enter" || event.code === "NumpadEnter";
           const isLeftKey = event.code === "ArrowLeft" || (event.code === "KeyJ" && !event.ctrlKey && !event.metaKey && !event.altKey);
           const isRightKey = event.code === "ArrowRight" || (event.code === "KeyL" && !event.ctrlKey && !event.metaKey && !event.altKey);
 
-          if (isSpaceKey || isLeftKey || isRightKey) {
+          if (isSpaceKey || isEnterKey || isLeftKey || isRightKey) {
             const target = event.target;
             const tagName = target && target.tagName ? target.tagName.toLowerCase() : "";
             if (tagName === "textarea" || (tagName === "input" && target.type !== "button" && target.type !== "checkbox") || tagName === "select" || (wordOrderCsvDialog && wordOrderCsvDialog.open)) {
@@ -5732,6 +5733,17 @@
             }
             if (isRightKey) {
               nextWordOrder();
+              return;
+            }
+            if (isEnterKey) {
+              const isChecked = wordOrderSlots.classList.contains("is-correct")
+                || wordOrderSlots.classList.contains("is-incorrect")
+                || wordOrderFeedback.classList.contains("show");
+              if (isChecked) {
+                nextWordOrder();
+              } else {
+                checkWordOrder();
+              }
               return;
             }
             if (isSpaceKey) {
