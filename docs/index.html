@@ -2395,8 +2395,8 @@
       <label class="tab-select-field" for="tab-select">
         Nội dung học
         <select class="tab-select" id="tab-select">
-          <option value="instant-vocab-panel">Instant Vocab</option>
-          <option value="word-order-panel" selected>Word Order Review</option>
+          <option value="instant-vocab-panel" selected>Instant Vocab</option>
+          <option value="word-order-panel">Word Order Review</option>
           <option value="vocab-review-panel">Vocab Review</option>
           <option value="hot-review-panel">Hot Review</option>
         </select>
@@ -2479,7 +2479,7 @@
       <div class="status" id="looper-status">Chưa chọn file.</div>
     </section>
 
-    <section class="tab-panel" id="instant-vocab-panel" role="tabpanel" aria-labelledby="tab-instant-vocab">
+    <section class="tab-panel active" id="instant-vocab-panel" role="tabpanel" aria-labelledby="tab-instant-vocab">
       <h2>Instant Vocab</h2>
       <p class="hint">Load CSV 5 cột. Mỗi phần audio dùng Số lần lặp global: đọc tiếng Việt trước, sau đó đọc ngôn ngữ đã chọn.</p>
       <div class="instant-vocab-shell">
@@ -2579,7 +2579,7 @@
       </dialog>
     </section>
 
-    <section class="tab-panel active" id="word-order-panel" role="tabpanel" aria-labelledby="tab-word-order">
+    <section class="tab-panel" id="word-order-panel" role="tabpanel" aria-labelledby="tab-word-order">
       <h2>Word Order Review</h2>
       <p class="hint">
         Load CSV có header: <code>vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order</code><br>
