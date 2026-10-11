@@ -6058,7 +6058,7 @@
         button.disabled = !days.length;
         button.addEventListener("click", () => {
           chosen.clear();
-          select.value = "";
+          select.value = ['writing','topic-vocab'].includes(preset.mode) ? days[0]?.date || '' : '';
           topicSelect.value = "";
           render();
           dialog.showModal();

@@ -14,6 +14,8 @@ IELTS gồm Education, Technology, Environment, Health, Work, Cities and Transpo
 
 ## Cách học
 
+Bộ bài được chia thành **48 ngày**, từ 11/10/2026 đến 27/11/2026: mỗi ngày 5–6 câu + 4–6 thẻ từ/cụm cùng chủ đề. Mỗi chủ đề học trong 3 ngày, từ câu dễ đến câu khó. Xem [DAILY_PLAN.md](DAILY_PLAN.md). Đây là lịch gợi ý, không phải nhật ký đã hoàn thành. Dialog mở sẵn ngày đầu; bạn có thể đổi sang ngày khác hoặc Tất cả ngày.
+
 1. Chọn chủ đề trong Vocab Review và ôn collocation cùng ví dụ.
 2. Đọc Sentence Structures cùng chủ đề; thay thành phần trong mẫu bằng ý của bạn.
 3. Trong Word Order, bấm Chọn câu Writing theo chủ đề, lọc ngày/chủ đề và tick câu cần học.
