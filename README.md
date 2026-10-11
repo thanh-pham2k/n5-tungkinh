@@ -66,6 +66,10 @@ Each group separated by `---` becomes one audio file in `output\<input-file-name
 
 Generated lesson MP3 files are committed so they can be downloaded on another device. TTS cache and silence clips are ignored by Git. The web player reads `docs/data/lesson-mapper.json`, which is generated from `input/*.txt` by `make_vocab_audio.py`.
 
+## IELTS Speaking presets
+
+Instant Vocab and Word Order Review include dated IELTS lessons. Choose a day and click **Nạp bài IELTS**; playback language switches to English. Sources and update instructions are documented in [IELTS_UPDATE_NOTES.md](IELTS_UPDATE_NOTES.md).
+
 ## Deployment without GitHub Actions
 
 This repo is a static site and does not need GitHub Actions. Enable GitHub Pages from the branch instead:

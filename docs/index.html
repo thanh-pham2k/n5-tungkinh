@@ -2481,6 +2481,11 @@
 
     <section class="tab-panel active" id="instant-vocab-panel" role="tabpanel" aria-labelledby="tab-instant-vocab">
       <h2>Instant Vocab</h2>
+      <div class="instant-vocab-controls">
+        <label for="ielts-instant-day">IELTS Speaking · chọn ngày</label>
+        <select id="ielts-instant-day" aria-label="Ngày luyện IELTS Instant Vocab"></select>
+        <button type="button" id="ielts-instant-load">Nạp bài IELTS</button>
+      </div>
       <p class="hint">Load CSV 5 cột. Mỗi phần audio dùng Số lần lặp global: đọc tiếng Việt trước, sau đó đọc ngôn ngữ đã chọn.</p>
       <div class="instant-vocab-shell">
         <div class="instant-vocab-controls">
@@ -2581,6 +2586,11 @@
 
     <section class="tab-panel" id="word-order-panel" role="tabpanel" aria-labelledby="tab-word-order">
       <h2>Word Order Review</h2>
+      <div class="word-order-controls">
+        <label for="ielts-word-day">IELTS Speaking · chọn ngày</label>
+        <select id="ielts-word-day" aria-label="Ngày luyện IELTS Word Order"></select>
+        <button type="button" id="ielts-word-load">Nạp bài IELTS</button>
+      </div>
       <p class="hint">
         Load CSV có header: <code>vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order</code><br>
         Ví dụ: <code>私,わたし,Tôi,私（わたし）は学生（がくせい）です。,Tôi là học sinh.,私|は|学生|です</code>
@@ -2951,6 +2961,7 @@
 
   <button class="back-to-top" id="back-to-top" type="button" aria-label="Trở về đầu trang">↑</button>
 
+  <script src="ielts/practice-data.js"></script>
   <script src="js/final-review-mcq.js?v=20260704-hot-review" defer></script>
   <script>
     (() => {
@@ -4385,7 +4396,7 @@
 
           const reading = document.createElement("span");
           reading.className = "instant-vocab-reading";
-          appendJapaneseRubyText(reading, item.hiragana || "(missing hiragana)");
+          appendJapaneseRubyText(reading, item.hiragana || (readGlobalLanguage() === "en" ? "" : "(missing hiragana)"));
 
           term.append(kanji, reading);
 
@@ -5891,6 +5902,31 @@
         revokeLocalUrl();
       });
 
+      // IELTS presets are generated from road-2-ielts; see IELTS_UPDATE_NOTES.md.
+      for (const preset of [
+        { mode: "instant-vocab", select: "ielts-instant-day", button: "ielts-instant-load", input: instantVocabInput, load: loadInstantVocabCsv },
+        { mode: "word-order", select: "ielts-word-day", button: "ielts-word-load", input: wordOrderInput, load: loadWordOrderCsv },
+      ]) {
+        const days = window.IELTS_PRACTICE?.[preset.mode] || [];
+        const select = document.getElementById(preset.select);
+        const button = document.getElementById(preset.button);
+        days.forEach((day, index) => {
+          const option = document.createElement("option");
+          option.value = String(index);
+          option.textContent = `${day.date} · ${day.count} câu`;
+          select.append(option);
+        });
+        button.disabled = !days.length;
+        button.addEventListener("click", () => {
+          const day = days[Number(select.value)];
+          if (!day) return;
+          stopInstantPlayback("");
+          globalLanguageSelect.value = "en";
+          globalLanguageSelect.dispatchEvent(new Event("change"));
+          preset.input.value = day.csv;
+          preset.load();
+        });
+      }
       init();
     })();
   </script>
