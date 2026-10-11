@@ -68,6 +68,8 @@ Generated lesson MP3 files are committed so they can be downloaded on another de
 
 ## IELTS Speaking presets
 
+Writing materials now cover Work English and IELTS: 246 sentence exercises in Word Order, 242 vocabulary/collocation cards in Vocab Review, and 216 pattern examples in Sentence Structures across 16 topics. Filter by topic/date and select what to load. Source and update guide: `road-2-ielts/writing/README.md`.
+
 Instant Vocab and Word Order Review include IELTS lessons. Click **Chọn câu IELTS…**, filter by date, check the sentences to study, then click **Nạp các câu đã chọn**; playback language switches to English. Sources and update instructions are documented in [IELTS_UPDATE_NOTES.md](IELTS_UPDATE_NOTES.md).
 
 ## Deployment without GitHub Actions

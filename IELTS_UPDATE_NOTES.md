@@ -6,18 +6,21 @@ Mapping:
 
 - `speaking/Instant_Vocab_Practice.md` → Instant Vocab.
 - `speaking/Word_Order_Practice.md` → Word Order Review.
-- `writing/Writing_Practice.md` → Word Order Review: Chọn câu Writing theo chủ đề. CSV 6 cột; 30 câu thuộc 10 chủ đề, mỗi chủ đề mức 1 → 2 → 3. Thay bộ Writing Review bài dài cũ.
-- `writing/Topic_Vocabulary.md` → Vocab Review: Chọn từ vựng IELTS theo chủ đề. CSV 5 cột; 50 thẻ theo cùng 10 chủ đề có nghĩa và ví dụ song ngữ. Dialog lọc ngày + chủ đề. Chỉ luyện câu và từ vựng; chưa làm bài dài, không chấm band.
+- `writing/Writing_Practice.md` → Word Order Review: 246 câu thuộc 16 chủ đề, nạp theo mức 1 → 2 → 3.
+- `writing/Topic_Vocabulary.md` → Vocab Review: 242 thẻ theo 16 chủ đề có nghĩa và ví dụ song ngữ. Dialog lọc ngày + chủ đề.
+- `writing/Sentence_Structures.md` → Sentence Structures: 216 mẫu/ví dụ tái sử dụng theo 16 chủ đề.
 
 Hai chế độ có nút **Chọn câu IELTS…** mở dialog. Người dùng lọc theo ngày, tick từng câu rồi bấm **Nạp các câu đã chọn**. Mặc định không tick câu nào; lựa chọn được giữ qua các bộ lọc ngày trong lần mở dialog, có chọn tất cả đang hiển thị và bỏ chọn tất cả. Mỗi lần mở lại bắt đầu lựa chọn mới; Hủy không thay dữ liệu đang học. Khi nạp, app dùng English cho audio. Tên cột CSV vẫn theo schema hiện có của app; không đổi `example_ja` thành tên cột khác.
 
 ## Cập nhật đúng lần sau
 
+Đã mở rộng theo mục tiêu mới: luyện từng câu cho Work English + IELTS, ưu tiên mẫu tái sử dụng. 16 chủ đề gồm 6 Work và 10 IELTS; 246 câu Word Order; 242 thẻ collocation/từ vựng; 216 mẫu/ví dụ trong mục Sentence Structures. `writing/Sentence_Structures.md` ở repo nguồn là nguồn cho mục mới. Script đồng bộ gộp các block cùng ngày/chủ đề và sắp xếp câu theo mức dễ đến khó. Kiểm tra bằng `node scripts/verify-materials.mjs E:/n5-tungkinh` từ repo nguồn. Không quay lại bộ Writing bài dài hoặc tạo app riêng.
+
 1. Sửa Markdown nguồn trong `E:/road-2-ielts/speaking/` (không sửa bản copy ở repo này).
 2. Pull repo này trước khi đồng bộ.
 3. Từ `E:/road-2-ielts`, chạy `node scripts/sync-n5.mjs E:/n5-tungkinh`.
-4. Script copy 4 file Markdown vào `docs/ielts/speaking/` và sinh `docs/ielts/practice-data.js`. Không sửa tay file JS được sinh.
-5. Kiểm tra số ngày, chọn ngày và nạp bài trong cả hai chế độ, rồi add + commit + push ở cả hai repo.
+4. Script copy tài liệu Speaking/Writing vào `docs/ielts/` và sinh `docs/ielts/practice-data.js`. Không sửa tay file JS được sinh.
+5. Kiểm tra bộ lọc ngày/chủ đề, nạp câu vào Word Order, nạp collocation vào Vocab Review và xem mẫu trong Sentence Structures; add + commit + push cả hai repo.
 
 Các ngày được đọc từ heading `### YYYY-MM-DD`. Mỗi ngày gom các block CSV thành một bài, chỉ giữ một header. Instant Vocab có 5 cột; Word Order có 6 cột với `word_order`, ngăn cụm bằng `|`. Script kiểm tra số cột và câu ghép từ các cụm. Hiện parser đồng bộ không hỗ trợ dấu phẩy bên trong ô.
 

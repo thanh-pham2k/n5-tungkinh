@@ -2397,12 +2397,20 @@
         <select class="tab-select" id="tab-select">
           <option value="instant-vocab-panel" selected>Instant Vocab</option>
           <option value="word-order-panel">Word Order Review</option>
+          <option value="sentence-structures-panel">Sentence Structures</option>
           <option value="vocab-review-panel">Vocab Review</option>
           <option value="hot-review-panel">Hot Review</option>
         </select>
       </label>
     </div>
 
+    <section class="tab-panel" id="sentence-structures-panel" role="tabpanel" aria-label="Sentence Structures">
+      <h2>Sentence Structures</h2>
+      <p class="hint">Mẫu câu tái sử dụng cho Work English và IELTS. Thay phần trong ngoặc bằng nội dung của bạn, rồi luyện trong Word Order.</p>
+      <p class="hint">S = chủ ngữ; V = động từ; clause = mệnh đề; noun = danh từ; V-ing = dạng -ing. Sau could/should/will/can dùng động từ nguyên mẫu; suggest + V-ing.</p>
+      <label>Chủ đề <select id="sentence-structures-topic" aria-label="Chủ đề Sentence Structures"></select></label>
+      <div id="sentence-structures-list"></div>
+    </section>
     <section class="tab-panel" id="audio-panel" role="tabpanel" aria-labelledby="tab-audio">
       <h2>Audio public</h2>
       <p class="hint">Track đang chọn sẽ được tô nền xanh.</p>
@@ -5901,6 +5909,28 @@
         revokeLocalUrl();
       });
 
+      const structureTopics = window.IELTS_PRACTICE?.structures || [];
+      const structureSelect = document.getElementById('sentence-structures-topic');
+      const structureList = document.getElementById('sentence-structures-list');
+      structureTopics.forEach((topic,index) => { const option = document.createElement('option'); option.value = String(index); option.textContent = topic.topic; structureSelect.append(option); });
+      const renderStructures = () => {
+        structureList.replaceChildren();
+        const topic = structureTopics[Number(structureSelect.value)];
+        if (!topic) return;
+        topic.items.forEach(item => {
+          const card = document.createElement('article');
+          card.className = 'instant-vocab-card';
+          card.style.cssText = 'display:block;margin:12px 0;padding:18px';
+          for (const [label,value] of [['Chức năng',item.purpose],['Mẫu',item.pattern],['Ví dụ',item.example],['Nghĩa',item.meaning]]) {
+            const line = document.createElement('p'); line.style.margin = '6px 0';
+            const title = document.createElement('strong'); title.textContent = `${label}: `;
+            line.append(title, document.createTextNode(value)); card.append(line);
+          }
+          structureList.append(card);
+        });
+      };
+      structureSelect.addEventListener('change',renderStructures);
+      renderStructures();
       // IELTS presets are generated from road-2-ielts; see IELTS_UPDATE_NOTES.md.
       for (const preset of [
         { mode: "instant-vocab", button: "ielts-instant-load", input: instantVocabInput, load: loadInstantVocabCsv },
@@ -5911,7 +5941,7 @@
         const days = window.IELTS_PRACTICE?.[preset.mode] || [];
         const button = document.getElementById(preset.button);
         const entries = days.flatMap((day, dayIndex) => day.csv.split(/\r?\n/).slice(1).filter(Boolean).map((row, index) => ({
-          id: `${dayIndex}:${index}`, date: day.date, topic: day.topic || '', row, fields: parseInstantVocabCsvRows(row)[0],
+          id: `${dayIndex}:${index}`, date: day.date, topic: day.topic || '', level: day.levels?.[index], row, fields: parseInstantVocabCsvRows(row)[0],
         })));
         const chosen = new Set();
         const dialog = document.createElement("dialog");
@@ -5961,7 +5991,7 @@
             const date = document.createElement("small");
             date.textContent = entry.date;
             text.append(sentence, meaning);
-            if (entry.topic) { const topic = document.createElement('small'); topic.textContent = `${entry.topic}${preset.mode === 'writing' ? ' · Mức ' + (Number(entry.id.split(':')[1]) + 1) : ''}`; text.append(topic); }
+            if (entry.topic) { const topic = document.createElement('small'); topic.textContent = `${entry.topic}${preset.mode === 'writing' ? ' · Mức ' + entry.level : ''}`; text.append(topic); }
             if (!select.value) text.append(date);
             label.append(checkbox, text);
             list.append(label);
