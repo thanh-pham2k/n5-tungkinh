@@ -5950,7 +5950,8 @@
             meaning.textContent = entry.fields[2];
             const date = document.createElement("small");
             date.textContent = entry.date;
-            text.append(sentence, meaning, date);
+            text.append(sentence, meaning);
+            if (!select.value) text.append(date);
             label.append(checkbox, text);
             list.append(label);
             checkbox.addEventListener("change", () => {
