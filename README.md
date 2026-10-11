@@ -68,7 +68,7 @@ Generated lesson MP3 files are committed so they can be downloaded on another de
 
 ## IELTS Speaking presets
 
-Instant Vocab and Word Order Review include dated IELTS lessons. Choose a day and click **Nạp bài IELTS**; playback language switches to English. Sources and update instructions are documented in [IELTS_UPDATE_NOTES.md](IELTS_UPDATE_NOTES.md).
+Instant Vocab and Word Order Review include IELTS lessons. Click **Chọn câu IELTS…**, filter by date, check the sentences to study, then click **Nạp các câu đã chọn**; playback language switches to English. Sources and update instructions are documented in [IELTS_UPDATE_NOTES.md](IELTS_UPDATE_NOTES.md).
 
 ## Deployment without GitHub Actions
 

@@ -2482,9 +2482,7 @@
     <section class="tab-panel active" id="instant-vocab-panel" role="tabpanel" aria-labelledby="tab-instant-vocab">
       <h2>Instant Vocab</h2>
       <div class="instant-vocab-controls">
-        <label for="ielts-instant-day">IELTS Speaking · chọn ngày</label>
-        <select id="ielts-instant-day" aria-label="Ngày luyện IELTS Instant Vocab"></select>
-        <button type="button" id="ielts-instant-load">Nạp bài IELTS</button>
+        <button type="button" id="ielts-instant-load">Chọn câu IELTS…</button>
       </div>
       <p class="hint">Load CSV 5 cột. Mỗi phần audio dùng Số lần lặp global: đọc tiếng Việt trước, sau đó đọc ngôn ngữ đã chọn.</p>
       <div class="instant-vocab-shell">
@@ -2587,9 +2585,7 @@
     <section class="tab-panel" id="word-order-panel" role="tabpanel" aria-labelledby="tab-word-order">
       <h2>Word Order Review</h2>
       <div class="word-order-controls">
-        <label for="ielts-word-day">IELTS Speaking · chọn ngày</label>
-        <select id="ielts-word-day" aria-label="Ngày luyện IELTS Word Order"></select>
-        <button type="button" id="ielts-word-load">Nạp bài IELTS</button>
+        <button type="button" id="ielts-word-load">Chọn câu IELTS…</button>
       </div>
       <p class="hint">
         Load CSV có header: <code>vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order</code><br>
@@ -5904,27 +5900,86 @@
 
       // IELTS presets are generated from road-2-ielts; see IELTS_UPDATE_NOTES.md.
       for (const preset of [
-        { mode: "instant-vocab", select: "ielts-instant-day", button: "ielts-instant-load", input: instantVocabInput, load: loadInstantVocabCsv },
-        { mode: "word-order", select: "ielts-word-day", button: "ielts-word-load", input: wordOrderInput, load: loadWordOrderCsv },
+        { mode: "instant-vocab", button: "ielts-instant-load", input: instantVocabInput, load: loadInstantVocabCsv },
+        { mode: "word-order", button: "ielts-word-load", input: wordOrderInput, load: loadWordOrderCsv },
       ]) {
         const days = window.IELTS_PRACTICE?.[preset.mode] || [];
-        const select = document.getElementById(preset.select);
         const button = document.getElementById(preset.button);
-        days.forEach((day, index) => {
+        const entries = days.flatMap(day => day.csv.split(/\r?\n/).slice(1).filter(Boolean).map((row, index) => ({
+          id: `${day.date}:${index}`, date: day.date, row, fields: parseInstantVocabCsvRows(row)[0],
+        })));
+        const chosen = new Set();
+        const dialog = document.createElement("dialog");
+        dialog.className = "vocab-dialog";
+        dialog.setAttribute("aria-labelledby", `ielts-title-${preset.mode}`);
+        dialog.innerHTML = `<div class="vocab-dialog-inner">
+          <div class="vocab-dialog-header"><h2 id="ielts-title-${preset.mode}">Chọn câu IELTS · ${preset.mode === "instant-vocab" ? "Instant Vocab" : "Word Order"}</h2><button type="button" class="vocab-dialog-close" aria-label="Đóng chọn câu IELTS">×</button></div>
+          <div class="vocab-dialog-content">
+            <label>Lọc theo ngày <select aria-label="Lọc ngày IELTS"><option value="">Tất cả ngày</option></select></label>
+            <div class="csv-dialog-actions" style="margin:12px 0"><button type="button" data-select-visible>Chọn tất cả đang hiển thị</button><button type="button" data-clear> bỏ chọn tất cả</button></div>
+            <p data-count aria-live="polite"></p><div data-list style="max-height:45vh;overflow:auto"></div>
+            <div class="csv-dialog-actions"><button type="button" data-cancel>Hủy</button><button type="button" class="primary" data-confirm disabled>Nạp các câu đã chọn</button></div>
+          </div></div>`;
+        document.body.append(dialog);
+        const select = dialog.querySelector("select");
+        days.forEach(day => {
           const option = document.createElement("option");
-          option.value = String(index);
+          option.value = day.date;
           option.textContent = `${day.date} · ${day.count} câu`;
           select.append(option);
         });
+        const list = dialog.querySelector("[data-list]");
+        const confirm = dialog.querySelector("[data-confirm]");
+        const visibleEntries = () => entries.filter(entry => !select.value || entry.date === select.value);
+        const updateCount = () => {
+          dialog.querySelector("[data-count]").textContent = `${chosen.size} câu đã chọn · ${visibleEntries().length} câu đang hiển thị. Lựa chọn được giữ khi đổi bộ lọc ngày.`;
+          confirm.disabled = chosen.size === 0;
+        };
+        const render = () => {
+          list.replaceChildren();
+          visibleEntries().forEach(entry => {
+            const label = document.createElement("label");
+            label.style.cssText = "display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #ddd;cursor:pointer";
+            const checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.checked = chosen.has(entry.id);
+            const text = document.createElement("span");
+            const sentence = document.createElement("strong");
+            sentence.textContent = entry.fields[0];
+            const meaning = document.createElement("div");
+            meaning.textContent = entry.fields[2];
+            const date = document.createElement("small");
+            date.textContent = entry.date;
+            text.append(sentence, meaning, date);
+            label.append(checkbox, text);
+            list.append(label);
+            checkbox.addEventListener("change", () => {
+              if (checkbox.checked) chosen.add(entry.id); else chosen.delete(entry.id);
+              updateCount();
+            });
+          });
+          updateCount();
+        };
+        select.addEventListener("change", render);
+        dialog.querySelector("[data-select-visible]").addEventListener("click", () => { visibleEntries().forEach(entry => chosen.add(entry.id)); render(); });
+        dialog.querySelector("[data-clear]").addEventListener("click", () => { chosen.clear(); render(); });
+        dialog.querySelector(".vocab-dialog-close").addEventListener("click", () => dialog.close());
+        dialog.querySelector("[data-cancel]").addEventListener("click", () => dialog.close());
         button.disabled = !days.length;
         button.addEventListener("click", () => {
-          const day = days[Number(select.value)];
-          if (!day) return;
+          chosen.clear();
+          select.value = "";
+          render();
+          dialog.showModal();
+        });
+        confirm.addEventListener("click", () => {
+          const selected = entries.filter(entry => chosen.has(entry.id));
+          if (!selected.length) return;
           stopInstantPlayback("");
           globalLanguageSelect.value = "en";
           globalLanguageSelect.dispatchEvent(new Event("change"));
-          preset.input.value = day.csv;
-          preset.load();
+          preset.input.value = [days[0].csv.split(/\r?\n/)[0], ...selected.map(entry => entry.row)].join("\n");
+          if (preset.load()) dialog.close();
         });
       }
       init();
