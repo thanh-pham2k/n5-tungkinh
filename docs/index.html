@@ -2346,6 +2346,26 @@
       }
     }
 
+    .ielts-picker .vocab-dialog-content { display:flex; flex-direction:column; gap:16px; }
+    .ielts-picker-filters { display:grid; grid-template-columns:1fr 1fr; gap:14px; background:#f4f8f8; padding:16px; border-radius:16px; border:1px solid #e0eaea; }
+    .ielts-picker-filters label { font-size:13px; font-weight:600; color:#536775; display:grid; gap:8px; }
+    .ielts-picker-filters select { background:white; border-radius:12px; font-size:14px; }
+    .ielts-picker-actions { display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+    .ielts-picker-actions button { font-size:13px; padding:10px 12px; }
+    .ielts-random-count { display:flex; gap:8px; align-items:center; font-size:13px; color:#596c79; }
+    .ielts-random-count input { width:68px; padding:9px; border:1px solid #d5e2e5; border-radius:10px; }
+    .ielts-picker [data-count] { margin:0; font-size:13px; color:#667985; line-height:1.6; }
+    .ielts-picker-list { max-height:42vh; overflow:auto; display:grid; gap:8px; padding:2px 6px 2px 2px; }
+    .ielts-picker-row { display:flex; gap:13px; align-items:flex-start; padding:15px; border:1px solid #e1e8eb; border-radius:13px; cursor:pointer; background:#fff; }
+    .ielts-picker-row:has(input:checked) { background:#eff9f7; border-color:#73b5ac; }
+    .ielts-picker-row input { flex-shrink:0; margin-top:4px; accent-color:#008578; }
+    .ielts-picker-text { min-width:0; flex:1; }
+    .ielts-picker-text strong { font-size:15px; line-height:1.5; }
+    .ielts-picker-meaning { color:#657583; font-size:14px; line-height:1.5; margin-top:4px; font-weight:400; }
+    .ielts-picker-meta { display:flex; flex-wrap:wrap; gap:6px; margin-top:9px; align-items:center; }
+    .ielts-topic-badge { display:inline-block; background:#eaf0f7; color:#45627c; padding:4px 9px; border-radius:20px; font-size:11px; font-weight:500; }
+    .ielts-date-badge { font-size:11px; color:#86929d; padding:4px 6px; }
+    @media(max-width:600px) { .ielts-picker-filters { grid-template-columns:1fr; padding:12px; } .ielts-picker-row { padding:12px; } }
   </style>
 </head>
 <body>
@@ -5945,15 +5965,15 @@
         })));
         const chosen = new Set();
         const dialog = document.createElement("dialog");
-        dialog.className = "vocab-dialog";
+        dialog.className = "vocab-dialog ielts-picker";
         dialog.setAttribute("aria-labelledby", `ielts-title-${preset.mode}`);
         dialog.innerHTML = `<div class="vocab-dialog-inner">
           <div class="vocab-dialog-header"><h2 id="ielts-title-${preset.mode}">Chọn bài IELTS · ${preset.mode === "writing" ? "Writing từng câu" : preset.mode === "topic-vocab" ? "Từ vựng theo chủ đề" : preset.mode === "instant-vocab" ? "Instant Vocab" : "Word Order"}</h2><button type="button" class="vocab-dialog-close" aria-label="Đóng chọn câu IELTS">×</button></div>
           <div class="vocab-dialog-content">
-            <label>Lọc theo ngày <select aria-label="Lọc ngày IELTS"><option value="">Tất cả ngày</option></select></label>
-            <label data-topic-filter hidden>Chủ đề <select aria-label="Lọc chủ đề IELTS"><option value="">Tất cả chủ đề</option></select></label>
-            <div class="csv-dialog-actions" style="margin:12px 0"><button type="button" data-select-visible>Chọn tất cả đang hiển thị</button><button type="button" data-clear> bỏ chọn tất cả</button></div>
-            <p data-count aria-live="polite"></p><div data-list style="max-height:45vh;overflow:auto"></div>
+            <div class="ielts-picker-filters"><label>Lọc theo ngày <select aria-label="Lọc ngày IELTS"><option value="">Tất cả ngày</option></select></label>
+            <label data-topic-filter hidden>Chủ đề <select aria-label="Lọc chủ đề IELTS"><option value="">Tất cả chủ đề</option></select></label></div>
+            <div class="ielts-picker-actions"><label class="ielts-random-count">Số mục <input type="number" min="1" step="1" value="5" aria-label="Số mục chọn ngẫu nhiên"></label><button type="button" data-random>⚄ Chọn ngẫu nhiên</button><button type="button" data-select-visible>Chọn tất cả đang hiển thị</button><button type="button" data-clear>Bỏ chọn tất cả</button></div>
+            <p data-count aria-live="polite"></p><div data-list class="ielts-picker-list"></div>
             <div class="csv-dialog-actions"><button type="button" data-cancel>Hủy</button><button type="button" class="primary" data-confirm disabled>Nạp các câu đã chọn</button></div>
           </div></div>`;
         document.body.append(dialog);
@@ -5972,27 +5992,32 @@
         const confirm = dialog.querySelector("[data-confirm]");
         const visibleEntries = () => entries.filter(entry => (!select.value || entry.date === select.value) && (!topicSelect.value || entry.topic === topicSelect.value));
         const updateCount = () => {
-          dialog.querySelector("[data-count]").textContent = `${chosen.size} câu đã chọn · ${visibleEntries().length} câu đang hiển thị. Lựa chọn được giữ khi đổi bộ lọc ngày.`;
+          dialog.querySelector("[data-count]").textContent = `${chosen.size} mục đã chọn · ${visibleEntries().length} mục đang hiển thị. Ngẫu nhiên chọn lại trong bộ lọc hiện tại; giữ các mục đã chọn ở bộ lọc khác.`;
           confirm.disabled = chosen.size === 0;
         };
         const render = () => {
           list.replaceChildren();
           visibleEntries().forEach(entry => {
             const label = document.createElement("label");
-            label.style.cssText = "display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #ddd;cursor:pointer";
+            label.className = "ielts-picker-row";
             const checkbox = document.createElement("input");
             checkbox.type = "checkbox";
             checkbox.checked = chosen.has(entry.id);
             const text = document.createElement("span");
+            text.className = 'ielts-picker-text';
             const sentence = document.createElement("strong");
             sentence.textContent = entry.fields[0];
             const meaning = document.createElement("div");
+            meaning.className = 'ielts-picker-meaning';
             meaning.textContent = entry.fields[2];
             const date = document.createElement("small");
+            date.className = 'ielts-date-badge';
             date.textContent = entry.date;
             text.append(sentence, meaning);
-            if (entry.topic) { const topic = document.createElement('small'); topic.textContent = `${entry.topic}${preset.mode === 'writing' ? ' · Mức ' + entry.level : ''}`; text.append(topic); }
-            if (!select.value) text.append(date);
+            const meta = document.createElement('span'); meta.className = 'ielts-picker-meta';
+            if (entry.topic) { const topic = document.createElement('small'); topic.className = 'ielts-topic-badge'; topic.textContent = `${entry.topic}${preset.mode === 'writing' ? ' · Mức ' + entry.level : ''}`; meta.append(topic); }
+            if (!select.value) meta.append(date);
+            text.append(meta);
             label.append(checkbox, text);
             list.append(label);
             checkbox.addEventListener("change", () => {
@@ -6004,6 +6029,16 @@
         };
         select.addEventListener("change", render);
         topicSelect.addEventListener("change", render);
+        dialog.querySelector('[data-random]').addEventListener('click', () => {
+          const input = dialog.querySelector('input[aria-label="Số mục chọn ngẫu nhiên"]');
+          if (!input.reportValidity()) return;
+          const pool = [...visibleEntries()];
+          const count = Math.min(Number(input.value), pool.length);
+          pool.forEach(entry => chosen.delete(entry.id));
+          for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+          pool.slice(0,count).forEach(entry => chosen.add(entry.id));
+          render();
+        });
         dialog.querySelector("[data-select-visible]").addEventListener("click", () => { visibleEntries().forEach(entry => chosen.add(entry.id)); render(); });
         dialog.querySelector("[data-clear]").addEventListener("click", () => { chosen.clear(); render(); });
         dialog.querySelector(".vocab-dialog-close").addEventListener("click", () => dialog.close());
