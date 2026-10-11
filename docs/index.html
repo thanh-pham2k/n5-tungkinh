@@ -5972,11 +5972,21 @@
           <div class="vocab-dialog-content">
             <div class="ielts-picker-filters"><label>Lọc theo ngày <select aria-label="Lọc ngày IELTS"><option value="">Tất cả ngày</option></select></label>
             <label data-topic-filter hidden>Chủ đề <select aria-label="Lọc chủ đề IELTS"><option value="">Tất cả chủ đề</option></select></label></div>
-            <div class="ielts-picker-actions"><label class="ielts-random-count">Số mục <input type="number" min="1" step="1" value="5" aria-label="Số mục chọn ngẫu nhiên"></label><button type="button" data-random>⚄ Chọn ngẫu nhiên</button><button type="button" data-select-visible>Chọn tất cả đang hiển thị</button><button type="button" data-clear>Bỏ chọn tất cả</button></div>
+            <div class="ielts-picker-actions"><label class="ielts-random-count">Số mục <input type="number" min="1" step="1" value="10" aria-label="Số mục chọn ngẫu nhiên"></label><button type="button" data-random>⚄ Chọn ngẫu nhiên</button><button type="button" data-select-visible>Chọn tất cả đang hiển thị</button><button type="button" data-clear>Bỏ chọn tất cả</button></div>
             <p data-count aria-live="polite"></p><div data-list class="ielts-picker-list"></div>
             <div class="csv-dialog-actions"><button type="button" data-cancel>Hủy</button><button type="button" class="primary" data-confirm disabled>Nạp các câu đã chọn</button></div>
           </div></div>`;
         document.body.append(dialog);
+        const randomCountInput = dialog.querySelector('input[aria-label="Số mục chọn ngẫu nhiên"]');
+        const randomCountKey = `practice-random-count:${preset.mode}`;
+        try {
+          const savedCount = Number(localStorage.getItem(randomCountKey));
+          if (Number.isSafeInteger(savedCount) && savedCount > 0) randomCountInput.value = String(savedCount);
+        } catch {}
+        randomCountInput.addEventListener('change', () => {
+          if (!randomCountInput.checkValidity()) return;
+          try { localStorage.setItem(randomCountKey, randomCountInput.value); } catch {}
+        });
         const select = dialog.querySelector('select[aria-label="Lọc ngày IELTS"]');
         const topicSelect = dialog.querySelector('select[aria-label="Lọc chủ đề IELTS"]');
         const topics = [...new Set(entries.map(entry => entry.topic).filter(Boolean))];
