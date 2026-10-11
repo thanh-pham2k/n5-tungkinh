@@ -1,4 +1,1358 @@
 window.IELTS_PRACTICE = {
+  "speaking": [
+    {
+      "topic": "Work — Công việc",
+      "date": "2026-10-11",
+      "questions": [
+        {
+          "id": "SP-1-P1-1",
+          "part": 1,
+          "text": "What does a typical working day look like for you?"
+        },
+        {
+          "id": "SP-1-P1-2",
+          "part": 1,
+          "text": "Which part of your working day do you enjoy most?"
+        },
+        {
+          "id": "SP-1-P1-3",
+          "part": 1,
+          "text": "Has your job changed since you started it?"
+        },
+        {
+          "id": "SP-1-P1-4",
+          "part": 1,
+          "text": "Would you like to do the same job in the future?"
+        },
+        {
+          "id": "SP-1-P2-1",
+          "part": 2,
+          "text": "Describe a task you completed successfully at work.",
+          "points": [
+            "what the task was",
+            "what you did",
+            "who helped you",
+            "why you felt it was successful"
+          ]
+        },
+        {
+          "id": "SP-1-P3-1",
+          "part": 3,
+          "text": "Why do some people find their work more satisfying than others?"
+        },
+        {
+          "id": "SP-1-P3-2",
+          "part": 3,
+          "text": "How important is job security compared with salary?"
+        },
+        {
+          "id": "SP-1-P3-3",
+          "part": 3,
+          "text": "How might working patterns change in the future?"
+        }
+      ]
+    },
+    {
+      "topic": "Interview and Career — Nghề nghiệp",
+      "date": "2026-10-12",
+      "questions": [
+        {
+          "id": "SP-2-P1-1",
+          "part": 1,
+          "text": "What kind of career would you like to have?"
+        },
+        {
+          "id": "SP-2-P1-2",
+          "part": 1,
+          "text": "Who has influenced your career plans?"
+        },
+        {
+          "id": "SP-2-P1-3",
+          "part": 1,
+          "text": "What would you like to learn for your future career?"
+        },
+        {
+          "id": "SP-2-P1-4",
+          "part": 1,
+          "text": "Have your career plans changed over time?"
+        },
+        {
+          "id": "SP-2-P2-1",
+          "part": 2,
+          "text": "Describe a person whose career you admire.",
+          "points": [
+            "who the person is",
+            "what work they do",
+            "how you learned about their career",
+            "why you admire their career"
+          ]
+        },
+        {
+          "id": "SP-2-P3-1",
+          "part": 3,
+          "text": "Why do people sometimes change careers?"
+        },
+        {
+          "id": "SP-2-P3-2",
+          "part": 3,
+          "text": "Should schools provide more career guidance?"
+        },
+        {
+          "id": "SP-2-P3-3",
+          "part": 3,
+          "text": "What matters most when young people choose a career?"
+        }
+      ]
+    },
+    {
+      "topic": "Technology — Công nghệ",
+      "date": "2026-10-13",
+      "questions": [
+        {
+          "id": "SP-3-P1-1",
+          "part": 1,
+          "text": "Which device is most useful to you?"
+        },
+        {
+          "id": "SP-3-P1-2",
+          "part": 1,
+          "text": "Do you enjoy learning to use new devices?"
+        },
+        {
+          "id": "SP-3-P1-3",
+          "part": 1,
+          "text": "How often do you take a break from your phone?"
+        },
+        {
+          "id": "SP-3-P1-4",
+          "part": 1,
+          "text": "What technology did you use as a child?"
+        },
+        {
+          "id": "SP-3-P2-1",
+          "part": 2,
+          "text": "Describe a piece of technology that made your life easier.",
+          "points": [
+            "what it is",
+            "when you started using it",
+            "how you use it",
+            "why it is useful"
+          ]
+        },
+        {
+          "id": "SP-3-P3-1",
+          "part": 3,
+          "text": "Does technology always save people time?"
+        },
+        {
+          "id": "SP-3-P3-2",
+          "part": 3,
+          "text": "How can people protect their privacy online?"
+        },
+        {
+          "id": "SP-3-P3-3",
+          "part": 3,
+          "text": "Why do some people find it difficult to adapt to new technology?"
+        }
+      ]
+    },
+    {
+      "topic": "Daily Life — Sinh hoạt hằng ngày",
+      "date": "2026-10-14",
+      "questions": [
+        {
+          "id": "SP-4-P1-1",
+          "part": 1,
+          "text": "What is your favourite time of day?"
+        },
+        {
+          "id": "SP-4-P1-2",
+          "part": 1,
+          "text": "Do you prefer having a fixed routine?"
+        },
+        {
+          "id": "SP-4-P1-3",
+          "part": 1,
+          "text": "How do your weekends differ from weekdays?"
+        },
+        {
+          "id": "SP-4-P1-4",
+          "part": 1,
+          "text": "What would you like to spend more time doing?"
+        },
+        {
+          "id": "SP-4-P2-1",
+          "part": 2,
+          "text": "Describe a change you made to your daily routine.",
+          "points": [
+            "what you changed",
+            "when you made the change",
+            "how it affected your day",
+            "why you made the change"
+          ]
+        },
+        {
+          "id": "SP-4-P3-1",
+          "part": 3,
+          "text": "Why do some people struggle to manage their time?"
+        },
+        {
+          "id": "SP-4-P3-2",
+          "part": 3,
+          "text": "How have daily routines changed over the past few decades?"
+        },
+        {
+          "id": "SP-4-P3-3",
+          "part": 3,
+          "text": "Should employers help workers maintain a healthier routine?"
+        }
+      ]
+    },
+    {
+      "topic": "Education — Giáo dục",
+      "date": "2026-10-15",
+      "questions": [
+        {
+          "id": "SP-5-P1-1",
+          "part": 1,
+          "text": "What subject did you enjoy most at school?"
+        },
+        {
+          "id": "SP-5-P1-2",
+          "part": 1,
+          "text": "How do you prefer to take notes?"
+        },
+        {
+          "id": "SP-5-P1-3",
+          "part": 1,
+          "text": "Do you find it easy to study at home?"
+        },
+        {
+          "id": "SP-5-P1-4",
+          "part": 1,
+          "text": "What would you like to study next?"
+        },
+        {
+          "id": "SP-5-P2-1",
+          "part": 2,
+          "text": "Describe a lesson that you found particularly useful.",
+          "points": [
+            "what the lesson was about",
+            "who taught it",
+            "what you learned",
+            "why it was useful"
+          ]
+        },
+        {
+          "id": "SP-5-P3-1",
+          "part": 3,
+          "text": "What makes someone a good teacher?"
+        },
+        {
+          "id": "SP-5-P3-2",
+          "part": 3,
+          "text": "Should schools focus more on practical skills?"
+        },
+        {
+          "id": "SP-5-P3-3",
+          "part": 3,
+          "text": "What are the advantages and disadvantages of online education?"
+        }
+      ]
+    },
+    {
+      "topic": "Goals and Plans — Mục tiêu",
+      "date": "2026-10-16",
+      "questions": [
+        {
+          "id": "SP-6-P1-1",
+          "part": 1,
+          "text": "Do you usually plan your week in advance?"
+        },
+        {
+          "id": "SP-6-P1-2",
+          "part": 1,
+          "text": "Do you prefer short-term or long-term goals?"
+        },
+        {
+          "id": "SP-6-P1-3",
+          "part": 1,
+          "text": "What helps you stay motivated?"
+        },
+        {
+          "id": "SP-6-P1-4",
+          "part": 1,
+          "text": "Do you often change your plans?"
+        },
+        {
+          "id": "SP-6-P2-1",
+          "part": 2,
+          "text": "Describe a goal you would like to achieve.",
+          "points": [
+            "what the goal is",
+            "when you hope to achieve it",
+            "what steps you need to take",
+            "why it matters to you"
+          ]
+        },
+        {
+          "id": "SP-6-P3-1",
+          "part": 3,
+          "text": "Why do some people give up on their goals?"
+        },
+        {
+          "id": "SP-6-P3-2",
+          "part": 3,
+          "text": "Is it better to set ambitious goals or realistic ones?"
+        },
+        {
+          "id": "SP-6-P3-3",
+          "part": 3,
+          "text": "How can parents help children plan for the future?"
+        }
+      ]
+    },
+    {
+      "topic": "Communication — Giao tiếp và làm việc nhóm",
+      "date": "2026-10-17",
+      "questions": [
+        {
+          "id": "SP-7-P1-1",
+          "part": 1,
+          "text": "Do you prefer talking face to face or sending messages?"
+        },
+        {
+          "id": "SP-7-P1-2",
+          "part": 1,
+          "text": "Who do you usually ask for advice?"
+        },
+        {
+          "id": "SP-7-P1-3",
+          "part": 1,
+          "text": "Do you enjoy group activities?"
+        },
+        {
+          "id": "SP-7-P1-4",
+          "part": 1,
+          "text": "Has the way you communicate changed recently?"
+        },
+        {
+          "id": "SP-7-P2-1",
+          "part": 2,
+          "text": "Describe a time when you worked with other people.",
+          "points": [
+            "what you worked on",
+            "who you worked with",
+            "what your role was",
+            "how you felt about the experience"
+          ]
+        },
+        {
+          "id": "SP-7-P3-1",
+          "part": 3,
+          "text": "What can make teamwork difficult?"
+        },
+        {
+          "id": "SP-7-P3-2",
+          "part": 3,
+          "text": "How can people resolve disagreements constructively?"
+        },
+        {
+          "id": "SP-7-P3-3",
+          "part": 3,
+          "text": "Has digital communication improved people's relationships?"
+        }
+      ]
+    },
+    {
+      "topic": "Hobbies — Sở thích",
+      "date": "2026-10-18",
+      "questions": [
+        {
+          "id": "SP-8-P1-1",
+          "part": 1,
+          "text": "How did you become interested in your favourite hobby?"
+        },
+        {
+          "id": "SP-8-P1-2",
+          "part": 1,
+          "text": "Do you spend much money on your hobbies?"
+        },
+        {
+          "id": "SP-8-P1-3",
+          "part": 1,
+          "text": "Do you prefer trying new hobbies or keeping familiar ones?"
+        },
+        {
+          "id": "SP-8-P1-4",
+          "part": 1,
+          "text": "Is there a hobby you would recommend to a friend?"
+        },
+        {
+          "id": "SP-8-P2-1",
+          "part": 2,
+          "text": "Describe an activity you enjoy in your free time.",
+          "points": [
+            "what the activity is",
+            "when you usually do it",
+            "whether you do it alone or with others",
+            "why you enjoy it"
+          ]
+        },
+        {
+          "id": "SP-8-P3-1",
+          "part": 3,
+          "text": "Why is free time important for people's well-being?"
+        },
+        {
+          "id": "SP-8-P3-2",
+          "part": 3,
+          "text": "Do people have less leisure time now than in the past?"
+        },
+        {
+          "id": "SP-8-P3-3",
+          "part": 3,
+          "text": "Should schools encourage children to develop hobbies?"
+        }
+      ]
+    },
+    {
+      "topic": "Travel — Du lịch",
+      "date": "2026-10-19",
+      "questions": [
+        {
+          "id": "SP-9-P1-1",
+          "part": 1,
+          "text": "How do you usually choose a travel destination?"
+        },
+        {
+          "id": "SP-9-P1-2",
+          "part": 1,
+          "text": "Do you prefer short trips or longer holidays?"
+        },
+        {
+          "id": "SP-9-P1-3",
+          "part": 1,
+          "text": "What do you usually prepare before a trip?"
+        },
+        {
+          "id": "SP-9-P1-4",
+          "part": 1,
+          "text": "Is there a place nearby that you would like to visit?"
+        },
+        {
+          "id": "SP-9-P2-1",
+          "part": 2,
+          "text": "Describe a journey that you remember well.",
+          "points": [
+            "where you went",
+            "how you travelled",
+            "what happened during the journey",
+            "why you remember it"
+          ]
+        },
+        {
+          "id": "SP-9-P3-1",
+          "part": 3,
+          "text": "How can tourism benefit local communities?"
+        },
+        {
+          "id": "SP-9-P3-2",
+          "part": 3,
+          "text": "What problems can large numbers of tourists cause?"
+        },
+        {
+          "id": "SP-9-P3-3",
+          "part": 3,
+          "text": "Why do some people prefer travelling abroad to exploring their own country?"
+        }
+      ]
+    },
+    {
+      "topic": "Environment — Môi trường",
+      "date": "2026-10-20",
+      "questions": [
+        {
+          "id": "SP-10-P1-1",
+          "part": 1,
+          "text": "Are there many green spaces where you live?"
+        },
+        {
+          "id": "SP-10-P1-2",
+          "part": 1,
+          "text": "Do you try to save energy at home?"
+        },
+        {
+          "id": "SP-10-P1-3",
+          "part": 1,
+          "text": "Have you ever taken part in an environmental activity?"
+        },
+        {
+          "id": "SP-10-P1-4",
+          "part": 1,
+          "text": "What do you do with things you no longer need?"
+        },
+        {
+          "id": "SP-10-P2-1",
+          "part": 2,
+          "text": "Describe a natural place you would like to protect.",
+          "points": [
+            "where it is",
+            "what it is like",
+            "what could threaten it",
+            "why you think it should be protected"
+          ]
+        },
+        {
+          "id": "SP-10-P3-1",
+          "part": 3,
+          "text": "Who should take the most responsibility for protecting the environment?"
+        },
+        {
+          "id": "SP-10-P3-2",
+          "part": 3,
+          "text": "How can cities encourage people to produce less waste?"
+        },
+        {
+          "id": "SP-10-P3-3",
+          "part": 3,
+          "text": "Why do people sometimes ignore environmental problems?"
+        }
+      ]
+    },
+    {
+      "topic": "Health — Sức khỏe",
+      "date": "2026-10-21",
+      "questions": [
+        {
+          "id": "SP-11-P1-1",
+          "part": 1,
+          "text": "What do you do to stay healthy?"
+        },
+        {
+          "id": "SP-11-P1-2",
+          "part": 1,
+          "text": "Do you usually get enough sleep?"
+        },
+        {
+          "id": "SP-11-P1-3",
+          "part": 1,
+          "text": "Do you prefer exercising indoors or outdoors?"
+        },
+        {
+          "id": "SP-11-P1-4",
+          "part": 1,
+          "text": "Have your health habits changed recently?"
+        },
+        {
+          "id": "SP-11-P2-1",
+          "part": 2,
+          "text": "Describe a healthy habit you would like to develop.",
+          "points": [
+            "what the habit is",
+            "how you could develop it",
+            "what might make it difficult",
+            "why you want to develop it"
+          ]
+        },
+        {
+          "id": "SP-11-P3-1",
+          "part": 3,
+          "text": "Why do people find it difficult to maintain healthy habits?"
+        },
+        {
+          "id": "SP-11-P3-2",
+          "part": 3,
+          "text": "Should governments do more to encourage exercise?"
+        },
+        {
+          "id": "SP-11-P3-3",
+          "part": 3,
+          "text": "How does modern life affect people's mental health?"
+        }
+      ]
+    },
+    {
+      "topic": "Cities and Transport — Thành phố và giao thông",
+      "date": "2026-10-22",
+      "questions": [
+        {
+          "id": "SP-12-P1-1",
+          "part": 1,
+          "text": "How convenient is public transport where you live?"
+        },
+        {
+          "id": "SP-12-P1-2",
+          "part": 1,
+          "text": "Do you enjoy walking around your city?"
+        },
+        {
+          "id": "SP-12-P1-3",
+          "part": 1,
+          "text": "What would you improve about your neighbourhood?"
+        },
+        {
+          "id": "SP-12-P1-4",
+          "part": 1,
+          "text": "Do you prefer travelling by bus or by car?"
+        },
+        {
+          "id": "SP-12-P2-1",
+          "part": 2,
+          "text": "Describe a place in a city that you enjoy visiting.",
+          "points": [
+            "where it is",
+            "what you can do there",
+            "when you usually visit",
+            "why you enjoy going there"
+          ]
+        },
+        {
+          "id": "SP-12-P3-1",
+          "part": 3,
+          "text": "What can cities do to reduce traffic congestion?"
+        },
+        {
+          "id": "SP-12-P3-2",
+          "part": 3,
+          "text": "Why do some people prefer living in large cities?"
+        },
+        {
+          "id": "SP-12-P3-3",
+          "part": 3,
+          "text": "How important are public spaces in urban areas?"
+        }
+      ]
+    },
+    {
+      "topic": "Media and News — Truyền thông và tin tức",
+      "date": "2026-10-23",
+      "questions": [
+        {
+          "id": "SP-13-P1-1",
+          "part": 1,
+          "text": "Where do you usually get your news?"
+        },
+        {
+          "id": "SP-13-P1-2",
+          "part": 1,
+          "text": "Do you discuss news stories with other people?"
+        },
+        {
+          "id": "SP-13-P1-3",
+          "part": 1,
+          "text": "How often do you watch videos online?"
+        },
+        {
+          "id": "SP-13-P1-4",
+          "part": 1,
+          "text": "Have your news-reading habits changed?"
+        },
+        {
+          "id": "SP-13-P2-1",
+          "part": 2,
+          "text": "Describe a news story that interested you.",
+          "points": [
+            "what the story was about",
+            "where you heard or read it",
+            "what you learned",
+            "why it interested you"
+          ]
+        },
+        {
+          "id": "SP-13-P3-1",
+          "part": 3,
+          "text": "Why is it important to check the reliability of news?"
+        },
+        {
+          "id": "SP-13-P3-2",
+          "part": 3,
+          "text": "How has social media changed the way news spreads?"
+        },
+        {
+          "id": "SP-13-P3-3",
+          "part": 3,
+          "text": "Should news organisations focus more on positive stories?"
+        }
+      ]
+    },
+    {
+      "topic": "Public Services — Dịch vụ công",
+      "date": "2026-10-24",
+      "questions": [
+        {
+          "id": "SP-14-P1-1",
+          "part": 1,
+          "text": "Is there a public library near your home?"
+        },
+        {
+          "id": "SP-14-P1-2",
+          "part": 1,
+          "text": "Which local facility do you use most often?"
+        },
+        {
+          "id": "SP-14-P1-3",
+          "part": 1,
+          "text": "Do you think your area has enough public parks?"
+        },
+        {
+          "id": "SP-14-P1-4",
+          "part": 1,
+          "text": "What new public facility would you like nearby?"
+        },
+        {
+          "id": "SP-14-P2-1",
+          "part": 2,
+          "text": "Describe a public facility that is useful to your community.",
+          "points": [
+            "what the facility is",
+            "where it is",
+            "who uses it",
+            "why it is useful"
+          ]
+        },
+        {
+          "id": "SP-14-P3-1",
+          "part": 3,
+          "text": "How should governments decide which public services to fund?"
+        },
+        {
+          "id": "SP-14-P3-2",
+          "part": 3,
+          "text": "Should all public facilities be free to use?"
+        },
+        {
+          "id": "SP-14-P3-3",
+          "part": 3,
+          "text": "How can residents influence improvements in their local area?"
+        }
+      ]
+    },
+    {
+      "topic": "Culture — Văn hóa",
+      "date": "2026-10-25",
+      "questions": [
+        {
+          "id": "SP-15-P1-1",
+          "part": 1,
+          "text": "Are there any traditions that your family follows?"
+        },
+        {
+          "id": "SP-15-P1-2",
+          "part": 1,
+          "text": "Do you enjoy attending local festivals?"
+        },
+        {
+          "id": "SP-15-P1-3",
+          "part": 1,
+          "text": "Have you learned about another culture recently?"
+        },
+        {
+          "id": "SP-15-P1-4",
+          "part": 1,
+          "text": "What traditional food do you like?"
+        },
+        {
+          "id": "SP-15-P2-1",
+          "part": 2,
+          "text": "Describe a celebration that is important to you.",
+          "points": [
+            "what it celebrates",
+            "when it takes place",
+            "what people usually do",
+            "why it is important to you"
+          ]
+        },
+        {
+          "id": "SP-15-P3-1",
+          "part": 3,
+          "text": "Why do some traditions disappear over time?"
+        },
+        {
+          "id": "SP-15-P3-2",
+          "part": 3,
+          "text": "How can young people learn about their cultural heritage?"
+        },
+        {
+          "id": "SP-15-P3-3",
+          "part": 3,
+          "text": "Does globalisation make cultures more similar?"
+        }
+      ]
+    },
+    {
+      "topic": "Hometown — Quê hương",
+      "date": "2026-10-26",
+      "questions": [
+        {
+          "id": "SP-16-P1-1",
+          "part": 1,
+          "text": "What is your hometown best known for?"
+        },
+        {
+          "id": "SP-16-P1-2",
+          "part": 1,
+          "text": "What do you like most about your hometown?"
+        },
+        {
+          "id": "SP-16-P1-3",
+          "part": 1,
+          "text": "Has your hometown changed since you were a child?"
+        },
+        {
+          "id": "SP-16-P1-4",
+          "part": 1,
+          "text": "Would you like to live there in the future?"
+        },
+        {
+          "id": "SP-16-P2-1",
+          "part": 2,
+          "text": "Describe a place in your hometown that you would recommend to visitors.",
+          "points": [
+            "where it is",
+            "what visitors can see or do",
+            "how you know the place",
+            "why you would recommend it"
+          ]
+        },
+        {
+          "id": "SP-16-P3-1",
+          "part": 3,
+          "text": "Why do people feel attached to their hometowns?"
+        },
+        {
+          "id": "SP-16-P3-2",
+          "part": 3,
+          "text": "What changes can improve life in small towns?"
+        },
+        {
+          "id": "SP-16-P3-3",
+          "part": 3,
+          "text": "Why do young people sometimes leave their hometowns?"
+        }
+      ]
+    },
+    {
+      "topic": "Home — Nhà ở",
+      "date": "2026-10-27",
+      "questions": [
+        {
+          "id": "SP-17-P1-1",
+          "part": 1,
+          "text": "What is your favourite room at home?"
+        },
+        {
+          "id": "SP-17-P1-2",
+          "part": 1,
+          "text": "Do you prefer living in a house or a flat?"
+        },
+        {
+          "id": "SP-17-P1-3",
+          "part": 1,
+          "text": "What can you see from your window?"
+        },
+        {
+          "id": "SP-17-P1-4",
+          "part": 1,
+          "text": "What would you change about your home?"
+        },
+        {
+          "id": "SP-17-P2-1",
+          "part": 2,
+          "text": "Describe a home you would like to live in.",
+          "points": [
+            "where it would be",
+            "what it would look like",
+            "what features it would have",
+            "why you would like to live there"
+          ]
+        },
+        {
+          "id": "SP-17-P3-1",
+          "part": 3,
+          "text": "How have people's housing needs changed?"
+        },
+        {
+          "id": "SP-17-P3-2",
+          "part": 3,
+          "text": "Why is affordable housing important?"
+        },
+        {
+          "id": "SP-17-P3-3",
+          "part": 3,
+          "text": "Should cities build more high-rise housing?"
+        }
+      ]
+    },
+    {
+      "topic": "Family and Friends — Gia đình và bạn bè",
+      "date": "2026-10-28",
+      "questions": [
+        {
+          "id": "SP-18-P1-1",
+          "part": 1,
+          "text": "Who do you spend most time with?"
+        },
+        {
+          "id": "SP-18-P1-2",
+          "part": 1,
+          "text": "How do you usually keep in touch with friends?"
+        },
+        {
+          "id": "SP-18-P1-3",
+          "part": 1,
+          "text": "Do you prefer a few close friends or a large group?"
+        },
+        {
+          "id": "SP-18-P1-4",
+          "part": 1,
+          "text": "What do you enjoy doing with your family?"
+        },
+        {
+          "id": "SP-18-P2-1",
+          "part": 2,
+          "text": "Describe a friend who has helped you.",
+          "points": [
+            "who the friend is",
+            "how you met",
+            "how they helped you",
+            "why their help mattered"
+          ]
+        },
+        {
+          "id": "SP-18-P3-1",
+          "part": 3,
+          "text": "What qualities make a friendship last?"
+        },
+        {
+          "id": "SP-18-P3-2",
+          "part": 3,
+          "text": "How do people's friendships change as they get older?"
+        },
+        {
+          "id": "SP-18-P3-3",
+          "part": 3,
+          "text": "Can online friendships be as strong as face-to-face friendships?"
+        }
+      ]
+    },
+    {
+      "topic": "Food and Cooking — Ăn uống và nấu ăn",
+      "date": "2026-10-29",
+      "questions": [
+        {
+          "id": "SP-19-P1-1",
+          "part": 1,
+          "text": "Do you enjoy cooking?"
+        },
+        {
+          "id": "SP-19-P1-2",
+          "part": 1,
+          "text": "What food did you like as a child?"
+        },
+        {
+          "id": "SP-19-P1-3",
+          "part": 1,
+          "text": "Do you prefer eating at home or in restaurants?"
+        },
+        {
+          "id": "SP-19-P1-4",
+          "part": 1,
+          "text": "Would you like to learn to cook a new dish?"
+        },
+        {
+          "id": "SP-19-P2-1",
+          "part": 2,
+          "text": "Describe a meal that you enjoyed with other people.",
+          "points": [
+            "what you ate",
+            "where and when you had the meal",
+            "who was with you",
+            "why you enjoyed it"
+          ]
+        },
+        {
+          "id": "SP-19-P3-1",
+          "part": 3,
+          "text": "Why are traditional dishes important to a culture?"
+        },
+        {
+          "id": "SP-19-P3-2",
+          "part": 3,
+          "text": "How have people's eating habits changed?"
+        },
+        {
+          "id": "SP-19-P3-3",
+          "part": 3,
+          "text": "Should schools teach children how to cook?"
+        }
+      ]
+    },
+    {
+      "topic": "Books and Reading — Sách và đọc sách",
+      "date": "2026-10-30",
+      "questions": [
+        {
+          "id": "SP-20-P1-1",
+          "part": 1,
+          "text": "What kinds of things do you like reading?"
+        },
+        {
+          "id": "SP-20-P1-2",
+          "part": 1,
+          "text": "Do you prefer printed books or digital books?"
+        },
+        {
+          "id": "SP-20-P1-3",
+          "part": 1,
+          "text": "Did you read much when you were younger?"
+        },
+        {
+          "id": "SP-20-P1-4",
+          "part": 1,
+          "text": "When do you usually have time to read?"
+        },
+        {
+          "id": "SP-20-P2-1",
+          "part": 2,
+          "text": "Describe a book that you found interesting.",
+          "points": [
+            "what the book is",
+            "when you read it",
+            "what it is about",
+            "why you found it interesting"
+          ]
+        },
+        {
+          "id": "SP-20-P3-1",
+          "part": 3,
+          "text": "How can parents encourage children to read?"
+        },
+        {
+          "id": "SP-20-P3-2",
+          "part": 3,
+          "text": "What role should libraries play today?"
+        },
+        {
+          "id": "SP-20-P3-3",
+          "part": 3,
+          "text": "Do digital media make it harder for people to read long texts?"
+        }
+      ]
+    },
+    {
+      "topic": "Music — Âm nhạc",
+      "date": "2026-10-31",
+      "questions": [
+        {
+          "id": "SP-21-P1-1",
+          "part": 1,
+          "text": "What kind of music do you listen to?"
+        },
+        {
+          "id": "SP-21-P1-2",
+          "part": 1,
+          "text": "When do you usually listen to music?"
+        },
+        {
+          "id": "SP-21-P1-3",
+          "part": 1,
+          "text": "Have your musical tastes changed?"
+        },
+        {
+          "id": "SP-21-P1-4",
+          "part": 1,
+          "text": "Would you like to learn a musical instrument?"
+        },
+        {
+          "id": "SP-21-P2-1",
+          "part": 2,
+          "text": "Describe a song that is special to you.",
+          "points": [
+            "what the song is",
+            "when you first heard it",
+            "when you listen to it",
+            "why it is special to you"
+          ]
+        },
+        {
+          "id": "SP-21-P3-1",
+          "part": 3,
+          "text": "Why does music play an important role in people's lives?"
+        },
+        {
+          "id": "SP-21-P3-2",
+          "part": 3,
+          "text": "Should music be taught in every school?"
+        },
+        {
+          "id": "SP-21-P3-3",
+          "part": 3,
+          "text": "How has technology changed the music industry?"
+        }
+      ]
+    },
+    {
+      "topic": "Shopping — Mua sắm",
+      "date": "2026-11-01",
+      "questions": [
+        {
+          "id": "SP-22-P1-1",
+          "part": 1,
+          "text": "Do you enjoy shopping?"
+        },
+        {
+          "id": "SP-22-P1-2",
+          "part": 1,
+          "text": "Do you prefer shopping online or in person?"
+        },
+        {
+          "id": "SP-22-P1-3",
+          "part": 1,
+          "text": "How do you decide whether to buy something?"
+        },
+        {
+          "id": "SP-22-P1-4",
+          "part": 1,
+          "text": "What was the last useful thing you bought?"
+        },
+        {
+          "id": "SP-22-P2-1",
+          "part": 2,
+          "text": "Describe something you bought that you were pleased with.",
+          "points": [
+            "what you bought",
+            "where you bought it",
+            "how you use it",
+            "why you were pleased with it"
+          ]
+        },
+        {
+          "id": "SP-22-P3-1",
+          "part": 3,
+          "text": "How does advertising influence shopping decisions?"
+        },
+        {
+          "id": "SP-22-P3-2",
+          "part": 3,
+          "text": "Why do some people buy things they do not need?"
+        },
+        {
+          "id": "SP-22-P3-3",
+          "part": 3,
+          "text": "What are the advantages of supporting local shops?"
+        }
+      ]
+    },
+    {
+      "topic": "Weather — Thời tiết",
+      "date": "2026-11-02",
+      "questions": [
+        {
+          "id": "SP-23-P1-1",
+          "part": 1,
+          "text": "What kind of weather do you enjoy?"
+        },
+        {
+          "id": "SP-23-P1-2",
+          "part": 1,
+          "text": "Does the weather affect your daily plans?"
+        },
+        {
+          "id": "SP-23-P1-3",
+          "part": 1,
+          "text": "Do you often check the weather forecast?"
+        },
+        {
+          "id": "SP-23-P1-4",
+          "part": 1,
+          "text": "What season do you like most?"
+        },
+        {
+          "id": "SP-23-P2-1",
+          "part": 2,
+          "text": "Describe a day when the weather affected your plans.",
+          "points": [
+            "what you had planned",
+            "what the weather was like",
+            "how you changed your plans",
+            "how you felt about it"
+          ]
+        },
+        {
+          "id": "SP-23-P3-1",
+          "part": 3,
+          "text": "How does weather influence people's lifestyles?"
+        },
+        {
+          "id": "SP-23-P3-2",
+          "part": 3,
+          "text": "Why are accurate weather forecasts important?"
+        },
+        {
+          "id": "SP-23-P3-3",
+          "part": 3,
+          "text": "How can communities prepare for extreme weather?"
+        }
+      ]
+    },
+    {
+      "topic": "Animals — Động vật",
+      "date": "2026-11-03",
+      "questions": [
+        {
+          "id": "SP-24-P1-1",
+          "part": 1,
+          "text": "Do you like animals?"
+        },
+        {
+          "id": "SP-24-P1-2",
+          "part": 1,
+          "text": "Did you have a pet when you were a child?"
+        },
+        {
+          "id": "SP-24-P1-3",
+          "part": 1,
+          "text": "What animals can you see near your home?"
+        },
+        {
+          "id": "SP-24-P1-4",
+          "part": 1,
+          "text": "Would you like to learn more about wildlife?"
+        },
+        {
+          "id": "SP-24-P2-1",
+          "part": 2,
+          "text": "Describe an animal that you find interesting.",
+          "points": [
+            "what the animal is",
+            "where it lives",
+            "what you know about it",
+            "why you find it interesting"
+          ]
+        },
+        {
+          "id": "SP-24-P3-1",
+          "part": 3,
+          "text": "Why should people protect endangered species?"
+        },
+        {
+          "id": "SP-24-P3-2",
+          "part": 3,
+          "text": "What can children learn from caring for animals?"
+        },
+        {
+          "id": "SP-24-P3-3",
+          "part": 3,
+          "text": "How can cities provide better habitats for wildlife?"
+        }
+      ]
+    },
+    {
+      "topic": "Sport — Thể thao",
+      "date": "2026-11-04",
+      "questions": [
+        {
+          "id": "SP-25-P1-1",
+          "part": 1,
+          "text": "What sport do you enjoy watching or playing?"
+        },
+        {
+          "id": "SP-25-P1-2",
+          "part": 1,
+          "text": "Did you play sports at school?"
+        },
+        {
+          "id": "SP-25-P1-3",
+          "part": 1,
+          "text": "Do you prefer individual sports or team sports?"
+        },
+        {
+          "id": "SP-25-P1-4",
+          "part": 1,
+          "text": "Is there a sport you would like to try?"
+        },
+        {
+          "id": "SP-25-P2-1",
+          "part": 2,
+          "text": "Describe a sporting event that you enjoyed.",
+          "points": [
+            "what the event was",
+            "where and when it took place",
+            "who you watched it with",
+            "why you enjoyed it"
+          ]
+        },
+        {
+          "id": "SP-25-P3-1",
+          "part": 3,
+          "text": "Why do some sports become more popular than others?"
+        },
+        {
+          "id": "SP-25-P3-2",
+          "part": 3,
+          "text": "Should governments invest more in community sports facilities?"
+        },
+        {
+          "id": "SP-25-P3-3",
+          "part": 3,
+          "text": "What can children learn from participating in team sports?"
+        }
+      ]
+    },
+    {
+      "topic": "Art and Museums — Nghệ thuật và bảo tàng",
+      "date": "2026-11-05",
+      "questions": [
+        {
+          "id": "SP-26-P1-1",
+          "part": 1,
+          "text": "Do you enjoy visiting museums?"
+        },
+        {
+          "id": "SP-26-P1-2",
+          "part": 1,
+          "text": "What kind of art interests you?"
+        },
+        {
+          "id": "SP-26-P1-3",
+          "part": 1,
+          "text": "Did you enjoy art lessons at school?"
+        },
+        {
+          "id": "SP-26-P1-4",
+          "part": 1,
+          "text": "Is there a museum you would like to visit?"
+        },
+        {
+          "id": "SP-26-P2-1",
+          "part": 2,
+          "text": "Describe a museum or exhibition that interested you.",
+          "points": [
+            "where it was",
+            "what you saw",
+            "who you visited it with",
+            "why it interested you"
+          ]
+        },
+        {
+          "id": "SP-26-P3-1",
+          "part": 3,
+          "text": "Why is it important to preserve art and historical objects?"
+        },
+        {
+          "id": "SP-26-P3-2",
+          "part": 3,
+          "text": "Should museums be free to enter?"
+        },
+        {
+          "id": "SP-26-P3-3",
+          "part": 3,
+          "text": "How can museums attract younger visitors?"
+        }
+      ]
+    }
+  ],
   "instant-vocab": [
     {
       "date": "2026-09-25",

@@ -14,6 +14,8 @@ Hai chế độ có nút **Chọn câu IELTS…** mở dialog. Người dùng l�
 
 ## Cập nhật đúng lần sau
 
+Speaking Questions có bộ 208 mục luyện Parts 1–3 theo 26 chủ đề; lọc chủ đề/ngày gợi ý và phần thi. Nguồn ở `road-2-ielts/speaking/Question_Topics.json`; bản đọc Markdown do sync sinh. Không đổi checklist 100 câu cũ. Đây là câu hỏi tự biên soạn, không phải đề thi thật hay dự đoán. Cập nhật JSON nguồn rồi sync và verify.
+
 Nút **Luyện Word Order · 5 bài** trên mỗi card Sentence Structures nạp đúng bộ 5 bài từ `road-2-ielts/writing/Structure_Practice.json`. Có 216 bộ (1080 câu); thứ tự ngắn → mở rộng → thêm mệnh đề. UI chuyển tab Word Order, ẩn câu gốc và hiển thị Mức 1/5 → 5/5. Bộ luyện card tách riêng lịch 48 ngày. Khi sửa/thêm card, cập nhật JSON nguồn theo khóa topic + pattern + example, rồi sync và verify; không sửa JS được sinh.
 
 Writing và Vocab được chia thành 48 ngày học gợi ý từ 11/10–27/11/2026, mỗi ngày 5–6 câu + 4–6 thẻ cùng chủ đề. `docs/ielts/writing/DAILY_PLAN.md` là bản lịch đồng bộ từ nguồn. Dialog mở sẵn ngày đầu, vẫn có Tất cả ngày để ôn tổng hợp. Giữ cách chia này khi bổ sung, không gom lại một ngày.

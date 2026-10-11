@@ -2420,6 +2420,7 @@
           <option value="instant-vocab-panel" selected>Instant Vocab</option>
           <option value="word-order-panel">Word Order Review</option>
           <option value="sentence-structures-panel">Sentence Structures</option>
+          <option value="speaking-questions-panel">Speaking Questions</option>
           <option value="vocab-review-panel">Vocab Review</option>
           <option value="hot-review-panel">Hot Review</option>
         </select>
@@ -2432,6 +2433,16 @@
       <p class="hint">S = chủ ngữ; V = động từ; clause = mệnh đề; noun = danh từ; V-ing = dạng -ing. Sau could/should/will/can dùng động từ nguyên mẫu; suggest + V-ing.</p>
       <label>Chủ đề <select id="sentence-structures-topic" aria-label="Chủ đề Sentence Structures"></select></label>
       <div id="sentence-structures-list"></div>
+    </section>
+    <section class="tab-panel" id="speaking-questions-panel" role="tabpanel" aria-label="Speaking Questions">
+      <h2>Speaking Questions</h2>
+      <p class="hint">208 câu hỏi/cue card mới · 26 chủ đề. Bộ luyện tự biên soạn; không phải đề thi thật hoặc dự đoán đề. Một chủ đề mỗi ngày là lịch học gợi ý.</p>
+      <div class="ielts-picker-filters">
+        <label>Chủ đề · ngày học <select id="speaking-topic" aria-label="Chủ đề Speaking"></select></label>
+        <label>Phần thi <select id="speaking-part" aria-label="Phần Speaking"><option value="">Tất cả phần</option><option value="1">Part 1 · Câu hỏi cá nhân</option><option value="2">Part 2 · Cue card</option><option value="3">Part 3 · Thảo luận</option></select></label>
+      </div>
+      <p class="hint">Part 1: trả lời → lý do → ví dụ. Part 2: chuẩn bị 1 phút, nói 1–2 phút theo gợi ý. Part 3: nêu quan điểm và giải thích ở mức xã hội.</p>
+      <p id="speaking-count" class="hint" aria-live="polite"></p><div id="speaking-questions-list"></div>
     </section>
     <section class="tab-panel" id="audio-panel" role="tabpanel" aria-labelledby="tab-audio">
       <h2>Audio public</h2>
@@ -5930,6 +5941,28 @@
         revokeLocalUrl();
       });
 
+      const speakingTopics = window.IELTS_PRACTICE?.speaking || [];
+      const speakingTopicSelect = document.getElementById('speaking-topic');
+      const speakingPartSelect = document.getElementById('speaking-part');
+      const speakingList = document.getElementById('speaking-questions-list');
+      for (const [label,start,end] of [['Chủ đề Speaking hiện có',0,10],['Chủ đề mở rộng',10,speakingTopics.length]]) {
+        const group = document.createElement('optgroup'); group.label=label;
+        speakingTopics.slice(start,end).forEach((topic,i)=>{const option=document.createElement('option');option.value=String(start+i);option.textContent=`${topic.date} · ${topic.topic}`;group.append(option);});speakingTopicSelect.append(group);
+      }
+      const renderSpeaking = () => {
+        speakingList.replaceChildren();
+        const topic = speakingTopics[Number(speakingTopicSelect.value)];
+        const questions = topic?.questions.filter(q=>!speakingPartSelect.value||String(q.part)===speakingPartSelect.value)||[];
+        document.getElementById('speaking-count').textContent=`${questions.length} mục · ${topic?.topic||''}`;
+        questions.forEach(question=>{
+          const card=document.createElement('article');card.className='instant-vocab-card';card.style.cssText='display:block;padding:18px;margin:12px 0';
+          const badge=document.createElement('span');badge.className='ielts-topic-badge';badge.textContent=`Part ${question.part} · ${question.id}`;
+          const text=document.createElement('p');text.textContent=question.text;card.append(badge,text);
+          if(question.points){const label=document.createElement('p');label.textContent='You should say:';const list=document.createElement('ul');question.points.forEach(point=>{const item=document.createElement('li');item.textContent=point;list.append(item);});card.append(label,list);}
+          speakingList.append(card);
+        });
+      };
+      speakingTopicSelect.addEventListener('change',renderSpeaking);speakingPartSelect.addEventListener('change',renderSpeaking);renderSpeaking();
       const structureTopics = window.IELTS_PRACTICE?.structures || [];
       const structureSelect = document.getElementById('sentence-structures-topic');
       const structureList = document.getElementById('sentence-structures-list');
