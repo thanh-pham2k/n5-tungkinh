@@ -6,7 +6,8 @@ Mapping:
 
 - `speaking/Instant_Vocab_Practice.md` → Instant Vocab.
 - `speaking/Word_Order_Practice.md` → Word Order Review.
-- `writing/Writing_Practice.md` → Writing Review · IELTS Academic (Task 1 và Task 2), CSV `context,prompt,input,sample_answer`. Chọn bài trong dialog theo ngày tương tự Speaking. Các mẫu đầu tiên là bài luyện từng phần, không phải bài thi đầy đủ; chưa chấm band tự động.
+- `writing/Writing_Practice.md` → Word Order Review: Chọn câu Writing theo chủ đề. CSV 6 cột; 30 câu thuộc 10 chủ đề, mỗi chủ đề mức 1 → 2 → 3. Thay bộ Writing Review bài dài cũ.
+- `writing/Topic_Vocabulary.md` → Vocab Review: Chọn từ vựng IELTS theo chủ đề. CSV 5 cột; 50 thẻ theo cùng 10 chủ đề có nghĩa và ví dụ song ngữ. Dialog lọc ngày + chủ đề. Chỉ luyện câu và từ vựng; chưa làm bài dài, không chấm band.
 
 Hai chế độ có nút **Chọn câu IELTS…** mở dialog. Người dùng lọc theo ngày, tick từng câu rồi bấm **Nạp các câu đã chọn**. Mặc định không tick câu nào; lựa chọn được giữ qua các bộ lọc ngày trong lần mở dialog, có chọn tất cả đang hiển thị và bỏ chọn tất cả. Mỗi lần mở lại bắt đầu lựa chọn mới; Hủy không thay dữ liệu đang học. Khi nạp, app dùng English cho audio. Tên cột CSV vẫn theo schema hiện có của app; không đổi `example_ja` thành tên cột khác.
 
