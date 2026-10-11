@@ -5933,7 +5933,18 @@
       const structureTopics = window.IELTS_PRACTICE?.structures || [];
       const structureSelect = document.getElementById('sentence-structures-topic');
       const structureList = document.getElementById('sentence-structures-list');
-      structureTopics.forEach((topic,index) => { const option = document.createElement('option'); option.value = String(index); option.textContent = topic.topic; structureSelect.append(option); });
+      const topicGroup = topic => topic.startsWith('Work English') ? 'Work English' : topic.startsWith('Task 1') ? 'IELTS Task 1' : 'IELTS Task 2';
+      const appendGroupedTopics = (select,topics) => {
+        for (const label of ['Work English','IELTS Task 1','IELTS Task 2']) {
+          const group = document.createElement('optgroup'); group.label = label;
+          topics.filter(topic => topicGroup(topic.title) === label).forEach(topic => {
+            const option = document.createElement('option'); option.value = topic.value;
+            option.textContent = topic.title.replace(/^Work English · /,''); group.append(option);
+          });
+          if (group.children.length) select.append(group);
+        }
+      };
+      appendGroupedTopics(structureSelect,structureTopics.map((topic,index)=>({title:topic.topic,value:String(index)})));
       const renderStructures = () => {
         structureList.replaceChildren();
         const topic = structureTopics[Number(structureSelect.value)];
@@ -6011,7 +6022,7 @@
         const topicSelect = dialog.querySelector('select[aria-label="Lọc chủ đề IELTS"]');
         const topics = [...new Set(entries.map(entry => entry.topic).filter(Boolean))];
         dialog.querySelector('[data-topic-filter]').hidden = !topics.length;
-        topics.forEach(topic => { const option = document.createElement('option'); option.value = topic; option.textContent = topic; topicSelect.append(option); });
+        appendGroupedTopics(topicSelect,topics.map(topic=>({title:topic,value:topic})));
         [...new Set(days.map(day => day.date))].forEach(date => {
           const option = document.createElement("option");
           option.value = date;
