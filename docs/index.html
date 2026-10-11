@@ -4129,7 +4129,7 @@
         const item = items[idx];
         const total = items.length;
 
-        wordOrderStatus.textContent = `Câu ${idx + 1} / ${total}`;
+        wordOrderStatus.textContent = `Câu ${idx + 1} / ${total}${item.structureLevel ? ' · Mức ' + item.structureLevel + '/5' : ''}`;
         wordOrderCard.classList.remove("empty");
         wordOrderPlayArea.style.display = "grid";
         wordOrderPrev.disabled = idx <= 0;
@@ -5947,6 +5947,25 @@
             const title = document.createElement('strong'); title.textContent = `${label}: `;
             line.append(title, document.createTextNode(value)); card.append(line);
           }
+          const practice = document.createElement('button');
+          practice.type = 'button';
+          practice.className = 'primary';
+          practice.textContent = 'Luyện Word Order · 5 bài';
+          practice.style.marginTop = '12px';
+          practice.addEventListener('click', () => {
+            const exercises = item.exercises;
+            if (!exercises || exercises.length !== 5) return;
+            stopInstantPlayback('');
+            globalLanguageSelect.value = 'en';
+            globalLanguageSelect.dispatchEvent(new Event('change'));
+            wordOrderInput.value = ['vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order', ...exercises.map(exercise => [exercise.sentence,'',exercise.meaning,exercise.sentence,exercise.meaning,exercise.chunks.join('|')].join(','))].join('\n');
+            if (!loadWordOrderCsv(true)) return;
+            wordOrderItems.forEach((exercise,index)=>{ exercise.structureLevel = exercises[index].level; });
+            renderWordOrderContent();
+            selectTab('word-order-panel');
+            document.getElementById('word-order-panel').scrollIntoView({behavior:'smooth',block:'start'});
+          });
+          card.append(practice);
           structureList.append(card);
         });
       };

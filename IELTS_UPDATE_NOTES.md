@@ -14,6 +14,8 @@ Hai chế độ có nút **Chọn câu IELTS…** mở dialog. Người dùng l�
 
 ## Cập nhật đúng lần sau
 
+Nút **Luyện Word Order · 5 bài** trên mỗi card Sentence Structures nạp đúng bộ 5 bài từ `road-2-ielts/writing/Structure_Practice.json`. Có 216 bộ (1080 câu); thứ tự ngắn → mở rộng → thêm mệnh đề. UI chuyển tab Word Order, ẩn câu gốc và hiển thị Mức 1/5 → 5/5. Bộ luyện card tách riêng lịch 48 ngày. Khi sửa/thêm card, cập nhật JSON nguồn theo khóa topic + pattern + example, rồi sync và verify; không sửa JS được sinh.
+
 Writing và Vocab được chia thành 48 ngày học gợi ý từ 11/10–27/11/2026, mỗi ngày 5–6 câu + 4–6 thẻ cùng chủ đề. `docs/ielts/writing/DAILY_PLAN.md` là bản lịch đồng bộ từ nguồn. Dialog mở sẵn ngày đầu, vẫn có Tất cả ngày để ôn tổng hợp. Giữ cách chia này khi bổ sung, không gom lại một ngày.
 
 Đã mở rộng theo mục tiêu mới: luyện từng câu cho Work English + IELTS, ưu tiên mẫu tái sử dụng. 16 chủ đề gồm 6 Work và 10 IELTS; 246 câu Word Order; 242 thẻ collocation/từ vựng; 216 mẫu/ví dụ trong mục Sentence Structures. `writing/Sentence_Structures.md` ở repo nguồn là nguồn cho mục mới. Script đồng bộ gộp các block cùng ngày/chủ đề và sắp xếp câu theo mức dễ đến khó. Kiểm tra bằng `node scripts/verify-materials.mjs E:/n5-tungkinh` từ repo nguồn. Không quay lại bộ Writing bài dài hoặc tạo app riêng.
