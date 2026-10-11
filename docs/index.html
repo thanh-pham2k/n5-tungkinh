@@ -2397,6 +2397,7 @@
         <select class="tab-select" id="tab-select">
           <option value="instant-vocab-panel" selected>Instant Vocab</option>
           <option value="word-order-panel">Word Order Review</option>
+          <option value="writing-review-panel">Writing Review · IELTS Academic</option>
           <option value="vocab-review-panel">Vocab Review</option>
           <option value="hot-review-panel">Hot Review</option>
         </select>
@@ -2880,6 +2881,8 @@
     <section class="tab-panel" id="writing-review-panel" role="tabpanel" aria-labelledby="tab-writing-review">
       <h2>Writing Review</h2>
       <p class="hint">Load CSV 4 cột: context,prompt,input,sample_answer</p>
+      <button type="button" id="ielts-writing-load">Chọn bài IELTS Writing…</button>
+      <p class="hint">Luyện Academic Task 1 và Task 2 theo từng phần. Tự viết rồi so sánh với mẫu; chưa chấm band tự động.</p>
       <div class="writing-review-shell">
         <div class="writing-review-controls">
           <button class="primary" id="writing-review-load" type="button">Load CSV</button>
@@ -5902,6 +5905,7 @@
       for (const preset of [
         { mode: "instant-vocab", button: "ielts-instant-load", input: instantVocabInput, load: loadInstantVocabCsv },
         { mode: "word-order", button: "ielts-word-load", input: wordOrderInput, load: loadWordOrderCsv },
+        { mode: "writing", button: "ielts-writing-load", input: writingReviewInput, load: loadWritingReviewCsv },
       ]) {
         const days = window.IELTS_PRACTICE?.[preset.mode] || [];
         const button = document.getElementById(preset.button);
@@ -5913,7 +5917,7 @@
         dialog.className = "vocab-dialog";
         dialog.setAttribute("aria-labelledby", `ielts-title-${preset.mode}`);
         dialog.innerHTML = `<div class="vocab-dialog-inner">
-          <div class="vocab-dialog-header"><h2 id="ielts-title-${preset.mode}">Chọn câu IELTS · ${preset.mode === "instant-vocab" ? "Instant Vocab" : "Word Order"}</h2><button type="button" class="vocab-dialog-close" aria-label="Đóng chọn câu IELTS">×</button></div>
+          <div class="vocab-dialog-header"><h2 id="ielts-title-${preset.mode}">Chọn bài IELTS · ${preset.mode === "writing" ? "Academic Writing" : preset.mode === "instant-vocab" ? "Instant Vocab" : "Word Order"}</h2><button type="button" class="vocab-dialog-close" aria-label="Đóng chọn câu IELTS">×</button></div>
           <div class="vocab-dialog-content">
             <label>Lọc theo ngày <select aria-label="Lọc ngày IELTS"><option value="">Tất cả ngày</option></select></label>
             <div class="csv-dialog-actions" style="margin:12px 0"><button type="button" data-select-visible>Chọn tất cả đang hiển thị</button><button type="button" data-clear> bỏ chọn tất cả</button></div>
@@ -5947,7 +5951,7 @@
             const sentence = document.createElement("strong");
             sentence.textContent = entry.fields[0];
             const meaning = document.createElement("div");
-            meaning.textContent = entry.fields[2];
+            meaning.textContent = preset.mode === "writing" ? entry.fields[1] : entry.fields[2];
             const date = document.createElement("small");
             date.textContent = entry.date;
             text.append(sentence, meaning);
