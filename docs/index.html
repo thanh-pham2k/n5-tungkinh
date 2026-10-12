@@ -2363,6 +2363,7 @@
     .ielts-picker-text strong { font-size:15px; line-height:1.5; }
     .ielts-picker-meaning { color:#657583; font-size:14px; line-height:1.5; margin-top:4px; font-weight:400; }
     .ielts-picker-meta { display:flex; flex-wrap:wrap; gap:6px; margin-top:9px; align-items:center; }
+    .ielts-done-badge { display:inline-block; padding:3px 8px; border-radius:999px; background:#e3f4ec; color:#226747; font-size:12px; font-weight:600; }
     .ielts-topic-badge { display:inline-block; background:#eaf0f7; color:#45627c; padding:4px 9px; border-radius:20px; font-size:11px; font-weight:500; }
     .ielts-date-badge { font-size:11px; color:#86929d; padding:4px 6px; }
     @media(max-width:600px) { .ielts-picker-filters { grid-template-columns:1fr; padding:12px; } .ielts-picker-row { padding:12px; } }
@@ -6030,6 +6031,12 @@
           id: `${dayIndex}:${index}`, date: day.date, topic: day.topic || '', level: day.levels?.[index], row, fields: parseInstantVocabCsvRows(row)[0],
         })));
         const chosen = new Set();
+        const doneKey = `practice-ielts-done:${preset.mode}`;
+        const done = new Set();
+        try {
+          const saved = JSON.parse(sessionStorage.getItem(doneKey) || '[]');
+          if (Array.isArray(saved)) saved.forEach(id => { if (entries.some(entry => entry.id === id)) done.add(id); });
+        } catch {}
         const dialog = document.createElement("dialog");
         dialog.className = "vocab-dialog ielts-picker";
         dialog.setAttribute("aria-labelledby", `ielts-title-${preset.mode}`);
@@ -6091,6 +6098,13 @@
             date.textContent = entry.date;
             text.append(sentence, meaning);
             const meta = document.createElement('span'); meta.className = 'ielts-picker-meta';
+            if (done.has(entry.id)) {
+              const badge = document.createElement('small');
+              badge.className = 'ielts-done-badge';
+              badge.textContent = '✓ Done';
+              badge.title = 'Đã chọn và nạp trong phiên hiện tại';
+              meta.append(badge);
+            }
             if (entry.topic) { const topic = document.createElement('small'); topic.className = 'ielts-topic-badge'; topic.textContent = `${entry.topic}${preset.mode === 'writing' ? ' · Mức ' + entry.level : ''}`; meta.append(topic); }
             if (!select.value) meta.append(date);
             text.append(meta);
@@ -6134,7 +6148,11 @@
           globalLanguageSelect.value = "en";
           globalLanguageSelect.dispatchEvent(new Event("change"));
           preset.input.value = [days[0].csv.split(/\r?\n/)[0], ...selected.map(entry => entry.row)].join("\n");
-          if (preset.load(preset.mode === 'writing')) dialog.close();
+          if (preset.load(preset.mode === 'writing')) {
+            selected.forEach(entry => done.add(entry.id));
+            try { sessionStorage.setItem(doneKey, JSON.stringify([...done])); } catch {}
+            dialog.close();
+          }
         });
       }
       init();
