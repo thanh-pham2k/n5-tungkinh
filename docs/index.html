@@ -2525,6 +2525,7 @@
     /* Focus keeps the learning surface and playback/answer controls only. */
     body.focus-mode-active {
       padding-top: max(64px, calc(env(safe-area-inset-top) + 56px)) !important;
+      padding-bottom: max(12px, env(safe-area-inset-bottom)) !important;
     }
     body.focus-mode-active .app-header,
     body.focus-mode-active .tabs,
@@ -2556,6 +2557,8 @@
       scroll-margin-top: 64px;
     }
     body.focus-mode-active main {
+      min-height: calc(100dvh - max(64px, calc(env(safe-area-inset-top) + 56px)) - max(12px, env(safe-area-inset-bottom)));
+      justify-content: center;
       padding-bottom: calc(var(--focus-actions-height, 0px) + 20px) !important;
     }
     body.focus-mode-active .tab-panel.active :is(.word-order-actions, .vocab-review-actions, .writing-review-actions, .quiz-actions) {
