@@ -2,7 +2,7 @@
 <html lang="vi">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
   <title>Audio Looper</title>
   <style>
     :root {
@@ -1365,6 +1365,8 @@
     }
 
     @media (max-width: 768px) {
+      html { scroll-padding-bottom: 140px; }
+
       body {
         display: block;
         min-height: auto;
@@ -2373,6 +2375,119 @@
     @media(max-width:600px) { .ielts-picker-filters { grid-template-columns:1fr; padding:12px; } .ielts-picker-row { padding:12px; } }
       /* Prefer regular weight across the reading and practice interface. */
     body, body * { font-weight: 400 !important; }
+
+    #typing-review-answer {
+      width: 100%;
+      min-height: 112px;
+      box-sizing: border-box;
+      font: inherit;
+      font-size: 16px;
+      line-height: 1.5;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      resize: vertical;
+      scroll-margin-block: 20px;
+    }
+
+    #typing-review-bank .word-order-chip {
+      cursor: default;
+      user-select: text;
+    }
+
+    :is(button, input, select, textarea):focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: 3px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 12px !important;
+        padding: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left)) !important;
+      }
+
+      main, .tab-panel, .word-order-shell, .word-order-play-area,
+      .tabs, .tab-select-field, .vocab-dialog-inner, .vocab-dialog-content {
+        min-width: 0;
+      }
+
+      .hint, .word-order-card, .word-order-feedback, .word-order-sample,
+      .vocab-dialog-content {
+        overflow-wrap: anywhere;
+      }
+
+      button, input:not([type="checkbox"]):not([type="radio"]):not([type="range"]), select {
+        min-height: 44px;
+      }
+
+      input, select, textarea, .ielts-picker-filters select {
+        font-size: 16px;
+        max-width: 100%;
+      }
+
+      .app-header {
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .app-header h1 { margin: 0; }
+      .app-actions { margin-left: auto; }
+
+      #word-order-panel > .word-order-controls,
+      .word-order-shell > .word-order-controls,
+      .word-order-actions {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+      }
+
+      .word-order-controls button, .word-order-actions button {
+        width: 100%;
+        min-width: 0;
+        min-height: 48px;
+        padding: 10px 8px;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        line-height: 1.4;
+      }
+
+      #word-order-audio-play { grid-column: 1 / -1; }
+
+      .word-order-actions {
+        position: sticky;
+        bottom: 0;
+        z-index: 5;
+        padding: 8px 0 max(8px, env(safe-area-inset-bottom));
+        background: var(--bg);
+        border-top: 1px solid var(--line);
+      }
+
+      .word-order-card { min-height: 80px; padding: 14px; }
+      .word-order-prompt { font-size: 18px; line-height: 1.5; }
+      .word-order-bank, .word-order-slots { padding: 8px; }
+      .word-order-chip { min-height: 44px; padding: 8px 12px; }
+      #typing-review-words { display: grid; gap: 8px; }
+      #typing-review-answer { scroll-margin-bottom: 140px; }
+      .word-order-csv-help summary {
+        min-height: 44px;
+        padding-block: 12px;
+        cursor: pointer;
+        color: var(--muted);
+      }
+
+      .word-order-csv-help .hint { margin-top: 0; }
+
+      .vocab-dialog, .vocab-dialog-inner {
+        max-height: calc(100dvh - 24px);
+      }
+
+      .vocab-dialog { width: calc(100% - 24px); }
+      .vocab-dialog-header { padding: 12px; gap: 8px; }
+      .vocab-dialog-content { padding: 12px; }
+      .csv-dialog-actions { flex-wrap: wrap; gap: 8px; }
+      .csv-dialog-actions button { flex: 1 1 90px; padding: 8px; }
+      .ielts-picker-list { max-height: 40dvh; }
+    }
   </style>
 </head>
 <body>
@@ -2635,10 +2750,13 @@
         <button type="button" id="ielts-writing-load">Chọn câu Writing theo chủ đề…</button>
         <button type="button" id="ielts-word-load">Chọn câu IELTS…</button>
       </div>
-      <p class="hint">
+      <details class="word-order-csv-help">
+        <summary>Định dạng CSV và ví dụ</summary>
+        <p class="hint">
         Load CSV có header: <code>vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order</code><br>
         Ví dụ: <code>私,わたし,Tôi,私（わたし）は学生（がくせい）です。,Tôi là học sinh.,私|は|学生|です</code>
-      </p>
+        </p>
+      </details>
       <div class="word-order-shell">
         <div class="word-order-controls">
           <button class="primary" id="word-order-load" type="button">Load CSV</button>
@@ -2657,7 +2775,7 @@
             <div class="word-order-bank" id="typing-review-bank"></div>
           </div>
           <label for="typing-review-answer" id="typing-review-label" hidden>Nhập câu trả lời (bỏ qua hoa/thường và dấu câu):</label>
-          <textarea id="typing-review-answer" rows="3" hidden spellcheck="false" autocomplete="off" placeholder="Nhập câu trả lời…" style="width:100%;box-sizing:border-box;font:inherit;padding:12px;border:1px solid var(--border);border-radius:12px;"></textarea>
+          <textarea id="typing-review-answer" rows="3" hidden spellcheck="false" autocomplete="off" autocapitalize="off" enterkeyhint="done" placeholder="Nhập câu trả lời…"></textarea>
           <div class="word-order-section-title">Câu của bạn (bấm vào từ để hoàn tác):</div>
           <div class="word-order-slots" id="word-order-slots" aria-live="polite">
             <span class="word-order-placeholder">Bấm vào các từ bên dưới theo thứ tự đúng...</span>
