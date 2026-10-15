@@ -5810,6 +5810,8 @@
         setFocusMode(!document.body.classList.contains("focus-mode-active"));
       });
 
+      document.addEventListener("exercise-ready", () => setFocusMode(true));
+
       focusModeExit?.addEventListener("click", () => {
         setFocusMode(false);
         focusModeToggle?.focus();
@@ -5958,6 +5960,7 @@
         confirmButton.addEventListener("click", () => {
           if (load()) {
             dialog.close();
+            setFocusMode(true);
           }
         });
         dialog.addEventListener("click", (event) => {
@@ -6319,7 +6322,7 @@
             wordOrderItems.forEach((exercise,index)=>{ exercise.structureLevel = exercises[index].level; });
             renderWordOrderContent();
             selectTab('word-order-panel');
-            document.getElementById('word-order-panel').scrollIntoView({behavior:'smooth',block:'start'});
+            setFocusMode(true);
           });
           card.append(practice);
           structureList.append(card);
@@ -6503,6 +6506,7 @@
             selected.forEach(entry => done.add(entry.id));
             try { sessionStorage.setItem(doneKey, JSON.stringify([...done])); } catch {}
             dialog.close();
+            setFocusMode(true);
           }
         });
       }

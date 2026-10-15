@@ -2386,6 +2386,7 @@
       );
       closeHotReviewDialog();
       renderHotReviewQuiz();
+      document.dispatchEvent(new Event("exercise-ready"));
     } catch (error) {
       hotReviewError.textContent = error.message || "Không đọc được CSV.";
     }
