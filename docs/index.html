@@ -2468,14 +2468,6 @@
       .word-order-chip { min-height: 44px; padding: 8px 12px; }
       #typing-review-words { display: grid; gap: 8px; }
       #typing-review-answer { scroll-margin-bottom: 140px; }
-      .word-order-csv-help summary {
-        min-height: 44px;
-        padding-block: 12px;
-        cursor: pointer;
-        color: var(--muted);
-      }
-
-      .word-order-csv-help .hint { margin-top: 0; }
 
       .vocab-dialog, .vocab-dialog-inner {
         max-height: calc(100dvh - 24px);
@@ -2487,6 +2479,48 @@
       .csv-dialog-actions { flex-wrap: wrap; gap: 8px; }
       .csv-dialog-actions button { flex: 1 1 90px; padding: 8px; }
       .ielts-picker-list { max-height: 40dvh; }
+    }
+    .mobile-button-icon { display: none; }
+
+    .ielts-picker-filters {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+      padding: 10px;
+      border-radius: 12px;
+    }
+    .ielts-picker-filters label { min-width: 0; gap: 4px; }
+    .ielts-picker-filters select { width: 100%; min-width: 0; padding-inline: 8px; }
+    .ielts-picker-filters label[hidden] { display: none; }
+    .ielts-picker-filters label:only-child { grid-column: 1 / -1; }
+    .ielts-picker-filters:has(> label[hidden]) > label:not([hidden]) { grid-column: 1 / -1; }
+    .ielts-picker [data-confirm] { white-space: nowrap; }
+
+    @media (max-width: 768px) {
+      .mobile-icon-button .mobile-button-text { display: none; }
+      .mobile-icon-button .mobile-button-icon { display: block; flex-shrink: 0; }
+      button.mobile-icon-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 44px;
+        min-height: 44px;
+        padding: 10px;
+      }
+      .word-order-shell > .word-order-controls {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+      }
+      .word-order-actions { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      #word-order-audio-play { grid-column: auto; }
+      .ielts-picker-actions {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) repeat(3, 44px);
+        gap: 8px;
+      }
+      .ielts-random-count { min-width: 0; gap: 4px; }
+      .ielts-random-count input { width: 52px; min-width: 0; }
+      .ielts-picker .csv-dialog-actions button.mobile-icon-button { flex: 0 0 44px; }
+      html { scroll-padding-bottom: 84px; }
+      #typing-review-answer { scroll-margin-bottom: 84px; }
     }
   </style>
 </head>
@@ -2644,9 +2678,8 @@
     <section class="tab-panel active" id="instant-vocab-panel" role="tabpanel" aria-labelledby="tab-instant-vocab">
       <h2>Instant Vocab</h2>
       <div class="instant-vocab-controls">
-        <button type="button" id="ielts-instant-load">Chọn câu IELTS…</button>
+        <button type="button" id="ielts-instant-load">Chọn bài IELTS</button>
       </div>
-      <p class="hint">Load CSV 5 cột. Mỗi phần audio dùng Số lần lặp global: đọc tiếng Việt trước, sau đó đọc ngôn ngữ đã chọn.</p>
       <div class="instant-vocab-shell">
         <div class="instant-vocab-controls">
           <button class="primary" id="instant-vocab-load" type="button">Load CSV</button>
@@ -2684,8 +2717,7 @@
 
     <section class="tab-panel" id="vocab-review-panel" role="tabpanel" aria-labelledby="tab-vocab-review">
       <h2>Vocab Review</h2>
-      <button type="button" id="ielts-topic-vocab-load">Chọn từ vựng IELTS theo chủ đề…</button>
-      <p class="hint">Load CSV có header: vocabulary,hiragana,meaning_vi,example_ja,example_vi</p>
+      <button type="button" id="ielts-topic-vocab-load">Chọn từ vựng IELTS</button>
       <div class="vocab-review-shell">
         <div class="vocab-review-controls">
           <button class="primary" id="vocab-review-load" type="button">Load CSV</button>
@@ -2747,16 +2779,9 @@
 
     <section class="tab-panel" id="word-order-panel" role="tabpanel" aria-labelledby="tab-word-order">
       <div class="word-order-controls">
-        <button type="button" id="ielts-writing-load">Chọn câu Writing theo chủ đề…</button>
-        <button type="button" id="ielts-word-load">Chọn câu IELTS…</button>
+        <button type="button" id="ielts-writing-load">Chọn bài Writing</button>
+        <button type="button" id="ielts-word-load">Chọn bài IELTS</button>
       </div>
-      <details class="word-order-csv-help">
-        <summary>Định dạng CSV và ví dụ</summary>
-        <p class="hint">
-        Load CSV có header: <code>vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order</code><br>
-        Ví dụ: <code>私,わたし,Tôi,私（わたし）は学生（がくせい）です。,Tôi là học sinh.,私|は|学生|です</code>
-        </p>
-      </details>
       <div class="word-order-shell">
         <div class="word-order-controls">
           <button class="primary" id="word-order-load" type="button">Load CSV</button>
@@ -3051,7 +3076,6 @@
 
     <section class="tab-panel" id="writing-review-panel" role="tabpanel" aria-labelledby="tab-writing-review">
       <h2>Writing Review</h2>
-      <p class="hint">Load CSV 4 cột: context,prompt,input,sample_answer</p>
       <div class="writing-review-shell">
         <div class="writing-review-controls">
           <button class="primary" id="writing-review-load" type="button">Load CSV</button>
@@ -6212,6 +6236,41 @@
       };
       structureSelect.addEventListener('change',renderStructures);
       renderStructures();
+      // Keep full labels on desktop and accessible names on compact mobile buttons.
+      const mobileIcons = {
+        upload: '<path d="M12 16V3m-5 5 5-5 5 5M4 16v5h16v-5"/>',
+        clear: '<path d="M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7m4-7v7"/>',
+        shuffle: '<path d="M3 5h3c5 0 7 14 12 14h3m-4-4 4 4-4 4M3 19h3c2 0 3-2 5-5m2-4c2-3 3-5 5-5h3m-4-4 4 4-4 4"/>',
+        reset: '<path d="M3 11a9 9 0 1 1 2 7M3 4v7h7"/>',
+        audio: '<path d="m11 4-6 5H2v6h3l6 5ZM15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/>',
+        prev: '<path d="m14 5-7 7 7 7"/>',
+        next: '<path d="m10 5 7 7-7 7"/>',
+        answer: '<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>',
+        check: '<path d="m5 12 4 4L19 6"/>',
+        select: '<rect x="3" y="3" width="18" height="18" rx="3"/><path d="m7 12 3 3 7-7"/>',
+        deselect: '<rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 12h10"/>',
+        cancel: '<path d="m6 6 12 12M6 18 18 6"/>',
+      };
+      const compactMobileButton = (button, icon, label) => {
+        if (!button) return;
+        const text = button.textContent;
+        button.classList.add('mobile-icon-button');
+        button.setAttribute('aria-label', label);
+        button.title = [label, button.title].filter(Boolean).join(' · ');
+        button.innerHTML = `<svg class="mobile-button-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${mobileIcons[icon]}</svg>`;
+        const span = document.createElement('span');
+        span.className = 'mobile-button-text';
+        span.textContent = text;
+        button.append(span);
+      };
+      for (const [suffix, icon, label] of [
+        ['load', 'upload', 'Nạp CSV'], ['clear', 'clear', 'Xóa dữ liệu'],
+        ['shuffle', 'shuffle', 'Xáo trộn câu hỏi'], ['reset', 'reset', 'Làm lại'],
+        ['audio-play', 'audio', 'Nghe câu'], ['prev', 'prev', 'Câu trước'],
+        ['show-answer', 'answer', 'Xem đáp án'], ['check', 'check', 'Kiểm tra'],
+        ['next', 'next', 'Câu tiếp theo'],
+      ]) compactMobileButton(document.getElementById(`word-order-${suffix}`), icon, label);
+
       // IELTS presets are generated from road-2-ielts; see IELTS_UPDATE_NOTES.md.
       for (const preset of [
         { mode: "instant-vocab", button: "ielts-instant-load", input: instantVocabInput, load: loadInstantVocabCsv },
@@ -6235,14 +6294,21 @@
         dialog.className = "vocab-dialog ielts-picker";
         dialog.setAttribute("aria-labelledby", `ielts-title-${preset.mode}`);
         dialog.innerHTML = `<div class="vocab-dialog-inner">
-          <div class="vocab-dialog-header"><h2 id="ielts-title-${preset.mode}">Chọn bài IELTS · ${preset.mode === "writing" ? "Writing từng câu" : preset.mode === "topic-vocab" ? "Từ vựng theo chủ đề" : preset.mode === "instant-vocab" ? "Instant Vocab" : "Word Order"}</h2><button type="button" class="vocab-dialog-close" aria-label="Đóng chọn câu IELTS">×</button></div>
+          <div class="vocab-dialog-header"><h2 id="ielts-title-${preset.mode}">IELTS · ${preset.mode === "writing" ? "Writing" : preset.mode === "topic-vocab" ? "Từ vựng" : preset.mode === "instant-vocab" ? "Instant Vocab" : "Word Order"}</h2><button type="button" class="vocab-dialog-close" aria-label="Đóng chọn câu IELTS">×</button></div>
           <div class="vocab-dialog-content">
-            <div class="ielts-picker-filters"><label>Lọc theo ngày <select aria-label="Lọc ngày IELTS"><option value="">Tất cả ngày</option></select></label>
+            <div class="ielts-picker-filters"><label>Ngày <select aria-label="Lọc ngày IELTS"><option value="">Tất cả ngày</option></select></label>
             <label data-topic-filter hidden>Chủ đề <select aria-label="Lọc chủ đề IELTS"><option value="">Tất cả chủ đề</option></select></label></div>
             <div class="ielts-picker-actions"><label class="ielts-random-count">Số mục <input type="number" min="1" step="1" value="10" aria-label="Số mục chọn ngẫu nhiên"></label><button type="button" data-random>⚄ Chọn ngẫu nhiên</button><button type="button" data-select-visible>Chọn tất cả đang hiển thị</button><button type="button" data-clear>Bỏ chọn tất cả</button></div>
             <p data-count aria-live="polite"></p><div data-list class="ielts-picker-list"></div>
-            <div class="csv-dialog-actions"><button type="button" data-cancel>Hủy</button><button type="button" class="primary" data-confirm disabled>Nạp các câu đã chọn</button></div>
+            <div class="csv-dialog-actions"><button type="button" data-cancel>Hủy</button><button type="button" class="primary" data-confirm disabled>Bắt đầu</button></div>
           </div></div>`;
+        for (const [selector, icon, label] of [
+          ['[data-random]', 'shuffle', 'Chọn ngẫu nhiên'],
+          ['[data-select-visible]', 'select', 'Chọn tất cả đang hiển thị'],
+          ['[data-clear]', 'deselect', 'Bỏ chọn tất cả'],
+          ['[data-cancel]', 'cancel', 'Hủy'],
+          ['[data-confirm]', 'check', 'Nạp các câu đã chọn'],
+        ]) compactMobileButton(dialog.querySelector(selector), icon, label);
         document.body.append(dialog);
         const randomCountInput = dialog.querySelector('input[aria-label="Số mục chọn ngẫu nhiên"]');
         const randomCountKey = `practice-random-count:${preset.mode}`;
@@ -6262,14 +6328,14 @@
         [...new Set(days.map(day => day.date))].forEach(date => {
           const option = document.createElement("option");
           option.value = date;
-          option.textContent = `${date} · ${entries.filter(entry => entry.date === date).length} mục`;
+          option.textContent = date;
           select.append(option);
         });
         const list = dialog.querySelector("[data-list]");
         const confirm = dialog.querySelector("[data-confirm]");
         const visibleEntries = () => entries.filter(entry => (!select.value || entry.date === select.value) && (!topicSelect.value || entry.topic === topicSelect.value));
         const updateCount = () => {
-          dialog.querySelector("[data-count]").textContent = `${chosen.size} mục đã chọn · ${visibleEntries().length} mục đang hiển thị. Ngẫu nhiên chọn lại trong bộ lọc hiện tại; giữ các mục đã chọn ở bộ lọc khác.`;
+          dialog.querySelector("[data-count]").textContent = `Đã chọn ${chosen.size} · Hiển thị ${visibleEntries().length}`;
           confirm.disabled = chosen.size === 0;
         };
         const render = () => {
