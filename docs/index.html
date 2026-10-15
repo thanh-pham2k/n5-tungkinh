@@ -2555,6 +2555,22 @@
     body.focus-mode-active .tab-panel.active {
       scroll-margin-top: 64px;
     }
+    body.focus-mode-active main {
+      padding-bottom: calc(var(--focus-actions-height, 0px) + 20px) !important;
+    }
+    body.focus-mode-active .tab-panel.active :is(.word-order-actions, .vocab-review-actions, .writing-review-actions, .quiz-actions) {
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: min(480px, calc(100% - 24px));
+      z-index: 20;
+      margin: 0;
+      padding: 8px 0 max(8px, env(safe-area-inset-bottom));
+      border-top: 1px solid var(--line);
+      background: var(--bg);
+      box-shadow: 0 -6px 16px rgba(23, 32, 51, 0.05);
+    }
     body.focus-mode-active .instant-vocab-controls {
       display: flex;
       gap: 8px;
@@ -5756,8 +5772,23 @@
         settingsToggle.setAttribute("aria-expanded", String(isOpen));
       };
 
+      const syncFocusActionsHeight = () => {
+        const actions = document.querySelector('.tab-panel.active :is(.word-order-actions, .vocab-review-actions, .writing-review-actions, .quiz-actions)');
+        const height = document.body.classList.contains('focus-mode-active') && actions ? actions.getBoundingClientRect().height : 0;
+        document.body.style.setProperty('--focus-actions-height', `${height}px`);
+      };
+      const focusActionsObserver = new ResizeObserver(syncFocusActionsHeight);
+      document.querySelectorAll('.word-order-actions, .vocab-review-actions, .writing-review-actions').forEach(actions => focusActionsObserver.observe(actions));
+      const quizActionsObserver = new MutationObserver(() => {
+        document.querySelectorAll('.quiz-actions').forEach(actions => focusActionsObserver.observe(actions));
+        syncFocusActionsHeight();
+      });
+      const quizContent = document.getElementById('hot-review-content');
+      if (quizContent) quizActionsObserver.observe(quizContent, { childList: true });
+
       const setFocusMode = (isActive) => {
         document.body.classList.toggle("focus-mode-active", isActive);
+        syncFocusActionsHeight();
         focusModeToggle?.setAttribute("aria-pressed", String(isActive));
         if (focusModeExit) {
           focusModeExit.hidden = !isActive;
