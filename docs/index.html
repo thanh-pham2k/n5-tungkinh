@@ -1025,6 +1025,10 @@
       color: var(--text);
     }
 
+    #word-order-play-area [hidden] {
+      display: none !important;
+    }
+
     .word-order-slots {
       min-height: 58px;
       border: 2px dashed var(--line);
@@ -2420,6 +2424,7 @@
         <select class="tab-select" id="tab-select">
           <option value="instant-vocab-panel" selected>Instant Vocab</option>
           <option value="word-order-panel">Word Order Review</option>
+          <option value="typing-review-panel">Typing Review</option>
           <option value="sentence-structures-panel">Sentence Structures</option>
           <option value="speaking-questions-panel">Speaking Questions</option>
           <option value="vocab-review-panel">Vocab Review</option>
@@ -2647,6 +2652,8 @@
           Dán CSV để bắt đầu.
         </div>
         <div class="word-order-play-area" id="word-order-play-area" style="display: none;">
+          <label for="typing-review-answer" id="typing-review-label" hidden>Nhập câu trả lời (không phân biệt hoa/thường):</label>
+          <textarea id="typing-review-answer" rows="3" hidden spellcheck="false" autocomplete="off" placeholder="Nhập câu trả lời…" style="width:100%;box-sizing:border-box;font:inherit;padding:12px;border:1px solid var(--border);border-radius:12px;"></textarea>
           <div class="word-order-section-title">Câu của bạn (bấm vào từ để hoàn tác):</div>
           <div class="word-order-slots" id="word-order-slots" aria-live="polite">
             <span class="word-order-placeholder">Bấm vào các từ bên dưới theo thứ tự đúng...</span>
@@ -3157,6 +3164,29 @@
       let writingReviewItems = [];
       let writingReviewIndex = 0;
       let writingReviewCsvText = "";
+      let typingReviewMode = false;
+      const typingReviewAnswer = document.getElementById("typing-review-answer");
+      const normalizeTypingAnswer = (value) => value.normalize("NFKC").toLowerCase().trim().replace(/\s+/gu, " ");
+      const typingTarget = (item) => item.targetSentence.replace(/（[^）]+）/g, "");
+      const renderTypingMode = () => {
+        typingReviewAnswer.hidden = !typingReviewMode;
+        document.getElementById("typing-review-label").hidden = !typingReviewMode;
+        wordOrderSlots.hidden = typingReviewMode;
+        wordOrderBank.hidden = typingReviewMode;
+        wordOrderPlayArea.querySelectorAll(".word-order-section-title").forEach(el => { el.hidden = typingReviewMode; });
+        document.getElementById("word-order-csv-title").textContent = `Load CSV - ${typingReviewMode ? "Typing Review" : "Word Order Review"}`;
+      };
+      typingReviewAnswer.addEventListener("input", () => {
+        wordOrderSlots.classList.remove("is-correct", "is-incorrect");
+        wordOrderFeedback.classList.remove("show", "correct", "incorrect");
+        wordOrderSample.classList.remove("show");
+      });
+      typingReviewAnswer.addEventListener("keydown", event => {
+        if (event.key === "Enter" && !event.shiftKey && !event.isComposing) {
+          event.preventDefault();
+          checkWordOrder();
+        }
+      });
       let wordOrderItems = [];
       let wordOrderIndex = 0;
       let wordOrderCurrentTokens = [];
@@ -4116,6 +4146,8 @@
       };
 
       const renderWordOrderContent = () => {
+        typingReviewAnswer.value = "";
+        renderTypingMode();
         const items = wordOrderItems;
 
         if (!items.length) {
@@ -4165,7 +4197,7 @@
 
         const hintRow = document.createElement("div");
         hintRow.className = "word-order-hint-row";
-        if (item.vocabulary) {
+        if (item.vocabulary && !typingReviewMode) {
           const vocabSpan = document.createElement("span");
           vocabSpan.textContent = `Từ vựng: ${item.vocabulary}${item.hiragana ? ` (${item.hiragana})` : ""}`;
           hintRow.appendChild(vocabSpan);
@@ -4235,6 +4267,20 @@
         if (!wordOrderItems.length) return;
         const item = wordOrderItems[wordOrderIndex];
 
+        if (typingReviewMode) {
+          const answer = normalizeTypingAnswer(typingReviewAnswer.value);
+          const isMatch = Boolean(answer) && answer === normalizeTypingAnswer(typingTarget(item));
+          wordOrderSlots.classList.toggle("is-correct", isMatch);
+          wordOrderSlots.classList.toggle("is-incorrect", !isMatch);
+          wordOrderFeedback.className = `word-order-feedback show ${isMatch ? "correct" : "incorrect"}`;
+          wordOrderFeedback.textContent = !answer ? "Vui lòng nhập câu trả lời." : isMatch ? "Chính xác! 🎉 Bạn đã nhập đúng câu." : "Câu trả lời chưa chính xác. Hãy thử lại hoặc bấm 'Xem đáp án'.";
+          wordOrderSample.classList.remove("show");
+          if (isMatch) {
+            showWordOrderSampleContent(item);
+            playWordOrderAudio();
+          }
+          return;
+        }
         if (wordOrderSelectedTokens.length === 0) {
           wordOrderFeedback.className = "word-order-feedback show incorrect";
           wordOrderFeedback.textContent = "Vui lòng chọn từ để sắp xếp câu.";
@@ -4289,6 +4335,7 @@
         if (!wordOrderItems.length) return;
         const item = wordOrderItems[wordOrderIndex];
 
+        if (typingReviewMode) typingReviewAnswer.value = typingTarget(item);
         wordOrderSelectedTokens = [...wordOrderCurrentTokens];
         wordOrderBankTokens = [];
         wordOrderSlots.classList.remove("is-incorrect");
@@ -4303,6 +4350,7 @@
       };
 
       const resetCurrentWordOrder = () => {
+        typingReviewAnswer.value = "";
         if (!wordOrderItems.length) return;
         wordOrderSelectedTokens = [];
         wordOrderBankTokens = shuffleTokensGuaranteed(wordOrderCurrentTokens);
@@ -4935,6 +4983,10 @@
       };
 
       const selectTab = (targetId) => {
+        const wasTyping = typingReviewMode;
+        typingReviewMode = targetId === "typing-review-panel";
+        const panelId = typingReviewMode ? "word-order-panel" : targetId;
+        if (wasTyping !== typingReviewMode) renderWordOrderContent();
         document.body.classList.toggle("hot-review-active", targetId === "hot-review-panel");
 
         if (tabSelect) {
@@ -4947,7 +4999,7 @@
         });
 
         tabPanels.forEach((panel) => {
-          panel.classList.toggle("active", panel.id === targetId);
+          panel.classList.toggle("active", panel.id === panelId);
         });
 
         if (targetId === "vocab-review-panel") {
@@ -5764,7 +5816,7 @@
       }
 
       window.addEventListener("keydown", (event) => {
-        if (tabSelect.value === "word-order-panel") {
+        if (tabSelect.value === "word-order-panel" || tabSelect.value === "typing-review-panel") {
           const isSpaceKey = event.code === "Space";
           const isEnterKey = event.code === "Enter" || event.code === "NumpadEnter";
           const isLeftKey = event.code === "ArrowLeft" || (event.code === "KeyJ" && !event.ctrlKey && !event.metaKey && !event.altKey);
