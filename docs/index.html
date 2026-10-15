@@ -2652,6 +2652,10 @@
           Dán CSV để bắt đầu.
         </div>
         <div class="word-order-play-area" id="word-order-play-area" style="display: none;">
+          <div id="typing-review-words" hidden>
+            <div class="word-order-section-title">Các từ/cụm từ đã xáo trộn — gõ lại thành câu đúng:</div>
+            <div class="word-order-bank" id="typing-review-bank"></div>
+          </div>
           <label for="typing-review-answer" id="typing-review-label" hidden>Nhập câu trả lời (không phân biệt hoa/thường):</label>
           <textarea id="typing-review-answer" rows="3" hidden spellcheck="false" autocomplete="off" placeholder="Nhập câu trả lời…" style="width:100%;box-sizing:border-box;font:inherit;padding:12px;border:1px solid var(--border);border-radius:12px;"></textarea>
           <div class="word-order-section-title">Câu của bạn (bấm vào từ để hoàn tác):</div>
@@ -3174,6 +3178,8 @@
         wordOrderSlots.hidden = typingReviewMode;
         wordOrderBank.hidden = typingReviewMode;
         wordOrderPlayArea.querySelectorAll(".word-order-section-title").forEach(el => { el.hidden = typingReviewMode; });
+        document.getElementById("typing-review-words").hidden = !typingReviewMode;
+        document.querySelector("#typing-review-words .word-order-section-title").hidden = false;
         document.getElementById("word-order-csv-title").textContent = `Load CSV - ${typingReviewMode ? "Typing Review" : "Word Order Review"}`;
       };
       typingReviewAnswer.addEventListener("input", () => {
@@ -4220,6 +4226,16 @@
       };
 
       const renderWordOrderPlayArea = () => {
+        const typingBank = document.getElementById("typing-review-bank");
+        typingBank.replaceChildren();
+        if (typingReviewMode) {
+          wordOrderBankTokens.forEach(token => {
+            const chip = document.createElement("span");
+            chip.className = "word-order-chip";
+            chip.textContent = token.text;
+            typingBank.appendChild(chip);
+          });
+        }
         wordOrderSlots.replaceChildren();
         if (wordOrderSelectedTokens.length === 0) {
           const placeholder = document.createElement("span");
@@ -4336,8 +4352,10 @@
         const item = wordOrderItems[wordOrderIndex];
 
         if (typingReviewMode) typingReviewAnswer.value = typingTarget(item);
-        wordOrderSelectedTokens = [...wordOrderCurrentTokens];
-        wordOrderBankTokens = [];
+        if (!typingReviewMode) {
+          wordOrderSelectedTokens = [...wordOrderCurrentTokens];
+          wordOrderBankTokens = [];
+        }
         wordOrderSlots.classList.remove("is-incorrect");
         wordOrderSlots.classList.add("is-correct");
 
