@@ -2522,6 +2522,56 @@
       html { scroll-padding-bottom: 84px; }
       #typing-review-answer { scroll-margin-bottom: 84px; }
     }
+    /* Focus keeps the learning surface and playback/answer controls only. */
+    body.focus-mode-active {
+      padding-top: max(64px, calc(env(safe-area-inset-top) + 56px)) !important;
+    }
+    body.focus-mode-active .app-header,
+    body.focus-mode-active .tabs,
+    body.focus-mode-active .tab-panel.active > h2,
+    body.focus-mode-active .tab-panel.active > .hint,
+    body.focus-mode-active .tab-panel.active .status,
+    body.focus-mode-active .word-order-controls,
+    body.focus-mode-active .vocab-review-controls,
+    body.focus-mode-active .vocab-review-settings,
+    body.focus-mode-active .vocab-review-status-row,
+    body.focus-mode-active .writing-review-controls,
+    body.focus-mode-active .tab-panel.active > button,
+    body.focus-mode-active .tab-panel.active > label,
+    body.focus-mode-active .tab-panel.active > .ielts-picker-filters,
+    body.focus-mode-active .instant-vocab-controls > :not(#instant-vocab-play-all):not(#instant-vocab-stop),
+    body.focus-mode-active .instant-vocab-controls:has(#ielts-instant-load),
+    body.focus-mode-active #kanji-lesson-list,
+    body.focus-mode-active #lesson-switcher,
+    body.focus-mode-active #audio-panel > section,
+    body.focus-mode-active #audio-panel > .controls-row,
+    body.focus-mode-active .hot-review-tools,
+    body.focus-mode-active .hot-review-controls-toggle,
+    body.focus-mode-active .quiz-group-list,
+    body.focus-mode-active .quiz-header,
+    body.focus-mode-active .hot-review-page-size {
+      display: none !important;
+    }
+    body.focus-mode-active .tab-panel.active {
+      scroll-margin-top: 64px;
+    }
+    body.focus-mode-active .instant-vocab-controls {
+      display: flex;
+      gap: 8px;
+    }
+    body.focus-mode-active .focus-mode-exit {
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      min-height: 44px;
+      padding: 0;
+      top: max(10px, env(safe-area-inset-top));
+      right: max(12px, env(safe-area-inset-right));
+      border-radius: 50%;
+      background: var(--panel);
+      font-size: 24px;
+    }
   </style>
 </head>
 <body>
@@ -2565,7 +2615,7 @@
         </div>
       </div>
     </div>
-    <button class="focus-mode-exit" id="focus-mode-exit" type="button" hidden>× Thoát focus</button>
+    <button class="focus-mode-exit" id="focus-mode-exit" type="button" hidden aria-label="Thoát Focus" title="Thoát Focus (Esc)">×</button>
 
     <div class="tabs" aria-label="Nội dung học">
       <label class="tab-select-field" for="tab-select">
@@ -5729,6 +5779,13 @@
       focusModeExit?.addEventListener("click", () => {
         setFocusMode(false);
         focusModeToggle?.focus();
+      });
+
+      document.addEventListener("keydown", event => {
+        if (event.key === "Escape" && !event.isComposing && !document.querySelector("dialog[open]") && document.body.classList.contains("focus-mode-active")) {
+          setFocusMode(false);
+          focusModeToggle?.focus();
+        }
       });
 
       settingsToggle?.addEventListener("click", () => {
