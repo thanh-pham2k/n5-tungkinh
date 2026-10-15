@@ -2656,7 +2656,7 @@
             <div class="word-order-section-title">Các từ/cụm từ đã xáo trộn — gõ lại thành câu đúng:</div>
             <div class="word-order-bank" id="typing-review-bank"></div>
           </div>
-          <label for="typing-review-answer" id="typing-review-label" hidden>Nhập câu trả lời (không phân biệt hoa/thường):</label>
+          <label for="typing-review-answer" id="typing-review-label" hidden>Nhập câu trả lời (bỏ qua hoa/thường và dấu câu):</label>
           <textarea id="typing-review-answer" rows="3" hidden spellcheck="false" autocomplete="off" placeholder="Nhập câu trả lời…" style="width:100%;box-sizing:border-box;font:inherit;padding:12px;border:1px solid var(--border);border-radius:12px;"></textarea>
           <div class="word-order-section-title">Câu của bạn (bấm vào từ để hoàn tác):</div>
           <div class="word-order-slots" id="word-order-slots" aria-live="polite">
@@ -3170,7 +3170,7 @@
       let writingReviewCsvText = "";
       let typingReviewMode = false;
       const typingReviewAnswer = document.getElementById("typing-review-answer");
-      const normalizeTypingAnswer = (value) => value.normalize("NFKC").toLowerCase().trim().replace(/\s+/gu, " ");
+      const normalizeTypingAnswer = (value) => value.normalize("NFKC").toLowerCase().replace(/\p{P}/gu, "").trim().replace(/\s+/gu, " ");
       const typingTarget = (item) => item.targetSentence.replace(/（[^）]+）/g, "");
       const renderTypingMode = () => {
         typingReviewAnswer.hidden = !typingReviewMode;
