@@ -184,27 +184,27 @@ I usually use AI to summarize documentation and then dive deeper into important 
 - [ ] **[TECH-06] 6. Do you use AI tools at work?**
 
 ```
-
+Yes, I use AI tools every day at work.
 ```
 - [ ] **[TECH-07] 7. How has AI changed software development?**
 
 ```
-
+AI has made software development faster and easier.
 ```
 - [ ] **[TECH-08] 8. What are the advantages of AI?**
 
 ```
-
+AI helps people save time.
 ```
 - [ ] **[TECH-09] 9. What problems can technology cause?**
 
 ```
-
+Technology can distract people from their work.
 ```
 - [ ] **[TECH-10] 10. How do you think technology will change in the future?**
 
 ```
-
+I think AI will become more common in everyday life.
 ```
 ---
 
@@ -213,52 +213,52 @@ I usually use AI to summarize documentation and then dive deeper into important 
 - [ ] **[LIFE-01] 1. What time do you usually wake up?**
 
 ```
-
+I usually wake up at seven.
 ```
 - [ ] **[LIFE-02] 2. What do you usually do in the morning?**
 
 ```
-
+I usually brush my teeth, wash my face, and get my things ready for work.
 ```
 - [ ] **[LIFE-03] 3. How do you usually go to work?**
 
 ```
-
+I usually go to work by motorbike.
 ```
 - [ ] **[LIFE-04] 4. What do you usually do after work?**
 
 ```
-
+I usually cook dinner and study English after work.
 ```
 - [ ] **[LIFE-05] 5. What do you usually eat for dinner?**
 
 ```
-
+I usually eat rice with meat and vegetables.
 ```
 - [ ] **[LIFE-06] 6. How much time do you spend online every day?**
 
 ```
-
+I spend about twelve hours online every day.
 ```
 - [ ] **[LIFE-07] 7. What do you usually do in the evening?**
 
 ```
-
+I usually watch YouTube videos in the evening.
 ```
 - [ ] **[LIFE-08] 8. How do you relax after a busy day?**
 
 ```
-
+I usually go for a short bike ride around town to relax.
 ```
 - [ ] **[LIFE-09] 9. What do you usually do on weekends?**
 
 ```
-
+I usually cook something delicious and enjoy it with my girlfriend.
 ```
 - [ ] **[LIFE-10] 10. Is there anything you would like to change about your daily routine?**
 
 ```
-
+I'd like to go to bed earlier.
 ```
 ---
 

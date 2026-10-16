@@ -157,3 +157,29 @@ vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order
 How do you learn a new technology?,,Bạn học một công nghệ mới như thế nào?,How do you learn a new technology?,Bạn học một công nghệ mới như thế nào?,How do you learn|a new technology?
 I usually use AI to summarize documentation and then dive deeper into important parts.,,Tôi thường dùng AI để tóm tắt tài liệu và sau đó tìm hiểu sâu hơn về các phần quan trọng.,I usually use AI to summarize documentation and then dive deeper into important parts.,Tôi thường dùng AI để tóm tắt tài liệu và sau đó tìm hiểu sâu hơn về các phần quan trọng.,I usually use AI|to summarize documentation|and then dive deeper|into important parts.
 ```
+
+### 2026-10-16 · Daily Life — Sinh hoạt hằng ngày
+
+```csv
+vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order
+What time do you usually wake up?,,Bạn thường thức dậy lúc mấy giờ?,What time do you usually wake up?,Bạn thường thức dậy lúc mấy giờ?,What time|do you usually|wake up?
+I usually wake up at seven.,,Tôi thường thức dậy lúc bảy giờ.,I usually wake up at seven.,Tôi thường thức dậy lúc bảy giờ.,I usually|wake up|at seven.
+What do you usually do in the morning?,,Bạn thường làm gì vào buổi sáng?,What do you usually do in the morning?,Bạn thường làm gì vào buổi sáng?,What do you usually do|in the morning?
+I usually brush my teeth wash my face and get my things ready for work.,,Tôi thường đánh răng rửa mặt và chuẩn bị đồ đạc để đi làm.,I usually brush my teeth wash my face and get my things ready for work.,Tôi thường đánh răng rửa mặt và chuẩn bị đồ đạc để đi làm.,I usually|brush my teeth|wash my face|and get my things ready|for work.
+How do you usually go to work?,,Bạn thường đi làm bằng phương tiện gì?,How do you usually go to work?,Bạn thường đi làm bằng phương tiện gì?,How do you usually|go to work?
+I usually go to work by motorbike.,,Tôi thường đi làm bằng xe máy.,I usually go to work by motorbike.,Tôi thường đi làm bằng xe máy.,I usually|go to work|by motorbike.
+What do you usually do after work?,,Bạn thường làm gì sau giờ làm?,What do you usually do after work?,Bạn thường làm gì sau giờ làm?,What do you usually do|after work?
+I usually cook dinner and study English after work.,,Tôi thường nấu bữa tối và học tiếng Anh sau giờ làm.,I usually cook dinner and study English after work.,Tôi thường nấu bữa tối và học tiếng Anh sau giờ làm.,I usually|cook dinner|and study English|after work.
+What do you usually eat for dinner?,,Bạn thường ăn gì vào bữa tối?,What do you usually eat for dinner?,Bạn thường ăn gì vào bữa tối?,What do you usually eat|for dinner?
+I usually eat rice with meat and vegetables.,,Tôi thường ăn cơm với thịt và rau.,I usually eat rice with meat and vegetables.,Tôi thường ăn cơm với thịt và rau.,I usually|eat rice|with meat and vegetables.
+How much time do you spend online every day?,,Bạn dành bao nhiêu thời gian trên mạng mỗi ngày?,How much time do you spend online every day?,Bạn dành bao nhiêu thời gian trên mạng mỗi ngày?,How much time|do you spend online|every day?
+I spend about twelve hours online every day.,,Tôi dành khoảng mười hai tiếng trên mạng mỗi ngày.,I spend about twelve hours online every day.,Tôi dành khoảng mười hai tiếng trên mạng mỗi ngày.,I spend|about twelve hours|online|every day.
+What do you usually do in the evening?,,Bạn thường làm gì vào buổi tối?,What do you usually do in the evening?,Bạn thường làm gì vào buổi tối?,What do you usually do|in the evening?
+I usually watch YouTube videos in the evening.,,Tôi thường xem video YouTube vào buổi tối.,I usually watch YouTube videos in the evening.,Tôi thường xem video YouTube vào buổi tối.,I usually|watch YouTube videos|in the evening.
+How do you relax after a busy day?,,Bạn thư giãn thế nào sau một ngày bận rộn?,How do you relax after a busy day?,Bạn thư giãn thế nào sau một ngày bận rộn?,How do you relax|after a busy day?
+I usually go for a short bike ride around town to relax.,,Tôi thường đạp xe một vòng ngắn quanh phố để thư giãn.,I usually go for a short bike ride around town to relax.,Tôi thường đạp xe một vòng ngắn quanh phố để thư giãn.,I usually|go for a short bike ride|around town|to relax.
+What do you usually do on weekends?,,Bạn thường làm gì vào cuối tuần?,What do you usually do on weekends?,Bạn thường làm gì vào cuối tuần?,What do you usually do|on weekends?
+I usually cook something delicious and enjoy it with my girlfriend.,,Tôi thường nấu món ngon rồi thưởng thức cùng bạn gái.,I usually cook something delicious and enjoy it with my girlfriend.,Tôi thường nấu món ngon rồi thưởng thức cùng bạn gái.,I usually|cook something delicious|and enjoy it|with my girlfriend.
+Is there anything you would like to change about your daily routine?,,Bạn muốn thay đổi điều gì trong sinh hoạt hằng ngày?,Is there anything you would like to change about your daily routine?,Bạn muốn thay đổi điều gì trong sinh hoạt hằng ngày?,Is there anything|you would like to change|about your daily routine?
+I'd like to go to bed earlier.,,Tôi muốn đi ngủ sớm hơn.,I'd like to go to bed earlier.,Tôi muốn đi ngủ sớm hơn.,I'd like|to go to bed|earlier.
+```
