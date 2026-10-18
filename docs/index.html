@@ -4432,7 +4432,7 @@
 
         wordOrderStatus.textContent = `Câu ${idx + 1} / ${total}${item.structureLevel ? ' · Mức ' + item.structureLevel + '/5' : ''}`;
         if (wordOrderRepractice) {
-          wordOrderRepractice.hidden = !(total > 1 && idx === total - 1);
+          wordOrderRepractice.hidden = true;
         }
         wordOrderCard.classList.remove("empty");
         wordOrderPlayArea.style.display = "grid";
@@ -4504,6 +4504,7 @@
             chip.textContent = token.text;
             chip.title = "Bấm để hoàn tác";
             chip.addEventListener("click", () => {
+              if (wordOrderRepractice) wordOrderRepractice.hidden = true;
               wordOrderSelectedTokens.splice(selectedIndex, 1);
               wordOrderBankTokens.push(token);
               wordOrderSlots.classList.remove("is-correct", "is-incorrect");
@@ -4522,6 +4523,7 @@
           chip.className = "word-order-chip";
           chip.textContent = token.text;
           chip.addEventListener("click", () => {
+            if (wordOrderRepractice) wordOrderRepractice.hidden = true;
             wordOrderBankTokens.splice(bankIndex, 1);
             wordOrderSelectedTokens.push(token);
             wordOrderSlots.classList.remove("is-correct", "is-incorrect");
@@ -4548,6 +4550,9 @@
           if (isMatch) {
             showWordOrderSampleContent(item);
             playWordOrderAudio();
+            if (wordOrderRepractice && wordOrderIndex === wordOrderItems.length - 1 && wordOrderItems.length > 1) {
+              wordOrderRepractice.hidden = false;
+            }
           }
           return;
         }
@@ -4568,6 +4573,9 @@
 
           showWordOrderSampleContent(item);
           playWordOrderAudio();
+          if (wordOrderRepractice && wordOrderIndex === wordOrderItems.length - 1 && wordOrderItems.length > 1) {
+            wordOrderRepractice.hidden = false;
+          }
         } else {
           wordOrderSlots.classList.remove("is-correct");
           wordOrderSlots.classList.add("is-incorrect");
@@ -4619,11 +4627,15 @@
         showWordOrderSampleContent(item);
         renderWordOrderPlayArea();
         playWordOrderAudio();
+        if (wordOrderRepractice && wordOrderIndex === wordOrderItems.length - 1 && wordOrderItems.length > 1) {
+          wordOrderRepractice.hidden = false;
+        }
       };
 
       const resetCurrentWordOrder = () => {
         typingReviewAnswer.value = "";
         if (!wordOrderItems.length) return;
+        if (wordOrderRepractice) wordOrderRepractice.hidden = true;
         wordOrderSelectedTokens = [];
         wordOrderBankTokens = shuffleTokensGuaranteed(wordOrderCurrentTokens);
         wordOrderSlots.classList.remove("is-correct", "is-incorrect");
