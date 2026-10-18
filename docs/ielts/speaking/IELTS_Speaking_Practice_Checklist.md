@@ -96,7 +96,7 @@ I'd like to improve my communication with teammates.
 - [ ] **[WRK-10] 10. Where do you see yourself in the next few years?**
 
 ```
-I hope to become a tech lead and guide a team.
+I hope to become a techlead and guide a team.
 ```
 ---
 

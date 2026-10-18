@@ -59,7 +59,7 @@ I'd like to improve my communication with teammates.,,Tôi muốn cải thiện 
 ```
 vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order
 Where do you see yourself in the next few years?,,Bạn thấy mình ở đâu trong vài năm tới?,Where do you see yourself in the next few years?,Bạn thấy mình ở đâu trong vài năm tới?,Where do you see yourself|in the next few years?
-I hope to become a tech lead and guide a team.,,Tôi hy vọng sẽ trở thành một tech lead và dẫn dắt một đội ngũ.,I hope to become a tech lead and guide a team.,Tôi hy vọng sẽ trở thành một tech lead và dẫn dắt một đội ngũ.,I hope to become|a tech lead|and guide a team.
+I hope to become a techlead and guide a team.,,Tôi hy vọng sẽ trở thành một techlead và dẫn dắt một đội ngũ.,I hope to become a techlead and guide a team.,Tôi hy vọng sẽ trở thành một techlead và dẫn dắt một đội ngũ.,I hope to become|a techlead|and guide a team.
 ```
 
 ### 2026-09-28
