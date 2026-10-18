@@ -2586,7 +2586,7 @@
       gap: 12px;
       margin-bottom: 12px;
     }
-    body.focus-mode-active .word-order-repractice-btn {
+    body.focus-mode-active .word-order-repractice-btn:not([hidden]) {
       display: inline-flex;
       align-items: center;
       gap: 6px;
@@ -2599,6 +2599,9 @@
       border: 1px solid rgba(37, 99, 235, 0.2);
       cursor: pointer;
       transition: all 0.2s ease;
+    }
+    .word-order-repractice-btn[hidden] {
+      display: none !important;
     }
     body.focus-mode-active .word-order-repractice-btn:hover {
       background: var(--primary);
