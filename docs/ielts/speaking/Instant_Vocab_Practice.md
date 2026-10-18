@@ -183,3 +183,30 @@ I usually cook something delicious and enjoy it with my girlfriend.,,Tôi thư�
 Is there anything you would like to change about your daily routine?,,Bạn muốn thay đổi điều gì trong sinh hoạt hằng ngày?,Is there anything you would like to change about your daily routine?,Bạn muốn thay đổi điều gì trong sinh hoạt hằng ngày?
 I'd like to go to bed earlier.,,Tôi muốn đi ngủ sớm hơn.,I'd like to go to bed earlier.,Tôi muốn đi ngủ sớm hơn.
 ```
+
+### 2026-10-18 · Education — Giáo dục
+
+```csv
+vocabulary,hiragana,meaning_vi,example_ja,example_vi
+What did you study at university?,,Bạn đã học gì ở trường đại học?,What did you study at university?,Bạn đã học gì ở trường đại học?
+I studied computer science at university.,,Tôi đã học khoa học máy tính ở trường đại học.,I studied computer science at university.,Tôi đã học khoa học máy tính ở trường đại học.
+Why did you choose your major?,,Tại sao bạn lại chọn ngành học của mình?,Why did you choose your major?,Tại sao bạn lại chọn ngành học của mình?
+I chose it because I enjoy working with logic and solving problems.,,Tôi chọn nó vì tôi thích làm việc với logic và giải quyết vấn đề.,I chose it because I enjoy working with logic and solving problems.,Tôi chọn nó vì tôi thích làm việc với logic và giải quyết vấn đề.
+What was your favorite subject?,,Môn học yêu thích nhất của bạn là gì?,What was your favorite subject?,Môn học yêu thích nhất của bạn là gì?
+My favorite subject was mathematics.,,Môn học yêu thích nhất của tôi là môn toán.,My favorite subject was mathematics.,Môn học yêu thích nhất của tôi là môn toán.
+What was the most difficult subject for you?,,Môn học nào là khó nhất đối với bạn?,What was the most difficult subject for you?,Môn học nào là khó nhất đối với bạn?
+Data structures and algorithms was the most difficult subject for me.,,Cấu trúc dữ liệu và giải thuật là môn khó nhất đối với tôi.,Data structures and algorithms was the most difficult subject for me.,Cấu trúc dữ liệu và giải thuật là môn khó nhất đối với tôi.
+Do you prefer studying alone or with other people?,,Bạn thích học một mình hay với người khác hơn?,Do you prefer studying alone or with other people?,Bạn thích học một mình hay với người khác hơn?
+I prefer studying alone because I can concentrate much better.,,Tôi thích học một mình hơn vì tôi có thể tập trung tốt hơn nhiều.,I prefer studying alone because I can concentrate much better.,Tôi thích học một mình hơn vì tôi có thể tập trung tốt hơn nhiều.
+How do you usually learn something new?,,Bạn thường học một điều gì đó mới như thế nào?,How do you usually learn something new?,Bạn thường học một điều gì đó mới như thế nào?
+I usually read documentation with AI guidance and practice by building small projects.,,Tôi thường đọc tài liệu dưới sự hướng dẫn của AI và thực hành bằng cách xây dựng các dự án nhỏ.,I usually read documentation with AI guidance and practice by building small projects.,Tôi thường đọc tài liệu dưới sự hướng dẫn của AI và thực hành bằng cách xây dựng các dự án nhỏ.
+Do you enjoy learning English?,,Bạn có thích học tiếng Anh không?,Do you enjoy learning English?,Bạn có thích học tiếng Anh không?
+Yes I really enjoy learning English every day.,,Có tôi thực sự thích học tiếng Anh mỗi ngày.,Yes I really enjoy learning English every day.,Có tôi thực sự thích học tiếng Anh mỗi ngày.
+Why are you learning English?,,Tại sao bạn lại học tiếng Anh?,Why are you learning English?,Tại sao bạn lại học tiếng Anh?
+I am learning English to communicate better with global teammates and advance my career.,,Tôi đang học tiếng Anh để giao tiếp tốt hơn với đồng nghiệp quốc tế và phát triển sự nghiệp.,I am learning English to communicate better with global teammates and advance my career.,Tôi đang học tiếng Anh để giao tiếp tốt hơn với đồng nghiệp quốc tế và phát triển sự nghiệp.
+Do you think online learning is effective?,,Bạn có nghĩ việc học trực tuyến có hiệu quả không?,Do you think online learning is effective?,Bạn có nghĩ việc học trực tuyến có hiệu quả không?
+Yes I think online learning is very flexible and effective.,,Có tôi nghĩ học trực tuyến rất linh hoạt và hiệu quả.,Yes I think online learning is very flexible and effective.,Có tôi nghĩ học trực tuyến rất linh hoạt và hiệu quả.
+What would you like to learn in the future?,,Bạn muốn học điều gì trong tương lai?,What would you like to learn in the future?,Bạn muốn học điều gì trong tương lai?
+I would like to learn more about artificial intelligence and cloud computing.,,Tôi muốn tìm hiểu thêm về trí tuệ nhân tạo và điện toán đám mây.,I would like to learn more about artificial intelligence and cloud computing.,Tôi muốn tìm hiểu thêm về trí tuệ nhân tạo và điện toán đám mây.
+```
+
