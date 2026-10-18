@@ -2579,6 +2579,31 @@
       display: flex;
       gap: 8px;
     }
+    body.focus-mode-active .word-order-status-row {
+      display: flex !important;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    body.focus-mode-active .word-order-repractice-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 999px;
+      background: #eff6ff;
+      color: var(--primary);
+      border: 1px solid rgba(37, 99, 235, 0.2);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    body.focus-mode-active .word-order-repractice-btn:hover {
+      background: var(--primary);
+      color: #fff;
+    }
     body.focus-mode-active .focus-mode-exit {
       display: grid;
       place-items: center;
@@ -2860,7 +2885,13 @@
           <button id="word-order-reset" type="button" disabled>Làm lại</button>
           <button id="word-order-audio-play" type="button" disabled>🔊 Nghe câu</button>
         </div>
-        <div class="status" id="word-order-status">Chưa có dữ liệu.</div>
+        <div class="word-order-status-row">
+          <div class="status" id="word-order-status">Chưa có dữ liệu.</div>
+          <button class="word-order-repractice-btn" id="word-order-repractice" type="button" hidden title="Luyện tập lại từ câu 1">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+            <span>Repractice</span>
+          </button>
+        </div>
         <div class="word-order-card empty" id="word-order-card" aria-live="polite">
           Dán CSV để bắt đầu.
         </div>
@@ -3346,6 +3377,7 @@
       const wordOrderShowAnswer = document.getElementById("word-order-show-answer");
       const wordOrderCheck = document.getElementById("word-order-check");
       const wordOrderNext = document.getElementById("word-order-next");
+      const wordOrderRepractice = document.getElementById("word-order-repractice");
       const wordOrderAudio = document.getElementById("word-order-audio");
       const wordOrderInput = document.getElementById("word-order-input");
       const wordOrderCsvDialog = document.getElementById("word-order-csv-dialog");
@@ -4376,6 +4408,7 @@
 
         if (!items.length) {
           wordOrderStatus.textContent = "Chưa có dữ liệu.";
+          if (wordOrderRepractice) wordOrderRepractice.hidden = true;
           wordOrderCard.classList.add("empty");
           wordOrderCard.textContent = "Dán CSV để bắt đầu.";
           wordOrderPlayArea.style.display = "none";
@@ -4398,6 +4431,9 @@
         const total = items.length;
 
         wordOrderStatus.textContent = `Câu ${idx + 1} / ${total}${item.structureLevel ? ' · Mức ' + item.structureLevel + '/5' : ''}`;
+        if (wordOrderRepractice) {
+          wordOrderRepractice.hidden = !(total > 1 && idx === total - 1);
+        }
         wordOrderCard.classList.remove("empty");
         wordOrderPlayArea.style.display = "grid";
         wordOrderPrev.disabled = idx <= 0;
@@ -4617,6 +4653,12 @@
           wordOrderIndex += 1;
           renderWordOrderContent();
         }
+      };
+
+      const repracticeWordOrder = () => {
+        if (!wordOrderItems.length) return;
+        wordOrderIndex = 0;
+        renderWordOrderContent();
       };
 
       const playWordOrderAudio = async () => {
@@ -6064,6 +6106,9 @@
       wordOrderShowAnswer.addEventListener("click", showWordOrderAnswer);
       wordOrderPrev.addEventListener("click", prevWordOrder);
       wordOrderNext.addEventListener("click", nextWordOrder);
+      if (wordOrderRepractice) {
+        wordOrderRepractice.addEventListener("click", repracticeWordOrder);
+      }
 
       const wordOrderCsvExample = document.getElementById("word-order-csv-example");
       if (wordOrderCsvExample) {
