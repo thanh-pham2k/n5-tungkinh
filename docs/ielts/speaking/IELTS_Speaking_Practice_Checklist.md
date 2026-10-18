@@ -267,52 +267,52 @@ I'd like to go to bed earlier.
 - [ ] **[EDU-01] 1. What did you study at university?**
 
 ```
-
+I studied computer science at university.
 ```
 - [ ] **[EDU-02] 2. Why did you choose your major?**
 
 ```
-
+I chose it because I enjoy working with logic and solving problems.
 ```
 - [ ] **[EDU-03] 3. What was your favorite subject?**
 
 ```
-
+My favorite subject was mathematics.
 ```
 - [ ] **[EDU-04] 4. What was the most difficult subject for you?**
 
 ```
-
+Data structures and algorithms was the most difficult subject for me.
 ```
 - [ ] **[EDU-05] 5. Do you prefer studying alone or with other people?**
 
 ```
-
+I prefer studying alone because I can concentrate much better.
 ```
 - [ ] **[EDU-06] 6. How do you usually learn something new?**
 
 ```
-
+I usually read documentation with AI guidance and practice by building small projects.
 ```
 - [ ] **[EDU-07] 7. Do you enjoy learning English?**
 
 ```
-
+Yes, I really enjoy learning English every day.
 ```
 - [ ] **[EDU-08] 8. Why are you learning English?**
 
 ```
-
+I am learning English to communicate better with global teammates and advance my career.
 ```
 - [ ] **[EDU-09] 9. Do you think online learning is effective?**
 
 ```
-
+Yes, I think online learning is very flexible and effective.
 ```
 - [ ] **[EDU-10] 10. What would you like to learn in the future?**
 
 ```
-
+I would like to learn more about artificial intelligence and cloud computing.
 ```
 ---
 
