@@ -210,3 +210,30 @@ What would you like to learn in the future?,,Bạn muốn học điều gì tron
 I would like to learn more about artificial intelligence and cloud computing.,,Tôi muốn tìm hiểu thêm về trí tuệ nhân tạo và điện toán đám mây.,I would like to learn more about artificial intelligence and cloud computing.,Tôi muốn tìm hiểu thêm về trí tuệ nhân tạo và điện toán đám mây.
 ```
 
+### 2026-10-19 · Goals and Plans — Mục tiêu
+
+```csv
+vocabulary,hiragana,meaning_vi,example_ja,example_vi
+What is your main goal at the moment?,,Mục tiêu chính của bạn tại thời điểm này là gì?,What is your main goal at the moment?,Mục tiêu chính của bạn tại thời điểm này là gì?
+My main goal at the moment is to achieve an IELTS band 6.0 and improve my speaking skills.,,Mục tiêu chính của tôi lúc này là đạt IELTS 6.0 và cải thiện kỹ năng nói.,My main goal at the moment is to achieve an IELTS band 6.0 and improve my speaking skills.,Mục tiêu chính của tôi lúc này là đạt IELTS 6.0 và cải thiện kỹ năng nói.
+What would you like to achieve this year?,,Bạn muốn đạt được điều gì trong năm nay?,What would you like to achieve this year?,Bạn muốn đạt được điều gì trong năm nay?
+I would like to master AI agent architectures and build useful software applications this year.,,Tôi muốn làm chủ kiến trúc AI agent và xây dựng các ứng dụng hữu ích trong năm nay.,I would like to master AI agent architectures and build useful software applications this year.,Tôi muốn làm chủ kiến trúc AI agent và xây dựng các ứng dụng hữu ích trong năm nay.
+What skills would you like to improve?,,Bạn muốn cải thiện những kỹ năng nào?,What skills would you like to improve?,Bạn muốn cải thiện những kỹ năng nào?
+I would like to improve my English communication skills and Agentic AI knowledge.,,Tôi muốn cải thiện kỹ năng giao tiếp tiếng Anh và kiến thức về Agentic AI.,I would like to improve my English communication skills and Agentic AI knowledge.,Tôi muốn cải thiện kỹ năng giao tiếp tiếng Anh và kiến thức về Agentic AI.
+Why do you want to improve your English?,,Tại sao bạn lại muốn cải thiện tiếng Anh của mình?,Why do you want to improve your English?,Tại sao bạn lại muốn cải thiện tiếng Anh của mình?
+I want to improve my English so that I can work effectively in international projects.,,Tôi muốn cải thiện tiếng Anh để có thể làm việc hiệu quả trong các dự án quốc tế.,I want to improve my English so that I can work effectively in international projects.,Tôi muốn cải thiện tiếng Anh để có thể làm việc hiệu quả trong các dự án quốc tế.
+What is your career goal?,,Mục tiêu nghề nghiệp của bạn là gì?,What is your career goal?,Mục tiêu nghề nghiệp của bạn là gì?
+My career goal is to become a senior software engineer specializing in AI technologies.,,Mục tiêu sự nghiệp của tôi là trở thành một kỹ sư phần mềm cao cấp chuyên về công nghệ AI.,My career goal is to become a senior software engineer specializing in AI technologies.,Mục tiêu sự nghiệp của tôi là trở thành một kỹ sư phần mềm cao cấp chuyên về công nghệ AI.
+Where would you like to be in three years?,,Bạn muốn mình ở đâu trong ba năm tới?,Where would you like to be in three years?,Bạn muốn mình ở đâu trong ba năm tới?
+In three years I would like to work remotely for a global technology company.,,Trong ba năm tới tôi muốn làm việc từ xa cho một công ty công nghệ toàn cầu.,In three years I would like to work remotely for a global technology company.,Trong ba năm tới tôi muốn làm việc từ xa cho một công ty công nghệ toàn cầu.
+Is there anything new you would like to learn?,,Có điều gì mới mà bạn muốn học không?,Is there anything new you would like to learn?,Có điều gì mới mà bạn muốn học không?
+I would like to learn how to build and optimize large-scale AI applications.,,Tôi muốn học cách xây dựng và tối ưu hóa các ứng dụng AI quy mô lớn.,I would like to learn how to build and optimize large-scale AI applications.,Tôi muốn học cách xây dựng và tối ưu hóa các ứng dụng AI quy mô lớn.
+How do you usually plan your goals?,,Bạn thường lên kế hoạch cho các mục tiêu của mình như thế nào?,How do you usually plan your goals?,Bạn thường lên kế hoạch cho các mục tiêu của mình như thế nào?
+I usually break my big goals down into smaller daily and weekly tasks.,,Tôi thường chia nhỏ các mục tiêu lớn thành các nhiệm vụ hàng ngày và hàng tuần.,I usually break my big goals down into smaller daily and weekly tasks.,Tôi thường chia nhỏ các mục tiêu lớn thành các nhiệm vụ hàng ngày và hàng tuần.
+What motivates you to keep learning?,,Điều gì thúc đẩy bạn tiếp tục học hỏi?,What motivates you to keep learning?,Điều gì thúc đẩy bạn tiếp tục học hỏi?
+Seeing my progress and solving difficult technical problems motivates me to keep learning.,,Nhìn thấy sự tiến bộ và giải quyết các bài toán kỹ thuật khó thúc đẩy tôi tiếp tục học hỏi.,Seeing my progress and solving difficult technical problems motivates me to keep learning.,Nhìn thấy sự tiến bộ và giải quyết các bài toán kỹ thuật khó thúc đẩy tôi tiếp tục học hỏi.
+What is one important goal you want to achieve in the future?,,Một mục tiêu quan trọng bạn muốn đạt được trong tương lai là gì?,What is one important goal you want to achieve in the future?,Một mục tiêu quan trọng bạn muốn đạt được trong tương lai là gì?
+One important goal I want to achieve is building my own tech product that helps many people.,,Một mục tiêu quan trọng tôi muốn đạt được là tự xây dựng một sản phẩm công nghệ giúp ích nhiều người.,One important goal I want to achieve is building my own tech product that helps many people.,Một mục tiêu quan trọng tôi muốn đạt được là tự xây dựng một sản phẩm công nghệ giúp ích nhiều người.
+```
+
+

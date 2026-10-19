@@ -321,52 +321,52 @@ I would like to learn more about artificial intelligence and cloud computing.
 - [ ] **[GOAL-01] 1. What is your main goal at the moment?**
 
 ```
-
+My main goal at the moment is to achieve an IELTS band 6.0 and improve my speaking skills.
 ```
 - [ ] **[GOAL-02] 2. What would you like to achieve this year?**
 
 ```
-
+I would like to master AI agent architectures and build useful software applications this year.
 ```
 - [ ] **[GOAL-03] 3. What skills would you like to improve?**
 
 ```
-
+I would like to improve my English communication skills and Agentic AI knowledge.
 ```
 - [ ] **[GOAL-04] 4. Why do you want to improve your English?**
 
 ```
-
+I want to improve my English so that I can work effectively in international projects.
 ```
 - [ ] **[GOAL-05] 5. What is your career goal?**
 
 ```
-
+My career goal is to become a senior software engineer specializing in AI technologies.
 ```
 - [ ] **[GOAL-06] 6. Where would you like to be in three years?**
 
 ```
-
+In three years, I would like to work remotely for a global technology company.
 ```
 - [ ] **[GOAL-07] 7. Is there anything new you would like to learn?**
 
 ```
-
+I would like to learn how to build and optimize large-scale AI applications.
 ```
 - [ ] **[GOAL-08] 8. How do you usually plan your goals?**
 
 ```
-
+I usually break my big goals down into smaller daily and weekly tasks.
 ```
 - [ ] **[GOAL-09] 9. What motivates you to keep learning?**
 
 ```
-
+Seeing my progress and solving difficult technical problems motivates me to keep learning.
 ```
 - [ ] **[GOAL-10] 10. What is one important goal you want to achieve in the future?**
 
 ```
-
+One important goal I want to achieve is building my own tech product that helps many people.
 ```
 ---
 
