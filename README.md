@@ -6,6 +6,8 @@ Live site: [https://thanh-pham2k.github.io/n5-tungkinh/](https://thanh-pham2k.gi
 
 ## Web player
 
+The **Markdown & Quiz** study mode renders pasted Markdown and Mermaid diagrams with interactive quiz decks. See [format and usage](docs/MARKDOWN_QUIZ.md).
+
 After GitHub Pages deploys, open:
 
 ```text

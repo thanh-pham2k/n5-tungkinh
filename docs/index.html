@@ -95,6 +95,30 @@
       gap: 8px;
     }
 
+    .markdown-preview-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 42px;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--text);
+      font-size: 14px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .markdown-preview-link:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .markdown-preview-link:focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: 2px;
+    }
+
     .focus-mode-toggle,
     .focus-mode-exit {
       min-height: 42px;
@@ -2627,6 +2651,7 @@
     <div class="app-header">
       <h1><button class="app-home-button" id="app-home-button" type="button">Audio Looper</button></h1>
       <div class="app-actions">
+        <a class="markdown-preview-link" href="markdown-preview.html" target="_blank" rel="noopener">Markdown Preview</a>
         <button class="focus-mode-toggle" id="focus-mode-toggle" type="button" aria-pressed="false">⛶ Focus</button>
         <div class="app-settings">
           <button class="settings-toggle" id="settings-toggle" type="button" aria-label="Mở cài đặt" aria-controls="settings-popover" aria-expanded="false">⚙</button>
