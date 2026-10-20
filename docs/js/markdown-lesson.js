@@ -35,7 +35,7 @@ Bạn có thể quay lại câu trước; lựa chọn vẫn được giữ nguy
     return node;
   };
   function save() {
-    try { localStorage.setItem(storageKey, JSON.stringify({ source: source.value, answers })); }
+    try { localStorage.setItem(storageKey, JSON.stringify({ source: source.value })); }
     catch { status.textContent = 'Không lưu được trên trình duyệt. Bạn vẫn có thể học trong phiên này.'; }
   }
   function button(label, action, disabled = false) {
@@ -207,6 +207,50 @@ Bạn có thể quay lại câu trước; lựa chọn vẫn được giữ nguy
     event.preventDefault(); resizeEditor(values[event.key]);
   });
   let timer;
+  const mobileLayout = window.matchMedia('(max-width: 760px)');
+  const menuToggle = document.getElementById('lesson-menu-toggle');
+  const toolbarActions = document.getElementById('lesson-toolbar-actions');
+  function closeMenu() {
+    toolbarActions.classList.remove('is-open');
+    menuToggle.setAttribute('aria-expanded', 'false');
+  }
+  menuToggle.addEventListener('click', () => {
+    const open = toolbarActions.classList.toggle('is-open');
+    menuToggle.setAttribute('aria-expanded', String(open));
+  });
+  toolbarActions.addEventListener('click', event => {
+    if (mobileLayout.matches && event.target.closest('button')) closeMenu();
+  });
+  toolbarActions.addEventListener('change', () => {
+    if (mobileLayout.matches) { closeMenu(); menuToggle.focus(); }
+  });
+  document.addEventListener('pointerdown', event => {
+    if (!toolbarActions.contains(event.target) && !menuToggle.contains(event.target)) closeMenu();
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && menuToggle.getAttribute('aria-expanded') === 'true') {
+      closeMenu(); menuToggle.focus();
+    }
+  });
+  mobileLayout.addEventListener('change', closeMenu);
+  const editorDialog = document.getElementById('lesson-editor-dialog');
+  const mobileSource = document.getElementById('lesson-mobile-source');
+  document.getElementById('lesson-editor-clear').addEventListener('click', () => {
+    mobileSource.value = '';
+    mobileSource.focus();
+  });
+  document.getElementById('lesson-edit').addEventListener('click', () => {
+    mobileSource.value = source.value;
+    editorDialog.returnValue = '';
+    editorDialog.showModal();
+    mobileSource.focus();
+  });
+  editorDialog.addEventListener('close', () => {
+    if (editorDialog.returnValue !== 'apply') return;
+    clearTimeout(timer);
+    source.value = mobileSource.value;
+    render();
+  });
   source.addEventListener('input', () => {
     ++revision;
     clearTimeout(timer);
@@ -243,14 +287,14 @@ Bạn có thể quay lại câu trước; lựa chọn vẫn được giữ nguy
     const assigned = assignedScroll.get(from);
     if (assigned !== undefined && Math.abs(from.scrollTop - assigned) < 1) return;
     assignedScroll.delete(from);
-    if (!syncToggle.checked) return;
+    if (!syncToggle.checked || mobileLayout.matches) return;
     pendingScroll = { from, to };
     if (scrollFrame) return;
     scrollFrame = requestAnimationFrame(() => {
       scrollFrame = 0;
       const { from, to } = pendingScroll;
       pendingScroll = null;
-      if (!syncToggle.checked) return;
+      if (!syncToggle.checked || mobileLayout.matches) return;
       const range = from.scrollHeight - from.clientHeight;
       if (range <= 0) return;
       const targetRange = Math.max(0, to.scrollHeight - to.clientHeight);
@@ -272,7 +316,6 @@ Bạn có thể quay lại câu trước; lựa chọn vẫn được giữ nguy
     const saved = JSON.parse(localStorage.getItem(storageKey));
     if (saved && typeof saved.source === 'string') {
       source.value = saved.source;
-      answers = saved.answers && typeof saved.answers === 'object' ? Object.assign(Object.create(null), saved.answers) : Object.create(null);
       LessonParser.parse(source.value).filter(b => b.type === 'deck').flatMap(b => b.quizzes).forEach(q => { definitions[q.id] = JSON.stringify(q); });
     }
   } catch { status.textContent = 'Chưa thể khôi phục bài đã lưu. Bạn có thể dán bài mới.'; }

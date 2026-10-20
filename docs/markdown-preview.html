@@ -14,6 +14,9 @@
 <body>
   <header class="preview-toolbar">
     <strong>Markdown Live Preview</strong>
+    <button id="lesson-menu-toggle" type="button" aria-label="Công cụ Markdown" aria-expanded="false" aria-controls="lesson-toolbar-actions">⋯</button>
+    <div id="lesson-toolbar-actions">
+    <button id="lesson-edit" type="button" aria-haspopup="dialog">Nhập Markdown</button>
     <button id="lesson-open" type="button">Open</button>
     <input id="lesson-file" type="file" accept=".md,.markdown,.txt,text/plain,text/markdown" hidden>
     <button id="lesson-copy" type="button">Copy</button>
@@ -22,6 +25,7 @@
     <button id="lesson-example" type="button">Bài mẫu</button>
     <label><input id="lesson-sync" type="checkbox" checked> Sync scroll</label>
     <label><input id="lesson-dark" type="checkbox"> Dark mode</label>
+    </div>
     <span id="lesson-status" role="status"></span>
   </header>
   <main class="preview-workspace">
@@ -35,5 +39,16 @@
       <div id="lesson-preview-scroll"><article id="lesson-output" aria-label="Bài học"></article></div>
     </section>
   </main>
+  <dialog id="lesson-editor-dialog" aria-labelledby="lesson-editor-title">
+    <form method="dialog" class="mobile-editor-form">
+      <h2 id="lesson-editor-title">Nhập Markdown</h2>
+      <textarea id="lesson-mobile-source" spellcheck="false" aria-label="Nội dung Markdown trong dialog" placeholder="Dán nội dung Markdown và quiz tại đây…"></textarea>
+      <div class="mobile-editor-actions">
+        <button id="lesson-editor-clear" type="button">Clear</button>
+        <button value="cancel" type="submit">Hủy</button>
+        <button value="apply" type="submit">Xem preview</button>
+      </div>
+    </form>
+  </dialog>
 </body>
 </html>

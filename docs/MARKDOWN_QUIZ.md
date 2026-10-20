@@ -1,8 +1,10 @@
 # Markdown & Quiz
 
-Mở **Markdown Preview ↗** từ trang chính hoặc truy cập `markdown-preview.html`. Đây là trang riêng cho desktop: editor bên trái và preview bên phải, cập nhật trực tiếp khi nhập (sau 300 ms). Chọn **Bài mẫu** để thử.
+Mở **Markdown Preview ↗** từ trang chính hoặc truy cập `markdown-preview.html`. Trên desktop, trang riêng có editor bên trái và preview bên phải, cập nhật trực tiếp khi nhập (sau 300 ms). Chọn **Bài mẫu** để thử.
 
-Toolbar có Open (mở file Markdown), Copy (copy Markdown gốc), Export PDF (hộp thoại in của trình duyệt, chọn Save as PDF), Reset, Sync scroll theo tỷ lệ và Dark mode. Mỗi cột cuộn độc lập; bố cục luôn giữ hai cột, không chuyển sang giao diện mobile.
+Toolbar có Open (mở file Markdown), Copy (copy Markdown gốc), Export PDF (hộp thoại in của trình duyệt, chọn Save as PDF), Reset, Sync scroll theo tỷ lệ và Dark mode. Trên desktop, mỗi cột cuộn độc lập và thanh giữa kéo được để đổi độ rộng.
+
+Trên điện thoại (chiều rộng tối đa 760px), chỉ hiển thị preview toàn chiều rộng. Bấm **Nhập Markdown** để mở dialog, dán nội dung rồi chọn **Xem preview**. **Hủy** hoặc Escape giữ nguyên bài cũ. Editor và thanh kéo hai cột được ẩn, Sync scroll tắt theo bố cục mobile; toolbar xuống dòng để trang không phải cuộn ngang. Code/ASCII dài vẫn có thể cuộn ngang trong riêng khối code.
 
 Heading, paragraph, list, table và code block được render như Markdown. Code block có ngôn ngữ `mermaid` được vẽ thành sơ đồ. Nếu sơ đồ lỗi, ứng dụng giữ mã nguồn và báo lỗi ngay tại vị trí đó.
 
@@ -47,7 +49,7 @@ Các quiz liên tiếp (cho phép dòng trống giữa chúng) tạo thành mộ
 
 Chọn đáp án để xem phản hồi. Dùng nút Trước/Tiếp, nút số câu hoặc vuốt ngang trên điện thoại để chuyển câu. Nút **Xem kết quả** ở câu cuối cho biết điểm và câu chưa làm; có thể quay lại từng câu hoặc **Luyện lại bộ này**.
 
-Nội dung editor và đáp án lưu trong localStorage của trình duyệt, tự khôi phục khi mở lại. Khi chỉnh câu hỏi, lựa chọn hoặc đáp án thì đáp án cũ của câu đã sửa sẽ được xóa. Nội dung được lưu tự động khi preview cập nhật. Nếu trình duyệt chặn lưu trữ, ứng dụng báo lỗi và vẫn cho học trong phiên hiện tại.
+Chỉ nội dung editor lưu trong localStorage của trình duyệt và tự khôi phục khi mở lại. Đáp án chỉ giữ trong phiên trang hiện tại: chuyển câu vẫn giữ lựa chọn, nhưng tải lại trang sẽ bắt đầu quiz mới. Khi chỉnh câu hỏi, lựa chọn hoặc đáp án thì đáp án cũ của câu đã sửa sẽ được xóa. Nội dung được lưu tự động khi preview cập nhật. Nếu trình duyệt chặn lưu trữ, ứng dụng báo lỗi và vẫn cho học trong phiên hiện tại.
 
 Không copy CSS/HTML của sơ đồ đã render trong ChatGPT (`#chatgpt-mermaid...`); hãy copy Markdown gốc. Các thư viện Marked, DOMPurify và Mermaid được tải từ CDN với phiên bản cố định, vì vậy lần tải trang cần kết nối mạng. HTML Markdown được lọc qua DOMPurify và Mermaid dùng chế độ strict.
 

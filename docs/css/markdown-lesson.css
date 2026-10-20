@@ -65,3 +65,43 @@ button:focus-visible { outline:2px solid #0969da; outline-offset:2px; }
 .lesson-deck button { min-height:44px; }
 .lesson-dots { display:flex; flex-wrap:wrap; gap:6px; margin:12px 0; }
 .lesson-dots button[aria-current="step"] { background:#00796b; color:white; }
+#lesson-edit { display:inline-flex; }
+#lesson-toolbar-actions > :not(#lesson-edit):not(#lesson-copy) { display:none; }
+#lesson-menu-toggle { display:none; }
+#lesson-toolbar-actions { display:contents; }
+#lesson-editor-dialog { width:min(640px, calc(100% - 24px)); max-width:calc(100% - 24px); height:min(720px, calc(100dvh - 24px)); max-height:calc(100dvh - 24px); padding:16px; border:1px solid var(--border); border-radius:12px; background:var(--page); color:var(--ink); }
+#lesson-editor-dialog::backdrop { background:rgb(0 0 0 / 50%); }
+.mobile-editor-form { height:100%; display:flex; flex-direction:column; gap:12px; min-height:0; }
+.mobile-editor-form h2 { margin:0; font-size:20px; }
+#lesson-mobile-source { flex:1; min-height:0; width:100%; padding:12px; resize:none; font:16px/1.5 monospace; background:var(--page); color:var(--ink); border:1px solid var(--border); border-radius:6px; }
+.mobile-editor-actions { display:flex; justify-content:flex-end; gap:8px; }
+#lesson-editor-clear { margin-right:auto; }
+.mobile-editor-actions button { min-height:44px; padding:8px 16px; border:1px solid var(--border); border-radius:6px; cursor:pointer; }
+.mobile-editor-actions button[value="apply"] { background:#00796b; color:white; }
+@media screen and (max-width:760px) {
+  body { height:100dvh; display:flex; flex-direction:column; }
+  .preview-toolbar { position:relative; z-index:10; height:auto; min-height:48px; flex:none; flex-wrap:wrap; gap:0 8px; padding:2px 12px; white-space:normal; overflow:visible; }
+  .preview-toolbar strong { flex:1; font-size:13px; text-decoration:none; }
+  .preview-toolbar button, .preview-toolbar label { min-height:44px; display:inline-flex; align-items:center; }
+  #lesson-menu-toggle { display:inline-flex; justify-content:center; width:44px; height:44px; padding:0; line-height:1; font-size:28px; border-radius:6px; }
+  #lesson-menu-toggle[aria-expanded="true"] { background:#666; }
+  #lesson-toolbar-actions { display:none; }
+  #lesson-toolbar-actions.is-open { position:absolute; right:8px; top:calc(100% + 4px); display:flex; flex-direction:column; width:220px; max-height:calc(100dvh - 64px); overflow-y:auto; padding:8px; border:1px solid var(--border); border-radius:10px; background:var(--page); color:var(--ink); box-shadow:0 8px 24px rgb(0 0 0 / 20%); }
+  #lesson-toolbar-actions button, #lesson-toolbar-actions label { padding:8px 12px; width:100%; text-align:left; border-radius:6px; }
+  #lesson-toolbar-actions button:hover, #lesson-toolbar-actions label:hover { background:var(--soft); }
+  #lesson-toolbar-actions > :not(#lesson-edit):not(#lesson-copy) { display:none; }
+  .preview-toolbar label:has(#lesson-sync) { display:none; }
+  #lesson-edit { display:inline-flex; }
+  #lesson-status { flex-basis:100%; overflow-wrap:anywhere; }
+  #lesson-status:empty { display:none; }
+  .preview-workspace { display:flex; flex:1; min-height:0; height:auto; width:100%; }
+  .source-pane, #preview-divider { display:none; }
+  .preview-pane { width:100%; }
+  .preview-pane > .pane-heading { display:none; }
+  #lesson-output { padding:16px 14px 48px; }
+  #lesson-output h1 { font-size:1.6em; }
+  .lesson-deck { padding:12px; }
+  .lesson-deck fieldset { margin:0; padding:10px; }
+  .lesson-option { flex-wrap:wrap; }
+  .lesson-option > span:not(.lesson-option-result) { flex:1; }
+}
