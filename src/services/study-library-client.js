@@ -42,6 +42,8 @@ export const listLessons = async (tool, cursor) => {
 };
 export const readLesson = async (id) =>
   Lesson.parse((await studyRequest(`/study-contents/${id}`)).data);
+export const removeLesson = async (id) =>
+  studyRequest(`/study-contents/${id}`, { method: 'DELETE' });
 export const createLesson = async (input) =>
   Lesson.parse(
     (await studyRequest('/study-contents', { method: 'POST', body: JSON.stringify(input) })).data,

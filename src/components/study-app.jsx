@@ -164,7 +164,13 @@ export default function StudyApp() {
           ))}
         </div>
       ))}
-      <a className="nav-item" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/markdown/`}>
+      <a
+        className="nav-item"
+        href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/markdown/`}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Markdown & Quiz (mở tab mới)"
+      >
         <span aria-hidden="true">≡</span>Markdown & Quiz ↗
       </a>
     </>

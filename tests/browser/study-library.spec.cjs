@@ -115,6 +115,74 @@ test('different visitor can open the shared lesson but cannot see another visito
     await other.close();
   }
 });
+test('saved lesson deletion requires confirmation and removes it for every visitor', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.request.get('/api/v1/session');
+  const title = `Bài cần xóa ${crypto.randomUUID()}`;
+  const source = vocab.replace('shared', title);
+  const result = await page.request.post('/api/v1/study-contents', {
+    headers: { Origin: 'http://127.0.0.1:4173' },
+    data: { tool: 'instant', source, language: 'en', requestId: crypto.randomUUID() },
+  });
+  expect(result.status()).toBe(201);
+  const { data: lesson } = await result.json();
+  await page.getByRole('button', { name: '▤ Bài đã lưu', exact: true }).click();
+  const row = page.locator('.saved-lesson').filter({ hasText: title });
+  const saved = row.locator('.saved-lesson-actions > button').first();
+  await expect(saved).toBeVisible();
+  await page.getByRole('button', { name: `Xóa ${title} khỏi thư viện chung` }).click();
+  const confirm = page.getByRole('group', { name: `Xác nhận xóa ${title}` });
+  await expect(confirm).toContainText('Mọi người sẽ mất bài này và tiến độ liên quan.');
+  await confirm.getByRole('button', { name: 'Hủy' }).click();
+  await expect(saved).toBeVisible();
+  await page.getByRole('button', { name: `Xóa ${title} khỏi thư viện chung` }).click();
+  await page
+    .getByRole('group', { name: `Xác nhận xóa ${title}` })
+    .getByRole('button', { name: 'Xóa vĩnh viễn' })
+    .click();
+  await expect(row).toHaveCount(0);
+  expect((await page.request.get(`/api/v1/study-contents/${lesson.id}`)).status()).toBe(404);
+  expect(
+    (
+      await page.request.delete(`/api/v1/study-contents/${lesson.id}`, {
+        headers: { Origin: 'http://127.0.0.1:4173' },
+      })
+    ).status(),
+  ).toBe(404);
+});
+test('delete rejects missing sessions and cross-origin requests', async ({ page, browser }) => {
+  await page.goto('/');
+  await page.request.get('/api/v1/session');
+  const created = await page.request.post('/api/v1/study-contents', {
+    headers: { Origin: 'http://127.0.0.1:4173' },
+    data: { tool: 'instant', source: vocab, language: 'en', requestId: crypto.randomUUID() },
+  });
+  const { data: lesson } = await created.json();
+  const noSession = await browser.newContext();
+  try {
+    await noSession.request.get('http://127.0.0.1:4173/api/v1/session');
+    const forbidden = await noSession.request.delete(
+      `http://127.0.0.1:4173/api/v1/study-contents/${lesson.id}`,
+      { headers: { Origin: 'https://example.com' } },
+    );
+    expect(forbidden.status()).toBe(403);
+  } finally {
+    await noSession.close();
+  }
+  const unauthenticated = await browser.newContext();
+  try {
+    const denied = await unauthenticated.request.delete(
+      `http://127.0.0.1:4173/api/v1/study-contents/${lesson.id}`,
+      { headers: { Origin: 'http://127.0.0.1:4173' } },
+    );
+    expect(denied.status()).toBe(401);
+  } finally {
+    await unauthenticated.close();
+  }
+  expect((await page.request.get(`/api/v1/study-contents/${lesson.id}`)).status()).toBe(200);
+});
 test('failed save keeps import dialog and does not claim success or create a record', async ({
   page,
 }) => {

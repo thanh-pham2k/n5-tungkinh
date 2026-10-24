@@ -2,6 +2,10 @@ const { test, expect } = require('./fixtures.cjs');
 const AxeBuilder = require('@axe-core/playwright').default;
 test('mobile shell, picker and settings satisfy automated WCAG AA checks', async ({ page }) => {
   await page.goto('/');
+  const markdownLink = page.locator('.sidebar nav a.nav-item');
+  await expect(markdownLink).toHaveAttribute('href', '/markdown/');
+  await expect(markdownLink).toHaveAttribute('target', '_blank');
+  await expect(markdownLink).toHaveAttribute('rel', 'noopener noreferrer');
   await page.getByRole('button', { name: 'Đổi công cụ học' }).click();
   await expect(
     page.getByRole('dialog').getByRole('button', { name: 'Audio Looper', exact: false }),

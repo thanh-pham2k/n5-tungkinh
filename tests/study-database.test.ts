@@ -106,6 +106,50 @@ test('shared content survives reopening; private progress is isolated per sessio
     db.close();
   }
 });
+test('deleting shared content atomically removes its records and every visitor progress', async () => {
+  const { db, service } = await setup();
+  try {
+    const lesson = await service.create(
+      'shared',
+      CreateLesson.parse({ tool: 'instant', source: csv, language: 'en', requestId: randomUUID() }),
+      'visitor-a',
+    );
+    await service.progress('shared', 'visitor-a', lesson.id, 0, { answer: 'mine' });
+    await service.progress('shared', 'visitor-b', lesson.id, 0, { answer: 'theirs' });
+    const removed = await service.remove('shared', lesson.id);
+    assert.deepEqual(removed, { id: lesson.id, deleted: true });
+    assert.equal((await db.execute('SELECT COUNT(*) AS n FROM study_contents')).rows[0].n, 0);
+    assert.equal((await db.execute('SELECT COUNT(*) AS n FROM study_records')).rows[0].n, 0);
+    assert.equal((await db.execute('SELECT COUNT(*) AS n FROM study_progress')).rows[0].n, 0);
+    await assert.rejects(service.get('shared', lesson.id, 'visitor-a'), { code: 'not_found' });
+    await assert.rejects(service.remove('shared', lesson.id), { code: 'not_found' });
+  } finally {
+    db.close();
+  }
+});
+test('failed delete rolls back content, import records, and progress together', async () => {
+  const { db, service } = await setup();
+  try {
+    const lesson = await service.create(
+      'shared',
+      CreateLesson.parse({ tool: 'instant', source: csv, language: 'en', requestId: randomUUID() }),
+      'visitor-a',
+    );
+    await service.progress('shared', 'visitor-a', lesson.id, 0, { answer: 'mine' });
+    await db.execute(
+      "CREATE TRIGGER fail_record_delete BEFORE DELETE ON study_records BEGIN SELECT RAISE(ABORT, 'test failure'); END",
+    );
+    await assert.rejects(service.remove('shared', lesson.id));
+    assert.equal((await db.execute('SELECT COUNT(*) AS n FROM study_contents')).rows[0].n, 1);
+    assert.equal((await db.execute('SELECT COUNT(*) AS n FROM study_records')).rows[0].n, 1);
+    assert.equal((await db.execute('SELECT COUNT(*) AS n FROM study_progress')).rows[0].n, 1);
+    assert.deepEqual((await service.get('shared', lesson.id, 'visitor-a')).progress, {
+      answer: 'mine',
+    });
+  } finally {
+    db.close();
+  }
+});
 test('history pagination is bounded, cursor tied to filter; rollback never leaves orphan history', async () => {
   const { db, service } = await setup();
   try {

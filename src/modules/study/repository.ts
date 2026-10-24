@@ -73,6 +73,35 @@ export function studyRepository(db: Client) {
         version: Number(row.version || 0),
       };
     },
+    async remove(libraryId: string, id: string) {
+      const tx = await db.transaction('write');
+      try {
+        const exists = await tx.execute({
+          sql: 'SELECT id FROM study_contents WHERE id = ? AND library_id = ?',
+          args: [id, libraryId],
+        });
+        if (!exists.rows[0]) throw new StudyError(404, 'not_found', 'Không tìm thấy bài đã lưu.');
+        await tx.execute({
+          sql: 'DELETE FROM study_progress WHERE content_id = ?',
+          args: [id],
+        });
+        await tx.execute({
+          sql: 'DELETE FROM study_records WHERE content_id = ? AND library_id = ?',
+          args: [id, libraryId],
+        });
+        await tx.execute({
+          sql: 'DELETE FROM study_contents WHERE id = ? AND library_id = ?',
+          args: [id, libraryId],
+        });
+        await tx.commit();
+        return { id, deleted: true };
+      } catch (error) {
+        await tx.rollback();
+        throw error;
+      } finally {
+        tx.close();
+      }
+    },
     async create(
       libraryId: string,
       input: CreateLessonInput,

@@ -81,6 +81,18 @@ const document = {
         parameters: [pathId],
         responses: { 200: response(one), ...errors },
       },
+      delete: {
+        operationId: 'deleteStudyContent',
+        description:
+          'Permanently deletes this public shared lesson and all import records and progress for every visitor in one transaction. The website requires explicit confirmation. Public destructive operation: an anonymous same-origin session cookie is required, but does not prove ownership or identity.',
+        parameters: [pathId],
+        responses: {
+          200: response(
+            z.object({ data: z.object({ id: z.uuid(), deleted: z.literal(true) }), meta: Meta }),
+          ),
+          ...errors,
+        },
+      },
     },
     '/study-contents/{contentId}/progress': {
       put: {

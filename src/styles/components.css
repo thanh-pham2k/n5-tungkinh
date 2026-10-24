@@ -8,17 +8,37 @@
 .saved-lessons-list {
   margin-top: var(--space-3);
 }
-.saved-lessons-list > .button {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  text-align: left;
+.saved-lesson {
   margin-top: var(--space-3);
   min-width: 0;
 }
-.saved-lessons-list > .button > span {
+.saved-lesson-actions {
+  display: flex;
+  align-items: stretch;
+  gap: var(--space-2);
+  min-width: 0;
+}
+.saved-lesson-actions > .button:first-child {
+  width: 100%;
+  justify-content: space-between;
+  text-align: left;
+  min-width: 0;
+}
+.saved-lesson-actions > .button > span {
   min-width: 0;
   overflow-wrap: anywhere;
+}
+.saved-lesson-confirm {
+  display: grid;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+  padding: var(--space-3);
+  border: var(--border);
+  background: var(--error-bg);
+}
+.saved-lesson-confirm p {
+  margin: 0;
+  color: var(--error-ink);
 }
 .saved-lessons-list small {
   display: block;

@@ -2,7 +2,7 @@ TL;DR Nội dung học chạy từ Turso qua API Next.js; thư viện dùng chun
 
 # Dữ liệu và quyền truy cập
 
-Chủ dự án chọn thư viện dùng chung ngày 2026-10-24. Bài đã nhập đều công khai cho mọi người mở website. API cho phép nhập bài công khai có chủ đích; đây là ngoại lệ xác thực cho phần tạo nội dung của BE-04. Thao tác ghi phải cùng origin, có phiên ẩn danh, giới hạn payload và được validate/parse lại ở server. Không có endpoint sửa/xóa nội dung dùng chung trong phiên bản này.
+Chủ dự án chọn thư viện dùng chung ngày 2026-10-24. Bài đã nhập đều công khai cho mọi người mở website. Theo yêu cầu bổ sung xóa ngày 2026-10-24, bất kỳ khách truy cập website nào cũng có thể xóa vĩnh viễn bài khỏi thư viện chung sau khi xác nhận; thao tác xóa gỡ source, record nhập và tiến độ của mọi phiên. Đây là ngoại lệ xác thực của BE-04 cho tạo và xóa. Cả hai thao tác phải cùng origin và có phiên ẩn danh; nội dung tạo được giới hạn và parse lại ở server. Không có endpoint sửa.
 
 Cookie HttpOnly/SameSite Strict chỉ chứa ID ngẫu nhiên của phiên, không chứa bài học. Tiến độ, đáp án và ôn sau nằm trên DB, tách theo cookie để hai người không ghi đè kết quả. Cookie Secure trên HTTPS; mất cookie tạo phiên mới, không khôi phục tiến độ xuyên thiết bị vì chưa có tài khoản. Thư viện bài vẫn dùng chung trên mọi thiết bị. Âm lượng là tùy chọn giao diện, có thể giữ localStorage; nội dung học không dùng storage local.
 
@@ -10,16 +10,16 @@ Nguồn contract runtime: src/contracts/study-contract.ts (Zod). `npm run contra
 
 # Schema
 
-DB được kiểm tra rỗng trước migration đầu tiên. Dự án dùng DB riêng, **không prefix bảng**. ID UUID, thời gian UTC RFC3339, source và parsed JSON đều NOT NULL. Không dùng FK bắt buộc; service chịu trách nhiệm tồn tại, transaction và quan hệ record/progress. Không có API xóa nội dung, nên không tạo orphan qua ứng dụng.
+DB được kiểm tra rỗng trước migration đầu tiên. Dự án dùng DB riêng, **không prefix bảng**. ID UUID, thời gian UTC RFC3339, source và parsed JSON đều NOT NULL. Không dùng FK bắt buộc; service chịu trách nhiệm tồn tại, transaction và quan hệ record/progress. DELETE xóa các hàng progress, records và content theo một transaction để không để orphan.
 
-| Bảng | Vai trò |
-| --- | --- |
-| study_catalog | Bộ IELTS và ví dụ Markdown/Word Order; runtime chỉ SELECT từ Turso |
+| Bảng           | Vai trò                                                                        |
+| -------------- | ------------------------------------------------------------------------------ |
+| study_catalog  | Bộ IELTS và ví dụ Markdown/Word Order; runtime chỉ SELECT từ Turso             |
 | study_contents | Source, kết quả parse, công cụ, ngôn ngữ, tiêu đề, số mục, số lượt và ngày học |
-| study_records | Một record cho mỗi lần nhập/parse thành công, request UUID chống gửi lặp |
-| study_progress | Tiến độ theo content_id + ID phiên, optimistic version chống ghi đè |
+| study_records  | Một record cho mỗi lần nhập/parse thành công, request UUID chống gửi lặp       |
+| study_progress | Tiến độ theo content_id + ID phiên, optimistic version chống ghi đè            |
 
-Cùng source + công cụ + ngôn ngữ dùng chung một nội dung; lần nhập mới tạo record và tăng study_count. Gửi lại cùng requestId và payload không tăng lượt. Cùng requestId nhưng payload khác trả 409. Parse lỗi hoặc lỗi transaction không lưu nội dung/record một phần. Mở bài cũ đọc lại DB, không tự tạo lượt parse mới.
+Cùng source + công cụ + ngôn ngữ dùng chung một nội dung; lần nhập mới tạo record và tăng study_count. Gửi lại cùng requestId và payload không tăng lượt. Cùng requestId nhưng payload khác trả 409. Parse lỗi hoặc lỗi transaction không lưu nội dung/record một phần. Mở bài cũ đọc lại DB, không tự tạo lượt parse mới. Xóa bài là thao tác vĩnh viễn trên thư viện chung, xóa cả tiến độ cá nhân của mọi phiên; giao diện yêu cầu xác nhận trước khi gọi DELETE. Phiên ẩn danh chỉ chống request thiếu cookie/CSRF, không phải xác thực danh tính hoặc quyền sở hữu.
 
 Thư viện có Bài đã lưu ở từng công cụ. IELTS, Speaking và Structures lấy từ catalog Turso. Chọn chủ đề tham khảo lưu record; luyện 5 câu tạo bài Word Order đã lưu. Markdown lưu sau parse hợp lệ, debounce editor 300ms. Bản Markdown local cũ chỉ được xóa sau khi upload Turso thành công; lỗi upload giữ bản cũ để thử lại, không dùng làm fallback runtime.
 

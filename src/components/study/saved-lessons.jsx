@@ -1,12 +1,13 @@
 'use client';
 import { useState } from 'react';
 import { Button, Status } from '../ui/primitives';
-import { listLessons, readLesson } from '../../services/study-library-client';
+import { listLessons, readLesson, removeLesson } from '../../services/study-library-client';
 export default function SavedLessons({ tool, onLoad, revision = '' }) {
   const [open, setOpen] = useState(false),
     [items, setItems] = useState([]),
     [cursor, setCursor] = useState(null),
     [busy, setBusy] = useState(false),
+    [confirmingId, setConfirmingId] = useState(null),
     [error, setError] = useState('');
   async function loadPage(next) {
     setBusy(true);
@@ -33,6 +34,19 @@ export default function SavedLessons({ tool, onLoad, revision = '' }) {
       setBusy(false);
     }
   }
+  async function remove(id) {
+    setBusy(true);
+    setError('');
+    try {
+      await removeLesson(id);
+      setItems((old) => old.filter((item) => item.id !== id));
+      setConfirmingId(null);
+    } catch (e) {
+      setError(e.message);
+    } finally {
+      setBusy(false);
+    }
+  }
   return (
     <div className="saved-lessons" data-revision={revision}>
       <Button
@@ -52,16 +66,51 @@ export default function SavedLessons({ tool, onLoad, revision = '' }) {
           {busy && <Status>Đang tải bài…</Status>}
           {!busy && !error && !items.length && <Status>Chưa có bài đã lưu trong mục này.</Status>}
           {items.map((item) => (
-            <Button key={item.id} disabled={busy} onClick={() => select(item.id)}>
-              <span>
-                <strong>{item.title}</strong>
-                <small>
-                  {item.itemCount} mục · {item.studyCount} lượt học ·{' '}
-                  {new Date(item.lastStudiedAt).toLocaleString('vi-VN')}
-                </small>
-              </span>
-              <span aria-hidden="true">↗</span>
-            </Button>
+            <article className="saved-lesson" key={item.id}>
+              <div className="saved-lesson-actions">
+                <Button disabled={busy} onClick={() => select(item.id)}>
+                  <span>
+                    <strong>{item.title}</strong>
+                    <small>
+                      {item.itemCount} mục · {item.studyCount} lượt học ·{' '}
+                      {new Date(item.lastStudiedAt).toLocaleString('vi-VN')}
+                    </small>
+                  </span>
+                  <span aria-hidden="true">↗</span>
+                </Button>
+                <Button
+                  variant="danger"
+                  disabled={busy}
+                  aria-label={`Xóa ${item.title} khỏi thư viện chung`}
+                  onClick={() => {
+                    setError('');
+                    setConfirmingId(confirmingId === item.id ? null : item.id);
+                  }}
+                >
+                  Xóa
+                </Button>
+              </div>
+              {confirmingId === item.id && (
+                <div
+                  className="saved-lesson-confirm"
+                  role="group"
+                  aria-label={`Xác nhận xóa ${item.title}`}
+                >
+                  <p>
+                    Xóa vĩnh viễn khỏi thư viện chung? Mọi người sẽ mất bài này và tiến độ liên
+                    quan.
+                  </p>
+                  <div className="action-wrap">
+                    <Button disabled={busy} onClick={() => setConfirmingId(null)}>
+                      Hủy
+                    </Button>
+                    <Button variant="danger" disabled={busy} onClick={() => remove(item.id)}>
+                      {busy ? 'Đang xóa…' : 'Xóa vĩnh viễn'}
+                    </Button>
+                  </div>
+                </div>
+              )}
+            </article>
           ))}
           {cursor && (
             <Button disabled={busy} onClick={() => loadPage(cursor)}>
