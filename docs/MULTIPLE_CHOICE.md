@@ -26,6 +26,6 @@ Mặc định một câu mỗi trang. Context xuất hiện trước câu hỏi,
 
 Tùy chọn ôn tập gồm tất cả câu hỏi, ôn sau, làm lại câu sai, làm lại từ đầu, số câu mỗi trang (1–50), sao chép kết quả đã kiểm tra và xóa bộ đang học. Luyện lại câu sai chỉ xóa kết quả của các câu sai, giữ các câu đã đúng. Nghe câu hỏi dùng cài đặt audio chung.
 
-Bộ bài và record nhập hợp lệ lưu trên Turso. Mở Bài đã lưu để ôn lại sau khi reload, không phải nhập lại. Có thể xóa bài khỏi danh sách bằng nút Xóa rồi xác nhận; việc này xóa vĩnh viễn khỏi thư viện chung và gỡ tiến độ của mọi phiên. Đáp án/ôn sau lưu DB theo cookie phiên riêng, không dùng localStorage. ID dựa trên câu hỏi, lựa chọn, đáp án và context; không tự ghép ID Hot Review legacy. Xóa bộ đang học chỉ dọn màn hiện tại, không xóa nội dung khỏi thư viện chung.
+Bộ bài và record nhập hợp lệ lưu trên Turso. Mở Lịch sử nhập để tải nguồn từ log và parse lại. Xóa log chỉ bỏ lần nhập khỏi lịch sử, giữ nội dung đang dùng và tiến độ. Đáp án/ôn sau lưu DB theo cookie phiên riêng, không dùng localStorage. ID dựa trên câu hỏi, lựa chọn, đáp án và context; không tự ghép ID Hot Review legacy. Xóa bộ đang học chỉ dọn màn hiện tại, không xóa nội dung khỏi thư viện chung.
 
 CSV Hot Review cũ và CSV đáp án riêng không còn được nhập trực tiếp. Chuyển question_jp thành question, option_a–option_d thành option_1–option_4; ghép đáp án A/B/C/D thành 1/2/3/4 và đưa answer_detail_vi vào explanation trước khi nhập. Không tự suy đoán đáp án còn thiếu.

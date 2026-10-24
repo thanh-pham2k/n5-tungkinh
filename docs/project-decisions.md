@@ -52,8 +52,8 @@ Controller Markdown được giữ trong ranh giới feature để bảo toàn h
 - Chủ dự án yêu cầu bỏ toàn bộ mục Audio Looper. Xóa component, điều hướng và test riêng của module; build không sinh lesson-mapper hoặc copy MP3 nữa.
 - Giữ hook/service phát âm và kiểm thử playback cho công cụ học. Nguồn input/, output/ và make_vocab_audio.py là công cụ độc lập, chưa xóa theo yêu cầu bỏ giao diện này.
 
-## Xóa bài trong thư viện dùng chung — 2026-10-24
+## Lịch sử nhập và xóa log — 2026-10-24
 
-- Theo yêu cầu chủ dự án, danh sách Bài đã lưu có thao tác xóa vĩnh viễn; cần xác nhận và nói rõ mọi người sẽ mất nội dung cùng tiến độ liên quan.
-- Thư viện chưa có tài khoản/quyền chủ sở hữu. Vì vậy thao tác này công khai cho khách truy cập; phiên cookie chỉ kiểm tra phiên và same-origin, không chứng minh quyền sở hữu. DELETE xóa content, import records và mọi progress liên quan cùng transaction.
+- Theo yêu cầu mới ngày 2026-10-24, danh sách Bài đã lưu đổi thành Lịch sử nhập: chọn log tải source lên và parse lại; xóa chỉ xóa log, giữ nội dung hiện tại và tiến độ.
+- Thư viện/log chưa có tài khoản/quyền chủ sở hữu. Vì vậy thao tác này công khai cho khách truy cập; phiên cookie chỉ kiểm tra phiên và same-origin, không chứng minh quyền sở hữu. DELETE chỉ gỡ import record được chọn; không xóa content hoặc progress.
 - Xem `docs/database.md` và `docs/decisions/api-contract.md` về phạm vi dữ liệu và giới hạn quyền.

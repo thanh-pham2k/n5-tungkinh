@@ -83,6 +83,15 @@ export const Lesson = LessonSummary.extend({
   progress: z.record(z.string(), z.unknown()),
   version: z.number().int().nonnegative(),
 });
+export const StudyLogSummary = z.object({
+  id: z.uuid(),
+  contentId: z.uuid(),
+  tool: StudyTool,
+  title: z.string(),
+  language: Language,
+  itemCount: z.number().int().positive(),
+  createdAt: z.string(),
+});
 export const SaveProgress = z
   .object({ version: z.number().int().nonnegative(), progress: z.record(z.string(), z.unknown()) })
   .strict();

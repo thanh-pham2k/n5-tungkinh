@@ -1,4 +1,4 @@
-import { Lesson, LessonSummary, Page } from '../contracts/study-contract';
+import { Lesson, Page, StudyLogSummary } from '../contracts/study-contract';
 import { z } from 'zod';
 const base = `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/api/v1`;
 let session;
@@ -34,18 +34,20 @@ export async function studyRequest(path, options = {}) {
     throw new Error('Phản hồi thư viện không hợp lệ.');
   return payload;
 }
-export const listLessons = async (tool, cursor) => {
-  const payload = await studyRequest(
-    `/study-contents?${new URLSearchParams({ tool, ...(cursor ? { cursor } : {}) })}`,
-  );
-  return { data: z.array(LessonSummary).parse(payload.data), page: Page.parse(payload.meta.page) };
-};
-export const readLesson = async (id) =>
-  Lesson.parse((await studyRequest(`/study-contents/${id}`)).data);
-export const removeLesson = async (id) =>
-  studyRequest(`/study-contents/${id}`, { method: 'DELETE' });
 export const createLesson = async (input) =>
   Lesson.parse(
     (await studyRequest('/study-contents', { method: 'POST', body: JSON.stringify(input) })).data,
   );
 export const readCatalog = async (key) => (await studyRequest(`/study-catalog/${key}`)).data;
+export const listStudyLogs = async (tool, cursor) => {
+  const payload = await studyRequest(
+    `/study-logs?${new URLSearchParams({ tool, ...(cursor ? { cursor } : {}) })}`,
+  );
+  return {
+    data: z.array(StudyLogSummary).parse(payload.data),
+    page: Page.parse(payload.meta.page),
+  };
+};
+export const readStudyLog = async (id) =>
+  Lesson.parse((await studyRequest(`/study-logs/${id}`)).data);
+export const removeStudyLog = async (id) => studyRequest(`/study-logs/${id}`, { method: 'DELETE' });

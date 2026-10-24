@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import useStudyLibrary from '../hooks/use-study-library';
 import SavedLessons from './study/saved-lessons';
-import { listLessons, readLesson, readCatalog } from '../services/study-library-client';
+import { listStudyLogs, readStudyLog, readCatalog } from '../services/study-library-client';
 import { Button, Status } from './ui/primitives';
 export default function MarkdownWorkspace() {
   const [error, setError] = useState('');
@@ -43,10 +43,10 @@ export default function MarkdownWorkspace() {
               })
             : Promise.resolve();
         upgraded
-          .then(() => listLessons('markdown'))
+          .then(() => listStudyLogs('markdown'))
           .then(async ({ data }) => {
             if (!data.length || disposed) return;
-            const record = await readLesson(data[0].id);
+            const record = await readStudyLog(data[0].id);
             if (disposed || document.getElementById('lesson-source')?.value.trim()) return;
             libraryRef.current.restore(record);
             document.dispatchEvent(new CustomEvent('study-markdown-load', { detail: record }));

@@ -16,8 +16,83 @@ function summary(row: Row) {
     studyCount: Number(row.study_count),
   };
 }
+function logSummary(row: Row) {
+  return {
+    id: String(row.log_id),
+    contentId: String(row.content_id),
+    tool: String(row.tool),
+    title: String(row.title),
+    language: String(row.language),
+    itemCount: Number(row.item_count),
+    createdAt: String(row.log_created_at),
+  };
+}
 export function studyRepository(db: Client) {
   return {
+    async listLogs(libraryId: string, tool: string, limit: number, cursor?: string) {
+      let last: string | null = null,
+        id: string | null = null;
+      if (cursor) {
+        try {
+          const decoded = JSON.parse(Buffer.from(cursor, 'base64url').toString());
+          if (
+            decoded.libraryId !== libraryId ||
+            decoded.tool !== tool ||
+            typeof decoded.last !== 'string' ||
+            typeof decoded.id !== 'string'
+          )
+            throw new Error();
+          last = decoded.last;
+          id = decoded.id;
+        } catch {
+          throw new StudyError(400, 'invalid_cursor', 'Phân trang không hợp lệ.');
+        }
+      }
+      const result = await db.execute({
+        sql: `SELECT r.id AS log_id, r.created_at AS log_created_at, c.id AS content_id, c.tool, c.title, c.language, c.item_count FROM study_records r JOIN study_contents c ON c.id = r.content_id AND c.library_id = r.library_id WHERE r.library_id = ? AND c.tool = ? AND (? IS NULL OR r.created_at < ? OR (r.created_at = ? AND r.id < ?)) ORDER BY r.created_at DESC, r.id DESC LIMIT ?`,
+        args: [libraryId, tool, last, last, last, id, limit + 1],
+      });
+      const data = result.rows.slice(0, limit).map(logSummary);
+      const hasMore = result.rows.length > limit;
+      const tail = data.at(-1);
+      return {
+        data,
+        page: {
+          limit,
+          hasMore,
+          nextCursor:
+            hasMore && tail
+              ? Buffer.from(
+                  JSON.stringify({ libraryId, tool, last: tail.createdAt, id: tail.id }),
+                ).toString('base64url')
+              : null,
+        },
+      };
+    },
+    async getLog(libraryId: string, logId: string, ownerId: string) {
+      const result = await db.execute({
+        sql: `SELECT c.*, p.state_json, p.version FROM study_records r JOIN study_contents c ON c.id = r.content_id AND c.library_id = r.library_id LEFT JOIN study_progress p ON p.content_id = c.id AND p.library_id = ? WHERE r.id = ? AND r.library_id = ?`,
+        args: [ownerId, logId, libraryId],
+      });
+      const row = result.rows[0];
+      if (!row) throw new StudyError(404, 'not_found', 'Không tìm thấy mục log.');
+      return {
+        ...summary(row),
+        source: String(row.source),
+        parsed: JSON.parse(String(row.parsed_json)),
+        progress: JSON.parse(String(row.state_json || '{}')),
+        version: Number(row.version || 0),
+      };
+    },
+    async removeLog(libraryId: string, logId: string) {
+      const result = await db.execute({
+        sql: 'DELETE FROM study_records WHERE id = ? AND library_id = ?',
+        args: [logId, libraryId],
+      });
+      if (result.rowsAffected === 0)
+        throw new StudyError(404, 'not_found', 'Không tìm thấy mục log.');
+      return { id: logId, deleted: true };
+    },
     async list(libraryId: string, tool: string, limit: number, cursor?: string) {
       let last: string | null = null,
         id: string | null = null;
@@ -72,35 +147,6 @@ export function studyRepository(db: Client) {
         progress: JSON.parse(String(row.state_json || '{}')),
         version: Number(row.version || 0),
       };
-    },
-    async remove(libraryId: string, id: string) {
-      const tx = await db.transaction('write');
-      try {
-        const exists = await tx.execute({
-          sql: 'SELECT id FROM study_contents WHERE id = ? AND library_id = ?',
-          args: [id, libraryId],
-        });
-        if (!exists.rows[0]) throw new StudyError(404, 'not_found', 'Không tìm thấy bài đã lưu.');
-        await tx.execute({
-          sql: 'DELETE FROM study_progress WHERE content_id = ?',
-          args: [id],
-        });
-        await tx.execute({
-          sql: 'DELETE FROM study_records WHERE content_id = ? AND library_id = ?',
-          args: [id, libraryId],
-        });
-        await tx.execute({
-          sql: 'DELETE FROM study_contents WHERE id = ? AND library_id = ?',
-          args: [id, libraryId],
-        });
-        await tx.commit();
-        return { id, deleted: true };
-      } catch (error) {
-        await tx.rollback();
-        throw error;
-      } finally {
-        tx.close();
-      }
     },
     async create(
       libraryId: string,

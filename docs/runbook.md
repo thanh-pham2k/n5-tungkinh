@@ -46,7 +46,7 @@ Sau khi kết thúc phiên thử subpath, `Remove-Item Env:NEXT_PUBLIC_BASE_PATH
 - Audio Looper đã bỏ; không lập danh mục/copy MP3 hoặc bundle IELTS. Phát âm vẫn dùng Sound of Text.
 - docs/ielts/ chỉ là đầu vào import/test; runtime đọc catalog Turso. Không khôi phục module src/data/practice-data.js.
 - Multiple Choice: nhập định dạng dấu | theo [hướng dẫn](MULTIPLE_CHOICE.md); nội dung là văn bản, không đọc image_url từ CSV cũ.
-- DB đã có schema và catalog; parse hợp lệ lưu record, Bài đã lưu đọc lại qua API. Quyền thư viện chung, phiên tiến độ riêng và migration Liquibase mô tả trong database.md.
+- DB đã có schema và catalog; parse hợp lệ lưu record log, Lịch sử nhập đọc và parse lại qua API. Xóa log không xóa nội dung hoặc tiến độ. Quyền thư viện chung, phiên tiến độ riêng và migration Liquibase mô tả trong database.md.
 
 ## Release
 

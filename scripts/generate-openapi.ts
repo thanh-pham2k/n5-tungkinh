@@ -4,6 +4,7 @@ import {
   CreateLesson,
   Lesson,
   LessonSummary,
+  StudyLogSummary,
   SaveProgress,
   ApiError,
   Meta,
@@ -18,6 +19,7 @@ const response = (s: z.ZodType) => ({
 });
 const one = z.object({ data: Lesson, meta: Meta });
 const list = z.object({ data: z.array(LessonSummary), meta: Meta.extend({ page: Page }) });
+const logs = z.object({ data: z.array(StudyLogSummary), meta: Meta.extend({ page: Page }) });
 const failure = {
   description: 'Safe API error',
   content: { 'application/json': { schema: schema(ApiError) } },
@@ -31,6 +33,12 @@ const body = (s: z.ZodType) => ({
 });
 const pathId = {
   name: 'contentId',
+  in: 'path',
+  required: true,
+  schema: { type: 'string', format: 'uuid' },
+};
+const logPathId = {
+  name: 'logId',
   in: 'path',
   required: true,
   schema: { type: 'string', format: 'uuid' },
@@ -69,7 +77,7 @@ const document = {
       post: {
         operationId: 'parseAndSaveStudyContent',
         description:
-          'Intentional public shared imports, valid same-origin and anonymous session required. Parse and record atomic. Maximum source 1 MB UTF-8. Request UUID idempotent forever per shared library; changed payload with same key is 409. Reimport with new UUID adds a study record, reuses matching content. Content is publicly readable.',
+          'Intentional public shared imports, valid same-origin and anonymous session required. Parse and record atomic. Maximum source 1 MB UTF-8. Request UUID idempotent forever per shared library; changed payload with same key is 409. Reimport with new UUID adds a log record, reuses matching current content. Content is publicly readable.',
         requestBody: body(CreateLesson),
         responses: { 201: response(one), ...errors },
       },
@@ -81,11 +89,37 @@ const document = {
         parameters: [pathId],
         responses: { 200: response(one), ...errors },
       },
-      delete: {
-        operationId: 'deleteStudyContent',
+    },
+    '/study-logs': {
+      get: {
+        operationId: 'listStudyLogs',
         description:
-          'Permanently deletes this public shared lesson and all import records and progress for every visitor in one transaction. The website requires explicit confirmation. Public destructive operation: an anonymous same-origin session cookie is required, but does not prove ownership or identity.',
-        parameters: [pathId],
+          'Public shared import history, newest first; selecting a log reads its source and parses it again. Cursor bound to tool and library.',
+        parameters: [
+          { name: 'tool', in: 'query', required: true, schema: schema(StudyTool) },
+          {
+            name: 'limit',
+            in: 'query',
+            schema: { type: 'integer', minimum: 1, maximum: 100, default: 20 },
+          },
+          { name: 'cursor', in: 'query', schema: { type: 'string', maxLength: 500 } },
+        ],
+        responses: { 200: response(logs), ...errors },
+      },
+    },
+    '/study-logs/{logId}': {
+      get: {
+        operationId: 'readAndReparseStudyLog',
+        description:
+          'Reads the source referenced by this shared log and parses it again on the server; existing current content and session progress are preserved.',
+        parameters: [logPathId],
+        responses: { 200: response(one), ...errors },
+      },
+      delete: {
+        operationId: 'deleteStudyLog',
+        description:
+          'Deletes only the selected import history record. It does not delete current content or any session progress. Public operation: an anonymous same-origin session cookie is required, but does not prove ownership or identity.',
+        parameters: [logPathId],
         responses: {
           200: response(
             z.object({ data: z.object({ id: z.uuid(), deleted: z.literal(true) }), meta: Meta }),
