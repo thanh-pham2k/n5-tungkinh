@@ -14,7 +14,22 @@ export function initializeMarkdown({
   const output = document.getElementById('lesson-output');
   const status = document.getElementById('lesson-status');
   let answers = Object.create(null),
-    revision = 0;
+    revision = 0,
+    statusTimer;
+
+  function setStatus(text, autoClear = false) {
+    clearTimeout(statusTimer);
+    if (status) {
+      status.textContent = text;
+      if (autoClear && text) {
+        statusTimer = setTimeout(() => {
+          if (status.textContent === text) {
+            status.textContent = '';
+          }
+        }, 4000);
+      }
+    }
+  }
 
   const el = (tag, text, className) => {
     const node = document.createElement(tag);
@@ -227,9 +242,9 @@ export function initializeMarkdown({
     if (persist && source.value.trim() && !blocks.some((block) => block.type === 'error')) {
       try {
         await saveSource(source.value);
-        if (run === revision) status.textContent = 'Đã lưu nội dung trên Turso.';
+        if (run === revision) setStatus('Đã lưu nội dung trên Turso.', true);
       } catch (error) {
-        if (run === revision) status.textContent = error.message;
+        if (run === revision) setStatus(error.message);
       }
     }
     if (mermaid)
@@ -377,9 +392,9 @@ export function initializeMarkdown({
   listen(document.getElementById('lesson-copy'), 'click', async () => {
     try {
       await navigator.clipboard.writeText(source.value);
-      status.textContent = 'Đã copy Markdown.';
+      setStatus('Đã copy Markdown.', true);
     } catch {
-      status.textContent = 'Không copy được. Chọn nội dung trong editor và nhấn Ctrl+C.';
+      setStatus('Không copy được. Chọn nội dung trong editor và nhấn Ctrl+C.');
     }
   });
   listen(document.getElementById('lesson-pdf'), 'click', () => window.print());
@@ -448,6 +463,7 @@ export function initializeMarkdown({
     lifetime.abort();
     ++revision;
     clearTimeout(timer);
+    clearTimeout(statusTimer);
     cancelAnimationFrame(scrollFrame);
   };
 }

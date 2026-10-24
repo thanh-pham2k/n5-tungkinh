@@ -32,6 +32,29 @@
 #lesson-edit {
   background: var(--accent);
 }
+#lesson-focus {
+  background: var(--subtle);
+}
+.preview-toolbar .saved-lessons {
+  margin-bottom: 0;
+  position: relative;
+  display: inline-flex;
+}
+.preview-toolbar .saved-lessons-list {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 4px);
+  width: min(340px, calc(100vw - 32px));
+  max-height: calc(100dvh - 100px);
+  overflow-y: auto;
+  background: var(--paper);
+  border: var(--border);
+  box-shadow: var(--shadow);
+  padding: var(--space-3);
+  gap: var(--space-2);
+  z-index: 20;
+  margin-top: 0;
+}
 #lesson-toolbar-actions {
   display: none;
 }
@@ -49,6 +72,7 @@
   box-shadow: var(--shadow);
   padding: var(--space-3);
   gap: var(--space-2);
+  z-index: 20;
 }
 #lesson-toolbar-actions .check-field {
   padding: var(--space-2);
@@ -59,7 +83,7 @@
 #lesson-status {
   flex-basis: 100%;
   color: var(--muted);
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
   overflow-wrap: anywhere;
 }
 #lesson-status:empty {
@@ -280,8 +304,57 @@ body.dark {
 }
 body.dark .button-primary,
 body.dark #lesson-edit,
+body.dark #lesson-focus,
 body.dark .lesson-deck button[aria-current='step'] {
   color: #20211d;
+}
+/* Focus Reading Mode */
+.exit-focus-btn {
+  position: fixed;
+  top: var(--space-3);
+  right: var(--space-4);
+  z-index: 50;
+  background: var(--paper);
+  border: var(--border);
+  box-shadow: var(--shadow);
+  font-size: var(--text-xs);
+  padding: 6px 14px;
+  cursor: pointer;
+  opacity: 0.85;
+  transition:
+    opacity 0.2s ease,
+    transform 0.15s ease;
+}
+.exit-focus-btn:hover,
+.exit-focus-btn:focus-visible {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+.markdown-page.reading-focus .preview-toolbar,
+.markdown-page.reading-focus .source-pane,
+.markdown-page.reading-focus #preview-divider,
+.markdown-page.reading-focus .pane-heading {
+  display: none !important;
+}
+.markdown-page.reading-focus .preview-workspace {
+  display: block !important;
+  grid-template-columns: none !important;
+  height: 100dvh;
+}
+.markdown-page.reading-focus .preview-pane {
+  display: block !important;
+  width: 100% !important;
+  height: 100%;
+}
+.markdown-page.reading-focus #lesson-preview-scroll {
+  height: 100%;
+}
+.markdown-page.reading-focus #lesson-output {
+  max-width: 860px;
+  margin-inline: auto;
+  padding-inline: var(--space-6);
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-12);
 }
 @media (min-width: 761px) {
   .preview-toolbar {
@@ -289,6 +362,10 @@ body.dark .lesson-deck button[aria-current='step'] {
   }
   .preview-toolbar strong span {
     display: inline;
+  }
+  #lesson-status {
+    flex-basis: auto;
+    margin-left: auto;
   }
   .preview-workspace {
     display: grid;

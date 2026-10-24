@@ -6,9 +6,20 @@ import { listStudyLogs, readStudyLog, readCatalog } from '../services/study-libr
 import { Button, Status } from './ui/primitives';
 export default function MarkdownWorkspace() {
   const [error, setError] = useState('');
+  const [focusMode, setFocusMode] = useState(false);
   const library = useStudyLibrary('markdown');
   const libraryRef = useRef(library);
   libraryRef.current = library;
+
+  useEffect(() => {
+    function handleKeyDown(event) {
+      if (event.key === 'Escape' && focusMode) {
+        setFocusMode(false);
+      }
+    }
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [focusMode]);
   useEffect(() => {
     let disposed = false,
       cleanup;
@@ -68,15 +79,18 @@ export default function MarkdownWorkspace() {
     };
   }, []);
   return (
-    <div className="markdown-page">
-      <SavedLessons
-        tool="markdown"
-        onLoad={(record) => {
-          library.restore(record);
-          document.dispatchEvent(new CustomEvent('study-markdown-load', { detail: record }));
-        }}
-      />
-      <Status error>{error || library.error}</Status>
+    <div className={`markdown-page ${focusMode ? 'reading-focus' : ''}`}>
+      {focusMode && (
+        <button
+          type="button"
+          className="exit-focus-btn button"
+          onClick={() => setFocusMode(false)}
+          title="Thoát chế độ đọc tập trung (Esc)"
+          aria-label="Thoát chế độ đọc tập trung"
+        >
+          ✕ Thoát đọc tập trung
+        </button>
+      )}
       <header className="preview-toolbar">
         <a
           className="button"
@@ -88,6 +102,20 @@ export default function MarkdownWorkspace() {
         <strong>
           Markdown <span>& Quiz</span>
         </strong>
+        <Button
+          id="lesson-focus"
+          onClick={() => setFocusMode(true)}
+          title="Ẩn header và editor để tập trung đọc bài (Esc để thoát)"
+        >
+          📖 Đọc tập trung
+        </Button>
+        <SavedLessons
+          tool="markdown"
+          onLoad={(record) => {
+            library.restore(record);
+            document.dispatchEvent(new CustomEvent('study-markdown-load', { detail: record }));
+          }}
+        />
         <Button id="lesson-edit">Nhập Markdown</Button>
         <Button
           id="lesson-menu-toggle"
@@ -120,6 +148,7 @@ export default function MarkdownWorkspace() {
         </div>
         <span id="lesson-status" role="status" />
       </header>
+      <Status error>{error || library.error}</Status>
       <div id="markdown-loading">
         <Status>Đang mở workspace…</Status>
       </div>

@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Button, Status } from '../ui/primitives';
 import { listStudyLogs, readStudyLog, removeStudyLog } from '../../services/study-library-client';
 export default function SavedLessons({ tool, onLoad, revision = '' }) {
@@ -9,6 +9,27 @@ export default function SavedLessons({ tool, onLoad, revision = '' }) {
     [busy, setBusy] = useState(false),
     [confirmingId, setConfirmingId] = useState(null),
     [error, setError] = useState('');
+  const rootRef = useRef(null);
+
+  useEffect(() => {
+    if (!open) return;
+    function handlePointer(event) {
+      if (rootRef.current && !rootRef.current.contains(event.target)) {
+        setOpen(false);
+      }
+    }
+    function handleKey(event) {
+      if (event.key === 'Escape') {
+        setOpen(false);
+      }
+    }
+    document.addEventListener('pointerdown', handlePointer);
+    document.addEventListener('keydown', handleKey);
+    return () => {
+      document.removeEventListener('pointerdown', handlePointer);
+      document.removeEventListener('keydown', handleKey);
+    };
+  }, [open]);
   async function loadPage(next) {
     setBusy(true);
     setError('');
@@ -48,7 +69,7 @@ export default function SavedLessons({ tool, onLoad, revision = '' }) {
     }
   }
   return (
-    <div className="saved-lessons" data-revision={revision}>
+    <div className="saved-lessons" data-revision={revision} ref={rootRef}>
       <Button
         aria-expanded={open}
         disabled={busy}
