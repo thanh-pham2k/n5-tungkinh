@@ -1,6 +1,6 @@
 # Markdown & Quiz
 
-Mở **Markdown Preview ↗** từ trang chính hoặc truy cập `markdown-preview.html`. Trên desktop, trang riêng có editor bên trái và preview bên phải, cập nhật trực tiếp khi nhập (sau 300 ms). Chọn **Bài mẫu** để thử.
+Mở **Markdown & Quiz** từ điều hướng hoặc truy cập route `/markdown/` (cộng base path nếu có). Trên desktop, trang riêng có editor bên trái và preview bên phải, cập nhật trực tiếp khi nhập (sau 300 ms). Chọn **Bài mẫu** để thử.
 
 Toolbar có Open (mở file Markdown), Copy (copy Markdown gốc), Export PDF (hộp thoại in của trình duyệt, chọn Save as PDF), Reset, Sync scroll theo tỷ lệ và Dark mode. Trên desktop, mỗi cột cuộn độc lập và thanh giữa kéo được để đổi độ rộng.
 
@@ -51,10 +51,10 @@ Chọn đáp án để xem phản hồi. Dùng nút Trước/Tiếp, nút số c
 
 Chỉ nội dung editor lưu trong localStorage của trình duyệt và tự khôi phục khi mở lại. Đáp án chỉ giữ trong phiên trang hiện tại: chuyển câu vẫn giữ lựa chọn, nhưng tải lại trang sẽ bắt đầu quiz mới. Khi chỉnh câu hỏi, lựa chọn hoặc đáp án thì đáp án cũ của câu đã sửa sẽ được xóa. Nội dung được lưu tự động khi preview cập nhật. Nếu trình duyệt chặn lưu trữ, ứng dụng báo lỗi và vẫn cho học trong phiên hiện tại.
 
-Không copy CSS/HTML của sơ đồ đã render trong ChatGPT (`#chatgpt-mermaid...`); hãy copy Markdown gốc. Các thư viện Marked, DOMPurify và Mermaid được tải từ CDN với phiên bản cố định, vì vậy lần tải trang cần kết nối mạng. HTML Markdown được lọc qua DOMPurify và Mermaid dùng chế độ strict.
+Không copy CSS/HTML của sơ đồ đã render trong ChatGPT (`#chatgpt-mermaid...`); hãy copy Markdown gốc. Marked, DOMPurify và Mermaid được pin trong package-lock.json và tải theo chunk của ứng dụng khi mở workspace. HTML Markdown được lọc qua DOMPurify và Mermaid dùng chế độ strict.
 
 Kiểm tra parser:
 
 ```sh
-node --test docs/js/lesson-parser.test.cjs
+npm test
 ```

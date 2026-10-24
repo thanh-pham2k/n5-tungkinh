@@ -1,86 +1,70 @@
-# n5-tungkinh
+TL;DR Ứng dụng học tiếng Nhật, tiếng Anh và IELTS bằng Next.js, giao diện Neobrutalism mobile first.
 
-Japanese-Vietnamese vocabulary audio generator for N5 study.
+# Kotoba Lab
 
-Live site: [https://thanh-pham2k.github.io/n5-tungkinh/](https://thanh-pham2k.github.io/n5-tungkinh/)
+Các chế độ: Instant Vocab, Vocab Review, Word Order, Typing Review, Sentence Structures, Speaking Questions, Writing Review, Hot Review, Audio Looper và Markdown & Quiz.
 
-## Web player
+## Chạy local
 
-The **Markdown & Quiz** study mode renders pasted Markdown and Mermaid diagrams with interactive quiz decks. See [format and usage](docs/MARKDOWN_QUIZ.md).
-
-After GitHub Pages deploys, open:
-
-```text
-https://thanh-pham2k.github.io/n5-tungkinh/
-```
-
-On mobile, open the page, choose a local MP3 file from the phone, then use Play, Pause, Restart, and speed control.
-You can also choose the public lesson audio directly from the page without downloading it first.
-
-## Folder structure
-
-```text
-extractor/
-  input/
-    17.txt                 # Vocabulary source file
-  output/
-    16/
-      16_group_01.mp3
-      16_group_02.mp3
-      16_group_03.mp3
-      16_group_04.mp3
-      16_group_05.mp3
-    17/
-      17_group_01.mp3      # Audio for group 1 in input/17.txt
-      17_group_02.mp3
-      17_group_03.mp3
-      17_group_04.mp3
-  _cache/                # Downloaded Sound of Text MP3 cache
-  _silence/              # Reusable silent MP3 clips
-  docs/
-    index.html             # Static mobile-friendly audio looper for GitHub Pages
-    data/
-      lesson-mapper.json   # Generated mapper read by the web player
-  make_vocab_audio.py
-```
-
-## Usage
-
-Create audio from the default input file:
+Yêu cầu Node.js 22 (đã kiểm tra với 22.13.1), npm 10.
 
 ```powershell
-python .\make_vocab_audio.py
+npm ci
+npm run dev
 ```
 
-Preview parsing without calling the API:
+Mở http://127.0.0.1:3000. Lệnh predev/prebuild/pretest tự chuẩn bị dữ liệu từ nguồn có sẵn; không gọi TTS hoặc sinh MP3.
+
+```powershell
+npm test
+npm run build
+npm run test:browser
+npm run preview
+```
+
+Build xuất site tĩnh vào `out/`. Preview mở http://127.0.0.1:4173. Browser test sử dụng Microsoft Edge đã cài trên Windows; có thể đổi channel trong playwright.config.cjs nếu máy khác dùng Chromium.
+
+## Cấu trúc
+
+- `src/app/`: layout, route `/` và `/markdown/`.
+- `src/components/ui/`: control, dialog, nhập CSV, progress và trạng thái chung.
+- `src/components/study/`: component theo công cụ học.
+- `src/services/`, `src/hooks/`: parser, kiểm tra đáp án, tải dữ liệu và audio.
+- `src/styles/`: token Neobrutalism, style nền và theo tính năng.
+- `docs/ielts/`: tài liệu và dữ liệu được đồng bộ từ road-2-ielts; giữ nguyên nguồn này.
+- `input/`, `output/`, `make_vocab_audio.py`: nguồn và công cụ tạo MP3 tiếng Nhật–Việt.
+- `public/data/`, `public/audio/`, `src/data/practice-data.js`: artifact sinh khi chuẩn bị build, không sửa tay.
+- `tests/`: kiểm tra contract, parser và tương tác trên trình duyệt.
+
+## Nhập bài và audio
+
+Dán CSV hoặc chọn bộ IELTS có sẵn. Tên cột CSV cũ được giữ, kể cả `example_ja` khi học tiếng Anh. Writing Review nhận `context,prompt,input,sample_answer` và hỗ trợ tự so sánh bài mẫu, không chấm AI/band.
+
+Các công cụ từ vựng/luyện câu dùng Sound of Text để tạo audio; cần kết nối mạng và dịch vụ ngoài hoạt động. Audio local được phát trên thiết bị, không upload. `Later` của Hot Review, âm lượng và Markdown giữ khóa lưu cũ; lựa chọn đã học trong bộ chọn IELTS lưu theo phiên. Các bộ bài đang học khác chỉ ở bộ nhớ phiên trang.
+
+Audio public chỉ xuất hiện khi có MP3 thật trong `output/<bài>/`. Checkout hiện không có MP3 public; có thể dùng file local. Tạo MP3 bằng công cụ hiện có:
 
 ```powershell
 python .\make_vocab_audio.py --dry-run
-```
-
-Create audio for a different input file:
-
-```powershell
 python .\make_vocab_audio.py --input .\input\18.txt
 ```
 
-Each group separated by `---` becomes one audio file in `output\<input-file-name>\`.
+Sau khi có audio, chạy lại dev hoặc build để cập nhật danh mục và copy MP3 vào public/audio. TTS generator có yêu cầu riêng như ffmpeg; xem tùy chọn `python make_vocab_audio.py --help`.
 
-Generated lesson MP3 files are committed so they can be downloaded on another device. TTS cache and silence clips are ignored by Git. The web player reads `docs/data/lesson-mapper.json`, which is generated from `input/*.txt` by `make_vocab_audio.py`.
+## Hướng dẫn dự án
 
-## IELTS Speaking presets
+- [Quyết định stack và ngoại lệ blueprint](docs/project-decisions.md).
+- [Định hướng UI](docs/ui-direction.md).
+- [Local, environment và release](docs/runbook.md).
+- [Kế hoạch và kiểm kê refactor](docs/refactor-plan.md).
+- [Báo cáo kiểm chứng và giới hạn](docs/refactor-verification.md).
+- [Markdown & Quiz](docs/MARKDOWN_QUIZ.md).
+- [Đồng bộ nội dung IELTS](IELTS_UPDATE_NOTES.md).
 
-Writing materials now cover Work English and IELTS: 246 sentence exercises in Word Order, 242 vocabulary/collocation cards in Vocab Review, and 216 pattern examples in Sentence Structures across 16 topics. Filter by topic/date and select what to load. Source and update guide: `road-2-ielts/writing/README.md`.
+## Xuất bản trên Vercel
 
-Instant Vocab and Word Order Review include IELTS lessons. Click **Chọn câu IELTS…**, filter by date, check the sentences to study, then click **Nạp các câu đã chọn**; playback language switches to English. Sources and update instructions are documented in [IELTS_UPDATE_NOTES.md](IELTS_UPDATE_NOTES.md).
+Đã có vercel.json tại root. Vercel dùng Next.js server build (.next); local mặc định vẫn export ra out/ để chạy bộ kiểm tra và preview.
 
-## Deployment without GitHub Actions
+Đặt TURSO_DATABASE_URL và TURSO_AUTH_TOKEN trong Vercel Environment Variables; token chỉ dùng phía server. .env.local trên máy được Git và Vercel upload bỏ qua, không tự chuyển lên cloud. Chạy `npm run db:check` để kiểm tra local bằng SELECT 1.
 
-This repo is a static site and does not need GitHub Actions. Enable GitHub Pages from the branch instead:
-
-```text
-Settings -> Pages -> Build and deployment
-Source: Deploy from a branch
-Branch: main
-Folder: /docs
-```
+Xem [hướng dẫn deploy Vercel](docs/vercel-deployment.md). Chưa có tính năng học đọc/ghi DB hoặc schema mới; chưa deploy trong phiên làm việc này.

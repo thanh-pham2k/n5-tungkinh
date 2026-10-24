@@ -32,4 +32,4 @@ Các ngày được đọc từ heading `### YYYY-MM-DD`. Mỗi ngày gom các b
 
 `docs/ielts/speaking/IELTS_Speaking_Practice_Checklist.md` và `PRACTICE_LOG.md` là bản copy tham chiếu; các câu chưa có đáp án không tự sinh vào bộ bài.
 
-Giữ cấu hình GitHub Pages hiện tại: branch `main`, thư mục `/docs`. Không chuyển sang workflow Actions riêng cho bộ bài này. Sau push, xác minh deployment; lỗi billing tài khoản vẫn có thể chặn publish.
+Sau refactor Next.js ngày 2026-10-24: nguồn đồng bộ vẫn ở `docs/ielts/practice-data.js`. Chạy `npm test` và `npm run build` để chuyển dữ liệu sang module và tạo artifact `out/`. Thiết lập Pages cũ `main:/docs` không tự build Next.js; quy trình publish cần được chọn riêng theo `docs/runbook.md`. Không ghi output đè lên tài liệu nguồn.

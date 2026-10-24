@@ -4,3 +4,24 @@ __pycache__/
 output/_cache/
 output/_silence/
 !output/.gitkeep
+
+# Local shared blueprint junctions
+/.agents/skills
+/.agents/blueprint
+
+# Next.js local dependencies and build output
+/node_modules/
+/.next/
+/out/
+/test-results/
+/playwright-report/
+
+# Generated from canonical lesson sources at build time
+/src/data/practice-data.js
+/public/data/
+/public/audio/
+
+# Local secrets and deployment linkage
+.env*
+!.env.example
+/.vercel/
