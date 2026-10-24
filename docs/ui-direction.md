@@ -28,4 +28,6 @@ Token chính nằm tại [src/styles/tokens.css](../src/styles/tokens.css): nề
 
 Nền UI dùng component chung trong src/components/ui; các feature có component riêng. Trên mobile, thiết lập phụ mở theo nhu cầu; Focus thu gọn điều hướng và ưu tiên bài đang học. Giữ zoom, keyboard focus, giảm chuyển động và nội dung thật.
 
+Ô nhập, textarea và select khi focus đổi viền hiện tại sang tím đậm, không thêm vòng xanh bên ngoài. Nút, liên kết và các control khác giữ focus ring; chế độ forced colors dùng outline hệ thống để bảo đảm nhận biết focus.
+
 Không dùng avatar, XP, band, AI chấm bài hoặc dữ liệu mẫu như tính năng đã có. Bỏ Kana, thư viện Kanji riêng và Final Review; giữ Furigana trong nội dung học.

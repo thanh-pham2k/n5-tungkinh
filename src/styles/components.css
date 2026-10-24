@@ -1,6 +1,30 @@
 * {
   box-sizing: border-box;
 }
+.saved-lessons {
+  margin-bottom: var(--space-4);
+  min-width: 0;
+}
+.saved-lessons-list {
+  margin-top: var(--space-3);
+}
+.saved-lessons-list > .button {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: var(--space-3);
+  min-width: 0;
+}
+.saved-lessons-list > .button > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.saved-lessons-list small {
+  display: block;
+  font-weight: 400;
+  color: var(--muted);
+}
 html {
   scroll-padding-top: 1rem;
 }
@@ -138,6 +162,20 @@ textarea {
   padding: 10px 12px;
   font-size: 1rem;
   font-weight: 400;
+}
+:is(input:not([type='checkbox']):not([type='radio']):not([type='range']), select, textarea):focus {
+  border-color: var(--focus-ink);
+  outline: none;
+}
+@media (forced-colors: active) {
+  :is(
+    input:not([type='checkbox']):not([type='radio']):not([type='range']),
+    select,
+    textarea
+  ):focus {
+    outline: 2px solid Highlight;
+    outline-offset: 2px;
+  }
 }
 textarea {
   resize: vertical;

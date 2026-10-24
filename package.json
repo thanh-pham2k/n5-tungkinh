@@ -7,28 +7,37 @@
   },
   "packageManager": "npm@10.9.2",
   "scripts": {
-    "predev": "node scripts/prepare-assets.mjs",
     "dev": "next dev --hostname 127.0.0.1",
-    "prebuild": "node scripts/prepare-assets.mjs",
     "build": "next build",
-    "pretest": "node scripts/prepare-assets.mjs",
-    "test": "node --test tests/*.test.cjs tests/*.test.mjs",
+    "test": "node --import tsx --test tests/*.test.cjs tests/*.test.mjs tests/*.test.ts",
     "test:browser": "playwright test",
     "db:check": "node --env-file-if-exists=.env.local scripts/check-database.mjs",
     "format:check": "prettier --check src scripts tests next.config.mjs playwright.config.cjs vercel.json package.json .prettierrc.json",
-    "preview": "node scripts/serve-static.mjs"
+    "preview": "next start --hostname 127.0.0.1 --port 4173",
+    "db:migrate": "node --env-file-if-exists=.env.local scripts/migrate-database.mjs",
+    "db:seed": "node --env-file-if-exists=.env.local scripts/seed-database.mjs",
+    "contracts:generate": "tsx scripts/generate-openapi.ts",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@libsql/client": "0.18.0",
     "dompurify": "3.3.1",
     "marked": "17.0.0",
     "mermaid": "11.12.0",
     "next": "16.4.3",
     "react": "19.3.1",
-    "react-dom": "19.3.1"
+    "react-dom": "19.3.1",
+    "server-only": "0.0.1",
+    "zod": "4.6.7"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",
     "@playwright/test": "1.64.1",
-    "prettier": "3.9.10"
+    "@types/node": "22.20.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
   }
 }

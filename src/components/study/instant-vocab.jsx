@@ -1,4 +1,7 @@
 'use client';
+import useStudyLibrary from '../../hooks/use-study-library';
+import SavedLessons from './saved-lessons';
+import { Status as LibraryStatus } from '../ui/primitives';
 import { useEffect, useState } from 'react';
 import { parseInstantVocabCsv, shuffleVocabReviewCards } from '../../services/csv-service';
 import useSpeech from '../../hooks/use-speech';
@@ -13,6 +16,7 @@ import {
 import IeltsPicker from './ielts-picker';
 const HEADER = 'vocabulary,hiragana,meaning_vi,example_ja,example_vi';
 export default function InstantVocab({ settings, updateSettings, active, setFocus }) {
+  const library = useStudyLibrary('instant');
   const [items, setItems] = useState([]);
   const [csv, setCsv] = useState(false);
   const [picker, setPicker] = useState(false);
@@ -21,12 +25,15 @@ export default function InstantVocab({ settings, updateSettings, active, setFocu
   useEffect(() => {
     if (!active) speech.stop();
   }, [active, speech.stop]);
-  function load(text, english = false) {
-    const parsed = parseInstantVocabCsv(text);
+  async function load(text, english = false, record = null) {
+    let parsed = record?.parsed || parseInstantVocabCsv(text);
     if (!parsed.length) throw new Error('CSV chưa có mục để học.');
+    if (record) library.restore(record);
+    else parsed = (await library.save(text, english ? 'en' : settings.language)).parsed;
     speech.stop();
     setItems(parsed);
-    if (english) updateSettings({ language: 'en' });
+    if (record) updateSettings({ language: record.language });
+    else if (english) updateSettings({ language: 'en' });
     setFocus(true);
   }
   const segments = (index) => [
@@ -43,6 +50,12 @@ export default function InstantVocab({ settings, updateSettings, active, setFocu
   ];
   return (
     <div className="study-panel">
+      <SavedLessons
+        tool={'instant'}
+        revision={library.lesson?.id}
+        onLoad={(record) => load(record.source, record.language === 'en', record)}
+      />
+      <LibraryStatus error>{library.error}</LibraryStatus>
       <div className="source-actions">
         <Button variant="primary" onClick={() => setPicker(true)}>
           ▤ Chọn bài IELTS

@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+const { test, expect } = require('./fixtures.cjs');
 const lesson =
   '# Bài học\n\nMột **ví dụ** tiếng Việt.\n\n```mermaid\nflowchart LR\n  A[Học] --> B[Nhớ]\n```\n\n```quiz\nq1 | single_choice | 1 + 1? | 1 | 2 | 2 | Hai là đúng.\nq2 | single_choice | 2 + 2? | 4 | 5 | 1 | Bốn là đúng.\n```';
 async function openMobileEditor(page, text) {
@@ -30,7 +30,7 @@ test('mobile Markdown renders Mermaid and quiz, persists source and supports dar
   await expect(page.locator('body')).toHaveClass('dark');
   await page.reload();
   await expect(page.locator('#lesson-output h1')).toHaveText('Bài học');
-  await expect(page.locator('.lesson-option input:checked')).toHaveCount(0);
+  await expect(page.locator('.lesson-option input:checked')).toHaveCount(1);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   expect(errors).toEqual([]);
 });

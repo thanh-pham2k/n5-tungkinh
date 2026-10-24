@@ -1,8 +1,12 @@
 'use client';
+import useStudyLibrary from '../../hooks/use-study-library';
+import SavedLessons from './saved-lessons';
+import { Status as LibraryStatus } from '../ui/primitives';
 import { useState } from 'react';
 import { parseWritingReviewCsv } from '../../services/csv-service';
 import { Button, CsvImport, EmptyState, MoreActions, Progress, Status } from '../ui/primitives';
 export default function WritingReview({ setFocus }) {
+  const library = useStudyLibrary('writing');
   const [items, setItems] = useState([]),
     [index, setIndex] = useState(0),
     [answers, setAnswers] = useState({}),
@@ -12,13 +16,15 @@ export default function WritingReview({ setFocus }) {
     [source, setSource] = useState('');
   const item = items[index],
     answer = answers[index] || '';
-  function load(text) {
-    const next = parseWritingReviewCsv(text);
+  async function load(text, english = true, record = null) {
+    let next = record?.parsed || parseWritingReviewCsv(text);
     if (!next.length) throw new Error('CSV chưa có đề để viết.');
+    if (record) library.restore(record);
+    else next = (await library.save(text, 'en')).parsed;
     setItems(next);
     setSource(text);
     setIndex(0);
-    setAnswers({});
+    setAnswers(record?.progress?.answers || {});
     setSample(false);
     setFeedback('');
     setFocus(true);
@@ -30,6 +36,12 @@ export default function WritingReview({ setFocus }) {
   }
   return (
     <div className="study-panel">
+      <SavedLessons
+        tool={'writing'}
+        revision={library.lesson?.id}
+        onLoad={(record) => load(record.source, record.language === 'en', record)}
+      />
+      <LibraryStatus error>{library.error}</LibraryStatus>
       <div className="source-actions">
         <Button variant="primary" onClick={() => setCsv(true)}>
           ＋ Nhập đề CSV
@@ -99,13 +111,18 @@ export default function WritingReview({ setFocus }) {
             </Button>
             <Button
               variant="primary"
-              onClick={() =>
-                setFeedback(
-                  answer.trim()
-                    ? 'Đã ghi nhận câu trả lời trong phiên học. Mở bài mẫu để tự so sánh.'
-                    : 'Vui lòng nhập câu trả lời.',
-                )
-              }
+              onClick={async () => {
+                if (!answer.trim()) {
+                  setFeedback('Vui lòng nhập câu trả lời.');
+                  return;
+                }
+                try {
+                  await library.updateProgress({ answers });
+                  setFeedback('Đã lưu câu trả lời trên Turso. Mở bài mẫu để tự so sánh.');
+                } catch (error) {
+                  setFeedback(error.message);
+                }
+              }}
             >
               Ghi nhận bài viết
             </Button>

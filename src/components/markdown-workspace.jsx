@@ -1,8 +1,14 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import useStudyLibrary from '../hooks/use-study-library';
+import SavedLessons from './study/saved-lessons';
+import { listLessons, readLesson, readCatalog } from '../services/study-library-client';
 import { Button, Status } from './ui/primitives';
 export default function MarkdownWorkspace() {
   const [error, setError] = useState('');
+  const library = useStudyLibrary('markdown');
+  const libraryRef = useRef(library);
+  libraryRef.current = library;
   useEffect(() => {
     let disposed = false,
       cleanup;
@@ -20,8 +26,34 @@ export default function MarkdownWorkspace() {
           DOMPurify: purify.default,
           mermaid: mermaid.default,
           LessonParser: parser.default || parser,
+          saveSource: (source) => libraryRef.current.save(source, 'en'),
+          loadExample: () => readCatalog('markdown-example'),
+          saveProgress: (patch) => libraryRef.current.updateProgress(patch),
         });
         document.getElementById('markdown-loading').hidden = true;
+        // One-time upgrade of the old local draft. Never delete it before DB acknowledgement.
+        let legacy;
+        try {
+          legacy = JSON.parse(localStorage.getItem('markdown-lesson-v1') || 'null')?.source;
+        } catch {}
+        const upgraded =
+          typeof legacy === 'string' && legacy.trim()
+            ? libraryRef.current.save(legacy, 'en').then(() => {
+                localStorage.removeItem('markdown-lesson-v1');
+              })
+            : Promise.resolve();
+        upgraded
+          .then(() => listLessons('markdown'))
+          .then(async ({ data }) => {
+            if (!data.length || disposed) return;
+            const record = await readLesson(data[0].id);
+            if (disposed || document.getElementById('lesson-source')?.value.trim()) return;
+            libraryRef.current.restore(record);
+            document.dispatchEvent(new CustomEvent('study-markdown-load', { detail: record }));
+          })
+          .catch((error) => {
+            if (!disposed) setError(error.message);
+          });
       })
       .catch(() => {
         if (!disposed) {
@@ -37,6 +69,14 @@ export default function MarkdownWorkspace() {
   }, []);
   return (
     <div className="markdown-page">
+      <SavedLessons
+        tool="markdown"
+        onLoad={(record) => {
+          library.restore(record);
+          document.dispatchEvent(new CustomEvent('study-markdown-load', { detail: record }));
+        }}
+      />
+      <Status error>{error || library.error}</Status>
       <header className="preview-toolbar">
         <a
           className="button"

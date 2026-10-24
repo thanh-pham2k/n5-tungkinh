@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+const { test, expect } = require('./fixtures.cjs');
 function wav() {
   const buffer = Buffer.alloc(8044);
   buffer.write('RIFF');
@@ -55,36 +55,6 @@ test('speech playback sequences real browser media, applies volume/rate and Stop
   expect(await page.evaluate(() => window.played[0])).toEqual({ rate: 1.5, volume: 0.5 });
   await page.getByRole('button', { name: '■ Dừng', exact: true }).click();
   await expect(page.getByRole('button', { name: '■ Dừng', exact: true })).toBeDisabled();
-});
-test('public audio loop advances to next real media fixture after configured repeat', async ({
-  page,
-}) => {
-  const tracks = [
-    {
-      label: 'Nhóm 1',
-      src: 'audio/one.wav',
-      items: [{ japanese: '本（ほん）', vietnamese: 'sách' }],
-    },
-    {
-      label: 'Nhóm 2',
-      src: 'audio/two.wav',
-      items: [{ japanese: '猫（ねこ）', vietnamese: 'mèo' }],
-    },
-  ];
-  await page.route('**/data/lesson-mapper.json', (route) =>
-    route.fulfill({ json: { lessons: [{ id: '1', title: 'Bài 1', tracks }] } }),
-  );
-  await page.route('**/audio/*.wav', (route) =>
-    route.fulfill({ contentType: 'audio/wav', body: wav() }),
-  );
-  await page.goto('/');
-  await navigate(page, 'Audio Looper');
-  await page.getByRole('button', { name: 'Nhóm 1', exact: true }).click();
-  await page.getByText('Tốc độ & vòng lặp', { exact: false }).click();
-  await page.getByLabel('Lặp trước khi chuyển nhóm').fill('1');
-  await page.getByRole('button', { name: '▶ Phát', exact: true }).click();
-  await expect.poll(() => page.locator('audio').getAttribute('src')).toContain('two.wav');
-  await expect(page.locator('.looper-vocabulary').first()).toContainText('mèo');
 });
 test('focused typing stays usable with reduced mobile viewport and Escape exits Focus', async ({
   page,

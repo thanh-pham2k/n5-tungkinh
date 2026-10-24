@@ -49,7 +49,7 @@ Các quiz liên tiếp (cho phép dòng trống giữa chúng) tạo thành mộ
 
 Chọn đáp án để xem phản hồi. Dùng nút Trước/Tiếp, nút số câu hoặc vuốt ngang trên điện thoại để chuyển câu. Nút **Xem kết quả** ở câu cuối cho biết điểm và câu chưa làm; có thể quay lại từng câu hoặc **Luyện lại bộ này**.
 
-Chỉ nội dung editor lưu trong localStorage của trình duyệt và tự khôi phục khi mở lại. Đáp án chỉ giữ trong phiên trang hiện tại: chuyển câu vẫn giữ lựa chọn, nhưng tải lại trang sẽ bắt đầu quiz mới. Khi chỉnh câu hỏi, lựa chọn hoặc đáp án thì đáp án cũ của câu đã sửa sẽ được xóa. Nội dung được lưu tự động khi preview cập nhật. Nếu trình duyệt chặn lưu trữ, ứng dụng báo lỗi và vẫn cho học trong phiên hiện tại.
+Nội dung editor được lưu Turso sau khi parse hợp lệ và mở lại từ Bài đã lưu; lần mở workspace tải bài chung gần nhất. Đáp án quiz lưu DB theo cookie phiên riêng. Khi chỉnh định nghĩa câu hỏi, đáp án cũ của câu đã sửa bị xóa. Nội dung Markdown local legacy được chuyển một lần lên DB rồi mới xóa; không dùng localStorage/sessionStorage làm fallback. Nếu lưu lỗi, UI báo chưa lưu để thử lại; không tuyên bố đã ghi nhận thành công.
 
 Không copy CSS/HTML của sơ đồ đã render trong ChatGPT (`#chatgpt-mermaid...`); hãy copy Markdown gốc. Marked, DOMPurify và Mermaid được pin trong package-lock.json và tải theo chunk của ứng dụng khi mở workspace. HTML Markdown được lọc qua DOMPurify và Mermaid dùng chế độ strict.
 

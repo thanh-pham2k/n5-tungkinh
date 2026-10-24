@@ -34,6 +34,7 @@
   --radius-sm: 4px;
   --shadow: 3px 3px 0 var(--line);
   --shadow-lg: 5px 5px 0 var(--line);
+  --focus-ink: #5934a6;
   --focus-ring: 3px solid #394be5;
   --tap-size: 44px;
   --content-width: 900px;

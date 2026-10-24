@@ -29,6 +29,7 @@ export default function IeltsPicker({ open, onClose, mode, onLoad }) {
   const [selected, setSelected] = useState(new Set());
   const [count, setCount] = useState(10);
   const [done, setDone] = useState(new Set());
+  const [saving, setSaving] = useState(false);
   const [loadError, setLoadError] = useState('');
   useEffect(() => {
     if (!open) return;
@@ -36,12 +37,6 @@ export default function IeltsPicker({ open, onClose, mode, onLoad }) {
     setTopic('');
     setDate(['writing', 'topic-vocab'].includes(mode) ? days[0]?.date || '' : '');
     setLoadError('');
-    try {
-      const n = Number(localStorage.getItem(`practice-random-count:${mode}`));
-      if (Number.isSafeInteger(n) && n > 0) setCount(n);
-      const ids = JSON.parse(sessionStorage.getItem(`practice-ielts-done:${mode}`) || '[]');
-      if (Array.isArray(ids)) setDone(new Set(ids));
-    } catch {}
   }, [open, mode, data]);
   const visible = entries.filter(
     (entry) => (!date || entry.date === date) && (!topic || entry.topic === topic),
@@ -52,19 +47,19 @@ export default function IeltsPicker({ open, onClose, mode, onLoad }) {
       next.has(id) ? next.delete(id) : next.add(id);
       return next;
     });
-  function start() {
+  async function start() {
     const chosen = entries.filter((entry) => selected.has(entry.id));
     if (!chosen.length) return;
+    setSaving(true);
     try {
-      onLoad([days[0].csv.split(/\r?\n/)[0], ...chosen.map((entry) => entry.row)].join('\n'));
+      await onLoad([days[0].csv.split(/\r?\n/)[0], ...chosen.map((entry) => entry.row)].join('\n'));
       const nextDone = new Set([...done, ...selected]);
       setDone(nextDone);
-      try {
-        sessionStorage.setItem(`practice-ielts-done:${mode}`, JSON.stringify([...nextDone]));
-      } catch {}
       onClose();
     } catch (e) {
       setLoadError(e.message);
+    } finally {
+      setSaving(false);
     }
   }
   return (
@@ -76,7 +71,7 @@ export default function IeltsPicker({ open, onClose, mode, onLoad }) {
       footer={
         <>
           <span className="selection-count">{selected.size} mục đã chọn</span>
-          <Button variant="primary" disabled={!selected.size} onClick={start}>
+          <Button variant="primary" disabled={!selected.size || saving} onClick={start}>
             Bắt đầu →
           </Button>
         </>
@@ -121,10 +116,6 @@ export default function IeltsPicker({ open, onClose, mode, onLoad }) {
               onChange={(e) => {
                 const value = e.target.value;
                 setCount(value);
-                if (Number.isSafeInteger(Number(value)) && Number(value) > 0)
-                  try {
-                    localStorage.setItem(`practice-random-count:${mode}`, value);
-                  } catch {}
               }}
             />
           </label>

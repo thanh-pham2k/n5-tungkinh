@@ -1,0 +1,113 @@
+.mc-progress {
+  margin-top: var(--space-4);
+  font-weight: 650;
+}
+.mc-import-header {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.mc-questions {
+  display: grid;
+  gap: var(--space-5);
+  margin-top: var(--space-5);
+}
+.mc-question {
+  min-width: 0;
+  padding: var(--space-5);
+  border: var(--border);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+.mc-question-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-4);
+}
+.mc-question-text,
+.mc-context,
+.mc-option-text,
+.mc-feedback {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.mc-question-text {
+  font-size: var(--text-lg);
+  line-height: 1.8;
+}
+.mc-context {
+  margin: 0 0 var(--space-4);
+  border-left: 3px solid var(--line);
+  padding: var(--space-3);
+  background: var(--subtle);
+}
+.mc-options {
+  display: grid;
+  gap: var(--space-3);
+  border: 0;
+  padding: 0;
+  margin: var(--space-4) 0;
+  min-width: 0;
+}
+.mc-options legend {
+  font-size: var(--text-sm);
+  color: var(--muted);
+  margin-bottom: var(--space-3);
+}
+.mc-option {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  min-height: var(--tap-size);
+  padding: var(--space-3);
+  border: var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+.mc-option input {
+  margin: 3px 0 0;
+}
+.mc-option-text {
+  min-width: 0;
+}
+.mc-option-text small {
+  display: block;
+  font-weight: 650;
+}
+.mc-option:has(input:checked) {
+  background: var(--lavender);
+}
+.mc-option.is-correct,
+.mc-option.is-correct:has(input:checked),
+.mc-feedback.is-correct {
+  background: var(--mint);
+}
+.mc-option.is-wrong,
+.mc-option.is-wrong:has(input:checked),
+.mc-feedback.is-wrong {
+  background: var(--error-bg);
+}
+.mc-feedback {
+  padding: var(--space-4);
+  border-left: 3px solid var(--line);
+}
+.mc-feedback p:last-child {
+  margin-bottom: 0;
+}
+.mc-example {
+  margin-top: var(--space-4);
+}
+.mc-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+.mc-navigation > .button {
+  flex: 0 1 auto;
+}
+.multiple-choice .more-actions {
+  margin-top: var(--space-4);
+}

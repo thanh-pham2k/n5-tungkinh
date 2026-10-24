@@ -10,10 +10,13 @@ import {
   shuffleTokensGuaranteed,
 } from '../src/services/csv-service.js';
 import { isOrderCorrect, isTypingCorrect, serializeCsv } from '../src/services/answer-service.js';
-import data from '../src/data/practice-data.js';
-import { parseHotReviewQuiz, parseAnswerCsv } from '../src/services/hot-review-service.js';
+const data = JSON.parse(
+  readFileSync(new URL('../docs/ielts/practice-data.js', import.meta.url), 'utf8')
+    .replace(/^\s*window\.IELTS_PRACTICE\s*=\s*/, '')
+    .replace(/;\s*$/, ''),
+);
 const header = 'vocabulary,hiragana,meaning_vi,example_ja,example_vi';
-test('generated module preserves every field from the canonical IELTS source', () => {
+test('migration catalogue input preserves every field from the canonical IELTS source', () => {
   const source = readFileSync(new URL('../docs/ielts/practice-data.js', import.meta.url), 'utf8');
   const canonical = JSON.parse(
     source.replace(/^\s*window\.IELTS_PRACTICE\s*=\s*/, '').replace(/;\s*$/, ''),
@@ -96,23 +99,4 @@ test('all structure exercises have five levels and serialize without breaking co
         assert.equal(parseWordOrderCsv(csv)[0].targetSentence, exercise.sentence);
       }
     }
-});
-test('Hot Review preserves numeric question ordering and positional answer import', () => {
-  const source =
-    'group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d\ng,Test,1,10,Q10,,A,B,C,D\ng,Test,1,2,Q2,,A,B,C,D';
-  const parsed = parseHotReviewQuiz(source);
-  assert.deepEqual(
-    parsed.questions.map((q) => q.questionNo),
-    ['2', '10'],
-  );
-  assert.deepEqual(
-    parsed.questions.map((q) => q.orderKey),
-    ['order-0', 'order-1'],
-  );
-  assert.throws(() => parseHotReviewQuiz('wrong\nvalues'), /header/);
-  const answers = parseAnswerCsv(
-    'correct_answer,answer_detail_vi,vocab_kanji,grammar\nA,Correct,本（ほん）= sách,です\nb,Second,,',
-  );
-  assert.equal(answers[0].correctAnswer, 'A');
-  assert.equal(answers[1].correctAnswer, 'B');
 });

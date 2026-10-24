@@ -1,5 +1,7 @@
 # IELTS Speaking — ghi chú tích hợp
 
+Cập nhật 2026-10-24: nội dung runtime đã chuyển vào catalog Turso; docs/ielts/ chỉ còn là đầu vào import/test, không được bundle hoặc đọc từ request. Sau sync nguồn, cần cập nhật catalog DB bằng quy trình vận hành trong docs/database.md; build không tự chuyển dữ liệu.
+
 Bổ sung ngày 2026-10-11 theo yêu cầu của người dùng. Nội dung nguồn thuộc repo `thanh-pham2k/road-2-ielts`.
 
 Mapping:

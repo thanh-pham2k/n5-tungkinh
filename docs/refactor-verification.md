@@ -2,6 +2,23 @@ TL;DR Đã chuyển UI sang Next.js + Neobrutalism mobile first; các kiểm ch�
 
 # Báo cáo kiểm chứng refactor — 2026-10-24
 
+## Cập nhật thư viện Turso dùng chung
+
+- Nội dung runtime chuyển hoàn toàn sang Turso; không import src/data/practice-data.js, không lưu nội dung vào localStorage/sessionStorage. Có migration một lần cho Markdown legacy, chỉ xóa bản local sau DB acknowledgement.
+- Đã áp dụng schema + ledger/checksum Liquibase 4.33.0 trên DB được cấp, xác nhận reapply không đổi. Đã nhập và đối chiếu hash catalog gồm 6 nhóm IELTS cùng ví dụ Markdown/Word Order.
+- Đã smoke test qua Next.js API nối **Turso thật**: lưu bài IELTS đầu tiên (10 mục), retry cùng request không tăng lượt, phiên khác mở lại đúng source. Bài IELTS thật được giữ trong thư viện; bộ test khác chỉ dùng SQLite fixture riêng.
+- 24 unit/contract/repository test pass; strict TypeScript, format và production build pass. Kiểm chứng transaction rollback, record khi parse hợp lệ, không nhân bản nội dung, cursor, progress conflict và cô lập phiên. Browser kiểm tra lưu/mở lại trên từng công cụ, thư viện chung, lỗi lưu không đóng dialog, migration legacy và responsive.
+- Local và Vercel đều cần Next.js server runtime. Các ghi chú static export, Hot Review hoặc Audio Looper bên dưới là mốc lịch sử, không còn mô tả runtime hiện tại. Chưa deploy thay đổi này lên Vercel hoặc kiểm thử thiết bị thật.
+
+## Cập nhật Multiple Choice
+
+- Cập nhật tiếp theo: Audio Looper đã được bỏ theo yêu cầu; mô tả và test Looper ở mốc lịch sử bên dưới không còn áp dụng. Build không lập danh mục/copy MP3. Test phát âm của các công cụ học vẫn giữ.
+
+- Multiple Choice thay Hot Review theo yêu cầu mới; định dạng dấu | chứa đáp án 1–4 trong cùng bộ bài. Các mô tả Hot Review bên dưới là mốc lịch sử của đợt refactor ban đầu, đã được thay bằng [contract mới](MULTIPLE_CHOICE.md).
+- Unit/contract hiện có 20 test pass, bao gồm parser dấu |, multiline/escaped quotes, báo lỗi theo dòng, đáp án sai định dạng và ID ôn sau khi đổi thứ tự câu.
+- Browser đã kiểm chứng chấm đúng/sai, khóa đáp án, context/giải thích/ví dụ, luyện lại câu sai, ôn sau sau reload, giữ ID legacy, copy, số câu/trang, nhập lỗi không làm mất tiến độ, nội dung HTML không chạy và reset/xóa bộ. Hai test mới kiểm tra accessibility và nội dung dài tại 360/430/1280px.
+- Build production local và format pass. Viền focus của ô nhập dùng tím đậm theo yêu cầu; giữ focus cho bàn phím và forced colors. Chưa deploy hoặc kiểm thử trên thiết bị thật cho thay đổi này.
+
 ## Kết quả tổng thể
 
 - `npm test`: **15/15 pass**. Bao gồm parser Markdown/quiz cũ đã chuyển vị trí, CSV, chuẩn hóa đáp án, toàn bộ bộ IELTS và các bộ 5 bài Structures.

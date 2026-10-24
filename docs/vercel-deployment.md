@@ -12,7 +12,7 @@ TL;DR Import repo vào Vercel, chọn Next.js và thêm hai biến Turso phía s
 - Output Directory: .next (đã khai báo trong vercel.json).
 - Không dùng Vite preset hoặc output dist cho repo này.
 
-Vercel cung cấp biến hệ thống VERCEL=1; next.config.mjs dùng chế độ server khi biến này có giá trị 1. Các trang hiện tại vẫn có thể được prerender, còn runtime server sẵn sàng cho tính năng DB được triển khai sau. Local mặc định giữ static export out/.
+Cả Vercel và local đều dùng Next.js server runtime cho API Turso; không bật static export out/. Schema/catalog của DB đã cấp đã được migration/seed riêng theo [database.md](database.md). Không chạy migration hoặc seed trong build. Các trang vỏ vẫn có thể prerender; nội dung học tải từ Turso ở runtime.
 
 ## Biến môi trường
 
@@ -48,7 +48,7 @@ npm run build
 Remove-Item Env:VERCEL
 ```
 
-Lệnh db:check chỉ SELECT 1 rồi đóng kết nối; không tạo bảng, migration hoặc thay đổi dữ liệu. UI hiện tại vẫn dùng CSV/bộ bài có sẵn, chưa lưu tiến độ hoặc nội dung học lên Turso. Cấu hình môi trường không đồng nghĩa tính năng DB đã được triển khai.
+Lệnh db:check chỉ SELECT 1. Tính năng học hiện đã dùng API đọc/ghi Turso: catalog, bài nhập hợp lệ, record học và tiến độ theo phiên. DB đã cấp đã được migration/seed riêng; không cần đưa file nội dung vào Vercel để runtime đọc.
 
 Sau khi thêm biến môi trường, deploy bằng giao diện Vercel. Khi đổi biến, redeploy để deployment mới nhận giá trị. Kiểm tra trang chính, /markdown/, chọn bài, audio và log runtime phù hợp. Phiên chuẩn bị cấu hình này không tự publish hoặc thay đổi tài khoản Vercel.
 
@@ -59,6 +59,6 @@ Nguồn: [Vercel project configuration](https://vercel.com/docs/project-configur
 ## Kiểm chứng cấu hình local
 
 - npm run db:check: kết nối Turso thành công bằng SELECT 1; không thay đổi schema hoặc dữ liệu.
-- npm test: 17 test pass, có kiểm tra hai chế độ Next.js và việc bỏ qua credential.
+- npm test gồm parser/contract và transaction repository; kiểm tra rollback, idempotency, phân trang và cô lập tiến độ. Số test hiện tại xem refactor-verification.md.
 - Build với VERCEL=1 thành công; chạy bằng next start và smoke test chọn/nạp IELTS cùng /markdown/ không có pageerror. Đây là kiểm chứng Next.js local, chưa phải deploy Vercel cloud.
-- Quét 244 file source và 177 file artifact public tại thời điểm kiểm tra: không có token trong source được Git nhận hoặc bundle public. .env.local không được Git theo dõi.
+- Đã quét lại source được Git nhận và client bundle: không có token Turso. .env.local không được Git theo dõi.

@@ -1,21 +1,43 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import useStudyLibrary from '../../hooks/use-study-library';
+import SavedLessons from './saved-lessons';
 import usePracticeData from '../../hooks/use-practice-data';
 import { Button, EmptyState, RubyText, Status } from '../ui/primitives';
 export function SentenceStructures({ onPractice, active }) {
+  const library = useStudyLibrary('structures');
+  const [restored, setRestored] = useState(null),
+    [practiceError, setPracticeError] = useState('');
   const { data, error } = usePracticeData(active);
   const [index, setIndex] = useState(0);
   const topics = data?.structures || [],
-    topic = topics[index];
+    topic = restored || topics[index];
+  useEffect(() => {
+    if (active && topic && !restored) library.save(JSON.stringify(topic), 'en').catch(() => {});
+  }, [active, topic, restored]);
   return (
     <div className="study-panel">
+      <SavedLessons
+        tool="structures"
+        onLoad={(record) => {
+          library.restore(record);
+          setRestored(record.parsed);
+        }}
+      />
+      <Status error>{library.error || practiceError}</Status>
       <p className="intro">
         Mẫu câu dùng lại được. Đọc một mẫu, rồi luyện 5 câu của riêng chủ đề đó.
       </p>
       <Status error>{error}</Status>
       <label className="field">
         Chủ đề
-        <select value={index} onChange={(e) => setIndex(Number(e.target.value))}>
+        <select
+          value={index}
+          onChange={(e) => {
+            setRestored(null);
+            setIndex(Number(e.target.value));
+          }}
+        >
           {topics.map((topic, index) => (
             <option key={index} value={index}>
               {topic.topic}
@@ -34,7 +56,14 @@ export function SentenceStructures({ onPractice, active }) {
             <Button
               variant="primary"
               disabled={item.exercises?.length !== 5}
-              onClick={() => onPractice(item.exercises)}
+              onClick={async () => {
+                try {
+                  await onPractice(item.exercises);
+                  setPracticeError('');
+                } catch (error) {
+                  setPracticeError(error.message);
+                }
+              }}
             >
               Luyện 5 câu →
             </Button>
@@ -52,15 +81,28 @@ export function SentenceStructures({ onPractice, active }) {
   );
 }
 export function SpeakingQuestions({ active }) {
+  const library = useStudyLibrary('speaking');
+  const [restored, setRestored] = useState(null);
   const { data, error } = usePracticeData(active);
   const [index, setIndex] = useState(0),
     [part, setPart] = useState('');
   const topics = data?.speaking || [],
-    topic = topics[index],
+    topic = restored || topics[index],
     questions =
       topic?.questions.filter((question) => !part || String(question.part) === part) || [];
+  useEffect(() => {
+    if (active && topic && !restored) library.save(JSON.stringify(topic), 'en').catch(() => {});
+  }, [active, topic, restored]);
   return (
     <div className="study-panel">
+      <SavedLessons
+        tool="speaking"
+        onLoad={(record) => {
+          library.restore(record);
+          setRestored(record.parsed);
+        }}
+      />
+      <Status error>{library.error}</Status>
       <p className="intro">
         Chọn một chủ đề và luyện nói thành tiếng. Bộ câu hỏi tự biên soạn để luyện tập.
       </p>
@@ -68,7 +110,13 @@ export function SpeakingQuestions({ active }) {
       <div className="filter-grid">
         <label className="field">
           Chủ đề · ngày học
-          <select value={index} onChange={(e) => setIndex(Number(e.target.value))}>
+          <select
+            value={index}
+            onChange={(e) => {
+              setRestored(null);
+              setIndex(Number(e.target.value));
+            }}
+          >
             {topics.map((topic, index) => (
               <option value={index} key={index}>
                 {topic.date} · {topic.topic}

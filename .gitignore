@@ -25,3 +25,5 @@ output/_silence/
 .env*
 !.env.example
 /.vercel/
+/.migration-artifacts/
+*.tsbuildinfo

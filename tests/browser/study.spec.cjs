@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+const { test, expect } = require('./fixtures.cjs');
 const errors = new WeakMap();
 async function navigate(page, name) {
   const exit = page.getByRole('button', { name: '× Thoát Focus', exact: true });
@@ -14,6 +14,7 @@ async function importCsv(page, text, openName = '＋ Nhập CSV') {
   const dialog = page.getByRole('dialog');
   await dialog.getByRole('textbox', { name: 'Nội dung CSV' }).fill(text);
   await dialog.getByRole('button', { name: 'Nạp dữ liệu' }).click();
+  await expect(dialog).not.toBeVisible();
 }
 const header = 'vocabulary,hiragana,meaning_vi,example_ja,example_vi';
 const csv = `${header}\nHello,,Xin chào,Hello world.,Xin chào thế giới.\ncat,,mèo,This is a cat.,Đây là mèo.`;
@@ -118,68 +119,42 @@ test('Writing imports actual contract, records answers and reveals sample', asyn
   );
   await page.getByRole('textbox', { name: 'Câu trả lời của bạn' }).fill('Yes we can.');
   await page.getByRole('button', { name: 'Ghi nhận bài viết' }).click();
-  await expect(
-    page.getByText('Đã ghi nhận câu trả lời trong phiên học.', { exact: false }),
-  ).toBeVisible();
+  await expect(page.getByText('Đã lưu câu trả lời trên Turso.', { exact: false })).toBeVisible();
   await page.getByRole('button', { name: 'Xem bài mẫu', exact: true }).click();
   await expect(page.locator('.answer-sample')).toContainText('Yes we can meet tomorrow.');
 });
-test('Hot Review imports questions, imports answer, marks Later and paginates', async ({
+test('Multiple Choice grades wrong answers, reveals context/examples, paginates and retries', async ({
   page,
 }) => {
-  await navigate(page, 'Hot Review');
+  await navigate(page, 'Multiple Choice');
   await page.getByRole('button', { name: 'Nhập dữ liệu', exact: true }).click();
-  await page
-    .locator('#hot-review-input')
-    .fill(
-      'group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d\ng,Ôn nhanh,Bài 1,1,私（わたし）は学生です。,Tôi là học sinh.,A1,B1,C1,D1\ng,Ôn nhanh,Bài 1,2,日本語を勉強します。,Tôi học tiếng Nhật.,A2,B2,C2,D2',
-    );
-  await page.getByRole('button', { name: 'Tạo bài', exact: true }).click();
-  await expect(page.locator('.quiz-option')).toHaveCount(4);
-  await page.locator('.quiz-option input').first().check();
-  await page.locator('.hot-review-star').click();
-  await page.getByText('Dữ liệu & tùy chọn ôn tập', { exact: true }).click();
-  await page.getByRole('button', { name: 'Nhập answer', exact: true }).click();
-  await page
-    .locator('#answer-import-input')
-    .fill(
-      'correct_answer,answer_detail_vi,vocab_kanji,grammar\nA,学生です = là học sinh,学生（がくせい）= học sinh,です là trợ động từ\nB,勉強します = học,勉強（べんきょう）= học,を đánh dấu tân ngữ',
-    );
-  await page.getByRole('button', { name: 'Áp dụng', exact: true }).click();
-  await expect(page.locator('.hot-review-answer-panel')).toContainText('học sinh');
-  await page.getByRole('button', { name: 'Next', exact: true }).click();
-  await expect(page.locator('.quiz-jp')).toContainText('日本語');
+  const input = page.getByRole('textbox', { name: 'Nội dung Multiple Choice' });
+  await input.fill(
+    'question|option_1|option_2|option_3|option_4|correct_answer|explanation|context|example|example_meaning\n学生の読み方は？|がくせい|がっこう|せんせい|かいしゃ|1|学生 đọc là がくせい。|Chọn cách đọc đúng.|私は学生です。|Tôi là học sinh.\n猫です。|本|猫|犬|鳥|2|猫 là mèo。|||',
+  );
+  await page.getByRole('button', { name: 'Nạp dữ liệu', exact: true }).click();
+  await expect(page.locator('.mc-context')).toContainText('Chọn cách đọc đúng.');
+  await expect(page.locator('.mc-feedback')).toHaveCount(0);
+  await expect(page.getByRole('button', { name: 'Kiểm tra câu 1', exact: true })).toBeDisabled();
+  await page.locator('.mc-option input').nth(1).check();
+  await page.getByRole('button', { name: 'Kiểm tra câu 1', exact: true }).click();
+  await expect(page.locator('.mc-feedback')).toContainText('Chưa đúng. Đáp án đúng: 1.');
+  await expect(page.locator('.mc-feedback')).toContainText('Tôi là học sinh.');
+  await expect(page.locator('.mc-option input').first()).toBeDisabled();
+  await page.getByRole('button', { name: 'Tiếp →', exact: true }).click();
+  await page.locator('.mc-option input').nth(1).check();
+  await page.getByRole('button', { name: 'Kiểm tra câu 2', exact: true }).click();
+  await expect(page.locator('.mc-progress')).toContainText('Đúng 1 · Sai 1');
+  await page.getByText('Tùy chọn ôn tập', { exact: false }).click();
+  await page.getByRole('button', { name: 'Làm lại câu sai (1)', exact: true }).click();
+  await expect(page.locator('.mc-question-text')).toContainText('学生');
+  await expect(page.locator('.mc-feedback')).toHaveCount(0);
+  await page.locator('.mc-option input').first().check();
+  await page.getByRole('button', { name: 'Kiểm tra câu 1', exact: true }).click();
+  await expect(page.locator('.mc-feedback')).toContainText('Chính xác!');
+  await expect(page.locator('.mc-progress')).toContainText('Đúng 2 · Sai 0');
 });
-test('Audio Looper reads a local file and reports genuinely missing public assets', async ({
-  page,
-}) => {
-  await navigate(page, 'Audio Looper');
-  await expect(
-    page.getByText('Checkout hiện chưa có file audio public.', { exact: false }),
-  ).toBeVisible();
-  const wav = Buffer.alloc(16044);
-  wav.write('RIFF');
-  wav.writeUInt32LE(16036, 4);
-  wav.write('WAVEfmt ', 8);
-  wav.writeUInt32LE(16, 16);
-  wav.writeUInt16LE(1, 20);
-  wav.writeUInt16LE(1, 22);
-  wav.writeUInt32LE(8000, 24);
-  wav.writeUInt32LE(16000, 28);
-  wav.writeUInt16LE(2, 32);
-  wav.writeUInt16LE(16, 34);
-  wav.write('data', 36);
-  wav.writeUInt32LE(16000, 40);
-  await page
-    .getByLabel('Audio trên thiết bị')
-    .setInputFiles({ name: 'test.wav', mimeType: 'audio/wav', buffer: wav });
-  await page.getByRole('button', { name: '▶ Phát', exact: true }).click();
-  await expect
-    .poll(() => page.locator('audio').evaluate((audio) => audio.currentTime))
-    .toBeGreaterThan(0);
-  await page.getByRole('button', { name: 'Ⅱ Tạm dừng', exact: true }).click();
-  await expect(page.locator('audio')).toHaveJSProperty('paused', true);
-});
+
 for (const width of [360, 430, 1280])
   test(`all tool shells fit ${width}px with correct headings`, async ({ page }) => {
     await page.setViewportSize({ width, height: 844 });
@@ -191,8 +166,7 @@ for (const width of [360, 430, 1280])
       'Sentence Structures',
       'Speaking Questions',
       'Writing Review',
-      'Hot Review',
-      'Audio Looper',
+      'Multiple Choice',
     ]) {
       await navigate(page, name);
       await expect(page.locator('h1')).toContainText(name);

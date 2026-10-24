@@ -1,49 +1,27 @@
-export function initializeMarkdown({ marked, DOMPurify, mermaid, LessonParser }) {
+export function initializeMarkdown({
+  marked,
+  DOMPurify,
+  mermaid,
+  LessonParser,
+  saveSource,
+  loadExample,
+  saveProgress,
+}) {
   const lifetime = new AbortController();
   const listen = (target, event, handler, options = {}) =>
     target.addEventListener(event, handler, { ...options, signal: lifetime.signal });
   const source = document.getElementById('lesson-source');
   const output = document.getElementById('lesson-output');
   const status = document.getElementById('lesson-status');
-  const storageKey = 'markdown-lesson-v1';
   let answers = Object.create(null),
     revision = 0;
-  const sample = `## Git Branch
 
-Branch là một **reference trỏ tới commit**. Tạo branch không copy source code.
-
-\`\`\`mermaid
-flowchart LR
-  MAIN[main] --> C3[Commit C3]
-  FEATURE[feature] --> C3
-\`\`\`
-
-\`\`\`bash
-git branch feature
-\`\`\`
-
-\`\`\`quiz
-git-branch-01 | single_choice | Khi chạy \`git branch feature\`, điều gì xảy ra? | Copy toàn bộ source code | Copy toàn bộ commit history | Tạo reference mới trỏ tới current commit | Tạo Tree mới | 3 | Branch chỉ là một reference trỏ tới commit.
-git-branch-02 | single_choice | Vì sao tạo branch rất nhanh? | Vì Git chỉ chạy trong RAM | Vì branch chỉ là một pointer nhỏ | Vì Git bỏ qua commit history | Vì Git không dùng object store | 2 | Git không cần copy Blob, Tree hay Commit khi tạo branch.
-git-branch-03 | single_choice | Nếu \`main → C2\`, sau khi tạo branch \`feature\` thì trạng thái nào đúng? | \`main → C2\`, \`feature → C2\` | \`main → C2\`, \`feature → C3\` | \`main → feature → C2\` | \`feature\` chưa trỏ tới commit nào | 1 | Branch mới mặc định trỏ tới commit hiện tại.
-\`\`\`
-
-### Tiếp tục học
-Bạn có thể quay lại câu trước; lựa chọn vẫn được giữ nguyên.
-`;
   const el = (tag, text, className) => {
     const node = document.createElement(tag);
     if (text !== undefined) node.textContent = text;
     if (className) node.className = className;
     return node;
   };
-  function save() {
-    try {
-      localStorage.setItem(storageKey, JSON.stringify({ source: source.value }));
-    } catch {
-      status.textContent = 'Không lưu được trên trình duyệt. Bạn vẫn có thể học trong phiên này.';
-    }
-  }
   function button(label, action, disabled = false) {
     const node = el('button', label);
     node.type = 'button';
@@ -93,7 +71,9 @@ Bạn có thể quay lại câu trước; lựa chọn vẫn được giữ nguy
             quizzes.forEach((q) => delete answers[q.id]);
             current = 0;
             review = false;
-            save();
+            saveProgress({ markdownAnswers: { ...answers } }).catch((error) => {
+              status.textContent = error.message;
+            });
             draw(true);
           }),
         );
@@ -116,7 +96,9 @@ Bạn có thể quay lại câu trước; lựa chọn vẫn được giữ nguy
           radio.checked = answers[q.id] === index;
           radio.addEventListener('change', () => {
             answers[q.id] = index;
-            save();
+            saveProgress({ markdownAnswers: { ...answers } }).catch((error) => {
+              status.textContent = error.message;
+            });
             draw();
             container.querySelectorAll('input')[index].focus();
           });
@@ -198,7 +180,7 @@ Bạn có thể quay lại câu trước; lựa chọn vẫn được giữ nguy
     draw();
     return container;
   }
-  async function render() {
+  async function render(persist = true) {
     const run = ++revision;
     output.replaceChildren();
     status.textContent = '';
@@ -242,7 +224,14 @@ Bạn có thể quay lại câu trước; lựa chọn vẫn được giữ nguy
         output.append(section);
       }
     }
-    save();
+    if (persist && source.value.trim() && !blocks.some((block) => block.type === 'error')) {
+      try {
+        await saveSource(source.value);
+        if (run === revision) status.textContent = 'Đã lưu nội dung trên Turso.';
+      } catch (error) {
+        if (run === revision) status.textContent = error.message;
+      }
+    }
     if (mermaid)
       mermaid.initialize({
         startOnLoad: false,
@@ -369,9 +358,13 @@ Bạn có thể quay lại câu trước; lựa chọn vẫn được giữ nguy
     clearTimeout(timer);
     timer = setTimeout(render, 300);
   });
-  listen(document.getElementById('lesson-example'), 'click', () => {
-    source.value = sample;
-    render();
+  listen(document.getElementById('lesson-example'), 'click', async () => {
+    try {
+      source.value = await loadExample();
+      render();
+    } catch (error) {
+      status.textContent = error.message;
+    }
   });
   const file = document.getElementById('lesson-file');
   listen(document.getElementById('lesson-open'), 'click', () => file.click());
@@ -438,21 +431,19 @@ Bạn có thể quay lại câu trước; lựa chọn vẫn được giữ nguy
     assignedScroll.delete(source);
     assignedScroll.delete(preview);
   });
-  try {
-    const saved = JSON.parse(localStorage.getItem(storageKey));
-    if (saved && typeof saved.source === 'string') {
-      source.value = saved.source;
-      LessonParser.parse(source.value)
-        .filter((b) => b.type === 'deck')
-        .flatMap((b) => b.quizzes)
-        .forEach((q) => {
-          definitions[q.id] = JSON.stringify(q);
-        });
-    }
-  } catch {
-    status.textContent = 'Chưa thể khôi phục bài đã lưu. Bạn có thể dán bài mới.';
-  }
-  render();
+  listen(document, 'study-markdown-load', (event) => {
+    source.value = event.detail.source;
+    answers = event.detail.progress?.markdownAnswers || Object.create(null);
+    definitions = Object.create(null);
+    LessonParser.parse(source.value)
+      .filter((block) => block.type === 'deck')
+      .flatMap((block) => block.quizzes)
+      .forEach((quiz) => {
+        definitions[quiz.id] = JSON.stringify(quiz);
+      });
+    render(false);
+  });
+  render(false);
   return () => {
     lifetime.abort();
     ++revision;

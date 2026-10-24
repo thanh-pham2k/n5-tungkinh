@@ -1,0 +1,2 @@
+vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order
+私,わたし,Tôi,私（わたし）は学生（がくせい）です。,Tôi là học sinh.,私|は|学生|です

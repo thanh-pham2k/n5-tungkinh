@@ -6,8 +6,9 @@ import VocabReview from './study/vocab-review';
 import WordOrder from './study/word-order';
 import { SentenceStructures, SpeakingQuestions } from './study/reference-panels';
 import WritingReview from './study/writing-review';
-import HotReview from './study/hot-review';
-import AudioLooper from './study/audio-looper';
+import MultipleChoice from './study/multiple-choice';
+import { createLesson } from '../services/study-library-client';
+import { serializeCsv } from '../services/answer-service';
 
 export const TOOLS = Object.freeze([
   {
@@ -61,17 +62,10 @@ export const TOOLS = Object.freeze([
   },
   {
     id: 'hot',
-    name: 'Hot Review',
+    name: 'Multiple Choice',
     description: 'Ôn nhanh bằng câu hỏi trắc nghiệm.',
     group: 'Ôn tập',
     icon: '✳',
-  },
-  {
-    id: 'audio',
-    name: 'Audio Looper',
-    description: 'Nghe thêm một lần, nhớ thêm một chút.',
-    group: 'Công cụ',
-    icon: '♫',
   },
 ]);
 const DEFAULT_SETTINGS = {
@@ -122,16 +116,25 @@ export default function StudyApp() {
     window.scrollTo({ top: 0, behavior: 'instant' });
   }
   const props = { settings, updateSettings, setFocus };
-  function practice(exercises) {
-    const next = exercises.map((exercise) => ({
-      tokens: exercise.chunks,
-      targetSentence: exercise.sentence,
-      exampleJa: exercise.sentence,
-      exampleVi: exercise.meaning,
-      prompt: exercise.meaning,
-      structureLevel: exercise.level,
-    }));
-    setExerciseSet(next);
+  async function practice(exercises) {
+    const source = serializeCsv([
+      ['vocabulary', 'hiragana', 'meaning_vi', 'example_ja', 'example_vi', 'word_order'],
+      ...exercises.map((exercise) => [
+        exercise.sentence,
+        '',
+        exercise.meaning,
+        exercise.sentence,
+        exercise.meaning,
+        exercise.chunks.join('|'),
+      ]),
+    ]);
+    const record = await createLesson({
+      tool: 'order',
+      source,
+      language: 'en',
+      requestId: crypto.randomUUID(),
+    });
+    setExerciseSet(record);
     updateSettings({ language: 'en' });
     setTool('order');
     setFocus(true);
@@ -259,13 +262,10 @@ export default function StudyApp() {
           <section
             className={`tab-panel ${tool === 'hot' ? 'active' : ''}`}
             hidden={tool !== 'hot'}
-            aria-label="Hot Review"
-            id="hot-review-panel"
+            aria-label="Multiple Choice"
+            id="multiple-choice-panel"
           >
-            <HotReview {...props} active={tool === 'hot'} />
-          </section>
-          <section hidden={tool !== 'audio'} aria-label="Audio Looper">
-            <AudioLooper {...props} active={tool === 'audio'} />
+            <MultipleChoice {...props} active={tool === 'hot'} />
           </section>
         </main>
         <footer className="app-footer">

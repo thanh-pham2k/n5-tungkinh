@@ -1,4 +1,7 @@
 'use client';
+import useStudyLibrary from '../../hooks/use-study-library';
+import SavedLessons from './saved-lessons';
+import { Status as LibraryStatus } from '../ui/primitives';
 import { useEffect, useRef, useState } from 'react';
 import {
   parseWordOrderCsv,
@@ -19,7 +22,7 @@ import {
 } from '../ui/primitives';
 import IeltsPicker from './ielts-picker';
 const HEADER = 'vocabulary,hiragana,meaning_vi,example_ja,example_vi,word_order';
-const EXAMPLE = `${HEADER}\n私,わたし,Tôi,私（わたし）は学生（がくせい）です。,Tôi là học sinh.,私|は|学生|です`;
+
 export default function WordOrder({
   typing,
   settings,
@@ -28,6 +31,7 @@ export default function WordOrder({
   setFocus,
   exerciseSet,
 }) {
+  const library = useStudyLibrary(typing ? 'typing' : 'order');
   const [items, setItems] = useState([]),
     [index, setIndex] = useState(0),
     [bank, setBank] = useState([]),
@@ -51,20 +55,24 @@ export default function WordOrder({
     setSample(false);
     setHintCollapsed(false);
   }
-  function load(text, english = false) {
-    const next = parseWordOrderCsv(text);
+  async function load(text, english = false, record = null) {
+    let next = record?.parsed || parseWordOrderCsv(text);
     if (!next.length) throw new Error('CSV chưa có câu để học.');
+    if (record) library.restore(record);
+    else next = (await library.save(text, english ? 'en' : settings.language)).parsed;
     setItems(next);
     setIndex(0);
     reset(next[0]);
-    if (english) updateSettings({ language: 'en' });
+    if (record) updateSettings({ language: record.language });
+    else if (english) updateSettings({ language: 'en' });
     setFocus(true);
   }
   useEffect(() => {
     if (exerciseSet) {
-      setItems(exerciseSet);
+      library.restore(exerciseSet);
+      setItems(exerciseSet.parsed);
       setIndex(0);
-      reset(exerciseSet[0]);
+      reset(exerciseSet.parsed[0]);
     }
   }, [exerciseSet]);
   useEffect(() => {
@@ -130,6 +138,12 @@ export default function WordOrder({
   });
   return (
     <div className="study-panel">
+      <SavedLessons
+        tool={typing ? 'typing' : 'order'}
+        revision={library.lesson?.id}
+        onLoad={(record) => load(record.source, record.language === 'en', record)}
+      />
+      <LibraryStatus error>{library.error}</LibraryStatus>
       <div className="source-actions">
         <Button variant="primary" onClick={() => setPicker('word-order')}>
           ▤ Chọn bài IELTS
@@ -349,7 +363,7 @@ export default function WordOrder({
         onClose={() => setCsv(false)}
         title={`Nhập CSV · ${typing ? 'Typing' : 'Word Order'}`}
         header={HEADER}
-        example={EXAMPLE}
+        exampleKey="word-order-example"
         onLoad={load}
       />
       <IeltsPicker

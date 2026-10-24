@@ -1,10 +1,12 @@
 import { chromium } from '@playwright/test';
 import { mkdir } from 'node:fs/promises';
-import data from '../src/data/practice-data.js';
 const directory = 'test-results/preview';
 await mkdir(directory, { recursive: true });
 const browser = await chromium.launch({ channel: 'msedge', headless: true });
 const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
+const data = (
+  await (await page.request.get('http://127.0.0.1:4173/api/v1/study-catalog/ielts')).json()
+).data;
 await page.route('https://api.soundoftext.com/**', (route) =>
   route.fulfill({ status: 503, body: 'Audio paused for screenshots' }),
 );
@@ -48,8 +50,8 @@ await screenshot('structures-mobile');
 await navigate('Speaking Questions');
 await page.getByLabel('Phần thi').selectOption('2');
 await screenshot('speaking-mobile');
-await navigate('Audio Looper');
-await screenshot('audio-mobile');
+await navigate('Multiple Choice');
+await screenshot('multiple-choice-mobile');
 await page.setViewportSize({ width: 1280, height: 900 });
 await navigate('Instant Vocab');
 await screenshot('instant-desktop');

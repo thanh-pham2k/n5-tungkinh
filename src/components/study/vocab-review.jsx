@@ -1,4 +1,7 @@
 'use client';
+import useStudyLibrary from '../../hooks/use-study-library';
+import SavedLessons from './saved-lessons';
+import { Status as LibraryStatus } from '../ui/primitives';
 import { useEffect, useState } from 'react';
 import { parseVocabReviewCsv, shuffleVocabReviewCards } from '../../services/csv-service';
 import useSpeech from '../../hooks/use-speech';
@@ -14,6 +17,7 @@ import {
 } from '../ui/primitives';
 import IeltsPicker from './ielts-picker';
 export default function VocabReview({ settings, updateSettings, active, setFocus }) {
+  const library = useStudyLibrary('cards');
   const [cards, setCards] = useState([]),
     [queue, setQueue] = useState([]),
     [index, setIndex] = useState(0),
@@ -43,9 +47,14 @@ export default function VocabReview({ settings, updateSettings, active, setFocus
     }
     if (card && !flipped) play();
   }, [active, card, flipped, autoplay, settings.language]);
-  function load(text, english = false) {
-    const next = parseVocabReviewCsv(text).map((item, id) => ({ ...item, id }));
+  async function load(text, english = false, record = null) {
+    let next = (record?.parsed || parseVocabReviewCsv(text)).map((item, id) => ({ ...item, id }));
     if (!next.length) throw new Error('CSV chưa có thẻ để học.');
+    if (record) library.restore(record);
+    else
+      next = (await library.save(text, english ? 'en' : settings.language)).parsed.map(
+        (item, id) => ({ ...item, id }),
+      );
     setCards(next);
     setQueue(next);
     setIndex(0);
@@ -53,7 +62,8 @@ export default function VocabReview({ settings, updateSettings, active, setFocus
     setLater(new Set());
     setMode('all');
     speech.stop();
-    if (english) updateSettings({ language: 'en' });
+    if (record) updateSettings({ language: record.language });
+    else if (english) updateSettings({ language: 'en' });
     setFocus(true);
   }
   const restart = (next, nextMode = 'all') => {
@@ -113,6 +123,12 @@ export default function VocabReview({ settings, updateSettings, active, setFocus
   );
   return (
     <div className="study-panel">
+      <SavedLessons
+        tool={'cards'}
+        revision={library.lesson?.id}
+        onLoad={(record) => load(record.source, record.language === 'en', record)}
+      />
+      <LibraryStatus error>{library.error}</LibraryStatus>
       <div className="source-actions">
         <Button variant="primary" onClick={() => setPicker(true)}>
           ▤ Từ vựng IELTS

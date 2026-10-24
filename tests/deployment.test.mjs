@@ -16,9 +16,9 @@ function readNextConfig(vercel) {
   assert.equal(result.status, 0);
   return JSON.parse(result.stdout);
 }
-test('Vercel uses the Next.js server build; local preview keeps static export', () => {
+test('Vercel and local preview use the Next.js server runtime for Turso APIs', () => {
   assert.equal(readNextConfig('1').output, undefined);
-  assert.equal(readNextConfig('').output, 'export');
+  assert.equal(readNextConfig('').output, undefined);
   const config = JSON.parse(readFileSync(new URL('../vercel.json', import.meta.url), 'utf8'));
   assert.equal(config.framework, 'nextjs');
   assert.equal(config.outputDirectory, '.next');

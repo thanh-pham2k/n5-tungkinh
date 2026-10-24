@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+const { test, expect } = require('./fixtures.cjs');
 async function navigate(page, name) {
   const exit = page.getByRole('button', { name: '× Thoát Focus', exact: true });
   if (await exit.isVisible()) await exit.click();
@@ -34,40 +34,60 @@ test('flashcards preserve hide-reading, shuffle, previous and restart actions', 
   await page.getByRole('button', { name: 'Học lại từ đầu', exact: true }).click();
   await expect(page.locator('.flashcard').first()).toContainText('本');
 });
-const hotCsv =
-  'group_id,group_title,lesson,question_no,question_jp,meaning_vi,option_a,option_b,option_c,option_d\npersist,Ôn nhanh,Bài 1,1,本です。,Là sách.,本,猫,犬,鳥\npersist,Ôn nhanh,Bài 1,2,猫です。,Là mèo.,本,猫,犬,鳥';
-async function loadHot(page) {
-  await navigate(page, 'Hot Review');
+const choiceText =
+  'question|option_1|option_2|option_3|option_4|correct_answer\n本です。|本|猫|犬|鳥|1\n猫です。|本|猫|犬|鳥|2';
+async function loadChoices(page) {
+  await navigate(page, 'Multiple Choice');
   await page.getByRole('button', { name: 'Nhập dữ liệu', exact: true }).click();
-  await page.locator('#hot-review-input').fill(hotCsv);
-  await page.getByRole('button', { name: 'Tạo bài', exact: true }).click();
+  await page.getByRole('textbox', { name: 'Nội dung Multiple Choice' }).fill(choiceText);
+  await page.getByRole('button', { name: 'Nạp dữ liệu', exact: true }).click();
 }
-test('Hot Later survives reload; pagination, confirmation and copy use actual answers', async ({
+
+test('Multiple Choice Later survives reload; pagination and copied results use checked answers', async ({
   page,
   context,
 }) => {
   await context.grantPermissions(['clipboard-read', 'clipboard-write']);
   await page.goto('/');
-  await loadHot(page);
-  await page.getByRole('button', { name: 'Add to Review Later', exact: true }).click();
+  await loadChoices(page);
+  await page.getByRole('button', { name: 'Đánh dấu ôn sau', exact: true }).click();
+  await expect
+    .poll(async () =>
+      (await page.request.get('/api/v1/study-contents?tool=multiple-choice'))
+        .json()
+        .then(
+          async ({ data }) =>
+            (await (await page.request.get(`/api/v1/study-contents/${data[0].id}`)).json()).data
+              .progress.later?.length,
+        ),
+    )
+    .toBe(1);
   await page.reload();
-  await loadHot(page);
-  await expect(
-    page.getByRole('button', { name: 'Remove from Review Later', exact: true }),
-  ).toHaveAttribute('aria-pressed', 'true');
-  await page.locator('.quiz-option input').first().check();
-  await page.getByRole('button', { name: 'Xác nhận', exact: true }).click();
-  await page.getByRole('button', { name: 'Copy prompt + bài làm', exact: true }).click();
+  await navigate(page, 'Multiple Choice');
+  await page.getByRole('button', { name: '▤ Bài đã lưu', exact: true }).click();
+  await page.locator('.saved-lessons-list button').filter({ hasText: '本です。' }).click();
+  await expect(page.getByRole('button', { name: 'Bỏ ôn sau', exact: true })).toHaveAttribute(
+    'aria-pressed',
+    'true',
+  );
+  expect(await page.evaluate(() => localStorage.getItem('quiz_review_later_ids'))).toBeNull();
+  await page.locator('.mc-option input').first().check();
+  await page.getByRole('button', { name: 'Kiểm tra câu 1', exact: true }).click();
+  await page.getByText('Tùy chọn ôn tập', { exact: false }).click();
+  await page.getByRole('button', { name: 'Sao chép kết quả', exact: true }).click();
   await expect
     .poll(() => page.evaluate(() => navigator.clipboard.readText()))
-    .toContain('Tôi chọn: A. 本');
-  await page.getByLabel('Số câu Hot Review mỗi trang').fill('2');
-  await page.getByLabel('Số câu Hot Review mỗi trang').press('Tab');
-  await expect(page.locator('.quiz-question')).toHaveCount(2);
-  await page.getByText('Dữ liệu & tùy chọn ôn tập', { exact: true }).click();
-  await page.getByRole('button', { name: 'Review Later', exact: true }).click();
-  await expect(page.locator('.quiz-question')).toHaveCount(1);
+    .toContain('Tôi chọn: 1. 本');
+  await page.getByLabel('Số câu mỗi trang', { exact: true }).fill('2');
+  await expect(page.locator('.mc-question')).toHaveCount(2);
+  await page.getByRole('button', { name: 'Ôn sau (1)', exact: true }).click();
+  await expect(page.locator('.mc-question')).toHaveCount(1);
+  await page.getByRole('button', { name: 'Bỏ ôn sau', exact: true }).click();
+  await expect(
+    page.getByText('Chưa có câu nào trong danh sách ôn sau.', { exact: false }),
+  ).toBeVisible();
 });
+
 test('Markdown sync scroll, copy, print action and sanitization remain functional', async ({
   page,
   context,

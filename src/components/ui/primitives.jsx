@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useId, useRef, useState } from 'react';
+import { readCatalog } from '../../services/study-library-client';
 export function Button({ variant = 'secondary', className = '', children, ...props }) {
   return (
     <button type="button" className={`button button-${variant} ${className}`} {...props}>
@@ -86,9 +87,10 @@ export function RubyText({ text = '' }) {
     </>
   );
 }
-export function CsvImport({ open, onClose, title, header, onLoad, example }) {
+export function CsvImport({ open, onClose, title, header, onLoad, exampleKey }) {
   const [text, setText] = useState('');
   const [error, setError] = useState('');
+  const [saving, setSaving] = useState(false);
   return (
     <Dialog
       open={open}
@@ -99,17 +101,21 @@ export function CsvImport({ open, onClose, title, header, onLoad, example }) {
           <Button onClick={onClose}>Hủy</Button>
           <Button
             variant="primary"
-            onClick={() => {
+            disabled={saving}
+            onClick={async () => {
+              setSaving(true);
               try {
-                onLoad(text);
+                await onLoad(text);
                 setError('');
                 onClose();
               } catch (e) {
                 setError(e.message);
+              } finally {
+                setSaving(false);
               }
             }}
           >
-            Nạp dữ liệu
+            {saving ? 'Đang lưu Turso…' : 'Nạp dữ liệu'}
           </Button>
         </>
       }
@@ -126,7 +132,20 @@ export function CsvImport({ open, onClose, title, header, onLoad, example }) {
           placeholder={header}
         />
       </label>
-      {example && <Button onClick={() => setText(example)}>Chèn mẫu</Button>}
+      {exampleKey && (
+        <Button
+          onClick={async () => {
+            try {
+              setText(await readCatalog(exampleKey));
+              setError('');
+            } catch (error) {
+              setError(error.message);
+            }
+          }}
+        >
+          Chèn mẫu
+        </Button>
+      )}
       <Status error>{error}</Status>
     </Dialog>
   );
