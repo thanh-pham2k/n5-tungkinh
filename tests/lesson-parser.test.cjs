@@ -99,6 +99,10 @@ test('work English course has 30 valid lessons and matching order answers', () =
     text.normalize('NFKC').toLowerCase().replace(/\p{P}/gu, '').trim().replace(/\s+/g, ' ');
   lessons.forEach((lesson, index) => {
     assert.equal(lesson.day, index + 1);
+    assert.deepEqual(
+      [...lesson.source.matchAll(/^## (.+)$/gm)].map((match) => match[1]),
+      ['Mẫu câu cố định', 'Từ và cụm từ gợi ý', 'Luyện tập'],
+    );
     const blocks = parse(lesson.source);
     assert.equal(
       blocks.some((block) => block.type === 'error'),

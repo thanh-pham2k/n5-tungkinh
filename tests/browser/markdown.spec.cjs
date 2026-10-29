@@ -164,3 +164,23 @@ test('choice shuffle preserves original answers across navigation and retry', as
   await deck.getByRole('button', { name: 'Luyện lại bộ này' }).click();
   await expect(deck.locator('.lesson-option input:checked')).toHaveCount(0);
 });
+test('typing shows the matching word-order chunks without changing old standalone questions', async ({
+  page,
+}) => {
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  await openMobileEditor(
+    page,
+    '```quiz\na | word_order | Giới thiệu | I / am / a developer. | I am a developer. | Dùng am.\nb | typing | Giới thiệu | I am a developer. | Dùng am.\nc | typing | Câu riêng | Hello. | Lời chào.\n```',
+  );
+  const deck = page.locator('.lesson-deck');
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  const hints = deck.getByLabel('Cụm từ gợi ý');
+  await expect(hints.locator('span')).toHaveCount(3);
+  await expect(hints).toContainText('a developer.');
+  await deck.getByLabel('Câu trả lời').fill('I am a developer');
+  await deck.getByRole('button', { name: 'Kiểm tra' }).click();
+  await expect(deck).toContainText('Chính xác!');
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await expect(deck.getByLabel('Cụm từ gợi ý')).toHaveCount(0);
+});

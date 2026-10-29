@@ -74,6 +74,6 @@ Word Order dùng `id | word_order | câu hỏi | từ hoặc cụm từ | đáp 
 
 ## Tiếng Anh công việc trong 30 ngày
 
-Chọn **Tiếng Anh công việc · 30 ngày** trong menu để mở bài đầu ở tab mới; chọn ngày học trên thanh công cụ để chuyển bài. Mỗi bài gồm mẫu câu, giải thích, từ gợi ý, 10 câu tương tác (5 Word Order, 5 Typing) và bài tự viết. Bài được nạp từ catalog Turso và lưu vào Lịch sử nhập; bài tự viết và luyện nói tự thực hành ngoài ô chấm đáp án. Đáp án Typing có một câu mẫu, nên cách diễn đạt khác có thể bị tính sai.
+Chọn **Tiếng Anh công việc · 30 ngày** trong menu để mở bài đầu ở tab mới; chọn ngày học trên thanh công cụ để chuyển bài. Mỗi bài gồm mẫu câu, giải thích, từ gợi ý, 10 câu tương tác (5 Word Order, 5 Typing). Bài được nạp từ catalog Turso và lưu vào Lịch sử nhập; bạn có thể luyện nói ngoài ô chấm đáp án. Đáp án Typing có một câu mẫu, nên cách diễn đạt khác có thể bị tính sai.
 
 Dữ liệu nguồn vận hành là `database/seed/work-english-30.json`. Sau khi cấu hình Turso cho môi trường đích, chạy `node --env-file=.env.local scripts/seed-work-english.mjs <hostname-Turso-đích>` để thêm catalog; lệnh xác minh nội dung và từ chối ghi đè nếu catalog đã khác. Khi cập nhật một catalog đã tồn tại, truyền thêm đường dẫn JSON của phiên bản đã đối chiếu làm đối số thứ hai; lệnh chỉ cập nhật nếu nội dung hiện tại khớp chính xác phiên bản đó. Không seed từ build hoặc request. Nội dung bài thay đổi tạo bản học mới; lịch sử và tiến độ của bản cũ vẫn được giữ riêng.

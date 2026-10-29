@@ -463,3 +463,15 @@ body.dark .lesson-deck button[aria-current='step'] {
   padding: 8px;
   font: inherit;
 }
+
+.lesson-hint-label {
+  margin: 0;
+  font-weight: 650;
+}
+.lesson-typing-hints span {
+  padding: 8px 12px;
+  border: var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--paper);
+  overflow-wrap: anywhere;
+}

@@ -113,11 +113,19 @@ export function initializeMarkdown({
         );
       } else {
         const q = quizzes[current];
+        const previous = quizzes[current - 1];
+        const typingHints =
+          q.type === 'typing' &&
+          previous?.type === 'word_order' &&
+          previous.question === q.question &&
+          previous.answer === q.answer
+            ? previous.tokens
+            : null;
         if (
           displayedQuestion !== current &&
-          (q.type === 'single_choice' || q.type === 'word_order')
+          (q.type === 'single_choice' || q.type === 'word_order' || typingHints)
         ) {
-          const items = q.type === 'single_choice' ? q.options : q.tokens;
+          const items = q.type === 'single_choice' ? q.options : typingHints || q.tokens;
           shuffledIndices = items.map((_, index) => index);
           for (let i = shuffledIndices.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -155,6 +163,13 @@ export function initializeMarkdown({
             field.append(label);
           });
         if (q.type === 'typing') {
+          if (typingHints) {
+            const hintLabel = el('p', 'Cụm từ gợi ý', 'lesson-hint-label');
+            const hints = el('div', undefined, 'lesson-order-tokens lesson-typing-hints');
+            hints.setAttribute('aria-label', 'Cụm từ gợi ý');
+            shuffledIndices.forEach((index) => hints.append(el('span', typingHints[index])));
+            field.append(hintLabel, hints);
+          }
           const input = el('input');
           input.type = 'text';
           input.value = answers[q.id] || '';
