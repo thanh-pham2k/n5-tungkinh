@@ -4,17 +4,33 @@ import useStudyLibrary from '../hooks/use-study-library';
 import useAuth from '../hooks/use-auth';
 import LoginView from './auth/login-view';
 import SavedLessons from './study/saved-lessons';
-import { listStudyLogs, readStudyLog, readCatalog } from '../services/study-library-client';
+import {
+  listStudyLogs,
+  readStudyLog,
+  readCatalog,
+  studyRequest,
+  createLesson,
+} from '../services/study-library-client';
 import { Button, Status } from './ui/primitives';
+import { formatReviewTime } from '../services/review-time';
 export default function MarkdownWorkspace() {
   const { user, loading: authLoading, logout, setUser } = useAuth();
   const [error, setError] = useState('');
   const [focusMode, setFocusMode] = useState(false);
   const [course, setCourse] = useState([]);
+  const [courseStart, setCourseStart] = useState(1);
+  const [reviewTimes, setReviewTimes] = useState({});
+  const [clock, setClock] = useState(0);
   const library = useStudyLibrary('markdown');
   const libraryRef = useRef(library);
+  const courseSourceRef = useRef(null);
   libraryRef.current = library;
 
+  useEffect(() => {
+    setClock(Date.now());
+    const timer = setInterval(() => setClock(Date.now()), 60000);
+    return () => clearInterval(timer);
+  }, []);
   useEffect(() => {
     function handleKeyDown(event) {
       if (event.key === 'Escape' && focusMode) {
@@ -27,7 +43,9 @@ export default function MarkdownWorkspace() {
   useEffect(() => {
     if (!user) return;
     let disposed = false,
-      cleanup;
+      cleanup,
+      activeCourse = null,
+      courseAnchor = null;
     Promise.all([
       import('marked'),
       import('dompurify'),
@@ -42,9 +60,45 @@ export default function MarkdownWorkspace() {
           DOMPurify: purify.default,
           mermaid: mermaid.default,
           LessonParser: parser.default || parser,
-          saveSource: (source) => libraryRef.current.save(source, 'en'),
+          saveSource: (source) => {
+            if (source !== courseSourceRef.current) courseSourceRef.current = null;
+            return libraryRef.current.save(source, 'en');
+          },
           loadExample: () => readCatalog('markdown-example'),
-          saveProgress: (patch) => libraryRef.current.updateProgress(patch),
+          saveProgress: (patch) =>
+            courseSourceRef.current === null
+              ? libraryRef.current.updateProgress(patch)
+              : Promise.resolve(),
+          onDeckComplete: () => {
+            if (!activeCourse || courseSourceRef.current !== activeCourse.source) return;
+            const nextDay = (activeCourse.day % activeCourse.count) + 1;
+            if (!courseAnchor) return;
+            const reviewedAt = new Date().toISOString();
+            const reviewTimes = {
+              ...(courseAnchor.progress.courseReviewTimes || {}),
+              [activeCourse.day]: reviewedAt,
+            };
+            const progress = {
+              ...courseAnchor.progress,
+              courseNextDay: nextDay,
+              courseReviewTimes: reviewTimes,
+            };
+            studyRequest(`/study-contents/${courseAnchor.id}/progress`, {
+              method: 'PUT',
+              body: JSON.stringify({ version: courseAnchor.version, progress }),
+            })
+              .then(({ data }) => {
+                courseAnchor = { ...courseAnchor, progress: data.progress, version: data.version };
+                if (!disposed) {
+                  setCourseStart(nextDay);
+                  setReviewTimes(data.progress.courseReviewTimes || {});
+                  setClock(Date.now());
+                }
+              })
+              .catch((error) => {
+                if (!disposed) setError(error.message);
+              });
+          },
         });
         const loadingEl = document.getElementById('markdown-loading');
         if (loadingEl) loadingEl.hidden = true;
@@ -68,8 +122,49 @@ export default function MarkdownWorkspace() {
               const item = items.find((entry) => String(entry.day) === requestedDay);
               if (!item) throw new Error('Không tìm thấy bài học này.');
               const record = await libraryRef.current.save(item.source, 'en');
-              if (!disposed)
-                document.dispatchEvent(new CustomEvent('study-markdown-load', { detail: record }));
+              if (item.day === 1) courseAnchor = record;
+              else {
+                let cursor;
+                do {
+                  const query = new URLSearchParams({
+                    tool: 'markdown',
+                    limit: '100',
+                    ...(cursor ? { cursor } : {}),
+                  });
+                  const listing = await studyRequest(`/study-contents?${query}`);
+                  for (const summary of listing.data.filter((entry) =>
+                    entry.title.startsWith('# Ngày 1:'),
+                  )) {
+                    const candidate = (await studyRequest(`/study-contents/${summary.id}`)).data;
+                    if (candidate.source === items[0].source) {
+                      courseAnchor = candidate;
+                      break;
+                    }
+                  }
+                  cursor = courseAnchor ? null : listing.meta.page.nextCursor;
+                } while (cursor);
+                if (!courseAnchor)
+                  courseAnchor = await createLesson({
+                    tool: 'markdown',
+                    source: items[0].source,
+                    language: 'en',
+                    requestId: crypto.randomUUID(),
+                  });
+              }
+              if (!disposed) {
+                courseSourceRef.current = item.source;
+                activeCourse = { day: item.day, count: items.length, source: item.source };
+                setReviewTimes(courseAnchor.progress?.courseReviewTimes || {});
+                const nextDay = courseAnchor.progress?.courseNextDay;
+                setCourseStart(
+                  Number.isInteger(nextDay) && nextDay >= 1 && nextDay <= items.length
+                    ? nextDay
+                    : item.day,
+                );
+                document.dispatchEvent(
+                  new CustomEvent('study-markdown-load', { detail: { ...record, progress: {} } }),
+                );
+              }
             })
             .catch((error) => {
               if (!disposed) setError(error.message);
@@ -156,8 +251,15 @@ export default function MarkdownWorkspace() {
         <SavedLessons
           tool="markdown"
           onLoad={(record) => {
+            courseSourceRef.current = course.some((item) => item.source === record.source)
+              ? record.source
+              : null;
             library.restore(record);
-            document.dispatchEvent(new CustomEvent('study-markdown-load', { detail: record }));
+            document.dispatchEvent(
+              new CustomEvent('study-markdown-load', {
+                detail: courseSourceRef.current === null ? record : { ...record, progress: {} },
+              }),
+            );
           }}
         />
         {course.length > 0 && (
@@ -174,11 +276,13 @@ export default function MarkdownWorkspace() {
                 window.location.href = `?course=${event.target.value}`;
               }}
             >
-              {course.map((item) => (
-                <option key={item.day} value={item.day}>
-                  Ngày {item.day}: {item.title}
-                </option>
-              ))}
+              {[...course.slice(courseStart - 1), ...course.slice(0, courseStart - 1)].map(
+                (item) => (
+                  <option key={item.day} value={item.day}>
+                    Ngày {item.day}: {item.title} · {formatReviewTime(reviewTimes[item.day], clock)}
+                  </option>
+                ),
+              )}
             </select>
           </label>
         )}

@@ -8,6 +8,7 @@ export function initializeMarkdown({
   saveSource,
   loadExample,
   saveProgress,
+  onDeckComplete,
 }) {
   const lifetime = new AbortController();
   const listen = (target, event, handler, options = {}) =>
@@ -261,8 +262,10 @@ export function initializeMarkdown({
             current === 0,
           ),
           button(current === quizzes.length - 1 ? 'Xem kết quả' : 'Tiếp →', () => {
-            if (current === quizzes.length - 1) review = true;
-            else current++;
+            if (current === quizzes.length - 1) {
+              review = true;
+              if (quizzes.every((quiz) => answers[quiz.id] !== undefined)) onDeckComplete?.();
+            } else current++;
             draw(true);
           }),
         );

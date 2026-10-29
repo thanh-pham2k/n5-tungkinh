@@ -205,3 +205,92 @@ test('real day-one typing shows its three word-order chunks on mobile and deskto
     await expect(deck).toContainText('Chính xác!');
   }
 });
+test('course starts fresh on reload without writing answer progress', async ({ page }) => {
+  const progressWrites = [];
+  page.on('request', (request) => {
+    if (request.method() === 'PUT' && request.url().includes('/progress'))
+      progressWrites.push(request.url());
+  });
+  await page.goto('/markdown/?course=1');
+  const deck = page.locator('.lesson-deck');
+  await expect(page.getByRole('heading', { name: 'Ngày 1: Giới thiệu bản thân' })).toBeVisible();
+  for (const token of ['I', 'am', 'a developer.']) {
+    await deck.getByRole('button', { name: token, exact: true }).click();
+  }
+  await deck.getByRole('button', { name: 'Kiểm tra' }).click();
+  await expect(deck).toContainText('Chính xác!');
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await deck.getByLabel('Câu trả lời').fill('I am a developer');
+  await deck.getByRole('button', { name: 'Kiểm tra' }).click();
+  await expect(deck).toContainText('Chính xác!');
+  expect(progressWrites).toEqual([]);
+  await page.reload();
+  await expect(page.getByRole('heading', { name: 'Ngày 1: Giới thiệu bản thân' })).toBeVisible();
+  await expect(deck.locator('.lesson-dots button').first()).toHaveText('1');
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await expect(deck.getByLabel('Câu trả lời')).toHaveValue('');
+  await expect(deck.locator('.lesson-feedback')).toHaveCount(0);
+});
+test('completed course day rotates menu, survives reload, and wraps after day 30', async ({
+  page,
+}) => {
+  const lessons = require('../../database/seed/work-english-30.json');
+  const { parse } = require('../../src/services/lesson-parser.cjs');
+  async function complete(day) {
+    await page.goto(`/markdown/?course=${day}`);
+    await expect(page.getByRole('heading', { name: new RegExp(`Ngày ${day}:`) })).toBeVisible();
+    if (day === 30)
+      await expect
+        .poll(() => page.getByLabel('Chọn ngày học').evaluate((select) => select.options[0].value))
+        .toBe('2');
+    const deck = page.locator('.lesson-deck');
+    const quizzes = parse(lessons[day - 1].source).find((b) => b.type === 'deck').quizzes;
+    for (let i = 0; i < quizzes.length; i++) {
+      const q = quizzes[i];
+      if (q.type === 'word_order') {
+        for (const token of q.tokens)
+          await deck
+            .locator('.lesson-order-tokens')
+            .nth(1)
+            .getByRole('button', { name: token, exact: true })
+            .first()
+            .click();
+      } else await deck.getByLabel('Câu trả lời').fill(q.answer);
+      await deck.getByRole('button', { name: 'Kiểm tra' }).click();
+      await deck
+        .getByRole('button', { name: i === quizzes.length - 1 ? 'Xem kết quả' : 'Tiếp →' })
+        .click();
+    }
+  }
+  await page.goto('/markdown/?course=1');
+  await expect(page.getByRole('heading', { name: 'Ngày 1: Giới thiệu bản thân' })).toBeVisible();
+  await page.locator('.lesson-deck').getByRole('button', { name: 'Câu 10', exact: true }).click();
+  await page.locator('.lesson-deck').getByRole('button', { name: 'Xem kết quả' }).click();
+  await expect
+    .poll(() => page.getByLabel('Chọn ngày học').evaluate((select) => select.options[0].value))
+    .toBe('1');
+  await expect(page.locator('select[aria-label="Chọn ngày học"] option[value="1"]')).toContainText(
+    'Chưa có thời gian ôn',
+  );
+  await complete(1);
+  await expect(page.locator('select[aria-label="Chọn ngày học"] option[value="1"]')).toContainText(
+    'Vừa ôn xong',
+  );
+  await expect
+    .poll(() => page.getByLabel('Chọn ngày học').evaluate((select) => select.options[0].value))
+    .toBe('2');
+  await page.reload();
+  await expect
+    .poll(() => page.getByLabel('Chọn ngày học').evaluate((select) => select.options[0].value))
+    .toBe('2');
+  await expect(page.locator('select[aria-label="Chọn ngày học"] option[value="1"]')).toContainText(
+    'Vừa ôn xong',
+  );
+  await complete(30);
+  await expect(page.locator('select[aria-label="Chọn ngày học"] option[value="30"]')).toContainText(
+    'Vừa ôn xong',
+  );
+  await expect
+    .poll(() => page.getByLabel('Chọn ngày học').evaluate((select) => select.options[0].value))
+    .toBe('1');
+});
