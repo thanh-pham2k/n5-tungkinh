@@ -18,6 +18,7 @@ const catalog = {
   ielts,
   'markdown-example': await readFile('database/seed/markdown-example.md', 'utf8'),
   'word-order-example': await readFile('database/seed/word-order-example.txt', 'utf8'),
+  'work-english-30': JSON.parse(await readFile('database/seed/work-english-30.json', 'utf8')),
 };
 const db = createClient({ url, authToken: process.env.TURSO_AUTH_TOKEN });
 try {

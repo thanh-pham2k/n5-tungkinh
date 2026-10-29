@@ -80,3 +80,41 @@ test('accepts quiz-deck with the four-option teaching prompt format', () => {
   assert.deepEqual(blocks[1].quizzes[0].options, ['A', 'B', 'C', 'D']);
   assert.equal(blocks[1].quizzes[0].answer, 2);
 });
+test('parses mixed exercise types and validates malformed rows', () => {
+  const blocks = parse(
+    '```quiz\na | single_choice | Q | A | B | 1 | Why\nb | word_order | Order | She / goes / home | She goes home. | Why\nc | typing | Translate | She goes home. | Why\n```',
+  );
+  assert.deepEqual(
+    blocks[0].quizzes.map((q) => q.type),
+    ['single_choice', 'word_order', 'typing'],
+  );
+  assert.deepEqual(blocks[0].quizzes[1].tokens, ['She', 'goes', 'home']);
+  assert.equal(parse('```quiz\nx | word_order | Q | one | Answer | Why\n```')[0].type, 'error');
+  assert.equal(parse('```quiz\nx | typing | Q | | Why\n```')[0].type, 'error');
+});
+test('work English course has 30 valid lessons and matching order answers', () => {
+  const lessons = require('../database/seed/work-english-30.json');
+  assert.equal(lessons.length, 30);
+  const normalize = (text) =>
+    text.normalize('NFKC').toLowerCase().replace(/\p{P}/gu, '').trim().replace(/\s+/g, ' ');
+  lessons.forEach((lesson, index) => {
+    assert.equal(lesson.day, index + 1);
+    const blocks = parse(lesson.source);
+    assert.equal(
+      blocks.some((block) => block.type === 'error'),
+      false,
+      lesson.title,
+    );
+    const quizzes = blocks
+      .filter((block) => block.type === 'deck')
+      .flatMap((block) => block.quizzes);
+    assert.equal(quizzes.length, 10);
+    assert.equal(quizzes.filter((q) => q.type === 'word_order').length, 5);
+    assert.equal(quizzes.filter((q) => q.type === 'typing').length, 5);
+    quizzes
+      .filter((q) => q.type === 'word_order')
+      .forEach((q) =>
+        assert.equal(normalize(q.tokens.join(' ')), normalize(q.answer), lesson.title),
+      );
+  });
+});

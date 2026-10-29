@@ -3,13 +3,11 @@ import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { MAX_SOURCE_BYTES } from '../../contracts/study-contract';
 import { StudyError } from './errors';
+import { authenticate } from '../auth/auth';
 export const SHARED_LIBRARY = 'shared';
 export const SESSION_COOKIE = 'kotoba-study-session';
 export function owner(request: NextRequest) {
-  const value = request.cookies.get(SESSION_COOKIE)?.value;
-  if (!value || !z.uuid().safeParse(value).success)
-    throw new StudyError(401, 'unauthenticated', 'Phiên học chưa sẵn sàng. Hãy tải lại trang.');
-  return value;
+  return authenticate(request).username;
 }
 export function assertWriteOrigin(request: NextRequest) {
   const origin = request.headers.get('origin');

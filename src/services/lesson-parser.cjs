@@ -85,11 +85,32 @@
               .trim()
               .split(' | ')
               .map((field) => field.trim());
+            const [id, type, question] = parts;
+            if (type === 'word_order' || type === 'typing') {
+              const expected = type === 'word_order' ? 6 : 5;
+              if (parts.length !== expected || parts.some((part) => !part))
+                throw new Error(`Dòng ${row.line}: định dạng ${type} không hợp lệ.`);
+              if (type === 'word_order') {
+                const tokens = parts[3].split(' / ').map((token) => token.trim());
+                if (tokens.length < 2 || tokens.some((token) => !token))
+                  throw new Error(
+                    `Dòng ${row.line}: word_order cần ít nhất 2 từ hoặc cụm từ, ngăn cách bằng ' / '.`,
+                  );
+                appendQuiz(
+                  { id, type, question, tokens, answer: parts[4], explanation: parts[5] },
+                  row.line,
+                );
+              } else
+                appendQuiz(
+                  { id, type, question, answer: parts[3], explanation: parts[4] },
+                  row.line,
+                );
+              continue;
+            }
             if (parts.length < 7)
               throw new Error(
                 `Dòng ${row.line}: cần id | single_choice | question | option 1 | option 2 | answer | explanation.`,
               );
-            const [id, type, question] = parts;
             const options = parts.slice(3, -2),
               answer = parts.at(-2),
               explanation = parts.at(-1);

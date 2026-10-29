@@ -1,3 +1,5 @@
+import { isTypingCorrect } from '../services/answer-service';
+
 export function initializeMarkdown({
   marked,
   DOMPurify,
@@ -57,6 +59,19 @@ export function initializeMarkdown({
     container.setAttribute('aria-label', `Mini Quiz ${number}`);
     let current = 0,
       review = false;
+    const selections = Object.create(null);
+    let displayedQuestion = null,
+      shuffledIndices = [];
+    const correctAnswer = (q) =>
+      q.type === 'single_choice'
+        ? answers[q.id] === q.answer
+        : isTypingCorrect(answers[q.id] || '', q.answer);
+    const saveAnswer = (q, value) => {
+      answers[q.id] = value;
+      saveProgress({ markdownAnswers: { ...answers } }).catch((error) => {
+        status.textContent = error.message;
+      });
+    };
     function draw(focus = false) {
       container.replaceChildren();
       const title = el(
@@ -66,13 +81,14 @@ export function initializeMarkdown({
       title.tabIndex = -1;
       container.append(title);
       if (review) {
-        const correct = quizzes.filter((q) => answers[q.id] === q.answer).length;
+        displayedQuestion = null;
+        const correct = quizzes.filter((q) => correctAnswer(q)).length;
         const unanswered = quizzes.filter((q) => answers[q.id] === undefined).length;
         container.append(el('p', `Đúng ${correct}/${quizzes.length} · Chưa trả lời ${unanswered}`));
         quizzes.forEach((q, i) => {
           container.append(
             button(
-              `${i + 1}. ${answers[q.id] === undefined ? 'Chưa trả lời' : answers[q.id] === q.answer ? 'Đúng' : 'Sai'} — ${q.question}`,
+              `${i + 1}. ${answers[q.id] === undefined ? 'Chưa trả lời' : correctAnswer(q) ? 'Đúng' : 'Sai'} — ${q.question}`,
               () => {
                 current = i;
                 review = false;
@@ -83,7 +99,10 @@ export function initializeMarkdown({
         });
         container.append(
           button('Luyện lại bộ này', () => {
-            quizzes.forEach((q) => delete answers[q.id]);
+            quizzes.forEach((q) => {
+              delete answers[q.id];
+              delete selections[q.id];
+            });
             current = 0;
             review = false;
             saveProgress({ markdownAnswers: { ...answers } }).catch((error) => {
@@ -94,40 +113,111 @@ export function initializeMarkdown({
         );
       } else {
         const q = quizzes[current];
+        if (
+          displayedQuestion !== current &&
+          (q.type === 'single_choice' || q.type === 'word_order')
+        ) {
+          const items = q.type === 'single_choice' ? q.options : q.tokens;
+          shuffledIndices = items.map((_, index) => index);
+          for (let i = shuffledIndices.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffledIndices[i], shuffledIndices[j]] = [shuffledIndices[j], shuffledIndices[i]];
+          }
+        }
         const field = el('fieldset');
         const legend = el('legend');
         legend.append(inline(q.question));
         field.append(legend);
-        q.options.forEach((option, index) => {
-          const label = el('label', undefined, 'lesson-option');
-          const answered = answers[q.id] !== undefined;
-          const correct = answered && index === q.answer;
-          const incorrect = answered && answers[q.id] === index && index !== q.answer;
-          if (correct) label.classList.add('is-correct');
-          if (incorrect) label.classList.add('is-incorrect');
-          const radio = document.createElement('input');
-          radio.type = 'radio';
-          radio.name = `lesson-${number}-${current}`;
-          radio.checked = answers[q.id] === index;
-          radio.addEventListener('change', () => {
-            answers[q.id] = index;
-            saveProgress({ markdownAnswers: { ...answers } }).catch((error) => {
-              status.textContent = error.message;
+        if (q.type === 'single_choice')
+          shuffledIndices.forEach((index) => {
+            const option = q.options[index];
+            const label = el('label', undefined, 'lesson-option');
+            const answered = answers[q.id] !== undefined;
+            const correct = answered && index === q.answer;
+            const incorrect = answered && answers[q.id] === index && index !== q.answer;
+            if (correct) label.classList.add('is-correct');
+            if (incorrect) label.classList.add('is-incorrect');
+            const radio = document.createElement('input');
+            radio.type = 'radio';
+            radio.name = `lesson-${number}-${current}`;
+            radio.checked = answers[q.id] === index;
+            radio.addEventListener('change', () => {
+              answers[q.id] = index;
+              saveProgress({ markdownAnswers: { ...answers } }).catch((error) => {
+                status.textContent = error.message;
+              });
+              draw();
+              container.querySelectorAll('input')[shuffledIndices.indexOf(index)].focus();
             });
-            draw();
-            container.querySelectorAll('input')[index].focus();
+            label.append(radio, inline(option));
+            if (correct || incorrect)
+              label.append(el('span', correct ? '✓ Đúng' : '✕ Sai', 'lesson-option-result'));
+            field.append(label);
           });
-          label.append(radio, inline(option));
-          if (correct || incorrect)
-            label.append(el('span', correct ? '✓ Đúng' : '✕ Sai', 'lesson-option-result'));
-          field.append(label);
-        });
+        if (q.type === 'typing') {
+          const input = el('input');
+          input.type = 'text';
+          input.value = answers[q.id] || '';
+          input.setAttribute('aria-label', 'Câu trả lời');
+          const submit = button('Kiểm tra', () => {
+            if (!input.value.trim()) {
+              input.focus();
+              return;
+            }
+            saveAnswer(q, input.value.trim());
+            draw();
+          });
+          input.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+              event.preventDefault();
+              submit.click();
+            }
+          });
+          field.append(input, submit);
+        }
+        if (q.type === 'word_order') {
+          const selected = selections[q.id] || [];
+          const slots = el('div', undefined, 'lesson-order-tokens');
+          slots.setAttribute('aria-label', 'Thứ tự đã chọn');
+          selected.forEach((index, position) =>
+            slots.append(
+              button(q.tokens[index], () => {
+                selected.splice(position, 1);
+                draw(true);
+              }),
+            ),
+          );
+          const choices = el('div', undefined, 'lesson-order-tokens');
+          shuffledIndices.forEach((index) => {
+            if (!selected.includes(index))
+              choices.append(
+                button(q.tokens[index], () => {
+                  selected.push(index);
+                  selections[q.id] = selected;
+                  draw(true);
+                }),
+              );
+          });
+          field.append(
+            slots,
+            choices,
+            button(
+              'Kiểm tra',
+              () => {
+                saveAnswer(q, selected.map((index) => q.tokens[index]).join(' '));
+                draw();
+              },
+              selected.length !== q.tokens.length,
+            ),
+          );
+        }
+        displayedQuestion = current;
         container.append(field);
         if (answers[q.id] !== undefined) {
           const feedback = el('p', undefined, 'lesson-feedback');
           feedback.append(
             inline(
-              `${answers[q.id] === q.answer ? 'Chính xác!' : 'Chưa chính xác.'} Đáp án: ${q.options[q.answer]}${q.explanation ? '\n' + q.explanation : ''}`,
+              `${correctAnswer(q) ? 'Chính xác!' : 'Chưa chính xác.'} Đáp án: ${q.type === 'single_choice' ? q.options[q.answer] : q.answer}${q.explanation ? '\n' + q.explanation : ''}`,
             ),
           );
           container.append(feedback);
@@ -218,9 +308,11 @@ export function initializeMarkdown({
         const definition = JSON.stringify(q);
         if (
           definitions[q.id] === definition &&
-          Number.isInteger(answers[q.id]) &&
-          answers[q.id] >= 0 &&
-          answers[q.id] < q.options.length
+          (q.type === 'single_choice'
+            ? Number.isInteger(answers[q.id]) &&
+              answers[q.id] >= 0 &&
+              answers[q.id] < q.options.length
+            : typeof answers[q.id] === 'string' && answers[q.id].trim())
         )
           valid[q.id] = answers[q.id];
         definitions[q.id] = definition;

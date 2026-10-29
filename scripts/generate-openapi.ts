@@ -11,6 +11,8 @@ import {
   Page,
   StudyTool,
   CatalogKey,
+  LoginInput,
+  UserInfo,
 } from '../src/contracts/study-contract';
 const schema = (s: z.ZodType) => z.toJSONSchema(s);
 const response = (s: z.ZodType) => ({
@@ -48,6 +50,37 @@ const document = {
   info: { title: 'Kotoba study library', version: '1.0.0' },
   servers: [{ url: '/api/v1' }],
   paths: {
+    '/auth/login': {
+      post: {
+        operationId: 'login',
+        description: 'Authenticate user with username and password, setting HttpOnly auth cookie.',
+        requestBody: body(LoginInput),
+        responses: {
+          200: response(z.object({ data: z.object({ user: UserInfo }), meta: Meta })),
+          ...errors,
+        },
+      },
+    },
+    '/auth/logout': {
+      post: {
+        operationId: 'logout',
+        description: 'Clear authentication session cookie.',
+        responses: {
+          200: response(z.object({ data: z.object({ success: z.boolean() }), meta: Meta })),
+          ...errors,
+        },
+      },
+    },
+    '/auth/me': {
+      get: {
+        operationId: 'getCurrentUser',
+        description: 'Return current authenticated user or 401 if unauthenticated.',
+        responses: {
+          200: response(z.object({ data: z.object({ user: UserInfo }), meta: Meta })),
+          ...errors,
+        },
+      },
+    },
     '/session': {
       get: {
         operationId: 'prepareStudySession',

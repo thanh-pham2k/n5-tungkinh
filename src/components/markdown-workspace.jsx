@@ -1,12 +1,16 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import useStudyLibrary from '../hooks/use-study-library';
+import useAuth from '../hooks/use-auth';
+import LoginView from './auth/login-view';
 import SavedLessons from './study/saved-lessons';
 import { listStudyLogs, readStudyLog, readCatalog } from '../services/study-library-client';
 import { Button, Status } from './ui/primitives';
 export default function MarkdownWorkspace() {
+  const { user, loading: authLoading, logout, setUser } = useAuth();
   const [error, setError] = useState('');
   const [focusMode, setFocusMode] = useState(false);
+  const [course, setCourse] = useState([]);
   const library = useStudyLibrary('markdown');
   const libraryRef = useRef(library);
   libraryRef.current = library;
@@ -21,6 +25,7 @@ export default function MarkdownWorkspace() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [focusMode]);
   useEffect(() => {
+    if (!user) return;
     let disposed = false,
       cleanup;
     Promise.all([
@@ -41,7 +46,8 @@ export default function MarkdownWorkspace() {
           loadExample: () => readCatalog('markdown-example'),
           saveProgress: (patch) => libraryRef.current.updateProgress(patch),
         });
-        document.getElementById('markdown-loading').hidden = true;
+        const loadingEl = document.getElementById('markdown-loading');
+        if (loadingEl) loadingEl.hidden = true;
         // One-time upgrade of the old local draft. Never delete it before DB acknowledgement.
         let legacy;
         try {
@@ -53,8 +59,24 @@ export default function MarkdownWorkspace() {
                 localStorage.removeItem('markdown-lesson-v1');
               })
             : Promise.resolve();
+        const requestedDay = new URLSearchParams(window.location.search).get('course');
+        if (requestedDay) {
+          readCatalog('work-english-30')
+            .then(async (items) => {
+              if (disposed) return;
+              setCourse(items);
+              const item = items.find((entry) => String(entry.day) === requestedDay);
+              if (!item) throw new Error('Không tìm thấy bài học này.');
+              const record = await libraryRef.current.save(item.source, 'en');
+              if (!disposed)
+                document.dispatchEvent(new CustomEvent('study-markdown-load', { detail: record }));
+            })
+            .catch((error) => {
+              if (!disposed) setError(error.message);
+            });
+        }
         upgraded
-          .then(() => listStudyLogs('markdown'))
+          .then(() => (requestedDay ? { data: [] } : listStudyLogs('markdown')))
           .then(async ({ data }) => {
             if (!data.length || disposed) return;
             const record = await readStudyLog(data[0].id);
@@ -68,7 +90,8 @@ export default function MarkdownWorkspace() {
       })
       .catch(() => {
         if (!disposed) {
-          document.getElementById('markdown-loading').hidden = true;
+          const loadingEl = document.getElementById('markdown-loading');
+          if (loadingEl) loadingEl.hidden = true;
           setError('Không tải được workspace. Hãy kiểm tra kết nối và tải lại trang.');
         }
       });
@@ -77,7 +100,22 @@ export default function MarkdownWorkspace() {
       cleanup?.();
       document.body.classList.remove('dark', 'resizing');
     };
-  }, []);
+  }, [user]);
+
+  if (authLoading) {
+    return (
+      <div className="login-screen">
+        <div className="login-card" style={{ textAlign: 'center' }}>
+          <Status>Đang kiểm tra phiên đăng nhập…</Status>
+        </div>
+      </div>
+    );
+  }
+
+  if (!user) {
+    return <LoginView onLoginSuccess={setUser} />;
+  }
+
   return (
     <div className={`markdown-page ${focusMode ? 'reading-focus' : ''}`}>
       {focusMode && (
@@ -102,6 +140,12 @@ export default function MarkdownWorkspace() {
         <strong>
           Markdown <span>& Quiz</span>
         </strong>
+        <span className="user-chip" title={`Tài khoản: ${user.name}`}>
+          <span aria-hidden="true">👤</span> {user.name}
+        </span>
+        <Button className="button-logout" onClick={logout} aria-label="Đăng xuất">
+          Đăng xuất
+        </Button>
         <Button
           id="lesson-focus"
           onClick={() => setFocusMode(true)}
@@ -116,6 +160,28 @@ export default function MarkdownWorkspace() {
             document.dispatchEvent(new CustomEvent('study-markdown-load', { detail: record }));
           }}
         />
+        {course.length > 0 && (
+          <label className="check-field">
+            Bài học
+            <select
+              aria-label="Chọn ngày học"
+              value={
+                new URLSearchParams(
+                  typeof window === 'undefined' ? '' : window.location.search,
+                ).get('course') || ''
+              }
+              onChange={(event) => {
+                window.location.href = `?course=${event.target.value}`;
+              }}
+            >
+              {course.map((item) => (
+                <option key={item.day} value={item.day}>
+                  Ngày {item.day}: {item.title}
+                </option>
+              ))}
+            </select>
+          </label>
+        )}
         <Button id="lesson-edit">Nhập Markdown</Button>
         <Button
           id="lesson-menu-toggle"

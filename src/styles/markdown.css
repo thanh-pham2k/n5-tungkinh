@@ -448,3 +448,18 @@ body.dark .lesson-deck button[aria-current='step'] {
     box-shadow: none;
   }
 }
+
+.lesson-order-tokens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0;
+  min-height: 44px;
+}
+.lesson-deck input[type='text'] {
+  width: 100%;
+  min-height: 44px;
+  margin: 8px 0;
+  padding: 8px;
+  font: inherit;
+}

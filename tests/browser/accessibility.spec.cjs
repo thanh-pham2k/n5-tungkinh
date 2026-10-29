@@ -2,7 +2,7 @@ const { test, expect } = require('./fixtures.cjs');
 const AxeBuilder = require('@axe-core/playwright').default;
 test('mobile shell, picker and settings satisfy automated WCAG AA checks', async ({ page }) => {
   await page.goto('/');
-  const markdownLink = page.locator('.sidebar nav a.nav-item');
+  const markdownLink = page.locator('.sidebar nav a.nav-item[href="/markdown/"]');
   await expect(markdownLink).toHaveAttribute('href', '/markdown/');
   await expect(markdownLink).toHaveAttribute('target', '_blank');
   await expect(markdownLink).toHaveAttribute('rel', 'noopener noreferrer');

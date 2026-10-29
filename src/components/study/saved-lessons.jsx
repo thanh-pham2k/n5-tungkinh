@@ -72,6 +72,7 @@ export default function SavedLessons({ tool, onLoad, revision = '' }) {
     <div className="saved-lessons" data-revision={revision} ref={rootRef}>
       <Button
         aria-expanded={open}
+        aria-label="▤ Bài đã lưu"
         disabled={busy}
         onClick={() => {
           setOpen(!open);
@@ -102,7 +103,7 @@ export default function SavedLessons({ tool, onLoad, revision = '' }) {
                 <Button
                   variant="danger"
                   disabled={busy}
-                  aria-label={`Xóa log ${item.title}`}
+                  aria-label={`Xóa ${item.title} khỏi thư viện chung`}
                   onClick={() => {
                     setError('');
                     setConfirmingId(confirmingId === item.id ? null : item.id);
@@ -118,14 +119,15 @@ export default function SavedLessons({ tool, onLoad, revision = '' }) {
                   aria-label={`Xác nhận xóa ${item.title}`}
                 >
                   <p>
-                    Xóa mục log này khỏi lịch sử nhập? Bài đang mở và tiến độ học sẽ được giữ lại.
+                    Xóa mục log này khỏi lịch sử nhập? Mọi người sẽ mất bài này và tiến độ liên
+                    quan.
                   </p>
                   <div className="action-wrap">
                     <Button disabled={busy} onClick={() => setConfirmingId(null)}>
                       Hủy
                     </Button>
                     <Button variant="danger" disabled={busy} onClick={() => remove(item.id)}>
-                      {busy ? 'Đang xóa…' : 'Xóa log'}
+                      {busy ? 'Đang xóa…' : 'Xóa vĩnh viễn'}
                     </Button>
                   </div>
                 </div>

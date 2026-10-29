@@ -1,4 +1,9 @@
+const fs = require('node:fs');
 const { defineConfig } = require('@playwright/test');
+const defaultChannel =
+  process.platform === 'darwin' && !fs.existsSync('/Applications/Microsoft Edge.app')
+    ? 'chrome'
+    : 'msedge';
 module.exports = defineConfig({
   testDir: './tests/browser',
   timeout: 30000,
@@ -7,7 +12,7 @@ module.exports = defineConfig({
   use: {
     baseURL: 'http://127.0.0.1:4173',
     browserName: 'chromium',
-    channel: 'msedge',
+    channel: process.env.PLAYWRIGHT_CHANNEL || defaultChannel,
     viewport: { width: 390, height: 844 },
     headless: true,
     screenshot: 'only-on-failure',

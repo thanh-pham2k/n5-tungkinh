@@ -1,8 +1,8 @@
-TL;DR Contract code-first Zod, sinh OpenAPI 3.1; thư viện công khai theo lựa chọn chủ dự án.
+TL;DR Contract code-first Zod, sinh OpenAPI 3.1; quản lý dữ liệu theo tài khoản (`thanhpv`, `yentr`).
 
 - src/contracts/study-contract.ts là nguồn runtime schema. scripts/generate-openapi.ts sinh contracts/openapi.yaml; không sửa file sinh bằng tay.
 - Dùng chuẩn /api/v1, JSON data/meta và error/meta, X-Request-Id, no-store, cursor pagination. Schema/content DB không được trả thẳng qua API list.
-- Ngoại lệ BE-04 có chủ đích: chủ dự án chọn thư viện dùng chung, không đăng nhập. Người truy cập được nhập bài; theo yêu cầu mới, Lịch sử nhập là log chung. DELETE `/study-logs/{logId}` chỉ xóa record log; không xóa source/nội dung hiện tại hoặc tiến độ. GET `/study-logs/{logId}` nạp source và parse lại. Không có API xóa nội dung hiện tại. Cookie phiên ẩn danh chỉ chống request thiếu cookie/CSRF, không phải xác thực danh tính hoặc quyền admin.
-- Request POST/PUT/DELETE cần cùng origin và phiên cookie hợp lệ; POST cũng cần Content-Type application/json và giới hạn kích thước. Không có CORS mở cho các thao tác ghi.
+- Đăng nhập xác thực với 2 tài khoản: `thanhpv` (password: `1`) và `yentr` (password: `1`). Dữ liệu bài học, log nhập và tiến độ gắn liền với tài khoản đăng nhập (`library_id = username`). DELETE `/study-logs/{logId}` chỉ xóa record log của tài khoản đó. GET `/study-logs/{logId}` nạp source và parse lại. Không thể truy cập hoặc sửa dữ liệu của tài khoản khác.
+- Request POST/PUT/DELETE cần cùng origin và phiên auth cookie hợp lệ; POST cũng cần Content-Type application/json và giới hạn kích thước. Không có CORS mở cho các thao tác ghi.
 - Parse lại trên server, transaction lưu nội dung + record; UUID request idempotent, không retry mù thao tác ghi. Progress có version và trả 409 khi stale.
 - `parsed` là JSON đã kiểm tra theo tool ở service; nguồn để ôn tập luôn đọc từ DB. Không load nội dung từ file/bundle hoặc storage client khi API lỗi.

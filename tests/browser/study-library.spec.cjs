@@ -78,12 +78,11 @@ test('all import tools create DB records and reopen saved content after reload',
   ).toEqual([]);
   expect(await page.evaluate(() => Object.keys(sessionStorage))).toEqual([]);
 });
-test('different visitor can open the shared lesson but cannot see another visitor progress', async ({
+test('different account (yentr) is isolated and cannot access thanhpv private content', async ({
   page,
   browser,
 }) => {
   await page.goto('/');
-  await page.request.get('/api/v1/session');
   const result = await page.request.post('/api/v1/study-contents', {
     headers: { Origin: 'http://127.0.0.1:4173' },
     data: { tool: 'instant', source: vocab, language: 'en', requestId: crypto.randomUUID() },
@@ -98,14 +97,27 @@ test('different visitor can open the shared lesson but cannot see another visito
       })
     ).status(),
   ).toBe(200);
+  const unauthed = await browser.newContext();
+  try {
+    const denied = await unauthed.request.get(
+      `http://127.0.0.1:4173/api/v1/study-contents/${lesson.id}`,
+    );
+    expect(denied.status()).toBe(401);
+  } finally {
+    await unauthed.close();
+  }
+
   const other = await browser.newContext();
   try {
-    await other.request.get('http://127.0.0.1:4173/api/v1/session');
-    const shared = await (
-      await other.request.get(`http://127.0.0.1:4173/api/v1/study-contents/${lesson.id}`)
-    ).json();
-    expect(shared.data.source).toBe(vocab);
-    expect(shared.data.progress).toEqual({});
+    await other.request.post('http://127.0.0.1:4173/api/v1/auth/login', {
+      headers: { Origin: 'http://127.0.0.1:4173' },
+      data: { username: 'yentr', password: '1' },
+    });
+    const notFound = await other.request.get(
+      `http://127.0.0.1:4173/api/v1/study-contents/${lesson.id}`,
+    );
+    expect(notFound.status()).toBe(404);
+
     const forbidden = await other.request.post('http://127.0.0.1:4173/api/v1/study-contents', {
       headers: { Origin: 'https://example.com' },
       data: { tool: 'instant', source: vocab, language: 'en', requestId: crypto.randomUUID() },
@@ -115,11 +127,8 @@ test('different visitor can open the shared lesson but cannot see another visito
     await other.close();
   }
 });
-test('saved lesson deletion requires confirmation and removes it for every visitor', async ({
-  page,
-}) => {
+test('saved lesson log deletion requires confirmation and removes log record', async ({ page }) => {
   await page.goto('/');
-  await page.request.get('/api/v1/session');
   const title = `Bài cần xóa ${crypto.randomUUID()}`;
   const source = vocab.replace('shared', title);
   const result = await page.request.post('/api/v1/study-contents', {
@@ -143,28 +152,21 @@ test('saved lesson deletion requires confirmation and removes it for every visit
     .getByRole('button', { name: 'Xóa vĩnh viễn' })
     .click();
   await expect(row).toHaveCount(0);
-  expect((await page.request.get(`/api/v1/study-contents/${lesson.id}`)).status()).toBe(404);
-  expect(
-    (
-      await page.request.delete(`/api/v1/study-contents/${lesson.id}`, {
-        headers: { Origin: 'http://127.0.0.1:4173' },
-      })
-    ).status(),
-  ).toBe(404);
+  expect((await page.request.get(`/api/v1/study-contents/${lesson.id}`)).status()).toBe(200);
 });
 test('delete rejects missing sessions and cross-origin requests', async ({ page, browser }) => {
   await page.goto('/');
-  await page.request.get('/api/v1/session');
   const created = await page.request.post('/api/v1/study-contents', {
     headers: { Origin: 'http://127.0.0.1:4173' },
     data: { tool: 'instant', source: vocab, language: 'en', requestId: crypto.randomUUID() },
   });
   const { data: lesson } = await created.json();
+  const logsRes = await page.request.get('/api/v1/study-logs?tool=instant');
+  const logId = (await logsRes.json()).data[0].id;
   const noSession = await browser.newContext();
   try {
-    await noSession.request.get('http://127.0.0.1:4173/api/v1/session');
     const forbidden = await noSession.request.delete(
-      `http://127.0.0.1:4173/api/v1/study-contents/${lesson.id}`,
+      `http://127.0.0.1:4173/api/v1/study-logs/${logId}`,
       { headers: { Origin: 'https://example.com' } },
     );
     expect(forbidden.status()).toBe(403);
@@ -174,7 +176,7 @@ test('delete rejects missing sessions and cross-origin requests', async ({ page,
   const unauthenticated = await browser.newContext();
   try {
     const denied = await unauthenticated.request.delete(
-      `http://127.0.0.1:4173/api/v1/study-contents/${lesson.id}`,
+      `http://127.0.0.1:4173/api/v1/study-logs/${logId}`,
       { headers: { Origin: 'http://127.0.0.1:4173' } },
     );
     expect(denied.status()).toBe(401);

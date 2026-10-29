@@ -1,10 +1,10 @@
-TL;DR Nội dung học chạy từ Turso qua API Next.js; thư viện dùng chung, không cần đăng nhập. Không lưu nội dung vào localStorage/sessionStorage hoặc bundle.
+TL;DR Nội dung học chạy từ Turso qua API Next.js; hệ thống quản lý dữ liệu theo từng tài khoản (`thanhpv`, `yentr`). Toàn bộ dữ liệu trước đây thuộc về tài khoản `thanhpv`. Không lưu nội dung vào localStorage/sessionStorage hoặc bundle.
 
 # Dữ liệu và quyền truy cập
 
-Chủ dự án chọn thư viện dùng chung ngày 2026-10-24. Nội dung hiện tại đã parse công khai cho mọi người mở website. Theo yêu cầu mới ngày 2026-10-24, danh sách Lịch sử nhập là log: bấm một log sẽ lấy source và parse lại để nạp nội dung hiện tại; xóa chỉ xóa record nhập đó, không xóa study_contents hoặc study_progress. Cả tạo và xóa log cần cùng origin và phiên ẩn danh; nội dung tạo được giới hạn và parse lại ở server. Không có endpoint xóa study_contents hoặc sửa.
+Hệ thống hỗ trợ 2 tài khoản đăng nhập: `thanhpv` (dữ liệu chính) và `yentr` (dữ liệu cá nhân riêng). Khi mở app, người dùng được yêu cầu đăng nhập. Toàn bộ dữ liệu học tập cá nhân (bài học, lịch sử nhập log, tiến độ học) được phân lập theo từng tài khoản thông qua trường `library_id` (`thanhpv` hoặc `yentr`). Danh mục `study_catalog` (IELTS, mẫu câu, Markdown ví dụ) là tài nguyên chung.
 
-Cookie HttpOnly/SameSite Strict chỉ chứa ID ngẫu nhiên của phiên, không chứa bài học. Tiến độ, đáp án và ôn sau nằm trên DB, tách theo cookie để hai người không ghi đè kết quả. Cookie Secure trên HTTPS; mất cookie tạo phiên mới, không khôi phục tiến độ xuyên thiết bị vì chưa có tài khoản. Thư viện bài vẫn dùng chung trên mọi thiết bị. Âm lượng là tùy chọn giao diện, có thể giữ localStorage; nội dung học không dùng storage local.
+Cookie HttpOnly/SameSite Strict (`kotoba-auth-token`) chứa token phiên có chữ ký HMAC bảo mật để xác thực tài khoản. Tiến độ, đáp án và nội dung học tập nằm trên Turso DB, tách biệt tuyệt đối theo tài khoản để không ghi đè kết quả của nhau. Cookie Secure trên HTTPS; mất cookie cần đăng nhập lại. Âm lượng là tùy chọn giao diện, có thể giữ localStorage; nội dung học không dùng storage local.
 
 Nguồn contract runtime: src/contracts/study-contract.ts (Zod). `npm run contracts:generate` sinh contracts/openapi.yaml (JSON hợp lệ YAML, OpenAPI 3.1.0). Backend Node.js 22 + TypeScript chạy Next.js Route Handlers trên Vercel. API → service → repository; token chỉ ở server. API dùng JSON data/meta hoặc error/meta, request ID, cursor 20/mặc định, tối đa 100.
 

@@ -67,6 +67,18 @@ export const CreateLesson = z
     requestId: z.uuid(),
   })
   .strict();
+export const LoginInput = z
+  .object({
+    username: z.string().trim().min(1),
+    password: z.string().min(1),
+  })
+  .strict();
+export const UserInfo = z
+  .object({
+    username: z.string(),
+    name: z.string(),
+  })
+  .strict();
 export const LessonSummary = z.object({
   id: z.uuid(),
   tool: StudyTool,
@@ -102,7 +114,12 @@ export const ListQuery = z
     cursor: z.string().max(500).optional(),
   })
   .strict();
-export const CatalogKey = z.enum(['ielts', 'markdown-example', 'word-order-example']);
+export const CatalogKey = z.enum([
+  'ielts',
+  'markdown-example',
+  'word-order-example',
+  'work-english-30',
+]);
 export const Meta = z.object({ requestId: z.string() });
 export const Page = z.object({
   limit: z.number(),

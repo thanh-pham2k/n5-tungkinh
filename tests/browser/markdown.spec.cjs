@@ -16,10 +16,10 @@ test('mobile Markdown renders Mermaid and quiz, persists source and supports dar
   await openMobileEditor(page, lesson);
   await expect(page.locator('#lesson-output h1')).toHaveText('Bài học');
   await expect(page.locator('#lesson-output svg')).toBeVisible();
-  await page.locator('.lesson-option').nth(1).click();
+  await page.locator('.lesson-option').filter({ hasText: '2' }).click();
   await expect(page.locator('.lesson-option.is-correct')).toBeVisible();
   await page.locator('.lesson-deck').getByRole('button', { name: 'Tiếp →', exact: true }).click();
-  await page.locator('.lesson-option').first().click();
+  await page.locator('.lesson-option').filter({ hasText: '4' }).click();
   await page
     .locator('.lesson-deck')
     .getByRole('button', { name: 'Xem kết quả', exact: true })
@@ -64,4 +64,103 @@ test('desktop live editor, divider keyboard, file open and print layout', async 
   await page.emulateMedia({ media: 'print' });
   await expect(page.locator('.preview-toolbar')).toBeHidden();
   await expect(page.locator('#lesson-output h1')).toBeVisible();
+});
+test('mixed exercises grade, persist and retry on mobile', async ({ page }) => {
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  await openMobileEditor(
+    page,
+    '# Mixed\n\n```quiz\na | single_choice | Pick | Yes | No | 1 | Yes.\nb | word_order | Order | She / goes / home | She goes home. | Correct.\nc | typing | Translate | She goes home. | Correct.\n```',
+  );
+  const deck = page.locator('.lesson-deck');
+  await deck.locator('.lesson-option').filter({ hasText: 'Yes' }).click();
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await deck.getByRole('button', { name: 'She', exact: true }).click();
+  await deck.getByRole('button', { name: 'goes', exact: true }).click();
+  await deck.getByRole('button', { name: 'home', exact: true }).click();
+  await deck.getByRole('button', { name: 'Kiểm tra' }).click();
+  await expect(deck).toContainText('Chính xác!');
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await deck.getByLabel('Câu trả lời').fill('she GOES home');
+  await deck.getByLabel('Câu trả lời').press('Enter');
+  await expect(deck).toContainText('Chính xác!');
+  await deck.getByRole('button', { name: 'Xem kết quả' }).click();
+  await expect(deck).toContainText('Đúng 3/3');
+  await deck.getByRole('button', { name: 'Luyện lại bộ này' }).click();
+  await expect(deck.locator('input:checked')).toHaveCount(0);
+});
+test('work English course opens a lesson and navigates between days', async ({ page }) => {
+  await page.goto('/markdown/?course=1');
+  await expect(page.getByRole('heading', { name: 'Ngày 1: Giới thiệu bản thân' })).toBeVisible();
+  await expect(page.locator('.lesson-deck h3')).toContainText('1 / 10');
+  await expect(page.locator('.lesson-dots button')).toHaveCount(10);
+  await page.getByLabel('Chọn ngày học').selectOption('2');
+  await expect(page.getByRole('heading', { name: 'Ngày 2: Mô tả công việc' })).toBeVisible();
+  await expect(page.locator('.lesson-deck')).toContainText('Nói: Tôi làm việc với trang web.');
+});
+
+test('work English lesson fits desktop and mobile', async ({ page }) => {
+  for (const width of [360, 430, 1280]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('/markdown/?course=15');
+    await expect(page.getByRole('heading', { name: 'Ngày 15: Đề xuất giải pháp' })).toBeVisible();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
+      true,
+    );
+  }
+});
+test('word order shuffles on opening and retry but remains stable while selecting', async ({
+  page,
+}) => {
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  await page.evaluate(() => {
+    Math.random = () => 0;
+  });
+  await openMobileEditor(
+    page,
+    '```quiz\nq | word_order | Xếp câu | One / two / three | One two three | Đúng thứ tự.\n```',
+  );
+  const deck = page.locator('.lesson-deck');
+  const choices = deck.locator('.lesson-order-tokens').nth(1);
+  await expect(choices.locator('button')).toHaveText(['two', 'three', 'One']);
+  await choices.getByRole('button', { name: 'two', exact: true }).click();
+  await expect(choices.locator('button')).toHaveText(['three', 'One']);
+  await deck.getByRole('button', { name: 'Xem kết quả' }).click();
+  await page.evaluate(() => {
+    Math.random = () => 0.999;
+  });
+  await deck.getByRole('button', { name: 'Luyện lại bộ này' }).click();
+  await expect(choices.locator('button')).toHaveText(['One', 'two', 'three']);
+});
+test('choice shuffle preserves original answers across navigation and retry', async ({ page }) => {
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  await page.evaluate(() => {
+    Math.random = () => 0;
+  });
+  await openMobileEditor(
+    page,
+    '```quiz\na | single_choice | Pick | Alpha | Beta | Gamma | 2 | Beta đúng.\nb | single_choice | Next | Yes | No | 1 | Yes đúng.\n```',
+  );
+  const deck = page.locator('.lesson-deck');
+  await expect(deck.locator('.lesson-option')).toContainText(['Beta', 'Gamma', 'Alpha']);
+  await deck.locator('.lesson-option').filter({ hasText: 'Beta' }).click();
+  await expect(deck.locator('.lesson-option.is-correct')).toContainText('Beta');
+  await expect(deck.locator('.lesson-option input:checked')).toBeFocused();
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await page.evaluate(() => {
+    Math.random = () => 0.999;
+  });
+  await deck.getByRole('button', { name: '← Trước' }).click();
+  await expect(deck.locator('.lesson-option')).toContainText(['Alpha', 'Beta', 'Gamma']);
+  await expect(deck.locator('.lesson-option.is-correct')).toContainText('Beta');
+  await expect(
+    deck.locator('.lesson-option').filter({ hasText: 'Beta' }).locator('input'),
+  ).toBeChecked();
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await deck.getByRole('button', { name: 'Xem kết quả' }).click();
+  await expect(deck).toContainText('Đúng 1/2');
+  await deck.getByRole('button', { name: 'Luyện lại bộ này' }).click();
+  await expect(deck.locator('.lesson-option input:checked')).toHaveCount(0);
 });

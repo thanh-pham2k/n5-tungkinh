@@ -1,12 +1,14 @@
 'use client';
 import { useCallback, useEffect, useState } from 'react';
-import { Button, Dialog } from './ui/primitives';
+import { Button, Dialog, Status } from './ui/primitives';
 import InstantVocab from './study/instant-vocab';
 import VocabReview from './study/vocab-review';
 import WordOrder from './study/word-order';
 import { SentenceStructures, SpeakingQuestions } from './study/reference-panels';
 import WritingReview from './study/writing-review';
 import MultipleChoice from './study/multiple-choice';
+import LoginView from './auth/login-view';
+import useAuth from '../hooks/use-auth';
 import { createLesson } from '../services/study-library-client';
 import { serializeCsv } from '../services/answer-service';
 
@@ -77,6 +79,7 @@ const DEFAULT_SETTINGS = {
   delay: 0.5,
 };
 export default function StudyApp() {
+  const { user, loading: authLoading, logout, setUser } = useAuth();
   const [tool, setTool] = useState('instant'),
     [focus, setFocus] = useState(false),
     [menu, setMenu] = useState(false),
@@ -166,6 +169,14 @@ export default function StudyApp() {
       ))}
       <a
         className="nav-item"
+        href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/markdown/?course=1`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span aria-hidden="true">✎</span>Tiếng Anh công việc · 30 ngày ↗
+      </a>
+      <a
+        className="nav-item"
         href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/markdown/`}
         target="_blank"
         rel="noopener noreferrer"
@@ -175,6 +186,21 @@ export default function StudyApp() {
       </a>
     </>
   );
+
+  if (authLoading) {
+    return (
+      <div className="login-screen">
+        <div className="login-card" style={{ textAlign: 'center' }}>
+          <Status>Đang kiểm tra phiên đăng nhập…</Status>
+        </div>
+      </div>
+    );
+  }
+
+  if (!user) {
+    return <LoginView onLoginSuccess={setUser} />;
+  }
+
   return (
     <div className={`app-shell ${focus ? 'focus-mode' : ''}`}>
       <a className="skip-link" href="#study-content">
@@ -191,6 +217,21 @@ export default function StudyApp() {
           </span>
         </a>
         <nav aria-label="Công cụ học">{nav}</nav>
+        <div className="sidebar-user">
+          <div className="user-profile">
+            <span className="user-chip" aria-label={`Tài khoản ${user.username}`}>
+              <span aria-hidden="true">👤</span> {user.name}
+            </span>
+          </div>
+          <Button
+            variant="secondary"
+            className="button-logout"
+            onClick={logout}
+            aria-label="Đăng xuất"
+          >
+            Đăng xuất
+          </Button>
+        </div>
         <p className="sidebar-note">
           日本語 · English · IELTS
           <br />
@@ -215,6 +256,12 @@ export default function StudyApp() {
                 ☰ Công cụ
               </Button>
             )}
+            <span className="user-chip" title={`Tài khoản: ${user.name}`}>
+              <span aria-hidden="true">👤</span> {user.name}
+            </span>
+            <Button className="button-logout" onClick={logout} aria-label="Đăng xuất">
+              Đăng xuất
+            </Button>
             <Button onClick={() => setFocus(!focus)} aria-pressed={focus}>
               {focus ? '× Thoát Focus' : '⛶ Focus'}
             </Button>
@@ -296,6 +343,31 @@ export default function StudyApp() {
       )}
       <Dialog open={menu} onClose={() => setMenu(false)} title="Bạn muốn luyện gì?">
         {nav}
+        <div
+          className="mobile-user-actions"
+          style={{
+            marginTop: 'var(--space-4)',
+            paddingTop: 'var(--space-3)',
+            borderTop: 'var(--border)',
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+          }}
+        >
+          <span className="user-chip">
+            <span aria-hidden="true">👤</span> {user.name}
+          </span>
+          <Button
+            className="button-logout"
+            onClick={() => {
+              setMenu(false);
+              logout();
+            }}
+            aria-label="Đăng xuất khỏi tài khoản"
+          >
+            Đăng xuất
+          </Button>
+        </div>
       </Dialog>
       <Dialog
         open={settingsOpen}

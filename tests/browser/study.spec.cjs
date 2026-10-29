@@ -27,6 +27,7 @@ test.beforeEach(async ({ page }) => {
     route.fulfill({ status: 503, body: 'Unavailable in deterministic UI test' }),
   );
   await page.goto('/');
+  await expect(page.locator('.app-shell')).toBeVisible();
 });
 test.afterEach(async ({ page }) => {
   expect(errors.get(page)).toEqual([]);

@@ -17,6 +17,7 @@ const catalog = {
   ielts: JSON.parse(raw.replace(/^\s*window\.IELTS_PRACTICE\s*=\s*/, '').replace(/;\s*$/, '')),
   'markdown-example': await readFile('database/seed/markdown-example.md', 'utf8'),
   'word-order-example': await readFile('database/seed/word-order-example.txt', 'utf8'),
+  'work-english-30': JSON.parse(await readFile('database/seed/work-english-30.json', 'utf8')),
 };
 await db.batch(
   Object.entries(catalog).map(([id, data]) => ({
