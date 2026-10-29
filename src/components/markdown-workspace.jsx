@@ -18,6 +18,7 @@ export default function MarkdownWorkspace() {
   const [error, setError] = useState('');
   const [focusMode, setFocusMode] = useState(false);
   const [course, setCourse] = useState([]);
+  const [courseList, setCourseList] = useState(false);
   const [courseStart, setCourseStart] = useState(1);
   const [reviewTimes, setReviewTimes] = useState({});
   const [clock, setClock] = useState(0);
@@ -34,12 +35,13 @@ export default function MarkdownWorkspace() {
   useEffect(() => {
     function handleKeyDown(event) {
       if (event.key === 'Escape' && focusMode) {
-        setFocusMode(false);
+        if (course.length) window.location.href = '?course=list';
+        else setFocusMode(false);
       }
     }
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [focusMode]);
+  }, [focusMode, course.length]);
   useEffect(() => {
     if (!user) return;
     let disposed = false,
@@ -144,8 +146,10 @@ export default function MarkdownWorkspace() {
           readCatalog('work-english-30')
             .then(async (items) => {
               if (disposed) return;
-              setCourse(items);
-              const item = items.find((entry) => String(entry.day) === requestedDay);
+              const item =
+                requestedDay === 'list'
+                  ? items[0]
+                  : items.find((entry) => String(entry.day) === requestedDay);
               if (!item) throw new Error('Không tìm thấy bài học này.');
               const record = await libraryRef.current.save(item.source, 'en');
               if (item.day === 1) courseAnchor = record;
@@ -178,8 +182,11 @@ export default function MarkdownWorkspace() {
                   });
               }
               if (!disposed) {
+                setCourse(items);
                 courseSourceRef.current = item.source;
                 activeCourse = { day: item.day, count: items.length, source: item.source };
+                setCourseList(requestedDay === 'list');
+                setFocusMode(requestedDay !== 'list');
                 setReviewTimes(courseAnchor.progress?.courseReviewTimes || {});
                 const nextDay = courseAnchor.progress?.courseNextDay;
                 setCourseStart(
@@ -193,7 +200,9 @@ export default function MarkdownWorkspace() {
               }
             })
             .catch((error) => {
-              if (!disposed) setError(error.message);
+              if (!disposed) {
+                setError(error.message);
+              }
             });
         }
         upgraded
@@ -238,16 +247,42 @@ export default function MarkdownWorkspace() {
   }
 
   return (
-    <div className={`markdown-page ${focusMode ? 'reading-focus' : ''}`}>
+    <div
+      className={`markdown-page ${focusMode ? 'reading-focus' : ''} ${courseList ? 'course-list-open' : ''}`}
+    >
+      {courseList && (
+        <main className="course-list" aria-labelledby="course-list-title">
+          <a className="button" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/`}>
+            ← Công cụ học
+          </a>
+          <h1 id="course-list-title">Tiếng Anh công việc · 30 ngày</h1>
+          <p>Chọn bài để đọc và luyện tập.</p>
+          <ol>
+            {[...course.slice(courseStart - 1), ...course.slice(0, courseStart - 1)].map((item) => (
+              <li key={item.day}>
+                <a href={`?course=${item.day}`}>
+                  <strong>
+                    Ngày {item.day}: {item.title}
+                  </strong>
+                  <span>{formatReviewTime(reviewTimes[item.day], clock)}</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </main>
+      )}
       {focusMode && (
         <button
           type="button"
           className="exit-focus-btn button"
-          onClick={() => setFocusMode(false)}
+          onClick={() => {
+            if (course.length) window.location.href = '?course=list';
+            else setFocusMode(false);
+          }}
           title="Thoát chế độ đọc tập trung (Esc)"
           aria-label="Thoát chế độ đọc tập trung"
         >
-          ✕ Thoát đọc tập trung
+          {course.length ? '← Danh sách bài học' : '✕ Thoát đọc tập trung'}
         </button>
       )}
       <header className="preview-toolbar">
@@ -311,6 +346,11 @@ export default function MarkdownWorkspace() {
               )}
             </select>
           </label>
+        )}
+        {course.length > 0 && (
+          <a className="button" href="?course=list">
+            Danh sách bài học
+          </a>
         )}
         <Button id="lesson-edit">Nhập Markdown</Button>
         <Button

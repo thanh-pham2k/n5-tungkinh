@@ -475,3 +475,47 @@ body.dark .lesson-deck button[aria-current='step'] {
   background: var(--paper);
   overflow-wrap: anywhere;
 }
+
+.course-list-open .preview-toolbar,
+.course-list-open .preview-workspace,
+.course-list-open #markdown-loading {
+  display: none;
+}
+.course-list {
+  flex: 1;
+  overflow-y: auto;
+  width: min(100%, 800px);
+  margin-inline: auto;
+  padding: var(--space-4);
+}
+.course-list h1 {
+  margin-bottom: var(--space-2);
+}
+.course-list ol {
+  list-style: none;
+  margin: var(--space-4) 0;
+  padding: 0;
+  border: var(--border);
+}
+.course-list li + li {
+  border-top: var(--border);
+}
+.course-list li a {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 56px;
+  padding: var(--space-3);
+  color: var(--ink);
+  text-decoration: none;
+  background: var(--paper);
+}
+.course-list li a:hover {
+  background: var(--subtle);
+}
+.course-list li span {
+  color: var(--muted);
+  font-size: var(--text-sm);
+}

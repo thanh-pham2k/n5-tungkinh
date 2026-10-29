@@ -169,7 +169,7 @@ export default function StudyApp() {
       ))}
       <a
         className="nav-item"
-        href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/markdown/?course=1`}
+        href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/markdown/?course=list`}
         target="_blank"
         rel="noopener noreferrer"
       >

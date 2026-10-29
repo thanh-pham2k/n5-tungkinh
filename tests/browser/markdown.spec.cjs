@@ -94,7 +94,8 @@ test('work English course opens a lesson and navigates between days', async ({ p
   await expect(page.getByRole('heading', { name: 'Ngày 1: Giới thiệu bản thân' })).toBeVisible();
   await expect(page.locator('.lesson-deck h3')).toContainText('1 / 10');
   await expect(page.locator('.lesson-dots button')).toHaveCount(10);
-  await page.getByLabel('Chọn ngày học').selectOption('2');
+  await page.getByRole('button', { name: 'Thoát chế độ đọc tập trung' }).click();
+  await page.getByRole('link', { name: /Ngày 2: Mô tả công việc/ }).click();
   await expect(page.getByRole('heading', { name: 'Ngày 2: Mô tả công việc' })).toBeVisible();
   await expect(page.locator('.lesson-deck')).toContainText('Nói: Tôi làm việc với trang web.');
 });
@@ -241,7 +242,11 @@ test('completed course day rotates menu, survives reload, and wraps after day 30
     await expect(page.getByRole('heading', { name: new RegExp(`Ngày ${day}:`) })).toBeVisible();
     if (day === 30)
       await expect
-        .poll(() => page.getByLabel('Chọn ngày học').evaluate((select) => select.options[0].value))
+        .poll(() =>
+          page
+            .locator('select[aria-label="Chọn ngày học"]')
+            .evaluate((select) => select.options[0].value),
+        )
         .toBe('2');
     const deck = page.locator('.lesson-deck');
     const quizzes = parse(lessons[day - 1].source).find((b) => b.type === 'deck').quizzes;
@@ -267,7 +272,11 @@ test('completed course day rotates menu, survives reload, and wraps after day 30
   await page.locator('.lesson-deck').getByRole('button', { name: 'Câu 10', exact: true }).click();
   await page.locator('.lesson-deck').getByRole('button', { name: 'Xem kết quả' }).click();
   await expect
-    .poll(() => page.getByLabel('Chọn ngày học').evaluate((select) => select.options[0].value))
+    .poll(() =>
+      page
+        .locator('select[aria-label="Chọn ngày học"]')
+        .evaluate((select) => select.options[0].value),
+    )
     .toBe('1');
   await expect(page.locator('select[aria-label="Chọn ngày học"] option[value="1"]')).toContainText(
     'Chưa có thời gian ôn',
@@ -277,11 +286,19 @@ test('completed course day rotates menu, survives reload, and wraps after day 30
     'Vừa ôn xong',
   );
   await expect
-    .poll(() => page.getByLabel('Chọn ngày học').evaluate((select) => select.options[0].value))
+    .poll(() =>
+      page
+        .locator('select[aria-label="Chọn ngày học"]')
+        .evaluate((select) => select.options[0].value),
+    )
     .toBe('2');
   await page.reload();
   await expect
-    .poll(() => page.getByLabel('Chọn ngày học').evaluate((select) => select.options[0].value))
+    .poll(() =>
+      page
+        .locator('select[aria-label="Chọn ngày học"]')
+        .evaluate((select) => select.options[0].value),
+    )
     .toBe('2');
   await expect(page.locator('select[aria-label="Chọn ngày học"] option[value="1"]')).toContainText(
     'Vừa ôn xong',
@@ -291,6 +308,36 @@ test('completed course day rotates menu, survives reload, and wraps after day 30
     'Vừa ôn xong',
   );
   await expect
-    .poll(() => page.getByLabel('Chọn ngày học').evaluate((select) => select.options[0].value))
+    .poll(() =>
+      page
+        .locator('select[aria-label="Chọn ngày học"]')
+        .evaluate((select) => select.options[0].value),
+    )
     .toBe('1');
+});
+
+test('course list displays review times and opens a focused lesson', async ({ page }) => {
+  for (const width of [390, 1280]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('/markdown/?course=list');
+    await expect(
+      page.getByRole('heading', { name: 'Tiếng Anh công việc · 30 ngày' }),
+    ).toBeVisible();
+    const list = page.locator('.course-list');
+    await expect(list.locator('li')).toHaveCount(30);
+    await expect(list.getByRole('link', { name: /Ngày 1: Giới thiệu bản thân/ })).toContainText(
+      'Chưa có thời gian ôn',
+    );
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
+      true,
+    );
+    await list.getByRole('link', { name: /Ngày 1: Giới thiệu bản thân/ }).click();
+    await expect(page.getByRole('heading', { name: 'Ngày 1: Giới thiệu bản thân' })).toBeVisible();
+    await expect(page.locator('.markdown-page')).toHaveClass(/reading-focus/);
+    await expect(page.locator('.source-pane')).toBeHidden();
+    await page.getByRole('button', { name: 'Thoát chế độ đọc tập trung' }).click();
+    await expect(
+      page.getByRole('heading', { name: 'Tiếng Anh công việc · 30 ngày' }),
+    ).toBeVisible();
+  }
 });
