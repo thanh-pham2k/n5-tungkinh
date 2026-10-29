@@ -108,6 +108,16 @@ export default function MarkdownWorkspace() {
         const params = new URLSearchParams(window.location.hash.slice(1));
         const nonce = params.get('psa-import');
         const parentOrigin = params.get('origin');
+        const directSource = params.get('psa-content');
+        if (directSource?.trim()) {
+          const source = document.getElementById('lesson-source');
+          if (source) {
+            courseSourceRef.current = null;
+            source.value = directSource;
+            source.dispatchEvent(new Event('input', { bubbles: true }));
+            history.replaceState(null, '', window.location.pathname + window.location.search);
+          }
+        }
         if (nonce && parentOrigin && window.opener) {
           const opener = window.opener;
           const replyOrigin = parentOrigin === 'null' ? '*' : parentOrigin;
