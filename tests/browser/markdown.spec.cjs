@@ -184,3 +184,24 @@ test('typing shows the matching word-order chunks without changing old standalon
   await deck.getByRole('button', { name: 'Tiếp →' }).click();
   await expect(deck.getByLabel('Cụm từ gợi ý')).toHaveCount(0);
 });
+
+test('real day-one typing shows its three word-order chunks on mobile and desktop', async ({
+  page,
+}) => {
+  for (const width of [390, 1280]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('/markdown/?course=1');
+    await expect(page.getByRole('heading', { name: 'Ngày 1: Giới thiệu bản thân' })).toBeVisible();
+    const deck = page.locator('.lesson-deck');
+    await deck.getByRole('button', { name: 'Tiếp →' }).click();
+    const hints = deck.getByLabel('Cụm từ gợi ý');
+    await expect(hints).toBeVisible();
+    await expect(hints.locator('span')).toHaveCount(3);
+    expect((await hints.locator('span').allTextContents()).sort()).toEqual(
+      ['I', 'a developer.', 'am'].sort(),
+    );
+    await deck.getByLabel('Câu trả lời').fill('I am a developer.');
+    await deck.getByRole('button', { name: 'Kiểm tra' }).click();
+    await expect(deck).toContainText('Chính xác!');
+  }
+});

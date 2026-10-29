@@ -115,6 +115,12 @@ test('work English course has 30 valid lessons and matching order answers', () =
     assert.equal(quizzes.length, 10);
     assert.equal(quizzes.filter((q) => q.type === 'word_order').length, 5);
     assert.equal(quizzes.filter((q) => q.type === 'typing').length, 5);
+    for (let i = 1; i < quizzes.length; i += 2) {
+      assert.equal(quizzes[i - 1].type, 'word_order', lesson.title);
+      assert.equal(quizzes[i].type, 'typing', lesson.title);
+      assert.equal(quizzes[i].question, quizzes[i - 1].question, lesson.title);
+      assert.equal(quizzes[i].answer, quizzes[i - 1].answer, lesson.title);
+    }
     quizzes
       .filter((q) => q.type === 'word_order')
       .forEach((q) =>
