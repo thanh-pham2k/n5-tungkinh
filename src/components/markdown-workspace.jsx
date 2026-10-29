@@ -102,6 +102,32 @@ export default function MarkdownWorkspace() {
         });
         const loadingEl = document.getElementById('markdown-loading');
         if (loadingEl) loadingEl.hidden = true;
+        // Accept a single import only from the window that opened this workspace.
+        const params = new URLSearchParams(window.location.hash.slice(1));
+        const nonce = params.get('psa-import');
+        const parentOrigin = params.get('origin');
+        if (nonce && parentOrigin && window.opener) {
+          const opener = window.opener;
+          const replyOrigin = parentOrigin === 'null' ? '*' : parentOrigin;
+          const receiveImport = (event) => {
+            if (event.source !== opener || event.origin !== parentOrigin ||
+                event.data?.type !== 'psa-markdown-import' || event.data?.nonce !== nonce ||
+                typeof event.data.source !== 'string' || !event.data.source.trim()) return;
+            window.removeEventListener('message', receiveImport);
+            const source = document.getElementById('lesson-source');
+            if (!source) return;
+            courseSourceRef.current = null;
+            source.value = event.data.source;
+            source.dispatchEvent(new Event('input', { bubbles: true }));
+            opener.postMessage({ type: 'kotoba-import-received', nonce }, replyOrigin);
+            history.replaceState(null, '', window.location.pathname + window.location.search);
+          };
+          window.addEventListener('message', receiveImport);
+          const previousCleanup = cleanup;
+          cleanup = () => { window.removeEventListener('message', receiveImport); previousCleanup?.(); };
+          opener.postMessage({ type: 'kotoba-import-ready', nonce }, replyOrigin);
+        }
+
         // One-time upgrade of the old local draft. Never delete it before DB acknowledgement.
         let legacy;
         try {
