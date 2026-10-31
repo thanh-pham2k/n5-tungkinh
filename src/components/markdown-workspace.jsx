@@ -114,6 +114,7 @@ export default function MarkdownWorkspace() {
           if (source) {
             courseSourceRef.current = null;
             source.value = directSource;
+            setFocusMode(true);
             source.dispatchEvent(new Event('input', { bubbles: true }));
             history.replaceState(null, '', window.location.pathname + window.location.search);
           }
