@@ -348,5 +348,341 @@
     "label": "Mini Checkpoint",
     "title": "Modal Basics",
     "file": "phase-02-talk-about-life/module-06-modal-basics/06-checkpoint.md"
+  },
+  {
+    "id": "p3-m11-01-lesson",
+    "phase": 3,
+    "module": 11,
+    "label": "Lesson 1",
+    "title": "Tính từ mô tả",
+    "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/01-lesson.md"
+  },
+  {
+    "id": "p3-m11-02-lesson",
+    "phase": 3,
+    "module": 11,
+    "label": "Lesson 2",
+    "title": "Trạng từ trong câu",
+    "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/02-lesson.md"
+  },
+  {
+    "id": "p3-m11-03-checkpoint",
+    "phase": 3,
+    "module": 11,
+    "label": "Mini Checkpoint",
+    "title": "Adjectives & Adverbs",
+    "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/03-checkpoint.md"
+  },
+  {
+    "id": "p3-m12-01-lesson",
+    "phase": 3,
+    "module": 12,
+    "label": "Lesson 1",
+    "title": "Thời gian và địa điểm",
+    "file": "phase-03-expand-ideas/module-12-prepositions/01-lesson.md"
+  },
+  {
+    "id": "p3-m12-02-lesson",
+    "phase": 3,
+    "module": 12,
+    "label": "Lesson 2",
+    "title": "Di chuyển và quan hệ",
+    "file": "phase-03-expand-ideas/module-12-prepositions/02-lesson.md"
+  },
+  {
+    "id": "p3-m12-03-checkpoint",
+    "phase": 3,
+    "module": 12,
+    "label": "Mini Checkpoint",
+    "title": "Prepositions",
+    "file": "phase-03-expand-ideas/module-12-prepositions/03-checkpoint.md"
+  },
+  {
+    "id": "p3-m13-01-lesson",
+    "phase": 3,
+    "module": 13,
+    "label": "Lesson 1",
+    "title": "Danh từ và số lượng",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/01-lesson.md"
+  },
+  {
+    "id": "p3-m13-02-lesson",
+    "phase": 3,
+    "module": 13,
+    "label": "Lesson 2",
+    "title": "Hỏi và nói về số lượng",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/02-lesson.md"
+  },
+  {
+    "id": "p3-m13-03-checkpoint",
+    "phase": 3,
+    "module": 13,
+    "label": "Mini Checkpoint",
+    "title": "Countable / Uncountable",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/03-checkpoint.md"
+  },
+  {
+    "id": "p3-m14-01-lesson",
+    "phase": 3,
+    "module": 14,
+    "label": "Lesson 1",
+    "title": "So sánh hơn",
+    "file": "phase-03-expand-ideas/module-14-comparisons/01-lesson.md"
+  },
+  {
+    "id": "p3-m14-02-lesson",
+    "phase": 3,
+    "module": 14,
+    "label": "Lesson 2",
+    "title": "So sánh nhất",
+    "file": "phase-03-expand-ideas/module-14-comparisons/02-lesson.md"
+  },
+  {
+    "id": "p3-m14-03-checkpoint",
+    "phase": 3,
+    "module": 14,
+    "label": "Mini Checkpoint",
+    "title": "Comparisons",
+    "file": "phase-03-expand-ideas/module-14-comparisons/03-checkpoint.md"
+  },
+  {
+    "id": "p3-m15-01-lesson",
+    "phase": 3,
+    "module": 15,
+    "label": "Lesson 1",
+    "title": "Nối ý cơ bản",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/01-lesson.md"
+  },
+  {
+    "id": "p3-m15-02-lesson",
+    "phase": 3,
+    "module": 15,
+    "label": "Lesson 2",
+    "title": "Phát triển ý",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/02-lesson.md"
+  },
+  {
+    "id": "p3-m15-03-checkpoint",
+    "phase": 3,
+    "module": 15,
+    "label": "Mini Checkpoint",
+    "title": "Linking Ideas",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/03-checkpoint.md"
+  },
+  {
+    "id": "p3-m16-01-lesson",
+    "phase": 3,
+    "module": 16,
+    "label": "Lesson 1",
+    "title": "Cấu trúc và trải nghiệm",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/01-lesson.md"
+  },
+  {
+    "id": "p3-m16-02-lesson",
+    "phase": 3,
+    "module": 16,
+    "label": "Lesson 2",
+    "title": "Khoảng thời gian và quá khứ đơn",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/02-lesson.md"
+  },
+  {
+    "id": "p3-m16-03-checkpoint",
+    "phase": 3,
+    "module": 16,
+    "label": "Mini Checkpoint",
+    "title": "Present Perfect",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/03-checkpoint.md"
+  },
+  {
+    "id": "p3-m17-01-lesson",
+    "phase": 3,
+    "module": 17,
+    "label": "Lesson 1",
+    "title": "Mệnh đề trạng ngữ",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/01-lesson.md"
+  },
+  {
+    "id": "p3-m17-02-lesson",
+    "phase": 3,
+    "module": 17,
+    "label": "Lesson 2",
+    "title": "Bổ sung thông tin",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/02-lesson.md"
+  },
+  {
+    "id": "p3-m17-03-checkpoint",
+    "phase": 3,
+    "module": 17,
+    "label": "Mini Checkpoint",
+    "title": "Basic Complex Sentences",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/03-checkpoint.md"
+  },
+  {
+    "id": "p4-m18-01-lesson",
+    "phase": 4,
+    "module": 18,
+    "label": "Lesson 1",
+    "title": "Từ đến cụm từ",
+    "file": "phase-04-use-english/module-18-vocabulary-system/01-lesson.md"
+  },
+  {
+    "id": "p4-m18-02-lesson",
+    "phase": 4,
+    "module": 18,
+    "label": "Lesson 2",
+    "title": "Cụm từ trong ngữ cảnh",
+    "file": "phase-04-use-english/module-18-vocabulary-system/02-lesson.md"
+  },
+  {
+    "id": "p4-m18-03-checkpoint",
+    "phase": 4,
+    "module": 18,
+    "label": "Mini Checkpoint",
+    "title": "Vocabulary System",
+    "file": "phase-04-use-english/module-18-vocabulary-system/03-checkpoint.md"
+  },
+  {
+    "id": "p4-m19-01-lesson",
+    "phase": 4,
+    "module": 19,
+    "label": "Lesson 1",
+    "title": "Âm cuối và đuôi từ",
+    "file": "phase-04-use-english/module-19-pronunciation/01-lesson.md"
+  },
+  {
+    "id": "p4-m19-02-lesson",
+    "phase": 4,
+    "module": 19,
+    "label": "Lesson 2",
+    "title": "Trọng âm và shadowing",
+    "file": "phase-04-use-english/module-19-pronunciation/02-lesson.md"
+  },
+  {
+    "id": "p4-m19-03-checkpoint",
+    "phase": 4,
+    "module": 19,
+    "label": "Mini Checkpoint",
+    "title": "Pronunciation Foundation",
+    "file": "phase-04-use-english/module-19-pronunciation/03-checkpoint.md"
+  },
+  {
+    "id": "p4-m20-01-lesson",
+    "phase": 4,
+    "module": 20,
+    "label": "Lesson 1",
+    "title": "Nghe câu và hội thoại ngắn",
+    "file": "phase-04-use-english/module-20-listening/01-lesson.md"
+  },
+  {
+    "id": "p4-m20-02-lesson",
+    "phase": 4,
+    "module": 20,
+    "label": "Lesson 2",
+    "title": "Nghe hội thoại đời sống",
+    "file": "phase-04-use-english/module-20-listening/02-lesson.md"
+  },
+  {
+    "id": "p4-m20-03-checkpoint",
+    "phase": 4,
+    "module": 20,
+    "label": "Mini Checkpoint",
+    "title": "Listening Foundation",
+    "file": "phase-04-use-english/module-20-listening/03-checkpoint.md"
+  },
+  {
+    "id": "p4-m21-01-lesson",
+    "phase": 4,
+    "module": 21,
+    "label": "Lesson 1",
+    "title": "Ý chính và chi tiết",
+    "file": "phase-04-use-english/module-21-reading/01-lesson.md"
+  },
+  {
+    "id": "p4-m21-02-lesson",
+    "phase": 4,
+    "module": 21,
+    "label": "Lesson 2",
+    "title": "Ngữ cảnh và diễn đạt lại",
+    "file": "phase-04-use-english/module-21-reading/02-lesson.md"
+  },
+  {
+    "id": "p4-m21-03-checkpoint",
+    "phase": 4,
+    "module": 21,
+    "label": "Mini Checkpoint",
+    "title": "Reading Foundation",
+    "file": "phase-04-use-english/module-21-reading/03-checkpoint.md"
+  },
+  {
+    "id": "p4-m22-01-lesson",
+    "phase": 4,
+    "module": 22,
+    "label": "Lesson 1",
+    "title": "Mở rộng và liên kết câu",
+    "file": "phase-04-use-english/module-22-writing/01-lesson.md"
+  },
+  {
+    "id": "p4-m22-02-lesson",
+    "phase": 4,
+    "module": 22,
+    "label": "Lesson 2",
+    "title": "Viết đoạn ngắn",
+    "file": "phase-04-use-english/module-22-writing/02-lesson.md"
+  },
+  {
+    "id": "p4-m22-03-checkpoint",
+    "phase": 4,
+    "module": 22,
+    "label": "Mini Checkpoint",
+    "title": "Writing Foundation",
+    "file": "phase-04-use-english/module-22-writing/03-checkpoint.md"
+  },
+  {
+    "id": "p4-m23-01-lesson",
+    "phase": 4,
+    "module": 23,
+    "label": "Lesson 1",
+    "title": "Trả lời và nêu lý do",
+    "file": "phase-04-use-english/module-23-speaking/01-lesson.md"
+  },
+  {
+    "id": "p4-m23-02-lesson",
+    "phase": 4,
+    "module": 23,
+    "label": "Lesson 2",
+    "title": "Mở rộng câu trả lời",
+    "file": "phase-04-use-english/module-23-speaking/02-lesson.md"
+  },
+  {
+    "id": "p4-m23-03-checkpoint",
+    "phase": 4,
+    "module": 23,
+    "label": "Mini Checkpoint",
+    "title": "Speaking Foundation",
+    "file": "phase-04-use-english/module-23-speaking/03-checkpoint.md"
+  },
+  {
+    "id": "p4-m24-01-lesson",
+    "phase": 4,
+    "module": 24,
+    "label": "Lesson 1",
+    "title": "Tổng ôn câu và từ vựng",
+    "file": "phase-04-use-english/module-24-foundation-review/01-lesson.md"
+  },
+  {
+    "id": "p4-m24-02-lesson",
+    "phase": 4,
+    "module": 24,
+    "label": "Lesson 2",
+    "title": "Tổng ôn bốn kỹ năng",
+    "file": "phase-04-use-english/module-24-foundation-review/02-lesson.md"
+  },
+  {
+    "id": "p4-m24-03-checkpoint",
+    "phase": 4,
+    "module": 24,
+    "label": "Mini Checkpoint",
+    "title": "Foundation Review",
+    "file": "phase-04-use-english/module-24-foundation-review/03-checkpoint.md"
   }
 ]

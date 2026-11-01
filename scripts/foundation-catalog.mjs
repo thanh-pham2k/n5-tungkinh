@@ -14,3 +14,11 @@ async function loadPhase(phase) {
 }
 export const loadFoundationCatalog = () => loadPhase(1);
 export const loadPhase2Catalog = () => loadPhase(2);
+export const loadPhase3Catalog = () => loadPhase(3);
+export const loadPhase4Catalog = () => loadPhase(4);
+export const loadAllFoundationPhases = async () => [
+  ...(await loadPhase(1)),
+  ...(await loadPhase(2)),
+  ...(await loadPhase(3)),
+  ...(await loadPhase(4)),
+];

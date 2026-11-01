@@ -96,10 +96,14 @@ export default function Foundation() {
       {[
         {
           phase: 1,
+          title: 'Build Sentences',
+          startModule: 1,
           names: ['Basic Sentence Structure', 'Nouns & Pronouns', 'Be', 'Present Simple'],
         },
         {
           phase: 2,
+          title: 'Talk About Life',
+          startModule: 5,
           names: [
             'Questions',
             'Present Continuous',
@@ -109,16 +113,44 @@ export default function Foundation() {
             'Modal Basics',
           ],
         },
-      ].map(({ phase, names }) => (
+        {
+          phase: 3,
+          title: 'Expand Ideas',
+          startModule: 11,
+          names: [
+            'Adjectives & Adverbs',
+            'Prepositions',
+            'Countable / Uncountable',
+            'Comparisons',
+            'Linking Ideas',
+            'Present Perfect',
+            'Basic Complex Sentences',
+          ],
+        },
+        {
+          phase: 4,
+          title: 'Use English',
+          startModule: 18,
+          names: [
+            'Vocabulary System',
+            'Pronunciation Foundation',
+            'Listening Foundation',
+            'Reading Foundation',
+            'Writing Foundation',
+            'Speaking Foundation',
+            'Foundation Review',
+          ],
+        },
+      ].map(({ phase, title, startModule, names }) => (
         <details className="foundation-phase" key={phase}>
           <summary className="foundation-phase-toggle">
             <span>
-              Phase {phase} — {phase === 1 ? 'Build Sentences' : 'Talk About Life'}
+              Phase {phase} — {title}
             </span>
             <span className="foundation-phase-icon" aria-hidden="true" />
           </summary>
           {names.map((name, index) => {
-            const module = index + (phase === 1 ? 1 : 5);
+            const module = index + startModule;
             return (
               <section className="foundation-module" key={module}>
                 <p className="eyebrow">MODULE {module}</p>
