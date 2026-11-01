@@ -9,6 +9,7 @@ for (const viewport of [
   }) => {
     await page.setViewportSize(viewport);
     await page.goto('/foundation/');
+    await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
     const button = page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ });
     await button.click();
     const dialog = page.getByRole('dialog', {
@@ -54,6 +55,7 @@ test('completed lessons rotate behind uncompleted lessons and persist across rel
   });
   try {
     await page.goto('/foundation/');
+    await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
     const cards = page.locator('.foundation-lesson');
     await expect(cards).toHaveCount(2);
     await expect(cards.nth(0)).toContainText('Lesson 1');
@@ -68,6 +70,7 @@ test('completed lessons rotate behind uncompleted lessons and persist across rel
     await expect(cards.nth(0)).toContainText('Lesson 2');
     await expect(cards.nth(1)).toContainText('Lesson 1');
     await page.reload();
+    await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
     await expect(cards.nth(0)).toContainText('Lesson 2');
     await expect(cards.nth(1).getByRole('img', { name: 'Đã hoàn thành' })).toBeVisible();
     await cards.nth(0).click();
@@ -86,6 +89,7 @@ test('completed lessons rotate behind uncompleted lessons and persist across rel
     await expect(cards.nth(0)).toContainText('Lesson 2');
     await expect(cards.nth(0).getByRole('img', { name: 'Chưa hoàn thành' })).toBeVisible();
     await page.reload();
+    await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
     await expect(cards.nth(0).getByRole('img', { name: 'Chưa hoàn thành' })).toBeVisible();
   } finally {
     await db.execute({
@@ -98,6 +102,7 @@ test('completed lessons rotate behind uncompleted lessons and persist across rel
 
 test('completion remains unchanged if saving fails', async ({ page }) => {
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
   const dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
   const button = dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true });
@@ -127,6 +132,7 @@ test('Apply audio requests Sound of Text and reports service errors', async ({ p
     await route.fulfill({ status: 503, body: 'Unavailable' });
   });
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
   const dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
   await dialog.getByRole('button', { name: 'Nghe: My brother studies every day.' }).click();
@@ -139,6 +145,7 @@ test('Apply audio requests Sound of Text and reports service errors', async ({ p
 
 test('Module 1 lists all lessons and opens the checkpoint', async ({ page }) => {
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   const cards = page.locator('.foundation-lesson');
   await expect(cards).toHaveCount(32);
   await expect(cards.nth(1)).toContainText('Lesson 2');
@@ -162,6 +169,7 @@ test('Foundation quiz starts fresh on reopen while manual completion persists', 
       writes.push(request.postDataJSON());
   });
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   const card = page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ });
   await card.click();
   let dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
@@ -181,6 +189,7 @@ test('Foundation quiz starts fresh on reopen while manual completion persists', 
   await expect(deck.locator('input:checked')).toHaveCount(0);
   await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
   await page.reload();
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await card.click();
   await expect(page.locator('.lesson-deck .lesson-option')).toHaveCount(4);
   await expect(page.locator('.lesson-deck input:checked')).toHaveCount(0);
@@ -196,6 +205,7 @@ test('Foundation ignores answers saved before this change', async ({ page }) => 
     await route.fulfill({ response, json: data });
   });
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
   const deck = page.locator('.lesson-deck');
   await expect(deck.locator('.lesson-option')).toHaveCount(4);
@@ -207,6 +217,7 @@ test('real Foundation lesson completion displays its time and moves last after r
   page,
 }) => {
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   const cards = page.locator('.foundation-lesson');
   await expect(cards).toHaveCount(32);
   await expect(cards.first()).toContainText('Lesson 1');
@@ -219,6 +230,7 @@ test('real Foundation lesson completion displays its time and moves last after r
   await expect(cards.nth(2).locator('time')).toHaveText('Vừa ôn xong');
   await expect(cards.nth(2).locator('time')).toHaveAttribute('datetime', /\d{4}-\d{2}-\d{2}T/);
   await page.reload();
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await expect(cards).toHaveCount(32);
   await expect(cards.nth(2)).toContainText('Lesson 1');
   await expect(cards.nth(2).locator('time')).toHaveText('Vừa ôn xong');
@@ -231,6 +243,7 @@ test('real Foundation lesson completion displays its time and moves last after r
 
 test('A/D works after checking a Word Order answer in Foundation', async ({ page }) => {
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
   const deck = page
     .getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' })
@@ -249,6 +262,7 @@ test('A/D works after checking a Word Order answer in Foundation', async ({ page
 
 test('A/D works after checking a typing answer with Enter or button', async ({ page }) => {
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
   const deck = page
     .getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' })
@@ -272,6 +286,7 @@ test('A/D works after checking a typing answer with Enter or button', async ({ p
 
 test('clicking quiz background activates A/D without disturbing typing focus', async ({ page }) => {
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 2.*Câu với be/ }).click();
   const dialog = page.getByRole('dialog', { name: 'Câu với be: danh từ và tính từ' });
   const deck = dialog.locator('.lesson-deck');
@@ -297,6 +312,7 @@ test('last typing answer returns focus to quiz after Enter and A navigates back'
   page,
 }) => {
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 2.*Câu với be/ }).click();
   const dialog = page.getByRole('dialog', { name: 'Câu với be: danh từ và tính từ' });
   const deck = dialog.locator('.lesson-deck');
@@ -320,6 +336,7 @@ test('audio does not show loading or playing messages', async ({ page }) => {
     await route.fulfill({ status: 503, body: 'Unavailable' });
   });
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
   const dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
   await dialog.getByRole('button', { name: 'Nghe: My brother studies every day.' }).click();
@@ -331,6 +348,7 @@ test('audio does not show loading or playing messages', async ({ page }) => {
 
 test('Module 2 lessons open and completion stays within its module', async ({ page }) => {
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   const sections = page.locator('.foundation-module');
   await expect(sections).toHaveCount(10);
   const first = sections.nth(0).locator('.foundation-lesson');
@@ -346,12 +364,15 @@ test('Module 2 lessons open and completion stays within its module', async ({ pa
   await expect(second.last()).toContainText('Lesson 1');
   await expect(first.first()).toContainText('Lesson 1');
   await page.reload();
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await expect(second.last()).toContainText('Lesson 1');
   await expect(second.last().getByRole('img', { name: 'Đã hoàn thành' })).toBeVisible();
 });
 
 test('Phase 1 and Phase 2 show all ten modules and open lessons', async ({ page }) => {
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
+  await page.getByText('Phase 2 — Talk About Life', { exact: true }).click();
   const modules = page.locator('.foundation-module');
   await expect(modules).toHaveCount(10);
   await expect(modules.nth(2)).toContainText('Be');
@@ -371,6 +392,8 @@ test('phase checkpoints include integrated reading listening speaking and writin
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
+  await page.getByText('Phase 2 — Talk About Life', { exact: true }).click();
   for (const [moduleName, checkpointName] of [
     ['Present Simple', 'Present Simple'],
     ['Modal Basics', 'Modal Basics'],
@@ -401,6 +424,8 @@ test('all consolidated lessons and checkpoints open with a quiz on mobile', asyn
   test.setTimeout(120000);
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
+  await page.getByText('Phase 2 — Talk About Life', { exact: true }).click();
   const modules = page.locator('.foundation-module');
   await expect(modules).toHaveCount(10);
   let opened = 0;
@@ -420,4 +445,27 @@ test('all consolidated lessons and checkpoints open with a quiz on mobile', asyn
     }
   }
   expect(opened).toBe(32);
+});
+
+test('phase blocks start collapsed and open independently with keyboard and mouse', async ({
+  page,
+}) => {
+  await page.goto('/foundation/');
+  const first = page.locator('.foundation-phase').nth(0);
+  const second = page.locator('.foundation-phase').nth(1);
+  const firstToggle = first.locator('summary');
+  const secondToggle = second.locator('summary');
+  await expect(first).not.toHaveAttribute('open', '');
+  await expect(second).not.toHaveAttribute('open', '');
+  await expect(first.locator('.foundation-lesson').first()).toBeHidden();
+  await firstToggle.focus();
+  await page.keyboard.press('Enter');
+  await expect(first).toHaveAttribute('open', '');
+  await expect(first.locator('.foundation-lesson').first()).toBeVisible();
+  await secondToggle.click();
+  await expect(second).toHaveAttribute('open', '');
+  await expect(first).toHaveAttribute('open', '');
+  await firstToggle.click();
+  await expect(first).not.toHaveAttribute('open', '');
+  await expect(second.locator('.foundation-lesson').first()).toBeVisible();
 });

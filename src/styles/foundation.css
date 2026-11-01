@@ -6,6 +6,43 @@
 .foundation-page > .eyebrow {
   margin-top: var(--space-8);
 }
+.foundation-phase {
+  margin-top: var(--space-6);
+}
+.foundation-phase-toggle {
+  min-height: var(--tap-size);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border: var(--border);
+  background: var(--paper);
+  box-shadow: var(--shadow);
+  font-size: var(--text-lg);
+  font-weight: 800;
+  cursor: pointer;
+  list-style: none;
+}
+.foundation-phase-toggle::-webkit-details-marker {
+  display: none;
+}
+.foundation-phase-toggle:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 3px;
+}
+.foundation-phase-icon {
+  flex: none;
+  width: 12px;
+  height: 12px;
+  margin-right: var(--space-1);
+  border-right: var(--border);
+  border-bottom: var(--border);
+  transform: rotate(45deg) translateY(-3px);
+}
+.foundation-phase[open] > .foundation-phase-toggle .foundation-phase-icon {
+  transform: rotate(225deg) translate(-2px, -1px);
+}
 .foundation-module {
   margin-top: var(--space-6);
   padding: var(--space-6);

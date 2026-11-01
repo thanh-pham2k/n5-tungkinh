@@ -110,10 +110,13 @@ export default function Foundation() {
           ],
         },
       ].map(({ phase, names }) => (
-        <div key={phase}>
-          <h2>
-            Phase {phase} — {phase === 1 ? 'Build Sentences' : 'Talk About Life'}
-          </h2>
+        <details className="foundation-phase" key={phase}>
+          <summary className="foundation-phase-toggle">
+            <span>
+              Phase {phase} — {phase === 1 ? 'Build Sentences' : 'Talk About Life'}
+            </span>
+            <span className="foundation-phase-icon" aria-hidden="true" />
+          </summary>
           {names.map((name, index) => {
             const module = index + (phase === 1 ? 1 : 5);
             return (
@@ -164,7 +167,7 @@ export default function Foundation() {
               </section>
             );
           })}
-        </div>
+        </details>
       ))}
       <Dialog
         open={!!selected}
