@@ -4,9 +4,9 @@
 
 Sau checkpoint này, bạn có thể tự kiểm tra khả năng:
 
-- tạo câu Present Perfect với have/has + V3;
-- dùng ever, never, already, yet đúng ngữ cảnh;
-- dùng for và since để nói về khoảng thời gian;
+- tạo câu Present Perfect với `have/has + V3`;
+- dùng `ever`, `never`, `already`, `yet` đúng ngữ cảnh;
+- dùng `for` và `since` để nói về khoảng thời gian;
 - phân biệt Present Perfect và Past Simple;
 - hỏi và trả lời về trải nghiệm, việc đã hoàn thành và việc kéo dài đến hiện tại;
 - kết hợp Present Perfect và Past Simple trong hội thoại và đoạn văn ngắn.
@@ -25,9 +25,9 @@ He / She / It + has + V3
 
 Ví dụ:
 
-- I have finished my work. → Tôi đã hoàn thành công việc.
-- She has visited Singapore. → Cô ấy đã từng đến Singapore.
-- Tom has lost his key. → Tom đã làm mất chìa khóa.
+- `I have finished my work.` → Tôi đã hoàn thành công việc.
+- `She has visited Singapore.` → Cô ấy đã từng đến Singapore.
+- `Tom has lost his key.` → Tom đã làm mất chìa khóa.
 
 ### Phủ định
 
@@ -35,8 +35,8 @@ Ví dụ:
 Subject + haven't/hasn't + V3
 ```
 
-- I haven't finished yet. → Tôi chưa làm xong.
-- She hasn't arrived yet. → Cô ấy chưa đến.
+- `I haven't finished yet.` → Tôi chưa làm xong.
+- `She hasn't arrived yet.` → Cô ấy chưa đến.
 
 ### Câu hỏi
 
@@ -44,8 +44,8 @@ Subject + haven't/hasn't + V3
 Have/Has + subject + V3?
 ```
 
-- Have you finished? → Bạn đã làm xong chưa?
-- Has Anna arrived? → Anna đã đến chưa?
+- `Have you finished?` → Bạn đã làm xong chưa?
+- `Has Anna arrived?` → Anna đã đến chưa?
 
 ### V3 cần nhớ
 
@@ -73,16 +73,16 @@ ppcheck-06 | typing | Gõ câu từ các từ đã xáo: has / Anna / written th
 
 ---
 
-## 2. ever, never, already, yet
+## 2. `ever`, `never`, `already`, `yet`
 
 Bốn từ này thường xuất hiện với Present Perfect.
 
 | Từ | Ý nghĩa | Ví dụ |
 | --- | --- | --- |
-| ever | đã từng? | Have you ever tried sushi? |
-| never | chưa bao giờ | I have never tried sushi. |
-| already | đã... rồi | I have already eaten. |
-| yet | chưa / ... chưa? | Have you eaten yet? |
+| `ever` | đã từng? | `Have you ever tried sushi?` |
+| `never` | chưa bao giờ | `I have never tried sushi.` |
+| `already` | đã... rồi | `I have already eaten.` |
+| `yet` | chưa / ... chưa? | `Have you eaten yet?` |
 
 ### Vị trí cơ bản
 
@@ -116,15 +116,15 @@ yet
 
 ### Lỗi thường gặp
 
-❌ Have ever you tried sushi?
-✅ Have you ever tried sushi?
+❌ `Have ever you tried sushi?`  
+✅ `Have you ever tried sushi?`
 
-❌ I haven't never been there.
-✅ I have never been there.
+❌ `I haven't never been there.`  
+✅ `I have never been there.`
 
-❌ I haven't yet eaten.
-Ở Foundation, ưu tiên:
-✅ I haven't eaten yet.
+❌ `I haven't yet eaten.`  
+Ở Foundation, ưu tiên:  
+✅ `I haven't eaten yet.`
 
 ### Kiểm tra nhanh
 
@@ -139,7 +139,7 @@ ppcheck-12 | word_order | Sắp xếp thành câu hỏi đúng. | ever / Have yo
 
 ---
 
-## 3. for và since
+## 3. `for` và `since`
 
 Dùng Present Perfect để nói một việc bắt đầu trong quá khứ và **vẫn còn tiếp tục**.
 
@@ -150,30 +150,30 @@ PAST                         NOW
  started                  still true
 ```
 
-### for — bao lâu?
+### `for` — bao lâu?
 
-for + khoảng thời gian
+`for + khoảng thời gian`
 
-- for two hours
-- for six months
-- for five years
+- `for two hours`
+- `for six months`
+- `for five years`
 
 Ví dụ:
 
-I have lived here for five years.
+`I have lived here for five years.`  
 → Tôi đã sống ở đây được năm năm.
 
-### since — từ khi nào?
+### `since` — từ khi nào?
 
-since + mốc bắt đầu
+`since + mốc bắt đầu`
 
-- since Monday
-- since January
-- since 2023
+- `since Monday`
+- `since January`
+- `since 2023`
 
 Ví dụ:
 
-I have lived here since 2023.
+`I have lived here since 2023.`  
 → Tôi đã sống ở đây từ năm 2023.
 
 ### Cách nhớ
@@ -182,6 +182,7 @@ I have lived here since 2023.
 for
 → khoảng thời gian
 → for three years
+
 
 since
 → mốc bắt đầu
@@ -194,12 +195,12 @@ since
 How long + have/has + subject + V3?
 ```
 
-How long have you lived here?
+`How long have you lived here?`
 
 Có thể trả lời:
 
-- For five years.
-- Since 2021.
+- `For five years.`
+- `Since 2021.`
 
 ### Kiểm tra nhanh
 
@@ -230,13 +231,13 @@ Dùng khi:
 
 Ví dụ:
 
-I have been to Japan.
+`I have been to Japan.`  
 → Tôi đã từng đến Nhật.
 
-I have lost my key.
+`I have lost my key.`  
 → Tôi đã làm mất chìa khóa và hiện không có nó.
 
-I have worked here for three years.
+`I have worked here for three years.`  
 → Tôi bắt đầu ba năm trước và hiện vẫn làm ở đây.
 
 ### Past Simple
@@ -259,11 +260,11 @@ in 2023
 
 Ví dụ:
 
-I visited Japan last year.
+`I visited Japan last year.`
 
-She started this job in 2023.
+`She started this job in 2023.`
 
-We moved here two years ago.
+`We moved here two years ago.`
 
 ### So sánh
 
@@ -271,6 +272,7 @@ We moved here two years ago.
 I have been to Japan.
 → trải nghiệm
 → không nói khi nào
+
 
 I went to Japan last year.
 → thời điểm quá khứ rõ ràng
@@ -280,19 +282,20 @@ I went to Japan last year.
 I have worked here for three years.
 → hiện vẫn làm ở đây
 
+
 I worked there for three years.
 → công việc đó đã kết thúc
 ```
 
-### ago
+### `ago`
 
-ago thường đi với Past Simple:
+`ago` thường đi với Past Simple:
 
-I started this job three years ago.
+`I started this job three years ago.`
 
 Không dùng:
 
-❌ I have started this job three years ago.
+❌ `I have started this job three years ago.`
 
 ### Kiểm tra nhanh
 
@@ -327,17 +330,17 @@ hỏi chi tiết quá khứ
 
 Ví dụ:
 
-A: Have you ever been to Thailand?
-B: Yes, I have.
-A: When did you go?
-B: I went there last year.
+A: `Have you ever been to Thailand?`  
+B: `Yes, I have.`  
+A: `When did you go?`  
+B: `I went there last year.`
 
 Hoặc:
 
-A: Have you ever tried sushi?
-B: Yes, I have.
-A: Where did you try it?
-B: I tried it at a Japanese restaurant last month.
+A: `Have you ever tried sushi?`  
+B: `Yes, I have.`  
+A: `Where did you try it?`  
+B: `I tried it at a Japanese restaurant last month.`
 
 ### Kiểm tra nhanh
 
@@ -398,34 +401,34 @@ Trả lời 6–8 câu về **trải nghiệm, công việc, học tập hoặc 
 
 Có thể dùng:
 
-- Have you ever traveled alone?
-- Have you ever tried food from another country?
-- How long have you studied English?
-- How long have you lived in your current city?
-- When did you start learning English?
-- What have you already done today?
-- What haven't you done yet?
+- `Have you ever traveled alone?`
+- `Have you ever tried food from another country?`
+- `How long have you studied English?`
+- `How long have you lived in your current city?`
+- `When did you start learning English?`
+- `What have you already done today?`
+- `What haven't you done yet?`
 
 ### Ví dụ
 
-> I have studied English for several years.
-> I started learning English at school.
-> I have never studied abroad.
-> I have tried food from many countries.
-> I have already finished my main work today.
-> I haven't eaten dinner yet.
+> I have studied English for several years.  
+> I started learning English at school.  
+> I have never studied abroad.  
+> I have tried food from many countries.  
+> I have already finished my main work today.  
+> I haven't eaten dinner yet.  
 > I have lived in this city for four years.
 
 ### Tự đối chiếu phần nói
 
-- Tôi dùng đúng have/has + V3.
-- Tôi có ít nhất một câu về trải nghiệm.
-- Tôi dùng ever hoặc never đúng ngữ cảnh.
-- Tôi dùng already hoặc yet đúng ngữ cảnh.
-- Tôi dùng for với khoảng thời gian.
-- Tôi dùng since với mốc bắt đầu nếu phù hợp.
-- Tôi dùng Past Simple khi nói một thời điểm quá khứ rõ ràng.
-- Tôi không dùng have + V2.
+- [ ] Tôi dùng đúng `have/has + V3`.
+- [ ] Tôi có ít nhất một câu về trải nghiệm.
+- [ ] Tôi dùng `ever` hoặc `never` đúng ngữ cảnh.
+- [ ] Tôi dùng `already` hoặc `yet` đúng ngữ cảnh.
+- [ ] Tôi dùng `for` với khoảng thời gian.
+- [ ] Tôi dùng `since` với mốc bắt đầu nếu phù hợp.
+- [ ] Tôi dùng Past Simple khi nói một thời điểm quá khứ rõ ràng.
+- [ ] Tôi không dùng `have + V2`.
 
 ---
 
@@ -505,35 +508,35 @@ ppcheck-61 | typing | Gõ câu từ các từ đã xáo: two years ago / moved h
 
 ### Trải nghiệm
 
-- Have you ever been to Japan? → Bạn đã từng đến Nhật chưa?
-- I have been to Thailand twice. → Tôi đã từng đến Thái Lan hai lần.
-- I have never traveled alone. → Tôi chưa bao giờ đi du lịch một mình.
-- She has tried Japanese food. → Cô ấy đã từng thử đồ ăn Nhật.
-- We have never seen snow. → Chúng tôi chưa bao giờ nhìn thấy tuyết.
+- `Have you ever been to Japan?` → Bạn đã từng đến Nhật chưa?
+- `I have been to Thailand twice.` → Tôi đã từng đến Thái Lan hai lần.
+- `I have never traveled alone.` → Tôi chưa bao giờ đi du lịch một mình.
+- `She has tried Japanese food.` → Cô ấy đã từng thử đồ ăn Nhật.
+- `We have never seen snow.` → Chúng tôi chưa bao giờ nhìn thấy tuyết.
 
 ### Việc đã hoặc chưa hoàn thành
 
-- I have already finished my work. → Tôi làm xong việc rồi.
-- She has already eaten. → Cô ấy ăn rồi.
-- I haven't finished yet. → Tôi chưa làm xong.
-- Have you eaten yet? → Bạn ăn chưa?
-- The bus hasn't arrived yet. → Xe buýt chưa đến.
+- `I have already finished my work.` → Tôi làm xong việc rồi.
+- `She has already eaten.` → Cô ấy ăn rồi.
+- `I haven't finished yet.` → Tôi chưa làm xong.
+- `Have you eaten yet?` → Bạn ăn chưa?
+- `The bus hasn't arrived yet.` → Xe buýt chưa đến.
 
 ### Khoảng thời gian
 
-- I have lived here for five years. → Tôi đã sống ở đây được năm năm.
-- I have lived here since 2021. → Tôi đã sống ở đây từ năm 2021.
-- She has worked here for three years. → Cô ấy đã làm ở đây được ba năm.
-- She has worked here since 2023. → Cô ấy đã làm ở đây từ năm 2023.
-- How long have you studied English? → Bạn đã học tiếng Anh bao lâu?
+- `I have lived here for five years.` → Tôi đã sống ở đây được năm năm.
+- `I have lived here since 2021.` → Tôi đã sống ở đây từ năm 2021.
+- `She has worked here for three years.` → Cô ấy đã làm ở đây được ba năm.
+- `She has worked here since 2023.` → Cô ấy đã làm ở đây từ năm 2023.
+- `How long have you studied English?` → Bạn đã học tiếng Anh bao lâu?
 
 ### Quá khứ cụ thể
 
-- I visited Japan last year. → Tôi đến Nhật năm ngoái.
-- She started this job in 2023. → Cô ấy bắt đầu công việc này năm 2023.
-- We moved here two years ago. → Chúng tôi chuyển đến đây hai năm trước.
-- I worked there from 2020 to 2022. → Tôi làm ở đó từ năm 2020 đến năm 2022.
-- When did you go to Singapore? → Bạn đến Singapore khi nào?
+- `I visited Japan last year.` → Tôi đến Nhật năm ngoái.
+- `She started this job in 2023.` → Cô ấy bắt đầu công việc này năm 2023.
+- `We moved here two years ago.` → Chúng tôi chuyển đến đây hai năm trước.
+- `I worked there from 2020 to 2022.` → Tôi làm ở đó từ năm 2020 đến năm 2022.
+- `When did you go to Singapore?` → Bạn đến Singapore khi nào?
 
 ---
 
@@ -559,6 +562,7 @@ PRESENT PERFECT
     ├── for + khoảng thời gian
     └── since + mốc bắt đầu
 
+
 PAST SIMPLE
 │
 ├── việc đã kết thúc
@@ -571,7 +575,7 @@ PAST SIMPLE
 ### 2. Quy trình chọn nhanh
 
 ```text
-Việc trong quá khứ
+                 Việc trong quá khứ
                         │
             ┌───────────┴───────────┐
             │                       │
@@ -593,17 +597,20 @@ ever
 never
 → chưa bao giờ
 
+
 already
 → đã... rồi
 
 yet
 → chưa / ... chưa?
 
+
 for
 → bao lâu?
 
 since
 → từ khi nào?
+
 
 Have you ever...?
 → hỏi trải nghiệm
@@ -622,12 +629,12 @@ Checkpoint có **61 câu quiz**.
 
 Nếu thường sai:
 
-- have/has + V3 hoặc dùng nhầm V2 → ôn **Lesson 1 — Cấu trúc và trải nghiệm**;
-- ever / never / already / yet → ôn **Lesson 1 — Cấu trúc và trải nghiệm**;
-- for / since / ago → ôn **Lesson 2 — Khoảng thời gian và quá khứ đơn**;
-- Present Perfect với yesterday, last year, ...ago → ôn **Lesson 2**;
+- `have/has + V3` hoặc dùng nhầm V2 → ôn **Lesson 1 — Cấu trúc và trải nghiệm**;
+- `ever / never / already / yet` → ôn **Lesson 1 — Cấu trúc và trải nghiệm**;
+- `for / since / ago` → ôn **Lesson 2 — Khoảng thời gian và quá khứ đơn**;
+- Present Perfect với `yesterday`, `last year`, `...ago` → ôn **Lesson 2**;
 - không phân biệt việc **vẫn tiếp tục** và việc **đã kết thúc** → ôn timeline trong **Lesson 2**;
-- nhầm Have you ever...? và When did you...? → ôn lại pattern **trải nghiệm → chi tiết quá khứ**.
+- nhầm `Have you ever...?` và `When did you...?` → ôn lại pattern **trải nghiệm → chi tiết quá khứ**.
 
 Bạn đã đạt mục tiêu Module 16 nếu có thể tự nói hoặc viết **6–8 câu** kết hợp đúng:
 

@@ -5,7 +5,7 @@
 Sau bài này, bạn có thể:
 
 - Mở rộng câu trả lời theo khung **answer → reason → example → extra information**.
-- Dùng because, for example, also, but, so để kết nối các ý đơn giản.
+- Dùng `because`, `for example`, `also`, `but`, `so` để kết nối các ý đơn giản.
 - Nghe một câu trả lời ngắn và nhận ra **ý chính, lý do, ví dụ và thông tin bổ sung**.
 - Tự nói **3–5 câu** về chủ đề quen thuộc mà không cần chuẩn bị toàn bộ câu trả lời trước.
 
@@ -130,13 +130,13 @@ Câu hỏi:
 
 Không nên bắt đầu:
 
-> ❌ Because it is quiet.
+> ❌ `Because it is quiet.`
 
 Bạn chưa trả lời **where**.
 
 Tốt hơn:
 
-> ✅ I usually exercise at a park near my home because it is quiet.
+> ✅ `I usually exercise at a park near my home because it is quiet.`
 
 ### Luyện tập
 
@@ -195,11 +195,11 @@ Kết hợp:
 
 Không nên:
 
-> ❌ I like reading because I like reading.
+> ❌ `I like reading because I like reading.`
 
 Nên:
 
-> ✅ I like reading because it helps me relax.
+> ✅ `I like reading because it helps me relax.`
 
 Reason phải giúp người nghe hiểu **tại sao**.
 
@@ -253,13 +253,13 @@ I walk for thirty minutes after work.
 
 Không nên:
 
-> ❌ I like exercising because it helps me stay healthy. For example, my laptop is new.
+> ❌ `I like exercising because it helps me stay healthy. For example, my laptop is new.`
 
 Hai ý không liên quan.
 
 Nên:
 
-> ✅ I like exercising because it helps me stay healthy. For example, I walk in the park three times a week.
+> ✅ `I like exercising because it helps me stay healthy. For example, I walk in the park three times a week.`
 
 ### Luyện tập
 
@@ -302,23 +302,23 @@ Câu cuối bổ sung:
 
 Câu cuối bổ sung **another activity**.
 
-### Dùng also
+### Dùng `also`
 
-also giúp thêm một thông tin cùng hướng:
+`also` giúp thêm một thông tin cùng hướng:
 
 > **I also like reading before bed.**
 
 > **I also practice speaking aloud.**
 
-### Dùng but
+### Dùng `but`
 
-but thêm một ý tương phản:
+`but` thêm một ý tương phản:
 
 > **I like cooking, but I don't have much time on weekdays.**
 
-### Dùng so
+### Dùng `so`
 
-so thêm kết quả:
+`so` thêm kết quả:
 
 > **My office is nearby, so I usually walk to work.**
 
@@ -724,7 +724,7 @@ Không cần giống bài mẫu.
 Bạn đạt yêu cầu nếu:
 
 - answer trả lời đúng câu hỏi;
-- reason giải thích được why;
+- reason giải thích được `why`;
 - example cụ thể và liên quan;
 - extra information bổ sung ý mới;
 - câu trả lời khoảng 3–5 câu.
@@ -763,11 +763,11 @@ EXTRA DETAIL
 
 Không nói:
 
-> ❌ I prefer cooking because I prefer cooking.
+> ❌ `I prefer cooking because I prefer cooking.`
 
 Hãy thêm thông tin mới:
 
-> ✅ I prefer cooking because it is cheaper and healthier.
+> ✅ `I prefer cooking because it is cheaper and healthier.`
 
 ---
 
@@ -895,43 +895,43 @@ m23l2q50 | typing | Gõ câu từ các từ đã xáo: I also / aloud / practice
 
 ### Daily Routine
 
-- I like getting up early because the morning is quiet. → Tôi thích dậy sớm vì buổi sáng yên tĩnh.
-- For example, I usually have breakfast before seven thirty. → Ví dụ, tôi thường ăn sáng trước 7 giờ 30.
-- I also have some time to read before work. → Tôi cũng có một chút thời gian đọc trước khi làm việc.
-- I usually go for a walk after work because it helps me relax. → Tôi thường đi bộ sau giờ làm vì nó giúp tôi thư giãn.
-- I usually walk for about thirty minutes. → Tôi thường đi bộ khoảng 30 phút.
+- `I like getting up early because the morning is quiet.` → Tôi thích dậy sớm vì buổi sáng yên tĩnh.
+- `For example, I usually have breakfast before seven thirty.` → Ví dụ, tôi thường ăn sáng trước 7 giờ 30.
+- `I also have some time to read before work.` → Tôi cũng có một chút thời gian đọc trước khi làm việc.
+- `I usually go for a walk after work because it helps me relax.` → Tôi thường đi bộ sau giờ làm vì nó giúp tôi thư giãn.
+- `I usually walk for about thirty minutes.` → Tôi thường đi bộ khoảng 30 phút.
 
 ### Work and Study
 
-- I like my job because I can learn new things. → Tôi thích công việc vì có thể học những điều mới.
-- For example, I often work on different tasks. → Ví dụ, tôi thường làm nhiều nhiệm vụ khác nhau.
-- I also enjoy working with my coworkers. → Tôi cũng thích làm việc cùng đồng nghiệp.
-- I'm learning English because I want to communicate better. → Tôi học tiếng Anh vì muốn giao tiếp tốt hơn.
-- I usually practice for thirty minutes after dinner. → Tôi thường luyện khoảng 30 phút sau bữa tối.
+- `I like my job because I can learn new things.` → Tôi thích công việc vì có thể học những điều mới.
+- `For example, I often work on different tasks.` → Ví dụ, tôi thường làm nhiều nhiệm vụ khác nhau.
+- `I also enjoy working with my coworkers.` → Tôi cũng thích làm việc cùng đồng nghiệp.
+- `I'm learning English because I want to communicate better.` → Tôi học tiếng Anh vì muốn giao tiếp tốt hơn.
+- `I usually practice for thirty minutes after dinner.` → Tôi thường luyện khoảng 30 phút sau bữa tối.
 
 ### Health
 
-- I exercise because I want to stay healthy. → Tôi tập thể dục vì muốn giữ sức khỏe.
-- For example, I walk in the park three times a week. → Ví dụ, tôi đi bộ trong công viên ba lần mỗi tuần.
-- I usually walk after work. → Tôi thường đi bộ sau giờ làm.
-- I also try to eat more vegetables. → Tôi cũng cố gắng ăn nhiều rau hơn.
-- These habits help me feel better. → Những thói quen này giúp tôi cảm thấy tốt hơn.
+- `I exercise because I want to stay healthy.` → Tôi tập thể dục vì muốn giữ sức khỏe.
+- `For example, I walk in the park three times a week.` → Ví dụ, tôi đi bộ trong công viên ba lần mỗi tuần.
+- `I usually walk after work.` → Tôi thường đi bộ sau giờ làm.
+- `I also try to eat more vegetables.` → Tôi cũng cố gắng ăn nhiều rau hơn.
+- `These habits help me feel better.` → Những thói quen này giúp tôi cảm thấy tốt hơn.
 
 ### Food
 
-- I prefer cooking at home because it is cheaper. → Tôi thích nấu ở nhà hơn vì rẻ hơn.
-- For example, I often cook chicken and vegetables. → Ví dụ, tôi thường nấu thịt gà và rau.
-- I also like making simple soups. → Tôi cũng thích nấu các món canh đơn giản.
-- I'm sometimes tired after work, but I still try to cook. → Đôi khi tôi mệt sau giờ làm nhưng vẫn cố nấu ăn.
-- Cooking at home also helps me eat healthier food. → Nấu ở nhà cũng giúp tôi ăn lành mạnh hơn.
+- `I prefer cooking at home because it is cheaper.` → Tôi thích nấu ở nhà hơn vì rẻ hơn.
+- `For example, I often cook chicken and vegetables.` → Ví dụ, tôi thường nấu thịt gà và rau.
+- `I also like making simple soups.` → Tôi cũng thích nấu các món canh đơn giản.
+- `I'm sometimes tired after work, but I still try to cook.` → Đôi khi tôi mệt sau giờ làm nhưng vẫn cố nấu ăn.
+- `Cooking at home also helps me eat healthier food.` → Nấu ở nhà cũng giúp tôi ăn lành mạnh hơn.
 
 ### Weekend
 
-- I like having a quiet weekend because it helps me relax. → Tôi thích một cuối tuần yên tĩnh vì nó giúp tôi thư giãn.
-- For example, I often read or watch a movie at home. → Ví dụ, tôi thường đọc sách hoặc xem phim ở nhà.
-- I also like cooking on weekends. → Tôi cũng thích nấu ăn vào cuối tuần.
-- Sometimes I go to a cafe with a friend. → Đôi khi tôi đi quán cà phê với bạn.
-- I don't usually stay out late. → Tôi thường không ở ngoài quá muộn.
+- `I like having a quiet weekend because it helps me relax.` → Tôi thích một cuối tuần yên tĩnh vì nó giúp tôi thư giãn.
+- `For example, I often read or watch a movie at home.` → Ví dụ, tôi thường đọc sách hoặc xem phim ở nhà.
+- `I also like cooking on weekends.` → Tôi cũng thích nấu ăn vào cuối tuần.
+- `Sometimes I go to a cafe with a friend.` → Đôi khi tôi đi quán cà phê với bạn.
+- `I don't usually stay out late.` → Tôi thường không ở ngoài quá muộn.
 
 ---
 
@@ -1068,7 +1068,7 @@ Bạn đạt mục tiêu bài học khi có thể:
 - đưa một example cụ thể và liên quan;
 - thêm extra information mà không lạc chủ đề;
 - tránh lặp lại cùng một ý bằng nhiều câu;
-- dùng because, for example, also, but, so đúng khi cần;
+- dùng `because`, `for example`, `also`, `but`, `so` đúng khi cần;
 - nghe và nhận ra answer, reason, example và extra information trong câu trả lời mẫu;
 - tự nói **3–5 câu** từ vài keywords mà không cần viết sẵn toàn bộ script.
 

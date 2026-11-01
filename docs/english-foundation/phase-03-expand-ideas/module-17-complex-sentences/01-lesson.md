@@ -4,7 +4,7 @@
 
 Sau bài này, bạn có thể:
 
-- dùng when, if, although, because để nối hai ý có quan hệ rõ ràng;
+- dùng `when`, `if`, `although`, `because` để nối hai ý có quan hệ rõ ràng;
 - phân biệt **thời gian, điều kiện, tương phản và lý do**;
 - đặt mệnh đề trạng ngữ ở đầu hoặc sau mệnh đề chính;
 - dùng dấu phẩy cơ bản khi mệnh đề trạng ngữ đứng đầu;
@@ -20,17 +20,17 @@ Trong bài này, ta tập trung vào bốn từ:
 
 | Từ | Chức năng | Nghĩa cơ bản |
 | --- | --- | --- |
-| when | thời gian | khi |
-| if | điều kiện | nếu |
-| although | tương phản | mặc dù |
-| because | lý do | bởi vì |
+| `when` | thời gian | khi |
+| `if` | điều kiện | nếu |
+| `although` | tương phản | mặc dù |
+| `because` | lý do | bởi vì |
 
 Ví dụ:
 
-- When I get home, I take a shower. → Khi về nhà, tôi tắm.
-- If it rains, I stay home. → Nếu trời mưa, tôi ở nhà.
-- Although I am tired, I keep working. → Mặc dù mệt, tôi vẫn tiếp tục làm việc.
-- I walk to work because my office is nearby. → Tôi đi bộ đi làm vì văn phòng ở gần.
+- `When I get home, I take a shower.` → Khi về nhà, tôi tắm.
+- `If it rains, I stay home.` → Nếu trời mưa, tôi ở nhà.
+- `Although I am tired, I keep working.` → Mặc dù mệt, tôi vẫn tiếp tục làm việc.
+- `I walk to work because my office is nearby.` → Tôi đi bộ đi làm vì văn phòng ở gần.
 
 Có thể nhìn đơn giản:
 
@@ -61,20 +61,20 @@ clause-06 | typing | Gõ câu từ các phần đã xáo: because my office is n
 
 ---
 
-## 2. when — khi một việc xảy ra
+## 2. `when` — khi một việc xảy ra
 
-when dùng để nói **khi nào** một việc xảy ra.
+`when` dùng để nói **khi nào** một việc xảy ra.
 
 Ví dụ:
 
-- When I wake up, I drink some water. → Khi thức dậy, tôi uống nước.
-- When I get home, I make dinner. → Khi về nhà, tôi nấu bữa tối.
-- I listen to music when I exercise. → Tôi nghe nhạc khi tập thể dục.
-- I call my family when I have free time. → Tôi gọi cho gia đình khi có thời gian rảnh.
+- `When I wake up, I drink some water.` → Khi thức dậy, tôi uống nước.
+- `When I get home, I make dinner.` → Khi về nhà, tôi nấu bữa tối.
+- `I listen to music when I exercise.` → Tôi nghe nhạc khi tập thể dục.
+- `I call my family when I have free time.` → Tôi gọi cho gia đình khi có thời gian rảnh.
 
 ### Hai vị trí
 
-Mệnh đề when có thể đứng trước:
+Mệnh đề `when` có thể đứng trước:
 
 ```text
 When I get home, I make dinner.
@@ -98,22 +98,23 @@ I make dinner when I get home.
 When + clause, main clause.
 → có dấu phẩy
 
+
 Main clause + when + clause.
 → thường không cần dấu phẩy
 ```
 
 Ví dụ:
 
-When I finish work, I go home.
+`When I finish work, I go home.`
 
-I go home when I finish work.
+`I go home when I finish work.`
 
 ### Lỗi thường gặp
 
-❌ When I finish work I go home.
-Ở bài này, khi mệnh đề when đứng đầu, ưu tiên:
+❌ `When I finish work I go home.`  
+Ở bài này, khi mệnh đề `when` đứng đầu, ưu tiên:
 
-✅ When I finish work, I go home.
+✅ `When I finish work, I go home.`
 
 ### Luyện tập
 
@@ -128,16 +129,16 @@ clause-12 | typing | Gõ câu từ các phần đã xáo: When I wake up / I dri
 
 ---
 
-## 3. if — nếu có điều kiện
+## 3. `if` — nếu có điều kiện
 
-if dùng để nói một việc xảy ra **nếu một điều kiện được đáp ứng**.
+`if` dùng để nói một việc xảy ra **nếu một điều kiện được đáp ứng**.
 
 Ví dụ:
 
-- If it rains, I stay home. → Nếu trời mưa, tôi ở nhà.
-- If I have time, I cook dinner. → Nếu có thời gian, tôi nấu bữa tối.
-- I take the bus if it rains. → Tôi đi xe buýt nếu trời mưa.
-- I call my manager if I have a problem. → Tôi gọi quản lý nếu có vấn đề.
+- `If it rains, I stay home.` → Nếu trời mưa, tôi ở nhà.
+- `If I have time, I cook dinner.` → Nếu có thời gian, tôi nấu bữa tối.
+- `I take the bus if it rains.` → Tôi đi xe buýt nếu trời mưa.
+- `I call my manager if I have a problem.` → Tôi gọi quản lý nếu có vấn đề.
 
 Cách hiểu:
 
@@ -151,7 +152,7 @@ IF
     I take the bus
 ```
 
-If it rains, I take the bus.
+`If it rains, I take the bus.`
 
 ### Hai vị trí
 
@@ -163,18 +164,18 @@ Main clause + if + clause.
 
 Ví dụ:
 
-If I am tired, I go to bed early.
+`If I am tired, I go to bed early.`
 
-I go to bed early if I am tired.
+`I go to bed early if I am tired.`
 
-### when và if
+### `when` và `if`
 
 Hai từ này khác nhau:
 
-When I get home, I make dinner.
+`When I get home, I make dinner.`  
 → Khi tôi về nhà, tôi nấu ăn.
 
-If I get home early, I make dinner.
+`If I get home early, I make dinner.`  
 → Nếu tôi về nhà sớm, tôi nấu ăn.
 
 Cách nhớ:
@@ -183,6 +184,7 @@ Cách nhớ:
 when
 → thời gian
 → khi việc xảy ra
+
 
 if
 → điều kiện
@@ -202,18 +204,18 @@ clause-18 | typing | Gõ câu từ các phần đã xáo: if I am tired / I go t
 
 ---
 
-## 4. because — đưa ra lý do
+## 4. `because` — đưa ra lý do
 
-because trả lời câu hỏi:
+`because` trả lời câu hỏi:
 
 > **Why? — Tại sao?**
 
 Ví dụ:
 
-- I study English because I need it for work. → Tôi học tiếng Anh vì cần nó cho công việc.
-- She stays home because she is sick. → Cô ấy ở nhà vì bị ốm.
-- I walk to work because my office is nearby. → Tôi đi bộ đi làm vì văn phòng ở gần.
-- Because I was tired, I went to bed early. → Vì mệt nên tôi đi ngủ sớm.
+- `I study English because I need it for work.` → Tôi học tiếng Anh vì cần nó cho công việc.
+- `She stays home because she is sick.` → Cô ấy ở nhà vì bị ốm.
+- `I walk to work because my office is nearby.` → Tôi đi bộ đi làm vì văn phòng ở gần.
+- `Because I was tired, I went to bed early.` → Vì mệt nên tôi đi ngủ sớm.
 
 Cách hiểu:
 
@@ -237,11 +239,11 @@ Main clause + because + reason.
 
 Ví dụ:
 
-Because I was tired, I went home.
+`Because I was tired, I went home.`
 
-I went home because I was tired.
+`I went home because I was tired.`
 
-### because và so
+### `because` và `so`
 
 Nhớ lại Module 15:
 
@@ -251,6 +253,7 @@ because
 
 I stayed home because I was sick.
 
+
 so
 → giới thiệu KẾT QUẢ
 
@@ -259,13 +262,13 @@ I was sick, so I stayed home.
 
 Ở Foundation, tránh:
 
-❌ Because I was sick, so I stayed home.
+❌ `Because I was sick, so I stayed home.`
 
 Dùng một trong hai:
 
-✅ Because I was sick, I stayed home.
+✅ `Because I was sick, I stayed home.`
 
-✅ I was sick, so I stayed home.
+✅ `I was sick, so I stayed home.`
 
 ### Luyện tập
 
@@ -280,16 +283,16 @@ clause-24 | typing | Gõ câu từ các phần đã xáo: Because I was tired / 
 
 ---
 
-## 5. although — mặc dù
+## 5. `although` — mặc dù
 
-although dùng khi hai ý **tương phản với nhau**.
+`although` dùng khi hai ý **tương phản với nhau**.
 
 Ví dụ:
 
-- Although I am tired, I keep working. → Mặc dù mệt, tôi vẫn tiếp tục làm việc.
-- Although the room is small, it is comfortable. → Mặc dù căn phòng nhỏ, nó vẫn thoải mái.
-- I went for a walk although it was cold. → Tôi vẫn đi dạo mặc dù trời lạnh.
-- She likes her job although it is difficult. → Cô ấy thích công việc dù nó khó.
+- `Although I am tired, I keep working.` → Mặc dù mệt, tôi vẫn tiếp tục làm việc.
+- `Although the room is small, it is comfortable.` → Mặc dù căn phòng nhỏ, nó vẫn thoải mái.
+- `I went for a walk although it was cold.` → Tôi vẫn đi dạo mặc dù trời lạnh.
+- `She likes her job although it is difficult.` → Cô ấy thích công việc dù nó khó.
 
 Cách hiểu:
 
@@ -311,31 +314,31 @@ Main clause + although + clause.
 
 Ví dụ:
 
-Although I was tired, I finished my work.
+`Although I was tired, I finished my work.`
 
-I finished my work although I was tired.
+`I finished my work although I was tired.`
 
-### although và but
+### `although` và `but`
 
 Nhớ lại Module 15:
 
-I was tired, but I finished my work.
+`I was tired, but I finished my work.`
 
-Although I was tired, I finished my work.
+`Although I was tired, I finished my work.`
 
 Hai câu đều thể hiện tương phản.
 
 Nhưng tránh:
 
-❌ Although I was tired, but I finished my work.
+❌ `Although I was tired, but I finished my work.`
 
 Dùng:
 
-✅ Although I was tired, I finished my work.
+✅ `Although I was tired, I finished my work.`
 
 hoặc:
 
-✅ I was tired, but I finished my work.
+✅ `I was tired, but I finished my work.`
 
 ### Luyện tập
 
@@ -354,27 +357,27 @@ clause-30 | typing | Gõ câu từ các phần đã xáo: although it is difficu
 
 Cùng nhìn vào một tình huống:
 
-### when — thời gian
+### `when` — thời gian
 
-When I finish work, I go home.
+`When I finish work, I go home.`
 
 → **Khi nào** tôi về nhà?
 
-### if — điều kiện
+### `if` — điều kiện
 
-If I finish work early, I go to the gym.
+`If I finish work early, I go to the gym.`
 
 → Tôi đi gym **nếu điều kiện nào xảy ra**?
 
-### because — lý do
+### `because` — lý do
 
-I go home because I am tired.
+`I go home because I am tired.`
 
 → **Tại sao** tôi về nhà?
 
-### although — tương phản
+### `although` — tương phản
 
-Although I am tired, I go to the gym.
+`Although I am tired, I go to the gym.`
 
 → Tôi mệt **nhưng vẫn** đi gym.
 
@@ -459,6 +462,7 @@ Because I was tired, I went home.
                    ↓
                   comma
 
+
 I went home because I was tired.
             ↓
        no comma needed
@@ -523,10 +527,10 @@ Nói **6–8 câu** về một ngày bình thường của bạn.
 
 Cố gắng dùng:
 
-- một câu với when;
-- một câu với if;
-- một câu với because;
-- một câu với although.
+- một câu với `when`;
+- một câu với `if`;
+- một câu với `because`;
+- một câu với `although`.
 
 ### Gợi ý
 
@@ -538,23 +542,23 @@ Cố gắng dùng:
 
 ### Ví dụ
 
-> When I wake up, I drink some water.
-> I usually make coffee because I like drinking it in the morning.
-> If the weather is good, I walk to work.
-> If it rains, I take a taxi.
-> Although my job is sometimes busy, I enjoy it.
+> When I wake up, I drink some water.  
+> I usually make coffee because I like drinking it in the morning.  
+> If the weather is good, I walk to work.  
+> If it rains, I take a taxi.  
+> Although my job is sometimes busy, I enjoy it.  
 > When I finish work, I usually go home and relax.
 
 ### Tự đối chiếu phần nói
 
-- Tôi dùng when cho thời gian.
-- Tôi dùng if cho điều kiện.
-- Tôi dùng because cho lý do.
-- Tôi dùng although cho tương phản.
-- Tôi có chủ ngữ và động từ trong cả hai mệnh đề.
-- Các ý trong mỗi câu có quan hệ logic.
-- Tôi không dùng because ... so ....
-- Tôi không dùng although ... but ....
+- [ ] Tôi dùng `when` cho thời gian.
+- [ ] Tôi dùng `if` cho điều kiện.
+- [ ] Tôi dùng `because` cho lý do.
+- [ ] Tôi dùng `although` cho tương phản.
+- [ ] Tôi có chủ ngữ và động từ trong cả hai mệnh đề.
+- [ ] Các ý trong mỗi câu có quan hệ logic.
+- [ ] Tôi không dùng `because ... so ...`.
+- [ ] Tôi không dùng `although ... but ...`.
 
 ---
 
@@ -638,37 +642,37 @@ clause-74 | typing | Gõ câu từ các phần đã xáo: Although I was tired /
 
 ## Câu mẫu để áp dụng
 
-### when — thời gian
+### `when` — thời gian
 
-- When I wake up, I drink some water. → Khi thức dậy, tôi uống nước.
-- When I get home, I make dinner. → Khi về nhà, tôi nấu bữa tối.
-- I listen to music when I exercise. → Tôi nghe nhạc khi tập thể dục.
-- I call my family when I have free time. → Tôi gọi cho gia đình khi có thời gian rảnh.
-- When I finish work, I usually go home. → Khi tan làm, tôi thường về nhà.
+- `When I wake up, I drink some water.` → Khi thức dậy, tôi uống nước.
+- `When I get home, I make dinner.` → Khi về nhà, tôi nấu bữa tối.
+- `I listen to music when I exercise.` → Tôi nghe nhạc khi tập thể dục.
+- `I call my family when I have free time.` → Tôi gọi cho gia đình khi có thời gian rảnh.
+- `When I finish work, I usually go home.` → Khi tan làm, tôi thường về nhà.
 
-### if — điều kiện
+### `if` — điều kiện
 
-- If it rains, I take the bus. → Nếu trời mưa, tôi đi xe buýt.
-- If I have time, I cook dinner. → Nếu có thời gian, tôi nấu bữa tối.
-- I call my manager if I have a problem. → Tôi gọi quản lý nếu có vấn đề.
-- If I am tired, I go to bed early. → Nếu mệt, tôi đi ngủ sớm.
-- If the weather is good, I walk to work. → Nếu thời tiết đẹp, tôi đi bộ đi làm.
+- `If it rains, I take the bus.` → Nếu trời mưa, tôi đi xe buýt.
+- `If I have time, I cook dinner.` → Nếu có thời gian, tôi nấu bữa tối.
+- `I call my manager if I have a problem.` → Tôi gọi quản lý nếu có vấn đề.
+- `If I am tired, I go to bed early.` → Nếu mệt, tôi đi ngủ sớm.
+- `If the weather is good, I walk to work.` → Nếu thời tiết đẹp, tôi đi bộ đi làm.
 
-### because — lý do
+### `because` — lý do
 
-- I study English because I need it for work. → Tôi học tiếng Anh vì cần nó cho công việc.
-- I stayed home because I was sick. → Tôi ở nhà vì bị ốm.
-- I walk to work because my office is nearby. → Tôi đi bộ đi làm vì văn phòng ở gần.
-- Because I was tired, I went to bed early. → Vì mệt, tôi đi ngủ sớm.
-- I cook at home because it is cheaper. → Tôi nấu ăn ở nhà vì rẻ hơn.
+- `I study English because I need it for work.` → Tôi học tiếng Anh vì cần nó cho công việc.
+- `I stayed home because I was sick.` → Tôi ở nhà vì bị ốm.
+- `I walk to work because my office is nearby.` → Tôi đi bộ đi làm vì văn phòng ở gần.
+- `Because I was tired, I went to bed early.` → Vì mệt, tôi đi ngủ sớm.
+- `I cook at home because it is cheaper.` → Tôi nấu ăn ở nhà vì rẻ hơn.
 
-### although — tương phản
+### `although` — tương phản
 
-- Although I am tired, I keep working. → Mặc dù mệt, tôi vẫn tiếp tục làm việc.
-- Although the room is small, it is comfortable. → Mặc dù căn phòng nhỏ, nó vẫn thoải mái.
-- Although it was raining, we went out. → Mặc dù trời mưa, chúng tôi vẫn ra ngoài.
-- I like my job although it is difficult. → Tôi thích công việc dù nó khó.
-- Although the café is busy, I like it. → Mặc dù quán đông, tôi vẫn thích nó.
+- `Although I am tired, I keep working.` → Mặc dù mệt, tôi vẫn tiếp tục làm việc.
+- `Although the room is small, it is comfortable.` → Mặc dù căn phòng nhỏ, nó vẫn thoải mái.
+- `Although it was raining, we went out.` → Mặc dù trời mưa, chúng tôi vẫn ra ngoài.
+- `I like my job although it is difficult.` → Tôi thích công việc dù nó khó.
+- `Although the café is busy, I like it.` → Mặc dù quán đông, tôi vẫn thích nó.
 
 ---
 
@@ -681,13 +685,16 @@ when
 → THỜI GIAN
 → When I get home, I make dinner.
 
+
 if
 → ĐIỀU KIỆN
 → If it rains, I stay home.
 
+
 because
 → LÝ DO
 → I stay home because I am tired.
+
 
 although
 → TƯƠNG PHẢN
@@ -706,6 +713,7 @@ Although A, B.
 
 → dùng dấu phẩy
 
+
 MỆNH ĐỀ TRẠNG NGỮ ĐỨNG SAU
 
 B when A.
@@ -723,6 +731,7 @@ B although A.
 
 ✅ Although I was tired, I worked.
 ✅ I was tired, but I worked.
+
 
 ❌ Because I was tired, so I went home.
 
@@ -750,11 +759,11 @@ MẶC DÙ...?
 
 Bạn đã đạt mục tiêu bài học nếu có thể:
 
-- chọn đúng when, if, because, although theo quan hệ giữa hai ý;
+- chọn đúng `when`, `if`, `because`, `although` theo quan hệ giữa hai ý;
 - đặt mệnh đề trạng ngữ ở đầu hoặc cuối câu;
 - dùng dấu phẩy khi mệnh đề trạng ngữ đứng đầu;
-- phân biệt when với if;
-- phân biệt because với so;
-- phân biệt although với but;
-- tránh because ... so ... và although ... but ...;
+- phân biệt `when` với `if`;
+- phân biệt `because` với `so`;
+- phân biệt `although` với `but`;
+- tránh `because ... so ...` và `although ... but ...`;
 - tự nói hoặc viết **6–8 câu** có sử dụng đủ bốn loại mệnh đề.

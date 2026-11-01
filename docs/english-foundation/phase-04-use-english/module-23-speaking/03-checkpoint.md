@@ -5,7 +5,7 @@
 Sau checkpoint này, bạn có thể:
 
 - Trả lời trực tiếp các câu hỏi quen thuộc về bản thân và đời sống.
-- Nêu **reason** rõ ràng thay vì chỉ trả lời Yes, No hoặc một cụm ngắn.
+- Nêu **reason** rõ ràng thay vì chỉ trả lời `Yes`, `No` hoặc một cụm ngắn.
 - Mở rộng câu trả lời theo khung **answer → reason → example → extra information**.
 - Nghe một câu trả lời ngắn và xác định **ý chính, lý do, ví dụ và chi tiết bổ sung**.
 - Tự nói **3–5 câu** từ keywords mà không cần viết sẵn toàn bộ câu trả lời.
@@ -289,19 +289,19 @@ Nó trả lời:
 
 > **How long?**
 
-### Dùng also
+### Dùng `also`
 
 > **I also walk with a friend on weekends.**
 
 → thêm thông tin cùng hướng.
 
-### Dùng but
+### Dùng `but`
 
 > **I like cooking, but I don't have much time on weekdays.**
 
 → thêm ý tương phản.
 
-### Dùng so
+### Dùng `so`
 
 > **My office is nearby, so I usually walk to work.**
 
@@ -794,38 +794,38 @@ m23cpreview16 | typing | Gõ câu từ các từ đã xáo: on weekends / I also
 
 ### Daily Routine
 
-- I usually get up early because I like having a quiet morning. → Tôi thường dậy sớm vì thích có một buổi sáng yên tĩnh.
-- For example, I have breakfast before I start work. → Ví dụ, tôi ăn sáng trước khi bắt đầu làm việc.
-- I also have some time to drink coffee and read. → Tôi cũng có thời gian uống cà phê và đọc.
-- I usually go for a walk after work because it helps me relax. → Tôi thường đi bộ sau giờ làm vì nó giúp tôi thư giãn.
+- `I usually get up early because I like having a quiet morning.` → Tôi thường dậy sớm vì thích có một buổi sáng yên tĩnh.
+- `For example, I have breakfast before I start work.` → Ví dụ, tôi ăn sáng trước khi bắt đầu làm việc.
+- `I also have some time to drink coffee and read.` → Tôi cũng có thời gian uống cà phê và đọc.
+- `I usually go for a walk after work because it helps me relax.` → Tôi thường đi bộ sau giờ làm vì nó giúp tôi thư giãn.
 
 ### Work and Study
 
-- I like my job because I can learn new things. → Tôi thích công việc vì có thể học những điều mới.
-- For example, I often work on different tasks. → Ví dụ, tôi thường làm nhiều nhiệm vụ khác nhau.
-- I'm learning English because I want to communicate better. → Tôi học tiếng Anh vì muốn giao tiếp tốt hơn.
-- I also practice speaking aloud after dinner. → Tôi cũng luyện nói thành tiếng sau bữa tối.
+- `I like my job because I can learn new things.` → Tôi thích công việc vì có thể học những điều mới.
+- `For example, I often work on different tasks.` → Ví dụ, tôi thường làm nhiều nhiệm vụ khác nhau.
+- `I'm learning English because I want to communicate better.` → Tôi học tiếng Anh vì muốn giao tiếp tốt hơn.
+- `I also practice speaking aloud after dinner.` → Tôi cũng luyện nói thành tiếng sau bữa tối.
 
 ### Health
 
-- I exercise because I want to stay healthy. → Tôi tập thể dục vì muốn giữ sức khỏe.
-- For example, I walk in the park three times a week. → Ví dụ, tôi đi bộ trong công viên ba lần mỗi tuần.
-- I usually walk for about thirty minutes. → Tôi thường đi bộ khoảng 30 phút.
-- I also try to eat more vegetables. → Tôi cũng cố gắng ăn nhiều rau hơn.
+- `I exercise because I want to stay healthy.` → Tôi tập thể dục vì muốn giữ sức khỏe.
+- `For example, I walk in the park three times a week.` → Ví dụ, tôi đi bộ trong công viên ba lần mỗi tuần.
+- `I usually walk for about thirty minutes.` → Tôi thường đi bộ khoảng 30 phút.
+- `I also try to eat more vegetables.` → Tôi cũng cố gắng ăn nhiều rau hơn.
 
 ### Food
 
-- I prefer cooking at home because it is cheaper and healthier. → Tôi thích nấu ở nhà hơn vì rẻ và lành mạnh hơn.
-- For example, I often cook chicken and vegetables. → Ví dụ, tôi thường nấu thịt gà và rau.
-- I also like trying simple recipes on weekends. → Tôi cũng thích thử các công thức đơn giản vào cuối tuần.
-- I'm sometimes tired after work, but I still try to cook. → Đôi khi tôi mệt sau giờ làm nhưng vẫn cố nấu ăn.
+- `I prefer cooking at home because it is cheaper and healthier.` → Tôi thích nấu ở nhà hơn vì rẻ và lành mạnh hơn.
+- `For example, I often cook chicken and vegetables.` → Ví dụ, tôi thường nấu thịt gà và rau.
+- `I also like trying simple recipes on weekends.` → Tôi cũng thích thử các công thức đơn giản vào cuối tuần.
+- `I'm sometimes tired after work, but I still try to cook.` → Đôi khi tôi mệt sau giờ làm nhưng vẫn cố nấu ăn.
 
 ### Free Time
 
-- I like reading because it helps me relax. → Tôi thích đọc sách vì nó giúp tôi thư giãn.
-- For example, I usually read before bed. → Ví dụ, tôi thường đọc trước khi ngủ.
-- I also enjoy watching movies on weekends. → Tôi cũng thích xem phim vào cuối tuần.
-- Sometimes I go to a cafe with a friend. → Đôi khi tôi đi quán cà phê với bạn.
+- `I like reading because it helps me relax.` → Tôi thích đọc sách vì nó giúp tôi thư giãn.
+- `For example, I usually read before bed.` → Ví dụ, tôi thường đọc trước khi ngủ.
+- `I also enjoy watching movies on weekends.` → Tôi cũng thích xem phim vào cuối tuần.
+- `Sometimes I go to a cafe with a friend.` → Đôi khi tôi đi quán cà phê với bạn.
 
 ---
 
@@ -905,10 +905,10 @@ Bạn đạt Module 23 nếu có thể chọn một câu hỏi quen thuộc, dà
 
 Nếu thường chỉ trả lời:
 
-> Yes.
-> No.
-> At home.
-> After work.
+> `Yes.`  
+> `No.`  
+> `At home.`  
+> `After work.`
 
 Ôn lại **Lesson 1 — Trả lời và nêu lý do**.
 
@@ -948,7 +948,7 @@ Nếu nói dài nhưng dễ lạc chủ đề, hỏi sau mỗi câu:
 
 > **Does this information support my answer?**
 
-Nếu No → bỏ câu đó.
+Nếu `No` → bỏ câu đó.
 
 ---
 

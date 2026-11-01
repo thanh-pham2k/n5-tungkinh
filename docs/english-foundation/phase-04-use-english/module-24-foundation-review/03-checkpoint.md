@@ -1,7 +1,5 @@
 # Mini Checkpoint — Foundation Review
 
-> **Lưu ý biên soạn:** Phần cuối của nội dung chia sẻ bị ngắt; cần bổ sung trước khi đưa bài vào sử dụng.
-
 ## Mục tiêu
 
 Sau checkpoint này, bạn có thể tự kiểm tra khả năng:
@@ -78,7 +76,7 @@ OBJECT / PLACE / TIME
 
 > **She works at a hotel.**
 
-### Với be
+### Với `be`
 
 ```text
 SUBJECT
@@ -96,13 +94,13 @@ INFORMATION
 
 ### Lỗi thường gặp
 
-> ❌ My apartment small.
+> ❌ `My apartment small.`
 
-> ✅ My apartment is small.
+> ✅ `My apartment is small.`
 
-> ❌ I am work at home.
+> ❌ `I am work at home.`
 
-> ✅ I work at home.
+> ✅ `I work at home.`
 
 ### Kiểm tra nhanh
 
@@ -781,33 +779,33 @@ m24cpreview20 | typing | Gõ câu từ các từ đã xáo: this weekend / my fa
 
 ## Daily Life
 
-- I usually have breakfast at home. → Tôi thường ăn sáng ở nhà.
-- I start work at eight every morning. → Tôi bắt đầu làm việc lúc 8 giờ mỗi sáng.
-- I take a short break after lunch. → Tôi nghỉ ngắn sau bữa trưa.
-- I usually cook dinner after work. → Tôi thường nấu bữa tối sau giờ làm.
-- I go to bed before eleven. → Tôi đi ngủ trước 11 giờ.
+- `I usually have breakfast at home.` → Tôi thường ăn sáng ở nhà.
+- `I start work at eight every morning.` → Tôi bắt đầu làm việc lúc 8 giờ mỗi sáng.
+- `I take a short break after lunch.` → Tôi nghỉ ngắn sau bữa trưa.
+- `I usually cook dinner after work.` → Tôi thường nấu bữa tối sau giờ làm.
+- `I go to bed before eleven.` → Tôi đi ngủ trước 11 giờ.
 
 ## Work and Study
 
-- I often have a meeting in the morning. → Tôi thường có cuộc họp vào buổi sáng.
-- I'm working from home today. → Hôm nay tôi đang làm việc ở nhà.
-- I study English after dinner. → Tôi học tiếng Anh sau bữa tối.
-- I'm learning English because I want to communicate better. → Tôi học tiếng Anh vì muốn giao tiếp tốt hơn.
-- For example, I sometimes read English emails at work. → Ví dụ, đôi khi tôi đọc email tiếng Anh tại nơi làm việc.
+- `I often have a meeting in the morning.` → Tôi thường có cuộc họp vào buổi sáng.
+- `I'm working from home today.` → Hôm nay tôi đang làm việc ở nhà.
+- `I study English after dinner.` → Tôi học tiếng Anh sau bữa tối.
+- `I'm learning English because I want to communicate better.` → Tôi học tiếng Anh vì muốn giao tiếp tốt hơn.
+- `For example, I sometimes read English emails at work.` → Ví dụ, đôi khi tôi đọc email tiếng Anh tại nơi làm việc.
 
 ## Health
 
-- I try to exercise regularly. → Tôi cố gắng tập thể dục đều.
-- I usually walk for thirty minutes after work. → Tôi thường đi bộ 30 phút sau giờ làm.
-- I exercise because I want to stay healthy. → Tôi tập thể dục vì muốn giữ sức khỏe.
-- I also try to eat more vegetables. → Tôi cũng cố gắng ăn nhiều rau hơn.
+- `I try to exercise regularly.` → Tôi cố gắng tập thể dục đều.
+- `I usually walk for thirty minutes after work.` → Tôi thường đi bộ 30 phút sau giờ làm.
+- `I exercise because I want to stay healthy.` → Tôi tập thể dục vì muốn giữ sức khỏe.
+- `I also try to eat more vegetables.` → Tôi cũng cố gắng ăn nhiều rau hơn.
 
 ## Communication
 
-- I prefer cooking at home because it saves money. → Tôi thích nấu ăn ở nhà hơn vì tiết kiệm tiền.
-- My apartment is small, but it is comfortable. → Căn hộ của tôi nhỏ nhưng thoải mái.
-- My office is nearby, so I usually walk to work. → Văn phòng ở gần nên tôi thường đi bộ đi làm.
-- For example, I walk to work three times a week. → Ví dụ, tôi đi bộ đi làm ba lần mỗi tuần.
+- `I prefer cooking at home because it saves money.` → Tôi thích nấu ăn ở nhà hơn vì tiết kiệm tiền.
+- `My apartment is small, but it is comfortable.` → Căn hộ của tôi nhỏ nhưng thoải mái.
+- `My office is nearby, so I usually walk to work.` → Văn phòng ở gần nên tôi thường đi bộ đi làm.
+- `For example, I walk to work three times a week.` → Ví dụ, tôi đi bộ đi làm ba lần mỗi tuần.
 
 ---
 
@@ -959,3 +957,151 @@ TRANSCRIPT
 ```
 
 Nếu yếu **Reading**:
+
+```text
+MAIN IDEA
+↓
+DETAILS
+↓
+CONTEXT
+↓
+PARAPHRASE
+```
+
+Nếu yếu **Speaking**:
+
+```text
+ANSWER
+↓
+REASON
+↓
+EXAMPLE
+↓
+EXTRA INFORMATION
+```
+
+Nếu yếu **Writing**:
+
+```text
+MAIN IDEA
+↓
+REASON
+↓
+EXPLANATION
+↓
+EXAMPLE
+```
+
+---
+
+# Foundation Completion Check
+
+Trước khi kết thúc Foundation, hãy tự thực hiện bốn nhiệm vụ mà **không xem bài mẫu**:
+
+### Listening
+
+Nghe một đoạn ngắn quen thuộc và ghi:
+
+```text
+Main idea:
+...
+
+Important details:
+...
+
+Final result:
+...
+```
+
+### Reading
+
+Đọc một đoạn ngắn và ghi:
+
+```text
+Main idea:
+...
+
+Supporting detail 1:
+...
+
+Supporting detail 2:
+...
+```
+
+### Speaking
+
+Chọn một câu hỏi:
+
+> **Why are you learning English?**
+
+hoặc:
+
+> **What do you usually do after work?**
+
+Chuẩn bị **3–4 keywords**, sau đó nói 3–5 câu.
+
+### Writing
+
+Viết **3–5 câu** về:
+
+> **My Daily Routine**
+
+hoặc:
+
+> **How I Practice English**
+
+Sau đó kiểm tra:
+
+```text
+CONTENT
+↓
+ORDER
+↓
+CONNECTION
+↓
+SENTENCE
+↓
+SMALL ERRORS
+```
+
+Nếu bạn có thể hoàn thành bốn nhiệm vụ này ở mức cơ bản mà không phụ thuộc vào bài mẫu, Foundation đã hoàn thành đúng mục tiêu của nó.
+
+> **Lưu ý:** Đây là tiêu chí tự đánh giá nội bộ của lộ trình Foundation. Nó không phải bài thi chuẩn hóa, không chứng nhận trình độ CEFR và không dự đoán hay xác nhận band IELTS.
+
+```text
+FOUNDATION
+
+VOCABULARY
++
+GRAMMAR
++
+SENTENCE BUILDING
++
+PRONUNCIATION
+↓
+LISTENING
++
+READING
++
+SPEAKING
++
+WRITING
+↓
+UNDERSTAND
++
+BUILD
++
+CONNECT
++
+COMMUNICATE
+↓
+READY TO BEGIN IELTS FOUNDATION
+```
+
+---
+
+If you want, I can:
+
+- Add a detailed quiz for the Foundation Review
+- Expand speaking practice examples with explanations
+- Create a writing task with a checklist for Foundation learners

@@ -4,17 +4,17 @@
 
 Sau bài này, bạn có thể:
 
-- dùng for để nói một việc kéo dài **bao lâu**;
-- dùng since để nói một việc bắt đầu **từ khi nào**;
+- dùng `for` để nói một việc kéo dài **bao lâu**;
+- dùng `since` để nói một việc bắt đầu **từ khi nào**;
 - dùng Present Perfect cho việc bắt đầu trong quá khứ và **vẫn còn tiếp tục**;
 - phân biệt Present Perfect và Past Simple dựa vào **ngữ cảnh và mốc thời gian**;
 - tự nói hoặc viết về công việc, nơi ở, việc học và trải nghiệm trong quá khứ.
 
 ---
 
-## 1. for — trong khoảng bao lâu
+## 1. `for` — trong khoảng bao lâu
 
-for dùng với **khoảng thời gian**.
+`for` dùng với **khoảng thời gian**.
 
 ```text
 have/has + V3 + for + khoảng thời gian
@@ -22,10 +22,10 @@ have/has + V3 + for + khoảng thời gian
 
 Ví dụ:
 
-- I have lived here for three years. → Tôi đã sống ở đây được ba năm.
-- She has worked here for six months. → Cô ấy đã làm việc ở đây được sáu tháng.
-- We have known each other for ten years. → Chúng tôi đã biết nhau được mười năm.
-- Tom has studied English for two years. → Tom đã học tiếng Anh được hai năm.
+- `I have lived here for three years.` → Tôi đã sống ở đây được ba năm.
+- `She has worked here for six months.` → Cô ấy đã làm việc ở đây được sáu tháng.
+- `We have known each other for ten years.` → Chúng tôi đã biết nhau được mười năm.
+- `Tom has studied English for two years.` → Tom đã học tiếng Anh được hai năm.
 
 Trong các câu trên, hành động bắt đầu trong quá khứ và **vẫn còn đúng ở hiện tại**.
 
@@ -39,15 +39,15 @@ living
 <────── for three years ──────>
 ```
 
-### for đi với khoảng thời gian
+### `for` đi với khoảng thời gian
 
 | Khoảng thời gian | Ví dụ |
 | --- | --- |
-| two hours | for two hours |
-| three days | for three days |
-| six months | for six months |
-| five years | for five years |
-| a long time | for a long time |
+| two hours | `for two hours` |
+| three days | `for three days` |
+| six months | `for six months` |
+| five years | `for five years` |
+| a long time | `for a long time` |
 
 Hỏi:
 
@@ -55,19 +55,19 @@ Hỏi:
 
 Trả lời:
 
-> for three years
+> `for three years`
 
 ### Lỗi thường gặp
 
-❌ I have lived here for 2022.
+❌ `I have lived here for 2022.`
 
-2022 là **mốc bắt đầu**, không phải khoảng thời gian.
+`2022` là **mốc bắt đầu**, không phải khoảng thời gian.
 
-✅ I have lived here since 2022.
+✅ `I have lived here since 2022.`
 
-Nếu muốn dùng for:
+Nếu muốn dùng `for`:
 
-✅ I have lived here for four years.
+✅ `I have lived here for four years.`
 
 ### Luyện tập
 
@@ -82,9 +82,9 @@ duration-06 | typing | Gõ câu từ các từ đã xáo: for six months / has w
 
 ---
 
-## 2. since — từ một mốc thời gian
+## 2. `since` — từ một mốc thời gian
 
-since dùng với **thời điểm bắt đầu**.
+`since` dùng với **thời điểm bắt đầu**.
 
 ```text
 have/has + V3 + since + mốc thời gian
@@ -92,12 +92,12 @@ have/has + V3 + since + mốc thời gian
 
 Ví dụ:
 
-- I have lived here since 2022. → Tôi đã sống ở đây từ năm 2022.
-- She has worked here since January. → Cô ấy đã làm việc ở đây từ tháng Một.
-- We have known each other since high school. → Chúng tôi đã biết nhau từ thời trung học.
-- Tom has been busy since Monday. → Tom đã bận từ thứ Hai đến nay.
+- `I have lived here since 2022.` → Tôi đã sống ở đây từ năm 2022.
+- `She has worked here since January.` → Cô ấy đã làm việc ở đây từ tháng Một.
+- `We have known each other since high school.` → Chúng tôi đã biết nhau từ thời trung học.
+- `Tom has been busy since Monday.` → Tom đã bận từ thứ Hai đến nay.
 
-### since chỉ điểm bắt đầu
+### `since` chỉ điểm bắt đầu
 
 ```text
 2022                         Now
@@ -111,20 +111,20 @@ Một số mốc thường gặp:
 
 | Mốc bắt đầu | Cách dùng |
 | --- | --- |
-| 2022 | since 2022 |
-| Monday | since Monday |
-| January | since January |
-| this morning | since this morning |
-| high school | since high school |
+| 2022 | `since 2022` |
+| Monday | `since Monday` |
+| January | `since January` |
+| this morning | `since this morning` |
+| high school | `since high school` |
 
-### for và since
+### `for` và `since`
 
 Cùng một tình huống:
 
-I have lived here for four years.
+`I have lived here for four years.`  
 → Tôi sống ở đây **được bốn năm**.
 
-I have lived here since 2022.
+`I have lived here since 2022.`  
 → Tôi sống ở đây **từ năm 2022**.
 
 Cách nhớ:
@@ -134,6 +134,7 @@ for
 → BAO LÂU?
 → for three years
 
+
 since
 → TỪ KHI NÀO?
 → since 2023
@@ -141,11 +142,11 @@ since
 
 ### Lỗi thường gặp
 
-❌ I have lived here since three years.
-✅ I have lived here for three years.
+❌ `I have lived here since three years.`  
+✅ `I have lived here for three years.`
 
-❌ I have lived here for 2023.
-✅ I have lived here since 2023.
+❌ `I have lived here for 2023.`  
+✅ `I have lived here since 2023.`
 
 ### Luyện tập
 
@@ -175,15 +176,15 @@ PAST                         NOW
 
 Ví dụ:
 
-I have lived here for five years.
+`I have lived here for five years.`
 
 → Tôi bắt đầu sống ở đây năm năm trước và **hiện vẫn sống ở đây**.
 
-She has worked at this company since 2024.
+`She has worked at this company since 2024.`
 
 → Cô ấy bắt đầu làm ở công ty từ năm 2024 và **hiện vẫn làm ở đó**.
 
-We have known each other for ten years.
+`We have known each other for ten years.`
 
 → Chúng tôi quen nhau từ mười năm trước và **hiện vẫn quen nhau**.
 
@@ -206,21 +207,21 @@ have/has been
 → đã ở / đã trong trạng thái
 ```
 
-### Câu hỏi How long...?
+### Câu hỏi `How long...?`
 
-Dùng How long để hỏi khoảng thời gian:
+Dùng `How long` để hỏi khoảng thời gian:
 
-How long have you lived here?
+`How long have you lived here?`  
 → Bạn đã sống ở đây bao lâu?
 
-I have lived here for five years.
+`I have lived here for five years.`
 
 ---
 
-How long has Anna worked here?
+`How long has Anna worked here?`  
 → Anna đã làm ở đây bao lâu?
 
-She has worked here since 2023.
+`She has worked here since 2023.`
 
 Cấu trúc:
 
@@ -247,10 +248,10 @@ Past Simple — **quá khứ đơn** — thường dùng khi một việc xảy 
 
 Ví dụ:
 
-- I visited Japan last year. → Tôi đến Nhật năm ngoái.
-- She started this job in 2023. → Cô ấy bắt đầu công việc này năm 2023.
-- We moved here two years ago. → Chúng tôi chuyển đến đây hai năm trước.
-- Tom finished the report yesterday. → Tom hoàn thành báo cáo hôm qua.
+- `I visited Japan last year.` → Tôi đến Nhật năm ngoái.
+- `She started this job in 2023.` → Cô ấy bắt đầu công việc này năm 2023.
+- `We moved here two years ago.` → Chúng tôi chuyển đến đây hai năm trước.
+- `Tom finished the report yesterday.` → Tom hoàn thành báo cáo hôm qua.
 
 ### Các dấu hiệu thời gian thường gặp
 
@@ -283,31 +284,31 @@ I visited Singapore last year.
 
 So sánh:
 
-I have visited Singapore.
+`I have visited Singapore.`  
 → Tôi đã từng đến Singapore.
 
 Không nói **khi nào**.
 
-I visited Singapore last year.
+`I visited Singapore last year.`  
 → Tôi đến Singapore năm ngoái.
 
 Có thời gian quá khứ rõ ràng.
 
 ### Lỗi thường gặp
 
-❌ I have visited Singapore last year.
+❌ `I have visited Singapore last year.`
 
-✅ I visited Singapore last year.
+✅ `I visited Singapore last year.`
 
-❌ She has started this job in 2023.
+❌ `She has started this job in 2023.`
 
 Nếu đang nói **sự kiện bắt đầu xảy ra năm 2023**:
 
-✅ She started this job in 2023.
+✅ `She started this job in 2023.`
 
 Nếu muốn nhấn mạnh cô ấy làm việc từ đó đến nay:
 
-✅ She has worked here since 2023.
+✅ `She has worked here since 2023.`
 
 ### Luyện tập
 
@@ -367,6 +368,7 @@ I have worked here for three years.
 → bắt đầu 3 năm trước
 → hiện vẫn làm ở đây
 
+
 I worked there for three years.
 → đã làm ở đó 3 năm
 → công việc đó đã kết thúc
@@ -399,7 +401,7 @@ She worked there for three years.
 ### Cách chọn nhanh
 
 ```text
-Sự việc quá khứ
+                 Sự việc quá khứ
                        │
           ┌────────────┴────────────┐
           │                         │
@@ -426,27 +428,27 @@ duration-31 | typing | Gõ câu từ các từ đã xáo: from 2021 to 2024 / wo
 
 ---
 
-## 6. for, since, ago
+## 6. `for`, `since`, `ago`
 
 Ba từ này rất dễ nhầm.
 
-### for
+### `for`
 
 → khoảng thời gian
 
-I have worked here for three years.
+`I have worked here for three years.`
 
-### since
+### `since`
 
 → mốc bắt đầu và kéo dài đến hiện tại
 
-I have worked here since 2023.
+`I have worked here since 2023.`
 
-### ago
+### `ago`
 
 → cách hiện tại bao lâu trong quá khứ
 
-I started this job three years ago.
+`I started this job three years ago.`
 
 So sánh cùng một tình huống:
 
@@ -454,8 +456,10 @@ So sánh cùng một tình huống:
 I have worked here for three years.
 → được ba năm
 
+
 I have worked here since 2023.
 → từ năm 2023
+
 
 I started this job three years ago.
 → bắt đầu ba năm trước
@@ -467,8 +471,10 @@ Chú ý cấu trúc:
 for + khoảng thời gian
 → Present Perfect trong ngữ cảnh đang tiếp tục
 
+
 since + mốc bắt đầu
 → Present Perfect
+
 
 khoảng thời gian + ago
 → Past Simple
@@ -476,15 +482,15 @@ khoảng thời gian + ago
 
 ### Lỗi thường gặp
 
-❌ I have started this job three years ago.
+❌ `I have started this job three years ago.`
 
-✅ I started this job three years ago.
+✅ `I started this job three years ago.`
 
-❌ I work here since 2023.
+❌ `I work here since 2023.`
 
 Trong phạm vi bài này:
 
-✅ I have worked here since 2023.
+✅ `I have worked here since 2023.`
 
 ### Luyện tập
 
@@ -503,10 +509,10 @@ duration-37 | typing | Gõ câu từ các từ đã xáo: for three years / have
 
 ### Công việc
 
-A: How long have you worked here?
-B: I have worked here for three years.
-A: When did you start?
-B: I started in 2023.
+A: `How long have you worked here?`  
+B: `I have worked here for three years.`  
+A: `When did you start?`  
+B: `I started in 2023.`
 
 Chú ý:
 
@@ -515,6 +521,7 @@ How long have you worked here?
 → khoảng thời gian kéo dài đến hiện tại
 → Present Perfect
 
+
 When did you start?
 → thời điểm bắt đầu cụ thể
 → Past Simple
@@ -522,17 +529,17 @@ When did you start?
 
 ### Nơi ở
 
-A: How long have you lived in this apartment?
-B: I have lived here since January.
-A: Where did you live before?
-B: I lived with my parents.
+A: `How long have you lived in this apartment?`  
+B: `I have lived here since January.`  
+A: `Where did you live before?`  
+B: `I lived with my parents.`
 
 ### Trải nghiệm
 
-A: Have you ever been to Singapore?
-B: Yes, I have.
-A: When did you go?
-B: I went there last year.
+A: `Have you ever been to Singapore?`  
+B: `Yes, I have.`  
+A: `When did you go?`  
+B: `I went there last year.`
 
 Đây là pattern rất quan trọng:
 
@@ -540,6 +547,7 @@ B: I went there last year.
 Have you ever...?
         ↓
 hỏi trải nghiệm
+
 
 When did you...?
         ↓
@@ -605,32 +613,32 @@ Nói 6–8 câu về **công việc, nơi ở hoặc việc học** của bạn.
 
 Có thể dùng các câu hỏi:
 
-- How long have you lived here?
-- When did you move here?
-- How long have you studied English?
-- When did you start learning English?
-- How long have you worked at your current company?
-- Where did you work before?
+- `How long have you lived here?`
+- `When did you move here?`
+- `How long have you studied English?`
+- `When did you start learning English?`
+- `How long have you worked at your current company?`
+- `Where did you work before?`
 
 ### Ví dụ
 
-> I have lived in this city for four years.
-> I moved here in 2022.
-> I have lived in my current apartment since last year.
-> I have worked at my current company for two years.
-> I started this job in 2024.
-> Before that, I worked at another company.
+> I have lived in this city for four years.  
+> I moved here in 2022.  
+> I have lived in my current apartment since last year.  
+> I have worked at my current company for two years.  
+> I started this job in 2024.  
+> Before that, I worked at another company.  
 > I have studied English for several years.
 
 ### Tự đối chiếu phần nói
 
-- Tôi dùng for với **khoảng thời gian**.
-- Tôi dùng since với **mốc bắt đầu**.
-- Tôi dùng Present Perfect cho việc vẫn còn tiếp tục.
-- Tôi dùng Past Simple cho sự kiện đã kết thúc.
-- Tôi dùng Past Simple với yesterday, last..., ...ago khi phù hợp.
-- Tôi không dùng since three years.
-- Tôi không dùng for 2023.
+- [ ] Tôi dùng `for` với **khoảng thời gian**.
+- [ ] Tôi dùng `since` với **mốc bắt đầu**.
+- [ ] Tôi dùng Present Perfect cho việc vẫn còn tiếp tục.
+- [ ] Tôi dùng Past Simple cho sự kiện đã kết thúc.
+- [ ] Tôi dùng Past Simple với `yesterday`, `last...`, `...ago` khi phù hợp.
+- [ ] Tôi không dùng `since three years`.
+- [ ] Tôi không dùng `for 2023`.
 
 ---
 
@@ -657,14 +665,18 @@ Hỏi:
 Việc vẫn tiếp tục đến hiện tại?
 → Present Perfect
 
+
 Việc đã kết thúc?
 → Past Simple
+
 
 Bao lâu?
 → for
 
+
 Từ khi nào?
 → since
+
 
 Cách đây bao lâu?
 → ago + Past Simple
@@ -701,41 +713,41 @@ duration-72 | typing | Gõ câu từ các từ đã xáo: since 2024 / has worke
 
 ### Nơi ở
 
-- I have lived here for five years. → Tôi đã sống ở đây được năm năm.
-- I have lived here since 2021. → Tôi đã sống ở đây từ năm 2021.
-- I moved here five years ago. → Tôi chuyển đến đây năm năm trước.
-- I lived with my parents before I moved here. → Trước khi chuyển đến đây, tôi sống cùng bố mẹ.
-- How long have you lived here? → Bạn đã sống ở đây bao lâu?
+- `I have lived here for five years.` → Tôi đã sống ở đây được năm năm.
+- `I have lived here since 2021.` → Tôi đã sống ở đây từ năm 2021.
+- `I moved here five years ago.` → Tôi chuyển đến đây năm năm trước.
+- `I lived with my parents before I moved here.` → Trước khi chuyển đến đây, tôi sống cùng bố mẹ.
+- `How long have you lived here?` → Bạn đã sống ở đây bao lâu?
 
 ### Công việc
 
-- I have worked here for three years. → Tôi đã làm ở đây được ba năm.
-- I have worked here since 2023. → Tôi đã làm ở đây từ năm 2023.
-- I started this job three years ago. → Tôi bắt đầu công việc này ba năm trước.
-- I worked at another company before this job. → Tôi đã làm ở một công ty khác trước công việc này.
-- When did you start this job? → Bạn bắt đầu công việc này khi nào?
+- `I have worked here for three years.` → Tôi đã làm ở đây được ba năm.
+- `I have worked here since 2023.` → Tôi đã làm ở đây từ năm 2023.
+- `I started this job three years ago.` → Tôi bắt đầu công việc này ba năm trước.
+- `I worked at another company before this job.` → Tôi đã làm ở một công ty khác trước công việc này.
+- `When did you start this job?` → Bạn bắt đầu công việc này khi nào?
 
 ### Học tập
 
-- I have studied English for several years. → Tôi đã học tiếng Anh được vài năm.
-- I have studied English since high school. → Tôi đã học tiếng Anh từ thời trung học.
-- I started this course last month. → Tôi bắt đầu khóa học này tháng trước.
-- I studied Japanese last year. → Tôi đã học tiếng Nhật năm ngoái.
-- How long have you studied English? → Bạn đã học tiếng Anh bao lâu?
+- `I have studied English for several years.` → Tôi đã học tiếng Anh được vài năm.
+- `I have studied English since high school.` → Tôi đã học tiếng Anh từ thời trung học.
+- `I started this course last month.` → Tôi bắt đầu khóa học này tháng trước.
+- `I studied Japanese last year.` → Tôi đã học tiếng Nhật năm ngoái.
+- `How long have you studied English?` → Bạn đã học tiếng Anh bao lâu?
 
 ### Trải nghiệm và quá khứ
 
-- Have you ever been to Japan? → Bạn đã từng đến Nhật chưa?
-- Yes, I have. → Có.
-- When did you go? → Bạn đi khi nào?
-- I went there last year. → Tôi đến đó năm ngoái.
-- I have never been there. → Tôi chưa từng đến đó.
+- `Have you ever been to Japan?` → Bạn đã từng đến Nhật chưa?
+- `Yes, I have.` → Có.
+- `When did you go?` → Bạn đi khi nào?
+- `I went there last year.` → Tôi đến đó năm ngoái.
+- `I have never been there.` → Tôi chưa từng đến đó.
 
 ---
 
 ## Tự kiểm tra cuối bài
 
-### 1. for, since, ago
+### 1. `for`, `since`, `ago`
 
 ```text
 for
@@ -745,12 +757,14 @@ for three years
 for six months
 for two hours
 
+
 since
 → MỐC BẮT ĐẦU
 
 since 2023
 since Monday
 since January
+
 
 ago
 → CÁCH ĐÂY BAO LÂU
@@ -773,6 +787,7 @@ PRESENT PERFECT
 └── từ một mốc đến hiện tại
     I have worked here since 2023.
 
+
 PAST SIMPLE
 │
 ├── sự kiện đã kết thúc
@@ -792,11 +807,14 @@ How long have you worked here?
 → For three years.
 → Since 2023.
 
+
 When did you start?
 → In 2023.
 
+
 Have you ever been to Japan?
 → Yes, I have.
+
 
 When did you go?
 → I went there last year.
@@ -805,7 +823,7 @@ When did you go?
 ### 4. Quy trình chọn nhanh
 
 ```text
-Việc trong quá khứ
+                 Việc trong quá khứ
                         │
             ┌───────────┴───────────┐
             │                       │
@@ -825,11 +843,11 @@ Việc trong quá khứ
 
 Bạn đã đạt mục tiêu bài học nếu có thể:
 
-- phân biệt for + khoảng thời gian và since + mốc bắt đầu;
-- dùng ago với Past Simple;
+- phân biệt `for + khoảng thời gian` và `since + mốc bắt đầu`;
+- dùng `ago` với Past Simple;
 - dùng Present Perfect cho việc bắt đầu trong quá khứ và vẫn còn tiếp tục;
 - dùng Past Simple cho việc đã kết thúc hoặc có thời gian quá khứ rõ ràng;
-- phân biệt I have worked here for three years với I worked there for three years;
-- hỏi How long have you...? và trả lời bằng for hoặc since;
-- chuyển từ câu hỏi trải nghiệm Have you ever...? sang câu hỏi chi tiết When did you...?;
+- phân biệt `I have worked here for three years` với `I worked there for three years`;
+- hỏi `How long have you...?` và trả lời bằng `for` hoặc `since`;
+- chuyển từ câu hỏi trải nghiệm `Have you ever...?` sang câu hỏi chi tiết `When did you...?`;
 - tự nói hoặc viết 6–8 câu kết hợp đúng **Present Perfect và Past Simple**.

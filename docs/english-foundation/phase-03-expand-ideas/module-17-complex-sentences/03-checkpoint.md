@@ -4,8 +4,8 @@
 
 Sau checkpoint này, bạn có thể tự kiểm tra khả năng:
 
-- dùng when, if, although, because để nối các ý;
-- dùng who, which, that để bổ sung thông tin;
+- dùng `when`, `if`, `although`, `because` để nối các ý;
+- dùng `who`, `which`, `that` để bổ sung thông tin;
 - sắp xếp mệnh đề và dùng dấu phẩy cơ bản;
 - viết đoạn ngắn theo **ý chính → lý do → ví dụ**;
 - vận dụng kiến thức Phase 3 để **mô tả, so sánh, nối ý và phát triển một đoạn văn**;
@@ -19,10 +19,10 @@ Sau checkpoint này, bạn có thể tự kiểm tra khả năng:
 
 | Từ | Chức năng | Ví dụ |
 | --- | --- | --- |
-| when | thời gian | When I get home, I make dinner. |
-| if | điều kiện | If it rains, I take the bus. |
-| because | lý do | I walk because my office is nearby. |
-| although | tương phản | Although I am tired, I keep working. |
+| `when` | thời gian | `When I get home, I make dinner.` |
+| `if` | điều kiện | `If it rains, I take the bus.` |
+| `because` | lý do | `I walk because my office is nearby.` |
+| `although` | tương phản | `Although I am tired, I keep working.` |
 
 Cách chọn nhanh:
 
@@ -51,7 +51,7 @@ Although A, B.
 
 Ví dụ:
 
-> Although the apartment is small, it is comfortable.
+> `Although the apartment is small, it is comfortable.`  
 > → Mặc dù căn hộ nhỏ nhưng nó thoải mái.
 
 ### Kiểm tra nhanh
@@ -67,7 +67,7 @@ checkpoint-06 | typing | Gõ câu từ các phần đã xáo: because I need it 
 
 ---
 
-## 2. who, which, that
+## 2. `who`, `which`, `that`
 
 Dùng các từ này để bổ sung thông tin.
 
@@ -83,13 +83,13 @@ VẬT
 
 Ví dụ:
 
-> I have a friend who works at a hospital.
+> `I have a friend who works at a hospital.`  
 > → Tôi có một người bạn làm việc ở bệnh viện.
 
-> I use an app which helps me study English.
+> `I use an app which helps me study English.`  
 > → Tôi dùng một ứng dụng giúp tôi học tiếng Anh.
 
-> I have a laptop that is easy to carry.
+> `I have a laptop that is easy to carry.`  
 > → Tôi có một chiếc laptop dễ mang theo.
 
 Không lặp chủ ngữ:
@@ -137,14 +137,14 @@ Ví dụ
 
 Ví dụ:
 
-> I like my English class. My teacher is a person who explains things clearly. I enjoy the class because the lessons are practical. For example, we often practice conversations that we can use at work.
+> `I like my English class. My teacher is a person who explains things clearly. I enjoy the class because the lessons are practical. For example, we often practice conversations that we can use at work.`
 
 Ở đây:
 
-- I like my English class. → ý chính;
-- who explains things clearly → thông tin bổ sung;
-- because... → lý do;
-- For example,... → ví dụ.
+- `I like my English class.` → ý chính;
+- `who explains things clearly` → thông tin bổ sung;
+- `because...` → lý do;
+- `For example,...` → ví dụ.
 
 ### Kiểm tra nhanh
 
@@ -234,7 +234,7 @@ PHÁT TRIỂN ĐOẠN
 
 Giả sử bạn đang chọn giữa hai căn hộ:
 
-|  | Apartment A | Apartment B |
+| | Apartment A | Apartment B |
 | --- | --- | --- |
 | Size | small | large |
 | Rent | cheap | expensive |
@@ -243,10 +243,10 @@ Giả sử bạn đang chọn giữa hai căn hộ:
 
 Ví dụ:
 
-> Apartment A is smaller than Apartment B.
-> Apartment B is more expensive than Apartment A.
-> Apartment A is closer to work.
-> Apartment B is larger and quieter.
+> `Apartment A is smaller than Apartment B.`  
+> `Apartment B is more expensive than Apartment A.`  
+> `Apartment A is closer to work.`  
+> `Apartment B is larger and quieter.`
 
 ### Luyện tập
 
@@ -264,17 +264,17 @@ phase3-05 | typing | Gõ câu từ các phần đã xáo: more expensive than Ap
 
 Từ thông tin trên, ta có thể phát triển thành đoạn:
 
-> I prefer Apartment A because it is cheaper and closer to work. Although it is smaller than Apartment B, it is more convenient for me. The area is busy, but there are many useful places nearby. For example, there is a supermarket that stays open until late.
+> `I prefer Apartment A because it is cheaper and closer to work. Although it is smaller than Apartment B, it is more convenient for me. The area is busy, but there are many useful places nearby. For example, there is a supermarket that stays open until late.`
 
 Đoạn này kết hợp:
 
 - mô tả;
 - so sánh;
-- because;
-- although;
-- but;
-- for example;
-- that.
+- `because`;
+- `although`;
+- `but`;
+- `for example`;
+- `that`.
 
 ### Luyện tập
 
@@ -292,9 +292,9 @@ phase3-10 | typing | Gõ câu từ các phần đã xáo: Although it is small /
 
 Chọn **một trong ba chủ đề**:
 
-- hai nơi bạn từng sống hoặc biết;
-- hai điện thoại, laptop hoặc đồ vật;
-- hai công việc, lớp học hoặc địa điểm quen thuộc.
+1. hai nơi bạn từng sống hoặc biết;
+2. hai điện thoại, laptop hoặc đồ vật;
+3. hai công việc, lớp học hoặc địa điểm quen thuộc.
 
 Nói khoảng **7–10 câu**.
 
@@ -302,9 +302,9 @@ Cố gắng có:
 
 - 2 câu mô tả;
 - 2 câu so sánh;
-- 1 câu có because;
-- 1 câu có although hoặc but;
-- 1 câu có who, which hoặc that;
+- 1 câu có `because`;
+- 1 câu có `although` hoặc `but`;
+- 1 câu có `who`, `which` hoặc `that`;
 - 1 ví dụ cụ thể.
 
 ### Ví dụ
@@ -313,13 +313,13 @@ Cố gắng có:
 
 ### Tự đối chiếu
 
-- Tôi mô tả được người, vật hoặc nơi chốn.
-- Tôi dùng đúng ít nhất một comparative.
-- Tôi nối các ý thay vì chỉ nói nhiều câu rời rạc.
-- Tôi giải thích ít nhất một lý do.
-- Tôi đưa ra ít nhất một ví dụ.
-- Tôi dùng who, which hoặc that đúng đối tượng.
-- Các câu cùng phát triển một chủ đề.
+- [ ] Tôi mô tả được người, vật hoặc nơi chốn.
+- [ ] Tôi dùng đúng ít nhất một comparative.
+- [ ] Tôi nối các ý thay vì chỉ nói nhiều câu rời rạc.
+- [ ] Tôi giải thích ít nhất một lý do.
+- [ ] Tôi đưa ra ít nhất một ví dụ.
+- [ ] Tôi dùng `who`, `which` hoặc `that` đúng đối tượng.
+- [ ] Các câu cùng phát triển một chủ đề.
 
 ---
 
@@ -369,16 +369,16 @@ Có thể chọn:
 
 ### Tự đối chiếu
 
-- Đoạn có một ý chính rõ ràng.
-- Tôi dùng tính từ để mô tả.
-- Tôi dùng comparative hoặc superlative khi phù hợp.
-- Tôi có ít nhất một lý do.
-- Tôi có ít nhất một ví dụ.
-- Tôi dùng từ nối đúng quan hệ giữa các ý.
-- Tôi dùng who, which hoặc that đúng.
-- Tôi không dùng because ... so ... trong cùng cấu trúc.
-- Tôi không dùng although ... but ... trong cùng cấu trúc.
-- Các câu đều liên quan đến cùng chủ đề.
+- [ ] Đoạn có một ý chính rõ ràng.
+- [ ] Tôi dùng tính từ để mô tả.
+- [ ] Tôi dùng comparative hoặc superlative khi phù hợp.
+- [ ] Tôi có ít nhất một lý do.
+- [ ] Tôi có ít nhất một ví dụ.
+- [ ] Tôi dùng từ nối đúng quan hệ giữa các ý.
+- [ ] Tôi dùng `who`, `which` hoặc `that` đúng.
+- [ ] Tôi không dùng `because ... so ...` trong cùng cấu trúc.
+- [ ] Tôi không dùng `although ... but ...` trong cùng cấu trúc.
+- [ ] Các câu đều liên quan đến cùng chủ đề.
 
 ---
 
@@ -413,38 +413,38 @@ checkpoint-51 | typing | Gõ câu từ các phần đã xáo: For example / I us
 
 ## Mô tả
 
-- My apartment is small but comfortable. → Căn hộ của tôi nhỏ nhưng thoải mái.
-- My coworker is friendly and helpful. → Đồng nghiệp của tôi thân thiện và hay giúp đỡ.
-- This laptop is light and easy to carry. → Chiếc laptop này nhẹ và dễ mang theo.
-- The area is busy but convenient. → Khu vực này đông đúc nhưng thuận tiện.
+- `My apartment is small but comfortable.` → Căn hộ của tôi nhỏ nhưng thoải mái.
+- `My coworker is friendly and helpful.` → Đồng nghiệp của tôi thân thiện và hay giúp đỡ.
+- `This laptop is light and easy to carry.` → Chiếc laptop này nhẹ và dễ mang theo.
+- `The area is busy but convenient.` → Khu vực này đông đúc nhưng thuận tiện.
 
 ## So sánh
 
-- My new phone is faster than my old phone. → Điện thoại mới nhanh hơn điện thoại cũ.
-- This apartment is cheaper than the other one. → Căn hộ này rẻ hơn căn còn lại.
-- My laptop is more useful for work. → Laptop của tôi hữu ích hơn cho công việc.
-- This is the most convenient place for me. → Đây là nơi thuận tiện nhất đối với tôi.
+- `My new phone is faster than my old phone.` → Điện thoại mới nhanh hơn điện thoại cũ.
+- `This apartment is cheaper than the other one.` → Căn hộ này rẻ hơn căn còn lại.
+- `My laptop is more useful for work.` → Laptop của tôi hữu ích hơn cho công việc.
+- `This is the most convenient place for me.` → Đây là nơi thuận tiện nhất đối với tôi.
 
 ## Nối và giải thích
 
-- I study English because I need it for work. → Tôi học tiếng Anh vì cần nó cho công việc.
-- Although I am busy, I study every day. → Mặc dù bận, tôi vẫn học mỗi ngày.
-- If I have free time, I read in English. → Nếu có thời gian rảnh, tôi đọc bằng tiếng Anh.
-- When I finish work, I usually go home. → Khi tan làm, tôi thường về nhà.
+- `I study English because I need it for work.` → Tôi học tiếng Anh vì cần nó cho công việc.
+- `Although I am busy, I study every day.` → Mặc dù bận, tôi vẫn học mỗi ngày.
+- `If I have free time, I read in English.` → Nếu có thời gian rảnh, tôi đọc bằng tiếng Anh.
+- `When I finish work, I usually go home.` → Khi tan làm, tôi thường về nhà.
 
 ## Bổ sung thông tin
 
-- I have a coworker who speaks English well. → Tôi có một đồng nghiệp nói tiếng Anh tốt.
-- I use an app which helps me study. → Tôi dùng một ứng dụng giúp tôi học.
-- I have a laptop that is easy to carry. → Tôi có một chiếc laptop dễ mang theo.
-- I know a café that stays open until late. → Tôi biết một quán cà phê mở cửa đến khuya.
+- `I have a coworker who speaks English well.` → Tôi có một đồng nghiệp nói tiếng Anh tốt.
+- `I use an app which helps me study.` → Tôi dùng một ứng dụng giúp tôi học.
+- `I have a laptop that is easy to carry.` → Tôi có một chiếc laptop dễ mang theo.
+- `I know a café that stays open until late.` → Tôi biết một quán cà phê mở cửa đến khuya.
 
 ## Phát triển đoạn
 
-- I like my job because I learn something new every day. → Tôi thích công việc vì mỗi ngày đều học được điều mới.
-- For example, I often work with international customers. → Ví dụ, tôi thường làm việc với khách hàng quốc tế.
-- Although the work is sometimes difficult, I enjoy it. → Mặc dù công việc đôi khi khó, tôi vẫn thích nó.
-- My manager is a person who always helps the team. → Quản lý của tôi là người luôn giúp đỡ đội.
+- `I like my job because I learn something new every day.` → Tôi thích công việc vì mỗi ngày đều học được điều mới.
+- `For example, I often work with international customers.` → Ví dụ, tôi thường làm việc với khách hàng quốc tế.
+- `Although the work is sometimes difficult, I enjoy it.` → Mặc dù công việc đôi khi khó, tôi vẫn thích nó.
+- `My manager is a person who always helps the team.` → Quản lý của tôi là người luôn giúp đỡ đội.
 
 ---
 
@@ -452,20 +452,20 @@ checkpoint-51 | typing | Gõ câu từ các phần đã xáo: For example / I us
 
 Bạn đã đạt mục tiêu Module 17 nếu có thể:
 
-- phân biệt when, if, because, although;
+- phân biệt `when`, `if`, `because`, `although`;
 - dùng dấu phẩy khi mệnh đề trạng ngữ đứng đầu;
-- dùng who cho người và which / that cho vật;
-- tránh lặp he, she, it sau relative pronoun trong các mẫu đã học;
+- dùng `who` cho người và `which` / `that` cho vật;
+- tránh lặp `he`, `she`, `it` sau relative pronoun trong các mẫu đã học;
 - viết đoạn ngắn có **ý chính → lý do → ví dụ**.
 
 ### Nếu còn sai
 
 | Lỗi chính | Nên ôn lại |
 | --- | --- |
-| Nhầm when / if / because / although | Lesson 1 — Mệnh đề trạng ngữ |
+| Nhầm `when / if / because / although` | Lesson 1 — Mệnh đề trạng ngữ |
 | Sai vị trí mệnh đề hoặc dấu phẩy | Lesson 1 — Mệnh đề trạng ngữ |
-| Nhầm who / which / that | Lesson 2 — Bổ sung thông tin |
-| Viết who he, which it, that it | Lesson 2 — Bổ sung thông tin |
+| Nhầm `who / which / that` | Lesson 2 — Bổ sung thông tin |
+| Viết `who he`, `which it`, `that it` | Lesson 2 — Bổ sung thông tin |
 | Đoạn văn rời rạc, thiếu lý do/ví dụ | Lesson 2 — Bổ sung thông tin |
 
 ### Mức tự đánh giá
@@ -509,3 +509,11 @@ KẾT THÀNH ĐOẠN
 ```
 
 Nếu bạn có thể **đọc hiểu, nghe hiểu, nói và viết** một nội dung ngắn ở mức này mà vẫn giữ các ý liên quan và cấu trúc cơ bản chính xác, bạn đã hoàn thành mục tiêu cốt lõi của Phase 3.
+
+---
+
+If you want, I can:
+
+- Create a quiz deck based on Basic Complex Sentences
+- Draft a short reading/listening activity with quizzes
+- Design a speaking challenge using learned sentence structures

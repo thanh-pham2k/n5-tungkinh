@@ -1,7 +1,5 @@
 # Lesson 1 — Tổng ôn câu và từ vựng
 
-> **Lưu ý biên soạn:** Phần cuối của nội dung chia sẻ bị ngắt; cần bổ sung trước khi đưa bài vào sử dụng.
-
 ## Mục tiêu
 
 Sau bài này, bạn có thể:
@@ -51,7 +49,7 @@ Ví dụ:
 
 > **We have lunch at home.** → Chúng tôi ăn trưa ở nhà.
 
-### Với be
+### Với `be`
 
 Khi mô tả người, đồ vật hoặc nơi chốn:
 
@@ -75,15 +73,15 @@ Ví dụ:
 
 Không bỏ động từ:
 
-> ❌ My room small.
+> ❌ `My room small.`
 
-> ✅ My room is small.
+> ✅ `My room is small.`
 
 Không bỏ chủ ngữ:
 
-> ❌ Work at home every Friday.
+> ❌ `Work at home every Friday.`
 
-> ✅ I work at home every Friday.
+> ✅ `I work at home every Friday.`
 
 ### Luyện tập
 
@@ -195,11 +193,11 @@ Một phần quan trọng của Foundation là **hiểu người khác đang h�
 
 > **Yes, I am.**
 
-Không trộn do và be:
+Không trộn `do` và `be`:
 
-> ❌ Are you work from home?
+> ❌ `Are you work from home?`
 
-> ✅ Do you work from home?
+> ✅ `Do you work from home?`
 
 ---
 
@@ -299,7 +297,7 @@ book a room
 ### Daily Routine
 
 | Word | Chunk |
-| --- | --- |
+|---|---|
 | breakfast | have breakfast |
 | shower | take a shower |
 | work | start work |
@@ -379,7 +377,7 @@ m24l1q22 | typing | Gõ câu từ các từ đã xáo: after lunch / take a brea
 
 Mục tiêu không dừng ở việc nhớ:
 
-> take a break
+> `take a break`
 
 Hãy đưa chunk vào câu:
 
@@ -464,7 +462,7 @@ adjective + noun
 
 > **a friendly coworker** → một đồng nghiệp thân thiện
 
-### Sau be
+### Sau `be`
 
 ```text
 subject + be + adjective
@@ -478,13 +476,13 @@ subject + be + adjective
 
 ### Lỗi thường gặp
 
-> ❌ a cafe quiet
+> ❌ `a cafe quiet`
 
-> ✅ a quiet cafe
+> ✅ `a quiet cafe`
 
-> ❌ My apartment small.
+> ❌ `My apartment small.`
 
-> ✅ My apartment is small.
+> ✅ `My apartment is small.`
 
 ### Luyện tập
 
@@ -505,19 +503,19 @@ Thay vì tạo nhiều câu rời rạc:
 
 Ta có thể liên kết các ý.
 
-### and — thêm ý
+### `and` — thêm ý
 
 > **My neighborhood is quiet and convenient.**
 
-### but — tương phản
+### `but` — tương phản
 
 > **My apartment is small, but it is comfortable.**
 
-### because — lý do
+### `because` — lý do
 
 > **I like my neighborhood because it is quiet.**
 
-### so — kết quả
+### `so` — kết quả
 
 > **My office is nearby, so I usually walk to work.**
 
@@ -871,43 +869,43 @@ m24l1review16 | typing | Gõ câu từ các từ đã xáo: this weekend / my fa
 
 ### Daily Routine
 
-- I usually get up at seven. → Tôi thường thức dậy lúc 7 giờ.
-- I have breakfast before work. → Tôi ăn sáng trước giờ làm.
-- I take a short break after lunch. → Tôi nghỉ ngắn sau bữa trưa.
-- I usually cook dinner at home. → Tôi thường nấu bữa tối ở nhà.
-- I go to bed before eleven. → Tôi đi ngủ trước 11 giờ.
+- `I usually get up at seven.` → Tôi thường thức dậy lúc 7 giờ.
+- `I have breakfast before work.` → Tôi ăn sáng trước giờ làm.
+- `I take a short break after lunch.` → Tôi nghỉ ngắn sau bữa trưa.
+- `I usually cook dinner at home.` → Tôi thường nấu bữa tối ở nhà.
+- `I go to bed before eleven.` → Tôi đi ngủ trước 11 giờ.
 
 ### Work and Study
 
-- I start work at eight every morning. → Tôi bắt đầu làm việc lúc 8 giờ mỗi sáng.
-- I often have a meeting in the morning. → Tôi thường có cuộc họp vào buổi sáng.
-- I'm working from home today. → Hôm nay tôi đang làm việc ở nhà.
-- I study English after dinner. → Tôi học tiếng Anh sau bữa tối.
-- I study English because I want to communicate better. → Tôi học tiếng Anh vì muốn giao tiếp tốt hơn.
+- `I start work at eight every morning.` → Tôi bắt đầu làm việc lúc 8 giờ mỗi sáng.
+- `I often have a meeting in the morning.` → Tôi thường có cuộc họp vào buổi sáng.
+- `I'm working from home today.` → Hôm nay tôi đang làm việc ở nhà.
+- `I study English after dinner.` → Tôi học tiếng Anh sau bữa tối.
+- `I study English because I want to communicate better.` → Tôi học tiếng Anh vì muốn giao tiếp tốt hơn.
 
 ### Health
 
-- I exercise regularly because I want to stay healthy. → Tôi tập thể dục đều vì muốn giữ sức khỏe.
-- I usually walk for thirty minutes after work. → Tôi thường đi bộ 30 phút sau giờ làm.
-- I have a headache, so I'm going to get some rest. → Tôi bị đau đầu nên tôi sẽ nghỉ ngơi.
-- I take medicine when I need it. → Tôi uống thuốc khi cần.
-- I try to eat more vegetables. → Tôi cố gắng ăn nhiều rau hơn.
+- `I exercise regularly because I want to stay healthy.` → Tôi tập thể dục đều vì muốn giữ sức khỏe.
+- `I usually walk for thirty minutes after work.` → Tôi thường đi bộ 30 phút sau giờ làm.
+- `I have a headache, so I'm going to get some rest.` → Tôi bị đau đầu nên tôi sẽ nghỉ ngơi.
+- `I take medicine when I need it.` → Tôi uống thuốc khi cần.
+- `I try to eat more vegetables.` → Tôi cố gắng ăn nhiều rau hơn.
 
 ### Shopping and Travel
 
-- I'm looking for a new jacket. → Tôi đang tìm một chiếc áo khoác mới.
-- Can I try it on? → Tôi có thể thử nó không?
-- I usually pay by card. → Tôi thường thanh toán bằng thẻ.
-- We need to check in at the hotel. → Chúng tôi cần làm thủ tục nhận phòng tại khách sạn.
-- I'm going to book a room for our trip. → Tôi định đặt phòng cho chuyến đi của chúng tôi.
+- `I'm looking for a new jacket.` → Tôi đang tìm một chiếc áo khoác mới.
+- `Can I try it on?` → Tôi có thể thử nó không?
+- `I usually pay by card.` → Tôi thường thanh toán bằng thẻ.
+- `We need to check in at the hotel.` → Chúng tôi cần làm thủ tục nhận phòng tại khách sạn.
+- `I'm going to book a room for our trip.` → Tôi định đặt phòng cho chuyến đi của chúng tôi.
 
 ### Description
 
-- My apartment is small, but it is comfortable. → Căn hộ của tôi nhỏ nhưng thoải mái.
-- I live in a quiet neighborhood. → Tôi sống trong một khu phố yên tĩnh.
-- My coworkers are friendly. → Đồng nghiệp của tôi thân thiện.
-- There is a small cafe near my office. → Có một quán cà phê nhỏ gần văn phòng của tôi.
-- I like the cafe because it is quiet. → Tôi thích quán cà phê vì nó yên tĩnh.
+- `My apartment is small, but it is comfortable.` → Căn hộ của tôi nhỏ nhưng thoải mái.
+- `I live in a quiet neighborhood.` → Tôi sống trong một khu phố yên tĩnh.
+- `My coworkers are friendly.` → Đồng nghiệp của tôi thân thiện.
+- `There is a small cafe near my office.` → Có một quán cà phê nhỏ gần văn phòng của tôi.
+- `I like the cafe because it is quiet.` → Tôi thích quán cà phê vì nó yên tĩnh.
 
 ---
 
@@ -948,3 +946,112 @@ Thành:
 ### 2. Khi chọn grammar
 
 Tìm tín hiệu:
+
+```text
+usually / every day
+→ routine
+
+now / right now
+→ happening now
+
+yesterday / last night
+→ past
+
+this weekend / tomorrow
+→ plan
+```
+
+Sau đó mới chọn cấu trúc phù hợp.
+
+---
+
+### 3. Khi học vocabulary
+
+Đừng dừng ở:
+
+```text
+meeting
+break
+medicine
+room
+```
+
+Hãy nhớ:
+
+```text
+have a meeting
+take a break
+take medicine
+book a room
+```
+
+Rồi đưa vào câu:
+
+```text
+WORD
+↓
+CHUNK
+↓
+SENTENCE
+↓
+EXPANDED SENTENCE
+```
+
+---
+
+### 4. Tiêu chí hoàn thành
+
+Bạn đạt mục tiêu bài học khi có thể:
+
+- tạo câu hoàn chỉnh có subject và verb;
+- phân biệt câu với `be` và câu có động từ thường;
+- chọn cấu trúc phù hợp cho routine, happening now, past và plan đã học;
+- đặt và trả lời câu hỏi cơ bản;
+- sử dụng các chunks quen thuộc thay vì ghép từ tùy ý;
+- mô tả người, đồ vật và nơi chốn bằng adjective;
+- nối ý bằng `and`, `but`, `because`, `so`;
+- tự tạo **4–6 câu liên quan** về một chủ đề đời sống quen thuộc.
+
+Nếu thường sai **trật tự câu**, quay lại:
+
+```text
+SUBJECT
++
+VERB
++
+OBJECT / PLACE / TIME
+```
+
+Nếu nhớ từ nhưng khó tạo câu:
+
+```text
+WORD
+↓
+CHUNK
+↓
+SIMPLE SENTENCE
+↓
+ADD TIME / PLACE
+↓
+ADD REASON
+```
+
+Nếu thường chọn sai cấu trúc, đừng bắt đầu bằng grammar. Hãy hỏi trước:
+
+> **When does this happen?**
+
+Mục tiêu của bài tổng ôn là đưa các phần đã học về cùng một flow:
+
+```text
+VOCABULARY
+↓
+CHUNK
+↓
+GRAMMAR
+↓
+SENTENCE
+↓
+EXPANDED SENTENCE
+↓
+REAL COMMUNICATION
+```

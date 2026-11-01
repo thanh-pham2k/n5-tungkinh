@@ -20,7 +20,7 @@ Bốn kỹ năng không hoạt động riêng lẻ.
 
 Trong giao tiếp thực tế:
 
-```text
+```text id="m24l2flow01"
 LISTEN
 ↓
 UNDERSTAND
@@ -40,7 +40,7 @@ EXPRESS
 
 Bạn đã học các chiến lược nền tảng:
 
-```text
+```text id="m24l2flow02"
 LISTENING
 gist → details → final result
 
@@ -74,7 +74,7 @@ Lần nghe đầu tiên chỉ hỏi:
 
 Sau đó mới tìm:
 
-```text
+```text id="m24l2listen01"
 WHO?
 WHAT?
 WHERE?
@@ -85,7 +85,7 @@ FINAL RESULT?
 
 ### Quy trình
 
-```text
+```text id="m24l2listen02"
 Lần 1
 → GIST
 
@@ -109,7 +109,7 @@ Nghe trước khi mở transcript.
 
 ### Luyện tập
 
-```quiz-deck
+```quiz-deck id="m24l2listenquiz01"
 m24l2q01 | single_choice | Cuộc hội thoại chủ yếu nói về điều gì? | Changing a meeting time | Buying coffee | Finding a new job | Cooking dinner | 1 | Hai người đang thay đổi thời gian gặp nhau.
 m24l2q02 | single_choice | Ban đầu họ dự định gặp lúc mấy giờ? | Five | Six | Six thirty | Seven | 2 | Anna hỏi Are we still meeting at the cafe at six?
 m24l2q03 | single_choice | Tại sao Ben đề nghị đổi giờ? | He has a meeting. | The cafe will be busy. | He finishes work late. | The cafe closes early. | 2 | Ben nói the cafe will be very busy then.
@@ -131,7 +131,7 @@ Anna: Seven is fine. I'll finish work at six thirty, so I'll meet you there at s
 
 Bạn nghe thấy cả:
 
-```text
+```text id="m24l2listen03"
 6:00
 6:30
 7:00
@@ -157,7 +157,7 @@ Nghe trước khi mở transcript.
 
 ### Luyện tập
 
-```quiz-deck
+```quiz-deck id="m24l2listenquiz02"
 m24l2q05 | single_choice | Người mua đang hỏi về sản phẩm nào? | A blue shirt | A black jacket | A pair of shoes | A bag | 1 | Người mua hỏi about this blue shirt.
 m24l2q06 | single_choice | Giá thông thường là bao nhiêu? | Twenty dollars | Thirty dollars | Forty dollars | Fifty dollars | 3 | Giá ban đầu là forty dollars.
 m24l2q07 | single_choice | Hôm nay người mua phải trả bao nhiêu? | Twenty dollars | Thirty dollars | Forty dollars | Seventy dollars | 2 | Sản phẩm đang sale với giá thirty dollars.
@@ -181,7 +181,7 @@ Assistant: Of course. The fitting room is over there.
 
 Sau mỗi đoạn nghe, hỏi:
 
-```text
+```text id="m24l2listen04"
 [ ] Tôi hiểu chủ đề chung?
 
 [ ] Tôi tìm được thông tin câu hỏi yêu cầu?
@@ -203,7 +203,7 @@ Khi đọc, đừng bắt đầu bằng việc dịch từng câu.
 
 Dùng:
 
-```text
+```text id="m24l2read01"
 PASSAGE
 ↓
 MAIN IDEA
@@ -227,7 +227,7 @@ Hỏi:
 
 Sau đó tìm:
 
-```text
+```text id="m24l2read02"
 who
 where
 when
@@ -247,7 +247,7 @@ how much
 
 ### Luyện tập
 
-```quiz-deck
+```quiz-deck id="m24l2readquiz01"
 m24l2q09 | single_choice | Ý chính của đoạn là gì? | Emma's healthy daily habits | Emma's new office | Emma's bus schedule | Emma's sister's job | 1 | Các chi tiết chủ yếu mô tả những thói quen giúp Emma sống lành mạnh hơn.
 m24l2q10 | single_choice | Emma thường đi làm bằng cách nào bây giờ? | By bus | By train | On foot | By car | 3 | Đoạn nói now she usually walks.
 m24l2q11 | single_choice | Tại sao Emma mang bữa trưa từ nhà? | To eat healthier food and save money | Because the office is closed | To share it with her sister | Because she dislikes walking | 1 | Đoạn nêu hai lợi ích là ăn lành mạnh hơn và tiết kiệm tiền.
@@ -270,7 +270,7 @@ Câu hỏi có thể dùng:
 
 Ta cần nhận ra:
 
-```text
+```text id="m24l2read03"
 close to
 ≈
 near
@@ -278,7 +278,7 @@ near
 
 Một số cách diễn đạt quen thuộc:
 
-```text
+```text id="m24l2read04"
 start ≈ begin
 
 near ≈ close to
@@ -300,7 +300,7 @@ Quan trọng là nhận ra:
 
 ### Luyện tập
 
-```quiz-deck
+```quiz-deck id="m24l2readquiz02"
 m24l2q13 | single_choice | Cụm nào gần nghĩa nhất với near my home? | Far from my home | Close to my home | Inside my home | Behind my home only | 2 | Near và close to có nghĩa gần nhau trong ngữ cảnh này.
 m24l2q14 | single_choice | The trip takes twenty minutes gần nghĩa nhất với câu nào? | The trip starts at twenty. | The trip needs about twenty minutes. | The trip costs twenty dollars. | The trip happens twenty times. | 2 | Takes twenty minutes diễn tả thời lượng.
 m24l2q15 | single_choice | Nếu gặp một từ chưa biết nhưng vẫn hiểu main idea và trả lời được câu hỏi, bạn nên làm gì? | Dừng lại ngay | Tiếp tục đọc | Dịch toàn bộ đoạn | Bỏ toàn bộ bài | 2 | Không phải từ mới nào cũng cần hiểu để hoàn thành bài đọc.
@@ -316,7 +316,7 @@ Speaking Foundation không yêu cầu câu trả lời dài.
 
 Khung đã học:
 
-```text
+```text id="m24l2speak01"
 QUESTION
 ↓
 ANSWER
@@ -336,7 +336,7 @@ Ví dụ:
 
 Phân tích:
 
-```text
+```text id="m24l2speak02"
 ANSWER
 I exercise regularly.
 
@@ -358,7 +358,7 @@ Câu trả lời này vẫn tốt:
 
 Mục tiêu là:
 
-```text
+```text id="m24l2speak03"
 clear
 +
 relevant
@@ -390,7 +390,7 @@ Trước khi nói, chỉ ghi keywords.
 
 Ví dụ:
 
-```text
+```text id="m24l2speak04"
 Question:
 Why are you learning English?
 
@@ -413,7 +413,7 @@ Sau đó nói:
 
 ### Luyện tập
 
-```quiz-deck
+```quiz-deck id="m24l2speakquiz01"
 m24l2q16 | single_choice | Why are you learning English? Câu nào phù hợp nhất? | At home. | Because I want to communicate better at work. | After dinner. | With my phone. | 2 | Why yêu cầu một reason.
 m24l2q17 | single_choice | Sau I like walking because it helps me relax, câu nào là example phù hợp? | For example, I walk in the park after work. | My laptop is new. | My office has two floors. | Breakfast is at seven. | 1 | Đi bộ trong công viên là ví dụ trực tiếp cho hoạt động walking.
 m24l2q18 | word_order | Sắp xếp thành câu trả lời. | because it helps me relax / after work / I like walking | I like walking after work because it helps me relax. | Câu kết hợp activity, time và reason.
@@ -422,7 +422,7 @@ m24l2q19 | typing | Gõ câu từ các từ đã xáo: for example / on weekends
 
 ### Checklist Speaking
 
-```text
+```text id="m24l2speak05"
 [ ] Tôi trả lời đúng câu hỏi.
 
 [ ] Tôi đưa được reason khi phù hợp.
@@ -446,7 +446,7 @@ Một paragraph Foundation không cần dài.
 
 Khung cơ bản:
 
-```text
+```text id="m24l2write01"
 MAIN IDEA
 ↓
 REASON
@@ -470,7 +470,7 @@ Sau mỗi câu, hỏi:
 
 > **Does this sentence support my main idea?**
 
-Nếu No → bỏ hoặc sửa.
+Nếu `No` → bỏ hoặc sửa.
 
 ---
 
@@ -480,7 +480,7 @@ Nếu No → bỏ hoặc sửa.
 
 Bắt đầu bằng notes:
 
-```text
+```text id="m24l2write02"
 Topic:
 learning English
 
@@ -503,7 +503,7 @@ Sau đó:
 
 ### Quy trình
 
-```text
+```text id="m24l2write03"
 TOPIC
 ↓
 MAIN IDEA
@@ -523,7 +523,7 @@ Không tốt:
 
 > **I study English every day. English is useful. My apartment is small. I read English emails.**
 
-My apartment is small không hỗ trợ chủ đề.
+`My apartment is small` không hỗ trợ chủ đề.
 
 Tốt hơn:
 
@@ -531,7 +531,7 @@ Tốt hơn:
 
 ### Luyện tập
 
-```quiz-deck
+```quiz-deck id="m24l2writequiz01"
 m24l2q20 | single_choice | Main idea là I try to stay healthy. Câu nào không liên quan? | I walk after work. | I eat more vegetables. | I try to sleep enough. | My laptop has a large screen. | 4 | Thông tin về laptop không hỗ trợ chủ đề sức khỏe.
 m24l2q21 | single_choice | Thứ tự nào hợp lý nhất cho đoạn Foundation? | Example → unrelated idea → main idea | Main idea → reason → explanation → example | Random details → question → main idea | Reason → new topic → new topic | 2 | Đoạn ngắn nên phát triển từ main idea sang supporting ideas.
 m24l2q22 | word_order | Sắp xếp thành câu có reason. | because I want to communicate better / every day / I practice English | I practice English every day because I want to communicate better. | Câu có activity, frequency và reason.
@@ -552,7 +552,7 @@ Nghe trước.
 
 ### Luyện tập
 
-```quiz-deck
+```quiz-deck id="m24l2casequiz01"
 m24l2q24 | single_choice | Người nói đang cố thay đổi điều gì? | Daily routine | Job | Apartment | Friend | 1 | Người nói muốn làm daily routine healthier.
 m24l2q25 | single_choice | Người nói đi bộ đến chỗ làm bao nhiêu ngày mỗi tuần? | One | Two | Three | Seven | 3 | Đoạn nghe nói three days a week.
 m24l2q26 | single_choice | Tại sao người nói có thể đi bộ đến chỗ làm? | The office is close to the apartment. | The bus is expensive. | The speaker has no car. | The office moved yesterday. | 1 | Because giới thiệu lý do là office ở gần apartment.
@@ -576,7 +576,7 @@ I've been very busy recently, so I'm trying to make my daily routine healthier. 
 
 ### Luyện tập
 
-```quiz-deck
+```quiz-deck id="m24l2casequiz02"
 m24l2q28 | single_choice | Main idea của đoạn là gì? | Tom is improving his daily habits. | Tom wants a new apartment. | Tom is changing jobs. | Tom dislikes his neighborhood. | 1 | Các câu đều mô tả những thay đổi trong thói quen của Tom.
 m24l2q29 | single_choice | Tại sao Tom đi ngủ sớm hơn? | He often feels tired after work. | He starts work at night. | His neighborhood is noisy. | He wants to wake up at noon. | 1 | So cho biết đi ngủ sớm là kết quả của việc thường xuyên mệt.
 m24l2q30 | single_choice | Tom làm gì sau bữa tối? | Takes a short walk | Goes swimming | Orders fast food | Drives to work | 1 | Đoạn nói he usually takes a short walk.
@@ -593,7 +593,7 @@ Câu hỏi:
 
 Chuẩn bị:
 
-```text
+```text id="m24l2case01"
 ANSWER:
 ...
 
@@ -615,7 +615,7 @@ Không cần giống bài mẫu.
 
 Tự kiểm tra:
 
-```text
+```text id="m24l2case02"
 [ ] Answer rõ ràng.
 
 [ ] Có reason.
@@ -637,7 +637,7 @@ Viết **3–5 câu** về:
 
 Chuẩn bị notes:
 
-```text
+```text id="m24l2case03"
 Habit:
 ...
 
@@ -657,7 +657,7 @@ Bài mẫu:
 
 ### Checklist
 
-```text
+```text id="m24l2case04"
 [ ] Có main idea.
 
 [ ] Có supporting details.
@@ -681,7 +681,7 @@ Bạn chưa cần hiểu 100% từng từ.
 
 Bạn nên có thể:
 
-```text
+```text id="m24l2ielts01"
 [ ] Hiểu chủ đề chung của đoạn nghe ngắn.
 
 [ ] Tìm được thông tin cụ thể như time, place, number và action.
@@ -701,7 +701,7 @@ Nếu bạn thường:
 
 - nghe được từ nhưng không hiểu ý chung;
 - chọn ngay số đầu tiên nghe thấy;
-- bỏ lỡ but, instead, so, then;
+- bỏ lỡ `but`, `instead`, `so`, `then`;
 - chỉ hiểu khi nhìn transcript;
 
 hãy ôn lại **Listening Foundation**.
@@ -712,7 +712,7 @@ hãy ôn lại **Listening Foundation**.
 
 Bạn nên có thể:
 
-```text
+```text id="m24l2ielts02"
 [ ] Xác định main idea của đoạn ngắn.
 
 [ ] Tìm supporting details.
@@ -743,7 +743,7 @@ hãy ôn lại **Reading Foundation**.
 
 Bạn nên có thể trả lời một câu hỏi quen thuộc bằng:
 
-```text
+```text id="m24l2ielts03"
 ANSWER
 ↓
 REASON
@@ -755,7 +755,7 @@ EXTRA INFORMATION
 
 Bạn nên có thể:
 
-```text
+```text id="m24l2ielts04"
 [ ] Trả lời trực tiếp câu hỏi.
 
 [ ] Nêu reason đơn giản.
@@ -773,10 +773,10 @@ Bạn nên có thể:
 
 Nếu thường chỉ nói:
 
-> Yes.
-> No.
-> At home.
-> Because I like it.
+> `Yes.`  
+> `No.`  
+> `At home.`  
+> `Because I like it.`
 
 hãy ôn lại **Speaking Foundation**.
 
@@ -786,7 +786,7 @@ hãy ôn lại **Speaking Foundation**.
 
 Bạn nên có thể viết:
 
-```text
+```text id="m24l2ielts05"
 MAIN IDEA
 ↓
 REASON
@@ -798,7 +798,7 @@ EXAMPLE
 
 Bạn nên có thể:
 
-```text
+```text id="m24l2ielts06"
 [ ] Viết 3–5 câu về một chủ đề quen thuộc.
 
 [ ] Có main idea rõ.
@@ -818,7 +818,7 @@ Bạn nên có thể:
 
 Nếu đoạn viết:
 
-```text
+```text id="m24l2ielts07"
 sentence 1
 → topic A
 
@@ -831,7 +831,7 @@ sentence 3
 
 hãy quay lại:
 
-```text
+```text id="m24l2ielts08"
 ONE MAIN IDEA
 ↓
 SUPPORTING IDEA
@@ -849,7 +849,7 @@ EXAMPLE
 
 > **Lisa works at a small hotel in the city center. She usually takes the bus to work because the hotel is far from her apartment. Today, the buses are very busy, so she is taking the train instead. Lisa likes her job because she enjoys meeting new people. For example, she often talks with visitors from different countries. She is also studying English in the evening because she wants to communicate more confidently at work.**
 
-```quiz-deck
+```quiz-deck id="m24l2finalquiz01"
 m24l2review01 | single_choice | Lisa làm việc ở đâu? | At a small hotel | At a hospital | At a supermarket | At a school | 1 | Câu đầu cho biết Lisa works at a small hotel.
 m24l2review02 | single_choice | Lisa thường đi làm bằng cách nào? | By train | By bus | On foot | By car | 2 | She usually takes the bus to work.
 m24l2review03 | single_choice | Tại sao Lisa thường đi xe buýt? | The hotel is far from her apartment. | She dislikes trains. | The bus is free. | Her friend drives it. | 1 | Because giới thiệu lý do là khoảng cách.
@@ -874,31 +874,31 @@ m24l2review16 | typing | Gõ câu từ các từ đã xáo: for example / after 
 
 ## Listening & Daily Routine
 
-- I usually get up at seven and have breakfast at home. → Tôi thường dậy lúc 7 giờ và ăn sáng ở nhà.
-- I normally take the bus to work. → Tôi thường đi xe buýt đến chỗ làm.
-- Today, I'm working from home. → Hôm nay tôi đang làm việc ở nhà.
-- After work, I'm going to cook dinner. → Sau giờ làm, tôi định nấu bữa tối.
+- `I usually get up at seven and have breakfast at home.` → Tôi thường dậy lúc 7 giờ và ăn sáng ở nhà.
+- `I normally take the bus to work.` → Tôi thường đi xe buýt đến chỗ làm.
+- `Today, I'm working from home.` → Hôm nay tôi đang làm việc ở nhà.
+- `After work, I'm going to cook dinner.` → Sau giờ làm, tôi định nấu bữa tối.
 
 ## Reading & Understanding
 
-- The main idea is about her daily routine. → Ý chính nói về thói quen hằng ngày của cô ấy.
-- She walks because she wants to stay active. → Cô ấy đi bộ vì muốn duy trì vận động.
-- The walk takes about twenty minutes. → Việc đi bộ mất khoảng 20 phút.
-- On weekends, she spends time with her family. → Cuối tuần cô ấy dành thời gian với gia đình.
+- `The main idea is about her daily routine.` → Ý chính nói về thói quen hằng ngày của cô ấy.
+- `She walks because she wants to stay active.` → Cô ấy đi bộ vì muốn duy trì vận động.
+- `The walk takes about twenty minutes.` → Việc đi bộ mất khoảng 20 phút.
+- `On weekends, she spends time with her family.` → Cuối tuần cô ấy dành thời gian với gia đình.
 
 ## Speaking
 
-- I like my job because I can learn new things. → Tôi thích công việc vì có thể học những điều mới.
-- For example, I often work on different tasks. → Ví dụ, tôi thường làm nhiều nhiệm vụ khác nhau.
-- I also enjoy working with my coworkers. → Tôi cũng thích làm việc với đồng nghiệp.
-- I usually practice English after dinner. → Tôi thường luyện tiếng Anh sau bữa tối.
+- `I like my job because I can learn new things.` → Tôi thích công việc vì có thể học những điều mới.
+- `For example, I often work on different tasks.` → Ví dụ, tôi thường làm nhiều nhiệm vụ khác nhau.
+- `I also enjoy working with my coworkers.` → Tôi cũng thích làm việc với đồng nghiệp.
+- `I usually practice English after dinner.` → Tôi thường luyện tiếng Anh sau bữa tối.
 
 ## Writing
 
-- I try to exercise regularly because I want to stay healthy. → Tôi cố gắng tập thể dục đều vì muốn giữ sức khỏe.
-- I usually walk for thirty minutes after work. → Tôi thường đi bộ 30 phút sau giờ làm.
-- There is a park near my home, so it is easy to exercise there. → Có một công viên gần nhà nên tôi dễ tập thể dục ở đó.
-- On weekends, I sometimes walk with a friend. → Cuối tuần tôi đôi khi đi bộ với một người bạn.
+- `I try to exercise regularly because I want to stay healthy.` → Tôi cố gắng tập thể dục đều vì muốn giữ sức khỏe.
+- `I usually walk for thirty minutes after work.` → Tôi thường đi bộ 30 phút sau giờ làm.
+- `There is a park near my home, so it is easy to exercise there.` → Có một công viên gần nhà nên tôi dễ tập thể dục ở đó.
+- `On weekends, I sometimes walk with a friend.` → Cuối tuần tôi đôi khi đi bộ với một người bạn.
 
 ---
 
@@ -908,7 +908,7 @@ m24l2review16 | typing | Gõ câu từ các từ đã xáo: for example / after 
 
 Bạn đạt nền tảng nếu có thể:
 
-```text
+```text id="m24l2check01"
 LISTEN
 ↓
 GIST
@@ -926,7 +926,7 @@ mà không cần hiểu từng từ.
 
 Bạn đạt nền tảng nếu có thể:
 
-```text
+```text id="m24l2check02"
 READ
 ↓
 MAIN IDEA
@@ -946,7 +946,7 @@ với một đoạn ngắn về chủ đề quen thuộc.
 
 Bạn đạt nền tảng nếu có thể:
 
-```text
+```text id="m24l2check03"
 QUESTION
 ↓
 ANSWER
@@ -966,7 +966,7 @@ và nói khoảng **3–5 câu** mà chỉ cần keywords.
 
 Bạn đạt nền tảng nếu có thể:
 
-```text
+```text id="m24l2check04"
 TOPIC
 ↓
 MAIN IDEA
@@ -984,12 +984,13 @@ và tự viết một đoạn **3–5 câu** rõ ràng.
 
 ## Checklist trước IELTS Foundation
 
-```text
+```text id="m24l2check05"
 LISTENING
 
 [ ] Tôi hiểu gist của đoạn hội thoại ngắn.
 [ ] Tôi tìm được time, place, number và action.
 [ ] Tôi nhận ra final result khi thông tin thay đổi.
+
 
 READING
 
@@ -998,12 +999,14 @@ READING
 [ ] Tôi hiểu paraphrase cơ bản.
 [ ] Tôi không cần dịch từng từ.
 
+
 SPEAKING
 
 [ ] Tôi trả lời trực tiếp câu hỏi.
 [ ] Tôi giải thích được why.
 [ ] Tôi thêm được example hoặc detail.
 [ ] Tôi nói được 3–5 câu từ keywords.
+
 
 WRITING
 
@@ -1023,7 +1026,7 @@ WRITING
 
 Mục tiêu cuối English Foundation:
 
-```text
+```text id="m24l2finalflow"
 VOCABULARY
 +
 GRAMMAR

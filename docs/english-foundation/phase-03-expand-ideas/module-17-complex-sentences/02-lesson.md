@@ -4,15 +4,15 @@
 
 Sau bài này, bạn có thể:
 
-- dùng who, which, that để bổ sung thông tin về người và vật;
+- dùng `who`, `which`, `that` để bổ sung thông tin về người và vật;
 - nối hai câu ngắn thành một câu tự nhiên hơn;
-- phân biệt cách dùng cơ bản của who, which, that;
+- phân biệt cách dùng cơ bản của `who`, `which`, `that`;
 - viết đoạn ngắn có **ý chính → lý do → ví dụ**;
 - tự viết 5–7 câu về người, đồ vật, công việc hoặc nơi chốn quen thuộc.
 
 ---
 
-## 1. Bổ sung thông tin bằng who, which, that
+## 1. Bổ sung thông tin bằng `who`, `which`, `that`
 
 Ta thường cần thêm thông tin để người nghe hiểu rõ **người hoặc vật nào** đang được nói đến.
 
@@ -25,10 +25,10 @@ She works at a hospital.
 
 Có thể nối thành:
 
-> I have a friend who works at a hospital.
+> `I have a friend who works at a hospital.`  
 > → Tôi có một người bạn làm việc ở bệnh viện.
 
-Phần who works at a hospital bổ sung thông tin cho a friend.
+Phần `who works at a hospital` bổ sung thông tin cho `a friend`.
 
 Một ví dụ khác:
 
@@ -39,16 +39,16 @@ The phone has a good camera.
 
 Có thể nối thành:
 
-> I bought a phone that has a good camera.
+> `I bought a phone that has a good camera.`  
 > → Tôi mua một chiếc điện thoại có camera tốt.
 
 Ở mức cơ bản, nhớ:
 
 | Từ | Dùng cho | Ví dụ |
 | --- | --- | --- |
-| who | người | a woman who works here |
-| which | vật | a phone which has a good camera |
-| that | người hoặc vật | a person that helps me / a phone that is cheap |
+| `who` | người | `a woman who works here` |
+| `which` | vật | `a phone which has a good camera` |
+| `that` | người hoặc vật | `a person that helps me` / `a phone that is cheap` |
 
 ### Luyện tập
 
@@ -63,9 +63,9 @@ relative-06 | typing | Gõ câu từ các phần đã xáo: that has a good came
 
 ---
 
-## 2. who — bổ sung thông tin về người
+## 2. `who` — bổ sung thông tin về người
 
-Dùng who sau một danh từ chỉ **người**.
+Dùng `who` sau một danh từ chỉ **người**.
 
 Cấu trúc cơ bản:
 
@@ -75,10 +75,10 @@ person + who + verb...
 
 Ví dụ:
 
-- I know a woman who speaks Japanese. → Tôi biết một phụ nữ nói tiếng Nhật.
-- Tom is the person who helped me. → Tom là người đã giúp tôi.
-- She has a friend who lives in Canada. → Cô ấy có một người bạn sống ở Canada.
-- I work with people who use English every day. → Tôi làm việc với những người sử dụng tiếng Anh mỗi ngày.
+- `I know a woman who speaks Japanese.` → Tôi biết một phụ nữ nói tiếng Nhật.
+- `Tom is the person who helped me.` → Tom là người đã giúp tôi.
+- `She has a friend who lives in Canada.` → Cô ấy có một người bạn sống ở Canada.
+- `I work with people who use English every day.` → Tôi làm việc với những người sử dụng tiếng Anh mỗi ngày.
 
 Hãy nhìn cách hai câu được nối:
 
@@ -91,15 +91,15 @@ He speaks English well.
 I have a coworker who speaks English well.
 ```
 
-Ta không cần lặp lại he.
+Ta không cần lặp lại `he`.
 
 ### Lỗi thường gặp
 
-❌ I have a coworker who he speaks English well.
+❌ `I have a coworker who he speaks English well.`
 
-✅ I have a coworker who speaks English well.
+✅ `I have a coworker who speaks English well.`
 
-Trong câu này, who đã thay cho he.
+Trong câu này, `who` đã thay cho `he`.
 
 ### Luyện tập
 
@@ -114,9 +114,9 @@ relative-12 | typing | Gõ câu từ các phần đã xáo: who helped me yester
 
 ---
 
-## 3. which — bổ sung thông tin về vật
+## 3. `which` — bổ sung thông tin về vật
 
-Dùng which sau danh từ chỉ **đồ vật hoặc sự vật**.
+Dùng `which` sau danh từ chỉ **đồ vật hoặc sự vật**.
 
 Cấu trúc cơ bản:
 
@@ -126,10 +126,10 @@ thing + which + verb...
 
 Ví dụ:
 
-- I have a laptop which is very light. → Tôi có một chiếc laptop rất nhẹ.
-- She bought a phone which has a good camera. → Cô ấy mua một chiếc điện thoại có camera tốt.
-- We use an app which helps us learn English. → Chúng tôi dùng một ứng dụng giúp học tiếng Anh.
-- This is a bus which goes to the city center. → Đây là xe buýt đi đến trung tâm thành phố.
+- `I have a laptop which is very light.` → Tôi có một chiếc laptop rất nhẹ.
+- `She bought a phone which has a good camera.` → Cô ấy mua một chiếc điện thoại có camera tốt.
+- `We use an app which helps us learn English.` → Chúng tôi dùng một ứng dụng giúp học tiếng Anh.
+- `This is a bus which goes to the city center.` → Đây là xe buýt đi đến trung tâm thành phố.
 
 Hai câu:
 
@@ -142,15 +142,15 @@ It is very light.
 I bought a laptop which is very light.
 ```
 
-which thay cho it.
+`which` thay cho `it`.
 
 ### Lỗi thường gặp
 
-❌ I bought a laptop which it is very light.
+❌ `I bought a laptop which it is very light.`
 
-✅ I bought a laptop which is very light.
+✅ `I bought a laptop which is very light.`
 
-Không cần thêm it.
+Không cần thêm `it`.
 
 ### Luyện tập
 
@@ -165,27 +165,27 @@ relative-18 | typing | Gõ câu từ các phần đã xáo: which has a large sc
 
 ---
 
-## 4. that — dùng cho người hoặc vật
+## 4. `that` — dùng cho người hoặc vật
 
-Ở mức cơ bản, that có thể dùng để bổ sung thông tin về **người hoặc vật** trong các câu như bài này.
+Ở mức cơ bản, `that` có thể dùng để bổ sung thông tin về **người hoặc vật** trong các câu như bài này.
 
 ### Với người
 
-I know someone that works here.
+`I know someone that works here.`  
 → Tôi biết một người làm việc ở đây.
 
 Có thể dùng:
 
-I know someone who works here.
+`I know someone who works here.`
 
 ### Với vật
 
-I need a laptop that is easy to carry.
+`I need a laptop that is easy to carry.`  
 → Tôi cần một chiếc laptop dễ mang theo.
 
 Có thể dùng:
 
-I need a laptop which is easy to carry.
+`I need a laptop which is easy to carry.`
 
 Cách nhớ:
 
@@ -234,7 +234,7 @@ relative-24 | typing | Gõ câu từ các phần đã xáo: that works with Anna
 
 ---
 
-## 5. Chọn who, which hay that
+## 5. Chọn `who`, `which` hay `that`
 
 Trước tiên, hãy nhìn vào danh từ cần bổ sung thông tin.
 
@@ -247,6 +247,7 @@ Danh từ là NGƯỜI?
        │
        └── that cũng có thể dùng
 
+
 Danh từ là VẬT?
        │
       YES
@@ -256,18 +257,18 @@ Danh từ là VẬT?
 
 Ví dụ:
 
-The woman who works here is friendly.
-→ woman = người → who
+`The woman who works here is friendly.`  
+→ `woman` = người → `who`
 
-I have a phone which has two cameras.
-→ phone = vật → which
+`I have a phone which has two cameras.`  
+→ `phone` = vật → `which`
 
-I need a bag that is easy to carry.
-→ bag = vật → that
+`I need a bag that is easy to carry.`  
+→ `bag` = vật → `that`
 
 ### Một lỗi quan trọng
 
-Không lặp chủ ngữ sau who, which, that trong các mẫu này.
+Không lặp chủ ngữ sau `who`, `which`, `that` trong các mẫu này.
 
 ```text
 ❌ the man who he works here
@@ -307,7 +308,7 @@ She helps me with Japanese customers.
 
 Có thể viết:
 
-> I have a coworker who speaks Japanese. She helps me with Japanese customers.
+> `I have a coworker who speaks Japanese. She helps me with Japanese customers.`
 
 Hoặc:
 
@@ -319,7 +320,7 @@ It is easy to use.
 
 Viết tự nhiên hơn:
 
-> I use an app that helps me learn English. It is easy to use.
+> `I use an app that helps me learn English. It is easy to use.`
 
 ### Không cần nối mọi thứ
 
@@ -327,11 +328,11 @@ Mục tiêu không phải tạo một câu thật dài.
 
 ❌ Khó đọc:
 
-> I have a coworker who speaks Japanese who helps me with customers who work in Japan.
+> `I have a coworker who speaks Japanese who helps me with customers who work in Japan.`
 
 Tốt hơn:
 
-> I have a coworker who speaks Japanese. She helps me with Japanese customers.
+> `I have a coworker who speaks Japanese. She helps me with Japanese customers.`
 
 Nguyên tắc:
 
@@ -355,9 +356,9 @@ Một đoạn văn ngắn cần có **một ý chính rõ ràng**.
 
 Sau đó:
 
-- nói ý chính;
-- giải thích lý do;
-- đưa ví dụ.
+1. nói ý chính;
+2. giải thích lý do;
+3. đưa ví dụ.
 
 Cấu trúc đơn giản:
 
@@ -387,7 +388,7 @@ who / which / that
 
 ### Ví dụ 1 — Công việc
 
-> I like working with my team. My coworkers are people who are friendly and helpful. I enjoy working with them because we help each other. For example, they help me when I have a difficult task.
+> `I like working with my team. My coworkers are people who are friendly and helpful. I enjoy working with them because we help each other. For example, they help me when I have a difficult task.`
 
 Nghĩa:
 
@@ -411,14 +412,14 @@ For example, they help me when I have a difficult task.
 
 ### Ví dụ 2 — Một ứng dụng
 
-> I use an app that helps me learn English. I like it because the lessons are short and simple. For example, I can study for ten minutes when I have free time.
+> `I use an app that helps me learn English. I like it because the lessons are short and simple. For example, I can study for ten minutes when I have free time.`
 
 Ở đây:
 
-- that helps me learn English → bổ sung thông tin;
-- because... → lý do;
-- For example,... → ví dụ;
-- when... → thời gian.
+- `that helps me learn English` → bổ sung thông tin;
+- `because...` → lý do;
+- `For example,...` → ví dụ;
+- `when...` → thời gian.
 
 ### Luyện tập
 
@@ -451,19 +452,19 @@ Một đoạn văn không cần nhiều câu phức tạp.
 
 Ví dụ:
 
-> My laptop is very useful for my work. It is a laptop that is light and easy to carry. I like it because I often work in different places. For example, I take it to the office and cafés.
+> `My laptop is very useful for my work. It is a laptop that is light and easy to carry. I like it because I often work in different places. For example, I take it to the office and cafés.`
 
 ### Tránh câu không liên quan
 
 Đoạn sau thiếu mạch lạc:
 
-> My laptop is useful. I like pizza. My laptop is light. My brother lives in Canada.
+> `My laptop is useful. I like pizza. My laptop is light. My brother lives in Canada.`
 
 Các câu riêng lẻ đúng ngữ pháp nhưng không cùng phát triển một ý.
 
 Tốt hơn:
 
-> My laptop is useful because I work online. It is a laptop that is light and easy to carry. For example, I often take it to cafés when I want to work outside.
+> `My laptop is useful because I work online. It is a laptop that is light and easy to carry. For example, I often take it to cafés when I want to work outside.`
 
 ### Cách tự kiểm tra
 
@@ -565,13 +566,13 @@ Có thể chọn:
 
 ### Tự đối chiếu phần nói
 
-- Tôi có một ý chính rõ ràng.
-- Tôi dùng who cho người nếu phù hợp.
-- Tôi dùng which hoặc that cho vật nếu phù hợp.
-- Tôi không lặp he, she, it ngay sau who, which, that trong các mẫu đã học.
-- Tôi đưa ra ít nhất một lý do.
-- Tôi đưa ra ít nhất một ví dụ.
-- Các câu đều liên quan đến cùng một chủ đề.
+- [ ] Tôi có một ý chính rõ ràng.
+- [ ] Tôi dùng `who` cho người nếu phù hợp.
+- [ ] Tôi dùng `which` hoặc `that` cho vật nếu phù hợp.
+- [ ] Tôi không lặp `he`, `she`, `it` ngay sau `who`, `which`, `that` trong các mẫu đã học.
+- [ ] Tôi đưa ra ít nhất một lý do.
+- [ ] Tôi đưa ra ít nhất một ví dụ.
+- [ ] Các câu đều liên quan đến cùng một chủ đề.
 
 ---
 
@@ -665,33 +666,33 @@ relative-79 | typing | Gõ câu từ các phần đã xáo: because it saves me 
 
 ### Nói về người
 
-- I have a friend who lives near me. → Tôi có một người bạn sống gần tôi.
-- She is a person who always helps me. → Cô ấy là người luôn giúp đỡ tôi.
-- I work with people who use English every day. → Tôi làm việc với những người dùng tiếng Anh mỗi ngày.
-- Tom is the coworker who helped me yesterday. → Tom là đồng nghiệp đã giúp tôi hôm qua.
-- I know someone that works at this company. → Tôi biết một người làm ở công ty này.
+- `I have a friend who lives near me.` → Tôi có một người bạn sống gần tôi.
+- `She is a person who always helps me.` → Cô ấy là người luôn giúp đỡ tôi.
+- `I work with people who use English every day.` → Tôi làm việc với những người dùng tiếng Anh mỗi ngày.
+- `Tom is the coworker who helped me yesterday.` → Tom là đồng nghiệp đã giúp tôi hôm qua.
+- `I know someone that works at this company.` → Tôi biết một người làm ở công ty này.
 
 ### Nói về đồ vật
 
-- I have a phone that has a good camera. → Tôi có một chiếc điện thoại có camera tốt.
-- I use an app which helps me study English. → Tôi dùng một ứng dụng giúp tôi học tiếng Anh.
-- I need a laptop that is easy to carry. → Tôi cần một chiếc laptop dễ mang theo.
-- This is a tool which saves me time. → Đây là một công cụ giúp tôi tiết kiệm thời gian.
-- I have a bag that is light and strong. → Tôi có một chiếc túi nhẹ và chắc chắn.
+- `I have a phone that has a good camera.` → Tôi có một chiếc điện thoại có camera tốt.
+- `I use an app which helps me study English.` → Tôi dùng một ứng dụng giúp tôi học tiếng Anh.
+- `I need a laptop that is easy to carry.` → Tôi cần một chiếc laptop dễ mang theo.
+- `This is a tool which saves me time.` → Đây là một công cụ giúp tôi tiết kiệm thời gian.
+- `I have a bag that is light and strong.` → Tôi có một chiếc túi nhẹ và chắc chắn.
 
 ### Phát triển ý
 
-- I like my job because I work with friendly people. → Tôi thích công việc vì làm việc với những người thân thiện.
-- For example, my coworkers help me when I have a problem. → Ví dụ, đồng nghiệp giúp tôi khi tôi gặp vấn đề.
-- I use this app because it is simple. → Tôi dùng ứng dụng này vì nó đơn giản.
-- For example, I can study for ten minutes during my lunch break. → Ví dụ, tôi có thể học mười phút trong giờ nghỉ trưa.
-- Although the café is small, it is comfortable. → Mặc dù quán nhỏ nhưng nó thoải mái.
+- `I like my job because I work with friendly people.` → Tôi thích công việc vì làm việc với những người thân thiện.
+- `For example, my coworkers help me when I have a problem.` → Ví dụ, đồng nghiệp giúp tôi khi tôi gặp vấn đề.
+- `I use this app because it is simple.` → Tôi dùng ứng dụng này vì nó đơn giản.
+- `For example, I can study for ten minutes during my lunch break.` → Ví dụ, tôi có thể học mười phút trong giờ nghỉ trưa.
+- `Although the café is small, it is comfortable.` → Mặc dù quán nhỏ nhưng nó thoải mái.
 
 ---
 
 ## Tự kiểm tra cuối bài
 
-### 1. who, which, that
+### 1. `who`, `which`, `that`
 
 ```text
 PERSON
@@ -700,6 +701,7 @@ PERSON
 └── that
 
 I have a friend who works here.
+
 
 THING
 │
@@ -716,8 +718,10 @@ I have an app that helps me study.
 ❌ a man who he works here
 ✅ a man who works here
 
+
 ❌ a phone which it has a good camera
 ✅ a phone which has a good camera
+
 
 ❌ an app that it helps me study
 ✅ an app that helps me study
@@ -765,10 +769,10 @@ Tôi muốn đưa VÍ DỤ?
 
 Bạn đã đạt mục tiêu bài học nếu có thể:
 
-- dùng who để bổ sung thông tin về người;
-- dùng which hoặc that để bổ sung thông tin về vật;
-- dùng that trong các mẫu cơ bản về người hoặc vật;
-- tránh lặp he, she, it sau who, which, that trong các cấu trúc đã học;
+- dùng `who` để bổ sung thông tin về người;
+- dùng `which` hoặc `that` để bổ sung thông tin về vật;
+- dùng `that` trong các mẫu cơ bản về người hoặc vật;
+- tránh lặp `he`, `she`, `it` sau `who`, `which`, `that` trong các cấu trúc đã học;
 - nối hai câu ngắn thành một câu rõ ràng;
 - không tạo câu quá dài chỉ để dùng relative clause;
 - viết đoạn **5–7 câu** có ý chính, thông tin bổ sung, lý do và ví dụ;
