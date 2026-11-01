@@ -59,7 +59,7 @@ test('completed lessons rotate behind uncompleted lessons and persist across rel
     const dialog = page.getByRole('dialog', { name: 'Test 1' });
     await dialog.locator('.lesson-option').filter({ hasText: 'Yes' }).click();
     await dialog.getByRole('button', { name: 'Xem kết quả' }).click();
-    await expect(cards.nth(0)).toContainText('Chưa hoàn thành');
+    await expect(cards.nth(0).getByRole('img', { name: 'Chưa hoàn thành' })).toBeVisible();
     await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
     await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
     await dialog.getByRole('button', { name: 'Đóng' }).click();
@@ -67,7 +67,7 @@ test('completed lessons rotate behind uncompleted lessons and persist across rel
     await expect(cards.nth(1)).toContainText('Lesson 1');
     await page.reload();
     await expect(cards.nth(0)).toContainText('Lesson 2');
-    await expect(cards.nth(1)).toContainText('Đã hoàn thành');
+    await expect(cards.nth(1).getByRole('img', { name: 'Đã hoàn thành' })).toBeVisible();
     await cards.nth(0).click();
     const second = page.getByRole('dialog', { name: 'Test 2' });
     await second.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
@@ -82,9 +82,9 @@ test('completed lessons rotate behind uncompleted lessons and persist across rel
     ).toBeVisible();
     await page.getByRole('dialog').getByRole('button', { name: 'Đóng' }).click();
     await expect(cards.nth(0)).toContainText('Lesson 2');
-    await expect(cards.nth(0)).toContainText('Chưa hoàn thành');
+    await expect(cards.nth(0).getByRole('img', { name: 'Chưa hoàn thành' })).toBeVisible();
     await page.reload();
-    await expect(cards.nth(0)).toContainText('Chưa hoàn thành');
+    await expect(cards.nth(0).getByRole('img', { name: 'Chưa hoàn thành' })).toBeVisible();
   } finally {
     await db.execute({
       sql: 'UPDATE study_catalog SET payload_json = ? WHERE id = ?',
@@ -113,7 +113,9 @@ test('completion remains unchanged if saving fails', async ({ page }) => {
   await button.click();
   await expect(dialog.getByRole('alert').first()).toContainText('Không lưu được tiến độ.');
   await expect(button).toBeEnabled();
-  await expect(page.locator('.foundation-lesson').first()).toContainText('Chưa hoàn thành');
+  await expect(
+    page.locator('.foundation-lesson').first().getByRole('img', { name: 'Chưa hoàn thành' }),
+  ).toBeVisible();
 });
 
 test('Apply audio requests Sound of Text and reports service errors', async ({ page }) => {

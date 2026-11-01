@@ -26,6 +26,32 @@
   cursor: pointer;
   font: inherit;
 }
+.foundation-lesson-main {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-width: 0;
+}
+.foundation-status {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 28px;
+  height: 28px;
+  border: var(--border);
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--success-ink);
+  font-weight: 800;
+  line-height: 1;
+}
+.foundation-status.is-complete {
+  background: var(--mint);
+}
+.foundation-lesson-arrow {
+  flex: none;
+  margin-left: var(--space-3);
+}
 .foundation-lesson + .foundation-lesson {
   margin-top: var(--space-3);
 }

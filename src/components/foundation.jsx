@@ -103,14 +103,24 @@ export default function Foundation() {
             type="button"
             onClick={() => setSelected(item)}
           >
-            <span>
-              <strong>{item.label}</strong>
-              <br />
-              {item.title}
-              <br />
-              {item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
+            <span className="foundation-lesson-main">
+              <span
+                className={`foundation-status ${item.completedAt ? 'is-complete' : ''}`}
+                role="img"
+                aria-label={item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
+                title={item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
+              >
+                {item.completedAt && <span aria-hidden="true">✓</span>}
+              </span>
+              <span>
+                <strong>{item.label}</strong>
+                <br />
+                {item.title}
+              </span>
             </span>
-            <span aria-hidden="true">↗</span>
+            <span className="foundation-lesson-arrow" aria-hidden="true">
+              ↗
+            </span>
           </button>
         ))}
       </section>
