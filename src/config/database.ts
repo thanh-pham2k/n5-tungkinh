@@ -7,7 +7,11 @@ export function database() {
   // Explicitly isolated browser-test fixture. Vercel can never use a local database.
   if (process.env.KOTOBA_TEST_MODE === '1' && !process.env.VERCEL) {
     client = createClient({
-      url: pathToFileURL(resolve('.migration-artifacts/browser-test.db')).href,
+      url: pathToFileURL(
+        process.env.KOTOBA_LOCAL_PREVIEW === '1'
+          ? resolve('.migration-artifacts/local-preview.db')
+          : resolve('.migration-artifacts/browser-test.db'),
+      ).href,
     });
     return client;
   }

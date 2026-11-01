@@ -177,3 +177,74 @@ for (const width of [360, 430, 1280])
       ).toBe(true);
     }
   });
+
+test('A/D navigates Word Order and Typing without interrupting typing', async ({ page }) => {
+  await navigate(page, 'Word Order');
+  await importCsv(page, wordCsv);
+  await page.locator('.word-pool button').first().focus();
+  await page.keyboard.press('d');
+  await expect(page.getByText('Đây là mèo.', { exact: true })).toBeVisible();
+  await page.keyboard.press('a');
+  await expect(page.getByText('Xin chào thế giới.', { exact: true })).toBeVisible();
+  await navigate(page, 'Typing Review');
+  const input = page.getByRole('textbox', { name: 'Câu trả lời của bạn' });
+  await input.fill('');
+  await input.pressSequentially('a dog');
+  await expect(input).toHaveValue('a dog');
+  await page.getByRole('button', { name: 'Kiểm tra', exact: true }).focus();
+  await page.keyboard.press('d');
+  await expect(page.getByText('Đây là mèo.', { exact: true })).toBeVisible();
+});
+
+test('A/D navigates flashcards and is disabled while a dialog is open', async ({ page }) => {
+  await navigate(page, 'Vocab Review');
+  await importCsv(page, csv);
+  await page.getByRole('button', { name: 'Xem đáp án', exact: true }).focus();
+  await page.keyboard.press('d');
+  await expect(page.locator('.flash-word').first()).toHaveText('cat');
+  await page.keyboard.press('a');
+  await expect(page.locator('.flash-word').first()).toHaveText('Hello');
+  await page.getByText('Tùy chọn', { exact: false }).first().click();
+  await page.getByRole('button', { name: 'Phóng to', exact: true }).click();
+  await page.keyboard.press('d');
+  await expect(page.getByRole('dialog').locator('.flash-word')).toHaveText('Hello');
+});
+
+test('A/D navigates Writing Review but does not interfere with the answer textarea', async ({
+  page,
+}) => {
+  await navigate(page, 'Writing Review');
+  await importCsv(
+    page,
+    'context,prompt,input,sample_answer\nWork,First task,Hi,Hello.\nHome,Second task,Hi,Hello.',
+    '＋ Nhập đề CSV',
+  );
+  const input = page.getByRole('textbox', { name: 'Câu trả lời của bạn' });
+  await input.pressSequentially('a dog');
+  await expect(input).toHaveValue('a dog');
+  await expect(page.getByRole('heading', { name: 'First task' })).toBeVisible();
+  await page.getByRole('button', { name: 'Câu tiếp →' }).focus();
+  await page.keyboard.press('d');
+  await expect(page.getByRole('heading', { name: 'Second task' })).toBeVisible();
+  await page.keyboard.press('a');
+  await expect(page.getByRole('heading', { name: 'First task' })).toBeVisible();
+  await expect(input).toHaveValue('a dog');
+});
+
+test('A/D navigates Multiple Choice pages without changing selection', async ({ page }) => {
+  await navigate(page, 'Multiple Choice');
+  await page.getByRole('button', { name: 'Nhập dữ liệu' }).click();
+  await page
+    .getByRole('textbox', { name: 'Nội dung Multiple Choice' })
+    .fill(
+      'question|option_1|option_2|option_3|option_4|correct_answer\nFirst?|A|B|C|D|1\nSecond?|A|B|C|D|1',
+    );
+  await page.getByRole('button', { name: 'Nạp dữ liệu', exact: true }).click();
+  await page.locator('.mc-option input').first().check();
+  await page.keyboard.press('d');
+  await expect(page.locator('.mc-question-text')).toHaveText('Second?');
+  await page.getByRole('button', { name: '← Trước' }).focus();
+  await page.keyboard.press('a');
+  await expect(page.locator('.mc-question-text')).toHaveText('First?');
+  await expect(page.locator('.mc-option input').first()).toBeChecked();
+});

@@ -1,0 +1,50 @@
+.foundation-page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: var(--space-6);
+}
+.foundation-page > .eyebrow {
+  margin-top: var(--space-8);
+}
+.foundation-module {
+  margin-top: var(--space-6);
+  padding: var(--space-6);
+  background: var(--paper);
+  border: var(--border);
+  box-shadow: var(--shadow);
+}
+.foundation-lesson {
+  width: 100%;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding: var(--space-4);
+  border: var(--border);
+  background: var(--accent);
+  cursor: pointer;
+  font: inherit;
+}
+.foundation-lesson + .foundation-lesson {
+  margin-top: var(--space-3);
+}
+.foundation-page > dialog {
+  width: min(960px, calc(100vw - 24px));
+  max-width: 960px;
+  max-height: calc(100dvh - 24px);
+  padding: 0;
+}
+.foundation-page > dialog > .dialog-content {
+  padding: 0;
+  overflow: hidden;
+}
+.foundation-page .markdown-page {
+  height: calc(100dvh - 115px);
+}
+.foundation-page .markdown-page.reading-focus .preview-workspace {
+  height: 100%;
+}
+.foundation-page .markdown-page #lesson-output {
+  padding-top: var(--space-4);
+}

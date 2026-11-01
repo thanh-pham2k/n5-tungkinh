@@ -5,7 +5,11 @@ import { pathToFileURL } from 'node:url';
 import { spawn } from 'node:child_process';
 await mkdir('.migration-artifacts', { recursive: true });
 const db = createClient({
-  url: pathToFileURL(resolve('.migration-artifacts/browser-test.db')).href,
+  url: pathToFileURL(
+    process.env.KOTOBA_LOCAL_PREVIEW === '1'
+      ? resolve('.migration-artifacts/local-preview.db')
+      : resolve('.migration-artifacts/browser-test.db'),
+  ).href,
 });
 const existing = await db.execute(
   "SELECT name FROM sqlite_schema WHERE type = 'table' AND name = 'study_catalog'",
@@ -18,6 +22,10 @@ const catalog = {
   'markdown-example': await readFile('database/seed/markdown-example.md', 'utf8'),
   'word-order-example': await readFile('database/seed/word-order-example.txt', 'utf8'),
   'work-english-30': JSON.parse(await readFile('database/seed/work-english-30.json', 'utf8')),
+  'english-foundation': await readFile(
+    'docs/english-foundation/phase-01-build-sentences/module-01-basic-sentence-structure/01-a-complete-sentence.md',
+    'utf8',
+  ),
 };
 await db.batch(
   Object.entries(catalog).map(([id, data]) => ({
@@ -27,7 +35,9 @@ await db.batch(
   'write',
 );
 db.close();
-console.log('Browser tests use isolated SQLite fixture, never the configured Turso database.');
+console.log(
+  'Local test mode uses an isolated SQLite fixture, never the configured Turso database.',
+);
 const child = spawn(
   process.execPath,
   ['node_modules/next/dist/bin/next', 'start', '--hostname', '127.0.0.1', '--port', '4173'],

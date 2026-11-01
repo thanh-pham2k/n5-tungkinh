@@ -47,6 +47,8 @@ ID phải duy nhất trong bài. MVP hỗ trợ `single_choice`; không hỗ tr�
 
 Các quiz liên tiếp (cho phép dòng trống giữa chúng) tạo thành một deck. Paragraph, heading, code block hoặc quiz lỗi kết thúc deck hiện tại. Quiz nằm trong fenced code block chỉ là ví dụ, không tạo câu hỏi tương tác.
 
+Khi focus đang ở trong bộ quiz, nhấn **A** để về câu trước hoặc **D** để sang câu tiếp theo; phím tắt không hoạt động trong ô nhập văn bản và không tự mở màn hình kết quả.
+
 Các lựa chọn trắc nghiệm và mảnh Word Order được xáo ngẫu nhiên khi mở câu hoặc luyện lại; thứ tự có thể trùng lần trước. Chọn đáp án để xem phản hồi. Dùng nút Trước/Tiếp, nút số câu hoặc vuốt ngang trên điện thoại để chuyển câu. Nút **Xem kết quả** ở câu cuối cho biết điểm và câu chưa làm; có thể quay lại từng câu hoặc **Luyện lại bộ này**.
 
 Nội dung editor được lưu Turso sau khi parse hợp lệ và mở lại từ Lịch sử nhập; lần mở workspace tải log chung gần nhất rồi parse lại. Đáp án quiz lưu DB theo cookie phiên riêng. Khi chỉnh định nghĩa câu hỏi, đáp án cũ của câu đã sửa bị xóa. Nội dung Markdown local legacy được chuyển một lần lên DB rồi mới xóa; không dùng localStorage/sessionStorage làm fallback. Nếu lưu lỗi, UI báo chưa lưu để thử lại; không tuyên bố đã ghi nhận thành công.

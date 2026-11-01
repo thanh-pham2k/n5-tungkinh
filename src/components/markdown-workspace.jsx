@@ -13,7 +13,7 @@ import {
 } from '../services/study-library-client';
 import { Button, Status } from './ui/primitives';
 import { formatReviewTime } from '../services/review-time';
-export default function MarkdownWorkspace() {
+export default function MarkdownWorkspace({ foundation = false, onFoundationComplete }) {
   const { user, loading: authLoading, logout, setUser } = useAuth();
   const [error, setError] = useState('');
   const [focusMode, setFocusMode] = useState(false);
@@ -34,14 +34,14 @@ export default function MarkdownWorkspace() {
   }, []);
   useEffect(() => {
     function handleKeyDown(event) {
-      if (event.key === 'Escape' && focusMode) {
+      if (event.key === 'Escape' && focusMode && !foundation) {
         if (course.length) window.location.href = '?course=list';
         else setFocusMode(false);
       }
     }
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [focusMode, course.length]);
+  }, [focusMode, course.length, foundation]);
   useEffect(() => {
     if (!user) return;
     let disposed = false,
@@ -72,6 +72,15 @@ export default function MarkdownWorkspace() {
               ? libraryRef.current.updateProgress(patch)
               : Promise.resolve(),
           onDeckComplete: () => {
+            if (foundation) {
+              libraryRef.current
+                .updateProgress({ foundationCompletedAt: new Date().toISOString() })
+                .then(() => onFoundationComplete?.())
+                .catch((error) => {
+                  if (!disposed) setError(error.message);
+                });
+              return;
+            }
             if (!activeCourse || courseSourceRef.current !== activeCourse.source) return;
             const nextDay = (activeCourse.day % activeCourse.count) + 1;
             if (!courseAnchor) return;
@@ -123,9 +132,15 @@ export default function MarkdownWorkspace() {
           const opener = window.opener;
           const replyOrigin = parentOrigin === 'null' ? '*' : parentOrigin;
           const receiveImport = (event) => {
-            if (event.source !== opener || event.origin !== parentOrigin ||
-                event.data?.type !== 'psa-markdown-import' || event.data?.nonce !== nonce ||
-                typeof event.data.source !== 'string' || !event.data.source.trim()) return;
+            if (
+              event.source !== opener ||
+              event.origin !== parentOrigin ||
+              event.data?.type !== 'psa-markdown-import' ||
+              event.data?.nonce !== nonce ||
+              typeof event.data.source !== 'string' ||
+              !event.data.source.trim()
+            )
+              return;
             window.removeEventListener('message', receiveImport);
             const source = document.getElementById('lesson-source');
             if (!source) return;
@@ -137,7 +152,10 @@ export default function MarkdownWorkspace() {
           };
           window.addEventListener('message', receiveImport);
           const previousCleanup = cleanup;
-          cleanup = () => { window.removeEventListener('message', receiveImport); previousCleanup?.(); };
+          cleanup = () => {
+            window.removeEventListener('message', receiveImport);
+            previousCleanup?.();
+          };
           opener.postMessage({ type: 'kotoba-import-ready', nonce }, replyOrigin);
         }
 
@@ -153,6 +171,18 @@ export default function MarkdownWorkspace() {
               })
             : Promise.resolve();
         const requestedDay = new URLSearchParams(window.location.search).get('course');
+        if (foundation) {
+          setFocusMode(true);
+          Promise.resolve(foundation.source)
+            .then(async (source) => {
+              const record = await libraryRef.current.save(source, 'en');
+              if (!disposed)
+                document.dispatchEvent(new CustomEvent('study-markdown-load', { detail: record }));
+            })
+            .catch((error) => {
+              if (!disposed) setError(error.message);
+            });
+        }
         if (requestedDay) {
           readCatalog('work-english-30')
             .then(async (items) => {
@@ -217,7 +247,7 @@ export default function MarkdownWorkspace() {
             });
         }
         upgraded
-          .then(() => (requestedDay ? { data: [] } : listStudyLogs('markdown')))
+          .then(() => (requestedDay || foundation ? { data: [] } : listStudyLogs('markdown')))
           .then(async ({ data }) => {
             if (!data.length || disposed) return;
             const record = await readStudyLog(data[0].id);
@@ -282,7 +312,7 @@ export default function MarkdownWorkspace() {
           </ol>
         </main>
       )}
-      {focusMode && (
+      {focusMode && !foundation && (
         <button
           type="button"
           className="exit-focus-btn button"

@@ -1,5 +1,6 @@
 'use client';
 import useStudyLibrary from '../../hooks/use-study-library';
+import useStudyNavigation from '../../hooks/use-study-navigation';
 import SavedLessons from './saved-lessons';
 import { Status as LibraryStatus } from '../ui/primitives';
 import { useEffect, useRef, useState } from 'react';
@@ -102,6 +103,11 @@ export default function WordOrder({
       reset(items[next]);
     }
   }
+  useStudyNavigation(
+    active && !!item,
+    () => go(-1),
+    () => go(1),
+  );
   function showAnswer() {
     setSample(true);
     setResult('sample');
@@ -156,6 +162,7 @@ export default function WordOrder({
         />
       ) : (
         <>
+          <p className="helper">Phím tắt: A câu trước · D câu tiếp</p>
           <Progress
             index={index}
             total={items.length}

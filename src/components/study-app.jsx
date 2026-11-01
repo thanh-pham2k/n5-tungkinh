@@ -167,6 +167,9 @@ export default function StudyApp() {
           ))}
         </div>
       ))}
+      <a className="nav-item" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/foundation/`}>
+        <span aria-hidden="true">📖</span>English Foundation ↗
+      </a>
       <a
         className="nav-item"
         href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/markdown/?course=list`}
@@ -310,7 +313,7 @@ export default function StudyApp() {
             <SpeakingQuestions active={tool === 'speaking'} />
           </section>
           <section hidden={tool !== 'writing'} aria-label="Writing Review">
-            <WritingReview {...props} />
+            <WritingReview {...props} active={tool === 'writing'} />
           </section>
           <section
             className={`tab-panel ${tool === 'hot' ? 'active' : ''}`}

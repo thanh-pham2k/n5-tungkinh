@@ -1,11 +1,12 @@
 'use client';
 import useStudyLibrary from '../../hooks/use-study-library';
+import useStudyNavigation from '../../hooks/use-study-navigation';
 import SavedLessons from './saved-lessons';
 import { Status as LibraryStatus } from '../ui/primitives';
 import { useState } from 'react';
 import { parseWritingReviewCsv } from '../../services/csv-service';
 import { Button, CsvImport, EmptyState, MoreActions, Progress, Status } from '../ui/primitives';
-export default function WritingReview({ setFocus }) {
+export default function WritingReview({ setFocus, active }) {
   const library = useStudyLibrary('writing');
   const [items, setItems] = useState([]),
     [index, setIndex] = useState(0),
@@ -34,6 +35,15 @@ export default function WritingReview({ setFocus }) {
     setSample(false);
     setFeedback('');
   }
+  useStudyNavigation(
+    active && !!item,
+    () => {
+      if (index > 0) go(-1);
+    },
+    () => {
+      if (index < items.length - 1) go(1);
+    },
+  );
   return (
     <div className="study-panel">
       <SavedLessons
@@ -53,6 +63,7 @@ export default function WritingReview({ setFocus }) {
         </EmptyState>
       ) : (
         <>
+          <p className="helper">Phím tắt: A câu trước · D câu tiếp</p>
           <Progress index={index} total={items.length} suffix="Luyện viết" />
           <MoreActions>
             <Button

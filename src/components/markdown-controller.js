@@ -269,10 +269,34 @@ export function initializeMarkdown({
             draw(true);
           }),
         );
-        container.append(dots, nav);
+        const shortcutHint = el('p', 'Phím tắt: A câu trước · D câu tiếp', 'lesson-shortcut-hint');
+        container.append(dots, nav, shortcutHint);
       }
       if (focus) title.focus();
     }
+    container.addEventListener('keydown', (event) => {
+      if (
+        review ||
+        event.defaultPrevented ||
+        event.altKey ||
+        event.ctrlKey ||
+        event.metaKey ||
+        event.repeat ||
+        event.target.isContentEditable ||
+        event.target.closest('textarea, select, input:not([type="radio"]):not([type="checkbox"])')
+      )
+        return;
+      const key = event.key.toLowerCase();
+      if (key === 'a' && current > 0) {
+        event.preventDefault();
+        current--;
+        draw(true);
+      } else if (key === 'd' && current < quizzes.length - 1) {
+        event.preventDefault();
+        current++;
+        draw(true);
+      }
+    });
     let touch;
     container.addEventListener(
       'touchstart',

@@ -11,6 +11,7 @@ import {
 } from '../ui/primitives';
 import useSpeech from '../../hooks/use-speech';
 import useStudyLibrary from '../../hooks/use-study-library';
+import useStudyNavigation from '../../hooks/use-study-navigation';
 import SavedLessons from './saved-lessons';
 import {
   CHOICE_NUMBERS,
@@ -58,6 +59,15 @@ export default function MultipleChoice({ settings, active, setFocus }) {
   const visible = filtered.slice(currentPage * pageSize, (currentPage + 1) * pageSize);
   const checked = questions.filter((q) => answers[q.id]?.checked);
   const wrong = checked.filter((q) => answers[q.id].selected !== q.correctAnswer);
+  useStudyNavigation(
+    active && filtered.length > 0,
+    () => {
+      if (currentPage > 0) setPage(currentPage - 1);
+    },
+    () => {
+      if (currentPage < pages - 1) setPage(currentPage + 1);
+    },
+  );
   async function load(record = null) {
     try {
       let next = record?.parsed || parseMultipleChoice(source);
@@ -329,6 +339,7 @@ export default function MultipleChoice({ settings, active, setFocus }) {
           </div>
           {!!filtered.length && (
             <div className="study-actions mc-navigation">
+              <span className="helper">Phím tắt: A trang trước · D trang tiếp</span>
               <Button disabled={currentPage === 0} onClick={() => setPage(currentPage - 1)}>
                 ← Trước
               </Button>

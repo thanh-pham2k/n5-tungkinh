@@ -119,6 +119,7 @@ export const CatalogKey = z.enum([
   'markdown-example',
   'word-order-example',
   'work-english-30',
+  'english-foundation',
 ]);
 export const Meta = z.object({ requestId: z.string() });
 export const Page = z.object({

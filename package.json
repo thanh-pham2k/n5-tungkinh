@@ -17,7 +17,8 @@
     "db:migrate": "node --env-file-if-exists=.env.local scripts/migrate-database.mjs",
     "db:seed": "node --env-file-if-exists=.env.local scripts/seed-database.mjs",
     "contracts:generate": "tsx scripts/generate-openapi.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "preview:local": "node scripts/serve-local-preview.mjs"
   },
   "dependencies": {
     "@libsql/client": "0.18.0",

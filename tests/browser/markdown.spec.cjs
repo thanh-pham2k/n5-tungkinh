@@ -341,3 +341,33 @@ test('course list displays review times and opens a focused lesson', async ({ pa
     ).toBeVisible();
   }
 });
+
+test('quiz A/D shortcuts navigate only inside the deck and never interrupt typing', async ({
+  page,
+}) => {
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  await openMobileEditor(
+    page,
+    '# Shortcuts\n\n```quiz\na | single_choice | Pick | Yes | No | 1 | Yes.\nb | word_order | Order | She / runs | She runs. | Correct.\nc | typing | Type | A dog. | Correct.\n```',
+  );
+  const deck = page.locator('.lesson-deck');
+  await deck.getByRole('button', { name: 'Câu 1', exact: true }).focus();
+  await page.keyboard.press('a');
+  await expect(deck.locator('h3')).toContainText('1 / 3');
+  await page.keyboard.press('d');
+  await expect(deck.locator('h3')).toContainText('2 / 3');
+  await page.keyboard.press('a');
+  await expect(deck.locator('h3')).toContainText('1 / 3');
+  await deck.getByRole('button', { name: 'Câu 3', exact: true }).click();
+  const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
+  await input.fill('');
+  await input.pressSequentially('A dog');
+  await expect(input).toHaveValue('A dog');
+  await expect(deck.locator('h3')).toContainText('3 / 3');
+  await deck.getByRole('button', { name: 'Câu 3', exact: true }).focus();
+  await page.keyboard.press('d');
+  await expect(deck.locator('h3')).toContainText('3 / 3');
+  await page.keyboard.press('a');
+  await expect(deck.locator('h3')).toContainText('2 / 3');
+});

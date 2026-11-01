@@ -1,5 +1,6 @@
 'use client';
 import useStudyLibrary from '../../hooks/use-study-library';
+import useStudyNavigation from '../../hooks/use-study-navigation';
 import SavedLessons from './saved-lessons';
 import { Status as LibraryStatus } from '../ui/primitives';
 import { useEffect, useState } from 'react';
@@ -83,6 +84,21 @@ export default function VocabReview({ settings, updateSettings, active, setFocus
       setFlipped(false);
     }
   };
+  useStudyNavigation(
+    active && !!card,
+    () => {
+      if (index > 0) {
+        setIndex(index - 1);
+        setFlipped(false);
+      }
+    },
+    () => {
+      if (index < queue.length - 1) {
+        setIndex(index + 1);
+        setFlipped(false);
+      }
+    },
+  );
   const face = card && (
     <>
       <div className="card-top">
@@ -139,6 +155,7 @@ export default function VocabReview({ settings, updateSettings, active, setFocus
         <EmptyState />
       ) : (
         <>
+          <p className="helper">Phím tắt: A thẻ trước · D thẻ tiếp</p>
           <Progress
             index={index}
             total={queue.length}
