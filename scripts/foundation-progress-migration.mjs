@@ -3,7 +3,7 @@ import parser from '../src/services/lesson-parser.cjs';
 
 // Called only inside a reviewed catalog publication transaction. Keep current
 // content IDs (and therefore progress/version), while log entries keep the old source.
-export async function preserveFoundationProgress(tx, oldSource, newSource) {
+export async function preserveFoundationProgress(tx, oldSource, newSource, options = {}) {
   const oldText = oldSource.trim();
   const nextText = newSource.trim();
   const hash = (text) => createHash('sha256').update(text).digest('hex');
@@ -19,10 +19,11 @@ export async function preserveFoundationProgress(tx, oldSource, newSource) {
       .filter((block) => block.type === 'deck')
       .flatMap((block) => block.quizzes)
       .map(({ id, type, answer, options, tokens }) => ({ id, type, answer, options, tokens }));
-  if (
-    previousParsed.some((block) => block.type === 'error') ||
-    JSON.stringify(signature(previousParsed)) !== JSON.stringify(signature(parsed))
-  )
+  if (previousParsed.some((block) => block.type === 'error'))
+    throw new Error('Previous lesson is not valid Markdown quiz content.');
+  const quizChanged =
+    JSON.stringify(signature(previousParsed)) !== JSON.stringify(signature(parsed));
+  if (quizChanged && !options.preserveCompletionOnly)
     throw new Error('Quiz content changed; progress must be reviewed separately.');
   const first = parsed[0];
   const title = String(
@@ -41,6 +42,24 @@ export async function preserveFoundationProgress(tx, oldSource, newSource) {
     args: ['markdown', oldHash],
   });
   for (const row of originals.rows) {
+    if (quizChanged) {
+      const states = await tx.execute({
+        sql: 'SELECT state_json FROM study_progress WHERE content_id = ?',
+        args: [row.id],
+      });
+      for (const state of states.rows) {
+        const value = JSON.parse(String(state.state_json));
+        if (
+          !value ||
+          Array.isArray(value) ||
+          typeof value !== 'object' ||
+          Object.keys(value).some(
+            (key) => !['foundationCompletedAt', 'foundationMergedParts'].includes(key),
+          )
+        )
+          throw new Error('Progress includes quiz state; manual reconciliation required.');
+      }
+    }
     if (String(row.source) !== oldText) throw new Error('Old source does not match its hash.');
     const collision = await tx.execute({
       sql: 'SELECT id FROM study_contents WHERE library_id = ? AND tool = ? AND language = ? AND source_hash = ?',

@@ -174,3 +174,45 @@ test('does not transfer progress when a quiz answer changes', async () => {
     db.close();
   }
 });
+
+test('changed quizzes preserve only completion metadata and reject other progress state', async () => {
+  const db = await fixture();
+  const updated =
+    '# New\n\n```quiz-deck\nq1 | single_choice | Question? | A | B | C | D | 1 | Explanation.\n```';
+  try {
+    await db.execute({
+      sql: 'UPDATE study_progress SET state_json = ? WHERE content_id = ?',
+      args: ['{"answers":{"q1":"A"}}', 'content-two'],
+    });
+    let tx = await db.transaction('write');
+    try {
+      await assert.rejects(
+        preserveFoundationProgress(tx, oldSource, updated, { preserveCompletionOnly: true }),
+        /quiz state/,
+      );
+      await tx.rollback();
+    } finally {
+      tx.close();
+    }
+    const unchanged = await db.execute("SELECT source FROM study_contents WHERE id='content-one'");
+    assert.equal(unchanged.rows[0].source, oldSource);
+    await db.execute({
+      sql: 'UPDATE study_progress SET state_json = ? WHERE content_id = ?',
+      args: ['{"foundationCompletedAt":"2026-01-01"}', 'content-two'],
+    });
+    tx = await db.transaction('write');
+    try {
+      await preserveFoundationProgress(tx, oldSource, updated, { preserveCompletionOnly: true });
+      await tx.commit();
+    } finally {
+      tx.close();
+    }
+    const row = await db.execute(
+      "SELECT c.source, p.state_json FROM study_contents c JOIN study_progress p ON p.content_id=c.id WHERE c.id='content-one'",
+    );
+    assert.equal(row.rows[0].source, updated);
+    assert.match(row.rows[0].state_json, /foundationCompletedAt/);
+  } finally {
+    db.close();
+  }
+});

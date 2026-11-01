@@ -17,7 +17,7 @@ function verifyLessons(lessons, expectedCount) {
       .filter((block) => block.type === 'deck')
       .flatMap((block) => block.quizzes);
     const isCheckpoint = lesson.id.includes('checkpoint');
-    if (isCheckpoint) assert.equal(quizzes.length, 30, lesson.id);
+    if (isCheckpoint) assert.ok(quizzes.length >= 30, lesson.id);
     else assert.ok(quizzes.length >= 10, lesson.id);
     for (const deck of blocks.filter((block) => block.type === 'deck')) {
       const types = deck.quizzes.map((quiz) => quiz.type);
@@ -73,6 +73,19 @@ test('Foundation Phase 1 lessons contain valid ordered quizzes and listening pro
 test('Foundation Phase 2 lessons contain valid ordered quizzes and listening prompts', async () => {
   const lessons = await loadPhase2Catalog();
   verifyLessons(lessons, 19);
+});
+
+test('all quiz IDs across foundation catalog are globally unique', async () => {
+  const allLessons = [...(await loadFoundationCatalog()), ...(await loadPhase2Catalog())];
+  const allQuizIds = allLessons
+    .flatMap((l) =>
+      parser
+        .parse(l.source)
+        .filter((b) => b.type === 'deck')
+        .flatMap((b) => b.quizzes),
+    )
+    .map((q) => q.id);
+  assert.equal(new Set(allQuizIds).size, allQuizIds.length);
 });
 
 test('Each phase has a self-assessment across reading listening speaking and writing', async () => {

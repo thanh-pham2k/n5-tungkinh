@@ -46,13 +46,13 @@ Học sau Phase 1; bài runtime được lấy từ catalog Turso.
 
 ### Phase 3 — Expand Ideas
 
-11. Adjectives & Adverbs; 12. Prepositions; 13. Countable / Uncountable; 14. Comparisons; 15. Linking Ideas; 16. Present Perfect; 17. Basic Complex Sentences — dự kiến.
+[Bộ khung Phase 3 — Expand Ideas](phase-03-expand-ideas/README.md): Module 11–17, mỗi module có hai lesson và một checkpoint mẫu để bổ sung nội dung.
 
 ### Phase 4 — Use English
 
-18. Vocabulary System; 19. Pronunciation; 20. Listening; 21. Reading; 22. Writing; 23. Speaking; 24. Foundation Review — dự kiến.
+[Bộ khung Phase 4 — Use English](phase-04-use-english/README.md): Module 18–24, mỗi module có hai lesson và một checkpoint mẫu để bổ sung nội dung.
 
-Vocabulary, listening, reading và speaking được tích hợp từ Phase 1 khi phù hợp; Phase 4 tập trung tổng hợp và nâng cao. Sau Foundation là IELTS Foundation. Các module dự kiến chưa có lesson.
+Vocabulary, listening, reading và speaking được tích hợp từ Phase 1 khi phù hợp; Phase 4 tập trung tổng hợp và nâng cao. Sau Foundation là IELTS Foundation. Các file Phase 3–4 là đề cương, chưa có nội dung hoàn chỉnh và chưa được nhập vào catalog runtime.
 
 ## Vận hành Phase 1 và 2
 

@@ -3,7 +3,13 @@ import { preserveFoundationProgress } from './foundation-progress-migration.mjs'
 
 // The catalog compare and progress guard share a write transaction so a concurrent
 // lesson import or completion cannot be silently disconnected from its old source.
-export async function publishFoundation(db, payload, expectedPrevious, preserveIds = []) {
+export async function publishFoundation(
+  db,
+  payload,
+  expectedPrevious,
+  preserveIds = [],
+  options = {},
+) {
   const permitted = new Set(preserveIds);
   const tx = await db.transaction('write');
   try {
@@ -39,7 +45,7 @@ export async function publishFoundation(db, payload, expectedPrevious, preserveI
             throw new Error(
               `Existing lesson ${old.id} shares its source with another catalog item.`,
             );
-          await preserveFoundationProgress(tx, old.source, replacement.source);
+          await preserveFoundationProgress(tx, old.source, replacement.source, options);
         }
       }
       const updated = await tx.execute({
