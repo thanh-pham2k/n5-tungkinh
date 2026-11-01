@@ -14,7 +14,7 @@ cp-mcq-02 | single_choice | Động từ trong “They study.” là gì? | They
 cp-mcq-03 | single_choice | Tân ngữ trong “I study English.” là gì? | I | study | English | I study | 3 | English là nội dung được học.
 cp-mcq-04 | single_choice | Chọn câu giới thiệu nghề nghiệp đúng. | She is a teacher. | She a teacher. | She is teacher. | She are a teacher. | 1 | She đi với is và nghề nghiệp số ít dùng a.
 cp-mcq-05 | single_choice | Điền “They ___ tired.” | am | is | are | be | 3 | They đi với are.
-cp-mcq-06 | single_choice | Câu nào mô tả trạng thái? | He is an engineer. | He works. | He is tired. | He studies English. | 3 | Tired là tính từ mô tả trạng thái.
+cp-mcq-06 | single_choice | Câu nào dùng tính từ sau be để mô tả trạng thái? | He is an engineer. | He works. | He is tired. | He studies English. | 3 | Tired là tính từ mô tả trạng thái.
 cp-mcq-07 | single_choice | Trong “My friend studies.”, chủ ngữ là gì? | My friend | studies | friend studies | Không có | 1 | My friend là người được nói đến và là chủ ngữ.
 cp-mcq-08 | single_choice | Câu kể “Works every day.” còn thiếu gì? | Chủ ngữ | Động từ | Tân ngữ | Không thiếu gì | 1 | Câu chưa cho biết ai làm việc.
 cp-mcq-09 | single_choice | Chọn câu S + V đúng. | She work. | She works. | She is work. | She working. | 2 | Trong hiện tại đơn, work thêm s với she.

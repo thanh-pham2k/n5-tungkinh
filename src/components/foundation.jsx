@@ -91,51 +91,81 @@ export default function Foundation() {
         ← Công cụ học
       </a>
       <p className="eyebrow">ENGLISH FOUNDATION</p>
-      <h1>Build Sentences</h1>
-      <p>Phase 1 · Học cách xây dựng câu tiếng Anh cơ bản.</p>
-      <section className="foundation-module">
-        <p className="eyebrow">MODULE 1</p>
-        <h2>Basic Sentence Structure</h2>
-        {busy && <Status>Đang tải bài học…</Status>}
-        <Status error>{error}</Status>
-        {error && (
-          <button className="button" onClick={load}>
-            Thử lại
-          </button>
-        )}
-        {ordered.map((item) => (
-          <button
-            key={item.id}
-            className="foundation-lesson"
-            type="button"
-            onClick={() => setSelected(item)}
-          >
-            <span className="foundation-lesson-main">
-              <span
-                className={`foundation-status ${item.completedAt ? 'is-complete' : ''}`}
-                role="img"
-                aria-label={item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
-                title={item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
-              >
-                {item.completedAt && <span aria-hidden="true">✓</span>}
-              </span>
-              <span>
-                <strong>{item.label}</strong>
-                <br />
-                {item.title}
-                {item.completedAt && !Number.isNaN(Date.parse(item.completedAt)) && (
-                  <time className="foundation-completed-time" dateTime={item.completedAt}>
-                    {formatReviewTime(item.completedAt, clock)}
-                  </time>
+      <h1>English Foundation</h1>
+      <p>Học cách xây câu và sử dụng tiếng Anh trong đời sống.</p>
+      {[
+        {
+          phase: 1,
+          names: ['Basic Sentence Structure', 'Nouns & Pronouns', 'Be', 'Present Simple'],
+        },
+        {
+          phase: 2,
+          names: [
+            'Questions',
+            'Present Continuous',
+            'Ability & Preference',
+            'Past Simple',
+            'Future',
+            'Modal Basics',
+          ],
+        },
+      ].map(({ phase, names }) => (
+        <div key={phase}>
+          <h2>
+            Phase {phase} — {phase === 1 ? 'Build Sentences' : 'Talk About Life'}
+          </h2>
+          {names.map((name, index) => {
+            const module = index + (phase === 1 ? 1 : 5);
+            return (
+              <section className="foundation-module" key={module}>
+                <p className="eyebrow">MODULE {module}</p>
+                <h3>{name}</h3>
+                {busy && <Status>Đang tải bài học…</Status>}
+                <Status error>{error}</Status>
+                {error && (
+                  <button className="button" onClick={load}>
+                    Thử lại
+                  </button>
                 )}
-              </span>
-            </span>
-            <span className="foundation-lesson-arrow" aria-hidden="true">
-              ↗
-            </span>
-          </button>
-        ))}
-      </section>
+                {ordered
+                  .filter((item) => (item.phase || 1) === phase && (item.module || 1) === module)
+                  .map((item) => (
+                    <button
+                      key={item.id}
+                      className="foundation-lesson"
+                      type="button"
+                      onClick={() => setSelected(item)}
+                    >
+                      <span className="foundation-lesson-main">
+                        <span
+                          className={`foundation-status ${item.completedAt ? 'is-complete' : ''}`}
+                          role="img"
+                          aria-label={item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
+                          title={item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
+                        >
+                          {item.completedAt && <span aria-hidden="true">✓</span>}
+                        </span>
+                        <span>
+                          <strong>{item.label}</strong>
+                          <br />
+                          {item.title}
+                          {item.completedAt && !Number.isNaN(Date.parse(item.completedAt)) && (
+                            <time className="foundation-completed-time" dateTime={item.completedAt}>
+                              {formatReviewTime(item.completedAt, clock)}
+                            </time>
+                          )}
+                        </span>
+                      </span>
+                      <span className="foundation-lesson-arrow" aria-hidden="true">
+                        ↗
+                      </span>
+                    </button>
+                  ))}
+              </section>
+            );
+          })}
+        </div>
+      ))}
       <Dialog
         open={!!selected}
         onClose={() => setSelected(null)}

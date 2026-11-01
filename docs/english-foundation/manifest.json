@@ -1,0 +1,352 @@
+[
+  {
+    "id": "compact-m1-lesson-01",
+    "phase": 1,
+    "module": 1,
+    "label": "Lesson 1",
+    "title": "Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/01-compact.md",
+    "replaces": [
+      "lesson-01",
+      "lesson-02",
+      "lesson-03"
+    ]
+  },
+  {
+    "id": "compact-m1-lesson-02",
+    "phase": 1,
+    "module": 1,
+    "label": "Lesson 2",
+    "title": "Câu với be: danh từ và tính từ",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/02-compact.md",
+    "replaces": [
+      "lesson-04",
+      "lesson-05"
+    ]
+  },
+  {
+    "id": "checkpoint-01",
+    "phase": 1,
+    "module": 1,
+    "label": "Mini Checkpoint",
+    "title": "Basic Sentence Structure",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/06-mini-checkpoint.md"
+  },
+  {
+    "id": "compact-m2-lesson-01",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 1",
+    "title": "Danh từ và số ít, số nhiều",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/01-compact.md",
+    "replaces": [
+      "m2-lesson-01",
+      "m2-lesson-02"
+    ]
+  },
+  {
+    "id": "compact-m2-lesson-02",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 2",
+    "title": "Đại từ chủ ngữ và tân ngữ",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/02-compact.md",
+    "replaces": [
+      "m2-lesson-03",
+      "m2-lesson-04"
+    ]
+  },
+  {
+    "id": "compact-m2-lesson-03",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 3",
+    "title": "Từ sở hữu và mạo từ",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/03-compact.md",
+    "replaces": [
+      "m2-lesson-05"
+    ]
+  },
+  {
+    "id": "m2-checkpoint",
+    "phase": 1,
+    "module": 2,
+    "label": "Mini Checkpoint",
+    "title": "Nouns & Pronouns",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/06-checkpoint.md"
+  },
+  {
+    "id": "compact-m3-lesson-01",
+    "phase": 1,
+    "module": 3,
+    "label": "Lesson 1",
+    "title": "Am, is, are: khẳng định và phủ định",
+    "file": "phase-01-build-sentences/module-03-be/01-compact.md",
+    "replaces": [
+      "m3-lesson-01",
+      "m3-lesson-02"
+    ]
+  },
+  {
+    "id": "compact-m3-lesson-02",
+    "phase": 1,
+    "module": 3,
+    "label": "Lesson 2",
+    "title": "Câu hỏi với be và was/were nhập môn",
+    "file": "phase-01-build-sentences/module-03-be/02-compact.md",
+    "replaces": [
+      "m3-lesson-03",
+      "m3-lesson-04",
+      "m3-lesson-05"
+    ]
+  },
+  {
+    "id": "m3-checkpoint",
+    "phase": 1,
+    "module": 3,
+    "label": "Mini Checkpoint",
+    "title": "Be",
+    "file": "phase-01-build-sentences/module-03-be/06-checkpoint.md"
+  },
+  {
+    "id": "compact-m4-lesson-01",
+    "phase": 1,
+    "module": 4,
+    "label": "Lesson 1",
+    "title": "Hiện tại đơn: thói quen và tần suất",
+    "file": "phase-01-build-sentences/module-04-present-simple/01-compact.md",
+    "replaces": [
+      "m4-lesson-01",
+      "m4-lesson-02",
+      "m4-lesson-05"
+    ]
+  },
+  {
+    "id": "compact-m4-lesson-02",
+    "phase": 1,
+    "module": 4,
+    "label": "Lesson 2",
+    "title": "Phủ định và câu hỏi với do/does",
+    "file": "phase-01-build-sentences/module-04-present-simple/02-compact.md",
+    "replaces": [
+      "m4-lesson-03",
+      "m4-lesson-04"
+    ]
+  },
+  {
+    "id": "m4-checkpoint",
+    "phase": 1,
+    "module": 4,
+    "label": "Mini Checkpoint",
+    "title": "Present Simple",
+    "file": "phase-01-build-sentences/module-04-present-simple/06-checkpoint.md"
+  },
+  {
+    "id": "compact-m5-lesson-01",
+    "phase": 2,
+    "module": 5,
+    "label": "Lesson 1",
+    "title": "Ôn câu hỏi Yes/No với be và do/does",
+    "file": "phase-02-talk-about-life/module-01-questions/01-compact.md",
+    "replaces": [
+      "p2-m1-lesson-01",
+      "p2-m1-lesson-02"
+    ]
+  },
+  {
+    "id": "compact-m5-lesson-02",
+    "phase": 2,
+    "module": 5,
+    "label": "Lesson 2",
+    "title": "Câu hỏi Wh- và How trong đời sống",
+    "file": "phase-02-talk-about-life/module-01-questions/02-compact.md",
+    "replaces": [
+      "p2-m1-lesson-03",
+      "p2-m1-lesson-04",
+      "p2-m1-lesson-05"
+    ]
+  },
+  {
+    "id": "p2-m1-checkpoint",
+    "phase": 2,
+    "module": 5,
+    "label": "Mini Checkpoint",
+    "title": "Questions",
+    "file": "phase-02-talk-about-life/module-01-questions/06-checkpoint.md"
+  },
+  {
+    "id": "compact-m6-lesson-01",
+    "phase": 2,
+    "module": 6,
+    "label": "Lesson 1",
+    "title": "Hiện tại tiếp diễn: cấu trúc và cách dùng",
+    "file": "phase-02-talk-about-life/module-02-present-continuous/01-compact.md",
+    "replaces": [
+      "p2-m2-lesson-01",
+      "p2-m2-lesson-02",
+      "p2-m2-lesson-03"
+    ]
+  },
+  {
+    "id": "compact-m6-lesson-02",
+    "phase": 2,
+    "module": 6,
+    "label": "Lesson 2",
+    "title": "Hiện tại đơn, tiếp diễn và lịch hẹn",
+    "file": "phase-02-talk-about-life/module-02-present-continuous/02-compact.md",
+    "replaces": [
+      "p2-m2-lesson-04",
+      "p2-m2-lesson-05"
+    ]
+  },
+  {
+    "id": "p2-m2-checkpoint",
+    "phase": 2,
+    "module": 6,
+    "label": "Mini Checkpoint",
+    "title": "Present Continuous",
+    "file": "phase-02-talk-about-life/module-02-present-continuous/06-checkpoint.md"
+  },
+  {
+    "id": "compact-m7-lesson-01",
+    "phase": 2,
+    "module": 7,
+    "label": "Lesson 1",
+    "title": "Khả năng, câu hỏi và yêu cầu với can/could",
+    "file": "phase-02-talk-about-life/module-03-ability-preference/01-compact.md",
+    "replaces": [
+      "p2-m3-lesson-01",
+      "p2-m3-lesson-02"
+    ]
+  },
+  {
+    "id": "compact-m7-lesson-02",
+    "phase": 2,
+    "module": 7,
+    "label": "Lesson 2",
+    "title": "Sở thích, lựa chọn và điều muốn làm",
+    "file": "phase-02-talk-about-life/module-03-ability-preference/02-compact.md",
+    "replaces": [
+      "p2-m3-lesson-03",
+      "p2-m3-lesson-04",
+      "p2-m3-lesson-05"
+    ]
+  },
+  {
+    "id": "p2-m3-checkpoint",
+    "phase": 2,
+    "module": 7,
+    "label": "Mini Checkpoint",
+    "title": "Ability & Preference",
+    "file": "phase-02-talk-about-life/module-03-ability-preference/06-checkpoint.md"
+  },
+  {
+    "id": "compact-m8-lesson-01",
+    "phase": 2,
+    "module": 8,
+    "label": "Lesson 1",
+    "title": "Was/were trong quá khứ",
+    "file": "phase-02-talk-about-life/module-04-past-simple/01-compact.md",
+    "replaces": [
+      "p2-m4-lesson-01"
+    ]
+  },
+  {
+    "id": "compact-m8-lesson-02",
+    "phase": 2,
+    "module": 8,
+    "label": "Lesson 2",
+    "title": "Động từ quá khứ có quy tắc và bất quy tắc",
+    "file": "phase-02-talk-about-life/module-04-past-simple/02-compact.md",
+    "replaces": [
+      "p2-m4-lesson-02",
+      "p2-m4-lesson-03"
+    ]
+  },
+  {
+    "id": "compact-m8-lesson-03",
+    "phase": 2,
+    "module": 8,
+    "label": "Lesson 3",
+    "title": "Câu phủ định, câu hỏi và thời gian quá khứ",
+    "file": "phase-02-talk-about-life/module-04-past-simple/03-compact.md",
+    "replaces": [
+      "p2-m4-lesson-04",
+      "p2-m4-lesson-05"
+    ]
+  },
+  {
+    "id": "p2-m4-checkpoint",
+    "phase": 2,
+    "module": 8,
+    "label": "Mini Checkpoint",
+    "title": "Past Simple",
+    "file": "phase-02-talk-about-life/module-04-past-simple/06-checkpoint.md"
+  },
+  {
+    "id": "compact-m9-lesson-01",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 1",
+    "title": "Will, be going to và sự khác biệt",
+    "file": "phase-02-talk-about-life/module-05-future/01-compact.md",
+    "replaces": [
+      "p2-m5-lesson-01",
+      "p2-m5-lesson-02",
+      "p2-m5-lesson-03"
+    ]
+  },
+  {
+    "id": "compact-m9-lesson-02",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 2",
+    "title": "Thời gian, kế hoạch, lời hứa và đề nghị",
+    "file": "phase-02-talk-about-life/module-05-future/02-compact.md",
+    "replaces": [
+      "p2-m5-lesson-04",
+      "p2-m5-lesson-05"
+    ]
+  },
+  {
+    "id": "p2-m5-checkpoint",
+    "phase": 2,
+    "module": 9,
+    "label": "Mini Checkpoint",
+    "title": "Future",
+    "file": "phase-02-talk-about-life/module-05-future/06-checkpoint.md"
+  },
+  {
+    "id": "compact-m10-lesson-01",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 1",
+    "title": "Lời khuyên, bắt buộc và không bắt buộc",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/01-compact.md",
+    "replaces": [
+      "p2-m6-lesson-01",
+      "p2-m6-lesson-02",
+      "p2-m6-lesson-03"
+    ]
+  },
+  {
+    "id": "compact-m10-lesson-02",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 2",
+    "title": "Khả năng xảy ra và hội thoại với modal verbs",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/02-compact.md",
+    "replaces": [
+      "p2-m6-lesson-04",
+      "p2-m6-lesson-05"
+    ]
+  },
+  {
+    "id": "p2-m6-checkpoint",
+    "phase": 2,
+    "module": 10,
+    "label": "Mini Checkpoint",
+    "title": "Modal Basics",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/06-checkpoint.md"
+  }
+]

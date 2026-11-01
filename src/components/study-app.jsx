@@ -170,6 +170,9 @@ export default function StudyApp() {
       <a className="nav-item" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/foundation/`}>
         <span aria-hidden="true">📖</span>English Foundation ↗
       </a>
+      <a className="nav-item" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/english-skills/`}>
+        <span aria-hidden="true">✦</span>English Skills ↗
+      </a>
       <a
         className="nav-item"
         href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/markdown/?course=list`}

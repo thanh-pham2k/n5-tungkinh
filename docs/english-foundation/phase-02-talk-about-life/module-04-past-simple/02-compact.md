@@ -1,0 +1,82 @@
+# Lesson 2 — Động từ quá khứ có quy tắc và bất quy tắc
+
+## Mục tiêu
+
+Nhận biết và vận dụng **động từ quá khứ có quy tắc và bất quy tắc** trong câu và tình huống quen thuộc.
+
+## Kiến thức
+
+### Động từ có quy tắc thêm -ed
+
+### Quy tắc biến đổi chính tả đuôi -ed
+Phần lớn các động từ trong tiếng Anh chuyển sang quá khứ bằng cách thêm **-ed**:
+
+1. **Thông thường:** Thêm trực tiếp **-ed**:
+   - *work → worked*
+   - *watch → watched*
+   - *clean → cleaned*
+2. **Động từ tận cùng bằng chữ *-e*:** Chỉ cần thêm **-d**:
+   - *live → lived*
+   - *smile → smiled*
+   - *like → liked*
+3. **Động từ tận cùng bằng phụ âm + *-y*:** Đổi *y* thành **-ied**:
+   - *study → studied*
+   - *cry → cried*
+   - *(Lưu ý: nguyên âm + y giữ nguyên: play → played, stay → stayed)*
+4. **Động từ một âm tiết kết thúc bằng một nguyên âm ngắn + một phụ âm:** Thường gấp đôi phụ âm cuối trước khi thêm **-ed**; không gấp đôi *w, x, y*:
+   - *stop → stopped*
+   - *plan → planned*
+   - *fix → fixed*, *play → played*, *snow → snowed* (không gấp đôi *x, y, w*)
+
+### Cách phát âm đuôi -ed
+- **/ɪd/:** Khi động từ tận cùng bằng âm **/t/** hoặc **/d/** (*wanted, needed, visited*).
+- **/t/:** Khi động từ tận cùng bằng các âm vô thanh (/p, k, f, s, ʃ, tʃ/) (*worked, watched, stopped*).
+- **/d/:** Với các âm còn lại (*played, lived, cleaned*).
+
+### Động từ bất quy tắc cốt lõi
+
+Động từ bất quy tắc không thêm *-ed* khi chuyển sang quá khứ mà biến đổi theo dạng riêng trong cột 2 (V2) của bảng động từ bất quy tắc:
+
+| Động từ nguyên mẫu (V1) | Dạng quá khứ (V2) | Nghĩa tiếng Việt | Câu ví dụ |
+| --- | --- | --- | --- |
+| **go** | **went** | đi | I **went** to school yesterday. |
+| **have** | **had** | có, ăn, dùng | We **had** lunch together. |
+| **see** | **saw** | nhìn thấy, xem | She **saw** a movie last night. |
+| **buy** | **bought** | mua | He **bought** a new car. |
+| **eat** | **ate** | ăn | They **ate** pizza for dinner. |
+| **drink** | **drank** | uống | I **drank** coffee this morning. |
+| **come** | **came** | đến, về | My brother **came** home late. |
+| **make** | **made** | làm ra, chế tạo | She **made** a delicious cake. |
+| **take** | **took** | lấy, đi xe | I **took** the bus to work. |
+| **meet** | **met** | gặp gỡ | We **met** our teacher yesterday. |
+
+*Lưu ý:* Các dạng quá khứ này giữ nguyên cho tất cả các ngôi chủ ngữ (*I, you, he, she, it, we, they*).
+
+## Luyện tập
+
+Làm lần lượt trắc nghiệm, sắp xếp từ và gõ câu.
+
+```quiz-deck
+p2-m4-l2-mcq-1 | single_choice | Dạng quá khứ đúng của động từ “study” (học) là gì? | studyed | studid | studied | studyied | 3 | Study có phụ âm d đứng trước y nên đổi y thành ied: studied.
+p2-m4-l2-mcq-2 | single_choice | Dạng quá khứ đúng của động từ “stop” (dừng lại) là gì? | stoped | stopped | stopd | stopied | 2 | Stop có một âm tiết, kết thúc bằng nguyên âm ngắn /ɒ/ hoặc /ɑ/ và phụ âm /p/, nên gấp đôi p: stopped.
+p2-m4-l2-mcq-3 | single_choice | Đuôi -ed trong từ nào sau đây được phát âm là /ɪd/? | visited | worked | lived | played | 1 | Visit tận cùng bằng âm /t/ nên khi thêm -ed được phát âm là /ɪd/: visited.
+p2-m4-l3-mcq-1 | single_choice | Dạng quá khứ của động từ “go” (đi) là gì? | goed | went | gone | goes | 2 | Động từ go biến đổi bất quy tắc thành went ở thì quá khứ đơn.
+p2-m4-l3-mcq-2 | single_choice | Dạng quá khứ của động từ “buy” (mua) là gì? | buyed | buy | bought | brought | 3 | Buy có dạng quá khứ bất quy tắc là bought.
+p2-m4-l3-mcq-3 | single_choice | Điền dạng quá khứ: “Yesterday, we ___ (have) lunch at an Italian restaurant.” | had | haved | has | having | 1 | Quá khứ của have là had: we had lunch.
+p2-m4-l2-order-1 | word_order | Sắp xếp thành câu hoàn chỉnh. | worked / hard / yesterday / She | She worked hard yesterday. | She + worked + hard + yesterday.
+p2-m4-l3-order-1 | word_order | Sắp xếp thành câu hoàn chỉnh. | went / to school / yesterday / I | I went to school yesterday. | I + went + to school + yesterday.
+p2-m4-l2-typing-1 | typing | Gõ câu từ các từ đã xáo: stopped / The bus / suddenly | The bus stopped suddenly. | The bus + stopped (gấp đôi p) + suddenly.
+p2-m4-l3-typing-1 | typing | Gõ câu từ các từ đã xáo: pizza / We / for dinner / ate | We ate pizza for dinner. | We + ate + pizza + for dinner.
+```
+
+## Áp dụng
+
+Nghe và đọc thành tiếng các ví dụ; sau đó tự tạo câu tương tự về bản thân.
+
+`audio:en|I worked yesterday.`
+
+`audio:en|I went to school yesterday.`
+
+## Tự kiểm tra
+
+Tự giải thích quy tắc và đặt câu không nhìn mẫu. Nếu còn lúng túng, ôn phần tương ứng trước khi làm checkpoint.

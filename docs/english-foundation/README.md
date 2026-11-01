@@ -1,6 +1,6 @@
 # English Foundation
 
-Mỗi lesson và checkpoint là một file Markdown để biên soạn. Module 1 gồm năm lesson và một mini checkpoint. Nội dung runtime được import và tải từ Turso theo kiến trúc dự án, không đọc trực tiếp các file này làm nguồn dự phòng.
+Mỗi lesson và checkpoint là một file Markdown để biên soạn. Phase 1 gồm bốn module và Phase 2 gồm sáu module; mỗi module có hai hoặc ba lesson và một mini checkpoint. Tổng cộng có 22 lesson và 10 checkpoint. Nội dung runtime được import và tải từ Turso theo kiến trúc dự án, không đọc trực tiếp các file này làm nguồn dự phòng.
 
 ## Cách sử dụng
 
@@ -28,14 +28,21 @@ Với Typing của Foundation, ghi **các từ đã xáo ngay trong trường c�
 
 ### Phase 1 — Build Sentences
 
-1. [Basic Sentence Structure](phase-01-build-sentences/module-01-basic-sentence-structure/README.md) — khung đang biên soạn.
-2. Nouns & Pronouns — dự kiến.
-3. Be — dự kiến.
-4. Present Simple — dự kiến.
+1. [Basic Sentence Structure](phase-01-build-sentences/module-01-basic-sentence-structure/README.md) — hai lesson và checkpoint.
+2. [Nouns & Pronouns](phase-01-build-sentences/module-02-nouns-pronouns/README.md) — ba lesson và checkpoint.
+3. [Be](phase-01-build-sentences/module-03-be/README.md) — hai lesson và checkpoint.
+4. [Present Simple](phase-01-build-sentences/module-04-present-simple/README.md) — hai lesson và checkpoint.
 
 ### Phase 2 — Talk About Life
 
-5. Questions; 6. Present Continuous; 7. Ability & Preference; 8. Past Simple; 9. Future; 10. Modal Basics — dự kiến.
+Học sau Phase 1; bài runtime được lấy từ catalog Turso.
+
+5. [Questions](phase-02-talk-about-life/module-01-questions/README.md) — hai lesson và checkpoint.
+6. [Present Continuous](phase-02-talk-about-life/module-02-present-continuous/README.md) — hai lesson và checkpoint.
+7. [Ability & Preference](phase-02-talk-about-life/module-03-ability-preference/README.md) — hai lesson và checkpoint.
+8. [Past Simple](phase-02-talk-about-life/module-04-past-simple/README.md) — ba lesson và checkpoint.
+9. [Future](phase-02-talk-about-life/module-05-future/README.md) — hai lesson và checkpoint.
+10. [Modal Basics](phase-02-talk-about-life/module-06-modal-basics/README.md) — hai lesson và checkpoint.
 
 ### Phase 3 — Expand Ideas
 
@@ -45,9 +52,9 @@ Với Typing của Foundation, ghi **các từ đã xáo ngay trong trường c�
 
 18. Vocabulary System; 19. Pronunciation; 20. Listening; 21. Reading; 22. Writing; 23. Speaking; 24. Foundation Review — dự kiến.
 
-Vocabulary, listening, reading và speaking được tích hợp từ Phase 1 khi phù hợp; Phase 4 tập trung tổng hợp và nâng cao. Sau Foundation là IELTS Foundation. Các module dự kiến chưa có lesson; chỉ mở rộng sau khi kiểm chứng Module 1.
+Vocabulary, listening, reading và speaking được tích hợp từ Phase 1 khi phù hợp; Phase 4 tập trung tổng hợp và nâng cao. Sau Foundation là IELTS Foundation. Các module dự kiến chưa có lesson.
 
-## Vận hành Module 1
+## Vận hành Phase 1 và 2
 
 Mục English Foundation mở các lesson trong modal đọc tập trung; nội dung được lấy từ catalog `english-foundation` trên Turso, sau đó lưu thành bài Markdown và tiến độ theo cơ chế hiện có. File Markdown trong repo chỉ là nguồn biên soạn, không được đọc trực tiếp khi ứng dụng chạy.
 
@@ -57,10 +64,20 @@ Sau khi kiểm tra nội dung và cấu hình đúng môi trường Turso, nhậ
 node --env-file=.env.local scripts/seed-english-foundation.mjs <hostname-Turso-đích>
 ```
 
-Lệnh chỉ thêm catalog chưa tồn tại và kiểm tra nội dung; nếu catalog đã khác, lệnh yêu cầu snapshot JSON của phiên bản cũ để đối chiếu trước khi cập nhật. Không chạy seed từ build hoặc request. Môi trường browser test dùng SQLite fixture tách biệt, không ghi vào Turso. Dùng `npm run preview:local` sau khi build để xem thử với database local riêng, không bị browser test xóa tiến độ.
+Lệnh seed thông thường từ chối xóa bài cũ. Việc chuyển từ danh mục trước khi gộp sang danh mục mới cần quy trình chuyển đổi riêng với snapshot và kiểm tra tiến độ; không chạy seed thông thường để ép ghi đè. Trong cùng transaction, lệnh từ chối xóa bài cũ hoặc thay nội dung nếu có tiến độ gắn với phiên bản cũ; cần xử lý riêng trước khi cập nhật. Không chạy seed từ build hoặc request. Để chuyển danh mục cũ sang bản gộp, trước tiên lưu và đối chiếu snapshot các bảng `study_catalog`, `study_contents`, `study_records`, `study_progress`; diễn tập với bản sao trên SQLite. Sau đó chạy `node --env-file=.env.local scripts/seed-english-foundation-compact.mjs <hostname-Turso-đích> <snapshot-json>` với snapshot đã duyệt. Lệnh kiểm tra chính xác catalog cũ và ánh xạ đầy đủ trước khi cập nhật trong transaction. Bài gộp chỉ có trạng thái hoàn thành nếu tất cả bài thành phần đã hoàn thành; trường hợp hoàn thành một phần được giữ trong tiến độ và các bài cũ vẫn còn trong lịch sử. Nếu đang mở bài cũ khi cập nhật, hãy đóng và mở lại bài gộp. Môi trường browser test dùng SQLite fixture tách biệt, không ghi vào Turso. Dùng `npm run preview:local` sau khi build để xem thử với database local riêng, không bị browser test xóa tiến độ.
 
 ### Thứ tự học
 
 Người học chủ động chọn **Đánh dấu hoàn thành** hoặc **Bỏ đánh dấu hoàn thành** trong bài; kết quả quiz không tự thay đổi trạng thái này. Trạng thái được lưu cùng tiến độ bài theo người học. Đáp án quiz chỉ tồn tại khi bài đang mở và bắt đầu trống mỗi lần mở lại; không lưu vào localStorage hoặc Turso. Lesson chưa hoàn thành xuất hiện trước; các lesson đã hoàn thành xếp theo thời gian hoàn thành từ cũ đến mới, nên bài vừa học chuyển xuống cuối. Khi chỉ có một lesson, vị trí không đổi. Nếu lưu tiến độ lỗi, giao diện báo lỗi thay vì xác nhận hoàn thành.
 
-Catalog `english-foundation` chứa mảng các đối tượng `{ "id", "label", "title", "source" }`, mỗi ID duy nhất và source là Markdown hoàn chỉnh. Thứ tự ban đầu của mảng là thứ tự học. Source thay đổi tạo nội dung và tiến độ riêng theo cơ chế hiện tại; cần cân nhắc việc này khi cập nhật một bài đã học. Seed nhập cả Module 1. Với catalog đã tồn tại, cung cấp snapshot JSON đã đối chiếu làm đối số thứ hai; lệnh chỉ cập nhật khi dữ liệu hiện tại khớp snapshot, và kiểm tra lại sau khi ghi.
+Catalog `english-foundation` chứa mảng các đối tượng `{ "id", "label", "title", "source", "module", "phase" }` (các bài Phase 1 cũ có thể không có `phase`), mỗi ID duy nhất và source là Markdown hoàn chỉnh. Thứ tự ban đầu của mảng là thứ tự học. Khi gộp bài, trạng thái hoàn thành của bài gộp chỉ được kế thừa nếu tất cả bài thành phần đã hoàn thành; lịch sử và tiến độ bài cũ vẫn được giữ. Seed nhập catalog của cả Phase 1 và Phase 2. Với catalog đã tồn tại, cung cấp snapshot JSON đã đối chiếu làm đối số thứ hai; lệnh chỉ cập nhật khi dữ liệu hiện tại khớp snapshot, và kiểm tra lại sau khi ghi.
+
+### Đầu ra và cách tự kiểm tra
+
+Sau Phase 1, người học hướng tới nhận biết chủ ngữ và động từ, tạo câu đơn với động từ thường hoặc `be`, mô tả bản thân và thói quen cơ bản. Sau Phase 2, người học hướng tới đặt câu hỏi, nói hoặc viết ngắn về hiện tại, quá khứ, dự định, sở thích và khả năng. Mỗi phase có một hoạt động tổng hợp đọc, nghe, nói, viết và tiêu chí tự đối chiếu ở checkpoint cuối.
+
+Quiz kiểm tra kiến thức và luyện xây câu; điểm quiz không tự chứng minh khả năng giao tiếp. Audio mẫu là giọng tổng hợp, không thay thế việc nghe nhiều giọng nói thực tế. Bài nói và viết được tự đối chiếu, không được ứng dụng chấm tự động. Cần thử với người học thực tế và điều chỉnh nội dung trước khi khẳng định mức độ đạt đầu ra.
+
+Hướng dẫn thử với người học và ghi nhận kết quả: [Kiểm tra đầu ra Phase 1 và Phase 2](learner-validation.md).
+
+Bản nội dung trước khi gộp được lưu trong [file đối chiếu](archive/lessons-before-consolidation.md); không dùng làm nguồn runtime.

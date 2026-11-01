@@ -9,12 +9,14 @@ for (const viewport of [
   }) => {
     await page.setViewportSize(viewport);
     await page.goto('/foundation/');
-    const button = page.getByRole('button', { name: /Lesson 1.*The Complete Sentence/ });
+    const button = page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ });
     await button.click();
-    const dialog = page.getByRole('dialog', { name: 'The Complete Sentence' });
+    const dialog = page.getByRole('dialog', {
+      name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ',
+    });
     await expect(dialog).toBeVisible();
     await expect(dialog.locator('#lesson-output h1')).toHaveText(
-      'Lesson 1 — The Complete Sentence',
+      'Lesson 1 — Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ',
     );
     await expect(dialog.locator('.lesson-deck')).toBeVisible();
     await dialog.locator('.lesson-option').filter({ hasText: 'My teacher smiles.' }).click();
@@ -96,8 +98,8 @@ test('completed lessons rotate behind uncompleted lessons and persist across rel
 
 test('completion remains unchanged if saving fails', async ({ page }) => {
   await page.goto('/foundation/');
-  await page.getByRole('button', { name: /Lesson 1.*The Complete Sentence/ }).click();
-  const dialog = page.getByRole('dialog', { name: 'The Complete Sentence' });
+  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  const dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
   const button = dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true });
   await expect(button).toBeEnabled();
   await page.route('**/api/v1/study-contents/*/progress', (route) =>
@@ -125,8 +127,8 @@ test('Apply audio requests Sound of Text and reports service errors', async ({ p
     await route.fulfill({ status: 503, body: 'Unavailable' });
   });
   await page.goto('/foundation/');
-  await page.getByRole('button', { name: /Lesson 1.*The Complete Sentence/ }).click();
-  const dialog = page.getByRole('dialog', { name: 'The Complete Sentence' });
+  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  const dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
   await dialog.getByRole('button', { name: 'Nghe: My brother studies every day.' }).click();
   await expect(dialog.getByRole('alert').first()).toContainText('503');
   expect(requestBody).toEqual({
@@ -138,14 +140,14 @@ test('Apply audio requests Sound of Text and reports service errors', async ({ p
 test('Module 1 lists all lessons and opens the checkpoint', async ({ page }) => {
   await page.goto('/foundation/');
   const cards = page.locator('.foundation-lesson');
-  await expect(cards).toHaveCount(6);
+  await expect(cards).toHaveCount(32);
   await expect(cards.nth(1)).toContainText('Lesson 2');
   await cards.nth(1).click();
-  let dialog = page.getByRole('dialog', { name: 'Subject + Verb', exact: true });
+  let dialog = page.getByRole('dialog', { name: 'Câu với be: danh từ và tính từ', exact: true });
   await expect(dialog.locator('.lesson-deck')).toBeVisible();
-  await expect(dialog.getByRole('button', { name: /Nghe: She works every day/ })).toBeVisible();
+  await expect(dialog.getByRole('button', { name: /Nghe: I am a teacher/ })).toBeVisible();
   await dialog.getByRole('button', { name: 'Đóng' }).click();
-  await cards.nth(5).click();
+  await cards.nth(2).click();
   dialog = page.getByRole('dialog', { name: 'Basic Sentence Structure', exact: true });
   await expect(dialog.locator('.lesson-deck')).toBeVisible();
   await expect(dialog.getByRole('button', { name: /Nghe: I am a student/ })).toBeVisible();
@@ -160,9 +162,9 @@ test('Foundation quiz starts fresh on reopen while manual completion persists', 
       writes.push(request.postDataJSON());
   });
   await page.goto('/foundation/');
-  const card = page.getByRole('button', { name: /Lesson 1.*The Complete Sentence/ });
+  const card = page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ });
   await card.click();
-  let dialog = page.getByRole('dialog', { name: 'The Complete Sentence' });
+  let dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
   let deck = dialog.locator('.lesson-deck');
   await deck.locator('.lesson-option').filter({ hasText: 'My teacher smiles.' }).click();
   await expect(deck.locator('input:checked')).toHaveCount(1);
@@ -173,7 +175,7 @@ test('Foundation quiz starts fresh on reopen while manual completion persists', 
   for (const write of writes) expect(write.progress).not.toHaveProperty('markdownAnswers');
   await dialog.getByRole('button', { name: 'Đóng' }).click();
   await card.click();
-  dialog = page.getByRole('dialog', { name: 'The Complete Sentence' });
+  dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
   deck = dialog.locator('.lesson-deck');
   await expect(deck.locator('.lesson-option')).toHaveCount(4);
   await expect(deck.locator('input:checked')).toHaveCount(0);
@@ -194,7 +196,7 @@ test('Foundation ignores answers saved before this change', async ({ page }) => 
     await route.fulfill({ response, json: data });
   });
   await page.goto('/foundation/');
-  await page.getByRole('button', { name: /Lesson 1.*The Complete Sentence/ }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
   const deck = page.locator('.lesson-deck');
   await expect(deck.locator('.lesson-option')).toHaveCount(4);
   await expect(deck.locator('input:checked')).toHaveCount(0);
@@ -206,21 +208,21 @@ test('real Foundation lesson completion displays its time and moves last after r
 }) => {
   await page.goto('/foundation/');
   const cards = page.locator('.foundation-lesson');
-  await expect(cards).toHaveCount(6);
+  await expect(cards).toHaveCount(32);
   await expect(cards.first()).toContainText('Lesson 1');
   await cards.first().click();
-  const dialog = page.getByRole('dialog', { name: 'The Complete Sentence' });
+  const dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
   await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
   await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
   await dialog.getByRole('button', { name: 'Đóng' }).click();
-  await expect(cards.last()).toContainText('Lesson 1');
-  await expect(cards.last().locator('time')).toHaveText('Vừa ôn xong');
-  await expect(cards.last().locator('time')).toHaveAttribute('datetime', /\d{4}-\d{2}-\d{2}T/);
+  await expect(cards.nth(2)).toContainText('Lesson 1');
+  await expect(cards.nth(2).locator('time')).toHaveText('Vừa ôn xong');
+  await expect(cards.nth(2).locator('time')).toHaveAttribute('datetime', /\d{4}-\d{2}-\d{2}T/);
   await page.reload();
-  await expect(cards).toHaveCount(6);
-  await expect(cards.last()).toContainText('Lesson 1');
-  await expect(cards.last().locator('time')).toHaveText('Vừa ôn xong');
-  await cards.last().click();
+  await expect(cards).toHaveCount(32);
+  await expect(cards.nth(2)).toContainText('Lesson 1');
+  await expect(cards.nth(2).locator('time')).toHaveText('Vừa ôn xong');
+  await cards.nth(2).click();
   await dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' }).click();
   await dialog.getByRole('button', { name: 'Đóng' }).click();
   await expect(cards.first()).toContainText('Lesson 1');
@@ -229,81 +231,83 @@ test('real Foundation lesson completion displays its time and moves last after r
 
 test('A/D works after checking a Word Order answer in Foundation', async ({ page }) => {
   await page.goto('/foundation/');
-  await page.getByRole('button', { name: /Lesson 3.*Subject/ }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
   const deck = page
-    .getByRole('dialog', { name: 'Subject + Verb + Object' })
+    .getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' })
     .locator('.lesson-deck');
-  await deck.getByRole('button', { name: 'Câu 8', exact: true }).click();
+  await deck.getByRole('button', { name: 'Câu 10', exact: true }).click();
   const field = deck.locator('fieldset');
-  for (const word of ['She', 'likes', 'music'])
+  for (const word of ['Tom', 'works', 'every day'])
     await field.getByRole('button', { name: word, exact: true }).click();
   await field.getByRole('button', { name: 'Kiểm tra' }).click();
   await expect(deck).toContainText('Chính xác!');
   await page.keyboard.press('d');
-  await expect(deck.locator('h3')).toContainText('9 / 12');
+  await expect(deck.locator('h3')).toContainText('11 / 15');
   await page.keyboard.press('a');
-  await expect(deck.locator('h3')).toContainText('8 / 12');
+  await expect(deck.locator('h3')).toContainText('10 / 15');
 });
 
 test('A/D works after checking a typing answer with Enter or button', async ({ page }) => {
   await page.goto('/foundation/');
-  await page.getByRole('button', { name: /Lesson 3.*Subject/ }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
   const deck = page
-    .getByRole('dialog', { name: 'Subject + Verb + Object' })
+    .getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' })
     .locator('.lesson-deck');
-  await deck.getByRole('button', { name: 'Câu 10', exact: true }).click();
+  await deck.getByRole('button', { name: 'Câu 13', exact: true }).click();
   const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
-  await input.fill('They read books');
+  await input.fill('I study every day');
   await input.press('Enter');
   await expect(deck).toContainText('Chính xác!');
   await page.keyboard.press('d');
-  await expect(deck.locator('h3')).toContainText('11 / 12');
+  await expect(deck.locator('h3')).toContainText('14 / 15');
   await page.keyboard.press('a');
-  await expect(deck.locator('h3')).toContainText('10 / 12');
+  await expect(deck.locator('h3')).toContainText('13 / 15');
   await input.fill('a dog');
   await expect(input).toHaveValue('a dog');
-  await expect(deck.locator('h3')).toContainText('10 / 12');
+  await expect(deck.locator('h3')).toContainText('13 / 15');
   await deck.getByRole('button', { name: 'Kiểm tra', exact: true }).click();
   await page.keyboard.press('d');
-  await expect(deck.locator('h3')).toContainText('11 / 12');
+  await expect(deck.locator('h3')).toContainText('14 / 15');
 });
 
 test('clicking quiz background activates A/D without disturbing typing focus', async ({ page }) => {
   await page.goto('/foundation/');
-  await page.getByRole('button', { name: /Lesson 4.*Subject/ }).click();
-  const dialog = page.getByRole('dialog', { name: 'Subject + be + Noun' });
+  await page.getByRole('button', { name: /Lesson 2.*Câu với be/ }).click();
+  const dialog = page.getByRole('dialog', { name: 'Câu với be: danh từ và tính từ' });
   const deck = dialog.locator('.lesson-deck');
   await deck.getByRole('button', { name: 'Câu 5', exact: true }).click();
-  await dialog.getByRole('heading', { name: 'Subject + be + Noun', exact: true }).click();
+  await dialog
+    .getByRole('heading', { name: 'Câu với be: danh từ và tính từ', exact: true })
+    .click();
   await deck.locator('h3').click();
   await expect(deck.locator('h3')).toBeFocused();
   await page.keyboard.press('d');
-  await expect(deck.locator('h3')).toContainText('6 / 12');
+  await expect(deck.locator('h3')).toContainText('6 / 10');
   await page.keyboard.press('a');
-  await expect(deck.locator('h3')).toContainText('5 / 12');
-  await deck.getByRole('button', { name: 'Câu 10', exact: true }).click();
+  await expect(deck.locator('h3')).toContainText('5 / 10');
+  await deck.getByRole('button', { name: 'Câu 9', exact: true }).click();
   const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
   await input.click();
   await input.pressSequentially('a dog');
   await expect(input).toHaveValue('a dog');
-  await expect(deck.locator('h3')).toContainText('10 / 12');
+  await expect(deck.locator('h3')).toContainText('9 / 10');
 });
 
 test('last typing answer returns focus to quiz after Enter and A navigates back', async ({
   page,
 }) => {
   await page.goto('/foundation/');
-  await page.getByRole('button', { name: /Lesson 4.*Subject/ }).click();
-  const dialog = page.getByRole('dialog', { name: 'Subject + be + Noun' });
+  await page.getByRole('button', { name: /Lesson 2.*Câu với be/ }).click();
+  const dialog = page.getByRole('dialog', { name: 'Câu với be: danh từ và tính từ' });
   const deck = dialog.locator('.lesson-deck');
-  await deck.getByRole('button', { name: 'Câu 12', exact: true }).click();
+  await deck.getByRole('button', { name: 'Câu 10', exact: true }).click();
   const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
-  await input.fill('we are teachers');
+  await input.fill('Tom is tired');
   await input.press('Enter');
   await expect(deck).toContainText('Chính xác!');
   await expect(deck.locator('h3')).toBeFocused();
   await page.keyboard.press('a');
-  await expect(deck.locator('h3')).toContainText('11 / 12');
+  await expect(deck.locator('h3')).toContainText('9 / 10');
 });
 
 test('audio does not show loading or playing messages', async ({ page }) => {
@@ -316,11 +320,104 @@ test('audio does not show loading or playing messages', async ({ page }) => {
     await route.fulfill({ status: 503, body: 'Unavailable' });
   });
   await page.goto('/foundation/');
-  await page.getByRole('button', { name: /Lesson 1.*The Complete Sentence/ }).click();
-  const dialog = page.getByRole('dialog', { name: 'The Complete Sentence' });
+  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  const dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
   await dialog.getByRole('button', { name: 'Nghe: My brother studies every day.' }).click();
   await expect(dialog.getByText('Đang tạo audio…')).toHaveCount(0);
   await expect(dialog.getByText('♫ Đang phát')).toHaveCount(0);
   release();
   await expect(dialog.getByRole('alert').first()).toContainText('503');
+});
+
+test('Module 2 lessons open and completion stays within its module', async ({ page }) => {
+  await page.goto('/foundation/');
+  const sections = page.locator('.foundation-module');
+  await expect(sections).toHaveCount(10);
+  const first = sections.nth(0).locator('.foundation-lesson');
+  const second = sections.nth(1).locator('.foundation-lesson');
+  await expect(second).toHaveCount(4);
+  await second.first().click();
+  const dialog = page.getByRole('dialog', { name: 'Danh từ và số ít, số nhiều' });
+  await expect(dialog.locator('.lesson-deck')).toBeVisible();
+  await expect(dialog.getByRole('button', { name: /Nghe: She reads a book/ })).toBeVisible();
+  await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
+  await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+  await dialog.getByRole('button', { name: 'Đóng' }).click();
+  await expect(second.last()).toContainText('Lesson 1');
+  await expect(first.first()).toContainText('Lesson 1');
+  await page.reload();
+  await expect(second.last()).toContainText('Lesson 1');
+  await expect(second.last().getByRole('img', { name: 'Đã hoàn thành' })).toBeVisible();
+});
+
+test('Phase 1 and Phase 2 show all ten modules and open lessons', async ({ page }) => {
+  await page.goto('/foundation/');
+  const modules = page.locator('.foundation-module');
+  await expect(modules).toHaveCount(10);
+  await expect(modules.nth(2)).toContainText('Be');
+  await expect(modules.nth(3)).toContainText('Present Simple');
+  await expect(modules.nth(4)).toContainText('Questions');
+  await expect(modules.nth(9)).toContainText('Modal Basics');
+  for (const index of [2, 3, 4, 9]) {
+    await modules.nth(index).locator('.foundation-lesson').first().click();
+    const dialog = page.getByRole('dialog');
+    await expect(dialog.locator('.lesson-deck')).toBeVisible();
+    await dialog.getByRole('button', { name: 'Đóng' }).click();
+  }
+});
+
+test('phase checkpoints include integrated reading listening speaking and writing self-assessment', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/foundation/');
+  for (const [moduleName, checkpointName] of [
+    ['Present Simple', 'Present Simple'],
+    ['Modal Basics', 'Modal Basics'],
+  ]) {
+    const section = page
+      .locator('.foundation-module')
+      .filter({ has: page.getByRole('heading', { name: moduleName, exact: true }) });
+    await section
+      .getByRole('button', { name: new RegExp(`Mini Checkpoint.*${checkpointName}`) })
+      .click();
+    const dialog = page.getByRole('dialog', { name: checkpointName });
+    await expect(dialog.locator('.lesson-deck h3')).toContainText('1 / 30');
+    await expect(
+      dialog.getByRole('heading', { name: /Tiêu chí tự đánh giá Phase/ }),
+    ).toBeAttached();
+    for (const skill of ['Đọc:', 'Nghe:', 'Viết:', 'Nói:'])
+      await expect(dialog.getByText(skill, { exact: true })).toBeAttached();
+    await expect(dialog.getByRole('button', { name: /^Nghe:/ }).last()).toBeAttached();
+    const transcript = dialog.locator('details').filter({ hasText: 'Mở đoạn văn' });
+    await expect(transcript).not.toHaveAttribute('open', '');
+    await transcript.locator('summary').click();
+    await expect(transcript).toHaveAttribute('open', '');
+    await dialog.getByRole('button', { name: 'Đóng' }).click();
+  }
+});
+
+test('all consolidated lessons and checkpoints open with a quiz on mobile', async ({ page }) => {
+  test.setTimeout(120000);
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/foundation/');
+  const modules = page.locator('.foundation-module');
+  await expect(modules).toHaveCount(10);
+  let opened = 0;
+  for (let module = 0; module < 10; module++) {
+    const cards = modules.nth(module).locator('.foundation-lesson');
+    const count = module === 1 || module === 7 ? 4 : 3;
+    await expect(cards).toHaveCount(count);
+    for (let index = 0; index < count; index++) {
+      await cards.nth(index).click();
+      const dialog = page.getByRole('dialog');
+      await expect(dialog.locator('.lesson-deck')).toBeVisible();
+      await expect(
+        dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
+      ).toBeVisible();
+      await dialog.getByRole('button', { name: 'Đóng' }).click();
+      opened++;
+    }
+  }
+  expect(opened).toBe(32);
 });

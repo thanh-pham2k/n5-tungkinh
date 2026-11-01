@@ -1,22 +1,16 @@
 import { readFile } from 'node:fs/promises';
 
-const directory =
-  'docs/english-foundation/phase-01-build-sentences/module-01-basic-sentence-structure';
-const entries = [
-  ['lesson-01', 'Lesson 1', 'The Complete Sentence', '01-a-complete-sentence.md'],
-  ['lesson-02', 'Lesson 2', 'Subject + Verb', '02-subject-verb.md'],
-  ['lesson-03', 'Lesson 3', 'Subject + Verb + Object', '03-subject-verb-object.md'],
-  ['lesson-04', 'Lesson 4', 'Subject + be + Noun', '04-subject-be-noun.md'],
-  ['lesson-05', 'Lesson 5', 'Subject + be + Adjective', '05-subject-be-adjective.md'],
-  ['checkpoint-01', 'Mini Checkpoint', 'Basic Sentence Structure', '06-mini-checkpoint.md'],
-];
-export async function loadFoundationCatalog() {
+const directory = 'docs/english-foundation';
+async function loadPhase(phase) {
+  const manifest = JSON.parse(await readFile(`${directory}/manifest.json`, 'utf8'));
   return Promise.all(
-    entries.map(async ([id, label, title, file]) => ({
-      id,
-      label,
-      title,
-      source: await readFile(`${directory}/${file}`, 'utf8'),
-    })),
+    manifest
+      .filter((entry) => entry.phase === phase)
+      .map(async ({ file, replaces, ...entry }) => ({
+        ...entry,
+        source: await readFile(`${directory}/${file}`, 'utf8'),
+      })),
   );
 }
+export const loadFoundationCatalog = () => loadPhase(1);
+export const loadPhase2Catalog = () => loadPhase(2);
