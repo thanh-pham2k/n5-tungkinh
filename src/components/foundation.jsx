@@ -5,6 +5,7 @@ import MarkdownWorkspace from './markdown-workspace';
 import LoginView from './auth/login-view';
 import useAuth from '../hooks/use-auth';
 import { readCatalog, studyRequest } from '../services/study-library-client';
+import { formatReviewTime } from '../services/review-time';
 
 function normalizeCatalog(catalog) {
   if (typeof catalog === 'string') {
@@ -27,6 +28,7 @@ export default function Foundation() {
   const [lessons, setLessons] = useState([]);
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(true);
+  const [clock, setClock] = useState(0);
   const load = useCallback(async () => {
     setBusy(true);
     setError('');
@@ -71,6 +73,11 @@ export default function Foundation() {
   useEffect(() => {
     if (user) load();
   }, [user, load]);
+  useEffect(() => {
+    setClock(Date.now());
+    const timer = setInterval(() => setClock(Date.now()), 60000);
+    return () => clearInterval(timer);
+  }, []);
   const ordered = [...lessons].sort((a, b) => {
     if (!a.completedAt) return b.completedAt ? -1 : 0;
     if (!b.completedAt) return 1;
@@ -118,11 +125,7 @@ export default function Foundation() {
                 {item.title}
                 {item.completedAt && !Number.isNaN(Date.parse(item.completedAt)) && (
                   <time className="foundation-completed-time" dateTime={item.completedAt}>
-                    Hoàn thành{' '}
-                    {new Intl.DateTimeFormat('vi-VN', {
-                      dateStyle: 'short',
-                      timeStyle: 'short',
-                    }).format(new Date(item.completedAt))}
+                    {formatReviewTime(item.completedAt, clock)}
                   </time>
                 )}
               </span>
@@ -143,6 +146,7 @@ export default function Foundation() {
           <MarkdownWorkspace
             foundation={selected}
             onFoundationComplete={(completedAt) => {
+              setClock(Date.now());
               setLessons((current) =>
                 current.map((item) => (item.id === selected.id ? { ...item, completedAt } : item)),
               );

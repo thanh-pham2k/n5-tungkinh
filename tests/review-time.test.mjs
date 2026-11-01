@@ -11,4 +11,5 @@ test('formats completed review time at minute, hour and day boundaries', () => {
   assert.equal(formatReviewTime(ago(30), now), 'Ôn 30 phút trước');
   assert.equal(formatReviewTime(ago(60), now), 'Ôn 1 giờ trước');
   assert.equal(formatReviewTime(ago(1440), now), 'Ôn 1 ngày trước');
+  assert.equal(formatReviewTime(ago(2880), now), 'Ôn 2 ngày trước');
 });

@@ -197,7 +197,7 @@ export function initializeMarkdown({
               return;
             }
             saveAnswer(q, input.value.trim());
-            draw();
+            draw(true);
           });
           input.addEventListener('keydown', (event) => {
             if (event.key === 'Enter') {
@@ -237,7 +237,7 @@ export function initializeMarkdown({
               'Kiểm tra',
               () => {
                 saveAnswer(q, selected.map((index) => q.tokens[index]).join(' '));
-                draw();
+                draw(true);
               },
               selected.length !== q.tokens.length,
             ),
@@ -290,6 +290,11 @@ export function initializeMarkdown({
       }
       if (focus) title.focus();
     }
+    container.addEventListener('click', (event) => {
+      if (event.target.closest('button, input, textarea, select, a, summary, [contenteditable]'))
+        return;
+      container.querySelector('h3')?.focus({ preventScroll: true });
+    });
     container.addEventListener('keydown', (event) => {
       if (
         review ||

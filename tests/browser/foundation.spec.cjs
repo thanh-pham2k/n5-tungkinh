@@ -214,15 +214,94 @@ test('real Foundation lesson completion displays its time and moves last after r
   await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
   await dialog.getByRole('button', { name: 'Đóng' }).click();
   await expect(cards.last()).toContainText('Lesson 1');
-  await expect(cards.last().locator('time')).toContainText('Hoàn thành');
+  await expect(cards.last().locator('time')).toHaveText('Vừa ôn xong');
   await expect(cards.last().locator('time')).toHaveAttribute('datetime', /\d{4}-\d{2}-\d{2}T/);
   await page.reload();
   await expect(cards).toHaveCount(6);
   await expect(cards.last()).toContainText('Lesson 1');
-  await expect(cards.last().locator('time')).toContainText('Hoàn thành');
+  await expect(cards.last().locator('time')).toHaveText('Vừa ôn xong');
   await cards.last().click();
   await dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' }).click();
   await dialog.getByRole('button', { name: 'Đóng' }).click();
   await expect(cards.first()).toContainText('Lesson 1');
   await expect(cards.first().locator('time')).toHaveCount(0);
+});
+
+test('A/D works after checking a Word Order answer in Foundation', async ({ page }) => {
+  await page.goto('/foundation/');
+  await page.getByRole('button', { name: /Lesson 3.*Subject/ }).click();
+  const deck = page
+    .getByRole('dialog', { name: 'Subject + Verb + Object' })
+    .locator('.lesson-deck');
+  await deck.getByRole('button', { name: 'Câu 8', exact: true }).click();
+  const field = deck.locator('fieldset');
+  for (const word of ['She', 'likes', 'music'])
+    await field.getByRole('button', { name: word, exact: true }).click();
+  await field.getByRole('button', { name: 'Kiểm tra' }).click();
+  await expect(deck).toContainText('Chính xác!');
+  await page.keyboard.press('d');
+  await expect(deck.locator('h3')).toContainText('9 / 12');
+  await page.keyboard.press('a');
+  await expect(deck.locator('h3')).toContainText('8 / 12');
+});
+
+test('A/D works after checking a typing answer with Enter or button', async ({ page }) => {
+  await page.goto('/foundation/');
+  await page.getByRole('button', { name: /Lesson 3.*Subject/ }).click();
+  const deck = page
+    .getByRole('dialog', { name: 'Subject + Verb + Object' })
+    .locator('.lesson-deck');
+  await deck.getByRole('button', { name: 'Câu 10', exact: true }).click();
+  const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
+  await input.fill('They read books');
+  await input.press('Enter');
+  await expect(deck).toContainText('Chính xác!');
+  await page.keyboard.press('d');
+  await expect(deck.locator('h3')).toContainText('11 / 12');
+  await page.keyboard.press('a');
+  await expect(deck.locator('h3')).toContainText('10 / 12');
+  await input.fill('a dog');
+  await expect(input).toHaveValue('a dog');
+  await expect(deck.locator('h3')).toContainText('10 / 12');
+  await deck.getByRole('button', { name: 'Kiểm tra', exact: true }).click();
+  await page.keyboard.press('d');
+  await expect(deck.locator('h3')).toContainText('11 / 12');
+});
+
+test('clicking quiz background activates A/D without disturbing typing focus', async ({ page }) => {
+  await page.goto('/foundation/');
+  await page.getByRole('button', { name: /Lesson 4.*Subject/ }).click();
+  const dialog = page.getByRole('dialog', { name: 'Subject + be + Noun' });
+  const deck = dialog.locator('.lesson-deck');
+  await deck.getByRole('button', { name: 'Câu 5', exact: true }).click();
+  await dialog.getByRole('heading', { name: 'Subject + be + Noun', exact: true }).click();
+  await deck.locator('h3').click();
+  await expect(deck.locator('h3')).toBeFocused();
+  await page.keyboard.press('d');
+  await expect(deck.locator('h3')).toContainText('6 / 12');
+  await page.keyboard.press('a');
+  await expect(deck.locator('h3')).toContainText('5 / 12');
+  await deck.getByRole('button', { name: 'Câu 10', exact: true }).click();
+  const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
+  await input.click();
+  await input.pressSequentially('a dog');
+  await expect(input).toHaveValue('a dog');
+  await expect(deck.locator('h3')).toContainText('10 / 12');
+});
+
+test('last typing answer returns focus to quiz after Enter and A navigates back', async ({
+  page,
+}) => {
+  await page.goto('/foundation/');
+  await page.getByRole('button', { name: /Lesson 4.*Subject/ }).click();
+  const dialog = page.getByRole('dialog', { name: 'Subject + be + Noun' });
+  const deck = dialog.locator('.lesson-deck');
+  await deck.getByRole('button', { name: 'Câu 12', exact: true }).click();
+  const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
+  await input.fill('we are teachers');
+  await input.press('Enter');
+  await expect(deck).toContainText('Chính xác!');
+  await expect(deck.locator('h3')).toBeFocused();
+  await page.keyboard.press('a');
+  await expect(deck.locator('h3')).toContainText('11 / 12');
 });
