@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from 'react';
 import useStudyLibrary from '../hooks/use-study-library';
 import useAuth from '../hooks/use-auth';
+import useSpeech from '../hooks/use-speech';
 import LoginView from './auth/login-view';
 import SavedLessons from './study/saved-lessons';
 import {
@@ -11,22 +12,43 @@ import {
   studyRequest,
   createLesson,
 } from '../services/study-library-client';
-import { Button, Status } from './ui/primitives';
+import { AudioStatus, Button, Status } from './ui/primitives';
 import { formatReviewTime } from '../services/review-time';
 export default function MarkdownWorkspace({ foundation = false, onFoundationComplete }) {
   const { user, loading: authLoading, logout, setUser } = useAuth();
   const [error, setError] = useState('');
+  const [markingFoundation, setMarkingFoundation] = useState(false);
   const [focusMode, setFocusMode] = useState(false);
   const [course, setCourse] = useState([]);
   const [courseList, setCourseList] = useState(false);
   const [courseStart, setCourseStart] = useState(1);
   const [reviewTimes, setReviewTimes] = useState({});
   const [clock, setClock] = useState(0);
+  const [audioSettings, setAudioSettings] = useState({
+    language: 'en',
+    rate: 1,
+    volume: 100,
+    repeats: 1,
+    delay: 0,
+  });
+  const speech = useSpeech(audioSettings);
+  const speechRef = useRef(speech);
+  speechRef.current = speech;
   const library = useStudyLibrary('markdown');
   const libraryRef = useRef(library);
   const courseSourceRef = useRef(null);
   libraryRef.current = library;
 
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem('app-audio-volume');
+      if (stored !== null && Number.isFinite(Number(stored)))
+        setAudioSettings((settings) => ({
+          ...settings,
+          volume: Math.min(100, Math.max(0, Number(stored))),
+        }));
+    } catch {}
+  }, []);
   useEffect(() => {
     setClock(Date.now());
     const timer = setInterval(() => setClock(Date.now()), 60000);
@@ -58,6 +80,7 @@ export default function MarkdownWorkspace({ foundation = false, onFoundationComp
       .then(([marked, purify, mermaid, parser, controller]) => {
         if (disposed) return;
         cleanup = controller.initializeMarkdown({
+          playSpeech: (text, language) => speechRef.current.play([{ text, language, count: 1 }]),
           marked: marked.marked,
           DOMPurify: purify.default,
           mermaid: mermaid.default,
@@ -72,15 +95,7 @@ export default function MarkdownWorkspace({ foundation = false, onFoundationComp
               ? libraryRef.current.updateProgress(patch)
               : Promise.resolve(),
           onDeckComplete: () => {
-            if (foundation) {
-              libraryRef.current
-                .updateProgress({ foundationCompletedAt: new Date().toISOString() })
-                .then(() => onFoundationComplete?.())
-                .catch((error) => {
-                  if (!disposed) setError(error.message);
-                });
-              return;
-            }
+            if (foundation) return;
             if (!activeCourse || courseSourceRef.current !== activeCourse.source) return;
             const nextDay = (activeCourse.day % activeCourse.count) + 1;
             if (!courseAnchor) return;
@@ -426,6 +441,7 @@ export default function MarkdownWorkspace({ foundation = false, onFoundationComp
         <span id="lesson-status" role="status" />
       </header>
       <Status error>{error || library.error}</Status>
+      <AudioStatus speech={speech} />
       <div id="markdown-loading">
         <Status>Đang mở workspace…</Status>
       </div>
@@ -457,6 +473,36 @@ export default function MarkdownWorkspace({ foundation = false, onFoundationComp
           </div>
         </section>
       </main>
+      {foundation && (
+        <div className="foundation-completion-actions">
+          <Button
+            variant="primary"
+            disabled={!library.lesson || markingFoundation}
+            onClick={async () => {
+              setMarkingFoundation(true);
+              try {
+                await library.updateProgress({
+                  foundationCompletedAt: library.lesson.progress.foundationCompletedAt
+                    ? null
+                    : new Date().toISOString(),
+                });
+                setError('');
+                onFoundationComplete?.();
+              } catch (error) {
+                setError(error.message);
+              } finally {
+                setMarkingFoundation(false);
+              }
+            }}
+          >
+            {markingFoundation
+              ? 'Đang lưu…'
+              : library.lesson?.progress.foundationCompletedAt
+                ? 'Bỏ đánh dấu hoàn thành'
+                : 'Đánh dấu hoàn thành'}
+          </Button>
+        </div>
+      )}
       <dialog id="lesson-editor-dialog" className="dialog" aria-labelledby="lesson-editor-title">
         <form method="dialog" className="mobile-editor-form">
           <div className="dialog-header">

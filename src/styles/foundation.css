@@ -43,7 +43,17 @@
   height: calc(100dvh - 115px);
 }
 .foundation-page .markdown-page.reading-focus .preview-workspace {
-  height: 100%;
+  flex: 1;
+  min-height: 0;
+  height: auto;
+}
+.foundation-completion-actions {
+  flex: none;
+  padding: var(--space-3) var(--space-4);
+  border-top: var(--border);
+  background: var(--paper);
+  display: flex;
+  justify-content: flex-end;
 }
 .foundation-page .markdown-page #lesson-output {
   padding-top: var(--space-4);

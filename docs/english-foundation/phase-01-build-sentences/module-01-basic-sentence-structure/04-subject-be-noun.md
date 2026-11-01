@@ -2,43 +2,52 @@
 
 ## Mục tiêu
 
-Dùng S + be + Noun để giới thiệu danh tính hoặc nghề nghiệp.
+Giới thiệu danh tính hoặc nghề nghiệp bằng S + be + Noun.
 
-- Cần bổ sung: điều kiện cụ thể để người học tự kiểm tra đã đạt mục tiêu.
+## Kiến thức
 
-## Learn
+> **Subject + be + Noun** — Chủ ngữ + be + Danh từ
 
-- Cần bổ sung: Giới thiệu am/is/are theo chủ ngữ qua ví dụ; giải thích a/an với nghề nghiệp ở mức cần dùng, chưa đi sâu toàn bộ cách dùng be.
-- Cần bổ sung: 2–3 ví dụ ngắn, nghĩa tiếng Việt và chú thích các thành phần trong câu.
-- Cần bổ sung: từ/cụm từ cần biết, nghĩa và cách dùng trong ví dụ.
-- Cần bổ sung: lỗi thường gặp và giải thích ngắn; hướng dẫn phát âm hoặc audio nếu phù hợp.
+Dùng **am / is / are** theo chủ ngữ: `I am`, `he / she / it is`, `you / we / they are`.
 
-Xem [hướng dẫn tạo quiz-deck](../../README.md#hướng-dẫn-tạo-câu-hỏi) trước khi biên soạn bài luyện tập.
+| Câu | Nghĩa |
+| --- | --- |
+| I am a teacher. | Tôi là giáo viên. |
+| She is a developer. | Cô ấy là lập trình viên. |
+| He is an engineer. | Anh ấy là kỹ sư. |
+| They are students. | Họ là học sinh. |
 
-## Practice
+Với nghề nghiệp số ít, thường dùng **a / an** trước danh từ: `a teacher`, `an engineer`. Chọn theo âm đầu: **an** trước nguyên âm, **a** trước phụ âm. Bài sau sẽ học sâu hơn về `be`.
 
-Chọn dạng be, sắp xếp và gõ câu; phân biệt be với động từ hành động đã học.
+## Luyện tập
 
-### Multiple Choice
+Làm lần lượt câu trắc nghiệm, sắp xếp từ và gõ câu.
 
-- Cần bổ sung: câu hỏi, các lựa chọn, đáp án đúng và giải thích vì sao đúng/sai.
+```quiz-deck
+l04-mcq-01 | single_choice | Điền “I ___ a teacher.” | am | is | are | be | 1 | I đi với am.
+l04-mcq-02 | single_choice | Điền “She ___ a developer.” | am | is | are | be | 2 | She đi với is.
+l04-mcq-03 | single_choice | Điền “They ___ students.” | am | is | are | be | 3 | They đi với are.
+l04-mcq-04 | single_choice | Chọn câu đúng. | He is engineer. | He is an engineer. | He an engineer. | He are an engineer. | 2 | Engineer là nghề nghiệp số ít và bắt đầu bằng âm nguyên âm.
+l04-mcq-05 | single_choice | Danh từ trong “She is a developer.” là gì? | She | is | developer | is a | 3 | Developer là danh từ chỉ nghề nghiệp.
+l04-mcq-06 | single_choice | Chọn câu giới thiệu nghề nghiệp đúng. | I a teacher. | I am teacher. | I am a teacher. | I is a teacher. | 3 | I đi với am và nghề nghiệp số ít cần a.
+l04-order-01 | word_order | Sắp xếp thành câu hoàn chỉnh. | teacher / am / I / a | I am a teacher. | I đi với am và a đứng trước teacher.
+l04-order-02 | word_order | Sắp xếp thành câu hoàn chỉnh. | a developer / is / She | She is a developer. | She đi với is.
+l04-order-03 | word_order | Sắp xếp thành câu hoàn chỉnh. | students / are / They | They are students. | They đi với are.
+l04-typing-01 | typing | Gõ câu từ các từ đã xáo: an engineer / is / He | He is an engineer. | He đi với is; engineer dùng an.
+l04-typing-02 | typing | Gõ câu từ các từ đã xáo: am / I / a student | I am a student. | I đi với am.
+l04-typing-03 | typing | Gõ câu từ các từ đã xáo: teachers / are / We | We are teachers. | We đi với are.
+```
 
-### Word Order
+## Áp dụng
 
-- Cần bổ sung: từ hoặc cụm từ để xáo, câu hoàn chỉnh làm đáp án và nghĩa hoặc ngữ cảnh.
-- Kiểm tra các từ/cụm ghép lại thành đáp án chính xác.
+Nghe và tự giới thiệu nghề nghiệp hoặc vai trò của bạn theo câu mẫu.
 
-### Typing
+> **I am a teacher.**
 
-- Cần bổ sung: danh sách từ đã xáo, câu đáp án chính xác và nghĩa hoặc ngữ cảnh.
-- Người học tự gõ câu từ các từ đã cho; không dùng bài dịch Việt → Anh.
-- Lưu ý: hiện chỉ có một đáp án mẫu; chữ hoa, dấu câu và khoảng trắng thừa được bỏ qua khi so sánh.
+`audio:en|I am a teacher.`
 
-## Apply — khi phù hợp
+Tự đối chiếu: **I / am / a teacher**.
 
-- Cần bổ sung: một hoạt động nghe, đọc hoặc nói ngắn dùng cấu trúc vừa học; kèm câu mẫu, hướng dẫn tự đối chiếu và transcript/audio nếu cần.
+## Ôn tập
 
-## Review
-
-- Cần bổ sung: câu hoặc điểm kiến thức cần nhắc lại, gồm ít nhất một liên hệ với bài trước nếu phù hợp.
-- Cần bổ sung: hướng dẫn người học ôn lại khi làm sai và dấu hiệu sẵn sàng học tiếp.
+Phân biệt động từ hành động trong Lesson 2 với be + danh từ. Nếu còn nhầm, xem lại ví dụ rồi làm lại các câu sai. Bạn có thể tự đánh dấu hoàn thành khi thấy đã nắm bài.

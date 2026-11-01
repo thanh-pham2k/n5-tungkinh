@@ -9,6 +9,7 @@ export function initializeMarkdown({
   loadExample,
   saveProgress,
   onDeckComplete,
+  playSpeech,
 }) {
   const lifetime = new AbortController();
   const listen = (target, event, handler, options = {}) =>
@@ -369,6 +370,16 @@ export function initializeMarkdown({
         section.innerHTML = DOMPurify.sanitize(marked.parse(block.content), {
           USE_PROFILES: { html: true },
           SANITIZE_NAMED_PROPS: true,
+        });
+        section.querySelectorAll('code').forEach((code) => {
+          if (code.closest('pre')) return;
+          const match = /^audio:(en|ja|vi)\|(.+)$/.exec(code.textContent.trim());
+          if (!match || !playSpeech) return;
+          const [, language, text] = match;
+          const audioButton = button('♫ Nghe', () => playSpeech(text, language));
+          audioButton.className = 'button lesson-audio-button';
+          audioButton.setAttribute('aria-label', `Nghe: ${text}`);
+          code.replaceWith(audioButton);
         });
         output.append(section);
       }

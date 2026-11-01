@@ -4,41 +4,49 @@
 
 Tạo câu S + V + O và nhận biết đối tượng của hành động.
 
-- Cần bổ sung: điều kiện cụ thể để người học tự kiểm tra đã đạt mục tiêu.
+## Kiến thức
 
-## Learn
+> **Subject + Verb + Object** — Chủ ngữ + Động từ + Tân ngữ
 
-- Cần bổ sung: Giải thích O là đối tượng chịu tác động; so sánh câu S + V với câu S + V + O qua ví dụ phù hợp.
-- Cần bổ sung: 2–3 ví dụ ngắn, nghĩa tiếng Việt và chú thích các thành phần trong câu.
-- Cần bổ sung: từ/cụm từ cần biết, nghĩa và cách dùng trong ví dụ.
-- Cần bổ sung: lỗi thường gặp và giải thích ngắn; hướng dẫn phát âm hoặc audio nếu phù hợp.
+Tân ngữ là người hoặc vật liên quan trực tiếp đến hành động. Một số động từ cần tân ngữ để diễn đạt đủ ý.
 
-Xem [hướng dẫn tạo quiz-deck](../../README.md#hướng-dẫn-tạo-câu-hỏi) trước khi biên soạn bài luyện tập.
+| Câu | S | V | O | Nghĩa |
+| --- | --- | --- | --- | --- |
+| I study English. | I | study | English | Tôi học tiếng Anh. |
+| She likes music. | She | likes | music | Cô ấy thích âm nhạc. |
+| We watch movies. | We | watch | movies | Chúng tôi xem phim. |
 
-## Practice
+`I work.` đã đủ ý; với `She likes`, thường cần nói thêm cô ấy thích gì, ví dụ `She likes music.`
 
-Xác định O, sắp xếp và gõ câu; ôn lại mẫu S + V.
+## Luyện tập
 
-### Multiple Choice
+Làm lần lượt câu trắc nghiệm, sắp xếp từ và gõ câu.
 
-- Cần bổ sung: câu hỏi, các lựa chọn, đáp án đúng và giải thích vì sao đúng/sai.
+```quiz-deck
+l03-mcq-01 | single_choice | Tân ngữ trong “I study English.” là gì? | I | study | English | I study | 3 | English là đối tượng được học.
+l03-mcq-02 | single_choice | Động từ trong “She likes music.” là gì? | She | likes | music | She likes | 2 | Likes là động từ.
+l03-mcq-03 | single_choice | Chọn câu đủ ý. | She likes. | Music likes. | She likes music. | Likes music. | 3 | Câu có chủ ngữ, động từ và đối tượng.
+l03-mcq-04 | single_choice | Chủ ngữ trong “We watch movies.” là gì? | We | watch | movies | Không có | 1 | We là chủ ngữ.
+l03-mcq-05 | single_choice | Từ nào hoàn thành “I study ___.”? | English | am | she | quickly | 1 | English là nội dung được học.
+l03-mcq-06 | single_choice | Câu nào là S + V + O? | Birds fly. | She likes music. | She is tired. | My brother | 2 | She là S, likes là V và music là O.
+l03-order-01 | word_order | Sắp xếp thành câu hoàn chỉnh. | English / I / study | I study English. | English là tân ngữ.
+l03-order-02 | word_order | Sắp xếp thành câu hoàn chỉnh. | music / likes / She | She likes music. | Music là điều cô ấy thích.
+l03-order-03 | word_order | Sắp xếp thành câu hoàn chỉnh. | movies / watch / We | We watch movies. | Movies là đối tượng được xem.
+l03-typing-01 | typing | Gõ câu từ các từ đã xáo: books / read / They | They read books. | Books là tân ngữ.
+l03-typing-02 | typing | Gõ câu từ các từ đã xáo: coffee / likes / He | He likes coffee. | Coffee là điều anh ấy thích.
+l03-typing-03 | typing | Gõ câu từ các từ đã xáo: English / study / I | I study English. | English là nội dung được học.
+```
 
-### Word Order
+## Áp dụng
 
-- Cần bổ sung: từ hoặc cụm từ để xáo, câu hoàn chỉnh làm đáp án và nghĩa hoặc ngữ cảnh.
-- Kiểm tra các từ/cụm ghép lại thành đáp án chính xác.
+Nghe và xác định người học, hành động và nội dung được học.
 
-### Typing
+> **I study English.**
 
-- Cần bổ sung: danh sách từ đã xáo, câu đáp án chính xác và nghĩa hoặc ngữ cảnh.
-- Người học tự gõ câu từ các từ đã cho; không dùng bài dịch Việt → Anh.
-- Lưu ý: hiện chỉ có một đáp án mẫu; chữ hoa, dấu câu và khoảng trắng thừa được bỏ qua khi so sánh.
+`audio:en|I study English.`
 
-## Apply — khi phù hợp
+Tự đối chiếu: **I / study / English**.
 
-- Cần bổ sung: một hoạt động nghe, đọc hoặc nói ngắn dùng cấu trúc vừa học; kèm câu mẫu, hướng dẫn tự đối chiếu và transcript/audio nếu cần.
+## Ôn tập
 
-## Review
-
-- Cần bổ sung: câu hoặc điểm kiến thức cần nhắc lại, gồm ít nhất một liên hệ với bài trước nếu phù hợp.
-- Cần bổ sung: hướng dẫn người học ôn lại khi làm sai và dấu hiệu sẵn sàng học tiếp.
+So sánh S + V trong Lesson 2 với S + V + O ở bài này. Nếu còn nhầm, xem lại ví dụ rồi làm lại các câu sai. Bạn có thể tự đánh dấu hoàn thành khi thấy đã nắm bài.

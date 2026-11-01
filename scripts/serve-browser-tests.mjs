@@ -3,6 +3,7 @@ import { mkdir, readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { spawn } from 'node:child_process';
+import { loadFoundationCatalog } from './foundation-catalog.mjs';
 await mkdir('.migration-artifacts', { recursive: true });
 const db = createClient({
   url: pathToFileURL(
@@ -22,10 +23,7 @@ const catalog = {
   'markdown-example': await readFile('database/seed/markdown-example.md', 'utf8'),
   'word-order-example': await readFile('database/seed/word-order-example.txt', 'utf8'),
   'work-english-30': JSON.parse(await readFile('database/seed/work-english-30.json', 'utf8')),
-  'english-foundation': await readFile(
-    'docs/english-foundation/phase-01-build-sentences/module-01-basic-sentence-structure/01-a-complete-sentence.md',
-    'utf8',
-  ),
+  'english-foundation': await loadFoundationCatalog(),
 };
 await db.batch(
   Object.entries(catalog).map(([id, data]) => ({

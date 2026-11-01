@@ -1,12 +1,12 @@
 # Lesson 1 — The Complete Sentence
 
-## 1. Goal
+## 1. Mục tiêu
 
-A complete sentence expresses a complete thought. A simple statement usually has:
+Một câu hoàn chỉnh diễn đạt một ý đầy đủ. Câu kể đơn giản thường có:
 
 > **Subject + Verb**
 
-By the end of this lesson, you should be able to identify the **subject** and **verb** in at least **4 out of 5 simple sentences**.
+Sau bài này, bạn có thể xác định **chủ ngữ** và **động từ** trong ít nhất **4 trên 5 câu đơn giản**.
 
 ## 2. Quy tắc cơ bản
 
@@ -29,9 +29,9 @@ Một câu kể đơn giản thường có:
 
 **Ghi nhớ:** Tìm chủ ngữ và động từ, rồi kiểm tra xem ý đã đầy đủ chưa. Ví dụ, **She likes** còn thiếu điều cô ấy thích; **She likes music.** là một câu đầy đủ.
 
-## 3. Examples
+## 3. Ví dụ
 
-### Example 1
+### Ví dụ 1
 
 > **I work.**  
 > Tôi làm việc.
@@ -39,7 +39,7 @@ Một câu kể đơn giản thường có:
 **I** = Subject  
 **work** = Verb
 
-### Example 2
+### Ví dụ 2
 
 > **She smiles.**  
 > Cô ấy mỉm cười.
@@ -47,20 +47,20 @@ Một câu kể đơn giản thường có:
 **She** = Subject  
 **smiles** = Verb
 
-### Example 3
+### Ví dụ 3
 
 > **Tom is tired.**  
 > Tom mệt.
 
 **Tom** = Subject  
 **is** = Verb  
-**tired** = describes Tom
+**tired** = mô tả Tom
 
-Here, **is** expresses a state rather than an action.
+Ở đây, **is** diễn tả trạng thái, không phải hành động.
 
-## 4. Words to Know
+## 4. Từ cần biết
 
-| Word | Meaning | Example |
+| Từ | Nghĩa | Ví dụ |
 | --- | --- | --- |
 | **work** | làm việc | I work. |
 | **study** | học | We study. |
@@ -68,32 +68,32 @@ Here, **is** expresses a state rather than an action.
 | **tired** | mệt | Tom is tired. |
 | **every day** | mỗi ngày | I study every day. |
 
-## 5. Common Errors
+## 5. Lỗi thường gặp
 
-### Missing the verb
+### Thiếu động từ
 
 > ❌ **My brother.**  
 > ✅ **My brother works.**
 
-A subject alone does not make a complete statement.
+Chỉ có chủ ngữ thì câu kể chưa hoàn chỉnh.
 
-### Missing the subject
+### Thiếu chủ ngữ
 
 > ❌ **Works every day.**  
 > ✅ **He works every day.**
 
-In this statement, add a subject to show who performs the action.
+Thêm chủ ngữ để biết ai làm việc mỗi ngày.
 
-### Missing *be*
+### Thiếu *be*
 
 > ❌ **She happy.**  
 > ✅ **She is happy.**
 
-**Happy** is an adjective. The sentence needs the verb **is**.
+**Happy** là tính từ; câu này cần động từ **is**.
 
-## 6. Practice
+## 6. Luyện tập
 
-Choose an answer, arrange the words, or type a sentence from the shuffled words.
+Chọn đáp án, sắp xếp từ hoặc gõ câu từ các từ đã xáo.
 
 ```quiz-deck
 l1-mcq-01 | single_choice | Which is a complete sentence? | My teacher | In the classroom | My teacher smiles. | Very happy | 3 | My teacher is the subject and smiles is the verb; the thought is complete.
@@ -110,27 +110,29 @@ l1-typing-02 | typing | Use all the shuffled words to write one sentence: studie
 l1-typing-03 | typing | Use all the shuffled words to write one sentence: tired / is / Tom | Tom is tired. | Tom is the subject and is is the verb; tired describes Tom.
 ```
 
-## 7. Apply
+## 7. Áp dụng
 
-Read aloud:
+Nghe và đọc thành tiếng:
 
 > **My brother studies every day.**
 
-Then ask:
+`audio:en|My brother studies every day.`
+
+Sau đó tự hỏi:
 
 **Who?** → My brother → **Subject**  
 **Does what?** → studies → **Verb**
 
-Now try:
+Bây giờ thử với hai câu sau:
 
 > **The dog runs.**  
 > **Anna is tired.**
 
-Identify the subject and verb without looking back at the rule. Then check: **The dog / runs** and **Anna / is**.
+Tìm chủ ngữ và động từ trước khi xem đáp án: **The dog / runs** và **Anna / is**.
 
-## 8. Self-check
+## 8. Tự kiểm tra
 
-Identify the subject and verb in each sentence before looking at the answers.
+Xác định chủ ngữ và động từ trong mỗi câu trước khi xem đáp án.
 
 1. I work.
 2. She smiles.
@@ -139,7 +141,7 @@ Identify the subject and verb in each sentence before looking at the answers.
 5. Tom is tired.
 
 <details>
-<summary>Check your answers</summary>
+<summary>Xem đáp án</summary>
 
 1. Subject: **I**; Verb: **work**.
 2. Subject: **She**; Verb: **smiles**.
@@ -149,14 +151,14 @@ Identify the subject and verb in each sentence before looking at the answers.
 
 </details>
 
-Count a sentence as correct only if you identify both its subject and its verb. You are ready to continue when you get at least **4 out of 5** correct.
+Chỉ tính đúng khi bạn xác định được cả chủ ngữ và động từ. Bạn có thể tiếp tục khi làm đúng ít nhất **4 trên 5 câu**.
 
-## 9. Review
+## 9. Ôn tập
 
-A simple statement usually has a **subject** and a **verb**. Before accepting a group of words as a complete sentence, ask:
+Câu kể đơn giản thường có **chủ ngữ** và **động từ**. Hãy tự hỏi:
 
-> **Who or what?** → Subject  
-> **Does what or is what?** → Verb  
-> **Is the thought complete?** → Check whether anything is missing.
+> **Ai hoặc cái gì?** → Chủ ngữ  
+> **Làm gì hoặc ở trạng thái nào?** → Động từ  
+> **Ý đã đầy đủ chưa?** → Kiểm tra xem câu còn thiếu gì không.
 
-If you make mistakes, return to **The Basic Rule**, identify both parts and check whether the thought is complete.
+Nếu còn nhầm, hãy xem lại **Quy tắc cơ bản**, tìm hai thành phần và kiểm tra ý của câu.

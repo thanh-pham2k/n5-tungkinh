@@ -2,43 +2,51 @@
 
 ## Mục tiêu
 
-Dùng S + be + Adjective để mô tả trạng thái hoặc đặc điểm.
+Mô tả trạng thái hoặc đặc điểm bằng S + be + Adjective.
 
-- Cần bổ sung: điều kiện cụ thể để người học tự kiểm tra đã đạt mục tiêu.
+## Kiến thức
 
-## Learn
+> **Subject + be + Adjective** — Chủ ngữ + be + Tính từ
 
-- Cần bổ sung: Giải thích tính từ trong mẫu; so sánh với S + be + Noun bằng từ vựng quen thuộc.
-- Cần bổ sung: 2–3 ví dụ ngắn, nghĩa tiếng Việt và chú thích các thành phần trong câu.
-- Cần bổ sung: từ/cụm từ cần biết, nghĩa và cách dùng trong ví dụ.
-- Cần bổ sung: lỗi thường gặp và giải thích ngắn; hướng dẫn phát âm hoặc audio nếu phù hợp.
+Tính từ mô tả trạng thái hoặc đặc điểm. Chọn **am / is / are** theo chủ ngữ.
 
-Xem [hướng dẫn tạo quiz-deck](../../README.md#hướng-dẫn-tạo-câu-hỏi) trước khi biên soạn bài luyện tập.
+| Câu | Nghĩa |
+| --- | --- |
+| I am tired. | Tôi mệt. |
+| She is happy. | Cô ấy vui. |
+| They are busy. | Họ bận. |
 
-## Practice
+Trong `She is happy.`, **is** là động từ và **happy** là tính từ. So sánh `She is a teacher.`: **teacher** là danh từ chỉ nghề nghiệp. Không bỏ `be`: viết `She is happy.`, không viết `She happy.`
 
-Chọn dạng be, sắp xếp và gõ câu; ôn cả hai mẫu với be.
+## Luyện tập
 
-### Multiple Choice
+Làm lần lượt câu trắc nghiệm, sắp xếp từ và gõ câu.
 
-- Cần bổ sung: câu hỏi, các lựa chọn, đáp án đúng và giải thích vì sao đúng/sai.
+```quiz-deck
+l05-mcq-01 | single_choice | Điền “I ___ tired.” | am | is | are | be | 1 | I đi với am.
+l05-mcq-02 | single_choice | Điền “She ___ happy.” | am | is | are | be | 2 | She đi với is.
+l05-mcq-03 | single_choice | Điền “They ___ busy.” | am | is | are | be | 3 | They đi với are.
+l05-mcq-04 | single_choice | Tính từ trong “Tom is tired.” là gì? | Tom | is | tired | Tom is | 3 | Tired mô tả trạng thái của Tom.
+l05-mcq-05 | single_choice | Chọn câu đúng. | She happy. | She is happy. | She are happy. | Is she happy. | 2 | She đi với is trong câu kể.
+l05-mcq-06 | single_choice | Câu nào mô tả trạng thái? | She is a teacher. | She is tired. | She studies English. | She likes music. | 2 | Tired là tính từ mô tả trạng thái.
+l05-order-01 | word_order | Sắp xếp thành câu hoàn chỉnh. | happy / is / She | She is happy. | She đi với is.
+l05-order-02 | word_order | Sắp xếp thành câu hoàn chỉnh. | busy / are / They | They are busy. | They đi với are.
+l05-order-03 | word_order | Sắp xếp thành câu hoàn chỉnh. | tired / am / I | I am tired. | I đi với am.
+l05-typing-01 | typing | Gõ câu từ các từ đã xáo: is / Tom / tired | Tom is tired. | Tom đi với is.
+l05-typing-02 | typing | Gõ câu từ các từ đã xáo: happy / are / We | We are happy. | We đi với are.
+l05-typing-03 | typing | Gõ câu từ các từ đã xáo: busy / is / He | He is busy. | He đi với is.
+```
 
-### Word Order
+## Áp dụng
 
-- Cần bổ sung: từ hoặc cụm từ để xáo, câu hoàn chỉnh làm đáp án và nghĩa hoặc ngữ cảnh.
-- Kiểm tra các từ/cụm ghép lại thành đáp án chính xác.
+Nghe và nói một câu mô tả trạng thái của bạn theo mẫu.
 
-### Typing
+> **She is happy.**
 
-- Cần bổ sung: danh sách từ đã xáo, câu đáp án chính xác và nghĩa hoặc ngữ cảnh.
-- Người học tự gõ câu từ các từ đã cho; không dùng bài dịch Việt → Anh.
-- Lưu ý: hiện chỉ có một đáp án mẫu; chữ hoa, dấu câu và khoảng trắng thừa được bỏ qua khi so sánh.
+`audio:en|She is happy.`
 
-## Apply — khi phù hợp
+Tự đối chiếu: **She / is / happy**.
 
-- Cần bổ sung: một hoạt động nghe, đọc hoặc nói ngắn dùng cấu trúc vừa học; kèm câu mẫu, hướng dẫn tự đối chiếu và transcript/audio nếu cần.
+## Ôn tập
 
-## Review
-
-- Cần bổ sung: câu hoặc điểm kiến thức cần nhắc lại, gồm ít nhất một liên hệ với bài trước nếu phù hợp.
-- Cần bổ sung: hướng dẫn người học ôn lại khi làm sai và dấu hiệu sẵn sàng học tiếp.
+Phân biệt be + tính từ với be + danh từ trong Lesson 4. Nếu còn nhầm, xem lại ví dụ rồi làm lại các câu sai. Bạn có thể tự đánh dấu hoàn thành khi thấy đã nắm bài.
