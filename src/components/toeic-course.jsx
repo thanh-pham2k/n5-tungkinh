@@ -18,6 +18,18 @@ export default function ToeicCourse({ onLogout }) {
     setBusy(true);
     setError('');
     try {
+      const titles = [
+        'Contracts — Hợp đồng',
+        'Marketing — Tiếp thị',
+        'Warranties — Bảo hành',
+        'Business Planning — Kế hoạch kinh doanh',
+        'Conferences — Hội nghị',
+        'Computers — Máy tính',
+        'Office Technology — Công nghệ văn phòng',
+        'Office Procedures — Thủ tục văn phòng',
+        'Electronics — Điện tử',
+        'Correspondence — Thư tín',
+      ];
       let cursor;
       const matches = [];
       do {
@@ -28,25 +40,33 @@ export default function ToeicCourse({ onLogout }) {
         });
         const listing = await studyRequest(`/study-contents?${query}`);
         matches.push(
-          ...listing.data.filter((item) => item.title.startsWith('# Contracts — Hợp đồng')),
+          ...listing.data.filter((item) =>
+            titles.some((title) => item.title.startsWith(`# ${title}`)),
+          ),
         );
         cursor = listing.meta.page.nextCursor;
       } while (cursor);
       const records = await Promise.all(
         matches.map(async (item) => (await studyRequest(`/study-contents/${item.id}`)).data),
       );
-      const record = records[0];
       setLessons(
-        record
-          ? [
-              {
-                ...record,
-                title: 'Contracts — Hợp đồng',
-                label: 'Nhóm 1',
-                completedAt: record.progress?.foundationCompletedAt || null,
-              },
-            ]
-          : [],
+        titles.flatMap((title, index) => {
+          const record = records.find(
+            (item) =>
+              item.source.split('\n')[0] === `# ${title}` &&
+              !item.source.includes('**Các lỗi quan trọng đã chỉnh:**'),
+          );
+          return record
+            ? [
+                {
+                  ...record,
+                  title,
+                  label: `Nhóm ${index + 1}`,
+                  completedAt: record.progress?.foundationCompletedAt || null,
+                },
+              ]
+            : [];
+        }),
       );
     } catch (err) {
       setError(err.message);
