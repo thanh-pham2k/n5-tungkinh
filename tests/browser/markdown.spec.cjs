@@ -371,3 +371,31 @@ test('quiz A/D shortcuts navigate only inside the deck and never interrupt typin
   await page.keyboard.press('a');
   await expect(deck.locator('h3')).toContainText('2 / 3');
 });
+
+test('typing displays authored shuffled words as blocks without instruction text', async ({
+  page,
+}) => {
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  await openMobileEditor(
+    page,
+    '```quiz-deck\na | typing | Use all the shuffled words to write one sentence:&#xA0; runs / The dog | The dog runs. | Đúng.\nb | typing | Gõ câu từ các từ đã xáo: happy / is / She | She is happy. | Đúng.\n```',
+  );
+  const deck = page.locator('.lesson-deck');
+  const hints = deck.getByLabel('Cụm từ gợi ý');
+  await expect(hints.locator('span')).toHaveCount(2);
+  expect((await hints.locator('span').allTextContents()).sort()).toEqual(
+    ['The dog', 'runs'].sort(),
+  );
+  await expect(deck).not.toContainText('Use all the shuffled words');
+  await deck.getByLabel('Câu trả lời').fill('The dog runs.');
+  await deck.getByRole('button', { name: 'Kiểm tra' }).click();
+  await expect(deck).toContainText('Chính xác!');
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await expect(hints.locator('span')).toHaveCount(3);
+  await expect(deck).not.toContainText('Gõ câu từ các từ đã xáo:');
+  await deck.getByLabel('Câu trả lời').fill('She is happy.');
+  await deck.getByRole('button', { name: 'Kiểm tra' }).click();
+  await deck.getByRole('button', { name: 'Xem kết quả' }).click();
+  await expect(deck).not.toContainText('Gõ câu từ các từ đã xáo:');
+});

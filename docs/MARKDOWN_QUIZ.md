@@ -72,6 +72,8 @@ q2 | typing | Dịch: Cô ấy đi học. | She goes to school. | Chủ ngữ s�
 ```
 ````
 
+Với Typing của Foundation, phần câu hỏi dạng `Gõ câu từ các từ đã xáo: từ 1 / từ 2` được hiển thị thành các khối gợi ý; câu hướng dẫn lặp lại được ẩn. Định dạng cũ với Word Order liền trước vẫn được hỗ trợ.
+
 Word Order dùng `id | word_order | câu hỏi | từ hoặc cụm từ | đáp án | giải thích`; phân cách các mảnh bằng `/`, tối thiểu hai mảnh. Typing dùng `id | typing | câu hỏi | đáp án | giải thích`. Các trường đều bắt buộc và không chứa chuỗi phân cách `|`. Nhấn các mảnh để xếp hoặc bỏ chọn, rồi chọn **Kiểm tra**; Typing có thể kiểm tra bằng Enter. Đáp án được so sánh không phân biệt hoa thường, dấu câu và khoảng trắng thừa. Mỗi câu hiện có một đáp án mẫu; cách diễn đạt khác có thể bị tính sai. Hai loại mới chỉ hỗ trợ định dạng block, không dùng `:::quiz`.
 
 ## Tiếng Anh công việc trong 30 ngày

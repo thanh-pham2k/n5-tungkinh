@@ -56,6 +56,15 @@ export function initializeMarkdown({
     });
     return span;
   }
+  function authoredTypingHints(question) {
+    const normalized = question.replace(/&#x0*a0;|&#0*160;/gi, ' ');
+    const match = normalized.match(
+      /^(?:Use all the shuffled words to write one sentence|Gõ câu từ các từ đã xáo):\s*(.+)$/i,
+    );
+    if (!match) return null;
+    const tokens = match[1].split(/\s+\/\s+/).map((part) => part.trim());
+    return tokens.length >= 2 && tokens.every(Boolean) ? tokens : null;
+  }
   function deck(quizzes, number) {
     const container = el('section', undefined, 'lesson-deck');
     container.setAttribute('aria-label', `Mini Quiz ${number}`);
@@ -90,7 +99,7 @@ export function initializeMarkdown({
         quizzes.forEach((q, i) => {
           container.append(
             button(
-              `${i + 1}. ${answers[q.id] === undefined ? 'Chưa trả lời' : correctAnswer(q) ? 'Đúng' : 'Sai'} — ${q.question}`,
+              `${i + 1}. ${answers[q.id] === undefined ? 'Chưa trả lời' : correctAnswer(q) ? 'Đúng' : 'Sai'} — ${q.type === 'typing' && authoredTypingHints(q.question) ? 'Gõ câu' : q.question}`,
               () => {
                 current = i;
                 review = false;
@@ -116,13 +125,15 @@ export function initializeMarkdown({
       } else {
         const q = quizzes[current];
         const previous = quizzes[current - 1];
+        const explicitHints = q.type === 'typing' ? authoredTypingHints(q.question) : null;
         const typingHints =
-          q.type === 'typing' &&
+          explicitHints ||
+          (q.type === 'typing' &&
           previous?.type === 'word_order' &&
           previous.question === q.question &&
           previous.answer === q.answer
             ? previous.tokens
-            : null;
+            : null);
         if (
           displayedQuestion !== current &&
           (q.type === 'single_choice' || q.type === 'word_order' || typingHints)
@@ -136,7 +147,10 @@ export function initializeMarkdown({
         }
         const field = el('fieldset');
         const legend = el('legend');
-        legend.append(inline(q.question));
+        if (explicitHints) {
+          legend.className = 'lesson-visually-hidden';
+          legend.textContent = 'Gõ câu từ các từ gợi ý';
+        } else legend.append(inline(q.question));
         field.append(legend);
         if (q.type === 'single_choice')
           shuffledIndices.forEach((index) => {
@@ -170,7 +184,8 @@ export function initializeMarkdown({
             const hints = el('div', undefined, 'lesson-order-tokens lesson-typing-hints');
             hints.setAttribute('aria-label', 'Cụm từ gợi ý');
             shuffledIndices.forEach((index) => hints.append(el('span', typingHints[index])));
-            field.append(hintLabel, hints);
+            if (!explicitHints) field.append(hintLabel);
+            field.append(hints);
           }
           const input = el('input');
           input.type = 'text';
