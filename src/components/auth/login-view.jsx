@@ -4,8 +4,8 @@ import { Button, Status } from '../ui/primitives';
 import { loginUser } from '../../services/study-library-client';
 
 export default function LoginView({ onLoginSuccess }) {
-  const [username, setUsername] = useState('thanhpv');
-  const [password, setPassword] = useState('1');
+  const [username, setUsername] = useState('');
+  const [password, setPassword] = useState('');
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
 
@@ -29,12 +29,6 @@ export default function LoginView({ onLoginSuccess }) {
     }
   }
 
-  function selectAccount(name, pass) {
-    setUsername(name);
-    setPassword(pass);
-    setError('');
-  }
-
   return (
     <div className="login-screen">
       <div className="login-card">
@@ -50,32 +44,10 @@ export default function LoginView({ onLoginSuccess }) {
           </div>
           <h1>Đăng nhập</h1>
           <p className="helper">
-            Chọn tài khoản để vào không gian học tập cá nhân. Dữ liệu được quản lý riêng theo từng
-            tài khoản.
+            Đăng nhập để vào không gian học tập cá nhân. Dữ liệu được quản lý riêng theo từng tài
+            khoản.
           </p>
         </header>
-
-        <div className="account-presets" aria-label="Tài khoản có sẵn">
-          <p className="eyebrow">Tài khoản truy cập</p>
-          <div className="preset-buttons">
-            <button
-              type="button"
-              className={`button preset-btn ${username === 'thanhpv' ? 'button-primary' : ''}`}
-              onClick={() => selectAccount('thanhpv', '1')}
-            >
-              <span className="preset-badge">thanhpv</span>
-              <small>Dữ liệu hiện tại (chính)</small>
-            </button>
-            <button
-              type="button"
-              className={`button preset-btn ${username === 'yentr' ? 'button-primary' : ''}`}
-              onClick={() => selectAccount('yentr', '1')}
-            >
-              <span className="preset-badge">yentr</span>
-              <small>Tài khoản cá nhân riêng</small>
-            </button>
-          </div>
-        </div>
 
         <form onSubmit={handleSubmit} className="login-form">
           <div className="field">
@@ -112,12 +84,6 @@ export default function LoginView({ onLoginSuccess }) {
             {busy ? 'Đang đăng nhập…' : 'Đăng nhập ↗'}
           </Button>
         </form>
-
-        <footer className="login-footer">
-          <small>
-            Mật khẩu mặc định: <code>1</code> · Hệ thống phân quyền độc lập
-          </small>
-        </footer>
       </div>
     </div>
   );

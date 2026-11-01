@@ -13,7 +13,7 @@ async function logout(page) {
 }
 
 test.describe('Authentication and Login flow', () => {
-  test('unauthenticated visitor sees the Login screen with both accounts', async ({
+  test('unauthenticated visitor sees blank login fields without account details', async ({
     page,
     context,
   }) => {
@@ -21,8 +21,11 @@ test.describe('Authentication and Login flow', () => {
     await page.goto('/');
 
     await expect(page.getByRole('heading', { name: 'Đăng nhập' })).toBeVisible();
-    await expect(page.getByRole('button', { name: 'thanhpv', exact: false })).toBeVisible();
-    await expect(page.getByRole('button', { name: 'yentr', exact: false })).toBeVisible();
+    await expect(page.getByLabel('Tên đăng nhập')).toHaveValue('');
+    await expect(page.getByLabel('Mật khẩu')).toHaveValue('');
+    await expect(page.locator('.login-screen')).not.toContainText('thanhpv');
+    await expect(page.locator('.login-screen')).not.toContainText('yentr');
+    await expect(page.locator('.login-screen')).not.toContainText('Mật khẩu mặc định');
     await expect(page.getByLabel('Tên đăng nhập')).toBeVisible();
     await expect(page.getByLabel('Mật khẩu')).toBeVisible();
     await expect(page.getByRole('button', { name: 'Đăng nhập ↗' })).toBeVisible();
@@ -48,8 +51,8 @@ test.describe('Authentication and Login flow', () => {
     await context.clearCookies();
     await page.goto('/');
 
-    // Use preset button
-    await page.getByRole('button', { name: 'thanhpv', exact: false }).click();
+    await page.getByLabel('Tên đăng nhập').fill('thanhpv');
+    await page.getByLabel('Mật khẩu').fill('1');
     await page.getByRole('button', { name: 'Đăng nhập ↗' }).click();
 
     // App shell loads
@@ -64,7 +67,8 @@ test.describe('Authentication and Login flow', () => {
     await context.clearCookies();
     await page.goto('/');
 
-    await page.getByRole('button', { name: 'yentr', exact: false }).click();
+    await page.getByLabel('Tên đăng nhập').fill('yentr');
+    await page.getByLabel('Mật khẩu').fill('1');
     await page.getByRole('button', { name: 'Đăng nhập ↗' }).click();
 
     await expect(page.locator('.app-shell')).toBeVisible();
@@ -83,7 +87,8 @@ test.describe('Authentication and Login flow', () => {
 
     await expect(page.getByRole('heading', { name: 'Đăng nhập' })).toBeVisible();
 
-    await page.getByRole('button', { name: 'thanhpv', exact: false }).click();
+    await page.getByLabel('Tên đăng nhập').fill('thanhpv');
+    await page.getByLabel('Mật khẩu').fill('1');
     await page.getByRole('button', { name: 'Đăng nhập ↗' }).click();
 
     await expect(page.locator('.markdown-page')).toBeVisible();
@@ -100,7 +105,8 @@ test.describe('Authentication and Login flow', () => {
     // 1. Log in as thanhpv and create a lesson
     await context.clearCookies();
     await page.goto('/');
-    await page.getByRole('button', { name: 'thanhpv', exact: false }).click();
+    await page.getByLabel('Tên đăng nhập').fill('thanhpv');
+    await page.getByLabel('Mật khẩu').fill('1');
     await page.getByRole('button', { name: 'Đăng nhập ↗' }).click();
     await expect(page.locator('.app-shell')).toBeVisible();
 
@@ -115,7 +121,8 @@ test.describe('Authentication and Login flow', () => {
     await expect(page.getByRole('heading', { name: 'Đăng nhập' })).toBeVisible();
 
     // 3. Log in as yentr
-    await page.getByRole('button', { name: 'yentr', exact: false }).click();
+    await page.getByLabel('Tên đăng nhập').fill('yentr');
+    await page.getByLabel('Mật khẩu').fill('1');
     await page.getByRole('button', { name: 'Đăng nhập ↗' }).click();
     await expect(page.locator('.app-shell')).toBeVisible();
 
