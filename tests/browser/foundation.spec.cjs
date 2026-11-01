@@ -19,7 +19,7 @@ for (const viewport of [
     await expect(dialog.locator('#lesson-output h1')).toHaveText(
       'Lesson 1 — Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ',
     );
-    await expect(dialog.locator('.lesson-deck')).toBeVisible();
+    await expect(dialog.locator('.lesson-deck').first()).toBeVisible();
     await dialog.locator('.lesson-option').filter({ hasText: 'My teacher smiles.' }).click();
     await expect(dialog.locator('.lesson-option.is-correct')).toBeVisible();
     await page.keyboard.press('Escape');
@@ -151,12 +151,12 @@ test('Module 1 lists all lessons and opens the checkpoint', async ({ page }) => 
   await expect(cards.nth(1)).toContainText('Lesson 2');
   await cards.nth(1).click();
   let dialog = page.getByRole('dialog', { name: 'Câu với be: danh từ và tính từ', exact: true });
-  await expect(dialog.locator('.lesson-deck')).toBeVisible();
+  await expect(dialog.locator('.lesson-deck').first()).toBeVisible();
   await expect(dialog.getByRole('button', { name: /Nghe: I am a teacher/ })).toBeVisible();
   await dialog.getByRole('button', { name: 'Đóng' }).click();
   await cards.nth(2).click();
   dialog = page.getByRole('dialog', { name: 'Basic Sentence Structure', exact: true });
-  await expect(dialog.locator('.lesson-deck')).toBeVisible();
+  await expect(dialog.locator('.lesson-deck').first()).toBeVisible();
   await expect(dialog.getByRole('button', { name: /Nghe: I am a student/ })).toBeVisible();
 });
 
@@ -173,7 +173,7 @@ test('Foundation quiz starts fresh on reopen while manual completion persists', 
   const card = page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ });
   await card.click();
   let dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
-  let deck = dialog.locator('.lesson-deck');
+  let deck = dialog.locator('.lesson-deck').first();
   await deck.locator('.lesson-option').filter({ hasText: 'My teacher smiles.' }).click();
   await expect(deck.locator('input:checked')).toHaveCount(1);
   await expect.poll(() => writes.length).toBe(0);
@@ -184,15 +184,15 @@ test('Foundation quiz starts fresh on reopen while manual completion persists', 
   await dialog.getByRole('button', { name: 'Đóng' }).click();
   await card.click();
   dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
-  deck = dialog.locator('.lesson-deck');
+  deck = dialog.locator('.lesson-deck').first();
   await expect(deck.locator('.lesson-option')).toHaveCount(4);
   await expect(deck.locator('input:checked')).toHaveCount(0);
   await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
   await page.reload();
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await card.click();
-  await expect(page.locator('.lesson-deck .lesson-option')).toHaveCount(4);
-  await expect(page.locator('.lesson-deck input:checked')).toHaveCount(0);
+  await expect(page.locator('.lesson-deck').first().locator('.lesson-option')).toHaveCount(4);
+  await expect(page.locator('.lesson-deck').first().locator('input:checked')).toHaveCount(0);
   await expect(page.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
 });
 
@@ -207,7 +207,7 @@ test('Foundation ignores answers saved before this change', async ({ page }) => 
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
-  const deck = page.locator('.lesson-deck');
+  const deck = page.locator('.lesson-deck').first();
   await expect(deck.locator('.lesson-option')).toHaveCount(4);
   await expect(deck.locator('input:checked')).toHaveCount(0);
   await expect(deck.locator('.lesson-feedback')).toHaveCount(0);
@@ -247,17 +247,18 @@ test('A/D works after checking a Word Order answer in Foundation', async ({ page
   await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
   const deck = page
     .getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' })
-    .locator('.lesson-deck');
-  await deck.getByRole('button', { name: 'Câu 10', exact: true }).click();
+    .locator('.lesson-deck')
+    .last();
+  await deck.getByRole('button', { name: 'Câu 5', exact: true }).click();
   const field = deck.locator('fieldset');
-  for (const word of ['Tom', 'works', 'every day'])
+  for (const word of ['My friend', 'reads', 'books'])
     await field.getByRole('button', { name: word, exact: true }).click();
   await field.getByRole('button', { name: 'Kiểm tra' }).click();
   await expect(deck).toContainText('Chính xác!');
   await page.keyboard.press('d');
-  await expect(deck.locator('h3')).toContainText('11 / 15');
+  await expect(deck.locator('h3')).toContainText('6 / 8');
   await page.keyboard.press('a');
-  await expect(deck.locator('h3')).toContainText('10 / 15');
+  await expect(deck.locator('h3')).toContainText('5 / 8');
 });
 
 test('A/D works after checking a typing answer with Enter or button', async ({ page }) => {
@@ -266,22 +267,23 @@ test('A/D works after checking a typing answer with Enter or button', async ({ p
   await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
   const deck = page
     .getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' })
-    .locator('.lesson-deck');
-  await deck.getByRole('button', { name: 'Câu 13', exact: true }).click();
+    .locator('.lesson-deck')
+    .last();
+  await deck.getByRole('button', { name: 'Câu 7', exact: true }).click();
   const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
-  await input.fill('I study every day');
+  await input.fill('Anna drinks tea');
   await input.press('Enter');
   await expect(deck).toContainText('Chính xác!');
   await page.keyboard.press('d');
-  await expect(deck.locator('h3')).toContainText('14 / 15');
+  await expect(deck.locator('h3')).toContainText('8 / 8');
   await page.keyboard.press('a');
-  await expect(deck.locator('h3')).toContainText('13 / 15');
+  await expect(deck.locator('h3')).toContainText('7 / 8');
   await input.fill('a dog');
   await expect(input).toHaveValue('a dog');
-  await expect(deck.locator('h3')).toContainText('13 / 15');
+  await expect(deck.locator('h3')).toContainText('7 / 8');
   await deck.getByRole('button', { name: 'Kiểm tra', exact: true }).click();
   await page.keyboard.press('d');
-  await expect(deck.locator('h3')).toContainText('14 / 15');
+  await expect(deck.locator('h3')).toContainText('8 / 8');
 });
 
 test('clicking quiz background activates A/D without disturbing typing focus', async ({ page }) => {
@@ -289,7 +291,7 @@ test('clicking quiz background activates A/D without disturbing typing focus', a
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 2.*Câu với be/ }).click();
   const dialog = page.getByRole('dialog', { name: 'Câu với be: danh từ và tính từ' });
-  const deck = dialog.locator('.lesson-deck');
+  const deck = dialog.locator('.lesson-deck').first();
   await deck.getByRole('button', { name: 'Câu 5', exact: true }).click();
   await dialog
     .getByRole('heading', { name: 'Câu với be: danh từ và tính từ', exact: true })
@@ -315,7 +317,7 @@ test('last typing answer returns focus to quiz after Enter and A navigates back'
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 2.*Câu với be/ }).click();
   const dialog = page.getByRole('dialog', { name: 'Câu với be: danh từ và tính từ' });
-  const deck = dialog.locator('.lesson-deck');
+  const deck = dialog.locator('.lesson-deck').first();
   await deck.getByRole('button', { name: 'Câu 10', exact: true }).click();
   const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
   await input.fill('Tom is tired');
@@ -356,7 +358,7 @@ test('Module 2 lessons open and completion stays within its module', async ({ pa
   await expect(second).toHaveCount(4);
   await second.first().click();
   const dialog = page.getByRole('dialog', { name: 'Danh từ và số ít, số nhiều' });
-  await expect(dialog.locator('.lesson-deck')).toBeVisible();
+  await expect(dialog.locator('.lesson-deck').first()).toBeVisible();
   await expect(dialog.getByRole('button', { name: /Nghe: She reads a book/ })).toBeVisible();
   await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
   await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
@@ -382,7 +384,7 @@ test('Phase 1 and Phase 2 show all ten modules and open lessons', async ({ page 
   for (const index of [2, 3, 4, 9]) {
     await modules.nth(index).locator('.foundation-lesson').first().click();
     const dialog = page.getByRole('dialog');
-    await expect(dialog.locator('.lesson-deck')).toBeVisible();
+    await expect(dialog.locator('.lesson-deck').first()).toBeVisible();
     await dialog.getByRole('button', { name: 'Đóng' }).click();
   }
 });
@@ -436,7 +438,7 @@ test('all consolidated lessons and checkpoints open with a quiz on mobile', asyn
     for (let index = 0; index < count; index++) {
       await cards.nth(index).click();
       const dialog = page.getByRole('dialog');
-      await expect(dialog.locator('.lesson-deck')).toBeVisible();
+      await expect(dialog.locator('.lesson-deck').first()).toBeVisible();
       await expect(
         dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
       ).toBeVisible();
@@ -468,4 +470,24 @@ test('phase blocks start collapsed and open independently with keyboard and mous
   await firstToggle.click();
   await expect(first).not.toHaveAttribute('open', '');
   await expect(second.locator('.foundation-lesson').first()).toBeVisible();
+});
+
+test('Lesson 1 presents practice after each concept and a separate final review', async ({
+  page,
+}) => {
+  await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  const dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
+  const decks = dialog.locator('.lesson-deck');
+  await expect(decks).toHaveCount(4);
+  for (const [index, size] of [5, 5, 5, 8].entries())
+    await expect(decks.nth(index).locator('h3')).toContainText(`1 / ${size}`);
+  await decks.nth(0).locator('.lesson-option').filter({ hasText: 'My teacher smiles.' }).click();
+  await expect(decks.nth(0).locator('input:checked')).toHaveCount(1);
+  await expect(decks.nth(1).locator('input:checked')).toHaveCount(0);
+  await decks.nth(3).locator('h3').click();
+  await page.keyboard.press('d');
+  await expect(decks.nth(3).locator('h3')).toContainText('2 / 8');
+  await expect(decks.nth(0).locator('h3')).toContainText('1 / 5');
 });

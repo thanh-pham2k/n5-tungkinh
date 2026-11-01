@@ -42,17 +42,14 @@ test('compact draft covers every original lesson once and has usable exercises a
       .filter((block) => block.type === 'deck')
       .flatMap((block) => block.quizzes);
     assert.ok(quizzes.length >= 10, entry.id);
-    assert.deepEqual(
-      quizzes.map((quiz) => quiz.type),
-      quizzes
-        .map((quiz) => quiz.type)
-        .sort(
-          (a, b) =>
-            ['single_choice', 'word_order', 'typing'].indexOf(a) -
-            ['single_choice', 'word_order', 'typing'].indexOf(b),
-        ),
-      entry.id,
-    );
+    for (const deck of blocks.filter((block) => block.type === 'deck')) {
+      const types = deck.quizzes.map((quiz) => quiz.type);
+      const order = ['single_choice', 'word_order', 'typing'];
+      assert.deepEqual(
+        types,
+        [...types].sort((a, b) => order.indexOf(a) - order.indexOf(b)),
+      );
+    }
     assert.match(source, /`audio:en\|[^`]+`/, entry.id);
     for (const quiz of quizzes) {
       if (quiz.type === 'word_order')

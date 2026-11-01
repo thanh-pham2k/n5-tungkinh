@@ -21,6 +21,16 @@ Dùng **am / is / are** theo chủ ngữ: `I am`, `he / she / it is`, `you / we 
 
 Với nghề nghiệp số ít, thường dùng **a / an** trước danh từ: `a teacher`, `an engineer`. Chọn theo âm đầu: **an** trước nguyên âm, **a** trước phụ âm. Bài sau sẽ học sâu hơn về `be`.
 
+### Luyện tập
+
+```quiz-deck
+l04-mcq-01 | single_choice | Điền “I ___ a teacher.” | am | is | are | be | 1 | I đi với am.
+l04-mcq-02 | single_choice | Điền “She ___ a developer.” | am | is | are | be | 2 | She đi với is.
+l04-mcq-03 | single_choice | Điền “They ___ students.” | am | is | are | be | 3 | They đi với are.
+l04-order-01 | word_order | Sắp xếp thành câu hoàn chỉnh. | teacher / am / I / a | I am a teacher. | I đi với am và a đứng trước teacher.
+l04-typing-01 | typing | Gõ câu từ các từ đã xáo: an engineer / is / He | He is an engineer. | He đi với is; engineer dùng an.
+```
+
 ### Subject + be + Adjective
 
 > **Subject + be + Adjective** — Chủ ngữ + be + Tính từ
@@ -35,21 +45,31 @@ Tính từ mô tả trạng thái hoặc đặc điểm. Chọn **am / is / are*
 
 Trong `She is happy.`, **is** là động từ và **happy** là tính từ. So sánh `She is a teacher.`: **teacher** là danh từ chỉ nghề nghiệp. Không bỏ `be`: viết `She is happy.`, không viết `She happy.`
 
-## Luyện tập
-
-Làm lần lượt trắc nghiệm, sắp xếp từ và gõ câu.
+### Luyện tập
 
 ```quiz-deck
-l04-mcq-01 | single_choice | Điền “I ___ a teacher.” | am | is | are | be | 1 | I đi với am.
-l04-mcq-02 | single_choice | Điền “She ___ a developer.” | am | is | are | be | 2 | She đi với is.
-l04-mcq-03 | single_choice | Điền “They ___ students.” | am | is | are | be | 3 | They đi với are.
 l05-mcq-01 | single_choice | Điền “I ___ tired.” | am | is | are | be | 1 | I đi với am.
 l05-mcq-02 | single_choice | Điền “She ___ happy.” | am | is | are | be | 2 | She đi với is.
 l05-mcq-03 | single_choice | Điền “They ___ busy.” | am | is | are | be | 3 | They đi với are.
-l04-order-01 | word_order | Sắp xếp thành câu hoàn chỉnh. | teacher / am / I / a | I am a teacher. | I đi với am và a đứng trước teacher.
 l05-order-01 | word_order | Sắp xếp thành câu hoàn chỉnh. | happy / is / She | She is happy. | She đi với is.
-l04-typing-01 | typing | Gõ câu từ các từ đã xáo: an engineer / is / He | He is an engineer. | He đi với is; engineer dùng an.
 l05-typing-01 | typing | Gõ câu từ các từ đã xáo: is / Tom / tired | Tom is tired. | Tom đi với is.
+```
+
+## Ôn tập tổng hợp
+
+Làm bài ôn sau khi đã luyện cả hai phần.
+
+```quiz-deck
+l04-mcq-04 | single_choice | Chọn câu đúng. | He is engineer. | He is an engineer. | He an engineer. | He are an engineer. | 2 | Engineer là nghề nghiệp số ít và bắt đầu bằng âm nguyên âm.
+l04-mcq-05 | single_choice | Danh từ trong “She is a developer.” là gì? | She | is | developer | is a | 3 | Developer là danh từ chỉ nghề nghiệp.
+l04-mcq-06 | single_choice | Chọn câu giới thiệu nghề nghiệp đúng. | I a teacher. | I am teacher. | I am a teacher. | I is a teacher. | 3 | I đi với am và nghề nghiệp số ít cần a.
+l05-mcq-04 | single_choice | Tính từ trong “Tom is tired.” là gì? | Tom | is | tired | Tom is | 3 | Tired mô tả trạng thái của Tom.
+l05-mcq-05 | single_choice | Chọn câu đúng. | She happy. | She is happy. | She are happy. | Is she happy. | 2 | She đi với is trong câu kể.
+l05-mcq-06 | single_choice | Câu nào dùng tính từ sau be để mô tả trạng thái? | She is a teacher. | She is tired. | She studies English. | She likes music. | 2 | Tired là tính từ mô tả trạng thái.
+l04-order-02 | word_order | Sắp xếp thành câu hoàn chỉnh. | a developer / is / She | She is a developer. | She đi với is.
+l05-order-02 | word_order | Sắp xếp thành câu hoàn chỉnh. | busy / are / They | They are busy. | They đi với are.
+l04-typing-02 | typing | Gõ câu từ các từ đã xáo: am / I / a student | I am a student. | I đi với am.
+l05-typing-02 | typing | Gõ câu từ các từ đã xáo: happy / are / We | We are happy. | We đi với are.
 ```
 
 ## Áp dụng

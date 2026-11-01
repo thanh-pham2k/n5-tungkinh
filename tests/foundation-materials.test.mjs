@@ -19,12 +19,14 @@ function verifyLessons(lessons, expectedCount) {
     const isCheckpoint = lesson.id.includes('checkpoint');
     if (isCheckpoint) assert.equal(quizzes.length, 30, lesson.id);
     else assert.ok(quizzes.length >= 10, lesson.id);
-    const order = ['single_choice', 'word_order', 'typing'];
-    assert.deepEqual(
-      quizzes.map((quiz) => quiz.type),
-      quizzes.map((quiz) => quiz.type).sort((a, b) => order.indexOf(a) - order.indexOf(b)),
-      lesson.id,
-    );
+    for (const deck of blocks.filter((block) => block.type === 'deck')) {
+      const types = deck.quizzes.map((quiz) => quiz.type);
+      const order = ['single_choice', 'word_order', 'typing'];
+      assert.deepEqual(
+        types,
+        [...types].sort((a, b) => order.indexOf(a) - order.indexOf(b)),
+      );
+    }
     for (const quiz of quizzes.filter((item) => item.type === 'single_choice')) {
       assert.equal(
         new Set(quiz.options.map((option) => option.trim().toLocaleLowerCase())).size,
@@ -114,5 +116,21 @@ test('phase listening self-assessments present audio before the hidden transcrip
     const source = lessons.find((item) => item.id === id).source;
     const section = source.split('### Nghe, rồi đọc')[1].split('### Nói và viết')[0];
     assert.match(section, /`audio:en\|[^`]+`[\s\S]*<details>\s*<summary>Mở đoạn văn<\/summary>/);
+  }
+});
+
+test('all Phase 1 consolidated lessons alternate each concept and its practice before a separate review', async () => {
+  const lessons = await loadFoundationCatalog();
+  const compactLessons = lessons.filter((item) => !item.id.includes('checkpoint'));
+  assert.equal(compactLessons.length, 9);
+  for (const lesson of compactLessons) {
+    const blocks = parser.parse(lesson.source);
+    const decks = blocks.filter((block) => block.type === 'deck');
+    assert.ok(decks.length >= 3, `${lesson.id} should have at least 3 decks`);
+    assert.ok(lesson.source.includes('## Ôn tập tổng hợp'), `${lesson.id} has review heading`);
+    const revStart = lesson.source.indexOf('## Ôn tập tổng hợp');
+    const revEnd = lesson.source.indexOf('## Áp dụng', revStart);
+    assert.ok(revStart >= 0 && revEnd > revStart, `${lesson.id} review bounds`);
+    assert.match(lesson.source.slice(revStart, revEnd), /```quiz-deck/);
   }
 });
