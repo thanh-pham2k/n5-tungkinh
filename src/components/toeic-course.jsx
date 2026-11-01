@@ -1,14 +1,14 @@
 'use client';
 import { useCallback, useEffect, useState } from 'react';
-import { Dialog, Status } from './ui/primitives';
+import { Button, Dialog, Status } from './ui/primitives';
 import MarkdownWorkspace from './markdown-workspace';
 import LoginView from './auth/login-view';
 import useAuth from '../hooks/use-auth';
 import { studyRequest } from '../services/study-library-client';
 import { formatReviewTime } from '../services/review-time';
 
-export default function ToeicCourse() {
-  const { user, loading, setUser } = useAuth();
+export default function ToeicCourse({ onLogout }) {
+  const { user, loading, setUser, logout } = useAuth();
   const [lessons, setLessons] = useState([]);
   const [selected, setSelected] = useState(null);
   const [busy, setBusy] = useState(true);
@@ -84,9 +84,9 @@ export default function ToeicCourse() {
   );
   return (
     <main className="foundation-page">
-      <a className="button" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/`}>
-        ← Công cụ học
-      </a>
+      <Button variant="secondary" onClick={onLogout || logout}>
+        Đăng xuất
+      </Button>
       <p className="eyebrow">TOEIC</p>
       <h1>600 từ vựng TOEIC</h1>
       {busy && <Status>Đang tải bài học…</Status>}

@@ -8,6 +8,7 @@ import { SentenceStructures, SpeakingQuestions } from './study/reference-panels'
 import WritingReview from './study/writing-review';
 import MultipleChoice from './study/multiple-choice';
 import LoginView from './auth/login-view';
+import ToeicCourse from './toeic-course';
 import useAuth from '../hooks/use-auth';
 import { createLesson } from '../services/study-library-client';
 import { serializeCsv } from '../services/answer-service';
@@ -211,6 +212,8 @@ export default function StudyApp() {
   if (!user) {
     return <LoginView onLoginSuccess={setUser} />;
   }
+
+  if (user.username === 'yentr') return <ToeicCourse onLogout={logout} />;
 
   return (
     <div className={`app-shell ${focus ? 'focus-mode' : ''}`}>

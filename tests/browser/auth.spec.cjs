@@ -63,22 +63,17 @@ test.describe('Authentication and Login flow', () => {
     await expect(page.getByRole('heading', { name: 'Đăng nhập' })).toBeVisible();
   });
 
-  test('login with yentr succeeds and shows yentr identity', async ({ page, context }) => {
+  test('login with yentr opens only TOEIC and allows logout', async ({ page, context }) => {
     await context.clearCookies();
     await page.goto('/');
-
     await page.getByLabel('Tên đăng nhập').fill('yentr');
     await page.getByLabel('Mật khẩu').fill('1');
     await page.getByRole('button', { name: 'Đăng nhập ↗' }).click();
-
-    await expect(page.locator('.app-shell')).toBeVisible();
-    const menu = page.getByRole('button', { name: 'Đổi công cụ học' });
-    if (await menu.isVisible()) {
-      await menu.click();
-      await expect(page.getByRole('dialog').locator('.user-chip')).toContainText('yentr');
-    } else {
-      await expect(page.locator('.sidebar-user')).toContainText('yentr');
-    }
+    await expect(page.getByRole('heading', { name: '600 từ vựng TOEIC' })).toBeVisible();
+    await expect(page.getByText('Instant Vocab')).toHaveCount(0);
+    await expect(page.getByText('Markdown & Quiz')).toHaveCount(0);
+    await page.getByRole('button', { name: 'Đăng xuất' }).click();
+    await expect(page.getByRole('heading', { name: 'Đăng nhập' })).toBeVisible();
   });
 
   test('markdown workspace requires login and loads after login', async ({ page, context }) => {
@@ -124,11 +119,10 @@ test.describe('Authentication and Login flow', () => {
     await page.getByLabel('Tên đăng nhập').fill('yentr');
     await page.getByLabel('Mật khẩu').fill('1');
     await page.getByRole('button', { name: 'Đăng nhập ↗' }).click();
-    await expect(page.locator('.app-shell')).toBeVisible();
-
-    // 4. Check saved lessons for yentr - secret should NOT be present
-    await page.getByRole('button', { name: '▤ Bài đã lưu', exact: true }).click();
-    await expect(page.locator('.saved-lessons-list')).toContainText('Chưa có log trong mục này.');
-    await expect(page.locator('.saved-lessons-list')).not.toContainText('secret');
+    await expect(page.getByRole('heading', { name: '600 từ vựng TOEIC' })).toBeVisible();
+    const data = await page.evaluate(async () =>
+      (await fetch('/api/v1/study-contents?tool=instant')).json(),
+    );
+    expect(data.data).toHaveLength(0);
   });
 });
