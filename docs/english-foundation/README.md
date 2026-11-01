@@ -61,6 +61,6 @@ Lệnh chỉ thêm catalog chưa tồn tại và kiểm tra nội dung; nếu ca
 
 ### Thứ tự học
 
-Người học chủ động chọn **Đánh dấu hoàn thành** hoặc **Bỏ đánh dấu hoàn thành** trong bài; kết quả quiz không tự thay đổi trạng thái này. Trạng thái được lưu cùng tiến độ bài theo người học. Lesson chưa hoàn thành xuất hiện trước; các lesson đã hoàn thành xếp theo thời gian hoàn thành từ cũ đến mới, nên bài vừa học chuyển xuống cuối. Khi chỉ có một lesson, vị trí không đổi. Nếu lưu tiến độ lỗi, giao diện báo lỗi thay vì xác nhận hoàn thành.
+Người học chủ động chọn **Đánh dấu hoàn thành** hoặc **Bỏ đánh dấu hoàn thành** trong bài; kết quả quiz không tự thay đổi trạng thái này. Trạng thái được lưu cùng tiến độ bài theo người học. Đáp án quiz chỉ tồn tại khi bài đang mở và bắt đầu trống mỗi lần mở lại; không lưu vào localStorage hoặc Turso. Lesson chưa hoàn thành xuất hiện trước; các lesson đã hoàn thành xếp theo thời gian hoàn thành từ cũ đến mới, nên bài vừa học chuyển xuống cuối. Khi chỉ có một lesson, vị trí không đổi. Nếu lưu tiến độ lỗi, giao diện báo lỗi thay vì xác nhận hoàn thành.
 
 Catalog `english-foundation` chứa mảng các đối tượng `{ "id", "label", "title", "source" }`, mỗi ID duy nhất và source là Markdown hoàn chỉnh. Thứ tự ban đầu của mảng là thứ tự học. Source thay đổi tạo nội dung và tiến độ riêng theo cơ chế hiện tại; cần cân nhắc việc này khi cập nhật một bài đã học. Seed nhập cả Module 1. Với catalog đã tồn tại, cung cấp snapshot JSON đã đối chiếu làm đối số thứ hai; lệnh chỉ cập nhật khi dữ liệu hiện tại khớp snapshot, và kiểm tra lại sau khi ghi.

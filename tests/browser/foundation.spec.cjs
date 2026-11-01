@@ -150,3 +150,53 @@ test('Module 1 lists all lessons and opens the checkpoint', async ({ page }) => 
   await expect(dialog.locator('.lesson-deck')).toBeVisible();
   await expect(dialog.getByRole('button', { name: /Nghe: I am a student/ })).toBeVisible();
 });
+
+test('Foundation quiz starts fresh on reopen while manual completion persists', async ({
+  page,
+}) => {
+  const writes = [];
+  page.on('request', (request) => {
+    if (request.method() === 'PUT' && request.url().includes('/progress'))
+      writes.push(request.postDataJSON());
+  });
+  await page.goto('/foundation/');
+  const card = page.getByRole('button', { name: /Lesson 1.*The Complete Sentence/ });
+  await card.click();
+  let dialog = page.getByRole('dialog', { name: 'The Complete Sentence' });
+  let deck = dialog.locator('.lesson-deck');
+  await deck.locator('.lesson-option').filter({ hasText: 'My teacher smiles.' }).click();
+  await expect(deck.locator('input:checked')).toHaveCount(1);
+  await expect.poll(() => writes.length).toBe(0);
+  await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
+  await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+  expect(writes.length).toBeGreaterThan(0);
+  for (const write of writes) expect(write.progress).not.toHaveProperty('markdownAnswers');
+  await dialog.getByRole('button', { name: 'Đóng' }).click();
+  await card.click();
+  dialog = page.getByRole('dialog', { name: 'The Complete Sentence' });
+  deck = dialog.locator('.lesson-deck');
+  await expect(deck.locator('.lesson-option')).toHaveCount(4);
+  await expect(deck.locator('input:checked')).toHaveCount(0);
+  await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+  await page.reload();
+  await card.click();
+  await expect(page.locator('.lesson-deck .lesson-option')).toHaveCount(4);
+  await expect(page.locator('.lesson-deck input:checked')).toHaveCount(0);
+  await expect(page.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+});
+
+test('Foundation ignores answers saved before this change', async ({ page }) => {
+  await page.route('**/api/v1/study-contents', async (route) => {
+    if (route.request().method() !== 'POST') return route.continue();
+    const response = await route.fetch();
+    const data = await response.json();
+    data.data.progress.markdownAnswers = { 'l1-mcq-01': 2 };
+    await route.fulfill({ response, json: data });
+  });
+  await page.goto('/foundation/');
+  await page.getByRole('button', { name: /Lesson 1.*The Complete Sentence/ }).click();
+  const deck = page.locator('.lesson-deck');
+  await expect(deck.locator('.lesson-option')).toHaveCount(4);
+  await expect(deck.locator('input:checked')).toHaveCount(0);
+  await expect(deck.locator('.lesson-feedback')).toHaveCount(0);
+});

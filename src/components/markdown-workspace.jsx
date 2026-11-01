@@ -91,7 +91,7 @@ export default function MarkdownWorkspace({ foundation = false, onFoundationComp
           },
           loadExample: () => readCatalog('markdown-example'),
           saveProgress: (patch) =>
-            courseSourceRef.current === null
+            !foundation && courseSourceRef.current === null
               ? libraryRef.current.updateProgress(patch)
               : Promise.resolve(),
           onDeckComplete: () => {
@@ -192,7 +192,9 @@ export default function MarkdownWorkspace({ foundation = false, onFoundationComp
             .then(async (source) => {
               const record = await libraryRef.current.save(source, 'en');
               if (!disposed)
-                document.dispatchEvent(new CustomEvent('study-markdown-load', { detail: record }));
+                document.dispatchEvent(
+                  new CustomEvent('study-markdown-load', { detail: { ...record, progress: {} } }),
+                );
             })
             .catch((error) => {
               if (!disposed) setError(error.message);
