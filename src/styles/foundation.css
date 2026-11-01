@@ -32,6 +32,12 @@
   gap: var(--space-3);
   min-width: 0;
 }
+.foundation-completed-time {
+  display: block;
+  margin-top: var(--space-1);
+  font-size: var(--text-sm);
+  color: var(--success-ink);
+}
 .foundation-status {
   display: inline-grid;
   place-items: center;

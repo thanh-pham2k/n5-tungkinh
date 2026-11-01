@@ -200,3 +200,29 @@ test('Foundation ignores answers saved before this change', async ({ page }) => 
   await expect(deck.locator('input:checked')).toHaveCount(0);
   await expect(deck.locator('.lesson-feedback')).toHaveCount(0);
 });
+
+test('real Foundation lesson completion displays its time and moves last after reload', async ({
+  page,
+}) => {
+  await page.goto('/foundation/');
+  const cards = page.locator('.foundation-lesson');
+  await expect(cards).toHaveCount(6);
+  await expect(cards.first()).toContainText('Lesson 1');
+  await cards.first().click();
+  const dialog = page.getByRole('dialog', { name: 'The Complete Sentence' });
+  await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
+  await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+  await dialog.getByRole('button', { name: 'Đóng' }).click();
+  await expect(cards.last()).toContainText('Lesson 1');
+  await expect(cards.last().locator('time')).toContainText('Hoàn thành');
+  await expect(cards.last().locator('time')).toHaveAttribute('datetime', /\d{4}-\d{2}-\d{2}T/);
+  await page.reload();
+  await expect(cards).toHaveCount(6);
+  await expect(cards.last()).toContainText('Lesson 1');
+  await expect(cards.last().locator('time')).toContainText('Hoàn thành');
+  await cards.last().click();
+  await dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' }).click();
+  await dialog.getByRole('button', { name: 'Đóng' }).click();
+  await expect(cards.first()).toContainText('Lesson 1');
+  await expect(cards.first().locator('time')).toHaveCount(0);
+});

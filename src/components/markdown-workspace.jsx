@@ -483,13 +483,12 @@ export default function MarkdownWorkspace({ foundation = false, onFoundationComp
             onClick={async () => {
               setMarkingFoundation(true);
               try {
-                await library.updateProgress({
-                  foundationCompletedAt: library.lesson.progress.foundationCompletedAt
-                    ? null
-                    : new Date().toISOString(),
-                });
+                const completedAt = library.lesson.progress.foundationCompletedAt
+                  ? null
+                  : new Date().toISOString();
+                await library.updateProgress({ foundationCompletedAt: completedAt });
                 setError('');
-                onFoundationComplete?.();
+                onFoundationComplete?.(completedAt);
               } catch (error) {
                 setError(error.message);
               } finally {

@@ -58,7 +58,7 @@ export default function Foundation() {
         catalog.map((item) => ({
           ...item,
           completedAt:
-            records.find((record) => record.source === item.source)?.progress
+            records.find((record) => record.source === item.source.trim())?.progress
               .foundationCompletedAt || null,
         })),
       );
@@ -116,6 +116,15 @@ export default function Foundation() {
                 <strong>{item.label}</strong>
                 <br />
                 {item.title}
+                {item.completedAt && !Number.isNaN(Date.parse(item.completedAt)) && (
+                  <time className="foundation-completed-time" dateTime={item.completedAt}>
+                    Hoàn thành{' '}
+                    {new Intl.DateTimeFormat('vi-VN', {
+                      dateStyle: 'short',
+                      timeStyle: 'short',
+                    }).format(new Date(item.completedAt))}
+                  </time>
+                )}
               </span>
             </span>
             <span className="foundation-lesson-arrow" aria-hidden="true">
@@ -130,7 +139,16 @@ export default function Foundation() {
         title={selected?.title || 'Bài học'}
         wide
       >
-        {selected && <MarkdownWorkspace foundation={selected} onFoundationComplete={load} />}
+        {selected && (
+          <MarkdownWorkspace
+            foundation={selected}
+            onFoundationComplete={(completedAt) => {
+              setLessons((current) =>
+                current.map((item) => (item.id === selected.id ? { ...item, completedAt } : item)),
+              );
+            }}
+          />
+        )}
       </Dialog>
     </main>
   );
