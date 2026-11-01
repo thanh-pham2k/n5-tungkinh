@@ -161,13 +161,5 @@ export function MoreActions({ children, title = 'Tùy chọn' }) {
   );
 }
 export function AudioStatus({ speech }) {
-  return (
-    <Status error={speech.phase === 'error'}>
-      {speech.phase === 'loading'
-        ? 'Đang tạo audio…'
-        : speech.phase === 'playing'
-          ? '♫ Đang phát'
-          : speech.error}
-    </Status>
-  );
+  return <Status error>{speech.phase === 'error' ? speech.error : ''}</Status>;
 }

@@ -305,3 +305,22 @@ test('last typing answer returns focus to quiz after Enter and A navigates back'
   await page.keyboard.press('a');
   await expect(deck.locator('h3')).toContainText('11 / 12');
 });
+
+test('audio does not show loading or playing messages', async ({ page }) => {
+  let release;
+  const pending = new Promise((resolve) => {
+    release = resolve;
+  });
+  await page.route('https://api.soundoftext.com/sounds', async (route) => {
+    await pending;
+    await route.fulfill({ status: 503, body: 'Unavailable' });
+  });
+  await page.goto('/foundation/');
+  await page.getByRole('button', { name: /Lesson 1.*The Complete Sentence/ }).click();
+  const dialog = page.getByRole('dialog', { name: 'The Complete Sentence' });
+  await dialog.getByRole('button', { name: 'Nghe: My brother studies every day.' }).click();
+  await expect(dialog.getByText('Đang tạo audio…')).toHaveCount(0);
+  await expect(dialog.getByText('♫ Đang phát')).toHaveCount(0);
+  release();
+  await expect(dialog.getByRole('alert').first()).toContainText('503');
+});

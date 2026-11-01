@@ -116,10 +116,7 @@ export default function InstantVocab({ settings, updateSettings, active, setFocu
                 key={index}
               >
                 <div className="card-top">
-                  <span className="eyebrow">
-                    {String(index + 1).padStart(2, '0')}
-                    {speech.busy && speech.index === index ? ' · ♫ Đang phát' : ''}
-                  </span>
+                  <span className="eyebrow">{String(index + 1).padStart(2, '0')}</span>
                   <Button
                     aria-label={`Phát ${item.vocabulary}`}
                     onClick={() => speech.play(segments(index).slice(1))}
