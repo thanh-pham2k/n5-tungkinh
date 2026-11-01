@@ -530,3 +530,10 @@ body.dark .lesson-deck button[aria-current='step'] {
   color: var(--muted);
   font-size: var(--text-sm);
 }
+
+.vocabulary-audio-button {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0.25rem;
+  vertical-align: middle;
+}

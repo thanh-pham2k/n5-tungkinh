@@ -138,7 +138,7 @@ export default function ToeicCourse({ onLogout }) {
       >
         {selected && (
           <MarkdownWorkspace
-            foundation={selected}
+            foundation={{ ...selected, vocabularyAudio: true }}
             onFoundationComplete={(completedAt) => {
               setClock(Date.now());
               setLessons((current) =>

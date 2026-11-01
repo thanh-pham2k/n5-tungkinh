@@ -10,6 +10,7 @@ export function initializeMarkdown({
   saveProgress,
   onDeckComplete,
   playSpeech,
+  vocabularyAudio = false,
 }) {
   const lifetime = new AbortController();
   const listen = (target, event, handler, options = {}) =>
@@ -391,6 +392,17 @@ export function initializeMarkdown({
           USE_PROFILES: { html: true },
           SANITIZE_NAMED_PROPS: true,
         });
+        if (vocabularyAudio && playSpeech) {
+          section.querySelectorAll('h3').forEach((heading) => {
+            const match = /^\d+\.\s+(.+)$/.exec(heading.textContent.trim());
+            if (!match) return;
+            const text = match[1].trim();
+            const audioButton = button('🔊', () => playSpeech(text, 'en'));
+            audioButton.className = 'button vocabulary-audio-button';
+            audioButton.setAttribute('aria-label', `Nghe: ${text}`);
+            heading.append(' ', audioButton);
+          });
+        }
         section.querySelectorAll('code').forEach((code) => {
           if (code.closest('pre')) return;
           const match = /^audio:(en|ja|vi)\|(.+)$/.exec(code.textContent.trim());

@@ -56,3 +56,54 @@ test('yentr home shows only TOEIC on desktop', async ({ page, context }) => {
   await expect(page.getByText('Instant Vocab')).toHaveCount(0);
   await expect(page.getByRole('button', { name: 'Đăng xuất' })).toBeVisible();
 });
+
+test('Contracts vocabulary buttons request English audio for each word', async ({
+  page,
+  context,
+}) => {
+  const { readFileSync } = require('node:fs');
+  await context.clearCookies();
+  await context.addCookies([
+    {
+      name: 'kotoba-auth-token',
+      value: makeAuthToken('yentr'),
+      domain: '127.0.0.1',
+      path: '/',
+      httpOnly: true,
+      sameSite: 'Strict',
+    },
+  ]);
+  const requests = [];
+  await page.route('https://api.soundoftext.com/sounds', (route) => {
+    requests.push(route.request().postDataJSON());
+    return route.fulfill({ status: 503, body: 'Unavailable' });
+  });
+  await page.goto('/');
+  await expect(page.getByRole('heading', { name: '600 từ vựng TOEIC' })).toBeVisible();
+  const source = readFileSync('docs/toeic-600/01.md', 'utf8');
+  const status = await page.evaluate(async (source) => {
+    const response = await fetch('/api/v1/study-contents', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        tool: 'markdown',
+        language: 'en',
+        source,
+        requestId: crypto.randomUUID(),
+      }),
+    });
+    return response.status;
+  }, source);
+  expect(status).toBe(201);
+  await page.reload();
+  await page.getByRole('button', { name: /Nhóm 1/ }).click();
+  const dialog = page.getByRole('dialog');
+  await expect(dialog.locator('.vocabulary-audio-button')).toHaveCount(12);
+  await dialog.getByRole('button', { name: 'Nghe: abide by' }).click();
+  await expect.poll(() => requests.length).toBe(1);
+  expect(requests[0]).toEqual({ engine: 'Google', data: { text: 'abide by', voice: 'en-US' } });
+  await expect(dialog.getByText(/Dịch vụ audio không phản hồi/)).toBeVisible();
+  await dialog.getByRole('button', { name: 'Nghe: specific' }).click();
+  await expect.poll(() => requests.length).toBe(2);
+  expect(requests[1].data.text).toBe('specific');
+});

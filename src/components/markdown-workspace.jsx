@@ -80,6 +80,7 @@ export default function MarkdownWorkspace({ foundation = false, onFoundationComp
       .then(([marked, purify, mermaid, parser, controller]) => {
         if (disposed) return;
         cleanup = controller.initializeMarkdown({
+          vocabularyAudio: Boolean(foundation?.vocabularyAudio),
           playSpeech: (text, language) => speechRef.current.play([{ text, language, count: 1 }]),
           marked: marked.marked,
           DOMPurify: purify.default,
