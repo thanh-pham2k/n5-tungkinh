@@ -399,3 +399,67 @@ test('typing displays authored shuffled words as blocks without instruction text
   await deck.getByRole('button', { name: 'Xem kết quả' }).click();
   await expect(deck).not.toContainText('Gõ câu từ các từ đã xáo:');
 });
+
+test('expanded quiz keeps its answers and focus without jumping when an answer is chosen', async ({
+  page,
+}) => {
+  for (const width of [390, 1280]) {
+    await page.setViewportSize({ width, height: 844 });
+    await page.goto('/markdown/');
+    await expect(page.locator('#markdown-loading')).toBeHidden();
+    if (width < 600) await openMobileEditor(page, lesson);
+    else await page.locator('#lesson-source').fill(lesson);
+    await page.waitForTimeout(600); // Let the editor's debounced preview settle.
+    const deck = page.locator('.lesson-deck').first();
+    await expect(deck).toBeVisible();
+    await deck.getByRole('button', { name: 'Mở rộng luyện tập' }).click();
+    const dialog = page.getByRole('dialog', { name: 'Luyện tập Mini Quiz 1' });
+    await expect(dialog).toBeVisible();
+    const question = dialog.locator('.lesson-deck h3');
+    await expect(question).toContainText('1 /');
+    const selected = dialog.locator('.lesson-option input').first();
+    const before = await selected.evaluate((el) => el.getBoundingClientRect().top);
+    await selected.click();
+    await expect(selected).toBeFocused();
+    expect(
+      Math.abs((await selected.evaluate((el) => el.getBoundingClientRect().top)) - before),
+    ).toBeLessThan(2);
+    await page.keyboard.press('d');
+    await expect(question).toContainText('2 /');
+    await page.keyboard.press('a');
+    await expect(question).toContainText('1 /');
+    await expect(dialog.locator('.lesson-option input:checked')).toHaveCount(1);
+    await dialog.getByRole('button', { name: 'Đóng luyện tập' }).click();
+    await expect(dialog).toHaveCount(0);
+    await expect(deck.locator('input:checked')).toHaveCount(1);
+  }
+});
+
+test('mobile expanded quiz navigation stays at the bottom while content scrolls', async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 650 });
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  const longText = 'Một câu hỏi dài giúp kiểm tra bố cục. '.repeat(45);
+  await openMobileEditor(
+    page,
+    `# Bài học\n\n\`\`\`quiz\nq1 | single_choice | ${longText} | A | B | 1 | Giải thích.\nq2 | typing | Gõ câu | I work. | Giải thích.\n\`\`\``,
+  );
+  await page.locator('.lesson-deck').getByRole('button', { name: 'Mở rộng luyện tập' }).click();
+  const dialog = page.getByRole('dialog', { name: 'Luyện tập Mini Quiz 1' });
+  const bounds = await dialog.boundingBox();
+  expect(bounds).toMatchObject({ x: 0, y: 0, width: 390, height: 650 });
+  const nav = dialog.locator('.lesson-deck-nav');
+  const before = await nav.boundingBox();
+  expect(before.y + before.height).toBeGreaterThan(600);
+  await dialog.evaluate((el) => {
+    el.scrollTop = el.scrollHeight;
+  });
+  const after = await nav.boundingBox();
+  expect(Math.abs(after.y - before.y)).toBeLessThan(2);
+  await nav.getByRole('button', { name: 'Tiếp →' }).click();
+  const input = dialog.getByRole('textbox', { name: 'Câu trả lời' });
+  await input.focus();
+  await expect(nav).toHaveCSS('position', 'static');
+});

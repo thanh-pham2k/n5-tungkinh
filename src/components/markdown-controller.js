@@ -20,7 +20,8 @@ export function initializeMarkdown({
   const status = document.getElementById('lesson-status');
   let answers = Object.create(null),
     revision = 0,
-    statusTimer;
+    statusTimer,
+    closeExpanded;
 
   function setStatus(text, autoClear = false) {
     clearTimeout(statusTimer);
@@ -86,12 +87,43 @@ export function initializeMarkdown({
     };
     function draw(focus = false) {
       container.replaceChildren();
+      const header = el('div', undefined, 'lesson-deck-header');
       const title = el(
         'h3',
         review ? 'Kết quả' : `Mini Quiz ${number} — ${current + 1} / ${quizzes.length}`,
       );
       title.tabIndex = -1;
-      container.append(title);
+      const expand = button('⛶', () => {
+        if (closeExpanded) return;
+        const placeholder = document.createComment('quiz position');
+        container.before(placeholder);
+        const dialog = el('dialog', undefined, 'lesson-deck-dialog');
+        dialog.setAttribute('aria-label', `Luyện tập Mini Quiz ${number}`);
+        const close = button('×', () => dialog.close());
+        close.className = 'lesson-deck-dialog-close';
+        close.setAttribute('aria-label', 'Đóng luyện tập');
+        const bar = el('div', undefined, 'lesson-deck-dialog-bar');
+        bar.append(el('strong', `Mini Quiz ${number}`), close);
+        placeholder.after(dialog);
+        dialog.append(bar, container);
+        const restore = (restoreFocus = true) => {
+          if (!dialog.isConnected) return;
+          placeholder.replaceWith(container);
+          dialog.remove();
+          closeExpanded = null;
+          if (restoreFocus)
+            container.querySelector('.lesson-deck-expand')?.focus({ preventScroll: true });
+        };
+        closeExpanded = () => restore(false);
+        dialog.addEventListener('close', () => restore());
+        dialog.addEventListener('cancel', (event) => event.stopPropagation());
+        dialog.showModal();
+        container.querySelector('h3')?.focus({ preventScroll: true });
+      });
+      expand.className = 'lesson-deck-expand';
+      expand.setAttribute('aria-label', 'Mở rộng luyện tập');
+      header.append(title, expand);
+      container.append(header);
       if (review) {
         displayedQuestion = null;
         const correct = quizzes.filter((q) => correctAnswer(q)).length;
@@ -171,8 +203,25 @@ export function initializeMarkdown({
               saveProgress({ markdownAnswers: { ...answers } }).catch((error) => {
                 status.textContent = error.message;
               });
-              draw();
-              container.querySelectorAll('input')[shuffledIndices.indexOf(index)].focus();
+              field.querySelectorAll('.lesson-option').forEach((option, position) => {
+                const optionIndex = shuffledIndices[position];
+                const isCorrect = optionIndex === q.answer;
+                const isIncorrect = optionIndex === index && !isCorrect;
+                option.classList.toggle('is-correct', isCorrect);
+                option.classList.toggle('is-incorrect', isIncorrect);
+                option.querySelector('.lesson-option-result')?.remove();
+                if (isCorrect || isIncorrect)
+                  option.append(el('span', isCorrect ? '✓ Đúng' : '✕ Sai', 'lesson-option-result'));
+              });
+              feedback.hidden = false;
+              feedback.replaceChildren(
+                inline(
+                  `${correctAnswer(q) ? 'Chính xác!' : 'Chưa chính xác.'} Đáp án: ${q.options[q.answer]}${q.explanation ? '\n' + q.explanation : ''}`,
+                ),
+              );
+              const dot = dots.children[current];
+              dot.textContent = `${current + 1} ✓`;
+              dot.setAttribute('aria-label', `Câu ${current + 1}, đã trả lời`);
             });
             label.append(radio, inline(option));
             if (correct || incorrect)
@@ -246,15 +295,17 @@ export function initializeMarkdown({
         }
         displayedQuestion = current;
         container.append(field);
-        if (answers[q.id] !== undefined) {
-          const feedback = el('p', undefined, 'lesson-feedback');
+        const feedback = el('p', undefined, 'lesson-feedback');
+        feedback.setAttribute('aria-live', 'polite');
+        feedback.hidden = answers[q.id] === undefined;
+        if (!feedback.hidden) {
           feedback.append(
             inline(
               `${correctAnswer(q) ? 'Chính xác!' : 'Chưa chính xác.'} Đáp án: ${q.type === 'single_choice' ? q.options[q.answer] : q.answer}${q.explanation ? '\n' + q.explanation : ''}`,
             ),
           );
-          container.append(feedback);
         }
+        container.append(feedback);
         const dots = el('div', undefined, 'lesson-dots');
         quizzes.forEach((item, index) => {
           const dot = button(`${index + 1}${answers[item.id] !== undefined ? ' ✓' : ''}`, () => {
@@ -286,10 +337,9 @@ export function initializeMarkdown({
             draw(true);
           }),
         );
-        const shortcutHint = el('p', 'Phím tắt: A câu trước · D câu tiếp', 'lesson-shortcut-hint');
-        container.append(dots, nav, shortcutHint);
+        container.append(dots, nav);
       }
-      if (focus) title.focus();
+      if (focus) title.focus({ preventScroll: true });
     }
     container.addEventListener('click', (event) => {
       if (event.target.closest('button, input, textarea, select, a, summary, [contenteditable]'))
@@ -351,6 +401,7 @@ export function initializeMarkdown({
   }
   async function render(persist = true) {
     const run = ++revision;
+    closeExpanded?.();
     output.replaceChildren();
     status.textContent = '';
     if (!marked || !DOMPurify) {
@@ -637,6 +688,7 @@ export function initializeMarkdown({
   });
   render(false);
   return () => {
+    closeExpanded?.();
     lifetime.abort();
     ++revision;
     clearTimeout(timer);

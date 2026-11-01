@@ -491,3 +491,18 @@ test('Lesson 1 presents practice after each concept and a separate final review'
   await expect(decks.nth(3).locator('h3')).toContainText('2 / 8');
   await expect(decks.nth(0).locator('h3')).toContainText('1 / 5');
 });
+
+test('expanded quiz closes back to the lesson without losing the answer', async ({ page }) => {
+  await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  const lesson = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
+  const deck = lesson.locator('.lesson-deck').first();
+  await deck.getByRole('button', { name: 'Mở rộng luyện tập' }).click();
+  const expanded = page.getByRole('dialog', { name: 'Luyện tập Mini Quiz 1' });
+  await expanded.locator('.lesson-option input').first().check();
+  await page.keyboard.press('Escape');
+  await expect(expanded).toHaveCount(0);
+  await expect(lesson).toBeVisible();
+  await expect(deck.locator('input:checked')).toHaveCount(1);
+});
