@@ -302,6 +302,7 @@ input[type='range'] {
   flex-shrink: 0;
 }
 .dialog-content {
+  flex: 1;
   padding: var(--space-5);
   overflow: auto;
   min-height: 0;

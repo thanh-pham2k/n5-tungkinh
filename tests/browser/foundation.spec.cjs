@@ -291,7 +291,7 @@ test('clicking quiz background activates A/D without disturbing typing focus', a
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 2.*Câu với be/ }).click();
   const dialog = page.getByRole('dialog', { name: 'Câu với be: danh từ và tính từ' });
-  const deck = dialog.locator('.lesson-deck').first();
+  const deck = dialog.locator('.lesson-deck').last();
   await deck.getByRole('button', { name: 'Câu 5', exact: true }).click();
   await dialog
     .getByRole('heading', { name: 'Câu với be: danh từ và tính từ', exact: true })
@@ -317,10 +317,10 @@ test('last typing answer returns focus to quiz after Enter and A navigates back'
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.getByRole('button', { name: /Lesson 2.*Câu với be/ }).click();
   const dialog = page.getByRole('dialog', { name: 'Câu với be: danh từ và tính từ' });
-  const deck = dialog.locator('.lesson-deck').first();
+  const deck = dialog.locator('.lesson-deck').last();
   await deck.getByRole('button', { name: 'Câu 10', exact: true }).click();
   const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
-  await input.fill('Tom is tired');
+  await input.fill('We are happy');
   await input.press('Enter');
   await expect(deck).toContainText('Chính xác!');
   await expect(deck.locator('h3')).toBeFocused();

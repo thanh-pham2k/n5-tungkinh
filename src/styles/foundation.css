@@ -101,15 +101,22 @@
 .foundation-page > dialog {
   width: min(960px, calc(100vw - 24px));
   max-width: 960px;
+  height: calc(100dvh - 24px);
   max-height: calc(100dvh - 24px);
   padding: 0;
 }
 .foundation-page > dialog > .dialog-content {
+  flex: 1;
+  min-height: 0;
   padding: 0;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 .foundation-page .markdown-page {
-  height: calc(100dvh - 115px);
+  flex: 1;
+  min-height: 0;
+  height: 100%;
 }
 .foundation-page .markdown-page.reading-focus .preview-workspace {
   flex: 1;
@@ -118,6 +125,7 @@
 }
 .foundation-completion-actions {
   flex: none;
+  margin-top: auto;
   padding: var(--space-3) var(--space-4);
   border-top: var(--border);
   background: var(--paper);
