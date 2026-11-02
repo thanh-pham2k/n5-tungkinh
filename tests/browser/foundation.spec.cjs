@@ -31,7 +31,7 @@ for (const viewport of [
   });
 }
 
-test('completed lessons retain their order and persist across reload', async ({ page }) => {
+test('completed lessons move behind older reviews and persist across reload', async ({ page }) => {
   const { createClient } = require('@libsql/client');
   const { resolve } = require('node:path');
   const { pathToFileURL } = require('node:url');
@@ -67,13 +67,13 @@ test('completed lessons retain their order and persist across reload', async ({ 
       dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
     ).toBeEnabled();
     await dialog.getByRole('button', { name: 'Đóng' }).click();
-    await expect(cards.nth(0)).toContainText('Lesson 1');
-    await expect(cards.nth(1)).toContainText('Lesson 2');
+    await expect(cards.nth(0)).toContainText('Lesson 2');
+    await expect(cards.nth(1)).toContainText('Lesson 1');
     await page.reload();
     await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
-    await expect(cards.nth(0)).toContainText('Lesson 1');
-    await expect(cards.nth(0).getByRole('img', { name: 'Đã hoàn thành' })).toBeVisible();
-    await cards.nth(1).click();
+    await expect(cards.nth(0)).toContainText('Lesson 2');
+    await expect(cards.nth(1).getByRole('img', { name: 'Đã hoàn thành' })).toBeVisible();
+    await cards.nth(0).click();
     const second = page.getByRole('dialog', { name: 'Test 2' });
     await second.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
     await expect(
@@ -86,14 +86,14 @@ test('completed lessons retain their order and persist across reload', async ({ 
     await cards.nth(0).click();
     await page.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
     await page.getByRole('dialog').getByRole('button', { name: 'Đóng' }).click();
-    await expect(cards.nth(0)).toContainText('Lesson 1');
-    const updatedTime = await cards.nth(0).locator('time').getAttribute('datetime');
+    await expect(cards.nth(1)).toContainText('Lesson 1');
+    const updatedTime = await cards.nth(1).locator('time').getAttribute('datetime');
     expect(Date.parse(updatedTime)).toBeGreaterThan(Date.parse(previousTime));
     await page.reload();
     await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
-    await expect(cards.nth(0).locator('time')).toHaveAttribute('datetime', updatedTime);
-    await expect(cards.nth(0)).toContainText('Đã làm 2 lần');
-    await expect(cards.nth(1)).toContainText('Đã làm 1 lần');
+    await expect(cards.nth(1).locator('time')).toHaveAttribute('datetime', updatedTime);
+    await expect(cards.nth(1)).toContainText('Đã làm 2 lần');
+    await expect(cards.nth(0)).toContainText('Đã làm 1 lần');
   } finally {
     await db.execute({
       sql: 'UPDATE study_catalog SET payload_json = ? WHERE id = ?',
@@ -222,9 +222,7 @@ test('Foundation ignores answers saved before this change', async ({ page }) => 
   await expect(deck.locator('.lesson-feedback')).toHaveCount(0);
 });
 
-test('real Foundation lesson completion displays its time and retains its position', async ({
-  page,
-}) => {
+test('real Foundation lesson completion displays its time and moves last', async ({ page }) => {
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   const cards = page.locator('.foundation-lesson');
@@ -237,15 +235,15 @@ test('real Foundation lesson completion displays its time and retains its positi
     dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
   ).toBeEnabled();
   await dialog.getByRole('button', { name: 'Đóng' }).click();
-  await expect(cards.first()).toContainText('Lesson 1');
-  await expect(cards.first().locator('time')).toHaveText('Vừa ôn xong');
-  await expect(cards.first().locator('time')).toHaveAttribute('datetime', /\d{4}-\d{2}-\d{2}T/);
+  await expect(cards.nth(2)).toContainText('Lesson 1');
+  await expect(cards.nth(2).locator('time')).toHaveText('Vừa ôn xong');
+  await expect(cards.nth(2).locator('time')).toHaveAttribute('datetime', /\d{4}-\d{2}-\d{2}T/);
   await page.reload();
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await expect(cards).toHaveCount(32);
-  await expect(cards.first()).toContainText('Lesson 1');
-  await expect(cards.first().locator('time')).toHaveText('Vừa ôn xong');
-  await expect(cards.first()).toContainText('Đã làm 1 lần');
+  await expect(cards.nth(2)).toContainText('Lesson 1');
+  await expect(cards.nth(2).locator('time')).toHaveText('Vừa ôn xong');
+  await expect(cards.nth(2)).toContainText('Đã làm 1 lần');
 });
 
 test('A/D works after checking a Word Order answer in Foundation', async ({ page }) => {

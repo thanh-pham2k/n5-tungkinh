@@ -81,6 +81,11 @@ export default function Foundation() {
     const timer = setInterval(() => setClock(Date.now()), 60000);
     return () => clearInterval(timer);
   }, []);
+  const ordered = [...lessons].sort((a, b) => {
+    if (!a.completedAt) return b.completedAt ? -1 : 0;
+    if (!b.completedAt) return 1;
+    return a.completedAt.localeCompare(b.completedAt);
+  });
   if (loading) return <Status>Đang kiểm tra phiên đăng nhập…</Status>;
   if (!user) return <LoginView onLoginSuccess={setUser} />;
   return (
@@ -160,7 +165,7 @@ export default function Foundation() {
                     Thử lại
                   </button>
                 )}
-                {lessons
+                {ordered
                   .filter((item) => (item.phase || 1) === phase && (item.module || 1) === module)
                   .map((item) => (
                     <button
