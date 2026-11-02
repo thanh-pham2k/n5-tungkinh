@@ -14,7 +14,11 @@ import {
 } from '../services/study-library-client';
 import { AudioStatus, Button, Status } from './ui/primitives';
 import { formatReviewTime } from '../services/review-time';
-export default function MarkdownWorkspace({ foundation = false, onFoundationComplete }) {
+export default function MarkdownWorkspace({
+  foundation = false,
+  onFoundationComplete,
+  repeatCompletion = false,
+}) {
   const { user, loading: authLoading, logout, setUser } = useAuth();
   const [error, setError] = useState('');
   const [markingFoundation, setMarkingFoundation] = useState(false);
@@ -484,12 +488,24 @@ export default function MarkdownWorkspace({ foundation = false, onFoundationComp
             onClick={async () => {
               setMarkingFoundation(true);
               try {
-                const completedAt = library.lesson.progress.foundationCompletedAt
-                  ? null
-                  : new Date().toISOString();
-                await library.updateProgress({ foundationCompletedAt: completedAt });
+                const progress = library.lesson.progress;
+                const completedAt =
+                  repeatCompletion || !progress.foundationCompletedAt
+                    ? new Date().toISOString()
+                    : null;
+                const completionCount = repeatCompletion
+                  ? (Number.isSafeInteger(progress.foundationCompletionCount)
+                      ? progress.foundationCompletionCount
+                      : progress.foundationCompletedAt
+                        ? 1
+                        : 0) + 1
+                  : undefined;
+                await library.updateProgress({
+                  foundationCompletedAt: completedAt,
+                  ...(repeatCompletion ? { foundationCompletionCount: completionCount } : {}),
+                });
                 setError('');
-                onFoundationComplete?.(completedAt);
+                onFoundationComplete?.(completedAt, completionCount);
               } catch (error) {
                 setError(error.message);
               } finally {
@@ -499,7 +515,7 @@ export default function MarkdownWorkspace({ foundation = false, onFoundationComp
           >
             {markingFoundation
               ? 'Đang lưu…'
-              : library.lesson?.progress.foundationCompletedAt
+              : !repeatCompletion && library.lesson?.progress.foundationCompletedAt
                 ? 'Bỏ đánh dấu hoàn thành'
                 : 'Đánh dấu hoàn thành'}
           </Button>

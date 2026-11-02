@@ -57,12 +57,15 @@ export default function Foundation() {
         cursor = listing.meta.page.nextCursor;
       } while (cursor);
       setLessons(
-        catalog.map((item) => ({
-          ...item,
-          completedAt:
-            records.find((record) => record.source === item.source.trim())?.progress
-              .foundationCompletedAt || null,
-        })),
+        catalog.map((item) => {
+          const progress = records.find((record) => record.source === item.source.trim())?.progress;
+          return {
+            ...item,
+            completedAt: progress?.foundationCompletedAt || null,
+            completionCount:
+              progress?.foundationCompletionCount ?? (progress?.foundationCompletedAt ? 1 : 0),
+          };
+        }),
       );
     } catch (e) {
       setError(e.message);
@@ -78,11 +81,6 @@ export default function Foundation() {
     const timer = setInterval(() => setClock(Date.now()), 60000);
     return () => clearInterval(timer);
   }, []);
-  const ordered = [...lessons].sort((a, b) => {
-    if (!a.completedAt) return b.completedAt ? -1 : 0;
-    if (!b.completedAt) return 1;
-    return a.completedAt.localeCompare(b.completedAt);
-  });
   if (loading) return <Status>Đang kiểm tra phiên đăng nhập…</Status>;
   if (!user) return <LoginView onLoginSuccess={setUser} />;
   return (
@@ -162,7 +160,7 @@ export default function Foundation() {
                     Thử lại
                   </button>
                 )}
-                {ordered
+                {lessons
                   .filter((item) => (item.phase || 1) === phase && (item.module || 1) === module)
                   .map((item) => (
                     <button
@@ -189,6 +187,7 @@ export default function Foundation() {
                               {formatReviewTime(item.completedAt, clock)}
                             </time>
                           )}
+                          {item.completedAt && <span>Đã làm {item.completionCount} lần</span>}
                         </span>
                       </span>
                       <span className="foundation-lesson-arrow" aria-hidden="true">
@@ -210,10 +209,13 @@ export default function Foundation() {
         {selected && (
           <MarkdownWorkspace
             foundation={selected}
-            onFoundationComplete={(completedAt) => {
+            repeatCompletion
+            onFoundationComplete={(completedAt, completionCount) => {
               setClock(Date.now());
               setLessons((current) =>
-                current.map((item) => (item.id === selected.id ? { ...item, completedAt } : item)),
+                current.map((item) =>
+                  item.id === selected.id ? { ...item, completedAt, completionCount } : item,
+                ),
               );
             }}
           />

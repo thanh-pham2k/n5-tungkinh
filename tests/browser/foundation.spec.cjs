@@ -31,9 +31,7 @@ for (const viewport of [
   });
 }
 
-test('completed lessons rotate behind uncompleted lessons and persist across reload', async ({
-  page,
-}) => {
+test('completed lessons retain their order and persist across reload', async ({ page }) => {
   const { createClient } = require('@libsql/client');
   const { resolve } = require('node:path');
   const { pathToFileURL } = require('node:url');
@@ -65,32 +63,37 @@ test('completed lessons rotate behind uncompleted lessons and persist across rel
     await dialog.getByRole('button', { name: 'Xem kết quả' }).click();
     await expect(cards.nth(0).getByRole('img', { name: 'Chưa hoàn thành' })).toBeVisible();
     await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
-    await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+    await expect(
+      dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
+    ).toBeEnabled();
     await dialog.getByRole('button', { name: 'Đóng' }).click();
-    await expect(cards.nth(0)).toContainText('Lesson 2');
-    await expect(cards.nth(1)).toContainText('Lesson 1');
+    await expect(cards.nth(0)).toContainText('Lesson 1');
+    await expect(cards.nth(1)).toContainText('Lesson 2');
     await page.reload();
     await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
-    await expect(cards.nth(0)).toContainText('Lesson 2');
-    await expect(cards.nth(1).getByRole('img', { name: 'Đã hoàn thành' })).toBeVisible();
-    await cards.nth(0).click();
+    await expect(cards.nth(0)).toContainText('Lesson 1');
+    await expect(cards.nth(0).getByRole('img', { name: 'Đã hoàn thành' })).toBeVisible();
+    await cards.nth(1).click();
     const second = page.getByRole('dialog', { name: 'Test 2' });
     await second.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
-    await expect(second.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+    await expect(
+      second.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
+    ).toBeEnabled();
     await second.getByRole('button', { name: 'Đóng' }).click();
     await expect(cards.nth(0)).toContainText('Lesson 1');
     await expect(cards.nth(1)).toContainText('Lesson 2');
-    await cards.nth(1).click();
-    await page.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' }).click();
-    await expect(
-      page.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
-    ).toBeVisible();
+    const previousTime = await cards.nth(0).locator('time').getAttribute('datetime');
+    await cards.nth(0).click();
+    await page.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
     await page.getByRole('dialog').getByRole('button', { name: 'Đóng' }).click();
-    await expect(cards.nth(0)).toContainText('Lesson 2');
-    await expect(cards.nth(0).getByRole('img', { name: 'Chưa hoàn thành' })).toBeVisible();
+    await expect(cards.nth(0)).toContainText('Lesson 1');
+    const updatedTime = await cards.nth(0).locator('time').getAttribute('datetime');
+    expect(Date.parse(updatedTime)).toBeGreaterThan(Date.parse(previousTime));
     await page.reload();
     await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
-    await expect(cards.nth(0).getByRole('img', { name: 'Chưa hoàn thành' })).toBeVisible();
+    await expect(cards.nth(0).locator('time')).toHaveAttribute('datetime', updatedTime);
+    await expect(cards.nth(0)).toContainText('Đã làm 2 lần');
+    await expect(cards.nth(1)).toContainText('Đã làm 1 lần');
   } finally {
     await db.execute({
       sql: 'UPDATE study_catalog SET payload_json = ? WHERE id = ?',
@@ -178,7 +181,9 @@ test('Foundation quiz starts fresh on reopen while manual completion persists', 
   await expect(deck.locator('input:checked')).toHaveCount(1);
   await expect.poll(() => writes.length).toBe(0);
   await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
-  await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+  await expect(
+    dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
+  ).toBeEnabled();
   expect(writes.length).toBeGreaterThan(0);
   for (const write of writes) expect(write.progress).not.toHaveProperty('markdownAnswers');
   await dialog.getByRole('button', { name: 'Đóng' }).click();
@@ -187,13 +192,17 @@ test('Foundation quiz starts fresh on reopen while manual completion persists', 
   deck = dialog.locator('.lesson-deck').first();
   await expect(deck.locator('.lesson-option')).toHaveCount(4);
   await expect(deck.locator('input:checked')).toHaveCount(0);
-  await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+  await expect(
+    dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
+  ).toBeEnabled();
   await page.reload();
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await card.click();
   await expect(page.locator('.lesson-deck').first().locator('.lesson-option')).toHaveCount(4);
   await expect(page.locator('.lesson-deck').first().locator('input:checked')).toHaveCount(0);
-  await expect(page.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+  await expect(
+    page.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
+  ).toBeEnabled();
 });
 
 test('Foundation ignores answers saved before this change', async ({ page }) => {
@@ -213,7 +222,7 @@ test('Foundation ignores answers saved before this change', async ({ page }) => 
   await expect(deck.locator('.lesson-feedback')).toHaveCount(0);
 });
 
-test('real Foundation lesson completion displays its time and moves last after reload', async ({
+test('real Foundation lesson completion displays its time and retains its position', async ({
   page,
 }) => {
   await page.goto('/foundation/');
@@ -224,21 +233,19 @@ test('real Foundation lesson completion displays its time and moves last after r
   await cards.first().click();
   const dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
   await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
-  await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+  await expect(
+    dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
+  ).toBeEnabled();
   await dialog.getByRole('button', { name: 'Đóng' }).click();
-  await expect(cards.nth(2)).toContainText('Lesson 1');
-  await expect(cards.nth(2).locator('time')).toHaveText('Vừa ôn xong');
-  await expect(cards.nth(2).locator('time')).toHaveAttribute('datetime', /\d{4}-\d{2}-\d{2}T/);
+  await expect(cards.first()).toContainText('Lesson 1');
+  await expect(cards.first().locator('time')).toHaveText('Vừa ôn xong');
+  await expect(cards.first().locator('time')).toHaveAttribute('datetime', /\d{4}-\d{2}-\d{2}T/);
   await page.reload();
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await expect(cards).toHaveCount(32);
-  await expect(cards.nth(2)).toContainText('Lesson 1');
-  await expect(cards.nth(2).locator('time')).toHaveText('Vừa ôn xong');
-  await cards.nth(2).click();
-  await dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' }).click();
-  await dialog.getByRole('button', { name: 'Đóng' }).click();
   await expect(cards.first()).toContainText('Lesson 1');
-  await expect(cards.first().locator('time')).toHaveCount(0);
+  await expect(cards.first().locator('time')).toHaveText('Vừa ôn xong');
+  await expect(cards.first()).toContainText('Đã làm 1 lần');
 });
 
 test('A/D works after checking a Word Order answer in Foundation', async ({ page }) => {
@@ -361,7 +368,9 @@ test('Module 2 lessons open and completion stays within its module', async ({ pa
   await expect(dialog.locator('.lesson-deck').first()).toBeVisible();
   await expect(dialog.getByRole('button', { name: /Nghe: She reads a book/ })).toBeVisible();
   await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
-  await expect(dialog.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+  await expect(
+    dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
+  ).toBeEnabled();
   await dialog.getByRole('button', { name: 'Đóng' }).click();
   await expect(second.last()).toContainText('Lesson 1');
   await expect(first.first()).toContainText('Lesson 1');
