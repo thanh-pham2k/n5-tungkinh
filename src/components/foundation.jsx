@@ -86,6 +86,12 @@ export default function Foundation() {
     if (!b.completedAt) return 1;
     return a.completedAt.localeCompare(b.completedAt);
   });
+  const latest = lessons.reduce((current, item) => {
+    const time = Date.parse(item.completedAt);
+    return Number.isNaN(time) || (current && time <= Date.parse(current.completedAt))
+      ? current
+      : item;
+  }, null);
   if (loading) return <Status>Đang kiểm tra phiên đăng nhập…</Status>;
   if (!user) return <LoginView onLoginSuccess={setUser} />;
   return (
@@ -148,59 +154,80 @@ export default function Foundation() {
         <details className="foundation-phase" key={phase}>
           <summary className="foundation-phase-toggle">
             <span>
-              Phase {phase} — {title}
+              <span>
+                Phase {phase} — {title}
+              </span>
+              {(latest?.phase || 1) === phase && latest && (
+                <span className="foundation-latest">Bài gần nhất</span>
+              )}
             </span>
             <span className="foundation-phase-icon" aria-hidden="true" />
           </summary>
           {names.map((name, index) => {
             const module = index + startModule;
             return (
-              <section className="foundation-module" key={module}>
-                <p className="eyebrow">MODULE {module}</p>
-                <h3>{name}</h3>
-                {busy && <Status>Đang tải bài học…</Status>}
-                <Status error>{error}</Status>
-                {error && (
-                  <button className="button" onClick={load}>
-                    Thử lại
-                  </button>
-                )}
-                {ordered
-                  .filter((item) => (item.phase || 1) === phase && (item.module || 1) === module)
-                  .map((item) => (
-                    <button
-                      key={item.id}
-                      className="foundation-lesson"
-                      type="button"
-                      onClick={() => setSelected(item)}
-                    >
-                      <span className="foundation-lesson-main">
-                        <span
-                          className={`foundation-status ${item.completedAt ? 'is-complete' : ''}`}
-                          role="img"
-                          aria-label={item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
-                          title={item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
-                        >
-                          {item.completedAt && <span aria-hidden="true">✓</span>}
-                        </span>
-                        <span>
-                          <strong>{item.label}</strong>
-                          <br />
-                          {item.title}
-                          {item.completedAt && !Number.isNaN(Date.parse(item.completedAt)) && (
-                            <time className="foundation-completed-time" dateTime={item.completedAt}>
-                              {formatReviewTime(item.completedAt, clock)}
-                            </time>
-                          )}
-                          {item.completedAt && <span>Đã làm {item.completionCount} lần</span>}
-                        </span>
-                      </span>
-                      <span className="foundation-lesson-arrow" aria-hidden="true">
-                        ↗
-                      </span>
+              <details className="foundation-module" key={module}>
+                <summary className="foundation-module-toggle">
+                  <span>
+                    <span className="eyebrow">MODULE {module}</span>
+                    <span className="foundation-module-name">{name}</span>
+                    {latest && (latest.phase || 1) === phase && (latest.module || 1) === module && (
+                      <span className="foundation-latest">Bài gần nhất</span>
+                    )}
+                  </span>
+                  <span className="foundation-phase-icon" aria-hidden="true" />
+                </summary>
+                <div className="foundation-module-content">
+                  {busy && <Status>Đang tải bài học…</Status>}
+                  <Status error>{error}</Status>
+                  {error && (
+                    <button className="button" onClick={load}>
+                      Thử lại
                     </button>
-                  ))}
-              </section>
+                  )}
+                  {ordered
+                    .filter((item) => (item.phase || 1) === phase && (item.module || 1) === module)
+                    .map((item) => (
+                      <button
+                        key={item.id}
+                        className={`foundation-lesson ${latest?.id === item.id ? 'is-latest' : ''}`}
+                        type="button"
+                        onClick={() => setSelected(item)}
+                      >
+                        <span className="foundation-lesson-main">
+                          <span
+                            className={`foundation-status ${item.completedAt ? 'is-complete' : ''}`}
+                            role="img"
+                            aria-label={item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
+                            title={item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
+                          >
+                            {item.completedAt && <span aria-hidden="true">✓</span>}
+                          </span>
+                          <span>
+                            <strong>{item.label}</strong>
+                            <br />
+                            {item.title}
+                            {latest?.id === item.id && (
+                              <span className="foundation-latest">Bài gần nhất</span>
+                            )}
+                            {item.completedAt && !Number.isNaN(Date.parse(item.completedAt)) && (
+                              <time
+                                className="foundation-completed-time"
+                                dateTime={item.completedAt}
+                              >
+                                {formatReviewTime(item.completedAt, clock)}
+                              </time>
+                            )}
+                            {item.completedAt && <span>Đã làm {item.completionCount} lần</span>}
+                          </span>
+                        </span>
+                        <span className="foundation-lesson-arrow" aria-hidden="true">
+                          ↗
+                        </span>
+                      </button>
+                    ))}
+                </div>
+              </details>
             );
           })}
         </details>
