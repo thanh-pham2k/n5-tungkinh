@@ -22,6 +22,16 @@ function normalizeCatalog(catalog) {
   return catalog;
 }
 
+async function computeSha256(text) {
+  if (typeof crypto !== 'undefined' && crypto?.subtle) {
+    const buffer = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+    return Array.from(new Uint8Array(buffer))
+      .map((b) => b.toString(16).padStart(2, '0'))
+      .join('');
+  }
+  return null;
+}
+
 export default function Foundation() {
   const { user, loading, setUser } = useAuth();
   const [selected, setSelected] = useState(null);
@@ -34,8 +44,12 @@ export default function Foundation() {
     setError('');
     try {
       const catalog = normalizeCatalog(await readCatalog('english-foundation'));
-      const titles = catalog.map((item) =>
-        item.source.split('\n')[0].replace(/\s+/g, ' ').slice(0, 100),
+      const catalogWithHash = await Promise.all(
+        catalog.map(async (item) => {
+          const hash = await computeSha256(item.source.trim());
+          const title = item.source.split('\n')[0].replace(/\s+/g, ' ').slice(0, 100);
+          return { ...item, hash, prefix: title };
+        }),
       );
       let cursor;
       const records = [];
@@ -46,19 +60,17 @@ export default function Foundation() {
           ...(cursor ? { cursor } : {}),
         });
         const listing = await studyRequest(`/study-contents?${query}`);
-        const matching = listing.data.filter((item) =>
-          titles.some((title) => item.title.startsWith(title)),
-        );
-        records.push(
-          ...(await Promise.all(
-            matching.map(async (item) => (await studyRequest(`/study-contents/${item.id}`)).data),
-          )),
-        );
+        records.push(...listing.data);
         cursor = listing.meta.page.nextCursor;
       } while (cursor);
       setLessons(
-        catalog.map((item) => {
-          const progress = records.find((record) => record.source === item.source.trim())?.progress;
+        catalogWithHash.map((item) => {
+          const match =
+            (item.hash ? records.find((record) => record.sourceHash === item.hash) : null) ||
+            records.find(
+              (record) => record.title && item.prefix && record.title.startsWith(item.prefix),
+            );
+          const progress = match?.progress;
           return {
             ...item,
             completedAt: progress?.foundationCompletedAt || null,

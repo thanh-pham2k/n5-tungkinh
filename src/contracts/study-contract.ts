@@ -88,6 +88,8 @@ export const LessonSummary = z.object({
   createdAt: z.string(),
   lastStudiedAt: z.string(),
   studyCount: z.number().int().positive(),
+  sourceHash: z.string().optional(),
+  progress: z.record(z.string(), z.unknown()).optional(),
 });
 export const Lesson = LessonSummary.extend({
   source: z.string(),

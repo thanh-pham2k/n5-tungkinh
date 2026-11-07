@@ -4,8 +4,20 @@ import type { CreateLessonInput } from '../../contracts/study-contract';
 import { StudyError } from './errors';
 const SUMMARY_COLUMNS =
   'id, tool, title, language, item_count, created_at, last_studied_at, study_count';
-function summary(row: Row) {
-  return {
+interface SummaryRow {
+  id: string;
+  tool: string;
+  title: string;
+  language: string;
+  itemCount: number;
+  createdAt: string;
+  lastStudiedAt: string;
+  studyCount: number;
+  sourceHash?: string;
+  progress?: Record<string, unknown>;
+}
+function summary(row: Row): SummaryRow {
+  const item: SummaryRow = {
     id: String(row.id),
     tool: String(row.tool),
     title: String(row.title),
@@ -15,6 +27,17 @@ function summary(row: Row) {
     lastStudiedAt: String(row.last_studied_at),
     studyCount: Number(row.study_count),
   };
+  if (row.source_hash !== undefined && row.source_hash !== null) {
+    item.sourceHash = String(row.source_hash);
+  }
+  if (row.state_json !== undefined && row.state_json !== null) {
+    try {
+      item.progress = JSON.parse(String(row.state_json));
+    } catch {
+      item.progress = {};
+    }
+  }
+  return item;
 }
 function logSummary(row: Row) {
   return {
@@ -113,8 +136,8 @@ export function studyRepository(db: Client) {
         }
       }
       const result = await db.execute({
-        sql: `SELECT ${SUMMARY_COLUMNS} FROM study_contents WHERE library_id = ? AND tool = ? AND (? IS NULL OR last_studied_at < ? OR (last_studied_at = ? AND id < ?)) ORDER BY last_studied_at DESC, id DESC LIMIT ?`,
-        args: [libraryId, tool, last, last, last, id, limit + 1],
+        sql: `SELECT c.id, c.tool, c.title, c.language, c.item_count, c.created_at, c.last_studied_at, c.study_count, c.source_hash, p.state_json FROM study_contents c LEFT JOIN study_progress p ON p.content_id = c.id AND p.library_id = ? WHERE c.library_id = ? AND c.tool = ? AND (? IS NULL OR c.last_studied_at < ? OR (c.last_studied_at = ? AND c.id < ?)) ORDER BY c.last_studied_at DESC, c.id DESC LIMIT ?`,
+        args: [libraryId, libraryId, tool, last, last, last, id, limit + 1],
       });
       const data = result.rows.slice(0, limit).map(summary);
       const hasMore = result.rows.length > limit;

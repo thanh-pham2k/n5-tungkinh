@@ -1957,6 +1957,16 @@
                             "type": "integer",
                             "exclusiveMinimum": 0,
                             "maximum": 9007199254740991
+                          },
+                          "sourceHash": {
+                            "type": "string"
+                          },
+                          "progress": {
+                            "type": "object",
+                            "propertyNames": {
+                              "type": "string"
+                            },
+                            "additionalProperties": {}
                           }
                         },
                         "required": [
@@ -2662,10 +2672,9 @@
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
                         },
-                        "source": {
+                        "sourceHash": {
                           "type": "string"
                         },
-                        "parsed": {},
                         "progress": {
                           "type": "object",
                           "propertyNames": {
@@ -2673,6 +2682,10 @@
                           },
                           "additionalProperties": {}
                         },
+                        "source": {
+                          "type": "string"
+                        },
+                        "parsed": {},
                         "version": {
                           "type": "integer",
                           "minimum": 0,
@@ -2688,9 +2701,9 @@
                         "createdAt",
                         "lastStudiedAt",
                         "studyCount",
+                        "progress",
                         "source",
                         "parsed",
-                        "progress",
                         "version"
                       ],
                       "additionalProperties": false
@@ -3323,10 +3336,9 @@
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
                         },
-                        "source": {
+                        "sourceHash": {
                           "type": "string"
                         },
-                        "parsed": {},
                         "progress": {
                           "type": "object",
                           "propertyNames": {
@@ -3334,6 +3346,10 @@
                           },
                           "additionalProperties": {}
                         },
+                        "source": {
+                          "type": "string"
+                        },
+                        "parsed": {},
                         "version": {
                           "type": "integer",
                           "minimum": 0,
@@ -3349,9 +3365,9 @@
                         "createdAt",
                         "lastStudiedAt",
                         "studyCount",
+                        "progress",
                         "source",
                         "parsed",
-                        "progress",
                         "version"
                       ],
                       "additionalProperties": false
@@ -4677,10 +4693,9 @@
                           "exclusiveMinimum": 0,
                           "maximum": 9007199254740991
                         },
-                        "source": {
+                        "sourceHash": {
                           "type": "string"
                         },
-                        "parsed": {},
                         "progress": {
                           "type": "object",
                           "propertyNames": {
@@ -4688,6 +4703,10 @@
                           },
                           "additionalProperties": {}
                         },
+                        "source": {
+                          "type": "string"
+                        },
+                        "parsed": {},
                         "version": {
                           "type": "integer",
                           "minimum": 0,
@@ -4703,9 +4722,9 @@
                         "createdAt",
                         "lastStudiedAt",
                         "studyCount",
+                        "progress",
                         "source",
                         "parsed",
-                        "progress",
                         "version"
                       ],
                       "additionalProperties": false

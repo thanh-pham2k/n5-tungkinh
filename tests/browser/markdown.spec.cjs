@@ -230,7 +230,7 @@ test('course starts fresh on reload without writing answer progress', async ({ p
   await expect(deck.locator('.lesson-dots button').first()).toHaveText('1');
   await deck.getByRole('button', { name: 'Tiếp →' }).click();
   await expect(deck.getByLabel('Câu trả lời')).toHaveValue('');
-  await expect(deck.locator('.lesson-feedback')).toHaveCount(0);
+  await expect(deck.locator('.lesson-feedback')).toBeHidden();
 });
 test('completed course day rotates menu, survives reload, and wraps after day 30', async ({
   page,
