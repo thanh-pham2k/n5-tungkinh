@@ -173,6 +173,11 @@ export default function StudyApp() {
           <span aria-hidden="true">📚</span>600 từ vựng TOEIC ↗
         </a>
       )}
+      {user?.username === 'thanhpv' && (
+        <a className="nav-item" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/eviu/`}>
+          <span aria-hidden="true">📚</span>EVIU ↗
+        </a>
+      )}
       <a className="nav-item" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/foundation/`}>
         <span aria-hidden="true">📖</span>English Foundation ↗
       </a>

@@ -128,3 +128,27 @@ test('work English course has 30 valid lessons and matching order answers', () =
       );
   });
 });
+
+test('parses flipcards and reports invalid rows without treating ordinary code as cards', () => {
+  const blocks = parse(
+    '```flipcard\n猫 | Con mèo\n**apple** | quả táo\nthiếu mặt sau\n```\n\n```text\na | b\n```',
+  );
+  assert.deepEqual(blocks.find((block) => block.type === 'flipcards').cards, [
+    { front: '猫', back: 'Con mèo' },
+    { front: '**apple**', back: 'quả táo' },
+  ]);
+  assert.match(blocks.find((block) => block.type === 'error').content, /Dòng 4/);
+  assert.match(blocks.at(-1).content, /```text/);
+});
+
+test('parses structured flipcard backs and requires explanation and example', () => {
+  const blocks = parse(
+    '```flipcard\napple | quả táo | An apple. | fruit\nhappy | vui vẻ | She is happy. |\nold | nghĩa cũ\nbad | nghĩa |\n```',
+  );
+  assert.deepEqual(blocks.find((block) => block.type === 'flipcards').cards, [
+    { front: 'apple', back: 'quả táo', example: 'An apple.', synonyms: 'fruit' },
+    { front: 'happy', back: 'vui vẻ', example: 'She is happy.', synonyms: '' },
+    { front: 'old', back: 'nghĩa cũ' },
+  ]);
+  assert.match(blocks.find((block) => block.type === 'error').content, /Dòng 5/);
+});

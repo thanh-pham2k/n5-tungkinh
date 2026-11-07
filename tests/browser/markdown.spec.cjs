@@ -463,3 +463,45 @@ test('mobile expanded quiz navigation stays at the bottom while content scrolls'
   await input.focus();
   await expect(nav).toHaveCSS('position', 'static');
 });
+
+test('flipcards reveal and navigate with keyboard on mobile and desktop', async ({ page }) => {
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  await openMobileEditor(page, '```flipcard\n猫 | Con mèo\n**apple** | quả táo\n```');
+  const deck = page.getByRole('region', { name: 'Bộ flipcard' });
+  const card = deck.locator('.flipcard-face');
+  await expect(card).toContainText('猫');
+  await card.focus();
+  await page.keyboard.press('Enter');
+  await expect(card).toContainText('Con mèo');
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await expect(card).toContainText('apple');
+  await page.keyboard.press('Tab');
+  await card.focus();
+  await page.keyboard.press('Space');
+  await expect(card).toContainText('quả táo');
+  await deck.getByRole('button', { name: '← Trước' }).click();
+  await expect(card).toContainText('猫');
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
+
+test('structured flipcard shows labeled context, example and optional synonyms', async ({
+  page,
+}) => {
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  await openMobileEditor(
+    page,
+    '```flipcard\napple | quả táo | An apple. | fruit\nhappy | vui vẻ | She is happy. |\n```',
+  );
+  const deck = page.getByRole('region', { name: 'Bộ flipcard' });
+  const card = deck.locator('.flipcard-face');
+  await card.click();
+  await expect(card).toContainText('Giải thích / ngữ cảnh: quả táo');
+  await expect(card).toContainText('Ví dụ: An apple.');
+  await expect(card).toContainText('Từ đồng nghĩa: fruit');
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await card.click();
+  await expect(card).toContainText('Ví dụ: She is happy.');
+  await expect(card).not.toContainText('Từ đồng nghĩa:');
+});

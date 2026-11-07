@@ -65,6 +65,49 @@
           fence = null;
         continue;
       }
+      if (marker && marker[2].trim() === 'flipcard') {
+        flush();
+        const start = i + 1,
+          cards = [];
+        const isClose = (text) => {
+          const close = text.match(/^ {0,3}(`{3,}|~{3,})\s*$/);
+          return close && close[1][0] === marker[1][0] && close[1].length >= marker[1].length;
+        };
+        while (++i < lines.length && !isClose(lines[i])) {
+          if (!lines[i].trim()) continue;
+          const parts = lines[i]
+            .trimEnd()
+            .split(/\s+\|(?:\s+|$)/)
+            .map((part) => part.trim());
+          if (
+            ![2, 3, 4].includes(parts.length) ||
+            !parts[0] ||
+            !parts[1] ||
+            (parts.length >= 3 && !parts[2])
+          ) {
+            blocks.push({
+              type: 'error',
+              content: `Dòng ${i + 1}: flipcard cần mặt trước | mặt sau hoặc mặt trước | giải thích | ví dụ | từ đồng nghĩa (có thể bỏ trống).`,
+            });
+          } else if (parts.length === 2) cards.push({ front: parts[0], back: parts[1] });
+          else
+            cards.push({
+              front: parts[0],
+              back: parts[1],
+              example: parts[2],
+              synonyms: parts[3] || '',
+            });
+        }
+        if (i === lines.length)
+          blocks.push({
+            type: 'error',
+            content: `Dòng ${start}: thiếu dấu đóng code block flipcard.`,
+          });
+        else if (cards.length) blocks.push({ type: 'flipcards', cards });
+        else
+          blocks.push({ type: 'error', content: `Dòng ${start}: flipcard cần ít nhất một thẻ.` });
+        continue;
+      }
       if (marker && ['quiz', 'quiz-deck'].includes(marker[2].trim())) {
         flush();
         const start = i + 1,

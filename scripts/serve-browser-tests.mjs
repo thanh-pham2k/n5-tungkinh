@@ -5,6 +5,7 @@ import { pathToFileURL } from 'node:url';
 import { spawn } from 'node:child_process';
 import { loadFoundationCatalog, loadPhase2Catalog } from './foundation-catalog.mjs';
 import { publishCompactFoundation } from './foundation-compact-publish.mjs';
+import { loadEviuCatalog } from './eviu-catalog.mjs';
 import { publishFoundation } from './foundation-publish.mjs';
 await mkdir('.migration-artifacts', { recursive: true });
 const db = createClient({
@@ -21,6 +22,7 @@ if (!existing.rows.length)
   await db.executeMultiple(await readFile('database/changelog/v001/001-study-library.sql', 'utf8'));
 const raw = await readFile('docs/ielts/practice-data.js', 'utf8');
 const catalog = {
+  eviu: await loadEviuCatalog(),
   ielts: JSON.parse(raw.replace(/^\s*window\.IELTS_PRACTICE\s*=\s*/, '').replace(/;\s*$/, '')),
   'markdown-example': await readFile('database/seed/markdown-example.md', 'utf8'),
   'word-order-example': await readFile('database/seed/word-order-example.txt', 'utf8'),

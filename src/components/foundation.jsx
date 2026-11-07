@@ -32,7 +32,7 @@ async function computeSha256(text) {
   return null;
 }
 
-export default function Foundation() {
+export default function Foundation({ eviu = false }) {
   const { user, loading, setUser } = useAuth();
   const [selected, setSelected] = useState(null);
   const [lessons, setLessons] = useState([]);
@@ -43,7 +43,7 @@ export default function Foundation() {
     setBusy(true);
     setError('');
     try {
-      const catalog = normalizeCatalog(await readCatalog('english-foundation'));
+      const catalog = normalizeCatalog(await readCatalog(eviu ? 'eviu' : 'english-foundation'));
       const catalogWithHash = await Promise.all(
         catalog.map(async (item) => {
           const hash = await computeSha256(item.source.trim());
@@ -67,9 +67,10 @@ export default function Foundation() {
         catalogWithHash.map((item) => {
           const match =
             (item.hash ? records.find((record) => record.sourceHash === item.hash) : null) ||
-            records.find(
-              (record) => record.title && item.prefix && record.title.startsWith(item.prefix),
-            );
+            (!eviu &&
+              records.find(
+                (record) => record.title && item.prefix && record.title.startsWith(item.prefix),
+              ));
           const progress = match?.progress;
           return {
             ...item,
@@ -84,10 +85,10 @@ export default function Foundation() {
     } finally {
       setBusy(false);
     }
-  }, []);
+  }, [eviu]);
   useEffect(() => {
-    if (user) load();
-  }, [user, load]);
+    if (user && (!eviu || user.username === 'thanhpv')) load();
+  }, [user, load, eviu]);
   useEffect(() => {
     setClock(Date.now());
     const timer = setInterval(() => setClock(Date.now()), 60000);
@@ -106,63 +107,72 @@ export default function Foundation() {
   }, null);
   if (loading) return <Status>Đang kiểm tra phiên đăng nhập…</Status>;
   if (!user) return <LoginView onLoginSuccess={setUser} />;
+  if (eviu && user.username !== 'thanhpv')
+    return <Status error>Bạn không có quyền xem mục này.</Status>;
   return (
     <main className="foundation-page">
       <a className="button" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/`}>
         ← Công cụ học
       </a>
-      <p className="eyebrow">ENGLISH FOUNDATION</p>
-      <h1>English Foundation</h1>
-      <p>Học cách xây câu và sử dụng tiếng Anh trong đời sống.</p>
-      {[
-        {
-          phase: 1,
-          title: 'Build Sentences',
-          startModule: 1,
-          names: ['Basic Sentence Structure', 'Nouns & Pronouns', 'Be', 'Present Simple'],
-        },
-        {
-          phase: 2,
-          title: 'Talk About Life',
-          startModule: 5,
-          names: [
-            'Questions',
-            'Present Continuous',
-            'Ability & Preference',
-            'Past Simple',
-            'Future',
-            'Modal Basics',
-          ],
-        },
-        {
-          phase: 3,
-          title: 'Expand Ideas',
-          startModule: 11,
-          names: [
-            'Adjectives & Adverbs',
-            'Prepositions',
-            'Countable / Uncountable',
-            'Comparisons',
-            'Linking Ideas',
-            'Present Perfect',
-            'Basic Complex Sentences',
-          ],
-        },
-        {
-          phase: 4,
-          title: 'Use English',
-          startModule: 18,
-          names: [
-            'Vocabulary System',
-            'Pronunciation Foundation',
-            'Listening Foundation',
-            'Reading Foundation',
-            'Writing Foundation',
-            'Speaking Foundation',
-            'Foundation Review',
-          ],
-        },
-      ].map(({ phase, title, startModule, names }) => (
+      <p className="eyebrow">{eviu ? 'EVIU' : 'ENGLISH FOUNDATION'}</p>
+      <h1>{eviu ? 'English Vocab In Use' : 'English Foundation'}</h1>
+      <p>
+        {eviu
+          ? 'Học và ôn từ vựng theo lộ trình 41 unit.'
+          : 'Học cách xây câu và sử dụng tiếng Anh trong đời sống.'}
+      </p>
+      {(eviu
+        ? [{ phase: 1, title: 'EVIU', startModule: 1, names: ['41 unit'] }]
+        : [
+            {
+              phase: 1,
+              title: 'Build Sentences',
+              startModule: 1,
+              names: ['Basic Sentence Structure', 'Nouns & Pronouns', 'Be', 'Present Simple'],
+            },
+            {
+              phase: 2,
+              title: 'Talk About Life',
+              startModule: 5,
+              names: [
+                'Questions',
+                'Present Continuous',
+                'Ability & Preference',
+                'Past Simple',
+                'Future',
+                'Modal Basics',
+              ],
+            },
+            {
+              phase: 3,
+              title: 'Expand Ideas',
+              startModule: 11,
+              names: [
+                'Adjectives & Adverbs',
+                'Prepositions',
+                'Countable / Uncountable',
+                'Comparisons',
+                'Linking Ideas',
+                'Present Perfect',
+                'Basic Complex Sentences',
+              ],
+            },
+            {
+              phase: 4,
+              title: 'Use English',
+              startModule: 18,
+              names: [
+                'Vocabulary System',
+                'Pronunciation Foundation',
+                'Listening Foundation',
+                'Reading Foundation',
+                'Writing Foundation',
+                'Speaking Foundation',
+                'Foundation Review',
+              ],
+            },
+          ]
+      ).map(({ phase, title, startModule, names }) => (
         <details className="foundation-phase" key={phase}>
           <summary className="foundation-phase-toggle">
             <span>

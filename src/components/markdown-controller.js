@@ -399,6 +399,58 @@ export function initializeMarkdown({
     draw();
     return container;
   }
+  function flipcards(cards) {
+    const container = el('section', undefined, 'lesson-flipcards');
+    container.setAttribute('aria-label', 'Bộ flipcard');
+    let current = 0,
+      flipped = false;
+    const count = el('p', undefined, 'flipcard-count');
+    count.setAttribute('aria-live', 'polite');
+    const card = button('', () => {
+      flipped = !flipped;
+      update();
+    });
+    card.className = 'flipcard-face';
+    const previous = button('← Trước', () => {
+      current--;
+      flipped = false;
+      update();
+    });
+    const next = button('Tiếp →', () => {
+      current++;
+      flipped = false;
+      update();
+    });
+    const navigation = el('div', undefined, 'flipcard-navigation');
+    navigation.append(previous, next);
+    container.append(count, card, navigation);
+    function update() {
+      count.textContent = `Thẻ ${current + 1} / ${cards.length} · ${flipped ? 'Mặt sau' : 'Mặt trước'}`;
+      const item = cards[current];
+      const content = el('span', undefined, 'flipcard-content');
+      if (flipped && item.example !== undefined) {
+        for (const [label, value] of [
+          ['Giải thích / ngữ cảnh', item.back],
+          ['Ví dụ', item.example],
+          ['Từ đồng nghĩa', item.synonyms],
+        ]) {
+          if (!value) continue;
+          const row = el('span', undefined, 'flipcard-row');
+          row.append(el('strong', `${label}: `), inline(value));
+          content.append(row);
+        }
+      } else content.append(inline(flipped ? item.back : item.front));
+      card.replaceChildren(content, el('small', 'Nhấn để lật thẻ'));
+      card.setAttribute(
+        'aria-label',
+        `${flipped ? 'Mặt sau' : 'Mặt trước'}: ${content.textContent}. Nhấn để lật thẻ`,
+      );
+      previous.disabled = current === 0;
+      next.disabled = current === cards.length - 1;
+    }
+    update();
+    return container;
+  }
   async function render(persist = true) {
     const run = ++revision;
     closeExpanded?.();
@@ -436,6 +488,7 @@ export function initializeMarkdown({
     let count = 0;
     for (const block of blocks) {
       if (block.type === 'deck') output.append(deck(block.quizzes, ++count));
+      else if (block.type === 'flipcards') output.append(flipcards(block.cards));
       else if (block.type === 'error') output.append(el('p', block.content, 'lesson-error'));
       else {
         const section = el('section');

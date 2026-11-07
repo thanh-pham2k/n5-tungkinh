@@ -81,3 +81,18 @@ Word Order dùng `id | word_order | câu hỏi | từ hoặc cụm từ | đáp 
 Chọn **Tiếng Anh công việc · 30 ngày** trong menu để mở danh sách 30 bài ở tab mới. Danh sách hiển thị thời gian ôn gần nhất; chọn bài để mở nội dung trong chế độ đọc tập trung, rồi dùng nút quay lại danh sách để chọn bài khác. Mỗi bài gồm mẫu câu, giải thích, từ gợi ý, 10 câu tương tác (5 Word Order, 5 Typing). Bài được nạp từ catalog Turso và lưu vào Lịch sử nhập; đáp án của bộ 30 ngày chỉ dùng trong lần luyện hiện tại và bắt đầu trống khi mở lại; sau khi trả lời đủ 10 câu và xem kết quả, danh sách ưu tiên ngày tiếp theo, quay về ngày 1 sau ngày 30; danh sách cho biết thời gian hoàn thành gần nhất của từng bài, còn các lượt trước khi có tính năng này không có thời gian; bạn có thể luyện nói ngoài ô chấm đáp án. Đáp án Typing có một câu mẫu, nên cách diễn đạt khác có thể bị tính sai.
 
 Dữ liệu nguồn vận hành là `database/seed/work-english-30.json`. Sau khi cấu hình Turso cho môi trường đích, chạy `node --env-file=.env.local scripts/seed-work-english.mjs <hostname-Turso-đích>` để thêm catalog; lệnh xác minh nội dung và từ chối ghi đè nếu catalog đã khác. Khi cập nhật một catalog đã tồn tại, truyền thêm đường dẫn JSON của phiên bản đã đối chiếu làm đối số thứ hai; lệnh chỉ cập nhật nếu nội dung hiện tại khớp chính xác phiên bản đó. Không seed từ build hoặc request. Nội dung bài thay đổi tạo bản học mới; lịch sử và tiến độ của bản cũ vẫn được giữ riêng.
+
+## Flipcard
+
+Mỗi dòng trong block `flipcard` là một thẻ, với các trường cách nhau bằng ` | `:
+
+````markdown
+```flipcard
+apple | quả táo; danh từ chỉ loại quả | I eat an apple every day. | Không có từ đồng nghĩa thông dụng
+happy | vui vẻ, dùng để diễn tả cảm xúc | She looks happy. | glad, joyful
+```
+````
+
+Thứ tự: **mặt trước | giải thích/ngữ cảnh | ví dụ | từ đồng nghĩa**. Ba trường đầu bắt buộc; từ đồng nghĩa có thể bỏ trống hoặc bỏ hẳn dấu phân cách cuối. Các trường không chứa chuỗi phân cách ` | ` và hỗ trợ Markdown nội tuyến như chữ đậm và chữ nghiêng.
+
+Format cũ `mặt trước | mặt sau` vẫn được hỗ trợ. Nhấn thẻ để lật, dùng nút Trước/Tiếp để chuyển thẻ. Thao tác lật và vị trí thẻ chỉ giữ trong lúc xem hiện tại.

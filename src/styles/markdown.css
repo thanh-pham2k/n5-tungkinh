@@ -669,3 +669,56 @@ body.dark .lesson-deck button[aria-current='step'] {
   padding-left: var(--space-6);
   overflow-wrap: anywhere;
 }
+
+.lesson-flipcards {
+  margin: var(--space-4) 0;
+  max-width: 640px;
+}
+.flipcard-count {
+  font-weight: 700;
+}
+.flipcard-face {
+  width: 100%;
+  min-height: 160px;
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-3);
+  border: var(--border);
+  background: var(--accent);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  font: inherit;
+  font-size: var(--text-lg);
+  overflow-wrap: anywhere;
+  cursor: pointer;
+}
+.flipcard-face small {
+  font-size: var(--text-xs);
+}
+.flipcard-navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+.flipcard-navigation button {
+  min-height: 44px;
+  padding: var(--space-2) var(--space-4);
+  border: var(--border);
+  background: var(--paper);
+  color: var(--ink);
+  font: inherit;
+  cursor: pointer;
+}
+
+.flipcard-content {
+  max-width: 100%;
+}
+.flipcard-row {
+  display: block;
+  text-align: left;
+  margin-bottom: var(--space-2);
+}
