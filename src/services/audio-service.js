@@ -1,6 +1,28 @@
 // Sound of Text is an external service. Cache successful requests for this session only.
 const cache = new Map();
 export const VOICES = Object.freeze({ en: 'en-US', ja: 'ja-JP', vi: 'vi-VN' });
+// Keep requests comfortably below the provider's text limit, including for long sentences.
+export function splitSpeechText(text, limit = 180) {
+  const characters = Array.from(text.trim());
+  const chunks = [];
+  while (characters.length > limit) {
+    const candidate = characters.slice(0, limit).join('');
+    let boundary = -1;
+    for (const match of candidate.matchAll(/[.!?。！？](?:[\s]|$)|\s/g)) {
+      const end = Array.from(candidate.slice(0, match.index + match[0].length)).length;
+      if (end >= limit / 2) boundary = end;
+    }
+    chunks.push(
+      characters
+        .splice(0, boundary > 0 ? boundary : limit)
+        .join('')
+        .trim(),
+    );
+  }
+  const last = characters.join('').trim();
+  if (last) chunks.push(last);
+  return chunks.filter(Boolean);
+}
 export async function createSpeechUrl(text, language, signal) {
   if (!text?.trim()) throw new Error('Không có nội dung để phát.');
   if (!VOICES[language]) throw new Error('Ngôn ngữ audio không được hỗ trợ.');

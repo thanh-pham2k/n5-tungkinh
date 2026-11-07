@@ -1,6 +1,6 @@
 'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { createSpeechUrl, playAudio, wait } from '../services/audio-service';
+import { createSpeechUrl, playAudio, splitSpeechText, wait } from '../services/audio-service';
 export default function useSpeech(settings) {
   const current = useRef(null);
   const audioRef = useRef(null);
@@ -31,14 +31,15 @@ export default function useSpeech(settings) {
         for (const segment of segments) {
           if (!segment.text || segment.count === 0) continue;
           setState({ phase: 'loading', index: segment.index ?? 0, error: '' });
-          const url = await createSpeechUrl(
-            segment.text,
-            segment.language || settings.language,
-            controller.signal,
-          );
+          const urls = [];
+          for (const text of splitSpeechText(segment.text)) {
+            urls.push(
+              await createSpeechUrl(text, segment.language || settings.language, controller.signal),
+            );
+          }
           for (let repeat = 0; repeat < (segment.count ?? settings.repeats); repeat++) {
             setState({ phase: 'playing', index: segment.index ?? 0, error: '' });
-            await playAudio(audio, url, settings, controller.signal);
+            for (const url of urls) await playAudio(audio, url, settings, controller.signal);
             await wait(settings.delay * 1000, controller.signal);
           }
         }
