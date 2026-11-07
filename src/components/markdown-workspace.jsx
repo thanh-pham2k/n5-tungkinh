@@ -486,7 +486,7 @@ export default function MarkdownWorkspace({
                     variant="primary"
                     onClick={() =>
                       speech.play(
-                        selectedAudio.map((item, index) => ({ ...item, index, count: 1 })),
+                        selectedAudio.map((item, index) => ({ ...item, index, count: 3 })),
                         { loop: true },
                       )
                     }

@@ -606,19 +606,22 @@ test('selected audio can loop and stop using cached speech', async ({ page }) =>
   let requests = 0;
   await page.addInitScript(() => {
     window.audioPlays = 0;
+    window.playedUrls = [];
     HTMLMediaElement.prototype.play = function () {
       window.audioPlays++;
+      window.playedUrls.push(this.src);
       setTimeout(() => this.dispatchEvent(new Event('ended')), 30);
       return Promise.resolve();
     };
   });
   await page.route('https://api.soundoftext.com/sounds', (route) => {
     requests++;
-    return route.fulfill({ json: { id: 'loop-fixture' } });
+    return route.fulfill({ json: { id: `loop-fixture-${requests}` } });
   });
-  await page.route('https://api.soundoftext.com/sounds/loop-fixture', (route) =>
-    route.fulfill({ json: { status: 'Done', location: 'https://example.com/audio.mp3' } }),
-  );
+  await page.route(/https:\/\/api\.soundoftext\.com\/sounds\/loop-fixture-\d+$/, (route) => {
+    const id = route.request().url().split('/').pop();
+    return route.fulfill({ json: { status: 'Done', location: `https://example.com/${id}.mp3` } });
+  });
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
@@ -637,12 +640,33 @@ test('selected audio can loop and stop using cached speech', async ({ page }) =>
   await expect.poll(() => page.evaluate(() => window.audioPlays)).toBeGreaterThan(0);
   const loop = list.getByRole('button', { name: '▶ Phát lặp' });
   await expect(loop).toBeEnabled();
+  const second = dialog.locator('#lesson-output h2').first();
+  await second.scrollIntoViewIfNeeded();
+  await second.evaluate((element) => {
+    const range = document.createRange();
+    range.selectNodeContents(element);
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+  });
+  await dialog.getByRole('button', { name: 'Nghe đoạn đã chọn' }).click();
+  await expect(list.locator('li')).toHaveCount(2);
+  await expect(loop).toBeEnabled();
+  await page.evaluate(() => {
+    window.playedUrls = [];
+  });
   await loop.click();
-  await expect.poll(() => page.evaluate(() => window.audioPlays)).toBeGreaterThan(3);
+  await expect.poll(() => page.evaluate(() => window.playedUrls.length)).toBeGreaterThanOrEqual(7);
   await list.getByRole('button', { name: '■ Dừng' }).click();
   await expect(loop).toBeEnabled();
+  const played = await page.evaluate(() => window.playedUrls.slice(0, 7));
+  expect(played).toEqual([
+    ...Array(3).fill('https://example.com/loop-fixture-1.mp3'),
+    ...Array(3).fill('https://example.com/loop-fixture-2.mp3'),
+    'https://example.com/loop-fixture-1.mp3',
+  ]);
   const stoppedAt = await page.evaluate(() => window.audioPlays);
   await page.waitForTimeout(150);
   expect(await page.evaluate(() => window.audioPlays)).toBe(stoppedAt);
-  expect(requests).toBe(1);
+  expect(requests).toBe(2);
 });
