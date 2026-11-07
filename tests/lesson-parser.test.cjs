@@ -153,7 +153,7 @@ test('parses structured flipcard backs and requires explanation and example', ()
   assert.match(blocks.find((block) => block.type === 'error').content, /Dòng 5/);
 });
 
-test('flipcards use explicit or unambiguous authored parts of speech', () => {
+test('flipcards use explicit and multiple authored parts of speech', () => {
   const source =
     '- **routine** /ruːˈtiːn/ (N): thói quen.\n- **run** /rʌn/ (V): chạy.\n- **run** /rʌn/ (N): lần chạy.\n\n```flipcard\nroutine | thói quen | A daily routine. | habit\nrun | chạy | I run. |  | V\nunknown | chưa biết | Example. |\n```';
   const cards = parse(source).find((block) => block.type === 'flipcards').cards;
@@ -163,8 +163,15 @@ test('flipcards use explicit or unambiguous authored parts of speech', () => {
   const ambiguous = parse(
     '- **run** /rʌn/ (V): chạy.\n- **run** /rʌn/ (N): lần chạy.\n\n```flipcard\nrun | chạy | I run.\n```',
   );
-  assert.equal(
-    ambiguous.find((block) => block.type === 'flipcards').cards[0].partOfSpeech,
-    undefined,
+  assert.equal(ambiguous.find((block) => block.type === 'flipcards').cards[0].partOfSpeech, 'V, N');
+});
+
+test('flipcards accept comma, slash and additional authored word classes', () => {
+  const source =
+    '- **record** /ˈrekɔːd/ (N, V): ghi hoặc bản ghi.\n- **well** /wel/ (Adv/Adj): tốt.\n- **bread** /bred/ (N-U): bánh mì.\n- **near** /nɪə/ (Prep): gần.\n\n```flipcard\nrecord | ghi | Record it.\nwell | tốt | She is well.\nbread | bánh mì | Bread is good.\nnear | gần | Near me.\nset | đặt | Set it. |  | (N, V)\nempty | rỗng | Empty. |  | ()\n```';
+  const cards = parse(source).find((block) => block.type === 'flipcards').cards;
+  assert.deepEqual(
+    cards.map((card) => card.partOfSpeech),
+    ['N, V', 'Adv, Adj', 'N-U', 'Prep', 'N, V', undefined],
   );
 });

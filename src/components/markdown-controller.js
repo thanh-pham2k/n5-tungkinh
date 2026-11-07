@@ -403,8 +403,7 @@ export function initializeMarkdown({
     const container = el('section', undefined, 'lesson-flipcards');
     container.setAttribute('aria-label', 'Bộ flipcard');
     let current = 0,
-      flipped = false,
-      revealed = false;
+      flipped = false;
     const count = el('p', undefined, 'flipcard-count');
     count.setAttribute('aria-live', 'polite');
     const expand = button('⛶', () => {
@@ -439,19 +438,13 @@ export function initializeMarkdown({
     header.append(count, expand);
     const card = button('', () => {
       flipped = !flipped;
-      if (flipped) revealed = true;
       update();
     });
     card.className = 'flipcard-face';
     function move(delta) {
-      if (
-        (delta < 0 && current === 0) ||
-        (delta > 0 && (!revealed || current === cards.length - 1))
-      )
-        return;
+      if ((delta < 0 && current === 0) || (delta > 0 && current === cards.length - 1)) return;
       current += delta;
       flipped = false;
-      revealed = false;
       update();
       card.focus({ preventScroll: true });
     }
@@ -466,7 +459,7 @@ export function initializeMarkdown({
       const content = el('span', undefined, 'flipcard-content');
       if (flipped) {
         for (const [label, value] of [
-          ['Từ loại', item.partOfSpeech || 'Chưa ghi'],
+          ['Từ loại', item.partOfSpeech],
           ['Giải thích / ngữ cảnh', item.back],
           ['Ví dụ', item.example],
           ['Từ đồng nghĩa', item.synonyms],
@@ -483,7 +476,7 @@ export function initializeMarkdown({
         `${flipped ? 'Mặt sau' : 'Mặt trước'}: ${content.textContent}. Nhấn để lật thẻ`,
       );
       previous.disabled = current === 0;
-      next.disabled = !revealed || current === cards.length - 1;
+      next.disabled = current === cards.length - 1;
     }
     container.addEventListener('keydown', (event) => {
       if (

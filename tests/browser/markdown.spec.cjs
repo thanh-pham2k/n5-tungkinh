@@ -540,53 +540,54 @@ for (const width of [390, 1280]) {
   });
 }
 
-test('flipcards show authored parts of speech and mark missing values', async ({ page }) => {
+test('flipcards show multiple authored parts of speech and hide missing values', async ({
+  page,
+}) => {
   await page.goto('/markdown/');
   await expect(page.locator('#markdown-loading')).toBeHidden();
   await openMobileEditor(
     page,
-    '- **routine** /ruːˈtiːn/ (N): thói quen.\n\n```flipcard\nroutine | thói quen | A routine. | habit\nhappy | vui | She is happy. | glad | Adj\nunknown | chưa rõ | Example. |\n```',
+    '- **routine** /ruːˈtiːn/ (N, V): thói quen.\n\n```flipcard\nroutine | thói quen | A routine. | habit\nhappy | vui | She is happy. | glad | Adj\nunknown | chưa rõ | Example. |\n```',
   );
   const deck = page.getByRole('region', { name: 'Bộ flipcard' });
   const card = deck.locator('.flipcard-face');
   await card.click();
-  await expect(card).toContainText('Từ loại: N');
+  await expect(card).toContainText('Từ loại: N, V');
   await deck.getByRole('button', { name: 'Tiếp →' }).click();
   await card.click();
   await expect(card).toContainText('Từ loại: Adj');
   await deck.getByRole('button', { name: 'Tiếp →' }).click();
   await card.click();
-  await expect(card).toContainText('Từ loại: Chưa ghi');
+  await expect(card).not.toContainText('Từ loại:');
+  await expect(card).not.toContainText('()');
 });
 
 for (const expanded of [false, true]) {
-  test(`flipcards require a reveal before advancing and support A/D (${expanded ? 'expanded' : 'inline'})`, async ({
+  test(`flipcards navigate freely with A/D and flip with Space (${expanded ? 'expanded' : 'inline'})`, async ({
     page,
   }) => {
     await page.goto('/markdown/');
     await expect(page.locator('#markdown-loading')).toBeHidden();
     await openMobileEditor(page, '```flipcard\n猫 | Con mèo\n犬 | Con chó\n```');
-    let deck = page.getByRole('region', { name: 'Bộ flipcard' });
+    const deck = page.getByRole('region', { name: 'Bộ flipcard' });
     if (expanded) await deck.getByRole('button', { name: 'Mở rộng flipcard' }).click();
     const card = deck.locator('.flipcard-face');
     const next = deck.getByRole('button', { name: 'Tiếp →' });
-    await expect(next).toBeDisabled();
-    await card.focus();
-    await page.keyboard.press('d');
-    await expect(card).toContainText('猫');
-    await page.keyboard.press('Enter');
     await expect(next).toBeEnabled();
+    await card.focus();
     await page.keyboard.press('d');
     await expect(card).toContainText('犬');
     await expect(card).toBeFocused();
     await expect(next).toBeDisabled();
+    await page.keyboard.press('Space');
+    await expect(card).toContainText('Con chó');
+    await page.keyboard.press('Space');
+    await expect(card).toContainText('犬');
     await page.keyboard.press('a');
     await expect(card).toContainText('猫');
-    await expect(next).toBeDisabled();
-    await card.click();
-    await card.click();
     await expect(next).toBeEnabled();
     await next.click();
     await expect(card).toContainText('犬');
+    await expect(card).toBeFocused();
   });
 }

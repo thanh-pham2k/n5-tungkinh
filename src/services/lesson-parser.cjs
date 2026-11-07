@@ -96,7 +96,9 @@
               back: parts[1],
               example: parts[2],
               synonyms: parts[3] || '',
-              ...(parts[4] ? { partOfSpeech: parts[4] } : {}),
+              ...(parts[4]?.replace(/^\(\s*|\s*\)$/g, '').trim()
+                ? { partOfSpeech: parts[4].replace(/^\(\s*|\s*\)$/g, '').trim() }
+                : {}),
             });
         }
         if (i === lines.length)
@@ -200,26 +202,37 @@
       } else markdown.push(line);
     }
     flush();
-    // Only reuse an unambiguous part of speech explicitly authored in this lesson.
+    // Collect only labels explicitly authored in the lesson, including multiple word classes.
     const vocabulary = new Map();
+    const label = '(?:Phr V|V Phr|Modal V|N-C|N-U|N|V|Adj|Adv|Prep|Prefix|Phrase)(?:\\s+phrase)?';
+    const definition = new RegExp(
+      '^\\s*[-*]\\s+\\*\\*([^*]+)\\*\\*\\s+\\/[^\\n]+?\\/\\s*\\((' +
+        label +
+        '(?:\\s*[,/]\\s*' +
+        label +
+        ')*)\\)\\s*:',
+      'i',
+    );
     for (const block of blocks) {
       if (block.type !== 'markdown') continue;
       for (const line of block.content.split('\n')) {
-        const match = line.match(
-          /^\s*[-*]\s+\*\*([^*]+)\*\*\s+\/[^\n]+?\/\s*\(((?:N|V|Adj|Adv|Phr V)(?:\s*\/\s*(?:N|V|Adj|Adv|Phr V))?(?:\s+phrase)?)\)\s*:/i,
-        );
+        const match = line.match(definition);
         if (!match) continue;
         const key = match[1].trim().toLocaleLowerCase();
-        const value = match[2].trim();
-        if (!vocabulary.has(key)) vocabulary.set(key, value);
-        else if (vocabulary.get(key) !== value) vocabulary.set(key, null);
+        const values = vocabulary.get(key) || [];
+        for (const value of match[2].split(/\s*[,/]\s*/)) {
+          if (!values.some((item) => item.toLowerCase() === value.toLowerCase()))
+            values.push(value);
+        }
+        vocabulary.set(key, values);
       }
     }
     for (const block of blocks) {
       if (block.type !== 'flipcards') continue;
       for (const card of block.cards) {
         const key = card.front.trim().toLocaleLowerCase();
-        if (!card.partOfSpeech && vocabulary.get(key)) card.partOfSpeech = vocabulary.get(key);
+        if (!card.partOfSpeech && vocabulary.has(key))
+          card.partOfSpeech = vocabulary.get(key).join(', ');
       }
     }
     return blocks;
