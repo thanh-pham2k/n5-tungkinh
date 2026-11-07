@@ -403,33 +403,70 @@ export function initializeMarkdown({
     const container = el('section', undefined, 'lesson-flipcards');
     container.setAttribute('aria-label', 'Bộ flipcard');
     let current = 0,
-      flipped = false;
+      flipped = false,
+      revealed = false;
     const count = el('p', undefined, 'flipcard-count');
     count.setAttribute('aria-live', 'polite');
+    const expand = button('⛶', () => {
+      if (closeExpanded) return;
+      const placeholder = document.createComment('flipcard position');
+      container.before(placeholder);
+      const dialog = el('dialog', undefined, 'lesson-deck-dialog flipcard-dialog');
+      dialog.setAttribute('aria-label', 'Luyện tập flipcard');
+      const close = button('×', () => dialog.close());
+      close.className = 'lesson-deck-dialog-close';
+      close.setAttribute('aria-label', 'Đóng flipcard');
+      const bar = el('div', undefined, 'lesson-deck-dialog-bar');
+      bar.append(el('strong', 'Flipcard'), close);
+      placeholder.after(dialog);
+      dialog.append(bar, container);
+      const restore = (restoreFocus = true) => {
+        if (!dialog.isConnected) return;
+        placeholder.replaceWith(container);
+        dialog.remove();
+        closeExpanded = null;
+        if (restoreFocus) expand.focus({ preventScroll: true });
+      };
+      closeExpanded = () => restore(false);
+      dialog.addEventListener('close', () => restore());
+      dialog.addEventListener('cancel', (event) => event.stopPropagation());
+      dialog.showModal();
+      card.focus({ preventScroll: true });
+    });
+    expand.className = 'lesson-deck-expand flipcard-expand';
+    expand.setAttribute('aria-label', 'Mở rộng flipcard');
+    const header = el('div', undefined, 'lesson-deck-header');
+    header.append(count, expand);
     const card = button('', () => {
       flipped = !flipped;
+      if (flipped) revealed = true;
       update();
     });
     card.className = 'flipcard-face';
-    const previous = button('← Trước', () => {
-      current--;
+    function move(delta) {
+      if (
+        (delta < 0 && current === 0) ||
+        (delta > 0 && (!revealed || current === cards.length - 1))
+      )
+        return;
+      current += delta;
       flipped = false;
+      revealed = false;
       update();
-    });
-    const next = button('Tiếp →', () => {
-      current++;
-      flipped = false;
-      update();
-    });
+      card.focus({ preventScroll: true });
+    }
+    const previous = button('← Trước', () => move(-1));
+    const next = button('Tiếp →', () => move(1));
     const navigation = el('div', undefined, 'flipcard-navigation');
     navigation.append(previous, next);
-    container.append(count, card, navigation);
+    container.append(header, card, navigation);
     function update() {
       count.textContent = `Thẻ ${current + 1} / ${cards.length} · ${flipped ? 'Mặt sau' : 'Mặt trước'}`;
       const item = cards[current];
       const content = el('span', undefined, 'flipcard-content');
-      if (flipped && item.example !== undefined) {
+      if (flipped) {
         for (const [label, value] of [
+          ['Từ loại', item.partOfSpeech || 'Chưa ghi'],
           ['Giải thích / ngữ cảnh', item.back],
           ['Ví dụ', item.example],
           ['Từ đồng nghĩa', item.synonyms],
@@ -446,8 +483,25 @@ export function initializeMarkdown({
         `${flipped ? 'Mặt sau' : 'Mặt trước'}: ${content.textContent}. Nhấn để lật thẻ`,
       );
       previous.disabled = current === 0;
-      next.disabled = current === cards.length - 1;
+      next.disabled = !revealed || current === cards.length - 1;
     }
+    container.addEventListener('keydown', (event) => {
+      if (
+        event.defaultPrevented ||
+        event.altKey ||
+        event.ctrlKey ||
+        event.metaKey ||
+        event.repeat ||
+        event.target.isContentEditable ||
+        event.target.closest('input, textarea, select, [contenteditable]')
+      )
+        return;
+      const key = event.key.toLowerCase();
+      if (key === 'a' || key === 'd') {
+        event.preventDefault();
+        move(key === 'a' ? -1 : 1);
+      }
+    });
     update();
     return container;
   }

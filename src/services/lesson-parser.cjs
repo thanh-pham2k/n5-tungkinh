@@ -77,17 +77,17 @@
           if (!lines[i].trim()) continue;
           const parts = lines[i]
             .trimEnd()
-            .split(/\s+\|(?:\s+|$)/)
+            .split(/\s+\| ?/)
             .map((part) => part.trim());
           if (
-            ![2, 3, 4].includes(parts.length) ||
+            ![2, 3, 4, 5].includes(parts.length) ||
             !parts[0] ||
             !parts[1] ||
             (parts.length >= 3 && !parts[2])
           ) {
             blocks.push({
               type: 'error',
-              content: `Dòng ${i + 1}: flipcard cần mặt trước | mặt sau hoặc mặt trước | giải thích | ví dụ | từ đồng nghĩa (có thể bỏ trống).`,
+              content: `Dòng ${i + 1}: flipcard cần mặt trước | mặt sau hoặc mặt trước | giải thích | ví dụ | từ đồng nghĩa | từ loại (hai trường cuối có thể bỏ trống).`,
             });
           } else if (parts.length === 2) cards.push({ front: parts[0], back: parts[1] });
           else
@@ -96,6 +96,7 @@
               back: parts[1],
               example: parts[2],
               synonyms: parts[3] || '',
+              ...(parts[4] ? { partOfSpeech: parts[4] } : {}),
             });
         }
         if (i === lines.length)
@@ -199,6 +200,28 @@
       } else markdown.push(line);
     }
     flush();
+    // Only reuse an unambiguous part of speech explicitly authored in this lesson.
+    const vocabulary = new Map();
+    for (const block of blocks) {
+      if (block.type !== 'markdown') continue;
+      for (const line of block.content.split('\n')) {
+        const match = line.match(
+          /^\s*[-*]\s+\*\*([^*]+)\*\*\s+\/[^\n]+?\/\s*\(((?:N|V|Adj|Adv|Phr V)(?:\s*\/\s*(?:N|V|Adj|Adv|Phr V))?(?:\s+phrase)?)\)\s*:/i,
+        );
+        if (!match) continue;
+        const key = match[1].trim().toLocaleLowerCase();
+        const value = match[2].trim();
+        if (!vocabulary.has(key)) vocabulary.set(key, value);
+        else if (vocabulary.get(key) !== value) vocabulary.set(key, null);
+      }
+    }
+    for (const block of blocks) {
+      if (block.type !== 'flipcards') continue;
+      for (const card of block.cards) {
+        const key = card.front.trim().toLocaleLowerCase();
+        if (!card.partOfSpeech && vocabulary.get(key)) card.partOfSpeech = vocabulary.get(key);
+      }
+    }
     return blocks;
   }
   root.LessonParser = { parse };

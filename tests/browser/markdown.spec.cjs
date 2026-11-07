@@ -505,3 +505,88 @@ test('structured flipcard shows labeled context, example and optional synonyms',
   await expect(card).toContainText('Ví dụ: She is happy.');
   await expect(card).not.toContainText('Từ đồng nghĩa:');
 });
+
+for (const width of [390, 1280]) {
+  test(`expanded flipcards preserve state and keyboard focus at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 700 });
+    await page.goto('/markdown/');
+    await expect(page.locator('#markdown-loading')).toBeHidden();
+    await openMobileEditor(page, '```flipcard\n猫 | Con mèo\n**apple** | quả táo\n```');
+    const deck = page.getByRole('region', { name: 'Bộ flipcard' });
+    const expand = deck.getByRole('button', { name: 'Mở rộng flipcard' });
+    await expand.click();
+    const dialog = page.getByRole('dialog', { name: 'Luyện tập flipcard' });
+    const card = dialog.locator('.flipcard-face');
+    await expect(card).toBeFocused();
+    await page.keyboard.press('Enter');
+    await expect(card).toContainText('Con mèo');
+    await dialog.getByRole('button', { name: 'Tiếp →' }).click();
+    await card.click();
+    await expect(card).toContainText('quả táo');
+    await page.keyboard.press('Escape');
+    await expect(dialog).toHaveCount(0);
+    await expect(expand).toBeFocused();
+    await expect(deck.locator('.flipcard-face')).toContainText('quả táo');
+    await expect(deck).toContainText('Thẻ 2 / 2');
+    await expand.click();
+    await page
+      .getByRole('dialog', { name: 'Luyện tập flipcard' })
+      .getByRole('button', { name: 'Đóng flipcard' })
+      .click();
+    await expect(expand).toBeFocused();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
+      true,
+    );
+  });
+}
+
+test('flipcards show authored parts of speech and mark missing values', async ({ page }) => {
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  await openMobileEditor(
+    page,
+    '- **routine** /ruːˈtiːn/ (N): thói quen.\n\n```flipcard\nroutine | thói quen | A routine. | habit\nhappy | vui | She is happy. | glad | Adj\nunknown | chưa rõ | Example. |\n```',
+  );
+  const deck = page.getByRole('region', { name: 'Bộ flipcard' });
+  const card = deck.locator('.flipcard-face');
+  await card.click();
+  await expect(card).toContainText('Từ loại: N');
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await card.click();
+  await expect(card).toContainText('Từ loại: Adj');
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await card.click();
+  await expect(card).toContainText('Từ loại: Chưa ghi');
+});
+
+for (const expanded of [false, true]) {
+  test(`flipcards require a reveal before advancing and support A/D (${expanded ? 'expanded' : 'inline'})`, async ({
+    page,
+  }) => {
+    await page.goto('/markdown/');
+    await expect(page.locator('#markdown-loading')).toBeHidden();
+    await openMobileEditor(page, '```flipcard\n猫 | Con mèo\n犬 | Con chó\n```');
+    let deck = page.getByRole('region', { name: 'Bộ flipcard' });
+    if (expanded) await deck.getByRole('button', { name: 'Mở rộng flipcard' }).click();
+    const card = deck.locator('.flipcard-face');
+    const next = deck.getByRole('button', { name: 'Tiếp →' });
+    await expect(next).toBeDisabled();
+    await card.focus();
+    await page.keyboard.press('d');
+    await expect(card).toContainText('猫');
+    await page.keyboard.press('Enter');
+    await expect(next).toBeEnabled();
+    await page.keyboard.press('d');
+    await expect(card).toContainText('犬');
+    await expect(card).toBeFocused();
+    await expect(next).toBeDisabled();
+    await page.keyboard.press('a');
+    await expect(card).toContainText('猫');
+    await expect(next).toBeDisabled();
+    await card.click();
+    await card.click();
+    await expect(next).toBeEnabled();
+    await next.click();
+    await expect(card).toContainText('犬');
+  });
+}

@@ -6,6 +6,7 @@ import LoginView from './auth/login-view';
 import useAuth from '../hooks/use-auth';
 import { readCatalog, studyRequest } from '../services/study-library-client';
 import { formatReviewTime } from '../services/review-time';
+import { EVIU_PHASES, eviuPosition } from '../services/eviu-layout';
 
 function normalizeCatalog(catalog) {
   if (typeof catalog === 'string') {
@@ -74,6 +75,7 @@ export default function Foundation({ eviu = false }) {
           const progress = match?.progress;
           return {
             ...item,
+            ...(eviu ? eviuPosition(item.id) : {}),
             completedAt: progress?.foundationCompletedAt || null,
             completionCount:
               progress?.foundationCompletionCount ?? (progress?.foundationCompletedAt ? 1 : 0),
@@ -122,7 +124,7 @@ export default function Foundation({ eviu = false }) {
           : 'Học cách xây câu và sử dụng tiếng Anh trong đời sống.'}
       </p>
       {(eviu
-        ? [{ phase: 1, title: 'EVIU', startModule: 1, names: ['41 unit'] }]
+        ? EVIU_PHASES
         : [
             {
               phase: 1,

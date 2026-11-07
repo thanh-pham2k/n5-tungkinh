@@ -88,11 +88,11 @@ Mỗi dòng trong block `flipcard` là một thẻ, với các trường cách n
 
 ````markdown
 ```flipcard
-apple | quả táo; danh từ chỉ loại quả | I eat an apple every day. | Không có từ đồng nghĩa thông dụng
-happy | vui vẻ, dùng để diễn tả cảm xúc | She looks happy. | glad, joyful
+apple | quả táo; danh từ chỉ loại quả | I eat an apple every day. |  | N
+happy | vui vẻ, dùng để diễn tả cảm xúc | She looks happy. | glad, joyful | Adj
 ```
 ````
 
-Thứ tự: **mặt trước | giải thích/ngữ cảnh | ví dụ | từ đồng nghĩa**. Ba trường đầu bắt buộc; từ đồng nghĩa có thể bỏ trống hoặc bỏ hẳn dấu phân cách cuối. Các trường không chứa chuỗi phân cách ` | ` và hỗ trợ Markdown nội tuyến như chữ đậm và chữ nghiêng.
+Thứ tự: **mặt trước | giải thích/ngữ cảnh | ví dụ | từ đồng nghĩa | từ loại**. Ba trường đầu bắt buộc; hai trường cuối tùy chọn. Nếu ghi từ loại mà không có từ đồng nghĩa, để trống trường thứ tư. Từ loại hiển thị ở mặt sau. Với format cũ, ứng dụng có thể dùng từ loại được ghi rõ và không mâu thuẫn trong mục từ vựng cùng bài; nếu không tìm thấy, hiển thị “Chưa ghi”. Các trường không chứa chuỗi phân cách ` | ` và hỗ trợ Markdown nội tuyến như chữ đậm và chữ nghiêng.
 
-Format cũ `mặt trước | mặt sau` vẫn được hỗ trợ. Nhấn thẻ để lật, dùng nút Trước/Tiếp để chuyển thẻ. Thao tác lật và vị trí thẻ chỉ giữ trong lúc xem hiện tại.
+Format cũ `mặt trước | mặt sau` vẫn được hỗ trợ. Nhấn thẻ để lật; sau khi xem mặt sau mới có thể sang thẻ tiếp. Dùng nút Trước/Tiếp hoặc phím A/D khi đang tập trung trong bộ thẻ để chuyển thẻ. Thao tác lật và vị trí thẻ chỉ giữ trong lúc xem hiện tại.

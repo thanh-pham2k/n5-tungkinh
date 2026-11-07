@@ -47,3 +47,11 @@ Danh mục theo thứ tự học; `manifest.json` là nguồn thứ tự và ID 
 | 41 | Unit 77 — Verb or Adjective + Preposition | [77.md](77.md) | Đã trích xuất, parse và nhập catalog |
 
 Import chủ động dùng `scripts/publish-eviu.mjs --dry-run <hostname>` rồi `--apply <hostname>` với credentials phía server. Script tạo snapshot catalog EVIU trước khi ghi, kiểm tra 41 bài và từ chối ghi đè nội dung khác; không chạy khi build hoặc request.
+
+## Cấu trúc học
+
+Giữ thứ tự 41 unit đã chọn, chia thành ba phase; mỗi module có tối đa năm unit. Lịch sử và tiến độ vẫn gắn với nội dung bài.
+
+- Phase 1 — Học từ vựng & đời sống: Module 1–3, bài 1–15.
+- Phase 2 — Giao tiếp & công việc: Module 4–6, bài 16–30.
+- Phase 3 — Động từ & ngữ pháp từ: Module 7–9, bài 31–41; Module 9 gồm Unit 77.

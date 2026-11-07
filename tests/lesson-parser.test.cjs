@@ -152,3 +152,19 @@ test('parses structured flipcard backs and requires explanation and example', ()
   ]);
   assert.match(blocks.find((block) => block.type === 'error').content, /Dòng 5/);
 });
+
+test('flipcards use explicit or unambiguous authored parts of speech', () => {
+  const source =
+    '- **routine** /ruːˈtiːn/ (N): thói quen.\n- **run** /rʌn/ (V): chạy.\n- **run** /rʌn/ (N): lần chạy.\n\n```flipcard\nroutine | thói quen | A daily routine. | habit\nrun | chạy | I run. |  | V\nunknown | chưa biết | Example. |\n```';
+  const cards = parse(source).find((block) => block.type === 'flipcards').cards;
+  assert.equal(cards[0].partOfSpeech, 'N');
+  assert.equal(cards[1].partOfSpeech, 'V');
+  assert.equal(cards[2].partOfSpeech, undefined);
+  const ambiguous = parse(
+    '- **run** /rʌn/ (V): chạy.\n- **run** /rʌn/ (N): lần chạy.\n\n```flipcard\nrun | chạy | I run.\n```',
+  );
+  assert.equal(
+    ambiguous.find((block) => block.type === 'flipcards').cards[0].partOfSpeech,
+    undefined,
+  );
+});
