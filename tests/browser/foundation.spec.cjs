@@ -554,3 +554,95 @@ test('expanded quiz closes back to the lesson without losing the answer', async 
   await expect(lesson).toBeVisible();
   await expect(deck.locator('input:checked')).toHaveCount(1);
 });
+
+for (const width of [390, 1280]) {
+  test(`selected lesson text can be spoken at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 844 });
+    let requestBody;
+    await page.route('https://api.soundoftext.com/sounds', async (route) => {
+      requestBody = route.request().postDataJSON();
+      await route.fulfill({ status: 503, body: 'Unavailable' });
+    });
+    await page.goto('/foundation/');
+    await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
+    await page.locator('.foundation-module').first().locator('summary').click();
+    await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+    const dialog = page.getByRole('dialog', {
+      name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ',
+    });
+    const text = dialog.locator('#lesson-output h1');
+    await text.scrollIntoViewIfNeeded();
+    await text.evaluate((element) => {
+      const range = document.createRange();
+      range.selectNodeContents(element);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+    });
+    const button = dialog.getByRole('button', { name: 'Nghe đoạn đã chọn' });
+    await expect(button).toBeVisible();
+    const box = await button.boundingBox();
+    expect(box.x).toBeGreaterThanOrEqual(0);
+    expect(box.x + box.width).toBeLessThanOrEqual(width);
+    await button.click();
+    await expect(dialog.getByRole('alert').first()).toContainText('503');
+    expect(requestBody.data.text).toBe('Lesson 1 — Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ');
+    expect(requestBody.data.voice).toBe('en-US');
+    await page.evaluate(() => window.getSelection().removeAllRanges());
+    await expect(button).toHaveCount(0);
+    const replay = dialog.getByRole('button', { name: /Nghe lại: Lesson 1/ });
+    await expect(replay).toBeVisible();
+    requestBody = null;
+    await replay.click();
+    await expect
+      .poll(() => requestBody?.data.text)
+      .toBe('Lesson 1 — Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ');
+    await dialog.getByRole('button', { name: 'Đóng' }).click();
+    await expect(replay).toHaveCount(0);
+  });
+}
+
+test('selected audio can loop and stop using cached speech', async ({ page }) => {
+  let requests = 0;
+  await page.addInitScript(() => {
+    window.audioPlays = 0;
+    HTMLMediaElement.prototype.play = function () {
+      window.audioPlays++;
+      setTimeout(() => this.dispatchEvent(new Event('ended')), 30);
+      return Promise.resolve();
+    };
+  });
+  await page.route('https://api.soundoftext.com/sounds', (route) => {
+    requests++;
+    return route.fulfill({ json: { id: 'loop-fixture' } });
+  });
+  await page.route('https://api.soundoftext.com/sounds/loop-fixture', (route) =>
+    route.fulfill({ json: { status: 'Done', location: 'https://example.com/audio.mp3' } }),
+  );
+  await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
+  await page.locator('.foundation-module').first().locator('summary').click();
+  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  const dialog = page.getByRole('dialog', { name: 'Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ' });
+  await dialog.locator('#lesson-output h1').evaluate((element) => {
+    const range = document.createRange();
+    range.selectNodeContents(element);
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+  });
+  await dialog.getByRole('button', { name: 'Nghe đoạn đã chọn' }).click();
+  const list = dialog.getByRole('region', { name: 'Instant Vocab trong bài' });
+  await expect(list.locator('li')).toHaveCount(1);
+  await expect.poll(() => page.evaluate(() => window.audioPlays)).toBeGreaterThan(0);
+  const loop = list.getByRole('button', { name: '▶ Phát lặp' });
+  await expect(loop).toBeEnabled();
+  await loop.click();
+  await expect.poll(() => page.evaluate(() => window.audioPlays)).toBeGreaterThan(3);
+  await list.getByRole('button', { name: '■ Dừng' }).click();
+  await expect(loop).toBeEnabled();
+  const stoppedAt = await page.evaluate(() => window.audioPlays);
+  await page.waitForTimeout(150);
+  expect(await page.evaluate(() => window.audioPlays)).toBe(stoppedAt);
+  expect(requests).toBe(1);
+});

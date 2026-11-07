@@ -622,3 +622,50 @@ body.dark .lesson-deck button[aria-current='step'] {
   padding: 0.25rem;
   vertical-align: middle;
 }
+
+.selection-speech-button {
+  position: fixed;
+  z-index: 20;
+  width: var(--tap-size);
+  min-width: var(--tap-size);
+  height: var(--tap-size);
+  padding: 0;
+  background: var(--accent);
+}
+
+.saved-selection-speech-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--tap-size);
+  min-height: var(--tap-size);
+  margin-inline: var(--space-1);
+  padding: 0;
+  vertical-align: middle;
+  background: var(--accent);
+}
+
+.selected-audio-list {
+  max-width: 1000px;
+  margin: var(--space-4) auto 0;
+  padding: var(--space-3) var(--space-4);
+  background: var(--paper);
+  border: var(--border);
+  border-radius: var(--radius-sm);
+}
+.selected-audio-list h2 {
+  margin: 0 0 var(--space-2);
+  font-size: var(--text-lg);
+}
+.selected-audio-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+.selected-audio-list ol {
+  max-height: 9rem;
+  overflow: auto;
+  margin: var(--space-2) 0 0;
+  padding-left: var(--space-6);
+  overflow-wrap: anywhere;
+}
