@@ -23,6 +23,7 @@ export default function MarkdownWorkspace({
   const { user, loading: authLoading, logout, setUser } = useAuth();
   const [error, setError] = useState('');
   const [markingFoundation, setMarkingFoundation] = useState(false);
+  const [markedThisSession, setMarkedThisSession] = useState(false);
   const [focusMode, setFocusMode] = useState(false);
   const [course, setCourse] = useState([]);
   const [courseList, setCourseList] = useState(false);
@@ -525,9 +526,12 @@ export default function MarkdownWorkspace({
         <div className="foundation-completion-actions">
           <Button
             variant="primary"
-            disabled={!library.lesson || markingFoundation}
+            disabled={
+              !library.lesson || markingFoundation || (repeatCompletion && markedThisSession)
+            }
             onClick={async () => {
               setMarkingFoundation(true);
+              if (repeatCompletion) setMarkedThisSession(true);
               try {
                 const progress = library.lesson.progress;
                 const completedAt =

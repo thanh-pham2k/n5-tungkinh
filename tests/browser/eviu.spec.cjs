@@ -22,7 +22,12 @@ for (const width of [390, 1280]) {
     await expect(card).toBeVisible();
     await card.click();
     await expect(card).toContainText('Giải thích');
-    await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
+    const complete = dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true });
+    await complete.click();
+    await expect(complete).toBeDisabled();
+    await dialog.getByRole('button', { name: 'Đóng' }).click();
+    await rows.last().click();
+    await expect(complete).toBeEnabled();
     await dialog.getByRole('button', { name: 'Đóng' }).click();
     await expect(rows.last()).toContainText('Unit 1');
     await page.reload();

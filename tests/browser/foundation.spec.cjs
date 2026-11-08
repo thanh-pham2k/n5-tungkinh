@@ -67,7 +67,7 @@ test('completed lessons move behind older reviews and persist across reload', as
     await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
     await expect(
       dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
-    ).toBeEnabled();
+    ).toBeDisabled();
     await dialog.getByRole('button', { name: 'Đóng' }).click();
     await expect(cards.nth(0)).toContainText('Lesson 2');
     await expect(cards.nth(1)).toContainText('Lesson 1');
@@ -89,7 +89,7 @@ test('completed lessons move behind older reviews and persist across reload', as
     await second.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
     await expect(
       second.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
-    ).toBeEnabled();
+    ).toBeDisabled();
     await second.getByRole('button', { name: 'Đóng' }).click();
     await expect(cards.nth(0)).toContainText('Lesson 1');
     await expect(cards.nth(1)).toContainText('Lesson 2');
@@ -135,7 +135,7 @@ test('completion remains unchanged if saving fails', async ({ page }) => {
   );
   await button.click();
   await expect(dialog.getByRole('alert').first()).toContainText('Không lưu được tiến độ.');
-  await expect(button).toBeEnabled();
+  await expect(button).toBeDisabled();
   await expect(
     page.locator('.foundation-lesson').first().getByRole('img', { name: 'Chưa hoàn thành' }),
   ).toBeVisible();
@@ -201,7 +201,7 @@ test('Foundation quiz starts fresh on reopen while manual completion persists', 
   await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
   await expect(
     dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
-  ).toBeEnabled();
+  ).toBeDisabled();
   expect(writes.length).toBeGreaterThan(0);
   for (const write of writes) expect(write.progress).not.toHaveProperty('markdownAnswers');
   await dialog.getByRole('button', { name: 'Đóng' }).click();
@@ -254,7 +254,7 @@ test('real Foundation lesson completion displays its time and moves last', async
   await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
   await expect(
     dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
-  ).toBeEnabled();
+  ).toBeDisabled();
   await dialog.getByRole('button', { name: 'Đóng' }).click();
   await expect(cards.nth(2)).toContainText('Lesson 1');
   await expect(cards.nth(2).locator('time')).toHaveText('Vừa ôn xong');
@@ -397,7 +397,7 @@ test('Module 2 lessons open and completion stays within its module', async ({ pa
   await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
   await expect(
     dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
-  ).toBeEnabled();
+  ).toBeDisabled();
   await dialog.getByRole('button', { name: 'Đóng' }).click();
   await expect(second.last()).toContainText('Lesson 1');
   await expect(first.first()).toContainText('Lesson 1');
