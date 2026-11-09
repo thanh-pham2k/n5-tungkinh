@@ -120,4 +120,46 @@ test('yentr desktop view has sidebar with exactly two course tabs', async ({ pag
   await expect(sidebar.getByText('EVIU')).toHaveCount(0);
   await expect(sidebar.getByText('English Foundation')).toHaveCount(0);
   await expect(sidebar.getByText('Markdown & Quiz')).toHaveCount(0);
+
+  // Toggle button collapses and expands the sidebar
+  await page.getByRole('button', { name: 'Thu gọn thanh bên' }).click();
+  await expect(sidebar).not.toBeVisible();
+  await expect(page.locator('.app-shell')).toHaveClass(/sidebar-collapsed/);
+
+  // Workspace expand button restores sidebar
+  await page.getByRole('button', { name: 'Hiện thanh bên' }).click();
+  await expect(sidebar).toBeVisible();
+  await expect(page.locator('.app-shell')).not.toHaveClass(/sidebar-collapsed/);
+});
+
+test('yentr mobile view has clean header, hidden sidebar, and working course drawer', async ({
+  page,
+  context,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await context.clearCookies();
+  await context.addCookies([
+    {
+      name: 'kotoba-auth-token',
+      value: makeAuthToken('yentr'),
+      domain: '127.0.0.1',
+      path: '/',
+      httpOnly: true,
+      sameSite: 'Strict',
+    },
+  ]);
+
+  await page.goto('/french/');
+  await expect(page.locator('.sidebar')).not.toBeVisible();
+  await expect(page.locator('.mobile-brand')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Đổi công cụ học' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Đăng xuất' })).toBeVisible();
+
+  // Open mobile drawer
+  await page.getByRole('button', { name: 'Đổi công cụ học' }).click();
+  const dialog = page.getByRole('dialog');
+  await expect(dialog).toBeVisible();
+  await expect(dialog.getByRole('link', { name: /600 từ vựng TOEIC/ })).toBeVisible();
+  await expect(dialog.getByRole('link', { name: /Tiếng Pháp A1–A2/ })).toBeVisible();
+  await expect(dialog.getByText('yentr')).toBeVisible();
 });

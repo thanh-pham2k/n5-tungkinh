@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Button, Dialog } from './ui/primitives';
 import useAuth from '../hooks/use-auth';
 import LoginView from './auth/login-view';
@@ -7,6 +7,25 @@ import LoginView from './auth/login-view';
 export default function YentrShell({ currentTab, onLogout, children }) {
   const { user, loading, setUser, logout } = useAuth();
   const [menu, setMenu] = useState(false);
+  const [collapsed, setCollapsed] = useState(false);
+
+  useEffect(() => {
+    try {
+      if (localStorage.getItem('kotoba_yentr_sidebar_collapsed') === 'true') {
+        setCollapsed(true);
+      }
+    } catch {}
+  }, []);
+
+  const toggleSidebar = () => {
+    setCollapsed((prev) => {
+      const next = !prev;
+      try {
+        localStorage.setItem('kotoba_yentr_sidebar_collapsed', String(next));
+      } catch {}
+      return next;
+    });
+  };
 
   if (loading) return null;
   if (!user) return <LoginView onLoginSuccess={setUser} />;
@@ -54,20 +73,31 @@ export default function YentrShell({ currentTab, onLogout, children }) {
   );
 
   return (
-    <div className="app-shell">
+    <div className={`app-shell ${collapsed ? 'sidebar-collapsed' : ''}`}>
       <a className="skip-link" href="#study-content">
         Đến nội dung học
       </a>
       <aside className="sidebar">
-        <a className="brand" href={`${basePath}/`}>
-          <span className="brand-mark" aria-hidden="true">
-            言
-          </span>
-          <span>
-            KOTOBA<span className="brand-lab"> LAB</span>
-            <small>HỌC MỘT CHÚT. NHỚ THẬT LÂU.</small>
-          </span>
-        </a>
+        <div className="sidebar-header">
+          <a className="brand" href={`${basePath}/`}>
+            <span className="brand-mark" aria-hidden="true">
+              言
+            </span>
+            <span>
+              KOTOBA<span className="brand-lab"> LAB</span>
+              <small>HỌC MỘT CHÚT. NHỚ THẬT LÂU.</small>
+            </span>
+          </a>
+          <Button
+            variant="secondary"
+            className="sidebar-collapse-btn"
+            onClick={toggleSidebar}
+            aria-label="Thu gọn thanh bên"
+            title="Thu gọn thanh bên"
+          >
+            ◀ Ẩn
+          </Button>
+        </div>
         <nav aria-label="Công cụ học">{nav}</nav>
         <div className="sidebar-user">
           <div className="user-profile">
@@ -92,29 +122,35 @@ export default function YentrShell({ currentTab, onLogout, children }) {
       </aside>
       <div className="app-workspace">
         <header className="app-header">
-          <div className="mobile-brand">
-            <span aria-hidden="true">言</span> KOTOBA LAB
+          <div className="header-left">
+            <div className="mobile-brand">
+              <span aria-hidden="true">言</span> KOTOBA LAB
+            </div>
+            <Button
+              className="desktop-sidebar-toggle"
+              onClick={toggleSidebar}
+              aria-label={collapsed ? 'Hiện thanh bên' : 'Ẩn thanh bên'}
+              title={collapsed ? 'Hiện thanh bên' : 'Ẩn thanh bên'}
+            >
+              {collapsed ? '▶ Hiện menu' : '◀ Ẩn menu'}
+            </Button>
+            <span className="header-context">
+              Khóa học <span aria-hidden="true">/</span>{' '}
+              {currentTab === 'french' ? 'Tiếng Pháp A1–A2' : '600 từ vựng TOEIC'}
+            </span>
           </div>
-          <span className="header-context">
-            Khóa học <span aria-hidden="true">/</span>{' '}
-            {currentTab === 'french' ? 'Tiếng Pháp A1–A2' : '600 từ vựng TOEIC'}
-          </span>
           <div className="header-actions">
             <Button
               className="mobile-menu"
               onClick={() => setMenu(true)}
               aria-label="Đổi công cụ học"
             >
-              ☰ Công cụ
+              ☰ Khóa học
             </Button>
             <span className="user-chip" title={`Tài khoản: ${user.name}`}>
               <span aria-hidden="true">👤</span> {user.name}
             </span>
-            <Button
-              className="button-logout"
-              onClick={handleLogout}
-              style={{ display: 'inline-flex' }}
-            >
+            <Button className="button-logout" onClick={handleLogout}>
               Đăng xuất
             </Button>
           </div>
@@ -123,7 +159,7 @@ export default function YentrShell({ currentTab, onLogout, children }) {
           {children}
         </main>
       </div>
-      <Dialog open={menu} onClose={() => setMenu(false)} title="Bạn muốn luyện gì?">
+      <Dialog open={menu} onClose={() => setMenu(false)} title="Khóa học">
         {nav}
         <div
           className="mobile-user-actions"
