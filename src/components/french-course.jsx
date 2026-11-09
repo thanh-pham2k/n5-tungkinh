@@ -103,134 +103,132 @@ export default function FrenchCourse({ onLogout, embedded = false }) {
     { phase: 4, title: 'Phần 4: Đánh giá tổng hợp' },
   ];
 
-  if (selected) {
-    return (
-      <main
-        className="foundation-page"
-        style={{ maxWidth: '1000px', width: '100%', margin: '0 auto', padding: 'var(--space-4)' }}
-      >
-        <div style={{ marginBottom: 'var(--space-4)' }}>
-          <Button
-            onClick={() => {
-              setSelected(null);
-              window.scrollTo({ top: 0, behavior: 'instant' });
+  return (
+    <>
+      {selected && (
+        <main className="foundation-page course-reading">
+          <div style={{ marginBottom: 'var(--space-4)' }}>
+            <Button
+              onClick={() => {
+                setSelected(null);
+                window.scrollTo({ top: 0, behavior: 'instant' });
+              }}
+            >
+              ← Danh sách bài học
+            </Button>
+          </div>
+          <h2 className="course-reading-title">{selected.title}</h2>
+          <MarkdownWorkspace
+            foundation={selected}
+            onFoundationComplete={(completedAt) => {
+              setClock(Date.now());
+              setLessons((current) =>
+                current.map((item) => (item.id === selected.id ? { ...item, completedAt } : item)),
+              );
+            }}
+          />
+        </main>
+      )}
+
+      <main className="foundation-page" hidden={!!selected}>
+        {!embedded && (
+          <div
+            className="course-nav-bar"
+            style={{
+              display: 'flex',
+              gap: '8px',
+              marginBottom: '16px',
+              flexWrap: 'wrap',
+              alignItems: 'center',
             }}
           >
-            ← Danh sách bài học
-          </Button>
-        </div>
-        <MarkdownWorkspace
-          foundation={selected}
-          onFoundationComplete={(completedAt) => {
-            setClock(Date.now());
-            setLessons((current) =>
-              current.map((item) => (item.id === selected.id ? { ...item, completedAt } : item)),
+            <a className="button" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/toeic-600/`}>
+              📚 600 từ vựng TOEIC ↗
+            </a>
+            <Button variant="secondary" onClick={onLogout || logout}>
+              Đăng xuất
+            </Button>
+          </div>
+        )}
+
+        <p className="eyebrow">FRANÇAIS A1–A2 · DÀNH RIÊNG CHO YENTR</p>
+        <h1>Tiếng Pháp A1–A2</h1>
+        <p style={{ marginBottom: '24px', color: 'var(--ink-muted)' }}>
+          10 chủ đề ngữ pháp cốt lõi theo Le Nouveau Taxi !, 3 bài ôn tập định kỳ và 1 bài kiểm tra
+          cuối khóa kèm quiz tương tác.
+        </p>
+
+        {busy && <Status>Đang tải danh sách bài học…</Status>}
+        {error && (
+          <>
+            <Status error>{error}</Status>
+            <button className="button" onClick={load}>
+              Thử lại
+            </button>
+          </>
+        )}
+
+        {!busy &&
+          !error &&
+          phases.map(({ phase, title }) => {
+            const phaseLessons = lessons.filter((item) => item.phase === phase);
+            if (!phaseLessons.length) return null;
+
+            const ordered = [...phaseLessons].sort((a, b) =>
+              !a.completedAt
+                ? b.completedAt
+                  ? -1
+                  : 0
+                : !b.completedAt
+                  ? 1
+                  : a.completedAt.localeCompare(b.completedAt),
             );
-          }}
-        />
+
+            const completedCount = phaseLessons.filter((l) => l.completedAt).length;
+
+            return (
+              <details className="foundation-phase" key={phase} open={true}>
+                <summary className="foundation-phase-toggle">
+                  <span>
+                    {title} ({completedCount}/{phaseLessons.length})
+                  </span>
+                  <span className="foundation-phase-icon" aria-hidden="true" />
+                </summary>
+                {ordered.map((item) => (
+                  <button
+                    key={item.id}
+                    className="foundation-lesson"
+                    type="button"
+                    onClick={() => setSelected(item)}
+                  >
+                    <span className="foundation-lesson-main">
+                      <span
+                        className={`foundation-status ${item.completedAt ? 'is-complete' : ''}`}
+                        role="img"
+                        aria-label={item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
+                      >
+                        {item.completedAt && <span aria-hidden="true">✓</span>}
+                      </span>
+                      <span>
+                        <strong>{item.label}</strong>
+                        <br />
+                        {item.title}
+                        {item.completedAt && (
+                          <time className="foundation-completed-time" dateTime={item.completedAt}>
+                            {formatReviewTime(item.completedAt, clock)}
+                          </time>
+                        )}
+                      </span>
+                    </span>
+                    <span className="foundation-lesson-arrow" aria-hidden="true">
+                      ↗
+                    </span>
+                  </button>
+                ))}
+              </details>
+            );
+          })}
       </main>
-    );
-  }
-
-  return (
-    <main className="foundation-page">
-      {!embedded && (
-        <div
-          className="course-nav-bar"
-          style={{
-            display: 'flex',
-            gap: '8px',
-            marginBottom: '16px',
-            flexWrap: 'wrap',
-            alignItems: 'center',
-          }}
-        >
-          <a className="button" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/toeic-600/`}>
-            📚 600 từ vựng TOEIC ↗
-          </a>
-          <Button variant="secondary" onClick={onLogout || logout}>
-            Đăng xuất
-          </Button>
-        </div>
-      )}
-
-      <p className="eyebrow">FRANÇAIS A1–A2 · DÀNH RIÊNG CHO YENTR</p>
-      <h1>Tiếng Pháp A1–A2</h1>
-      <p style={{ marginBottom: '24px', color: 'var(--ink-muted)' }}>
-        10 chủ đề ngữ pháp cốt lõi theo Le Nouveau Taxi !, 3 bài ôn tập định kỳ và 1 bài kiểm tra
-        cuối khóa kèm quiz tương tác.
-      </p>
-
-      {busy && <Status>Đang tải danh sách bài học…</Status>}
-      {error && (
-        <>
-          <Status error>{error}</Status>
-          <button className="button" onClick={load}>
-            Thử lại
-          </button>
-        </>
-      )}
-
-      {!busy &&
-        !error &&
-        phases.map(({ phase, title }) => {
-          const phaseLessons = lessons.filter((item) => item.phase === phase);
-          if (!phaseLessons.length) return null;
-
-          const ordered = [...phaseLessons].sort((a, b) =>
-            !a.completedAt
-              ? b.completedAt
-                ? -1
-                : 0
-              : !b.completedAt
-                ? 1
-                : a.completedAt.localeCompare(b.completedAt),
-          );
-
-          const completedCount = phaseLessons.filter((l) => l.completedAt).length;
-
-          return (
-            <details className="foundation-phase" key={phase} open={true}>
-              <summary className="foundation-phase-toggle">
-                <span>
-                  {title} ({completedCount}/{phaseLessons.length})
-                </span>
-                <span className="foundation-phase-icon" aria-hidden="true" />
-              </summary>
-              {ordered.map((item) => (
-                <button
-                  key={item.id}
-                  className="foundation-lesson"
-                  type="button"
-                  onClick={() => setSelected(item)}
-                >
-                  <span className="foundation-lesson-main">
-                    <span
-                      className={`foundation-status ${item.completedAt ? 'is-complete' : ''}`}
-                      role="img"
-                      aria-label={item.completedAt ? 'Đã hoàn thành' : 'Chưa hoàn thành'}
-                    >
-                      {item.completedAt && <span aria-hidden="true">✓</span>}
-                    </span>
-                    <span>
-                      <strong>{item.label}</strong>
-                      <br />
-                      {item.title}
-                      {item.completedAt && (
-                        <time className="foundation-completed-time" dateTime={item.completedAt}>
-                          {formatReviewTime(item.completedAt, clock)}
-                        </time>
-                      )}
-                    </span>
-                  </span>
-                  <span className="foundation-lesson-arrow" aria-hidden="true">
-                    ↗
-                  </span>
-                </button>
-              ))}
-            </details>
-          );
-        })}
-    </main>
+    </>
   );
 }

@@ -209,3 +209,31 @@
   padding-top: var(--space-4);
   padding-bottom: var(--space-8);
 }
+
+/* Lessons participate in the page flow instead of an internal dialog scroller. */
+.course-reading {
+  width: 100%;
+}
+.course-reading > .button {
+  margin-bottom: var(--space-4);
+}
+.course-reading .markdown-page,
+.course-reading .markdown-page.reading-focus .preview-workspace,
+.course-reading .markdown-page.reading-focus .preview-pane,
+.course-reading .markdown-page.reading-focus #lesson-preview-scroll {
+  height: auto;
+  overflow: visible;
+}
+.course-reading .preview-workspace,
+.course-reading .preview-pane,
+.course-reading #lesson-preview-scroll {
+  overflow: visible;
+}
+@media (max-width: 600px) {
+  .foundation-page {
+    padding: var(--space-2) 0;
+  }
+  .course-reading .markdown-page.reading-focus #lesson-output {
+    padding-inline: var(--space-3);
+  }
+}

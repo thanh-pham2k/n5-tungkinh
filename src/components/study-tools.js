@@ -1,0 +1,58 @@
+export const TOOLS = Object.freeze([
+  {
+    id: 'instant',
+    name: 'Instant Vocab',
+    description: 'Đọc, nghe, nhớ thêm một từ.',
+    group: 'Từ vựng',
+    icon: 'ϟ',
+  },
+  {
+    id: 'cards',
+    name: 'Vocab Review',
+    description: 'Lật thẻ. Gợi nhớ. Luyện lại.',
+    group: 'Từ vựng',
+    icon: '▱',
+  },
+  {
+    id: 'order',
+    name: 'Word Order',
+    description: 'Ghép từng mảnh thành câu hoàn chỉnh.',
+    group: 'Luyện câu',
+    icon: '▦',
+  },
+  {
+    id: 'typing',
+    name: 'Typing Review',
+    description: 'Gõ lại câu để nhớ cách diễn đạt.',
+    group: 'Luyện câu',
+    icon: '⌨',
+  },
+  {
+    id: 'structures',
+    name: 'Sentence Structures',
+    description: 'Từ một mẫu câu đến cách dùng thực tế.',
+    group: 'Luyện câu',
+    icon: '↗',
+  },
+  {
+    id: 'speaking',
+    name: 'Speaking Questions',
+    description: 'Một chủ đề. Nhiều điều để nói.',
+    group: 'IELTS & Viết',
+    icon: '◌',
+  },
+  {
+    id: 'writing',
+    name: 'Writing Review',
+    description: 'Viết câu trả lời, tự đối chiếu bài mẫu.',
+    group: 'IELTS & Viết',
+    icon: '✎',
+  },
+  {
+    id: 'hot',
+    name: 'Multiple Choice',
+    description: 'Ôn nhanh bằng câu hỏi trắc nghiệm.',
+    group: 'Ôn tập',
+    icon: '✳',
+  },
+]);

@@ -54,7 +54,7 @@ test('yentr home shows only TOEIC on desktop', async ({ page, context }) => {
   await page.goto('/');
   await expect(page.getByRole('heading', { name: '600 từ vựng TOEIC' })).toBeVisible();
   await expect(page.getByText('Instant Vocab')).toHaveCount(0);
-  await expect(page.getByRole('button', { name: 'Đăng xuất' })).toBeVisible();
+  await expect(page.getByRole('banner').getByRole('button', { name: 'Đăng xuất' })).toBeVisible();
 });
 
 test('Contracts vocabulary buttons request English audio for each word', async ({
@@ -97,7 +97,7 @@ test('Contracts vocabulary buttons request English audio for each word', async (
   expect(status).toBe(201);
   await page.reload();
   await page.getByRole('button', { name: /Nhóm 1\s+Contracts/ }).click();
-  const dialog = page.getByRole('dialog');
+  const dialog = page.locator('.course-reading');
   await expect(dialog.locator('.vocabulary-audio-button')).toHaveCount(12);
   await dialog.getByRole('button', { name: 'Nghe: abide by' }).click();
   await expect.poll(() => requests.length).toBe(1);
@@ -154,7 +154,10 @@ test('TOEIC lists new lessons and moves completed lessons to the end', async ({
   await lessons.nth(0).click();
   await page.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
   await expect(page.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
-  await page.getByRole('dialog').getByRole('button', { name: /Đóng/ }).click();
+  await page
+    .locator('.course-reading')
+    .getByRole('button', { name: '← Danh sách bài học' })
+    .click();
   await expect(lessons.nth(0)).toContainText('Nhóm 2');
   await page.reload();
   await expect(lessons.nth(0)).toContainText('Nhóm 2');
@@ -208,7 +211,10 @@ test('new Turso content activates the matching lesson and rotates only within it
   await part2Lessons.nth(0).click();
   await page.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
   await expect(page.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
-  await page.getByRole('dialog').getByRole('button', { name: /Đóng/ }).click();
+  await page
+    .locator('.course-reading')
+    .getByRole('button', { name: '← Danh sách bài học' })
+    .click();
   await expect(part2Lessons.nth(0)).toContainText('Nhóm 12');
   await expect(
     page.locator('details.foundation-phase').first().locator('.foundation-lesson').first(),
