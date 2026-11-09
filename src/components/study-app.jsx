@@ -9,6 +9,7 @@ import WritingReview from './study/writing-review';
 import MultipleChoice from './study/multiple-choice';
 import LoginView from './auth/login-view';
 import ToeicCourse from './toeic-course';
+import YentrShell from './yentr-shell';
 import useAuth from '../hooks/use-auth';
 import { createLesson } from '../services/study-library-client';
 import { serializeCsv } from '../services/answer-service';
@@ -223,7 +224,13 @@ export default function StudyApp() {
     return <LoginView onLoginSuccess={setUser} />;
   }
 
-  if (user.username === 'yentr') return <ToeicCourse onLogout={logout} />;
+  if (user.username === 'yentr') {
+    return (
+      <YentrShell currentTab="toeic" onLogout={logout}>
+        <ToeicCourse embedded onLogout={logout} />
+      </YentrShell>
+    );
+  }
 
   return (
     <div className={`app-shell ${focus ? 'focus-mode' : ''}`}>

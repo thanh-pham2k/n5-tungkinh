@@ -17,7 +17,7 @@ async function computeSha256(text) {
   return null;
 }
 
-export default function FrenchCourse({ onLogout }) {
+export default function FrenchCourse({ onLogout, embedded = false }) {
   const { user, loading, setUser, logout } = useAuth();
   const [lessons, setLessons] = useState([]);
   const [selected, setSelected] = useState(null);
@@ -105,23 +105,25 @@ export default function FrenchCourse({ onLogout }) {
 
   return (
     <main className="foundation-page">
-      <div
-        className="course-nav-bar"
-        style={{
-          display: 'flex',
-          gap: '8px',
-          marginBottom: '16px',
-          flexWrap: 'wrap',
-          alignItems: 'center',
-        }}
-      >
-        <a className="button" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/toeic-600/`}>
-          📚 600 từ vựng TOEIC ↗
-        </a>
-        <Button variant="secondary" onClick={onLogout || logout}>
-          Đăng xuất
-        </Button>
-      </div>
+      {!embedded && (
+        <div
+          className="course-nav-bar"
+          style={{
+            display: 'flex',
+            gap: '8px',
+            marginBottom: '16px',
+            flexWrap: 'wrap',
+            alignItems: 'center',
+          }}
+        >
+          <a className="button" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/toeic-600/`}>
+            📚 600 từ vựng TOEIC ↗
+          </a>
+          <Button variant="secondary" onClick={onLogout || logout}>
+            Đăng xuất
+          </Button>
+        </div>
+      )}
 
       <p className="eyebrow">FRANÇAIS A1–A2 · DÀNH RIÊNG CHO YENTR</p>
       <h1>Tiếng Pháp A1–A2</h1>
