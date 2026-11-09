@@ -1,6 +1,6 @@
 'use client';
 import { useCallback, useEffect, useState } from 'react';
-import { Button, Dialog, Status } from './ui/primitives';
+import { Button, Status } from './ui/primitives';
 import MarkdownWorkspace from './markdown-workspace';
 import LoginView from './auth/login-view';
 import useAuth from '../hooks/use-auth';
@@ -103,6 +103,35 @@ export default function FrenchCourse({ onLogout, embedded = false }) {
     { phase: 4, title: 'Phần 4: Đánh giá tổng hợp' },
   ];
 
+  if (selected) {
+    return (
+      <main
+        className="foundation-page"
+        style={{ maxWidth: '1000px', width: '100%', margin: '0 auto', padding: 'var(--space-4)' }}
+      >
+        <div style={{ marginBottom: 'var(--space-4)' }}>
+          <Button
+            onClick={() => {
+              setSelected(null);
+              window.scrollTo({ top: 0, behavior: 'instant' });
+            }}
+          >
+            ← Danh sách bài học
+          </Button>
+        </div>
+        <MarkdownWorkspace
+          foundation={selected}
+          onFoundationComplete={(completedAt) => {
+            setClock(Date.now());
+            setLessons((current) =>
+              current.map((item) => (item.id === selected.id ? { ...item, completedAt } : item)),
+            );
+          }}
+        />
+      </main>
+    );
+  }
+
   return (
     <main className="foundation-page">
       {!embedded && (
@@ -202,25 +231,6 @@ export default function FrenchCourse({ onLogout, embedded = false }) {
             </details>
           );
         })}
-
-      <Dialog
-        open={!!selected}
-        onClose={() => setSelected(null)}
-        title={selected?.title || 'Bài học'}
-        wide
-      >
-        {selected && (
-          <MarkdownWorkspace
-            foundation={selected}
-            onFoundationComplete={(completedAt) => {
-              setClock(Date.now());
-              setLessons((current) =>
-                current.map((item) => (item.id === selected.id ? { ...item, completedAt } : item)),
-              );
-            }}
-          />
-        )}
-      </Dialog>
     </main>
   );
 }

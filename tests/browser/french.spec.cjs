@@ -23,10 +23,17 @@ test('French course is limited to yentr and completion persists', async ({ page,
   // Open Lesson 1
   await page.getByRole('button', { name: /Chủ đề 1 — Cách đặt câu hỏi/ }).click();
   await expect(
+    page.getByRole('button', { name: '← Danh sách bài học', exact: true }),
+  ).toBeVisible();
+  await expect(
     page.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
   ).toBeVisible();
   await page.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
   await expect(page.getByRole('button', { name: 'Bỏ đánh dấu hoàn thành' })).toBeVisible();
+
+  // Return to lesson list
+  await page.getByRole('button', { name: '← Danh sách bài học', exact: true }).click();
+  await expect(page.getByText('Phần 1: Đặt câu hỏi, Động từ & Mạo từ')).toBeVisible();
 
   await page.reload();
   await expect(page.getByRole('img', { name: 'Đã hoàn thành' })).toBeVisible();
