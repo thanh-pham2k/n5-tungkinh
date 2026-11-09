@@ -123,6 +123,7 @@ export const CatalogKey = z.enum([
   'work-english-30',
   'english-foundation',
   'eviu',
+  'french',
 ]);
 export const Meta = z.object({ requestId: z.string() });
 export const Page = z.object({

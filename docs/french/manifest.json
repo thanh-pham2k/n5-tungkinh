@@ -1,0 +1,128 @@
+[
+  {
+    "id": "french-01",
+    "phase": 1,
+    "phaseTitle": "Phần 1: Đặt câu hỏi, Động từ & Mạo từ",
+    "label": "Chủ đề 1",
+    "title": "Chủ đề 1 — Cách đặt câu hỏi: Formel / Informel",
+    "file": "01.md",
+    "order": 1
+  },
+  {
+    "id": "french-02",
+    "phase": 1,
+    "phaseTitle": "Phần 1: Đặt câu hỏi, Động từ & Mạo từ",
+    "label": "Chủ đề 2",
+    "title": "Chủ đề 2 — Chia động từ thì hiện tại (Le Présent de l'indicatif)",
+    "file": "02.md",
+    "order": 2
+  },
+  {
+    "id": "french-03",
+    "phase": 1,
+    "phaseTitle": "Phần 1: Đặt câu hỏi, Động từ & Mạo từ",
+    "label": "Chủ đề 3",
+    "title": "Chủ đề 3 — Mạo từ trong tiếng Pháp (Les articles)",
+    "file": "03.md",
+    "order": 3
+  },
+  {
+    "id": "french-rev-01",
+    "phase": 1,
+    "phaseTitle": "Phần 1: Đặt câu hỏi, Động từ & Mạo từ",
+    "label": "Review 1",
+    "title": "Review 1 — Ôn tập Chủ đề 1–3",
+    "file": "rev-01.md",
+    "order": 4
+  },
+  {
+    "id": "french-04",
+    "phase": 2,
+    "phaseTitle": "Phần 2: Danh từ, Đại từ nghi vấn & Phản thân",
+    "label": "Chủ đề 4",
+    "title": "Chủ đề 4 — Giống đực và giống cái (Masculin / Féminin)",
+    "file": "04.md",
+    "order": 5
+  },
+  {
+    "id": "french-05",
+    "phase": 2,
+    "phaseTitle": "Phần 2: Danh từ, Đại từ nghi vấn & Phản thân",
+    "label": "Chủ đề 5",
+    "title": "Chủ đề 5 — Tính từ nghi vấn Quel (L'adjectif interrogatif)",
+    "file": "05.md",
+    "order": 6
+  },
+  {
+    "id": "french-06",
+    "phase": 2,
+    "phaseTitle": "Phần 2: Danh từ, Đại từ nghi vấn & Phản thân",
+    "label": "Chủ đề 6",
+    "title": "Chủ đề 6 — Động từ phản thân (Les verbes pronominaux)",
+    "file": "06.md",
+    "order": 7
+  },
+  {
+    "id": "french-rev-02",
+    "phase": 2,
+    "phaseTitle": "Phần 2: Danh từ, Đại từ nghi vấn & Phản thân",
+    "label": "Review 2",
+    "title": "Review 2 — Ôn tập Chủ đề 4–6",
+    "file": "rev-02.md",
+    "order": 8
+  },
+  {
+    "id": "french-07",
+    "phase": 3,
+    "phaseTitle": "Phần 3: Đại từ, Giới từ & Mệnh đề quan hệ",
+    "label": "Chủ đề 7",
+    "title": "Chủ đề 7 — Đại từ nhấn mạnh (Les pronoms toniques)",
+    "file": "07.md",
+    "order": 9
+  },
+  {
+    "id": "french-08",
+    "phase": 3,
+    "phaseTitle": "Phần 3: Đại từ, Giới từ & Mệnh đề quan hệ",
+    "label": "Chủ đề 8",
+    "title": "Chủ đề 8 — Giới từ chỉ thành phố và quốc gia (Les prépositions de lieu)",
+    "file": "08.md",
+    "order": 10
+  },
+  {
+    "id": "french-09",
+    "phase": 3,
+    "phaseTitle": "Phần 3: Đại từ, Giới từ & Mệnh đề quan hệ",
+    "label": "Chủ đề 9",
+    "title": "Chủ đề 9 — Đại từ chỉ định (Les pronoms démonstratifs)",
+    "file": "09.md",
+    "order": 11
+  },
+  {
+    "id": "french-rev-03",
+    "phase": 3,
+    "phaseTitle": "Phần 3: Đại từ, Giới từ & Mệnh đề quan hệ",
+    "label": "Review 3",
+    "title": "Review 3 — Ôn tập Chủ đề 7–9",
+    "file": "rev-03.md",
+    "order": 12
+  },
+  {
+    "id": "french-10",
+    "phase": 3,
+    "phaseTitle": "Phần 3: Đại từ, Giới từ & Mệnh đề quan hệ",
+    "label": "Chủ đề 10",
+    "title": "Chủ đề 10 — Đại từ quan hệ QUI và QUE (Les pronoms relatifs)",
+    "file": "10.md",
+    "order": 13
+  },
+  {
+    "id": "french-final",
+    "phase": 4,
+    "phaseTitle": "Phần 4: Đánh giá tổng hợp",
+    "label": "Final Exam",
+    "title": "Bài kiểm tra cuối khóa tiếng Pháp A1–A2",
+    "file": "final.md",
+    "order": 14
+  }
+]

@@ -146,9 +146,23 @@ export default function ToeicCourse({ onLogout }) {
     );
   return (
     <main className="foundation-page">
-      <Button variant="secondary" onClick={onLogout || logout}>
-        Đăng xuất
-      </Button>
+      <div
+        className="course-nav-bar"
+        style={{
+          display: 'flex',
+          gap: '8px',
+          marginBottom: '16px',
+          flexWrap: 'wrap',
+          alignItems: 'center',
+        }}
+      >
+        <a className="button" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/french/`}>
+          🇫🇷 Tiếng Pháp A1–A2 ↗
+        </a>
+        <Button variant="secondary" onClick={onLogout || logout}>
+          Đăng xuất
+        </Button>
+      </div>
       <p className="eyebrow">TOEIC</p>
       <h1>600 từ vựng TOEIC</h1>
       {busy && <Status>Đang tải bài học…</Status>}

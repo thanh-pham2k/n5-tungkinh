@@ -169,9 +169,14 @@ export default function StudyApp() {
         </div>
       ))}
       {user?.username === 'yentr' && (
-        <a className="nav-item" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/toeic-600/`}>
-          <span aria-hidden="true">📚</span>600 từ vựng TOEIC ↗
-        </a>
+        <>
+          <a className="nav-item" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/toeic-600/`}>
+            <span aria-hidden="true">📚</span>600 từ vựng TOEIC ↗
+          </a>
+          <a className="nav-item" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/french/`}>
+            <span aria-hidden="true">🇫🇷</span>Tiếng Pháp A1–A2 ↗
+          </a>
+        </>
       )}
       {user?.username === 'thanhpv' && (
         <a className="nav-item" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/eviu/`}>
