@@ -65,16 +65,18 @@ export default function ReadingPractice() {
   return (
     <>
       {selected && (
-        <div className="foundation-page course-reading">
+        <div className="foundation-page course-reading reading-practice-reading">
           <Button
+            className="reading-practice-close"
+            aria-label="Đóng bài học"
+            title="Đóng bài học"
             onClick={() => {
               setSelected(null);
               window.scrollTo({ top: 0, behavior: 'instant' });
             }}
           >
-            ← Danh sách bài học
+            <span aria-hidden="true">×</span>
           </Button>
-          <h2 className="course-reading-title">{selected.title}</h2>
           <MarkdownWorkspace
             foundation={selected}
             repeatCompletion

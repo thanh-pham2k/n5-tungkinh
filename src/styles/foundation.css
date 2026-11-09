@@ -237,3 +237,29 @@
     padding-inline: var(--space-3);
   }
 }
+
+.reading-practice-reading {
+  position: relative;
+}
+.reading-practice-reading > .reading-practice-close {
+  position: absolute;
+  z-index: 2;
+  top: var(--space-6);
+  right: var(--space-6);
+  width: var(--tap-size);
+  min-width: var(--tap-size);
+  height: var(--tap-size);
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  box-shadow: none;
+}
+.reading-practice-reading #lesson-output h1:first-child {
+  padding-right: calc(var(--tap-size) + var(--space-3));
+}
+@media (max-width: 600px) {
+  .reading-practice-reading > .reading-practice-close {
+    top: var(--space-2);
+    right: 0;
+  }
+}

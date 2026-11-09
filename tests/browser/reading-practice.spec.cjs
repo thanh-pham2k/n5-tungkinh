@@ -16,7 +16,7 @@ for (const width of [390, 1280]) {
     await expect(
       reading.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
     ).toBeDisabled();
-    await reading.getByRole('button', { name: '← Danh sách bài học' }).click();
+    await reading.getByRole('button', { name: 'Đóng bài học' }).click();
     await expect(rows.first().getByRole('img', { name: 'Đã hoàn thành' })).toBeVisible();
     await rows.last().click();
     await expect(reading.locator('.lesson-deck')).toHaveCount(3);
