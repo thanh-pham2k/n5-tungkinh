@@ -60,6 +60,7 @@ export default function YentrShell({
         ]
       : [
           ['eviu', '📚', 'EVIU', '/eviu/'],
+          ['reading', '📖', 'Reading Practice', '/reading-practice/'],
           ['foundation', '📖', 'English Foundation', '/foundation/'],
           ['skills', '✦', 'English Skills', '/english-skills/'],
           ['work', '✎', 'Tiếng Anh công việc · 30 ngày', '/markdown/?course=list'],

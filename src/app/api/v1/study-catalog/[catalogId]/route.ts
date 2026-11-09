@@ -11,7 +11,7 @@ export async function GET(
 ) {
   return http(async () => {
     const id = CatalogKey.parse((await context.params).catalogId);
-    if (id === 'eviu' && owner(request) !== 'thanhpv')
+    if (['eviu', 'reading-practice'].includes(id) && owner(request) !== 'thanhpv')
       throw new StudyError(403, 'forbidden', 'Bạn không có quyền xem mục này.');
     return { data: await studyService().catalog(id) };
   });

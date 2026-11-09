@@ -7,6 +7,7 @@ import { loadFoundationCatalog, loadPhase2Catalog } from './foundation-catalog.m
 import { publishCompactFoundation } from './foundation-compact-publish.mjs';
 import { loadEviuCatalog } from './eviu-catalog.mjs';
 import { loadFrenchCatalog } from './french-catalog.mjs';
+import { loadReadingPracticeCatalog } from './reading-practice-catalog.mjs';
 import { publishFoundation } from './foundation-publish.mjs';
 await mkdir('.migration-artifacts', { recursive: true });
 const db = createClient({
@@ -30,6 +31,7 @@ const catalog = {
   'work-english-30': JSON.parse(await readFile('database/seed/work-english-30.json', 'utf8')),
   'english-foundation': [...(await loadFoundationCatalog()), ...(await loadPhase2Catalog())],
   french: await loadFrenchCatalog(),
+  'reading-practice': await loadReadingPracticeCatalog(),
 };
 const isLocalPreview = process.env.KOTOBA_LOCAL_PREVIEW === '1';
 await db.batch(

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "reading-01",
+    "title": "Lesson 01 — Online Learning",
+    "label": "Lesson 1",
+    "week": 1,
+    "weekTitle": "Week 01 — Education",
+    "file": "week-01-lesson-01.md"
+  },
+  {
+    "id": "reading-02",
+    "title": "Lesson 02 — The Benefits of Reading",
+    "label": "Lesson 2",
+    "week": 1,
+    "weekTitle": "Week 01 — Education",
+    "file": "week-01-lesson-02.md"
+  },
+  {
+    "id": "reading-03",
+    "title": "Lesson 03 — Homework and Students",
+    "label": "Lesson 3",
+    "week": 1,
+    "weekTitle": "Week 01 — Education",
+    "file": "week-01-lesson-03.md"
+  },
+  {
+    "id": "reading-04",
+    "title": "Lesson 04 — Learning a Second Language",
+    "label": "Lesson 4",
+    "week": 1,
+    "weekTitle": "Week 01 — Education",
+    "file": "week-01-lesson-04.md"
+  },
+  {
+    "id": "reading-05",
+    "title": "Lesson 05 — The Future of Schools",
+    "label": "Lesson 5",
+    "week": 1,
+    "weekTitle": "Week 01 — Education",
+    "file": "week-01-lesson-05.md"
+  },
+  {
+    "id": "reading-review-01",
+    "title": "Weekly Review — Week 01 — Education",
+    "label": "Weekly Review",
+    "week": 1,
+    "weekTitle": "Week 01 — Education",
+    "file": "week-01-review.md"
+  },
+  {
+    "id": "reading-06",
+    "title": "Lesson 06 — Artificial Intelligence in Daily Life",
+    "label": "Lesson 6",
+    "week": 2,
+    "weekTitle": "Week 02 — Technology",
+    "file": "week-02-lesson-06.md"
+  },
+  {
+    "id": "reading-07",
+    "title": "Lesson 07 — Social Media and Teenagers",
+    "label": "Lesson 7",
+    "week": 2,
+    "weekTitle": "Week 02 — Technology",
+    "file": "week-02-lesson-07.md"
+  },
+  {
+    "id": "reading-08",
+    "title": "Lesson 08 — Smartphones and Communication",
+    "label": "Lesson 8",
+    "week": 2,
+    "weekTitle": "Week 02 — Technology",
+    "file": "week-02-lesson-08.md"
+  },
+  {
+    "id": "reading-09",
+    "title": "Lesson 09 — Robots in the Workplace",
+    "label": "Lesson 9",
+    "week": 2,
+    "weekTitle": "Week 02 — Technology",
+    "file": "week-02-lesson-09.md"
+  },
+  {
+    "id": "reading-10",
+    "title": "Lesson 10 — The Future of Transportation",
+    "label": "Lesson 10",
+    "week": 2,
+    "weekTitle": "Week 02 — Technology",
+    "file": "week-02-lesson-10.md"
+  },
+  {
+    "id": "reading-review-02",
+    "title": "Weekly Review — Week 02 — Technology",
+    "label": "Weekly Review",
+    "week": 2,
+    "weekTitle": "Week 02 — Technology",
+    "file": "week-02-review.md"
+  },
+  {
+    "id": "reading-11",
+    "title": "Lesson 11 — Plastic Pollution",
+    "label": "Lesson 11",
+    "week": 3,
+    "weekTitle": "Week 03 — Environment",
+    "file": "week-03-lesson-11.md"
+  },
+  {
+    "id": "reading-12",
+    "title": "Lesson 12 — Climate Change",
+    "label": "Lesson 12",
+    "week": 3,
+    "weekTitle": "Week 03 — Environment",
+    "file": "week-03-lesson-12.md"
+  },
+  {
+    "id": "reading-13",
+    "title": "Lesson 13 — Renewable Energy",
+    "label": "Lesson 13",
+    "week": 3,
+    "weekTitle": "Week 03 — Environment",
+    "file": "week-03-lesson-13.md"
+  },
+  {
+    "id": "reading-14",
+    "title": "Lesson 14 — Protecting Wildlife",
+    "label": "Lesson 14",
+    "week": 3,
+    "weekTitle": "Week 03 — Environment",
+    "file": "week-03-lesson-14.md"
+  },
+  {
+    "id": "reading-15",
+    "title": "Lesson 15 — Sustainable Cities",
+    "label": "Lesson 15",
+    "week": 3,
+    "weekTitle": "Week 03 — Environment",
+    "file": "week-03-lesson-15.md"
+  },
+  {
+    "id": "reading-review-03",
+    "title": "Weekly Review — Week 03 — Environment",
+    "label": "Weekly Review",
+    "week": 3,
+    "weekTitle": "Week 03 — Environment",
+    "file": "week-03-review.md"
+  },
+  {
+    "id": "reading-16",
+    "title": "Lesson 16 — The Importance of Sleep",
+    "label": "Lesson 16",
+    "week": 4,
+    "weekTitle": "Week 04 — Health & Lifestyle",
+    "file": "week-04-lesson-16.md"
+  },
+  {
+    "id": "reading-17",
+    "title": "Lesson 17 — Healthy Eating Habits",
+    "label": "Lesson 17",
+    "week": 4,
+    "weekTitle": "Week 04 — Health & Lifestyle",
+    "file": "week-04-lesson-17.md"
+  },
+  {
+    "id": "reading-18",
+    "title": "Lesson 18 — Exercise and Mental Health",
+    "label": "Lesson 18",
+    "week": 4,
+    "weekTitle": "Week 04 — Health & Lifestyle",
+    "file": "week-04-lesson-18.md"
+  },
+  {
+    "id": "reading-19",
+    "title": "Lesson 19 — Stress in Modern Life",
+    "label": "Lesson 19",
+    "week": 4,
+    "weekTitle": "Week 04 — Health & Lifestyle",
+    "file": "week-04-lesson-19.md"
+  },
+  {
+    "id": "reading-20",
+    "title": "Lesson 20 — The Effects of Fast Food",
+    "label": "Lesson 20",
+    "week": 4,
+    "weekTitle": "Week 04 — Health & Lifestyle",
+    "file": "week-04-lesson-20.md"
+  },
+  {
+    "id": "reading-review-04",
+    "title": "Weekly Review — Week 04 — Health & Lifestyle",
+    "label": "Weekly Review",
+    "week": 4,
+    "weekTitle": "Week 04 — Health & Lifestyle",
+    "file": "week-04-review.md"
+  },
+  {
+    "id": "reading-21",
+    "title": "Lesson 21 — How Human Memory Works",
+    "label": "Lesson 21",
+    "week": 5,
+    "weekTitle": "Week 05 — Psychology",
+    "file": "week-05-lesson-21.md"
+  },
+  {
+    "id": "reading-22",
+    "title": "Lesson 22 — The Science of Happiness",
+    "label": "Lesson 22",
+    "week": 5,
+    "weekTitle": "Week 05 — Psychology",
+    "file": "week-05-lesson-22.md"
+  },
+  {
+    "id": "reading-23",
+    "title": "Lesson 23 — Why People Form Habits",
+    "label": "Lesson 23",
+    "week": 5,
+    "weekTitle": "Week 05 — Psychology",
+    "file": "week-05-lesson-23.md"
+  },
+  {
+    "id": "reading-24",
+    "title": "Lesson 24 — The Power of Music",
+    "label": "Lesson 24",
+    "week": 5,
+    "weekTitle": "Week 05 — Psychology",
+    "file": "week-05-lesson-24.md"
+  },
+  {
+    "id": "reading-25",
+    "title": "Lesson 25 — How Emotions Affect Decisions",
+    "label": "Lesson 25",
+    "week": 5,
+    "weekTitle": "Week 05 — Psychology",
+    "file": "week-05-lesson-25.md"
+  },
+  {
+    "id": "reading-review-05",
+    "title": "Weekly Review — Week 05 — Psychology",
+    "label": "Weekly Review",
+    "week": 5,
+    "weekTitle": "Week 05 — Psychology",
+    "file": "week-05-review.md"
+  },
+  {
+    "id": "reading-26",
+    "title": "Lesson 26 — Working from Home",
+    "label": "Lesson 26",
+    "week": 6,
+    "weekTitle": "Week 06 — Work & Career",
+    "file": "week-06-lesson-26.md"
+  },
+  {
+    "id": "reading-27",
+    "title": "Lesson 27 — The Four-Day Workweek",
+    "label": "Lesson 27",
+    "week": 6,
+    "weekTitle": "Week 06 — Work & Career",
+    "file": "week-06-lesson-27.md"
+  },
+  {
+    "id": "reading-28",
+    "title": "Lesson 28 — Job Satisfaction",
+    "label": "Lesson 28",
+    "week": 6,
+    "weekTitle": "Week 06 — Work & Career",
+    "file": "week-06-lesson-28.md"
+  },
+  {
+    "id": "reading-29",
+    "title": "Lesson 29 — Skills for the Future",
+    "label": "Lesson 29",
+    "week": 6,
+    "weekTitle": "Week 06 — Work & Career",
+    "file": "week-06-lesson-29.md"
+  },
+  {
+    "id": "reading-30",
+    "title": "Lesson 30 — Work-Life Balance",
+    "label": "Lesson 30",
+    "week": 6,
+    "weekTitle": "Week 06 — Work & Career",
+    "file": "week-06-lesson-30.md"
+  },
+  {
+    "id": "reading-review-06",
+    "title": "Weekly Review — Week 06 — Work & Career",
+    "label": "Weekly Review",
+    "week": 6,
+    "weekTitle": "Week 06 — Work & Career",
+    "file": "week-06-review.md"
+  },
+  {
+    "id": "reading-31",
+    "title": "Lesson 31 — Space Exploration",
+    "label": "Lesson 31",
+    "week": 7,
+    "weekTitle": "Week 07 — Science & Discovery",
+    "file": "week-07-lesson-31.md"
+  },
+  {
+    "id": "reading-32",
+    "title": "Lesson 32 — Life on Mars",
+    "label": "Lesson 32",
+    "week": 7,
+    "weekTitle": "Week 07 — Science & Discovery",
+    "file": "week-07-lesson-32.md"
+  },
+  {
+    "id": "reading-33",
+    "title": "Lesson 33 — The History of Vaccines",
+    "label": "Lesson 33",
+    "week": 7,
+    "weekTitle": "Week 07 — Science & Discovery",
+    "file": "week-07-lesson-33.md"
+  },
+  {
+    "id": "reading-34",
+    "title": "Lesson 34 — Ocean Exploration",
+    "label": "Lesson 34",
+    "week": 7,
+    "weekTitle": "Week 07 — Science & Discovery",
+    "file": "week-07-lesson-34.md"
+  },
+  {
+    "id": "reading-35",
+    "title": "Lesson 35 — Scientific Discoveries",
+    "label": "Lesson 35",
+    "week": 7,
+    "weekTitle": "Week 07 — Science & Discovery",
+    "file": "week-07-lesson-35.md"
+  },
+  {
+    "id": "reading-review-07",
+    "title": "Weekly Review — Week 07 — Science & Discovery",
+    "label": "Weekly Review",
+    "week": 7,
+    "weekTitle": "Week 07 — Science & Discovery",
+    "file": "week-07-review.md"
+  },
+  {
+    "id": "reading-36",
+    "title": "Lesson 36 — Urbanisation",
+    "label": "Lesson 36",
+    "week": 8,
+    "weekTitle": "Week 08 — Society & Cities",
+    "file": "week-08-lesson-36.md"
+  },
+  {
+    "id": "reading-37",
+    "title": "Lesson 37 — Public Transportation",
+    "label": "Lesson 37",
+    "week": 8,
+    "weekTitle": "Week 08 — Society & Cities",
+    "file": "week-08-lesson-37.md"
+  },
+  {
+    "id": "reading-38",
+    "title": "Lesson 38 — Population Growth",
+    "label": "Lesson 38",
+    "week": 8,
+    "weekTitle": "Week 08 — Society & Cities",
+    "file": "week-08-lesson-38.md"
+  },
+  {
+    "id": "reading-39",
+    "title": "Lesson 39 — Life in Big Cities",
+    "label": "Lesson 39",
+    "week": 8,
+    "weekTitle": "Week 08 — Society & Cities",
+    "file": "week-08-lesson-39.md"
+  },
+  {
+    "id": "reading-40",
+    "title": "Lesson 40 — The Ageing Population",
+    "label": "Lesson 40",
+    "week": 8,
+    "weekTitle": "Week 08 — Society & Cities",
+    "file": "week-08-lesson-40.md"
+  },
+  {
+    "id": "reading-review-08",
+    "title": "Weekly Review — Week 08 — Society & Cities",
+    "label": "Weekly Review",
+    "week": 8,
+    "weekTitle": "Week 08 — Society & Cities",
+    "file": "week-08-review.md"
+  },
+  {
+    "id": "reading-41",
+    "title": "Lesson 41 — Online Shopping",
+    "label": "Lesson 41",
+    "week": 9,
+    "weekTitle": "Week 09 — Business & Economics",
+    "file": "week-09-lesson-41.md"
+  },
+  {
+    "id": "reading-42",
+    "title": "Lesson 42 — Advertising and Consumers",
+    "label": "Lesson 42",
+    "week": 9,
+    "weekTitle": "Week 09 — Business & Economics",
+    "file": "week-09-lesson-42.md"
+  },
+  {
+    "id": "reading-43",
+    "title": "Lesson 43 — The Sharing Economy",
+    "label": "Lesson 43",
+    "week": 9,
+    "weekTitle": "Week 09 — Business & Economics",
+    "file": "week-09-lesson-43.md"
+  },
+  {
+    "id": "reading-44",
+    "title": "Lesson 44 — Small Businesses",
+    "label": "Lesson 44",
+    "week": 9,
+    "weekTitle": "Week 09 — Business & Economics",
+    "file": "week-09-lesson-44.md"
+  },
+  {
+    "id": "reading-45",
+    "title": "Lesson 45 — The Future of Money",
+    "label": "Lesson 45",
+    "week": 9,
+    "weekTitle": "Week 09 — Business & Economics",
+    "file": "week-09-lesson-45.md"
+  },
+  {
+    "id": "reading-review-09",
+    "title": "Weekly Review — Week 09 — Business & Economics",
+    "label": "Weekly Review",
+    "week": 9,
+    "weekTitle": "Week 09 — Business & Economics",
+    "file": "week-09-review.md"
+  },
+  {
+    "id": "reading-46",
+    "title": "Lesson 46 — Cultural Traditions",
+    "label": "Lesson 46",
+    "week": 10,
+    "weekTitle": "Week 10 — Culture & History",
+    "file": "week-10-lesson-46.md"
+  },
+  {
+    "id": "reading-47",
+    "title": "Lesson 47 — The History of Writing",
+    "label": "Lesson 47",
+    "week": 10,
+    "weekTitle": "Week 10 — Culture & History",
+    "file": "week-10-lesson-47.md"
+  },
+  {
+    "id": "reading-48",
+    "title": "Lesson 48 — Museums in Modern Society",
+    "label": "Lesson 48",
+    "week": 10,
+    "weekTitle": "Week 10 — Culture & History",
+    "file": "week-10-lesson-48.md"
+  },
+  {
+    "id": "reading-49",
+    "title": "Lesson 49 — Tourism and Local Culture",
+    "label": "Lesson 49",
+    "week": 10,
+    "weekTitle": "Week 10 — Culture & History",
+    "file": "week-10-lesson-49.md"
+  },
+  {
+    "id": "reading-50",
+    "title": "Lesson 50 — Protecting Historical Buildings",
+    "label": "Lesson 50",
+    "week": 10,
+    "weekTitle": "Week 10 — Culture & History",
+    "file": "week-10-lesson-50.md"
+  },
+  {
+    "id": "reading-review-10",
+    "title": "Weekly Review — Week 10 — Culture & History",
+    "label": "Weekly Review",
+    "week": 10,
+    "weekTitle": "Week 10 — Culture & History",
+    "file": "week-10-review.md"
+  }
+]
