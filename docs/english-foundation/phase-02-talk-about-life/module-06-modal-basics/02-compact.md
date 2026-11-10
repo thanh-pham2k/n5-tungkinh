@@ -65,6 +65,14 @@ p2-m6-l2-possibility-typing-1 | typing | Gõ câu từ các từ đã xáo: toni
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l2-poss-extra-1 | single_choice | Bạn không chắc bạn mình có tham gia buổi họp không. Chọn câu phù hợp. | He must attend the meeting. | He might attend the meeting. | He has to attend the meeting. | He might attends the meeting. | 2 | Might + V1 diễn tả khả năng chưa chắc chắn.
+p2-m6-l2-poss-extra-2 | word_order | Sắp xếp câu dự đoán chưa chắc chắn. | tomorrow / may / arrive / The package | The package may arrive tomorrow. | May + arrive diễn tả khả năng gói hàng sẽ đến.
+p2-m6-l2-poss-extra-3 | typing | Gõ câu từ các từ đã xáo: be / might / at school / They | They might be at school. | Sau might dùng V1 be.
+```
+
 ## 2. Phủ định với may not và might not
 
 Khi muốn nói một việc **có thể không xảy ra**, dùng:
@@ -111,6 +119,16 @@ p2-m6-l2-negative-typing-1 | typing | Gõ câu từ các từ đã xáo: finish 
 ```
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l2-neg-extra-1 | single_choice | Bạn không chắc nhà hàng có mở cửa tối nay không. Chọn câu phù hợp. | The restaurant mustn't open tonight. | The restaurant doesn't might open tonight. | The restaurant might not be open tonight. | The restaurant might not opens tonight. | 3 | Might not be open diễn tả khả năng nhà hàng không mở cửa.
+p2-m6-l2-neg-extra-2 | single_choice | Chọn câu đúng về khả năng một người không tham gia cuộc họp. | She may not attend the meeting. | She may doesn't attend the meeting. | She may not attends the meeting. | She doesn't may attend the meeting. | 1 | May not + V1 diễn tả khả năng không xảy ra.
+p2-m6-l2-neg-extra-3 | word_order | Sắp xếp câu diễn tả khả năng không hoàn thành công việc. | today / might not / finish / He / the report | He might not finish the report today. | Might not + finish diễn tả khả năng chưa chắc chắn.
+p2-m6-l2-neg-extra-4 | word_order | Sắp xếp câu dự đoán phủ định. | tomorrow / may not / be / Anna / available | Anna may not be available tomorrow. | May not + be diễn tả khả năng không có mặt hoặc không rảnh.
+p2-m6-l2-neg-extra-5 | typing | Gõ câu từ các từ đã xáo: on time / arrive / might not / The bus | The bus might not arrive on time. | Might not + V1 diễn tả khả năng xe buýt không đến đúng giờ.
+```
 
 ## 3. May / might và will
 
@@ -164,6 +182,16 @@ p2-m6-l2-compare-typing-1 | typing | Gõ câu từ các từ đã xáo: be / mig
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l2-compare-extra-1 | single_choice | Bạn chưa biết chắc chuyến bay có bị hoãn không. Chọn câu phù hợp. | The flight must be delayed. | The flight has to be delayed. | The flight should to be delayed. | The flight might be delayed. | 4 | Might thể hiện khả năng chưa chắc chắn.
+p2-m6-l2-compare-extra-2 | single_choice | Chọn câu thể hiện người nói đưa ra dự đoán với I think. | I think our team will win. | Our team must to win. | Our team might winning. | I think our team will wins. | 1 | I think + will thường dùng để đưa ra dự đoán.
+p2-m6-l2-compare-extra-3 | word_order | Sắp xếp câu thể hiện dự đoán cá nhân. | pass / I think / will / she / the exam | I think she will pass the exam. | I think + will diễn tả dự đoán của người nói.
+p2-m6-l2-compare-extra-4 | word_order | Sắp xếp câu diễn tả khả năng chưa chắc chắn. | join us / might / Tom / later | Tom might join us later. | Might + V1 thể hiện khả năng.
+p2-m6-l2-compare-extra-5 | typing | Gõ câu từ các từ đã xáo: will / I think / tomorrow / rain / it | I think it will rain tomorrow. | I think + will dùng cho dự đoán tương lai.
+```
+
 ## 4. Xin phép trang trọng với May I...?
 
 May I...? dùng để **xin phép lịch sự**, đặc biệt phù hợp trong môi trường trang trọng.
@@ -216,6 +244,15 @@ p2-m6-l2-permission-typing-1 | typing | Gõ câu từ các từ đã xáo: sit h
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l2-perm-extra-1 | single_choice | Bạn đến văn phòng giám đốc và muốn xin phép vào. Chọn câu trang trọng nhất. | Must I enter? | Should I entering? | May I come in? | May I to come in? | 3 | May I...? phù hợp để xin phép trang trọng.
+p2-m6-l2-perm-extra-2 | single_choice | Trong cuộc họp, bạn muốn xin phép phát biểu. | May I to speak? | May I speak? | May I speaking? | Do I may speak? | 2 | May I + V1 dùng để xin phép.
+p2-m6-l2-perm-extra-3 | word_order | Sắp xếp câu xin phép lịch sự. | your computer / use / May / I | May I use your computer? | May I + use dùng để xin phép sử dụng đồ vật.
+p2-m6-l2-perm-extra-4 | typing | Gõ câu từ các từ đã xáo: leave early / May / I / today | May I leave early today? | May I + V1 dùng để xin phép rời đi sớm.
+```
+
 ## 5. Modal verbs trong hội thoại hàng ngày
 
 Modal verbs giúp người nói thể hiện **ý định giao tiếp**, không chỉ mô tả hành động.
@@ -245,6 +282,21 @@ Vì vậy, hãy chọn modal verb dựa trên **điều bạn thực sự muốn
 | Phỏng đoán | may / might | He might be late. |
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l2-dialog-extra-1 | single_choice | Bạn muốn xin phép dùng máy tính của đồng nghiệp. | Must I use your computer? | May I use your computer? | Should you use my computer? | Might I using your computer? | 2 | May I...? dùng để xin phép.
+p2-m6-l2-dialog-extra-2 | single_choice | Bạn muốn nhờ đồng nghiệp gửi tài liệu. | May I send the document? | You must send the document. | Could you send me the document? | You might send the document. | 3 | Could you...? dùng để nhờ người khác.
+p2-m6-l2-dialog-extra-3 | single_choice | Đồng nghiệp của bạn bị mệt. Bạn muốn khuyên họ nghỉ ngơi. | You should take a break. | You mustn't take a break. | You might to take a break. | You don't have to resting. | 1 | Should dùng để đưa lời khuyên.
+p2-m6-l2-dialog-extra-4 | single_choice | Công ty có quy định cấm hút thuốc. | You don't have to smoke here. | You may smoke here. | You should smoking here. | You mustn't smoke here. | 4 | Mustn't diễn tả điều cấm.
+p2-m6-l2-dialog-extra-5 | word_order | Sắp xếp câu nhờ người khác giúp đỡ. | check this file / Could / you | Could you check this file? | Could you + V1 dùng để nhờ giúp đỡ.
+p2-m6-l2-dialog-extra-6 | word_order | Sắp xếp câu nói về nghĩa vụ công việc. | attend / have to / We / the meeting | We have to attend the meeting. | Have to + V1 diễn tả nghĩa vụ.
+p2-m6-l2-dialog-extra-7 | word_order | Sắp xếp câu phỏng đoán chưa chắc chắn. | later / might / arrive / She | She might arrive later. | Might + V1 diễn tả khả năng.
+p2-m6-l2-dialog-extra-8 | typing | Gõ câu từ các từ đã xáo: ask a question / May / I | May I ask a question? | May I...? dùng để xin phép.
+p2-m6-l2-dialog-extra-9 | typing | Gõ câu từ các từ đã xáo: don't have to / You / wait / here | You don't have to wait here. | Don't have to diễn tả không bắt buộc.
+p2-m6-l2-dialog-extra-10 | typing | Gõ câu từ các từ đã xáo: must / wear / an ID card / Employees | Employees must wear an ID card. | Must + V1 diễn tả điều bắt buộc.
+```
 
 ## 6. Xin phép và nhờ giúp đỡ
 
@@ -305,6 +357,14 @@ p2-m6-l2-request-typing-1 | typing | Gõ câu từ các từ đã xáo: open the
 ```
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l2-request-extra-1 | single_choice | Bạn muốn xin phép mở cửa sổ. Câu nào đúng? | Could you open the window? | Must you open the window? | Could I open the window? | You should open the window. | 3 | Could I...? dùng để xin phép bản thân làm một việc.
+p2-m6-l2-request-extra-2 | word_order | Sắp xếp câu nhờ người khác nói chậm hơn. | speak more slowly / Could / you / please | Could you speak more slowly please? | Could you...? dùng để nhờ người khác một cách lịch sự.
+p2-m6-l2-request-extra-3 | typing | Gõ câu từ các từ đã xáo: borrow your pen / Could / I | Could I borrow your pen? | Could I...? dùng để xin phép mượn đồ.
+```
 
 ## 7. Lời khuyên, nghĩa vụ và điều cấm
 
@@ -373,6 +433,14 @@ p2-m6-l2-function-typing-1 | typing | Gõ câu từ các từ đã xáo: the rul
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l2-function-extra-1 | single_choice | Một phòng thí nghiệm cấm khách tự ý vào. Chọn câu phù hợp. | Visitors don't have to enter. | Visitors should enter. | Visitors might enter. | Visitors mustn't enter. | 4 | Mustn't diễn tả điều cấm.
+p2-m6-l2-function-extra-2 | word_order | Sắp xếp câu nói về việc không bắt buộc. | today / doesn't have to / work / She | She doesn't have to work today. | Doesn't have to diễn tả không bắt buộc.
+p2-m6-l2-function-extra-3 | typing | Gõ câu từ các từ đã xáo: should / You / drink / more water | You should drink more water. | Should + V1 dùng để đưa lời khuyên.
+```
+
 ## 8. Quy tắc chung của modal verbs
 
 Các modal verbs đã học gồm:
@@ -436,6 +504,15 @@ p2-m6-l2-rule-typing-1 | typing | Gõ câu từ các từ đã xáo: be / may / 
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l2-rule-extra-1 | single_choice | Chọn câu đúng với modal verb can. | He cans drive. | He can drive. | He can to drive. | He can driving. | 2 | Can không thêm s và theo sau là V1.
+p2-m6-l2-rule-extra-2 | single_choice | Chọn câu đúng với modal verb must. | She must to leave now. | She must leaving now. | She must leaves now. | She must leave now. | 4 | Sau must dùng động từ nguyên mẫu không to.
+p2-m6-l2-rule-extra-3 | word_order | Sắp xếp câu dùng modal verb could. | help / Could / me / you | Could you help me? | Could + subject + V1.
+p2-m6-l2-rule-extra-4 | typing | Gõ câu từ các từ đã xáo: might / arrive / He / late | He might arrive late. | Might + V1, không thêm s hay to.
+```
+
 ## 9. Chọn modal verb theo tình huống
 
 Thay vì học từng từ riêng lẻ, hãy hỏi:
@@ -498,6 +575,21 @@ Bạn không biết Tom ở đâu:
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l2-situation-extra-1 | single_choice | Bạn muốn xin phép ngồi vào một chỗ trống trong cuộc họp trang trọng. | May I sit here? | Must I sit here? | Should you sit here? | Might I sitting here? | 1 | May I...? phù hợp với lời xin phép trang trọng.
+p2-m6-l2-situation-extra-2 | single_choice | Bạn muốn nhờ người lạ chụp ảnh giúp. | Could I take your photo? | You must take my photo. | Could you take a photo of me? | You might take a photo of me. | 3 | Could you...? dùng để nhờ người khác.
+p2-m6-l2-situation-extra-3 | single_choice | Bạn không chắc chuyến tàu có đến đúng giờ không. | The train must arrive on time. | The train might arrive on time. | The train has to arrives on time. | The train should to arrive on time. | 2 | Might diễn tả khả năng chưa chắc chắn.
+p2-m6-l2-situation-extra-4 | single_choice | Công ty không bắt buộc nhân viên mặc vest vào thứ Sáu. | Employees mustn't wear suits on Fridays. | Employees have to wear suits on Fridays. | Employees should to wear suits on Fridays. | Employees don't have to wear suits on Fridays. | 4 | Don't have to diễn tả không bắt buộc.
+p2-m6-l2-situation-extra-5 | word_order | Sắp xếp câu hỏi xin lời khuyên. | do / should / What / I | What should I do? | What + should + I + do?
+p2-m6-l2-situation-extra-6 | word_order | Sắp xếp câu chỉ nghĩa vụ. | arrive / must / on time / You | You must arrive on time. | Must + V1 diễn tả điều bắt buộc.
+p2-m6-l2-situation-extra-7 | word_order | Sắp xếp câu dự đoán chưa chắc chắn. | tomorrow / may not / come / Tom | Tom may not come tomorrow. | May not + V1 diễn tả khả năng không xảy ra.
+p2-m6-l2-situation-extra-8 | typing | Gõ câu từ các từ đã xáo: your phone / May / use / I | May I use your phone? | May I + V1 dùng để xin phép.
+p2-m6-l2-situation-extra-9 | typing | Gõ câu từ các từ đã xáo: mustn't / You / park / here | You mustn't park here. | Mustn't diễn tả điều cấm.
+p2-m6-l2-situation-extra-10 | typing | Gõ câu từ các từ đã xáo: doesn't have to / She / work / tomorrow | She doesn't have to work tomorrow. | Doesn't have to diễn tả không bắt buộc.
+```
+
 ## 10. Nghe trong ngữ cảnh
 
 `audio:en|Anna: Excuse me. May I come in? Manager: Of course. Anna: I might be late tomorrow because I have a doctor's appointment. Manager: That's fine, but you have to call the office if you're going to be late. Anna: Okay. Should I call you directly? Manager: Yes, please. You can call me. Anna: Could you give me your phone number? Manager: Sure. And don't worry. You don't have to come early tomorrow.`
@@ -533,6 +625,15 @@ Manager: Sure. And don't worry. You don't have to come early tomorrow.
 </details>
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l2-listen-extra-1 | single_choice | Vì sao Anna có thể đến muộn ngày mai? | Vì cô ấy có lịch hẹn với bác sĩ | Vì cô ấy phải đi mua sắm | Vì cô ấy muốn nghỉ việc | Vì cô ấy phải đi du lịch | 1 | Anna nói cô ấy có doctor's appointment.
+p2-m6-l2-listen-extra-2 | single_choice | Manager phản ứng thế nào khi Anna nói có thể đến muộn? | Cấm Anna đi làm | Chấp nhận nhưng yêu cầu báo cho văn phòng | Yêu cầu Anna nghỉ cả ngày | Yêu cầu Anna đến sớm hơn | 2 | Manager chấp nhận nhưng yêu cầu gọi văn phòng nếu đến muộn.
+p2-m6-l2-listen-extra-3 | single_choice | Câu You can call me của manager thể hiện điều gì? | Một lệnh cấm | Một dự đoán chưa chắc chắn | Sự cho phép | Một lời khuyên không nên làm | 3 | Can trong ngữ cảnh này thể hiện sự cho phép gọi trực tiếp.
+p2-m6-l2-listen-extra-4 | single_choice | Câu You don't have to come early tomorrow có nghĩa gì? | Anna bị cấm đến sớm | Anna phải đến đúng 7 giờ | Anna nên nghỉ việc | Anna không bắt buộc phải đến sớm | 4 | Don't have to diễn tả việc đến sớm không bắt buộc.
+```
 
 ## Ôn tập tổng hợp
 

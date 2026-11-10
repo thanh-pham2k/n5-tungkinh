@@ -84,6 +84,14 @@ p2-m6-l1-should-typing-1 | typing | Gõ câu từ các từ đã xáo: see a doc
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l1-should-extra-1 | single_choice | Bạn của bạn bị đau đầu vì làm việc quá lâu. Chọn lời khuyên phù hợp. | You should taking a break. | You mustn't rest. | You should take a break. | You should to take a break. | 3 | Should + V1 dùng để khuyên nghỉ ngơi.
+p2-m6-l1-should-extra-2 | word_order | Sắp xếp lời khuyên không nên ăn quá nhiều đồ ngọt. | too much sugar / eat / shouldn't / You | You shouldn't eat too much sugar. | Shouldn't + V1 diễn tả lời khuyên không nên làm.
+p2-m6-l1-should-extra-3 | typing | Gõ câu từ các từ đã xáo: more / should / exercise / He | He should exercise more. | Should không thêm s theo chủ ngữ he.
+```
+
 ## 2. Hỏi xin lời khuyên với should
 
 Khi không biết nên làm gì, bạn có thể dùng should trong câu hỏi.
@@ -132,6 +140,16 @@ p2-m6-l1-should-q-typing-1 | typing | Gõ câu từ các từ đã xáo: we / le
 ```
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l1-should-q-extra-1 | single_choice | Bạn muốn hỏi có nên mang ô không. Chọn câu đúng. | Should I take an umbrella? | Do I should take an umbrella? | Should I to take an umbrella? | Should take I an umbrella? | 1 | Should + I + V1 dùng để hỏi xin lời khuyên.
+p2-m6-l1-should-q-extra-2 | single_choice | Bạn muốn hỏi nên gọi cho ai. Chọn câu đúng. | Who I should call? | Who should I to call? | Who do should I call? | Who should I call? | 4 | Wh-word + should + subject + V1.
+p2-m6-l1-should-q-extra-3 | word_order | Sắp xếp câu hỏi xin lời khuyên về thời gian. | leave / When / should / we | When should we leave? | When + should + we + leave?
+p2-m6-l1-should-q-extra-4 | word_order | Sắp xếp câu hỏi xin lời khuyên về việc mua đồ. | buy / Should / this laptop / I | Should I buy this laptop? | Should + I + buy + this laptop?
+p2-m6-l1-should-q-extra-5 | typing | Gõ câu từ các từ đã xáo: Where / park / should / I | Where should I park? | Where + should + I + park?
+```
 
 ## 3. Bắt buộc với must
 
@@ -184,6 +202,16 @@ p2-m6-l1-must-typing-1 | typing | Gõ câu từ các từ đã xáo: a helmet / 
 ```
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l1-must-extra-1 | single_choice | Trên máy bay có quy định phải thắt dây an toàn. Chọn câu phù hợp. | Passengers can wear seat belts. | Passengers must wear seat belts. | Passengers shouldn't wear seat belts. | Passengers must wearing seat belts. | 2 | Quy định bắt buộc dùng must + V1.
+p2-m6-l1-must-extra-2 | single_choice | Chọn câu đúng về quy định xuất trình giấy tờ. | Everyone musts show an ID card. | Everyone must to show an ID card. | Everyone must showing an ID card. | Everyone must show an ID card. | 4 | Must không chia theo chủ ngữ và theo sau là V1.
+p2-m6-l1-must-extra-3 | word_order | Sắp xếp câu chỉ nghĩa vụ. | follow / must / the rules / Students | Students must follow the rules. | Must + follow diễn tả nghĩa vụ tuân thủ quy định.
+p2-m6-l1-must-extra-4 | word_order | Sắp xếp câu chỉ quy định an toàn. | wear / must / a seat belt / You | You must wear a seat belt. | Must + V1 diễn tả điều bắt buộc.
+p2-m6-l1-must-extra-5 | typing | Gõ câu từ các từ đã xáo: arrive / must / on time / We | We must arrive on time. | Must + arrive diễn tả yêu cầu đến đúng giờ.
+```
 
 ## 4. Cấm đoán với mustn't
 
@@ -245,6 +273,15 @@ p2-m6-l1-mustnt-typing-1 | typing | Gõ câu từ các từ đã xáo: enter / m
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l1-mustnt-extra-1 | single_choice | Thư viện có quy định cấm ăn uống. Chọn câu đúng. | You don't have to eat in the library. | You must eat in the library. | You mustn't eat in the library. | You shouldn't to eat in the library. | 3 | Mustn't diễn tả điều không được phép làm.
+p2-m6-l1-mustnt-extra-2 | single_choice | Biển báo ghi Do Not Touch. Câu nào đúng nhất? | You mustn't touch it. | You don't have to touch it. | You should touch it. | You have to touch it. | 1 | Do Not Touch là lệnh cấm nên dùng mustn't.
+p2-m6-l1-mustnt-extra-3 | word_order | Sắp xếp câu chỉ điều cấm trong lớp học. | use / mustn't / your phone / You / in class | You mustn't use your phone in class. | Mustn't + V1 diễn tả điều cấm.
+p2-m6-l1-mustnt-extra-4 | typing | Gõ câu từ các từ đã xáo: take photos / Visitors / mustn't / here | Visitors mustn't take photos here. | Mustn't + take diễn tả quy định cấm chụp ảnh.
+```
+
 ## 5. Sự cần thiết với have to và has to
 
 Have to thường diễn tả một việc **cần hoặc phải làm vì hoàn cảnh, công việc hoặc quy định**.
@@ -295,6 +332,15 @@ p2-m6-l1-have-typing-1 | typing | Gõ câu từ các từ đã xáo: early / get
 ```
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l1-have-extra-1 | single_choice | Hoàn thành câu: My parents ___ work on Saturdays. | has to | have to | having to | has | 2 | My parents là chủ ngữ số nhiều nên dùng have to.
+p2-m6-l1-have-extra-2 | single_choice | Chọn câu đúng về nghĩa vụ của Anna. | Anna have to finish the report. | Anna has to finishes the report. | Anna has finish to the report. | Anna has to finish the report. | 4 | Anna là số ít nên dùng has to + V1.
+p2-m6-l1-have-extra-3 | word_order | Sắp xếp câu nói về nghĩa vụ công việc. | finish / have to / the project / We / today | We have to finish the project today. | We + have to + V1.
+p2-m6-l1-have-extra-4 | typing | Gõ câu từ các từ đã xáo: has to / study / every evening / My brother | My brother has to study every evening. | My brother là số ít nên dùng has to.
+```
 
 ## 6. Không bắt buộc với don't have to
 
@@ -357,6 +403,14 @@ p2-m6-l1-dont-have-typing-1 | typing | Gõ câu từ các từ đã xáo: tonigh
 ```
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l1-dont-have-extra-1 | single_choice | Hôm nay công ty cho phép làm việc tại nhà. Bạn không bắt buộc đến văn phòng. | You mustn't go to the office. | You doesn't have to go to the office. | You don't have to go to the office. | You shouldn't to go to the office. | 3 | Don't have to diễn tả việc đến văn phòng không bắt buộc.
+p2-m6-l1-dont-have-extra-2 | word_order | Sắp xếp câu hỏi về nghĩa vụ. | wear a uniform / Does / have to / your sister | Does your sister have to wear a uniform? | Does + chủ ngữ + have to + V1.
+p2-m6-l1-dont-have-extra-3 | typing | Gõ câu từ các từ đã xáo: doesn't have to / He / bring / his laptop | He doesn't have to bring his laptop. | Sau doesn't dùng have to, không dùng has to.
+```
 
 ## 7. Mustn't và don't have to — khác nhau hoàn toàn
 
@@ -425,6 +479,14 @@ p2-m6-l1-compare-typing-1 | typing | Gõ câu từ các từ đã xáo: work / d
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l1-compare-extra-1 | single_choice | Một bảo tàng cho phép chụp ảnh nhưng không bắt buộc. Câu nào diễn đạt đúng? | Visitors mustn't take photos. | Visitors must take photos. | Visitors shouldn't take photos. | Visitors don't have to take photos. | 4 | Don't have to diễn tả không bắt buộc và không có nghĩa là cấm.
+p2-m6-l1-compare-extra-2 | word_order | Biển báo cấm bơi ở hồ. Sắp xếp câu phù hợp. | swim / You / mustn't / in this lake | You mustn't swim in this lake. | Mustn't dùng khi việc bơi bị cấm.
+p2-m6-l1-compare-extra-3 | typing | Công ty không bắt buộc nhân viên mặc đồng phục. Gõ câu từ các từ đã xáo: don't have to / Employees / wear / uniforms | Employees don't have to wear uniforms. | Don't have to diễn tả việc mặc đồng phục không bắt buộc.
+```
+
 ## 8. Phân biệt toàn bộ cấu trúc
 
 | Ý muốn nói | Cấu trúc | Ví dụ |
@@ -487,6 +549,13 @@ p2-m6-l1-context-typing-1 | typing | Gõ câu từ các từ đã xáo: here / m
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l1-context-extra-1 | single_choice | Bạn mới đi làm. Công ty yêu cầu đeo thẻ nhân viên nhưng không bắt buộc mặc vest. Chọn câu đúng. | You should wear an ID card and mustn't wear a suit. | You must wear an ID card but don't have to wear a suit. | You don't have to wear an ID card but must wear a suit. | You mustn't wear an ID card or a suit. | 2 | Must diễn tả điều bắt buộc còn don't have to diễn tả điều không bắt buộc.
+p2-m6-l1-context-extra-2 | typing | Bạn khuyên một người không nên lái xe khi mệt. Gõ câu từ các từ đã xáo: shouldn't / drive / You / when you're tired | You shouldn't drive when you're tired. | Shouldn't là lời khuyên không nên làm, không phải lệnh cấm.
+```
+
 ## 9. Nghe trong ngữ cảnh
 
 `audio:en|Tom: It's my first day at the office. Is there anything I should know? Anna: Yes. You must wear your ID card at work. You mustn't smoke inside the building. Tom: Do I have to wear a suit? Anna: No, you don't have to wear a suit. You can wear a shirt and trousers. Tom: Great. I'm a little tired today. Anna: You should get some coffee and take a short break.`
@@ -517,6 +586,16 @@ Anna: You should get some coffee and take a short break.
 </details>
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m6-l1-listen-extra-1 | single_choice | Tom đang ở ngày làm việc thứ mấy tại công ty? | Ngày đầu tiên | Ngày thứ hai | Ngày cuối cùng | Ngày thứ năm | 1 | Tom nói It's my first day at the office.
+p2-m6-l1-listen-extra-2 | single_choice | Tom được phép mặc gì thay cho vest? | A helmet and a jacket | A shirt and trousers | A uniform and a hat | A coat and gloves | 2 | Anna nói You can wear a shirt and trousers.
+p2-m6-l1-listen-extra-3 | single_choice | Trong hội thoại, quy định nào là bắt buộc? | Wearing a suit | Drinking coffee | Wearing an ID card | Taking a break | 3 | Must wear your ID card diễn tả nghĩa vụ bắt buộc.
+p2-m6-l1-listen-extra-4 | single_choice | Vì sao Anna dùng should khi nói về cà phê và nghỉ ngơi? | Vì đó là quy định bắt buộc | Vì Tom bị cấm làm việc | Vì Tom không được uống cà phê | Vì Anna đang đưa lời khuyên | 4 | Should diễn tả lời khuyên, không phải nghĩa vụ.
+p2-m6-l1-listen-extra-5 | single_choice | Nếu Tom quyết định không mặc vest thì điều đó có vi phạm quy định không? | Không, vì vest không bắt buộc | Có, vì anh ấy phải mặc vest | Có, vì Anna cấm mặc áo sơ mi | Không thể xác định vì Anna không đề cập | 1 | Don't have to wear a suit nghĩa là không bắt buộc phải mặc vest.
+```
 
 ## Ôn tập tổng hợp
 

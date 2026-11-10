@@ -27,6 +27,21 @@ Nhận biết và vận dụng **câu hỏi wh- và how trong đời sống** tr
 - *Where do you live?* (Bạn sống ở đâu?)
 - *Where does she work?* (Cô ấy làm việc ở đâu?)
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m1-l2-extra-what-01 | single_choice | Bạn muốn hỏi tên của một người. Chọn câu đúng. | What your name is? | What does your name? | What is your name? | Where is your name? | 3 | Với tên gọi, dùng What + is + your name.
+p2-m1-l2-extra-what-02 | single_choice | Điền từ để hỏi: ___ does your father work? - At a hospital. | Where | What | Who | Why | 1 | At a hospital chỉ địa điểm nên dùng Where.
+p2-m1-l2-extra-what-03 | single_choice | Bạn muốn hỏi một người đang học môn gì. | Where do you study? | What are you study? | What does you study? | What do you study? | 4 | What do you study? hỏi về môn học hoặc nội dung đang học.
+p2-m1-l2-extra-what-04 | single_choice | Chọn câu hỏi phù hợp với câu trả lời It is a dictionary. | Where is your dictionary? | What is this? | Where do you study? | What do you work? | 2 | What is this? dùng để hỏi tên gọi của đồ vật.
+p2-m1-l2-extra-what-05 | word_order | Sắp xếp câu hỏi về địa điểm làm việc. | your mother / Where / work / does | Where does your mother work? | Với chủ ngữ số ít your mother, dùng does + work nguyên mẫu.
+p2-m1-l2-extra-what-06 | word_order | Sắp xếp câu hỏi về đồ vật. | in your bag / What / is | What is in your bag? | What + is dùng để hỏi đồ vật có trong túi.
+p2-m1-l2-extra-what-07 | word_order | Sắp xếp câu hỏi về nơi học. | your brother / study / Where / does | Where does your brother study? | Where + does + chủ ngữ + V1.
+p2-m1-l2-extra-what-08 | typing | Gõ câu từ các từ đã xáo: this word / mean / What / does | What does this word mean? | Sau does dùng động từ nguyên mẫu mean.
+p2-m1-l2-extra-what-09 | typing | Gõ câu từ các từ đã xáo: the nearest supermarket / Where / is | Where is the nearest supermarket? | Where + is dùng để hỏi vị trí của một địa điểm.
+p2-m1-l2-extra-what-10 | typing | Gõ câu từ các từ đã xáo: your parents / live / do / Where | Where do your parents live? | Your parents là số nhiều nên dùng do.
+```
+
 ### Câu hỏi Wh- với Who, When và Why
 
 ### Ý nghĩa và mục đích sử dụng
@@ -52,6 +67,21 @@ Khi **who** chính là chủ ngữ, không dùng do/does: *Who works here?* (Ai 
 Khi được hỏi với **Why**, câu trả lời thường bắt đầu bằng liên từ **Because** (Bởi vì):
 - *Why do you like English? - **Because** it is interesting.*
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m1-l2-extra-wwy-01 | single_choice | Câu trả lời là My English teacher. Chọn câu hỏi phù hợp. | When teaches you English? | Why teaches you English? | Where teaches you English? | Who teaches you English? | 4 | Who là chủ ngữ nên không cần do hoặc does.
+p2-m1-l2-extra-wwy-02 | single_choice | Điền từ để hỏi: ___ does the movie start? - At 7 PM. | Who | When | Why | Where | 2 | At 7 PM là thời điểm nên dùng When.
+p2-m1-l2-extra-wwy-03 | single_choice | Bạn muốn hỏi lý do Anna học tiếng Nhật. | Why does Anna study Japanese? | Why Anna studies Japanese? | Why does Anna studies Japanese? | When does Anna study Japanese? | 1 | Why + does + Anna + study hỏi nguyên nhân.
+p2-m1-l2-extra-wwy-04 | single_choice | Chọn câu trả lời phù hợp: Why do you walk to work? | At 8 AM. | My brother. | Because I live near my office. | Every morning. | 3 | Why hỏi lý do nên trả lời bằng Because.
+p2-m1-l2-extra-wwy-05 | word_order | Sắp xếp câu hỏi về người thực hiện hành động. | in this office / works / Who | Who works in this office? | Who làm chủ ngữ nên động từ chia works.
+p2-m1-l2-extra-wwy-06 | word_order | Sắp xếp câu hỏi về thời điểm họp. | the meeting / When / is | When is the meeting? | When + is + chủ ngữ dùng để hỏi thời điểm.
+p2-m1-l2-extra-wwy-07 | word_order | Sắp xếp câu hỏi về nguyên nhân đi muộn. | you / Why / late / are | Why are you late? | Why + are + you + tính từ late.
+p2-m1-l2-extra-wwy-08 | typing | Gõ câu từ các từ đã xáo: call / Who / you / do / every evening | Who do you call every evening? | Who là tân ngữ, còn you là chủ ngữ nên cần do.
+p2-m1-l2-extra-wwy-09 | typing | Gõ câu từ các từ đã xáo: she / When / finish work / does | When does she finish work? | Does + she + finish nguyên mẫu.
+p2-m1-l2-extra-wwy-10 | typing | Gõ câu từ các từ đã xáo: he / Why / tired / is | Why is he tired? | Với to be, đảo is lên trước chủ ngữ he.
+```
+
 ### Câu hỏi với How
 
 ### Các cụm từ để hỏi bắt đầu bằng How
@@ -69,6 +99,21 @@ Khi được hỏi với **Why**, câu trả lời thường bắt đầu bằng
 Sau **How many**, danh từ luôn ở dạng **số nhiều**:
 - *How many **brothers** do you have?* (không nói *How many brother*)
 - *How many **pens** do you need?*
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m1-l2-extra-how-01 | single_choice | Bạn muốn hỏi bạn mình đọc sách bao lâu một lần. | How long do you read books? | How often do you read books? | How many do you read books? | How old do you read books? | 2 | How often dùng để hỏi tần suất.
+p2-m1-l2-extra-how-02 | single_choice | Chọn câu hỏi phù hợp với câu trả lời Two hours. | How old is the lesson? | How much is the lesson? | How often is the lesson? | How long is the lesson? | 4 | How long hỏi thời lượng.
+p2-m1-l2-extra-how-03 | single_choice | Điền cụm từ đúng: ___ students are in your class? | How many | How much | How long | How often | 1 | Students là danh từ đếm được số nhiều nên dùng How many.
+p2-m1-l2-extra-how-04 | single_choice | Bạn muốn hỏi giá của một chiếc áo. | How many is this shirt? | How often is this shirt? | How much is this shirt? | How long is this shirt? | 3 | How much dùng để hỏi giá cả.
+p2-m1-l2-extra-how-05 | word_order | Sắp xếp câu hỏi về tần suất tập thể dục. | exercise / How often / you / do | How often do you exercise? | How often + do + chủ ngữ + V1.
+p2-m1-l2-extra-how-06 | word_order | Sắp xếp câu hỏi về số lượng anh chị em. | brothers and sisters / have / How many / do / you | How many brothers and sisters do you have? | How many đi với danh từ đếm được số nhiều.
+p2-m1-l2-extra-how-07 | word_order | Sắp xếp câu hỏi về phương tiện đến trường. | go to school / How / does / she | How does she go to school? | How + does + she + V1 hỏi cách thức di chuyển.
+p2-m1-l2-extra-how-08 | typing | Gõ câu từ các từ đã xáo: your English class / How long / is | How long is your English class? | How long hỏi thời lượng của lớp học.
+p2-m1-l2-extra-how-09 | typing | Gõ câu từ các từ đã xáo: water / need / How much / do / you | How much water do you need? | Water không đếm được nên dùng How much.
+p2-m1-l2-extra-how-10 | typing | Gõ câu từ các từ đã xáo: your grandparents / How old / are | How old are your grandparents? | How old + are dùng để hỏi tuổi của chủ ngữ số nhiều.
+```
 
 ## Luyện tập
 

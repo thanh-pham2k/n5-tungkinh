@@ -229,6 +229,21 @@ p2-cp-m5-typing-5 | typing | Gõ câu từ các từ đã xáo: anyone / tell / 
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-cp-m5-extra-01 | single_choice | Bạn đã đặt vé máy bay từ tuần trước. Bạn nói gì về chuyến đi ngày mai? | I'll book a flight tomorrow. | I'm going to fly to Hanoi tomorrow. | I flew to Hanoi tomorrow. | Shall I fly yesterday? | 2 | Vé đã đặt từ trước là bằng chứng của kế hoạch đã có nên be going to phù hợp nhất.
+p2-cp-m5-extra-02 | single_choice | Bạn đang ăn tối thì chuông cửa reo. Bạn quyết định ra mở ngay. | I'm going to opened the door. | I opened the door tomorrow. | I'll get the door. | Shall we get the door yesterday? | 3 | Quyết định nảy sinh ngay lúc nói dùng will.
+p2-cp-m5-extra-03 | single_choice | Bạn thấy một đứa trẻ đang mất thăng bằng trên xe đạp. Chọn câu cảnh báo phù hợp nhất. | The child is going to fall! | The child fell tomorrow! | The child will falling! | The child going to falls! | 1 | Be going to phù hợp với dự đoán dựa trên dấu hiệu trước mắt.
+p2-cp-m5-extra-04 | single_choice | Người bạn nói I'm thirsty. Bạn muốn hỏi xem họ có cần mình lấy nước không. | Shall we drink water yesterday? | I got some water yesterday. | Will I getting water? | Shall I get you some water? | 4 | Shall I hỏi xem người nghe có muốn mình giúp không.
+p2-cp-m5-extra-05 | single_choice | Bạn và bạn mình đang rảnh và muốn đề xuất cùng đi xem phim. | Shall I watch a movie alone? | Shall we watch a movie? | I'll watched a movie. | We going to watching a movie? | 2 | Shall we dùng để rủ hai bên cùng thực hiện một hoạt động.
+p2-cp-m5-extra-06 | single_choice | Bạn hứa sẽ không chia sẻ thông tin riêng tư của bạn mình. Chọn câu đúng. | I won't sharing your information. | I didn't share it tomorrow. | I promise I won't share your information. | I won't to share your information. | 3 | Won't + V1 có thể diễn tả lời hứa không làm một việc.
+p2-cp-m5-extra-07 | word_order | Bạn nhìn thấy bầu trời đen và dự đoán trời sắp mưa. Sắp xếp câu. | going to / It is / rain / soon | It is going to rain soon. | Be going to diễn tả dự đoán có bằng chứng hiện tại.
+p2-cp-m5-extra-08 | word_order | Bạn đã lên kế hoạch học tiếng Anh vào tuần tới. Sắp xếp câu. | next week / going to / study English / I'm | I'm going to study English next week. | Be going to dùng cho dự định đã có từ trước.
+p2-cp-m5-extra-09 | typing | Bạn muốn hỏi xem có nên mang chiếc hộp giúp người khác không. Gõ câu từ các từ đã xáo: carry / Shall / this box / I | Shall I carry this box? | Shall I + V1 dùng để đề nghị bản thân giúp đỡ.
+p2-cp-m5-extra-10 | typing | Bạn nghĩ đội của mình sẽ thắng. Gõ câu từ các từ đã xáo: our team / I think / will / win | I think our team will win. | I think + will diễn tả dự đoán mang tính ý kiến.
+```
+
 ## 3. Nghe và áp dụng
 
 `audio:en|Anna: What are you going to do this weekend, Tom? Tom: I'm going to visit my parents. Anna: That sounds nice. Look at those dark clouds. It's going to rain soon. Tom: You're right. Oh, you have a lot of bags. I'll carry one for you. Anna: Thanks. Shall we get some coffee before we leave? Tom: Sure. Anna: Great. I'll pay this time.`

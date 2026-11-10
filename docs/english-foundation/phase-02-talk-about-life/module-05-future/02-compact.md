@@ -119,6 +119,14 @@ p2-m5-l2-time-typing-1 | typing | Gõ câu từ các từ đã xáo: soon / see 
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m5-l2-time-extra-1 | single_choice | Bạn nói sẽ quay lại sau ba tuần nữa. Chọn cụm thời gian đúng. | three weeks ago | last three weeks | in three weeks | next three weeks ago | 3 | In three weeks diễn tả ba tuần nữa tính từ hiện tại.
+p2-m5-l2-time-extra-2 | word_order | Sắp xếp câu nói về thời điểm trong tương lai. | in the future / work abroad / I will | I will work abroad in the future. | In the future diễn tả một thời điểm trong tương lai.
+p2-m5-l2-time-extra-3 | typing | Gõ câu từ các từ đã xáo: later / send / I'll / the email | I'll send the email later. | Later thường đứng cuối câu và diễn tả sau hoặc lát nữa.
+```
+
 ## 2. Nói về kế hoạch với plan to
 
 Plan to dùng để nói về điều bạn **dự định hoặc có kế hoạch làm**.
@@ -175,6 +183,15 @@ p2-m5-l2-plan-typing-1 | typing | Gõ câu từ các từ đã xáo: next month 
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m5-l2-plan-extra-1 | single_choice | Bạn và bạn bè đã lên kế hoạch chuyển nhà vào năm tới. Chọn câu đúng. | We plans to move next year. | We plan moving next year. | We plan to moved next year. | We plan to move next year. | 4 | We dùng plan to + động từ nguyên mẫu.
+p2-m5-l2-plan-extra-2 | single_choice | Chọn câu nhấn mạnh một kế hoạch đã có. | I plan to buy a bicycle next month. | I hope buying a bicycle. | I bought a bicycle yesterday. | Shall I buy a bicycle? | 1 | Plan to nhấn mạnh kế hoạch hoặc dự định.
+p2-m5-l2-plan-extra-3 | word_order | Sắp xếp câu nói về kế hoạch học tập. | plans to / improve / his English / He | He plans to improve his English. | He là chủ ngữ số ít nên dùng plans to.
+p2-m5-l2-plan-extra-4 | typing | Gõ câu từ các từ đã xáo: a new job / plan to / find / They | They plan to find a new job. | Plan to + find diễn tả kế hoạch tìm công việc mới.
+```
+
 ## 3. Nói về hy vọng với hope to
 
 Hope to dùng để nói về điều bạn **hy vọng có thể làm trong tương lai**.
@@ -214,6 +231,16 @@ p2-m5-l2-hope-typing-1 | typing | Gõ câu từ các từ đã xáo: soon / see 
 ```
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m5-l2-hope-extra-1 | single_choice | Hoàn thành câu: My sister ___ to work abroad someday. | hope | hoping | hopes | hope to | 3 | My sister là chủ ngữ số ít nên dùng hopes to.
+p2-m5-l2-hope-extra-2 | single_choice | Bạn chưa có kế hoạch chắc chắn nhưng mong được học ở Nhật Bản. Chọn câu phù hợp nhất. | I plan to studied in Japan. | I hope to study in Japan. | I hope studying to Japan. | I studied in Japan yesterday. | 2 | Hope to diễn tả mong muốn chưa chắc chắn xảy ra.
+p2-m5-l2-hope-extra-3 | word_order | Sắp xếp câu diễn tả hy vọng tìm được việc làm. | to find / hopes / a good job / She | She hopes to find a good job. | She + hopes to + động từ nguyên mẫu.
+p2-m5-l2-hope-extra-4 | word_order | Sắp xếp câu nói về hy vọng trong tương lai. | to meet / We / again / hope | We hope to meet again. | Hope to + meet diễn tả hy vọng gặp lại.
+p2-m5-l2-hope-extra-5 | typing | Gõ câu từ các từ đã xáo: next month / hopes to / visit / her grandparents / She | She hopes to visit her grandparents next month. | Hopes to visit diễn tả hy vọng thực hiện chuyến thăm.
+```
 
 ## 4. Lời hứa với will và won't
 
@@ -273,6 +300,15 @@ p2-m5-l2-promise-typing-1 | typing | Gõ câu từ các từ đã xáo: forget /
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m5-l2-promise-extra-1 | single_choice | Bạn làm bạn mình lo lắng và muốn hứa sẽ cẩn thận hơn. Chọn câu phù hợp. | I was careful yesterday. | I will being careful. | I won't careful. | I promise I'll be more careful. | 4 | I promise I'll + động từ nguyên mẫu dùng để đưa ra lời hứa.
+p2-m5-l2-promise-extra-2 | single_choice | Chọn câu hứa không đến muộn nữa. | I won't be late again. | I won't being late again. | I didn't be late tomorrow. | I won't to be late again. | 1 | Won't + be dùng để hứa sẽ không đến muộn.
+p2-m5-l2-promise-extra-3 | word_order | Sắp xếp lời hứa giúp đỡ. | help you / I promise / I'll | I promise I'll help you. | I promise kết hợp I'll + V1 để nhấn mạnh lời hứa.
+p2-m5-l2-promise-extra-4 | typing | Gõ câu từ các từ đã xáo: won't / make / I / the same mistake / again | I won't make the same mistake again. | Won't + make diễn tả lời hứa không lặp lại lỗi.
+```
+
 ## 5. Đề nghị giúp đỡ với will
 
 Khi thấy người khác cần giúp và bạn **quyết định giúp ngay**, có thể dùng:
@@ -319,6 +355,16 @@ p2-m5-l2-offer-typing-1 | typing | Gõ câu từ các từ đã xáo: some water
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m5-l2-offer-extra-1 | single_choice | Bạn thấy người khác đang cố mở một cánh cửa nặng. Chọn lời đề nghị phù hợp. | I opened it last week. | I'll open it for you. | I'll opening it for you. | I was open it. | 2 | I'll + V1 diễn tả quyết định giúp ngay lúc nói.
+p2-m5-l2-offer-extra-2 | single_choice | Người bạn nói I can't finish this homework. Bạn muốn đề nghị giúp ngay. | I helped yesterday. | I am help you. | I'll help you with it. | I'll helped you with it. | 3 | Will dùng để chủ động đề nghị giúp đỡ.
+p2-m5-l2-offer-extra-3 | word_order | Sắp xếp lời đề nghị giúp đỡ. | the door / open / I'll / for you | I'll open the door for you. | I'll + open diễn tả quyết định giúp ngay.
+p2-m5-l2-offer-extra-4 | word_order | Sắp xếp câu đề nghị mang đồ giúp. | your books / carry / I'll / for you | I'll carry your books for you. | I'll carry diễn tả lời đề nghị giúp mang đồ.
+p2-m5-l2-offer-extra-5 | typing | Gõ câu từ các từ đã xáo: with your homework / help you / I'll | I'll help you with your homework. | I'll + help diễn tả lời đề nghị giúp đỡ.
+```
+
 ## 6. Đề nghị với Shall I...?
 
 Shall I...? được dùng để **đề nghị mình làm một việc cho người khác**.
@@ -357,6 +403,16 @@ p2-m5-l2-shall-i-typing-1 | typing | Gõ câu từ các từ đã xáo: some tea
 ```
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m5-l2-shall-i-extra-1 | single_choice | Bạn thấy người khác đang lạnh và muốn hỏi có nên đóng cửa sổ không. | Shall we close the window yesterday? | Shall I closing the window? | Shall I to close the window? | Shall I close the window? | 4 | Shall I + V1 dùng để hỏi xem mình có nên làm một việc không.
+p2-m5-l2-shall-i-extra-2 | single_choice | Phân biệt Shall I help you? và I'll help you. Câu nào đúng? | Shall I hỏi ý người nghe còn I'll chủ động đề nghị giúp. | Hai câu đều nói về quá khứ. | Shall I dùng để rủ cả nhóm. | I'll chỉ dùng để nói về kế hoạch đã có. | 1 | Shall I hỏi xem người kia có muốn mình giúp không.
+p2-m5-l2-shall-i-extra-3 | word_order | Sắp xếp câu hỏi đề nghị giúp đỡ. | your suitcase / carry / Shall / I | Shall I carry your suitcase? | Shall I + động từ nguyên mẫu.
+p2-m5-l2-shall-i-extra-4 | word_order | Sắp xếp câu hỏi đề nghị lấy nước. | some water / get you / Shall / I | Shall I get you some water? | Shall I dùng để hỏi xem người nghe có muốn được giúp không.
+p2-m5-l2-shall-i-extra-5 | typing | Gõ câu từ các từ đã xáo: the door / close / I / Shall | Shall I close the door? | Shall I + close dùng để đề nghị đóng cửa.
+```
 
 ## 7. Rủ rê với Shall we...?
 
@@ -403,6 +459,16 @@ p2-m5-l2-shall-we-typing-1 | typing | Gõ câu từ các từ đã xáo: lunch t
 ```
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m5-l2-shall-we-extra-1 | single_choice | Bạn muốn rủ bạn bè cùng đi ăn tối. Chọn câu phù hợp. | Shall I eat dinner alone? | Shall we have dinner together? | Shall we having dinner together? | Shall we to have dinner? | 2 | Shall we + V1 dùng để rủ cùng làm một việc.
+p2-m5-l2-shall-we-extra-2 | single_choice | Chọn câu đúng khi gợi ý cả nhóm bắt đầu cuộc họp. | Shall we starting the meeting? | Shall I started the meeting yesterday? | Shall we start the meeting? | Shall we to start the meeting? | 3 | Shall we + động từ nguyên mẫu start.
+p2-m5-l2-shall-we-extra-3 | word_order | Sắp xếp lời rủ đi mua sắm. | go shopping / Shall / tomorrow / we | Shall we go shopping tomorrow? | Shall we dùng để đề nghị cùng đi mua sắm.
+p2-m5-l2-shall-we-extra-4 | word_order | Sắp xếp lời rủ đi ăn trưa. | at noon / Shall / meet / we | Shall we meet at noon? | Shall we + meet dùng để gợi ý gặp nhau.
+p2-m5-l2-shall-we-extra-5 | typing | Gõ câu từ các từ đã xáo: together / study English / Shall / we | Shall we study English together? | Shall we dùng để rủ cùng học tiếng Anh.
+```
 
 ## 8. Phân biệt các ý chính
 
@@ -458,6 +524,13 @@ p2-m5-l2-context-typing-1 | typing | Gõ câu từ các từ đã xáo: tomorrow
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m5-l2-context-extra-1 | single_choice | Bạn thấy bạn mình đang mang túi nặng. Bạn muốn hỏi trước xem họ có cần giúp không. Chọn câu phù hợp nhất. | I plan to carry your bag. | I hope to carry your bag. | Shall we carry your bag? | Shall I carry your bag? | 4 | Shall I dùng để hỏi xem người nghe có muốn mình giúp không.
+p2-m5-l2-context-extra-2 | typing | Bạn muốn rủ bạn mình cùng uống cà phê. Gõ câu từ các từ đã xáo: coffee / have / Shall / we / some | Shall we have some coffee? | Shall we dùng để rủ hai bên cùng làm một việc.
+```
+
 ## 9. Nghe trong ngữ cảnh
 
 `audio:en|Anna: What are your plans for next weekend, Tom? Tom: I plan to visit my parents on Saturday. I hope to stay there until Sunday evening. Anna: That sounds nice. Tom: What about you? Anna: I'm going to stay home. I have a lot of work. Tom: That bag looks heavy. I'll carry it for you. Anna: Thanks. Tom: Shall I put it in your car? Anna: Yes, please. Tom: Shall we have coffee before you leave? Anna: Sure. I have some time.`
@@ -499,6 +572,15 @@ Anna: Sure. I have some time.
 </details>
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m5-l2-listen-extra-1 | single_choice | Vì sao Anna dự định ở nhà vào cuối tuần? | She wants to sleep all day. | She has a lot of work. | She is waiting for her parents. | She plans to buy a car. | 2 | Anna nói cô ấy sẽ ở nhà vì có nhiều việc phải làm.
+p2-m5-l2-listen-extra-2 | single_choice | Tom nói I hope to stay there until Sunday evening. Điều này cho thấy gì? | Anh ấy chắc chắn sẽ ở lại một tuần. | Anh ấy đã về nhà vào Chủ nhật. | Anh ấy mong được ở lại đến tối Chủ nhật. | Anh ấy không muốn gặp bố mẹ. | 3 | Hope to thể hiện mong muốn chứ không khẳng định chắc chắn.
+p2-m5-l2-listen-extra-3 | single_choice | Vì sao Tom nói I'll carry it for you? | Anh ấy thấy túi của Anna có vẻ nặng. | Anna yêu cầu Tom mua túi mới. | Tom đã hứa từ tuần trước. | Anna muốn đi du lịch. | 1 | Tom nhận thấy túi nặng và chủ động đề nghị giúp.
+p2-m5-l2-listen-extra-4 | single_choice | Câu Sure. I have some time. của Anna cho biết điều gì? | Anna từ chối lời mời. | Anna muốn về ngay lập tức. | Anna không thích cà phê. | Anna đồng ý uống cà phê trước khi đi. | 4 | Sure cho thấy Anna chấp nhận lời rủ uống cà phê của Tom.
+```
 
 ## Ôn tập tổng hợp
 

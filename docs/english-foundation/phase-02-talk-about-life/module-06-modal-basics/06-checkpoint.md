@@ -239,6 +239,17 @@ My mother says I should practice more.
 
 ---
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-cp-m6-extra-read-1 | single_choice | Mai thường làm việc ở đâu? | At the office | From home | At a school | At a restaurant | 2 | Mai nói I usually work from home.
+p2-cp-m6-extra-read-2 | single_choice | Hôm nay Mai đang làm việc ở đâu? | At home | At a cafe | At the office | At her parents' house | 3 | Today I'm working at the office diễn tả việc đang diễn ra hôm nay.
+p2-cp-m6-extra-read-3 | single_choice | Mai đã làm gì cuối tuần trước? | She visited her family. | She is visiting her family. | She is going to visit her family. | She visits her family every day. | 1 | Last weekend là dấu hiệu quá khứ và visited là dạng quá khứ của visit.
+p2-cp-m6-extra-read-4 | single_choice | Mai dự định làm gì cuối tuần tới? | Work from home | Learn to drive | Buy a new house | Visit her family again | 4 | Mai nói Next weekend I'm going to visit them again.
+p2-cp-m6-extra-read-5 | single_choice | Mai thích hoạt động nào? | Playing football | Cooking with her family | Driving | Shopping | 2 | Mai nói I enjoy cooking with them.
+p2-cp-m6-extra-read-6 | single_choice | Mai nói gì về khả năng nấu ăn của mình? | She cooks very well. | She cannot cook at all. | She cannot cook very well. | She mustn't cook. | 3 | Can't cook very well nghĩa là không nấu ăn giỏi, không có nghĩa hoàn toàn không biết nấu.
+```
+
 ## 6. Nhìn dấu hiệu để chọn đúng thời
 
 | Dấu hiệu | Kiến thức | Ví dụ |
@@ -263,6 +274,19 @@ p2-cp-m6-phase2-grammar-6 | single_choice | Chọn câu nói về khả năng. |
 ```
 
 ---
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-cp-m6-extra-grammar-1 | single_choice | Bạn muốn nói về thói quen học tiếng Anh mỗi tối. | I study English every evening. | I am study English every evening. | I studied English tomorrow. | I am going study English every evening. | 1 | Every evening diễn tả thói quen nên dùng Present Simple.
+p2-cp-m6-extra-grammar-2 | single_choice | Bạn đang nói chuyện điện thoại và muốn diễn tả việc mình đang làm. | I cooked dinner yesterday. | I usually cook dinner. | I will cook dinner tomorrow. | I am cooking dinner now. | 4 | Now diễn tả hành động đang diễn ra nên dùng Present Continuous.
+p2-cp-m6-extra-grammar-3 | single_choice | Bạn muốn hỏi bạn mình đã đi đâu cuối tuần trước. | Where do you go last weekend? | Where did you go last weekend? | Where did you went last weekend? | Where are you going last weekend? | 2 | Câu hỏi Past Simple dùng did + subject + V1.
+p2-cp-m6-extra-grammar-4 | single_choice | Bạn đã lên kế hoạch đi du lịch vào tháng tới. | I travelled next month. | I going to travel next month. | I am going to travel next month. | I am travel next month. | 3 | Be going to diễn tả kế hoạch đã có từ trước.
+p2-cp-m6-extra-grammar-5 | word_order | Sắp xếp câu diễn tả thói quen. | every morning / coffee / drinks / My father | My father drinks coffee every morning. | Chủ ngữ số ít My father đi với drinks trong Present Simple.
+p2-cp-m6-extra-grammar-6 | word_order | Sắp xếp câu diễn tả hành động trong quá khứ. | last night / watched / We / a movie | We watched a movie last night. | Last night diễn tả thời gian quá khứ.
+p2-cp-m6-extra-grammar-7 | typing | Gõ câu từ các từ đã xáo: reading books / enjoy / I | I enjoy reading books. | Sau enjoy dùng V-ing.
+p2-cp-m6-extra-grammar-8 | typing | Gõ câu từ các từ đã xáo: should / practice / You / English / every day | You should practice English every day. | Should + V1 dùng để đưa lời khuyên.
+```
 
 ## 7. Nói và viết
 

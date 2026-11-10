@@ -31,6 +31,21 @@ Với mọi động từ thường (cả có quy tắc và bất quy tắc), ta 
 - *What did you do yesterday?* (Hôm qua bạn đã làm gì?)
 - *Where did you go on holiday?* (Bạn đã đi nghỉ ở đâu?)
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m4-l4-u1-q01 | single_choice | Hoàn thành câu: She ___ visit her grandparents yesterday. | doesn't | wasn't | didn't | don't | 3 | Với động từ thường ở quá khứ, dùng didn't + động từ nguyên mẫu.
+p2-m4-l4-u1-q02 | single_choice | Chọn câu phủ định đúng từ câu He ate breakfast this morning. | He didn't eat breakfast this morning. | He didn't ate breakfast this morning. | He wasn't eat breakfast this morning. | He doesn't ate breakfast this morning. | 1 | Sau didn't dùng eat thay vì ate.
+p2-m4-l4-u1-q03 | single_choice | Hoàn thành câu hỏi: ___ your brother play football yesterday? | Does | Was | Were | Did | 4 | Did đứng trước chủ ngữ trong câu hỏi quá khứ với động từ thường.
+p2-m4-l4-u1-q04 | single_choice | Trả lời phủ định cho câu hỏi Did they finish their homework? | No, they weren't. | No, they didn't. | No, they don't. | No, they haven't. | 2 | Câu hỏi Did được trả lời ngắn bằng No + chủ ngữ + didn't.
+p2-m4-l4-u1-q05 | word_order | Sắp xếp câu phủ định trong quá khứ. | didn't / My sister / watch / TV / yesterday | My sister didn't watch TV yesterday. | Didn't + watch nguyên mẫu, không dùng watched.
+p2-m4-l4-u1-q06 | word_order | Sắp xếp câu hỏi Yes/No trong quá khứ. | finish / Did / your homework / you | Did you finish your homework? | Did + chủ ngữ + động từ nguyên mẫu.
+p2-m4-l4-u1-q07 | word_order | Sắp xếp câu hỏi về địa điểm đã đến. | last Sunday / Where / they / did / go | Where did they go last Sunday? | Where + did + chủ ngữ + động từ nguyên mẫu.
+p2-m4-l4-u1-q08 | typing | Gõ câu từ các từ đã xáo: didn't / We / buy / any tickets | We didn't buy any tickets. | Didn't + buy, không dùng bought.
+p2-m4-l4-u1-q09 | typing | Gõ câu từ các từ đã xáo: Did / she / call / you / yesterday | Did she call you yesterday? | Did + she + call + you + yesterday?
+p2-m4-l4-u1-q10 | typing | Gõ câu từ các từ đã xáo: What / did / he / eat / for breakfast | What did he eat for breakfast? | What + did + he + eat + for breakfast?
+```
+
 ### Trạng từ chỉ thời gian quá khứ
 
 ### Các cụm từ chỉ thời gian quá khứ thông dụng
@@ -50,6 +65,21 @@ Các trạng từ chỉ thời gian thường đứng ở **cuối câu**, hoặ
 ### Điểm đặc biệt cần nhớ
 - Người bản xứ nói **last night** (tối qua), không nói *yesterday night*.
 - *Ago* luôn đứng **sau** khoảng thời gian: *three weeks ago* (không nói *ago three weeks*).
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m4-l4-u2-q01 | single_choice | Chọn cụm từ đúng để diễn đạt cách đây hai tuần. | ago two weeks | two weeks last | two weeks ago | last two weeks ago | 3 | Ago đứng sau khoảng thời gian: two weeks ago.
+p2-m4-l4-u2-q02 | single_choice | Hoàn thành câu: I visited Da Nang ___ summer. | last | ago | yesterday | in last | 1 | Last summer diễn tả mùa hè năm ngoái.
+p2-m4-l4-u2-q03 | single_choice | Chọn cách diễn đạt đúng cho sáng hôm qua. | last morning | ago morning | morning last | yesterday morning | 4 | Yesterday morning là cách nói sáng hôm qua.
+p2-m4-l4-u2-q04 | single_choice | Chọn câu có vị trí trạng từ thời gian đúng. | She last week visited her aunt. | She visited her aunt last week. | She visited last week her aunt. | She last visited week her aunt. | 2 | Trạng từ chỉ thời gian thường đứng cuối câu.
+p2-m4-l4-u2-q05 | word_order | Sắp xếp câu kể về hoạt động trong quá khứ. | three days ago / bought / a new laptop / He | He bought a new laptop three days ago. | Khoảng thời gian + ago thường đứng cuối câu.
+p2-m4-l4-u2-q06 | word_order | Sắp xếp câu với trạng từ thời gian ở đầu. | we visited / Last weekend / our grandparents | Last weekend, we visited our grandparents. | Trạng từ thời gian đứng đầu câu thường theo sau bằng dấu phẩy.
+p2-m4-l4-u2-q07 | word_order | Sắp xếp câu nói về một sự kiện trong năm 2019. | in 2019 / moved / to Hanoi / My family | My family moved to Hanoi in 2019. | In + năm dùng để chỉ thời điểm trong quá khứ.
+p2-m4-l4-u2-q08 | typing | Gõ câu từ các từ đã xáo: yesterday afternoon / played football / We | We played football yesterday afternoon. | Yesterday afternoon diễn tả chiều hôm qua.
+p2-m4-l4-u2-q09 | typing | Gõ câu từ các từ đã xáo: five minutes ago / arrived / The bus | The bus arrived five minutes ago. | Ago đứng sau khoảng thời gian five minutes.
+p2-m4-l4-u2-q10 | typing | Gõ câu từ các từ đã xáo: last year / She / started / learning English | She started learning English last year. | Last year diễn tả năm ngoái và thường đứng cuối câu.
+```
 
 ## Luyện tập
 

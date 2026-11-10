@@ -54,7 +54,12 @@ export async function preserveFoundationProgress(tx, oldSource, newSource, optio
           Array.isArray(value) ||
           typeof value !== 'object' ||
           Object.keys(value).some(
-            (key) => !['foundationCompletedAt', 'foundationMergedParts'].includes(key),
+            (key) =>
+              ![
+                'foundationCompletedAt',
+                'foundationCompletionCount',
+                'foundationMergedParts',
+              ].includes(key),
           )
         )
           throw new Error('Progress includes quiz state; manual reconciliation required.');

@@ -29,6 +29,21 @@ Trợ động từ **will** giữ nguyên dạng cho tất cả các ngôi chủ
    - *I think it will rain tomorrow.* (Tôi nghĩ ngày mai trời sẽ mưa).
    - *She will pass the test easily.* (Cô ấy sẽ vượt qua bài kiểm tra dễ dàng).
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m5-l1-u1-q01 | single_choice | Hoàn thành câu: My brother ___ help me tomorrow. | wills | will | will to | is will | 2 | Will giữ nguyên với mọi chủ ngữ và đi với động từ nguyên mẫu.
+p2-m5-l1-u1-q02 | single_choice | Chọn câu phủ định đúng. | She won't be late tomorrow. | She won't to be late tomorrow. | She doesn't will be late tomorrow. | She willn't be late tomorrow. | 1 | Won't + động từ nguyên mẫu diễn tả phủ định tương lai.
+p2-m5-l1-u1-q03 | single_choice | Chọn câu hỏi đúng về kế hoạch ngày mai. | Will she comes tomorrow? | Does she will come tomorrow? | Will she come tomorrow? | Will she to come tomorrow? | 3 | Will + chủ ngữ + động từ nguyên mẫu.
+p2-m5-l1-u1-q04 | single_choice | Bạn vừa nghe tiếng chuông cửa và quyết định ra mở. Chọn câu phù hợp. | I opened it yesterday. | I am going to opening it. | I open it every day. | I'll get the door. | 4 | Will thường dùng cho quyết định nảy sinh ngay lúc nói.
+p2-m5-l1-u1-q05 | word_order | Sắp xếp câu dự đoán tương lai. | will / I think / tomorrow / be sunny / it | I think it will be sunny tomorrow. | I think + chủ ngữ + will + động từ nguyên mẫu.
+p2-m5-l1-u1-q06 | word_order | Sắp xếp câu phủ định. | won't / They / arrive / tonight | They won't arrive tonight. | Won't + động từ nguyên mẫu arrive.
+p2-m5-l1-u1-q07 | word_order | Sắp xếp câu hỏi tương lai. | Will / finish / you / the report / tomorrow | Will you finish the report tomorrow? | Will + you + finish + the report + tomorrow?
+p2-m5-l1-u1-q08 | typing | Gõ câu từ các từ đã xáo: will / She / pass / the exam | She will pass the exam. | She + will + pass + the exam.
+p2-m5-l1-u1-q09 | typing | Gõ câu từ các từ đã xáo: won't / We / forget / your birthday | We won't forget your birthday. | We + won't + forget + your birthday.
+p2-m5-l1-u1-q10 | typing | Gõ câu từ các từ đã xáo: Will / they / join / us / tomorrow | Will they join us tomorrow? | Will + they + join + us + tomorrow?
+```
+
 ### Dự định tương lai với be going to
 
 ### Cấu trúc câu
@@ -47,6 +62,21 @@ Trợ động từ **will** giữ nguyên dạng cho tất cả các ngôi chủ
 2. **Dự đoán có bằng chứng cụ thể trước mắt (Predictions with present evidence):**
    - *Look at those black clouds! It **is going to rain**.* (Nhìn những đám mây đen kìa! Trời sắp mưa rồi đấy).
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m5-l1-u2-q01 | single_choice | Hoàn thành câu: They ___ going to move next month. | is | am | are | be | 3 | They đi với are trong cấu trúc be going to.
+p2-m5-l1-u2-q02 | single_choice | Chọn câu phủ định đúng về dự định. | He not going to travel. | He isn't going to travel. | He doesn't going to travel. | He isn't going travel. | 2 | He + isn't + going to + động từ nguyên mẫu.
+p2-m5-l1-u2-q03 | single_choice | Chọn câu hỏi đúng về dự định cuối tuần. | Are you going to visit your parents? | Do you going to visit your parents? | Is you going to visit your parents? | Are you going visit your parents? | 1 | Are + you + going to + động từ nguyên mẫu.
+p2-m5-l1-u2-q04 | single_choice | Bạn thấy một chiếc cốc ở mép bàn và sắp rơi. Chọn câu dự đoán phù hợp nhất. | The cup fell yesterday. | The cup falls every day. | The cup is falling yesterday. | The cup is going to fall! | 4 | Be going to thường dùng khi dự đoán có dấu hiệu hiện tại.
+p2-m5-l1-u2-q05 | word_order | Sắp xếp câu nói về dự định. | next year / going to / study abroad / She is | She is going to study abroad next year. | She + is going to + study abroad + next year.
+p2-m5-l1-u2-q06 | word_order | Sắp xếp câu phủ định. | going to / We aren't / tonight / eat out | We aren't going to eat out tonight. | Be not going to + động từ nguyên mẫu.
+p2-m5-l1-u2-q07 | word_order | Sắp xếp câu hỏi về dự định. | going to / What are / do / you / tomorrow | What are you going to do tomorrow? | What + are + you + going to + do + tomorrow?
+p2-m5-l1-u2-q08 | typing | Gõ câu từ các từ đã xáo: am going to / I / learn / French | I am going to learn French. | I + am going to + learn + French.
+p2-m5-l1-u2-q09 | typing | Gõ câu từ các từ đã xáo: is going to / My father / buy / a new car | My father is going to buy a new car. | Chủ ngữ số ít dùng is going to.
+p2-m5-l1-u2-q10 | typing | Gõ câu từ các từ đã xáo: Are / they / going to / travel / this summer | Are they going to travel this summer? | Are + they + going to + travel + this summer?
+```
+
 ### Phân biệt will và be going to
 
 ### Bảng so sánh Will vs Be going to
@@ -63,6 +93,21 @@ Các cách dùng này có thể chồng lấp: ngữ cảnh và ý định ngư�
 ### Gợi ý ghi nhớ nhanh
 - **Ngay lúc nói:** dùng **Will** (*I'll help you!*).
 - **Đã tính trước / Thấy tận mắt:** dùng **Be going to** (*We are going to move next month* / *Look at the sky, it's going to rain*).
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m5-l1-u3-q01 | single_choice | Bạn vừa thấy một người mang nhiều túi nặng và quyết định giúp. Bạn nói gì? | I'll help you with those bags. | I helped you yesterday. | I am helping yesterday. | I was going to help last week. | 1 | Will phù hợp với quyết định giúp đỡ nảy sinh ngay lúc nói.
+p2-m5-l1-u3-q02 | single_choice | Bạn đã mua vé máy bay từ tuần trước. Chọn câu thể hiện dự định. | I fly every weekend. | I will flying tomorrow. | I'm going to fly to Bangkok tomorrow. | I flew to Bangkok yesterday. | 3 | Be going to phù hợp với dự định đã có từ trước.
+p2-m5-l1-u3-q03 | single_choice | Bạn nhìn thấy bầu trời đầy mây đen. Chọn dự đoán phù hợp nhất. | It rained last night. | It's going to rain. | It rains every day. | It was raining yesterday. | 2 | Be going to nhấn mạnh dự đoán dựa trên dấu hiệu hiện tại.
+p2-m5-l1-u3-q04 | single_choice | Chọn câu dự đoán dựa trên quan điểm cá nhân. | Look at the broken chair! | I bought an umbrella yesterday. | We are going to visit the museum as planned. | I think our team will win. | 4 | I think + will thường dùng cho dự đoán mang tính quan điểm.
+p2-m5-l1-u3-q05 | word_order | Bạn vừa quyết định gọi taxi. Sắp xếp câu phù hợp. | call / I'll / a taxi / now | I'll call a taxi now. | Will diễn tả quyết định ngay lúc nói.
+p2-m5-l1-u3-q06 | word_order | Bạn đã lên kế hoạch học tiếng Anh tối nay. Sắp xếp câu. | going to / English / study / I'm / tonight | I'm going to study English tonight. | Be going to diễn tả dự định đã có trước.
+p2-m5-l1-u3-q07 | word_order | Bạn dự đoán tương lai theo ý kiến cá nhân. Sắp xếp câu. | will / I think / be successful / she | I think she will be successful. | I think + will diễn tả dự đoán cá nhân.
+p2-m5-l1-u3-q08 | typing | Bạn vừa nghe bạn nói đang khát và quyết định lấy nước. Gõ câu từ các từ đã xáo: get / I'll / some water / you | I'll get you some water. | Will diễn tả quyết định giúp đỡ ngay lúc nói.
+p2-m5-l1-u3-q09 | typing | Bạn đã lên kế hoạch đi du lịch vào tháng tới. Gõ câu từ các từ đã xáo: next month / We are going to / travel | We are going to travel next month. | Be going to diễn tả dự định đã có từ trước.
+p2-m5-l1-u3-q10 | typing | Bạn thấy một người đang mất thăng bằng. Gõ câu từ các từ đã xáo: is going to / He / fall | He is going to fall. | Be going to diễn tả dự đoán dựa trên dấu hiệu hiện tại.
+```
 
 ## Luyện tập
 

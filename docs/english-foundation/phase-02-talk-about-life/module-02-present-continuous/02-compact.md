@@ -27,6 +27,21 @@ Ví dụ:
 - ✅ *I know him.* (Tôi biết anh ấy.) — ❌ Không nói: *I am knowing him.*
 - ✅ *She wants coffee.* (Cô ấy muốn cà phê.) — ❌ Không nói: *She is wanting coffee.*
 
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m2-l2-extra-compare-01 | single_choice | Anna thường đi làm bằng xe buýt, nhưng hôm nay cô ấy đang đi taxi. Chọn câu đúng. | Anna is taking the bus every day, but she takes a taxi now. | Anna takes the bus every day, but she is taking a taxi today. | Anna take the bus every day, but she taking a taxi today. | Anna takes the bus every day, but she takes a taxi yesterday. | 2 | Every day diễn tả thói quen, còn today mô tả tình huống tạm thời.
+p2-m2-l2-extra-compare-02 | single_choice | Điền dạng đúng: Listen! Someone ___ in the next room. | sings | sing | is singing | are singing | 3 | Listen! cho biết hành động đang diễn ra nên dùng is singing.
+p2-m2-l2-extra-compare-03 | single_choice | Chọn câu đúng khi nói về sự hiểu biết. | I know the answer. | I am knowing the answer. | I knows the answer. | I knowing the answer. | 1 | Know diễn tả trạng thái hiểu biết nên thường dùng hiện tại đơn.
+p2-m2-l2-extra-compare-04 | single_choice | Bạn muốn nói mình sở hữu một chiếc xe đạp. | I am having a bicycle. | I has a bicycle. | I having a bicycle. | I have a bicycle. | 4 | Have mang nghĩa sở hữu thường dùng hiện tại đơn.
+p2-m2-l2-extra-compare-05 | word_order | Sắp xếp câu nói về thói quen. | every evening / watches TV / My father | My father watches TV every evening. | Every evening diễn tả thói quen nên dùng hiện tại đơn.
+p2-m2-l2-extra-compare-06 | word_order | Sắp xếp câu nói về hành động đang diễn ra. | right now / are / The children / playing outside | The children are playing outside right now. | Right now là dấu hiệu của hiện tại tiếp diễn.
+p2-m2-l2-extra-compare-07 | word_order | Sắp xếp câu dùng động từ chỉ trạng thái. | this song / loves / She | She loves this song. | Love diễn tả cảm xúc nên thường dùng hiện tại đơn.
+p2-m2-l2-extra-compare-08 | typing | Gõ câu từ các cụm đã xáo: usually / walk to school / I | I usually walk to school. | Usually diễn tả thói quen.
+p2-m2-l2-extra-compare-09 | typing | Gõ câu từ các cụm đã xáo: am / today / working from home / I | I am working from home today. | Today diễn tả tình huống tạm thời trong ngữ cảnh này.
+p2-m2-l2-extra-compare-10 | typing | Gõ câu từ các cụm đã xáo: doesn't / understand / He / the question | He doesn't understand the question. | Understand là động từ chỉ trạng thái, dùng hiện tại đơn trong ngữ cảnh này.
+```
+
 ### Kế hoạch tương lai gần
 
 ### Cách dùng cho tương lai
@@ -43,6 +58,21 @@ Ngoài diễn tả hành động đang diễn ra lúc nói, thì Hiện tại ti
 - **tonight**: tối nay
 - **this weekend**: cuối tuần này
 - **next week / next Monday / next month**: tuần tới / thứ Hai tới / tháng tới
+
+### Luyện tập bổ sung
+
+```quiz-deck
+p2-m2-l2-extra-plan-01 | single_choice | Bạn đã đặt bàn nhà hàng để ăn tối với bạn bè tối nay. Chọn câu phù hợp. | I had dinner with my friends tonight. | I have dinner with my friends yesterday. | I am having dinner with my friends tonight. | I am have dinner with my friends tonight. | 3 | Hiện tại tiếp diễn có thể diễn tả kế hoạch tương lai đã sắp xếp.
+p2-m2-l2-extra-plan-02 | single_choice | Điền dạng đúng: She ___ her manager tomorrow morning. The meeting is already scheduled. | is meeting | meets yesterday | meeting | meet | 1 | Cuộc họp đã được sắp xếp nên dùng is meeting.
+p2-m2-l2-extra-plan-03 | single_choice | Câu nào diễn tả kế hoạch đã sắp xếp cho cuối tuần tới? | We visited our grandparents last weekend. | We visit our grandparents every Sunday. | We are visit our grandparents next weekend. | We are visiting our grandparents next weekend. | 4 | Are visiting + next weekend diễn tả kế hoạch tương lai.
+p2-m2-l2-extra-plan-04 | single_choice | Bạn đã mua vé máy bay cho chuyến đi vào thứ Sáu tới. Chọn câu đúng. | I fly to Hanoi yesterday. | I am flying to Hanoi next Friday. | I flying to Hanoi next Friday. | I am fly to Hanoi next Friday. | 2 | Are flying hoặc am flying có thể diễn tả chuyến đi đã sắp xếp.
+p2-m2-l2-extra-plan-05 | word_order | Sắp xếp câu về cuộc hẹn đã lên lịch. | tomorrow afternoon / is / meeting a client / He | He is meeting a client tomorrow afternoon. | Is meeting + tomorrow afternoon diễn tả cuộc hẹn đã sắp xếp.
+p2-m2-l2-extra-plan-06 | word_order | Sắp xếp câu về kế hoạch đi du lịch. | next Monday / are / We / leaving for Da Nang | We are leaving for Da Nang next Monday. | Are leaving diễn tả kế hoạch đi lại đã sắp xếp.
+p2-m2-l2-extra-plan-07 | word_order | Sắp xếp câu về cuộc hẹn tối nay. | tonight / having dinner / is / Anna / with Tom | Anna is having dinner with Tom tonight. | Is having dinner + tonight diễn tả cuộc hẹn đã lên kế hoạch.
+p2-m2-l2-extra-plan-08 | typing | Gõ câu từ các cụm đã xáo: tomorrow / visiting / am / I / my grandparents | I am visiting my grandparents tomorrow. | Am visiting + tomorrow diễn tả kế hoạch đã sắp xếp.
+p2-m2-l2-extra-plan-09 | typing | Gõ câu từ các cụm đã xáo: next week / are / moving to a new apartment / They | They are moving to a new apartment next week. | Are moving + next week diễn tả kế hoạch tương lai.
+p2-m2-l2-extra-plan-10 | typing | Gõ câu từ các cụm đã xáo: tonight / is / studying with her friend / She | She is studying with her friend tonight. | Is studying + tonight có thể diễn tả buổi học đã hẹn trước.
+```
 
 ## Luyện tập
 

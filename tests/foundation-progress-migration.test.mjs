@@ -198,7 +198,7 @@ test('changed quizzes preserve only completion metadata and reject other progres
     assert.equal(unchanged.rows[0].source, oldSource);
     await db.execute({
       sql: 'UPDATE study_progress SET state_json = ? WHERE content_id = ?',
-      args: ['{"foundationCompletedAt":"2026-01-01"}', 'content-two'],
+      args: ['{"foundationCompletedAt":"2026-01-01","foundationCompletionCount":2}', 'content-two'],
     });
     tx = await db.transaction('write');
     try {
@@ -212,6 +212,10 @@ test('changed quizzes preserve only completion metadata and reject other progres
     );
     assert.equal(row.rows[0].source, updated);
     assert.match(row.rows[0].state_json, /foundationCompletedAt/);
+    const preserved = await db.execute(
+      "SELECT state_json FROM study_progress WHERE content_id='content-two'",
+    );
+    assert.equal(JSON.parse(preserved.rows[0].state_json).foundationCompletionCount, 2);
   } finally {
     db.close();
   }
