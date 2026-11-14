@@ -66,3 +66,11 @@ test('IDs survive reordering and explanation changes without mixing distinct or 
     [1, 2],
   );
 });
+
+test('Multiple Choice normalizes decomposed Vietnamese Unicode (NFD) to NFC', () => {
+  const nfdRow =
+    'Yêu cầu vẫn cố cần chống lỗi nhất|Đúng|Sai|Khác|Bỏ|1|Giải thích lỗi.|||'.normalize('NFD');
+  const items = parseMultipleChoice(`${MULTIPLE_CHOICE_HEADER}\n${nfdRow}`);
+  assert.equal(items[0].question, 'Yêu cầu vẫn cố cần chống lỗi nhất');
+  assert.equal(items[0].explanation, 'Giải thích lỗi.');
+});

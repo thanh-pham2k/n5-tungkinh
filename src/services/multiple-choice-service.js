@@ -10,7 +10,10 @@ const ALLOWED_HEADERS = MULTIPLE_CHOICE_HEADER.split('|');
 
 // Keep physical source line numbers, including quoted multiline fields, for import errors.
 function readRows(input) {
-  const text = input.replace(/^\uFEFF/, '').replace(/\r\n?/g, '\n');
+  const text = input
+    .normalize('NFC')
+    .replace(/^\uFEFF/, '')
+    .replace(/\r\n?/g, '\n');
   const rows = [];
   let row = [],
     field = '',

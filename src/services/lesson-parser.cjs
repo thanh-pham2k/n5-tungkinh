@@ -34,7 +34,7 @@
     return { ...fields, options, answer: answer - 1 };
   }
   function parse(source) {
-    const lines = source.replace(/\r\n?/g, '\n').split('\n');
+    const lines = source.normalize('NFC').replace(/\r\n?/g, '\n').split('\n');
     const blocks = [],
       ids = new Set();
     let markdown = [],

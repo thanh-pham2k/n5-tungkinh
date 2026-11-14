@@ -175,3 +175,13 @@ test('flipcards accept comma, slash and additional authored word classes', () =>
     ['N, V', 'Adv, Adj', 'N-U', 'Prep', 'N, V', undefined],
   );
 });
+
+test('normalizes decomposed Vietnamese Unicode (NFD) to precomposed NFC', () => {
+  const nfdQuestion = 'Yêu cầu vẫn cố cần chống lỗi nhất'.normalize('NFD');
+  const nfdOptionA = 'Giải pháp tối ưu'.normalize('NFD');
+  const source = `\`\`\`quiz\nq1 | single_choice | ${nfdQuestion} | ${nfdOptionA} | Khác | 1 | Giải thích.\n\`\`\``;
+  const blocks = parse(source);
+  const quiz = blocks[0].quizzes[0];
+  assert.equal(quiz.question, 'Yêu cầu vẫn cố cần chống lỗi nhất');
+  assert.equal(quiz.options[0], 'Giải pháp tối ưu');
+});
