@@ -340,7 +340,7 @@ export default function MarkdownWorkspace({
       {focusMode && !foundation && (
         <button
           type="button"
-          className="exit-focus-btn button"
+          className={`exit-focus-btn button${course.length ? '' : ' exit-focus-btn-icon'}`}
           onClick={() => {
             if (course.length) window.location.href = '?course=list';
             else setFocusMode(false);
@@ -348,7 +348,7 @@ export default function MarkdownWorkspace({
           title="Thoát chế độ đọc tập trung (Esc)"
           aria-label="Thoát chế độ đọc tập trung"
         >
-          {course.length ? '← Danh sách bài học' : '✕ Thoát đọc tập trung'}
+          {course.length ? '← Danh sách bài học' : '✕'}
         </button>
       )}
       <header className="preview-toolbar">

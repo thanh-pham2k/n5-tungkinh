@@ -373,6 +373,11 @@ body.dark .lesson-deck button[aria-current='step'] {
     opacity 0.2s ease,
     transform 0.15s ease;
 }
+.exit-focus-btn-icon {
+  min-width: var(--tap-size);
+  padding: 0;
+  font-size: var(--text-body);
+}
 .exit-focus-btn:hover,
 .exit-focus-btn:focus-visible {
   opacity: 1;
