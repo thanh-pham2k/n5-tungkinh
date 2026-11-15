@@ -64,10 +64,10 @@ export default function MarkdownWorkspace({
   }, []);
   useEffect(() => {
     function handleKeyDown(event) {
-      if (event.key === 'Escape' && focusMode && !foundation) {
-        if (course.length) window.location.href = '?course=list';
-        else setFocusMode(false);
-      }
+      if (event.key !== 'Escape' || !focusMode || foundation) return;
+      if (event.defaultPrevented || document.querySelector('dialog[open]')) return;
+      if (course.length) window.location.href = '?course=list';
+      else setFocusMode(false);
     }
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);

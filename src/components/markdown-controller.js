@@ -691,6 +691,7 @@ export function initializeMarkdown({
   });
   listen(document, 'keydown', (event) => {
     if (event.key === 'Escape' && menuToggle.getAttribute('aria-expanded') === 'true') {
+      event.preventDefault();
       closeMenu();
       menuToggle.focus();
     }

@@ -616,3 +616,26 @@ for (const expanded of [false, true]) {
     await expect(card).toBeFocused();
   });
 }
+
+test('Escape closes expanded quiz modal without exiting focus mode', async ({ page }) => {
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  await openMobileEditor(
+    page,
+    '```quiz\nq1 | single_choice | 1 + 1? | 1 | 2 | 2 | Hai là đúng.\n```',
+  );
+  await page.locator('#lesson-focus').click();
+  await expect(page.locator('#lesson-focus')).toBeHidden();
+
+  const deck = page.locator('.lesson-deck');
+  await deck.getByRole('button', { name: 'Mở rộng luyện tập' }).click();
+  const dialog = page.getByRole('dialog', { name: 'Luyện tập Mini Quiz 1' });
+  await expect(dialog).toBeVisible();
+
+  await page.keyboard.press('Escape');
+  await expect(dialog).toBeHidden();
+  await expect(page.locator('#lesson-focus')).toBeHidden();
+
+  await page.keyboard.press('Escape');
+  await expect(page.locator('#lesson-focus')).toBeVisible();
+});
