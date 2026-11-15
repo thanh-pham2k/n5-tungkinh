@@ -6,6 +6,7 @@ import LoginView from './auth/login-view';
 import useAuth from '../hooks/use-auth';
 import { readCatalog, studyRequest } from '../services/study-library-client';
 import { formatReviewTime } from '../services/review-time';
+import StreakBanner from './study/streak-banner';
 
 async function computeSha256(text) {
   if (typeof crypto !== 'undefined' && crypto?.subtle) {
@@ -62,6 +63,7 @@ export default function FrenchCourse({ onLogout, embedded = false }) {
           return {
             ...item,
             completedAt: progress?.foundationCompletedAt || null,
+            completionHistory: progress?.foundationCompletionHistory || [],
             completionCount:
               progress?.foundationCompletionCount ?? (progress?.foundationCompletedAt ? 1 : 0),
           };
@@ -120,10 +122,12 @@ export default function FrenchCourse({ onLogout, embedded = false }) {
           <h2 className="course-reading-title">{selected.title}</h2>
           <MarkdownWorkspace
             foundation={selected}
-            onFoundationComplete={(completedAt) => {
+            onFoundationComplete={(completedAt, _completionCount, completionHistory) => {
               setClock(Date.now());
               setLessons((current) =>
-                current.map((item) => (item.id === selected.id ? { ...item, completedAt } : item)),
+                current.map((item) =>
+                  item.id === selected.id ? { ...item, completedAt, completionHistory } : item,
+                ),
               );
             }}
           />
@@ -157,6 +161,7 @@ export default function FrenchCourse({ onLogout, embedded = false }) {
           10 chủ đề ngữ pháp cốt lõi theo Le Nouveau Taxi !, 3 bài ôn tập định kỳ và 1 bài kiểm tra
           cuối khóa kèm quiz tương tác.
         </p>
+        {!busy && !error && <StreakBanner lessons={lessons} clock={clock} />}
 
         {busy && <Status>Đang tải danh sách bài học…</Status>}
         {error && (

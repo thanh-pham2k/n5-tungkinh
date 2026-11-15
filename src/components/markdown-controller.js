@@ -130,16 +130,18 @@ export function initializeMarkdown({
         const unanswered = quizzes.filter((q) => answers[q.id] === undefined).length;
         container.append(el('p', `Đúng ${correct}/${quizzes.length} · Chưa trả lời ${unanswered}`));
         quizzes.forEach((q, i) => {
-          container.append(
-            button(
-              `${i + 1}. ${answers[q.id] === undefined ? 'Chưa trả lời' : correctAnswer(q) ? 'Đúng' : 'Sai'} — ${q.type === 'typing' && authoredTypingHints(q.question) ? 'Gõ câu' : q.question}`,
-              () => {
-                current = i;
-                review = false;
-                draw(true);
-              },
-            ),
+          const itemBtn = button(
+            `${i + 1}. ${answers[q.id] === undefined ? 'Chưa trả lời' : correctAnswer(q) ? 'Đúng' : 'Sai'} — ${q.type === 'typing' && authoredTypingHints(q.question) ? 'Gõ câu' : q.question}`,
+            () => {
+              current = i;
+              review = false;
+              draw(true);
+            },
           );
+          if (answers[q.id] !== undefined) {
+            itemBtn.classList.add(correctAnswer(q) ? 'is-correct' : 'is-incorrect');
+          }
+          container.append(itemBtn);
         });
         container.append(
           button('Luyện lại bộ này', () => {
@@ -213,15 +215,23 @@ export function initializeMarkdown({
                 if (isCorrect || isIncorrect)
                   option.append(el('span', isCorrect ? '✓ Đúng' : '✕ Sai', 'lesson-option-result'));
               });
+              const isAnswerCorrect = correctAnswer(q);
               feedback.hidden = false;
+              feedback.classList.toggle('is-correct', isAnswerCorrect);
+              feedback.classList.toggle('is-incorrect', !isAnswerCorrect);
               feedback.replaceChildren(
                 inline(
-                  `${correctAnswer(q) ? 'Chính xác!' : 'Chưa chính xác.'} Đáp án: ${q.options[q.answer]}${q.explanation ? '\n' + q.explanation : ''}`,
+                  `${isAnswerCorrect ? 'Chính xác!' : 'Chưa chính xác.'} Đáp án: ${q.options[q.answer]}${q.explanation ? '\n' + q.explanation : ''}`,
                 ),
               );
               const dot = dots.children[current];
-              dot.textContent = `${current + 1} ✓`;
-              dot.setAttribute('aria-label', `Câu ${current + 1}, đã trả lời`);
+              dot.textContent = `${current + 1} ${isAnswerCorrect ? '✓' : '✕'}`;
+              dot.classList.toggle('is-correct', isAnswerCorrect);
+              dot.classList.toggle('is-incorrect', !isAnswerCorrect);
+              dot.setAttribute(
+                'aria-label',
+                `Câu ${current + 1}, ${isAnswerCorrect ? 'đúng' : 'sai'}`,
+              );
             });
             label.append(radio, inline(option));
             if (correct || incorrect)
@@ -299,22 +309,30 @@ export function initializeMarkdown({
         feedback.setAttribute('aria-live', 'polite');
         feedback.hidden = answers[q.id] === undefined;
         if (!feedback.hidden) {
+          const isAnswerCorrect = correctAnswer(q);
+          feedback.classList.add(isAnswerCorrect ? 'is-correct' : 'is-incorrect');
           feedback.append(
             inline(
-              `${correctAnswer(q) ? 'Chính xác!' : 'Chưa chính xác.'} Đáp án: ${q.type === 'single_choice' ? q.options[q.answer] : q.answer}${q.explanation ? '\n' + q.explanation : ''}`,
+              `${isAnswerCorrect ? 'Chính xác!' : 'Chưa chính xác.'} Đáp án: ${q.type === 'single_choice' ? q.options[q.answer] : q.answer}${q.explanation ? '\n' + q.explanation : ''}`,
             ),
           );
         }
         container.append(feedback);
         const dots = el('div', undefined, 'lesson-dots');
         quizzes.forEach((item, index) => {
-          const dot = button(`${index + 1}${answers[item.id] !== undefined ? ' ✓' : ''}`, () => {
-            current = index;
-            draw(true);
-          });
+          const isAnswered = answers[item.id] !== undefined;
+          const isItemCorrect = isAnswered && correctAnswer(item);
+          const dot = button(
+            `${index + 1}${isAnswered ? (isItemCorrect ? ' ✓' : ' ✕') : ''}`,
+            () => {
+              current = index;
+              draw(true);
+            },
+          );
+          if (isAnswered) dot.classList.add(isItemCorrect ? 'is-correct' : 'is-incorrect');
           dot.setAttribute(
             'aria-label',
-            `Câu ${index + 1}${answers[item.id] !== undefined ? ', đã trả lời' : ''}`,
+            `Câu ${index + 1}${isAnswered ? (isItemCorrect ? ', đúng' : ', sai') : ''}`,
           );
           if (index === current) dot.setAttribute('aria-current', 'step');
           dots.append(dot);

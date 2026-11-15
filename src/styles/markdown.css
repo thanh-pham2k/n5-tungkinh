@@ -292,6 +292,16 @@
   white-space: pre-wrap;
   margin-block: var(--space-3);
 }
+.lesson-feedback.is-correct {
+  background: var(--mint);
+  color: var(--success-ink);
+  border-left-color: var(--success-ink);
+}
+.lesson-feedback.is-incorrect {
+  background: var(--error-bg);
+  color: var(--error-ink);
+  border-left-color: var(--error-ink);
+}
 .lesson-error {
   color: var(--error-ink);
   padding: var(--space-3);
@@ -313,6 +323,14 @@
   border: var(--border);
   border-radius: var(--radius-sm);
   background: var(--paper);
+}
+.lesson-deck button.is-correct {
+  background: var(--mint);
+  color: var(--success-ink);
+}
+.lesson-deck button.is-incorrect {
+  background: var(--error-bg);
+  color: var(--error-ink);
 }
 .lesson-deck button[aria-current='step'] {
   background: var(--accent);

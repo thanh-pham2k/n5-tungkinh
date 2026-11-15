@@ -89,6 +89,31 @@ test('mixed exercises grade, persist and retry on mobile', async ({ page }) => {
   await deck.getByRole('button', { name: 'Luyện lại bộ này' }).click();
   await expect(deck.locator('input:checked')).toHaveCount(0);
 });
+test('incorrect answers in markdown quiz show red state on option, feedback, dot and review', async ({
+  page,
+}) => {
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  await openMobileEditor(
+    page,
+    '# Wrong\n\n```quiz\na | single_choice | Pick | Yes | No | 1 | Yes.\nb | typing | Type | She runs. | Correct.\n```',
+  );
+  const deck = page.locator('.lesson-deck');
+  const wrongOption = deck.locator('.lesson-option').filter({ hasText: 'No' });
+  await wrongOption.click();
+  await expect(wrongOption).toHaveClass(/is-incorrect/);
+  await expect(deck.locator('.lesson-feedback')).toHaveClass(/is-incorrect/);
+  await expect(deck.locator('.lesson-dots button').first()).toHaveText('1 ✕');
+  await expect(deck.locator('.lesson-dots button').first()).toHaveClass(/is-incorrect/);
+  await deck.getByRole('button', { name: 'Tiếp →' }).click();
+  await expect(deck.locator('.lesson-dots button').first()).toHaveClass(/is-incorrect/);
+  await deck.getByLabel('Câu trả lời').fill('Wrong answer');
+  await deck.getByLabel('Câu trả lời').press('Enter');
+  await expect(deck.locator('.lesson-feedback')).toHaveClass(/is-incorrect/);
+  await deck.getByRole('button', { name: 'Xem kết quả' }).click();
+  await expect(deck.getByRole('button', { name: /1\. Sai/ })).toHaveClass(/is-incorrect/);
+  await expect(deck.getByRole('button', { name: /2\. Sai/ })).toHaveClass(/is-incorrect/);
+});
 test('work English course opens a lesson and navigates between days', async ({ page }) => {
   await page.goto('/markdown/?course=1');
   await expect(page.getByRole('heading', { name: 'Ngày 1: Giới thiệu bản thân' })).toBeVisible();

@@ -6,6 +6,7 @@ import { readCatalog, studyRequest } from '../services/study-library-client';
 import useAuth from '../hooks/use-auth';
 import LoginView from './auth/login-view';
 import { formatReviewTime } from '../services/review-time';
+import StreakBanner from './study/streak-banner';
 
 export default function ReadingPractice() {
   const { user, loading, setUser } = useAuth();
@@ -41,7 +42,11 @@ export default function ReadingPractice() {
             b.toString(16).padStart(2, '0'),
           ).join('');
           const progress = records.find((record) => record.sourceHash === hash)?.progress;
-          return { ...item, completedAt: progress?.foundationCompletedAt || null };
+          return {
+            ...item,
+            completedAt: progress?.foundationCompletedAt || null,
+            completionHistory: progress?.foundationCompletionHistory || [],
+          };
         }),
       );
       setLessons(items);
@@ -80,10 +85,12 @@ export default function ReadingPractice() {
           <MarkdownWorkspace
             foundation={selected}
             repeatCompletion
-            onFoundationComplete={(completedAt) => {
+            onFoundationComplete={(completedAt, _completionCount, completionHistory) => {
               setClock(Date.now());
               setLessons((current) =>
-                current.map((item) => (item.id === selected.id ? { ...item, completedAt } : item)),
+                current.map((item) =>
+                  item.id === selected.id ? { ...item, completedAt, completionHistory } : item,
+                ),
               );
             }}
           />
@@ -93,6 +100,7 @@ export default function ReadingPractice() {
         <p className="eyebrow">IELTS READING · BAND 5.0–6.0</p>
         <h1>Reading Practice</h1>
         <p>10 chủ đề, 50 bài đọc và 10 bài ôn tập theo tuần.</p>
+        {!busy && !error && <StreakBanner lessons={lessons} clock={clock} />}
         {busy && <Status>Đang tải bài học…</Status>}
         {error && (
           <>

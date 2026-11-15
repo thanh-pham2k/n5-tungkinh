@@ -7,6 +7,7 @@ import useAuth from '../hooks/use-auth';
 import { readCatalog, studyRequest } from '../services/study-library-client';
 import { formatReviewTime } from '../services/review-time';
 import { EVIU_PHASES, eviuPosition } from '../services/eviu-layout';
+import StreakBanner from './study/streak-banner';
 
 function normalizeCatalog(catalog) {
   if (typeof catalog === 'string') {
@@ -77,6 +78,7 @@ export default function Foundation({ eviu = false }) {
             ...item,
             ...(eviu ? eviuPosition(item.id) : {}),
             completedAt: progress?.foundationCompletedAt || null,
+            completionHistory: progress?.foundationCompletionHistory || [],
             completionCount:
               progress?.foundationCompletionCount ?? (progress?.foundationCompletedAt ? 1 : 0),
           };
@@ -127,11 +129,13 @@ export default function Foundation({ eviu = false }) {
           <MarkdownWorkspace
             foundation={selected}
             repeatCompletion
-            onFoundationComplete={(completedAt, completionCount) => {
+            onFoundationComplete={(completedAt, completionCount, completionHistory) => {
               setClock(Date.now());
               setLessons((current) =>
                 current.map((item) =>
-                  item.id === selected.id ? { ...item, completedAt, completionCount } : item,
+                  item.id === selected.id
+                    ? { ...item, completedAt, completionCount, completionHistory }
+                    : item,
                 ),
               );
             }}
@@ -149,6 +153,7 @@ export default function Foundation({ eviu = false }) {
             ? 'Học và ôn từ vựng theo lộ trình 41 unit.'
             : 'Học cách xây câu và sử dụng tiếng Anh trong đời sống.'}
         </p>
+        {!busy && !error && <StreakBanner lessons={lessons} clock={clock} />}
         {(eviu
           ? EVIU_PHASES
           : [

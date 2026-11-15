@@ -14,6 +14,7 @@ import {
 } from '../services/study-library-client';
 import { AudioStatus, Button, Status } from './ui/primitives';
 import { formatReviewTime } from '../services/review-time';
+import { updateCompletionHistory } from '../services/study-streak';
 import SelectionSpeech from './selection-speech';
 export default function MarkdownWorkspace({
   foundation = false,
@@ -545,12 +546,18 @@ export default function MarkdownWorkspace({
                         ? 1
                         : 0) + 1
                   : undefined;
+                const completionHistory = updateCompletionHistory(
+                  progress.foundationCompletionHistory,
+                  completedAt,
+                  progress.foundationCompletedAt,
+                );
                 await library.updateProgress({
                   foundationCompletedAt: completedAt,
+                  foundationCompletionHistory: completionHistory,
                   ...(repeatCompletion ? { foundationCompletionCount: completionCount } : {}),
                 });
                 setError('');
-                onFoundationComplete?.(completedAt, completionCount);
+                onFoundationComplete?.(completedAt, completionCount, completionHistory);
               } catch (error) {
                 setError(error.message);
               } finally {
