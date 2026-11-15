@@ -1,28 +1,93 @@
 [
   {
-    "id": "compact-m1-lesson-01",
+    "id": "p1-m1-u01",
     "phase": 1,
     "module": 1,
     "label": "Lesson 1",
-    "title": "Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ",
-    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/01-compact.md",
-    "replaces": [
-      "lesson-01",
-      "lesson-02",
-      "lesson-03"
-    ]
+    "title": "Một câu hoàn chỉnh",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/01-mot-cau-hoan-chinh.md",
+    "splitFrom": "compact-m1-lesson-01"
   },
   {
-    "id": "compact-m1-lesson-02",
+    "id": "p1-m1-u02",
     "phase": 1,
     "module": 1,
     "label": "Lesson 2",
-    "title": "Câu với be: danh từ và tính từ",
-    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/02-compact.md",
-    "replaces": [
-      "lesson-04",
-      "lesson-05"
-    ]
+    "title": "Subject + Verb",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/02-subject-verb.md",
+    "splitFrom": "compact-m1-lesson-01"
+  },
+  {
+    "id": "p1-m1-u03",
+    "phase": 1,
+    "module": 1,
+    "label": "Lesson 3",
+    "title": "Subject + Verb + Object",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/03-subject-verb-object.md",
+    "splitFrom": "compact-m1-lesson-01"
+  },
+  {
+    "id": "p1-m1-u04",
+    "phase": 1,
+    "module": 1,
+    "label": "Lesson 4",
+    "title": "Nhận biết S, V và O trong câu",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/04-nhan-biet-s-v-va-o-trong-cau.md",
+    "splitFrom": "compact-m1-lesson-01"
+  },
+  {
+    "id": "p1-m1-u05",
+    "phase": 1,
+    "module": 1,
+    "label": "Lesson 5",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/05-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "compact-m1-lesson-01"
+  },
+  {
+    "id": "p1-m1-u06",
+    "phase": 1,
+    "module": 1,
+    "label": "Lesson 6",
+    "title": "Động từ be: am, is, are",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/06-dong-tu-be-am-is-are.md",
+    "splitFrom": "compact-m1-lesson-02"
+  },
+  {
+    "id": "p1-m1-u07",
+    "phase": 1,
+    "module": 1,
+    "label": "Lesson 7",
+    "title": "Subject + be + Noun",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/07-subject-be-noun.md",
+    "splitFrom": "compact-m1-lesson-02"
+  },
+  {
+    "id": "p1-m1-u08",
+    "phase": 1,
+    "module": 1,
+    "label": "Lesson 8",
+    "title": "Subject + be + Adjective",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/08-subject-be-adjective.md",
+    "splitFrom": "compact-m1-lesson-02"
+  },
+  {
+    "id": "p1-m1-u09",
+    "phase": 1,
+    "module": 1,
+    "label": "Lesson 9",
+    "title": "Phân biệt Noun và Adjective sau be",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/09-phan-biet-noun-va-adjective-sau-be.md",
+    "splitFrom": "compact-m1-lesson-02"
+  },
+  {
+    "id": "p1-m1-u10",
+    "phase": 1,
+    "module": 1,
+    "label": "Lesson 10",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-01-build-sentences/module-01-basic-sentence-structure/10-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "compact-m1-lesson-02"
   },
   {
     "id": "checkpoint-01",
@@ -33,39 +98,175 @@
     "file": "phase-01-build-sentences/module-01-basic-sentence-structure/06-mini-checkpoint.md"
   },
   {
-    "id": "compact-m2-lesson-01",
+    "id": "p1-m2-u01",
     "phase": 1,
     "module": 2,
     "label": "Lesson 1",
-    "title": "Danh từ và số ít, số nhiều",
-    "file": "phase-01-build-sentences/module-02-nouns-pronouns/01-compact.md",
-    "replaces": [
-      "m2-lesson-01",
-      "m2-lesson-02"
-    ]
+    "title": "Danh từ là gì?",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/01-danh-tu-la-gi.md",
+    "splitFrom": "compact-m2-lesson-01"
   },
   {
-    "id": "compact-m2-lesson-02",
+    "id": "p1-m2-u02",
     "phase": 1,
     "module": 2,
     "label": "Lesson 2",
-    "title": "Đại từ chủ ngữ và tân ngữ",
-    "file": "phase-01-build-sentences/module-02-nouns-pronouns/02-compact.md",
-    "replaces": [
-      "m2-lesson-03",
-      "m2-lesson-04"
-    ]
+    "title": "Danh từ số ít và số nhiều",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/02-danh-tu-so-it-va-so-nhieu.md",
+    "splitFrom": "compact-m2-lesson-01"
   },
   {
-    "id": "compact-m2-lesson-03",
+    "id": "p1-m2-u03",
     "phase": 1,
     "module": 2,
     "label": "Lesson 3",
+    "title": "Số nhiều với -s",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/03-so-nhieu-voi-s.md",
+    "splitFrom": "compact-m2-lesson-01"
+  },
+  {
+    "id": "p1-m2-u04",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 4",
+    "title": "Số nhiều với -es",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/04-so-nhieu-voi-es.md",
+    "splitFrom": "compact-m2-lesson-01"
+  },
+  {
+    "id": "p1-m2-u05",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 5",
+    "title": "Danh từ kết thúc bằng -y",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/05-danh-tu-ket-thuc-bang-y.md",
+    "splitFrom": "compact-m2-lesson-01"
+  },
+  {
+    "id": "p1-m2-u06",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 6",
+    "title": "Một số danh từ số nhiều bất quy tắc",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/06-mot-so-danh-tu-so-nhieu-bat-quy-tac.md",
+    "splitFrom": "compact-m2-lesson-01"
+  },
+  {
+    "id": "p1-m2-u07",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 7",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/07-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "compact-m2-lesson-01"
+  },
+  {
+    "id": "p1-m2-u08",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 8",
+    "title": "Đại từ chủ ngữ",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/08-dai-tu-chu-ngu.md",
+    "splitFrom": "compact-m2-lesson-02"
+  },
+  {
+    "id": "p1-m2-u09",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 9",
+    "title": "Đại từ tân ngữ sau động từ",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/09-dai-tu-tan-ngu-sau-dong-tu.md",
+    "splitFrom": "compact-m2-lesson-02"
+  },
+  {
+    "id": "p1-m2-u10",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 10",
+    "title": "Đại từ tân ngữ sau giới từ",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/10-dai-tu-tan-ngu-sau-gioi-tu.md",
+    "splitFrom": "compact-m2-lesson-02"
+  },
+  {
+    "id": "p1-m2-u11",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 11",
+    "title": "Subject Pronoun hay Object Pronoun?",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/11-subject-pronoun-hay-object-pronoun.md",
+    "splitFrom": "compact-m2-lesson-02"
+  },
+  {
+    "id": "p1-m2-u12",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 12",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/12-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "compact-m2-lesson-02"
+  },
+  {
+    "id": "p1-m2-u13",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 13",
+    "title": "Tính từ sở hữu",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/13-tinh-tu-so-huu.md",
+    "splitFrom": "compact-m2-lesson-03"
+  },
+  {
+    "id": "p1-m2-u14",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 14",
+    "title": "Phân biệt her và his",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/14-phan-biet-her-va-his.md",
+    "splitFrom": "compact-m2-lesson-03"
+  },
+  {
+    "id": "p1-m2-u15",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 15",
+    "title": "Its và it's",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/15-its-va-it-s.md",
+    "splitFrom": "compact-m2-lesson-03"
+  },
+  {
+    "id": "p1-m2-u16",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 16",
+    "title": "Mạo từ a và an",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/16-mao-tu-a-va-an.md",
+    "splitFrom": "compact-m2-lesson-03"
+  },
+  {
+    "id": "p1-m2-u17",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 17",
+    "title": "Mạo từ the",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/17-mao-tu-the.md",
+    "splitFrom": "compact-m2-lesson-03"
+  },
+  {
+    "id": "p1-m2-u18",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 18",
     "title": "Từ sở hữu và mạo từ",
-    "file": "phase-01-build-sentences/module-02-nouns-pronouns/03-compact.md",
-    "replaces": [
-      "m2-lesson-05"
-    ]
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/18-tu-so-huu-va-mao-tu.md",
+    "splitFrom": "compact-m2-lesson-03"
+  },
+  {
+    "id": "p1-m2-u19",
+    "phase": 1,
+    "module": 2,
+    "label": "Lesson 19",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-01-build-sentences/module-02-nouns-pronouns/19-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "compact-m2-lesson-03"
   },
   {
     "id": "m2-checkpoint",
@@ -76,29 +277,112 @@
     "file": "phase-01-build-sentences/module-02-nouns-pronouns/06-checkpoint.md"
   },
   {
-    "id": "compact-m3-lesson-01",
+    "id": "p1-m3-u01",
     "phase": 1,
     "module": 3,
     "label": "Lesson 1",
-    "title": "Am, is, are: khẳng định và phủ định",
-    "file": "phase-01-build-sentences/module-03-be/01-compact.md",
-    "replaces": [
-      "m3-lesson-01",
-      "m3-lesson-02"
-    ]
+    "title": "Câu khẳng định với be",
+    "file": "phase-01-build-sentences/module-03-be/01-cau-khang-dinh-voi-be.md",
+    "splitFrom": "compact-m3-lesson-01"
   },
   {
-    "id": "compact-m3-lesson-02",
+    "id": "p1-m3-u02",
     "phase": 1,
     "module": 3,
     "label": "Lesson 2",
-    "title": "Câu hỏi với be và was/were nhập môn",
-    "file": "phase-01-build-sentences/module-03-be/02-compact.md",
-    "replaces": [
-      "m3-lesson-03",
-      "m3-lesson-04",
-      "m3-lesson-05"
-    ]
+    "title": "Câu phủ định với be",
+    "file": "phase-01-build-sentences/module-03-be/02-cau-phu-dinh-voi-be.md",
+    "splitFrom": "compact-m3-lesson-01"
+  },
+  {
+    "id": "p1-m3-u03",
+    "phase": 1,
+    "module": 3,
+    "label": "Lesson 3",
+    "title": "Dạng rút gọn",
+    "file": "phase-01-build-sentences/module-03-be/03-dang-rut-gon.md",
+    "splitFrom": "compact-m3-lesson-01"
+  },
+  {
+    "id": "p1-m3-u04",
+    "phase": 1,
+    "module": 3,
+    "label": "Lesson 4",
+    "title": "Khẳng định hay phủ định?",
+    "file": "phase-01-build-sentences/module-03-be/04-khang-dinh-hay-phu-dinh.md",
+    "splitFrom": "compact-m3-lesson-01"
+  },
+  {
+    "id": "p1-m3-u05",
+    "phase": 1,
+    "module": 3,
+    "label": "Lesson 5",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-01-build-sentences/module-03-be/05-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "compact-m3-lesson-01"
+  },
+  {
+    "id": "p1-m3-u06",
+    "phase": 1,
+    "module": 3,
+    "label": "Lesson 6",
+    "title": "Câu hỏi Yes / No với be",
+    "file": "phase-01-build-sentences/module-03-be/06-cau-hoi-yes-no-voi-be.md",
+    "splitFrom": "compact-m3-lesson-02"
+  },
+  {
+    "id": "p1-m3-u07",
+    "phase": 1,
+    "module": 3,
+    "label": "Lesson 7",
+    "title": "Trả lời ngắn Yes / No",
+    "file": "phase-01-build-sentences/module-03-be/07-tra-loi-ngan-yes-no.md",
+    "splitFrom": "compact-m3-lesson-02"
+  },
+  {
+    "id": "p1-m3-u08",
+    "phase": 1,
+    "module": 3,
+    "label": "Lesson 8",
+    "title": "Câu hỏi với từ để hỏi",
+    "file": "phase-01-build-sentences/module-03-be/08-cau-hoi-voi-tu-de-hoi.md",
+    "splitFrom": "compact-m3-lesson-02"
+  },
+  {
+    "id": "p1-m3-u09",
+    "phase": 1,
+    "module": 3,
+    "label": "Lesson 9",
+    "title": "Was / Were nhập môn",
+    "file": "phase-01-build-sentences/module-03-be/09-was-were-nhap-mon.md",
+    "splitFrom": "compact-m3-lesson-02"
+  },
+  {
+    "id": "p1-m3-u10",
+    "phase": 1,
+    "module": 3,
+    "label": "Lesson 10",
+    "title": "Phủ định với was / were",
+    "file": "phase-01-build-sentences/module-03-be/10-phu-dinh-voi-was-were.md",
+    "splitFrom": "compact-m3-lesson-02"
+  },
+  {
+    "id": "p1-m3-u11",
+    "phase": 1,
+    "module": 3,
+    "label": "Lesson 11",
+    "title": "Hiện tại hay quá khứ?",
+    "file": "phase-01-build-sentences/module-03-be/11-hien-tai-hay-qua-khu.md",
+    "splitFrom": "compact-m3-lesson-02"
+  },
+  {
+    "id": "p1-m3-u12",
+    "phase": 1,
+    "module": 3,
+    "label": "Lesson 12",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-01-build-sentences/module-03-be/12-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "compact-m3-lesson-02"
   },
   {
     "id": "m3-checkpoint",
@@ -109,29 +393,103 @@
     "file": "phase-01-build-sentences/module-03-be/06-checkpoint.md"
   },
   {
-    "id": "compact-m4-lesson-01",
+    "id": "p1-m4-u01",
     "phase": 1,
     "module": 4,
     "label": "Lesson 1",
-    "title": "Hiện tại đơn: thói quen và tần suất",
-    "file": "phase-01-build-sentences/module-04-present-simple/01-compact.md",
-    "replaces": [
-      "m4-lesson-01",
-      "m4-lesson-02",
-      "m4-lesson-05"
-    ]
+    "title": "Hiện tại đơn dùng khi nào?",
+    "file": "phase-01-build-sentences/module-04-present-simple/01-hien-tai-don-dung-khi-nao.md",
+    "splitFrom": "compact-m4-lesson-01"
   },
   {
-    "id": "compact-m4-lesson-02",
+    "id": "p1-m4-u02",
     "phase": 1,
     "module": 4,
     "label": "Lesson 2",
-    "title": "Phủ định và câu hỏi với do/does",
-    "file": "phase-01-build-sentences/module-04-present-simple/02-compact.md",
-    "replaces": [
-      "m4-lesson-03",
-      "m4-lesson-04"
-    ]
+    "title": "He / She / It và động từ",
+    "file": "phase-01-build-sentences/module-04-present-simple/02-he-she-it-va-dong-tu.md",
+    "splitFrom": "compact-m4-lesson-01"
+  },
+  {
+    "id": "p1-m4-u03",
+    "phase": 1,
+    "module": 4,
+    "label": "Lesson 3",
+    "title": "Trạng từ tần suất",
+    "file": "phase-01-build-sentences/module-04-present-simple/03-trang-tu-tan-suat.md",
+    "splitFrom": "compact-m4-lesson-01"
+  },
+  {
+    "id": "p1-m4-u04",
+    "phase": 1,
+    "module": 4,
+    "label": "Lesson 4",
+    "title": "Nói về thói quen hằng ngày",
+    "file": "phase-01-build-sentences/module-04-present-simple/04-noi-ve-thoi-quen-hang-ngay.md",
+    "splitFrom": "compact-m4-lesson-01"
+  },
+  {
+    "id": "p1-m4-u05",
+    "phase": 1,
+    "module": 4,
+    "label": "Lesson 5",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-01-build-sentences/module-04-present-simple/05-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "compact-m4-lesson-01"
+  },
+  {
+    "id": "p1-m4-u06",
+    "phase": 1,
+    "module": 4,
+    "label": "Lesson 6",
+    "title": "Câu phủ định với don't / doesn't",
+    "file": "phase-01-build-sentences/module-04-present-simple/06-cau-phu-dinh-voi-don-t-doesn-t.md",
+    "splitFrom": "compact-m4-lesson-02"
+  },
+  {
+    "id": "p1-m4-u07",
+    "phase": 1,
+    "module": 4,
+    "label": "Lesson 7",
+    "title": "Sau don't / doesn't dùng động từ nguyên mẫu",
+    "file": "phase-01-build-sentences/module-04-present-simple/07-sau-don-t-doesn-t-dung-dong-tu-nguyen-ma.md",
+    "splitFrom": "compact-m4-lesson-02"
+  },
+  {
+    "id": "p1-m4-u08",
+    "phase": 1,
+    "module": 4,
+    "label": "Lesson 8",
+    "title": "Câu hỏi với Do / Does",
+    "file": "phase-01-build-sentences/module-04-present-simple/08-cau-hoi-voi-do-does.md",
+    "splitFrom": "compact-m4-lesson-02"
+  },
+  {
+    "id": "p1-m4-u09",
+    "phase": 1,
+    "module": 4,
+    "label": "Lesson 9",
+    "title": "Trả lời ngắn với do / does",
+    "file": "phase-01-build-sentences/module-04-present-simple/09-tra-loi-ngan-voi-do-does.md",
+    "splitFrom": "compact-m4-lesson-02"
+  },
+  {
+    "id": "p1-m4-u10",
+    "phase": 1,
+    "module": 4,
+    "label": "Lesson 10",
+    "title": "Phân biệt do/does với am/is/are",
+    "file": "phase-01-build-sentences/module-04-present-simple/10-phan-biet-do-does-voi-am-is-are.md",
+    "splitFrom": "compact-m4-lesson-02"
+  },
+  {
+    "id": "p1-m4-u11",
+    "phase": 1,
+    "module": 4,
+    "label": "Lesson 11",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-01-build-sentences/module-04-present-simple/11-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "compact-m4-lesson-02"
   },
   {
     "id": "m4-checkpoint",
@@ -142,29 +500,58 @@
     "file": "phase-01-build-sentences/module-04-present-simple/06-checkpoint.md"
   },
   {
-    "id": "compact-m5-lesson-01",
+    "id": "p2-m5-u01",
     "phase": 2,
     "module": 5,
     "label": "Lesson 1",
-    "title": "Ôn câu hỏi Yes/No với be và do/does",
-    "file": "phase-02-talk-about-life/module-01-questions/01-compact.md",
-    "replaces": [
-      "p2-m1-lesson-01",
-      "p2-m1-lesson-02"
-    ]
+    "title": "Câu hỏi Yes/No với be",
+    "file": "phase-02-talk-about-life/module-01-questions/01-cau-hoi-yes-no-voi-be.md",
+    "splitFrom": "compact-m5-lesson-01"
   },
   {
-    "id": "compact-m5-lesson-02",
+    "id": "p2-m5-u02",
     "phase": 2,
     "module": 5,
     "label": "Lesson 2",
-    "title": "Câu hỏi Wh- và How trong đời sống",
-    "file": "phase-02-talk-about-life/module-01-questions/02-compact.md",
-    "replaces": [
-      "p2-m1-lesson-03",
-      "p2-m1-lesson-04",
-      "p2-m1-lesson-05"
-    ]
+    "title": "Câu hỏi Yes/No với do và does",
+    "file": "phase-02-talk-about-life/module-01-questions/02-cau-hoi-yes-no-voi-do-va-does.md",
+    "splitFrom": "compact-m5-lesson-01"
+  },
+  {
+    "id": "p2-m5-u03",
+    "phase": 2,
+    "module": 5,
+    "label": "Lesson 3",
+    "title": "Câu hỏi Wh- với What và Where",
+    "file": "phase-02-talk-about-life/module-01-questions/03-cau-hoi-wh-voi-what-va-where.md",
+    "splitFrom": "compact-m5-lesson-02"
+  },
+  {
+    "id": "p2-m5-u04",
+    "phase": 2,
+    "module": 5,
+    "label": "Lesson 4",
+    "title": "Câu hỏi Wh- với Who, When và Why",
+    "file": "phase-02-talk-about-life/module-01-questions/04-cau-hoi-wh-voi-who-when-va-why.md",
+    "splitFrom": "compact-m5-lesson-02"
+  },
+  {
+    "id": "p2-m5-u05",
+    "phase": 2,
+    "module": 5,
+    "label": "Lesson 5",
+    "title": "Câu hỏi với How",
+    "file": "phase-02-talk-about-life/module-01-questions/05-cau-hoi-voi-how.md",
+    "splitFrom": "compact-m5-lesson-02"
+  },
+  {
+    "id": "p2-m5-u06",
+    "phase": 2,
+    "module": 5,
+    "label": "Lesson 6",
+    "title": "Ôn tập: Câu hỏi Wh- và How trong đời sống",
+    "file": "phase-02-talk-about-life/module-01-questions/06-on-tap-cau-hoi-wh-va-how-trong-doi-song.md",
+    "splitFrom": "compact-m5-lesson-02"
   },
   {
     "id": "p2-m1-checkpoint",
@@ -175,29 +562,67 @@
     "file": "phase-02-talk-about-life/module-01-questions/06-checkpoint.md"
   },
   {
-    "id": "compact-m6-lesson-01",
+    "id": "p2-m6-u01",
     "phase": 2,
     "module": 6,
     "label": "Lesson 1",
-    "title": "Hiện tại tiếp diễn: cấu trúc và cách dùng",
-    "file": "phase-02-talk-about-life/module-02-present-continuous/01-compact.md",
-    "replaces": [
-      "p2-m2-lesson-01",
-      "p2-m2-lesson-02",
-      "p2-m2-lesson-03"
-    ]
+    "title": "Cấu trúc be + V-ing",
+    "file": "phase-02-talk-about-life/module-02-present-continuous/01-cau-truc-be-v-ing.md",
+    "splitFrom": "compact-m6-lesson-01"
   },
   {
-    "id": "compact-m6-lesson-02",
+    "id": "p2-m6-u02",
     "phase": 2,
     "module": 6,
     "label": "Lesson 2",
-    "title": "Hiện tại đơn, tiếp diễn và lịch hẹn",
-    "file": "phase-02-talk-about-life/module-02-present-continuous/02-compact.md",
-    "replaces": [
-      "p2-m2-lesson-04",
-      "p2-m2-lesson-05"
-    ]
+    "title": "Hành động đang diễn ra",
+    "file": "phase-02-talk-about-life/module-02-present-continuous/02-hanh-dong-dang-dien-ra.md",
+    "splitFrom": "compact-m6-lesson-01"
+  },
+  {
+    "id": "p2-m6-u03",
+    "phase": 2,
+    "module": 6,
+    "label": "Lesson 3",
+    "title": "Câu phủ định và nghi vấn",
+    "file": "phase-02-talk-about-life/module-02-present-continuous/03-cau-phu-dinh-va-nghi-van.md",
+    "splitFrom": "compact-m6-lesson-01"
+  },
+  {
+    "id": "p2-m6-u04",
+    "phase": 2,
+    "module": 6,
+    "label": "Lesson 4",
+    "title": "Ôn tập: Hiện tại tiếp diễn: cấu trúc và cách dùng",
+    "file": "phase-02-talk-about-life/module-02-present-continuous/04-on-tap-hien-tai-tiep-dien-cau-truc-va-ca.md",
+    "splitFrom": "compact-m6-lesson-01"
+  },
+  {
+    "id": "p2-m6-u05",
+    "phase": 2,
+    "module": 6,
+    "label": "Lesson 5",
+    "title": "Hiện tại đơn vs Hiện tại tiếp diễn",
+    "file": "phase-02-talk-about-life/module-02-present-continuous/05-hien-tai-don-vs-hien-tai-tiep-dien.md",
+    "splitFrom": "compact-m6-lesson-02"
+  },
+  {
+    "id": "p2-m6-u06",
+    "phase": 2,
+    "module": 6,
+    "label": "Lesson 6",
+    "title": "Kế hoạch tương lai gần",
+    "file": "phase-02-talk-about-life/module-02-present-continuous/06-ke-hoach-tuong-lai-gan.md",
+    "splitFrom": "compact-m6-lesson-02"
+  },
+  {
+    "id": "p2-m6-u07",
+    "phase": 2,
+    "module": 6,
+    "label": "Lesson 7",
+    "title": "Ôn tập: Hiện tại đơn, tiếp diễn và lịch hẹn",
+    "file": "phase-02-talk-about-life/module-02-present-continuous/07-on-tap-hien-tai-don-tiep-dien-va-lich-he.md",
+    "splitFrom": "compact-m6-lesson-02"
   },
   {
     "id": "p2-m2-checkpoint",
@@ -208,29 +633,76 @@
     "file": "phase-02-talk-about-life/module-02-present-continuous/06-checkpoint.md"
   },
   {
-    "id": "compact-m7-lesson-01",
+    "id": "p2-m7-u01",
     "phase": 2,
     "module": 7,
     "label": "Lesson 1",
-    "title": "Khả năng, câu hỏi và yêu cầu với can/could",
-    "file": "phase-02-talk-about-life/module-03-ability-preference/01-compact.md",
-    "replaces": [
-      "p2-m3-lesson-01",
-      "p2-m3-lesson-02"
-    ]
+    "title": "Khả năng với can và can't",
+    "file": "phase-02-talk-about-life/module-03-ability-preference/01-kha-nang-voi-can-va-can-t.md",
+    "splitFrom": "compact-m7-lesson-01"
   },
   {
-    "id": "compact-m7-lesson-02",
+    "id": "p2-m7-u02",
     "phase": 2,
     "module": 7,
     "label": "Lesson 2",
-    "title": "Sở thích, lựa chọn và điều muốn làm",
-    "file": "phase-02-talk-about-life/module-03-ability-preference/02-compact.md",
-    "replaces": [
-      "p2-m3-lesson-03",
-      "p2-m3-lesson-04",
-      "p2-m3-lesson-05"
-    ]
+    "title": "Hỏi khả năng và yêu cầu lịch sự",
+    "file": "phase-02-talk-about-life/module-03-ability-preference/02-hoi-kha-nang-va-yeu-cau-lich-su.md",
+    "splitFrom": "compact-m7-lesson-01"
+  },
+  {
+    "id": "p2-m7-u03",
+    "phase": 2,
+    "module": 7,
+    "label": "Lesson 3",
+    "title": "Ôn tập: Khả năng, câu hỏi và yêu cầu với can/could",
+    "file": "phase-02-talk-about-life/module-03-ability-preference/03-on-tap-kha-nang-cau-hoi-va-yeu-cau-voi-c.md",
+    "splitFrom": "compact-m7-lesson-01"
+  },
+  {
+    "id": "p2-m7-u04",
+    "phase": 2,
+    "module": 7,
+    "label": "Lesson 4",
+    "title": "Sở thích với like, love, hate",
+    "file": "phase-02-talk-about-life/module-03-ability-preference/04-so-thich-voi-like-love-hate.md",
+    "splitFrom": "compact-m7-lesson-02"
+  },
+  {
+    "id": "p2-m7-u05",
+    "phase": 2,
+    "module": 7,
+    "label": "Lesson 5",
+    "title": "Lựa chọn với prefer và would like",
+    "file": "phase-02-talk-about-life/module-03-ability-preference/05-lua-chon-voi-prefer-va-would-like.md",
+    "splitFrom": "compact-m7-lesson-02"
+  },
+  {
+    "id": "p2-m7-u06",
+    "phase": 2,
+    "module": 7,
+    "label": "Lesson 6",
+    "title": "Nói về sở thích khi rảnh rỗi",
+    "file": "phase-02-talk-about-life/module-03-ability-preference/06-noi-ve-so-thich-khi-ranh-roi.md",
+    "splitFrom": "compact-m7-lesson-02"
+  },
+  {
+    "id": "p2-m7-u07",
+    "phase": 2,
+    "module": 7,
+    "label": "Lesson 7",
+    "title": "Nói điều muốn và cần làm",
+    "file": "phase-02-talk-about-life/module-03-ability-preference/07-noi-dieu-muon-va-can-lam.md",
+    "splitFrom": "compact-m7-lesson-02"
+  },
+  {
+    "id": "p2-m7-u08",
+    "phase": 2,
+    "module": 7,
+    "label": "Lesson 8",
+    "title": "Ôn tập: Sở thích, lựa chọn và điều muốn làm",
+    "file": "phase-02-talk-about-life/module-03-ability-preference/08-on-tap-so-thich-lua-chon-va-dieu-muon-la.md",
+    "splitFrom": "compact-m7-lesson-02"
   },
   {
     "id": "p2-m3-checkpoint",
@@ -241,39 +713,85 @@
     "file": "phase-02-talk-about-life/module-03-ability-preference/06-checkpoint.md"
   },
   {
-    "id": "compact-m8-lesson-01",
+    "id": "p2-m8-u01",
     "phase": 2,
     "module": 8,
     "label": "Lesson 1",
-    "title": "Was/were trong quá khứ",
-    "file": "phase-02-talk-about-life/module-04-past-simple/01-compact.md",
-    "replaces": [
-      "p2-m4-lesson-01"
-    ]
+    "title": "To be trong quá khứ: was và were",
+    "file": "phase-02-talk-about-life/module-04-past-simple/01-to-be-trong-qua-khu-was-va-were.md",
+    "splitFrom": "compact-m8-lesson-01"
   },
   {
-    "id": "compact-m8-lesson-02",
+    "id": "p2-m8-u02",
     "phase": 2,
     "module": 8,
     "label": "Lesson 2",
-    "title": "Động từ quá khứ có quy tắc và bất quy tắc",
-    "file": "phase-02-talk-about-life/module-04-past-simple/02-compact.md",
-    "replaces": [
-      "p2-m4-lesson-02",
-      "p2-m4-lesson-03"
-    ]
+    "title": "Cấu trúc câu hỏi với Was / Were",
+    "file": "phase-02-talk-about-life/module-04-past-simple/02-cau-truc-cau-hoi-voi-was-were.md",
+    "splitFrom": "compact-m8-lesson-01"
   },
   {
-    "id": "compact-m8-lesson-03",
+    "id": "p2-m8-u03",
     "phase": 2,
     "module": 8,
     "label": "Lesson 3",
-    "title": "Câu phủ định, câu hỏi và thời gian quá khứ",
-    "file": "phase-02-talk-about-life/module-04-past-simple/03-compact.md",
-    "replaces": [
-      "p2-m4-lesson-04",
-      "p2-m4-lesson-05"
-    ]
+    "title": "Ôn tập: Was/were trong quá khứ",
+    "file": "phase-02-talk-about-life/module-04-past-simple/03-on-tap-was-were-trong-qua-khu.md",
+    "splitFrom": "compact-m8-lesson-01"
+  },
+  {
+    "id": "p2-m8-u04",
+    "phase": 2,
+    "module": 8,
+    "label": "Lesson 4",
+    "title": "Động từ có quy tắc thêm -ed",
+    "file": "phase-02-talk-about-life/module-04-past-simple/04-dong-tu-co-quy-tac-them-ed.md",
+    "splitFrom": "compact-m8-lesson-02"
+  },
+  {
+    "id": "p2-m8-u05",
+    "phase": 2,
+    "module": 8,
+    "label": "Lesson 5",
+    "title": "Động từ bất quy tắc cốt lõi",
+    "file": "phase-02-talk-about-life/module-04-past-simple/05-dong-tu-bat-quy-tac-cot-loi.md",
+    "splitFrom": "compact-m8-lesson-02"
+  },
+  {
+    "id": "p2-m8-u06",
+    "phase": 2,
+    "module": 8,
+    "label": "Lesson 6",
+    "title": "Ôn tập: Động từ quá khứ có quy tắc và bất quy tắc",
+    "file": "phase-02-talk-about-life/module-04-past-simple/06-on-tap-dong-tu-qua-khu-co-quy-tac-va-bat.md",
+    "splitFrom": "compact-m8-lesson-02"
+  },
+  {
+    "id": "p2-m8-u07",
+    "phase": 2,
+    "module": 8,
+    "label": "Lesson 7",
+    "title": "Phủ định và nghi vấn với did",
+    "file": "phase-02-talk-about-life/module-04-past-simple/07-phu-dinh-va-nghi-van-voi-did.md",
+    "splitFrom": "compact-m8-lesson-03"
+  },
+  {
+    "id": "p2-m8-u08",
+    "phase": 2,
+    "module": 8,
+    "label": "Lesson 8",
+    "title": "Trạng từ chỉ thời gian quá khứ",
+    "file": "phase-02-talk-about-life/module-04-past-simple/08-trang-tu-chi-thoi-gian-qua-khu.md",
+    "splitFrom": "compact-m8-lesson-03"
+  },
+  {
+    "id": "p2-m8-u09",
+    "phase": 2,
+    "module": 8,
+    "label": "Lesson 9",
+    "title": "Ôn tập: Câu phủ định, câu hỏi và thời gian quá khứ",
+    "file": "phase-02-talk-about-life/module-04-past-simple/09-on-tap-cau-phu-dinh-cau-hoi-va-thoi-gian.md",
+    "splitFrom": "compact-m8-lesson-03"
   },
   {
     "id": "p2-m4-checkpoint",
@@ -284,29 +802,121 @@
     "file": "phase-02-talk-about-life/module-04-past-simple/06-checkpoint.md"
   },
   {
-    "id": "compact-m9-lesson-01",
+    "id": "p2-m9-u01",
     "phase": 2,
     "module": 9,
     "label": "Lesson 1",
-    "title": "Will, be going to và sự khác biệt",
-    "file": "phase-02-talk-about-life/module-05-future/01-compact.md",
-    "replaces": [
-      "p2-m5-lesson-01",
-      "p2-m5-lesson-02",
-      "p2-m5-lesson-03"
-    ]
+    "title": "Tương lai đơn với will và won't",
+    "file": "phase-02-talk-about-life/module-05-future/01-tuong-lai-don-voi-will-va-won-t.md",
+    "splitFrom": "compact-m9-lesson-01"
   },
   {
-    "id": "compact-m9-lesson-02",
+    "id": "p2-m9-u02",
     "phase": 2,
     "module": 9,
     "label": "Lesson 2",
-    "title": "Thời gian, kế hoạch, lời hứa và đề nghị",
-    "file": "phase-02-talk-about-life/module-05-future/02-compact.md",
-    "replaces": [
-      "p2-m5-lesson-04",
-      "p2-m5-lesson-05"
-    ]
+    "title": "Dự định tương lai với be going to",
+    "file": "phase-02-talk-about-life/module-05-future/02-du-dinh-tuong-lai-voi-be-going-to.md",
+    "splitFrom": "compact-m9-lesson-01"
+  },
+  {
+    "id": "p2-m9-u03",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 3",
+    "title": "Phân biệt will và be going to",
+    "file": "phase-02-talk-about-life/module-05-future/03-phan-biet-will-va-be-going-to.md",
+    "splitFrom": "compact-m9-lesson-01"
+  },
+  {
+    "id": "p2-m9-u04",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 4",
+    "title": "Ôn tập: Will, be going to và sự khác biệt",
+    "file": "phase-02-talk-about-life/module-05-future/04-on-tap-will-be-going-to-va-su-khac-biet.md",
+    "splitFrom": "compact-m9-lesson-01"
+  },
+  {
+    "id": "p2-m9-u05",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 5",
+    "title": "Trạng từ chỉ thời gian tương lai",
+    "file": "phase-02-talk-about-life/module-05-future/05-trang-tu-chi-thoi-gian-tuong-lai.md",
+    "splitFrom": "compact-m9-lesson-02"
+  },
+  {
+    "id": "p2-m9-u06",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 6",
+    "title": "Nói về kế hoạch với plan to",
+    "file": "phase-02-talk-about-life/module-05-future/06-noi-ve-ke-hoach-voi-plan-to.md",
+    "splitFrom": "compact-m9-lesson-02"
+  },
+  {
+    "id": "p2-m9-u07",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 7",
+    "title": "Nói về hy vọng với hope to",
+    "file": "phase-02-talk-about-life/module-05-future/07-noi-ve-hy-vong-voi-hope-to.md",
+    "splitFrom": "compact-m9-lesson-02"
+  },
+  {
+    "id": "p2-m9-u08",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 8",
+    "title": "Lời hứa với will và won't",
+    "file": "phase-02-talk-about-life/module-05-future/08-loi-hua-voi-will-va-won-t.md",
+    "splitFrom": "compact-m9-lesson-02"
+  },
+  {
+    "id": "p2-m9-u09",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 9",
+    "title": "Đề nghị giúp đỡ với will",
+    "file": "phase-02-talk-about-life/module-05-future/09-de-nghi-giup-do-voi-will.md",
+    "splitFrom": "compact-m9-lesson-02"
+  },
+  {
+    "id": "p2-m9-u10",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 10",
+    "title": "Đề nghị với Shall I...?",
+    "file": "phase-02-talk-about-life/module-05-future/10-de-nghi-voi-shall-i.md",
+    "splitFrom": "compact-m9-lesson-02"
+  },
+  {
+    "id": "p2-m9-u11",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 11",
+    "title": "Rủ rê với Shall we...?",
+    "file": "phase-02-talk-about-life/module-05-future/11-ru-re-voi-shall-we.md",
+    "splitFrom": "compact-m9-lesson-02"
+  },
+  {
+    "id": "p2-m9-u12",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 12",
+    "title": "Phân biệt các ý chính",
+    "file": "phase-02-talk-about-life/module-05-future/12-phan-biet-cac-y-chinh.md",
+    "splitFrom": "compact-m9-lesson-02"
+  },
+  {
+    "id": "p2-m9-u13",
+    "phase": 2,
+    "module": 9,
+    "label": "Lesson 13",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-02-talk-about-life/module-05-future/13-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "compact-m9-lesson-02"
   },
   {
     "id": "p2-m5-checkpoint",
@@ -317,29 +927,175 @@
     "file": "phase-02-talk-about-life/module-05-future/06-checkpoint.md"
   },
   {
-    "id": "compact-m10-lesson-01",
+    "id": "p2-m10-u01",
     "phase": 2,
     "module": 10,
     "label": "Lesson 1",
-    "title": "Lời khuyên, bắt buộc và không bắt buộc",
-    "file": "phase-02-talk-about-life/module-06-modal-basics/01-compact.md",
-    "replaces": [
-      "p2-m6-lesson-01",
-      "p2-m6-lesson-02",
-      "p2-m6-lesson-03"
-    ]
+    "title": "Lời khuyên với should và shouldn't",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/01-loi-khuyen-voi-should-va-shouldn-t.md",
+    "splitFrom": "compact-m10-lesson-01"
   },
   {
-    "id": "compact-m10-lesson-02",
+    "id": "p2-m10-u02",
     "phase": 2,
     "module": 10,
     "label": "Lesson 2",
-    "title": "Khả năng xảy ra và hội thoại với modal verbs",
-    "file": "phase-02-talk-about-life/module-06-modal-basics/02-compact.md",
-    "replaces": [
-      "p2-m6-lesson-04",
-      "p2-m6-lesson-05"
-    ]
+    "title": "Hỏi xin lời khuyên với should",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/02-hoi-xin-loi-khuyen-voi-should.md",
+    "splitFrom": "compact-m10-lesson-01"
+  },
+  {
+    "id": "p2-m10-u03",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 3",
+    "title": "Bắt buộc với must",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/03-bat-buoc-voi-must.md",
+    "splitFrom": "compact-m10-lesson-01"
+  },
+  {
+    "id": "p2-m10-u04",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 4",
+    "title": "Cấm đoán với mustn't",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/04-cam-doan-voi-mustn-t.md",
+    "splitFrom": "compact-m10-lesson-01"
+  },
+  {
+    "id": "p2-m10-u05",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 5",
+    "title": "Sự cần thiết với have to và has to",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/05-su-can-thiet-voi-have-to-va-has-to.md",
+    "splitFrom": "compact-m10-lesson-01"
+  },
+  {
+    "id": "p2-m10-u06",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 6",
+    "title": "Không bắt buộc với don't have to",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/06-khong-bat-buoc-voi-don-t-have-to.md",
+    "splitFrom": "compact-m10-lesson-01"
+  },
+  {
+    "id": "p2-m10-u07",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 7",
+    "title": "Mustn't và don't have to — khác nhau hoàn toàn",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/07-mustn-t-va-don-t-have-to-khac-nhau-hoan-.md",
+    "splitFrom": "compact-m10-lesson-01"
+  },
+  {
+    "id": "p2-m10-u08",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 8",
+    "title": "Phân biệt toàn bộ cấu trúc",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/08-phan-biet-toan-bo-cau-truc.md",
+    "splitFrom": "compact-m10-lesson-01"
+  },
+  {
+    "id": "p2-m10-u09",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 9",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/09-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "compact-m10-lesson-01"
+  },
+  {
+    "id": "p2-m10-u10",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 10",
+    "title": "Khả năng xảy ra với may và might",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/10-kha-nang-xay-ra-voi-may-va-might.md",
+    "splitFrom": "compact-m10-lesson-02"
+  },
+  {
+    "id": "p2-m10-u11",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 11",
+    "title": "Phủ định với may not và might not",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/11-phu-dinh-voi-may-not-va-might-not.md",
+    "splitFrom": "compact-m10-lesson-02"
+  },
+  {
+    "id": "p2-m10-u12",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 12",
+    "title": "May / might và will",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/12-may-might-va-will.md",
+    "splitFrom": "compact-m10-lesson-02"
+  },
+  {
+    "id": "p2-m10-u13",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 13",
+    "title": "Xin phép trang trọng với May I...?",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/13-xin-phep-trang-trong-voi-may-i.md",
+    "splitFrom": "compact-m10-lesson-02"
+  },
+  {
+    "id": "p2-m10-u14",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 14",
+    "title": "Modal verbs trong hội thoại hàng ngày",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/14-modal-verbs-trong-hoi-thoai-hang-ngay.md",
+    "splitFrom": "compact-m10-lesson-02"
+  },
+  {
+    "id": "p2-m10-u15",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 15",
+    "title": "Xin phép và nhờ giúp đỡ",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/15-xin-phep-va-nho-giup-do.md",
+    "splitFrom": "compact-m10-lesson-02"
+  },
+  {
+    "id": "p2-m10-u16",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 16",
+    "title": "Lời khuyên, nghĩa vụ và điều cấm",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/16-loi-khuyen-nghia-vu-va-dieu-cam.md",
+    "splitFrom": "compact-m10-lesson-02"
+  },
+  {
+    "id": "p2-m10-u17",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 17",
+    "title": "Quy tắc chung của modal verbs",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/17-quy-tac-chung-cua-modal-verbs.md",
+    "splitFrom": "compact-m10-lesson-02"
+  },
+  {
+    "id": "p2-m10-u18",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 18",
+    "title": "Chọn modal verb theo tình huống",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/18-chon-modal-verb-theo-tinh-huong.md",
+    "splitFrom": "compact-m10-lesson-02"
+  },
+  {
+    "id": "p2-m10-u19",
+    "phase": 2,
+    "module": 10,
+    "label": "Lesson 19",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-02-talk-about-life/module-06-modal-basics/19-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "compact-m10-lesson-02"
   },
   {
     "id": "p2-m6-checkpoint",

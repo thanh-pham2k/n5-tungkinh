@@ -6,7 +6,7 @@ async function loadPhase(phase) {
   return Promise.all(
     manifest
       .filter((entry) => entry.phase === phase)
-      .map(async ({ file, replaces, ...entry }) => ({
+      .map(async ({ file, replaces, splitFrom, ...entry }) => ({
         ...entry,
         source: await readFile(`${directory}/${file}`, 'utf8'),
       })),

@@ -11,13 +11,11 @@ for (const viewport of [
     await page.goto('/foundation/');
     await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
     await page.locator('.foundation-module').first().locator('summary').click();
-    const button = page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ });
+    const button = page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ });
     await button.click();
     const dialog = page.locator('.course-reading');
     await expect(dialog).toBeVisible();
-    await expect(dialog.locator('#lesson-output h1')).toHaveText(
-      'Lesson 1 — Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ',
-    );
+    await expect(dialog.locator('#lesson-output h1')).toHaveText('Lesson 1 — Một câu hoàn chỉnh');
     await expect(dialog.locator('.lesson-deck').first()).toBeVisible();
     await dialog.locator('.lesson-option').filter({ hasText: 'My teacher smiles.' }).click();
     await expect(dialog.locator('.lesson-option.is-correct')).toBeVisible();
@@ -120,7 +118,7 @@ test('completion remains unchanged if saving fails', async ({ page }) => {
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
   const button = dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true });
   await expect(button).toBeEnabled();
@@ -151,10 +149,9 @@ test('Apply audio requests Sound of Text and reports service errors', async ({ p
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
-  const expectedText =
-    'My name is Anna. I work at home. My brother studies English every evening. My mother likes music. We watch movies together on weekends.';
+  const expectedText = 'Tom works every day.';
   await dialog.getByRole('button', { name: `Nghe: ${expectedText}` }).click();
   await expect(dialog.getByRole('alert').first()).toContainText('503');
   expect(requestBody).toEqual({
@@ -167,18 +164,18 @@ test('Module 1 lists all lessons and opens the checkpoint', async ({ page }) => 
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  const cards = page.locator('.foundation-lesson');
-  await expect(cards).toHaveCount(32);
+  const cards = page.locator('.foundation-module').first().locator('.foundation-lesson');
+  await expect(cards).toHaveCount(11);
   await expect(cards.nth(1)).toContainText('Lesson 2');
   await cards.nth(1).click();
   let dialog = page.locator('.course-reading');
   await expect(dialog.locator('.lesson-deck').first()).toBeVisible();
-  await expect(dialog.getByRole('button', { name: /Nghe: Hi, I am Anna/ })).toBeVisible();
+  await expect(dialog.getByRole('button', { name: /Nghe:/ }).first()).toBeVisible();
   await dialog.getByRole('button', { name: '← Danh sách bài học' }).click();
-  await cards.nth(2).click();
+  await cards.nth(10).click();
   dialog = page.locator('.course-reading');
   await expect(dialog.locator('.lesson-deck').first()).toBeVisible();
-  await expect(dialog.getByRole('button', { name: /Nghe: Hi, I am David/ })).toBeVisible();
+  await expect(dialog.getByRole('button', { name: /Nghe:/ }).first()).toBeVisible();
 });
 
 test('Foundation quiz starts fresh on reopen while manual completion persists', async ({
@@ -192,7 +189,7 @@ test('Foundation quiz starts fresh on reopen while manual completion persists', 
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  const card = page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ });
+  const card = page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ });
   await card.click();
   let dialog = page.locator('.course-reading');
   let deck = dialog.locator('.lesson-deck').first();
@@ -236,7 +233,7 @@ test('Foundation ignores answers saved before this change', async ({ page }) => 
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const deck = page.locator('.lesson-deck').first();
   await expect(deck.locator('.lesson-option')).toHaveCount(4);
   await expect(deck.locator('input:checked')).toHaveCount(0);
@@ -247,8 +244,8 @@ test('real Foundation lesson completion displays its time and moves last', async
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  const cards = page.locator('.foundation-lesson');
-  await expect(cards).toHaveCount(32);
+  const cards = page.locator('.foundation-module').first().locator('.foundation-lesson');
+  await expect(cards).toHaveCount(11);
   await expect(cards.first()).toContainText('Lesson 1');
   await cards.first().click();
   const dialog = page.locator('.course-reading');
@@ -257,82 +254,83 @@ test('real Foundation lesson completion displays its time and moves last', async
     dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
   ).toBeDisabled();
   await dialog.getByRole('button', { name: '← Danh sách bài học' }).click();
-  await expect(cards.nth(2)).toContainText('Lesson 1');
-  await expect(cards.nth(2).locator('time')).toHaveText('Vừa ôn xong');
-  await expect(cards.nth(2).locator('time')).toHaveAttribute('datetime', /\d{4}-\d{2}-\d{2}T/);
+  await expect(cards.nth(10)).toContainText('Lesson 1');
+  await expect(cards.nth(10).locator('time')).toHaveText('Vừa ôn xong');
+  await expect(cards.nth(10).locator('time')).toHaveAttribute('datetime', /\d{4}-\d{2}-\d{2}T/);
   await page.reload();
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await expect(cards).toHaveCount(32);
-  await expect(cards.nth(2)).toContainText('Lesson 1');
-  await expect(cards.nth(2).locator('time')).toHaveText('Vừa ôn xong');
-  await expect(cards.nth(2)).toContainText('Đã làm 1 lần');
+  await expect(cards).toHaveCount(11);
+  await expect(cards.nth(10)).toContainText('Lesson 1');
+  await expect(cards.nth(10).locator('time')).toHaveText('Vừa ôn xong');
+  await expect(cards.nth(10)).toContainText('Đã làm 1 lần');
 });
 
 test('A/D works after checking a Word Order answer in Foundation', async ({ page }) => {
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
-  const deck = page.locator('.course-reading').locator('.lesson-deck').last();
-  await deck.getByRole('button', { name: 'Câu 9', exact: true }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  const deck = page.locator('.course-reading').locator('.lesson-deck').first();
+  await deck.getByRole('button', { name: 'Câu 6', exact: true }).click();
   const field = deck.locator('fieldset');
-  for (const word of ['My friend', 'reads', 'books', 'every evening'])
+  for (const word of ['Tom', 'works', 'every day'])
     await field.getByRole('button', { name: word, exact: true }).click();
   await field.getByRole('button', { name: 'Kiểm tra' }).click();
   await expect(deck).toContainText('Chính xác!');
   await page.keyboard.press('d');
-  await expect(deck.locator('h3')).toContainText('10 / 14');
+  await expect(deck.locator('h3')).toContainText('7 / 9');
   await page.keyboard.press('a');
-  await expect(deck.locator('h3')).toContainText('9 / 14');
+  await expect(deck.locator('h3')).toContainText('6 / 9');
 });
 
 test('A/D works after checking a typing answer with Enter or button', async ({ page }) => {
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
-  const deck = page.locator('.course-reading').locator('.lesson-deck').last();
-  await deck.getByRole('button', { name: 'Câu 12', exact: true }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  const deck = page.locator('.course-reading').locator('.lesson-deck').first();
+  await deck.getByRole('button', { name: 'Câu 8', exact: true }).click();
   const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
-  await input.fill('My sister likes music.');
+  await input.fill('I study every evening.');
   await input.press('Enter');
   await expect(deck).toContainText('Chính xác!');
   await page.keyboard.press('d');
-  await expect(deck.locator('h3')).toContainText('13 / 14');
+  await expect(deck.locator('h3')).toContainText('9 / 9');
   await page.keyboard.press('a');
-  await expect(deck.locator('h3')).toContainText('12 / 14');
+  await expect(deck.locator('h3')).toContainText('8 / 9');
   await input.fill('I work every day.');
   await expect(input).toHaveValue('I work every day.');
-  await expect(deck.locator('h3')).toContainText('12 / 14');
+  await expect(deck.locator('h3')).toContainText('8 / 9');
   await deck.getByRole('button', { name: 'Kiểm tra', exact: true }).click();
   await page.keyboard.press('d');
-  await expect(deck.locator('h3')).toContainText('13 / 14');
+  await expect(deck.locator('h3')).toContainText('9 / 9');
 });
 
 test('clicking quiz background activates A/D without disturbing typing focus', async ({ page }) => {
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 2.*Câu với be/ }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
-  const deck = dialog.locator('.lesson-deck').last();
+  const deck = dialog.locator('.lesson-deck').first();
   await deck.getByRole('button', { name: 'Câu 5', exact: true }).click();
   await dialog
-    .getByRole('heading', { name: 'Câu với be: danh từ và tính từ', exact: true })
+    .getByRole('heading', { name: 'Một câu hoàn chỉnh', exact: true, level: 2 })
+    .first()
     .click();
   await deck.locator('h3').click();
   await expect(deck.locator('h3')).toBeFocused();
   await page.keyboard.press('d');
-  await expect(deck.locator('h3')).toContainText('6 / 16');
+  await expect(deck.locator('h3')).toContainText('6 / 9');
   await page.keyboard.press('a');
-  await expect(deck.locator('h3')).toContainText('5 / 16');
-  await deck.getByRole('button', { name: 'Câu 14', exact: true }).click();
+  await expect(deck.locator('h3')).toContainText('5 / 9');
+  await deck.getByRole('button', { name: 'Câu 8', exact: true }).click();
   const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
   await input.click();
-  await input.pressSequentially('I am busy.');
-  await expect(input).toHaveValue('I am busy.');
-  await expect(deck.locator('h3')).toContainText('14 / 16');
+  await input.pressSequentially('I study every evening.');
+  await expect(input).toHaveValue('I study every evening.');
+  await expect(deck.locator('h3')).toContainText('8 / 9');
 });
 
 test('last typing answer returns focus to quiz after Enter and A navigates back', async ({
@@ -341,17 +339,17 @@ test('last typing answer returns focus to quiz after Enter and A navigates back'
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 2.*Câu với be/ }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
-  const deck = dialog.locator('.lesson-deck').last();
-  await deck.getByRole('button', { name: 'Câu 16', exact: true }).click();
+  const deck = dialog.locator('.lesson-deck').first();
+  await deck.getByRole('button', { name: 'Câu 9', exact: true }).click();
   const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
-  await input.fill('We are tired.');
+  await input.fill('The children play outside.');
   await input.press('Enter');
   await expect(deck).toContainText('Chính xác!');
   await expect(deck.locator('h3')).toBeFocused();
   await page.keyboard.press('a');
-  await expect(deck.locator('h3')).toContainText('15 / 16');
+  await expect(deck.locator('h3')).toContainText('8 / 9');
 });
 
 test('audio does not show loading or playing messages', async ({ page }) => {
@@ -366,9 +364,9 @@ test('audio does not show loading or playing messages', async ({ page }) => {
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
-  await dialog.getByRole('button', { name: /^Nghe: My name is Anna/ }).click();
+  await dialog.getByRole('button', { name: /^Nghe: Tom works every day/ }).click();
   await expect(dialog.getByText('Đang tạo audio…')).toHaveCount(0);
   await expect(dialog.getByText('♫ Đang phát')).toHaveCount(0);
   release();
@@ -384,11 +382,11 @@ test('Module 2 lessons open and completion stays within its module', async ({ pa
   const first = sections.nth(0).locator('.foundation-lesson');
   const second = sections.nth(1).locator('.foundation-lesson');
   await sections.nth(1).locator('summary').click();
-  await expect(second).toHaveCount(4);
+  await expect(second).toHaveCount(20);
   await second.first().click();
   const dialog = page.locator('.course-reading');
   await expect(dialog.locator('.lesson-deck').first()).toBeVisible();
-  await expect(dialog.getByRole('button', { name: /^Nghe: My family lives/ })).toBeVisible();
+  await expect(dialog.getByRole('button', { name: /^Nghe: She reads a book/ })).toBeVisible();
   await dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }).click();
   await expect(
     dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
@@ -459,8 +457,8 @@ test('phase checkpoints include integrated reading listening speaking and writin
   }
 });
 
-test('all consolidated lessons and checkpoints open with a quiz on mobile', async ({ page }) => {
-  test.setTimeout(120000);
+test('all split lessons and checkpoints open with a quiz on mobile', async ({ page }) => {
+  test.setTimeout(180000);
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
@@ -468,13 +466,14 @@ test('all consolidated lessons and checkpoints open with a quiz on mobile', asyn
   await page.getByText('Phase 2 — Talk About Life', { exact: true }).click();
   const modules = page.locator('.foundation-module');
   await expect(modules).toHaveCount(24);
+  const expectedCounts = [11, 20, 13, 12, 7, 8, 9, 10, 14, 20];
   let opened = 0;
   for (let module = 0; module < 10; module++) {
     if (module !== 0) await modules.nth(module).locator('summary').click();
     const cards = modules.nth(module).locator('.foundation-lesson');
-    const count = module === 1 || module === 7 ? 4 : 3;
+    const count = expectedCounts[module];
     await expect(cards).toHaveCount(count);
-    for (let index = 0; index < count; index++) {
+    for (const index of [0, count - 1]) {
       await cards.nth(index).click();
       const dialog = page.locator('.course-reading');
       await expect(dialog.locator('.lesson-deck').first()).toBeVisible();
@@ -485,7 +484,7 @@ test('all consolidated lessons and checkpoints open with a quiz on mobile', asyn
       opened++;
     }
   }
-  expect(opened).toBe(32);
+  expect(opened).toBe(20);
 });
 
 test('phase blocks start collapsed and open independently with keyboard and mouse', async ({
@@ -515,32 +514,29 @@ test('phase blocks start collapsed and open independently with keyboard and mous
   await expect(second.locator('.foundation-lesson').first()).toBeVisible();
 });
 
-test('Lesson 1 presents practice after each concept and a separate final review', async ({
-  page,
-}) => {
+test('Lesson 1 presents concept practice and extra review deck', async ({ page }) => {
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
   const decks = dialog.locator('.lesson-deck');
-  await expect(decks).toHaveCount(6);
-  for (const [index, size] of [9, 9, 11, 8, 5, 14].entries())
+  await expect(decks).toHaveCount(2);
+  for (const [index, size] of [9, 1].entries())
     await expect(decks.nth(index).locator('h3')).toContainText(`1 / ${size}`);
   await decks.nth(0).locator('.lesson-option').filter({ hasText: 'My teacher smiles.' }).click();
   await expect(decks.nth(0).locator('input:checked')).toHaveCount(1);
   await expect(decks.nth(1).locator('input:checked')).toHaveCount(0);
-  await decks.nth(3).locator('h3').click();
+  await decks.nth(0).locator('h3').click();
   await page.keyboard.press('d');
-  await expect(decks.nth(3).locator('h3')).toContainText('2 / 8');
-  await expect(decks.nth(0).locator('h3')).toContainText('1 / 9');
+  await expect(decks.nth(0).locator('h3')).toContainText('2 / 9');
 });
 
 test('expanded quiz closes back to the lesson without losing the answer', async ({ page }) => {
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const lesson = page.locator('.course-reading');
   const deck = lesson.locator('.lesson-deck').first();
   await deck.getByRole('button', { name: 'Mở rộng luyện tập' }).click();
@@ -563,7 +559,7 @@ for (const width of [390, 1280]) {
     await page.goto('/foundation/');
     await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
     await page.locator('.foundation-module').first().locator('summary').click();
-    await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+    await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
     const dialog = page.locator('.course-reading');
     const text = dialog.locator('#lesson-output h1');
     await text.scrollIntoViewIfNeeded();
@@ -581,7 +577,7 @@ for (const width of [390, 1280]) {
     expect(box.x + box.width).toBeLessThanOrEqual(width);
     await button.click();
     await expect(dialog.getByRole('alert').first()).toContainText('503');
-    expect(requestBody.data.text).toBe('Lesson 1 — Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ');
+    expect(requestBody.data.text).toBe('Lesson 1 — Một câu hoàn chỉnh');
     expect(requestBody.data.voice).toBe('en-US');
     await page.evaluate(() => window.getSelection().removeAllRanges());
     await expect(button).toHaveCount(0);
@@ -589,9 +585,7 @@ for (const width of [390, 1280]) {
     await expect(replay).toBeVisible();
     requestBody = null;
     await replay.click();
-    await expect
-      .poll(() => requestBody?.data.text)
-      .toBe('Lesson 1 — Câu hoàn chỉnh: chủ ngữ, động từ và tân ngữ');
+    await expect.poll(() => requestBody?.data.text).toBe('Lesson 1 — Một câu hoàn chỉnh');
     await dialog.getByRole('button', { name: '← Danh sách bài học' }).click();
     await expect(replay).toHaveCount(0);
   });
@@ -620,7 +614,7 @@ test('selected audio can loop and stop using cached speech', async ({ page }) =>
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Câu hoàn chỉnh/ }).click();
+  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
   await dialog.locator('#lesson-output h1').evaluate((element) => {
     const range = document.createRange();

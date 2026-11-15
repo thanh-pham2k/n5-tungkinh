@@ -67,12 +67,12 @@ function verifyLessons(lessons, expectedCount) {
 
 test('Foundation Phase 1 lessons contain valid ordered quizzes and listening prompts', async () => {
   const lessons = await loadFoundationCatalog();
-  verifyLessons(lessons, 13);
+  verifyLessons(lessons, 56);
 });
 
 test('Foundation Phase 2 lessons contain valid ordered quizzes and listening prompts', async () => {
   const lessons = await loadPhase2Catalog();
-  verifyLessons(lessons, 19);
+  verifyLessons(lessons, 68);
 });
 
 test('all quiz IDs across foundation catalog are globally unique', async () => {
@@ -101,8 +101,9 @@ test('Each phase has a self-assessment across reading listening speaking and wri
 test('everyday language targets have both instruction and an exercise', async () => {
   const lessons = await loadPhase2Catalog();
   for (const [id, patterns] of [
-    ['compact-m7-lesson-02', ['want to', 'need to']],
-    ['compact-m9-lesson-02', ['plan to', 'hope to']],
+    ['p2-m7-u07', ['want to', 'need to']],
+    ['p2-m9-u06', ['plan to']],
+    ['p2-m9-u07', ['hope to']],
   ]) {
     const lesson = lessons.find((item) => item.id === id);
     const blocks = parser.parse(lesson.source);
@@ -132,18 +133,14 @@ test('phase listening self-assessments present audio before the hidden transcrip
   }
 });
 
-test('all Phase 1 consolidated lessons alternate each concept and its practice before a separate review', async () => {
+test('all Phase 1 split lessons focus on one unit with objective, practice deck and audio', async () => {
   const lessons = await loadFoundationCatalog();
-  const compactLessons = lessons.filter((item) => !item.id.includes('checkpoint'));
-  assert.equal(compactLessons.length, 9);
-  for (const lesson of compactLessons) {
+  const units = lessons.filter((item) => !item.id.includes('checkpoint'));
+  assert.equal(units.length, 52);
+  for (const lesson of units) {
     const blocks = parser.parse(lesson.source);
     const decks = blocks.filter((block) => block.type === 'deck');
-    assert.ok(decks.length >= 3, `${lesson.id} should have at least 3 decks`);
-    assert.ok(lesson.source.includes('## Ôn tập tổng hợp'), `${lesson.id} has review heading`);
-    const revStart = lesson.source.indexOf('## Ôn tập tổng hợp');
-    const revEnd = lesson.source.indexOf('## Áp dụng', revStart);
-    assert.ok(revStart >= 0 && revEnd > revStart, `${lesson.id} review bounds`);
-    assert.match(lesson.source.slice(revStart, revEnd), /```quiz-deck/);
+    assert.ok(decks.length >= 1, `${lesson.id} should have at least 1 deck`);
+    assert.ok(lesson.source.includes('## Mục tiêu'), `${lesson.id} has objective heading`);
   }
 });

@@ -14,23 +14,20 @@ const normalized = (value) =>
     .split(/\s+/)
     .sort();
 
-test('compact draft covers every original lesson once and has usable exercises and audio', async () => {
+test('split lessons cover all 22 previous compact lessons and have usable exercises and audio', async () => {
   const manifest = JSON.parse(await readFile(`${draftPath}/manifest.json`, 'utf8'));
-  const original = [...(await loadFoundationCatalog()), ...(await loadPhase2Catalog())].filter(
+  const active = [...(await loadFoundationCatalog()), ...(await loadPhase2Catalog())].filter(
     (item) => !item.id.includes('checkpoint'),
   );
-  const compact = manifest.filter((item) => item.replaces);
-  assert.equal(compact.length, 22);
-  assert.deepEqual(compact.map((item) => item.id).sort(), original.map((item) => item.id).sort());
-  const replacements = compact.flatMap((item) => item.replaces);
-  assert.equal(replacements.length, 50);
-  assert.equal(new Set(replacements).size, 50);
-  const archive = await readFile(`${draftPath}/archive/lessons-before-consolidation.md`, 'utf8');
-  const archivedIds = [...archive.matchAll(/^## (\S+) — docs\/english-foundation\/phase-/gm)]
-    .map((match) => match[1])
-    .filter((id) => id !== 'README');
-  assert.deepEqual(replacements.slice().sort(), archivedIds.sort());
-  for (const entry of compact) {
+  const splitEntries = manifest.filter((item) => item.splitFrom);
+  assert.equal(splitEntries.length, 114);
+  assert.deepEqual(
+    splitEntries.map((item) => item.id).sort(),
+    active.map((item) => item.id).sort(),
+  );
+  const sources = new Set(splitEntries.map((item) => item.splitFrom));
+  assert.equal(sources.size, 22);
+  for (const entry of splitEntries) {
     const source = await readFile(`${draftPath}/${entry.file}`, 'utf8');
     const blocks = parser.parse(source);
     assert.deepEqual(
