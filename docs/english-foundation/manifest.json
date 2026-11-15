@@ -1106,20 +1106,67 @@
     "file": "phase-02-talk-about-life/module-06-modal-basics/06-checkpoint.md"
   },
   {
-    "id": "p3-m11-01-lesson",
+    "id": "p3-m11-u01",
     "phase": 3,
     "module": 11,
     "label": "Lesson 1",
-    "title": "Tính từ mô tả",
-    "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/01-lesson.md"
+    "title": "Tính từ là gì? & Tính từ đứng trước danh từ",
+    "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/01-tinh-tu-la-gi-tinh-tu-dung-truoc-danh-tu.md",
+    "splitFrom": "p3-m11-01-lesson"
   },
   {
-    "id": "p3-m11-02-lesson",
+    "id": "p3-m11-u02",
     "phase": 3,
     "module": 11,
     "label": "Lesson 2",
-    "title": "Trạng từ trong câu",
-    "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/02-lesson.md"
+    "title": "Tính từ đứng sau be & Trước danh từ hay sau be?",
+    "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/02-tinh-tu-dung-sau-be-truoc-danh-tu-hay-sa.md",
+    "splitFrom": "p3-m11-01-lesson"
+  },
+  {
+    "id": "p3-m11-u03",
+    "phase": 3,
+    "module": 11,
+    "label": "Lesson 3",
+    "title": "Nghe trong ngữ cảnh và ôn tập",
+    "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/03-nghe-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "p3-m11-01-lesson"
+  },
+  {
+    "id": "p3-m11-u04",
+    "phase": 3,
+    "module": 11,
+    "label": "Lesson 4",
+    "title": "Trạng từ chỉ cách thức & Trạng từ chỉ tần suất",
+    "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/04-trang-tu-chi-cach-thuc-trang-tu-chi-tan-.md",
+    "splitFrom": "p3-m11-02-lesson"
+  },
+  {
+    "id": "p3-m11-u05",
+    "phase": 3,
+    "module": 11,
+    "label": "Lesson 5",
+    "title": "Trạng từ tần suất với be & Phân biệt tính từ và trạng từ",
+    "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/05-trang-tu-tan-suat-voi-be-phan-biet-tinh-.md",
+    "splitFrom": "p3-m11-02-lesson"
+  },
+  {
+    "id": "p3-m11-u06",
+    "phase": 3,
+    "module": 11,
+    "label": "Lesson 6",
+    "title": "Nghe trong ngữ cảnh & Đọc và áp dụng",
+    "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/06-nghe-trong-ngu-canh-doc-va-ap-dung.md",
+    "splitFrom": "p3-m11-02-lesson"
+  },
+  {
+    "id": "p3-m11-u07",
+    "phase": 3,
+    "module": 11,
+    "label": "Lesson 7",
+    "title": "Ôn tập tổng hợp",
+    "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/07-on-tap-tong-hop.md",
+    "splitFrom": "p3-m11-02-lesson"
   },
   {
     "id": "p3-m11-03-checkpoint",
@@ -1130,20 +1177,94 @@
     "file": "phase-03-expand-ideas/module-11-adjectives-adverbs/03-checkpoint.md"
   },
   {
-    "id": "p3-m12-01-lesson",
+    "id": "p3-m12-u01",
     "phase": 3,
     "module": 12,
     "label": "Lesson 1",
-    "title": "Thời gian và địa điểm",
-    "file": "phase-03-expand-ideas/module-12-prepositions/01-lesson.md"
+    "title": "at, on, in với thời gian & on — ngày và thứ",
+    "file": "phase-03-expand-ideas/module-12-prepositions/01-at-on-in-voi-thoi-gian-on-ngay-va-thu.md",
+    "splitFrom": "p3-m12-01-lesson"
   },
   {
-    "id": "p3-m12-02-lesson",
+    "id": "p3-m12-u02",
     "phase": 3,
     "module": 12,
     "label": "Lesson 2",
-    "title": "Di chuyển và quan hệ",
-    "file": "phase-03-expand-ideas/module-12-prepositions/02-lesson.md"
+    "title": "in — tháng, năm, mùa và buổi & So sánh at, on, in với thời gian",
+    "file": "phase-03-expand-ideas/module-12-prepositions/02-in-thang-nam-mua-va-buoi-so-sanh-at-on-i.md",
+    "splitFrom": "p3-m12-01-lesson"
+  },
+  {
+    "id": "p3-m12-u03",
+    "phase": 3,
+    "module": 12,
+    "label": "Lesson 3",
+    "title": "at, on, in với địa điểm & on — trên một bề mặt",
+    "file": "phase-03-expand-ideas/module-12-prepositions/03-at-on-in-voi-dia-diem-on-tren-mot-be-mat.md",
+    "splitFrom": "p3-m12-01-lesson"
+  },
+  {
+    "id": "p3-m12-u04",
+    "phase": 3,
+    "module": 12,
+    "label": "Lesson 4",
+    "title": "in — bên trong & So sánh at, on, in với địa điểm",
+    "file": "phase-03-expand-ideas/module-12-prepositions/04-in-ben-trong-so-sanh-at-on-in-voi-dia-di.md",
+    "splitFrom": "p3-m12-01-lesson"
+  },
+  {
+    "id": "p3-m12-u05",
+    "phase": 3,
+    "module": 12,
+    "label": "Lesson 5",
+    "title": "Nghe trong ngữ cảnh & Đọc và áp dụng",
+    "file": "phase-03-expand-ideas/module-12-prepositions/05-nghe-trong-ngu-canh-doc-va-ap-dung.md",
+    "splitFrom": "p3-m12-01-lesson"
+  },
+  {
+    "id": "p3-m12-u06",
+    "phase": 3,
+    "module": 12,
+    "label": "Lesson 6",
+    "title": "Ôn tập tổng hợp",
+    "file": "phase-03-expand-ideas/module-12-prepositions/06-on-tap-tong-hop.md",
+    "splitFrom": "p3-m12-01-lesson"
+  },
+  {
+    "id": "p3-m12-u07",
+    "phase": 3,
+    "module": 12,
+    "label": "Lesson 7",
+    "title": "to và from — đi đến và đến từ & with — cùng với",
+    "file": "phase-03-expand-ideas/module-12-prepositions/07-to-va-from-di-den-va-den-tu-with-cung-vo.md",
+    "splitFrom": "p3-m12-02-lesson"
+  },
+  {
+    "id": "p3-m12-u08",
+    "phase": 3,
+    "module": 12,
+    "label": "Lesson 8",
+    "title": "for — cho, dành cho & before và after — trước và sau",
+    "file": "phase-03-expand-ideas/module-12-prepositions/08-for-cho-danh-cho-before-va-after-truoc-v.md",
+    "splitFrom": "p3-m12-02-lesson"
+  },
+  {
+    "id": "p3-m12-u09",
+    "phase": 3,
+    "module": 12,
+    "label": "Lesson 9",
+    "title": "Kết hợp trong lịch trình hằng ngày & Nghe trong ngữ cảnh",
+    "file": "phase-03-expand-ideas/module-12-prepositions/09-ket-hop-trong-lich-trinh-hang-ngay-nghe-.md",
+    "splitFrom": "p3-m12-02-lesson"
+  },
+  {
+    "id": "p3-m12-u10",
+    "phase": 3,
+    "module": 12,
+    "label": "Lesson 10",
+    "title": "Đọc và áp dụng và ôn tập",
+    "file": "phase-03-expand-ideas/module-12-prepositions/10-doc-va-ap-dung-va-on-tap.md",
+    "splitFrom": "p3-m12-02-lesson"
   },
   {
     "id": "p3-m12-03-checkpoint",
@@ -1154,20 +1275,94 @@
     "file": "phase-03-expand-ideas/module-12-prepositions/03-checkpoint.md"
   },
   {
-    "id": "p3-m13-01-lesson",
+    "id": "p3-m13-u01",
     "phase": 3,
     "module": 13,
     "label": "Lesson 1",
-    "title": "Danh từ và số lượng",
-    "file": "phase-03-expand-ideas/module-13-countable-uncountable/01-lesson.md"
+    "title": "Danh từ đếm được & Danh từ không đếm được",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/01-danh-tu-dem-duoc-danh-tu-khong-dem-duoc.md",
+    "splitFrom": "p3-m13-01-lesson"
   },
   {
-    "id": "p3-m13-02-lesson",
+    "id": "p3-m13-u02",
     "phase": 3,
     "module": 13,
     "label": "Lesson 2",
-    "title": "Hỏi và nói về số lượng",
-    "file": "phase-03-expand-ideas/module-13-countable-uncountable/02-lesson.md"
+    "title": "So sánh danh từ đếm được và không đếm được & some — một ít, một vài",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/02-so-sanh-danh-tu-dem-duoc-va-khong-dem-du.md",
+    "splitFrom": "p3-m13-01-lesson"
+  },
+  {
+    "id": "p3-m13-u03",
+    "phase": 3,
+    "module": 13,
+    "label": "Lesson 3",
+    "title": "any — trong câu hỏi và câu phủ định & So sánh some và any",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/03-any-trong-cau-hoi-va-cau-phu-dinh-so-san.md",
+    "splitFrom": "p3-m13-01-lesson"
+  },
+  {
+    "id": "p3-m13-u04",
+    "phase": 3,
+    "module": 13,
+    "label": "Lesson 4",
+    "title": "Nghe trong ngữ cảnh & Đọc và áp dụng",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/04-nghe-trong-ngu-canh-doc-va-ap-dung.md",
+    "splitFrom": "p3-m13-01-lesson"
+  },
+  {
+    "id": "p3-m13-u05",
+    "phase": 3,
+    "module": 13,
+    "label": "Lesson 5",
+    "title": "Vận dụng: nói và ôn tập",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/05-van-dung-noi-va-on-tap.md",
+    "splitFrom": "p3-m13-01-lesson"
+  },
+  {
+    "id": "p3-m13-u06",
+    "phase": 3,
+    "module": 13,
+    "label": "Lesson 6",
+    "title": "many và much & How many...? và How much...?",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/06-many-va-much-how-many-va-how-much.md",
+    "splitFrom": "p3-m13-02-lesson"
+  },
+  {
+    "id": "p3-m13-u07",
+    "phase": 3,
+    "module": 13,
+    "label": "Lesson 7",
+    "title": "a lot of — nhiều & a few — một vài",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/07-a-lot-of-nhieu-a-few-mot-vai.md",
+    "splitFrom": "p3-m13-02-lesson"
+  },
+  {
+    "id": "p3-m13-u08",
+    "phase": 3,
+    "module": 13,
+    "label": "Lesson 8",
+    "title": "a little — một ít & So sánh các lượng từ",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/08-a-little-mot-it-so-sanh-cac-luong-tu.md",
+    "splitFrom": "p3-m13-02-lesson"
+  },
+  {
+    "id": "p3-m13-u09",
+    "phase": 3,
+    "module": 13,
+    "label": "Lesson 9",
+    "title": "Trong tình huống mua sắm & Nghe trong ngữ cảnh",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/09-trong-tinh-huong-mua-sam-nghe-trong-ngu-.md",
+    "splitFrom": "p3-m13-02-lesson"
+  },
+  {
+    "id": "p3-m13-u10",
+    "phase": 3,
+    "module": 13,
+    "label": "Lesson 10",
+    "title": "Đọc và áp dụng và ôn tập",
+    "file": "phase-03-expand-ideas/module-13-countable-uncountable/10-doc-va-ap-dung-va-on-tap.md",
+    "splitFrom": "p3-m13-02-lesson"
   },
   {
     "id": "p3-m13-03-checkpoint",
@@ -1178,20 +1373,94 @@
     "file": "phase-03-expand-ideas/module-13-countable-uncountable/03-checkpoint.md"
   },
   {
-    "id": "p3-m14-01-lesson",
+    "id": "p3-m14-u01",
     "phase": 3,
     "module": 14,
     "label": "Lesson 1",
-    "title": "So sánh hơn",
-    "file": "phase-03-expand-ideas/module-14-comparisons/01-lesson.md"
+    "title": "So sánh hơn là gì? & Tính từ ngắn: thêm -er",
+    "file": "phase-03-expand-ideas/module-14-comparisons/01-so-sanh-hon-la-gi-tinh-tu-ngan-them-er.md",
+    "splitFrom": "p3-m14-01-lesson"
   },
   {
-    "id": "p3-m14-02-lesson",
+    "id": "p3-m14-u02",
     "phase": 3,
     "module": 14,
     "label": "Lesson 2",
-    "title": "So sánh nhất",
-    "file": "phase-03-expand-ideas/module-14-comparisons/02-lesson.md"
+    "title": "Tính từ dài: dùng more & Bất quy tắc thông dụng",
+    "file": "phase-03-expand-ideas/module-14-comparisons/02-tinh-tu-dai-dung-more-bat-quy-tac-thong-.md",
+    "splitFrom": "p3-m14-01-lesson"
+  },
+  {
+    "id": "p3-m14-u03",
+    "phase": 3,
+    "module": 14,
+    "label": "Lesson 3",
+    "title": "Chọn -er, more hay dạng bất quy tắc & So sánh trong tình huống thực tế",
+    "file": "phase-03-expand-ideas/module-14-comparisons/03-chon-er-more-hay-dang-bat-quy-tac-so-san.md",
+    "splitFrom": "p3-m14-01-lesson"
+  },
+  {
+    "id": "p3-m14-u04",
+    "phase": 3,
+    "module": 14,
+    "label": "Lesson 4",
+    "title": "Nghe trong ngữ cảnh & Đọc trong ngữ cảnh",
+    "file": "phase-03-expand-ideas/module-14-comparisons/04-nghe-trong-ngu-canh-doc-trong-ngu-canh.md",
+    "splitFrom": "p3-m14-01-lesson"
+  },
+  {
+    "id": "p3-m14-u05",
+    "phase": 3,
+    "module": 14,
+    "label": "Lesson 5",
+    "title": "Vận dụng: nói và ôn tập",
+    "file": "phase-03-expand-ideas/module-14-comparisons/05-van-dung-noi-va-on-tap.md",
+    "splitFrom": "p3-m14-01-lesson"
+  },
+  {
+    "id": "p3-m14-u06",
+    "phase": 3,
+    "module": 14,
+    "label": "Lesson 6",
+    "title": "So sánh nhất là gì? & Tính từ ngắn: the + -est",
+    "file": "phase-03-expand-ideas/module-14-comparisons/06-so-sanh-nhat-la-gi-tinh-tu-ngan-the-est.md",
+    "splitFrom": "p3-m14-02-lesson"
+  },
+  {
+    "id": "p3-m14-u07",
+    "phase": 3,
+    "module": 14,
+    "label": "Lesson 7",
+    "title": "Tính từ dài: the most & Bất quy tắc thông dụng",
+    "file": "phase-03-expand-ideas/module-14-comparisons/07-tinh-tu-dai-the-most-bat-quy-tac-thong-d.md",
+    "splitFrom": "p3-m14-02-lesson"
+  },
+  {
+    "id": "p3-m14-u08",
+    "phase": 3,
+    "module": 14,
+    "label": "Lesson 8",
+    "title": "in và of với so sánh nhất & So sánh hơn và so sánh nhất",
+    "file": "phase-03-expand-ideas/module-14-comparisons/08-in-va-of-voi-so-sanh-nhat-so-sanh-hon-va.md",
+    "splitFrom": "p3-m14-02-lesson"
+  },
+  {
+    "id": "p3-m14-u09",
+    "phase": 3,
+    "module": 14,
+    "label": "Lesson 9",
+    "title": "So sánh nhất trong tình huống thực tế & Nghe trong ngữ cảnh",
+    "file": "phase-03-expand-ideas/module-14-comparisons/09-so-sanh-nhat-trong-tinh-huong-thuc-te-ng.md",
+    "splitFrom": "p3-m14-02-lesson"
+  },
+  {
+    "id": "p3-m14-u10",
+    "phase": 3,
+    "module": 14,
+    "label": "Lesson 10",
+    "title": "Đọc trong ngữ cảnh và ôn tập",
+    "file": "phase-03-expand-ideas/module-14-comparisons/10-doc-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "p3-m14-02-lesson"
   },
   {
     "id": "p3-m14-03-checkpoint",
@@ -1202,20 +1471,94 @@
     "file": "phase-03-expand-ideas/module-14-comparisons/03-checkpoint.md"
   },
   {
-    "id": "p3-m15-01-lesson",
+    "id": "p3-m15-u01",
     "phase": 3,
     "module": 15,
     "label": "Lesson 1",
-    "title": "Nối ý cơ bản",
-    "file": "phase-03-expand-ideas/module-15-linking-ideas/01-lesson.md"
+    "title": "and — thêm thông tin & but — thể hiện sự tương phản",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/01-and-them-thong-tin-but-the-hien-su-tuong.md",
+    "splitFrom": "p3-m15-01-lesson"
   },
   {
-    "id": "p3-m15-02-lesson",
+    "id": "p3-m15-u02",
     "phase": 3,
     "module": 15,
     "label": "Lesson 2",
-    "title": "Phát triển ý",
-    "file": "phase-03-expand-ideas/module-15-linking-ideas/02-lesson.md"
+    "title": "because — đưa ra lý do & so — nói về kết quả",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/02-because-dua-ra-ly-do-so-noi-ve-ket-qua.md",
+    "splitFrom": "p3-m15-01-lesson"
+  },
+  {
+    "id": "p3-m15-u03",
+    "phase": 3,
+    "module": 15,
+    "label": "Lesson 3",
+    "title": "Phân biệt and, but, because, so & Nối nhiều ý trong đời sống",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/03-phan-biet-and-but-because-so-noi-nhieu-y.md",
+    "splitFrom": "p3-m15-01-lesson"
+  },
+  {
+    "id": "p3-m15-u04",
+    "phase": 3,
+    "module": 15,
+    "label": "Lesson 4",
+    "title": "Nghe trong ngữ cảnh & Đọc trong ngữ cảnh",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/04-nghe-trong-ngu-canh-doc-trong-ngu-canh.md",
+    "splitFrom": "p3-m15-01-lesson"
+  },
+  {
+    "id": "p3-m15-u05",
+    "phase": 3,
+    "module": 15,
+    "label": "Lesson 5",
+    "title": "Vận dụng: nói và ôn tập",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/05-van-dung-noi-va-on-tap.md",
+    "splitFrom": "p3-m15-01-lesson"
+  },
+  {
+    "id": "p3-m15-u06",
+    "phase": 3,
+    "module": 15,
+    "label": "Lesson 6",
+    "title": "although — mặc dù & however — tuy nhiên",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/06-although-mac-du-however-tuy-nhien.md",
+    "splitFrom": "p3-m15-02-lesson"
+  },
+  {
+    "id": "p3-m15-u07",
+    "phase": 3,
+    "module": 15,
+    "label": "Lesson 7",
+    "title": "therefore — vì vậy, do đó & for example — đưa ra ví dụ",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/07-therefore-vi-vay-do-do-for-example-dua-r.md",
+    "splitFrom": "p3-m15-02-lesson"
+  },
+  {
+    "id": "p3-m15-u08",
+    "phase": 3,
+    "module": 15,
+    "label": "Lesson 8",
+    "title": "Phân biệt although, however, therefore, for example & Từ nối cơ bản và từ nối phát triển ý",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/08-phan-biet-although-however-therefore-for.md",
+    "splitFrom": "p3-m15-02-lesson"
+  },
+  {
+    "id": "p3-m15-u09",
+    "phase": 3,
+    "module": 15,
+    "label": "Lesson 9",
+    "title": "Phát triển một đoạn văn ngắn & Nghe trong ngữ cảnh",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/09-phat-trien-mot-doan-van-ngan-nghe-trong-.md",
+    "splitFrom": "p3-m15-02-lesson"
+  },
+  {
+    "id": "p3-m15-u10",
+    "phase": 3,
+    "module": 15,
+    "label": "Lesson 10",
+    "title": "Đọc trong ngữ cảnh và ôn tập",
+    "file": "phase-03-expand-ideas/module-15-linking-ideas/10-doc-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "p3-m15-02-lesson"
   },
   {
     "id": "p3-m15-03-checkpoint",
@@ -1226,20 +1569,94 @@
     "file": "phase-03-expand-ideas/module-15-linking-ideas/03-checkpoint.md"
   },
   {
-    "id": "p3-m16-01-lesson",
+    "id": "p3-m16-u01",
     "phase": 3,
     "module": 16,
     "label": "Lesson 1",
-    "title": "Cấu trúc và trải nghiệm",
-    "file": "phase-03-expand-ideas/module-16-present-perfect/01-lesson.md"
+    "title": "Present Perfect — have/has + V3 & Trải nghiệm trong cuộc sống",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/01-present-perfect-have-has-v3-trai-nghiem-.md",
+    "splitFrom": "p3-m16-01-lesson"
   },
   {
-    "id": "p3-m16-02-lesson",
+    "id": "p3-m16-u02",
     "phase": 3,
     "module": 16,
     "label": "Lesson 2",
-    "title": "Khoảng thời gian và quá khứ đơn",
-    "file": "phase-03-expand-ideas/module-16-present-perfect/02-lesson.md"
+    "title": "ever — đã từng & never — chưa bao giờ",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/02-ever-da-tung-never-chua-bao-gio.md",
+    "splitFrom": "p3-m16-01-lesson"
+  },
+  {
+    "id": "p3-m16-u03",
+    "phase": 3,
+    "module": 16,
+    "label": "Lesson 3",
+    "title": "already — đã... rồi & yet — chưa, rồi chưa",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/03-already-da-roi-yet-chua-roi-chua.md",
+    "splitFrom": "p3-m16-01-lesson"
+  },
+  {
+    "id": "p3-m16-u04",
+    "phase": 3,
+    "module": 16,
+    "label": "Lesson 4",
+    "title": "Trải nghiệm và kết quả liên quan hiện tại & Nghe trong ngữ cảnh",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/04-trai-nghiem-va-ket-qua-lien-quan-hien-ta.md",
+    "splitFrom": "p3-m16-01-lesson"
+  },
+  {
+    "id": "p3-m16-u05",
+    "phase": 3,
+    "module": 16,
+    "label": "Lesson 5",
+    "title": "Đọc trong ngữ cảnh và ôn tập",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/05-doc-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "p3-m16-01-lesson"
+  },
+  {
+    "id": "p3-m16-u06",
+    "phase": 3,
+    "module": 16,
+    "label": "Lesson 6",
+    "title": "for — trong khoảng bao lâu & since — từ một mốc thời gian",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/06-for-trong-khoang-bao-lau-since-tu-mot-mo.md",
+    "splitFrom": "p3-m16-02-lesson"
+  },
+  {
+    "id": "p3-m16-u07",
+    "phase": 3,
+    "module": 16,
+    "label": "Lesson 7",
+    "title": "Present Perfect — bắt đầu trước đây và vẫn tiếp tục & Past Simple — việc đã kết thúc trong",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/07-present-perfect-bat-dau-truoc-day-va-van.md",
+    "splitFrom": "p3-m16-02-lesson"
+  },
+  {
+    "id": "p3-m16-u08",
+    "phase": 3,
+    "module": 16,
+    "label": "Lesson 8",
+    "title": "Present Perfect hay Past Simple? & for, since, ago",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/08-present-perfect-hay-past-simple-for-sinc.md",
+    "splitFrom": "p3-m16-02-lesson"
+  },
+  {
+    "id": "p3-m16-u09",
+    "phase": 3,
+    "module": 16,
+    "label": "Lesson 9",
+    "title": "Hội thoại thực tế & Nghe trong ngữ cảnh",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/09-hoi-thoai-thuc-te-nghe-trong-ngu-canh.md",
+    "splitFrom": "p3-m16-02-lesson"
+  },
+  {
+    "id": "p3-m16-u10",
+    "phase": 3,
+    "module": 16,
+    "label": "Lesson 10",
+    "title": "Đọc trong ngữ cảnh và ôn tập",
+    "file": "phase-03-expand-ideas/module-16-present-perfect/10-doc-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "p3-m16-02-lesson"
   },
   {
     "id": "p3-m16-03-checkpoint",
@@ -1250,20 +1667,103 @@
     "file": "phase-03-expand-ideas/module-16-present-perfect/03-checkpoint.md"
   },
   {
-    "id": "p3-m17-01-lesson",
+    "id": "p3-m17-u01",
     "phase": 3,
     "module": 17,
     "label": "Lesson 1",
-    "title": "Mệnh đề trạng ngữ",
-    "file": "phase-03-expand-ideas/module-17-complex-sentences/01-lesson.md"
+    "title": "Mệnh đề trạng ngữ là gì? & when — khi một việc xảy ra",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/01-menh-de-trang-ngu-la-gi-when-khi-mot-vie.md",
+    "splitFrom": "p3-m17-01-lesson"
   },
   {
-    "id": "p3-m17-02-lesson",
+    "id": "p3-m17-u02",
     "phase": 3,
     "module": 17,
     "label": "Lesson 2",
-    "title": "Bổ sung thông tin",
-    "file": "phase-03-expand-ideas/module-17-complex-sentences/02-lesson.md"
+    "title": "if — nếu có điều kiện & because — đưa ra lý do",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/02-if-neu-co-dieu-kien-because-dua-ra-ly-do.md",
+    "splitFrom": "p3-m17-01-lesson"
+  },
+  {
+    "id": "p3-m17-u03",
+    "phase": 3,
+    "module": 17,
+    "label": "Lesson 3",
+    "title": "although — mặc dù & Phân biệt bốn từ",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/03-although-mac-du-phan-biet-bon-tu.md",
+    "splitFrom": "p3-m17-01-lesson"
+  },
+  {
+    "id": "p3-m17-u04",
+    "phase": 3,
+    "module": 17,
+    "label": "Lesson 4",
+    "title": "Vị trí mệnh đề và dấu câu & Nghe trong ngữ cảnh",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/04-vi-tri-menh-de-va-dau-cau-nghe-trong-ngu.md",
+    "splitFrom": "p3-m17-01-lesson"
+  },
+  {
+    "id": "p3-m17-u05",
+    "phase": 3,
+    "module": 17,
+    "label": "Lesson 5",
+    "title": "Đọc trong ngữ cảnh và ôn tập",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/05-doc-trong-ngu-canh-va-on-tap.md",
+    "splitFrom": "p3-m17-01-lesson"
+  },
+  {
+    "id": "p3-m17-u06",
+    "phase": 3,
+    "module": 17,
+    "label": "Lesson 6",
+    "title": "Bổ sung thông tin bằng who, which, that & who — bổ sung thông tin về người",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/06-bo-sung-thong-tin-bang-who-which-that-wh.md",
+    "splitFrom": "p3-m17-02-lesson"
+  },
+  {
+    "id": "p3-m17-u07",
+    "phase": 3,
+    "module": 17,
+    "label": "Lesson 7",
+    "title": "which — bổ sung thông tin về vật & that — dùng cho người hoặc vật",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/07-which-bo-sung-thong-tin-ve-vat-that-dung.md",
+    "splitFrom": "p3-m17-02-lesson"
+  },
+  {
+    "id": "p3-m17-u08",
+    "phase": 3,
+    "module": 17,
+    "label": "Lesson 8",
+    "title": "Chọn who, which hay that & Từ câu ngắn đến câu có thêm thông tin",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/08-chon-who-which-hay-that-tu-cau-ngan-den-.md",
+    "splitFrom": "p3-m17-02-lesson"
+  },
+  {
+    "id": "p3-m17-u09",
+    "phase": 3,
+    "module": 17,
+    "label": "Lesson 9",
+    "title": "Viết đoạn ngắn: ý chính → lý do → ví dụ & Viết đoạn văn mạch lạc",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/09-viet-doan-ngan-y-chinh-ly-do-vi-du-viet-.md",
+    "splitFrom": "p3-m17-02-lesson"
+  },
+  {
+    "id": "p3-m17-u10",
+    "phase": 3,
+    "module": 17,
+    "label": "Lesson 10",
+    "title": "Nghe trong ngữ cảnh & Đọc trong ngữ cảnh",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/10-nghe-trong-ngu-canh-doc-trong-ngu-canh.md",
+    "splitFrom": "p3-m17-02-lesson"
+  },
+  {
+    "id": "p3-m17-u11",
+    "phase": 3,
+    "module": 17,
+    "label": "Lesson 11",
+    "title": "Vận dụng: nói và ôn tập",
+    "file": "phase-03-expand-ideas/module-17-complex-sentences/11-van-dung-noi-va-on-tap.md",
+    "splitFrom": "p3-m17-02-lesson"
   },
   {
     "id": "p3-m17-03-checkpoint",
@@ -1274,20 +1774,67 @@
     "file": "phase-03-expand-ideas/module-17-complex-sentences/03-checkpoint.md"
   },
   {
-    "id": "p4-m18-01-lesson",
+    "id": "p4-m18-u01",
     "phase": 4,
     "module": 18,
     "label": "Lesson 1",
-    "title": "Từ đến cụm từ",
-    "file": "phase-04-use-english/module-18-vocabulary-system/01-lesson.md"
+    "title": "Từ → cụm từ → câu & Học từ theo collocation",
+    "file": "phase-04-use-english/module-18-vocabulary-system/01-tu-cum-tu-cau-hoc-tu-theo-collocation.md",
+    "splitFrom": "p4-m18-01-lesson"
   },
   {
-    "id": "p4-m18-02-lesson",
+    "id": "p4-m18-u02",
     "phase": 4,
     "module": 18,
     "label": "Lesson 2",
-    "title": "Cụm từ trong ngữ cảnh",
-    "file": "phase-04-use-english/module-18-vocabulary-system/02-lesson.md"
+    "title": "Từ chunk đến câu thực tế & Nghe: nhận biết chunks trong đời sống",
+    "file": "phase-04-use-english/module-18-vocabulary-system/02-tu-chunk-den-cau-thuc-te-nghe-nhan-biet-.md",
+    "splitFrom": "p4-m18-01-lesson"
+  },
+  {
+    "id": "p4-m18-u03",
+    "phase": 4,
+    "module": 18,
+    "label": "Lesson 3",
+    "title": "Tự tạo câu từ chunks và ôn tập",
+    "file": "phase-04-use-english/module-18-vocabulary-system/03-tu-tao-cau-tu-chunks-va-on-tap.md",
+    "splitFrom": "p4-m18-01-lesson"
+  },
+  {
+    "id": "p4-m18-u04",
+    "phase": 4,
+    "module": 18,
+    "label": "Lesson 4",
+    "title": "Chọn chunk theo ngữ cảnh & Chunks trong công việc",
+    "file": "phase-04-use-english/module-18-vocabulary-system/04-chon-chunk-theo-ngu-canh-chunks-trong-co.md",
+    "splitFrom": "p4-m18-02-lesson"
+  },
+  {
+    "id": "p4-m18-u05",
+    "phase": 4,
+    "module": 18,
+    "label": "Lesson 5",
+    "title": "Chunks về sức khỏe & Chunks khi mua sắm",
+    "file": "phase-04-use-english/module-18-vocabulary-system/05-chunks-ve-suc-khoe-chunks-khi-mua-sam.md",
+    "splitFrom": "p4-m18-02-lesson"
+  },
+  {
+    "id": "p4-m18-u06",
+    "phase": 4,
+    "module": 18,
+    "label": "Lesson 6",
+    "title": "Chunks khi du lịch & Nghe: một ngày có nhiều ngữ cảnh",
+    "file": "phase-04-use-english/module-18-vocabulary-system/06-chunks-khi-du-lich-nghe-mot-ngay-co-nhie.md",
+    "splitFrom": "p4-m18-02-lesson"
+  },
+  {
+    "id": "p4-m18-u07",
+    "phase": 4,
+    "module": 18,
+    "label": "Lesson 7",
+    "title": "Đọc: chọn chunk theo tình huống và ôn tập",
+    "file": "phase-04-use-english/module-18-vocabulary-system/07-doc-chon-chunk-theo-tinh-huong-va-on-tap.md",
+    "splitFrom": "p4-m18-02-lesson"
   },
   {
     "id": "p4-m18-03-checkpoint",
@@ -1298,20 +1845,67 @@
     "file": "phase-04-use-english/module-18-vocabulary-system/03-checkpoint.md"
   },
   {
-    "id": "p4-m19-01-lesson",
+    "id": "p4-m19-u01",
     "phase": 4,
     "module": 19,
     "label": "Lesson 1",
-    "title": "Âm cuối và đuôi từ",
-    "file": "phase-04-use-english/module-19-pronunciation/01-lesson.md"
+    "title": "Vì sao âm cuối quan trọng? & Phát âm -s/-es",
+    "file": "phase-04-use-english/module-19-pronunciation/01-vi-sao-am-cuoi-quan-trong-phat-am-s-es.md",
+    "splitFrom": "p4-m19-01-lesson"
   },
   {
-    "id": "p4-m19-02-lesson",
+    "id": "p4-m19-u02",
     "phase": 4,
     "module": 19,
     "label": "Lesson 2",
-    "title": "Trọng âm và shadowing",
-    "file": "phase-04-use-english/module-19-pronunciation/02-lesson.md"
+    "title": "Quy tắc nhanh của -s/-es & Phát âm -ed",
+    "file": "phase-04-use-english/module-19-pronunciation/02-quy-tac-nhanh-cua-s-es-phat-am-ed.md",
+    "splitFrom": "p4-m19-01-lesson"
+  },
+  {
+    "id": "p4-m19-u03",
+    "phase": 4,
+    "module": 19,
+    "label": "Lesson 3",
+    "title": "Quy tắc nhanh của -ed và ôn tập",
+    "file": "phase-04-use-english/module-19-pronunciation/03-quy-tac-nhanh-cua-ed-va-on-tap.md",
+    "splitFrom": "p4-m19-01-lesson"
+  },
+  {
+    "id": "p4-m19-u04",
+    "phase": 4,
+    "module": 19,
+    "label": "Lesson 4",
+    "title": "Trọng âm từ & Trọng âm câu",
+    "file": "phase-04-use-english/module-19-pronunciation/04-trong-am-tu-trong-am-cau.md",
+    "splitFrom": "p4-m19-02-lesson"
+  },
+  {
+    "id": "p4-m19-u05",
+    "phase": 4,
+    "module": 19,
+    "label": "Lesson 5",
+    "title": "Trọng âm có thể thay đổi ý muốn nhấn mạnh & Nối âm cơ bản",
+    "file": "phase-04-use-english/module-19-pronunciation/05-trong-am-co-the-thay-doi-y-muon-nhan-man.md",
+    "splitFrom": "p4-m19-02-lesson"
+  },
+  {
+    "id": "p4-m19-u06",
+    "phase": 4,
+    "module": 19,
+    "label": "Lesson 6",
+    "title": "Từ đọc từng từ đến đọc theo cụm — Shadowing có hướng dẫn",
+    "file": "phase-04-use-english/module-19-pronunciation/06-tu-doc-tung-tu-den-doc-theo-cum-shadowin.md",
+    "splitFrom": "p4-m19-02-lesson"
+  },
+  {
+    "id": "p4-m19-u07",
+    "phase": 4,
+    "module": 19,
+    "label": "Lesson 7",
+    "title": "Nghe và nhận biết nhịp câu và ôn tập",
+    "file": "phase-04-use-english/module-19-pronunciation/07-nghe-va-nhan-biet-nhip-cau-va-on-tap.md",
+    "splitFrom": "p4-m19-02-lesson"
   },
   {
     "id": "p4-m19-03-checkpoint",
@@ -1322,20 +1916,85 @@
     "file": "phase-04-use-english/module-19-pronunciation/03-checkpoint.md"
   },
   {
-    "id": "p4-m20-01-lesson",
+    "id": "p4-m20-u01",
     "phase": 4,
     "module": 20,
     "label": "Lesson 1",
-    "title": "Nghe câu và hội thoại ngắn",
-    "file": "phase-04-use-english/module-20-listening/01-lesson.md"
+    "title": "Không cần nghe được mọi từ — Nghe địa điểm",
+    "file": "phase-04-use-english/module-20-listening/01-khong-can-nghe-duoc-moi-tu-nghe-dia-diem.md",
+    "splitFrom": "p4-m20-01-lesson"
   },
   {
-    "id": "p4-m20-02-lesson",
+    "id": "p4-m20-u02",
     "phase": 4,
     "module": 20,
     "label": "Lesson 2",
-    "title": "Nghe hội thoại đời sống",
-    "file": "phase-04-use-english/module-20-listening/02-lesson.md"
+    "title": "Nghe hành động và nhu cầu & Nghe hội thoại: xác định ai cần gì",
+    "file": "phase-04-use-english/module-20-listening/02-nghe-hanh-dong-va-nhu-cau-nghe-hoi-thoai.md",
+    "splitFrom": "p4-m20-01-lesson"
+  },
+  {
+    "id": "p4-m20-u03",
+    "phase": 4,
+    "module": 20,
+    "label": "Lesson 3",
+    "title": "Nghe để chọn thông tin, không chọn từ giống nhau — Bài nghe tổng hợp",
+    "file": "phase-04-use-english/module-20-listening/03-nghe-de-chon-thong-tin-khong-chon-tu-gio.md",
+    "splitFrom": "p4-m20-01-lesson"
+  },
+  {
+    "id": "p4-m20-u04",
+    "phase": 4,
+    "module": 20,
+    "label": "Lesson 4",
+    "title": "Nghe và nói lại thông tin chính và ôn tập",
+    "file": "phase-04-use-english/module-20-listening/04-nghe-va-noi-lai-thong-tin-chinh-va-on-ta.md",
+    "splitFrom": "p4-m20-01-lesson"
+  },
+  {
+    "id": "p4-m20-u05",
+    "phase": 4,
+    "module": 20,
+    "label": "Lesson 5",
+    "title": "Nghe ý chính trước & Hội thoại mua sắm",
+    "file": "phase-04-use-english/module-20-listening/05-nghe-y-chinh-truoc-hoi-thoai-mua-sam.md",
+    "splitFrom": "p4-m20-02-lesson"
+  },
+  {
+    "id": "p4-m20-u06",
+    "phase": 4,
+    "module": 20,
+    "label": "Lesson 6",
+    "title": "Hội thoại ăn uống & Hội thoại công việc",
+    "file": "phase-04-use-english/module-20-listening/06-hoi-thoai-an-uong-hoi-thoai-cong-viec.md",
+    "splitFrom": "p4-m20-02-lesson"
+  },
+  {
+    "id": "p4-m20-u07",
+    "phase": 4,
+    "module": 20,
+    "label": "Lesson 7",
+    "title": "Hội thoại sức khỏe & Hội thoại đi lại",
+    "file": "phase-04-use-english/module-20-listening/07-hoi-thoai-suc-khoe-hoi-thoai-di-lai.md",
+    "splitFrom": "p4-m20-02-lesson"
+  },
+  {
+    "id": "p4-m20-u08",
+    "phase": 4,
+    "module": 20,
+    "label": "Lesson 8",
+    "title": "Nghe khi kế hoạch thay đổi — Shadowing hội thoại ngắn",
+    "file": "phase-04-use-english/module-20-listening/08-nghe-khi-ke-hoach-thay-doi-shadowing-hoi.md",
+    "splitFrom": "p4-m20-02-lesson"
+  },
+  {
+    "id": "p4-m20-u09",
+    "phase": 4,
+    "module": 20,
+    "label": "Lesson 9",
+    "title": "Bài nghe tổng hợp và ôn tập",
+    "file": "phase-04-use-english/module-20-listening/09-bai-nghe-tong-hop-va-on-tap.md",
+    "splitFrom": "p4-m20-02-lesson"
   },
   {
     "id": "p4-m20-03-checkpoint",
@@ -1346,20 +2005,85 @@
     "file": "phase-04-use-english/module-20-listening/03-checkpoint.md"
   },
   {
-    "id": "p4-m21-01-lesson",
+    "id": "p4-m21-u01",
     "phase": 4,
     "module": 21,
     "label": "Lesson 1",
-    "title": "Ý chính và chi tiết",
-    "file": "phase-04-use-english/module-21-reading/01-lesson.md"
+    "title": "Ý chính là gì? — Ý chính và chi tiết khác nhau thế nào?",
+    "file": "phase-04-use-english/module-21-reading/01-y-chinh-la-gi-y-chinh-va-chi-tiet-khac-n.md",
+    "splitFrom": "p4-m21-01-lesson"
   },
   {
-    "id": "p4-m21-02-lesson",
+    "id": "p4-m21-u02",
     "phase": 4,
     "module": 21,
     "label": "Lesson 2",
-    "title": "Ngữ cảnh và diễn đạt lại",
-    "file": "phase-04-use-english/module-21-reading/02-lesson.md"
+    "title": "Đọc nhanh để tìm ý chính — Đừng để từ mới chặn việc đọc",
+    "file": "phase-04-use-english/module-21-reading/02-doc-nhanh-de-tim-y-chinh-dung-de-tu-moi-.md",
+    "splitFrom": "p4-m21-01-lesson"
+  },
+  {
+    "id": "p4-m21-u03",
+    "phase": 4,
+    "module": 21,
+    "label": "Lesson 3",
+    "title": "Main idea không phải lúc nào cũng là câu đầu — Bài đọc tổng hợp",
+    "file": "phase-04-use-english/module-21-reading/03-main-idea-khong-phai-luc-nao-cung-la-cau.md",
+    "splitFrom": "p4-m21-01-lesson"
+  },
+  {
+    "id": "p4-m21-u04",
+    "phase": 4,
+    "module": 21,
+    "label": "Lesson 4",
+    "title": "Đọc và tóm tắt bằng từ khóa và ôn tập",
+    "file": "phase-04-use-english/module-21-reading/04-doc-va-tom-tat-bang-tu-khoa-va-on-tap.md",
+    "splitFrom": "p4-m21-01-lesson"
+  },
+  {
+    "id": "p4-m21-u05",
+    "phase": 4,
+    "module": 21,
+    "label": "Lesson 5",
+    "title": "Từ tham chiếu là gì? — Context clues — đoán nghĩa từ ngữ cảnh",
+    "file": "phase-04-use-english/module-21-reading/05-tu-tham-chieu-la-gi-context-clues-doan-n.md",
+    "splitFrom": "p4-m21-02-lesson"
+  },
+  {
+    "id": "p4-m21-u06",
+    "phase": 4,
+    "module": 21,
+    "label": "Lesson 6",
+    "title": "Dùng nguyên nhân và kết quả để đoán nghĩa — Paraphrase — cùng ý, cách nói khác",
+    "file": "phase-04-use-english/module-21-reading/06-dung-nguyen-nhan-va-ket-qua-de-doan-nghi.md",
+    "splitFrom": "p4-m21-02-lesson"
+  },
+  {
+    "id": "p4-m21-u07",
+    "phase": 4,
+    "module": 21,
+    "label": "Lesson 7",
+    "title": "Paraphrase không cần giống từng từ — Kết hợp context clues và paraphrase",
+    "file": "phase-04-use-english/module-21-reading/07-paraphrase-khong-can-giong-tung-tu-ket-h.md",
+    "splitFrom": "p4-m21-02-lesson"
+  },
+  {
+    "id": "p4-m21-u08",
+    "phase": 4,
+    "module": 21,
+    "label": "Lesson 8",
+    "title": "Cẩn thận với paraphrase sai & Bài đọc tổng hợp",
+    "file": "phase-04-use-english/module-21-reading/08-can-than-voi-paraphrase-sai-bai-doc-tong.md",
+    "splitFrom": "p4-m21-02-lesson"
+  },
+  {
+    "id": "p4-m21-u09",
+    "phase": 4,
+    "module": 21,
+    "label": "Lesson 9",
+    "title": "Đọc và diễn đạt lại và ôn tập",
+    "file": "phase-04-use-english/module-21-reading/09-doc-va-dien-dat-lai-va-on-tap.md",
+    "splitFrom": "p4-m21-02-lesson"
   },
   {
     "id": "p4-m21-03-checkpoint",
@@ -1370,20 +2094,76 @@
     "file": "phase-04-use-english/module-21-reading/03-checkpoint.md"
   },
   {
-    "id": "p4-m22-01-lesson",
+    "id": "p4-m22-u01",
     "phase": 4,
     "module": 22,
     "label": "Lesson 1",
-    "title": "Mở rộng và liên kết câu",
-    "file": "phase-04-use-english/module-22-writing/01-lesson.md"
+    "title": "Từ câu đơn đến câu mở rộng — Nối hai ý tương phản với but",
+    "file": "phase-04-use-english/module-22-writing/01-tu-cau-don-den-cau-mo-rong-noi-hai-y-tuo.md",
+    "splitFrom": "p4-m22-01-lesson"
   },
   {
-    "id": "p4-m22-02-lesson",
+    "id": "p4-m22-u02",
     "phase": 4,
     "module": 22,
     "label": "Lesson 2",
-    "title": "Viết đoạn ngắn",
-    "file": "phase-04-use-english/module-22-writing/02-lesson.md"
+    "title": "Nêu lý do với because — Phân biệt and, but, because, so",
+    "file": "phase-04-use-english/module-22-writing/02-neu-ly-do-voi-because-phan-biet-and-but-.md",
+    "splitFrom": "p4-m22-01-lesson"
+  },
+  {
+    "id": "p4-m22-u03",
+    "phase": 4,
+    "module": 22,
+    "label": "Lesson 3",
+    "title": "Mở rộng một ý theo từng bước — Bài mẫu ngắn — My Morning",
+    "file": "phase-04-use-english/module-22-writing/03-mo-rong-mot-y-theo-tung-buoc-bai-mau-nga.md",
+    "splitFrom": "p4-m22-01-lesson"
+  },
+  {
+    "id": "p4-m22-u04",
+    "phase": 4,
+    "module": 22,
+    "label": "Lesson 4",
+    "title": "Bài mẫu ngắn — Healthy Habits và ôn tập",
+    "file": "phase-04-use-english/module-22-writing/04-bai-mau-ngan-healthy-habits-va-on-tap.md",
+    "splitFrom": "p4-m22-01-lesson"
+  },
+  {
+    "id": "p4-m22-u05",
+    "phase": 4,
+    "module": 22,
+    "label": "Lesson 5",
+    "title": "Một đoạn văn ngắn cần gì? — Thêm reason — lý do",
+    "file": "phase-04-use-english/module-22-writing/05-mot-doan-van-ngan-can-gi-them-reason-ly-.md",
+    "splitFrom": "p4-m22-02-lesson"
+  },
+  {
+    "id": "p4-m22-u06",
+    "phase": 4,
+    "module": 22,
+    "label": "Lesson 6",
+    "title": "Thêm explanation — giải thích — Công thức đoạn ngắn",
+    "file": "phase-04-use-english/module-22-writing/06-them-explanation-giai-thich-cong-thuc-do.md",
+    "splitFrom": "p4-m22-02-lesson"
+  },
+  {
+    "id": "p4-m22-u07",
+    "phase": 4,
+    "module": 22,
+    "label": "Lesson 7",
+    "title": "Liên kết các câu trong đoạn — Sắp xếp câu theo thứ tự logic",
+    "file": "phase-04-use-english/module-22-writing/07-lien-ket-cac-cau-trong-doan-sap-xep-cau-.md",
+    "splitFrom": "p4-m22-02-lesson"
+  },
+  {
+    "id": "p4-m22-u08",
+    "phase": 4,
+    "module": 22,
+    "label": "Lesson 8",
+    "title": "Bài viết mẫu — My Morning Routine và ôn tập",
+    "file": "phase-04-use-english/module-22-writing/08-bai-viet-mau-my-morning-routine-va-on-ta.md",
+    "splitFrom": "p4-m22-02-lesson"
   },
   {
     "id": "p4-m22-03-checkpoint",
@@ -1394,20 +2174,76 @@
     "file": "phase-04-use-english/module-22-writing/03-checkpoint.md"
   },
   {
-    "id": "p4-m23-01-lesson",
+    "id": "p4-m23-u01",
     "phase": 4,
     "module": 23,
     "label": "Lesson 1",
-    "title": "Trả lời và nêu lý do",
-    "file": "phase-04-use-english/module-23-speaking/01-lesson.md"
+    "title": "Từ câu trả lời ngắn đến câu trả lời có lý do — Trả lời câu hỏi mở",
+    "file": "phase-04-use-english/module-23-speaking/01-tu-cau-tra-loi-ngan-den-cau-tra-loi-co-l.md",
+    "splitFrom": "p4-m23-01-lesson"
   },
   {
-    "id": "p4-m23-02-lesson",
+    "id": "p4-m23-u02",
     "phase": 4,
     "module": 23,
     "label": "Lesson 2",
-    "title": "Mở rộng câu trả lời",
-    "file": "phase-04-use-english/module-23-speaking/02-lesson.md"
+    "title": "Nêu lý do với because — Không cần trả lời quá dài",
+    "file": "phase-04-use-english/module-23-speaking/02-neu-ly-do-voi-because-khong-can-tra-loi-.md",
+    "splitFrom": "p4-m23-01-lesson"
+  },
+  {
+    "id": "p4-m23-u03",
+    "phase": 4,
+    "module": 23,
+    "label": "Lesson 3",
+    "title": "Chủ đề 1 — Daily Routine — Chủ đề 4 — Preferences and Choices",
+    "file": "phase-04-use-english/module-23-speaking/03-chu-de-1-daily-routine-chu-de-4-preferen.md",
+    "splitFrom": "p4-m23-01-lesson"
+  },
+  {
+    "id": "p4-m23-u04",
+    "phase": 4,
+    "module": 23,
+    "label": "Lesson 4",
+    "title": "Nghe câu trả lời ngắn và ôn tập",
+    "file": "phase-04-use-english/module-23-speaking/04-nghe-cau-tra-loi-ngan-va-on-tap.md",
+    "splitFrom": "p4-m23-01-lesson"
+  },
+  {
+    "id": "p4-m23-u05",
+    "phase": 4,
+    "module": 23,
+    "label": "Lesson 5",
+    "title": "Từ câu trả lời ngắn đến câu trả lời mở rộng — Bước 2 — Reason: giải thích tại sao",
+    "file": "phase-04-use-english/module-23-speaking/05-tu-cau-tra-loi-ngan-den-cau-tra-loi-mo-r.md",
+    "splitFrom": "p4-m23-02-lesson"
+  },
+  {
+    "id": "p4-m23-u06",
+    "phase": 4,
+    "module": 23,
+    "label": "Lesson 6",
+    "title": "Bước 3 — Example: đưa ví dụ cụ thể — Khung hoàn chỉnh",
+    "file": "phase-04-use-english/module-23-speaking/06-buoc-3-example-dua-vi-du-cu-the-khung-ho.md",
+    "splitFrom": "p4-m23-02-lesson"
+  },
+  {
+    "id": "p4-m23-u07",
+    "phase": 4,
+    "module": 23,
+    "label": "Lesson 7",
+    "title": "Tránh lặp lại cùng một ý — Nghe mẫu — Learning English",
+    "file": "phase-04-use-english/module-23-speaking/07-tranh-lap-lai-cung-mot-y-nghe-mau-learni.md",
+    "splitFrom": "p4-m23-02-lesson"
+  },
+  {
+    "id": "p4-m23-u08",
+    "phase": 4,
+    "module": 23,
+    "label": "Lesson 8",
+    "title": "Shadowing câu trả lời mẫu và ôn tập",
+    "file": "phase-04-use-english/module-23-speaking/08-shadowing-cau-tra-loi-mau-va-on-tap.md",
+    "splitFrom": "p4-m23-02-lesson"
   },
   {
     "id": "p4-m23-03-checkpoint",
@@ -1418,20 +2254,76 @@
     "file": "phase-04-use-english/module-23-speaking/03-checkpoint.md"
   },
   {
-    "id": "p4-m24-01-lesson",
+    "id": "p4-m24-u01",
     "phase": 4,
     "module": 24,
     "label": "Lesson 1",
-    "title": "Tổng ôn câu và từ vựng",
-    "file": "phase-04-use-english/module-24-foundation-review/01-lesson.md"
+    "title": "Ôn nền tảng của một câu & Ôn các cấu trúc thời gian quen thuộc",
+    "file": "phase-04-use-english/module-24-foundation-review/01-on-nen-tang-cua-mot-cau-on-cac-cau-truc-.md",
+    "splitFrom": "p4-m24-01-lesson"
   },
   {
-    "id": "p4-m24-02-lesson",
+    "id": "p4-m24-u02",
     "phase": 4,
     "module": 24,
     "label": "Lesson 2",
-    "title": "Tổng ôn bốn kỹ năng",
-    "file": "phase-04-use-english/module-24-foundation-review/02-lesson.md"
+    "title": "Ôn câu hỏi và câu trả lời & Ôn từ vựng theo chunks",
+    "file": "phase-04-use-english/module-24-foundation-review/02-on-cau-hoi-va-cau-tra-loi-on-tu-vung-the.md",
+    "splitFrom": "p4-m24-01-lesson"
+  },
+  {
+    "id": "p4-m24-u03",
+    "phase": 4,
+    "module": 24,
+    "label": "Lesson 3",
+    "title": "Từ chunk đến câu — Ôn nối và mở rộng câu",
+    "file": "phase-04-use-english/module-24-foundation-review/03-tu-chunk-den-cau-on-noi-va-mo-rong-cau.md",
+    "splitFrom": "p4-m24-01-lesson"
+  },
+  {
+    "id": "p4-m24-u04",
+    "phase": 4,
+    "module": 24,
+    "label": "Lesson 4",
+    "title": "Ôn xây câu từ một ý — Nghe tổng ôn",
+    "file": "phase-04-use-english/module-24-foundation-review/04-on-xay-cau-tu-mot-y-nghe-tong-on.md",
+    "splitFrom": "p4-m24-01-lesson"
+  },
+  {
+    "id": "p4-m24-u05",
+    "phase": 4,
+    "module": 24,
+    "label": "Lesson 5",
+    "title": "Hoạt động nói — My Typical Day và ôn tập",
+    "file": "phase-04-use-english/module-24-foundation-review/05-hoat-dong-noi-my-typical-day-va-on-tap.md",
+    "splitFrom": "p4-m24-01-lesson"
+  },
+  {
+    "id": "p4-m24-u06",
+    "phase": 4,
+    "module": 24,
+    "label": "Lesson 6",
+    "title": "Listening Practice — Thay đổi kế hoạch — Reading Practice — Healthy Routine",
+    "file": "phase-04-use-english/module-24-foundation-review/06-listening-practice-thay-doi-ke-hoach-rea.md",
+    "splitFrom": "p4-m24-02-lesson"
+  },
+  {
+    "id": "p4-m24-u07",
+    "phase": 4,
+    "module": 24,
+    "label": "Lesson 7",
+    "title": "Đọc bằng context và paraphrase — Từ notes đến paragraph",
+    "file": "phase-04-use-english/module-24-foundation-review/07-doc-bang-context-va-paraphrase-tu-notes-.md",
+    "splitFrom": "p4-m24-02-lesson"
+  },
+  {
+    "id": "p4-m24-u08",
+    "phase": 4,
+    "module": 24,
+    "label": "Lesson 8",
+    "title": "Case Study — A Healthier Week & Writing Foundation",
+    "file": "phase-04-use-english/module-24-foundation-review/08-case-study-a-healthier-week-writing-foun.md",
+    "splitFrom": "p4-m24-02-lesson"
   },
   {
     "id": "p4-m24-03-checkpoint",

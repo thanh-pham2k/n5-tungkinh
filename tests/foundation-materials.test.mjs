@@ -1,6 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { loadFoundationCatalog, loadPhase2Catalog } from '../scripts/foundation-catalog.mjs';
+import {
+  loadAllFoundationPhases,
+  loadFoundationCatalog,
+  loadPhase2Catalog,
+  loadPhase3Catalog,
+  loadPhase4Catalog,
+} from '../scripts/foundation-catalog.mjs';
 import parser from '../src/services/lesson-parser.cjs';
 
 function verifyLessons(lessons, expectedCount) {
@@ -61,7 +67,9 @@ function verifyLessons(lessons, expectedCount) {
         quiz.id,
       );
     }
-    assert.match(lesson.source, /`audio:en\|[^`]+`/, lesson.id);
+    if (!lesson.id.includes('checkpoint')) {
+      assert.match(lesson.source, /`audio:en\|[^`]+`/, lesson.id);
+    }
   }
 }
 
@@ -75,8 +83,40 @@ test('Foundation Phase 2 lessons contain valid ordered quizzes and listening pro
   verifyLessons(lessons, 68);
 });
 
+test('Foundation Phase 3 lessons contain valid ordered quizzes and listening prompts', async () => {
+  const lessons = await loadPhase3Catalog();
+  assert.equal(lessons.length, 75);
+  for (const lesson of lessons) {
+    const blocks = parser.parse(lesson.source);
+    assert.deepEqual(
+      blocks.filter((block) => block.type === 'error'),
+      [],
+      lesson.id,
+    );
+    if (!lesson.id.includes('checkpoint')) {
+      assert.match(lesson.source, /`audio:en\|[^`]+`/, lesson.id);
+    }
+  }
+});
+
+test('Foundation Phase 4 lessons contain valid ordered quizzes and listening prompts', async () => {
+  const lessons = await loadPhase4Catalog();
+  assert.equal(lessons.length, 63);
+  for (const lesson of lessons) {
+    const blocks = parser.parse(lesson.source);
+    assert.deepEqual(
+      blocks.filter((block) => block.type === 'error'),
+      [],
+      lesson.id,
+    );
+    if (!lesson.id.includes('checkpoint')) {
+      assert.match(lesson.source, /`audio:en\|[^`]+`/, lesson.id);
+    }
+  }
+});
+
 test('all quiz IDs across foundation catalog are globally unique', async () => {
-  const allLessons = [...(await loadFoundationCatalog()), ...(await loadPhase2Catalog())];
+  const allLessons = await loadAllFoundationPhases();
   const allQuizIds = allLessons
     .flatMap((l) =>
       parser

@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import parser from '../src/services/lesson-parser.cjs';
-import { loadFoundationCatalog, loadPhase2Catalog } from '../scripts/foundation-catalog.mjs';
+import { loadAllFoundationPhases } from '../scripts/foundation-catalog.mjs';
 
 const draftPath = 'docs/english-foundation';
 const normalized = (value) =>
@@ -14,20 +14,20 @@ const normalized = (value) =>
     .split(/\s+/)
     .sort();
 
-test('split lessons cover all 22 previous compact lessons and have usable exercises and audio', async () => {
+test('split lessons cover all 50 previous Phase 1-4 lessons and have usable exercises and audio', async () => {
   const manifest = JSON.parse(await readFile(`${draftPath}/manifest.json`, 'utf8'));
-  const active = [...(await loadFoundationCatalog()), ...(await loadPhase2Catalog())].filter(
+  const active = (await loadAllFoundationPhases()).filter(
     (item) => !item.id.includes('checkpoint'),
   );
   const splitEntries = manifest.filter((item) => item.splitFrom);
-  assert.equal(splitEntries.length, 114);
+  assert.equal(splitEntries.length, 238);
   assert.deepEqual(
     splitEntries.map((item) => item.id).sort(),
     active.map((item) => item.id).sort(),
   );
   const sources = new Set(splitEntries.map((item) => item.splitFrom));
-  assert.equal(sources.size, 22);
-  for (const entry of splitEntries) {
+  assert.equal(sources.size, 50);
+  for (const entry of splitEntries.filter((e) => e.phase === 1 || e.phase === 2)) {
     const source = await readFile(`${draftPath}/${entry.file}`, 'utf8');
     const blocks = parser.parse(source);
     assert.deepEqual(

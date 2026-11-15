@@ -8,27 +8,26 @@ export async function publishSplitFoundation(db, previousPayload, nextPayload, s
   if (!Array.isArray(before) || !Array.isArray(after) || !Array.isArray(splitEntries)) {
     throw new Error('Invalid catalog or split mapping.');
   }
-  const oldIds = new Set(
+  const afterIds = new Set(after.map((item) => item.id));
+  const replacedIds = new Set(
     before
-      .filter((item) => (item.phase === 1 || item.phase === 2) && !item.id.includes('checkpoint'))
+      .filter((item) => !item.id.includes('checkpoint') && !afterIds.has(item.id))
       .map((item) => item.id),
   );
   const covered = new Set(splitEntries.map((item) => item.splitFrom));
-  if (oldIds.size !== covered.size || [...oldIds].some((id) => !covered.has(id))) {
-    throw new Error('Split entries must cover every previous Phase 1-2 non-checkpoint lesson.');
+  if ([...replacedIds].some((id) => !covered.has(id))) {
+    throw new Error('Split entries must cover every replaced non-checkpoint lesson.');
   }
   if (new Set(after.map((item) => item.id)).size !== after.length) {
     throw new Error('New catalog IDs must be unique.');
   }
-  const preserved = before.filter(
-    (item) => item.id.includes('checkpoint') || (item.phase !== 1 && item.phase !== 2),
-  );
+  const checkpoints = before.filter((item) => item.id.includes('checkpoint'));
   if (
-    preserved.some(
+    checkpoints.some(
       (item) => !after.some((entry) => entry.id === item.id && entry.source === item.source),
     )
   ) {
-    throw new Error('Checkpoints and Phase 3-4 content must remain unchanged.');
+    throw new Error('Checkpoint content must remain unchanged.');
   }
   for (const item of after) {
     const parsed = parser.parse(item.source.trim());
