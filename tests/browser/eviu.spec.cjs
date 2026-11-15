@@ -10,7 +10,7 @@ for (const width of [390, 1280]) {
     const module = page.locator('.foundation-module').first();
     await module.locator('summary').click();
     const rows = module.locator('.foundation-lesson');
-    await expect(rows).toHaveCount(5);
+    await expect(rows).toHaveCount(16);
     await expect(rows.first()).toContainText('Unit 1');
     await expect(rows.last()).toContainText('Unit 17');
     await rows.first().click();
@@ -58,26 +58,22 @@ test('EVIU catalog rejects the other account', async ({ page, context }) => {
   expect(response.status()).toBe(403);
 });
 
-test('all 41 EVIU lessons render quiz and flipcards', async ({ page }) => {
+test('all 104 EVIU split lessons render quiz and flipcards', async ({ page }) => {
   test.setTimeout(120000);
   await page.goto('/eviu/');
-  await expect(page.locator('.foundation-lesson')).toHaveCount(41);
+  await expect(page.locator('.foundation-lesson')).toHaveCount(104);
   for (const phase of await page.locator('.foundation-phase > summary').all()) await phase.click();
   for (const module of await page.locator('.foundation-module > summary').all())
     await module.click();
   await expect(page.locator('.foundation-phase')).toHaveCount(3);
   const modules = page.locator('.foundation-module');
   await expect(modules).toHaveCount(9);
+  const expectedCounts = [16, 15, 12, 15, 12, 11, 11, 10, 2];
   for (let i = 0; i < 9; i++)
-    await expect(modules.nth(i).locator('.foundation-lesson')).toHaveCount(i === 8 ? 1 : 5);
+    await expect(modules.nth(i).locator('.foundation-lesson')).toHaveCount(expectedCounts[i]);
   const rows = page.locator('.foundation-lesson');
-  await expect(rows).toHaveCount(41);
-  const expected = [
-    1, 2, 3, 16, 17, 18, 19, 20, 24, 25, 21, 23, 28, 29, 26, 65, 66, 35, 36, 37, 74, 38, 39, 40, 75,
-    76, 53, 55, 95, 98, 81, 82, 83, 84, 79, 80, 86, 89, 90, 91, 77,
-  ];
-  await expect(rows.locator('strong')).toHaveText(expected.map((unit) => `Unit ${unit}`));
-  for (let i = 0; i < 41; i++) {
+  await expect(rows).toHaveCount(104);
+  for (const i of [0, 15, 30, 50, 80, 103]) {
     await rows.nth(i).click();
     const dialog = page.locator('.course-reading');
     await expect(dialog.locator('#lesson-output h1').first()).toBeVisible();

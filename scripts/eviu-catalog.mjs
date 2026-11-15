@@ -9,18 +9,20 @@ const order = [
 ];
 export async function loadEviuCatalog() {
   const manifest = JSON.parse(await readFile('docs/eviu/manifest.json', 'utf8'));
+  const expectedOrder = order.map((unit) => `unit-${String(unit).padStart(2, '0')}`);
+  const actualOrder = [];
+  for (const item of manifest) {
+    if (!actualOrder.includes(item.splitFrom)) actualOrder.push(item.splitFrom);
+  }
   if (
-    manifest.length !== 41 ||
-    manifest.some(
-      (item, i) =>
-        item.id !== `unit-${String(order[i]).padStart(2, '0')}` ||
-        item.order !== i + 1 ||
-        item.file !== `${String(order[i]).padStart(2, '0')}.md`,
-    )
+    manifest.length < 41 ||
+    actualOrder.length !== 41 ||
+    actualOrder.some((id, i) => id !== expectedOrder[i]) ||
+    manifest.some((item, i) => item.order !== i + 1 || !item.id.startsWith(`${item.splitFrom}-p`))
   )
     throw new Error('EVIU manifest order is invalid.');
   return Promise.all(
-    manifest.map(async ({ file, ...item }) => {
+    manifest.map(async ({ file, splitFrom, ...item }) => {
       const source = await readFile(`docs/eviu/${file}`, 'utf8');
       const blocks = parse(source);
       if (

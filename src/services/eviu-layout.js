@@ -42,7 +42,8 @@ const positions = new Map(
 );
 
 export function eviuPosition(id) {
-  const position = positions.get(id);
+  const baseId = String(id).replace(/-p\d+$/, '');
+  const position = positions.get(baseId);
   if (!position) throw new Error(`Unit EVIU không hợp lệ: ${id}`);
   return position;
 }
