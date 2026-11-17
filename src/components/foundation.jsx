@@ -36,11 +36,14 @@ async function computeSha256(text) {
 
 export default function Foundation({ eviu = false }) {
   const { user, loading, setUser } = useAuth();
-  const [selected, setSelected] = useState(null);
+  const [selectedId, setSelectedId] = useState(null);
   const [lessons, setLessons] = useState([]);
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(true);
   const [clock, setClock] = useState(0);
+  const routePath = `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${eviu ? 'eviu' : 'foundation'}/`;
+  const lessonHref = (id) => `${routePath}?lesson=${encodeURIComponent(id)}`;
+  const selected = lessons.find((item) => item.id === selectedId) || null;
   const load = useCallback(async () => {
     setBusy(true);
     setError('');
@@ -98,6 +101,14 @@ export default function Foundation({ eviu = false }) {
     const timer = setInterval(() => setClock(Date.now()), 60000);
     return () => clearInterval(timer);
   }, []);
+  useEffect(() => {
+    const syncFromUrl = () => {
+      setSelectedId(new URLSearchParams(window.location.search).get('lesson'));
+    };
+    syncFromUrl();
+    window.addEventListener('popstate', syncFromUrl);
+    return () => window.removeEventListener('popstate', syncFromUrl);
+  }, []);
   const ordered = [...lessons].sort((a, b) => {
     if (!a.completedAt) return b.completedAt ? -1 : 0;
     if (!b.completedAt) return 1;
@@ -119,7 +130,8 @@ export default function Foundation({ eviu = false }) {
         <div className="foundation-page course-reading">
           <Button
             onClick={() => {
-              setSelected(null);
+              window.history.pushState(null, '', routePath);
+              setSelectedId(null);
               window.scrollTo({ top: 0, behavior: 'instant' });
             }}
           >
@@ -247,11 +259,18 @@ export default function Foundation({ eviu = false }) {
                         (item) => (item.phase || 1) === phase && (item.module || 1) === module,
                       )
                       .map((item) => (
-                        <button
+                        <a
                           key={item.id}
                           className={`foundation-lesson ${latest?.id === item.id ? 'is-latest' : ''}`}
-                          type="button"
-                          onClick={() => setSelected(item)}
+                          href={lessonHref(item.id)}
+                          onClick={(e) => {
+                            if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0)
+                              return;
+                            e.preventDefault();
+                            window.history.pushState(null, '', lessonHref(item.id));
+                            setSelectedId(item.id);
+                            window.scrollTo({ top: 0, behavior: 'instant' });
+                          }}
                         >
                           <span className="foundation-lesson-main">
                             <span
@@ -283,7 +302,7 @@ export default function Foundation({ eviu = false }) {
                           <span className="foundation-lesson-arrow" aria-hidden="true">
                             ↗
                           </span>
-                        </button>
+                        </a>
                       ))}
                   </div>
                 </details>

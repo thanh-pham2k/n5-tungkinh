@@ -99,6 +99,8 @@
   align-items: center;
   justify-content: space-between;
   text-align: left;
+  text-decoration: none;
+  color: inherit;
   padding: var(--space-4);
   border: var(--border);
   background: var(--accent);

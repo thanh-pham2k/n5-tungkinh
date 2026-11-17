@@ -11,7 +11,7 @@ for (const viewport of [
     await page.goto('/foundation/');
     await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
     await page.locator('.foundation-module').first().locator('summary').click();
-    const button = page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ });
+    const button = page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ });
     await button.click();
     const dialog = page.locator('.course-reading');
     await expect(dialog).toBeVisible();
@@ -118,7 +118,7 @@ test('completion remains unchanged if saving fails', async ({ page }) => {
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
   const button = dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true });
   await expect(button).toBeEnabled();
@@ -149,7 +149,7 @@ test('Apply audio requests Sound of Text and reports service errors', async ({ p
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
   const expectedText = 'Tom works every day.';
   await dialog.getByRole('button', { name: `Nghe: ${expectedText}` }).click();
@@ -189,7 +189,7 @@ test('Foundation quiz starts fresh on reopen while manual completion persists', 
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  const card = page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ });
+  const card = page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ });
   await card.click();
   let dialog = page.locator('.course-reading');
   let deck = dialog.locator('.lesson-deck').first();
@@ -211,6 +211,7 @@ test('Foundation quiz starts fresh on reopen while manual completion persists', 
   await expect(
     dialog.getByRole('button', { name: 'Đánh dấu hoàn thành', exact: true }),
   ).toBeEnabled();
+  await dialog.getByRole('button', { name: '← Danh sách bài học' }).click();
   await page.reload();
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
@@ -233,7 +234,7 @@ test('Foundation ignores answers saved before this change', async ({ page }) => 
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const deck = page.locator('.lesson-deck').first();
   await expect(deck.locator('.lesson-option')).toHaveCount(4);
   await expect(deck.locator('input:checked')).toHaveCount(0);
@@ -270,7 +271,7 @@ test('A/D works after checking a Word Order answer in Foundation', async ({ page
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const deck = page.locator('.course-reading').locator('.lesson-deck').first();
   await deck.getByRole('button', { name: 'Câu 6', exact: true }).click();
   const field = deck.locator('fieldset');
@@ -288,7 +289,7 @@ test('A/D works after checking a typing answer with Enter or button', async ({ p
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const deck = page.locator('.course-reading').locator('.lesson-deck').first();
   await deck.getByRole('button', { name: 'Câu 8', exact: true }).click();
   const input = deck.getByRole('textbox', { name: 'Câu trả lời' });
@@ -311,7 +312,7 @@ test('clicking quiz background activates A/D without disturbing typing focus', a
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
   const deck = dialog.locator('.lesson-deck').first();
   await deck.getByRole('button', { name: 'Câu 5', exact: true }).click();
@@ -339,7 +340,7 @@ test('last typing answer returns focus to quiz after Enter and A navigates back'
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
   const deck = dialog.locator('.lesson-deck').first();
   await deck.getByRole('button', { name: 'Câu 9', exact: true }).click();
@@ -364,7 +365,7 @@ test('audio does not show loading or playing messages', async ({ page }) => {
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
   await dialog.getByRole('button', { name: /^Nghe: Tom works every day/ }).click();
   await expect(dialog.getByText('Đang tạo audio…')).toHaveCount(0);
@@ -439,7 +440,7 @@ test('phase checkpoints include integrated reading listening speaking and writin
       .filter({ has: page.getByText(moduleName, { exact: true }) });
     await section.locator('summary').click();
     await section
-      .getByRole('button', { name: new RegExp(`Mini Checkpoint.*${checkpointName}`) })
+      .getByRole('link', { name: new RegExp(`Mini Checkpoint.*${checkpointName}`) })
       .click();
     const dialog = page.locator('.course-reading');
     await expect(dialog.locator('.lesson-deck h3').first()).toContainText('1 / 15');
@@ -518,7 +519,7 @@ test('Lesson 1 presents concept practice and extra review deck', async ({ page }
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
   const decks = dialog.locator('.lesson-deck');
   await expect(decks).toHaveCount(2);
@@ -536,7 +537,7 @@ test('expanded quiz closes back to the lesson without losing the answer', async 
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const lesson = page.locator('.course-reading');
   const deck = lesson.locator('.lesson-deck').first();
   await deck.getByRole('button', { name: 'Mở rộng luyện tập' }).click();
@@ -559,7 +560,7 @@ for (const width of [390, 1280]) {
     await page.goto('/foundation/');
     await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
     await page.locator('.foundation-module').first().locator('summary').click();
-    await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+    await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
     const dialog = page.locator('.course-reading');
     const text = dialog.locator('#lesson-output h1');
     await text.scrollIntoViewIfNeeded();
@@ -614,7 +615,7 @@ test('selected audio can loop and stop using cached speech', async ({ page }) =>
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
-  await page.getByRole('button', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
+  await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
   await dialog.locator('#lesson-output h1').evaluate((element) => {
     const range = document.createRange();
@@ -658,4 +659,24 @@ test('selected audio can loop and stop using cached speech', async ({ page }) =>
   await page.waitForTimeout(150);
   expect(await page.evaluate(() => window.audioPlays)).toBe(stoppedAt);
   expect(requests).toBe(2);
+});
+
+test('Foundation lesson links support Ctrl/Cmd+Click to open in a new tab', async ({
+  context,
+  page,
+}) => {
+  await page.goto('/foundation/');
+  await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
+  await page.locator('.foundation-module').first().locator('summary').click();
+  const lessonLink = page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ });
+  const [newTab] = await Promise.all([
+    context.waitForEvent('page'),
+    lessonLink.click({ modifiers: ['ControlOrMeta'] }),
+  ]);
+  await newTab.waitForLoadState();
+  await expect(newTab).toHaveURL(/\/foundation\/\?lesson=/);
+  await expect(newTab.locator('.course-reading #lesson-output h1')).toHaveText(
+    'Lesson 1 — Một câu hoàn chỉnh',
+  );
+  await newTab.close();
 });
