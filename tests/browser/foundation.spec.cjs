@@ -549,116 +549,23 @@ test('expanded quiz closes back to the lesson without losing the answer', async 
   await expect(deck.locator('input:checked')).toHaveCount(1);
 });
 
-for (const width of [390, 1280]) {
-  test(`selected lesson text can be spoken at ${width}px`, async ({ page }) => {
-    await page.setViewportSize({ width, height: 844 });
-    let requestBody;
-    await page.route('https://api.soundoftext.com/sounds', async (route) => {
-      requestBody = route.request().postDataJSON();
-      await route.fulfill({ status: 503, body: 'Unavailable' });
-    });
-    await page.goto('/foundation/');
-    await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
-    await page.locator('.foundation-module').first().locator('summary').click();
-    await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
-    const dialog = page.locator('.course-reading');
-    const text = dialog.locator('#lesson-output h1');
-    await text.scrollIntoViewIfNeeded();
-    await text.evaluate((element) => {
-      const range = document.createRange();
-      range.selectNodeContents(element);
-      const selection = window.getSelection();
-      selection.removeAllRanges();
-      selection.addRange(range);
-    });
-    const button = dialog.getByRole('button', { name: 'Nghe đoạn đã chọn' });
-    await expect(button).toBeVisible();
-    const box = await button.boundingBox();
-    expect(box.x).toBeGreaterThanOrEqual(0);
-    expect(box.x + box.width).toBeLessThanOrEqual(width);
-    await button.click();
-    await expect(dialog.getByRole('alert').first()).toContainText('503');
-    expect(requestBody.data.text).toBe('Lesson 1 — Một câu hoàn chỉnh');
-    expect(requestBody.data.voice).toBe('en-US');
-    await page.evaluate(() => window.getSelection().removeAllRanges());
-    await expect(button).toHaveCount(0);
-    const replay = dialog.getByRole('button', { name: /Nghe lại: Lesson 1/ });
-    await expect(replay).toBeVisible();
-    requestBody = null;
-    await replay.click();
-    await expect.poll(() => requestBody?.data.text).toBe('Lesson 1 — Một câu hoàn chỉnh');
-    await dialog.getByRole('button', { name: '← Danh sách bài học' }).click();
-    await expect(replay).toHaveCount(0);
-  });
-}
-
-test('selected audio can loop and stop using cached speech', async ({ page }) => {
-  let requests = 0;
-  await page.addInitScript(() => {
-    window.audioPlays = 0;
-    window.playedUrls = [];
-    HTMLMediaElement.prototype.play = function () {
-      window.audioPlays++;
-      window.playedUrls.push(this.src);
-      setTimeout(() => this.dispatchEvent(new Event('ended')), 30);
-      return Promise.resolve();
-    };
-  });
-  await page.route('https://api.soundoftext.com/sounds', (route) => {
-    requests++;
-    return route.fulfill({ json: { id: `loop-fixture-${requests}` } });
-  });
-  await page.route(/https:\/\/api\.soundoftext\.com\/sounds\/loop-fixture-\d+$/, (route) => {
-    const id = route.request().url().split('/').pop();
-    return route.fulfill({ json: { status: 'Done', location: `https://example.com/${id}.mp3` } });
-  });
+test('selecting lesson text does not show a floating sound icon', async ({ page }) => {
   await page.goto('/foundation/');
   await page.getByText('Phase 1 — Build Sentences', { exact: true }).click();
   await page.locator('.foundation-module').first().locator('summary').click();
   await page.getByRole('link', { name: /Lesson 1.*Một câu hoàn chỉnh/ }).click();
   const dialog = page.locator('.course-reading');
-  await dialog.locator('#lesson-output h1').evaluate((element) => {
+  const text = dialog.locator('#lesson-output h1');
+  await text.scrollIntoViewIfNeeded();
+  await text.evaluate((element) => {
     const range = document.createRange();
     range.selectNodeContents(element);
     const selection = window.getSelection();
     selection.removeAllRanges();
     selection.addRange(range);
   });
-  await dialog.getByRole('button', { name: 'Nghe đoạn đã chọn' }).click();
-  const list = dialog.getByRole('region', { name: 'Instant Vocab trong bài' });
-  await expect(list.locator('li')).toHaveCount(1);
-  await expect.poll(() => page.evaluate(() => window.audioPlays)).toBeGreaterThan(0);
-  const loop = list.getByRole('button', { name: '▶ Phát lặp' });
-  await expect(loop).toBeEnabled();
-  const second = dialog.locator('#lesson-output h2').first();
-  await second.scrollIntoViewIfNeeded();
-  await second.evaluate((element) => {
-    const range = document.createRange();
-    range.selectNodeContents(element);
-    const selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(range);
-  });
-  await dialog.getByRole('button', { name: 'Nghe đoạn đã chọn' }).click();
-  await expect(list.locator('li')).toHaveCount(2);
-  await expect(loop).toBeEnabled();
-  await page.evaluate(() => {
-    window.playedUrls = [];
-  });
-  await loop.click();
-  await expect.poll(() => page.evaluate(() => window.playedUrls.length)).toBeGreaterThanOrEqual(7);
-  await list.getByRole('button', { name: '■ Dừng' }).click();
-  await expect(loop).toBeEnabled();
-  const played = await page.evaluate(() => window.playedUrls.slice(0, 7));
-  expect(played).toEqual([
-    ...Array(3).fill('https://example.com/loop-fixture-1.mp3'),
-    ...Array(3).fill('https://example.com/loop-fixture-2.mp3'),
-    'https://example.com/loop-fixture-1.mp3',
-  ]);
-  const stoppedAt = await page.evaluate(() => window.audioPlays);
-  await page.waitForTimeout(150);
-  expect(await page.evaluate(() => window.audioPlays)).toBe(stoppedAt);
-  expect(requests).toBe(2);
+  await expect(dialog.locator('.selection-speech-button')).toHaveCount(0);
+  await expect(dialog.getByRole('button', { name: 'Nghe đoạn đã chọn' })).toHaveCount(0);
 });
 
 test('Foundation lesson links support Ctrl/Cmd+Click to open in a new tab', async ({

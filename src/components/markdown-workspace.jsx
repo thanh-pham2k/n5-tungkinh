@@ -15,7 +15,6 @@ import {
 import { AudioStatus, Button, Status } from './ui/primitives';
 import { formatReviewTime } from '../services/review-time';
 import { updateCompletionHistory } from '../services/study-streak';
-import SelectionSpeech from './selection-speech';
 export default function MarkdownWorkspace({
   foundation = false,
   onFoundationComplete,
@@ -31,7 +30,6 @@ export default function MarkdownWorkspace({
   const [courseStart, setCourseStart] = useState(1);
   const [reviewTimes, setReviewTimes] = useState({});
   const [clock, setClock] = useState(0);
-  const [selectedAudio, setSelectedAudio] = useState([]);
   const [audioSettings, setAudioSettings] = useState({
     language: 'en',
     rate: 1,
@@ -480,47 +478,8 @@ export default function MarkdownWorkspace({
         <section className="preview-pane" aria-label="Live preview">
           <div className="pane-heading">PREVIEW</div>
           <div id="lesson-preview-scroll">
-            {selectedAudio.length > 0 && (
-              <section className="selected-audio-list" aria-label="Instant Vocab trong bài">
-                <h2>Instant Vocab · {selectedAudio.length} mục</h2>
-                <div className="selected-audio-actions">
-                  <Button
-                    variant="primary"
-                    onClick={() =>
-                      speech.play(
-                        selectedAudio.map((item, index) => ({ ...item, index, count: 3 })),
-                        { loop: true },
-                      )
-                    }
-                    disabled={speech.busy}
-                  >
-                    ▶ Phát lặp
-                  </Button>
-                  <Button onClick={speech.stop} disabled={!speech.busy}>
-                    ■ Dừng
-                  </Button>
-                </div>
-                <ol>
-                  {selectedAudio.map((item) => (
-                    <li key={`${item.language}:${item.text}`}>{item.text}</li>
-                  ))}
-                </ol>
-              </section>
-            )}
             <article id="lesson-output" aria-label="Bài học" />
           </div>
-          <SelectionSpeech
-            speech={speech}
-            onSave={(item) =>
-              setSelectedAudio((items) =>
-                items.some(
-                  (existing) => existing.text === item.text && existing.language === item.language,
-                )
-                  ? items
-                  : [...items, item],
-              )
-            }
-          />
         </section>
       </main>
       {foundation && (
