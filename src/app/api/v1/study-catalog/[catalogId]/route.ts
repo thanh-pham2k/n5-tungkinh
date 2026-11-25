@@ -13,6 +13,8 @@ export async function GET(
     const id = CatalogKey.parse((await context.params).catalogId);
     if (['eviu', 'reading-practice'].includes(id) && owner(request) !== 'thanhpv')
       throw new StudyError(403, 'forbidden', 'Bạn không có quyền xem mục này.');
+    if (['french', 'french-taxi'].includes(id) && owner(request) !== 'yentr')
+      throw new StudyError(403, 'forbidden', 'Bạn không có quyền xem mục này.');
     return { data: await studyService().catalog(id) };
   });
 }

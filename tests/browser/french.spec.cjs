@@ -108,12 +108,13 @@ test('yentr desktop view has sidebar with exactly two course tabs', async ({ pag
   const sidebar = page.locator('.sidebar');
   await expect(sidebar).toBeVisible();
 
-  // Exactly 2 course tabs in the sidebar
+  // Exactly 3 course tabs in the sidebar
   const tabs = sidebar.locator('.nav-item');
-  await expect(tabs).toHaveCount(2);
+  await expect(tabs).toHaveCount(3);
   await expect(tabs.nth(0)).toContainText('600 từ vựng TOEIC');
   await expect(tabs.nth(1)).toContainText('Tiếng Pháp A1–A2');
   await expect(tabs.nth(1)).toHaveClass(/is-current/);
+  await expect(tabs.nth(2)).toContainText('Le Nouveau Taxi 1 · 24 bài');
 
   // Does not expose other private courses
   await expect(sidebar.getByText('Instant Vocab')).toHaveCount(0);
@@ -161,5 +162,6 @@ test('yentr mobile view has clean header, hidden sidebar, and working course dra
   await expect(dialog).toBeVisible();
   await expect(dialog.getByRole('link', { name: /600 từ vựng TOEIC/ })).toBeVisible();
   await expect(dialog.getByRole('link', { name: /Tiếng Pháp A1–A2/ })).toBeVisible();
+  await expect(dialog.getByRole('link', { name: /Le Nouveau Taxi 1 · 24 bài/ })).toBeVisible();
   await expect(dialog.getByText('yentr')).toBeVisible();
 });

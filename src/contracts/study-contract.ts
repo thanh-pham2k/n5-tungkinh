@@ -124,6 +124,7 @@ export const CatalogKey = z.enum([
   'english-foundation',
   'eviu',
   'french',
+  'french-taxi',
   'reading-practice',
 ]);
 export const Meta = z.object({ requestId: z.string() });

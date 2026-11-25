@@ -39,7 +39,7 @@ export default function YentrShell({
 
   if (loading) return null;
   if (!user) return <LoginView onLoginSuccess={setUser} />;
-  if (['toeic', 'french'].includes(currentTab) && user.username !== 'yentr') {
+  if (['toeic', 'french', 'french-taxi'].includes(currentTab) && user.username !== 'yentr') {
     return (
       <main className="foundation-page">
         <p className="status-error" role="alert">
@@ -57,6 +57,7 @@ export default function YentrShell({
       ? [
           ['toeic', '📚', '600 từ vựng TOEIC', '/toeic-600/'],
           ['french', '🇫🇷', 'Tiếng Pháp A1–A2', '/french/'],
+          ['french-taxi', '🚕', 'Le Nouveau Taxi 1 · 24 bài', '/french-taxi/'],
         ]
       : [
           ['eviu', '📚', 'EVIU', '/eviu/'],
