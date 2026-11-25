@@ -391,10 +391,34 @@ body.dark .lesson-deck button[aria-current='step'] {
 .focus-actions .button {
   font-size: var(--text-xs);
 }
-.focus-actions .exit-focus-btn-icon {
+.focus-actions .focus-icon-button {
   min-width: var(--tap-size);
   padding: 0;
   font-size: var(--text-body);
+}
+.focus-copy-icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+.focus-copy-icon::before,
+.focus-copy-icon::after {
+  position: absolute;
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+  border: 2px solid currentColor;
+  border-radius: 2px;
+  content: '';
+}
+.focus-copy-icon::before {
+  top: 1px;
+  left: 1px;
+}
+.focus-copy-icon::after {
+  right: 1px;
+  bottom: 1px;
+  background: var(--paper);
 }
 #lesson-focus-copy-status:not(:empty) {
   flex-basis: 100%;

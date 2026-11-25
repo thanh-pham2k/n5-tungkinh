@@ -338,11 +338,17 @@ export default function MarkdownWorkspace({
       )}
       {!foundation && (
         <div className="focus-actions" hidden={!focusMode}>
-          <Button id="lesson-focus-copy" hidden={course.length > 0}>
-            Copy Markdown
+          <Button
+            id="lesson-focus-copy"
+            className="focus-icon-button"
+            hidden={course.length > 0}
+            aria-label="Copy Markdown"
+            title="Copy Markdown"
+          >
+            <span className="focus-copy-icon" aria-hidden="true" />
           </Button>
           <Button
-            className={course.length ? '' : 'exit-focus-btn-icon'}
+            className={course.length ? '' : 'focus-icon-button'}
             onClick={() => {
               if (course.length) window.location.href = '?course=list';
               else setFocusMode(false);
