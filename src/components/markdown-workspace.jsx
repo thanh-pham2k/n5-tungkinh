@@ -336,19 +336,24 @@ export default function MarkdownWorkspace({
           </ol>
         </main>
       )}
-      {focusMode && !foundation && (
-        <button
-          type="button"
-          className={`exit-focus-btn button${course.length ? '' : ' exit-focus-btn-icon'}`}
-          onClick={() => {
-            if (course.length) window.location.href = '?course=list';
-            else setFocusMode(false);
-          }}
-          title="Thoát chế độ đọc tập trung (Esc)"
-          aria-label="Thoát chế độ đọc tập trung"
-        >
-          {course.length ? '← Danh sách bài học' : '✕'}
-        </button>
+      {!foundation && (
+        <div className="focus-actions" hidden={!focusMode}>
+          <Button id="lesson-focus-copy" hidden={course.length > 0}>
+            Copy Markdown
+          </Button>
+          <Button
+            className={course.length ? '' : 'exit-focus-btn-icon'}
+            onClick={() => {
+              if (course.length) window.location.href = '?course=list';
+              else setFocusMode(false);
+            }}
+            title="Thoát chế độ đọc tập trung (Esc)"
+            aria-label="Thoát chế độ đọc tập trung"
+          >
+            {course.length ? '← Danh sách bài học' : '✕'}
+          </Button>
+          <span id="lesson-focus-copy-status" role="status" />
+        </div>
       )}
       <header className="preview-toolbar">
         <a

@@ -18,19 +18,22 @@ export function initializeMarkdown({
   const source = document.getElementById('lesson-source');
   const output = document.getElementById('lesson-output');
   const status = document.getElementById('lesson-status');
+  const focusCopyStatus = document.getElementById('lesson-focus-copy-status');
   let answers = Object.create(null),
     revision = 0,
     statusTimer,
     closeExpanded;
 
-  function setStatus(text, autoClear = false) {
+  function setStatus(text, autoClear = false, target = status) {
     clearTimeout(statusTimer);
-    if (status) {
-      status.textContent = text;
+    if (status && target !== status) status.textContent = '';
+    if (focusCopyStatus && target !== focusCopyStatus) focusCopyStatus.textContent = '';
+    if (target) {
+      target.textContent = text;
       if (autoClear && text) {
         statusTimer = setTimeout(() => {
-          if (status.textContent === text) {
-            status.textContent = '';
+          if (target.textContent === text) {
+            target.textContent = '';
           }
         }, 4000);
       }
@@ -736,14 +739,18 @@ export function initializeMarkdown({
     file.value = '';
     render();
   });
-  listen(document.getElementById('lesson-copy'), 'click', async () => {
+  const focusCopy = document.getElementById('lesson-focus-copy');
+  async function copyMarkdown(event) {
+    const target = event.currentTarget === focusCopy ? focusCopyStatus : status;
     try {
       await navigator.clipboard.writeText(source.value);
-      setStatus('Đã copy Markdown.', true);
+      setStatus('Đã copy Markdown.', true, target);
     } catch {
-      setStatus('Không copy được. Chọn nội dung trong editor và nhấn Ctrl+C.');
+      setStatus('Không copy được. Chọn nội dung trong editor và nhấn Ctrl+C.', false, target);
     }
-  });
+  }
+  listen(document.getElementById('lesson-copy'), 'click', copyMarkdown);
+  if (focusCopy) listen(focusCopy, 'click', copyMarkdown);
   listen(document.getElementById('lesson-pdf'), 'click', () => window.print());
   listen(document.getElementById('lesson-reset'), 'click', () => {
     source.value = '';

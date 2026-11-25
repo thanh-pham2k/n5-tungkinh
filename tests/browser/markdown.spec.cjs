@@ -34,16 +34,27 @@ test('mobile Markdown renders Mermaid and quiz, persists source and supports dar
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   expect(errors).toEqual([]);
 });
-test('mobile editor Cancel preserves prior content and code remains locally scrollable', async ({
+test('mobile editor Cancel preserves prior content and reading focus copies Markdown', async ({
   page,
+  context,
 }) => {
+  await context.grantPermissions(['clipboard-read', 'clipboard-write']);
   await page.goto('/markdown/');
   await expect(page.locator('#markdown-loading')).toBeHidden();
-  await openMobileEditor(page, '# Giữ bài này\n\n```text\n' + 'x'.repeat(250) + '\n```');
+  const source = '# Giữ bài này\n\n```text\n' + 'x'.repeat(250) + '\n```';
+  await openMobileEditor(page, source);
   await page.getByRole('button', { name: 'Nhập Markdown', exact: true }).click();
   await page.locator('#lesson-mobile-source').fill('# Không áp dụng');
   await page.getByRole('button', { name: 'Hủy', exact: true }).click();
   await expect(page.locator('#lesson-output h1')).toHaveText('Giữ bài này');
+  await page.getByRole('button', { name: 'Đọc tập trung' }).click();
+  await page.getByRole('button', { name: 'Copy Markdown', exact: true }).click();
+  await expect(page.locator('.focus-actions').getByRole('status')).toContainText(
+    'Đã copy Markdown.',
+  );
+  expect(await page.evaluate(() => navigator.clipboard.readText())).toBe(source);
+  await page.getByRole('button', { name: 'Thoát chế độ đọc tập trung' }).click();
+  await expect(page.getByRole('button', { name: 'Nhập Markdown', exact: true })).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
 test('desktop live editor, divider keyboard, file open and print layout', async ({ page }) => {
