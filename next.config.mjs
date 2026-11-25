@@ -6,4 +6,7 @@ export default {
   trailingSlash: true,
   basePath,
   images: { unoptimized: true },
+  experimental: {
+    agentUpgrade: 'security',
+  },
 };
