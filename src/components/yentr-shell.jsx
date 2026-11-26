@@ -4,6 +4,7 @@ import { Button, Dialog } from './ui/primitives';
 import useAuth from '../hooks/use-auth';
 import LoginView from './auth/login-view';
 import { TOOLS } from './study-tools';
+import { readCatalog } from '../services/study-library-client';
 
 export default function YentrShell({
   currentTab,
@@ -18,6 +19,8 @@ export default function YentrShell({
   const { user, loading, setUser, logout } = useAuth();
   const [menu, setMenu] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
+  const [visualTabs, setVisualTabs] = useState([]);
+  const [visualSamplesStatus, setVisualSamplesStatus] = useState('loading');
 
   useEffect(() => {
     try {
@@ -26,6 +29,51 @@ export default function YentrShell({
       }
     } catch {}
   }, []);
+
+  useEffect(() => {
+    if (!user) {
+      setVisualTabs([]);
+      setVisualSamplesStatus('loading');
+      return;
+    }
+    let active = true;
+    setVisualSamplesStatus('loading');
+    readCatalog('visual-samples')
+      .then((config) => {
+        if (!active) return;
+        if (config?.enabled && config?.tab?.id && config?.tab?.href) {
+          const nextTabs = [
+            [
+              config.tab.id,
+              config.tab.icon || '❖',
+              config.tab.label || 'Visual Samples',
+              config.tab.href,
+            ],
+          ];
+          if (config?.promptTab?.id && config?.promptTab?.href) {
+            nextTabs.push([
+              config.promptTab.id,
+              config.promptTab.icon || '✦',
+              config.promptTab.label || 'Base Prompt',
+              config.promptTab.href,
+            ]);
+          }
+          setVisualTabs(nextTabs);
+          setVisualSamplesStatus('allowed');
+        } else {
+          setVisualTabs([]);
+          setVisualSamplesStatus('denied');
+        }
+      })
+      .catch(() => {
+        if (!active) return;
+        setVisualTabs([]);
+        setVisualSamplesStatus('denied');
+      });
+    return () => {
+      active = false;
+    };
+  }, [user]);
 
   const toggleSidebar = () => {
     setCollapsed((prev) => {
@@ -48,11 +96,23 @@ export default function YentrShell({
       </main>
     );
   }
+  if (['visual-samples', 'base-prompt'].includes(currentTab)) {
+    if (visualSamplesStatus === 'loading') return null;
+    if (visualSamplesStatus === 'denied') {
+      return (
+        <main className="foundation-page">
+          <p className="status-error" role="alert">
+            Bạn không có quyền xem mục này.
+          </p>
+        </main>
+      );
+    }
+  }
 
   const handleLogout = onLogout || logout;
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
-  const links =
+  const baseLinks =
     user.username === 'yentr'
       ? [
           ['toeic', '📚', '600 từ vựng TOEIC', '/toeic-600/'],
@@ -67,6 +127,7 @@ export default function YentrShell({
           ['work', '✎', 'Tiếng Anh công việc · 30 ngày', '/markdown/?course=list'],
           ['markdown', '≡', 'Markdown & Quiz', '/markdown/'],
         ];
+  const links = visualTabs.length ? [...baseLinks, ...visualTabs] : baseLinks;
   const nav = (
     <>
       {user.username === 'thanhpv' &&

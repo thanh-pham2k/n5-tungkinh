@@ -126,7 +126,22 @@ export const CatalogKey = z.enum([
   'french',
   'french-taxi',
   'reading-practice',
+  'visual-samples',
 ]);
+export const BasePromptItem = z
+  .object({
+    id: z.string().trim().min(1).max(120),
+    badge: z.string().trim().min(1).max(60),
+    title: z.string().trim().min(1).max(200),
+    summary: z.string().trim().max(500),
+    content: z.string().trim().min(1).max(MAX_SOURCE_BYTES),
+  })
+  .strict();
+export const SaveBasePrompts = z
+  .object({
+    basePrompts: z.array(BasePromptItem).max(100),
+  })
+  .strict();
 export const Meta = z.object({ requestId: z.string() });
 export const Page = z.object({
   limit: z.number(),

@@ -270,5 +270,14 @@ export function studyRepository(db: Client) {
         throw new StudyError(503, 'service_unavailable', 'Thư viện chưa được nhập vào Turso.');
       return JSON.parse(String(result.rows[0].payload_json));
     },
+    async updateCatalog(id: string, payload: unknown) {
+      const result = await db.execute({
+        sql: 'UPDATE study_catalog SET payload_json = ?, updated_at = ? WHERE id = ?',
+        args: [JSON.stringify(payload), new Date().toISOString(), id],
+      });
+      if (!result.rowsAffected)
+        throw new StudyError(503, 'service_unavailable', 'Thư viện chưa được nhập vào Turso.');
+      return payload;
+    },
   };
 }

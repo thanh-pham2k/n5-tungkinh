@@ -1,0 +1,115 @@
+{
+  "enabled": true,
+  "allowedUsers": ["thanhpv"],
+  "tab": {
+    "id": "visual-samples",
+    "icon": "❖",
+    "label": "Visual Samples",
+    "href": "/visual-samples/"
+  },
+  "promptTab": {
+    "id": "base-prompt",
+    "icon": "✦",
+    "label": "Base Prompt",
+    "href": "/base-prompt/"
+  },
+  "basePrompts": [
+    {
+      "id": "aws-saa-mini-textbook",
+      "badge": "AWS SAA",
+      "title": "AWS SAA — Problem-driven Mini Textbook + Visual DSL",
+      "summary": "Chuyển tài liệu AWS SAA thành bài học Problem-driven Mini Textbook kèm đúng cú pháp 10 block visual-*, Mermaid, Quiz & Flipcard để dán thẳng vào /markdown.",
+      "content": "TL;DR: Trình bày theo phong cách Problem-driven Mini Textbook — học qua một case study xuyên suốt, dẫn dắt từ vấn đề đến giải pháp, thay vì liệt kê kiến thức rời rạc.\n\n### Quy tắc phản hồi\n\n* Không trả lời trong edit mode (trả lời trực tiếp bằng Markdown trong khung chat).\n* Nội dung không quá 1500 từ.\n\n### Nguyên tắc trình bày\n\n* First Principles: Bắt đầu từ vấn đề và nguyên nhân gốc rễ.\n* Narrative Learning: Dùng một case study xuyên suốt để liên kết kiến thức.\n* Logical Transition: Giải thích tại sao giải pháp hiện tại chưa đủ và cần kiến thức tiếp theo.\n* Visual Learning: Dùng diagram minh họa cơ chế, luồng xử lý và mối quan hệ.\n* The Elements of Style: Câu ngắn, rõ ràng, trực tiếp, không dư thừa.\n* Active Recall: Sau mỗi đơn vị kiến thức, chèn ngay 2–3 câu trắc nghiệm tình huống (`quiz-deck`, mỗi câu có `id` duy nhất trong toàn bài) để ôn tập tức thì.\n\n### Cấu trúc bài học\n\n```text\nBối cảnh thực tế\n    ↓\nVấn đề cần giải quyết\n    ↓\nGiải pháp\n    ↓\nCơ chế hoạt động + Diagram\n    ↓\nHạn chế / Trade-off\n    ↓\nMini Quiz (2–3 câu trắc nghiệm ôn tập đơn vị kiến thức)\n    ↓\nVấn đề tiếp theo → Giải pháp tiếp theo\n    ↓\nMental Model tổng thể\n    ↓\nBảng tóm tắt\n    ↓\nQuiz tổng hợp & Flashcard\n```\n\nPhong cách tham chiếu: ByteByteGo (trực quan) + Fireship (cô đọng) + First Principles (logic) + Textbook (hệ thống).\n\nMục tiêu cốt lõi: Người đọc hiểu được What → Why → How → When → Trade-off một cách tự nhiên, không phải tự kết nối các mảnh kiến thức rời rạc và không cần phụ thuộc vào video.\n\n### Quy chuẩn đầu ra cho Kotoba Lab (/markdown)\n\nXuất thuần Markdown (không viết HTML/CSS thủ công). Chỉ dùng các fenced block hỗ trợ sẵn dưới đây khi cần trực quan hóa:\n- `visual-grid`: header `title`, `columns` (1-4); mỗi dòng `icon | tiêu đề | mô tả`.\n- `visual-flow`: header `title`, `direction` (`horizontal` | `vertical`); mỗi dòng `icon | nhãn | mô tả`.\n- `visual-compare`: header `title`; các nhóm `[Tên nhóm]` với `icon`, `badge`, `description`, `send`, `receive`, `note`, `useCase`.\n- `visual-metrics`: header `title`, `columns` (1-4); mỗi dòng `icon | nhãn | giá trị | ghi chú`.\n- `visual-timeline`: header `title`; mỗi dòng `mốc | tiêu đề | mô tả`.\n- `visual-simulation`: `type` (`sqs-visibility-timeout` hoặc `queue-buffer`), `title`, và tham số số.\n- `visual-callout`: `tone` (`info` | `tip` | `success` | `warning` | `pitfall` | `danger`), `title`, và các dòng nội dung.\n- `visual-checklist`: `title`, các dòng `[ ] mục` hoặc `[x] mục`.\n- `visual-tabs`: `title`, các nhóm `[Tên tab]` và các dòng nội dung.\n- `visual-decision`: `title`, các dòng `điều kiện | lựa chọn | lý do`.\n- `mermaid`: sơ đồ kiến trúc/sequence phức tạp.\n- `quiz-deck`: chèn 2–3 câu ngay sau mỗi đơn vị kiến thức (và bộ tổng hợp cuối bài nếu cần); mỗi dòng `id | single_choice | câu hỏi | opt1 | opt2 | opt3 | opt4 | đáp_án_1_đến_4 | giải thích` (`id` không được trùng nhau).\n- `flipcard`: mỗi dòng `mặt trước | giải thích | ví dụ`."
+    }
+  ],
+  "samples": [
+    {
+      "id": "sample-grid",
+      "blockType": "visual-grid",
+      "title": "Visual Grid — Lưới thẻ khái niệm",
+      "summary": "Dùng cho danh sách lợi ích, tính năng hoặc phân nhóm 1–4 cột.",
+      "syntaxHint": "Header tùy chọn: title, columns (1–4). Mỗi dòng: icon | tiêu đề | mô tả.",
+      "markdown": "```visual-grid\ntitle: SQS Benefits\ncolumns: 2\n\nunlink | Decoupling | Giảm phụ thuộc giữa services\nlayers | Buffering | Hấp thụ traffic spike\nshield-check | Reliability | Lưu trữ message trong queue\nrefresh-cw | Retry | Xử lý lại message thất bại\ntrending-up | Scaling | Tăng worker theo queue depth\n```"
+    },
+    {
+      "id": "sample-flow",
+      "blockType": "visual-flow",
+      "title": "Visual Flow — Luồng xử lý từng bước",
+      "summary": "Hiển thị quy trình tuần tự theo chiều ngang hoặc dọc kèm mũi tên.",
+      "syntaxHint": "Header: title, direction (horizontal | vertical). Dòng: icon | nhãn | mô tả.",
+      "markdown": "```visual-flow\ntitle: Vòng đời xử lý Message trong SQS\ndirection: horizontal\n\ndownload | Receive | Worker kéo message\neye-off | Invisible | Tạm ẩn với worker khác\nsettings | Process | Thực thi business logic\ntrash-2 | Delete | Xóa khỏi queue khi xong\n```"
+    },
+    {
+      "id": "sample-compare",
+      "blockType": "visual-compare",
+      "title": "Visual Compare — So sánh song song & Replay",
+      "summary": "So sánh 2 phương án cạnh nhau; hỗ trợ sequence Send/Receive tự đánh dấu trùng & sai thứ tự.",
+      "syntaxHint": "Dùng [Tên nhóm] rồi các key: icon, badge, description, send, receive, note, useCase.",
+      "markdown": "```visual-compare\ntitle: Standard vs FIFO\n\n[Standard]\nicon: shuffle\nbadge: Best effort\ndescription: Ưu tiên throughput\nsend: A, B, C\nreceive: A, C, B, B\nnote: Có thể sai thứ tự và trùng message.\nuseCase: Email, image processing.\n\n[FIFO]\nicon: list-ordered\nbadge: Strict order\ndescription: Ưu tiên ordering\nsend: A, B, C\nreceive: A, B, C\nnote: Đúng thứ tự trong cùng Message Group ID.\nuseCase: Order, inventory.\n```\n\n```visual-compare\ntitle: REST API vs GraphQL\n\n[REST API]\nicon: globe\nbadge: Resource-based\ndescription: Nhiều endpoint theo từng tài nguyên dễ cache HTTP.\nClient: Web, Mobile, Service-to-Service\nnote: Dễ bị over-fetching hoặc under-fetching.\nuseCase: Public API, CRUD đơn giản.\n\n[GraphQL]\nicon: code\nbadge: Schema-driven\ndescription: Một endpoint duy nhất, client tự chọn đúng field cần lấy.\nClient: Dashboard phức tạp, Mobile cần tiết kiệm payload\nnote: Cần kiểm soát query depth và N+1.\nuseCase: BFF, màn hình tổng hợp nhiều nguồn dữ liệu.\n```"
+    },
+    {
+      "id": "sample-metrics",
+      "blockType": "visual-metrics",
+      "title": "Visual Metrics — Thẻ chỉ số Cheatsheet",
+      "summary": "Làm nổi bật các con số giới hạn, SLA, cấu hình mặc định và ghi chú.",
+      "syntaxHint": "Header: title, columns (1–4). Dòng: icon | nhãn | giá trị | ghi chú.",
+      "markdown": "```visual-metrics\ntitle: SQS Cheatsheet\ncolumns: 3\n\nclock | Long Polling | 20s | Giảm empty responses\ndatabase | Retention | 14 ngày | Mặc định 4 ngày\ntimer | Delay Queue | 15 phút | Trì hoãn message tối đa\neye-off | Visibility | 12 giờ | Mặc định 30 giây\nlock | Encryption | HTTPS / KMS | Bảo vệ dữ liệu\ntrending-up | Auto Scaling | Queue Depth | Điều chỉnh số worker\n```"
+    },
+    {
+      "id": "sample-timeline",
+      "blockType": "visual-timeline",
+      "title": "Visual Timeline — Tiến trình theo mốc",
+      "summary": "Trình bày các bước nối tiếp theo trục thời gian hoặc quy trình xử lý sự cố.",
+      "syntaxHint": "Header: title. Mỗi dòng: mốc | tiêu đề | mô tả.",
+      "markdown": "```visual-timeline\ntitle: Quy trình xử lý Poison Message với DLQ\n\nBước 1 | Tách khỏi Main Queue | Retry vượt maxReceiveCount sẽ đẩy sang DLQ\nBước 2 | Investigate | Đọc log và kiểm tra payload gây lỗi\nBước 3 | Fix | Vá lỗi consumer hoặc chuẩn hóa dữ liệu\nBước 4 | Redrive | Đẩy message từ DLQ về Main Queue để chạy lại\n```"
+    },
+    {
+      "id": "sample-simulation",
+      "blockType": "visual-simulation",
+      "title": "Visual Simulation — Mô phỏng tương tác",
+      "summary": "Hỗ trợ sẵn 2 mô phỏng tương tác: sqs-visibility-timeout và queue-buffer.",
+      "syntaxHint": "Khai báo type, title (tùy chọn) và các tham số số khởi tạo.",
+      "markdown": "```visual-simulation\ntitle: Visibility Timeout Simulator\ntype: sqs-visibility-timeout\nvisibilityTimeout: 30\nprocessingTime: 60\n```\n\n```visual-simulation\ntitle: Queue Buffer & Worker Scaling Simulator\ntype: queue-buffer\nincomingRps: 200\nworkerCapacity: 40\nworkers: 3\n```"
+    },
+    {
+      "id": "sample-callout",
+      "blockType": "visual-callout",
+      "title": "Visual Callout — Khung nhấn mạnh Pitfall / Tip / Ghi chú",
+      "summary": "Làm nổi bật cạm bẫy thường gặp, mẹo thực chiến, cảnh báo hoặc kết luận chốt ý.",
+      "syntaxHint": "Header tùy chọn: tone (info | tip | success | warning | pitfall | danger | error), title. Bên dưới là các dòng nội dung.",
+      "markdown": "```visual-callout\ntone: pitfall\ntitle: Pitfall cần nhớ khi dùng FIFO\nFIFO chỉ đảm bảo thứ tự và deduplication trong cửa sổ cấu hình, **không** thay thế hoàn toàn idempotent consumer ở tầng nghiệp vụ.\n```\n\n```visual-callout\ntone: tip\ntitle: Mẹo tối ưu chi phí SQS\nBật **Long Polling (20s)** để giảm empty responses khi queue thường xuyên rỗng.\n```"
+    },
+    {
+      "id": "sample-checklist",
+      "blockType": "visual-checklist",
+      "title": "Visual Checklist — Danh sách tự kiểm tra",
+      "summary": "Giúp người học tự tick kiểm tra từng bước triển khai hoặc ôn tập kiến thức.",
+      "syntaxHint": "Header tùy chọn: title. Mỗi dòng dùng [ ] hoặc [x] (hoặc - [ ] / - [x]).",
+      "markdown": "```visual-checklist\ntitle: Checklist đưa SQS lên Production\n\n[x] Bật Long Polling 20s để giảm request rỗng\n[ ] Cấu hình Dead Letter Queue (DLQ) với maxReceiveCount hợp lý\n[ ] Thiết kế consumer idempotent để an toàn khi nhận trùng message\n[ ] Thiết lập alarm theo dõi ApproximateAgeOfOldestMessage\n```"
+    },
+    {
+      "id": "sample-tabs",
+      "blockType": "visual-tabs",
+      "title": "Visual Tabs — Chuyển tab góc nhìn / ví dụ",
+      "summary": "Gom nhiều góc nhìn, ngôn ngữ code hoặc ví dụ song song vào một khung gọn gàng.",
+      "syntaxHint": "Header tùy chọn: title. Mỗi tab bắt đầu bằng [Tên tab] rồi các dòng nội dung.",
+      "markdown": "```visual-tabs\ntitle: So sánh kịch bản triển khai SQS\n\n[Kiến trúc cơ bản]\nProducer đẩy JSON nhỏ qua `SendMessage`, Consumer kéo batch tối đa 10 message rồi gọi `DeleteMessage` sau khi xử lý xong.\n\n[Payload lớn (> giới hạn)]\nLưu file hoặc payload lớn lên **Amazon S3**, sau đó chỉ gửi S3 bucket/key reference qua SQS message.\n\n[Xử lý lỗi (DLQ)]\nKhi message lỗi liên tục vượt `maxReceiveCount`, SQS tự tách sang DLQ để **Investigate → Fix → Redrive**.\n```"
+    },
+    {
+      "id": "sample-decision",
+      "blockType": "visual-decision",
+      "title": "Visual Decision — Bảng quy tắc chọn phương án",
+      "summary": "Tóm tắt nhanh dạng Khi gặp tình huống X → Chọn giải pháp Y (kèm lý do).",
+      "syntaxHint": "Header tùy chọn: title. Mỗi dòng: điều kiện | lựa chọn | lý do (tùy chọn).",
+      "markdown": "```visual-decision\ntitle: Chọn nhanh cấu hình SQS phù hợp\n\nCần throughput tối đa, không cần đúng thứ tự tuyệt đối | SQS Standard Queue | Phù hợp gửi email, resize ảnh, log pipeline\nCần xử lý tuần tự theo đơn hàng / giao dịch | SQS FIFO + MessageGroupId | Đảm bảo strict order trong từng nhóm\nJob chạy lâu hơn 30 giây | Tăng Visibility Timeout hoặc ChangeMessageVisibility | Tránh worker khác nhận trùng message\n```"
+    },
+    {
+      "id": "sqs-full-demo",
+      "blockType": "full-lesson",
+      "title": "Bài đầy đủ — M08.1: Amazon SQS & DLQ",
+      "summary": "Kết hợp đủ Markdown chuẩn, Mermaid/DSL visual-* và quiz-deck trong một bài học hoàn chỉnh.",
+      "syntaxHint": "Dùng nút \"Mở trong /markdown ↗\" để sửa và học trực tiếp bài mẫu đầy đủ.",
+      "markdown": "# M08.1: Messaging Fundamentals — Amazon SQS & DLQ\n\n## 1. Tại sao cần Message Queue?\n\nGiả sử hệ thống E-commerce cần gửi email và cập nhật tồn kho sau khi khách hàng đặt hàng.\n\n```visual-flow\ntitle: Asynchronous — Sử dụng SQS\ndirection: horizontal\n\nserver | Order Service | Gửi message rồi trả về ngay\nlayers | Amazon SQS | Lưu và điều phối message\ncpu | Workers | Email & Inventory xử lý độc lập\n```\n\n```visual-grid\ntitle: SQS Benefits\ncolumns: 2\n\nunlink | Decoupling | Giảm phụ thuộc giữa services\nlayers | Buffering | Hấp thụ traffic spike\nshield-check | Reliability | Lưu trữ message trong queue\nrefresh-cw | Retry | Xử lý lại message thất bại\ntrending-up | Scaling | Tăng worker theo queue depth\n```\n\n## 2. SQS Standard vs FIFO\n\n```visual-compare\ntitle: Standard vs FIFO\n\n[Standard]\nicon: shuffle\nbadge: Best effort\ndescription: Ưu tiên throughput\nsend: A, B, C\nreceive: A, C, B, B\nnote: Có thể sai thứ tự và trùng message.\nuseCase: Email, image processing.\n\n[FIFO]\nicon: list-ordered\nbadge: Strict order\ndescription: Ưu tiên ordering\nsend: A, B, C\nreceive: A, B, C\nnote: Đúng thứ tự trong cùng Message Group ID.\nuseCase: Order, inventory.\n```\n\n## 3. Visibility Timeout\n\n```visual-simulation\ntitle: Visibility Timeout Simulator\ntype: sqs-visibility-timeout\nvisibilityTimeout: 30\nprocessingTime: 60\n```\n\n## 4. Dead Letter Queue (DLQ)\n\n```visual-timeline\ntitle: Quy trình xử lý Poison Message với DLQ\n\nBước 1 | Tách khỏi Main Queue | Retry vượt maxReceiveCount sẽ đẩy sang DLQ\nBước 2 | Investigate | Kiểm tra log và payload lỗi\nBước 3 | Fix | Sửa consumer hoặc dữ liệu\nBước 4 | Redrive | Đẩy message về lại Main Queue\n```\n\n## 5. SQS Cheatsheet\n\n```visual-metrics\ncolumns: 2\n\nclock | Long Polling | 20s | Giảm empty responses\ndatabase | Retention | 14 ngày | Mặc định 4 ngày\ntimer | Delay Queue | 15 phút | Trì hoãn message tối đa\neye-off | Visibility | 12 giờ | Mặc định 30 giây\n```\n\n## 6. Active Recall — Quiz\n\n```quiz-deck\ndemo-q1 | single_choice | Hệ thống nhận 10.000 image processing requests. Worker không xử lý kịp. | Tăng API timeout | SQS làm buffer | ACM | Route 53 | 2 | SQS hấp thụ traffic spike để worker xử lý dần.\n```"
+    }
+  ]
+}

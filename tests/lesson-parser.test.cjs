@@ -185,3 +185,218 @@ test('normalizes decomposed Vietnamese Unicode (NFD) to precomposed NFC', () => 
   assert.equal(quiz.question, 'Yêu cầu vẫn cố cần chống lỗi nhất');
   assert.equal(quiz.options[0], 'Giải pháp tối ưu');
 });
+
+test('parses all visual-* DSL blocks with defaults and preserves nested examples', () => {
+  const source = [
+    '```visual-grid',
+    'title: SQS Benefits',
+    'columns: 3',
+    '',
+    'unlink | Decoupling | Giảm phụ thuộc',
+    'Buffering | Hấp thụ spike',
+    '```',
+    '',
+    '```visual-flow',
+    'direction: vertical',
+    'download | Receive | Lấy message',
+    'eye-off | Invisible',
+    'Delete',
+    '```',
+    '',
+    '```visual-compare',
+    'title: Standard vs FIFO',
+    '[Standard]',
+    'icon: shuffle',
+    'description: Throughput cao',
+    'send: A, B, C',
+    'receive: A, C, B, B',
+    '[FIFO]',
+    'icon: list-ordered',
+    'description: Đúng thứ tự',
+    'send: A, B, C',
+    'receive: A, B, C',
+    '```',
+    '',
+    '```visual-metrics',
+    'clock | Long Polling | 20s | Giảm empty responses',
+    'Retention | 14 ngày | Mặc định 4 ngày',
+    'Encryption | HTTPS / KMS',
+    '```',
+    '',
+    '```visual-timeline',
+    'title: DLQ Recovery',
+    'B1 | Investigate | Xem log',
+    'B2 | Fix',
+    '```',
+    '',
+    '```visual-simulation',
+    'type: sqs-visibility-timeout',
+    'visibilityTimeout: 30',
+    'processingTime: 60',
+    '```',
+    '',
+    '````markdown',
+    '```visual-grid',
+    'a | b',
+    '```',
+    '````',
+  ].join('\n');
+
+  const blocks = parse(source);
+  assert.deepEqual(
+    blocks.map((b) => b.type),
+    [
+      'visual_grid',
+      'visual_flow',
+      'visual_compare',
+      'visual_metrics',
+      'visual_timeline',
+      'visual_simulation',
+      'markdown',
+    ],
+  );
+  assert.equal(blocks[0].columns, 3);
+  assert.equal(blocks[0].items[1].icon, '');
+  assert.equal(blocks[1].direction, 'vertical');
+  assert.equal(blocks[1].steps[2].label, 'Delete');
+  assert.deepEqual(blocks[2].sections[0].receive, ['A', 'C', 'B', 'B']);
+  assert.equal(blocks[3].columns, 2);
+  assert.equal(blocks[3].items[2].note, '');
+  assert.equal(blocks[4].items[1].description, '');
+  assert.equal(blocks[5].simulationType, 'sqs-visibility-timeout');
+  assert.equal(blocks[5].params.visibilityTimeout, 30);
+  assert.match(blocks[6].content, /````markdown/);
+});
+
+test('reports errors for malformed or unclosed visual-* blocks', () => {
+  assert.equal(parse('```visual-grid\ncolumns: 9\na | b\n```')[0].type, 'error');
+  assert.equal(parse('```visual-grid\nonly-one-part\n```')[0].type, 'error');
+  assert.equal(parse('```visual-flow\ndirection: diagonal\nA\n```')[0].type, 'error');
+  assert.equal(parse('```visual-compare\n[OnlyOne]\ndescription: x\n```')[0].type, 'error');
+  assert.equal(parse('```visual-metrics\nonly-one\n```')[0].type, 'error');
+  assert.equal(parse('```visual-timeline\nonly-one\n```')[0].type, 'error');
+  assert.equal(parse('```visual-simulation\nvisibilityTimeout: 30\n```')[0].type, 'error');
+  assert.match(parse('```visual-grid\na | b')[0].content, /thiếu dấu đóng/);
+});
+
+test('parses input/sqs-visual-demo.md without errors', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const demo = fs.readFileSync(path.join(__dirname, '../input/sqs-visual-demo.md'), 'utf8');
+  const blocks = parse(demo);
+  assert.equal(
+    blocks.some((b) => b.type === 'error'),
+    false,
+  );
+  const types = new Set(blocks.map((b) => b.type));
+  for (const expected of [
+    'markdown',
+    'visual_flow',
+    'visual_grid',
+    'visual_compare',
+    'visual_simulation',
+    'visual_timeline',
+    'visual_metrics',
+    'deck',
+  ]) {
+    assert.equal(types.has(expected), true, `Missing block type: ${expected}`);
+  }
+});
+
+test('database/seed/visual-samples.json config and samples parse cleanly', async () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const config = JSON.parse(
+    fs.readFileSync(path.join(__dirname, '../database/seed/visual-samples.json'), 'utf8'),
+  );
+  assert.equal(config.enabled, true);
+  assert.deepEqual(config.allowedUsers, ['thanhpv']);
+  assert.equal(config.tab.id, 'visual-samples');
+  assert.equal(config.tab.href, '/visual-samples/');
+  assert.equal(config.promptTab.id, 'base-prompt');
+  assert.equal(config.promptTab.href, '/base-prompt/');
+  assert.equal(Array.isArray(config.basePrompts), true);
+  assert.equal(config.basePrompts[0].id, 'aws-saa-mini-textbook');
+  assert.match(config.basePrompts[0].content, /Problem-driven Mini Textbook/);
+  assert.match(config.basePrompts[0].content, /visual-callout/);
+  assert.equal(config.samples.length >= 11, true);
+  const seenTypes = new Set();
+  for (const sample of config.samples) {
+    const blocks = parse(sample.markdown);
+    assert.equal(
+      blocks.some((b) => b.type === 'error'),
+      false,
+      `Sample ${sample.id} failed to parse`,
+    );
+    for (const block of blocks) {
+      if (block.type.startsWith('visual_')) seenTypes.add(block.type);
+    }
+  }
+  for (const expected of [
+    'visual_grid',
+    'visual_flow',
+    'visual_compare',
+    'visual_metrics',
+    'visual_timeline',
+    'visual_simulation',
+    'visual_callout',
+    'visual_checklist',
+    'visual_tabs',
+    'visual_decision',
+  ]) {
+    assert.equal(seenTypes.has(expected), true, `Samples missing ${expected}`);
+  }
+});
+
+test('parses visual-callout, visual-checklist, visual-tabs, and visual-decision with validation', () => {
+  const source = [
+    '```visual-callout',
+    'tone: pitfall',
+    'title: Lưu ý',
+    'Dòng một **quan trọng**.',
+    'Dòng hai.',
+    '```',
+    '',
+    '```visual-checklist',
+    'title: Kiểm tra',
+    '[x] Đã làm',
+    '- [ ] Chưa làm',
+    'Mục thường',
+    '```',
+    '',
+    '```visual-tabs',
+    'title: Góc nhìn',
+    '[Tab A]',
+    'Nội dung A',
+    '[Tab B]',
+    'Nội dung B',
+    '```',
+    '',
+    '```visual-decision',
+    'title: Chọn nhanh',
+    'Cần nhanh | Standard | Throughput cao',
+    'Cần thứ tự | FIFO',
+    '```',
+  ].join('\n');
+
+  const blocks = parse(source);
+  assert.deepEqual(
+    blocks.map((b) => b.type),
+    ['visual_callout', 'visual_checklist', 'visual_tabs', 'visual_decision'],
+  );
+  assert.equal(blocks[0].tone, 'pitfall');
+  assert.equal(blocks[0].lines.length, 2);
+  assert.deepEqual(blocks[1].items, [
+    { checked: true, text: 'Đã làm' },
+    { checked: false, text: 'Chưa làm' },
+    { checked: false, text: 'Mục thường' },
+  ]);
+  assert.equal(blocks[2].tabs.length, 2);
+  assert.equal(blocks[3].rules[1].reason, '');
+
+  assert.equal(parse('```visual-callout\ntone: neon\nHello\n```')[0].type, 'error');
+  assert.equal(parse('```visual-callout\ntone: info\n```')[0].type, 'error');
+  assert.equal(parse('```visual-checklist\ntitle: Trống\n```')[0].type, 'error');
+  assert.equal(parse('```visual-tabs\n[OnlyOne]\nText\n```')[0].type, 'error');
+  assert.equal(parse('```visual-decision\nonly-one-part\n```')[0].type, 'error');
+});

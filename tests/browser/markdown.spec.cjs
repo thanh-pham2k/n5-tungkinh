@@ -650,3 +650,81 @@ test('Escape closes expanded quiz modal without exiting focus mode', async ({ pa
   await page.keyboard.press('Escape');
   await expect(page.locator('#lesson-focus')).toBeVisible();
 });
+
+test('renders visual-* DSL blocks interactively in /markdown/ on mobile without overflow', async ({
+  page,
+}) => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const demo = fs.readFileSync(path.join(__dirname, '../../input/sqs-visual-demo.md'), 'utf8');
+  const errors = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+  await openMobileEditor(page, demo);
+
+  await expect(page.locator('#lesson-output h1')).toHaveText(
+    'M08.1: Messaging Fundamentals — Amazon SQS & DLQ',
+  );
+  await expect(page.locator('.visual-grid-card')).toHaveCount(5);
+  await expect(page.locator('.visual-flow-step').first()).toBeVisible();
+  await expect(page.locator('.visual-compare-card')).toHaveCount(2);
+  await expect(page.locator('.visual-token.is-reordered')).toHaveCount(1);
+  await expect(page.locator('.visual-token.is-duplicate')).toHaveCount(1);
+  await expect(page.locator('.visual-timeline-item')).toHaveCount(4);
+  await expect(page.locator('.visual-metric-card')).toHaveCount(6);
+
+  const simStatus = page.locator('.visual-sim-status');
+  await expect(simStatus).toContainText('Duplicate processing risk');
+  await page.getByRole('button', { name: 'Safe (90s / 60s)' }).click();
+  await expect(simStatus).toContainText('Safe');
+
+  const vtSlider = page.getByRole('slider', { name: 'Visibility Timeout', exact: true });
+  await vtSlider.fill('20');
+  await vtSlider.dispatchEvent('input');
+  await expect(simStatus).toContainText('Duplicate processing risk');
+
+  await page.getByRole('button', { name: '↻ Chạy lại' }).click();
+  await expect(page.locator('.visual-token.is-popping').first()).toBeAttached();
+
+  await page.getByRole('button', { name: 'Công cụ Markdown', exact: true }).click();
+  await page.getByLabel('Dark mode').check();
+  await expect(page.locator('body')).toHaveClass('dark');
+
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  expect(errors).toEqual([]);
+});
+
+test('shows empty drop state and renders immediately when dropping a .md file', async ({
+  page,
+}) => {
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+
+  const dropEmpty = page.locator('.lesson-drop-empty');
+  await expect(dropEmpty).toBeVisible();
+  await expect(dropEmpty.getByRole('button', { name: 'Chọn file .md', exact: true })).toBeVisible();
+
+  const mdContent = [
+    '# Dropped Lesson',
+    '',
+    '```visual-grid',
+    'title: Quick Grid',
+    'columns: 2',
+    'unlink | Decoupling | Tách rời service',
+    'layers | Buffering | Đệm tải đột biến',
+    '```',
+  ].join('\n');
+
+  const dataTransfer = await page.evaluateHandle((text) => {
+    const dt = new DataTransfer();
+    dt.items.add(new File([text], 'dropped-lesson.md', { type: 'text/markdown' }));
+    return dt;
+  }, mdContent);
+
+  await page.locator('.preview-workspace').dispatchEvent('drop', { dataTransfer });
+  await expect(page.locator('#lesson-output h1')).toHaveText('Dropped Lesson');
+  await expect(page.locator('.visual-grid-card')).toHaveCount(2);
+  await expect(page.locator('#lesson-status')).toContainText('dropped-lesson.md');
+});

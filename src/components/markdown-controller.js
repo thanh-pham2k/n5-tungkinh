@@ -1,4 +1,5 @@
 import { isTypingCorrect } from '../services/answer-service';
+import { renderVisualBlock } from './visual-blocks';
 
 export function initializeMarkdown({
   marked,
@@ -533,6 +534,24 @@ export function initializeMarkdown({
       status.textContent =
         'Nội dung có CSS Mermaid từ giao diện ChatGPT. Hãy copy Markdown gốc (Copy code), không copy sơ đồ đã render.';
     }
+    if (!source.value.trim()) {
+      const empty = el('section', undefined, 'lesson-drop-empty');
+      empty.setAttribute('aria-label', 'Đưa file Markdown để render');
+      empty.append(
+        el('h2', 'Đưa file Markdown (.md) để tự render'),
+        el(
+          'p',
+          'Kéo thả file .md / .markdown / .txt vào đây, hoặc chọn file từ máy để render ngay visual-*, mermaid, quiz và flipcard.',
+        ),
+      );
+      const pickBtn = button('Chọn file .md', () =>
+        document.getElementById('lesson-file')?.click(),
+      );
+      pickBtn.className = 'button button-primary';
+      empty.append(pickBtn);
+      output.append(empty);
+      return;
+    }
     const blocks = LessonParser.parse(source.value);
     // Keep responses only when the complete question definition is unchanged.
     const valid = Object.create(null);
@@ -557,6 +576,8 @@ export function initializeMarkdown({
     for (const block of blocks) {
       if (block.type === 'deck') output.append(deck(block.quizzes, ++count));
       else if (block.type === 'flipcards') output.append(flipcards(block.cards));
+      else if (block.type.startsWith('visual_'))
+        output.append(renderVisualBlock(block, { inline }));
       else if (block.type === 'error') output.append(el('p', block.content, 'lesson-error'));
       else {
         const section = el('section');
@@ -732,12 +753,49 @@ export function initializeMarkdown({
     }
   });
   const file = document.getElementById('lesson-file');
+  async function openMarkdownFile(fileObj) {
+    if (!fileObj) return;
+    const isSupported =
+      /\.(md|markdown|txt)$/i.test(fileObj.name || '') ||
+      !fileObj.type ||
+      fileObj.type.startsWith('text/');
+    if (!isSupported) {
+      setStatus('Chỉ hỗ trợ file Markdown (.md, .markdown) hoặc .txt.');
+      return;
+    }
+    source.value = await fileObj.text();
+    await render();
+    setStatus(`Đã mở file ${fileObj.name}.`, true);
+  }
   listen(document.getElementById('lesson-open'), 'click', () => file.click());
   listen(file, 'change', async () => {
-    if (!file.files[0]) return;
-    source.value = await file.files[0].text();
+    const selected = file.files[0];
     file.value = '';
-    render();
+    await openMarkdownFile(selected);
+  });
+  let dragDepth = 0;
+  listen(workspace, 'dragenter', (event) => {
+    if (!event.dataTransfer?.types?.includes('Files')) return;
+    event.preventDefault();
+    dragDepth++;
+    workspace.classList.add('is-drag-over');
+  });
+  listen(workspace, 'dragover', (event) => {
+    if (!event.dataTransfer?.types?.includes('Files')) return;
+    event.preventDefault();
+    event.dataTransfer.dropEffect = 'copy';
+  });
+  listen(workspace, 'dragleave', (event) => {
+    if (!event.dataTransfer?.types?.includes('Files')) return;
+    dragDepth = Math.max(0, dragDepth - 1);
+    if (dragDepth === 0) workspace.classList.remove('is-drag-over');
+  });
+  listen(workspace, 'drop', async (event) => {
+    if (!event.dataTransfer?.files?.length) return;
+    event.preventDefault();
+    dragDepth = 0;
+    workspace.classList.remove('is-drag-over');
+    await openMarkdownFile(event.dataTransfer.files[0]);
   });
   const focusCopy = document.getElementById('lesson-focus-copy');
   async function copyMarkdown(event) {

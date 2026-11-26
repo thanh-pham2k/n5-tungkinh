@@ -70,6 +70,7 @@ export function parseLesson(
     const first = Array.isArray(parsed) ? parsed[0] : parsed;
     const title = String(
       first.topic ||
+        first.title ||
         first.question ||
         first.vocabulary ||
         first.prompt ||

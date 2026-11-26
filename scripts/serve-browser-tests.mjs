@@ -34,6 +34,7 @@ const catalog = {
   french: await loadFrenchCatalog(),
   'french-taxi': await loadFrenchTaxiCatalog(),
   'reading-practice': await loadReadingPracticeCatalog(),
+  'visual-samples': JSON.parse(await readFile('database/seed/visual-samples.json', 'utf8')),
 };
 const isLocalPreview = process.env.KOTOBA_LOCAL_PREVIEW === '1';
 await db.batch(

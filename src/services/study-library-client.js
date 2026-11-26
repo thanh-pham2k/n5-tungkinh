@@ -42,6 +42,13 @@ export const createLesson = async (input) =>
     (await studyRequest('/study-contents', { method: 'POST', body: JSON.stringify(input) })).data,
   );
 export const readCatalog = async (key) => (await studyRequest(`/study-catalog/${key}`)).data;
+export const saveBasePrompts = async (basePrompts) =>
+  (
+    await studyRequest('/study-catalog/visual-samples', {
+      method: 'PUT',
+      body: JSON.stringify({ basePrompts }),
+    })
+  ).data;
 export const listStudyLogs = async (tool, cursor) => {
   const payload = await studyRequest(
     `/study-logs?${new URLSearchParams({ tool, ...(cursor ? { cursor } : {}) })}`,
