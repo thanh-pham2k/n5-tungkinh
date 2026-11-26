@@ -1,0 +1,179 @@
+/* Shared lesson visuals use the active Kotoba palette, including body.dark. */
+.visual-block,
+.mermaid-card {
+  --visual-surface: var(--paper);
+  --visual-text: var(--ink);
+  --visual-border: var(--border);
+  --visual-primary: var(--accent);
+  --visual-info: var(--lavender);
+  --visual-success: var(--mint);
+  --visual-warning: var(--accent);
+  --visual-danger: var(--error-bg);
+
+  min-inline-size: 0;
+  font-family: var(--font-body);
+  color: var(--visual-text);
+  overflow-wrap: anywhere;
+}
+
+:is(
+  .visual-grid-card,
+  .visual-flow-card,
+  .visual-compare-card,
+  .visual-metric-card,
+  .visual-decision-card,
+  .mermaid-card
+) {
+  min-inline-size: 0;
+  background: var(--visual-surface);
+  border: var(--visual-border);
+  border-radius: var(--radius);
+}
+
+.visual-callout-block {
+  background: var(--visual-surface);
+  border-inline-start: 4px solid var(--visual-tone, var(--line));
+}
+.visual-callout-block.is-info {
+  --visual-tone: var(--visual-info);
+}
+.visual-callout-block.is-success {
+  --visual-tone: var(--visual-success);
+}
+.visual-callout-block.is-warning {
+  --visual-tone: var(--visual-warning);
+}
+.visual-callout-block.is-danger {
+  --visual-tone: var(--visual-danger);
+}
+
+:is(.visual-block, .mermaid-card) :is(button, input):focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.visual-metric-value {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 599px) {
+  .mermaid-scroll {
+    padding: var(--space-3);
+  }
+  .visual-decision-arrow {
+    justify-self: start;
+    align-self: flex-start;
+    rotate: 90deg;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :is(.visual-block, .mermaid-card) *,
+  :is(.visual-block, .mermaid-card) *::before,
+  :is(.visual-block, .mermaid-card) *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+:root {
+  --visual-tone-primary: #93c5fd;
+  --visual-tone-success: #86efac;
+  --visual-tone-warning: #fcd34d;
+  --visual-tone-danger: #fca5a5;
+  --visual-tone-accent: #c4b5fd;
+  --visual-tone-event: #5eead4;
+  --visual-tone-neutral: #cbd5e1;
+  --visual-tone-info: #7dd3fc;
+}
+
+body.dark {
+  --visual-tone-primary: #3b82f6;
+  --visual-tone-success: #22c55e;
+  --visual-tone-warning: #d97706;
+  --visual-tone-danger: #ef4444;
+  --visual-tone-accent: #8b5cf6;
+  --visual-tone-event: #14b8a6;
+  --visual-tone-neutral: #475569;
+  --visual-tone-info: #0284c7;
+}
+
+:root {
+  --v-orange-bg: #ffedd5;
+  --v-orange-border: #fdba74;
+  --v-orange-text: #9a3412;
+  --visual-tone-orange: var(--v-orange-border);
+  --v-pink-bg: #fce7f3;
+  --v-pink-border: #f9a8d4;
+  --v-pink-text: #9d174d;
+  --visual-tone-pink: var(--v-pink-border);
+  --v-indigo-bg: #e0e7ff;
+  --v-indigo-border: #a5b4fc;
+  --v-indigo-text: #3730a3;
+  --visual-tone-indigo: var(--v-indigo-border);
+  --v-lime-bg: #ecfccb;
+  --v-lime-border: #bef264;
+  --v-lime-text: #3f6212;
+  --visual-tone-lime: var(--v-lime-border);
+  --v-cyan-bg: #cffafe;
+  --v-cyan-border: #67e8f9;
+  --v-cyan-text: #155e75;
+  --visual-tone-cyan: var(--v-cyan-border);
+  --v-rose-bg: #ffe4e6;
+  --v-rose-border: #fda4af;
+  --v-rose-text: #9f1239;
+  --visual-tone-rose: var(--v-rose-border);
+  --v-fuchsia-bg: #fae8ff;
+  --v-fuchsia-border: #f0abfc;
+  --v-fuchsia-text: #86198f;
+  --visual-tone-fuchsia: var(--v-fuchsia-border);
+  --v-sand-bg: #f5ebdd;
+  --v-sand-border: #d6bfa2;
+  --v-sand-text: #78552e;
+  --visual-tone-sand: var(--v-sand-border);
+}
+
+body.dark {
+  --v-orange-bg: #431407;
+  --v-orange-border: #ea580c;
+  --v-orange-text: #fed7aa;
+  --visual-tone-orange: var(--v-orange-border);
+  --v-pink-bg: #500724;
+  --v-pink-border: #db2777;
+  --v-pink-text: #fbcfe8;
+  --visual-tone-pink: var(--v-pink-border);
+  --v-indigo-bg: #1e1b4b;
+  --v-indigo-border: #6366f1;
+  --v-indigo-text: #c7d2fe;
+  --visual-tone-indigo: var(--v-indigo-border);
+  --v-lime-bg: #1a2e05;
+  --v-lime-border: #65a30d;
+  --v-lime-text: #d9f99d;
+  --visual-tone-lime: var(--v-lime-border);
+  --v-cyan-bg: #083344;
+  --v-cyan-border: #0891b2;
+  --v-cyan-text: #a5f3fc;
+  --visual-tone-cyan: var(--v-cyan-border);
+  --v-rose-bg: #4c0519;
+  --v-rose-border: #e11d48;
+  --v-rose-text: #fecdd3;
+  --visual-tone-rose: var(--v-rose-border);
+  --v-fuchsia-bg: #4a044e;
+  --v-fuchsia-border: #c026d3;
+  --v-fuchsia-text: #f5d0fe;
+  --visual-tone-fuchsia: var(--v-fuchsia-border);
+  --v-sand-bg: #382a1e;
+  --v-sand-border: #a88a65;
+  --v-sand-text: #ebd7b9;
+  --visual-tone-sand: var(--v-sand-border);
+}
+
+.visual-block[data-visual-tone] {
+  --visual-tone: var(--visual-selected-border);
+  border-inline-start: 4px solid var(--visual-selected-border);
+  padding-inline-start: var(--space-3);
+  background: var(--visual-selected-bg);
+}
+.visual-block[data-visual-tone] :is(.visual-block-title, .visual-callout-title) {
+  color: var(--visual-selected-text);
+}

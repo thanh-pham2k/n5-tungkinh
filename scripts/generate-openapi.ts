@@ -13,6 +13,7 @@ import {
   CatalogKey,
   LoginInput,
   UserInfo,
+  MarkdownThemePreference,
 } from '../src/contracts/study-contract';
 const schema = (s: z.ZodType) => z.toJSONSchema(s);
 const response = (s: z.ZodType) => ({
@@ -169,6 +170,27 @@ const document = {
         parameters: [pathId],
         requestBody: body(SaveProgress),
         responses: { 200: response(z.object({ data: SaveProgress, meta: Meta })), ...errors },
+      },
+    },
+    '/markdown-theme': {
+      get: {
+        operationId: 'readMarkdownTheme',
+        description:
+          'Read the Markdown light theme for the authenticated account and browser session.',
+        responses: {
+          200: response(z.object({ data: MarkdownThemePreference, meta: Meta })),
+          ...errors,
+        },
+      },
+      put: {
+        operationId: 'saveMarkdownTheme',
+        description:
+          'Save the Markdown light theme for the authenticated account and browser session. Same-origin.',
+        requestBody: body(MarkdownThemePreference),
+        responses: {
+          200: response(z.object({ data: MarkdownThemePreference, meta: Meta })),
+          ...errors,
+        },
       },
     },
     '/study-catalog/{catalogId}': {

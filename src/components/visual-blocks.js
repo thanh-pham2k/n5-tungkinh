@@ -1,3 +1,4 @@
+import LessonParser from '../services/lesson-parser.cjs';
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
 const ICON_PATHS = {
@@ -907,6 +908,17 @@ function renderVisualDecision(block, inline) {
 }
 
 export function renderVisualBlock(block, { inline }) {
+  const element = renderVisualContent(block, inline);
+  if (LessonParser.VISUAL_TONES.includes(block.tone)) {
+    element.dataset.visualTone = block.tone;
+    element.style.setProperty('--visual-selected-border', `var(--visual-tone-${block.tone})`);
+    element.style.setProperty('--visual-selected-bg', `var(--v-${block.tone}-bg, var(--paper))`);
+    element.style.setProperty('--visual-selected-text', `var(--v-${block.tone}-text, var(--ink))`);
+  }
+  return element;
+}
+
+function renderVisualContent(block, inline) {
   switch (block.type) {
     case 'visual_grid':
       return renderVisualGrid(block, inline);

@@ -13,6 +13,7 @@ import {
   createLesson,
 } from '../services/study-library-client';
 import { AudioStatus, Button, Status } from './ui/primitives';
+import { defaultMarkdownTheme, markdownThemes } from '../services/markdown-themes';
 import { formatReviewTime } from '../services/review-time';
 import { updateCompletionHistory } from '../services/study-streak';
 export default function MarkdownWorkspace({
@@ -37,6 +38,52 @@ export default function MarkdownWorkspace({
     repeats: 1,
     delay: 0,
   });
+  const username = user?.username;
+  const [themeState, setThemeState] = useState(null);
+  const currentTheme = themeState?.username === username ? themeState : null;
+  const theme = currentTheme?.id ?? defaultMarkdownTheme;
+  const [, pageColor, paperColor, optionColor] = markdownThemes[theme];
+
+  useEffect(() => {
+    if (!username) return;
+    let active = true;
+    studyRequest('/markdown-theme')
+      .then(({ data }) => {
+        if (active)
+          setThemeState({
+            username,
+            id: Object.hasOwn(markdownThemes, data?.theme) ? data.theme : defaultMarkdownTheme,
+          });
+      })
+      .catch(() => {
+        if (active)
+          setThemeState({
+            username,
+            id: defaultMarkdownTheme,
+            message: 'Chưa tải được nền đã lưu.',
+          });
+      });
+    return () => {
+      active = false;
+    };
+  }, [username]);
+
+  async function changeTheme(event) {
+    const next = event.target.value;
+    if (!currentTheme || currentTheme.saving || !Object.hasOwn(markdownThemes, next)) return;
+    setThemeState({ username, id: next, saving: true });
+    let result = { username, id: next };
+    try {
+      await studyRequest('/markdown-theme', {
+        method: 'PUT',
+        body: JSON.stringify({ theme: next }),
+      });
+    } catch {
+      result = { username, id: theme, message: 'Chưa lưu được màu nền. Hãy chọn lại để thử lại.' };
+    }
+    setThemeState((state) => (state?.username === username && state.saving ? result : state));
+  }
+
   const speech = useSpeech(audioSettings);
   const speechRef = useRef(speech);
   speechRef.current = speech;
@@ -313,6 +360,11 @@ export default function MarkdownWorkspace({
 
   return (
     <div
+      style={{
+        '--markdown-theme-page': pageColor,
+        '--markdown-theme-paper': paperColor,
+        '--markdown-theme-option': optionColor,
+      }}
       className={`markdown-page ${focusMode ? 'reading-focus' : ''} ${courseList ? 'course-list-open' : ''}`}
     >
       {courseList && (
@@ -453,6 +505,37 @@ export default function MarkdownWorkspace({
             <input id="lesson-sync" type="checkbox" defaultChecked />
             Sync scroll
           </label>
+          <details className="markdown-theme-picker">
+            <summary>
+              <span>Nền chế độ sáng</span>
+              <span className="markdown-theme-current">
+                <span
+                  className="markdown-theme-swatch"
+                  style={{ background: pageColor }}
+                  aria-hidden="true"
+                />
+                {markdownThemes[theme][0]}
+              </span>
+            </summary>
+            <fieldset aria-label="Nền chế độ sáng" disabled={!currentTheme || currentTheme.saving}>
+              {Object.entries(markdownThemes).map(([id, [label, background, surface]]) => (
+                <label key={id}>
+                  <input
+                    type="radio"
+                    name="markdown-light-theme"
+                    value={id}
+                    checked={theme === id}
+                    onChange={changeTheme}
+                  />
+                  <span className="markdown-theme-swatch" style={{ background }} aria-hidden="true">
+                    <span style={{ background: surface }} />
+                  </span>
+                  {label}
+                </label>
+              ))}
+            </fieldset>
+          </details>
+          {currentTheme?.message && <p role="status">{currentTheme.message}</p>}
           <label className="check-field">
             <input id="lesson-dark" type="checkbox" />
             Dark mode

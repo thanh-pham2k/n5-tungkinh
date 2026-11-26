@@ -255,15 +255,6 @@
       return { type: 'visual_timeline', title, items };
     }
     if (kind === 'visual-callout') {
-      const VALID_TONES = new Set([
-        'info',
-        'tip',
-        'success',
-        'warning',
-        'pitfall',
-        'danger',
-        'error',
-      ]);
       let tone = 'info';
       let title = '';
       const lines = [];
@@ -274,9 +265,9 @@
           const kv = parseKeyValueLine(trimmed);
           if (kv?.key === 'tone') {
             const nextTone = kv.value.toLowerCase();
-            if (!VALID_TONES.has(nextTone)) {
+            if (!CALLOUT_TONES.has(nextTone)) {
               throw new Error(
-                `Dòng ${row.line}: tone của visual-callout phải là info, tip, success, warning, pitfall, danger hoặc error.`,
+                `Dòng ${row.line}: tone của visual-callout phải là ${[...CALLOUT_TONES].join(', ')}.`,
               );
             }
             tone = nextTone;
@@ -406,15 +397,46 @@
     }
     return { type: 'visual_simulation', simulationType, title, params };
   }
-  const CALLOUT_TONES = new Set([
-    'info',
-    'tip',
+  const VISUAL_TONES = Object.freeze([
+    'primary',
     'success',
     'warning',
-    'pitfall',
     'danger',
-    'error',
+    'accent',
+    'event',
+    'neutral',
+    'info',
+    'orange',
+    'pink',
+    'indigo',
+    'lime',
+    'cyan',
+    'rose',
+    'fuchsia',
+    'sand',
   ]);
+  const CALLOUT_TONES = new Set([...VISUAL_TONES, 'tip', 'pitfall', 'error']);
+
+  function parseThemedVisualBlock(kind, body, startLine) {
+    const first = body.findIndex((row) => row.text.trim());
+    const field = first >= 0 ? parseKeyValueLine(body[first].text) : null;
+    if (kind === 'visual-callout' || field?.key !== 'tone') {
+      return parseVisualBlock(kind, body, startLine);
+    }
+    const tone = field.value.toLowerCase();
+    if (!VISUAL_TONES.includes(tone)) {
+      throw new Error(`Dòng ${body[first].line}: tone không hợp lệ: ${field.value}.`);
+    }
+    return {
+      ...parseVisualBlock(
+        kind,
+        body.filter((_, index) => index !== first),
+        startLine,
+      ),
+      tone,
+    };
+  }
+
   const SINGLE_BACKTICK_TAGS = new Set([...VISUAL_TYPES, 'quiz-deck', 'quiz', 'flipcard']);
   function normalizeChatGptBlocks(rawLines) {
     const out = [];
@@ -605,7 +627,7 @@
           if (VISUAL_TYPES.has(detected)) {
             flush();
             try {
-              blocks.push(parseVisualBlock(detected, body, body[0]?.line || i + 1));
+              blocks.push(parseThemedVisualBlock(detected, body, body[0]?.line || i + 1));
             } catch (error) {
               blocks.push({ type: 'error', content: error.message });
             }
@@ -691,7 +713,7 @@
           continue;
         }
         try {
-          blocks.push(parseVisualBlock(kind, body, start));
+          blocks.push(parseThemedVisualBlock(kind, body, start));
         } catch (error) {
           blocks.push({ type: 'error', content: error.message });
         }
@@ -869,6 +891,6 @@
     }
     return blocks;
   }
-  root.LessonParser = { parse };
-  if (typeof module !== 'undefined') module.exports = { parse };
+  root.LessonParser = { parse, VISUAL_TONES };
+  if (typeof module !== 'undefined') module.exports = { parse, VISUAL_TONES };
 })(typeof window === 'undefined' ? globalThis : window);

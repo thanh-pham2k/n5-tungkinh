@@ -50,3 +50,7 @@ Migration/seed không chạy từ build, startup hoặc request. Thay đổi ti�
 Unit repository dùng SQLite/libSQL tương thích, kiểm tra transaction rollback, idempotency, cursor, cô lập tiến độ và conflict. Browser dùng SQLite fixture riêng trong .migration-artifacts/browser-test.db, chạy một worker và reset dữ liệu fixture giữa test; không ghi test vào Turso đã cấp. Chế độ KOTOBA_TEST_MODE chỉ bật trong helper kiểm thử, bị chặn khi VERCEL tồn tại; không cấu hình biến này trên deploy. Production chỉ dùng URL libsql và token Turso, không có fallback file DB.
 
 Tài liệu nền: [Turso TypeScript SDK](https://docs.turso.tech/sdk/ts/reference), [Liquibase SQLite](https://contribute.liquibase.com/extensions-integrations/directory/database-tutorials/sqlite/).
+
+### Nền chế độ sáng cho Markdown & Quiz
+
+Tùy chọn nền lưu trong bảng `study_catalog` hiện có với khóa nội bộ `markdown-theme:<username>:<session UUID>`. GET/PUT `/api/v1/markdown-theme` xác thực tài khoản và lấy UUID từ cookie HttpOnly. Giá trị lưu chỉ gồm ID theme. Các khóa nội bộ nằm ngoài danh sách cho phép của API danh mục.

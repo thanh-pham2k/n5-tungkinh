@@ -1,4 +1,9 @@
 import { z } from 'zod';
+import { markdownThemes } from '../services/markdown-themes';
+
+export const MarkdownThemePreference = z.strictObject({
+  theme: z.enum(Object.keys(markdownThemes)),
+});
 export const StudyTool = z.enum([
   'instant',
   'cards',

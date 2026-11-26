@@ -261,6 +261,21 @@ export function studyRepository(db: Client) {
         );
       return { version: Number(result.rows[0].version), progress };
     },
+    async readMarkdownTheme(key: string) {
+      const result = await db.execute({
+        sql: 'SELECT payload_json FROM study_catalog WHERE id = ?',
+        args: [key],
+      });
+      return result.rows[0] ? JSON.parse(String(result.rows[0].payload_json)) : null;
+    },
+    async saveMarkdownTheme(key: string, preference: { theme: string }) {
+      await db.execute({
+        sql: `INSERT INTO study_catalog (id, payload_json, updated_at) VALUES (?, ?, ?)
+              ON CONFLICT(id) DO UPDATE SET payload_json = excluded.payload_json,
+                updated_at = excluded.updated_at`,
+        args: [key, JSON.stringify(preference), new Date().toISOString()],
+      });
+    },
     async catalog(id: string) {
       const result = await db.execute({
         sql: 'SELECT payload_json FROM study_catalog WHERE id = ?',

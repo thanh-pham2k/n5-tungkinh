@@ -729,9 +729,7 @@ test('shows empty drop state and renders immediately when dropping a .md file', 
   await expect(page.locator('#lesson-status')).toContainText('dropped-lesson.md');
 });
 
-test('renders Mermaid diagrams in the soft default style, readable width, and zoom controls', async ({
-  page,
-}) => {
+test('renders themed Mermaid diagrams at readable width without a toolbar', async ({ page }) => {
   const errors = [];
   page.on('pageerror', (e) => errors.push(e.message));
 
@@ -745,6 +743,8 @@ test('renders Mermaid diagrams in the soft default style, readable width, and zo
     'flowchart LR',
     '  Q[SQS Queue] --> W[Worker]',
     '  W --> D{Already Processed?}',
+    '  class Q primary',
+    '  class D warning',
     '  D -->|Yes| DEL[DeleteMessage]',
     '  D -->|No| DLQ[Dead Letter Queue]',
     '  DLQ --> X[Custom Node]',
@@ -772,23 +772,14 @@ test('renders Mermaid diagrams in the soft default style, readable width, and zo
     });
     return fills;
   });
-  // Default soft-blue style; choice node lighter; author `style` respected.
-  expect(colors['SQS Queue']).toMatch(/230,\s*242,\s*255|#e6f2ff/i);
-  expect(colors['Worker']).toBe(colors['SQS Queue']);
-  expect(colors['Already Processed?']).toMatch(/245,\s*250,\s*255|#f5faff/i);
+  // Default theme colors and author styling.
+  expect(colors['Worker']).toMatch(/255,\s*254,\s*249|#fffef9/i);
+  expect(colors['SQS Queue']).toContain('color-mix(');
+  expect(colors['Already Processed?']).toContain('color-mix(');
+  expect(colors['Already Processed?']).not.toBe(colors['SQS Queue']);
   expect(colors['Custom Node']).toMatch(/18,\s*52,\s*86|#123456/i);
 
-  const zoomValue = card.locator('.mermaid-zoom-value');
-  await expect(zoomValue).toHaveText('100%');
-  await card.getByRole('button', { name: 'Phóng to sơ đồ' }).click();
-  await expect(zoomValue).toHaveText('120%');
-  const zoomedWidth = await svg.evaluate((el) => el.getBoundingClientRect().width);
-  expect(zoomedWidth).toBeGreaterThan(initialWidth);
-
-  await card.getByRole('button', { name: 'Thu nhỏ sơ đồ' }).click();
-  await expect(zoomValue).toHaveText('100%');
-  await card.getByRole('button', { name: 'Đặt lại kích thước 100%' }).click();
-  await expect(zoomValue).toHaveText('100%');
+  await expect(card.locator('.mermaid-card-head')).toHaveCount(0);
 
   expect(errors).toEqual([]);
 });

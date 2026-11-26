@@ -456,7 +456,7 @@ export function initializeMarkdown({
     });
     expand.className = 'lesson-deck-expand flipcard-expand';
     expand.setAttribute('aria-label', 'Mở rộng flipcard');
-    const header = el('div', undefined, 'lesson-deck-header');
+    const header = el('div', undefined, 'flipcard-header');
     header.append(count, expand);
     const card = button('', () => {
       flipped = !flipped;
@@ -477,6 +477,7 @@ export function initializeMarkdown({
     container.append(header, card, navigation);
     function update() {
       count.textContent = `Thẻ ${current + 1} / ${cards.length} · ${flipped ? 'Mặt sau' : 'Mặt trước'}`;
+      card.dataset.side = flipped ? 'back' : 'front';
       const item = cards[current];
       const content = el('span', undefined, 'flipcard-content');
       if (flipped) {
@@ -488,11 +489,13 @@ export function initializeMarkdown({
         ]) {
           if (!value) continue;
           const row = el('span', undefined, 'flipcard-row');
-          row.append(el('strong', `${label}: `), inline(value));
+          const detail = el('span');
+          detail.append(inline(value));
+          row.append(el('strong', `${label}: `), detail);
           content.append(row);
         }
-      } else content.append(inline(flipped ? item.back : item.front));
-      card.replaceChildren(content, el('small', 'Nhấn để lật thẻ'));
+      } else content.append(inline(item.front));
+      card.replaceChildren(content);
       card.setAttribute(
         'aria-label',
         `${flipped ? 'Mặt sau' : 'Mặt trước'}: ${content.textContent}. Nhấn để lật thẻ`,
@@ -621,6 +624,8 @@ export function initializeMarkdown({
         if (run === revision) setStatus(error.message);
       }
     }
+    const palette = getComputedStyle(output);
+    const color = (name) => palette.getPropertyValue(name).trim();
     const isDark = document.body.classList.contains('dark');
     if (mermaid)
       mermaid.initialize({
@@ -628,41 +633,26 @@ export function initializeMarkdown({
         securityLevel: 'strict',
         suppressErrorRendering: true,
         theme: isDark ? 'dark' : 'base',
-        themeVariables: isDark
-          ? {
-              fontFamily:
-                'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-              fontSize: '14px',
-            }
-          : {
-              fontFamily:
-                'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-              fontSize: '14px',
-              primaryColor: '#e6f2ff',
-              primaryTextColor: '#1d4f91',
-              primaryBorderColor: '#cfe3f8',
-              secondaryColor: '#fef3c7',
-              secondaryTextColor: '#1e293b',
-              secondaryBorderColor: '#d97706',
-              tertiaryColor: '#dcfce7',
-              tertiaryTextColor: '#14532d',
-              tertiaryBorderColor: '#16a34a',
-              lineColor: '#8b95a3',
-              edgeLabelBackground: '#fffef9',
-              clusterBkg: '#f8f6ef',
-              clusterBorder: '#94a3b8',
-              actorBkg: '#fef08a',
-              actorBorder: '#ca8a04',
-              actorTextColor: '#1e293b',
-              actorLineColor: '#64748b',
-              signalColor: '#334155',
-              signalTextColor: '#1e293b',
-              noteBkgColor: '#ede9fe',
-              noteBorderColor: '#7c3aed',
-              noteTextColor: '#1e293b',
-              activationBkgColor: '#dcfce7',
-              activationBorderColor: '#16a34a',
-            },
+        themeVariables: {
+          fontFamily: color('--font-body'),
+          fontSize: '14px',
+          primaryColor: color('--paper'),
+          primaryTextColor: color('--ink'),
+          primaryBorderColor: color('--line'),
+          lineColor: color('--muted'),
+          edgeLabelBackground: color('--paper'),
+          clusterBkg: color('--canvas'),
+          clusterBorder: color('--line'),
+          actorBkg: color('--paper'),
+          actorBorder: color('--line'),
+          actorTextColor: color('--ink'),
+          actorLineColor: color('--muted'),
+          signalColor: color('--ink'),
+          signalTextColor: color('--ink'),
+          noteBkgColor: color('--subtle'),
+          noteBorderColor: color('--line'),
+          noteTextColor: color('--ink'),
+        },
         htmlLabels: false,
         flowchart: {
           htmlLabels: false,
@@ -694,38 +684,11 @@ export function initializeMarkdown({
         );
         if (run !== revision) return;
         const card = el('figure', undefined, 'mermaid-card');
-        const head = el('div', undefined, 'mermaid-card-head');
-        head.append(el('span', 'Sơ đồ', 'mermaid-card-badge'));
-        const tools = el('div', undefined, 'mermaid-card-tools');
-        const zoomOut = el('button', '−', 'mermaid-zoom-btn');
-        zoomOut.type = 'button';
-        zoomOut.setAttribute('aria-label', 'Thu nhỏ sơ đồ');
-        const zoomLabel = el('span', '100%', 'mermaid-zoom-value');
-        const zoomIn = el('button', '+', 'mermaid-zoom-btn');
-        zoomIn.type = 'button';
-        zoomIn.setAttribute('aria-label', 'Phóng to sơ đồ');
-        const zoomReset = el('button', '1:1', 'mermaid-zoom-btn');
-        zoomReset.type = 'button';
-        zoomReset.setAttribute('aria-label', 'Đặt lại kích thước 100%');
-        tools.append(zoomOut, zoomLabel, zoomIn, zoomReset);
-        head.append(tools);
-
         const scroll = el('div', undefined, 'mermaid-scroll');
         scroll.innerHTML = DOMPurify.sanitize(result.svg);
         const svg = scroll.querySelector('svg');
-        if (svg) {
-          const baseWidth = enhanceMermaidSvg(svg, isDark);
-          let scale = 1;
-          const applyZoom = (nextScale) => {
-            scale = Math.min(1.6, Math.max(0.6, Math.round(nextScale * 10) / 10));
-            svg.style.width = `${Math.round(baseWidth * scale)}px`;
-            zoomLabel.textContent = `${Math.round(scale * 100)}%`;
-          };
-          zoomOut.addEventListener('click', () => applyZoom(scale - 0.2));
-          zoomIn.addEventListener('click', () => applyZoom(scale + 0.2));
-          zoomReset.addEventListener('click', () => applyZoom(1));
-        }
-        card.append(head, scroll);
+        if (svg) enhanceMermaidSvg(svg, color);
+        card.append(scroll);
         pre.replaceWith(card);
       } catch {
         if (run !== revision) return;
@@ -740,7 +703,7 @@ export function initializeMarkdown({
     }
   }
 
-  function enhanceMermaidSvg(svg, isDark) {
+  function enhanceMermaidSvg(svg, color) {
     const viewBox = (svg.getAttribute('viewBox') || '').trim().split(/\s+/);
     const vbWidth = viewBox.length === 4 ? Number(viewBox[2]) : NaN;
     const vbHeight = viewBox.length === 4 ? Number(viewBox[3]) : NaN;
@@ -758,14 +721,26 @@ export function initializeMarkdown({
     svg.style.width = `${Math.round(baseWidth)}px`;
     svg.style.height = 'auto';
 
-    // Default look: soft blue rounded nodes, faint borders, bold blue text,
-    // thin gray edges and pill-shaped edge labels. Author styling is respected.
-    const TONE = isDark
-      ? { fill: '#1e3a5f', stroke: '#3b6ea8', text: '#dbeafe', edge: '#94a3b8', pill: '#0f1f33' }
-      : { fill: '#e6f2ff', stroke: '#cfe3f8', text: '#1d4f91', edge: '#8b95a3', pill: '#ffffff' };
-    const CHOICE = isDark
-      ? { fill: '#16304f', stroke: '#5b8fc9', text: '#dbeafe' }
-      : { fill: '#f5faff', stroke: '#9cc4ee', text: '#1d4f91' };
+    const TONE = {
+      fill: color('--paper'),
+      stroke: color('--line'),
+      text: color('--ink'),
+      edge: color('--muted'),
+      pill: color('--paper'),
+    };
+    const semanticTones = LessonParser.VISUAL_TONES;
+    const nodeTone = (node) => {
+      const tone = semanticTones.find((name) => node.classList.contains(name));
+      const accent = tone && color(`--visual-tone-${tone}`);
+      return accent
+        ? {
+            ...TONE,
+            fill: color(`--v-${tone}-bg`) || `color-mix(in srgb, ${accent} 32%, ${TONE.fill})`,
+            text: color(`--v-${tone}-text`) || TONE.text,
+            stroke: accent,
+          }
+        : TONE;
+    };
     const BUILTIN_NODE_CLASSES = new Set([
       'node',
       'default',
@@ -774,7 +749,12 @@ export function initializeMarkdown({
       'image-shape',
     ]);
     const hasAuthorStyle = (node) => {
-      if ([...node.classList].some((name) => !BUILTIN_NODE_CLASSES.has(name))) return true;
+      if (
+        [...node.classList].some(
+          (name) => !BUILTIN_NODE_CLASSES.has(name) && !semanticTones.includes(name),
+        )
+      )
+        return true;
       return [...node.querySelectorAll('rect, polygon, circle, ellipse, path')].some((shape) =>
         /(fill|stroke)\s*:[^;]*!important/.test(shape.getAttribute('style') || ''),
       );
@@ -786,15 +766,15 @@ export function initializeMarkdown({
       shape.style.setProperty('stroke-width', '1.5px', 'important');
       if (dashed) shape.style.setProperty('stroke-dasharray', '4 3', 'important');
       if (shape.tagName.toLowerCase() === 'rect') {
-        shape.setAttribute('rx', '16');
-        shape.setAttribute('ry', '16');
+        shape.setAttribute('rx', color('--radius'));
+        shape.setAttribute('ry', color('--radius'));
       }
     };
 
     svg.querySelectorAll('g.node').forEach((node) => {
       if (hasAuthorStyle(node)) return;
       const isChoice = Boolean(node.querySelector('polygon'));
-      const tone = isChoice ? CHOICE : TONE;
+      const tone = nodeTone(node);
       node.querySelectorAll('rect, polygon, circle, ellipse, path.basic').forEach((shape) => {
         paint(shape, tone, isChoice);
       });
@@ -833,8 +813,6 @@ export function initializeMarkdown({
         txt.style.setProperty('font-weight', '600');
       });
     });
-
-    return baseWidth;
   }
   let definitions = Object.create(null),
     diagramId = 0;
