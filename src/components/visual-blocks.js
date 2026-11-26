@@ -123,8 +123,14 @@ function el(tag, text, className) {
 }
 
 export function createVisualIcon(name) {
-  const key = (name || '').trim().toLowerCase();
-  const paths = ICON_PATHS[key] || FALLBACK_ICON;
+  const raw = (name || '').trim();
+  const key = raw.toLowerCase();
+  const paths = ICON_PATHS[key];
+  if (!paths && /[^\x00-\x7F]/.test(raw)) {
+    const emoji = el('span', raw, 'visual-icon-emoji');
+    emoji.setAttribute('aria-hidden', 'true');
+    return emoji;
+  }
   const svg = document.createElementNS(SVG_NS, 'svg');
   svg.setAttribute('viewBox', '0 0 24 24');
   svg.setAttribute('fill', 'none');
@@ -134,7 +140,7 @@ export function createVisualIcon(name) {
   svg.setAttribute('stroke-linejoin', 'round');
   svg.setAttribute('aria-hidden', 'true');
   svg.classList.add('visual-icon');
-  for (const d of paths) {
+  for (const d of paths || FALLBACK_ICON) {
     const path = document.createElementNS(SVG_NS, 'path');
     path.setAttribute('d', d);
     svg.append(path);

@@ -400,3 +400,64 @@ test('parses visual-callout, visual-checklist, visual-tabs, and visual-decision 
   assert.equal(parse('```visual-tabs\n[OnlyOne]\nText\n```')[0].type, 'error');
   assert.equal(parse('```visual-decision\nonly-one-part\n```')[0].type, 'error');
 });
+
+test('auto-detects bare fences, normalizes ChatGPT single-backtick blocks, and parses arrow sequences', () => {
+  const bare = [
+    '```',
+    'title: Flow',
+    'direction: horizontal',
+    '📥 | Receive | Nhận',
+    '⚙️ | Process | Xử lý',
+    '```',
+    '',
+    '```',
+    'Q1 | single_choice | 1+1? | 1 | 2 | 3 | 4 | 2 | Hai.',
+    '```',
+    '',
+    'visual-compare',
+    '',
+    '`title: Std vs FIFO',
+    '[Standard]',
+    'send: A → B → C',
+    'receive: A → C → B → B',
+    '[FIFO]',
+    'send: A → B → C',
+    'receive: A → B → C`',
+  ].join('\n');
+
+  const blocks = parse(bare);
+  assert.deepEqual(
+    blocks.map((b) => b.type),
+    ['visual_flow', 'deck', 'visual_compare'],
+  );
+  assert.deepEqual(blocks[2].sections[0].receive, ['A', 'C', 'B', 'B']);
+});
+
+test('all 7 files in inbox/ parse with zero errors', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const dir = path.join(__dirname, '../inbox');
+  const files = fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith('.md'))
+    .sort();
+  assert.equal(files.length, 7);
+  for (const name of files) {
+    const blocks = parse(fs.readFileSync(path.join(dir, name), 'utf8'));
+    assert.equal(
+      blocks.some((b) => b.type === 'error'),
+      false,
+      `${name} had parse errors`,
+    );
+    assert.equal(
+      blocks.some((b) => b.type === 'deck'),
+      true,
+      `${name} missing quizzes`,
+    );
+    assert.equal(
+      blocks.some((b) => b.type === 'flipcards'),
+      true,
+      `${name} missing flipcards`,
+    );
+  }
+});

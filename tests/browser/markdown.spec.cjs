@@ -728,3 +728,69 @@ test('shows empty drop state and renders immediately when dropping a .md file', 
   await expect(page.locator('.visual-grid-card')).toHaveCount(2);
   await expect(page.locator('#lesson-status')).toContainText('dropped-lesson.md');
 });
+
+test('renders Mermaid diagrams with semantic colors, readable width, and zoom controls', async ({
+  page,
+}) => {
+  const errors = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+
+  await page.goto('/markdown/');
+  await expect(page.locator('#markdown-loading')).toBeHidden();
+
+  const md = [
+    '# Mermaid Test',
+    '',
+    '```mermaid',
+    'flowchart LR',
+    '  Q[SQS Queue] --> W[Worker]',
+    '  W --> D{Already Processed?}',
+    '  D -->|Yes| DEL[DeleteMessage]',
+    '  D -->|No| DLQ[Dead Letter Queue]',
+    '  DLQ --> X[Custom Node]',
+    '  style X fill:#123456,stroke:#654321',
+    '```',
+  ].join('\n');
+
+  await openMobileEditor(page, md);
+
+  const card = page.locator('.mermaid-card');
+  const svg = card.locator('.mermaid-scroll svg');
+  await expect(card).toBeVisible();
+  await expect(svg).toBeVisible();
+  await expect(page.locator('.lesson-error')).toHaveCount(0);
+
+  const initialWidth = await svg.evaluate((el) => el.getBoundingClientRect().width);
+  expect(initialWidth).toBeGreaterThan(400);
+
+  const colors = await svg.evaluate((el) => {
+    const fills = {};
+    el.querySelectorAll('g.node').forEach((node) => {
+      const shape = node.querySelector('rect, polygon');
+      const label = (node.textContent || '').trim();
+      if (shape) fills[label] = shape.style.fill;
+    });
+    return fills;
+  });
+  // Generic: diamond by shape, others by order, author `style` respected.
+  expect(colors['Already Processed?']).toMatch(/254,\s*243,\s*199|#fef3c7/i);
+  expect(colors['Custom Node']).toMatch(/18,\s*52,\s*86|#123456/i);
+  const generic = ['SQS Queue', 'Worker', 'DeleteMessage', 'Dead Letter Queue'].map(
+    (label) => colors[label],
+  );
+  expect(new Set(generic).size).toBeGreaterThan(2);
+
+  const zoomValue = card.locator('.mermaid-zoom-value');
+  await expect(zoomValue).toHaveText('100%');
+  await card.getByRole('button', { name: 'Phóng to sơ đồ' }).click();
+  await expect(zoomValue).toHaveText('120%');
+  const zoomedWidth = await svg.evaluate((el) => el.getBoundingClientRect().width);
+  expect(zoomedWidth).toBeGreaterThan(initialWidth);
+
+  await card.getByRole('button', { name: 'Thu nhỏ sơ đồ' }).click();
+  await expect(zoomValue).toHaveText('100%');
+  await card.getByRole('button', { name: 'Đặt lại kích thước 100%' }).click();
+  await expect(zoomValue).toHaveText('100%');
+
+  expect(errors).toEqual([]);
+});

@@ -177,7 +177,7 @@
           current.useCase = kv.value;
         } else if (kv.key === 'send' || kv.key === 'receive') {
           current[kv.key] = kv.value
-            .split(',')
+            .split(/[,→]|->/)
             .map((token) => token.trim())
             .filter(Boolean);
         } else {
@@ -406,8 +406,162 @@
     }
     return { type: 'visual_simulation', simulationType, title, params };
   }
+  const CALLOUT_TONES = new Set([
+    'info',
+    'tip',
+    'success',
+    'warning',
+    'pitfall',
+    'danger',
+    'error',
+  ]);
+  const SINGLE_BACKTICK_TAGS = new Set([...VISUAL_TYPES, 'quiz-deck', 'quiz', 'flipcard']);
+  function normalizeChatGptBlocks(rawLines) {
+    const out = [];
+    let fence = null;
+    for (let i = 0; i < rawLines.length; i++) {
+      const line = rawLines[i];
+      const marker = line.match(/^ {0,3}(`{3,}|~{3,})(.*)$/);
+      if (fence) {
+        out.push(line);
+        if (
+          marker &&
+          marker[1][0] === fence[0] &&
+          marker[1].length >= fence.length &&
+          !marker[2].trim()
+        ) {
+          fence = null;
+        }
+        continue;
+      }
+      if (marker) {
+        fence = marker[1];
+        out.push(line);
+        continue;
+      }
+      const tag = line.trim();
+      if (SINGLE_BACKTICK_TAGS.has(tag)) {
+        let j = i + 1;
+        while (j < rawLines.length && !rawLines[j].trim()) j++;
+        if (j < rawLines.length && /^`[^`]/.test(rawLines[j])) {
+          const inner = [];
+          let k = j;
+          let closed = false;
+          while (k < rawLines.length) {
+            let chunk = rawLines[k];
+            if (k === j) chunk = chunk.slice(1);
+            if (chunk.endsWith('`') && !chunk.endsWith('``')) {
+              inner.push(chunk.slice(0, -1));
+              closed = true;
+              break;
+            }
+            inner.push(chunk);
+            k++;
+          }
+          if (closed) {
+            out.push('```' + tag, ...inner, '```');
+            i = k;
+            continue;
+          }
+        }
+      }
+      out.push(line);
+    }
+    return out;
+  }
+  function detectBareBlockKind(bodyRows) {
+    const nonEmpty = bodyRows.map((r) => r.text.trim()).filter(Boolean);
+    if (!nonEmpty.length) return null;
+    if (nonEmpty.every((t) => /^[^|]+\|\s*(?:single_choice|word_order|typing)\s*\|/.test(t))) {
+      return 'quiz-deck';
+    }
+    const kvLines = nonEmpty.map((t) => (!t.includes('|') ? parseKeyValueLine(t) : null));
+    if (kvLines.every(Boolean) && kvLines.some((kv) => kv.key === 'type')) {
+      return 'visual-simulation';
+    }
+    if (kvLines[0]?.key === 'tone' && CALLOUT_TONES.has(kvLines[0].value.toLowerCase())) {
+      return 'visual-callout';
+    }
+    const sectionIndices = [];
+    nonEmpty.forEach((t, idx) => {
+      if (/^\[[^\]]+\]$/.test(t)) sectionIndices.push(idx);
+    });
+    if (sectionIndices.length >= 2) {
+      const afterFirst = nonEmpty
+        .slice(sectionIndices[0] + 1)
+        .filter((t) => !/^\[[^\]]+\]$/.test(t));
+      if (afterFirst.length && afterFirst.every((t) => Boolean(parseKeyValueLine(t)))) {
+        return 'visual-compare';
+      }
+      return 'visual-tabs';
+    }
+    const headers = [];
+    const pipeRows = [];
+    for (const t of nonEmpty) {
+      if (!t.includes('|') && pipeRows.length === 0) {
+        const kv = parseKeyValueLine(t);
+        if (kv) {
+          headers.push(kv);
+          continue;
+        }
+      }
+      if (t.includes('|')) {
+        pipeRows.push(t.split('|').map((p) => p.trim()));
+      } else {
+        pipeRows.push([t]);
+      }
+    }
+    if (headers.some((h) => h.key === 'direction' && /^(horizontal|vertical)$/i.test(h.value))) {
+      return 'visual-flow';
+    }
+    if (
+      nonEmpty.every((t) => /^(?:-\s+)?\[[ xX]\]\s+/.test(t)) ||
+      (headers.length &&
+        pipeRows.length &&
+        pipeRows.every((p) => p.length === 1 && /^(?:-\s+)?\[[ xX]\]\s+/.test(p[0])))
+    ) {
+      return 'visual-checklist';
+    }
+    if (pipeRows.length && pipeRows.every((p) => p.length === 4)) {
+      return 'visual-metrics';
+    }
+    if (
+      headers.some((h) => h.key === 'columns') &&
+      pipeRows.length &&
+      pipeRows.every((p) => p.length === 2 || p.length === 3)
+    ) {
+      return 'visual-grid';
+    }
+    if (
+      headers.some((h) => h.key === 'title') &&
+      pipeRows.length &&
+      pipeRows.every(
+        (p) => p.length === 3 && /^(?:\d+(?:s|ms|m|h)\b|(?:Bước|Step|Phase|T\+))/i.test(p[0]),
+      )
+    ) {
+      return 'visual-timeline';
+    }
+    if (
+      headers.some((h) => h.key === 'title') &&
+      pipeRows.length &&
+      pipeRows.every((p) => p.length === 2 || p.length === 3)
+    ) {
+      const hasEmoji = pipeRows.some((p) => /[^\x00-\x7F]/.test(p[0]) && p[0].length <= 6);
+      return hasEmoji ? 'visual-grid' : 'visual-decision';
+    }
+    if (
+      !headers.length &&
+      pipeRows.length &&
+      pipeRows.every((p) => p.length >= 2 && p.length <= 5 && p[0] && p[1])
+    ) {
+      return 'flipcard';
+    }
+    return null;
+  }
   function parse(source) {
-    const lines = source.normalize('NFC').replace(/\r\n?/g, '\n').split('\n');
+    const lines = normalizeChatGptBlocks(
+      source.normalize('NFC').replace(/\r\n?/g, '\n').split('\n'),
+    );
     const blocks = [],
       ids = new Set();
     let markdown = [],
@@ -437,6 +591,89 @@
         )
           fence = null;
         continue;
+      }
+      if (marker && !marker[2].trim()) {
+        let j = i + 1;
+        const body = [];
+        while (j < lines.length && !isFenceClose(lines[j], marker[1])) {
+          body.push({ text: lines[j], line: j + 1 });
+          j++;
+        }
+        const detected = j < lines.length ? detectBareBlockKind(body) : null;
+        if (detected) {
+          i = j;
+          if (VISUAL_TYPES.has(detected)) {
+            flush();
+            try {
+              blocks.push(parseVisualBlock(detected, body, body[0]?.line || i + 1));
+            } catch (error) {
+              blocks.push({ type: 'error', content: error.message });
+            }
+            continue;
+          }
+          if (detected === 'quiz-deck') {
+            flush();
+            for (const row of body) {
+              if (!row.text.trim()) continue;
+              try {
+                const parts = row.text
+                  .trim()
+                  .split(' | ')
+                  .map((field) => field.trim());
+                const [id, type, question] = parts;
+                if (parts.length < 7)
+                  throw new Error(
+                    `Dòng ${row.line}: cần id | single_choice | question | option 1 | option 2 | answer | explanation.`,
+                  );
+                const options = parts.slice(3, -2),
+                  answer = parts.at(-2),
+                  explanation = parts.at(-1);
+                appendQuiz(
+                  parseQuiz(
+                    [
+                      `id: ${id}`,
+                      `type: ${type}`,
+                      `question: ${question}`,
+                      'options:',
+                      ...options.map((option) => `- ${option}`),
+                      `answer: ${answer}`,
+                      `explanation: ${explanation}`,
+                    ],
+                    row.line,
+                  ),
+                  row.line,
+                );
+              } catch (error) {
+                blocks.push({ type: 'error', content: error.message });
+              }
+            }
+            continue;
+          }
+          if (detected === 'flipcard') {
+            flush();
+            const cards = [];
+            for (const row of body) {
+              if (!row.text.trim()) continue;
+              const parts = row.text
+                .trimEnd()
+                .split(/\s+\| ?/)
+                .map((part) => part.trim());
+              if (parts.length === 2) cards.push({ front: parts[0], back: parts[1] });
+              else
+                cards.push({
+                  front: parts[0],
+                  back: parts[1],
+                  example: parts[2],
+                  synonyms: parts[3] || '',
+                  ...(parts[4]?.replace(/^\(\s*|\s*\)$/g, '').trim()
+                    ? { partOfSpeech: parts[4].replace(/^\(\s*|\s*\)$/g, '').trim() }
+                    : {}),
+                });
+            }
+            if (cards.length) blocks.push({ type: 'flipcards', cards });
+            continue;
+          }
+        }
       }
       if (marker && VISUAL_TYPES.has(marker[2].trim())) {
         flush();

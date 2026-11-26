@@ -580,8 +580,12 @@ export function initializeMarkdown({
         output.append(renderVisualBlock(block, { inline }));
       else if (block.type === 'error') output.append(el('p', block.content, 'lesson-error'));
       else {
+        const cleaned = block.content.replace(
+          /^[^\n]*#chatgpt-mermaid-[^\n]*$/gm,
+          '> ⚠️ Sơ đồ Mermaid trong file gốc bị dính CSS do copy từ giao diện ChatGPT. Hãy copy lại bằng nút **Copy code** để hiển thị sơ đồ.',
+        );
         const section = el('section');
-        section.innerHTML = DOMPurify.sanitize(marked.parse(block.content), {
+        section.innerHTML = DOMPurify.sanitize(marked.parse(cleaned), {
           USE_PROFILES: { html: true },
           SANITIZE_NAMED_PROPS: true,
         });
@@ -617,14 +621,67 @@ export function initializeMarkdown({
         if (run === revision) setStatus(error.message);
       }
     }
+    const isDark = document.body.classList.contains('dark');
     if (mermaid)
       mermaid.initialize({
         startOnLoad: false,
         securityLevel: 'strict',
         suppressErrorRendering: true,
-        theme: document.body.classList.contains('dark') ? 'dark' : 'default',
+        theme: isDark ? 'dark' : 'base',
+        themeVariables: isDark
+          ? {
+              fontFamily:
+                'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+              fontSize: '15px',
+            }
+          : {
+              fontFamily:
+                'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+              fontSize: '15px',
+              primaryColor: '#dbeafe',
+              primaryTextColor: '#1e293b',
+              primaryBorderColor: '#2563eb',
+              secondaryColor: '#fef3c7',
+              secondaryTextColor: '#1e293b',
+              secondaryBorderColor: '#d97706',
+              tertiaryColor: '#dcfce7',
+              tertiaryTextColor: '#14532d',
+              tertiaryBorderColor: '#16a34a',
+              lineColor: '#475569',
+              edgeLabelBackground: '#fffef9',
+              clusterBkg: '#f8f6ef',
+              clusterBorder: '#94a3b8',
+              actorBkg: '#fef08a',
+              actorBorder: '#ca8a04',
+              actorTextColor: '#1e293b',
+              actorLineColor: '#64748b',
+              signalColor: '#334155',
+              signalTextColor: '#1e293b',
+              noteBkgColor: '#ede9fe',
+              noteBorderColor: '#7c3aed',
+              noteTextColor: '#1e293b',
+              activationBkgColor: '#dcfce7',
+              activationBorderColor: '#16a34a',
+            },
         htmlLabels: false,
-        flowchart: { htmlLabels: false },
+        flowchart: {
+          htmlLabels: false,
+          curve: 'basis',
+          padding: 16,
+          nodeSpacing: 44,
+          rankSpacing: 56,
+          useMaxWidth: false,
+        },
+        sequence: {
+          useMaxWidth: false,
+          actorMargin: 50,
+          messageMargin: 38,
+          boxMargin: 12,
+          mirrorActors: false,
+        },
+        state: {
+          useMaxWidth: false,
+        },
       });
     for (const code of output.querySelectorAll('pre > code.language-mermaid')) {
       if (run !== revision) return;
@@ -636,9 +693,40 @@ export function initializeMarkdown({
           code.textContent,
         );
         if (run !== revision) return;
-        const diagram = el('div');
-        diagram.innerHTML = DOMPurify.sanitize(result.svg);
-        pre.replaceWith(diagram);
+        const card = el('figure', undefined, 'mermaid-card');
+        const head = el('div', undefined, 'mermaid-card-head');
+        head.append(el('span', 'Sơ đồ', 'mermaid-card-badge'));
+        const tools = el('div', undefined, 'mermaid-card-tools');
+        const zoomOut = el('button', '−', 'mermaid-zoom-btn');
+        zoomOut.type = 'button';
+        zoomOut.setAttribute('aria-label', 'Thu nhỏ sơ đồ');
+        const zoomLabel = el('span', '100%', 'mermaid-zoom-value');
+        const zoomIn = el('button', '+', 'mermaid-zoom-btn');
+        zoomIn.type = 'button';
+        zoomIn.setAttribute('aria-label', 'Phóng to sơ đồ');
+        const zoomReset = el('button', '1:1', 'mermaid-zoom-btn');
+        zoomReset.type = 'button';
+        zoomReset.setAttribute('aria-label', 'Đặt lại kích thước 100%');
+        tools.append(zoomOut, zoomLabel, zoomIn, zoomReset);
+        head.append(tools);
+
+        const scroll = el('div', undefined, 'mermaid-scroll');
+        scroll.innerHTML = DOMPurify.sanitize(result.svg);
+        const svg = scroll.querySelector('svg');
+        if (svg) {
+          const baseWidth = enhanceMermaidSvg(svg, isDark);
+          let scale = 1;
+          const applyZoom = (nextScale) => {
+            scale = Math.min(1.6, Math.max(0.6, Math.round(nextScale * 10) / 10));
+            svg.style.width = `${Math.round(baseWidth * scale)}px`;
+            zoomLabel.textContent = `${Math.round(scale * 100)}%`;
+          };
+          zoomOut.addEventListener('click', () => applyZoom(scale - 0.2));
+          zoomIn.addEventListener('click', () => applyZoom(scale + 0.2));
+          zoomReset.addEventListener('click', () => applyZoom(1));
+        }
+        card.append(head, scroll);
+        pre.replaceWith(card);
       } catch {
         if (run !== revision) return;
         pre.before(
@@ -650,6 +738,95 @@ export function initializeMarkdown({
         );
       }
     }
+  }
+
+  function enhanceMermaidSvg(svg, isDark) {
+    const viewBox = (svg.getAttribute('viewBox') || '').trim().split(/\s+/);
+    const vbWidth = viewBox.length === 4 ? Number(viewBox[2]) : NaN;
+    const rawWidth =
+      Number.isFinite(vbWidth) && vbWidth > 0
+        ? vbWidth
+        : parseFloat(svg.getAttribute('width')) || 640;
+    const baseWidth = Math.max(320, rawWidth);
+    svg.style.maxWidth = 'none';
+    svg.style.width = `${Math.round(baseWidth)}px`;
+    svg.style.height = 'auto';
+
+    const PALETTE = {
+      amber: { fill: '#fef3c7', stroke: '#d97706', text: '#78350f' },
+      rose: { fill: '#ffe4e6', stroke: '#e11d48', text: '#881337' },
+      mint: { fill: '#dcfce7', stroke: '#16a34a', text: '#14532d' },
+      sky: { fill: '#dbeafe', stroke: '#2563eb', text: '#1e3a8a' },
+      violet: { fill: '#ede9fe', stroke: '#7c3aed', text: '#4c1d95' },
+      yellow: { fill: '#fef9c3', stroke: '#ca8a04', text: '#713f12' },
+    };
+    const CYCLE = [PALETTE.sky, PALETTE.mint, PALETTE.yellow, PALETTE.violet, PALETTE.rose];
+
+    // Generic, content-agnostic coloring: by node shape, then by order.
+    // Author styling (classDef / style / :::class) is always respected.
+    const BUILTIN_NODE_CLASSES = new Set([
+      'node',
+      'default',
+      'clickable',
+      'icon-shape',
+      'image-shape',
+    ]);
+    const hasAuthorStyle = (node) => {
+      if ([...node.classList].some((name) => !BUILTIN_NODE_CLASSES.has(name))) return true;
+      return [...node.querySelectorAll('rect, polygon, circle, ellipse, path')].some((shape) =>
+        /(fill|stroke)\s*:[^;]*!important/.test(shape.getAttribute('style') || ''),
+      );
+    };
+    const pickTone = (node, idx) => {
+      if (node.querySelector('polygon')) return PALETTE.amber;
+      if (node.querySelector('circle, ellipse')) return PALETTE.violet;
+      return CYCLE[idx % CYCLE.length];
+    };
+
+    let toneIndex = 0;
+    svg.querySelectorAll('g.node').forEach((node) => {
+      if (hasAuthorStyle(node)) return;
+      const tone = pickTone(node, toneIndex);
+      if (!node.querySelector('polygon, circle, ellipse')) toneIndex += 1;
+      node.querySelectorAll('rect, polygon, circle, ellipse, path.basic').forEach((shape) => {
+        shape.style.setProperty('fill', tone.fill, 'important');
+        if (/stroke\s*:\s*none/.test(shape.getAttribute('style') || '')) return;
+        shape.style.setProperty('stroke', tone.stroke, 'important');
+        shape.style.setProperty('stroke-width', '2px', 'important');
+        if (shape.tagName.toLowerCase() === 'rect') {
+          shape.setAttribute('rx', '10');
+          shape.setAttribute('ry', '10');
+        }
+      });
+      node.querySelectorAll('text, tspan').forEach((txt) => {
+        txt.style.setProperty('fill', tone.text, 'important');
+        txt.style.setProperty('font-weight', '600');
+      });
+    });
+
+    const ACTOR_TONES = [PALETTE.yellow, PALETTE.sky, PALETTE.mint, PALETTE.violet, PALETTE.rose];
+    const actorColorMap = new Map();
+    let actorIdx = 0;
+    svg.querySelectorAll('rect.actor').forEach((rect) => {
+      rect.setAttribute('rx', '8');
+      rect.setAttribute('ry', '8');
+      const key = rect.getAttribute('name') || rect.getAttribute('x') || String(actorIdx);
+      if (!actorColorMap.has(key)) {
+        actorColorMap.set(key, ACTOR_TONES[actorIdx % ACTOR_TONES.length]);
+        actorIdx += 1;
+      }
+      const tone = actorColorMap.get(key);
+      rect.style.setProperty('fill', tone.fill, 'important');
+      rect.style.setProperty('stroke', tone.stroke, 'important');
+      rect.style.setProperty('stroke-width', '2px', 'important');
+    });
+
+    svg.querySelectorAll('.edgeLabel text, .edgeLabel tspan').forEach((txt) => {
+      txt.style.setProperty('fill', isDark ? '#cbd5e1' : '#334155', 'important');
+      txt.style.setProperty('font-weight', '600');
+    });
+
+    return baseWidth;
   }
   let definitions = Object.create(null),
     diagramId = 0;
