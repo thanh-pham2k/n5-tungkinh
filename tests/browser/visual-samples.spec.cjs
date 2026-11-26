@@ -110,7 +110,7 @@ test('thanhpv sees Base Prompt tab in sidebar/menu, opens /base-prompt/, copies,
 
     await expect(page).toHaveURL(/\/base-prompt/);
     await expect(page.getByRole('heading', { name: /Base Prompt/ })).toBeVisible();
-    await expect(page.locator('.visual-prompt-item')).toHaveCount(1);
+    await expect(page.locator('.visual-prompt-item')).toHaveCount(2);
 
     const pre = page.locator('.visual-prompt-pre').first();
     await expect(pre).toBeHidden();
@@ -122,12 +122,12 @@ test('thanhpv sees Base Prompt tab in sidebar/menu, opens /base-prompt/, copies,
     await expect(pre).toBeVisible();
     await expect(pre).toContainText('Problem-driven Mini Textbook');
 
-    await page.getByRole('button', { name: 'Copy', exact: true }).click();
+    await page.getByRole('button', { name: 'Copy', exact: true }).first().click();
     const copiedText = await page.evaluate(() => navigator.clipboard.readText());
     expect(copiedText).toContain('Problem-driven Mini Textbook');
     expect(copiedText).toContain('visual-grid');
 
-    await page.getByRole('button', { name: 'Chỉnh sửa', exact: true }).click();
+    await page.getByRole('button', { name: 'Chỉnh sửa', exact: true }).first().click();
     await page.getByLabel('Tiêu đề', { exact: true }).fill('AWS SAA — Updated Title');
     await page.getByRole('button', { name: 'Cập nhật lên Turso', exact: true }).click();
     await expect(page.locator('.visual-prompt-title').first()).toHaveText(
@@ -144,14 +144,14 @@ test('thanhpv sees Base Prompt tab in sidebar/menu, opens /base-prompt/, copies,
     await page.getByLabel('Mô tả ngắn', { exact: true }).fill('Prompt luyện viết');
     await page.getByLabel('Nội dung prompt', { exact: true }).fill('Viết bài mẫu band 8.0.');
     await page.getByRole('button', { name: 'Lưu lên Turso', exact: true }).click();
-    await expect(page.locator('.visual-prompt-item')).toHaveCount(2);
+    await expect(page.locator('.visual-prompt-item')).toHaveCount(3);
     await page.reload();
-    await expect(page.locator('.visual-prompt-item')).toHaveCount(2);
+    await expect(page.locator('.visual-prompt-item')).toHaveCount(3);
 
     await page.locator('.visual-prompt-trigger').first().click();
-    await page.getByRole('button', { name: 'Xóa', exact: true }).click();
-    await page.getByRole('button', { name: 'Xác nhận xóa', exact: true }).click();
-    await expect(page.locator('.visual-prompt-item')).toHaveCount(1);
+    await page.getByRole('button', { name: 'Xóa', exact: true }).first().click();
+    await page.getByRole('button', { name: 'Xác nhận xóa', exact: true }).first().click();
+    await expect(page.locator('.visual-prompt-item')).toHaveCount(2);
 
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(
       true,

@@ -632,12 +632,12 @@ export function initializeMarkdown({
           ? {
               fontFamily:
                 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-              fontSize: '15px',
+              fontSize: '14px',
             }
           : {
               fontFamily:
                 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-              fontSize: '15px',
+              fontSize: '14px',
               primaryColor: '#e6f2ff',
               primaryTextColor: '#1d4f91',
               primaryBorderColor: '#cfe3f8',
@@ -667,9 +667,9 @@ export function initializeMarkdown({
         flowchart: {
           htmlLabels: false,
           curve: 'rounded',
-          padding: 24,
-          nodeSpacing: 50,
-          rankSpacing: 64,
+          padding: 12,
+          nodeSpacing: 32,
+          rankSpacing: 38,
           useMaxWidth: false,
         },
         sequence: {
@@ -743,11 +743,17 @@ export function initializeMarkdown({
   function enhanceMermaidSvg(svg, isDark) {
     const viewBox = (svg.getAttribute('viewBox') || '').trim().split(/\s+/);
     const vbWidth = viewBox.length === 4 ? Number(viewBox[2]) : NaN;
+    const vbHeight = viewBox.length === 4 ? Number(viewBox[3]) : NaN;
     const rawWidth =
       Number.isFinite(vbWidth) && vbWidth > 0
         ? vbWidth
         : parseFloat(svg.getAttribute('width')) || 640;
-    const baseWidth = Math.max(320, rawWidth);
+    const rawHeight = Number.isFinite(vbHeight) && vbHeight > 0 ? vbHeight : 0;
+    let baseWidth = Math.max(180, rawWidth);
+    if (rawHeight > 380) {
+      const fitScale = Math.max(0.72, 380 / rawHeight);
+      baseWidth = Math.round(baseWidth * fitScale);
+    }
     svg.style.maxWidth = 'none';
     svg.style.width = `${Math.round(baseWidth)}px`;
     svg.style.height = 'auto';

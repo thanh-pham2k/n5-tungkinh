@@ -166,11 +166,9 @@ function makeSimSlider(labelText, { min, max, step, value, unit = '' }) {
   return { field, input, valSpan, unit };
 }
 
-function createHeader(title, badgeText) {
+function createHeader(title) {
   const header = el('div', undefined, 'visual-block-header');
   if (title) header.append(el('h3', title, 'visual-block-title'));
-  else header.append(el('span', '', 'visual-block-spacer'));
-  header.append(el('span', badgeText, 'visual-block-badge'));
   return header;
 }
 
@@ -292,10 +290,10 @@ function renderVisualCompare(block, inline) {
       });
     });
     header.append(replayBtn);
-  } else {
-    header.append(el('span', 'visual-compare', 'visual-block-badge'));
   }
-  section.append(header);
+  if (block.title || hasSequences) {
+    section.append(header);
+  }
 
   const grid = el('div', undefined, 'visual-compare-grid');
   for (const item of block.sections) {
@@ -309,9 +307,6 @@ function renderVisualCompare(block, inline) {
     }
     titleGroup.append(el('h4', item.name, 'visual-compare-name'));
     cardHead.append(titleGroup);
-    if (item.badge) {
-      cardHead.append(el('span', item.badge, 'visual-block-badge'));
-    }
     card.append(cardHead);
 
     if (item.description) {
