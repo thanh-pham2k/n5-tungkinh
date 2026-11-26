@@ -1605,12 +1605,3 @@ body.dark .visual-tab-btn.is-active {
   display: block;
   margin: 0 auto;
 }
-.mermaid-scroll svg g.node rect,
-.mermaid-scroll svg g.node polygon,
-.mermaid-scroll svg rect.actor {
-  filter: drop-shadow(2px 2px 0 rgba(37, 37, 31, 0.12));
-}
-.mermaid-scroll svg .edgePath .path,
-.mermaid-scroll svg .flowchart-link {
-  stroke-width: 1.8px;
-}

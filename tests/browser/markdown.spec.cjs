@@ -729,7 +729,7 @@ test('shows empty drop state and renders immediately when dropping a .md file', 
   await expect(page.locator('#lesson-status')).toContainText('dropped-lesson.md');
 });
 
-test('renders Mermaid diagrams with semantic colors, readable width, and zoom controls', async ({
+test('renders Mermaid diagrams in the soft default style, readable width, and zoom controls', async ({
   page,
 }) => {
   const errors = [];
@@ -772,13 +772,11 @@ test('renders Mermaid diagrams with semantic colors, readable width, and zoom co
     });
     return fills;
   });
-  // Generic: diamond by shape, others by order, author `style` respected.
-  expect(colors['Already Processed?']).toMatch(/254,\s*243,\s*199|#fef3c7/i);
+  // Default soft-blue style; choice node lighter; author `style` respected.
+  expect(colors['SQS Queue']).toMatch(/230,\s*242,\s*255|#e6f2ff/i);
+  expect(colors['Worker']).toBe(colors['SQS Queue']);
+  expect(colors['Already Processed?']).toMatch(/245,\s*250,\s*255|#f5faff/i);
   expect(colors['Custom Node']).toMatch(/18,\s*52,\s*86|#123456/i);
-  const generic = ['SQS Queue', 'Worker', 'DeleteMessage', 'Dead Letter Queue'].map(
-    (label) => colors[label],
-  );
-  expect(new Set(generic).size).toBeGreaterThan(2);
 
   const zoomValue = card.locator('.mermaid-zoom-value');
   await expect(zoomValue).toHaveText('100%');

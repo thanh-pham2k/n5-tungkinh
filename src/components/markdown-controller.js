@@ -638,16 +638,16 @@ export function initializeMarkdown({
               fontFamily:
                 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
               fontSize: '15px',
-              primaryColor: '#dbeafe',
-              primaryTextColor: '#1e293b',
-              primaryBorderColor: '#2563eb',
+              primaryColor: '#e6f2ff',
+              primaryTextColor: '#1d4f91',
+              primaryBorderColor: '#cfe3f8',
               secondaryColor: '#fef3c7',
               secondaryTextColor: '#1e293b',
               secondaryBorderColor: '#d97706',
               tertiaryColor: '#dcfce7',
               tertiaryTextColor: '#14532d',
               tertiaryBorderColor: '#16a34a',
-              lineColor: '#475569',
+              lineColor: '#8b95a3',
               edgeLabelBackground: '#fffef9',
               clusterBkg: '#f8f6ef',
               clusterBorder: '#94a3b8',
@@ -666,10 +666,10 @@ export function initializeMarkdown({
         htmlLabels: false,
         flowchart: {
           htmlLabels: false,
-          curve: 'basis',
-          padding: 16,
-          nodeSpacing: 44,
-          rankSpacing: 56,
+          curve: 'rounded',
+          padding: 24,
+          nodeSpacing: 50,
+          rankSpacing: 64,
           useMaxWidth: false,
         },
         sequence: {
@@ -752,18 +752,14 @@ export function initializeMarkdown({
     svg.style.width = `${Math.round(baseWidth)}px`;
     svg.style.height = 'auto';
 
-    const PALETTE = {
-      amber: { fill: '#fef3c7', stroke: '#d97706', text: '#78350f' },
-      rose: { fill: '#ffe4e6', stroke: '#e11d48', text: '#881337' },
-      mint: { fill: '#dcfce7', stroke: '#16a34a', text: '#14532d' },
-      sky: { fill: '#dbeafe', stroke: '#2563eb', text: '#1e3a8a' },
-      violet: { fill: '#ede9fe', stroke: '#7c3aed', text: '#4c1d95' },
-      yellow: { fill: '#fef9c3', stroke: '#ca8a04', text: '#713f12' },
-    };
-    const CYCLE = [PALETTE.sky, PALETTE.mint, PALETTE.yellow, PALETTE.violet, PALETTE.rose];
-
-    // Generic, content-agnostic coloring: by node shape, then by order.
-    // Author styling (classDef / style / :::class) is always respected.
+    // Default look: soft blue rounded nodes, faint borders, bold blue text,
+    // thin gray edges and pill-shaped edge labels. Author styling is respected.
+    const TONE = isDark
+      ? { fill: '#1e3a5f', stroke: '#3b6ea8', text: '#dbeafe', edge: '#94a3b8', pill: '#0f1f33' }
+      : { fill: '#e6f2ff', stroke: '#cfe3f8', text: '#1d4f91', edge: '#8b95a3', pill: '#ffffff' };
+    const CHOICE = isDark
+      ? { fill: '#16304f', stroke: '#5b8fc9', text: '#dbeafe' }
+      : { fill: '#f5faff', stroke: '#9cc4ee', text: '#1d4f91' };
     const BUILTIN_NODE_CLASSES = new Set([
       'node',
       'default',
@@ -777,26 +773,24 @@ export function initializeMarkdown({
         /(fill|stroke)\s*:[^;]*!important/.test(shape.getAttribute('style') || ''),
       );
     };
-    const pickTone = (node, idx) => {
-      if (node.querySelector('polygon')) return PALETTE.amber;
-      if (node.querySelector('circle, ellipse')) return PALETTE.violet;
-      return CYCLE[idx % CYCLE.length];
+    const paint = (shape, tone, dashed) => {
+      shape.style.setProperty('fill', tone.fill, 'important');
+      if (/stroke\s*:\s*none/.test(shape.getAttribute('style') || '')) return;
+      shape.style.setProperty('stroke', tone.stroke, 'important');
+      shape.style.setProperty('stroke-width', '1.5px', 'important');
+      if (dashed) shape.style.setProperty('stroke-dasharray', '4 3', 'important');
+      if (shape.tagName.toLowerCase() === 'rect') {
+        shape.setAttribute('rx', '16');
+        shape.setAttribute('ry', '16');
+      }
     };
 
-    let toneIndex = 0;
     svg.querySelectorAll('g.node').forEach((node) => {
       if (hasAuthorStyle(node)) return;
-      const tone = pickTone(node, toneIndex);
-      if (!node.querySelector('polygon, circle, ellipse')) toneIndex += 1;
+      const isChoice = Boolean(node.querySelector('polygon'));
+      const tone = isChoice ? CHOICE : TONE;
       node.querySelectorAll('rect, polygon, circle, ellipse, path.basic').forEach((shape) => {
-        shape.style.setProperty('fill', tone.fill, 'important');
-        if (/stroke\s*:\s*none/.test(shape.getAttribute('style') || '')) return;
-        shape.style.setProperty('stroke', tone.stroke, 'important');
-        shape.style.setProperty('stroke-width', '2px', 'important');
-        if (shape.tagName.toLowerCase() === 'rect') {
-          shape.setAttribute('rx', '10');
-          shape.setAttribute('ry', '10');
-        }
+        paint(shape, tone, isChoice);
       });
       node.querySelectorAll('text, tspan').forEach((txt) => {
         txt.style.setProperty('fill', tone.text, 'important');
@@ -804,26 +798,34 @@ export function initializeMarkdown({
       });
     });
 
-    const ACTOR_TONES = [PALETTE.yellow, PALETTE.sky, PALETTE.mint, PALETTE.violet, PALETTE.rose];
-    const actorColorMap = new Map();
-    let actorIdx = 0;
     svg.querySelectorAll('rect.actor').forEach((rect) => {
-      rect.setAttribute('rx', '8');
-      rect.setAttribute('ry', '8');
-      const key = rect.getAttribute('name') || rect.getAttribute('x') || String(actorIdx);
-      if (!actorColorMap.has(key)) {
-        actorColorMap.set(key, ACTOR_TONES[actorIdx % ACTOR_TONES.length]);
-        actorIdx += 1;
-      }
-      const tone = actorColorMap.get(key);
-      rect.style.setProperty('fill', tone.fill, 'important');
-      rect.style.setProperty('stroke', tone.stroke, 'important');
-      rect.style.setProperty('stroke-width', '2px', 'important');
+      paint(rect, TONE, false);
+    });
+    svg.querySelectorAll('text.actor > tspan, text.actor').forEach((txt) => {
+      txt.style.setProperty('fill', TONE.text, 'important');
+      txt.style.setProperty('font-weight', '600');
     });
 
-    svg.querySelectorAll('.edgeLabel text, .edgeLabel tspan').forEach((txt) => {
-      txt.style.setProperty('fill', isDark ? '#cbd5e1' : '#334155', 'important');
-      txt.style.setProperty('font-weight', '600');
+    svg
+      .querySelectorAll('.edgePath .path, .flowchart-link, .messageLine0, .messageLine1')
+      .forEach((line) => {
+        line.style.setProperty('stroke', TONE.edge, 'important');
+        line.style.setProperty('stroke-width', '1.3px', 'important');
+      });
+    svg.querySelectorAll('.edgeLabel').forEach((label) => {
+      label.querySelectorAll('rect').forEach((rect) => {
+        const height = Number(rect.getAttribute('height')) || 24;
+        rect.style.setProperty('fill', TONE.pill, 'important');
+        rect.style.setProperty('stroke', TONE.stroke, 'important');
+        rect.style.setProperty('stroke-width', '1.2px', 'important');
+        rect.style.setProperty('opacity', '1', 'important');
+        rect.setAttribute('rx', String(height / 2));
+        rect.setAttribute('ry', String(height / 2));
+      });
+      label.querySelectorAll('text, tspan').forEach((txt) => {
+        txt.style.setProperty('fill', TONE.text, 'important');
+        txt.style.setProperty('font-weight', '600');
+      });
     });
 
     return baseWidth;
