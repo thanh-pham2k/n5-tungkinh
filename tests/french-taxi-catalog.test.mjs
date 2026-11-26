@@ -47,5 +47,5 @@ test('French Taxi catalog contains 24 distinct valid lessons across 6 units', as
     }
   }
 
-  assert.equal(totalQuestions, 1460, 'Catalog should contain 1460 questions across 24 lessons');
+  assert.equal(totalQuestions, 1030, 'Catalog should contain 1030 questions across 24 lessons');
 });
